@@ -1,0 +1,14 @@
+Physics symbols
+===============
+
+Symbols represent physical quantities, units, mathematical operations and relationships.
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  symplyphysics.symbols.basic
+  symplyphysics.symbols.kinematic
+  symplyphysics.symbols.thermodynamics
+  symplyphysics.symbols.dynamics

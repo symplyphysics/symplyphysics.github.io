@@ -1,0 +1,22 @@
+Physics constants
+=================
+
+Contains useful physical constants. Fundamental constants can be also found in `sympy.physics.units`_ module.
+
+.. _sympy.physics.units: https://github.com/sympy/sympy/blob/b6376e085a047b8bada988ff57fbb79a62546842/sympy/physics/units/definitions/unit_definitions.py#L245
+
+.. autodata:: symplyphysics.quantities.standard_conditions_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.quantities.standard_laboratory_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.quantities.electron_rest_mass
+  :no-value:
+
+.. autodata:: symplyphysics.quantities.bohr_radius
+  :no-value:
+
+.. autodata:: symplyphysics.quantities.hydrogen_ionization_energy
+  :no-value:
+

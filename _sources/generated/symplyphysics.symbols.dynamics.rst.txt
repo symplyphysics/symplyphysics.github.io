@@ -1,0 +1,10 @@
+Dynamics
+========
+
+Contains properties for 'dynamics' branch of physics.
+
+Dynamics is subdivision of mechanics that is concerned with the motion of material objects in relation to the physical factors that affect them.
+
+.. autodata:: symplyphysics.symbols.dynamics.force
+  :no-value:
+
