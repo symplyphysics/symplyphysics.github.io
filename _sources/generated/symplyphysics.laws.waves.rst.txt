@@ -1,0 +1,13 @@
+Waves
+=====
+
+A *wave* is a propagating dynamic disturbance (change from equilibrium) of one or more quantities.
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  symplyphysics.laws.waves.vector
+  symplyphysics.laws.waves.blackbody_radiation
+  symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change
