@@ -14,7 +14,7 @@
     <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Definitions" href="symplyphysics.definitions.html" />
+    <link rel="next" title="Dynamics" href="symplyphysics.laws.dynamics.html" />
     <link rel="prev" title="Waves (Vector)" href="symplyphysics.laws.waves.vector.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
@@ -37,25 +37,25 @@
 <h1>Light frequency change is proportional to gravitational potential change<a class="headerlink" href="#light-frequency-change-is-proportional-to-gravitational-potential-change" title="Link to this heading">¶</a></h1>
 <p>When light is propagating in a gravitational field, its frequency changes proportionally to the
 change in the potential of the gravitational field.</p>
-<p>Let us consider an infinitesimally small section <span class="math notranslate nohighlight">\(d \vec r\)</span> of the light’s path, such that
+<p>Let us consider an infinitesimally small section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span> of the light’s path, such that
 the frequency of light is constant within that section. In that case we can obtain a dependency
 between the change in light’s frequency and the change in the gravitational potential.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency_change">
 <span class="sig-name descname"><span class="pre">frequency_change</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency_change" title="Link to this definition">¶</a></dt>
-<dd><p>The infinitesimal change in frequency after passing an infinitesimal section <span class="math notranslate nohighlight">\(d \vec r\)</span>.</p>
+<dd><p>The infinitesimal change in frequency after passing an infinitesimal section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span>.</p>
 <p class="rubric">Symbol</p>
-<p>frequency_change</p>
+<p>df</p>
 <p class="rubric">Latex</p>
-<p><span class="math notranslate nohighlight">\(d \nu\)</span></p>
+<p><span class="math notranslate nohighlight">\(\Delta \nu\)</span></p>
 </dd></dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency">
 <span class="sig-name descname"><span class="pre">frequency</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency" title="Link to this definition">¶</a></dt>
-<dd><p>The frequency of light within an infinitesimal section <span class="math notranslate nohighlight">\(d \vec r\)</span>.</p>
+<dd><p>The frequency of light within an infinitesimal section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span>.</p>
 <p class="rubric">Symbol</p>
-<p>frequency</p>
+<p>f</p>
 <p class="rubric">Latex</p>
 <p><span class="math notranslate nohighlight">\(\nu\)</span></p>
 </dd></dl>
@@ -63,24 +63,24 @@ between the change in light’s frequency and the change in the gravitational po
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.gravitational_potential_change">
 <span class="sig-name descname"><span class="pre">gravitational_potential_change</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.gravitational_potential_change" title="Link to this definition">¶</a></dt>
-<dd><p>The infinitesimal change in gravitational potential after passing an infinitesimal section <span class="math notranslate nohighlight">\(d \vec r\)</span>.</p>
+<dd><p>The infinitesimal change in gravitational potential after passing an infinitesimal section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span>.</p>
 <p>The <em>gravitational potential</em> <span class="math notranslate nohighlight">\(\varphi\)</span> is defined as a scalar quantity such that the equation
 <span class="math notranslate nohighlight">\(\vec g = - \nabla \varphi\)</span> is hold where <span class="math notranslate nohighlight">\(\vec g\)</span> is the vector of acceleration due to gravity
 and <span class="math notranslate nohighlight">\(\nabla\)</span> is the nabla operator.</p>
-<p>Note that <span class="math notranslate nohighlight">\(d \varphi = - \left( \vec g, d \vec r \right)\)</span> where <span class="math notranslate nohighlight">\(\left( \vec a_1, \vec a_2 \right)\)</span> is
+<p>Note that <span class="math notranslate nohighlight">\(\Delta \varphi = - \left( \vec g, \Delta \vec r \right)\)</span> where <span class="math notranslate nohighlight">\(\left( \vec a_1, \vec a_2 \right)\)</span> is
 the dot product between <span class="math notranslate nohighlight">\(\vec a_1\)</span> and <span class="math notranslate nohighlight">\(\vec a_2\)</span>.</p>
 <p class="rubric">Symbol</p>
-<p>gravitational_potential_change</p>
+<p>dPhi</p>
 <p class="rubric">Latex</p>
-<p><span class="math notranslate nohighlight">\(d \varphi\)</span></p>
+<p><span class="math notranslate nohighlight">\(\Delta \varphi\)</span></p>
 </dd></dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.law" title="Link to this definition">¶</a></dt>
-<dd><p>frequency_change / frequency = -1 * gravitational_potential_change / speed_of_light^2</p>
+<dd><p>df / f = -1 * dPhi / c^2</p>
 <p class="rubric">Latex</p>
-<p><span class="math notranslate nohighlight">\(\frac{d \nu}{\nu} = - \frac{d \varphi}{c^2}\)</span></p>
+<p><span class="math notranslate nohighlight">\(\frac{\Delta \nu}{\nu} = - \frac{\Delta \varphi}{c^2}\)</span></p>
 </dd></dl>
 
 </section>
@@ -119,6 +119,7 @@ the dot product between <span class="math notranslate nohighlight">\(\vec a_1\)<
 </li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="symplyphysics.laws.dynamics.html">Dynamics</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="symplyphysics.definitions.html">Definitions</a></li>
@@ -133,7 +134,7 @@ the dot product between <span class="math notranslate nohighlight">\(\vec a_1\)<
   <li><a href="symplyphysics.laws.html">Laws</a><ul>
   <li><a href="symplyphysics.laws.waves.html">Waves</a><ul>
       <li>Previous: <a href="symplyphysics.laws.waves.vector.html" title="previous chapter">Waves (Vector)</a></li>
-      <li>Next: <a href="symplyphysics.definitions.html" title="next chapter">Definitions</a></li>
+      <li>Next: <a href="symplyphysics.laws.dynamics.html" title="next chapter">Dynamics</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
