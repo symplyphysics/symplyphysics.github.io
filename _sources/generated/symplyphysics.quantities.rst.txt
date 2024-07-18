@@ -1,5 +1,5 @@
-Physics constants
-=================
+Physical constants
+==================
 
 Contains useful physical constants. Fundamental constants can be also found in `sympy.physics.units`_ module.
 
@@ -18,5 +18,8 @@ Contains useful physical constants. Fundamental constants can be also found in `
   :no-value:
 
 .. autodata:: symplyphysics.quantities.hydrogen_ionization_energy
+  :no-value:
+
+.. autodata:: symplyphysics.quantities.solar_mass
   :no-value:
 
