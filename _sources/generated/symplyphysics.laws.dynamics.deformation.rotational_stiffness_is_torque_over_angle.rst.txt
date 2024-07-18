@@ -1,0 +1,17 @@
+Rotational stiffness is torque_applied over angle
+-------------------------------------------------
+
+*Rotational stiffness* is the extent to which an object resists rotational deformation.
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.rotational_stiffness
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.torque_applied
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.rotation_angle
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.law
+  :no-value:
+
