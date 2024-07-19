@@ -10,5 +10,6 @@ Contents:
   :maxdepth: 4
 
   symplyphysics.laws.gravity.vector
+  symplyphysics.laws.gravity.radial_motion
   symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass
   symplyphysics.laws.gravity.semiminor_axis_of_elliptical_orbit_via_orbit_parameters
