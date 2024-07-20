@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Light frequency change is proportional to gravitational potential change &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
+    <script src="../_static/documentation_options.js?v=8d563738"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Dynamics" href="laws.dynamics.html" />
+    <link rel="prev" title="Waves (Vector)" href="laws.waves.vector.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="light-frequency-change-is-proportional-to-gravitational-potential-change">
+<h1>Light frequency change is proportional to gravitational potential change<a class="headerlink" href="#light-frequency-change-is-proportional-to-gravitational-potential-change" title="Link to this heading">¶</a></h1>
+<p>When light is propagating in a gravitational field, its frequency changes proportionally to the
+change in the potential of the gravitational field.</p>
+<p>Let us consider an infinitesimally small section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span> of the light’s path, such that
+the frequency of light is constant within that section. In that case we can obtain a dependency
+between the change in light’s frequency and the change in the gravitational potential.</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency_change">
+<span class="sig-name descname"><span class="pre">frequency_change</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency_change" title="Link to this definition">¶</a></dt>
+<dd><p>The infinitesimal change in frequency after passing an infinitesimal section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span>.</p>
+<p class="rubric">Symbol</p>
+<p>df</p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\Delta \nu\)</span></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency">
+<span class="sig-name descname"><span class="pre">frequency</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency" title="Link to this definition">¶</a></dt>
+<dd><p>The frequency of light within an infinitesimal section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span>.</p>
+<p class="rubric">Symbol</p>
+<p>f</p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\nu\)</span></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.gravitational_potential_change">
+<span class="sig-name descname"><span class="pre">gravitational_potential_change</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.gravitational_potential_change" title="Link to this definition">¶</a></dt>
+<dd><p>The infinitesimal change in gravitational potential after passing an infinitesimal section <span class="math notranslate nohighlight">\(\Delta \vec r\)</span>.</p>
+<p>The <em>gravitational potential</em> <span class="math notranslate nohighlight">\(\varphi\)</span> is defined as a scalar quantity such that the equation
+<span class="math notranslate nohighlight">\(\vec g = - \nabla \varphi\)</span> is hold where <span class="math notranslate nohighlight">\(\vec g\)</span> is the vector of acceleration due to gravity
+and <span class="math notranslate nohighlight">\(\nabla\)</span> is the nabla operator.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><span class="math notranslate nohighlight">\(\Delta \varphi = - \left( \vec g, \Delta \vec r \right)\)</span> where <span class="math notranslate nohighlight">\(\left( \vec a_1, \vec a_2 \right)\)</span> is
+the dot product between <span class="math notranslate nohighlight">\(\vec a_1\)</span> and <span class="math notranslate nohighlight">\(\vec a_2\)</span>.</p>
+</div>
+<p class="rubric">Symbol</p>
+<p>dPhi</p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\Delta \varphi\)</span></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.law" title="Link to this definition">¶</a></dt>
+<dd><p>df / f = -1 * dPhi / c^2</p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\frac{\Delta \nu}{\nu} = - \frac{\Delta \varphi}{c^2}\)</span></p>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.waves.html">Waves</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.vector.html">Waves (Vector)</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Light frequency change is proportional to gravitational potential change</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency_change"><code class="docutils literal notranslate"><span class="pre">frequency_change</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.frequency"><code class="docutils literal notranslate"><span class="pre">frequency</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.gravitational_potential_change"><code class="docutils literal notranslate"><span class="pre">gravitational_potential_change</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physics symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.waves.html">Waves</a><ul>
+      <li>Previous: <a href="laws.waves.vector.html" title="previous chapter">Waves (Vector)</a></li>
+      <li>Next: <a href="laws.dynamics.html" title="next chapter">Dynamics</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      
+      |
+      <a href="../_sources/symplyphysics/laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

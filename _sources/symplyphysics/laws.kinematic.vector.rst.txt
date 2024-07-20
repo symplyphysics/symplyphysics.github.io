@@ -1,0 +1,11 @@
+Kinematic (vector)
+==================
+
+Vector subset of kinematic laws.
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.kinematic.vector.centrifugal_acceleration_via_centripetal_acceleration

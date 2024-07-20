@@ -1,0 +1,11 @@
+Dynamics (Deformation)
+======================
+
+In physics and continuum mechanics, deformation is the change in the shape or size of an object.
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle
