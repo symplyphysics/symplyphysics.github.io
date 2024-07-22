@@ -9,5 +9,6 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
+  laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy
   laws.gravity.radial_motion.potential_energy_of_planetary_motion
   laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy

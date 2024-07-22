@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Total energy is negative average kinetic energy &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Average potential energy via average kinetic energy &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
     <script src="../_static/documentation_options.js?v=8d563738"></script>
@@ -14,8 +14,8 @@
     <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Kepler’s constant via attracting body mass" href="laws.gravity.keplers_constant_via_attracting_body_mass.html" />
-    <link rel="prev" title="Potential energy of radial planetary motion" href="laws.gravity.radial_motion.potential_energy_of_planetary_motion.html" />
+    <link rel="next" title="Potential energy of radial planetary motion" href="laws.gravity.radial_motion.potential_energy_of_planetary_motion.html" />
+    <link rel="prev" title="Radial motion" href="laws.gravity.radial_motion.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -33,28 +33,31 @@
 
           <div class="body" role="main">
             
-  <section id="total-energy-is-negative-average-kinetic-energy">
-<h1>Total energy is negative average kinetic energy<a class="headerlink" href="#total-energy-is-negative-average-kinetic-energy" title="Link to this heading">¶</a></h1>
-<p>The total energy of an orbiting planet is equal to its negative kinetic energy averaged over time.</p>
+  <section id="average-potential-energy-via-average-kinetic-energy">
+<h1>Average potential energy via average kinetic energy<a class="headerlink" href="#average-potential-energy-via-average-kinetic-energy" title="Link to this heading">¶</a></h1>
+<p>The average potential energy of an orbiting planet is directly proportional to its average
+kinetic energy. The average of both energies is taken w.r.t. time.</p>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
-<li><p>Works for elliptical (<span class="math notranslate nohighlight">\(E &lt; 0\)</span>) orbits.</p></li>
+<li><p>Works for elliptical orbits, i.e. the total energy <span class="math notranslate nohighlight">\(E\)</span> of the planet is negative.</p></li>
 </ol>
 <p><strong>Notes:</strong></p>
 <ol class="arabic simple">
 <li><p><code class="code docutils literal notranslate"><span class="pre">&lt;A&gt;</span></code> denotes the average of the quantity <code class="code docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.total_energy">
-<span class="sig-name descname"><span class="pre">total_energy</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.total_energy" title="Link to this definition">¶</a></dt>
-<dd><p>The total energy of the planet.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.average_potential_energy">
+<span class="sig-name descname"><span class="pre">average_potential_energy</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.average_potential_energy" title="Link to this definition">¶</a></dt>
+<dd><p>The potential energy of the planet averaged over time.</p>
 <p class="rubric">Symbol</p>
-<p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<p><code class="code docutils literal notranslate"><span class="pre">&lt;U&gt;</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\langle U \rangle\)</span></p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.average_kinetic_energy">
-<span class="sig-name descname"><span class="pre">average_kinetic_energy</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.average_kinetic_energy" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.average_kinetic_energy">
+<span class="sig-name descname"><span class="pre">average_kinetic_energy</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.average_kinetic_energy" title="Link to this definition">¶</a></dt>
 <dd><p>The kinetic energy of the planet averaged over time.</p>
 <p class="rubric">Symbol</p>
 <p><code class="code docutils literal notranslate"><span class="pre">&lt;K&gt;</span></code></p>
@@ -63,12 +66,12 @@
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">&lt;K&gt;</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">&lt;U&gt;</span> <span class="pre">=</span> <span class="pre">-2</span> <span class="pre">*</span> <span class="pre">&lt;K&gt;</span></code></p>
 <p class="rubric">Latex</p>
 <div class="math notranslate nohighlight">
-\[E = - \langle K \rangle\]</div>
+\[\langle U \rangle = -2 \langle K \rangle\]</div>
 </dd></dl>
 
 </section>
@@ -95,9 +98,9 @@
 <li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.gravity.html">Gravity</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="laws.gravity.radial_motion.html">Radial motion</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.html">Average potential energy via average kinetic energy</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Average potential energy via average kinetic energy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.potential_energy_of_planetary_motion.html">Potential energy of radial planetary motion</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Total energy is negative average kinetic energy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.html">Total energy is negative average kinetic energy</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.keplers_constant_via_attracting_body_mass.html">Kepler’s constant via attracting body mass</a></li>
@@ -122,8 +125,8 @@
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.gravity.html">Gravity</a><ul>
   <li><a href="laws.gravity.radial_motion.html">Radial motion</a><ul>
-      <li>Previous: <a href="laws.gravity.radial_motion.potential_energy_of_planetary_motion.html" title="previous chapter">Potential energy of radial planetary motion</a></li>
-      <li>Next: <a href="laws.gravity.keplers_constant_via_attracting_body_mass.html" title="next chapter">Kepler’s constant via attracting body mass</a></li>
+      <li>Previous: <a href="laws.gravity.radial_motion.html" title="previous chapter">Radial motion</a></li>
+      <li>Next: <a href="laws.gravity.radial_motion.potential_energy_of_planetary_motion.html" title="next chapter">Potential energy of radial planetary motion</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -160,7 +163,7 @@
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../_sources/symplyphysics/laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.rst.txt"
+      <a href="../_sources/symplyphysics/laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
