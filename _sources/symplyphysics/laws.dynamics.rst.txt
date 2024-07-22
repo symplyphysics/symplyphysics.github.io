@@ -35,6 +35,7 @@ Contents:
   laws.dynamics.potential_energy_from_deformation
   laws.dynamics.instantaneous_power_is_force_times_velocity
   laws.dynamics.resonant_oscillations
+  laws.dynamics.reduced_mass_of_two_body_system
   laws.dynamics.mechanical_work_from_force_and_move
   laws.dynamics.period_of_spring_from_mass
   laws.dynamics.kinetic_energy_via_momentum
