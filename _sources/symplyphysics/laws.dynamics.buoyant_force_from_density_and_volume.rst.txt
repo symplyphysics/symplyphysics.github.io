@@ -1,0 +1,19 @@
+Buoyant force from density and volume
+-------------------------------------
+
+Any object, totally or partially immersed in a fluid (i.e. liquid or gas), is buoyed up by a force equal to the
+weight of the fluid displaced by the object. Also known as the Archimedes principle. The *buoyant force*
+vector is directed opposite to the gravity vector.
+
+.. autodata:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume.force_buoyant
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume.fluid_density
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume.displaced_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume.law
+  :no-value:
+

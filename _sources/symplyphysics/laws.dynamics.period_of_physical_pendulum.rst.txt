@@ -1,0 +1,22 @@
+Period of physical pendulum
+---------------------------
+
+A *physical pendulum* is a pendulum with an arbitrary distribution of mass that
+oscillates about a given pivot point. The period of its oscillations depends on its rotational inertia, 
+mass and the distance between the pivot and the center of mass of the pendulum.
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_physical_pendulum.pendulum_mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_physical_pendulum.oscillation_period
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_physical_pendulum.rotational_inertia
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_physical_pendulum.distance_to_pivot
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_physical_pendulum.law
+  :no-value:
+

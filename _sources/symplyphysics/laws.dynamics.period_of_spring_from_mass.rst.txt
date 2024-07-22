@@ -1,0 +1,24 @@
+Period of spring from mass
+--------------------------
+
+Mass on spring is a system of object with mass :math:`m` and spring with elasticity :math:`k`.
+It starts oscillating after being pushed out of balance.
+
+**Conditions:**
+
+#. The spring does not gain or lose energy. There is no friction or inelastic deformation.
+#. The object is small enough to be considered a material point.
+#. The spring is weightless.
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_spring_from_mass.oscillation_period
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_spring_from_mass.mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_spring_from_mass.spring_elasticity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.period_of_spring_from_mass.law
+  :no-value:
+

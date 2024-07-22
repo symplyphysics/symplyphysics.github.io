@@ -1,0 +1,21 @@
+Potential energy from deformation
+---------------------------------
+
+Spring accumulates energy while being deformated. This law is known as the *Hooke's law*.
+
+**Conditions:**
+
+#. The deformation is elastic (reversible).
+
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.spring_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.elastic_koefficient
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.deformation
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.law
+  :no-value:
+

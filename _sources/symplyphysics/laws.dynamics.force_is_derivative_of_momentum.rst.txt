@@ -1,0 +1,22 @@
+Force is derivative of momentum
+-------------------------------
+
+Newton's second law of motion can be generalized in terms of linear momentum. Precisely,
+the net force exerted on a body is equal to the time derivative of the body's momentum.
+
+**Notes:**
+
+#. Works in relativistic mechanics as well as in classical mechanics.
+
+.. autodata:: symplyphysics.laws.dynamics.force_is_derivative_of_momentum.momentum
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.force_is_derivative_of_momentum.force
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.force_is_derivative_of_momentum.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.force_is_derivative_of_momentum.law
+  :no-value:
+

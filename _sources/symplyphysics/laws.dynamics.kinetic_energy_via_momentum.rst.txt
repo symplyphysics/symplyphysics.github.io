@@ -1,0 +1,21 @@
+Kinetic energy via momentum
+---------------------------
+
+Kinetic energy can be expressed as a function of momentum and mass.
+
+**Notes:**
+
+#. This relation also holds in Quantum Mechanics.
+
+.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_via_momentum.kinetic_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_via_momentum.momentum
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_via_momentum.mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_via_momentum.law
+  :no-value:
+

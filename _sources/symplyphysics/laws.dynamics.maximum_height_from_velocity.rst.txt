@@ -1,0 +1,14 @@
+Maximum height from velocity
+----------------------------
+
+The maximum height that a body thrown vertically will rise to depends on the initial velocity.
+
+.. autodata:: symplyphysics.laws.dynamics.maximum_height_from_velocity.maximum_height
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.maximum_height_from_velocity.initial_velocity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.maximum_height_from_velocity.law
+  :no-value:
+

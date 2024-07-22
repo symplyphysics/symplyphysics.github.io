@@ -1,0 +1,19 @@
+Mechanical work during rotation
+-------------------------------
+
+When a torque accelerates a rigid body in rotation about a fixed axis, the torque does work on
+the body. When the torque is constant, the work done on the body is proportional to torque
+and the angular displacement during the movement of the body.
+
+.. autodata:: symplyphysics.laws.dynamics.mechanical_work_during_rotation.work
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.mechanical_work_during_rotation.torque
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.mechanical_work_during_rotation.angular_displacement
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.mechanical_work_during_rotation.law
+  :no-value:
+

@@ -1,0 +1,22 @@
+Braking path
+------------
+
+Let an arbitrary object move along the surface at an arbitrary speed. The friction force acts on the
+object from the surface. Then the *braking path* will depend on the mass of the object, its speed
+and friction force.
+
+.. autodata:: symplyphysics.laws.dynamics.braking_path.braking_path
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.braking_path.velocity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.braking_path.friction_force
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.braking_path.mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.braking_path.law
+  :no-value:
+

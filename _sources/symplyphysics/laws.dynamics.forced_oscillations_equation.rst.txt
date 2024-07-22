@@ -1,0 +1,35 @@
+Forced oscillations equation
+----------------------------
+
+*Forced, or driven, oscillations* are a type of oscillations in the precence of an external driving
+force acting on the oscillating system. In the case of an oscillating external force, two angular
+frequencies are associated with such a system: (1) the natural angular frequency of the system,
+which is the angular frequency the system would oscillate with if no external force were present,
+and (2) the angular frequency of the external force driving the oscillations. Such systems can
+undergo resonance if the angular frequency of the driving force is close to the natural angular
+frequency of the oscillator.
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.displacement
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.oscillator_mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.natural_angular_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.driving_force_amplitude
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.driving_angular_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.driving_phase_lag
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_oscillations_equation.law
+  :no-value:
+

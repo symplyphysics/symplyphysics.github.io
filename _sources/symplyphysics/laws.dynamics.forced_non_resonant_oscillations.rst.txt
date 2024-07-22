@@ -1,0 +1,44 @@
+Forced non-resonant oscillations
+--------------------------------
+
+*Forced, or driven, oscillations* are a type of oscillations in the presence of an external driving
+force acting on the oscillating system. In the case of an oscillating external force, two angular
+frequencies are associated with such a system: (1) the natural angular frequency of the system,
+which is the angular frequency the system would oscillate with if no external force were present,
+and (2) the angular frequency of the external force driving the oscillations.
+
+**Conditions:**
+
+#. Angular frequency of the external force is strictly not equal to the natural angular frequency of the oscillator.
+#. No damping is present in the system.
+
+**Notes:**
+
+#. The external driving force has the form of :math:`f(t) = f_m \cos{\left( \omega t + \varphi \right)}`.
+#. The complete expression of the displacement function can be found as the sum of the solution of 
+   simple harmonic motion equation and the particular solution presented here.
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driven_displacement
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.oscillator_mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.natural_angular_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_force_amplitude
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_angular_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_phase_lag
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.law
+  :no-value:
+
