@@ -1,0 +1,25 @@
+Radial kinetic energy plus potential energy is constant
+-------------------------------------------------------
+
+The total energy of the planet is composed of its radial kinetic energy and potential
+energy. Note that the sign of the total energy determines the type of the planet's orbit:
+
+#. If :math:`E < 0`, the orbit is elliptical.
+#. If :math:`E = 0`, the orbit is parabolical.
+#. If :math:`E > 0`, the orbit is hyperbolical.
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.planetary_mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.radial_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.potential_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.total_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.law
+  :no-value:
+

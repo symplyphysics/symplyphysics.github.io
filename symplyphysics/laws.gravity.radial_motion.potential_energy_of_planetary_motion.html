@@ -15,7 +15,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Total energy is negative average kinetic energy" href="laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.html" />
-    <link rel="prev" title="Semiminor axis of elliptical orbit via orbit parameters" href="laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html" />
+    <link rel="prev" title="Radial kinetic energy plus potential energy is constant" href="laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -44,7 +44,9 @@ planet’s angular momentum.</p>
 <span class="sig-name descname"><span class="pre">planetary_potential_energy</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion.planetary_potential_energy" title="Link to this definition">¶</a></dt>
 <dd><p>The total potential energy of the planet.</p>
 <p class="rubric">Symbol</p>
-<p>V</p>
+<p><code class="code docutils literal notranslate"><span class="pre">U_tot</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(U_\text{tot}\)</span></p>
 </dd></dl>
 
 <dl class="py data">
@@ -52,7 +54,9 @@ planet’s angular momentum.</p>
 <span class="sig-name descname"><span class="pre">gravitational_potential_energy</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion.gravitational_potential_energy" title="Link to this definition">¶</a></dt>
 <dd><p>The potential energy of the planet due to the gravitational interaction of the planet and the star.</p>
 <p class="rubric">Symbol</p>
-<p>U</p>
+<p><code class="code docutils literal notranslate"><span class="pre">U_gr</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(U_\text{gr}\)</span></p>
 </dd></dl>
 
 <dl class="py data">
@@ -60,7 +64,7 @@ planet’s angular momentum.</p>
 <span class="sig-name descname"><span class="pre">planetary_angular_momentum</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion.planetary_angular_momentum" title="Link to this definition">¶</a></dt>
 <dd><p>The angular momentum of the planet.</p>
 <p class="rubric">Symbol</p>
-<p>L</p>
+<p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
 </dd></dl>
 
 <dl class="py data">
@@ -68,7 +72,7 @@ planet’s angular momentum.</p>
 <span class="sig-name descname"><span class="pre">planetary_mass</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion.planetary_mass" title="Link to this definition">¶</a></dt>
 <dd><p>The <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the planet.</p>
 <p class="rubric">Symbol</p>
-<p>m</p>
+<p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
 </dd></dl>
 
 <dl class="py data">
@@ -76,15 +80,16 @@ planet’s angular momentum.</p>
 <span class="sig-name descname"><span class="pre">planetary_distance</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion.planetary_distance" title="Link to this definition">¶</a></dt>
 <dd><p>The distance between the star and the planet.</p>
 <p class="rubric">Symbol</p>
-<p>r</p>
+<p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
 </dd></dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion.law" title="Link to this definition">¶</a></dt>
-<dd><p>V = U + L^2 / (2 * m * r^2)</p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">U_tot</span> <span class="pre">=</span> <span class="pre">U_gr</span> <span class="pre">+</span> <span class="pre">L^2</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">m</span> <span class="pre">*</span> <span class="pre">r^2)</span></code></p>
 <p class="rubric">Latex</p>
-<p><span class="math notranslate nohighlight">\(V = U + \frac{L^2}{2 m r^2}\)</span></p>
+<div class="math notranslate nohighlight">
+\[U_\text{tot} = U_\text{gr} + \frac{L^2}{2 m r^2}\]</div>
 </dd></dl>
 
 </section>
@@ -113,6 +118,7 @@ planet’s angular momentum.</p>
 <li class="toctree-l3 current"><a class="reference internal" href="laws.gravity.radial_motion.html">Radial motion</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy.html">Average potential energy via average kinetic energy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html">Semiminor axis of elliptical orbit via orbit parameters</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.html">Radial kinetic energy plus potential energy is constant</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">Potential energy of radial planetary motion</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.html">Total energy is negative average kinetic energy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.html">Semimajor axis via Kepler’s constant and total energy</a></li>
@@ -139,7 +145,7 @@ planet’s angular momentum.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.gravity.html">Gravity</a><ul>
   <li><a href="laws.gravity.radial_motion.html">Radial motion</a><ul>
-      <li>Previous: <a href="laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html" title="previous chapter">Semiminor axis of elliptical orbit via orbit parameters</a></li>
+      <li>Previous: <a href="laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.html" title="previous chapter">Radial kinetic energy plus potential energy is constant</a></li>
       <li>Next: <a href="laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.html" title="next chapter">Total energy is negative average kinetic energy</a></li>
   </ul></li>
   </ul></li>
