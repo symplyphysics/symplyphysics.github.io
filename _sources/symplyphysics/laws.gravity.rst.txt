@@ -12,3 +12,4 @@ Contents:
   laws.gravity.vector
   laws.gravity.radial_motion
   laws.gravity.keplers_constant_via_attracting_body_mass
+  laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis

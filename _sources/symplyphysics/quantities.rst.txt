@@ -23,3 +23,6 @@ Contains useful physical constants. Fundamental constants can be also found in `
 .. autodata:: symplyphysics.quantities.solar_mass
   :no-value:
 
+.. autodata:: symplyphysics.quantities.earth_mass
+  :no-value:
+
