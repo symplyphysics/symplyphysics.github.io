@@ -1,0 +1,21 @@
+Semiminor axis of elliptical orbit via orbit parameters
+-------------------------------------------------------
+
+The minor semiaxis can be found as a function of the sector speed of the planet,
+the major semiaxis of its orbit, and the mass of body that attracts it, such as the Sun.
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.semiminor_axis
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.sector_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.semimajor_axis
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.attracting_body_mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.law
+  :no-value:
+

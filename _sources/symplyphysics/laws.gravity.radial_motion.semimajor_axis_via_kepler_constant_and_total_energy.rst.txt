@@ -1,0 +1,23 @@
+Semimajor axis via Kepler's constant and total energy
+-----------------------------------------------------
+
+The semi-major axis of an orbiting planet depends on the Kepler's constant of
+the star---planet system and the total energy of the planet per unit of its mass.
+
+**Notes:**
+
+#. Works for both elliptical (:math:`\varepsilon < 0`) and hyperbolical
+   (:math:`\varepsilon > 0`) orbits.
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.semimajor_axis
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.kepler_constant
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.total_energy_per_unit_mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.law
+  :no-value:
+

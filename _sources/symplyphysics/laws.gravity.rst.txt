@@ -12,4 +12,3 @@ Contents:
   laws.gravity.vector
   laws.gravity.radial_motion
   laws.gravity.keplers_constant_via_attracting_body_mass
-  laws.gravity.semiminor_axis_of_elliptical_orbit_via_orbit_parameters
