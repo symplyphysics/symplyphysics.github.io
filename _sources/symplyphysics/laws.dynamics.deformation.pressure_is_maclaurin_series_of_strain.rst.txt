@@ -1,0 +1,39 @@
+Pressure is Maclaurin series of strain
+--------------------------------------
+
+A statement more general than the Hooke's law is that pressure in a body can be expressed
+as a *power series* (Maclaurin series, to be exact) of (engineering normal) *strain* with the
+free coefficient being zero, since pressure disappears with the disappearance of strain.
+The coefficients of the expansion only depend on the material of the deformed body and on
+its physical state.
+
+**Notation:**
+
+#. :math:`O(f(x))` is the mathematical *Big O*. In this law the limit :math:`e \to 0` is
+   assumed.
+
+**Conditions:**
+
+#. The deformations are elastic.
+#. The deformations are small, i.e. :math:`e << 1`.
+#. This law features the expansion up to the third power of strain, higher terms can be added
+   if needed.
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.young_modulus
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.second_coefficient
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.third_coefficient
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.strain
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.law
+  :no-value:
+

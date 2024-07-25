@@ -8,6 +8,6 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
+  laws.kinematic.rotational_inertia
   laws.kinematic.vector
   laws.kinematic.damped_oscillations
-  laws.kinematic.rotational_inertia
