@@ -1,0 +1,23 @@
+Superposition of small deformations
+-----------------------------------
+
+If the deformations are small, the elastic properties of bodies stay the same under deformations.
+If several forces act on a body, its total deformation can be computed from the deformations of
+the individual forces, however these deformations must be small.
+
+**Conditions:**
+
+#. The deformations are small.
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.superposition_of_small_deformations.total_strain
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.superposition_of_small_deformations.first_strain
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.superposition_of_small_deformations.second_strain
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.superposition_of_small_deformations.law
+  :no-value:
+
