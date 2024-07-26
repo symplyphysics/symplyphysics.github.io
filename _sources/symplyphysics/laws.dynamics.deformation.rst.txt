@@ -8,6 +8,7 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
+  laws.dynamics.deformation.elastic_energy_density_of_bulk_compression_via_pressure
   laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle
   laws.dynamics.deformation.engineering_normal_strain_is_total_deformation_over_initial_dimension
   laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain
