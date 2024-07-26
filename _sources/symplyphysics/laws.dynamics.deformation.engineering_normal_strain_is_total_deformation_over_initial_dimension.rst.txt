@@ -1,0 +1,18 @@
+Engineering normal strain is total deformation over initial dimension
+---------------------------------------------------------------------
+
+*Engineering normal strain*, also called *Cauchy strain*, is expressed as the ratio of total
+deformation to the initial dimension of a material body on which forces are applied.
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.engineering_normal_strain_is_total_deformation_over_initial_dimension.engineering_normal_strain
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.engineering_normal_strain_is_total_deformation_over_initial_dimension.total_deformation
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.engineering_normal_strain_is_total_deformation_over_initial_dimension.initial_dimension
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.engineering_normal_strain_is_total_deformation_over_initial_dimension.law
+  :no-value:
+
