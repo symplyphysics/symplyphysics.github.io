@@ -10,4 +10,5 @@ Contents:
 
   laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle
   laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain
+  laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio
   laws.dynamics.deformation.superposition_of_small_deformations

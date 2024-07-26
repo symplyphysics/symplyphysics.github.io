@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Pressure is Maclaurin series of strain &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Poisson ratio is transverse to axial strain ratio &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
     <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
     <script src="../_static/documentation_options.js?v=8d563738"></script>
@@ -14,8 +14,8 @@
     <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Poisson ratio is transverse to axial strain ratio" href="laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.html" />
-    <link rel="prev" title="Rotational stiffness is torque applied over angle" href="laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.html" />
+    <link rel="next" title="Superposition of small deformations" href="laws.dynamics.deformation.superposition_of_small_deformations.html" />
+    <link rel="prev" title="Pressure is Maclaurin series of strain" href="laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -33,72 +33,54 @@
 
           <div class="body" role="main">
             
-  <section id="pressure-is-maclaurin-series-of-strain">
-<h1>Pressure is Maclaurin series of strain<a class="headerlink" href="#pressure-is-maclaurin-series-of-strain" title="Link to this heading">¶</a></h1>
-<p>A statement more general than the Hooke’s law is that pressure in a body can be expressed
-as a <em>power series</em> (Maclaurin series, to be exact) of (engineering normal) <em>strain</em> with the
-free coefficient being zero, since pressure disappears with the disappearance of strain.
-The coefficients of the expansion only depend on the material of the deformed body and on
-its physical state.</p>
-<p><strong>Notation:</strong></p>
+  <section id="poisson-ratio-is-transverse-to-axial-strain-ratio">
+<h1>Poisson ratio is transverse to axial strain ratio<a class="headerlink" href="#poisson-ratio-is-transverse-to-axial-strain-ratio" title="Link to this heading">¶</a></h1>
+<p>Poisson ratio is a physical quantity equal to the ratio of transverse strain
+to axial (or longitudinal) strain in the direction of a deforming force.</p>
+<p><strong>Notes:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(O(f(x))\)</span> is the mathematical <em>Big O</em>. In this law the limit <span class="math notranslate nohighlight">\(e \to 0\)</span> is
-assumed.</p></li>
-</ol>
-<p><strong>Conditions:</strong></p>
-<ol class="arabic simple">
-<li><p>The deformations are elastic.</p></li>
-<li><p>The deformations are small, i.e. <span class="math notranslate nohighlight">\(e &lt;&lt; 1\)</span>.</p></li>
-<li><p>This law features the expansion up to the third power of strain, higher terms can be added
-if needed.</p></li>
+<li><p>The sign convention is as follows: positive strain indicates extension and
+negative strain indicates contraction.</p></li>
+<li><p>The Poisson ratio and the Young modulus are all that is needed to completely
+describe elastic properties of an isotropic material.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.pressure">
-<span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure (or tension) in the deformed body.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.poisson_ratio">
+<span class="sig-name descname"><span class="pre">poisson_ratio</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.poisson_ratio" title="Link to this definition">¶</a></dt>
+<dd><p>Poisson ratio of the material of the deformed body.</p>
 <p class="rubric">Symbol</p>
-<p><code class="code docutils literal notranslate"><span class="pre">P</span></code></p>
+<p><code class="code docutils literal notranslate"><span class="pre">nu</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\nu\)</span></p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.young_modulus">
-<span class="sig-name descname"><span class="pre">young_modulus</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.young_modulus" title="Link to this definition">¶</a></dt>
-<dd><p>Young’s modulus of the body’s material.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.transverse_strain">
+<span class="sig-name descname"><span class="pre">transverse_strain</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.transverse_strain" title="Link to this definition">¶</a></dt>
+<dd><p>Strain in the transverse (lateral) direction relative to the deforming force.</p>
 <p class="rubric">Symbol</p>
-<p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<p><code class="code docutils literal notranslate"><span class="pre">e_transverse</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(e_\text{transverse}\)</span></p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.second_coefficient">
-<span class="sig-name descname"><span class="pre">second_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.second_coefficient" title="Link to this definition">¶</a></dt>
-<dd><p>Coefficient at the second power of strain in the expansion.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.axial_strain">
+<span class="sig-name descname"><span class="pre">axial_strain</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.axial_strain" title="Link to this definition">¶</a></dt>
+<dd><p>Strain in the axial direction, i.e. parallel to the deforming force.</p>
 <p class="rubric">Symbol</p>
-<p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
+<p><code class="code docutils literal notranslate"><span class="pre">e_axial</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(e_\text{axial}\)</span></p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.third_coefficient">
-<span class="sig-name descname"><span class="pre">third_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.third_coefficient" title="Link to this definition">¶</a></dt>
-<dd><p>Coefficient at the third power of strain in the expansion.</p>
-<p class="rubric">Symbol</p>
-<p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.strain">
-<span class="sig-name descname"><span class="pre">strain</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.strain" title="Link to this definition">¶</a></dt>
-<dd><p>Strain, or engineering normal strain to be exact, of the body.</p>
-<p class="rubric">Symbol</p>
-<p><code class="code docutils literal notranslate"><span class="pre">e</span></code></p>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">E</span> <span class="pre">*</span> <span class="pre">e</span> <span class="pre">+</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">e^2</span> <span class="pre">+</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">e^3</span> <span class="pre">+</span> <span class="pre">O(e^4)</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">nu</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">e_transverse</span> <span class="pre">/</span> <span class="pre">e_axial</span></code></p>
 <p class="rubric">Latex</p>
 <div class="math notranslate nohighlight">
-\[P = E e + A e^2 + B e^3 + O(e^4)\]</div>
+\[\nu = - \frac{e_\text{transverse}}{e_\text{axial}}\]</div>
 </dd></dl>
 
 </section>
@@ -127,8 +109,8 @@ if needed.</p></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.dynamics.html">Dynamics</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="laws.dynamics.deformation.html">Dynamics (Deformation)</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.html">Rotational stiffness is torque applied over angle</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Pressure is Maclaurin series of strain</a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.html">Poisson ratio is transverse to axial strain ratio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.html">Pressure is Maclaurin series of strain</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Poisson ratio is transverse to axial strain ratio</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.dynamics.deformation.superposition_of_small_deformations.html">Superposition of small deformations</a></li>
 </ul>
 </li>
@@ -181,8 +163,8 @@ if needed.</p></li>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.dynamics.html">Dynamics</a><ul>
   <li><a href="laws.dynamics.deformation.html">Dynamics (Deformation)</a><ul>
-      <li>Previous: <a href="laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.html" title="previous chapter">Rotational stiffness is torque applied over angle</a></li>
-      <li>Next: <a href="laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.html" title="next chapter">Poisson ratio is transverse to axial strain ratio</a></li>
+      <li>Previous: <a href="laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.html" title="previous chapter">Pressure is Maclaurin series of strain</a></li>
+      <li>Next: <a href="laws.dynamics.deformation.superposition_of_small_deformations.html" title="next chapter">Superposition of small deformations</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -219,7 +201,7 @@ if needed.</p></li>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
       
       |
-      <a href="../_sources/symplyphysics/laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain.rst.txt"
+      <a href="../_sources/symplyphysics/laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
