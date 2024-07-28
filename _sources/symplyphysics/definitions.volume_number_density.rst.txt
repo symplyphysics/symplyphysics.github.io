@@ -1,0 +1,17 @@
+Volume number density
+---------------------
+
+*Volume number density*, or *concentration*, is the number of particles per unit volume.
+
+.. autodata:: symplyphysics.definitions.volume_number_density.number_density
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.volume_number_density.objects
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.volume_number_density.volume
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.volume_number_density.definition
+  :no-value:
+

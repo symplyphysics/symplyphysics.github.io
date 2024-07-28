@@ -1,0 +1,27 @@
+Linear coefficient of thermal expansion
+---------------------------------------
+
+The coefficient of thermal expansion describes how the size of an object changes with a change in temperature
+at constant pressure.
+
+**Notation:**
+
+#. :math:`\left( \frac{\partial}{\partial T} \right)_p` is the derivative w.r.t. temperature 
+   at constant pressure.
+
+**Conditions:**
+
+#. Pressure must be constant during the expansion process.
+
+.. autodata:: symplyphysics.definitions.linear_coefficient_of_thermal_expansion.linear_expansion_coefficient
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.linear_coefficient_of_thermal_expansion.length
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.linear_coefficient_of_thermal_expansion.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.linear_coefficient_of_thermal_expansion.definition
+  :no-value:
+

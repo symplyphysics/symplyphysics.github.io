@@ -1,0 +1,18 @@
+Superposition of forces is sum
+------------------------------
+
+The net force is the arithmetic sum of forces.
+
+**Conditions:**
+
+#. All force vectors are collinear to each other.
+
+.. autodata:: symplyphysics.definitions.superposition_of_forces_is_sum.resultant_force
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.superposition_of_forces_is_sum.force
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.superposition_of_forces_is_sum.definition
+  :no-value:
+

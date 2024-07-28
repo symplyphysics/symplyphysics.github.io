@@ -1,0 +1,23 @@
+Moment of inertia is mass times squared radius
+----------------------------------------------
+
+Moment of inertia, or rotational inertia, is a physical quantity that describes a body's ability to
+be inertial during rotation. It is a rotational analog of :attr:`~symplyphysics.symbols.basic.mass` in
+linear motion.
+
+**Conditions:**
+
+#. The object is a material point, rigid and uniform.
+
+.. autodata:: symplyphysics.definitions.moment_of_inertia_is_mass_times_squared_radius.moment_of_inertia
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.moment_of_inertia_is_mass_times_squared_radius.mass
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.moment_of_inertia_is_mass_times_squared_radius.spinning_radius
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.moment_of_inertia_is_mass_times_squared_radius.definition
+  :no-value:
+

@@ -1,0 +1,18 @@
+Power is energy derivative
+--------------------------
+
+Power is the amount of energy transferred or converted per unit time. Equally, it is the
+rate at which work is done.
+
+.. autodata:: symplyphysics.definitions.power_is_energy_derivative.power
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.power_is_energy_derivative.energy
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.power_is_energy_derivative.time
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.power_is_energy_derivative.definition
+  :no-value:
+

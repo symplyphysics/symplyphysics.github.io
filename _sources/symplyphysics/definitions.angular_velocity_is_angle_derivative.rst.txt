@@ -1,0 +1,17 @@
+Angular velocity is angle derivative
+------------------------------------
+
+*Angular velocity* is a physical quantity that describes the change in angular displacement over time.
+
+.. autodata:: symplyphysics.definitions.angular_velocity_is_angle_derivative.angular_velocity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.angular_velocity_is_angle_derivative.angle_function
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.angular_velocity_is_angle_derivative.time
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.angular_velocity_is_angle_derivative.definition
+  :no-value:
+

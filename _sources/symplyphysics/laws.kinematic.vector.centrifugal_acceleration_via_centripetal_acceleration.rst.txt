@@ -1,8 +1,8 @@
 Centrifugal acceleration via centripetal acceleration
 -----------------------------------------------------
 
-The vector of centrifugal acceleration has the same magnitude as the vector of centripetal
-acceleration but is directed oppositely to it.
+The vector of *centrifugal acceleration* has the same magnitude as the vector of *centripetal
+acceleration* but is directed oppositely to it.
 
 .. autofunction:: symplyphysics.laws.kinematic.vector.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_law
 

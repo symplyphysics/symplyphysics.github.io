@@ -1,0 +1,14 @@
+Angular wavenumber is inverse wavelength
+----------------------------------------
+
+*Angular wavenumber* is the spatial frequency of a wave, measured in radians per unit distance.
+
+.. autodata:: symplyphysics.definitions.angular_wavenumber_is_inverse_wavelength.angular_wavenumber
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.angular_wavenumber_is_inverse_wavelength.wavelength
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.angular_wavenumber_is_inverse_wavelength.definition
+  :no-value:
+

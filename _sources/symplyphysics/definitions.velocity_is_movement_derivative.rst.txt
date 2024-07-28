@@ -1,0 +1,17 @@
+Velocity is derivative of position
+----------------------------------
+
+Velocity is a physical quantity that describes the rate of change in the body's position.
+
+.. autodata:: symplyphysics.definitions.velocity_is_movement_derivative.velocity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.velocity_is_movement_derivative.movement
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.velocity_is_movement_derivative.moving_time
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.velocity_is_movement_derivative.definition
+  :no-value:
+

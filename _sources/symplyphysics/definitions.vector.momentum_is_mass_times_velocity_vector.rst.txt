@@ -1,0 +1,12 @@
+Momentum is mass times velocity (Vector)
+----------------------------------------
+
+An object's *linear momentum* is a vector quantity defined as the product of its mass and velocity vector.
+
+.. autodata:: symplyphysics.definitions.vector.momentum_is_mass_times_velocity_vector.mass
+  :no-value:
+
+.. autofunction:: symplyphysics.definitions.vector.momentum_is_mass_times_velocity_vector.momentum_definition
+
+.. autofunction:: symplyphysics.definitions.vector.momentum_is_mass_times_velocity_vector.velocity_law
+

@@ -1,0 +1,18 @@
+Linear charge density from charge and length
+--------------------------------------------
+
+*Linear charge density* is the quantity of charge per unit length, at any point on a line charge distribution.
+See :doc:`laws.quantities.quantity_is_linear_density_times_length` for a general version of this law.
+
+.. autodata:: symplyphysics.definitions.linear_charge_density_from_charge_and_length.linear_charge_density
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.linear_charge_density_from_charge_and_length.charge
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.linear_charge_density_from_charge_and_length.length
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.linear_charge_density_from_charge_and_length.definition
+  :no-value:
+

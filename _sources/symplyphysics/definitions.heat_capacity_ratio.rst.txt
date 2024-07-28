@@ -1,0 +1,25 @@
+Heat capacity ratio
+-------------------
+
+The *heat capacity ratio*, also known as the *adiabatic index*, the *ratio of specific heats*, or
+the *insentropic expansion factor*, is the ratio of the heat capacity at constant pressure
+to that of constant volume. The heat capacity ratio is used in the description of thermodynamic
+reversible processes; the speed of sound also depends on this factor.
+
+**Notes:**
+
+#. One can also use intensive heat capacities, such as specific or molar ones, in place of the 
+   extensive heat capacity presented here.
+
+.. autodata:: symplyphysics.definitions.heat_capacity_ratio.heat_capacity_ratio
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.heat_capacity_ratio.isobaric_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.heat_capacity_ratio.isochoric_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.heat_capacity_ratio.definition
+  :no-value:
+

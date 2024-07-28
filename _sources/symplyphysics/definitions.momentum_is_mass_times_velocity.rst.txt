@@ -1,0 +1,17 @@
+Momentum is mass times velocity
+-------------------------------
+
+Momentum is a physical quantity equal to the product of the object's velocity and its mass.
+
+.. autodata:: symplyphysics.definitions.momentum_is_mass_times_velocity.momentum
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.momentum_is_mass_times_velocity.velocity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.momentum_is_mass_times_velocity.mass
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.momentum_is_mass_times_velocity.definition
+  :no-value:
+

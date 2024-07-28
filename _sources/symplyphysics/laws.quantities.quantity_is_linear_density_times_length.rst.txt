@@ -1,8 +1,8 @@
 Extensive quantity is linear density times length
 -------------------------------------------------
 
-An extensive quantity of interest can be obtained by multiplying the corresponding linear
-density by length.
+An extensive quantity of interest can be obtained by multiplying the corresponding *linear
+density* by length.
 
 .. autodata:: symplyphysics.laws.quantities.quantity_is_linear_density_times_length.extensive_quantity
   :no-value:

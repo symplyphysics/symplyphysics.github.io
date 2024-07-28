@@ -34,8 +34,8 @@
 <span class="sd">Centrifugal acceleration via centripetal acceleration</span>
 <span class="sd">=====================================================</span>
 
-<span class="sd">The vector of centrifugal acceleration has the same magnitude as the vector of centripetal</span>
-<span class="sd">acceleration but is directed oppositely to it.</span>
+<span class="sd">The vector of *centrifugal acceleration* has the same magnitude as the vector of *centripetal</span>
+<span class="sd">acceleration* but is directed oppositely to it.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
 <span class="kn">from</span> <span class="nn">symplyphysics</span> <span class="kn">import</span> <span class="p">(</span>
@@ -52,19 +52,27 @@
 <a class="viewcode-back" href="../../../../../symplyphysics/laws.kinematic.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematic.vector.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_law">[docs]</a>
 <span class="k">def</span> <span class="nf">centrifugal_law</span><span class="p">(</span><span class="n">centripetal_acceleration_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Centrifugal acceleration via centripetal acceleration.</span>
+<span class="sd">    *Centrifugal acceleration* via centripetal acceleration.</span>
 
 <span class="sd">    Law:</span>
-<span class="sd">        a_centrifugal = -a_centripetal</span>
+<span class="sd">        :code:`a_centrifugal = -1 * a_centripetal`</span>
 
 <span class="sd">    Latex:</span>
 <span class="sd">        :math:`\vec a_\text{cf} = - \vec a_\text{cp}`</span>
 
-<span class="sd">    :param centripetal_acceleration\_: The :attr:`~symplyphysics.symbols.kinematic.acceleration` experienced by a rotating body in an inertial frame.</span>
+<span class="sd">    :param centripetal_acceleration\_: :attr:`~symplyphysics.symbols.kinematic.acceleration` experienced by the rotating body in an inertial frame.</span>
+
+<span class="sd">        Symbol: :code:`a_centripetal`</span>
+
+<span class="sd">        Latex: :math:`\vec a_\text{cp}`</span>
 
 <span class="sd">        Dimension: *acceleration*</span>
 <span class="sd">    </span>
-<span class="sd">    :return: The acceleration experienced by a body in a non-inertial, rotating frame.</span>
+<span class="sd">    :return: :attr:`~symplyphysics.symbols.kinematic.acceleration` experienced by the body in a non-inertial, rotating frame.</span>
+
+<span class="sd">        Symbol: :code:`a_centrifugal`</span>
+
+<span class="sd">        Latex: :math:`\vec a_\text{cf}`</span>
 
 <span class="sd">        Dimension: *acceleration*</span>
 <span class="sd">    &quot;&quot;&quot;</span>
@@ -76,20 +84,28 @@
 <a class="viewcode-back" href="../../../../../symplyphysics/laws.kinematic.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematic.vector.centrifugal_acceleration_via_centripetal_acceleration.centripetal_law">[docs]</a>
 <span class="k">def</span> <span class="nf">centripetal_law</span><span class="p">(</span><span class="n">centrifugal_acceleration_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Centripetal acceleration via centrifugal acceleration.</span>
+<span class="sd">    *Centripetal acceleration* via centrifugal acceleration.</span>
 
 <span class="sd">    Law:</span>
-<span class="sd">        a_centripetal = -a_centrifugal</span>
+<span class="sd">        :code:`a_centripetal = -1 * a_centrifugal`</span>
 <span class="sd">    </span>
 <span class="sd">    Latex:</span>
 <span class="sd">        :math:`\vec a_\text{cp} = - \vec a_\text{cf}`</span>
 <span class="sd">    </span>
-<span class="sd">    :param centrifugal_acceleration\_: The :attr:`~symplyphysics.symbols.kinematic.acceleration` experienced by a body in a non-inertial, rotating frame.</span>
-<span class="sd">    </span>
+<span class="sd">    :param centrifugal_acceleration\_: :attr:`~symplyphysics.symbols.kinematic.acceleration` experienced by the body in a non-inertial, rotating frame.</span>
+
+<span class="sd">        Symbol: :code:`a_centripetal`</span>
+
+<span class="sd">        Latex: :math:`\vec a_\text{cp}`</span>
+
 <span class="sd">        Dimension: *acceleration*</span>
 
-<span class="sd">    :return: The :attr:`~symplyphysics.symbols.kinematic.acceleration` experienced by a rotating body in an inertial frame.</span>
+<span class="sd">    :return: :attr:`~symplyphysics.symbols.kinematic.acceleration` experienced by the rotating body in an inertial frame.</span>
 <span class="sd">    </span>
+<span class="sd">        Symbol: :code:`a_centripetal`</span>
+
+<span class="sd">        Latex: :math:`\vec a_\text{cp}`</span>
+
 <span class="sd">        Dimension: *acceleration*</span>
 <span class="sd">    &quot;&quot;&quot;</span>
 

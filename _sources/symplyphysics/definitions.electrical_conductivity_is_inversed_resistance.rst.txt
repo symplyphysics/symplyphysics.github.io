@@ -1,0 +1,15 @@
+Electrical conductivity is inverse resistance
+---------------------------------------------
+
+*Conductivity* is a physical quantity describing the ability of a medium to conduct electrical current.
+It is defined as the inverse of resistance.
+
+.. autodata:: symplyphysics.definitions.electrical_conductivity_is_inversed_resistance.object_conductivity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.electrical_conductivity_is_inversed_resistance.object_resistance
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.electrical_conductivity_is_inversed_resistance.definition
+  :no-value:
+

@@ -11,3 +11,4 @@ Contents:
   laws.kinematic.rotational_inertia
   laws.kinematic.vector
   laws.kinematic.damped_oscillations
+  laws.kinematic.angular_frequency_from_radians_per_time

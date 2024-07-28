@@ -1,0 +1,18 @@
+Phase velocity from angular frequency and wavenumber
+----------------------------------------------------
+
+*Phase velocity* of a wave is the rate at which the wave propagates in a medium.
+It is the velocity at which the phase of one frequency component of the wave travels.
+
+.. autodata:: symplyphysics.laws.waves.phase_velocity_from_angular_frequency_and_wavenumber.phase_velocity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.phase_velocity_from_angular_frequency_and_wavenumber.angular_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.phase_velocity_from_angular_frequency_and_wavenumber.angular_wavenumber
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.phase_velocity_from_angular_frequency_and_wavenumber.law
+  :no-value:
+

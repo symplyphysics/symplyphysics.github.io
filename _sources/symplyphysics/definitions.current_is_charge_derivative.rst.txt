@@ -1,0 +1,18 @@
+Current is charge derivative
+----------------------------
+
+The instantaneous electric current, or simply the *electric current*, is a physical quantity
+defined as the time derivative of the flowing charge.
+
+.. autodata:: symplyphysics.definitions.current_is_charge_derivative.current
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.current_is_charge_derivative.charge
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.current_is_charge_derivative.time
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.current_is_charge_derivative.definition
+  :no-value:
+

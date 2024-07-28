@@ -1,0 +1,17 @@
+Acceleration is velocity derivative
+-----------------------------------
+
+*Acceleration* is the derivative of velocity w.r.t. time.
+
+.. autodata:: symplyphysics.definitions.acceleration_is_velocity_derivative.acceleration_function
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.acceleration_is_velocity_derivative.velocity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.acceleration_is_velocity_derivative.time
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.acceleration_is_velocity_derivative.definition
+  :no-value:
+

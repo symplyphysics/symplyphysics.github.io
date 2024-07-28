@@ -1,0 +1,19 @@
+Capacitance from charge and voltage
+-----------------------------------
+
+The electrical *capacitance* of an object is a physical quantity that describes the capability
+of the object to store energy in the form of an electric charge. It is directly proportional to
+the charge accumulated in the object and inversely proportional to the voltage across it.
+
+.. autodata:: symplyphysics.definitions.capacitance_from_charge_and_voltage.capacitance
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.capacitance_from_charge_and_voltage.charge
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.capacitance_from_charge_and_voltage.voltage
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.capacitance_from_charge_and_voltage.definition
+  :no-value:
+

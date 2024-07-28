@@ -1,0 +1,21 @@
+Sound level in decibels
+-----------------------
+
+The sound level of a sound wave is a physical quantity that is used to describe the wave's
+intensity.
+
+.. autodata:: symplyphysics.definitions.sound_level_in_decibels.sound_level
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.sound_level_in_decibels.intensity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.sound_level_in_decibels.reference_sound_level
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.sound_level_in_decibels.reference_intensity
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.sound_level_in_decibels.definition
+  :no-value:
+
