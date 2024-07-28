@@ -1,0 +1,18 @@
+Tensile stress is Young's modulus times strain
+----------------------------------------------
+
+When an object is under tension or compression, the stress is related to the strain via the
+Young's modulus.
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain.stress
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain.youngs_modulus
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain.engineering_normal_strain
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain.law
+  :no-value:
+
