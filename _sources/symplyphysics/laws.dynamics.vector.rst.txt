@@ -1,0 +1,11 @@
+Dynamics (vector)
+=================
+
+Vector subset of dynamics laws
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
