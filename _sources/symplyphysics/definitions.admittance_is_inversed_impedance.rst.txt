@@ -2,12 +2,12 @@ Admittance is inversed impedance
 --------------------------------
 
 *Admittance, or complex conductance*, is a physical quantity measuring the
-ability of a dipole to conduct electrical signal.
+ability of a circuit or device to conduct electrical current.
 
-.. autodata:: symplyphysics.definitions.admittance_is_inversed_impedance.dipole_admittance
+.. autodata:: symplyphysics.definitions.admittance_is_inversed_impedance.admittance
   :no-value:
 
-.. autodata:: symplyphysics.definitions.admittance_is_inversed_impedance.dipole_impedance
+.. autodata:: symplyphysics.definitions.admittance_is_inversed_impedance.impedance
   :no-value:
 
 .. autodata:: symplyphysics.definitions.admittance_is_inversed_impedance.definition

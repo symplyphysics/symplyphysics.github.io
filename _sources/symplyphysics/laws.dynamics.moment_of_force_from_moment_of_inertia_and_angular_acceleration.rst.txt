@@ -1,14 +1,16 @@
-Moment of force from moment of inertia and angular acceleration
----------------------------------------------------------------
+Torque via rotational inertia and angular acceleration
+------------------------------------------------------
 
-The moment of force (the moment of force relative to a point)
-is a vector physical quantity that characterizes the effect of force on a mechanical object
-which can cause its rotational movement.
+Torque due to a force is a vector physical quantity that describes the effect of the force
+on a mechanical object causing its rotational motion.
 
-.. autodata:: symplyphysics.laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.moment_of_force
+..
+    TODO Rename file
+
+.. autodata:: symplyphysics.laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.torque
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.moment_of_inertia
+.. autodata:: symplyphysics.laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.rotational_inertia
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.angular_acceleration

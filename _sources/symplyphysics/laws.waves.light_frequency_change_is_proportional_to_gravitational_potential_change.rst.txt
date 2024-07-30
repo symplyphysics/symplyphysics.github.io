@@ -4,7 +4,7 @@ Light frequency change is proportional to gravitational potential change
 When light is propagating in a gravitational field, its frequency changes proportionally to the
 change in the potential of the gravitational field.
 
-Let us consider an infinitesimally small section :math:`\Delta \vec r` of the light's path, such that
+Let us consider an infinitesimally small section :math:`d \vec r` of the light's path, such that
 the frequency of light is constant within that section. In that case we can obtain a dependency
 between the change in light's frequency and the change in the gravitational potential.
 

@@ -7,7 +7,7 @@ from a certain volume, the flow in a pipe section, the combustion of fuel.
 .. autodata:: symplyphysics.definitions.mass_flow_rate.mass_flow_rate
   :no-value:
 
-.. autodata:: symplyphysics.definitions.mass_flow_rate.mass_function
+.. autodata:: symplyphysics.definitions.mass_flow_rate.mass
   :no-value:
 
 .. autodata:: symplyphysics.definitions.mass_flow_rate.time

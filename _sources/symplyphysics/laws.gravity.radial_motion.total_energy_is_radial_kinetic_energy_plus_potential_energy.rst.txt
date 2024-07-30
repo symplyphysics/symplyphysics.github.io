@@ -17,7 +17,7 @@ energy. Note that the sign of the total energy determines the type of the planet
 .. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.potential_energy
   :no-value:
 
-.. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.total_energy
+.. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.total_mechanical_energy
   :no-value:
 
 .. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_radial_kinetic_energy_plus_potential_energy.law

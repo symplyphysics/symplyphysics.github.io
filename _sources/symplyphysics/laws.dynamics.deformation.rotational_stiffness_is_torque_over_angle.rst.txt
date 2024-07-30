@@ -6,10 +6,10 @@ Rotational stiffness is torque applied over angle
 .. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.rotational_stiffness
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.torque_applied
+.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.torque
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.rotation_angle
+.. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.angular_distance
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle.law

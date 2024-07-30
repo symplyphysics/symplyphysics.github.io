@@ -5,17 +5,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Forced non-resonant oscillations &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Displacement in forced non-resonant oscillations &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
-    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=12dfc556" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=27fed22d" />
     <script src="../_static/documentation_options.js?v=8d563738"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Period of torsion pendulum from rotational inertia" href="laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.html" />
-    <link rel="prev" title="Momentum derivative of kinetic energy is speed" href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html" />
+    <link rel="next" title="Forced oscillations equation" href="laws.dynamics.forced_oscillations_equation.html" />
+    <link rel="prev" title="Reaction force equals action force" href="laws.dynamics.force_reaction_from_force_action.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -33,8 +34,8 @@
 
           <div class="body" role="main">
             
-  <section id="forced-non-resonant-oscillations">
-<h1>Forced non-resonant oscillations<a class="headerlink" href="#forced-non-resonant-oscillations" title="Link to this heading">¶</a></h1>
+  <section id="displacement-in-forced-non-resonant-oscillations">
+<h1>Displacement in forced non-resonant oscillations<a class="headerlink" href="#displacement-in-forced-non-resonant-oscillations" title="Link to this heading">¶</a></h1>
 <p><em>Forced, or driven, oscillations</em> are a type of oscillations in the presence of an external driving
 force acting on the oscillating system. In the case of an oscillating external force, two angular
 frequencies are associated with such a system: (1) the natural angular frequency of the system,
@@ -52,17 +53,17 @@ and (2) the angular frequency of the external force driving the oscillations.</p
 simple harmonic motion equation and the particular solution presented here.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driven_displacement">
-<span class="sig-name descname"><span class="pre">driven_displacement</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driven_displacement" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.forced_non_resonant_oscillations.displacement">
+<span class="sig-name descname"><span class="pre">displacement</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.displacement" title="Link to this definition">¶</a></dt>
 <dd><p>The particular solution of the forced oscillations equation that accounts for the
 oscillator’s response to the driving force.</p>
 <p class="rubric">Symbol</p>
-<p>q(t)</p>
+<p><code class="code docutils literal notranslate"><span class="pre">q(t)</span></code></p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.forced_non_resonant_oscillations.oscillator_mass">
-<span class="sig-name descname"><span class="pre">oscillator_mass</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.oscillator_mass" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.forced_non_resonant_oscillations.mass">
+<span class="sig-name descname"><span class="pre">mass</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.mass" title="Link to this definition">¶</a></dt>
 <dd><p>The <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the oscillating body.</p>
 <p class="rubric">Symbol</p>
 <p>m</p>
@@ -73,7 +74,7 @@ oscillator’s response to the driving force.</p>
 <span class="sig-name descname"><span class="pre">natural_angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.natural_angular_frequency" title="Link to this definition">¶</a></dt>
 <dd><p>The natural angular frequency of the oscillator.</p>
 <p class="rubric">Symbol</p>
-<p>w0</p>
+<p><code class="code docutils literal notranslate"><span class="pre">w0</span></code></p>
 <p class="rubric">Latex</p>
 <p><span class="math notranslate nohighlight">\(\omega_0\)</span></p>
 </dd></dl>
@@ -83,7 +84,7 @@ oscillator’s response to the driving force.</p>
 <span class="sig-name descname"><span class="pre">driving_force_amplitude</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_force_amplitude" title="Link to this definition">¶</a></dt>
 <dd><p>The amplitude of the external driving <a class="reference internal" href="symbols.dynamics.html#symplyphysics.symbols.dynamics.force" title="symplyphysics.symbols.dynamics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a>.</p>
 <p class="rubric">Symbol</p>
-<p>f</p>
+<p><code class="code docutils literal notranslate"><span class="pre">f</span></code></p>
 </dd></dl>
 
 <dl class="py data">
@@ -91,7 +92,7 @@ oscillator’s response to the driving force.</p>
 <span class="sig-name descname"><span class="pre">driving_angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_angular_frequency" title="Link to this definition">¶</a></dt>
 <dd><p>The angular frequency of the external driving force.</p>
 <p class="rubric">Symbol</p>
-<p>w</p>
+<p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
 <p class="rubric">Latex</p>
 <p><span class="math notranslate nohighlight">\(\omega\)</span></p>
 </dd></dl>
@@ -101,7 +102,7 @@ oscillator’s response to the driving force.</p>
 <span class="sig-name descname"><span class="pre">driving_phase_lag</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_phase_lag" title="Link to this definition">¶</a></dt>
 <dd><p>The phase lag of the oscillations of the external force.</p>
 <p class="rubric">Symbol</p>
-<p>phi</p>
+<p><code class="code docutils literal notranslate"><span class="pre">phi</span></code></p>
 <p class="rubric">Latex</p>
 <p><span class="math notranslate nohighlight">\(\varphi\)</span></p>
 </dd></dl>
@@ -111,7 +112,7 @@ oscillator’s response to the driving force.</p>
 <span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.time" title="Link to this definition">¶</a></dt>
 <dd><p>Time.</p>
 <p class="rubric">Symbol</p>
-<p>t</p>
+<p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
 </dd></dl>
 
 <dl class="py data">
@@ -141,43 +142,30 @@ oscillator’s response to the driving force.</p>
 
 
 
-<h3>Navigation</h3>
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematic</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.dynamics.html">Dynamics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.deformation.html">Dynamics (Deformation)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.coefficient_of_stiffness_from_area_length.html">Coefficient of stiffness from area and length</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.total_work_equals_change_in_kinetic_energy.html">Total work equals change in kinetic energy</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.html">Kinetic energy from moment of inertia and angular velocity</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_velocity.html">Maximum height from velocity</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_move.html">Mechanical work from force and move</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.html">Rocket thrust is rocket mass times acceleration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.braking_path.html">Braking path</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.force_is_derivative_of_momentum.html">Force is derivative of momentum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.acceleration_from_force.html">Acceleration from force</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_due_to_twisting_force.html">Torque due to twisting force</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.work_done_by_general_force_in_one_dimension.html">Work done by general force in one dimension</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_via_momentum.html">Kinetic energy via momentum</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_during_rotation.html">Mechanical work during rotation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_deformation.html">Potential energy from deformation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_mass_and_velocity.html">Kinetic energy from mass and velocity</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.forced_oscillations_equation.html">Forced oscillations equation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.resonant_oscillations.html">Resonant oscillations</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_mass_and_height.html">Potential energy from mass and height</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.friction_force_from_normal_force.html">Friction force from normal force</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.reduced_mass_of_two_body_system.html">Reduced mass of a two-body system</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_spring_from_mass.html">Period of spring from mass</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.force_reaction_from_force_action.html">Force reaction from force action</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_physical_pendulum.html">Period of physical pendulum</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_ideal_pendulum_from_length.html">Period of ideal pendulum from length</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.html">Moment of force from moment of inertia and angular acceleration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.instantaneous_power_is_force_times_velocity.html">Instantaneous power is force times velocity</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html">Momentum derivative of kinetic energy is speed</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Forced non-resonant oscillations</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driven_displacement"><code class="docutils literal notranslate"><span class="pre">driven_displacement</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.oscillator_mass"><code class="docutils literal notranslate"><span class="pre">oscillator_mass</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.braking_path.html">Braking path via speed and friction force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.buoyant_force_from_density_and_volume.html">Buoyant force from density and volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.coefficient_of_stiffness_from_area_length.html">Coefficient of stiffness from area and length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.force_is_derivative_of_momentum.html">Force is derivative of momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.force_reaction_from_force_action.html">Reaction force equals action force</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Displacement in forced non-resonant oscillations</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.displacement"><code class="docutils literal notranslate"><span class="pre">displacement</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.natural_angular_frequency"><code class="docutils literal notranslate"><span class="pre">natural_angular_frequency</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_force_amplitude"><code class="docutils literal notranslate"><span class="pre">driving_force_amplitude</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driving_angular_frequency"><code class="docutils literal notranslate"><span class="pre">driving_angular_frequency</span></code></a></li>
@@ -186,13 +174,35 @@ oscillator’s response to the driving force.</p>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.dynamics.forced_non_resonant_oscillations.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.forced_oscillations_equation.html">Forced oscillations equation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.friction_force_from_normal_force.html">Friction force from normal force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.instantaneous_power_is_force_times_velocity.html">Instantaneous power is force times speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_mass_and_velocity.html">Kinetic energy from mass and speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.html">Kinetic energy from rotational inertia and angular speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_via_momentum.html">Kinetic energy via momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_velocity.html">Maximum height from initial speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_during_rotation.html">Rotational work is torque times angular distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_move.html">Mechanical work is force times distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.html">Torque via rotational inertia and angular acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html">Momentum derivative of kinetic energy is speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_ideal_pendulum_from_length.html">Period of ideal pendulum from length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_physical_pendulum.html">Period of physical pendulum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_spring_from_mass.html">Period of spring from mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.html">Period of torsion pendulum from rotational inertia</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.buoyant_force_from_density_and_volume.html">Buoyant force from density and volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_deformation.html">Elastic potential energy from displacement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_mass_and_height.html">Potential energy from mass and height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.reduced_mass_of_two_body_system.html">Reduced mass of a two-body system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.resonant_oscillations.html">Displacement in resonant oscillations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.html">Rocket thrust is rocket mass times acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_due_to_twisting_force.html">Torque via force and radial distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.total_work_equals_change_in_kinetic_energy.html">Total work is change in kinetic energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.work_done_by_general_force_in_one_dimension.html">Work is integral of force over distance</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematic</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
@@ -206,23 +216,13 @@ oscillator’s response to the driving force.</p>
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.dynamics.html">Dynamics</a><ul>
-      <li>Previous: <a href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html" title="previous chapter">Momentum derivative of kinetic energy is speed</a></li>
-      <li>Next: <a href="laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.html" title="next chapter">Period of torsion pendulum from rotational inertia</a></li>
+      <li>Previous: <a href="laws.dynamics.force_reaction_from_force_action.html" title="previous chapter">Reaction force equals action force</a></li>
+      <li>Next: <a href="laws.dynamics.forced_oscillations_equation.html" title="next chapter">Forced oscillations equation</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
 </ul>
 </div>
-<search id="searchbox" style="display: none" role="search">
-  <h3 id="searchlabel">Quick search</h3>
-    <div class="searchformwrapper">
-    <form class="search" action="../search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
-      <input type="submit" value="Go" />
-    </form>
-    </div>
-</search>
-<script>document.getElementById('searchbox').style.display = "block"</script>
 
 
 
@@ -239,8 +239,8 @@ oscillator’s response to the driving force.</p>
       &#169;2024, Symplyphysics.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.4.7</a>
-      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.16</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
       <a href="../_sources/symplyphysics/laws.dynamics.forced_non_resonant_oscillations.rst.txt"

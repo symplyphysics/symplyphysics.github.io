@@ -8,16 +8,16 @@ by applying this law to the components of the force vector.
 .. autodata:: symplyphysics.definitions.impulse_due_to_force.impulse
   :no-value:
 
-.. autodata:: symplyphysics.definitions.impulse_due_to_force.force_function
+.. autodata:: symplyphysics.definitions.impulse_due_to_force.force
   :no-value:
 
 .. autodata:: symplyphysics.definitions.impulse_due_to_force.time
   :no-value:
 
-.. autodata:: symplyphysics.definitions.impulse_due_to_force.time_start
+.. autodata:: symplyphysics.definitions.impulse_due_to_force.time_before
   :no-value:
 
-.. autodata:: symplyphysics.definitions.impulse_due_to_force.time_end
+.. autodata:: symplyphysics.definitions.impulse_due_to_force.time_after
   :no-value:
 
 .. autodata:: symplyphysics.definitions.impulse_due_to_force.law

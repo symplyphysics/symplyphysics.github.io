@@ -12,7 +12,7 @@ change for a body while it is moving.
 .. autodata:: symplyphysics.definitions.lorentz_factor.lorentz_factor
   :no-value:
 
-.. autodata:: symplyphysics.definitions.lorentz_factor.velocity
+.. autodata:: symplyphysics.definitions.lorentz_factor.speed
   :no-value:
 
 .. autodata:: symplyphysics.definitions.lorentz_factor.definition

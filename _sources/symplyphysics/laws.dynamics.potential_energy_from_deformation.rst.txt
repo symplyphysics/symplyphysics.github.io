@@ -1,5 +1,5 @@
-Potential energy from deformation
----------------------------------
+Elastic potential energy from displacement
+------------------------------------------
 
 Spring accumulates energy while being deformed. This law is known as the *Hooke's law*.
 
@@ -7,13 +7,16 @@ Spring accumulates energy while being deformed. This law is known as the *Hooke'
 
 #. The deformation is elastic (reversible).
 
-.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.spring_energy
+..
+    TODO Move law to ./deformations/
+
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.elastic_potential_energy
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.elastic_koefficient
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.stiffness
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.deformation
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.displacement
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.potential_energy_from_deformation.law

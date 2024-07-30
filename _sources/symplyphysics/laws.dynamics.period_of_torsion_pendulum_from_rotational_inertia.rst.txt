@@ -5,7 +5,7 @@ A torsion pendulum is an angular version of a linear harmonic oscillator: a disk
 oscillates in a horizontal plane; the reference line oscillates with some angular amplitude.
 The element of elasticity is associated with the twisting of the suspension wire.
 
-.. autodata:: symplyphysics.laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.oscillation_period
+.. autodata:: symplyphysics.laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.period
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.rotational_inertia

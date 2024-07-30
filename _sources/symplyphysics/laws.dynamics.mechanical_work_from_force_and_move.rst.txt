@@ -1,8 +1,8 @@
-Mechanical work from force and move
------------------------------------
+Mechanical work is force times distance
+---------------------------------------
 
 Work is measured result of force applied. Mechanical work is the only reason for the object energy to be changed.
-Work is scalar value equal to force multiplied by movement.
+Work is scalar value equal to force multiplied by distance.
 
 **Conditions:**
 
@@ -11,6 +11,9 @@ Work is scalar value equal to force multiplied by movement.
 **Notes:**
 
 #. Use the vector form of this law for non-collinear vectors of force and movement.
+
+..
+    TODO Rename file
 
 .. autodata:: symplyphysics.laws.dynamics.mechanical_work_from_force_and_move.work
   :no-value:

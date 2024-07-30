@@ -1,5 +1,5 @@
-Resonant oscillations
----------------------
+Displacement in resonant oscillations
+-------------------------------------
 
 When an oscillating external force is driving the oscillations of an oscillator,
 amplitude of oscillations is greatest when the angular frequency of the driving
@@ -13,13 +13,13 @@ resonance.
 
 **Notes:**
 
-#. The expression of the driving force has the form :math:`f \cos{\left( \omega t + \varphi \right)}` where :math:`\omega` is
-   the angular frequency of its oscillations.
+#. The expression of the driving force has the form :math:`f \cos{\left( \omega t + \varphi \right)}`
+   where :math:`\omega` is the angular frequency of its oscillations.
 
 .. autodata:: symplyphysics.laws.dynamics.resonant_oscillations.resonant_displacement
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.resonant_oscillations.oscillator_mass
+.. autodata:: symplyphysics.laws.dynamics.resonant_oscillations.mass
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.resonant_oscillations.natural_angular_frequency

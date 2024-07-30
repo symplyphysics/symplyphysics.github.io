@@ -13,7 +13,7 @@ Radiant exitance is radiant flux emitted per unit area
 .. autodata:: symplyphysics.definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area.radiant_flux
   :no-value:
 
-.. autodata:: symplyphysics.definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area.surface_area
+.. autodata:: symplyphysics.definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area.area
   :no-value:
 
 .. autodata:: symplyphysics.definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area.definition

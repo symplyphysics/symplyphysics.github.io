@@ -1,16 +1,16 @@
-Kinetic energy from moment of inertia and angular velocity
-----------------------------------------------------------
+Kinetic energy from rotational inertia and angular speed
+--------------------------------------------------------
 
-Every rotating object bears kinetic energy, which depends on the moment of inertia of the object
-and its angular velocity.
+Every rotating object bears kinetic energy, which depends on the rotational inertia of the object
+and its angular speed.
 
 .. autodata:: symplyphysics.laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.kinetic_energy
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.object_inertia_moment
+.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.rotational_inertia
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.angular_velocity
+.. autodata:: symplyphysics.laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.angular_speed
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.kinetic_energy_from_moment_of_inertia_and_angular_velocity.law

@@ -8,7 +8,7 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
-  laws.waves.vector
   laws.waves.blackbody_radiation
+  laws.waves.vector
   laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change
   laws.waves.phase_velocity_from_angular_frequency_and_wavenumber

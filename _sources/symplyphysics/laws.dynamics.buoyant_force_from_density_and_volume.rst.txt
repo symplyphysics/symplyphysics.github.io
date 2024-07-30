@@ -5,7 +5,7 @@ Any object, totally or partially immersed in a fluid (i.e. liquid or gas), is bu
 weight of the fluid displaced by the object. Also known as the Archimedes principle. The *buoyant force*
 vector is directed opposite to the gravity vector.
 
-.. autodata:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume.force_buoyant
+.. autodata:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume.buoyant_force
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume.fluid_density

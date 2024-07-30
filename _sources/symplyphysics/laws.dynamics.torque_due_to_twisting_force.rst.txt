@@ -1,5 +1,5 @@
-Torque due to twisting force
-----------------------------
+Torque via force and radial distance
+------------------------------------
 
 *Torque* is a turning action on a body about a rotation axis due to a force.
 
@@ -14,10 +14,10 @@ Torque due to twisting force
 .. autodata:: symplyphysics.laws.dynamics.torque_due_to_twisting_force.force
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.torque_due_to_twisting_force.distance_to_axis
+.. autodata:: symplyphysics.laws.dynamics.torque_due_to_twisting_force.radial_distance
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.torque_due_to_twisting_force.angle
+.. autodata:: symplyphysics.laws.dynamics.torque_due_to_twisting_force.angle_between_vectors
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.torque_due_to_twisting_force.law

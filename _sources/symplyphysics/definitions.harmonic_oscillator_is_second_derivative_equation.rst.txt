@@ -10,7 +10,7 @@ Displacement is not only limited to physical motion, but should be interpreted i
 
 #. There is no damping (i.e. friction) in the system.
 
-.. autodata:: symplyphysics.definitions.harmonic_oscillator_is_second_derivative_equation.displacement_function
+.. autodata:: symplyphysics.definitions.harmonic_oscillator_is_second_derivative_equation.displacement
   :no-value:
 
 .. autodata:: symplyphysics.definitions.harmonic_oscillator_is_second_derivative_equation.angular_frequency

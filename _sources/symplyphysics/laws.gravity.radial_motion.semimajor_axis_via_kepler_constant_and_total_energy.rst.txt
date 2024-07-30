@@ -15,7 +15,7 @@ the star---planet system and the total energy of the planet per unit of its mass
 .. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.kepler_constant
   :no-value:
 
-.. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.total_energy_per_unit_mass
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.specific_energy
   :no-value:
 
 .. autodata:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.law

@@ -1,5 +1,5 @@
-Forced non-resonant oscillations
---------------------------------
+Displacement in forced non-resonant oscillations
+------------------------------------------------
 
 *Forced, or driven, oscillations* are a type of oscillations in the presence of an external driving
 force acting on the oscillating system. In the case of an oscillating external force, two angular
@@ -18,10 +18,10 @@ and (2) the angular frequency of the external force driving the oscillations.
 #. The complete expression of the displacement function can be found as the sum of the solution of 
    simple harmonic motion equation and the particular solution presented here.
 
-.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.driven_displacement
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.displacement
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.oscillator_mass
+.. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.mass
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.forced_non_resonant_oscillations.natural_angular_frequency

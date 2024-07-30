@@ -7,17 +7,17 @@ slower the wave propagates in the refracting medium relative to the incident med
 
 **Conditions:**
 
-#. The media are isotropic and transparent.
+#. Both media are isotropic and transparent.
 #. The wave is monochromatic. Note that the speed of wave propagation depends on the
    wave frequency.
 
-.. autodata:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio.refractive_index
+.. autodata:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio.relative_refractive_index
   :no-value:
 
-.. autodata:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio.outer_speed
+.. autodata:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio.incident_wave_speed
   :no-value:
 
-.. autodata:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio.refracting_speed
+.. autodata:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio.refracted_wave_speed
   :no-value:
 
 .. autodata:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio.definition

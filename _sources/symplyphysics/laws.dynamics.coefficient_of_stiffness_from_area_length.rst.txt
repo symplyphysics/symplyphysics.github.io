@@ -4,7 +4,7 @@ Coefficient of stiffness from area and length
 The *stiffness* coefficient depends on the Young's modulus, cross-sectional area and length.
 Young's modulus is a tabular value that is different for each material.
 
-.. autodata:: symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.coefficient_of_stiffness
+.. autodata:: symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.stiffness
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.young_modulus

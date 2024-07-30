@@ -1,10 +1,10 @@
-Total work equals change in kinetic energy
-------------------------------------------
+Total work is change in kinetic energy
+--------------------------------------
 
 The work-energy principle states that the work done by all forces acting on a particle
 (the work of the resultant force) equals the change in the kinetic energy of the particle.
 
-.. autodata:: symplyphysics.laws.dynamics.total_work_equals_change_in_kinetic_energy.total_work
+.. autodata:: symplyphysics.laws.dynamics.total_work_equals_change_in_kinetic_energy.work
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.total_work_equals_change_in_kinetic_energy.kinetic_energy

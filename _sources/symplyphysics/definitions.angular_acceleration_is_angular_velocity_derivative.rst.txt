@@ -1,12 +1,12 @@
-Angular acceleration is angular velocity derivative
----------------------------------------------------
+Angular acceleration is angular speed derivative
+------------------------------------------------
 
-*Angular acceleration* is a physical quantity that describes the change in angular velocity over time.
+*Angular acceleration* is a physical quantity that describes the change in angular speed over time.
 
 .. autodata:: symplyphysics.definitions.angular_acceleration_is_angular_velocity_derivative.angular_acceleration
   :no-value:
 
-.. autodata:: symplyphysics.definitions.angular_acceleration_is_angular_velocity_derivative.angular_velocity
+.. autodata:: symplyphysics.definitions.angular_acceleration_is_angular_velocity_derivative.angular_speed
   :no-value:
 
 .. autodata:: symplyphysics.definitions.angular_acceleration_is_angular_velocity_derivative.time

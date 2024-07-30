@@ -13,7 +13,7 @@ the major semiaxis of its orbit, and the mass of body that attracts it, such as 
 .. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.semimajor_axis
   :no-value:
 
-.. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.attracting_body_mass
+.. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.attracting_mass
   :no-value:
 
 .. autodata:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.law

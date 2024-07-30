@@ -8,7 +8,7 @@ The Period is inversely proportional to the angular frequency of oscillations. S
 .. autodata:: symplyphysics.definitions.period_from_angular_frequency.period
   :no-value:
 
-.. autodata:: symplyphysics.definitions.period_from_angular_frequency.circular_frequency
+.. autodata:: symplyphysics.definitions.period_from_angular_frequency.angular_frequency
   :no-value:
 
 .. autodata:: symplyphysics.definitions.period_from_angular_frequency.law

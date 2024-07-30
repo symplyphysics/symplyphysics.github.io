@@ -8,21 +8,21 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
-  laws.fields
   laws.astronomy
-  laws.conservation
-  laws.kinematic
-  laws.dynamics
+  laws.chemistry
   laws.condensed_matter
-  laws.relativistic
-  laws.hydro
-  laws.thermodynamics
-  laws.gravity
+  laws.conservation
+  laws.dynamics
   laws.electricity
+  laws.fields
   laws.geometry
-  laws.waves
+  laws.gravity
+  laws.hydro
+  laws.kinematic
+  laws.nuclear
+  laws.optics
   laws.quantities
   laws.quantum_mechanics
-  laws.optics
-  laws.chemistry
-  laws.nuclear
+  laws.relativistic
+  laws.thermodynamics
+  laws.waves

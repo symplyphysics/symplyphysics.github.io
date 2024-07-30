@@ -15,7 +15,7 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.
 .. autodata:: symplyphysics.definitions.thermal_de_broglie_wavelength.thermal_wavelength
   :no-value:
 
-.. autodata:: symplyphysics.definitions.thermal_de_broglie_wavelength.particle_mass
+.. autodata:: symplyphysics.definitions.thermal_de_broglie_wavelength.mass
   :no-value:
 
 .. autodata:: symplyphysics.definitions.thermal_de_broglie_wavelength.temperature

@@ -7,7 +7,7 @@ The net force is the arithmetic sum of forces.
 
 #. All force vectors are collinear to each other.
 
-.. autodata:: symplyphysics.definitions.superposition_of_forces_is_sum.resultant_force
+.. autodata:: symplyphysics.definitions.superposition_of_forces_is_sum.net_force
   :no-value:
 
 .. autodata:: symplyphysics.definitions.superposition_of_forces_is_sum.force

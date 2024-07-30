@@ -26,13 +26,13 @@ the total mass of the system does not change.
 .. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.fuel_consumption_rate
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.relative_velocity
+.. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.relative_speed
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.rocket_acceleration
+.. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.acceleration
   :no-value:
 
-.. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.rocket_mass
+.. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.mass
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.law

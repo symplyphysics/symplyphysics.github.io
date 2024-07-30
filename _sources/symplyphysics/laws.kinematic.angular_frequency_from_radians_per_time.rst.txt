@@ -1,12 +1,15 @@
-Angular frequency from radians per time
----------------------------------------
+Average angular frequency from angular displacement per time
+------------------------------------------------------------
 
 *Angular frequency* is a scalar physical quantity measuring the rate of change in angle with time.
 
-.. autodata:: symplyphysics.laws.kinematic.angular_frequency_from_radians_per_time.angular_frequency
+..
+    TODO Rename file to reflect contents
+
+.. autodata:: symplyphysics.laws.kinematic.angular_frequency_from_radians_per_time.average_angular_frequency
   :no-value:
 
-.. autodata:: symplyphysics.laws.kinematic.angular_frequency_from_radians_per_time.radians
+.. autodata:: symplyphysics.laws.kinematic.angular_frequency_from_radians_per_time.angular_distance
   :no-value:
 
 .. autodata:: symplyphysics.laws.kinematic.angular_frequency_from_radians_per_time.time

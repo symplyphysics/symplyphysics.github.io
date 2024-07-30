@@ -4,7 +4,7 @@ Potential energy from mass and height
 The potential energy is a form of energy a body possesses because of its position relative to
 other objects.
 
-.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_mass_and_height.potential_energy_of_body
+.. autodata:: symplyphysics.laws.dynamics.potential_energy_from_mass_and_height.potential_energy
   :no-value:
 
 .. autodata:: symplyphysics.laws.dynamics.potential_energy_from_mass_and_height.mass

@@ -19,7 +19,7 @@ or electromagnetic waves.
 .. autodata:: symplyphysics.definitions.wave_equation_in_one_dimension.time
   :no-value:
 
-.. autodata:: symplyphysics.definitions.wave_equation_in_one_dimension.phase_velocity
+.. autodata:: symplyphysics.definitions.wave_equation_in_one_dimension.phase_speed
   :no-value:
 
 .. autodata:: symplyphysics.definitions.wave_equation_in_one_dimension.definition
