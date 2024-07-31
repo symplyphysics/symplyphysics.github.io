@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Maxwell—Jüttner distribution &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=27fed22d" />
+    <script src="../_static/documentation_options.js?v=8d563738"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Reduced temperature in Maxwell—Jüttner statistics" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html" />
+    <link rel="prev" title="Relativistic Thermodynamics" href="laws.thermodynamics.relativistic.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="maxwelljuttner-distribution">
+<h1>Maxwell—Jüttner distribution<a class="headerlink" href="#maxwelljuttner-distribution" title="Link to this heading">¶</a></h1>
+<p>The Maxwell—Jüttner distribution is the distribution of speeds of particles in a hypothetical
+gas of relativistic particles. It is similar to the Maxwell—Boltzmann distribution in that it considers
+an ideal gas where particles are dilute and do not interact with each other, but the effects of special
+relativity are taken into account. In the limit of low temperatures, this distribution becomes identical
+to the Maxwell—Boltzmann distribution.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(K_2\)</span> is the <a class="reference external" href="https://docs.sympy.org/latest/modules/functions/special.html#sympy.functions.special.bessel.besselk">modified Bessel function of the second kind</a>.</p></li>
+</ol>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The system is in thermal equilibrium with the environment.</p></li>
+<li><p>Particle interactions are not taken into account.</p></li>
+<li><p>No quantum effects occur in the system.</p></li>
+<li><p>Antiparticles cannot occur in the system.</p></li>
+<li><p>Temperature must be isotropic, i.e. each degree of freedom has to have the same translational kinetic energy.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.distribution_function">
+<span class="sig-name descname"><span class="pre">distribution_function</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.distribution_function" title="Link to this definition">¶</a></dt>
+<dd><p>Lorentz factor distribution function.</p>
+<p class="rubric">Symbol</p>
+<p><code class="code docutils literal notranslate"><span class="pre">f(gamma)</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(f(\gamma)\)</span></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.lorentz_factor">
+<span class="sig-name descname"><span class="pre">lorentz_factor</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.lorentz_factor" title="Link to this definition">¶</a></dt>
+<dd><p>Lorentz factor of relativistic particles.</p>
+<p class="rubric">Symbol</p>
+<p><code class="code docutils literal notranslate"><span class="pre">gamma</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\gamma\)</span></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.reduced_temperature">
+<span class="sig-name descname"><span class="pre">reduced_temperature</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.reduced_temperature" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html"><span class="doc">Reduced temperature</span></a> of the system.</p>
+<p class="rubric">Symbol</p>
+<p><code class="code docutils literal notranslate"><span class="pre">theta</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(\theta\)</span></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.relativistic.maxwell_juettner_distribution.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">f(gamma)</span> <span class="pre">=</span> <span class="pre">(gamma</span> <span class="pre">*</span> <span class="pre">sqrt(gamma^2</span> <span class="pre">-</span> <span class="pre">1))</span> <span class="pre">/</span> <span class="pre">(theta</span> <span class="pre">*</span> <span class="pre">K_2(1</span> <span class="pre">/</span> <span class="pre">theta))</span> <span class="pre">*</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">gamma</span> <span class="pre">/</span> <span class="pre">theta)</span></code></p>
+<p class="rubric">Latex</p>
+<div class="math notranslate nohighlight">
+\[f(\gamma) = \frac{\gamma \sqrt{\gamma^2 - 1}}
+                 {\theta K_2 \left( \frac{1}{\theta} \right)}
+            \exp{\left( -\frac{\gamma}{\theta} \right)}\]</div>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="laws.thermodynamics.relativistic.html">Relativistic Thermodynamics</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Maxwell—Jüttner distribution</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html">Reduced temperature in Maxwell—Jüttner statistics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physics symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.thermodynamics.html">Thermodynamics</a><ul>
+  <li><a href="laws.thermodynamics.relativistic.html">Relativistic Thermodynamics</a><ul>
+      <li>Previous: <a href="laws.thermodynamics.relativistic.html" title="previous chapter">Relativistic Thermodynamics</a></li>
+      <li>Next: <a href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html" title="next chapter">Reduced temperature in Maxwell—Jüttner statistics</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="../_sources/symplyphysics/laws.thermodynamics.relativistic.maxwell_juettner_distribution.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

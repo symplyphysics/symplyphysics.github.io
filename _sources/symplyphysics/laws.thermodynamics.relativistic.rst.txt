@@ -1,0 +1,12 @@
+Relativistic Thermodynamics
+===========================
+
+Collection of laws related to thermodynamical description of relativistic systems.
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.thermodynamics.relativistic.maxwell_juettner_distribution
+  laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics
