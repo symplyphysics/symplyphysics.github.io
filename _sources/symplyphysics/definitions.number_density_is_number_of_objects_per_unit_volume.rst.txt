@@ -1,0 +1,18 @@
+Number density is number of objects per unit volume
+---------------------------------------------------
+
+*Number density*, or *concentration*, is the number of particles per unit volume.
+See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume` for a more general law.
+
+.. autodata:: symplyphysics.definitions.number_density_is_number_of_objects_per_unit_volume.number_density
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.number_density_is_number_of_objects_per_unit_volume.number_of_objects
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.number_density_is_number_of_objects_per_unit_volume.volume
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.number_density_is_number_of_objects_per_unit_volume.definition
+  :no-value:
+

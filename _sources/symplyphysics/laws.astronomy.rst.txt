@@ -9,5 +9,5 @@ Contents:
   :maxdepth: 4
 
   laws.astronomy.relativistic
-  laws.astronomy.absolute_magnitude_of_apparent_magnitude_and_distance
+  laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance
   laws.astronomy.angle_of_rotation_during_gravitational_maneuver

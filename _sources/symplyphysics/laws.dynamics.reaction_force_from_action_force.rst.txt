@@ -1,0 +1,16 @@
+Reaction force equals action force
+----------------------------------
+
+Newton's third law of motion states that for every action there is an equal and opposite reaction.
+Namely, if two bodies exert forces on each other, these forces have the same magnitude but opposite
+directions.
+
+.. autodata:: symplyphysics.laws.dynamics.reaction_force_from_action_force.action_force
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.reaction_force_from_action_force.reaction_force
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.reaction_force_from_action_force.law
+  :no-value:
+

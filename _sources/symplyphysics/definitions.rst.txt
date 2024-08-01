@@ -9,12 +9,12 @@ Contents:
   :maxdepth: 4
 
   definitions.vector
-  definitions.acceleration_is_velocity_derivative
-  definitions.admittance_is_inversed_impedance
-  definitions.angular_acceleration_is_angular_velocity_derivative
-  definitions.angular_velocity_is_angle_derivative
+  definitions.acceleration_is_speed_derivative
+  definitions.admittance_is_inverse_impedance
+  definitions.angular_acceleration_is_angular_speed_derivative
+  definitions.angular_speed_is_angular_distance_derivative
   definitions.angular_wavenumber_is_inverse_wavelength
-  definitions.boltzmann_factor
+  definitions.boltzmann_factor_via_state_energy_and_temperature
   definitions.capacitance_from_charge_and_voltage
   definitions.compliance_is_inverse_stiffness
   definitions.compressibility_factor_is_deviation_from_ideal_gas
@@ -25,30 +25,30 @@ Contents:
   definitions.harmonic_oscillator_is_second_derivative_equation
   definitions.heat_capacity_ratio
   definitions.impedance_is_resistance_and_reactance
-  definitions.impulse_due_to_force
+  definitions.impulse_is_integral_of_force_over_time
   definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area
   definitions.linear_charge_density_from_charge_and_length
   definitions.linear_coefficient_of_thermal_expansion
   definitions.lorentz_factor
   definitions.mass_flow_rate
   definitions.mass_fraction
-  definitions.mechanical_energy_is_kinetic_and_potential
-  definitions.moment_of_inertia_is_mass_times_squared_radius
-  definitions.momentum_is_mass_times_velocity
+  definitions.mechanical_energy_is_kinetic_and_potential_energy
+  definitions.momentum_is_mass_times_speed
+  definitions.net_force_is_sum_of_individual_forces
+  definitions.number_density_is_number_of_objects_per_unit_volume
   definitions.period_from_angular_frequency
   definitions.power_is_energy_derivative
   definitions.quality_factor_is_energies_ratio
   definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area
   definitions.refractive_index_is_wave_speeds_ratio
+  definitions.rotational_inertia_is_mass_times_squared_radius
   definitions.sound_level_in_decibels
-  definitions.superposition_of_forces_is_sum
+  definitions.speed_is_distance_derivative
   definitions.surface_charge_density_from_charge_and_area
   definitions.temporal_frequency_from_period
-  definitions.temporal_frequency_is_events_per_time
+  definitions.temporal_frequency_is_number_of_events_per_unit_time
   definitions.thermal_de_broglie_wavelength
   definitions.thermal_resistance_to_conduction
   definitions.thermodynamic_compressibility
-  definitions.velocity_is_movement_derivative
-  definitions.volume_number_density
   definitions.volumetric_coefficient_of_thermal_expansion
   definitions.wave_equation_in_one_dimension

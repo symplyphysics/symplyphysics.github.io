@@ -1,0 +1,17 @@
+Acceleration is speed derivative
+--------------------------------
+
+*Acceleration* is the derivative of speed w.r.t. time.
+
+.. autodata:: symplyphysics.definitions.acceleration_is_speed_derivative.acceleration
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.acceleration_is_speed_derivative.speed
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.acceleration_is_speed_derivative.time
+  :no-value:
+
+.. autodata:: symplyphysics.definitions.acceleration_is_speed_derivative.definition
+  :no-value:
+

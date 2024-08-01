@@ -1,0 +1,22 @@
+Rotational work is torque times angular distance
+------------------------------------------------
+
+When a torque accelerates a rigid body in rotation about a fixed axis, the torque does work on
+the body. When the torque is constant, the work done on the body is proportional to torque
+and the angular displacement during the movement of the body.
+
+..
+    TODO Rename file
+
+.. autodata:: symplyphysics.laws.dynamics.rotational_work_is_torque_times_angular_distance.work
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.rotational_work_is_torque_times_angular_distance.torque
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.rotational_work_is_torque_times_angular_distance.angular_distance
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.rotational_work_is_torque_times_angular_distance.law
+  :no-value:
+

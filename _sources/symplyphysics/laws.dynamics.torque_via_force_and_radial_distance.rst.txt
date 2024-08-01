@@ -1,0 +1,25 @@
+Torque via force and radial distance
+------------------------------------
+
+*Torque* is a turning action on a body about a rotation axis due to a force.
+
+**Notes:**
+
+#. The position vector of a point in space, also known as location or radius vector,
+   is the vector connecting the origin of the coordinate system and the given point.
+
+.. autodata:: symplyphysics.laws.dynamics.torque_via_force_and_radial_distance.torque
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.torque_via_force_and_radial_distance.force
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.torque_via_force_and_radial_distance.radial_distance
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.torque_via_force_and_radial_distance.angle_between_vectors
+  :no-value:
+
+.. autodata:: symplyphysics.laws.dynamics.torque_via_force_and_radial_distance.law
+  :no-value:
+
