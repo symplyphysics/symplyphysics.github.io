@@ -1,0 +1,34 @@
+Internal energy change via heat and work
+----------------------------------------
+
+The *first law of thermodynamics* is a formulation of the law of conservation of energy in the
+context of thermodynamic processes. It relates the change in internal energe of the system,
+work done on or by the system and the amount of heat supplied to or withdrawn from the system
+during a thermodynamic process.
+
+**Notation:**
+
+#. :math:`\delta` (:code:`delta`) denotes an inexact, path-dependent differential.
+#. :math:`d` denotes an exact, path-independent differential.
+
+**Notes:**
+
+#. This formula applies to any infinitesimal thermodynamic process, be in static or not.
+#. This formula can be extended to finite processes by changing infinitesimal changes to finite ones.
+#. The work done *by* the system onto the environment is positive, and work done *onto* the system
+   by the environment is negative.
+#. The heat flowing from the environment *into* the system is positive, and the heat flowing into
+   the environment *out of* the system is negative.
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_change_via_heat_and_work.internal_energy_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_change_via_heat_and_work.heat_supplied_to_system
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_change_via_heat_and_work.work_done_by_system
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_change_via_heat_and_work.law
+  :no-value:
+

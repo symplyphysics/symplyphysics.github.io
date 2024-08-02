@@ -1,0 +1,23 @@
+Isobaric molar heat capacity of ideal gas via adiabatic index
+-------------------------------------------------------------
+
+For ideal gases the isobaric and isochoric heat capacities can be calculated via the molar gas
+constant and the adiabatic index of the gas.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+.. autodata:: symplyphysics.laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.isobaric_molar_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.adiabatic_index
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.law
+  :no-value:
+

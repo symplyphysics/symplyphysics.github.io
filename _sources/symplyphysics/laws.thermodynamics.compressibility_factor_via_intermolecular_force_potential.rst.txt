@@ -1,0 +1,41 @@
+Compressibility factor via intermolecular force potential
+---------------------------------------------------------
+
+The virial equation describes the deviation of a real gas from ideal gas behaviour. The virial coefficients
+in the virial expansion account for interactions between successively larger groups of molecules. Since
+interactions between large numbers of molecules are rare, the virial equation is usually truncated at the third
+term onwards. Under the assumption that only pair interactions are present, the compressibility factor can be
+linked to the intermolecular force potential.
+
+**Notation:**
+
+#. :math:`k_\text{B}` is the Boltzmann constant.
+
+**Conditions:**
+
+#. The virial expansion is done up to the second virial coefficient inclusively.
+
+..
+    TODO Simplify this law by reducing it to the formula of the second virial coefficient
+
+.. autodata:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.compressibility_factor
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.particle_count
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.intermolecular_distance
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.intermolecular_force_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.law
+  :no-value:
+

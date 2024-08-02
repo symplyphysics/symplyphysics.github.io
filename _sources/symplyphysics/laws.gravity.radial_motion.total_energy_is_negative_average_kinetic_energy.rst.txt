@@ -7,10 +7,6 @@ The total energy of an orbiting planet is equal to its negative kinetic energy a
 
 #. Works for elliptical (:math:`E < 0`) orbits.
 
-**Notes:**
-
-#. :code:`<A>` denotes the average of the quantity :code:`A`.
-
 .. autodata:: symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy.total_mechanical_energy
   :no-value:
 

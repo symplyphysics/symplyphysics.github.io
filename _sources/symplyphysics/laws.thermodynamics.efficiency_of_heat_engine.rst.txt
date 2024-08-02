@@ -1,0 +1,18 @@
+Efficiency of heat engine
+-------------------------
+
+Efficiency of a heat engine is the ratio of the useful energy to the total energy received
+by the system.
+
+.. autodata:: symplyphysics.laws.thermodynamics.efficiency_of_heat_engine.heat_from_heater
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.efficiency_of_heat_engine.heat_to_refrigerator
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.efficiency_of_heat_engine.efficiency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.efficiency_of_heat_engine.law
+  :no-value:
+

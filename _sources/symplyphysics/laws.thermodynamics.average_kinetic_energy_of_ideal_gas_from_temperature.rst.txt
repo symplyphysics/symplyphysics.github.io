@@ -1,0 +1,24 @@
+Average kinetic energy of ideal gas from temperature
+----------------------------------------------------
+
+The kinetic theory of ideal gases allows us to determine the *average kinetic energy* for an ideal gas.
+It states that the average kinetic energy for all ideal gases is directly proportional to the absolute
+temperature of the gas and only depends on the temperature.
+
+**Notation:**
+
+#. :math:`k_\text{B}` is the Boltzmann constant.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+.. autodata:: symplyphysics.laws.thermodynamics.average_kinetic_energy_of_ideal_gas_from_temperature.average_kinetic_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.average_kinetic_energy_of_ideal_gas_from_temperature.equilibrium_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.average_kinetic_energy_of_ideal_gas_from_temperature.law
+  :no-value:
+

@@ -1,0 +1,46 @@
+Internal energy differential
+----------------------------
+
+The *fundamental thermodynamic relations* are fundamental equations which demonstrate how important
+thermodynamic quantities depend on variables that are measurable experimentally.
+
+**Notation:**
+
+#. :math:`d` denotes an exact, path-independent differential.
+
+**Notes:**
+
+#. Entropy, volume, and particle count are so called natural variables of internal energy as a
+   thermodynamic potential.
+#. For a system with more than one type of particles, the last term can be represented as a sum over all
+   types of particles, i.e. :math:`\sum_i \mu_i \, d N_i`.
+
+**Conditions:**
+
+#. The system is in thermal equilibrium with its surroundings
+#. The system is composed of only one type of particles, i.e. the system is a pure substance.
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.internal_energy_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.entropy_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.volume_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.chemical_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.particle_count_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_differential.law
+  :no-value:
+

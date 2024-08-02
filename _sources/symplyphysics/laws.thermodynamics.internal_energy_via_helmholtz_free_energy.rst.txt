@@ -1,0 +1,24 @@
+Internal energy via Helmholtz free energy
+-----------------------------------------
+
+*Gibbs—Helmholtz relations* are a set of equations that relate thermodynamic potentials between each other.
+
+**Conditions:**
+
+#. The number of particles in the system is held constant.
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.internal_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.free_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.law
+  :no-value:
+
