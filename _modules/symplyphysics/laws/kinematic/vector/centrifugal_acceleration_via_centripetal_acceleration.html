@@ -117,8 +117,7 @@
 <span class="nd">@validate_input</span><span class="p">(</span><span class="n">centripetal_acceleration_</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">acceleration</span><span class="p">)</span>
 <span class="nd">@validate_output</span><span class="p">(</span><span class="n">units</span><span class="o">.</span><span class="n">acceleration</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">calculate_centrifugal_acceleration</span><span class="p">(</span>
-    <span class="n">centripetal_acceleration_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,</span>
-<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">QuantityVector</span><span class="p">:</span>
+    <span class="n">centripetal_acceleration_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,)</span> <span class="o">-&gt;</span> <span class="n">QuantityVector</span><span class="p">:</span>
     <span class="n">result_vector</span> <span class="o">=</span> <span class="n">centrifugal_law</span><span class="p">(</span><span class="n">centripetal_acceleration_</span><span class="o">.</span><span class="n">to_base_vector</span><span class="p">())</span>
     <span class="k">return</span> <span class="n">QuantityVector</span><span class="o">.</span><span class="n">from_base_vector</span><span class="p">(</span><span class="n">result_vector</span><span class="p">)</span>
 </pre></div>
