@@ -1,0 +1,16 @@
+Gas mixture pressure from partial pressures
+-------------------------------------------
+
+The pressure of a mixture of gases is equal to the sum of their partial pressures. *Partial pressure*
+of a gas is the pressure that the gas would exert on the walls of a vessel when it is the only gas present
+in the vessel.
+
+.. autodata:: symplyphysics.laws.thermodynamics.gas_mixture_pressure_from_partial_pressures.total_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.gas_mixture_pressure_from_partial_pressures.partial_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.gas_mixture_pressure_from_partial_pressures.law
+  :no-value:
+

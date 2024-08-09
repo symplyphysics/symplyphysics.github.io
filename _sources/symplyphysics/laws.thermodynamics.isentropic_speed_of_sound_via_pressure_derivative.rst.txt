@@ -8,18 +8,18 @@ isentropic, process. This is in contrast with the Newton's formula, who thought 
 is an isothermal process in the assumption that the temperature differences between different parts of
 the sound wave immediately level out, which eventually turned out to be inconsistent with experimental data.
 
-.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound.speed_of_sound
+.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.speed_of_sound
   :no-value:
 
-.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound.pressure
+.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.pressure
   :no-value:
 
-.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound.density
+.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.density
   :no-value:
 
-.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound.entropy
+.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.entropy
   :no-value:
 
-.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound.law
+.. autodata:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.law
   :no-value:
 

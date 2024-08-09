@@ -1,0 +1,22 @@
+Enthalpy is internal energy plus pressure energy
+------------------------------------------------
+
+Enthalpy :math:`H` of a thermodynamic system is defined as the sum of its internal energy
+:math:`U` and the product of its pressure :math:`p` and volume :math:`V`, which is sometimes
+referred to as the pressure energy.
+
+.. autodata:: symplyphysics.laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy.enthalpy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy.internal_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy.law
+  :no-value:
+

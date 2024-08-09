@@ -1,0 +1,32 @@
+Grashof number
+--------------
+
+The Grashof number (Gr) is a dimensionless number which approximates the ratio of the
+buoyancy to viscous forces acting on a fluid. It arises in situations involving natural convection
+and is analogous to the Reynolds number.
+
+**Notation:**
+
+#. :math:`g` is the acceleration due to gravity.
+
+.. autodata:: symplyphysics.laws.thermodynamics.grashof_number.grashof_number
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.grashof_number.volumetric_expansion_coefficient
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.grashof_number.surface_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.grashof_number.bulk_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.grashof_number.characteristic_length
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.grashof_number.kinematic_viscosity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.grashof_number.law
+  :no-value:
+

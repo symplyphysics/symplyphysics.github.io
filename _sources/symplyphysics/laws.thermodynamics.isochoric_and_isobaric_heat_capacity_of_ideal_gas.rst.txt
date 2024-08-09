@@ -1,0 +1,26 @@
+Isochoric and isobaric heat capacities of ideal gas
+---------------------------------------------------
+
+Mayer's relation is the relation between heat capacity at constant pressure and that at
+constant volume in the case of an ideal gas.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. Gas is ideal.
+
+.. autodata:: symplyphysics.laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.isobaric_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.isochoric_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.amount_of_substance
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.law
+  :no-value:
+

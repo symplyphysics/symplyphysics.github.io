@@ -1,0 +1,17 @@
+Reduced pressure
+----------------
+
+Reduced units are used in the dimensionless van der Waals equation of state.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure.reduced_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure.critical_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure.law
+  :no-value:
+

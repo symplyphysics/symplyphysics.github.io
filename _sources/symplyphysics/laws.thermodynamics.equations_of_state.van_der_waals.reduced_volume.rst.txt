@@ -1,0 +1,21 @@
+Reduced volume
+--------------
+
+Reduced units are used in the dimensionless van der Waals equation of state.
+
+**Note:**
+
+#. Specific or molar volumes can be used in the right-hand side of the law.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume.reduced_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume.critical_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume.law
+  :no-value:
+

@@ -1,0 +1,15 @@
+Critical molar volume
+---------------------
+
+Critical molar volume of a van der Waals fluid is proportional to the excluded volume
+parameter :math:`b` of the van der Waals equation. See :ref:`vdw_critical_parameters_def`.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.critical_molar_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.excluded_volume_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.law
+  :no-value:
+

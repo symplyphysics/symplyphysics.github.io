@@ -1,0 +1,27 @@
+Radiation power via temperature
+-------------------------------
+
+One of the methods an object can exchange energy with its environment is via thermal radiation by
+emitting or absorbing energy in the form of electromagnetic waves. Also known as the *Stefan—Boltzmann
+law* of radiation, it states that the rate of thermal radiation is proportional to the fourth power of
+the radiating body's temperature.
+
+**Notation:**
+
+#. :math:`\sigma` (:code:`sigma`) is the Stefan—Boltzmann constant.
+
+.. autodata:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature.radiation_power
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature.emissivity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature.surface_area
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature.law
+  :no-value:
+

@@ -1,0 +1,26 @@
+Single particle state distribution
+----------------------------------
+
+Occupancy of a single-particle state of bosons is the probability of a single boson
+to occupy a state with a certain amount of energy. The occupancy depends on the energy
+of the state and the temperature and the chemical potential of the system.
+
+**Conditions:**
+
+#. :math:`E_i > \mu`.
+
+.. autodata:: symplyphysics.laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution.occupancy_of_state
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution.energy_of_state
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution.total_chemical_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution.law
+  :no-value:
+

@@ -1,0 +1,23 @@
+Temperature is derivative of internal energy
+--------------------------------------------
+
+Temperature of a thermodynamic system can be found when internal energy is known as a function of entropy.
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_is_derivative_of_internal_energy.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_is_derivative_of_internal_energy.internal_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_is_derivative_of_internal_energy.entropy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_is_derivative_of_internal_energy.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_is_derivative_of_internal_energy.particle_count
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_is_derivative_of_internal_energy.law
+  :no-value:
+

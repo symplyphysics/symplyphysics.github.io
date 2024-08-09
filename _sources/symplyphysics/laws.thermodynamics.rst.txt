@@ -13,7 +13,6 @@ Contents:
   laws.thermodynamics.euler_relations
   laws.thermodynamics.fermi_dirac_statistics
   laws.thermodynamics.heat_transfer
-  laws.thermodynamics.maxwell_boltzmann_distributions
   laws.thermodynamics.maxwell_boltzmann_statistics
   laws.thermodynamics.relativistic
   laws.thermodynamics.average_kinetic_energy_of_ideal_gas_from_temperature
@@ -33,7 +32,26 @@ Contents:
   laws.thermodynamics.diffusion_flux_from_diffusion_coefficient_and_concentration_gradient
   laws.thermodynamics.dynamic_viscosity_of_gas_from_control_viscosity_and_temperature
   laws.thermodynamics.efficiency_of_heat_engine
+  laws.thermodynamics.enthalpy_derivative_via_volume_derivative
+  laws.thermodynamics.enthalpy_differential
+  laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy
+  laws.thermodynamics.enthalpy_via_gibbs_energy
+  laws.thermodynamics.entropy_change_in_reversible_process
+  laws.thermodynamics.entropy_derivative_via_volume_derivative
+  laws.thermodynamics.entropy_from_statistical_weight
+  laws.thermodynamics.entropy_is_derivative_of_free_energy
+  laws.thermodynamics.entropy_is_derivative_of_gibbs_energy
+  laws.thermodynamics.entropy_of_independent_subsystems_is_sum_of_their_entropies
+  laws.thermodynamics.fractional_volume_change_via_small_temperature_change
+  laws.thermodynamics.free_energy_differential
+  laws.thermodynamics.gas_mixture_pressure_from_partial_pressures
+  laws.thermodynamics.gas_pressure_change_from_temperature
+  laws.thermodynamics.gibbs_energy_differential
+  laws.thermodynamics.gibbs_energy_via_enthalpy
+  laws.thermodynamics.grashof_number
+  laws.thermodynamics.heat_is_heat_capacity_times_temperature_change
   laws.thermodynamics.heat_of_combustion_via_mass
+  laws.thermodynamics.heat_of_vaporization_via_mass
   laws.thermodynamics.helmholtz_free_energy_via_internal_energy
   laws.thermodynamics.infinitesimal_work_in_quasistatic_process
   laws.thermodynamics.intensive_parameters_relation
@@ -42,7 +60,35 @@ Contents:
   laws.thermodynamics.internal_energy_differential
   laws.thermodynamics.internal_energy_of_ideal_gas_via_temperature
   laws.thermodynamics.internal_energy_via_helmholtz_free_energy
-  laws.thermodynamics.isentropic_speed_of_sound
+  laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative
   laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
   laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance
+  laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas
+  laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
+  laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_degrees_of_freedom
+  laws.thermodynamics.laplace_pressure_of_spherical_shapes
   laws.thermodynamics.latent_heat_of_fusion_via_mass
+  laws.thermodynamics.mean_free_path_of_random_motion
+  laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity
+  laws.thermodynamics.pressure_and_temperature_in_isochoric_process
+  laws.thermodynamics.pressure_and_volume_in_adiabatic_process
+  laws.thermodynamics.pressure_and_volume_in_isothermal_process
+  laws.thermodynamics.pressure_from_number_density_and_kinetic_energy
+  laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature
+  laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume
+  laws.thermodynamics.probability_of_ideal_gas_macrostate
+  laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids
+  laws.thermodynamics.radiation_power_via_temperature
+  laws.thermodynamics.rate_of_energy_conduction_through_slab
+  laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure
+  laws.thermodynamics.speed_of_sound_in_ideal_gas
+  laws.thermodynamics.temperature_derivative_via_volume_derivative
+  laws.thermodynamics.temperature_is_derivative_of_internal_energy
+  laws.thermodynamics.total_energy_transfer_is_zero_in_isolated_system
+  laws.thermodynamics.total_partical_count_is_sum_of_occupancies
+  laws.thermodynamics.volume_and_temperature_in_isobaric_process
+  laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials
+  laws.thermodynamics.volumetric_expansion_coefficient_of_ideal_gas
+  laws.thermodynamics.work_is_integral_of_pressure_over_volume
+  laws.thermodynamics.work_of_ideal_gas_in_isobaric_process
+  laws.thermodynamics.work_of_ideal_gas_in_isothermal_process

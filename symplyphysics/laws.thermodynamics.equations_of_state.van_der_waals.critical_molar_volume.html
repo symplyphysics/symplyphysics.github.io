@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Critical molar volume &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=27fed22d" />
+    <script src="../_static/documentation_options.js?v=8d563738"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Critical pressure" href="laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure.html" />
+    <link rel="prev" title="Van der Waals equation of state" href="laws.thermodynamics.equations_of_state.van_der_waals.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="critical-molar-volume">
+<h1>Critical molar volume<a class="headerlink" href="#critical-molar-volume" title="Link to this heading">¶</a></h1>
+<p>Critical molar volume of a van der Waals fluid is proportional to the excluded volume
+parameter <span class="math notranslate nohighlight">\(b\)</span> of the van der Waals equation. See <a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.html#vdw-critical-parameters-def"><span class="std std-ref">Critical parameters</span></a>.</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.critical_molar_volume">
+<span class="sig-name descname"><span class="pre">critical_molar_volume</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.critical_molar_volume" title="Link to this definition">¶</a></dt>
+<dd><p>Critical volume of the van der Waals fluid per unit amount of substance.</p>
+<p class="rubric">Symbol</p>
+<p><code class="code docutils literal notranslate"><span class="pre">v_c</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(v_\text{c}\)</span></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.excluded_volume_parameter">
+<span class="sig-name descname"><span class="pre">excluded_volume_parameter</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.excluded_volume_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Parameter of the van der Waals equation denoting an excluded molar volume
+due to a finite size of molecules.</p>
+<p class="rubric">Symbol</p>
+<p><code class="code docutils literal notranslate"><span class="pre">b</span></code></p>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">v_c</span> <span class="pre">=</span> <span class="pre">3</span> <span class="pre">*</span> <span class="pre">b</span></code></p>
+<p class="rubric">Latex</p>
+<div class="math notranslate nohighlight">
+\[v_c = 3 b\]</div>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.bose_einstein_statistics.html"><strong>Bose—Einstein statistics</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.thermodynamics.equations_of_state.html"><strong>Equations of state</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.html"><strong>Van der Waals equation of state</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.equations_of_state.ideal_gas_equation.html">Ideal gas equation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.html"><strong>Maxwell—Boltzmann statistics</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relativistic.html"><strong>Relativistic Thermodynamics</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.average_kinetic_energy_of_ideal_gas_from_temperature.html">Average kinetic energy of ideal gas from temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.average_speed_in_maxwell_boltzmann_statistics.html">Average speed in Maxwell—Boltzmann statistics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.average_square_speed_in_maxwell_boltzmann_statistics.html">Average square speed in Maxwell—Boltzmann statistics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.canonical_partition_function_of_classical_discrete_system.html">Canonical partition function of a classical discrete system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature.html">Change in entropy of ideal gas from volume and temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.html">Chemical potential is Gibbs energy per particle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_enthalpy.html">Chemical potential is particle count derivative of enthalpy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_free_energy.html">Chemical potential is particle count derivative of free energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_gibbs_energy.html">Chemical potential is particle count derivative of Gibbs energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_internal_energy.html">Chemical potential is particle count derivative of internal energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_of_ideal_gas.html">Chemical potential of ideal gas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.classical_isochoric_molar_heat_capacity_of_solids.html">Classical isochoric molar head capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential.html">Compressibility factor via intermolecular force potential</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.html">Diffusion coefficient of spherical Brownian particles from temperature and dynamic viscosity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.diffusion_flux_from_diffusion_coefficient_and_concentration_gradient.html">Diffusion flux from diffusion coefficient and concentration gradient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.dynamic_viscosity_of_gas_from_control_viscosity_and_temperature.html">Dynamic viscosity of gas from temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.efficiency_of_heat_engine.html">Efficiency of heat engine</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.enthalpy_derivative_via_volume_derivative.html">Enthalpy derivative via volume derivative</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.enthalpy_differential.html">Enthalpy differential</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy.html">Enthalpy is internal energy plus pressure energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.enthalpy_via_gibbs_energy.html">Enthalpy via Gibbs energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.entropy_change_in_reversible_process.html">Entropy change in reversible process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.entropy_derivative_via_volume_derivative.html">Entropy derivative via volume derivative</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.entropy_from_statistical_weight.html">Entropy from statistical weight</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.entropy_is_derivative_of_free_energy.html">Entropy is derivative of free energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.entropy_is_derivative_of_gibbs_energy.html">Entropy is derivative of Gibbs energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.entropy_of_independent_subsystems_is_sum_of_their_entropies.html">Entropy of independent subsystems is sum of their entropies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.fractional_volume_change_via_small_temperature_change.html">Fractional volume change via small temperature change</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.free_energy_differential.html">Free energy differential</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.gas_mixture_pressure_from_partial_pressures.html">Gas mixture pressure from partial pressures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.gas_pressure_change_from_temperature.html">Gas pressure change from temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.gibbs_energy_differential.html">Gibbs energy differential</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.gibbs_energy_via_enthalpy.html">Gibbs energy via enthalpy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.grashof_number.html">Grashof number</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.heat_is_heat_capacity_times_temperature_change.html">Heat is heat capacity times temperature change</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.heat_of_combustion_via_mass.html">Heat of combustion via mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.heat_of_vaporization_via_mass.html">Heat of vaporization via mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.helmholtz_free_energy_via_internal_energy.html">Helmholtz free energy via internal energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.infinitesimal_work_in_quasistatic_process.html">Infinitesimal work in quasistatic process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.intensive_parameters_relation.html">Intensive parameters relation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_change_of_ideal_gas_via_temperature.html">Internal energy change of ideal gas via temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_change_via_heat_and_work.html">Internal energy change via heat and work</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_differential.html">Internal energy differential</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_of_ideal_gas_via_temperature.html">Internal energy of ideal gas via temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_degrees_of_freedom.html">Isochoric molar heat capacity of ideal gas via degrees of freedom</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.laplace_pressure_of_spherical_shapes.html">Laplace pressure of spherical shapes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html">Latent heat of fusion via mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.mean_free_path_of_random_motion.html">Mean free path of random motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_isothermal_process.html">Pressure and volume in isothermal process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_from_number_density_and_kinetic_energy.html">Pressure from number density and kinetic energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.html">Pressure of ideal gas from height and temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.speed_of_sound_in_ideal_gas.html">Speed of sound in ideal gas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.temperature_derivative_via_volume_derivative.html">Temperature derivative via volume derivative</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.temperature_is_derivative_of_internal_energy.html">Temperature is derivative of internal energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.total_energy_transfer_is_zero_in_isolated_system.html">Total energy transfer is zero in adiabatically isolated system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.total_partical_count_is_sum_of_occupancies.html">Total particle count is sum of occupancies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.volume_and_temperature_in_isobaric_process.html">Volume and temperature in isobaric process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials.html">Volumetric and linear expansion coefficients in isotropic materials</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.volumetric_expansion_coefficient_of_ideal_gas.html">Volumetric expansion coefficient of ideal gas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.work_is_integral_of_pressure_over_volume.html">Work is integral of pressure over volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.work_of_ideal_gas_in_isobaric_process.html">Work of ideal gas in isobaric process</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.work_of_ideal_gas_in_isothermal_process.html">Work of ideal gas in isothermal process</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.thermodynamics.html">Thermodynamics</a><ul>
+  <li><a href="laws.thermodynamics.equations_of_state.html"><strong>Equations of state</strong></a><ul>
+  <li><a href="laws.thermodynamics.equations_of_state.van_der_waals.html"><strong>Van der Waals equation of state</strong></a><ul>
+      <li>Previous: <a href="laws.thermodynamics.equations_of_state.van_der_waals.html" title="previous chapter"><strong>Van der Waals equation of state</strong></a></li>
+      <li>Next: <a href="laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure.html" title="next chapter">Critical pressure</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="../_sources/symplyphysics/laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

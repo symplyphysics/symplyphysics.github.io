@@ -1,0 +1,33 @@
+Temperature derivative via volume derivative
+--------------------------------------------
+
+The *Joule—Thompson effect* describes the change in temperature that accompanies the expansion of
+a gas without production of work or transfer of heat, which is in effect an isenthalpic process.
+
+**Notes:**
+
+#. The left-hand side of the equation is also called the *Joule—Thompson coefficient*.
+
+**Conditions:**
+
+#. Particle count is assumed to be constant.
+#. Heat capacity is assumed to be independent of temperature.
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_derivative_via_volume_derivative.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_derivative_via_volume_derivative.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_derivative_via_volume_derivative.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_derivative_via_volume_derivative.enthalpy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_derivative_via_volume_derivative.isobaric_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.temperature_derivative_via_volume_derivative.law
+  :no-value:
+

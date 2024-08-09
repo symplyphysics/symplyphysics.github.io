@@ -1,0 +1,28 @@
+Molar internal energy
+---------------------
+
+If the equation of state is known, the internal energy of a substance can be found
+as a function of volume at constant temperature.
+
+**Conditions:**
+
+#. The fluid is homogeneous and in a single phase state.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy.molar_internal_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy.isochoric_molar_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy.attractive_forces_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy.molar_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy.law
+  :no-value:
+

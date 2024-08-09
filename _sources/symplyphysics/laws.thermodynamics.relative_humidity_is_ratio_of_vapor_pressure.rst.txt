@@ -1,0 +1,21 @@
+Relative humidity is ratio of vapor pressure
+--------------------------------------------
+
+*Relative humidity* is the ratio of actual water vapor pressure :math:`p` to saturation vapor
+pressure :math:`p_0` at a given temperature. *Saturation vapor* is vapor in dynamic
+equilibrium with a liquid or solid of the same composition in a closed system. In such
+a system, the number of evaporating molecules is equal to the number of condensing
+molecules per unit time.
+
+.. autodata:: symplyphysics.laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.relative_humidity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.actual_vapor_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.saturation_vapor_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.law
+  :no-value:
+

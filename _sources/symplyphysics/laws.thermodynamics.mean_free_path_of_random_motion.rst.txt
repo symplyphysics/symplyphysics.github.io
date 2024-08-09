@@ -1,0 +1,21 @@
+Mean free path of random motion
+-------------------------------
+
+The mean free path of a molecule in random motion is its average path length between collisions.
+
+**Conditions:**
+
+#. Spherical model of molecules is assumed.
+
+.. autodata:: symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.mean_free_path
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.molecular_diameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.number_density
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.law
+  :no-value:
+

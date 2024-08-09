@@ -1,0 +1,18 @@
+Heat of vaporization via mass
+-----------------------------
+
+*Heat of vaporization* is the heat released during the complete vaporization of a body,
+in which it is converted from liquid into gaseous state.
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_of_vaporization_via_mass.heat
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_of_vaporization_via_mass.mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_of_vaporization_via_mass.specific_heat_of_vaporization
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_of_vaporization_via_mass.law
+  :no-value:
+

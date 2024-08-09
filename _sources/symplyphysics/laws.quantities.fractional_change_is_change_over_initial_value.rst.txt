@@ -1,0 +1,17 @@
+Fractional change is change over initial value
+----------------------------------------------
+
+
+
+.. autodata:: symplyphysics.laws.quantities.fractional_change_is_change_over_initial_value.fractional_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.quantities.fractional_change_is_change_over_initial_value.change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.quantities.fractional_change_is_change_over_initial_value.initial_value
+  :no-value:
+
+.. autodata:: symplyphysics.laws.quantities.fractional_change_is_change_over_initial_value.law
+  :no-value:
+

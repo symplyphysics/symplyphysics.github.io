@@ -1,0 +1,22 @@
+Total particle count is sum of occupancies
+------------------------------------------
+
+Maxwell—Boltzmann, Fermi—Dirac and Bose—Einstein distributions describe the average number of particles
+in some energy level or particle state. They are normalized by the condition that the sum of the number
+of particles in each energy level or particle state should be equal to the total number of particles
+in the system.
+
+**Notes:**
+
+#. This law can be used to express chemical potential :math:`\mu` as a function of temperature :math:`T`
+   and total particle count :math:`N` for Fermi—Dirac and Bose—Einstein distributions.
+
+.. autodata:: symplyphysics.laws.thermodynamics.total_partical_count_is_sum_of_occupancies.total_particle_count
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.total_partical_count_is_sum_of_occupancies.occupancy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.total_partical_count_is_sum_of_occupancies.law
+  :no-value:
+

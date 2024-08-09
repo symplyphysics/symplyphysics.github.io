@@ -1,0 +1,34 @@
+Work of ideal gas in isothermal process
+---------------------------------------
+
+The isothermal process of expansion (or compression) of a gas can occur under conditions where heat
+exchange between the gas and the external environment is carried out at a constant temperature.
+To do this, the heat capacity of the external environment must be large enough, and the expansion
+(or compression) process must be slow enough.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. The temperature of the gas stays constant during the expansion.
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isothermal_process.work
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isothermal_process.amount_of_substance
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isothermal_process.initial_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isothermal_process.final_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isothermal_process.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isothermal_process.law
+  :no-value:
+

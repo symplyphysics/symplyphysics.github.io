@@ -1,0 +1,18 @@
+Critical pressure
+-----------------
+
+Critical pressure in a van der Waals fluid depends on the parameters :math:`a` and
+:math:`b` of the van der Waals equation. See :ref:`vdw_critical_parameters_def`.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure.critical_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure.attractive_forces_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure.excluded_volume_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure.law
+  :no-value:
+

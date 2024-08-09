@@ -1,0 +1,23 @@
+Gibbs energy via enthalpy
+-------------------------
+
+Gibbs energy is a thermodynamic potential that can be used to calculate the maximum amount of work
+that may be performed by a thermodynamically closed system at constant temperature and pressure.
+It provides a necessary condition for processes such as chemical reactions that may occur under these
+conditions.
+
+.. autodata:: symplyphysics.laws.thermodynamics.gibbs_energy_via_enthalpy.gibbs_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.gibbs_energy_via_enthalpy.enthalpy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.gibbs_energy_via_enthalpy.entropy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.gibbs_energy_via_enthalpy.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.gibbs_energy_via_enthalpy.law
+  :no-value:
+

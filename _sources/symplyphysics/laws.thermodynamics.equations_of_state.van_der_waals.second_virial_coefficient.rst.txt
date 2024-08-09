@@ -1,0 +1,32 @@
+Second virial coefficient
+-------------------------
+
+The *second virial coefficient* is a coefficient appearing in the virial equation of state of
+a gas which describes the deviation from ideal gas behaviour. This coefficient describes pair
+interaction between molecules of the substance and can be found if the pair interaction potential
+is known, but it can also be derived from the equation of state as a series expansion with respect
+to inverse molar volume or equivalently, to molar density.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. The gas density is small enough within the context of perturbation theory.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient.second_virial_coefficient
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient.attractive_forces_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient.excluded_volume_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient.law
+  :no-value:
+

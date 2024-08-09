@@ -1,0 +1,26 @@
+Pressure and temperature in isochoric process
+---------------------------------------------
+
+A thermodynamic process is isochoric when the volume of the body stays constant during it.
+During an isochoric process, the pressure of the gas scales by the same amount as the temperature
+of the gas.
+
+**Condition:**
+
+#. Applies to ideal gases.
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_temperature_in_isochoric_process.initial_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_temperature_in_isochoric_process.final_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_temperature_in_isochoric_process.initial_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_temperature_in_isochoric_process.final_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_temperature_in_isochoric_process.law
+  :no-value:
+

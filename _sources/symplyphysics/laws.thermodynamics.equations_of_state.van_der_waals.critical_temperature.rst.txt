@@ -1,0 +1,22 @@
+Critical temperature
+--------------------
+
+Critical temperature of a van der Waals fluid depends on the parameters :math:`a` and :math:`b`
+of the van der Waals equation and the molar gas constant :math:`R`. See :ref:`vdw_critical_parameters_def`.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature.critical_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature.attractive_forces_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature.excluded_volume_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature.law
+  :no-value:
+

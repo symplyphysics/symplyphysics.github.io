@@ -1,0 +1,25 @@
+Work of ideal gas in isobaric process
+-------------------------------------
+
+An isobaric process is a process that occurs at constant pressure. The work done
+by the gas is proportional to the pressure of the gas and its volume change.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isobaric_process.work
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isobaric_process.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isobaric_process.initial_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isobaric_process.final_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isobaric_process.law
+  :no-value:
+

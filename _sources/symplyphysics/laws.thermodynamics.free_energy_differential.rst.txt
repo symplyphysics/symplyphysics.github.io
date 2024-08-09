@@ -1,0 +1,46 @@
+Free energy differential
+------------------------
+
+The fundamental thermodynamic relations are fundamental equations which demonstate how important
+thermodynamic quantities depend on variables that are measurable experimentally.
+
+**Notation:**
+
+#. :math:`d` denotes an exact, path-independent differential.
+
+**Notes:**
+
+#. Temperature, volume, and particle count are so called natural variables of free energy as a
+   thermodynamic potential.
+#. For a system with more than one type of particles, the last term can be represented as a sum over all
+   types of particles, i.e. :math:`\sum_i \mu_i \, d N_i`.
+
+**Conditions:**
+
+#. The system is in thermal equilibrium with its surroundings.
+#. The system is composed of only one type of particles, i.e. the system is a pure substance.
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.free_energy_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.entropy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.temperature_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.volume_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.chemical_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.particle_count_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.free_energy_differential.law
+  :no-value:
+

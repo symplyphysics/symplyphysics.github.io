@@ -1,0 +1,22 @@
+Prandtl number via dynamic viscosity and thermal conductivity
+-------------------------------------------------------------
+
+*Prandtl number* is a dimensionless quantity defined as the ratio of kinetic viscosity
+(momentum diffusivity) to thermal diffusivity. It can also be expressed using dynamic viscosity
+and thermal conductivity.
+
+.. autodata:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.isobaric_specific_heat_capacity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.dynamic_viscosity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.thermal_conductivity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.prandtl_number
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.law
+  :no-value:
+

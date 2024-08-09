@@ -1,0 +1,33 @@
+Van der Waals equation
+----------------------
+
+To more accurately describe the behavior of real gases at low temperatures,
+a Van der Waals gas model was created, taking into account the forces of intermolecular interaction.
+In this model, internal energy becomes a function not only of temperature, but also of molar_volume.
+
+The Van der Waals equation is one of the well-known approximate equations of state describing
+the properties of a real gas, having a compact form and taking
+into account the main characteristics of a gas with intermolecular interaction.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.molar_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.attractive_forces_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.excluded_volume_parameter
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.law
+  :no-value:
+

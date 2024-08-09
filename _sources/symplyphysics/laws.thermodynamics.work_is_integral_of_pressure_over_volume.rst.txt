@@ -1,0 +1,29 @@
+Work is integral of pressure over volume
+----------------------------------------
+
+The pressure-volume work is the work done by a thermodynamic system when the volume of the
+system changes.
+
+**Conditions:**
+
+#. The process is reversible or quasi-static.
+#. The system is closed.
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_is_integral_of_pressure_over_volume.work
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_is_integral_of_pressure_over_volume.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_is_integral_of_pressure_over_volume.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_is_integral_of_pressure_over_volume.initial_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_is_integral_of_pressure_over_volume.final_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.work_is_integral_of_pressure_over_volume.law
+  :no-value:
+

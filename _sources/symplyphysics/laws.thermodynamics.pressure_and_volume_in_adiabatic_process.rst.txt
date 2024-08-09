@@ -1,0 +1,30 @@
+Adiabatic process equation via pressure and volume
+--------------------------------------------------
+
+An *adiabatic process* is a type of thermodynamic process that occurs without transferring
+heat or mass between the thermodynamic system and its environment.
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.adiabatic_index
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.initial_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.final_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.initial_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.final_volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.initial_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.final_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.pressure_and_volume_in_adiabatic_process.adiabatic_condition
+  :no-value:
+

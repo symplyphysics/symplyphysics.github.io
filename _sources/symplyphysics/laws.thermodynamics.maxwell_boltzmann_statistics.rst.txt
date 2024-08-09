@@ -1,0 +1,13 @@
+**Maxwell—Boltzmann statistics**
+================================
+
+In statistical mechanics, Maxwell—Boltzmann statistics describes the distribution of classical material
+particles over various energy states in thermal equilibrium. It is applicable when the temperature is
+high enough or the particle density is low enough to render quantum effects negligible.
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed
