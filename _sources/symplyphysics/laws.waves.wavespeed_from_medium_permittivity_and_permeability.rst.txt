@@ -1,0 +1,22 @@
+Wave speed from medium permittivity and permeability
+----------------------------------------------------
+
+Speed of electromagnetic wave propagation depends on relative permittivity and relative
+permeability of the medium.
+
+**Notation:**
+
+#. :math:`c` is the speed of light.
+
+.. autodata:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability.wave_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability.relative_permittivity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability.relative_permeability
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability.law
+  :no-value:
+

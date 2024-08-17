@@ -1,0 +1,35 @@
+Internal energy formula
+-----------------------
+
+The formula of the internal energy differential can be integrated using the Euler's theorem on
+homogeneous functions to get the following expression.
+
+**Notes:**
+
+#. This formula words for a single-component system. For multi-component system replace the
+   product of chemical potential and particle count with a sum over each type of components.
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.internal_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.entropy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.volume
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.chemical_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.particle_count
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.internal_energy_formula.law
+  :no-value:
+

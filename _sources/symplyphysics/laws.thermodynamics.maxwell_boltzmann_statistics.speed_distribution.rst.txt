@@ -1,0 +1,33 @@
+Speed distribution
+------------------
+
+For a system containing a large number of identical non-interacting non-relativistic classical
+particles in thermodynamic equilibrium, the speed distribution function is a function such that
+:math:`f(v) dv` gives the fraction of particles with speeds in the interval :math:`dv` at speed
+:math:`v`.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Notes:**
+
+#. Number of particles is big enough that the laws of thermodynamics can be applied.
+#. Particles are identical, non-interacting, non-relativistic, and classical.
+#. The ensemble of particles is at thermodynamic equilibrium.
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution.speed_distribution_function
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution.particle_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution.particle_mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution.equilibrium_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution.law
+  :no-value:
+

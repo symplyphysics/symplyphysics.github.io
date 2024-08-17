@@ -16,7 +16,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Maxwell—Jüttner distribution" href="laws.thermodynamics.relativistic.maxwell_juettner_distribution.html" />
-    <link rel="prev" title="Most probable speed in Maxwell—Boltzmann statistics" href="laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed.html" />
+    <link rel="prev" title="Velocity component distribution" href="laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
   
@@ -50,7 +50,7 @@
 <li class="toctree-l1"><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html">Reduced temperature in Maxwell—Jüttner statistics</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html#symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.reduced_temperature"><code class="docutils literal notranslate"><span class="pre">reduced_temperature</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html#symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html#symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html#symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.particle_mass"><code class="docutils literal notranslate"><span class="pre">particle_mass</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.html#symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
@@ -87,13 +87,27 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.bose_einstein_statistics.html"><strong>Bose—Einstein statistics</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.equations_of_state.html"><strong>Equations of state</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.euler_relations.html"><strong>Euler relations</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.fermi_dirac_statistics.html"><strong>Fermi—Dirac statistics</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.heat_transfer.html"><strong>Heat transfer</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.html"><strong>Maxwell—Boltzmann statistics</strong></a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Relativistic Thermodynamics</strong></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.relativistic.maxwell_juettner_distribution.html">Maxwell—Jüttner distribution</a></li>
@@ -193,7 +207,7 @@
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.thermodynamics.html">Thermodynamics</a><ul>
-      <li>Previous: <a href="laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed.html" title="previous chapter">Most probable speed in Maxwell—Boltzmann statistics</a></li>
+      <li>Previous: <a href="laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution.html" title="previous chapter">Velocity component distribution</a></li>
       <li>Next: <a href="laws.thermodynamics.relativistic.maxwell_juettner_distribution.html" title="next chapter">Maxwell—Jüttner distribution</a></li>
   </ul></li>
   </ul></li>

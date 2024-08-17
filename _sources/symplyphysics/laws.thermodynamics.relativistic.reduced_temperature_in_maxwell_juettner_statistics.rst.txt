@@ -17,7 +17,7 @@ the gas in question.
 .. autodata:: symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.temperature
   :no-value:
 
-.. autodata:: symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.mass
+.. autodata:: symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.particle_mass
   :no-value:
 
 .. autodata:: symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics.law

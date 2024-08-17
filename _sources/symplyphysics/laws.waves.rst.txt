@@ -13,3 +13,6 @@ Contents:
   laws.waves.vector
   laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change
   laws.waves.phase_velocity_from_angular_frequency_and_wavenumber
+  laws.waves.wavelength_of_standing_wave_in_string_with_fixed_ends
+  laws.waves.wavespeed_from_medium_permittivity_and_permeability
+  laws.waves.wavespeed_from_medium_refractive_index

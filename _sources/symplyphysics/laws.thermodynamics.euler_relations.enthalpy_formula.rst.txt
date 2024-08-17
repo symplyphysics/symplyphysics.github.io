@@ -1,0 +1,29 @@
+Enthalpy formula
+----------------
+
+The enthalpy differential can be integrated using the Euler's theorem on homogeneous functions for
+internal energy.
+
+**Notes:**
+
+#. This formula words for a single-component system. For multi-component system replace the
+   product of chemical potential and particle count with a sum over each type of components.
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula.enthalpy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula.entropy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula.chemical_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula.particle_count
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula.law
+  :no-value:
+

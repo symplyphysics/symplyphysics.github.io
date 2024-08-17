@@ -10,4 +10,9 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
+  laws.thermodynamics.maxwell_boltzmann_statistics.energy_distribution
   laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed
+  laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution
+  laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution
+  laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate
+  laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution

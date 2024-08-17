@@ -1,0 +1,31 @@
+Single-particle state distribution
+----------------------------------
+
+For a system of identical fermions in thermodynamic equilibrium, the average number of fermions
+in a single-particle state :math:`i` is given by the Fermi—Dirac distribution.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Notes:**
+
+#. If the energy states are degenerate, i.e. two or more particles are on the same energy level,
+   the average number of fermions can be found by multiplying by the degeneracy :math:`g_i` of
+   the energy level.
+
+.. autodata:: symplyphysics.laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution.occupancy_of_state
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution.energy_of_state
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution.total_chemical_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution.law
+  :no-value:
+

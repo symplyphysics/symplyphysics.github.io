@@ -1,0 +1,34 @@
+Discrete distribution
+---------------------
+
+Maxwell—Boltzmann distribution can be written as a discrete distribution of a single particle's
+discrete energy spectrum. Maxwell-Boltzmann statistics gives the average number of particles
+found in a given single-particle microstate.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Conditions:**
+
+#. Particles do not interact and are classical.
+#. The system is in thermal equilibrium.
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution.occupancy_of_state
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution.particle_count
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution.energy_of_state
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution.equilibrium_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution.single_particle_partition_function
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution.law
+  :no-value:
+

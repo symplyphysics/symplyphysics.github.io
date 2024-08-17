@@ -1,0 +1,44 @@
+Solution with zero temperature boundaries
+-----------------------------------------
+
+The heat equation coupled with a boundary condition can be solved to get a unique solution.
+In this boundary-value problem the heat transfer within a thin rod is observed, the temperature
+on both ends being zero. This restricts the number of functions :math:`f(x)` that can satisfy
+the boundary equation :math:`f(x) = T(x, 0)`.
+
+**Notes:**
+
+.. _heat_transfer_zero_temperature_solution_coefficient_note:
+
+1. Values :math:`B_n` are found using the boundary condition :math:`f(x) = \sum_n T_n(x, 0)`
+   with the help of the Fourier method.
+2. The total solution :math:`T(x, t) = \sum_n T_n(x, t)`.
+
+**Conditions:**
+
+1. Position :math:`x \in [0, L]`.
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.scaling_coefficient
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.thermal_diffusivity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.mode_number
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.maximum_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.law
+  :no-value:
+

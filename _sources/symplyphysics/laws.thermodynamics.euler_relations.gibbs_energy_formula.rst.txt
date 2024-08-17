@@ -1,0 +1,23 @@
+Gibbs energy formula
+--------------------
+
+Gibbs energy differential cannot be integrated directly using the Euler's theorem on homogeneous
+functions but it can be derived via its definition and the relation for internal energy.
+
+**Notes:**
+
+#. This formula words for a single-component system. For multi-component system replace the
+   right-hand side with a sum over each type of components.
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.gibbs_energy_formula.gibbs_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.gibbs_energy_formula.chemical_potential
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.gibbs_energy_formula.particle_count
+  :no-value:
+
+.. autodata:: symplyphysics.laws.thermodynamics.euler_relations.gibbs_energy_formula.law
+  :no-value:
+

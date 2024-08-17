@@ -1,0 +1,11 @@
+Geometry
+========
+
+A collection of geometry relations commonly used in physics.
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.geometry.vector

@@ -1,0 +1,31 @@
+Spectral energy density at low frequency limit
+----------------------------------------------
+
+The *Rayleigh-Jeans law* is an approximation to the spectral radiance of electromagnetic radiation
+as a function of wave frequency from a blackbody at a given temperature through classical arguments.
+The Rayleigh-Jeans law agrees with experimental results at large wavelengths (i.e. at low frequencies)
+but strongly disagrees at short wavelengths (i.e. at high frequencies). This inconsistency is commonly
+known as the *ultraviolet catastrophe*.
+
+**Notation:**
+
+#. :math:`c` is the speed of light.
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Conditions:**
+
+#. The black body is isolated from the environment.
+#. :math:`h \nu \ll k_\text{B} T`, i.e. photon energy is much smaller than thermal energy.
+
+.. autodata:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_in_low_frequency_limit.spectral_energy_density
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_in_low_frequency_limit.radiation_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_in_low_frequency_limit.equilibrium_temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_in_low_frequency_limit.law
+  :no-value:
+
