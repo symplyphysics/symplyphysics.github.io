@@ -6,6 +6,11 @@ different numbers of particles but with the total number of particles being cons
 a condition that all allowed microstates of the closed system are equiprobable, the formula
 for the statistical weight of the system can be found in combinatorics.
 
+**Notes:**
+
+#. Law can also be represented in form :math:`W = \frac{N!}{\prod_i (N_i!)}`
+   (:code:`W = factorial(N) / Product(factorial(N_i), i)`)
+
 .. autodata:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.statistical_weight
   :no-value:
 

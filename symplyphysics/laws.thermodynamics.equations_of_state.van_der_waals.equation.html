@@ -38,7 +38,7 @@
 <h1>Van der Waals equation<a class="headerlink" href="#van-der-waals-equation" title="Link to this heading">¶</a></h1>
 <p>To more accurately describe the behavior of real gases at low temperatures,
 a Van der Waals gas model was created, taking into account the forces of intermolecular interaction.
-In this model, internal energy becomes a function not only of temperature, but also of molar_volume.</p>
+In this model, internal energy becomes a function not only of temperature, but also of molar volume.</p>
 <p>The Van der Waals equation is one of the well-known approximate equations of state describing
 the properties of a real gas, having a compact form and taking
 into account the main characteristics of a gas with intermolecular interaction.</p>
@@ -59,7 +59,9 @@ into account the main characteristics of a gas with intermolecular interaction.<
 <span class="sig-name descname"><span class="pre">molar_volume</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.molar_volume" title="Link to this definition">¶</a></dt>
 <dd><p>Volume of the van der Waals fluid per unit amount of substance.</p>
 <p class="rubric">Symbol</p>
-<p><code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
+<p><code class="code docutils literal notranslate"><span class="pre">V_m</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(V_m\)</span></p>
 </dd></dl>
 
 <dl class="py data">
@@ -91,10 +93,10 @@ due to a finite size of molecules.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">(p</span> <span class="pre">+</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">v^2)</span> <span class="pre">*</span> <span class="pre">(v</span> <span class="pre">-</span> <span class="pre">b)</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">(p</span> <span class="pre">+</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">V_m^2)</span> <span class="pre">*</span> <span class="pre">(V_m</span> <span class="pre">-</span> <span class="pre">b)</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T</span></code></p>
 <p class="rubric">Latex</p>
 <div class="math notranslate nohighlight">
-\[\left( p + \frac{a}{v^2} \right) (v - b) = R T\]</div>
+\[\left( p + \frac{a}{V_m^2} \right) (V_m - b) = R T\]</div>
 </dd></dl>
 
 </section>

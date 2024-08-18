@@ -41,14 +41,19 @@ In this boundary-value problem the heat transfer within a thin rod is observed, 
 on both ends being zero. This restricts the number of functions <span class="math notranslate nohighlight">\(f(x)\)</span> that can satisfy
 the boundary equation <span class="math notranslate nohighlight">\(f(x) = T(x, 0)\)</span>.</p>
 <p><strong>Notes:</strong></p>
-<ol class="arabic simple" id="heat-transfer-zero-temperature-solution-coefficient-note">
-<li><p>Values <span class="math notranslate nohighlight">\(B_n\)</span> are found using the boundary condition <span class="math notranslate nohighlight">\(f(x) = \sum_n T_n(x, 0)\)</span>
+<ol class="arabic">
+<li><p><span class="math notranslate nohighlight">\(f(x)\)</span> represents initial spatial distribution of temperature.</p>
+<blockquote>
+<div></div></blockquote>
+</li>
+<li id="heat-transfer-zero-temperature-solution-coefficient-note"><p>Values <span class="math notranslate nohighlight">\(B_n\)</span> are found using the boundary condition <span class="math notranslate nohighlight">\(f(x) = \sum_n T_n(x, 0)\)</span>
 with the help of the Fourier method.</p></li>
 <li><p>The total solution <span class="math notranslate nohighlight">\(T(x, t) = \sum_n T_n(x, t)\)</span>.</p></li>
 </ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>Position <span class="math notranslate nohighlight">\(x \in [0, L]\)</span>.</p></li>
+<li><p>Temperature on both ends is zero: <span class="math notranslate nohighlight">\(T_n(0, t) = 0\)</span>, <span class="math notranslate nohighlight">\(T_n(L, t) = 0\)</span></p></li>
 </ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.temperature">
@@ -66,6 +71,8 @@ with the help of the Fourier method.</p></li>
 <dd><p>Scaling coefficient of the solution, see <a class="reference internal" href="#heat-transfer-zero-temperature-solution-coefficient-note"><span class="std std-ref">Notes</span></a>.</p>
 <p class="rubric">Symbol</p>
 <p><code class="code docutils literal notranslate"><span class="pre">B_n</span></code></p>
+<p class="rubric">Latex</p>
+<p><span class="math notranslate nohighlight">\(B_n\)</span></p>
 </dd></dl>
 
 <dl class="py data">
@@ -113,7 +120,7 @@ with the help of the Fourier method.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">T_n(x,</span> <span class="pre">t)</span> <span class="pre">=</span> <span class="pre">B_n</span> <span class="pre">*</span> <span class="pre">sin(n</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">x</span> <span class="pre">/</span> <span class="pre">L)</span> <span class="pre">*</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">chi</span> <span class="pre">*</span> <span class="pre">(n</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">/</span> <span class="pre">L)^2</span> <span class="pre">t)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">T_n(x,</span> <span class="pre">t)</span> <span class="pre">=</span> <span class="pre">B_n</span> <span class="pre">*</span> <span class="pre">sin(n</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">x</span> <span class="pre">/</span> <span class="pre">L)</span> <span class="pre">*</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">chi</span> <span class="pre">*</span> <span class="pre">(n</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">/</span> <span class="pre">L)^2</span> <span class="pre">*</span> <span class="pre">t)</span></code></p>
 <p class="rubric">Latex</p>
 <div class="math notranslate nohighlight">
 \[T_n(x, t) = B_n \sin \left( \frac{n \pi x}{L} \right) \exp \left[ -\chi \left( \frac{n \pi}{L} \right)^2 t \right]\]</div>
