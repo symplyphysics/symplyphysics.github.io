@@ -1,0 +1,20 @@
+Hydraulic stress is bulk modulus times strain
+---------------------------------------------
+
+When an object undergoes hydraulic compression due to a stress exerted by a surrounding liquid,
+the pressure (hydraulic stress) on the object due to the fluid is proportional to the fractional
+change in the object's volume due to that pressure and the bulk modulus of the object. Thus, bulk
+modulus of a substance is a measure of its resistance to bulk compression.
+
+.. autodata:: symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.hydraulic_stress
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.bulk_modulus
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.fractional_volume_change
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.law
+  :no-value:
+

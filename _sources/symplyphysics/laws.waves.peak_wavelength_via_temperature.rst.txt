@@ -1,0 +1,18 @@
+Peak wavelength via temperature
+-------------------------------
+
+The wavelength of a blackbody's radiation peak is inversely proportional to its
+temperature. This law is known as the *Wien's displacement law*.
+
+.. autodata:: symplyphysics.laws.waves.peak_wavelength_via_temperature.peak_wavelength
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.peak_wavelength_via_temperature.temperature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.peak_wavelength_via_temperature.wien_displacement_constant
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.peak_wavelength_via_temperature.law
+  :no-value:
+

@@ -1,0 +1,19 @@
+Acceleration of transfer between relative frames
+------------------------------------------------
+
+Imagine two reference frames, one of which is fixed (:math:`S`) and the other one is moving (:math:`S'`). The motion of
+a body stationary in moving frame :math:`S'` due to the motion of the frame itself is called transfer motion.
+The acceleration related to such motion is called transfer acceleration. It is composed of the acceleration
+of the moving frame relative to the fixed frame, centripetal acceleration and the acceleration due to uneven
+rotation of the moving frame. The transfer acceleration only depends on the motion of frame :math:`S'` relative to
+stationary frame :math:`S`, so its physical meaning would be that it is the acceleration in :math:`S` of a point stationary
+in :math:`S'`.
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.transfer_acceleration_law
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration_law
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.centripetal_acceleration_law
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.rotation_acceleration_law
+

@@ -1,0 +1,21 @@
+Solid disk about central axis
+-----------------------------
+
+A solid disk (cylinder) rotates about its central axis (axis of cylindrical symmetry).
+
+**Conditions:**
+
+#. The disk is uniform.
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis.rotational_inertia
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis.radius
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis.mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis.law
+  :no-value:
+

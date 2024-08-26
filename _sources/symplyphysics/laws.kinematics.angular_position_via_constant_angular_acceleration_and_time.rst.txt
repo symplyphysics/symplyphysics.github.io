@@ -1,0 +1,26 @@
+Angular position via constant angular acceleration and time
+-----------------------------------------------------------
+
+If a body is rotating with a constant acceleration, its angular position is a quadratic function of time.
+
+#. The axis is fixed.
+#. Angular acceleration is constant, i.e. :math:`\frac{d \alpha}{d t} = 0.`
+
+.. autodata:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.final_angular_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.initial_angular_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.initial_angular_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.angular_acceleration
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.law
+  :no-value:
+

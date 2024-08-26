@@ -1,0 +1,24 @@
+Hydrostatic pressure via density and height
+-------------------------------------------
+
+Hydrostatic pressure is the pressure exerted by a fluid at equilibrium at any point of time
+due to the force of gravity.
+
+**Conditions:**
+
+#. The fluid is in statical equilibrium.
+#. The only force acting on the fluid is the force of gravity.
+#. The fluid is subjected to the gravity force of Earth.
+
+.. autodata:: symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.hydrostatic_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.density
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.height
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.law
+  :no-value:
+

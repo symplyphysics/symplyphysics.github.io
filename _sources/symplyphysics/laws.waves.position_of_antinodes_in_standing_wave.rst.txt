@@ -1,0 +1,24 @@
+Position of antinodes in standing wave
+--------------------------------------
+
+In a standing wave, the locations of maximum amplitude are called antinodes. These locations are
+not arbitrary, however, and are integer multiples of half the wavelength shifted by a quarter
+of the wavelength.
+
+**Notes:**
+
+#. *Amplitude* refers to the absolute value of displacement from rest, therefore positions of
+   maximum amplitude are such positions where the displacement is maximum or minimum .
+
+.. autodata:: symplyphysics.laws.waves.position_of_antinodes_in_standing_wave.antinode_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.position_of_antinodes_in_standing_wave.integer_factor
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.position_of_antinodes_in_standing_wave.wavelength
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.position_of_antinodes_in_standing_wave.law
+  :no-value:
+

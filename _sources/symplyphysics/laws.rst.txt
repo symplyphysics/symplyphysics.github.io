@@ -18,7 +18,7 @@ Contents:
   laws.geometry
   laws.gravity
   laws.hydro
-  laws.kinematic
+  laws.kinematics
   laws.nuclear
   laws.optics
   laws.quantities

@@ -6,3 +6,9 @@ pattern and properties. Optics is a branch of physics that deals with the determ
 of behaviour and the properties of light, along with its interactions with the matter
 and also with the instruments which are used to detect it.
 
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index

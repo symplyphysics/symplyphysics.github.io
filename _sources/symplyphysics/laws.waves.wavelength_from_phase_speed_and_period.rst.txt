@@ -1,0 +1,19 @@
+Wavelength from phase speed and period
+--------------------------------------
+
+Wavelength is the spatial period of a periodic wave, i.e. the distance the wave needs to travel
+for its shape to repeat. It can also be measured as the distance between two closest points
+with the same wave phase.
+
+.. autodata:: symplyphysics.laws.waves.wavelength_from_phase_speed_and_period.wavelength
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.wavelength_from_phase_speed_and_period.phase_velocity
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.wavelength_from_phase_speed_and_period.period
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.wavelength_from_phase_speed_and_period.law
+  :no-value:
+

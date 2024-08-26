@@ -1,0 +1,18 @@
+Position of nodes in standing wave
+----------------------------------
+
+In a standing wave, the locations of zero amplitude are called nodes. These locations, however,
+are not arbitrary and are integer multiples of half the wavelength of the standing wave.
+
+.. autodata:: symplyphysics.laws.waves.position_of_nodes_in_standing_wave.node_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.position_of_nodes_in_standing_wave.integer_factor
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.position_of_nodes_in_standing_wave.wavelength
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.position_of_nodes_in_standing_wave.law
+  :no-value:
+

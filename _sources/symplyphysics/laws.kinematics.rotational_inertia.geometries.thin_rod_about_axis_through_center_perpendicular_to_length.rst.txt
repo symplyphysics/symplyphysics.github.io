@@ -1,0 +1,22 @@
+Thin rod about axis through center perpendicular to length
+----------------------------------------------------------
+
+A thin rod is rotating about an axis that passes through its center perpendicular to its length.
+
+**Conditions:**
+
+#. The rod is uniform.
+#. The rod is thin, i.e. its diameter is much less than its length.
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length.rotational_inertia
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length.length
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length.mass
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length.law
+  :no-value:
+

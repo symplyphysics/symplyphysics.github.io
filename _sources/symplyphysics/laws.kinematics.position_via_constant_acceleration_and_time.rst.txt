@@ -1,0 +1,27 @@
+Position via constant acceleration and time
+-------------------------------------------
+
+If a body is moving with a constant acceleration, its position in space is a quadratic function of time.
+
+**Conditions:**
+
+#. Acceleration is constant, i.e. :math:`\frac{d a}{d t} = 0.`
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_acceleration_and_time.final_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_acceleration_and_time.initial_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_acceleration_and_time.initial_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_acceleration_and_time.acceleration
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_acceleration_and_time.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_acceleration_and_time.law
+  :no-value:
+

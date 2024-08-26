@@ -1,0 +1,28 @@
+Photoelectron energy from energy
+--------------------------------
+
+The photoelectric effect is the emission of electrons from a material caused by
+electromagnetic radiation. Electrons emitted in this manner are called photoelectrons.
+
+In the photoemission process, when an electron within some material absorbs the
+energy of a photon and acquires more energy than its binding energy, it is likely
+to be ejected. If the photon energy is too low, the electron is unable to escape
+the material.
+
+The theory predicts that the highest kinetic energy of emitted electrons is equal
+to the difference between the absorbed photon energy and the work function of the
+surface, which is the minimum energy required to remove an electron from the surface
+of the material.
+
+.. autodata:: symplyphysics.laws.waves.photoelectron_energy_from_photon_energy.maximum_kinetic_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.photoelectron_energy_from_photon_energy.photon_energy
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.photoelectron_energy_from_photon_energy.work_function
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.photoelectron_energy_from_photon_energy.law
+  :no-value:
+

@@ -1,0 +1,17 @@
+Centripetal acceleration via vector rejection
+---------------------------------------------
+
+*Centripetal acceleration* is the acceleration of a body in a rotating coordinate system
+which is directed towards the axis of rotation.
+
+Also see :doc:`laws.kinematics.vector.centripetal_acceleration_via_cross_product`.
+
+**Notation:**
+
+#. :math:`|\vec a|` (:code:`norm(a)`) is the Euclidean norm of :math:`\vec a`.
+#. :math:`\text{oproj}_{\vec b} \vec a` (:code:`reject(a, b)`) is the rejection of
+   :math:`\vec a` from :math:`\vec b`, i.e. the component of :math:`\vec a` orthogonal
+   to :math:`\vec b`.
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law
+

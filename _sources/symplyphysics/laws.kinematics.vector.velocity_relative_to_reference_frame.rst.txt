@@ -1,0 +1,10 @@
+Velocity relative to reference frame
+------------------------------------
+
+For any reference frame, whether it is inertial or not, the motion relative to it can be described using
+the position vector relative to that frame's origin.
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_velocity_law
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_position_law
+

@@ -1,0 +1,16 @@
+Acceleration is normal plus tangential acceleration
+---------------------------------------------------
+
+The acceleration of a body moving arbitrarily is composed of two parts:
+
+#. *normal, or centripetal, acceleration*, which is always present in a rotating environment
+   and points to the instantaneous axis of rotation,
+#. and *tangential acceleration*, which is responsible for the change in the magnitude of
+   the velocity vector.
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.acceleration_law
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.normal_acceleration_law
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.tangential_acceleration_law
+

@@ -1,0 +1,14 @@
+Coriolis acceleration
+---------------------
+
+Imagine two reference frames, one of which is fixed (:math:`S`) and the other one is moving (:math:`S'`). When
+the body is moving within a rotating coordinate system, its path deflects due to the appearance
+of the Coriolis acceleration on it. The object does not actually deviate from its path per se
+but it appears to do so because of the motion of the coordinate system.
+
+Suppose a reference frame :math:`S'` is fixed to a rotating body :math:`A` (e.g. Earth), so that frame :math:`S'` rotates w.r.t.
+another static reference frame :math:`S`. The Coriolis acceleration is the acceleration another body :math:`B` has when
+moving within rotating reference frame :math:`S'`, so it is essentially zero for objects at rest in :math:`S'`.
+
+.. autofunction:: symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration_law
+

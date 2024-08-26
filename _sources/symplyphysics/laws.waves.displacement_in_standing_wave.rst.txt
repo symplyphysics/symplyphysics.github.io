@@ -1,0 +1,33 @@
+Displacement in standing wave
+-----------------------------
+
+A *standing*, or *stationary*, *wave* is the result of the interference of two identical waves
+moving in opposite directions.
+
+**Notes:**
+
+#. In this law we assume the standing wave to be composed of two identical traveling sinusoidal
+   waves of the form :math:`u_\text{max} \sin(k x \pm \omega t)`
+#. A standing wave is no longer a traveling one because it doesn't move in a single direction.
+
+.. autodata:: symplyphysics.laws.waves.displacement_in_standing_wave.total_displacement
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.displacement_in_standing_wave.amplitude
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.displacement_in_standing_wave.angular_wavenumber
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.displacement_in_standing_wave.position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.displacement_in_standing_wave.angular_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.displacement_in_standing_wave.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.displacement_in_standing_wave.law
+  :no-value:
+

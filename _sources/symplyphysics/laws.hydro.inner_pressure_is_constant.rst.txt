@@ -1,0 +1,19 @@
+Inner pressure is constant
+--------------------------
+
+Bernoulli's equation applied to an ideal liquid specifies that the inner
+pressure of the fluid is constant at all points along a streamline.
+
+**Conditions:**
+
+#. The fluid must be :ref:`ideal <ideal_fluid_def>`.
+
+.. autodata:: symplyphysics.laws.hydro.inner_pressure_is_constant.inner_pressure
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.inner_pressure_is_constant.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.hydro.inner_pressure_is_constant.law
+  :no-value:
+

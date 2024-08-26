@@ -1,0 +1,18 @@
+Phase speed of wave on stretched string
+---------------------------------------
+
+The phase speed of a wave on a stretched ideal string is set by properties of the string
+and not by properties of the wave such as frequency and amplitude.
+
+.. autodata:: symplyphysics.laws.waves.phase_speed_of_wave_on_stretched_string.phase_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.phase_speed_of_wave_on_stretched_string.tension
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.phase_speed_of_wave_on_stretched_string.linear_density
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.phase_speed_of_wave_on_stretched_string.law
+  :no-value:
+

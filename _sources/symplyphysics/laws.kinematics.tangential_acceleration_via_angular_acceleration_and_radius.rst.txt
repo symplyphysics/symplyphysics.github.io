@@ -1,0 +1,22 @@
+Tangential acceleration via angular acceleration and radius
+-----------------------------------------------------------
+
+The tangential acceleration of a rotating body represents the change in magnitude
+of the velocity vector, and its vector is tangent to the path of the body.
+
+**Conditions:**
+
+#. Radius is constant, i.e. :math:`\frac{d r}{d t} = 0.`
+
+.. autodata:: symplyphysics.laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius.tangential_acceleration
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius.angular_acceleration
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius.radius_of_curvature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius.law
+  :no-value:
+

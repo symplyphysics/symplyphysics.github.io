@@ -1,0 +1,25 @@
+Pressure amplitude in sound wave
+--------------------------------
+
+Sound waves cause a pressure change of the medium from the equilibrium pressure.
+This change is proportional to the speed of sound and the density of the medium,
+the angular frequency of the wave and the displacement of particles in the medium.
+
+.. autodata:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave.pressure_amplitude
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave.speed_of_sound
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave.medium_density
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave.angular_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave.displacement_amplitude
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave.law
+  :no-value:
+

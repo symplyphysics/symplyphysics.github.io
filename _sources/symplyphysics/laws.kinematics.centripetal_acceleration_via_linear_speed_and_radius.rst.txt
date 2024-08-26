@@ -1,0 +1,17 @@
+Centripetal acceleration via linear speed and radius
+----------------------------------------------------
+
+*Centripetal acceleration* is defined as the change in velocity tangential to the velocity vector.
+
+.. autodata:: symplyphysics.laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius.centripetal_acceleration
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius.speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius.radius_of_curvature
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius.law
+  :no-value:
+

@@ -12,9 +12,10 @@
     <script src="../_static/documentation_options.js?v=8d563738"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="../_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Kinematics" href="laws.kinematic.html" />
+    <link rel="next" title="Dynamic pressure from speed" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html" />
     <link rel="prev" title="Kepler’s constant via attracting body mass" href="laws.gravity.keplers_constant_via_attracting_body_mass.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
@@ -37,6 +38,124 @@
 <h1>Fluid mechanics<a class="headerlink" href="#fluid-mechanics" title="Link to this heading">¶</a></h1>
 <p>Fluid mechanics is the branch of physics concerned with the mechanics of fluids
 (liquids, gases, and plasmas) and the forces on them.</p>
+<section id="ideal-fluid-def">
+<span id="ideal-fluid"></span><h2>Ideal fluid<a class="headerlink" href="#ideal-fluid-def" title="Link to this heading">¶</a></h2>
+<p>An ideal fluid is a model of fluids often used in fluid mechanics to approximate
+the behavior of real fluids. Ideal fluids are:</p>
+<ol class="arabic simple">
+<li><p>non-viscous, i.e. there is no internal resistance to flow;</p></li>
+<li><p>in steady, or laminar, flow;</p></li>
+<li><p>incompressible;</p></li>
+<li><p>irrotational, i.e. its particles undergo no rotation around their center of mass.</p></li>
+</ol>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html">Dynamic pressure from speed</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html#symplyphysics.laws.hydro.dynamic_pressure_via_density_and_flow_speed.dynamic_pressure"><code class="docutils literal notranslate"><span class="pre">dynamic_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html#symplyphysics.laws.hydro.dynamic_pressure_via_density_and_flow_speed.density"><code class="docutils literal notranslate"><span class="pre">density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html#symplyphysics.laws.hydro.dynamic_pressure_via_density_and_flow_speed.flow_speed"><code class="docutils literal notranslate"><span class="pre">flow_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html#symplyphysics.laws.hydro.dynamic_pressure_via_density_and_flow_speed.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html">Efflux speed via height</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html#symplyphysics.laws.hydro.efflux_speed_via_height.efflux_speed"><code class="docutils literal notranslate"><span class="pre">efflux_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html#symplyphysics.laws.hydro.efflux_speed_via_height.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html#symplyphysics.laws.hydro.efflux_speed_via_height.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html">Efflux speed via pressure and density</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.efflux_speed"><code class="docutils literal notranslate"><span class="pre">efflux_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.hydrostatic_pressure"><code class="docutils literal notranslate"><span class="pre">hydrostatic_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.density"><code class="docutils literal notranslate"><span class="pre">density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html">Hydraulic stress is bulk modulus times strain</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html#symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.hydraulic_stress"><code class="docutils literal notranslate"><span class="pre">hydraulic_stress</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html#symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.bulk_modulus"><code class="docutils literal notranslate"><span class="pre">bulk_modulus</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html#symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.fractional_volume_change"><code class="docutils literal notranslate"><span class="pre">fractional_volume_change</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html#symplyphysics.laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html">Hydrostatic pressure via density and height</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html#symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.hydrostatic_pressure"><code class="docutils literal notranslate"><span class="pre">hydrostatic_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html#symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.density"><code class="docutils literal notranslate"><span class="pre">density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html#symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html#symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html">Inner pressure is constant</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html#symplyphysics.laws.hydro.inner_pressure_is_constant.inner_pressure"><code class="docutils literal notranslate"><span class="pre">inner_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html#symplyphysics.laws.hydro.inner_pressure_is_constant.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html#symplyphysics.laws.hydro.inner_pressure_is_constant.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html">Inner pressure is sum of pressures</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html#symplyphysics.laws.hydro.inner_pressure_is_sum_of_pressures.inner_pressure"><code class="docutils literal notranslate"><span class="pre">inner_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html#symplyphysics.laws.hydro.inner_pressure_is_sum_of_pressures.static_pressure"><code class="docutils literal notranslate"><span class="pre">static_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html#symplyphysics.laws.hydro.inner_pressure_is_sum_of_pressures.dynamic_pressure"><code class="docutils literal notranslate"><span class="pre">dynamic_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html#symplyphysics.laws.hydro.inner_pressure_is_sum_of_pressures.hydrostatic_pressure"><code class="docutils literal notranslate"><span class="pre">hydrostatic_pressure</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html#symplyphysics.laws.hydro.inner_pressure_is_sum_of_pressures.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html#symplyphysics.laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.mach_number"><code class="docutils literal notranslate"><span class="pre">mach_number</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html#symplyphysics.laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.flow_speed"><code class="docutils literal notranslate"><span class="pre">flow_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html#symplyphysics.laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.speed_of_sound"><code class="docutils literal notranslate"><span class="pre">speed_of_sound</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html#symplyphysics.laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html">Reynolds number formula</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html#symplyphysics.laws.hydro.reynolds_number_formula.reynolds_number"><code class="docutils literal notranslate"><span class="pre">reynolds_number</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html#symplyphysics.laws.hydro.reynolds_number_formula.characteristic_length"><code class="docutils literal notranslate"><span class="pre">characteristic_length</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html#symplyphysics.laws.hydro.reynolds_number_formula.density"><code class="docutils literal notranslate"><span class="pre">density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html#symplyphysics.laws.hydro.reynolds_number_formula.flow_speed"><code class="docutils literal notranslate"><span class="pre">flow_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html#symplyphysics.laws.hydro.reynolds_number_formula.dynamic_viscosity"><code class="docutils literal notranslate"><span class="pre">dynamic_viscosity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html#symplyphysics.laws.hydro.reynolds_number_formula.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html">Shear stress is proportional to speed gradient</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html#symplyphysics.laws.hydro.shear_stress_is_proportional_to_speed_gradient.shear_stress"><code class="docutils literal notranslate"><span class="pre">shear_stress</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html#symplyphysics.laws.hydro.shear_stress_is_proportional_to_speed_gradient.dynamic_viscosity"><code class="docutils literal notranslate"><span class="pre">dynamic_viscosity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html#symplyphysics.laws.hydro.shear_stress_is_proportional_to_speed_gradient.fluid_speed"><code class="docutils literal notranslate"><span class="pre">fluid_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html#symplyphysics.laws.hydro.shear_stress_is_proportional_to_speed_gradient.layer_position"><code class="docutils literal notranslate"><span class="pre">layer_position</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html#symplyphysics.laws.hydro.shear_stress_is_proportional_to_speed_gradient.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html">Submerged volume of floating body via density ratio</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html#symplyphysics.laws.hydro.submerged_volume_of_floating_body_via_density_ratio.submerged_volume"><code class="docutils literal notranslate"><span class="pre">submerged_volume</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html#symplyphysics.laws.hydro.submerged_volume_of_floating_body_via_density_ratio.body_volume"><code class="docutils literal notranslate"><span class="pre">body_volume</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html#symplyphysics.laws.hydro.submerged_volume_of_floating_body_via_density_ratio.body_density"><code class="docutils literal notranslate"><span class="pre">body_density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html#symplyphysics.laws.hydro.submerged_volume_of_floating_body_via_density_ratio.fluid_density"><code class="docutils literal notranslate"><span class="pre">fluid_density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html#symplyphysics.laws.hydro.submerged_volume_of_floating_body_via_density_ratio.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.surface_tension_force_via_surface_tension_and_length.html">Surface tension force via surface tension and length</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.surface_tension_force_via_surface_tension_and_length.html#symplyphysics.laws.hydro.surface_tension_force_via_surface_tension_and_length.surface_tension_force"><code class="docutils literal notranslate"><span class="pre">surface_tension_force</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.surface_tension_force_via_surface_tension_and_length.html#symplyphysics.laws.hydro.surface_tension_force_via_surface_tension_and_length.surface_tension"><code class="docutils literal notranslate"><span class="pre">surface_tension</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.surface_tension_force_via_surface_tension_and_length.html#symplyphysics.laws.hydro.surface_tension_force_via_surface_tension_and_length.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.surface_tension_force_via_surface_tension_and_length.html#symplyphysics.laws.hydro.surface_tension_force_via_surface_tension_and_length.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.volume_flux_is_constant.html">Volume flux is constant</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.volume_flux_is_constant.html#symplyphysics.laws.hydro.volume_flux_is_constant.tube_area"><code class="docutils literal notranslate"><span class="pre">tube_area</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.volume_flux_is_constant.html#symplyphysics.laws.hydro.volume_flux_is_constant.fluid_speed"><code class="docutils literal notranslate"><span class="pre">fluid_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.volume_flux_is_constant.html#symplyphysics.laws.hydro.volume_flux_is_constant.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.volume_flux_is_constant.html#symplyphysics.laws.hydro.volume_flux_is_constant.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html">Weight in fluid via ratio of densities</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.weight_in_fluid"><code class="docutils literal notranslate"><span class="pre">weight_in_fluid</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.weight_in_vacuum"><code class="docutils literal notranslate"><span class="pre">weight_in_vacuum</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.fluid_density"><code class="docutils literal notranslate"><span class="pre">fluid_density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.body_density"><code class="docutils literal notranslate"><span class="pre">body_density</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
 </section>
 
 
@@ -76,8 +195,27 @@
 <li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Fluid mechanics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.kinematic.html">Kinematics</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Fluid mechanics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ideal-fluid-def">Ideal fluid</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html">Dynamic pressure from speed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html">Efflux speed via height</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html">Efflux speed via pressure and density</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html">Hydraulic stress is bulk modulus times strain</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html">Hydrostatic pressure via density and height</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html">Inner pressure is constant</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html">Inner pressure is sum of pressures</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html">Reynolds number formula</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html">Shear stress is proportional to speed gradient</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html">Submerged volume of floating body via density ratio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.surface_tension_force_via_surface_tension_and_length.html">Surface tension force via surface tension and length</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.volume_flux_is_constant.html">Volume flux is constant</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html">Weight in fluid via ratio of densities</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
@@ -98,7 +236,7 @@
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
       <li>Previous: <a href="laws.gravity.keplers_constant_via_attracting_body_mass.html" title="previous chapter">Kepler’s constant via attracting body mass</a></li>
-      <li>Next: <a href="laws.kinematic.html" title="next chapter">Kinematics</a></li>
+      <li>Next: <a href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html" title="next chapter">Dynamic pressure from speed</a></li>
   </ul></li>
   </ul></li>
 </ul>

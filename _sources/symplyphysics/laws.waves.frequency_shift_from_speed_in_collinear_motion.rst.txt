@@ -1,0 +1,36 @@
+Frequency shift from speed in collinear motion
+----------------------------------------------
+
+The *Doppler effect* or *Doppler shift* is the apparent change in frequency of a wave in
+relation to an observer moving relative to the wave source.
+
+**Notes:**
+
+#. When the source is moving with speed equal to wave speed, the observed frequency goes
+   to infinity. This effect is known as the *sonic boom*.
+
+**Conditions:**
+
+#. The source and observer speeds are less or equal to the wave speed. Otherwise emitted
+   waves are left behind the source or never reach the observer.
+#. The source and observer are moving directly towards or away from each other (collinear
+   motion).
+
+.. autodata:: symplyphysics.laws.waves.frequency_shift_from_speed_in_collinear_motion.observed_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_shift_from_speed_in_collinear_motion.source_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_shift_from_speed_in_collinear_motion.wave_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_shift_from_speed_in_collinear_motion.source_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_shift_from_speed_in_collinear_motion.observer_speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_shift_from_speed_in_collinear_motion.law
+  :no-value:
+

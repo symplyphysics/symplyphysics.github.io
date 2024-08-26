@@ -1,0 +1,21 @@
+Frequency of electron transition in Hydrogen
+--------------------------------------------
+
+The *Rydberg formula* relates the frequency of light emitted or absorbed during
+electron transition to the levels between which the transition is occurring.
+
+.. autodata:: symplyphysics.laws.waves.frequency_of_electron_transition_in_hydrogen.transition_frequency
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_of_electron_transition_in_hydrogen.lower_principal_quantum_number
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_of_electron_transition_in_hydrogen.higher_principal_quantum_number
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_of_electron_transition_in_hydrogen.rydberg_constant
+  :no-value:
+
+.. autodata:: symplyphysics.laws.waves.frequency_of_electron_transition_in_hydrogen.law
+  :no-value:
+

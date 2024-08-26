@@ -1,0 +1,25 @@
+Position via constant speed and time
+------------------------------------
+
+If a body is moving with constant speed, its position can be expressed as a linear function
+of time.
+
+**Conditions:**
+
+#. Speed is constant, i.e. :math:`\frac{d v}{d t} = 0.`
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_speed_and_time.final_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_speed_and_time.initial_position
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_speed_and_time.speed
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_speed_and_time.time
+  :no-value:
+
+.. autodata:: symplyphysics.laws.kinematics.position_via_constant_speed_and_time.law
+  :no-value:
+

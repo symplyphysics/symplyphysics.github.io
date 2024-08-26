@@ -10,5 +10,5 @@ Contents:
 
   symbols.basic
   symbols.dynamics
-  symbols.kinematic
+  symbols.kinematics
   symbols.thermodynamics

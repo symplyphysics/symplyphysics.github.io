@@ -1,0 +1,26 @@
+Optical path length from geometrical path length and refractive index
+---------------------------------------------------------------------
+
+*Optical path length*, also known as *optical length* or *optical distance*, is the
+length that light needs to travel through a vacuum to create the same phase difference
+as it would have when traveling through a given medium.
+
+*Geometrical path length* is the Euclidean distance integrated along a light ray
+between any two points.
+
+**Conditions:**
+
+#. The environment must be homogeneous.
+
+.. autodata:: symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.optical_path
+  :no-value:
+
+.. autodata:: symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.geometrical_path
+  :no-value:
+
+.. autodata:: symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.refractive_index
+  :no-value:
+
+.. autodata:: symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.law
+  :no-value:
+
