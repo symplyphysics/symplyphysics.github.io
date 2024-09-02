@@ -1,0 +1,53 @@
+Poisson ratio is transverse to axial strain ratio
+-------------------------------------------------
+
+Poisson ratio is a physical quantity equal to the ratio of transverse strain
+to axial (or longitudinal) strain in the direction of a deforming force.
+
+**Notes:**
+
+#. The sign convention is as follows: positive strain indicates extension and
+   negative strain indicates contraction.
+#. The Poisson ratio and the Young modulus are all that is needed to completely
+   describe elastic properties of an isotropic material.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio
+
+.. py:data:: poisson_ratio
+
+    Poisson ratio of the material of the deformed body.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+.. py:data:: transverse_strain
+
+    Strain in the transverse (lateral) direction relative to the deforming force.
+
+    Symbol:
+        :code:`e_transverse`
+
+    Latex:
+        :math:`e_\text{transverse}`
+
+.. py:data:: axial_strain
+
+    Strain in the axial direction, i.e. parallel to the deforming force.
+
+    Symbol:
+        :code:`e_axial`
+
+    Latex:
+        :math:`e_\text{axial}`
+
+.. py:data:: law
+
+    :code:`nu = -1 * e_transverse / e_axial`
+
+    Latex:
+        .. math::
+            \nu = - \frac{e_\text{transverse}}{e_\text{axial}}
+

@@ -1,0 +1,65 @@
+Angular position via constant angular acceleration and time
+-----------------------------------------------------------
+
+If a body is rotating with a constant acceleration, its angular position is a quadratic function of time.
+
+#. The axis is fixed.
+#. Angular acceleration is constant, i.e. :math:`\frac{d \alpha}{d t} = 0.`
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time
+
+.. py:data:: final_angular_position
+
+    Angular position at time :math:`t`.
+
+    Symbol:
+        :code:`theta`
+
+    Latex:
+        :math:`\theta`
+
+.. py:data:: initial_angular_position
+
+    Angular position at :math:`t = 0`.
+
+    Symbol:
+        :code:`theta_0`
+
+    Latex:
+        :math:`\theta_0`
+
+.. py:data:: initial_angular_speed
+
+    Angular speed at :math:`t = 0`.
+
+    Symbol:
+        :code:`w_0`
+
+    Latex:
+        :math:`\omega_0`
+
+.. py:data:: angular_acceleration
+
+    Constant angular acceleration.
+
+    Symbol:
+        :code:`alpha`
+
+    Latex:
+        :math:`\alpha`
+
+.. py:data:: time
+
+    Time at which :math:`\theta` is measured.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`theta = theta_0 + w_0 * t + 1/2 * alpha * t^2`
+
+    Latex:
+        .. math::
+            \theta = \theta_0 + \omega_0 t + \frac{1}{2} \alpha t^2
+

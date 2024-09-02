@@ -1,0 +1,56 @@
+Acceleration is speed derivative
+--------------------------------
+
+*Acceleration* is the derivative of speed w.r.t. time.
+
+.. py:currentmodule:: symplyphysics.definitions.acceleration_is_speed_derivative
+
+.. py:data:: acceleration
+
+    :attr:`~symplyphysics.symbols.kinematics.acceleration` of the body as a function of time.
+
+    Symbol:
+        :code:`a(t)`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: speed
+
+    Speed of the body as a function of time.
+
+    Symbol:
+        :code:`v(t)`
+
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: definition
+
+    :code:`a(t) = Derivative(v(t), t)`
+
+
+    Latex:
+        .. math::
+            a{\left(t \right)} = \frac{d}{d t} v{\left(t \right)}
+
+

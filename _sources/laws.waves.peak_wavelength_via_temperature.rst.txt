@@ -1,0 +1,46 @@
+Peak wavelength via temperature
+-------------------------------
+
+The wavelength of a blackbody's radiation peak is inversely proportional to its
+temperature. This law is known as the *Wien's displacement law*.
+
+.. py:currentmodule:: symplyphysics.laws.waves.peak_wavelength_via_temperature
+
+.. py:data:: peak_wavelength
+
+    Wavelength at which the peak of the spectral radiance of a blackbody occurs.
+
+    Symbol:
+        :code:`lambda_peak`
+
+    Latex:
+        :math:`\lambda_\text{peak}`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the blackbody.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: wien_displacement_constant
+
+    A constant of proportionality.
+
+    Symbol:
+        :code:`b`
+
+.. py:data:: law
+
+    :code:`lambda_peak = b / T`
+
+    Latex:
+        .. math::
+            \lambda_\text{peak} = \frac{b}{T}
+

@@ -1,0 +1,59 @@
+Radiation power via temperature
+-------------------------------
+
+One of the methods an object can exchange energy with its environment is via thermal radiation by
+emitting or absorbing energy in the form of electromagnetic waves. Also known as the *Stefan—Boltzmann
+law* of radiation, it states that the rate of thermal radiation is proportional to the fourth power of
+the radiating body's temperature.
+
+**Notation:**
+
+#. :math:`\sigma` (:code:`sigma`) is the Stefan—Boltzmann constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature
+
+.. py:data:: radiation_power
+
+    Power of radiation emitted or absorbed by the body.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: emissivity
+
+    Emissivity of the body's material.
+
+    Symbol:
+        :code:`epsilon`
+
+    Latex:
+        :math:`\varepsilon`
+
+.. py:data:: surface_area
+
+    Surface area of the body.
+
+    Symbol:
+        :code:`A`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the body.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`P = sigma * epsilon * A * T^4`
+
+    Latex:
+        .. math::
+            P = \sigma \varepsilon A T^4
+

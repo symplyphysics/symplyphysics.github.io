@@ -1,0 +1,89 @@
+Displacement in interfering waves
+---------------------------------
+
+If two waves are traveling in the same direction and have the same amplitude, period, and
+wavelength (and hence the same frequency and wavenumber), but differ in the phase constant, the result
+is a single wave with the same period and wavelength, but its amplitude depends on the phase
+shift between the waves. If the shift is a multiple of :math:`2 \pi`, the waves are exactly
+in phase and their interference is *fully constructive*. If it is :math:`\pi` plus a multiple of :math:`2 \pi`,
+they are exactly out of phase and their interference is *fully destructive*.
+
+**Notes:**
+
+#. The form of the first wave is :math:`u_\text{max} \sin(k x - \omega t)` and of the second wave
+   is :math:`u_\text{max} \sin(k x - \omega t + \varphi)`.
+#. The travel of the waves in unaffected by their interference.
+
+**Conditions:**
+
+#. The waves are traveling in the same (or similar) directions.
+#. They have the same amplitude, wavenumber and frequency.
+
+.. py:currentmodule:: symplyphysics.laws.waves.displacement_in_interfering_waves
+
+.. py:data:: total_displacement
+
+    Displacement of the resulting wave.
+
+    Symbol:
+        :code:`u`
+
+.. py:data:: amplitude
+
+    Amplitude of the interfering waves.
+
+    Symbol:
+        :code:`u_max`
+
+    Latex:
+        :math:`u_\text{max}`
+
+.. py:data:: phase_shift
+
+    Phase shift between the interfering waves.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: angular_wavenumber
+
+    Angular wavenumber of the interfering waves.
+
+    Symbol:
+        :code:`k`
+
+.. py:data:: angular_frequency
+
+    Angular frequency of the interfering waves.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: position
+
+    Position, or spatial coordinate.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`u = 2 * u_max * cos(phi / 2) * sin(k * x - w * t + phi / 2)`
+
+    Latex:
+        .. math::
+            u = 2 u_\text{max} \cos \left( \frac{\varphi}{2} \right) \sin \left( k x - \omega t + \frac{\varphi}{2} \right)
+

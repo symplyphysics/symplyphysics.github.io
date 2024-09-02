@@ -1,0 +1,46 @@
+Radiant exitance is radiant flux emitted per unit area
+------------------------------------------------------
+
+*Radiant exitance*, or *radiant emittance* is the radiant flux emitted by a surface per unit area.
+
+**Notation:**
+
+#. The subscript :math:`e` stands for *energetical* to avoid confusion with photometric quantities.
+
+.. py:currentmodule:: symplyphysics.definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area
+
+.. py:data:: radiant_exitance
+
+    Radiant exitance of the surface.
+
+    Symbol:
+        :code:`M_e`
+
+    Latex:
+        :math:`M_e`
+
+.. py:data:: radiant_flux
+
+    Radiant flux, or radiant power, emitted from the surface.
+
+    Symbol:
+        :code:`Phi_e(A)`
+
+    Latex:
+        :math:`\Phi_e(A)`
+
+.. py:data:: area
+
+    The area of the surface.
+
+    Symbol:
+        :code:`A`
+
+.. py:data:: definition
+
+    :code:`M_e = Derivative(Phi_e(A), A)`
+
+    Latex:
+        .. math::
+            M_e = \frac{\partial \Phi_e}{\partial A}
+

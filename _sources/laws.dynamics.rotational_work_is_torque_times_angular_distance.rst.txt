@@ -1,0 +1,47 @@
+Rotational work is torque times angular distance
+------------------------------------------------
+
+When a torque accelerates a rigid body in rotation about a fixed axis, the torque does work on
+the body. When the torque is constant, the work done on the body is proportional to torque
+and the angular displacement during the movement of the body.
+
+..
+    TODO Rename file
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.rotational_work_is_torque_times_angular_distance
+
+.. py:data:: work
+
+    The work done by the torque.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: torque
+
+    The torque acting on the body.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+.. py:data:: angular_distance
+
+    The angular displacement of the body.
+
+    Symbol:
+        :code:`delta(theta)`
+
+    Latex:
+        :math:`\Delta \theta`
+
+.. py:data:: law
+
+    :code:`W = tau * delta(theta)`
+
+    Latex:
+        .. math::
+            W = \tau \Delta \theta
+

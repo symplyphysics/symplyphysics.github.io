@@ -1,0 +1,63 @@
+Position via constant acceleration and time
+-------------------------------------------
+
+If a body is moving with a constant acceleration, its position in space is a quadratic function of time.
+
+**Conditions:**
+
+#. Acceleration is constant, i.e. :math:`\frac{d a}{d t} = 0.`
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.position_via_constant_acceleration_and_time
+
+.. py:data:: final_position
+
+    Position at time :math:`t`.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: initial_position
+
+    Position at :math:`t = 0`.
+
+    Symbol:
+        :code:`x_0`
+
+    Latex:
+        :math:`x_0`
+
+.. py:data:: initial_speed
+
+    Speed at :math:`t = 0`.
+
+    Symbol:
+        :code:`v_0`
+
+.. py:data:: acceleration
+
+    Constant :attr:`~symplyphysics.symbols.kinematics.acceleration`.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: time
+
+    Time at which :math:`x` is measured.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`x = x_0 + v_0 * t + (1/2) * a * t^2`
+
+    Latex:
+        .. math::
+            x = x_0 + v_0 t + \frac{1}{2} a t^2
+

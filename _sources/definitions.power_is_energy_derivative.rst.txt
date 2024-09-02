@@ -1,0 +1,37 @@
+Power is energy derivative
+--------------------------
+
+Power is the amount of energy transferred or converted per unit time. Equally, it is the
+rate at which work is done.
+
+.. py:currentmodule:: symplyphysics.definitions.power_is_energy_derivative
+
+.. py:data:: power
+
+    Power as a function of time.
+
+    Symbol:
+        :code:`P(t)`
+
+.. py:data:: energy
+
+    Energy as a function of time.
+
+    Symbol:
+        :code:`E(t)`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: definition
+
+    :code:`P(t) = Derivative(E(t), t)`
+
+    Latex:
+        .. math::
+            P(t) = \frac{d E}{d t}
+

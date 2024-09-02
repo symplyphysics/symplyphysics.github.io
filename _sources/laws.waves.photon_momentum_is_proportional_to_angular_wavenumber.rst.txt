@@ -1,0 +1,33 @@
+Photon momentum is proportional to angular wavenumber
+-----------------------------------------------------
+
+The momentum of a photon is proportional to its wavenumber.
+
+**Notation:**
+
+#. :math:`\hbar` (:code:`hbar`) is the reduced Planck constant.
+
+.. py:currentmodule:: symplyphysics.laws.waves.photon_momentum_is_proportional_to_angular_wavenumber
+
+.. py:data:: momentum
+
+    Momentum of a photon.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: angular_wavenumber
+
+    Angular wavenumber of a photon.
+
+    Symbol: 
+        :code:`k`
+
+.. py:data:: law
+
+    :code:`p = hbar * k`
+
+    Latex:
+        .. math::
+            p = \hbar k
+

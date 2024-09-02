@@ -1,0 +1,34 @@
+Fully destructive interference condition
+----------------------------------------
+
+The interference of two waves is said to be fully destructive when the amplitude of the
+resulting wave is zero, i.e. the two waves cancel each other out. In that case, they must
+be an odd number of half-cycles out of phase between each other.
+
+.. py:currentmodule:: symplyphysics.laws.waves.fully_destructive_interference_condition
+
+.. py:data:: phase_shift
+
+    Phase shift between interfering waves.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: integer_factor
+
+    Integer factor.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: law
+
+    :code:`phi = (1 + 2 * n) * pi`
+
+    Latex:
+        .. math::
+            \varphi = (1 + 2 n) \pi
+

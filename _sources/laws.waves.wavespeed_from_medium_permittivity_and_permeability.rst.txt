@@ -1,0 +1,47 @@
+Wave speed from medium permittivity and permeability
+----------------------------------------------------
+
+Speed of electromagnetic wave propagation depends on relative permittivity and relative
+permeability of the medium.
+
+**Notation:**
+
+#. :math:`c` is the speed of light.
+
+.. py:currentmodule:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability
+
+.. py:data:: wave_speed
+
+    Speed of wave propagation in medium.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: relative_permittivity
+
+    Permittivity of medium relative to that of vacuum.
+
+    Symbol:
+        :code:`epsilon`
+
+    Latex:
+        :math:`\varepsilon`
+
+.. py:data:: relative_permeability
+
+    Permeability of medium relative to that of vacuum.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: law
+
+    :code:`v = c / sqrt(epsilon * mu)`
+
+    Latex:
+        .. math::
+            v = \frac{c}{\sqrt {\varepsilon \mu}}
+

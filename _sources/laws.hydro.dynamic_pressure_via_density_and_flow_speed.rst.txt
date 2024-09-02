@@ -1,0 +1,46 @@
+Dynamic pressure from speed
+---------------------------
+
+*Dynamic pressure*, sometimes called *velocity pressure*, is a physical quantity denoting the
+pressure caused by a flowing fluid. It is numerically equal to the kinetic energy of the
+fluid per unit volume (see :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`).
+
+**Notes:**
+
+#. Many authors define this quantity only for *incompressible flows*, but others extend it for
+   compressible flows as well.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.dynamic_pressure_via_density_and_flow_speed
+
+.. py:data:: dynamic_pressure
+
+    Dynamic pressure of the fluid.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: density
+
+    Density of the fluid.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: flow_speed
+
+    Flow speed of the fluid.
+
+    Symbol:
+        :code:`u`
+
+.. py:data:: law
+
+    :code:`q = 1/2 * rho * u^2`
+
+    Latex:
+        .. math::
+            q = \frac{1}{2} \rho u^2
+

@@ -1,0 +1,73 @@
+Work of ideal gas in isothermal process
+---------------------------------------
+
+The isothermal process of expansion (or compression) of a gas can occur under conditions where heat
+exchange between the gas and the external environment is carried out at a constant temperature.
+To do this, the heat capacity of the external environment must be large enough, and the expansion
+(or compression) process must be slow enough.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. The temperature of the gas stays constant during the expansion.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isothermal_process
+
+.. py:data:: work
+
+    Work done by the ideal gas during the isothermal process.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: amount_of_substance
+
+    Amount of ideal gas.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: initial_volume
+
+    Initial volume of the gas.
+
+    Symbol:
+        :code:`V_0`
+
+    Latex:
+        :math:`V_0`
+
+.. py:data:: final_volume
+
+    Final volume of the gas.
+
+    Symbol:
+        :code:`V_1`
+
+    Latex:
+        :math:`V_1`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`W = n * R * T * log(V_1 / V_0)`
+
+    Latex:
+        .. math::
+            W = n R T \log \frac{V_1}{V_0}
+

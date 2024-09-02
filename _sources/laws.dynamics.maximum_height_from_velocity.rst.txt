@@ -1,0 +1,32 @@
+Maximum height from initial speed
+---------------------------------
+
+The maximum height that a body thrown vertically will rise to depends on the initial speed.
+
+..
+    TODO Rename file
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.maximum_height_from_velocity
+
+.. py:data:: maximum_height
+
+    The maximum height that the object will reach.
+
+    Symbol:
+        :code:`h`
+
+.. py:data:: initial_speed
+
+    The initial speed of the object.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: law
+
+    :code:`h = v^2 / (2 * g)`
+
+    Latex:
+        .. math::
+            h = \frac{v^2}{2 g}
+

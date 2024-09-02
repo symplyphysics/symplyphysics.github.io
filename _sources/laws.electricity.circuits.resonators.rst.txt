@@ -1,0 +1,7 @@
+**Resonators**
+==============
+
+A *resonator* is an electronic component that can generate a resonant frequency.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators
+

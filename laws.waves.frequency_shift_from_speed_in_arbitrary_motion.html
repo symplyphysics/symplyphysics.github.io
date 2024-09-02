@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Frequency shift from speed in arbitrary motion &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Frequency shift from speed in collinear motion" href="laws.waves.frequency_shift_from_speed_in_collinear_motion.html" />
+    <link rel="prev" title="Frequency of electron transition in Hydrogen" href="laws.waves.frequency_of_electron_transition_in_hydrogen.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="frequency-shift-from-speed-in-arbitrary-motion">
+<h1>Frequency shift from speed in arbitrary motion<a class="headerlink" href="#frequency-shift-from-speed-in-arbitrary-motion" title="Link to this heading">¶</a></h1>
+<p>The <em>Doppler effect</em> or <em>Doppler shift</em> is the apparent change in frequency of a wave in
+relation to an observer moving relative to the wave source.</p>
+<p>Also see <a class="reference internal" href="laws.waves.frequency_shift_from_speed_in_collinear_motion.html"><span class="doc">Frequency shift from speed in collinear motion</span></a>.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The source and observer speeds are less or equal to the wave speed. Otherwise emitted
+waves are left behind the source or never reach the observer.</p></li>
+<li><p>The speeds are much less than the speed of light, i.e. this law is non-relativistic.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observed_frequency">
+<span class="sig-name descname"><span class="pre">observed_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observed_frequency" title="Link to this definition">¶</a></dt>
+<dd><p>Observed frequency of the wave.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f_o</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f_\text{o}\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_frequency">
+<span class="sig-name descname"><span class="pre">source_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_frequency" title="Link to this definition">¶</a></dt>
+<dd><p>Wave frequency of the source.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f_s</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f_\text{s}\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.wave_speed">
+<span class="sig-name descname"><span class="pre">wave_speed</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.wave_speed" title="Link to this definition">¶</a></dt>
+<dd><p>Phase speed of the wave.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_speed">
+<span class="sig-name descname"><span class="pre">source_speed</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_speed" title="Link to this definition">¶</a></dt>
+<dd><p>Magnitude of the velocity vector of the source.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_s</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_\text{s}\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observer_speed">
+<span class="sig-name descname"><span class="pre">observer_speed</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observer_speed" title="Link to this definition">¶</a></dt>
+<dd><p>Magnitude of the velocity vector of the observer.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_o</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_\text{o}\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_angle">
+<span class="sig-name descname"><span class="pre">source_angle</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_angle" title="Link to this definition">¶</a></dt>
+<dd><p>Angle between the wave velocity and the source velocity.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">theta_s</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\theta_\text{s}\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observer_angle">
+<span class="sig-name descname"><span class="pre">observer_angle</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observer_angle" title="Link to this definition">¶</a></dt>
+<dd><p>Angle between the wave velocity and the observer velocity.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">theta_o</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\theta_\text{o}\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">f_o</span> <span class="pre">=</span> <span class="pre">f_s</span> <span class="pre">*</span> <span class="pre">(v</span> <span class="pre">-</span> <span class="pre">v_o</span> <span class="pre">*</span> <span class="pre">cos(theta_o))</span> <span class="pre">/</span> <span class="pre">(v</span> <span class="pre">-</span> <span class="pre">v_s</span> <span class="pre">*</span> <span class="pre">cos(theta_s))</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[f_\text{o} = f_\text{s} \frac{v - v_\text{o} \cos{\theta_\text{o}}}{v - v_\text{s} \cos{\theta_\text{s}}}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.waves.html">Waves</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.blackbody_radiation.html"><strong>Blackbody radiation</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.relativistic.html"><strong>Waves (Relativistic)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.vector.html"><strong>Waves (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.average_power_of_sinusoidal_wave_on_stretched_string.html">Average power of sinusoidal wave on stretched string</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.displacement_in_interfering_waves.html">Displacement in interfering waves</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.displacement_in_standing_wave.html">Displacement in standing wave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.frequency_of_electron_transition_in_hydrogen.html">Frequency of electron transition in Hydrogen</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Frequency shift from speed in arbitrary motion</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observed_frequency"><code class="docutils literal notranslate"><span class="pre">observed_frequency</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_frequency"><code class="docutils literal notranslate"><span class="pre">source_frequency</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.wave_speed"><code class="docutils literal notranslate"><span class="pre">wave_speed</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_speed"><code class="docutils literal notranslate"><span class="pre">source_speed</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observer_speed"><code class="docutils literal notranslate"><span class="pre">observer_speed</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.source_angle"><code class="docutils literal notranslate"><span class="pre">source_angle</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.observer_angle"><code class="docutils literal notranslate"><span class="pre">observer_angle</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.frequency_shift_from_speed_in_arbitrary_motion.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.frequency_shift_from_speed_in_collinear_motion.html">Frequency shift from speed in collinear motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.fully_constructive_interference_condition.html">Fully constructive interference condition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.fully_destructive_interference_condition.html">Fully destructive interference condition</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.group_velocity_from_dispersion_relation.html">Group velocity from dispersion relation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.intensity_of_sound_wave_via_displacement_amplitude.html">Intensity of sound wave via displacement amplitude</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change.html">Light frequency change is proportional to gravitational potential change</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.peak_wavelength_via_temperature.html">Peak wavelength via temperature</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.phase_of_traveling_wave.html">Phase of traveling wave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.phase_shift_between_two_points.html">Phase shift between two points</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.phase_speed_of_wave_on_stretched_string.html">Phase speed of wave on stretched string</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.phase_velocity_from_angular_frequency_and_wavenumber.html">Phase speed from angular frequency and wavenumber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.photoelectron_energy_from_photon_energy.html">Photoelectron energy from energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.photon_energy_is_proportional_to_angular_frequency.html">Photon energy is proportional to angular frequency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.photon_energy_is_proportional_to_linear_frequency.html">Photon energy is proportional to linear frequency</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.photon_momentum_is_proportional_to_angular_wavenumber.html">Photon momentum is proportional to angular wavenumber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.photon_momentum_is_proportional_to_energy.html">Photon momentum is proportional to energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.position_of_antinodes_in_standing_wave.html">Position of antinodes in standing wave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.position_of_nodes_in_standing_wave.html">Position of nodes in standing wave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.pressure_amplitude_in_sound_wave.html">Pressure amplitude in sound wave</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.refractive_index_via_permittivity_and_permeability.html">Refractive index via permittivity and permeability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.resonant_frequencies_of_stretched_string_with_fixed_ends.html">Resonant frequencies of stretched string with fixed ends</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.sine_of_mach_cone_angle_is_mach_number.html">Sine of Mach cone angle via Mach number</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.speed_of_light_from_fundamentals.html">Speed of light via vacuum permittivity and permeability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.speed_of_sound_via_bulk_modulus_and_density.html">Speed of sound via bulk modulus and density</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.wave_equation_general_solution_in_one_dimension.html">General solution to wave equation in one dimension</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.wavelength_from_phase_speed_and_period.html">Wavelength from phase speed and period</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.wavelength_of_standing_wave_in_string_with_fixed_ends.html">Wavelength of standing wave in string with fixed ends</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.wavespeed_from_medium_permittivity_and_permeability.html">Wave speed from medium permittivity and permeability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.wavespeed_from_medium_refractive_index.html">Wave speed from medium</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.waves.html">Waves</a><ul>
+      <li>Previous: <a href="laws.waves.frequency_of_electron_transition_in_hydrogen.html" title="previous chapter">Frequency of electron transition in Hydrogen</a></li>
+      <li>Next: <a href="laws.waves.frequency_shift_from_speed_in_collinear_motion.html" title="next chapter">Frequency shift from speed in collinear motion</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.waves.frequency_shift_from_speed_in_arbitrary_motion.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

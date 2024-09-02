@@ -1,0 +1,60 @@
+Torque via force and radial distance
+------------------------------------
+
+*Torque* is a turning action on a body about a rotation axis due to a force.
+
+**Notes:**
+
+#. The position vector of a point in space, also known as location or radius vector,
+   is the vector connecting the origin of the coordinate system and the given point.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.torque_via_force_and_radial_distance
+
+.. py:data:: torque
+
+    The magnitude of the torque applied at the given point.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+.. py:data:: force
+
+    The magnitude of the :attr:`~symplyphysics.symbols.dynamics.force` exerted on the given point.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: radial_distance
+
+    The distance to axis from the given point.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: angle_between_vectors
+
+    The angle between the position vector of the given point and the force vector.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: law
+
+    :code:`tau = F * r * sin(phi)`
+
+    Latex:
+        .. math::
+            \tau = F r \sin{\varphi}
+

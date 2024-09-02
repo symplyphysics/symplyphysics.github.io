@@ -1,0 +1,52 @@
+Wave equation in one dimension
+------------------------------
+
+The *wave equation* is a second-order linear partial differential equation used to
+describe the propagation of waves, including standing wave fields such as mechanical
+or electromagnetic waves.
+
+**Notes:**
+
+#. This equation is called one-dimensional because the displacement function depends
+   only on one spatial dimension.
+
+.. py:currentmodule:: symplyphysics.definitions.wave_equation_in_one_dimension
+
+.. py:data:: displacement
+
+    Factor representing a displacement from rest position, which could be
+    pressure, position, electric field, etc., as a function of position
+    and time.
+
+    Symbol:
+        :code:`u(x, t)`
+
+.. py:data:: position
+
+    Position, or spatial variable.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: phase_speed
+
+    :doc:`Phase speed <laws.waves.phase_velocity_from_angular_frequency_and_wavenumber>` of the wave.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: definition
+
+    :code:`Derivative(u(x, t), (x, 2)) = (1/v^2) * Derivative(u(x, t), (t, 2))`
+
+    Latex:
+        .. math::
+            \frac{\partial^2 u}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 u}{\partial t^2}
+

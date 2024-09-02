@@ -1,0 +1,46 @@
+Resonant frequencies of stretched string with fixed ends
+--------------------------------------------------------
+
+For a string with fixed ends there is only a limited set of frequencies at which standing waves will
+occur on it. Each possible frequency is a resonant frequency, and the corresponding wave pattern is
+an oscillation mode. The oscillation mode corresponding to :math:`m = 1` is called the fundamental mode or
+the first harmonic, the mode corresponding to :math:`m = 2` is the second harmonic, and so on.
+
+.. py:currentmodule:: symplyphysics.laws.waves.resonant_frequencies_of_stretched_string_with_fixed_ends
+
+.. py:data:: resonant_frequency
+
+    Resonant frequency of the :math:`m`-th harmonic.
+
+    Symbol:
+        :code:`f`
+
+.. py:data:: harmonic_number
+
+    An integer called harmonic number.
+
+    Symbol:
+        :code:`m`
+
+.. py:data:: phase_velocity
+
+    Phase velocity of the wave.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: string_length
+
+    Length of the string.
+
+    Symbol: 
+        :code:`l`
+
+.. py:data:: law
+
+    :code:`f = m * v / (2 * l)`
+
+    Latex:
+        .. math::
+            f = \frac{m v}{2 l}
+

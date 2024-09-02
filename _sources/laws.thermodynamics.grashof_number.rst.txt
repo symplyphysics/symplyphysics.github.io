@@ -1,0 +1,85 @@
+Grashof number
+--------------
+
+The Grashof number (Gr) is a dimensionless number which approximates the ratio of the
+buoyancy to viscous forces acting on a fluid. It arises in situations involving natural convection
+and is analogous to the Reynolds number.
+
+**Notation:**
+
+#. :math:`g` is the acceleration due to gravity.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.grashof_number
+
+.. py:data:: grashof_number
+
+    Grashof number of the fluid.
+
+    Symbol:
+        :code:`Gr`
+
+    Latex:
+        :math:`\text{Gr}`
+
+.. py:data:: volumetric_expansion_coefficient
+
+    Volumetric coefficient of thermal expansion of the body.
+
+    Symbol:
+        :code:`beta`
+
+    Latex:
+        :math:`\beta`
+
+.. py:data:: surface_temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the surface of the fluid.
+
+    Symbol:
+        :code:`T_s`
+
+    Latex:
+        :math:`T_\text{s}`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: bulk_temperature
+
+    Average :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the inside of the fluid.
+
+    Symbol:
+        :code:`T_b`
+
+    Latex:
+        :math:`T_\text{b}`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: characteristic_length
+
+    An important dimension of the given fluid, usually defined as the volume of the body
+    divided by its area.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: kinematic_viscosity
+
+    Kinematic viscosity of the fluid.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+.. py:data:: law
+
+    :code:`Gr = g * beta * (T_s - T_b) * L^3 / nu^2`
+
+    Latex:
+        .. math::
+            \text{Gr} = g \beta (T_\text{s} - T_\text{b}) \frac{L^3}{\nu^2}
+

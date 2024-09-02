@@ -1,0 +1,42 @@
+Rotational stiffness is torque applied over angle
+-------------------------------------------------
+
+*Rotational stiffness* is the extent to which an object resists rotational deformation.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle
+
+.. py:data:: rotational_stiffness
+
+    Rotational stiffness of the body.
+
+    Symbol:
+        :code:`k`
+
+.. py:data:: torque
+
+    Torque applied to the body.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+.. py:data:: angular_distance
+
+    Angle of deformation.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: law
+
+    :code:`k = tau / phi`
+
+    Latex:
+        .. math::
+            k = \frac{\tau}{\varphi}
+

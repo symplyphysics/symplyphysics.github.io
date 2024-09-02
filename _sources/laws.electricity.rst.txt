@@ -1,0 +1,17 @@
+Electromagnetism
+================
+
+*Electromagnetism* is a fundamental interaction that occurs between particles with electric
+charge via electromagnetic fields. Electromagnetism can be thought of as a combination of
+electrostatics and magnetism, which are distinct but closely intertwined phenomena.
+
+.. py:currentmodule:: symplyphysics.laws.electricity
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.electricity.circuits
+  laws.electricity.maxwell_equations
+  laws.electricity.vector

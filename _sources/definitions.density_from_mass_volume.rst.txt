@@ -1,0 +1,47 @@
+Density from mass and volume
+----------------------------
+
+Volumetric mass *density* of an object is a physical quantity equal to the mass of the
+object per unit of its volume. See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`
+for a general version of this law.
+
+.. py:currentmodule:: symplyphysics.definitions.density_from_mass_volume
+
+.. py:data:: density
+
+    Volumetric density of the object.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the object.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: volume
+
+    Volume of the object.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: definition
+
+    :code:`rho = m / V`
+
+    Latex:
+        .. math::
+            \rho = \frac{m}{V}
+

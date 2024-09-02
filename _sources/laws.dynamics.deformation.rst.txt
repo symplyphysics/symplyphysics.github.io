@@ -1,0 +1,21 @@
+**Deformation (Dynamics)**
+==========================
+
+In physics and continuum mechanics, deformation is the change in the shape or size of an object.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.deformation
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.dynamics.deformation.bulk_modulus_via_young_modulus_and_poisson_ratio
+  laws.dynamics.deformation.elastic_energy_density_of_bulk_compression_via_pressure
+  laws.dynamics.deformation.elastic_energy_density_of_compression_via_strain
+  laws.dynamics.deformation.engineering_normal_strain_is_total_deformation_over_initial_dimension
+  laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio
+  laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain
+  laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle
+  laws.dynamics.deformation.superposition_of_small_deformations
+  laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain

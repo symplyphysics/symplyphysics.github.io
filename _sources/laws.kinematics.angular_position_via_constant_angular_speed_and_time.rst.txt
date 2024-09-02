@@ -1,0 +1,56 @@
+Angular position via constant angular speed and time
+----------------------------------------------------
+
+When a body is rotating around a fixed axis with a constant angular speed, its angular
+position is a linear function of time.
+
+#. The axis is fixed.
+#. Angular speed is constant, i.e. :math:`\frac{d \omega}{d t} = 0.`
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_speed_and_time
+
+.. py:data:: final_angular_position
+
+    Angular position at time :math:`t`.
+
+    Symbol:
+        :code:`theta`
+
+    Latex:
+        :math:`\theta`
+
+.. py:data:: initial_angular_position
+
+    Angular position at :math:`t = 0`.
+
+    Symbol:
+        :code:`theta_0`
+
+    Latex:
+        :math:`\theta_0`
+
+.. py:data:: angular_speed
+
+    Constant angular speed.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: time
+
+    Time at which :math:`\theta` is measured.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`theta = theta_0 + w * t`
+
+    Latex:
+        .. math::
+            \theta = \theta_0 + \omega t
+

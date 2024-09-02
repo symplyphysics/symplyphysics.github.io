@@ -1,0 +1,42 @@
+Reduced pressure
+----------------
+
+See :ref:`vdw_reduced_units_def`.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure
+
+.. py:data:: reduced_pressure
+
+    Reduced pressure of the van der Waals fluid.
+
+    Symbol:
+        :code:`p*`
+
+    Latex:
+        :math:`p^*`
+
+.. py:data:: pressure
+
+    Pressure of the van der Waals fluid.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: critical_pressure
+
+    See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure`
+
+    Symbol:
+        :code:`p_c`
+
+    Latex:
+        :math:`p_\text{c}`
+
+.. py:data:: law
+
+    :code:`p* = p / p_c`
+
+    Latex:
+        .. math::
+            p^* = \frac{p}{p_\text{c}}
+

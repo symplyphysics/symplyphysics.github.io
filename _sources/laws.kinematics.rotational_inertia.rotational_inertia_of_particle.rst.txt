@@ -1,0 +1,43 @@
+Rotational inertia of a particle
+--------------------------------
+
+Rotational inertia of a rotating particle is defined as the product of its mass
+and the squared radius of rotation.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_of_particle
+
+.. py:data:: rotational_inertia
+
+    Rotational inertia of the particle.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: distance_to_axis
+
+    Distance to axis, or radius of rotation.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the particle.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`I = m * r^2`
+
+    Latex:
+        .. math::
+            I = m r^2
+

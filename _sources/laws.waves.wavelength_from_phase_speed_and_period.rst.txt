@@ -1,0 +1,41 @@
+Wavelength from phase speed and period
+--------------------------------------
+
+Wavelength is the spatial period of a periodic wave, i.e. the distance the wave needs to travel
+for its shape to repeat. It can also be measured as the distance between two closest points
+with the same wave phase.
+
+.. py:currentmodule:: symplyphysics.laws.waves.wavelength_from_phase_speed_and_period
+
+.. py:data:: wavelength
+
+    Wavelength of the wave.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: phase_velocity
+
+    Phase velocity of the wave.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: period
+
+    Temporal period of the wave.
+
+    Symbol:
+        :code:`T`
+
+.. py:data:: law
+
+    :code:`lambda = v * T`
+
+    Latex:
+        .. math::
+            \lambda = v T
+

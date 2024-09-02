@@ -1,0 +1,58 @@
+Equation in homogeneous medium in one dimension
+-----------------------------------------------
+
+Heat equation governs heat diffusion, as well as other diffusive processes. It describes
+the evolution of heat transferred from hotter to colder environments in time and space.
+
+**Notes:**
+
+#. There is no straghtforward solution to this equation, and it depends on initial
+   conditions as well.
+
+**Conditions:**
+
+#. There are no heat sources in the system, i.e. the heat distribution only depends on
+   the initial conditions.
+#. Thermal diffusivity :math:`\chi` does not depend on position.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.heat_transfer.equation_in_homogeneous_medium_in_one_dimension
+
+.. py:data:: temperature
+
+    Temperature as a function of position and time.
+
+    Symbol:
+        :code:`T(x, t)`
+
+.. py:data:: position
+
+    Position, or spatial variable.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: thermal_diffusivity
+
+    `Thermal diffusivity <https://en.wikipedia.org/wiki/Thermal_diffusivity>`_.
+
+    Symbol:
+        :code:`chi`
+
+    Latex:
+        :math:`\chi`
+
+.. py:data:: law
+
+    :code:`Derivative(T(x, t), t) = chi * Derivative(T(x, t), (x, 2))`
+
+    Latex:
+        .. math::
+            \frac{\partial T}{\partial t} = \chi \frac{\partial^2 T}{\partial x^2}
+

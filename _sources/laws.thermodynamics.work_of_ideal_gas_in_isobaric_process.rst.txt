@@ -1,0 +1,54 @@
+Work of ideal gas in isobaric process
+-------------------------------------
+
+An isobaric process is a process that occurs at constant pressure. The work done
+by the gas is proportional to the pressure of the gas and its volume change.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isobaric_process
+
+.. py:data:: work
+
+    Work done by the gas during the isobaric process.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: pressure
+
+    Pressure of the gas, constant during the process.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: initial_volume
+
+    Initial volume of the gas.
+
+    Symbol:
+        :code:`V_0`
+
+    Latex:
+        :math:`V_0`
+
+.. py:data:: final_volume
+
+    Final volume of the gas
+
+    Symbol:
+        :code:`V_1`
+
+    Latex:
+        :math:`V_1`
+
+.. py:data:: law
+
+    :code:`W = p * (V_1 - V_0)`
+
+    Latex:
+        .. math::
+            W = p (V_1 - V_0)
+

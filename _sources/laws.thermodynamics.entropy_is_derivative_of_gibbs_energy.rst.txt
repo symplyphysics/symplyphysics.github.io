@@ -1,0 +1,56 @@
+Entropy is derivative of Gibbs energy
+-------------------------------------
+
+Entropy of a system can be found if its Gibbs energy is known as a function of temperature.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.entropy_is_derivative_of_gibbs_energy
+
+.. py:data:: entropy
+
+    Entropy of the system.
+
+    Symbol:
+        :code:`S`
+
+.. py:data:: gibbs_energy
+
+    Gibbs energy of the system.
+
+    Symbol:
+        :code:`G(T, p, N)`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: pressure
+
+    Pressure inside the system.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: particle_count
+
+    Number of particles in the system.
+
+    Symbol:
+        :code:`N`
+
+.. py:data:: law
+
+    :code:`S = -1 * Derivative(G(T, p, N), T)`
+
+    Latex:
+        .. math::
+            S = - \left( \frac{\partial G}{\partial T} \right)_{p, N}
+

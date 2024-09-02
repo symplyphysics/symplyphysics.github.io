@@ -1,0 +1,34 @@
+Critical molar volume
+---------------------
+
+Critical molar volume of a van der Waals fluid is proportional to the excluded volume
+parameter :math:`b` of the van der Waals equation. See :ref:`vdw_critical_parameters_def`.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume
+
+.. py:data:: critical_molar_volume
+
+    Critical volume of the van der Waals fluid per unit amount of substance.
+
+    Symbol:
+        :code:`V_cm`
+
+    Latex:
+        :math:`V_\text{c, m}`
+
+.. py:data:: excluded_volume_parameter
+
+    Parameter of the van der Waals equation denoting an excluded molar volume
+    due to a finite size of molecules.
+
+    Symbol:
+        :code:`b`
+
+.. py:data:: law
+
+    :code:`V_cm = 3 * b`
+
+    Latex:
+        .. math::
+            V_\text{c, m} = 3 b
+

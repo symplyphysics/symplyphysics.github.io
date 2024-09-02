@@ -1,0 +1,7 @@
+**Geometry (Vector)**
+=====================
+
+A collection of laws related to vectorial description of geometry relations.
+
+.. py:currentmodule:: symplyphysics.laws.geometry.vector
+

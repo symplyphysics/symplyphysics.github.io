@@ -1,0 +1,42 @@
+Fractional change is change over initial value
+----------------------------------------------
+
+
+
+.. py:currentmodule:: symplyphysics.laws.quantities.fractional_change_is_change_over_initial_value
+
+.. py:data:: fractional_change
+
+    Fractional change of quantity :math:`X`
+
+    Symbol:
+        :code:`e_X`
+
+    Latex:
+        :math:`e_X`
+
+.. py:data:: change
+
+    Change in the value of the quantity.
+
+    Symbol:
+        :code:`dX`
+
+    Latex:
+        :math:`\Delta X`
+
+.. py:data:: initial_value
+
+    Initial value of the quantity.
+
+    Symbol:
+        :code:`X`
+
+.. py:data:: law
+
+    :code:`e_X = dX / X`
+
+    Latex:
+        .. math::
+            e_X = \frac{\Delta X}{X}
+

@@ -1,0 +1,101 @@
+Acceleration is normal plus tangential acceleration
+---------------------------------------------------
+
+The acceleration of a body moving arbitrarily is composed of two parts:
+
+#. *normal, or centripetal, acceleration*, which is always present in a rotating environment
+   and points to the instantaneous axis of rotation,
+#. and *tangential acceleration*, which is responsible for the change in the magnitude of
+   the velocity vector.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration
+
+.. py:function:: acceleration_law(normal_acceleration_, tangential_acceleration_)
+
+    Total acceleration via normal and tangential accelerations.
+
+    Law:
+        :code:`a = a_n + a_t`
+
+    Latex:
+        .. math::
+            \vec a = {\vec a}_n + {\vec a}_\tau
+
+    :param normal_acceleration\_: vector of normal acceleration
+
+        Symbol: :code:`a_n`
+
+        Latex: :math:`{\vec a}_n`
+
+        Dimension: *acceleration*
+
+    :param tangential_acceleration\_: vector of tangential acceleration
+
+        Symbol: :code:`a_t`
+
+        Latex: :math:`{\vec a}_\tau`
+
+        Dimension: *acceleration*
+
+    :return: vector of total acceleration
+
+        Symbol: :code:`a`
+
+        Latex: :math:`\vec a`
+
+        Dimension: *acceleration*
+
+.. py:function:: normal_acceleration_law(total_acceleration_, tangential_acceleration_)
+
+    Normal acceleration via total and tangential accelerations.
+
+    Law:
+        :code:`a_n = a - a_t`
+
+    Latex:
+        .. math::
+            {\vec a}_n = \vec a - {\vec a}_\tau
+
+    :param total_acceleration\_: vector of total acceleration
+
+        Symbol: :code:`a`
+
+        Latex: :math:`\vec a`
+
+        Dimension: *acceleration*
+
+    :param tangential_acceleration\_: vector of tangential acceleration
+
+        Symbol: :code:`a_t`
+
+        Latex: :math:`{\vec a}_\tau`
+
+        Dimension: *acceleration*
+
+.. py:function:: tangential_acceleration_law(total_acceleration_, normal_acceleration_)
+
+    Tangential acceleration via total and normal accelerations.
+
+    Law:
+        :code:`a_t = a - a_n`
+
+    Latex:
+        .. math::
+            {\vec a}_\tau = \vec a - {\vec a}_n
+
+    :param total_acceleration\_: vector of total acceleration
+
+        Symbol: :code:`a`
+
+        Latex: :math:`\vec a`
+
+        Dimension: *acceleration*
+
+    :param normal_acceleration\_: vector of normal acceleration
+
+        Symbol: :code:`a_n`
+
+        Latex: :math:`{\vec a}_n`
+
+        Dimension: *acceleration*
+

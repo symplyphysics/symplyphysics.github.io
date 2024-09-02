@@ -1,0 +1,44 @@
+Laplace pressure of spherical shapes
+------------------------------------
+
+Under the curved surface of a fluid, in addition to the internal pressure, additional pressure
+is created due to the curvature of the surface. The excess pressure under the curved surface of
+the fluid is called *Laplace pressure*.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.laplace_pressure_of_spherical_shapes
+
+.. py:data:: laplace_pressure
+
+    Excess pressure under the curved surface.
+
+    Symbol:
+        :code:`P_L`
+
+    Latex:
+        :math:`P_\text{L}`
+
+.. py:data:: surface_tension
+
+    Surface tension of the fluid.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+.. py:data:: radius_of_curvature
+
+    Radius of curvature of the surface.
+
+    Symbol:
+        :code:`R`
+
+.. py:data:: law
+
+    :code:`P_L = 2 * sigma / R`
+
+    Latex:
+        .. math::
+            P_\text{L} = \frac{2 \sigma}{R}
+

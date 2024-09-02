@@ -1,0 +1,42 @@
+Volumetric expansion coefficient of ideal gas
+---------------------------------------------
+
+The isobaric volumetric expansion coefficient of an ideal gas is the inverse of its temperature.
+
+**Conditions:**
+
+#. Pressure of the gas remains constant during the expansion.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.volumetric_expansion_coefficient_of_ideal_gas
+
+.. py:data:: volumetric_expansion_coefficient
+
+    :doc:`Volumetric expansion coefficient <definitions.volumetric_coefficient_of_thermal_expansion>` of the gas.
+
+    Symbol:
+        :code:`alpha_V`
+
+    Latex:
+        :math:`\alpha_V`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`alpha_V = 1 / T`
+
+    Latex:
+        .. math::
+            \alpha_V = \frac{1}{T}
+

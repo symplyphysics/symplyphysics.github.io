@@ -1,0 +1,63 @@
+Reynolds number formula
+-----------------------
+
+*Reynolds number* is a dimensionless quantity that characterizes the flow of a fluid.
+It helps predict fluid flow patterns in different situations by measuring the ratio between inertial
+and viscous forces. Low Reynolds numbers tend to correspond to laminar flows, while high Reynolds
+numbers tend to correspond to turbulent flows.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.reynolds_number_formula
+
+.. py:data:: reynolds_number
+
+    Reynolds number of the fluid.
+
+    Symbol:
+        :code:`Re`
+
+    Latex:
+        :math:`\text{Re}`
+
+.. py:data:: characteristic_length
+
+    `Characteristic length <https://en.wikipedia.org/wiki/Characteristic_length>`_ of the fluid
+    container whose value depends on its shape.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: density
+
+    Density of the fluid.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: flow_speed
+
+    Speed of the fluid flow.
+
+    Symbol:
+        :code:`u`
+
+.. py:data:: dynamic_viscosity
+
+    Dynamic viscosity of the fluid.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: law
+
+    :code:`Re = rho * u * L / mu`
+
+    Latex:
+        .. math::
+            \text{Re} = \frac{\rho u L}{\mu}
+

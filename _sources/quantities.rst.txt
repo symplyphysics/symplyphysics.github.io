@@ -1,0 +1,105 @@
+Physical constants
+==================
+
+Contains useful physical constants. Fundamental constants can be also found in `sympy.physics.units`_ module.
+
+.. _sympy.physics.units: https://github.com/sympy/sympy/blob/b6376e085a047b8bada988ff57fbb79a62546842/sympy/physics/units/definitions/unit_definitions.py#L245
+
+.. py:currentmodule:: symplyphysics.quantities
+
+.. py:data:: standard_conditions_temperature
+
+    Zero Celsius degrees. The temperature at which water freezes.
+    It is also temperature for Standard Temperature and Pressure (STP)
+
+    Symbol:
+        :code:`t_std`
+
+    Latex:
+        :math:`t_\text{std}`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: standard_laboratory_temperature
+
+    Approximately 25 Celsius degrees. Commonly used temperature for tabulation purposes.
+
+    Symbol:
+        :code:`t_lab`
+
+    Latex:
+        :math:`t_\text{lab}`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: electron_rest_mass
+
+    Mass of stationary electron
+
+    Symbol:
+        :code:`m_e`
+
+    Latex:
+        :math:`m_\text{e}`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: bohr_radius
+
+    The Bohr radius is the radius of the electron orbit of the hydrogen atom closest
+    to the nucleus in the atomic model proposed by Niels Bohr.
+
+    Symbol:
+        :code:`a0`
+
+    Latex:
+        :math:`a_0`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: hydrogen_ionization_energy
+
+    The ionization energy is the smallest energy required to remove an electron from
+    a free atom in its basic energy state to infinity.
+
+    Symbol:
+        :code:`IE_h`
+
+    Latex:
+        :math:`\mathrm{IE}_\text{H}`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: solar_mass
+
+    The solar mass is a standard unit of mass in astronomy approximately equal to the mass
+    of the Sun. The relative uncertainty of the measurement is :math:`4 \cdot 10^{-5}`.
+
+    Symbol:
+        :code:`M_Sun`
+
+    Latex:
+        :math:`M_\odot`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: earth_mass
+
+    The Earth mass is a standard unit of mass in astronomy equal to the mass of the planet 
+    Earth. The relative uncertainty of the measurement is :math:`10^{-4}`.
+
+    Symbol:
+        :code:`M_Earth`
+
+    Latex:
+        :math:`M_\oplus`
+
+    Dimension:
+        :code:`mass`
+

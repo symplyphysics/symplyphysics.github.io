@@ -1,0 +1,88 @@
+Displacement in resonant oscillations
+-------------------------------------
+
+When an oscillating external force is driving the oscillations of an oscillator,
+amplitude of oscillations is greatest when the angular frequency of the driving
+is equal to the natural frequency of the oscillator. This condition is called
+resonance.
+
+**Conditions:**
+
+#. Angular frequency of the driving force is equal to the natural frequency of the oscillator.
+#. No damping is present in the system.
+
+**Notes:**
+
+#. The expression of the driving force has the form :math:`f \cos{\left( \omega t + \varphi \right)}`
+   where :math:`\omega` is the angular frequency of its oscillations.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.resonant_oscillations
+
+.. py:data:: resonant_displacement
+
+    The displacement of resonant oscillations.
+
+    Symbol:
+        :code:`q(t)`
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the oscillator.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: natural_angular_frequency
+
+    The natural angular frequency of the oscillator.
+
+    Symbol:
+        :code:`w0`
+
+    Latex:
+        :math:`\omega_0`
+
+.. py:data:: driving_force_amplitude
+
+    The amplitude of the driving force.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: driving_phase_lag
+
+    The phase lag of the oscillations of the driving force.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`q(t) = (F / m) * t * sin(w0 * t + phi) / (2 * w0)`
+
+    Latex:
+        .. math::
+            q(t) = \frac{F t}{2 m \omega_0} \sin{\left( \omega_0 t + \varphi \right)}
+

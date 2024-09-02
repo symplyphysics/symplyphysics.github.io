@@ -1,0 +1,72 @@
+Phase of traveling wave
+-----------------------
+
+The phase of a wave or other periodic function of some real variable :math:`t` is an angle-like
+quantity representing the fraction of the cycle covered up to :math:`t`. As the variable :math:`t`
+completes a full period, the phase increases by :math:`360^\circ` or :math:`2 \pi`.
+
+If a function :math:`h(x, t)` describes a traveling wave, then position :math:`x` and time :math:`t`
+can only appear in the form of the wave phase described below.
+
+**Notes:**
+
+#. :math:`\omega = (\vec \omega \cdot {\vec e}_x)`, i.e. the angular frequency is a positive quantity
+   if the wave travels in the positive direction of the :math:`x`-axis. Here :math:`{\vec e}_x` is the
+   unit vector pointing in the positive direction of the :math:`x`-axis.
+
+**Conditions:**
+
+#. This law applies to a :math:`1`-dimensional traveling wave.
+#. The constant phase shift is not taken into account.
+
+.. py:currentmodule:: symplyphysics.laws.waves.phase_of_traveling_wave
+
+.. py:data:: wave_phase
+
+    Phase of the wave.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: angular_wavenumber
+
+    Angular wavenumber of the wave.
+
+    Symbol:
+        :code:`k`
+
+.. py:data:: position
+
+    Position, or spatial coordinate.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: angular_frequency
+
+    Angular frequency of the wave.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`phi = k * x - w * t`
+
+    Latex:
+        .. math::
+            \varphi = k x - \omega t
+

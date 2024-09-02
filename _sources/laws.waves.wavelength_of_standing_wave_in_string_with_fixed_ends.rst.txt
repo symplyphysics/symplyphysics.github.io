@@ -1,0 +1,46 @@
+Wavelength of standing wave in string with fixed ends
+-----------------------------------------------------
+
+If a standing wave occurs in a string with fixed ends, the value of the displacement
+function :math:`q(x)` must be zero on both ends of the string. To satisfy this boundary
+condition, only an integer number of half-waves can fit into the total length of the
+string.
+
+**Conditions:**
+
+#. Boundary condition: :math:`q(0) = q(L) = 0`.
+
+.. py:currentmodule:: symplyphysics.laws.waves.wavelength_of_standing_wave_in_string_with_fixed_ends
+
+.. py:data:: integer_factor
+
+    Positive integer, also called *harmonic number* of the :math:`n`-th harmonic.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: wavelength
+
+    Wavelength of standing wave.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: string_length
+
+    Length of the string.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: law
+
+    :code:`n * (lambda / 2) = L`
+
+    Latex:
+        .. math::
+            n \frac{\lambda}{2} = L
+

@@ -1,0 +1,64 @@
+Pressure amplitude in sound wave
+--------------------------------
+
+Sound waves cause a pressure change of the medium from the equilibrium pressure.
+This change is proportional to the speed of sound and the density of the medium,
+the angular frequency of the wave and the displacement of particles in the medium.
+
+.. py:currentmodule:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave
+
+.. py:data:: pressure_amplitude
+
+    Amplitude of pressure change.
+
+    Symbol:
+        :code:`Delta(p)_max`
+
+    Latex:
+        :math:`(\Delta p)_\text{max}`
+
+.. py:data:: speed_of_sound
+
+    Speed of sound in the medium.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: medium_density
+
+    Density of the medium.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: angular_frequency
+
+    Angular frequency of the sound wave.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: displacement_amplitude
+
+    Displacement amplitude of particles in the medium.
+
+    Symbol:
+        :code:`s_max`
+
+    Latex:
+        :math:`s_\text{max}`
+
+.. py:data:: law
+
+    :code:`Delta(p)_max = v * rho * w * s_max`
+
+    Latex:
+        .. math::
+            (\Delta p)_\text{max} = v \rho \omega s_\text{max}
+

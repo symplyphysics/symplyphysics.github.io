@@ -1,0 +1,36 @@
+Speed is distance derivative
+----------------------------
+
+Speed is a physical quantity that describes the rate of change in the body's position.
+
+.. py:currentmodule:: symplyphysics.definitions.speed_is_distance_derivative
+
+.. py:data:: speed
+
+    Velocity of the body as a function of time.
+
+    Symbol:
+        :code:`v(t)`
+
+.. py:data:: distance
+
+    Distance traveled by the body as a function of time.
+
+    Symbol:
+        :code:`s(t)`
+
+.. py:data:: time
+
+    Travel time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: definition
+
+    :code:`v(t) = Derivative(s(t), t)`
+
+    Latex:
+        .. math::
+            v(t) = \frac{d s}{d t}
+

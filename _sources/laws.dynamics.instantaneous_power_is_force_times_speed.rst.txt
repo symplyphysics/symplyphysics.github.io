@@ -1,0 +1,53 @@
+Instantaneous power is force times speed
+----------------------------------------
+
+*Power* is the rate at which the work is done by a force exerted on an object.
+*Instantaneous power* is the power at a specific instant.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.instantaneous_power_is_force_times_speed
+
+.. py:data:: power
+
+    The instantaneous power of force :math:`F`.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: force
+
+    The :attr:`~symplyphysics.symbols.dynamics.force` exerted on the object.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: speed
+
+    The speed of the object
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: angle_between_vectors
+
+    The angle between the force and velocity vectors.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: law
+
+    :code:`P = F * v * cos(phi)`
+
+    Latex:
+        .. math::
+            P = F v \cos{\varphi}
+

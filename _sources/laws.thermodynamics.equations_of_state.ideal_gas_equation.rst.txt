@@ -1,0 +1,54 @@
+Ideal gas equation
+------------------
+
+The ideal gas law, also known as the general gas equation, is an equation of state used to
+describe a hypothetical ideal gas.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.ideal_gas_equation
+
+.. py:data:: pressure
+
+    Pressure inside the gas.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: volume
+
+    Volume of the gas.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: amount_of_substance
+
+    Amount of gas.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`p V = n * R * T`
+
+    Latex:
+        .. math::
+            p V = n R T
+

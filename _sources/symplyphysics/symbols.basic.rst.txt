@@ -1,8 +1,0 @@
-Symbols (Basic)
-===============
-
-Contains fundamental properties of matter.
-
-.. autodata:: symplyphysics.symbols.basic.mass
-  :no-value:
-

@@ -1,0 +1,81 @@
+General equation in one dimension
+---------------------------------
+
+Heat equation governs heat diffusion, as well as other diffusive processes. It describes
+the evolution of heat transferred from hotter to colder environments in time and space.
+
+**Notes:**
+
+#. There is no straghtforward solution to this equation, and it depends on initial
+   conditions as well.
+#. To get a similar equation for the 3-dimensional case, replace the spatial
+   derivative with gradient :math:`\nabla`.
+#. Thermal conductivity :math:`k` can depend not only on position, but also on local
+   temperature, but this is out of the scope of this law.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.heat_transfer.general_equation_in_one_dimension
+
+.. py:data:: temperature
+
+    Temperature as a function of position and time.
+
+    Symbol:
+        :code:`T(x, t)`
+
+.. py:data:: medium_density
+
+    Density of the medium.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: medium_specific_isobaric_heat_capacity
+
+    Heat capacity of the medium at constant pressure per unit mass.
+
+    Symbol:
+        :code:`c_p`
+
+    Latex:
+        :math:`c_p`
+
+.. py:data:: thermal_conductivity
+
+    `Thermal conductivity <https://en.wikipedia.org/wiki/Thermal_conductivity_and_resistivity#Definition>`_
+    of the medium as a function of position.
+
+    Symbol:
+        :code:`k(x)`
+
+.. py:data:: heat_source_density
+
+    Density of the rate of heat production by external sources as a function of position and time.
+
+    Symbol:
+        :code:`q(x, t)`
+
+.. py:data:: position
+
+    Position, or spatial variable.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`rho * c_p * Derivative(T(x, t), t) = Derivative(k(x) * Derivative(T(x, t), x), x) + q(x, t)`
+
+    Latex:
+        .. math::
+            \rho c_p \frac{\partial T}{\partial t} = \frac{\partial}{\partial x} \left( k(x) \frac{\partial T}{\partial x} \right) + q(x, t)
+

@@ -1,0 +1,64 @@
+Average power of sinusoidal wave on stretched string
+----------------------------------------------------
+
+The average power of a wave of any type is proportional to the square of its amplitude and to the
+square of its angular frequency.
+
+**Conditions:**
+
+#. The wave is sinusoidal.
+
+.. py:currentmodule:: symplyphysics.laws.waves.average_power_of_sinusoidal_wave_on_stretched_string
+
+.. py:data:: wave_average_power
+
+    Average power, or rate of energy transfer, of the wave.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: string_linear_density
+
+    Linear density of the string, i.e. mass per unit length.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: wave_phase_velocity
+
+    Phase velocity of the wave.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: wave_angular_frequency
+
+    Angular frequency of the wave.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: wave_amplitude
+
+    Amplitude of the wave.
+
+    Symbol:
+        :code:`u_max`
+
+    Latex:
+        :math:`u_\text{max}`
+
+.. py:data:: law
+
+    :code:`P = 1/2 * mu * v * w^2 * u_max^2`
+
+    Latex:
+        .. math::
+            P = \frac{1}{2} \mu v \omega^2 u_\text{max}^2
+

@@ -1,0 +1,82 @@
+Compressibility factor via intermolecular force potential
+---------------------------------------------------------
+
+The virial equation describes the deviation of a real gas from ideal gas behaviour. The virial coefficients
+in the virial expansion account for interactions between successively larger groups of molecules. Since
+interactions between large numbers of molecules are rare, the virial equation is usually truncated at the third
+term onwards. Under the assumption that only pair interactions are present, the compressibility factor can be
+linked to the intermolecular force potential.
+
+**Notation:**
+
+#. :math:`k_\text{B}` is the Boltzmann constant.
+
+**Conditions:**
+
+#. The virial expansion is done up to the second virial coefficient inclusively.
+
+..
+    TODO Simplify this law by reducing it to the formula of the second virial coefficient
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential
+
+.. py:data:: compressibility_factor
+
+    :doc:`Compressibility factor <definitions.compressibility_factor_is_deviation_from_ideal_gas>` of the gas.
+
+    Symbol:
+        :code:`Z`
+
+.. py:data:: particle_count
+
+    Number of particles in the system.
+
+    Symbol:
+        :code:`N`
+
+.. py:data:: volume
+
+    Volume of the system.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: intermolecular_distance
+
+    Distance between gas molecules.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: intermolecular_force_potential
+
+    Intermolecular force potential as a function of intermolecular distance.
+
+    Symbol:
+        :code:`phi(r)`
+
+    Latex:
+        :math:`\varphi(r)`
+
+.. py:data:: temperature
+
+    Temperature of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`Z = 1 + 2 * pi * (N / V) * Integral((1 - exp(-1 * phi(r) / (k_B * T))) * r^2, (r, 0, Infinity))`
+
+    Latex:
+        .. math::
+            Z = 1 + \frac{2 \pi N}{V}
+                    \int \limits_0^{\infty} \left( 1 - \exp{\left( - \frac{\varphi(r)}{k_\text{B} T} \right)} \right) r^2 dr
+

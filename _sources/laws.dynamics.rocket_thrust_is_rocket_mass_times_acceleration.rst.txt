@@ -1,0 +1,79 @@
+Rocket thrust is rocket mass times acceleration
+-----------------------------------------------
+
+Assuming we are at rest relative to an inertial reference frame, we observe a rocket
+through space with no gravitational or atmospheric drag forces acting on it.
+The mass of the rocket changes as it burns fuel and releases the products of burning,
+the total mass of the system does not change.
+
+**Conditions:**
+
+#. The fuel consumption rate is constant.
+#. The velocities are non-relativistic.
+
+**Notes:**
+
+#. The quantity :math:`R v_\text{rel}` is called the *thrust of rocket engine*.
+
+    .. _rate note:
+
+#. The rate :math:`R` of fuel consumption is defined as 
+    .. math::
+        R = - \frac{d M}{d t}
+
+    where :math:`M` is the :ref:`rocket mass <rocket mass definition>`.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration
+
+.. py:data:: fuel_consumption_rate
+
+    The rate of fuel consumption. See :ref:`Note <rate note>` for the definition.
+
+    Symbol:
+        :code:`R`
+
+.. py:data:: relative_speed
+
+    The speed of the rocket relative to its products.
+
+    Symbol:
+        :code:`v_rel`
+
+    Latex:
+        :math:`v_\text{rel}`
+
+.. py:data:: acceleration
+
+    The :attr:`~symplyphysics.symbols.kinematics.acceleration` of the rocket.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: mass
+
+    .. _rocket mass definition:
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the rocket
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`R * v_rel = M * a`
+
+    Latex:
+        :math:`R v_\text{rel} = M a`
+

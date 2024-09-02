@@ -1,0 +1,51 @@
+Position via constant speed and time
+------------------------------------
+
+If a body is moving with constant speed, its position can be expressed as a linear function
+of time.
+
+**Conditions:**
+
+#. Speed is constant, i.e. :math:`\frac{d v}{d t} = 0.`
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.position_via_constant_speed_and_time
+
+.. py:data:: final_position
+
+    Position at time :math:`t`.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: initial_position
+
+    Position at :math:`t = 0`.
+
+    Symbol:
+        :code:`x_0`
+
+    Latex:
+        :math:`x_0`
+
+.. py:data:: speed
+
+    Constant speed.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: time
+
+    Time at which :math:`x` is measured.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`x = x_0 + v * t`
+
+    Latex:
+        .. math::
+            x = x_0 + v t
+

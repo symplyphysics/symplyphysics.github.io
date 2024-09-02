@@ -1,0 +1,40 @@
+Position of nodes in standing wave
+----------------------------------
+
+In a standing wave, the locations of zero amplitude are called nodes. These locations, however,
+are not arbitrary and are integer multiples of half the wavelength of the standing wave.
+
+.. py:currentmodule:: symplyphysics.laws.waves.position_of_nodes_in_standing_wave
+
+.. py:data:: node_position
+
+    Position of :math:`m`-th node.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: integer_factor
+
+    An integer.
+
+    Symbol:
+        :code:`m`
+
+.. py:data:: wavelength
+
+    Wavelength of the standing wave.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: law
+
+    :code:`x = (m / 2) * lambda`
+
+    Latex:
+        .. math::
+            x = \frac{m}{2} \lambda
+

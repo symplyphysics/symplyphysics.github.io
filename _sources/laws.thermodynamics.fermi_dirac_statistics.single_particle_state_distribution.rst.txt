@@ -1,0 +1,69 @@
+Single-particle state distribution
+----------------------------------
+
+For a system of identical fermions in thermodynamic equilibrium, the average number of fermions
+in a single-particle state :math:`i` is given by the Fermi—Dirac distribution.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Notes:**
+
+#. If the energy states are degenerate, i.e. two or more particles are on the same energy level,
+   the average number of fermions can be found by multiplying by the degeneracy :math:`g_i` of
+   the energy level.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution
+
+.. py:data:: occupancy_of_state
+
+    Occupancy of a single-particle state :math:`i`.
+
+    Symbol:
+        :code:`N_i`
+
+    Latex:
+        :math:`N_i`
+
+.. py:data:: energy_of_state
+
+    Energy of state :math:`i`.
+
+    Symbol:
+        :code:`E_i`
+
+    Latex:
+        :math:`E_i`
+
+.. py:data:: total_chemical_potential
+
+    Total chemical potential of the system.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`N_i = 1 / (exp((E_i - mu) / (k_B * T)) + 1)`
+
+    Latex:
+        .. math::
+            N_i = \frac{1}{\exp{\left( \frac{E_i - \mu}{k_\text{B} T} \right)} + 1}
+

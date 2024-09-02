@@ -1,0 +1,75 @@
+Probability of ideal gas macrostate
+-----------------------------------
+
+Suppose there is a vessel of volume :math:`V` with :math:`N` identical ideal gas particles whose movement is described
+by classical mechanics. Let us divide the volume of the vessel into :math:`m` small enough cells with volumes :math:`V_1`
+up to :math:`V_m`. Let us for a moment also attach a number to each gas particle to be able to tell them apart.
+
+The *microstate* of the gas is the complete description of
+
+#. the particle count of each cell of the vessel
+#. the particles of which numbers appear in each cell.
+
+A particle moving within the same cell does not change the microstate of the gas, but a particle moving
+from one cell to another does.
+
+The *macrostate* of the gas only requires the description of the particle count in each cell of the vessel.
+If we assume the particles to be identical, it doesn't make a difference, from a macroscopic standpoint, particles
+of which number appear in which cells. Hence the probability of the macrostate is larger than that of the microstate
+by the factor of the number of permutations of the particles among the cells, which is exactly the statistical weight
+of the macrostate.
+
+**Conditions:**
+
+#. There are no external fields acting on the system.
+#. All particles are identical.
+#. The gas is ideal.
+#. Probabilities must sum up to :math:`1`.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.probability_of_ideal_gas_macrostate
+
+.. py:data:: macrostate_probability
+
+    Probability of the macrostate.
+
+    Symbol:
+        :code:`P_macro`
+
+    Latex:
+        :math:`P_\text{macro}`
+
+.. py:data:: statistical_weight
+
+    Statistical weight of the macrostate.
+
+    Symbol:
+        :code:`G`
+
+.. py:data:: particle_in_cell_probability
+
+    Probability of finding at least one particle in cell :math:`i`.
+
+    Symbol:
+        :code:`p_i`
+
+    Latex:
+        :math:`p_i`
+
+.. py:data:: particle_count_in_cell
+
+    Number of particles in cell :math:`i`.
+
+    Symbol:
+        :code:`N_i`
+
+    Latex:
+        :math:`N_i`
+
+.. py:data:: law
+
+    :code:`P_macro = G * Product(p_i^N_i, i)`
+
+    Latex:
+        .. math::
+            P_\text{macro} = G \prod_i p_i^{N_i}
+

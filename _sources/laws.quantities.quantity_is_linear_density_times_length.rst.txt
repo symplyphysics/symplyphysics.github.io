@@ -1,0 +1,40 @@
+Extensive quantity is linear density times length
+-------------------------------------------------
+
+An extensive quantity of interest can be obtained by multiplying the corresponding *linear
+density* by length.
+
+.. py:currentmodule:: symplyphysics.laws.quantities.quantity_is_linear_density_times_length
+
+.. py:data:: extensive_quantity
+
+    Extensive quantity
+
+    Symbol:
+        :code:`X`
+
+.. py:data:: linear_density
+
+    Intensive linear density
+
+    Symbol:
+        :code:`lambda_X`
+
+    Latex:
+        :math:`\lambda_X`
+
+.. py:data:: length
+
+    Length
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: law
+
+    :code:`X = lambda_X * L`
+
+    Latex:
+        .. math::
+            X = \lambda_X L
+

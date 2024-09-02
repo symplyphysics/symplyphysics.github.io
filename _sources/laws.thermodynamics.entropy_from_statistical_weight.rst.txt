@@ -1,0 +1,34 @@
+Entropy from statistical weight
+-------------------------------
+
+Entropy of a system depends on the statistical weight of the system's state. Statistical weight
+is the average number of microstates of a system that implement its macrostate.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.entropy_from_statistical_weight
+
+.. py:data:: entropy
+
+    Entropy of the system.
+
+    Symbol:
+        :code:`S`
+
+.. py:data:: statistical_weight
+
+    Statistical weight of the system's state.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: law
+
+    :code:`S = k_B * log(W)`
+
+    Latex:
+        .. math::
+            S = k_\text{B} \log W
+

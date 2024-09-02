@@ -1,0 +1,39 @@
+Quantum isochoric molar heat capacity of solids
+-----------------------------------------------
+
+To derive the heat capacity of a solid, one should account for quantum effects. Albert Einstein used the
+same model as in the classical case, namely the atoms are harmonic oscillators with three degrees
+of freedom, located in the nodes of the crystal lattice, performing thermal oscillations around the
+equlibrium positions with the same frequency. But he used a more correct expression for the energy
+of the oscillators, and although the result still only qualitatively describes the heat capacity of
+solids, it is a big achievement and the result has correct asymptotic behaviour for :math:`T \to 0`.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids
+
+.. py:data:: isochoric_molar_heat_capacity
+
+    Heat capacity at constant volume per unit amount of substance.
+
+    Symbol:
+        :code:`C_V`
+
+    Latex:
+        :math:`C_V`
+
+.. py:data:: reduced_photon_energy
+
+    Reduced photon energy, defined as the ratio of photon energy :math:`\hbar \omega` or :math:`h \nu` to
+    thermal energy :math:`k_\text{B} T`.
+
+.. py:data:: law
+
+    :code:`C_V = 3 * R * x^2 * exp(x) / (exp(x) - 1)^2`
+
+    Latex:
+        .. math::
+            C_V = 3 R \frac{x^2 e^x}{\left( e^x - 1 \right)^2}
+

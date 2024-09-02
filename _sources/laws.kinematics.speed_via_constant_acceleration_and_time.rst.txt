@@ -1,0 +1,57 @@
+Speed via constant acceleration and time
+----------------------------------------
+
+If a body is moving with constant acceleration, its speed can be expressed as a linear function
+of time.
+
+**Conditions:**
+
+#. Acceleration is constant, i.e. :math:`\frac{d a}{d t} = 0.`
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.speed_via_constant_acceleration_and_time
+
+.. py:data:: final_speed
+
+    Speed at time :math:`t`.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: time
+
+    Time at which :math:`v` is measured.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: acceleration
+
+    Constant acceleration.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: initial_speed
+
+    Speed at :math:`t = 0`.
+
+    Symbol:
+        :code:`v_0`
+
+    Latex:
+        :math:`v_0`
+
+.. py:data:: law
+
+    :code:`v = v_0 + a * t`
+
+    Latex:
+        .. math::
+            v = v_0 + a t
+

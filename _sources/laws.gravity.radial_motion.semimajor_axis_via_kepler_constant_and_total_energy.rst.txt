@@ -1,0 +1,49 @@
+Semimajor axis via Kepler's constant and total energy
+-----------------------------------------------------
+
+The semi-major axis of an orbiting planet depends on the Kepler's constant of
+the star---planet system and the total energy of the planet per unit of its mass.
+
+**Notes:**
+
+#. Works for both elliptical (:math:`\varepsilon < 0`) and hyperbolical
+   (:math:`\varepsilon > 0`) orbits.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy
+
+.. py:data:: semimajor_axis
+
+    The semi-major axis of the planet's orbit.
+
+    Symbol:
+        a
+
+.. py:data:: kepler_constant
+
+    The Kepler's constant, whose value is determined by the mass of the orbited star.
+
+    Symbol:
+        K
+
+    Latex:
+        :math:`\mathfrak{K}`
+
+.. py:data:: specific_energy
+
+    The total energy of the planet per unit of its :attr:`~symplyphysics.symbols.basic.mass`.
+    Can be negative or positive depending on the sign of the planet's energy.
+
+    Symbol:
+        epsilon
+
+    Latex:
+        :math:`\varepsilon`
+
+.. py:data:: law
+
+    a = 2 * pi^2 * K / abs(epsilon)
+
+    Latex:
+        .. math::
+            a = \frac{2 \pi^2 \mathfrak{K}}{|\varepsilon|}
+

@@ -1,0 +1,46 @@
+Hydrostatic pressure via density and height
+-------------------------------------------
+
+Hydrostatic pressure is the pressure exerted by a fluid at equilibrium at any point of time
+due to the force of gravity.
+
+**Conditions:**
+
+#. The fluid is in statical equilibrium.
+#. The only force acting on the fluid is the force of gravity.
+#. The fluid is subjected to the gravity force of Earth.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height
+
+.. py:data:: hydrostatic_pressure
+
+    Hydrostatic pressure of the fluid column.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: density
+
+    Density of the fluid.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: height
+
+    Height of the fluid column.
+
+    Symbol:
+        :code:`h`
+
+.. py:data:: law
+
+    :code:`p = rho * g * h`
+
+    Latex:
+        .. math::
+            p = \rho g h
+

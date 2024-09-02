@@ -1,0 +1,19 @@
+**Radial motion**
+=================
+
+Many properties regarding the movement of planets in the gravitational field of the star
+can be found by studing the energy equation of the radial motion of the planet.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.radial_motion
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy
+  laws.gravity.radial_motion.potential_energy_of_planetary_motion
+  laws.gravity.radial_motion.radial_kinetic_energy_plus_potential_energy_is_constant
+  laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy
+  laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters
+  laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy

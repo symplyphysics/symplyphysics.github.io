@@ -1,0 +1,45 @@
+Kinetic energy via angular momentum and angular velocity
+--------------------------------------------------------
+
+Kinetic energy of a body rotating around a fixed or instantaneous axis depends on its
+angular momentum and angular velocity.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
+
+.. py:function:: kinetic_energy_law(angular_momentum_, angular_velocity_)
+
+    Kinetic energy of a rotating body.
+
+    **Notation:**
+
+    #. :math:`\left(\vec a, \vec b \right)` (:code:`dot(a, b)`) is the dot product between vectors
+       :math:`\vec a` and :math:`\vec b`.
+
+    Law:
+        :code:`K = 1/2 * dot(L, w)`
+
+    Latex:
+        :math:`K = \frac{1}{2} \left(\vec L, \vec \omega \right)`
+
+    :param angular_momentum\_: angular momentum of the body.
+
+        Symbol: :code:`L`
+
+        Latex: :math:`\vec L`
+
+        Dimension: *length* * *momentum*
+
+    :param angular_velocity\_: angular velocity of the body.
+
+        Symbol: :code:`w`
+
+        Latex: :math:`\vec \omega`
+
+        Dimension: *angle* / *time*
+
+    :return: kinetic energy of the body
+
+        Symbol: :code:`K`
+
+        Dimension: *energy*
+

@@ -1,0 +1,94 @@
+Solution with zero temperature boundaries
+-----------------------------------------
+
+The heat equation coupled with a boundary condition can be solved to get a unique solution.
+In this boundary-value problem the heat transfer within a thin rod is observed, the temperature
+on both ends being zero. This restricts the number of functions :math:`f(x)` that can satisfy
+the boundary equation :math:`f(x) = T(x, 0)`.
+
+**Notes:**
+
+#. :math:`f(x)` represents initial spatial distribution of temperature.
+
+    .. _heat_transfer_zero_temperature_solution_coefficient_note:
+
+#. Values :math:`B_n` are found using the boundary condition :math:`f(x) = \sum_n T_n(x, 0)`
+   with the help of the Fourier method.
+#. The total solution :math:`T(x, t) = \sum_n T_n(x, t)`.
+
+**Conditions:**
+
+#. Position :math:`x \in [0, L]`.
+#. Temperature on both ends is zero: :math:`T_n(0, t) = 0`, :math:`T_n(L, t) = 0`
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries
+
+.. py:data:: temperature
+
+    Solution to the heat equation corresponding to the :math:`n`:sup:`th` mode.
+
+    Symbol:
+        :code:`T_n(x, t)`
+
+    Latex:
+        :math:`T_n`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: scaling_coefficient
+
+    Scaling coefficient of the solution, see :ref:`Notes <heat_transfer_zero_temperature_solution_coefficient_note>`.
+
+    Symbol:
+        :code:`B_n`
+
+    Latex:
+        :math:`B_n`
+
+.. py:data:: thermal_diffusivity
+
+    `Thermal diffusivity <https://en.wikipedia.org/wiki/Thermal_diffusivity>`_.
+
+    Symbol:
+        :code:`chi`
+
+    Latex:
+        :math:`\chi`
+
+.. py:data:: mode_number
+
+    Number of the mode, which is a positive integer.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: maximum_position
+
+    Maximum possible position.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: position
+
+    Position, or spatial variable.
+
+    Symbol: 
+        :code:`x`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`T_n(x, t) = B_n * sin(n * pi * x / L) * exp(-1 * chi * (n * pi / L)^2 * t)`
+
+    Latex:
+        .. math::
+            T_n(x, t) = B_n \sin \left( \frac{n \pi x}{L} \right) \exp \left[ -\chi \left( \frac{n \pi}{L} \right)^2 t \right]
+

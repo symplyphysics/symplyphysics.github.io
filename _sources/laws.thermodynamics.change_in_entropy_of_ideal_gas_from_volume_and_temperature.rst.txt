@@ -1,0 +1,110 @@
+Change in entropy of ideal gas from volume and temperature
+----------------------------------------------------------
+
+*Entropy* is a property of a thermodynamic system that expresses the direction or outcome of spontaneous changes in the system.
+The term was introduced to explain the relationship of the internal energy that is available or unavailable for transformations in form of heat and work.
+Entropy predicts that certain processes are irreversible or impossible, despite not violating the conservation of energy.
+The definition of entropy is central to the establishment of the second law of thermodynamics, which states that the entropy of isolated systems cannot decrease with time,
+as they always tend to arrive at a state of thermodynamic equilibrium, where the entropy is highest.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature
+
+.. py:data:: entropy_change
+
+    Entropy change during the transition between the two states.
+
+    Symbol:
+        :code:`S`
+
+.. py:data:: mass
+
+    Mass of the gas.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: molar_mass
+
+    Molar mass, or molecular weight, of the gas.
+
+    Symbol:
+        :code:`M`
+
+.. py:data:: molar_isochoric_heat_capacity
+
+    Heat capacity at constant volume per unit amount of substance.
+
+    Symbol:
+        :code:`C_V`
+
+    Latex:
+        :math:`C_V`
+
+.. py:data:: final_temperature
+
+    Temperature of the final state.
+
+    Symbol:
+        :code:`T_1`
+
+    Latex:
+        :math:`T_1`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: initial_temperature
+
+    Temperature of the initial state.
+
+    Symbol:
+        :code:`T_0`
+
+    Latex:
+        :math:`T_0`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: final_volume
+
+    Volume of the final state.
+
+    Symbol:
+        :code:`V_1`
+
+    Latex:
+        :math:`V_1`
+
+.. py:data:: initial_volume
+
+    Volume of the initial state.
+
+    Symbol:
+        :code:`V_0`
+
+    Latex:
+        :math:`V_0`
+
+.. py:data:: law
+
+    :code:`S = (m / M) * (C_V * log(T_1 / T_0) + R * log(V_1 / V_0))`
+
+    Latex:
+        .. math::
+            S = \frac{m}{M} \left( C_V \log \frac{T_1}{T_0} + R \log \frac{V_1}{V_0} \right)
+

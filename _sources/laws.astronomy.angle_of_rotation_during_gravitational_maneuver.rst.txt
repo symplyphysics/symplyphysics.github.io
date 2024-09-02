@@ -1,0 +1,58 @@
+Angle of rotation during gravitational maneuver
+-----------------------------------------------
+
+A gravitational maneuver is a purposeful change in the trajectory and flight speed of a spacecraft under the influence
+of the gravitational fields of celestial bodies.
+The angle of the gravitational maneuver depends on the aiming range, the mass of the planet and the velocity of the rocket relative to the planet.
+
+.. image:: https://upload.wikimedia.org/wikipedia/commons/a/ad/Gravity_assist\_-\_ru.svg
+    :width: 240px
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.angle_of_rotation_during_gravitational_maneuver
+
+.. py:data:: angle
+
+    Angle of rotation during a gravitational maneuver (angle at which the velocity vector of the rocket rotates)
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\phi`
+
+.. py:data:: planet_mass
+
+    Mass of the planet.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: aiming_range
+
+    The aiming range is the distance between the asymptote of the hyperbolic trajectory of the circumnavigation of the planet and its focus
+    coinciding with the center of the planet.
+
+    Symbol:
+        :code:`b`
+
+.. py:data:: rocket_speed
+
+    Rocket's velocity relative to the planet.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: law
+
+    :code:`phi = 2 * arctg(G * M / (b * v^2))`
+
+    Latex:
+        .. math::
+            \phi = 2 \arctan \left( \frac{G M}{b v^2} \right)
+

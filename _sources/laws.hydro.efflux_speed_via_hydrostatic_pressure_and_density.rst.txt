@@ -1,0 +1,46 @@
+Efflux speed via pressure and density
+-------------------------------------
+
+The speed of a fluid flowing out from a small orifice can be expressed as a function
+of the fluid's :doc:`hydrostatic pressure <laws.hydro.hydrostatic_pressure_via_density_and_height>`
+and density.
+
+**Conditions:**
+
+#. The orifice is very small relative to the horizontal cross-section of the container.
+#. The fluid is :ref:`ideal <ideal_fluid_def>`.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density
+
+.. py:data:: efflux_speed
+
+    Speed of the fluid flowing out of the pipe.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: hydrostatic_pressure
+
+    Hydrostatic pressure of the fluid.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: density
+
+    Density of the fluid.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: law
+
+    :code:`v = sqrt(2 * p / rho)`
+
+    Latex:
+        .. math::
+            v = \sqrt{\frac{2 p}{\rho}}
+

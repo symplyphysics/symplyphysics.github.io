@@ -1,0 +1,56 @@
+Entropy derivative via volume derivative
+----------------------------------------
+
+Maxwell relations are a set of equations that unite the most common thermodynamic quantities between
+one another. They are derived from the fundamental themodynamic relations featuring differentials
+of thermodynamic potentials, and this method of derivation is called the method of thermodynamic
+potentials.
+
+**Conditions:**
+
+#. Particle count must be constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.entropy_derivative_via_volume_derivative
+
+.. py:data:: entropy
+
+    Entropy of the system as a function of temperature and pressure.
+
+    Symbol:
+        :code:`S(T, p)`
+
+.. py:data:: pressure
+
+    Pressure inside the system.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: volume
+
+    Volume of the system as a function of temperature and pressure.
+
+    Symbol:
+        :code:`V(T, p)`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`Derivative(S(T, p), p) = -1 * Derivative(V(T, p), T)`
+
+    Latex:
+        .. math::
+            \left( \frac{\partial S}{\partial p} \right)_T = - \left( \frac{\partial V}{\partial T} \right)_p
+

@@ -1,0 +1,43 @@
+Reaction force equals action force
+----------------------------------
+
+Newton's third law of motion states that for every action there is an equal and opposite reaction.
+Namely, if two bodies exert forces on each other, these forces have the same magnitude but opposite
+directions.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.reaction_force_from_action_force
+
+.. py:data:: action_force
+
+    The projection of the :attr:`~symplyphysics.symbols.dynamics.force` that the first body exerts on the second body.
+
+    Symbol:
+        :code:`F_12`
+
+    Latex:
+        :math:`F_{12}`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: reaction_force
+
+    The projection of the :attr:`~symplyphysics.symbols.dynamics.force` that the second body exerts on the first body.
+
+    Symbol:
+        :code:`F_21`
+
+    Latex:
+        :math:`F_21`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: law
+
+    :code:`F_12 = -1 * F_21`
+
+    Latex:
+        .. math::
+            F_{12} = - F_{21}
+

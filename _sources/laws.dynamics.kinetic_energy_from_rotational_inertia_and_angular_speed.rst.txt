@@ -1,0 +1,40 @@
+Kinetic energy from rotational inertia and angular speed
+--------------------------------------------------------
+
+Every rotating object bears kinetic energy, which depends on the rotational inertia of the object
+and its angular speed.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.kinetic_energy_from_rotational_inertia_and_angular_speed
+
+.. py:data:: kinetic_energy
+
+    The kinetic energy of the object.
+
+    Symbol:
+        :code:`K`
+
+.. py:data:: rotational_inertia
+
+    The rotational inertia of the object.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: angular_speed
+
+    The angular speed of the object.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: law
+
+    :code:`K = I * w^2 / 2`
+
+    Latex:
+        .. math::
+            K = \frac{1}{2} I \omega^2
+

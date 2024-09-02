@@ -1,0 +1,63 @@
+Second virial coefficient
+-------------------------
+
+The *second virial coefficient* is a coefficient appearing in the virial equation of state of
+a gas which describes the deviation from ideal gas behaviour. This coefficient describes pair
+interaction between molecules of the substance and can be found if the pair interaction potential
+is known, but it can also be derived from the equation of state as a series expansion with respect
+to inverse molar volume or equivalently, to molar density.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. The gas density is small enough within the context of perturbation theory.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient
+
+.. py:data:: second_virial_coefficient
+
+    Second virial coefficient of the virial expansion.
+
+    Symbol:
+        :code:`B`
+
+.. py:data:: attractive_forces_parameter
+
+    Parameter of the van der Waals equation denoting the magnitude of attractive
+    forces between gas molecules.
+
+    Symbol:
+        :code:`a`
+
+.. py:data:: excluded_volume_parameter
+
+    Parameter of the van der Waals equation denoting an excluded molar molar_volume
+    due to a finite size of molecules.
+
+    Symbol:
+        :code:`b`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`B = b - a / (R * T)`
+
+    Latex:
+        .. math::
+            B = b - \frac{a}{R T}
+

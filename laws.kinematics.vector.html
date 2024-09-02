@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kinematics (Vector) &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Absolute velocity of arbitrary motion" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html" />
+    <link rel="prev" title="Rotational inertia of a particle" href="laws.kinematics.rotational_inertia.rotational_inertia_of_particle.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="kinematics-vector">
+<h1><strong>Kinematics (Vector)</strong><a class="headerlink" href="#kinematics-vector" title="Link to this heading">¶</a></h1>
+<p>Vector subset of kinematic laws.</p>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.absolute_velocity_law"><code class="docutils literal notranslate"><span class="pre">absolute_velocity_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.relative_velocity_law"><code class="docutils literal notranslate"><span class="pre">relative_velocity_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.transfer_velocity_law"><code class="docutils literal notranslate"><span class="pre">transfer_velocity_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration_law"><code class="docutils literal notranslate"><span class="pre">non_uniform_rotation_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html">Acceleration is normal plus tangential acceleration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.acceleration_law"><code class="docutils literal notranslate"><span class="pre">acceleration_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.normal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">normal_acceleration_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.tangential_acceleration_law"><code class="docutils literal notranslate"><span class="pre">tangential_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html">Acceleration of transfer between relative frames</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.transfer_acceleration_law"><code class="docutils literal notranslate"><span class="pre">transfer_acceleration_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration_law"><code class="docutils literal notranslate"><span class="pre">moving_frame_acceleration_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.centripetal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.rotation_acceleration_law"><code class="docutils literal notranslate"><span class="pre">rotation_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.center_of_mass_for_system_of_particles.html">Center of mass for a system of particles</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.center_of_mass_for_system_of_particles.html#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass_law"><code class="docutils literal notranslate"><span class="pre">center_of_mass_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_law"><code class="docutils literal notranslate"><span class="pre">centrifugal_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centripetal_law"><code class="docutils literal notranslate"><span class="pre">centripetal_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html">Centripetal acceleration via cross product</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_cross_product.centripetal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.html">Centripetal acceleration via vector rejection</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.html#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html">Coriolis acceleration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html#symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration_law"><code class="docutils literal notranslate"><span class="pre">coriolis_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html">Linear displacement is angular displacement cross radius</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html#symplyphysics.laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.displacement_law"><code class="docutils literal notranslate"><span class="pre">displacement_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_velocity_law"><code class="docutils literal notranslate"><span class="pre">relative_velocity_law()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_position_law"><code class="docutils literal notranslate"><span class="pre">relative_position_law()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.kinematics.html">Kinematics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.damped_oscillations.html"><strong>Damped oscillations (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.rotational_inertia.html"><strong>Rotational inertia (Kinematics)</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Kinematics (Vector)</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html">Acceleration is normal plus tangential acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html">Acceleration of transfer between relative frames</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.center_of_mass_for_system_of_particles.html">Center of mass for a system of particles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html">Centripetal acceleration via cross product</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.html">Centripetal acceleration via vector rejection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html">Coriolis acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html">Linear displacement is angular displacement cross radius</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed.html">Angular momentum is rotational inertia times angular speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_is_arc_length_over_radius.html">Angular position is arc length over radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.html">Angular position via constant angular acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_via_constant_angular_speed_and_time.html">Angular position via constant angular speed and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time.html">Angular speed via constant angular acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.average_angular_speed_is_angular_distance_over_time.html">Average angular speed is angular distance over time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.centripetal_acceleration_via_angular_speed_and_radius.html">Centripetal acceleration via angular speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius.html">Centripetal acceleration via linear speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.classical_addition_of_velocities.html">Classical addition of velocities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.displacement_in_simple_harmonic_motion.html">Displacement in simple harmonic motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.position_via_constant_acceleration_and_time.html">Position via constant acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.position_via_constant_speed_and_time.html">Position via constant speed and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.speed_via_angular_speed_and_radius.html">Speed via angular speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.speed_via_constant_acceleration_and_time.html">Speed via constant acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius.html">Tangential acceleration via angular acceleration and radius</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.kinematics.html">Kinematics</a><ul>
+      <li>Previous: <a href="laws.kinematics.rotational_inertia.rotational_inertia_of_particle.html" title="previous chapter">Rotational inertia of a particle</a></li>
+      <li>Next: <a href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html" title="next chapter">Absolute velocity of arbitrary motion</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.kinematics.vector.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

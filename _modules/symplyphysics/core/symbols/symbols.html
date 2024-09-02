@@ -36,6 +36,7 @@
 <span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">S</span><span class="p">,</span> <span class="n">Idx</span><span class="p">,</span> <span class="n">Symbol</span> <span class="k">as</span> <span class="n">SymSymbol</span><span class="p">,</span> <span class="n">Expr</span><span class="p">,</span> <span class="n">Equality</span><span class="p">,</span> <span class="n">IndexedBase</span>
 <span class="kn">from</span> <span class="nn">sympy.physics.units</span> <span class="kn">import</span> <span class="n">Dimension</span>
 <span class="kn">from</span> <span class="nn">sympy.core.function</span> <span class="kn">import</span> <span class="n">UndefinedFunction</span>
+<span class="kn">from</span> <span class="nn">sympy.printing.printer</span> <span class="kn">import</span> <span class="n">Printer</span>
 <span class="kn">from</span> <span class="nn">sympy.printing.pretty.pretty</span> <span class="kn">import</span> <span class="n">PrettyPrinter</span>
 <span class="kn">from</span> <span class="nn">sympy.printing.pretty.stringpict</span> <span class="kn">import</span> <span class="n">prettyForm</span>
 <span class="kn">from</span> <span class="nn">sympy.printing.pretty.pretty_symbology</span> <span class="kn">import</span> <span class="n">pretty_symbol</span><span class="p">,</span> <span class="n">pretty_use_unicode</span>
@@ -46,7 +47,9 @@
     <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span>
     <span class="n">_display_name</span><span class="p">:</span> <span class="nb">str</span>
 
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">display_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+        <span class="n">display_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_dimension</span> <span class="o">=</span> <span class="n">dimension</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">_display_name</span> <span class="o">=</span> <span class="n">display_name</span>
 
@@ -59,6 +62,33 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_display_name</span>
 
 
+<span class="k">class</span> <span class="nc">DimensionSymbolNew</span><span class="p">:</span>
+    <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span>
+    <span class="n">_display_name</span><span class="p">:</span> <span class="nb">str</span>
+    <span class="n">_display_latex</span><span class="p">:</span> <span class="nb">str</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+        <span class="n">display_name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_dimension</span> <span class="o">=</span> <span class="n">dimension</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_display_name</span> <span class="o">=</span> <span class="n">display_name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_display_latex</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_display_name</span> <span class="k">if</span> <span class="n">display_latex</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_latex</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">dimension</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dimension</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_dimension</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">display_name</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_display_name</span>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">display_latex</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_display_latex</span>
+
+
 <span class="k">class</span> <span class="nc">Symbol</span><span class="p">(</span><span class="n">DimensionSymbol</span><span class="p">,</span> <span class="n">SymSymbol</span><span class="p">):</span>  <span class="c1"># pylint: disable=too-many-ancestors</span>
 
     <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
@@ -66,15 +96,34 @@
         <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Self</span><span class="p">:</span>
         <span class="n">name</span> <span class="o">=</span> <span class="n">next_name</span><span class="p">(</span><span class="s2">&quot;SYM&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">display_name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">next_name</span><span class="p">(</span><span class="n">display_name</span><span class="p">)</span>
-        <span class="n">obj</span> <span class="o">=</span> <span class="n">SymSymbol</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">obj</span>
+        <span class="k">return</span> <span class="n">SymSymbol</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
         <span class="n">display_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">**</span><span class="n">_assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">display_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="k">if</span> <span class="n">display_name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_name</span>
+        <span class="n">display_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">display_name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_name</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">SymbolNew</span><span class="p">(</span><span class="n">DimensionSymbolNew</span><span class="p">,</span> <span class="n">SymSymbol</span><span class="p">):</span>  <span class="c1"># pylint: disable=too-many-ancestors</span>
+
+    <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
+        <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Self</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">SymSymbol</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">next_name</span><span class="p">(</span><span class="s2">&quot;SYM&quot;</span><span class="p">),</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+        <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">_assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">display_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="k">if</span> <span class="n">display_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_symbol</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">display_name</span><span class="p">),</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
 
 
 <span class="k">class</span> <span class="nc">SymbolIndexed</span><span class="p">(</span><span class="n">DimensionSymbol</span><span class="p">,</span> <span class="n">IndexedBase</span><span class="p">):</span>  <span class="c1"># pylint: disable=too-many-ancestors</span>
@@ -88,23 +137,53 @@
         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">name_or_symbol</span><span class="p">,</span> <span class="n">SymSymbol</span><span class="p">):</span>
             <span class="k">return</span> <span class="n">IndexedBase</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name_or_symbol</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
         <span class="n">name</span> <span class="o">=</span> <span class="n">next_name</span><span class="p">(</span><span class="s2">&quot;SYM&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">name_or_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">next_name</span><span class="p">(</span><span class="n">name_or_symbol</span><span class="p">)</span>
-        <span class="n">obj</span> <span class="o">=</span> <span class="n">IndexedBase</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">obj</span>
+        <span class="k">return</span> <span class="n">IndexedBase</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
-        <span class="n">display_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">name_or_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span> <span class="o">|</span> <span class="n">SymSymbol</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">**</span><span class="n">_assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">display_name</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="k">if</span> <span class="n">display_name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_name</span>
+        <span class="n">display_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">name_or_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">str</span><span class="p">(</span><span class="n">name_or_symbol</span><span class="p">)</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">_eval_nseries</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">logx</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">cdir</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
         <span class="k">pass</span>
 
+    <span class="k">def</span> <span class="nf">_sympystr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">p</span><span class="p">:</span> <span class="n">Printer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">p</span><span class="o">.</span><span class="n">doprint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">display_name</span><span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">SymbolIndexedNew</span><span class="p">(</span><span class="n">DimensionSymbolNew</span><span class="p">,</span> <span class="n">IndexedBase</span><span class="p">):</span>  <span class="c1"># pylint: disable=too-many-ancestors</span>
+
+    <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
+        <span class="n">name_or_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span> <span class="o">|</span> <span class="n">SymSymbol</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Self</span><span class="p">:</span>
+        <span class="c1"># SymPy subs() and solve() creates dummy symbols. Allow create new indexed symbols</span>
+        <span class="c1"># without renaming</span>
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">name_or_symbol</span><span class="p">,</span> <span class="n">SymSymbol</span><span class="p">):</span>
+            <span class="k">return</span> <span class="n">IndexedBase</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">name_or_symbol</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">IndexedBase</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">next_name</span><span class="p">(</span><span class="s2">&quot;SYM&quot;</span><span class="p">),</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+        <span class="n">name_or_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span> <span class="o">|</span> <span class="n">SymSymbol</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">_assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">display_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">name_or_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">str</span><span class="p">(</span><span class="n">name_or_symbol</span><span class="p">)</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">_eval_nseries</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">logx</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">cdir</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
+        <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="nf">_sympystr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">p</span><span class="p">:</span> <span class="n">Printer</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">p</span><span class="o">.</span><span class="n">doprint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">display_name</span><span class="p">)</span>
+
 
 <span class="k">class</span> <span class="nc">Function</span><span class="p">(</span><span class="n">DimensionSymbol</span><span class="p">,</span> <span class="n">UndefinedFunction</span><span class="p">):</span>
-
-    <span class="n">name</span><span class="p">:</span> <span class="nb">str</span>
 
     <span class="c1"># NOTE: Self type cannot be used in a metaclass and &#39;mcs&#39; is a metaclass here</span>
     <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span>
@@ -112,15 +191,35 @@
         <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">**</span><span class="n">options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Function</span><span class="p">:</span>
         <span class="n">name</span> <span class="o">=</span> <span class="n">next_name</span><span class="p">(</span><span class="s2">&quot;FUN&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">display_name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">next_name</span><span class="p">(</span><span class="n">display_name</span><span class="p">)</span>
-        <span class="n">obj</span> <span class="o">=</span> <span class="n">UndefinedFunction</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">options</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">obj</span>
+        <span class="k">return</span> <span class="n">UndefinedFunction</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span> <span class="n">name</span><span class="p">,</span> <span class="o">**</span><span class="n">options</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
         <span class="n">display_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">**</span><span class="n">_options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">display_name</span> <span class="o">=</span> <span class="bp">cls</span><span class="o">.</span><span class="n">name</span> <span class="k">if</span> <span class="n">display_name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_name</span>
+        <span class="n">display_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">display_name</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_name</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">)</span>
+
+
+<span class="k">class</span> <span class="nc">FunctionNew</span><span class="p">(</span><span class="n">DimensionSymbolNew</span><span class="p">,</span> <span class="n">UndefinedFunction</span><span class="p">):</span>
+
+    <span class="c1"># NOTE: Self type cannot be used in a metaclass and &#39;mcs&#39; is a metaclass here</span>
+    <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span>
+        <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Function</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">UndefinedFunction</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span> <span class="n">next_name</span><span class="p">(</span><span class="s2">&quot;FUN&quot;</span><span class="p">),</span> <span class="o">**</span><span class="n">options</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
+        <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
+        <span class="o">*</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">_options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">display_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">display_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_symbol</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
 
 
 <span class="c1"># Symbol and Function have generated names, hence their display is not readable.</span>
@@ -137,15 +236,13 @@
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_settings</span><span class="p">[</span><span class="s2">&quot;use_unicode&quot;</span><span class="p">]</span>
 
     <span class="k">def</span> <span class="nf">_print_Symbol</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span> <span class="n">Expr</span><span class="p">,</span> <span class="n">bold_name</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">prettyForm</span><span class="p">:</span>
-        <span class="n">symb_name</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">display_name</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">Symbol</span><span class="p">)</span> <span class="k">else</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">)</span>
+        <span class="n">symb_name</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">display_name</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="p">(</span><span class="n">Symbol</span><span class="p">,</span> <span class="n">SymbolNew</span><span class="p">))</span> <span class="k">else</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">)</span>
         <span class="n">symb</span> <span class="o">=</span> <span class="n">pretty_symbol</span><span class="p">(</span><span class="n">symb_name</span><span class="p">,</span> <span class="n">bold_name</span><span class="p">)</span>
         <span class="k">return</span> <span class="n">prettyForm</span><span class="p">(</span><span class="n">symb</span><span class="p">)</span>
 
     <span class="c1"># pylint: disable-next=invalid-name</span>
     <span class="k">def</span> <span class="nf">_print_SymbolIndexed</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span> <span class="n">Expr</span><span class="p">,</span> <span class="n">bold_name</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">prettyForm</span><span class="p">:</span>
-        <span class="n">symb_name</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">display_name</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">SymbolIndexed</span><span class="p">)</span> <span class="k">else</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="s2">&quot;name&quot;</span><span class="p">)</span>
-        <span class="n">symb</span> <span class="o">=</span> <span class="n">pretty_symbol</span><span class="p">(</span><span class="n">symb_name</span><span class="p">,</span> <span class="n">bold_name</span><span class="p">)</span>
-        <span class="k">return</span> <span class="n">prettyForm</span><span class="p">(</span><span class="n">symb</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_print_Symbol</span><span class="p">(</span><span class="n">e</span><span class="p">,</span> <span class="n">bold_name</span><span class="p">)</span>
 
     <span class="c1"># pylint: disable-next=too-many-arguments</span>
     <span class="k">def</span> <span class="nf">_print_Function</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
@@ -156,7 +253,7 @@
         <span class="n">right</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;)&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">prettyForm</span><span class="p">:</span>
         <span class="c1"># optional argument func_name for supplying custom names</span>
         <span class="c1"># works only for applied functions</span>
-        <span class="n">func_name</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">func</span><span class="o">.</span><span class="n">display_name</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">func</span><span class="p">,</span> <span class="n">Function</span><span class="p">)</span> <span class="k">else</span> <span class="n">func_name</span>
+        <span class="n">func_name</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">func</span><span class="o">.</span><span class="n">display_name</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">func</span><span class="p">,</span> <span class="p">(</span><span class="n">Function</span><span class="p">,</span> <span class="n">FunctionNew</span><span class="p">))</span> <span class="k">else</span> <span class="n">func_name</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_helper_print_function</span><span class="p">(</span><span class="n">e</span><span class="o">.</span><span class="n">func</span><span class="p">,</span>
             <span class="n">e</span><span class="o">.</span><span class="n">args</span><span class="p">,</span>
             <span class="n">sort</span><span class="o">=</span><span class="n">sort</span><span class="p">,</span>
@@ -184,10 +281,16 @@
         <span class="n">pretty_use_unicode</span><span class="p">(</span><span class="n">uflag</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">clone_symbol</span><span class="p">(</span><span class="n">source</span><span class="p">:</span> <span class="n">Symbol</span><span class="p">,</span> <span class="n">display_name</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Symbol</span><span class="p">:</span>
+<span class="k">def</span> <span class="nf">clone_symbol</span><span class="p">(</span><span class="n">source</span><span class="p">:</span> <span class="n">SymbolNew</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">SymbolNew</span><span class="p">:</span>
     <span class="n">assumptions</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span> <span class="k">if</span> <span class="n">assumptions</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span>
         <span class="n">assumptions</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">assumptions</span>
-    <span class="k">return</span> <span class="n">Symbol</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
+    <span class="n">display_symbol</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span> <span class="k">if</span> <span class="n">display_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_symbol</span>
+    <span class="n">display_latex</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span> <span class="k">if</span> <span class="n">display_latex</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_latex</span>
+    <span class="k">return</span> <span class="n">SymbolNew</span><span class="p">(</span><span class="n">display_symbol</span><span class="p">,</span> <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
 
 
 <span class="c1"># This is default index for indexed parameters, eg for using in SumIndexed</span>
@@ -220,10 +323,10 @@
 </search>
 <script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../../symplyphysics/laws.html">Laws</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../symplyphysics/definitions.html">Definitions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../symplyphysics/symbols.html">Physical symbols</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../../symplyphysics/quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../laws.html">Laws</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../quantities.html">Physical constants</a></li>
 </ul>
 
 <div class="relations">

@@ -1,0 +1,62 @@
+Submerged volume of floating body via density ratio
+---------------------------------------------------
+
+If a body is fully or partially submerged in a fluid, an Archimedes force
+starts acting on it from the fluid pushing it in the opposite direction of
+the gravity force.
+
+The ratio of the body's volume submerged in a fluid to its total volume
+depends on the ratio of the densities of the body and the fluid.
+
+**Conditions:**
+
+#. :math:`\rho \le \rho_\text{fl}`, so the body must be floating.
+#. The body must be in static equilibrium.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.submerged_volume_of_floating_body_via_density_ratio
+
+.. py:data:: submerged_volume
+
+    Volume submerged in the fluid, which is equal to the volume of the displaced fluid.
+
+    Symbol:
+        :code:`V_fl`
+
+    Latex:
+        :math:`V_\text{fl}`
+
+.. py:data:: body_volume
+
+    Total volume of the body.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: body_density
+
+    Density of the body.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: fluid_density
+
+    Density of the fluid.
+
+    Symbol:
+        :code:`rho_fl`
+
+    Latex:
+        :math:`\rho_\text{fl}`
+
+.. py:data:: law
+
+    :code:`V_fl / V = rho / rho_fl`
+
+    Latex:
+        .. math::
+            \frac{V_\text{fl}}{V} = \frac{\rho}{\rho_\text{fl}}
+

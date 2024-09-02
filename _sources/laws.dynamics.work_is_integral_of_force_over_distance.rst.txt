@@ -1,0 +1,62 @@
+Work is integral of force over distance
+---------------------------------------
+
+Assuming a one-dimensional environment, when the force F on a particle-like object depends
+on the position of the object, the work done by F on the object while the object moves
+from one position to another is to be found by integrating the force along the path of the
+object.
+
+..
+    TODO Rename file
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.work_is_integral_of_force_over_distance
+
+.. py:data:: work
+
+    The work done by force :math:`F`.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: force
+
+    The :attr:`~symplyphysics.symbols.dynamics.force` exerted on the object as a function of position.
+
+    Symbol:
+        :code:`F(x)`
+
+.. py:data:: position
+
+    The position of the object.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: position_before
+
+    The initial position of the object.
+
+    Symbol:
+        :code:`x0`
+
+    Latex:
+        :math:`x_0`
+
+.. py:data:: position_after
+
+    The end position of the object.
+
+    Symbol:
+        :code:`x1`
+
+    Latex:
+        :math:`x_1`
+
+.. py:data:: law
+
+    :code:`W = Integral(F(x), (x, x0, x1))`
+
+    Latex:
+        .. math::
+            W = \int_{x_0}^{x_1} F(x) dx
+

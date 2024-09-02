@@ -1,0 +1,58 @@
+Rate of energy conduction through slab
+--------------------------------------
+
+The rate at which energy is conducted through a slab for which one face is maintained at a higher
+temperature than the other face is proportional to the temperature difference of the faces and
+its face area and inversely proportional to its length.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.rate_of_energy_conduction_through_slab
+
+.. py:data:: energy_conduction_rate
+
+    Rate of energy conductivity through the slab.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: thermal_conductivity
+
+    Thermal conductivity of the slab's material.
+
+    Symbol:
+        :code:`k`
+
+.. py:data:: face_area
+
+    Area of the face of the slab.
+
+    Symbol:
+        :code:`A`
+
+.. py:data:: slab_thickness
+
+    Distance between the two faces of the slab.
+
+    Symbol:
+        :code:`l`
+
+.. py:data:: temperature_difference
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` difference between the two faces of the slab.
+
+    Symbol:
+        :code:`dT`
+
+    Latex:
+        :math:`\Delta T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`P = k * A * abs(dT) / l`
+
+    Latex:
+        .. math::
+            P = k A \frac{|\Delta T|}{l}
+

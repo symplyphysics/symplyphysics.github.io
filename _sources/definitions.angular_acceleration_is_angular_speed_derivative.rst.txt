@@ -1,0 +1,56 @@
+Angular acceleration is angular speed derivative
+------------------------------------------------
+
+*Angular acceleration* is a physical quantity that describes the change in angular speed over time.
+
+.. py:currentmodule:: symplyphysics.definitions.angular_acceleration_is_angular_speed_derivative
+
+.. py:data:: angular_acceleration
+
+    Angular acceleration of the body as a function of time.
+
+    Symbol:
+        :code:`epsilon(t)`
+
+    Latex:
+        :math:`\varepsilon`
+
+    Dimension:
+        :code:`angle/time**2`
+
+.. py:data:: angular_speed
+
+    Angular speed of the body as a function of time.
+
+    Symbol:
+        :code:`w(t)`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: definition
+
+    :code:`epsilon(t) = Derivative(w(t), t)`
+
+
+    Latex:
+        .. math::
+            \varepsilon{\left(t \right)} = \frac{d}{d t} \omega{\left(t \right)}
+
+

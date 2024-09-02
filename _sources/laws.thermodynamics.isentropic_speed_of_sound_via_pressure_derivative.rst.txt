@@ -1,0 +1,51 @@
+Isentropic speed of sound
+-------------------------
+
+Derived by Laplace, the formula for the speed of sound in fluids uses the pressure-density dependence
+and the fact that the oscillations in a sound wave happen so fast, and the thermal conductivity of air
+is so small, that there is no heat transfer in the sound wave, i.e. it is an adiabatic, and therefore
+isentropic, process. This is in contrast with the Newton's formula, who thought that the sound propagation
+is an isothermal process in the assumption that the temperature differences between different parts of
+the sound wave immediately level out, which eventually turned out to be inconsistent with experimental data.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative
+
+.. py:data:: speed_of_sound
+
+    Speed of sound in the fluid.
+
+    Symbol:
+        :code:`c`
+
+.. py:data:: pressure
+
+    Pressure inside the fluid.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: density
+
+    Density of the fluid.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: entropy
+
+    Entropy of the fluid.
+
+    Symbol:
+        :code:`S`
+
+.. py:data:: law
+
+    :code:`c = sqrt(Derivative(p(rho, S), rho))`
+
+    Latex:
+        .. math::
+            c = \sqrt{\left( \frac{\partial p}{\partial \rho} \right)_S}
+

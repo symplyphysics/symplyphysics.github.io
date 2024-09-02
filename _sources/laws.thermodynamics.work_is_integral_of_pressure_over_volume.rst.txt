@@ -1,0 +1,62 @@
+Work is integral of pressure over volume
+----------------------------------------
+
+The pressure-volume work is the work done by a thermodynamic system when the volume of the
+system changes.
+
+**Conditions:**
+
+#. The process is reversible or quasi-static.
+#. The system is closed.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.work_is_integral_of_pressure_over_volume
+
+.. py:data:: work
+
+    Pressure-volume work done by the system.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: pressure
+
+    Pressure inside the system as a function of volume.
+
+    Symbol:
+        :code:`p(V)`
+
+.. py:data:: volume
+
+    Volume of the system.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: initial_volume
+
+    Initial volume of the system.
+
+    Symbol:
+        :code:`V_0`
+
+    Latex:
+        :math:`V_0`
+
+.. py:data:: final_volume
+
+    Final volume of the system.
+
+    Symbol:
+        :code:`V_1`
+
+    Latex:
+        :math:`V_1`
+
+.. py:data:: law
+
+    :code:`W = Integral(p(V), (V, V_0, V_1))`
+
+    Latex:
+        .. math::
+            W = \int \limits_{V_0}^{V_1} p(V) \, dV
+

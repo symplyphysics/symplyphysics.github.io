@@ -1,0 +1,43 @@
+Phase shift between two points
+------------------------------
+
+The phase shift of wave oscillations between two points is proportional to the ratio
+of the distance between the points and the wavelength of the wave.
+
+.. py:currentmodule:: symplyphysics.laws.waves.phase_shift_between_two_points
+
+.. py:data:: phase_shift
+
+    Phase shift between the two points.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: distance
+
+    Distance between the two points.
+
+    Symbol:
+        :code:`d`
+
+.. py:data:: wavelength
+
+    Wavelength of the wave.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: law
+
+    :code:`phi = 2 * pi * d / lambda`
+
+    Latex:
+        .. math::
+            \varphi = 2 \pi \frac{d}{\lambda}
+

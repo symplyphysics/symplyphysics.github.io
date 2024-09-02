@@ -1,0 +1,42 @@
+Centripetal acceleration via linear speed and radius
+----------------------------------------------------
+
+*Centripetal acceleration* is defined as the change in velocity tangential to the velocity vector.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius
+
+.. py:data:: centripetal_acceleration
+
+    Centripetal, or normal, :attr:`~symplyphysics.symbols.kinematics.acceleration`.
+
+    Symbol:
+        :code:`a_n`
+
+    Latex:
+        :math:`a_n`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: speed
+
+    Linear speed.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: radius_of_curvature
+
+    Instantaneous radius of curvature.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`a_n = v^2 / r`
+
+    Latex:
+        .. math::
+            a_n = \frac{v^2}{r}
+

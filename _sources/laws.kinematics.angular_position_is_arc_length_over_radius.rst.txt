@@ -1,0 +1,42 @@
+Angular position is arc length over radius
+------------------------------------------
+
+To describe the rotation of a rigid body about a fixed rotational axis, a reference line is
+assumed to be fixed in the body, perpendicular to that axis and rotating with the body. The angular
+position of this is measured relative to a fixed direction and is expressed as a ratio of the arc
+length of a circular path and its radius (distance to the axis).
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.angular_position_is_arc_length_over_radius
+
+.. py:data:: angular_position
+
+    Angular position of the body.
+
+    Symbol:
+        :code:`theta`
+
+    Latex:
+        :math:`\theta`
+
+.. py:data:: arc_length
+
+    Arc length.
+
+    Symbol:
+        :code:`s`
+
+.. py:data:: distance_to_axis
+
+    Distance to rotational axis, or radius of rotation.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`theta = s / r`
+
+    Latex:
+        .. math::
+            \theta = \frac{s}{r}
+

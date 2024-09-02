@@ -1,0 +1,51 @@
+Mass fraction of mixture component
+----------------------------------
+
+Mass fraction is the ratio of the mass of a mixture component to the total mass of the mixture.
+
+.. py:currentmodule:: symplyphysics.definitions.mass_fraction
+
+.. py:data:: mass_fraction
+
+    Mass fraction of the mixture component.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: mass_of_component
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the mixture component.
+
+    Symbol:
+        :code:`m_i`
+
+    Latex:
+        :math:`m_i`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: mass_of_mixture
+
+    Total :attr:`~symplyphysics.symbols.basic.mass` of the mixture.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: definition
+
+    :code:`w = m_i / m`
+
+    Latex:
+        .. math::
+            \omega = \frac{m_i}{m}
+

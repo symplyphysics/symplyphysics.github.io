@@ -1,0 +1,50 @@
+Total work is change in kinetic energy
+--------------------------------------
+
+The work-energy principle states that the work done by all forces acting on a particle
+(the work of the resultant force) equals the change in the kinetic energy of the particle.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.total_work_is_change_in_kinetic_energy
+
+.. py:data:: work
+
+    The total work done on the body.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: kinetic_energy
+
+    The kinetic energy of the body.
+
+    Symbol:
+        :code:`K(t)`
+
+.. py:data:: time_before
+
+    The time before the work has been done.
+
+    Symbol:
+        :code:`t0`
+
+    Latex:
+        :math:`t_0`
+
+.. py:data:: time_after
+
+    The time after the work has been done.
+
+    Symbol:
+        :code:`t1`
+
+    Latex:
+        :math:`t_1`
+
+.. py:data:: law
+
+    :code:`W = K(t1) - K(t0)`
+
+    Latex:
+        .. math::
+            W = K(t_1) - K(t_0)
+

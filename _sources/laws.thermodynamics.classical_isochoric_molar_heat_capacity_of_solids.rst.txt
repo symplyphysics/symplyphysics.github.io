@@ -1,0 +1,34 @@
+Classical isochoric molar heat capacity of solids
+-------------------------------------------------
+
+The *Dulong-Petit law* states that the classical expression for the molar specific heat capacity
+of certain chemical elements is constant for temperatures far from the absolute zero.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+**Conditions:**
+
+#. The temperature of the system is big enough to disregard quantum effects.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.classical_isochoric_molar_heat_capacity_of_solids
+
+.. py:data:: isochoric_molar_heat_capacity
+
+    Heat capacity at constant volume per unit amount of substance.
+
+    Symbol:
+        :code:`C_V`
+
+    Latex:
+        :math:`C_V`
+
+.. py:data:: law
+
+    :code:`C_V = 3 * R`
+
+    Latex:
+        .. math::
+            C_V = 3 R
+

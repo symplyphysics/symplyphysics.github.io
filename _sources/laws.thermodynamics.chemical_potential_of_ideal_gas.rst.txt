@@ -1,0 +1,64 @@
+Chemical potential of ideal gas
+-------------------------------
+
+The chemical potential of an ideal gas can be calculated from its temperature, concentration,
+and thermal wavelength.
+
+**Notation:**
+
+#. :math:`k_\text{B}` is the Boltzmann constant.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.chemical_potential_of_ideal_gas
+
+.. py:data:: chemical_potential
+
+    Chemical potential of ideal gas.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: temperature
+
+    Temperature of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: concentration
+
+    Concentration of the gas, or particle count per unit volume.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: thermal_wavelength
+
+    :doc:`Thermal de Broglie wavelength <definitions.thermal_de_broglie_wavelength>` of the gas.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: law
+
+    :code:`mu = k_B * T * log(n * lambda^3)`
+
+    Latex:
+        .. math::
+            \mu = k_\text{B} T \log \left( n \lambda^3 \right)
+

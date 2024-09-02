@@ -1,0 +1,68 @@
+Molar internal energy
+---------------------
+
+If the equation of state is known, the internal energy of a substance can be found
+as a function of volume at constant temperature.
+
+**Conditions:**
+
+#. The fluid is homogeneous and in a single phase state.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy
+
+.. py:data:: molar_internal_energy
+
+    Internal energy of the van der Waals fluid per unit amount of substance.
+
+    Symbol:
+        :code:`u`
+
+.. py:data:: isochoric_molar_heat_capacity
+
+    Heat capacity at constant volume per unit amount of substance.
+
+    Symbol:
+        :code:`c_V(T)`
+
+    Latex:
+        :math:`c_V(T)`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: attractive_forces_parameter
+
+    Parameter of the van der Waals equation denoting the magnitude of attractive
+    forces between gas molecules.
+
+    Symbol:
+        :code:`a`
+
+.. py:data:: molar_volume
+
+    Volume of the van der Waals fluid per unit amount of substance.
+
+    Symbol:
+        :code:`V_m`
+
+    Latex:
+        :math:`V_m`
+
+.. py:data:: law
+
+    :code:`u = Integral(c_V(T), T) - a / V_m`
+
+    Latex:
+        .. math::
+            u = \int c_V(T) \, dT - \frac{a}{V_m}
+

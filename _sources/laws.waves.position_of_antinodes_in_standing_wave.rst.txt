@@ -1,0 +1,46 @@
+Position of antinodes in standing wave
+--------------------------------------
+
+In a standing wave, the locations of maximum amplitude are called antinodes. These locations are
+not arbitrary, however, and are integer multiples of half the wavelength shifted by a quarter
+of the wavelength.
+
+**Notes:**
+
+#. *Amplitude* refers to the absolute value of displacement from rest, therefore positions of
+   maximum amplitude are such positions where the displacement is maximum or minimum .
+
+.. py:currentmodule:: symplyphysics.laws.waves.position_of_antinodes_in_standing_wave
+
+.. py:data:: antinode_position
+
+    Position of :math:`m`-th antinode.
+
+    Latex:
+        :code:`x`
+
+.. py:data:: integer_factor
+
+    An integer.
+
+    Symbol:
+        :code:`m`
+
+.. py:data:: wavelength
+
+    Wavelength of the standing wave.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: law
+
+    :code:`x = (m + 1/2) * lambda`
+
+    Latex:
+        .. math::
+            x = \left(m + \frac{1}{2} \right) \lambda
+

@@ -1,0 +1,40 @@
+Surface charge density from charge and area
+-------------------------------------------
+
+*Surface charge density* is the amount of charge per area unit.
+It is a measure of how much electric charge is distributed throughout a surface.
+
+.. py:currentmodule:: symplyphysics.definitions.surface_charge_density_from_charge_and_area
+
+.. py:data:: surface_charge_density
+
+    Surface charge density of the surface.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+.. py:data:: charge
+
+    Total charge of the surface.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: area
+
+    Area of the surface.
+
+    Symbol:
+        :code:`A`
+
+.. py:data:: definition
+
+    :code:`sigma = q / A`
+
+    Latex:
+        .. math::
+            \sigma = \frac{q}{A}
+

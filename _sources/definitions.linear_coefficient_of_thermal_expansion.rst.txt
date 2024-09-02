@@ -1,0 +1,56 @@
+Linear coefficient of thermal expansion
+---------------------------------------
+
+The coefficient of thermal expansion describes how the size of an object changes with a change in temperature
+at constant pressure.
+
+**Notation:**
+
+#. :math:`\left( \frac{\partial}{\partial T} \right)_p` is the derivative w.r.t. temperature 
+   at constant pressure.
+
+**Conditions:**
+
+#. Pressure must be constant during the expansion process.
+
+.. py:currentmodule:: symplyphysics.definitions.linear_coefficient_of_thermal_expansion
+
+.. py:data:: linear_expansion_coefficient
+
+    Linear coefficient of thermal expansion of the object.
+
+    Symbol:
+        :code:`alpha_l`
+
+    Latex:
+        :math:`\alpha_l`
+
+.. py:data:: length
+
+    Length of the object as a function of :attr:`~symplyphysics.symbols.thermodynamics.temperature`
+    and, indirectly, pressure :math:`p`.
+
+    Symbol:
+        :code:`l(T, p)`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the object.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: definition
+
+    :code:`alpha_l = 1 / l(T, p) * Derivative(l(T, p), T)`
+
+    Latex:
+        .. math::
+            \alpha_l = \frac{1}{l(T, p)} \left( \frac{d l}{d T} \right)_p
+

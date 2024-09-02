@@ -1,0 +1,37 @@
+Momentum derivative of kinetic energy is speed
+----------------------------------------------
+
+The general formula for the kinetic energy of an object features its speed and momentum. This way it can be used
+not only in the case of variable mass, but also in the relativistic case.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed
+
+.. py:data:: kinetic_energy
+
+    The kinetic energy of the object.
+
+    Symbol:
+        :code:`K(p(v))`
+
+.. py:data:: momentum
+
+    The momentum of the object.
+
+    Symbol:
+        :code:`p(v)`
+
+.. py:data:: speed
+
+    The speed of the object.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: law
+
+    :code:`Derivative(K(p(v), p(v))) = v`
+
+    Latex:
+        .. math::
+            \frac{d K(p(v))}{d p(v)} = v
+

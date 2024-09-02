@@ -1,0 +1,53 @@
+Internal energy via Helmholtz free energy
+-----------------------------------------
+
+*Gibbs—Helmholtz relations* are a set of equations that relate thermodynamic potentials between each other.
+
+**Conditions:**
+
+#. The number of particles in the system is held constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy
+
+.. py:data:: internal_energy
+
+    Internal energy of the system.
+
+    Symbol:
+        :code:`U`
+
+.. py:data:: free_energy
+
+    Helmholtz free energy of the system as a function of temperature and volume.
+
+    Symbol:
+        :code:`F(T, V)`
+
+.. py:data:: temperature
+
+    Temperature of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: volume
+
+    Volume of the system.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: law
+
+    :code:`U = F(T, V) - T * Derivative(F(T, V), T)`
+
+    Latex:
+        .. math::
+            U = F(T, V) - T \left( \frac{\partial F}{\partial T} \right)_V
+

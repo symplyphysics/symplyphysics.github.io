@@ -1,0 +1,74 @@
+Absolute magnitude of stars from apparent magnitude and distance
+----------------------------------------------------------------
+
+Absolute magnitude can be calculated using apparent magnitude and distance to the object.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance
+
+.. py:data:: absolute_magnitude
+
+    Absolute magnitude for stars is defined as the apparent magnitude of an object if it were located at a distance
+    of 10 parsecs (2.063e+6 astronomical units) from the observer and would not experience either interstellar or atmospheric absorption.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: apparent_magnitude
+
+    The apparent magnitude is a measure of the brightness of a celestial body (more precisely, the illumination created
+    by this body) from the observer's point of view. The brighter the object, the smaller its magnitude.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: distance
+
+    Distance to the object.
+
+    Symbol:
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: distance_constant
+
+    Constant equal to 2.063e+6 astronomical units.
+
+    Symbol:
+        :code:`d0`
+
+    Latex:
+        :math:`d_0`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    .. only:: comment
+
+        Logarithms with not natural base are not properly displayed with SymPy. Manually
+        define formula representation.
+
+    :code:`M = m - 5 * lg(d / d0)`
+
+    Latex:
+        .. math::
+            M = m - 5 \log_{10} \left( \frac{d}{d0} \right)
+

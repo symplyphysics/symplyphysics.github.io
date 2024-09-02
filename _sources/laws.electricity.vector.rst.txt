@@ -1,0 +1,7 @@
+**Electromagnetism (Vector)**
+=============================
+
+Collection of laws related to vectorial description of electromagnetism.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector
+

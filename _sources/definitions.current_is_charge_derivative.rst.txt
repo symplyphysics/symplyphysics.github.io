@@ -1,0 +1,37 @@
+Current is charge derivative
+----------------------------
+
+The instantaneous electric current, or simply the *electric current*, is a physical quantity
+defined as the time derivative of the flowing charge.
+
+.. py:currentmodule:: symplyphysics.definitions.current_is_charge_derivative
+
+.. py:data:: current
+
+    Electric current as a function of time.
+
+    Symbol:
+        :code:`I(t)`
+
+.. py:data:: charge
+
+    Electric charge as a function of time.
+
+    Symbol:
+        :code:`q(t)`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: definition
+
+    :code:`I(t) = Derivative(q(t), t)`
+
+    Latex:
+        .. math::
+            I(t) = \frac{d q}{d t}
+

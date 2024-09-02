@@ -1,0 +1,61 @@
+Relative speed of rocket depends on mass and impulse
+----------------------------------------------------
+
+The Tsiolkovsky formula determines the speed that an aircraft develops under the influence of the thrust
+of a rocket engine, unchanged in direction, in the absence of all other forces.
+For a rocket flying at a speed close to the speed of light, the generalized Tsiolkovsky formula is valid,
+in which the speed of light is present.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.relativistic.relative_speed_of_rocket_depends_on_mass_and_impulse
+
+.. py:data:: speed
+
+    Final speed of the rocket
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: exhaust_velocity
+
+    Effective exhaust velocity of a rocket engine
+
+    Symbol:
+        :code:`Ve`
+
+    Latex:
+        :math:`V_e`
+
+.. py:data:: initial_mass
+
+    Initial mass of the rocket
+
+    Symbol:
+        :code:`M1`
+
+    Latex:
+        :math:`M_1`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: final_mass
+
+    Final mass of the rocket
+
+    Symbol:
+        :code:`M2`
+
+    Latex:
+        :math:`M_2`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`M2 / M1 = ((1 - V / c) / (1 + V / c))^(c / (2 * Ve))`
+
+    Latex:
+        .. math::
+            \frac{M_2}{M_1} = \left( \frac{1 - \frac{V}{c}}{1 + \frac{V}{c}} \right) ^ {\frac{c}{2 V_e}}
+

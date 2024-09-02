@@ -1,0 +1,48 @@
+Thermodynamic compressibility
+-----------------------------
+
+*Compressibility*, or the *coefficient of compressibility*, is a measure of the instantaneous
+relative volume change of a fluid or solid as a response to pressure or mean stress change.
+
+**Notes:**
+
+#. This definition is incomplete in the sense that the value of the compressibility coefficient
+   depends on whether the process is isentropic or isothermal, hence the partial derivative should
+   be taken at either constant entropy or constant temperature.
+#. For solids the difference between isentropic and isothermal compressibility coefficients
+   is usually negligible.
+
+.. py:currentmodule:: symplyphysics.definitions.thermodynamic_compressibility
+
+.. py:data:: compressibility
+
+    Compressibility of the gas.
+
+    Symbol:
+        :code:`beta`
+
+    Latex:
+        :math:`\beta`
+
+.. py:data:: volume
+
+    Volume of the gas as a function of pressure and other parameters.
+
+    Symbol:
+        :code:`V(p)`
+
+.. py:data:: pressure
+
+    Pressure in the gas.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: definition
+
+    :code:`beta = -1 / V(p) * Derivative(V(p), p)`
+
+    Latex:
+        .. math::
+            \beta = - \frac{1}{V(p)} \frac{\partial V}{\partial p}
+

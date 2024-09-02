@@ -1,0 +1,7 @@
+**Electrochemistry**
+====================
+
+Collection of laws related to electromagnetical description of chemical laws.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.electrochemistry
+

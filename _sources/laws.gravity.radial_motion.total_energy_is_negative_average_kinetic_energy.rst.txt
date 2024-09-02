@@ -1,0 +1,36 @@
+Total energy is negative average kinetic energy
+-----------------------------------------------
+
+The total energy of an orbiting planet is equal to its negative kinetic energy averaged over time.
+
+**Conditions:**
+
+#. Works for elliptical (:math:`E < 0`) orbits.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy
+
+.. py:data:: total_mechanical_energy
+
+    The total mechanical energy of the planet.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: average_kinetic_energy
+
+    The kinetic energy of the planet averaged over time.
+
+    Symbol:
+        :code:`avg(K)`
+
+    Latex:
+        :math:`\langle K \rangle`
+
+.. py:data:: law
+
+    :code:`E = -1 * avg(K)`
+
+    Latex:
+        .. math::
+            E = - \langle K \rangle
+

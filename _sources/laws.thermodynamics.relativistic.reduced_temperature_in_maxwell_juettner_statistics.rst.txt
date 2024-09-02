@@ -1,0 +1,59 @@
+Reduced temperature in Maxwell—Jüttner statistics
+-------------------------------------------------
+
+Reduced temperature is a dimensionless quantity used in the
+:doc:`Maxwell—Jüttner distribution <laws.thermodynamics.relativistic.maxwell_juettner_distribution>`
+function. It depends on the temperature of the system, as well as on the mass of a particle of
+the gas in question.
+
+**Notation:**
+
+#. :math:`k_\text{B}` is the Boltzmann constant.
+#. :math:`c` is the speed of light.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics
+
+.. py:data:: reduced_temperature
+
+    Reduced temperature.
+
+    Symbol:
+        :code:`theta`
+
+    Latex:
+        :math:`\theta`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: particle_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a relativistic particle comprising the gas.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`theta = (k_B * T) / (m * c^2)`
+
+    Latex:
+        .. math::
+            \theta = \frac{k_\text{B} T}{m c^2}
+

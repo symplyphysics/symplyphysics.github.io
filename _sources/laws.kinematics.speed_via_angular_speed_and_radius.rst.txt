@@ -1,0 +1,40 @@
+Speed via angular speed and radius
+----------------------------------
+
+Speed of a rotating body can be calculated using its angular speed and instantaneous
+radius of curvature of the body's path.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.speed_via_angular_speed_and_radius
+
+.. py:data:: speed
+
+    Linear speed.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: angular_speed
+
+    Angular speed.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: radius_of_curvature
+
+    Instantaneous radius of curvature.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`v = w * r`
+
+    Latex:
+        .. math::
+            v = \omega r
+

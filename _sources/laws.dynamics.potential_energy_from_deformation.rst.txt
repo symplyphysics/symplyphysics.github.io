@@ -1,0 +1,43 @@
+Elastic potential energy from displacement
+------------------------------------------
+
+Spring accumulates energy while being deformed. This law is known as the *Hooke's law*.
+
+**Conditions:**
+
+#. The deformation is elastic (reversible).
+
+..
+    TODO Move law to ./deformations/
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.potential_energy_from_deformation
+
+.. py:data:: elastic_potential_energy
+
+    The potential energy of the spring.
+
+    Symbol:
+        :code:`U`
+
+.. py:data:: stiffness
+
+    The spring's stiffness, or spring constant.
+
+    Symbol:
+        :code:`k`
+
+.. py:data:: displacement
+
+    The displacement of the spring.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: law
+
+    :code:`U = k * x^2 / 2`
+
+    Latex:
+        .. math::
+            U = \frac{1}{2} k x^2
+

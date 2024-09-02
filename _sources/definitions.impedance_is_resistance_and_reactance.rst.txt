@@ -1,0 +1,42 @@
+Impedance is resistance and reactance
+-------------------------------------
+
+*Impedance* is the combination of resistance and reactance (both inductive and capacitive) and is
+a complex number, containing both real and imaginary parts. The real part of impedance is
+resistance, and the imaginary part is reactance.
+
+**Notation:**
+
+#. :math:`i` is the imaginary unit.
+
+.. py:currentmodule:: symplyphysics.definitions.impedance_is_resistance_and_reactance
+
+.. py:data:: impedance
+
+    Impedance of the system.
+
+    Symbol:
+        :code:`Z`
+
+.. py:data:: resistance
+
+    Resistance of the system.
+
+    Symbol:
+        :code:`R`
+
+.. py:data:: reactance
+
+    Reactance of the system.
+
+    Symbol:
+        :code:`X`
+
+.. py:data:: definition
+
+    :code:`Z = R + i * X`
+
+    Latex:
+        .. math::
+            Z = R + i X
+

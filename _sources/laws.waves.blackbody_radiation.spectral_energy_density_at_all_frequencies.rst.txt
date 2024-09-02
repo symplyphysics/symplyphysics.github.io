@@ -1,0 +1,60 @@
+Spectral energy density at all frequencies
+------------------------------------------
+
+*Planck's radiation law* describes the spectral density of electromagnetic radiation emitted
+by a black body in thermal equlibrium at a given temperature when there is no net flow of
+matter or energy between the body and its environment.
+
+**Notation:**
+
+#. :math:`h` is the Planck constant.
+#. :math:`c` is the speed of light.
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Conditions:**
+
+#. The black body is isolated from the environment.
+
+.. py:currentmodule:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_at_all_frequencies
+
+.. py:data:: spectral_energy_density
+
+    Spectral energy density, which is energy per unit volume per unit frequency.
+
+    Symbol:
+        :code:`u_nu`
+
+    Latex:
+        :math:`u_\nu`
+
+.. py:data:: radiation_frequency
+
+    Frequency (linear) of the radiation.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the ensemble.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`u_nu = (8 * pi * h * nu^3 / c^3) / (exp(h * nu / (k_B * T)) - 1)`
+
+    Latex:
+        .. math::
+            u_\nu = \frac{8 \pi h \nu^3}{c^3} \frac{1}{\exp \left( \frac{h \nu}{k_\text{B} T} \right) - 1}
+

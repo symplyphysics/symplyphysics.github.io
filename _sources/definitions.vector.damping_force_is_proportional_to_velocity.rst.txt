@@ -1,0 +1,70 @@
+Damping force is proportional to velocity
+-----------------------------------------
+
+Damping force is an external (relative to an object) force that drains energy from the object,
+reducing the motion of the object. It is a model used, for example, to describe the motion
+of an oscillator.
+
+.. py:currentmodule:: symplyphysics.definitions.vector.damping_force_is_proportional_to_velocity
+
+.. py:data:: damping_constant
+
+    Non-negative damping constant.
+
+    Symbol:
+        :code:`b`
+
+.. py:function:: damping_force_definition(velocity_)
+
+    Vector of *damping force* exerted on the object.
+
+    Law:
+        :code:`F = -1 * b * v`
+
+    Latex:
+        .. math::
+            \vec F = -b \vec v
+
+    :param velocity\_: velocity vector of the object.
+
+        Symbol: :code:`v`
+
+        Latex: :math:`\vec v`
+
+        Dimension: *velocity*
+
+    :return: vector of damping :attr:`~symplyphysics.symbols.dynamics.force`.
+
+        Symbol: :code:`F`
+
+        Latex: :math:`\vec F`
+
+        Dimension: *force*
+
+.. py:function:: velocity_law(damping_force_)
+
+    *Velocity* of the object which the damping force is exerted on.
+
+    Law:
+        :code:`v = -1/b * F`
+
+    Latex:
+        .. math::
+            \vec v = - \frac{\vec F}{b}
+
+    :param damping_force\_: damping :attr:`~symplyphysics.symbols.dynamics.force` exerted on the object.
+
+        Symbol: :code:`F`
+
+        Latex: :math:`\vec F`
+
+        Dimension: *force*
+
+    :return: velocity vector of the object.
+
+        Symbol: :code:`v`
+
+        Latex: :math:`\vec v`
+
+        Dimension: *velocity*
+

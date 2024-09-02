@@ -1,0 +1,70 @@
+Displacement in standing wave
+-----------------------------
+
+A *standing*, or *stationary*, *wave* is the result of the interference of two identical waves
+moving in opposite directions.
+
+**Notes:**
+
+#. In this law we assume the standing wave to be composed of two identical traveling sinusoidal
+   waves of the form :math:`u_\text{max} \sin(k x \pm \omega t)`
+#. A standing wave is no longer a traveling one because it doesn't move in a single direction.
+
+.. py:currentmodule:: symplyphysics.laws.waves.displacement_in_standing_wave
+
+.. py:data:: total_displacement
+
+    Displacement of the resulting wave.
+
+    Symbol:
+        :code:`u`
+
+.. py:data:: amplitude
+
+    Amplitude of the interfering waves.
+
+    Symbol:
+        :code:`u_max`
+
+    Latex:
+        :math:`u_\text{max}`
+
+.. py:data:: angular_wavenumber
+
+    Angular wavenumber of the interfering waves.
+
+    Symbol:
+        :code:`k`
+
+.. py:data:: position
+
+    Position, or spatial coordinate.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: angular_frequency
+
+    Angular frequency of the interfering waves.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`u = 2 * u_max * sin(k * x) * cos(w * t)`
+
+    Latex:
+        .. math::
+            u = 2 u_\text{max} \sin(k x) \cos(\omega t)
+

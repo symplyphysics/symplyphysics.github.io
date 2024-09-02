@@ -1,0 +1,40 @@
+Tensile stress is Young's modulus times strain
+----------------------------------------------
+
+When an object is under tension or compression, the stress is related to the strain via the
+Young's modulus.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain
+
+.. py:data:: stress
+
+    Stress on the object.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+.. py:data:: young_modulus
+
+    Young's modulus of the material of the object.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: engineering_normal_strain
+
+    Engineering normal strain of the deformed body.
+
+    Symbol:
+        :code:`e`
+
+.. py:data:: law
+
+    :code:`sigma = E * e`
+
+    Latex:
+        .. math::
+            \sigma = E e
+

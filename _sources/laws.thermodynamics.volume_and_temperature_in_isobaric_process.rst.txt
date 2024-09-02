@@ -1,0 +1,63 @@
+Volume and temperature in isobaric process
+------------------------------------------
+
+A thermodynamic process is called isobaric when the pressure inside the system stays
+constant. Also called Guy-Lussac's law, it states that the volume of the gas scales
+by the same amount as the temperature during an isobaric process.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.volume_and_temperature_in_isobaric_process
+
+.. py:data:: initial_temperature
+
+    Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T_0`
+
+    Latex:
+        :math:`T_0`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: final_temperature
+
+    Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T_1`
+
+    Latex:
+        :math:`T_1`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: initial_volume
+
+    Initial volume of the system.
+
+    Symbol: 
+        :code:`V_0`
+
+    Latex:
+        :math:`V_0`
+
+.. py:data:: final_volume
+
+    Final volume of the system.
+
+    Symbol: 
+        :code:`V_1`
+
+    Latex:
+        :math:`V_1`
+
+.. py:data:: law
+
+    :code:`V_0 / V_1 = T_0 / T_1`
+
+    Latex:
+        .. math::
+            \frac{V_0}{V_1} = \frac{T_0}{T_1}
+

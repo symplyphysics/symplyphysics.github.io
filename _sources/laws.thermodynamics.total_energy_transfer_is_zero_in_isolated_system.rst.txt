@@ -1,0 +1,26 @@
+Total energy transfer is zero in adiabatically isolated system
+--------------------------------------------------------------
+
+In an isolated system the total energy transferred between its parts is zero.
+This is a direct consequence of the first law of thermodynamics.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.total_energy_transfer_is_zero_in_isolated_system
+
+.. py:data:: amount_of_energy
+
+    Amount of energy transferred between parts of the system.
+
+    Symbol:
+        :code:`E_i`
+
+    Latex:
+        :math:`E_i`
+
+.. py:data:: law
+
+    :code:`Sum(E_i, i) = 0`
+
+    Latex:
+        .. math::
+            \sum_i E_i = 0
+

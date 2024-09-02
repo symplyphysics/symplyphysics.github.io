@@ -1,0 +1,43 @@
+Pressure from force and area
+----------------------------
+
+Pressure is the amount of force applied perpendicular to the surface of an object
+per unit area over which the force is distributed.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.pressure_from_force_and_area
+
+.. py:data:: pressure
+
+    Pressure.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: force
+
+    :attr:`~symplyphysics.symbols.dynamics.force` applied.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: area
+
+    Area over which the force is distributed.
+
+    Symbol: 
+        :code:`A`
+
+.. py:data:: law
+
+    :code:`p = F / A`
+
+    Latex:
+        .. math::
+            p = \frac{F}{A}
+

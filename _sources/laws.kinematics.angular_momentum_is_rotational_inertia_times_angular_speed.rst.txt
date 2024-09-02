@@ -1,0 +1,46 @@
+Angular momentum is rotational inertia times angular speed
+----------------------------------------------------------
+
+For a rigid body rotating around a fixed axis, the component of its angular momentum parallel
+to the rotational axis is found as the product of the body's rotational inertia and the magnitude
+of its angular velocity.
+
+**Conditions:**
+
+#. The body is rigid.
+#. The axis of rotation is fixed.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed
+
+.. py:data:: angular_momentum
+
+    Component of the vector of angular momentum parallel to the rotational axis.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: rotational_inertia
+
+    Rotational inertia of the body.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: angular_speed
+
+    Angular speed of the body.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: law
+
+    :code:`L = I * w`
+
+    Latex:
+        .. math::
+            L = I \omega
+

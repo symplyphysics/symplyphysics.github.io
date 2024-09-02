@@ -1,0 +1,54 @@
+Enthalpy derivative via volume derivative
+-----------------------------------------
+
+Isothermal derivative of enthalpy w.r.t. pressure can be found using volume as a function
+of temperature and pressure.
+
+**Conditions:**
+
+#. Works for an infinitesimal quasi-static isothermal process.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative
+
+.. py:data:: enthalpy
+
+    Enthalpy of the system.
+
+    Symbol:
+        :code:`H(T, p)`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: pressure
+
+    Pressure inside the system.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: volume
+
+    Volume of the system.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: law
+
+    :code:`Derivative(H(T, p), p) = V(T, p) - T * Derivative(V(T, p), T)`
+
+    Latex:
+        .. math::
+            \left( \frac{\partial H}{\partial p} \right)_T = V(T, p) - T \left( \frac{\partial V}{\partial T} \right)_p
+

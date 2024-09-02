@@ -1,0 +1,66 @@
+Pressure is Maclaurin series of strain
+--------------------------------------
+
+A statement more general than the Hooke's law is that pressure in a body can be expressed
+as a *power series* (Maclaurin series, to be exact) of (engineering normal) *strain* with the
+free coefficient being zero, since pressure disappears with the disappearance of strain.
+The coefficients of the expansion only depend on the material of the deformed body and on
+its physical state.
+
+**Notation:**
+
+#. :math:`O(f(x))` is the mathematical *Big O*. In this law the limit :math:`e \to 0` is
+   assumed.
+
+**Conditions:**
+
+#. The deformations are elastic.
+#. The deformations are small, i.e. :math:`e \ll 1`.
+#. This law features the expansion up to the third power of strain, higher terms can be added
+   if needed.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain
+
+.. py:data:: pressure
+
+    Pressure (or tension) in the deformed body.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: young_modulus
+
+    Young's modulus of the body's material.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: second_coefficient
+
+    Coefficient at the second power of strain in the expansion.
+
+    Symbol:
+        :code:`A`
+
+.. py:data:: third_coefficient
+
+    Coefficient at the third power of strain in the expansion.
+
+    Symbol:
+        :code:`B`
+
+.. py:data:: strain
+
+    Strain, or engineering normal strain to be exact, of the body.
+
+    Symbol:
+        :code:`e`
+
+.. py:data:: law
+
+    :code:`P = E * e + A * e^2 + B * e^3 + O(e^4)`
+
+    Latex:
+        .. math::
+            P = E e + A e^2 + B e^3 + O(e^4)
+

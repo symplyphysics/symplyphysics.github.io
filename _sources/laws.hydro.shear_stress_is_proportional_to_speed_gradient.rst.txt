@@ -1,0 +1,68 @@
+Shear stress is proportional to speed gradient
+----------------------------------------------
+
+An element of flowing fluid will endure forces from the surrounding fluid (stress forces) that
+will gradually deform the element over time. In a steady (laminar) flow, these stress forces
+occur between fluid layers. For an incompressible and isotropic fluid, the shear stress exerted
+to an element of fluid is proportional to the spatial derivative of the velocity component
+that is perpendicular to the velocity vector (and as such, parallel to the direction of shear).
+This law is also called the *Newton's law of viscosity*, and the fluids that follow it are said to
+be *Newtonian*.
+
+As an example of this law, consider two solid flat plates that contain water in between.
+The bottom plate is fixed in place, while the top plate moves parallel to the bottom one with
+a small speed :code:`u` such that the flow of the water is steady. If we were to measure the force that
+needed to make the top plate continue to move, we would find that it is proportional to the area
+of the plate and the ratio :math:`\frac{u}{d}` where :math:`d` is the distance between the plates.
+
+**Conditions:**
+
+#. The flow is one-dimensional. For a two-dimensional flow, replace the derivative with a sum of partial
+   derivatives with respect to both perpendicular directions.
+#. The fluid is incompressible and isotropic.
+#. The fluid flow is steady (laminar).
+
+.. py:currentmodule:: symplyphysics.laws.hydro.shear_stress_is_proportional_to_speed_gradient
+
+.. py:data:: shear_stress
+
+    Shear stress. See :doc:`laws.dynamics.pressure_from_force_and_area`.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+.. py:data:: dynamic_viscosity
+
+    Dynamic viscosity of the fluid.
+
+    Symbol:
+        :code:`eta`
+
+    Latex:
+        :math:`\eta`
+
+.. py:data:: fluid_speed
+
+    Fluid speed as a function of position perpendicular to the fluid flow, or layer position.
+
+    Symbol:
+        :code:`u(y)`
+
+.. py:data:: layer_position
+
+    Layer position, or position in the direction perpendicular to fluid velocity.
+
+    Symbol:
+        :code:`y`
+
+.. py:data:: law
+
+    :code:`tau = eta * Derivative(u(y), y)`
+
+    Latex:
+        .. math::
+            \tau = \eta \frac{d u}{d y}
+

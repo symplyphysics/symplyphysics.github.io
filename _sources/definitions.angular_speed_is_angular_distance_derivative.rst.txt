@@ -1,0 +1,56 @@
+Angular speed is angular distance derivative
+--------------------------------------------
+
+*Angular speed* is a physical quantity that describes the change in angular distance over time.
+
+.. py:currentmodule:: symplyphysics.definitions.angular_speed_is_angular_distance_derivative
+
+.. py:data:: angular_speed
+
+    Angular speed of the body as a function of time.
+
+    Symbol:
+        :code:`w(t)`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`1/time`
+
+.. py:data:: angular_distance
+
+    Angular distance as a function of time.
+
+    Symbol:
+        :code:`theta(t)`
+
+    Latex:
+        :math:`\theta`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: definition
+
+    :code:`w(t) = Derivative(theta(t), t)`
+
+
+    Latex:
+        .. math::
+            \omega{\left(t \right)} = \frac{d}{d t} \theta{\left(t \right)}
+
+

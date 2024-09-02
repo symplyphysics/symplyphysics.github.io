@@ -1,0 +1,46 @@
+Damping ratio from decay constant and undamped frequency
+--------------------------------------------------------
+
+The damping ratio of an oscillator can be calculated via the exponential decay constant,
+which describes how fast its oscillations decay, and its undamped angular frequency.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.damped_oscillations.damping_ratio_from_decay_constant_and_undamped_frequency
+
+.. py:data:: damping_ratio
+
+    Damping ratio of the oscillator.
+
+    Symbol:
+        :code:`zeta`
+
+    Latex:
+        :math:`\zeta`
+
+.. py:data:: exponential_decay_constant
+
+    Exponential decay constant of the oscillator.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: undamped_angular_frequency
+
+    Undamped angular frequency of the oscillator.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: law
+
+    :code:`zeta = lambda / w`
+
+    Latex:
+        .. math::
+            \zeta = \frac{\lambda}{\omega}
+

@@ -1,0 +1,65 @@
+Frequency of electron transition in Hydrogen
+--------------------------------------------
+
+The *Rydberg formula* relates the frequency of light emitted or absorbed during
+electron transition to the levels between which the transition is occurring.
+
+.. py:currentmodule:: symplyphysics.laws.waves.frequency_of_electron_transition_in_hydrogen
+
+.. py:data:: transition_frequency
+
+    Frequency of light emitted or absorbed during electron transition in the Hydrogen atom.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+.. py:data:: lower_principal_quantum_number
+
+    The principal quantum number of the lower transitional level.
+
+    Symbol:
+        :code:`n_1`
+
+    Latex:
+        :math:`n_1`
+
+.. py:data:: higher_principal_quantum_number
+
+    The principal quantum number of the higher transitional level.
+
+    Symbol:
+        :code:`n_2`
+
+    Latex:
+        :math:`n_2`
+
+.. py:data:: rydberg_constant
+
+    Rydberg frequency constant for Hydrogen.
+
+    Symbol:
+        :code:`R_H`
+
+    Latex:
+        :math:`R_\text{H}`
+
+    Symbol:
+        :code:`QTY13`
+
+    Latex:
+        :math:`QTY13`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: law
+
+    :code:`nu = R_H * (1 / n_1^2 - 1 / n_2^2)`
+
+    Latex:
+        .. math::
+            \nu = R_\text{H} \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)
+

@@ -1,0 +1,54 @@
+Prandtl number via dynamic viscosity and thermal conductivity
+-------------------------------------------------------------
+
+*Prandtl number* is a dimensionless quantity defined as the ratio of kinetic viscosity
+(momentum diffusivity) to thermal diffusivity. It can also be expressed using dynamic viscosity
+and thermal conductivity.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity
+
+.. py:data:: isobaric_specific_heat_capacity
+
+    Heat capacity at constant pressure per unit mass.
+
+    Symbol:
+        :code:`c_p`
+
+    Latex:
+        :math:`c_p`
+
+.. py:data:: dynamic_viscosity
+
+    Dynamic viscosity of the fluid.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: thermal_conductivity
+
+    Thermal conductivity of the fluid.
+
+    Symbol:
+        :code:`k`
+
+.. py:data:: prandtl_number
+
+    Prandtl number of the fluid.
+
+    Symbol:
+        :code:`Pr`
+
+    Latex:
+        :math:`\text{Pr}`
+
+.. py:data:: law
+
+    :code:`Pr = c_p * mu / k`
+
+    Latex:
+        .. math::
+            \text{Pr} = \frac{c_p \mu}{k}
+

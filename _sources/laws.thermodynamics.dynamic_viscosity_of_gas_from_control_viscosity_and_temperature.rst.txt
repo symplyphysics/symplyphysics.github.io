@@ -1,0 +1,78 @@
+Dynamic viscosity of gas from temperature
+-----------------------------------------
+
+Viscosity is a phenomenon of molecular transport, the property of fluid bodies (liquids and gases)
+to resist the movement of one part of them relative to another. As a result, the macroscopic work
+expended on this movement is dissipated as heat. Unlike liquids, the viscosity of gases increases
+with increasing temperature, whereas for liquids it decreases with increasing temperature.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+..
+    TODO Rename file
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.dynamic_viscosity_of_gas_from_control_viscosity_and_temperature
+
+.. py:data:: dynamic_viscosity
+
+    Dynamic viscosity of the gas at temperature :math:`T`.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: reference_dynamic_viscosity
+
+    Dynamic viscosity of the gas at the reference temperature :math:`T_0`.
+
+    Symbol:
+        :code:`mu_0`
+
+    Latex:
+        :math:`\mu_0`
+
+.. py:data:: temperature
+
+    Temperature at which the viscosity value is calculated.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: reference_temperature
+
+    Temperature at which the reference viscosity value is calculated.
+
+    Symbol:
+        :code:`T_0`
+
+    Latex:
+        :math:`T_0`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: sutherland_constant
+
+    Sutherland constant of the gas.
+
+    Symbol:
+        :code:`C`
+
+.. py:data:: law
+
+    :code:`mu = mu_0 * ((T_0 + C) / (T + C)) * (T / T_0)^(3/2)`
+
+    Latex:
+        .. math::
+            \mu = \mu_0 \left( \frac{T_0 + C}{T + C} \right) \left( \frac{T}{T_0} \right)^{3 / 2}
+

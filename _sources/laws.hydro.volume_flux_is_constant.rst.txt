@@ -1,0 +1,42 @@
+Volume flux is constant
+-----------------------
+
+The product of the area and the fluid speed, which is called the *volume flux*, is constant
+at all points along the tube of flow of an incompressible liquid. This equation is also
+known as the *equation of continuity*.
+
+**Conditions:**
+
+#. The fluid is :ref:`ideal <ideal_fluid_def>`.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.volume_flux_is_constant
+
+.. py:data:: tube_area
+
+    Cross-sectional area of the tube of flow as a function of time.
+
+    Symbol:
+        :code:`A(t)`
+
+.. py:data:: fluid_speed
+
+    Fluid speed as a function of time.
+
+    Symbol:
+        :code:`u(t)`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`Derivative(A(t) * u(t), t) = 0`
+
+    Latex:
+        .. math::
+            \frac{d (A u)}{d t} = 0
+

@@ -1,0 +1,53 @@
+Slab about perpendicular axis through center
+--------------------------------------------
+
+A solid slab is rotating about an axis that is perpendicular to the slab and goes through its center.
+
+**Conditions:**
+
+#. The slab is uniform.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center
+
+.. py:data:: rotational_inertia
+
+    Rotational inertia of the slab.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: length
+
+    Length, or first slab dimension perpendicular to the axis.
+
+    Symbol:
+        :code:`a`
+
+.. py:data:: width
+
+    Width, or second slab dimension perpendicular to the axis.
+
+    Symbol:
+        :code:`b`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the slab.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`I = 1/12 * m * (a^2 + b^2)`
+
+    Latex:
+        .. math::
+            I = \frac{1}{12} m (a^2 + b^2)
+

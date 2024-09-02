@@ -1,0 +1,50 @@
+Volumetric coefficient of thermal expansion
+-------------------------------------------
+
+The *coefficient of thermal expansion* describes how the size of an object changes with a change in temperature
+at constant pressure.
+
+**Conditions:**
+
+#. Pressure must be constant during the expansion process.
+
+.. py:currentmodule:: symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion
+
+.. py:data:: volumetric_expansion_coefficient
+
+    Volumetric coefficient of thermal expansion.
+
+    Symbol:
+        :code:`alpha_V`
+
+    Latex:
+        :math:`\alpha_V`
+
+.. py:data:: volume
+
+    Volume of the body as a function of temperature and pressure.
+
+    Symbol:
+        :code:`V(T, p)`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the body.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: definition
+
+    :code:`alpha_V = 1 / V(T, p) * Derivative(V(T, p), T)`
+
+    Lambda:
+        .. math::
+            \alpha_V = \frac{1}{V(T, p)} \left( \frac{\partial V}{\partial T} \right)_p
+

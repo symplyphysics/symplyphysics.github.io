@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Centripetal acceleration via vector rejection &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Coriolis acceleration" href="laws.kinematics.vector.coriolis_acceleration.html" />
+    <link rel="prev" title="Centripetal acceleration via cross product" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="centripetal-acceleration-via-vector-rejection">
+<h1>Centripetal acceleration via vector rejection<a class="headerlink" href="#centripetal-acceleration-via-vector-rejection" title="Link to this heading">¶</a></h1>
+<p><em>Centripetal acceleration</em> is the acceleration of a body in a rotating coordinate system
+which is directed towards the axis of rotation.</p>
+<p>Also see <a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html"><span class="doc">Centripetal acceleration via cross product</span></a>.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(|\vec a|\)</span> (<code class="code docutils literal notranslate"><span class="pre">norm(a)</span></code>) is the Euclidean norm of <span class="math notranslate nohighlight">\(\vec a\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\text{oproj}_{\vec b} \vec a\)</span> (<code class="code docutils literal notranslate"><span class="pre">reject(a,</span> <span class="pre">b)</span></code>) is the rejection of
+<span class="math notranslate nohighlight">\(\vec a\)</span> from <span class="math notranslate nohighlight">\(\vec b\)</span>, i.e. the component of <span class="math notranslate nohighlight">\(\vec a\)</span> orthogonal
+to <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
+</ol>
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law">
+<span class="sig-name descname"><span class="pre">centripetal_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angular_velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">radius_vector_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/centripetal_acceleration_via_vector_rejection.html#centripetal_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law" title="Link to this definition">¶</a></dt>
+<dd><p>Centripetal acceleration via angular velocity and radius vector.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_c</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">norm(w)^2</span> <span class="pre">*</span> <span class="pre">reject(r,</span> <span class="pre">w)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{c} = - |\vec \omega|^2 \text{oproj}_{\vec \omega} \vec r\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>angular_velocity_</strong> – <p>pseudovector of angular velocity</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec \omega\)</span></p>
+<p>Dimension: <em>angle</em> / <em>time</em></p>
+</p></li>
+<li><p><strong>radius_vector_</strong> – <p>radius vector, or position vector</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec r\)</span></p>
+<p>Dimension: <em>length</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>vector of centripetal acceleration</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_c</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{c}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.kinematics.html">Kinematics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.damped_oscillations.html"><strong>Damped oscillations (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.rotational_inertia.html"><strong>Rotational inertia (Kinematics)</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.kinematics.vector.html"><strong>Kinematics (Vector)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html">Acceleration is normal plus tangential acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html">Acceleration of transfer between relative frames</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.center_of_mass_for_system_of_particles.html">Center of mass for a system of particles</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html">Centripetal acceleration via cross product</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Centripetal acceleration via vector rejection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html">Coriolis acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html">Linear displacement is angular displacement cross radius</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed.html">Angular momentum is rotational inertia times angular speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_is_arc_length_over_radius.html">Angular position is arc length over radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.html">Angular position via constant angular acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_via_constant_angular_speed_and_time.html">Angular position via constant angular speed and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time.html">Angular speed via constant angular acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.average_angular_speed_is_angular_distance_over_time.html">Average angular speed is angular distance over time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.centripetal_acceleration_via_angular_speed_and_radius.html">Centripetal acceleration via angular speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius.html">Centripetal acceleration via linear speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.classical_addition_of_velocities.html">Classical addition of velocities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.displacement_in_simple_harmonic_motion.html">Displacement in simple harmonic motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.position_via_constant_acceleration_and_time.html">Position via constant acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.position_via_constant_speed_and_time.html">Position via constant speed and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.speed_via_angular_speed_and_radius.html">Speed via angular speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.speed_via_constant_acceleration_and_time.html">Speed via constant acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius.html">Tangential acceleration via angular acceleration and radius</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.kinematics.html">Kinematics</a><ul>
+  <li><a href="laws.kinematics.vector.html"><strong>Kinematics (Vector)</strong></a><ul>
+      <li>Previous: <a href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html" title="previous chapter">Centripetal acceleration via cross product</a></li>
+      <li>Next: <a href="laws.kinematics.vector.coriolis_acceleration.html" title="next chapter">Coriolis acceleration</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

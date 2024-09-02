@@ -1,0 +1,74 @@
+Discrete distribution
+---------------------
+
+Maxwell—Boltzmann distribution can be written as a discrete distribution of a single particle's
+discrete energy spectrum. Maxwell-Boltzmann statistics gives the average number of particles
+found in a given single-particle microstate.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Conditions:**
+
+#. Particles do not interact and are classical.
+#. The system is in thermal equilibrium.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution
+
+.. py:data:: occupancy_of_state
+
+    Occupancy of, or expected number of particles in, the single-particle microstate
+    :math:`i`.
+
+    Symbol:
+        :code:`N_i`
+
+    Latex:
+        :math:`N_i`
+
+.. py:data:: particle_count
+
+    Total number of particles in the system.
+
+    Symbol:
+        :code:`N`
+
+.. py:data:: energy_of_state
+
+    Energy of single-particle microstate :math:`i`.
+
+    Symbol:
+        :code:`E_i`
+
+    Latex:
+        :math:`E_i`
+
+.. py:data:: equilibrium_temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: single_particle_partition_function
+
+    Single-particle partition function, which acts as a normalizing factor of the distribution.
+
+    Symbol:
+        :code:`Z`
+
+.. py:data:: law
+
+    :code:`N_i = (N / Z) * exp(-1 * E_i / (k_B * T))`
+
+    Latex:
+        .. math::
+            N_i = \frac{N}{Z} \exp \left( - \frac{E_i}{k_\text{B} T} \right)
+

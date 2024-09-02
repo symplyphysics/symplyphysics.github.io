@@ -1,0 +1,37 @@
+Rotational inertia is additive
+------------------------------
+
+For a system composed of several parts, its total rotational inertia is the sum of the rotational
+inertia of each part of the system.
+
+**Conditions:**
+
+#. The rotational inertia is calculated for the same axis for all parts of the system.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_is_additive
+
+.. py:data:: total_rotational_inertia
+
+    Total rotational inertia of the system.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: rotational_inertia
+
+    Rotational inertia of the :math:`k`-th part of the system.
+
+    Symbol:
+        :code:`I_k`
+
+    Latex:
+        :math:`I_k`
+
+.. py:data:: law
+
+    :code:`I = Sum(I_k, k)`
+
+    Latex:
+        .. math::
+            I = \sum_k I_k
+

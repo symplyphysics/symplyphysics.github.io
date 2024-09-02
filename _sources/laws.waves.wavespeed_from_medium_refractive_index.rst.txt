@@ -1,0 +1,33 @@
+Wave speed from medium
+----------------------
+
+Speed of electromagnetic wave propagation depends on the refractive index of the medium.
+
+**Notation:**
+
+#. :math:`c` is the speed of light.
+
+.. py:currentmodule:: symplyphysics.laws.waves.wavespeed_from_medium_refractive_index
+
+.. py:data:: wave_speed
+
+    Speed of wave propagation in medium.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: refractive_index
+
+    Refractive index of the medium relative to vacuum.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: law
+
+    :code:`v = c / n`
+
+    Latex:
+        .. math::
+            v = \frac{c}{n}
+

@@ -1,0 +1,7 @@
+**Harmonic oscillator (Quantum mechanics)**
+===========================================
+
+The quantum harmonic oscillator is the quantum-mechanical analog of the classical harmonic oscillator.
+
+.. py:currentmodule:: symplyphysics.laws.quantum_mechanics.harmonic_oscillator
+

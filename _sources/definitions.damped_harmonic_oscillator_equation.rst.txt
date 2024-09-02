@@ -1,0 +1,51 @@
+Damped harmonic oscillator equation
+-----------------------------------
+
+Assuming there is a damping force acting on an oscillating body that is linearly proportional
+to the body's velocity, we can write a differential equation for the body's position. We're
+assuming the body only moves in one direction.
+
+.. py:currentmodule:: symplyphysics.definitions.damped_harmonic_oscillator_equation
+
+.. py:data:: displacement
+
+    Displacement of the oscillating body as a function of time.
+
+    Symbol:
+        :code:`x(t)`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: undamped_angular_frequency
+
+    Undamped angular frequency of the oscillator.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: damping_ratio
+
+    Damping ratio, which critically determines the behavior of the system.
+
+    Symbol:
+        :code:`z`
+
+    Latex:
+        :math:`\zeta`
+
+.. py:data:: definition
+
+    :code:`Derivative(x(t), (t, 2)) + 2 * z * w * Derivative(x(t), t) + w^2 * x(t) = 0`
+
+    Latex:
+        .. math::
+            \frac{d^2 x}{dt^2} + 2 \zeta \omega \frac{d x}{d t} + \omega^2 x(t) = 0
+

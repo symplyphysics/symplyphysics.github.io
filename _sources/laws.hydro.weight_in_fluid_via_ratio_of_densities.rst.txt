@@ -1,0 +1,63 @@
+Weight in fluid via ratio of densities
+--------------------------------------
+
+The *Archimedean force* acting on a body immersed in a fluid is equal to the weight of the fluid displaced by the body.
+It can be derived that the weight of the body immersed in the fluid is proportional to its weight in vacuum and also depends
+on the ratio of the fluid density and body density.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities
+
+.. py:data:: weight_in_fluid
+
+    Weight of the body immersed in the fluid.
+
+    Symbol:
+        :code:`W_fl`
+
+    Latex:
+        :math:`W_\text{fl}`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: weight_in_vacuum
+
+    Weight of the body in vacuum, i.e. its true weight.
+
+    Symbol:
+        :code:`W_vac`
+
+    Latex:
+        :math:`W_\text{vac}`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: fluid_density
+
+    Density of the fluid.
+
+    Symbol:
+        :code:`rho_fl`
+
+    Latex:
+        :math:`\rho_\text{fl}`
+
+.. py:data:: body_density
+
+    Density of the body.
+
+    Symbol:
+        :code:`rho_b`
+
+    Latex:
+        :math:`\rho_\text{b}`
+
+.. py:data:: law
+
+    :code:`W_fl = W_vac * (1 - rho_fl / rho_b)`
+
+    Latex:
+        .. math::
+            W_\text{fl} = W_\text{vac} \left( 1 - \frac{\rho_\text{fl}}{\rho_\text{b}} \right)
+

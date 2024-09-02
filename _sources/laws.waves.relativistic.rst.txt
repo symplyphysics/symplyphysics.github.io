@@ -1,0 +1,7 @@
+**Waves (Relativistic)**
+========================
+
+Collection of laws related to relativistic description of waves.
+
+.. py:currentmodule:: symplyphysics.laws.waves.relativistic
+

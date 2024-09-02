@@ -1,0 +1,58 @@
+Angular speed via constant angular acceleration and time
+--------------------------------------------------------
+
+If a body is rotating around a fixed axis with constant angular acceleration, its angular
+speed is a linear function of time.
+
+**Conditions:**
+
+#. The axis is fixed.
+#. Angular acceleration is constant, i.e. :math:`\frac{d \alpha}{d t} = 0.`
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time
+
+.. py:data:: final_angular_speed
+
+    Angular speed at time :math:`t`.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: initial_angular_speed
+
+    Angular speed at :math:`t = 0`.
+
+    Symbol:
+        :code:`w_0`
+
+    Latex:
+        :math:`\omega_0`
+
+.. py:data:: angular_acceleration
+
+    Constant angular acceleration.
+
+    Symbol:
+        :code:`alpha`
+
+    Latex:
+        :math:`\alpha`
+
+.. py:data:: time
+
+    Time at which :math:`\omega` is measured.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`w = w_0 + alpha * t`
+
+    Latex:
+        .. math::
+            \omega = \omega_0 + \alpha t
+

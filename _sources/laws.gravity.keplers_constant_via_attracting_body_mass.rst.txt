@@ -1,0 +1,37 @@
+Kepler's constant via attracting body mass
+------------------------------------------
+
+*Kepler's constant* is a physical quantity that only depends on the gravitational constant and the mass of
+the orbited body, such as the Sun. It is constant in the sense that all planets that orbit the same body
+approximately have the same value of the Kepler's constant.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass
+
+.. py:data:: keplers_constant
+
+    Symbol:
+        K
+
+    Latex:
+        :math:`\mathfrak{K}`
+
+.. py:data:: attracting_mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the attracting body.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    K = G * M / (4 * pi^2)
+
+    Latex:
+        :math:`\mathfrak{K} = \frac{G M}{4 \pi^2}`
+

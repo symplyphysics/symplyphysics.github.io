@@ -1,0 +1,61 @@
+Spectral energy density at high frequency limit
+-----------------------------------------------
+
+*Wien's approximation*, also known as *Wien distribution law*, describes the spectrum of blackbody
+thermal radiation. It accurately describes short-wavelength (i.e. high-frequency) spectrum of
+thermal emission, but fails to do that for long-wavelength (i.e. low-frequency) emission.
+
+**Notation:**
+
+#. :math:`h` is the Planck constant.
+#. :math:`c` is the speed of light.
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Conditions:**
+
+#. The black body is isolated from the environment.
+#. :math:`h \nu \gg k_\text{B} T`, i.e. photon energy is much greater than thermal energy.
+
+.. py:currentmodule:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_in_high_frequency_limit
+
+.. py:data:: spectral_energy_density
+
+    Spectral energy density, which is energy per unit volume per unit frequency.
+
+    Symbol:
+        :code:`u_nu`
+
+    Latex:
+        :math:`u_\nu`
+
+.. py:data:: radiation_frequency
+
+    Frequency (linear) of the radiation.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the ensemble.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`u_nu = (8 * pi * h * nu^3 / c^3) * exp(-1 * h * nu / (k_B * T))`
+
+    Latex:
+        .. math::
+            u_\nu = \frac{8 \pi h \nu^3}{c^3} \exp \left( - \frac{h \nu}{k_B T} \right)
+

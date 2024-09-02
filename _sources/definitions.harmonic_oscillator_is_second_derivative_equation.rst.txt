@@ -1,0 +1,46 @@
+Harmonic oscillator is a second order derivative equation
+---------------------------------------------------------
+
+In classical mechanics, a harmonic oscillator is a system that, when displaced from its equilibrium position, experiences a restoring force F proportional to the displacement x.
+If F is the only force acting on the system, the system is called a simple harmonic oscillator.
+Displacement is not only limited to physical motion, but should be interpreted in general terms. Harmonic oscillator can represent mechanical systems that include pendulums
+(with small angles of displacement), masses connected to springs, and acoustical systems. Other analogous systems include electrical harmonic oscillators such as RLC circuits.
+
+**Conditions:**
+
+#. There is no damping (i.e. friction) in the system.
+
+.. py:currentmodule:: symplyphysics.definitions.harmonic_oscillator_is_second_derivative_equation
+
+.. py:data:: displacement
+
+    Displacement of oscillator from equilibrium as a function of time.
+
+    Symbol:
+        :code:`x(t)`
+
+.. py:data:: angular_frequency
+
+    Angular frequency of the oscillator.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: definition
+
+    :code:`Derivative(x(t), (t, 2)) = -1 * w^2 * x(t)`
+
+    Latex:
+        .. math::
+            \frac{d^2 x}{d t^2} = - \omega^2 x(t)
+

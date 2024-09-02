@@ -1,0 +1,78 @@
+Pressure of ideal gas from height and temperature
+-------------------------------------------------
+
+The *barometric formula* determines the dependence of the pressure or density of a gas on the height in the gravity field.
+
+**Notation:**
+
+#. :math:`g` is the acceleration due to gravity.
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Conditions:**
+
+#. The gas is ideal.
+#. The gas is in a uniform gravity field.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature
+
+.. py:data:: final_pressure
+
+    Pressure of the gas at final height.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: initial_pressure
+
+    Pressure of the gas at initial height.
+
+    Symbol:
+        :code:`p_0`
+
+    Latex:
+        :math:`p_0`
+
+.. py:data:: molecular_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a single gas molecule.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: height_change
+
+    Change in height between :math:`p_0` and :math:`p`.
+
+    Symbol:
+        :code:`dh`
+
+    Latex:
+        :math:`\Delta h`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`p = p_0 * exp(-1 * g * m * dh / (k_B * T))`
+
+    Latex:
+        .. math::
+            p = p_0 \exp \left( - \frac{g m \Delta h}{k_\text{B} T} \right)
+

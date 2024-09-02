@@ -1,0 +1,7 @@
+**Waves (Vector)**
+==================
+
+Laws related to waves in vector form.
+
+.. py:currentmodule:: symplyphysics.laws.waves.vector
+

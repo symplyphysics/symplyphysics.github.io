@@ -1,0 +1,74 @@
+Displacement in underdamping
+----------------------------
+
+In the presence of a damping force in the oscillating system, the system's behavior
+depends on the value of the damping ratio. When it is less than :math:`1`, the system oscillates
+with a slightly different frequency than in the undamped case, and its amplitude decreasing
+to zero. This behavior is also known as *underdamping*.
+
+**Conditions:**
+
+#. The system is underdamped, i.e. its damping ratio :math:`\zeta < 1`.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.damped_oscillations.displacement_in_underdamping
+
+.. py:data:: displacement
+
+    Displacement from rest, usually a function of time.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: time
+
+    Time at which :math:`q` is measured.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: scaling_coefficient
+
+    Scaling coefficient to be found using initial conditions.
+
+    Symbol:
+        :code:`a`
+
+.. py:data:: exponential_decay_constant
+
+    Exponential decay constant of the oscillator.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+.. py:data:: damped_angular_frequency
+
+    :doc:`Damped angular frequency <laws.kinematics.damped_oscillations.damped_angular_frequency>`
+    of the oscillator.
+
+    Symbol:
+        :code:`w_d`
+
+    Latex:
+        :math:`\omega_\text{d}`
+
+.. py:data:: phase_shift
+
+    Phase shift of the oscillations, i.e. the phase at :math:`t = 0`.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: law
+
+    :code:`q = a * exp(-1 * lambda * t) * cos(w_d * t + phi)`
+
+    Latex:
+        .. math::
+            q = a \exp(-\lambda t) \cos(\omega_\text{d} t + \varphi)
+

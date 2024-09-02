@@ -1,0 +1,45 @@
+Optical path length from geometrical path length and refractive index
+---------------------------------------------------------------------
+
+*Optical path length*, also known as *optical length* or *optical distance*, is the
+length that light needs to travel through a vacuum to create the same phase difference
+as it would have when traveling through a given medium.
+
+*Geometrical path length* is the Euclidean distance integrated along a light ray
+between any two points.
+
+**Conditions:**
+
+#. The environment must be homogeneous.
+
+.. py:currentmodule:: symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index
+
+.. py:data:: optical_path
+
+    Optical path length of the light ray.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: geometrical_path
+
+    Geometrical path length of the light ray.
+
+    Symbol:
+        :code:`l`
+
+.. py:data:: refractive_index
+
+    Refractive index of the medium.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: law
+
+    :code:`L = n * l`
+
+    Latex:
+        .. math::
+            L = n l
+

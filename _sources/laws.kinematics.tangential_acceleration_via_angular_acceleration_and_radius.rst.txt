@@ -1,0 +1,50 @@
+Tangential acceleration via angular acceleration and radius
+-----------------------------------------------------------
+
+The tangential acceleration of a rotating body represents the change in magnitude
+of the velocity vector, and its vector is tangent to the path of the body.
+
+**Conditions:**
+
+#. Radius is constant, i.e. :math:`\frac{d r}{d t} = 0.`
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius
+
+.. py:data:: tangential_acceleration
+
+    Tangential :attr:`~symplyphysics.symbols.kinematics.acceleration`.
+
+    Symbol:
+        :code:`a_t`
+
+    Latex:
+        :math:`a_\tau`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: angular_acceleration
+
+    Angular acceleration.
+
+    Symbol:
+        :code:`alpha`
+
+    Latex:
+        :math:`\alpha`
+
+.. py:data:: radius_of_curvature
+
+    Instantaneous radius of curvature.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`a_t = alpha * r`
+
+    Latex:
+        .. math::
+            a_\tau = \alpha r
+

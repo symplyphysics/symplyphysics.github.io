@@ -1,0 +1,60 @@
+Braking path via speed and friction force
+-----------------------------------------
+
+Let an arbitrary object move along the surface at an arbitrary speed. The friction force acts on the
+object from the surface. Then the *braking path* will depend on the mass of the object, its speed
+and friction force.
+
+..
+    TODO Rename file
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.braking_path_via_speed_and_friction_force
+
+.. py:data:: braking_path
+
+    The braking path of the object.
+
+    Symbol:
+        :code:`l`
+
+.. py:data:: speed
+
+    The speed of the object.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: friction_force
+
+    The friction :attr:`~symplyphysics.symbols.dynamics.force` exerted on the object.
+
+    Symbol:
+        :code:`F_fr`
+
+    Latex:
+        :math:`F_\text{fr}`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the object.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`l = m * v^2 / (2 * F_fr)`
+
+    Latex:
+        .. math::
+            l = \frac{m v^2}{2 F_\text{fr}}
+

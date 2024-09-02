@@ -1,0 +1,66 @@
+Enthalpy formula
+----------------
+
+The enthalpy differential can be integrated using the Euler's theorem on homogeneous functions for
+internal energy.
+
+**Notes:**
+
+#. This formula words for a single-component system. For multi-component system replace the
+   product of chemical potential and particle count with a sum over each type of components.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula
+
+.. py:data:: enthalpy
+
+    :doc:`Enthalpy <laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy>` of the system.
+
+    Symbol:
+        :code:`H`
+
+.. py:data:: temperature
+
+    :attr:`symbols.thermodynamics.temperature` of the system.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: entropy
+
+    :doc:`Entropy <laws.thermodynamics.entropy_change_in_reversible_process>` of the system.
+
+    Symbol:
+        :code:`S`
+
+.. py:data:: chemical_potential
+
+    :doc:`Chemical potential <laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_internal_energy>`
+    of the system.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+.. py:data:: particle_count
+
+    Number of particles in the system.
+
+    Symbol:
+        :code:`N`
+
+.. py:data:: law
+
+    :code:`H = T * S + mu * N`
+
+    Latex:
+        .. math::
+            H = T S + \mu N
+

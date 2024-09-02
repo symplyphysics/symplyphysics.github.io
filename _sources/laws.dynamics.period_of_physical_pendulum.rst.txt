@@ -1,0 +1,51 @@
+Period of physical pendulum
+---------------------------
+
+A *physical pendulum* is a pendulum with an arbitrary distribution of mass that
+oscillates about a given pivot point. The period of its oscillations depends on its rotational inertia, 
+mass and the distance between the pivot and the center of mass of the pendulum.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.period_of_physical_pendulum
+
+.. py:data:: period
+
+    The period of the physical pendulum.
+
+    Symbol:
+        :code:`T`
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the pendulum.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: rotational_inertia
+
+    The rotational inertia of the pendulum.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: distance_to_pivot
+
+    The distance between the pivot and the pendulum's center of mass.
+
+    Symbol:
+        :code:`h`
+
+.. py:data:: law
+
+    :code:`T = 2 * pi * sqrt(I / (m * g * h))`
+
+    Latex:
+        .. math::
+            T = 2 \pi \sqrt{\frac{I}{m g h}}
+

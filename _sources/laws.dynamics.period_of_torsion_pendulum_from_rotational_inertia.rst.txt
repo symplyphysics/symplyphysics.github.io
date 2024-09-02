@@ -1,0 +1,41 @@
+Period of torsion pendulum from rotational inertia
+--------------------------------------------------
+
+A torsion pendulum is an angular version of a linear harmonic oscillator: a disk
+oscillates in a horizontal plane; the reference line oscillates with some angular amplitude.
+The element of elasticity is associated with the twisting of the suspension wire.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia
+
+.. py:data:: period
+
+    The period of pendulum's oscillations.
+
+    Symbol:
+        :code:`T`
+
+.. py:data:: rotational_inertia
+
+    The rotational inertia of the disk.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: torsion_constant
+
+    The torsion constant, which depends on the properties of the suspension wire.
+
+    Symbol:
+        :code:`kappa`
+
+    Latex:
+        :math:`\kappa`
+
+.. py:data:: law
+
+    :code:`T = 2 * pi * sqrt(I / kappa)`
+
+    Latex:
+        .. math::
+            T = 2 \pi \sqrt{\frac{I}{\kappa}}
+

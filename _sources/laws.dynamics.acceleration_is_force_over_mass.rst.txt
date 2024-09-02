@@ -1,0 +1,55 @@
+Acceleration is force over mass
+-------------------------------
+
+Newton's second law of motion states that the acceleration of a body is directly proportional
+to the net force exerted on the body.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.acceleration_is_force_over_mass
+
+.. py:data:: acceleration
+
+    The :attr:`~symplyphysics.symbols.kinematics.acceleration` of the body.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: force
+
+    The net :attr:`~symplyphysics.symbols.dynamics.force` exerted on the body.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the body.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`a = F / m`
+
+    Latex:
+        .. math::
+            a = \frac{F}{m}
+

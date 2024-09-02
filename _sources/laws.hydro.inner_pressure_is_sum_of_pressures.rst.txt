@@ -1,0 +1,54 @@
+Inner pressure is sum of pressures
+----------------------------------
+
+Inner pressure of an ideal fluid is the sum of static, dynamic, and hydrostatic
+pressures at a chosen point in space.
+
+**Conditions:**
+
+#. The fluid is :ref:`ideal <ideal_fluid_def>`.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.inner_pressure_is_sum_of_pressures
+
+.. py:data:: inner_pressure
+
+    Inner pressure of the fluid.
+
+    Symbol:
+        :code:`p_inner`
+
+    Latex:
+        :math:`p_\text{inner}`
+
+.. py:data:: static_pressure
+
+    Static pressure of the fluid.
+
+    Symbol:
+        :code:`p_static`
+
+    Latex:
+        :math:`p_\text{static}`
+
+.. py:data:: dynamic_pressure
+
+    Dynamic pressure of the fluid.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: hydrostatic_pressure
+
+    Hydrostatic pressure of the fluid.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: law
+
+    :code:`p_inner = p_static + q + p`
+
+    Latex:
+        .. math::
+            p_\text{inner} = p_\text{static} + q + p
+

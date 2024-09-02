@@ -1,0 +1,13 @@
+Geometry
+========
+
+A collection of geometry relations commonly used in physics.
+
+.. py:currentmodule:: symplyphysics.laws.geometry
+
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.geometry.vector

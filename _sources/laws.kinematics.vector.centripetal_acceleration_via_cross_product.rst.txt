@@ -1,0 +1,49 @@
+Centripetal acceleration via cross product
+------------------------------------------
+
+*Centripetal acceleration* is the acceleration of a body in a rotating coordinate system
+which is directed towards the axis of rotation.
+
+Also see :doc:`laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration`.
+
+**Notation:**
+
+#. :math:`\vec a \times \vec b` (:code:`cross(a, b)`) is the cross product between :math:`\vec a` and :math:`\vec b`.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_cross_product
+
+.. py:function:: centripetal_acceleration_law(angular_velocity_, radius_vector_)
+
+    Centripetal acceleration via angular velocity and radius vector.
+
+    Law:
+        :code:`a_c = cross(w, cross(w, r))`
+
+    Latex:
+        .. math::
+            {\vec a}_\text{c} = \vec \omega \times (\vec \omega \times \vec r)
+
+    :param angular_velocity\_: pseudovector of angular velocity
+
+        Symbol: :code:`w`
+
+        Latex: :math:`\vec \omega`
+
+        Dimension: *angle* / *time*
+
+    :param radius_vector\_: radius vector, or position vector
+
+        Symbol: :code:`r`
+
+        Latex: :math:`\vec r`
+
+        Dimension: *length*
+
+    :return: vector of centripetal acceleration
+
+        Symbol: :code:`a_c`
+
+        Latex: :math:`{\vec a}_\text{c}`
+
+        Dimension: *acceleration*
+

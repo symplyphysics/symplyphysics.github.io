@@ -1,0 +1,58 @@
+Speed of sound in ideal gas
+---------------------------
+
+Also known as the Laplace's formula of the speed of sound, it provides a correct expression
+for the speed of sound for ideal gases compared to the Newton's formula. See
+:doc:`laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative`.
+
+**Notation:**
+
+#. :math:`R` is the molar gas constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.speed_of_sound_in_ideal_gas
+
+.. py:data:: speed_of_sound
+
+    Speed of sound in gas.
+
+    Symbol:
+        :code:`c`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: heat_capacity_ratio
+
+    Heat capacity ratio, or adiabatic index, of the gas.
+
+    Symbol:
+        :code:`gamma`
+
+    Latex:
+        :math:`\gamma`
+
+.. py:data:: molar_mass
+
+    Mass of one mole of the gas.
+
+    Symbol:
+        :code:`M`
+
+.. py:data:: law
+
+    :code:`c = sqrt(gamma * R * T / M)`
+
+    Latex:
+        .. math::
+            c = \sqrt{\frac{\gamma R T}{M}}
+

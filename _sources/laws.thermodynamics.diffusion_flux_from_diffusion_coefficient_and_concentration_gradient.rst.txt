@@ -1,0 +1,54 @@
+Diffusion flux from diffusion coefficient and concentration gradient
+--------------------------------------------------------------------
+
+*Fick's first law* relates the diffusion flux to the gradient of the concentration.
+It postulates that the flux goes from regions of high concentration to regions of
+low concentration, with a magnitude that is proportional to the concentration gradient
+(spatial derivative), or, in simplistic terms, the concept that a solute will move from
+a region of high concentration to a region of low concentration across a concentration
+gradient. The minus sign in the law indicates that the directions of the diffusion
+flow and the gradient are opposite: the gas diffuses towards a lower concentration,
+and the gradient is directed towards a higher concentration.
+
+**Conditions:**
+
+#. The mixture is ideal.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.diffusion_flux_from_diffusion_coefficient_and_concentration_gradient
+
+.. py:data:: diffusion_flux
+
+    Diffusion flux.
+
+    Symbol:
+        :code:`J(x)`
+
+.. py:data:: diffusion_coefficient
+
+    Diffusion coefficient.
+
+    Symbol:
+        :code:`D`
+
+.. py:data:: concentration
+
+    Concentration of particles as a function of position.
+
+    Symbol:
+        :code:`n(x)`
+
+.. py:data:: position
+
+    Position of particles.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: law
+
+    :code:`J(x) = -1 * D * Derivative(n(x), x)`
+
+    Latex:
+        .. math::
+            J(x) = - D \frac{d n}{d x}
+

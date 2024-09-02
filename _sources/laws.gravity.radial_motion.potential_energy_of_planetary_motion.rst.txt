@@ -1,0 +1,65 @@
+Potential energy of radial planetary motion
+-------------------------------------------
+
+The total mechanical energy of the planet can be viewed as the sum of the kinetic and potential energy.
+The potential energy is in turn the sum of the potential energy due to the gravitational interaction
+between the planet and the Sun, and the the energy of the tangential motion, which depends on the
+planet's angular momentum.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion
+
+.. py:data:: total_potential_energy
+
+    The total potential energy of the planet.
+
+    Symbol:
+        :code:`U_tot`
+
+    Latex:
+        :math:`U_\text{tot}`
+
+.. py:data:: gravitational_potential_energy
+
+    The potential energy of the planet due to the gravitational interaction of the planet and the star.
+
+    Symbol:
+        :code:`U_gr`
+
+    Latex:
+        :math:`U_\text{gr}`
+
+.. py:data:: angular_momentum
+
+    The angular momentum of the planet.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: planetary_mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the planet.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: distance
+
+    The distance between the star and the planet.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`U_tot = U_gr + L^2 / (2 * m * r^2)`
+
+    Latex:
+        .. math::
+            U_\text{tot} = U_\text{gr} + \frac{L^2}{2 m r^2}
+

@@ -1,0 +1,52 @@
+Fractional volume change via small temperature change
+-----------------------------------------------------
+
+Thermal expansion is the phenomenon when a body increases its dimensions in response to an increase
+in temperature. For small temperature changes, the expansion coefficient is approximately constant
+and the fractional change in the body's volume is proportional to the change in the body's temperature.
+
+**Conditions:**
+
+#. The temperature change :math:`\Delta T` is small enough for the expansion coefficient
+   :math:`\alpha_V` to be constant.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.fractional_volume_change_via_small_temperature_change
+
+.. py:data:: fractional_volume_change
+
+    Change :math:`\Delta V` in the body's volume divided by its initial volume :math:`V`.
+
+    Symbol:
+        :code:`e_V`
+
+    Latex:
+        :math:`e_V`
+
+.. py:data:: volumetric_expansion_coefficient
+
+    Volumetric coefficient of thermal expansion.
+
+    Symbol:
+        :code:`alpha_V`
+
+    Latex:
+        :math:`\alpha_V`
+
+.. py:data:: temperature_change
+
+    Change in body's temperature.
+
+    Symbol:
+        :code:`dT`
+
+    Latex:
+        :math:`\Delta T`
+
+.. py:data:: law
+
+    :code:`e_V = alpha_V * dT`
+
+    Latex:
+        .. math::
+            e_V = \alpha_V \, \Delta T
+

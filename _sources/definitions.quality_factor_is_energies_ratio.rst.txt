@@ -1,0 +1,47 @@
+Quality factor is ratio of energies
+-----------------------------------
+
+*Quality factor* is a property of an oscillating system defined as the ratio between the amount of
+energy stored in system and the power losses.
+
+.. py:currentmodule:: symplyphysics.definitions.quality_factor_is_energies_ratio
+
+.. py:data:: quality_factor
+
+    Quality factor of the oscillator.
+
+    Symbol:
+        :code:`Q`
+
+.. py:data:: resonant_frequency
+
+    Resonant angular frequency of the oscillator.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: stored_energy
+
+    Energy stored in the oscillator.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: dissipated_power
+
+    Power dissipated from the oscillater.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: definition
+
+    :code:`Q = w * E / P`
+
+    Latex:
+        .. math::
+            Q = \frac{\omega E}{P}
+

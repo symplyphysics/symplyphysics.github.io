@@ -1,0 +1,91 @@
+Forced oscillations equation
+----------------------------
+
+*Forced, or driven, oscillations* are a type of oscillations in the presence of an external driving
+force acting on the oscillating system. In the case of an oscillating external force, two angular
+frequencies are associated with such a system: (1) the natural angular frequency of the system,
+which is the angular frequency the system would oscillate with if no external force were present,
+and (2) the angular frequency of the external force driving the oscillations. Such systems can
+undergo resonance if the angular frequency of the driving force is close to the natural angular
+frequency of the oscillator.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.forced_oscillations_equation
+
+.. py:data:: displacement
+
+    The displacement of the oscillating body from rest value.
+
+    Symbol:
+        :code:`q(t)`
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the oscillating body.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: natural_angular_frequency
+
+    The natural angular frequency of the oscillator.
+
+    Symbol:
+        :code:`w0`
+
+    Latex:
+        :math:`\omega_0`
+
+.. py:data:: driving_force_amplitude
+
+    The amplitude of the driving :attr:`~symplyphysics.symbols.dynamics.force`.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: driving_angular_frequency
+
+    The angular frequency of the driving force.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: driving_phase_lag
+
+    The phase lag of the driving force.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    Derivative(q(t), (t, 2)) + w0^2 * q(t) = (F / m) * cos(w * t + phi)
+
+    Latex:
+        .. math::
+            \frac{d^2}{d t^2} q(t) + \omega_0^2 q(t) = \frac{F}{m} \cos{\left( \omega t + \varphi \right)}
+

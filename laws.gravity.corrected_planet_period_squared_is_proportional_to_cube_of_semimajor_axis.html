@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Corrected planet period squared is proportional to cube of semimajor axis &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Kepler’s constant via attracting body mass" href="laws.gravity.keplers_constant_via_attracting_body_mass.html" />
+    <link rel="prev" title="Gravity (Vector)" href="laws.gravity.vector.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="corrected-planet-period-squared-is-proportional-to-cube-of-semimajor-axis">
+<h1>Corrected planet period squared is proportional to cube of semimajor axis<a class="headerlink" href="#corrected-planet-period-squared-is-proportional-to-cube-of-semimajor-axis" title="Link to this heading">¶</a></h1>
+<p><em>Kepler’s third law</em> of planetary motion relates the planet’s <em>rotation period</em> to the <em>semi-major axis</em>
+of its orbit. Kepler’s laws use the assumption that the attracting mass is much greater than that of
+the orbiting planet. If this assumption isn’t made, the first and the second law stay the same, but
+the third law requires a revision. As a result, the period of the planet’s rotation depends not only
+on the attracting mass, but also on the mass of the planet itself.</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.rotation_period">
+<span class="sig-name descname"><span class="pre">rotation_period</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.rotation_period" title="Link to this definition">¶</a></dt>
+<dd><p>The planet’s period of rotation.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">T</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.semimajor_axis">
+<span class="sig-name descname"><span class="pre">semimajor_axis</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.semimajor_axis" title="Link to this definition">¶</a></dt>
+<dd><p>The semi-major axis of the planet’s orbit.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.attracting_mass">
+<span class="sig-name descname"><span class="pre">attracting_mass</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.attracting_mass" title="Link to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the attracting body, such as the Sun.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">M</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(m\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.planetary_mass">
+<span class="sig-name descname"><span class="pre">planetary_mass</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.planetary_mass" title="Link to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the orbiting planet.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(m\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">T^2</span> <span class="pre">=</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi^2</span> <span class="pre">*</span> <span class="pre">a^3)</span> <span class="pre">/</span> <span class="pre">(G</span> <span class="pre">*</span> <span class="pre">(M</span> <span class="pre">+</span> <span class="pre">m))</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[T^2 = \frac{4 \pi^2 a^3}{G \left( M + m \right)}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.gravity.html">Gravity</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.radial_motion.html"><strong>Radial motion</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.vector.html"><strong>Gravity (Vector)</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Corrected planet period squared is proportional to cube of semimajor axis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.rotation_period"><code class="docutils literal notranslate"><span class="pre">rotation_period</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.attracting_mass"><code class="docutils literal notranslate"><span class="pre">attracting_mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.planetary_mass"><code class="docutils literal notranslate"><span class="pre">planetary_mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.keplers_constant_via_attracting_body_mass.html">Kepler’s constant via attracting body mass</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.gravity.html">Gravity</a><ul>
+      <li>Previous: <a href="laws.gravity.vector.html" title="previous chapter"><strong>Gravity (Vector)</strong></a></li>
+      <li>Next: <a href="laws.gravity.keplers_constant_via_attracting_body_mass.html" title="next chapter">Kepler’s constant via attracting body mass</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

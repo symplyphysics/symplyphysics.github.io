@@ -1,0 +1,78 @@
+Velocity component distribution
+-------------------------------
+
+For a system containing a large number of identical non-interacting non-relativistic
+classical particles in thermodynamic equilibrium, the velocity component distribution
+is a function :math:`f(v_k)` such that :math:`f(v_k) dv_k` gives the fraction of particles with
+speeds in the interval :math:`dv_k` around velocity component :math:`v_k`.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Notes:**
+
+#. Applicable for any velocity component in Cartesian coordinates.
+
+**Conditions:**
+
+#. Number of particles is big enough that the laws of thermodynamics can be applied.
+#. Particles are identical, non-interacting, non-relativistic, and classical.
+#. The ensemble of particles is at thermodynamic equilibrium.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution
+
+.. py:data:: velocity_component_distribution
+
+    Distribution function of velocity component :math:`v_k`.
+
+    Symbol:
+        :code:`f(v_k)`
+
+    Latex:
+        :math:`f(v_k)`
+
+.. py:data:: velocity_component
+
+    Velocity component in Cartesian coordinates, :math:`k = x, y, z`.
+
+    Symbol:
+        :code:`v_k`
+
+    Latex:
+        :math:`v_k`
+
+.. py:data:: particle_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a particle.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the ensemble.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`f(v_k) = sqrt(m / (2 * pi * k_B * T)) * exp(-1 * m * v_k^2 / (2 * k_B * T))`
+
+    Latex:
+        .. math::
+            f(v_k) = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp \left( - \frac{m v_k^2}{2 k_\text{B} T} \right)
+

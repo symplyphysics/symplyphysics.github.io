@@ -1,0 +1,36 @@
+Volumetric and linear expansion coefficients in isotropic materials
+-------------------------------------------------------------------
+
+Coefficients of thermal expansion describe how the size of an object changes with a change in temperature
+at a constant pressure. In isotropic materials, the volumetric coefficient is three times the linear one.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials
+
+.. py:data:: volumetric_expansion_coefficient
+
+    :doc:`Volumetric expansion coefficient <definitions.volumetric_coefficient_of_thermal_expansion>` of the material.
+
+    Symbol:
+        :code:`alpha_V`
+
+    Latex:
+        :math:`\alpha_V`
+
+.. py:data:: linear_expansion_coefficient
+
+    :doc:`Linear expansion coefficient <definitions.linear_coefficient_of_thermal_expansion>` of the material.
+
+    Symbol:
+        :code:`alpha_L`
+
+    Latex:
+        :math:`\alpha_L`
+
+.. py:data:: law
+
+    :code:`alpha_V = 3 * alpha_L`
+
+    Latex:
+        .. math::
+            \alpha_V = 3 \alpha_L
+

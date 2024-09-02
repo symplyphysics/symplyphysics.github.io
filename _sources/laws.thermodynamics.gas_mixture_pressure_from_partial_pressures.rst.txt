@@ -1,0 +1,34 @@
+Gas mixture pressure from partial pressures
+-------------------------------------------
+
+The pressure of a mixture of gases is equal to the sum of their partial pressures. *Partial pressure*
+of a gas is the pressure that the gas would exert on the walls of a vessel when it is the only gas present
+in the vessel.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.gas_mixture_pressure_from_partial_pressures
+
+.. py:data:: total_pressure
+
+    Total pressure inside the system.
+
+    Symbol:
+        :code:`p`
+
+.. py:data:: partial_pressure
+
+    Partial pressure of the :math:`i`-th gas component.
+
+    Symbol:
+        :code:`p_i`
+
+    Latex:
+        :math:`p_i`
+
+.. py:data:: law
+
+    :code:`p = Sum(p_i, i)`
+
+    Latex:
+        .. math::
+            p = \sum_i p_i
+

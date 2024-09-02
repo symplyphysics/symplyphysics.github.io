@@ -1,0 +1,61 @@
+Average square speed in Maxwell—Boltzmann statistics
+----------------------------------------------------
+
+For an ideal gas, the average square of speed is directly proportional to its temperature
+and inversely proportional to the mass of the gas.
+
+**Notation:**
+
+#. :math:`k_\text{B}` is the Boltzmann constant.
+
+**Conditions:**
+
+#. The gas is in thermal equilibrium with the environment.
+#. The gas particles are distributed according to Maxwell—Boltzmann statistics.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.average_square_speed_in_maxwell_boltzmann_statistics
+
+.. py:data:: average_square_speed
+
+    Average square of the speed of gas molecules.
+
+    Symbol:
+        :code:`avg(v^2)`
+
+    Latex:
+        :math:`\langle v^2 \rangle`
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium temperature of the gas.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: molecular_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a gas molecule.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`avg(v^2) = 3 * k_B * T / m`
+
+    Latex:
+        .. math::
+            \langle v^2 \rangle = \frac{3 k_\text{B} T}{m}
+
