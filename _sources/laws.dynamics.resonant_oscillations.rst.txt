@@ -50,7 +50,7 @@ resonance.
 
 .. py:data:: driving_force_amplitude
 
-    The amplitude of the driving force.
+    The amplitude of the driving :attr:`~symplyphysics.symbols.dynamics.force`.
 
     Symbol:
         :code:`F`

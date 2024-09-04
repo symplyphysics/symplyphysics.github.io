@@ -37,7 +37,7 @@ It is proportional to the normal force between the two objects.
         :code:`N`
 
     Latex:
-        :math:`F`
+        :math:`N`
 
     Dimension:
         :code:`force`

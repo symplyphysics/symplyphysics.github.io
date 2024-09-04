@@ -26,7 +26,7 @@ A thin rod is rotating about an axis that passes through its center perpendicula
 
 .. py:data:: mass
 
-    :attr:`~symplyphysics.symbols.basic.mass` of the rod.
+    The :attr:`~symplyphysics.symbols.basic.mass` of the rod.
 
     Symbol:
         :code:`m`

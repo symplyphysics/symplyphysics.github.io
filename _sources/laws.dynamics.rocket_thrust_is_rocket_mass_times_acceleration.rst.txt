@@ -65,7 +65,7 @@ the total mass of the system does not change.
         :code:`M`
 
     Latex:
-        :math:`m`
+        :math:`M`
 
     Dimension:
         :code:`mass`

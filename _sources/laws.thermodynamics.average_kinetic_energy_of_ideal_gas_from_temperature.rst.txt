@@ -27,7 +27,7 @@ temperature of the gas and only depends on the temperature.
 
 .. py:data:: equilibrium_temperature
 
-    Equilibrium temperature of the gas.
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
         :code:`T`

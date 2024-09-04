@@ -49,7 +49,7 @@ process.
 
 .. py:data:: law
 
-    :code:`p_0 V_0 = p_1 V_1`
+    :code:`p_0 * V_0 = p_1 * V_1`
 
     Latex:
         .. math::

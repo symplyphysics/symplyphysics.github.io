@@ -13,7 +13,7 @@ object.
 
 .. py:data:: work
 
-    The work done by force :math:`F`.
+    The work done by :attr:`~symplyphysics.symbols.dynamics.force` :math:`F`.
 
     Symbol:
         :code:`W`

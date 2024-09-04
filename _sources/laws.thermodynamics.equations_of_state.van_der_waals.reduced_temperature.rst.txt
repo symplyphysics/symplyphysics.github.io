@@ -36,7 +36,7 @@ See :ref:`vdw_reduced_units_def`.
         :code:`T_c`
 
     Latex:
-        :math:`T_	ext{c}`
+        :math:`T_\text{c}`
 
     Dimension:
         :code:`temperature`

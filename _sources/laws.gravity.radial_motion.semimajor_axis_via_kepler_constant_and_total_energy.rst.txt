@@ -20,7 +20,8 @@ the star---planet system and the total energy of the planet per unit of its mass
 
 .. py:data:: kepler_constant
 
-    The Kepler's constant, whose value is determined by the mass of the orbited star.
+    The Kepler's constant, whose value is determined by the :attr:`~symplyphysics.symbols.basic.mass`
+    of the orbited star.
 
     Symbol:
         K

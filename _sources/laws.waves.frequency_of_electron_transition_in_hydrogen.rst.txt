@@ -46,12 +46,6 @@ electron transition to the levels between which the transition is occurring.
     Latex:
         :math:`R_\text{H}`
 
-    Symbol:
-        :code:`QTY13`
-
-    Latex:
-        :math:`QTY13`
-
     Dimension:
         :code:`frequency`
 

@@ -33,7 +33,7 @@ the type of diffusing particles. This law is also known as the *Stokes—Einstei
 
 .. py:data:: temperature
 
-    Temperature of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
     Symbol:
         :code:`T`

@@ -33,7 +33,7 @@ of mass).
 
 .. py:data:: mass
 
-    :attr:`~symplyphysics.symbols.basic.mass` of the body.
+    The :attr:`~symplyphysics.symbols.basic.mass` of the body.
 
     Symbol:
         :code:`m`

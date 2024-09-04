@@ -37,7 +37,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
 .. py:data:: temperature
 
-    Temperature at which the viscosity value is calculated.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` at which the viscosity value is calculated.
 
     Symbol:
         :code:`T`
@@ -50,7 +50,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
 .. py:data:: reference_temperature
 
-    Temperature at which the reference viscosity value is calculated.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` at which the reference viscosity value is calculated.
 
     Symbol:
         :code:`T_0`

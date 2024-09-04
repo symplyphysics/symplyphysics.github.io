@@ -27,7 +27,7 @@ and inversely proportional to the mass of the gas.
 
 .. py:data:: equilibrium_temperature
 
-    Equilibrium temperature of the gas.
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
         :code:`T`

@@ -32,7 +32,7 @@ A solid slab is rotating about an axis that is perpendicular to the slab and goe
 
 .. py:data:: mass
 
-    :attr:`~symplyphysics.symbols.basic.mass` of the slab.
+    The :attr:`~symplyphysics.symbols.basic.mass` of the slab.
 
     Symbol:
         :code:`m`

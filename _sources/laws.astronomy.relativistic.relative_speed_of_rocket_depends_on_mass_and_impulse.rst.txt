@@ -27,7 +27,7 @@ in which the speed of light is present.
 
 .. py:data:: initial_mass
 
-    Initial mass of the rocket
+    Initial :attr:`~symplyphysics.symbols.basic.mass` of the rocket
 
     Symbol:
         :code:`M1`
@@ -40,7 +40,7 @@ in which the speed of light is present.
 
 .. py:data:: final_mass
 
-    Final mass of the rocket
+    Final :attr:`~symplyphysics.symbols.basic.mass` of the rocket
 
     Symbol:
         :code:`M2`

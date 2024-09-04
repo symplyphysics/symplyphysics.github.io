@@ -31,7 +31,7 @@ on the attracting mass, but also on the mass of the planet itself.
         :code:`M`
 
     Latex:
-        :math:`m`
+        :math:`M`
 
     Dimension:
         :code:`mass`

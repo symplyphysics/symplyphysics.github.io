@@ -44,7 +44,7 @@ thermodynamic quantities depend on variables that are measurable experimentally.
         :code:`dT`
 
     Latex:
-        :math:`T`
+        :math:`dT`
 
     Dimension:
         :code:`temperature`

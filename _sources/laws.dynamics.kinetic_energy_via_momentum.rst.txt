@@ -25,7 +25,7 @@ Kinetic energy can be expressed as a function of momentum and mass.
 
 .. py:data:: mass
 
-    The :attr:`~symplyphysics.basic.mass` of the object.
+    The :attr:`~symplyphysics.symbols.basic.mass` of the object.
 
     Symbol:
         :code:`m`

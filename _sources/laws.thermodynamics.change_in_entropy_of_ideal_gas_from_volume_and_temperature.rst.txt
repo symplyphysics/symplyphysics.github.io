@@ -26,7 +26,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
 .. py:data:: mass
 
-    Mass of the gas.
+    :attr:`~symplyphysics.symbols.basic.mass` of the gas.
 
     Symbol:
         :code:`m`
@@ -56,7 +56,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
 .. py:data:: final_temperature
 
-    Temperature of the final state.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the final state.
 
     Symbol:
         :code:`T_1`
@@ -69,7 +69,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
 .. py:data:: initial_temperature
 
-    Temperature of the initial state.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the initial state.
 
     Symbol:
         :code:`T_0`

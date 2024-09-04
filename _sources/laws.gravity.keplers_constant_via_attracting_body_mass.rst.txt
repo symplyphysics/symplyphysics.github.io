@@ -23,7 +23,7 @@ approximately have the same value of the Kepler's constant.
         :code:`M`
 
     Latex:
-        :math:`m`
+        :math:`M`
 
     Dimension:
         :code:`mass`

@@ -35,7 +35,7 @@ Internal energy of an ideal gas is the sum of the kinetic energy of all of its m
 
 .. py:data:: temperature
 
-    Temperature of the gas.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
         :code:`T`

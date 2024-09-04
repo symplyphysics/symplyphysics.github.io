@@ -36,7 +36,7 @@ not just ideal gases.
 
 .. py:data:: temperature
 
-    Temperature of the substance.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the substance.
 
     Symbol:
         :code:`T`

@@ -33,7 +33,7 @@ The change in pressure of ideal gas depends on temperature, standard pressure an
 .. py:data:: thermal_coefficient
 
     Isochoric thermal pressure coefficient equal to the inverse of
-    :attr:`standard conditions temperature <quantities.standard_conditions_temperature>`.
+    :attr:`standard conditions temperature <symplyphysics.quantities.standard_conditions_temperature>`.
 
     Symbol:
         :code:`beta_V`

@@ -20,7 +20,7 @@ internal energy.
 
 .. py:data:: temperature
 
-    :attr:`symbols.thermodynamics.temperature` of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
     Symbol:
         :code:`T`

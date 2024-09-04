@@ -25,7 +25,7 @@ A solid disk (cylinder) rotates about its central axis (axis of cylindrical symm
 
 .. py:data:: mass
 
-    :attr:`~symplyphysics.symbols.basic.mass` of the disk.
+    The :attr:`~symplyphysics.symbols.basic.mass` of the disk.
 
     Symbol:
         :code:`m`

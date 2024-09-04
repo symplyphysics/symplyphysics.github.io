@@ -22,13 +22,13 @@ The angle of the gravitational maneuver depends on the aiming range, the mass of
 
 .. py:data:: planet_mass
 
-    Mass of the planet.
+    The :attr:`~symplyphysics.symbols.basic.mass` of the planet.
 
     Symbol:
         :code:`M`
 
     Latex:
-        :math:`m`
+        :math:`M`
 
     Dimension:
         :code:`mass`

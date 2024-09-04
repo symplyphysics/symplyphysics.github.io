@@ -26,7 +26,7 @@ and thermal wavelength.
 
 .. py:data:: temperature
 
-    Temperature of the gas.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
         :code:`T`

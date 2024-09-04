@@ -22,7 +22,7 @@ and the squared radius of rotation.
 
 .. py:data:: mass
 
-    :attr:`~symplyphysics.symbols.basic.mass` of the particle.
+    The :attr:`~symplyphysics.symbols.basic.mass` of the particle.
 
     Symbol:
         :code:`m`

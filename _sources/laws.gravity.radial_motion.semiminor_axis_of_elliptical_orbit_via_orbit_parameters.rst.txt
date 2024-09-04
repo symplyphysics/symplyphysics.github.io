@@ -38,7 +38,7 @@ the major semiaxis of its orbit, and the mass of body that attracts it, such as 
         :code:`M`
 
     Latex:
-        :math:`m`
+        :math:`M`
 
     Dimension:
         :code:`mass`

@@ -28,7 +28,7 @@ directions.
         :code:`F_21`
 
     Latex:
-        :math:`F_21`
+        :math:`F_{21}`
 
     Dimension:
         :code:`force`
