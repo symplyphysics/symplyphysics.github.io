@@ -33,12 +33,6 @@ intensity.
     Latex:
         :math:`\beta_0`
 
-    Symbol:
-        :code:`QTY8`
-
-    Latex:
-        :math:`QTY8`
-
     Dimension:
         :code:`dimensionless`
 
@@ -51,12 +45,6 @@ intensity.
 
     Latex:
         :math:`I_0`
-
-    Symbol:
-        :code:`QTY9`
-
-    Latex:
-        :math:`QTY9`
 
     Dimension:
         :code:`power/length**2`

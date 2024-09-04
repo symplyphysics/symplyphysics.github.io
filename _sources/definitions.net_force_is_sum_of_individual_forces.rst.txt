@@ -37,11 +37,11 @@ The net force is the arithmetic sum of forces.
 
 .. py:data:: definition
 
-    :code:`F = SumIndexed(F[i][global_index], global_index)`
+    :code:`F = Sum(F[i], i)`
 
 
     Latex:
         .. math::
-            F = \operatorname{SumIndexed}\left({SYM_{20}}_{global_{index}}, global_{index}\right)
+            F = \sum_i {F_{i}}
 
 

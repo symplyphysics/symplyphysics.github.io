@@ -9,7 +9,7 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
 .. py:data:: standard_conditions_temperature
 
-    Zero Celsius degrees. The temperature at which water freezes.
+    Zero Celsius degrees. The :attr:`~symplyphysics.symbols.thermodynamics.temperature` at which water freezes.
     It is also temperature for Standard Temperature and Pressure (STP)
 
     Symbol:
@@ -23,7 +23,7 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
 .. py:data:: standard_laboratory_temperature
 
-    Approximately 25 Celsius degrees. Commonly used temperature for tabulation purposes.
+    Approximately 25 Celsius degrees. Commonly used :attr:`~symplyphysics.symbols.thermodynamics.temperature` for tabulation purposes.
 
     Symbol:
         :code:`t_lab`
@@ -36,7 +36,7 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
 .. py:data:: electron_rest_mass
 
-    Mass of stationary electron
+    :attr:`~symplyphysics.symbols.basic.mass` of stationary electron
 
     Symbol:
         :code:`m_e`
@@ -77,7 +77,7 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
 .. py:data:: solar_mass
 
-    The solar mass is a standard unit of mass in astronomy approximately equal to the mass
+    The solar :attr:`~symplyphysics.symbols.basic.mass` is a standard unit of mass in astronomy approximately equal to the mass
     of the Sun. The relative uncertainty of the measurement is :math:`4 \cdot 10^{-5}`.
 
     Symbol:
@@ -91,7 +91,7 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
 .. py:data:: earth_mass
 
-    The Earth mass is a standard unit of mass in astronomy equal to the mass of the planet 
+    The Earth :attr:`~symplyphysics.symbols.basic.mass` is a standard unit of mass in astronomy equal to the mass of the planet 
     Earth. The relative uncertainty of the measurement is :math:`10^{-4}`.
 
     Symbol:
