@@ -1,0 +1,43 @@
+Energy via constant power and time
+----------------------------------
+
+When power is constant, energy can be expressed as a product of power and time.
+
+**Conditions:**
+
+#. Power is constant, i.e. :math:`\frac{d P}{d t} = 0`.
+
+..
+    TODO Move to another folder?
+
+.. py:currentmodule:: symplyphysics.laws.electricity.energy_via_constant_power_and_time
+
+.. py:data:: energy
+
+    Energy consumed or released during time :math:`t`.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: power
+
+    Power.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`E = P * t`
+
+    Latex:
+        .. math::
+            E = P t
+

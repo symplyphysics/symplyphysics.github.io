@@ -1,0 +1,45 @@
+Magnetic field due to infinite wire
+-----------------------------------
+
+The magnitude of the magnetic flux density due to a thin, straight, infinite wire depends on the
+current through it and the radial distance to the wire.
+
+**Notation:**
+
+#. :math:`\mu_0` (:code:`mu_0`) is vacuum permeability.
+
+**Conditions:**
+
+#. The wire is uniform, straight, and thin.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire
+
+.. py:data:: magnetic_flux_density
+
+    Magnitude of magnetic flux density.
+
+    Symbol:
+        :code:`B`
+
+.. py:data:: current
+
+    Current flowing through the wire.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: radial_distance
+
+    Radial distance to wire.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`B = mu_0 * I / (2 * pi * r)`
+
+    Latex:
+        .. math::
+            B = \frac{\mu_0 I}{2 \pi r}
+

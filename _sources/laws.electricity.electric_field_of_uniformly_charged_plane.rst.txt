@@ -1,0 +1,41 @@
+Electric field of uniformly charged plane
+-----------------------------------------
+
+The electric field strength of a uniformly charged plane is proportional to its
+charge density.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+
+**Conditions:**
+
+#. The plane is thin, i.e. its thickness approaches zero.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electric_field_of_uniformly_charged_plane
+
+.. py:data:: electric_field_strength
+
+    Value of the electric field.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: surface_charge_density
+
+    Surface charge density of the plane.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+.. py:data:: law
+
+    :code:`E = sigma / (2 * epsilon_0)`
+
+    Latex:
+        .. math::
+            E = \frac{\sigma}{2 \varepsilon_0}
+

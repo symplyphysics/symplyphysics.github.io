@@ -1,0 +1,41 @@
+Electric field due to point charge
+----------------------------------
+
+The strength of the electric field set up by a point charge is linearly proportional
+to the value of the charge and the square inverse of the distance to it.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electric_field_due_to_point_charge
+
+.. py:data:: electric_field_strength
+
+    Strength of the electric field due to point charge :math:`q`.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: charge
+
+    Value of the point charge.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: distance
+
+    Distance to the charge.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`E = 1 / (4 * pi * epsilon_0) * q / r^2`
+
+    Latex:
+        .. math::
+            E = \frac{1}{4 \pi \varepsilon_0} \frac{q}{r^2}
+

@@ -1,0 +1,69 @@
+Radius of curvature of charged particle in magnetic field
+---------------------------------------------------------
+
+When a charged particle enters a magnetic field, it experiences an :doc:`electromagnetic
+force <laws.electricity.vector.lorentz_force_via_electromagnetic_field>` upon itself.
+In the absence of the electric field, the particle starts moving in a circular orbit. The
+radius of curvature of the particle's orbit is determined by the mass, speed, and charge
+of the particle as well as by the magnetic flux density.
+
+**Conditions:**
+
+#. The particle's speed and the magnetic field are perpendicular to each other.
+#. The magnetic field is uniform.
+#. The electric field is zero.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field
+
+.. py:data:: radius_of_curvature
+
+    Radius of curvature of the particle's orbit.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the particle.
+
+    Symbol:
+        :code:`m`
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: speed
+
+    Speed of the particle.
+
+    Symbol:
+        :code:`v`
+
+.. py:data:: charge
+
+    Charge of the particle.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: magnetic_flux_density
+
+    Magnitude of magnetic flux density.
+
+    Symbol:
+        :code:`B`
+
+.. py:data:: law
+
+    :code:`r = m * v / (q * B)`
+
+    Latex:
+        .. math::
+            r = \frac{m v}{q B}
+

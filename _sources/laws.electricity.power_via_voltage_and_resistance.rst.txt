@@ -1,0 +1,36 @@
+Power via voltage and resistance
+--------------------------------
+
+Power can be found using voltage and resistance.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.power_via_voltage_and_resistance
+
+.. py:data:: power
+
+    Power.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: voltage
+
+    Voltage.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: resistance
+
+    Resistance.
+
+    Symbol:
+        :code:`R`
+
+.. py:data:: law
+
+    :code:`P = V^2 / R`
+
+    Latex:
+        .. math::
+            P = \frac{V^2}{R}
+

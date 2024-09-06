@@ -1,0 +1,64 @@
+Electrostatic potential energy of two charges via distance
+----------------------------------------------------------
+
+Electrostatic potential energy due to two point charges depends on the inverse 
+distance to the distance between the charges. Note that this is the energy of
+interaction belonging to the entire system.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance
+
+.. py:data:: electrostatic_potential_energy
+
+    Electrostatic potential energy of system.
+
+    Symbol:
+        :code:`U_E`
+
+    Latex:
+        :math:`U_E`
+
+.. py:data:: absolute_permittivity
+
+    Absolute permittivity of the medium.
+
+    Symbol:
+        :code:`epsilon`
+
+    Latex:
+        :math:`\varepsilon`
+
+.. py:data:: distance
+
+    Distance between the point charges.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: first_charge
+
+    Value of the first charge.
+
+    Symbol:
+        :code:`q_1`
+
+    Latex:
+        :math:`q_1`
+
+.. py:data:: second_charge
+
+    Value of the second charge.
+
+    Symbol:
+        :code:`q_2`
+
+    Latex:
+        :math:`q_2`
+
+.. py:data:: law
+
+    :code:`U_E = q_1 * q_2 / (4 * pi * epsilon * r)`
+
+    Latex:
+        .. math::
+            U_E = \frac{q_1 q_2}{4 \pi \varepsilon r}
+

@@ -1,0 +1,62 @@
+Period of rotation of charged particle in magnetic field
+--------------------------------------------------------
+
+When a charged particle enters a magnetic field, it experiences an :doc:`electromagnetic
+force <laws.electricity.vector.lorentz_force_via_electromagnetic_field>` upon itself.
+In the absence of the electric field, the particle starts moving in a circular orbit. The
+period of the particle's rotation is determined by the mass and charge of the particle
+as well as by the magnetic field and it does not depend on the particle speed.
+
+**Conditions:**
+
+#. The particle's speed and the magnetic field are perpendicular to each other.
+#. The magnetic field is uniform.
+#. The electric field is zero.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field
+
+.. py:data:: period
+
+    Period of the particle's rotation.
+
+    Symbol:
+        :code:`T`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the particle.
+
+    Symbol:
+        :code:`m`
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: charge
+
+    Charge of the particle.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: magnetic_flux_density
+
+    Magnitude of magnetic flux density.
+
+    Symbol:
+        :code:`B`
+
+.. py:data:: law
+
+    :code:`T = 2 * pi * m / (q * B)`
+
+    Latex:
+        .. math::
+            T = 2 \pi \frac{m}{q B}
+

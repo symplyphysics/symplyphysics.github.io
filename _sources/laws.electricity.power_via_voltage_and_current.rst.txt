@@ -1,0 +1,37 @@
+Power via voltage and current
+-----------------------------
+
+Electric power can be expressed using current flowing through a
+conductor and voltage applied.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.power_via_voltage_and_current
+
+.. py:data:: power
+
+    Electric power.
+
+    Symbol:
+        :code:`P`
+
+.. py:data:: current
+
+    Electric current.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: voltage
+
+    Voltage applied.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: law
+
+    :code:`P = I * V`
+
+    Latex:
+        .. math::
+            P = I V
+

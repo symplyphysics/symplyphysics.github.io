@@ -1,0 +1,45 @@
+Electrostatic potential is work to bring from reference point over charge
+-------------------------------------------------------------------------
+
+Electrostatic potential is a physical quantity defined as the amount of
+work needed per unit electric charge to move it from a reference point,
+usually infinity, to a specific point in an electric field.
+
+Infinity is usually used as the reference point because this would make
+the potential approach zero at an infinitely remote point.
+
+**Notes:**
+
+#. The electric potential is defined up to a constant.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge
+
+.. py:data:: electrostatic_potential
+
+    Electrostatic potential of a point in an electric field.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: work
+
+    Work needed to bring the charge from the reference point.
+
+    Symbol:
+        :code:`A`
+
+.. py:data:: charge
+
+    Value of the electric charge.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: law
+
+    :code:`V = A / q`
+
+    Latex:
+        .. math::
+            V = \frac{A}{q}
+

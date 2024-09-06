@@ -1,0 +1,40 @@
+Energy density via permittivity and electric field
+--------------------------------------------------
+
+Volumetric energy density of the electric field depends on the permittivity of the medium and
+on the strength of the electric field at that point.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.energy_density_via_permittivity_and_electric_field
+
+.. py:data:: energy_density
+
+    Volumetric energy density of the electric field, see :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`.
+
+    Symbol:
+        :code:`w`
+
+.. py:data:: absolute_permittivity
+
+    Absolute permittivity of the medium.
+
+    Symbol:
+        :code:`epsilon`
+
+    Latex:
+        :math:`\varepsilon`
+
+.. py:data:: electric_field_strength
+
+    Strength of the electric field.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: law
+
+    :code:`w = 1/2 * epsilon * E^2`
+
+    Latex:
+        .. math::
+            w = \frac{1}{2} \varepsilon E^2
+

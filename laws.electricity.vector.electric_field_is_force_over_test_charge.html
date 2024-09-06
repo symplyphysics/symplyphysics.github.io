@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Electric field is force over test charge (Vector) &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Lorentz force via electromagnetic field" href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html" />
+    <link rel="prev" title="Electric dipole moment is charge times displacement" href="laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="electric-field-is-force-over-test-charge-vector">
+<h1>Electric field is force over test charge (Vector)<a class="headerlink" href="#electric-field-is-force-over-test-charge-vector" title="Link to this heading">¶</a></h1>
+<p>Electric field at a point in space can be found by placing there a test charge and measuring
+the electrostatic force that is applied to it.</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.test_charge">
+<span class="sig-name descname"><span class="pre">test_charge</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.test_charge" title="Link to this definition">¶</a></dt>
+<dd><p>Value of the test charge.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(q_0\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electric_field_law">
+<span class="sig-name descname"><span class="pre">electric_field_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">electrostatic_force_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/electric_field_is_force_over_test_charge.html#electric_field_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electric_field_law" title="Link to this definition">¶</a></dt>
+<dd><p>Electric field via electrostatic force.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">F</span> <span class="pre">/</span> <span class="pre">q_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\vec E = \frac{\vec F}{q_0}\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>electrostatic_force_</strong> – <p>vector of electrostatic force</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
+<p>Dimension: <em>force</em></p>
+</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>vector of electric field</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec E\)</span></p>
+<p>Dimension: <em>force</em> / <em>charge</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electrostatic_force_law">
+<span class="sig-name descname"><span class="pre">electrostatic_force_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">electric_field_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/electric_field_is_force_over_test_charge.html#electrostatic_force_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electrostatic_force_law" title="Link to this definition">¶</a></dt>
+<dd><p>Electrostatic force via electric field.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">q_0</span> <span class="pre">*</span> <span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\vec F = q_0 \vec E\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>electric_field_</strong> – <p>vector of electric field</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec E\)</span></p>
+<p>Dimension: <em>force</em> / <em>charge</em></p>
+</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>vector of electrostatic force</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
+<p>Dimension: <em>force</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.circuits.html"><strong>Circuits</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.maxwell_equations.html"><strong>Maxwell equations</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.electricity.vector.html"><strong>Electromagnetism (Vector)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.html">Electric dipole moment is charge times displacement</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Electric field is force over test charge (Vector)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html">Lorentz force via electromagnetic field</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.absolute_permittivity_via_relative_permittivity.html">Absolute permittivity via relative permittivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.charge_is_quantized.html">Charge is quantized</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.current_is_voltage_over_resistance.html">Current is voltage over resistance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_charge_is_constant_in_isolated_system.html">Electric charge is constant in isolated system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_dipole_moment_is_charge_times_distance.html">Electric dipole moment is charge times distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_due_to_dipole.html">Electric field due to dipole</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_due_to_point_charge.html">Electric field due to point charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_is_force_over_test_charge.html">Electric field is force over test charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_of_uniformly_charged_plane.html">Electric field of uniformly charged plane</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_outside_charged_sphere.html">Electric field outside charged sphere</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge.html">Electrostatic potential is work to bring from reference point over charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_density_via_permittivity_and_electric_field.html">Energy density via permittivity and electric field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_via_constant_power_and_time.html">Energy via constant power and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_due_to_infinite_wire.html">Magnetic field due to infinite wire</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_of_coil.html">Magnetic field of coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field.html">Period of rotation of charged particle in magnetic field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_factor_is_real_power_over_apparent_power.html">Power factor is real power over apparent power</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_current_and_resistance.html">Power via current and resistance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_voltage_and_current.html">Power via voltage and current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_voltage_and_resistance.html">Power via voltage and resistance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field.html">Radius of curvature of charged particle in magnetic field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.resistance_via_resistivity_and_dimensions.html">Resistance via resistivity and dimensions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current.html">Self-induced electromotive force via time derivative of current</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.electricity.html">Electromagnetism</a><ul>
+  <li><a href="laws.electricity.vector.html"><strong>Electromagnetism (Vector)</strong></a><ul>
+      <li>Previous: <a href="laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.html" title="previous chapter">Electric dipole moment is charge times displacement</a></li>
+      <li>Next: <a href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html" title="next chapter">Lorentz force via electromagnetic field</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.electricity.vector.electric_field_is_force_over_test_charge.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

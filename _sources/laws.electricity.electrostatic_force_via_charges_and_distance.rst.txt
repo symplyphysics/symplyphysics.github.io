@@ -1,0 +1,64 @@
+Electrostatic force via charges and distance
+--------------------------------------------
+
+The *Coulomb's law* states that the electrostatic force between two point charges
+in a vacuum is proportional to their values and inversely proportional to the
+square of the distance between them.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance
+
+.. py:data:: electrostatic_force
+
+    Electrostatic force between two charges.
+
+    Symbol:
+        :code:`F`
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: first_charge
+
+    First charge.
+
+    Symbol:
+        :code:`q_1`
+
+    Latex:
+        :math:`q_1`
+
+.. py:data:: second_charge
+
+    Second charge.
+
+    Symbol:
+        :code:`q_2`
+
+    Latex:
+        :math:`q_2`
+
+.. py:data:: distance
+
+    Distance between the charges.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`F = 1 / (4 * pi * epsilon_0) * q_1 * q_2 / r^2`
+
+    Latex:
+        .. math::
+            F = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2}
+

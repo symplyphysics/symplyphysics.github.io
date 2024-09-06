@@ -1,0 +1,47 @@
+Self-induced electromotive force via time derivative of current
+---------------------------------------------------------------
+
+Expression for the self-induced emf can be derived from the Faraday's law featuring
+the time derivative of current flowing through the circuit.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current
+
+.. py:data:: electromotive_force
+
+    Self-induced electromotive force.
+
+    Symbol:
+        :code:`E(t)`
+
+    Latex:
+        :math:`\mathcal{E}(t)`
+
+.. py:data:: inductance
+
+    Inductance of the circuit.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: current
+
+    Current in the circuit.
+
+    Symbol:
+        :code:`I(t)`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: law
+
+    :code:`E(t) = -1 * L * Derivative(I(t), t)`
+
+    Latex:
+        .. math::
+            \mathcal{E}(t) = -L \frac{d I}{d t}
+

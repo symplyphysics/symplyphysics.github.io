@@ -1,0 +1,53 @@
+Magnetic field of coil
+----------------------
+
+Near the center of the coil, the magnetic field is quite uniform and directly
+proportional to the current in the coil's wire.
+
+**Notation:**
+
+#. :math:`\mu_0` (:code:`mu_0`) is vacuum permeability.
+
+**Conditions:**
+
+#. The medium is vacuum.
+#. The magnetic field is measured near the center of the coil.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.magnetic_field_of_coil
+
+.. py:data:: magnetic_flux_density
+
+    Value of the magnetic field.
+
+    Symbol:
+        :code:`B`
+
+.. py:data:: current
+
+    Current flowing through the coil.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: length
+
+    Length of the coil.
+
+    Symbol:
+        :code:`l`
+
+.. py:data:: coil_turn_count
+
+    Number of turns in the coil.
+
+    Symbol:
+        :code:`N`
+
+.. py:data:: law
+
+    :code:`B = mu_0 * I * N / l`
+
+    Latex:
+        .. math::
+            B = \mu_0 I \frac{N}{l}
+

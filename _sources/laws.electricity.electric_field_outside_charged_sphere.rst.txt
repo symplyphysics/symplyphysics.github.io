@@ -1,0 +1,46 @@
+Electric field outside charged sphere
+-------------------------------------
+
+The electric field outside of a charged sphere behaves as is the sphere were a point charge,
+i.e. its magnitude is inversely proportional to the square of the distance to the center
+of the sphere. However, due to the Gauss's law, on the inside the electric field is exactly zero.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+
+**Conditions:**
+
+#. The sphere is thin, i.e. its thickness approaches zero.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electric_field_outside_charged_sphere
+
+.. py:data:: electric_field_strength
+
+    Value of the electric field.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: charge
+
+    Total charge of the sphere.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: distance
+
+    Distance to the center of the sphere.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`E = 1 / (4 * pi * epsilon_0) * q / r^2`
+
+    Latex:
+        .. math::
+            E = \frac{1}{4 \pi \varepsilon_0} \frac{q}{r^2}
+

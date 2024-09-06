@@ -1,0 +1,48 @@
+Electric field is force over test charge
+----------------------------------------
+
+The strength of the electric field at any point in space can be found by placing a
+so called test charge in that point and measuring the electrostatic force applied to
+the test charge. The resulting electric field is the ratio of the force applied to
+the value of the test charge.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electric_field_is_force_over_test_charge
+
+.. py:data:: electric_field_strength
+
+    Strength of the electric field.
+
+    Symbol:
+        :code:`E`
+
+.. py:data:: electrostatic_force
+
+    Projection of the electrostatic force applied to the test charge.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: test_charge
+
+    Value of the test charge.
+
+    Symbol:
+        :code:`q_0`
+
+    Latex:
+        :math:`q_0`
+
+.. py:data:: law
+
+    :code:`E = F / q_0`
+
+    Latex:
+        .. math::
+            E = \frac{F}{q_0}
+
