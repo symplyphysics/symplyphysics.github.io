@@ -13,12 +13,24 @@ defined as the time derivative of the flowing charge.
     Symbol:
         :code:`I(t)`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
 .. py:data:: charge
 
     Electric charge as a function of time.
 
     Symbol:
         :code:`q(t)`
+
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
 
 .. py:data:: time
 
@@ -27,11 +39,19 @@ defined as the time derivative of the flowing charge.
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: definition
 
     :code:`I(t) = Derivative(q(t), t)`
 
+
     Latex:
         .. math::
-            I(t) = \frac{d q}{d t}
+            I{\left(t \right)} = \frac{d}{d t} q{\left(t \right)}
+
 

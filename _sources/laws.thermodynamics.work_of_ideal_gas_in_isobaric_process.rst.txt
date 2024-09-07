@@ -29,7 +29,7 @@ by the gas is proportional to the pressure of the gas and its volume change.
     Initial volume of the gas.
 
     Symbol:
-        :code:`V_0`
+        :code:`V0`
 
     Latex:
         :math:`V_0`
@@ -39,14 +39,14 @@ by the gas is proportional to the pressure of the gas and its volume change.
     Final volume of the gas
 
     Symbol:
-        :code:`V_1`
+        :code:`V1`
 
     Latex:
         :math:`V_1`
 
 .. py:data:: law
 
-    :code:`W = p * (V_1 - V_0)`
+    :code:`W = p * (V1 - V0)`
 
     Latex:
         .. math::

@@ -221,6 +221,9 @@
         <span class="n">display_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">display_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_symbol</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
 
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">display_name</span><span class="p">)</span>
+
 
 <span class="c1"># Symbol and Function have generated names, hence their display is not readable.</span>
 <span class="c1"># Use custom implementation of the PrettyPrinter to convert real symbol names</span>

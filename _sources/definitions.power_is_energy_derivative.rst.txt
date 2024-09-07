@@ -13,12 +13,24 @@ rate at which work is done.
     Symbol:
         :code:`P(t)`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: energy
 
     Energy as a function of time.
 
     Symbol:
         :code:`E(t)`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: time
 
@@ -27,11 +39,19 @@ rate at which work is done.
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: definition
 
     :code:`P(t) = Derivative(E(t), t)`
 
+
     Latex:
         .. math::
-            P(t) = \frac{d E}{d t}
+            P{\left(t \right)} = \frac{d}{d t} E{\left(t \right)}
+
 

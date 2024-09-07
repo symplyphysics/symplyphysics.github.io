@@ -14,6 +14,12 @@ The Period is inversely proportional to the angular frequency of oscillations. S
     Symbol:
         :code:`T`
 
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: angular_frequency
 
     Angular, or circular, frequency of oscillations.
@@ -24,11 +30,16 @@ The Period is inversely proportional to the angular frequency of oscillations. S
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`frequency`
+
 .. py:data:: law
 
-    :code:`T = 2 * pi / w`
+    :code:`T = 2*pi/w`
+
 
     Latex:
         .. math::
             T = \frac{2 \pi}{\omega}
+
 

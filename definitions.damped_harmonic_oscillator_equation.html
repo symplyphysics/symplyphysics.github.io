@@ -46,6 +46,10 @@ assuming the body only moves in one direction.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">x(t)</span></code></p>
 </dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(x\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -55,6 +59,10 @@ assuming the body only moves in one direction.</p>
 <dd><p>Time.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -68,6 +76,8 @@ assuming the body only moves in one direction.</p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
 </dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -80,16 +90,18 @@ assuming the body only moves in one direction.</p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\zeta\)</span></p>
 </dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.damped_harmonic_oscillator_equation.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.damped_harmonic_oscillator_equation.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Derivative(x(t),</span> <span class="pre">(t,</span> <span class="pre">2))</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">z</span> <span class="pre">*</span> <span class="pre">w</span> <span class="pre">*</span> <span class="pre">Derivative(x(t),</span> <span class="pre">t)</span> <span class="pre">+</span> <span class="pre">w^2</span> <span class="pre">*</span> <span class="pre">x(t)</span> <span class="pre">=</span> <span class="pre">0</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">w^2*x(t)</span> <span class="pre">+</span> <span class="pre">2*w*z*Derivative(x(t),</span> <span class="pre">t)</span> <span class="pre">+</span> <span class="pre">Derivative(x(t),</span> <span class="pre">(t,</span> <span class="pre">2))</span> <span class="pre">=</span> <span class="pre">0</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\frac{d^2 x}{dt^2} + 2 \zeta \omega \frac{d x}{d t} + \omega^2 x(t) = 0\]</div>
+\[\omega^{2} x{\left(t \right)} + 2 \omega \zeta \frac{d}{d t} x{\left(t \right)} + \frac{d^{2}}{d t^{2}} x{\left(t \right)} = 0\]</div>
 </dd>
 </dl>
 </dd></dl>

@@ -16,12 +16,21 @@ See :doc:`laws.quantities.quantity_is_linear_density_times_length` for a general
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`charge/length`
+
 .. py:data:: charge
 
     Charge accumulated in the object.
 
     Symbol:
         :code:`q`
+
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
 
 .. py:data:: length
 
@@ -30,11 +39,19 @@ See :doc:`laws.quantities.quantity_is_linear_density_times_length` for a general
     Symbol:
         :code:`l`
 
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: definition
 
-    :code:`lambda = q / l`
+    :code:`lambda = q/l`
+
 
     Latex:
         .. math::
             \lambda = \frac{q}{l}
+
 

@@ -13,12 +13,24 @@ See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume` for a mor
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: number_of_objects
 
     Number of particles within the volume.
 
     Symbol:
         :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: volume
 
@@ -27,11 +39,19 @@ See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume` for a mor
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: definition
 
-    :code:`n = N / V`
+    :code:`n = N/V`
+
 
     Latex:
         .. math::
             n = \frac{N}{V}
+
 

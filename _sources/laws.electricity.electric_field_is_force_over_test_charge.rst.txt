@@ -17,7 +17,7 @@ the value of the test charge.
 
 .. py:data:: electrostatic_force
 
-    Projection of the electrostatic force applied to the test charge.
+    Projection of the electrostatic :attr:`~symplyphysics.symbols.dynamics.force` applied to the test charge.
 
     Symbol:
         :code:`F`
@@ -33,14 +33,14 @@ the value of the test charge.
     Value of the test charge.
 
     Symbol:
-        :code:`q_0`
+        :code:`q0`
 
     Latex:
         :math:`q_0`
 
 .. py:data:: law
 
-    :code:`E = F / q_0`
+    :code:`E = F / q0`
 
     Latex:
         .. math::

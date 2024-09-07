@@ -59,7 +59,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the final state.
 
     Symbol:
-        :code:`T_1`
+        :code:`T1`
 
     Latex:
         :math:`T_1`
@@ -72,7 +72,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the initial state.
 
     Symbol:
-        :code:`T_0`
+        :code:`T0`
 
     Latex:
         :math:`T_0`
@@ -85,7 +85,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
     Volume of the final state.
 
     Symbol:
-        :code:`V_1`
+        :code:`V1`
 
     Latex:
         :math:`V_1`
@@ -95,14 +95,14 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
     Volume of the initial state.
 
     Symbol:
-        :code:`V_0`
+        :code:`V0`
 
     Latex:
         :math:`V_0`
 
 .. py:data:: law
 
-    :code:`S = (m / M) * (C_V * log(T_1 / T_0) + R * log(V_1 / V_0))`
+    :code:`S = (m / M) * (C_V * log(T1 / T0) + R * log(V1 / V0))`
 
     Latex:
         .. math::

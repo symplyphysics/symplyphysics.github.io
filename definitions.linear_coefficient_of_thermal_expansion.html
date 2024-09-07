@@ -56,6 +56,8 @@ at constant pressure.</p></li>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_l\)</span></p>
 </dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/temperature</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -66,6 +68,10 @@ at constant pressure.</p></li>
 and, indirectly, pressure <span class="math notranslate nohighlight">\(p\)</span>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">l(T,</span> <span class="pre">p)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(l\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -87,10 +93,10 @@ and, indirectly, pressure <span class="math notranslate nohighlight">\(p\)</span
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.linear_coefficient_of_thermal_expansion.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_l</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">l(T,</span> <span class="pre">p)</span> <span class="pre">*</span> <span class="pre">Derivative(l(T,</span> <span class="pre">p),</span> <span class="pre">T)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_l</span> <span class="pre">=</span> <span class="pre">Derivative(l(T,</span> <span class="pre">p),</span> <span class="pre">T)/l(T,</span> <span class="pre">p)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\alpha_l = \frac{1}{l(T, p)} \left( \frac{d l}{d T} \right)_p\]</div>
+\[\alpha_l = \frac{1}{l(T, p)} \left( \frac{\partial l(T, p)}{\partial T} \right)_p\]</div>
 </dd>
 </dl>
 </dd></dl>

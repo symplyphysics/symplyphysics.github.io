@@ -42,14 +42,14 @@ of time.
     Speed at :math:`t = 0`.
 
     Symbol:
-        :code:`v_0`
+        :code:`v0`
 
     Latex:
         :math:`v_0`
 
 .. py:data:: law
 
-    :code:`v = v_0 + a * t`
+    :code:`v = v0 + a * t`
 
     Latex:
         .. math::

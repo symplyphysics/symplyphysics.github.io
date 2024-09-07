@@ -16,12 +16,21 @@ It is defined as the inverse of resistance.
     Latex:
         :math:`\sigma`
 
+    Dimension:
+        :code:`conductance`
+
 .. py:data:: resistance
 
     Resistance of the object.
 
     Symbol:
         :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
 
 .. py:data:: definition
 
@@ -30,4 +39,5 @@ It is defined as the inverse of resistance.
     Latex:
         .. math::
             \sigma = \frac{1}{R}
+
 

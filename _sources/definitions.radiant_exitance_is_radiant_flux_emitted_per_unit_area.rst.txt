@@ -19,6 +19,9 @@ Radiant exitance is radiant flux emitted per unit area
     Latex:
         :math:`M_e`
 
+    Dimension:
+        :code:`power/area`
+
 .. py:data:: radiant_flux
 
     Radiant flux, or radiant power, emitted from the surface.
@@ -27,7 +30,10 @@ Radiant exitance is radiant flux emitted per unit area
         :code:`Phi_e(A)`
 
     Latex:
-        :math:`\Phi_e(A)`
+        :math:`\Phi_e`
+
+    Dimension:
+        :code:`power`
 
 .. py:data:: area
 
@@ -36,11 +42,19 @@ Radiant exitance is radiant flux emitted per unit area
     Symbol:
         :code:`A`
 
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
 .. py:data:: definition
 
     :code:`M_e = Derivative(Phi_e(A), A)`
 
+
     Latex:
         .. math::
-            M_e = \frac{\partial \Phi_e}{\partial A}
+            M_{e} = \frac{d}{d A} \Phi_{e}{\left(A \right)}
+
 

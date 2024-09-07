@@ -29,9 +29,6 @@ of the particle as well as by the magnetic flux density.
     Symbol:
         :code:`m`
 
-    Symbol:
-        :code:`m`
-
     Latex:
         :math:`m`
 

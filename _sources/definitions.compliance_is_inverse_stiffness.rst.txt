@@ -13,12 +13,24 @@ how flexible the spring is.
     Symbol:
         :code:`c`
 
+    Latex:
+        :math:`c`
+
+    Dimension:
+        :code:`length/force`
+
 .. py:data:: stiffness
 
     Stiffness of the spring.
 
     Symbol:
         :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`force/length`
 
 .. py:data:: definition
 
@@ -27,4 +39,5 @@ how flexible the spring is.
     Latex:
         .. math::
             c = \frac{1}{k}
+
 

@@ -13,12 +13,24 @@ per unit area at which energy is transferred by the wave through or onto the sur
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`power/area`
+
 .. py:data:: power
 
     Power, or rate of energy transfer, of the wave.
 
     Symbol:
         :code:`P`
+
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
 
 .. py:data:: area
 
@@ -27,11 +39,19 @@ per unit area at which energy is transferred by the wave through or onto the sur
     Symbol:
         :code:`A`
 
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
 .. py:data:: definition
 
-    :code:`I = P / A`
+    :code:`I = P/A`
+
 
     Latex:
         .. math::
             I = \frac{P}{A}
+
 

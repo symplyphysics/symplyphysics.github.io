@@ -13,6 +13,12 @@ energy stored in system and the power losses.
     Symbol:
         :code:`Q`
 
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: resonant_frequency
 
     Resonant angular frequency of the oscillator.
@@ -23,12 +29,21 @@ energy stored in system and the power losses.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: stored_energy
 
     Energy stored in the oscillator.
 
     Symbol:
         :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: dissipated_power
 
@@ -37,11 +52,19 @@ energy stored in system and the power losses.
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: definition
 
-    :code:`Q = w * E / P`
+    :code:`Q = w*E/P`
+
 
     Latex:
         .. math::
             Q = \frac{\omega E}{P}
+
 

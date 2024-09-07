@@ -21,7 +21,7 @@ If a body is moving with a constant acceleration, its position in space is a qua
     Position at :math:`t = 0`.
 
     Symbol:
-        :code:`x_0`
+        :code:`x0`
 
     Latex:
         :math:`x_0`
@@ -31,7 +31,10 @@ If a body is moving with a constant acceleration, its position in space is a qua
     Speed at :math:`t = 0`.
 
     Symbol:
-        :code:`v_0`
+        :code:`v0`
+
+    Latex:
+        :math:`v_0`
 
 .. py:data:: acceleration
 
@@ -55,7 +58,7 @@ If a body is moving with a constant acceleration, its position in space is a qua
 
 .. py:data:: law
 
-    :code:`x = x_0 + v_0 * t + (1/2) * a * t^2`
+    :code:`x = x0 + v0 * t + (1/2) * a * t^2`
 
     Latex:
         .. math::

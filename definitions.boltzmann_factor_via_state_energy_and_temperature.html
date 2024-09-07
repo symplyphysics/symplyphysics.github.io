@@ -41,7 +41,6 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
 <li><p><span class="math notranslate nohighlight">\(\exp\)</span> is the exponential function.</p></li>
-<li><p><span class="math notranslate nohighlight">\(k_\text{B}\)</span> (<code class="code docutils literal notranslate"><span class="pre">k_B</span></code>) is the Boltzmann constant.</p></li>
 </ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.boltzmann_factor">
@@ -49,6 +48,10 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 <dd><p>Boltzmann factor.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -58,9 +61,11 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 <span class="sig-name descname"><span class="pre">energy_of_state</span></span><a class="headerlink" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.energy_of_state" title="Link to this definition">¶</a></dt>
 <dd><p>Energy of state <span class="math notranslate nohighlight">\(i\)</span>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E_i</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E[i]</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E_i\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -80,12 +85,26 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 </dd></dl>
 
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.boltzmann_constant">
+<span class="sig-name descname"><span class="pre">boltzmann_constant</span></span><a class="headerlink" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.boltzmann_constant" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="quantities.html#symplyphysics.quantities.boltzmann_constant" title="symplyphysics.quantities.boltzmann_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">boltzmann_constant</span></code></a></p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k_B</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k_\text{B}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/temperature</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">f</span> <span class="pre">=</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">E_i</span> <span class="pre">/</span> <span class="pre">(k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">f</span> <span class="pre">=</span> <span class="pre">exp(-E[i]/(k_B*T))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[f = \exp{\left( - \frac{E_i}{k_\text{B} T} \right)}\]</div>
+\[f = exp{\left(- \frac{E_{i}}{T k_\text{B}} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -131,6 +150,7 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.boltzmann_factor"><code class="docutils literal notranslate"><span class="pre">boltzmann_factor</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.energy_of_state"><code class="docutils literal notranslate"><span class="pre">energy_of_state</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.equilibrium_temperature"><code class="docutils literal notranslate"><span class="pre">equilibrium_temperature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.boltzmann_constant"><code class="docutils literal notranslate"><span class="pre">boltzmann_constant</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature.definition"><code class="docutils literal notranslate"><span class="pre">definition</span></code></a></li>
 </ul>
 </li>

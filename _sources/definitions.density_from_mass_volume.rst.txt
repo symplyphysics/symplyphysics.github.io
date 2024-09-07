@@ -17,6 +17,9 @@ for a general version of this law.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the object.
@@ -37,11 +40,19 @@ for a general version of this law.
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: definition
 
-    :code:`rho = m / V`
+    :code:`rho = m/V`
+
 
     Latex:
         .. math::
             \rho = \frac{m}{V}
+
 

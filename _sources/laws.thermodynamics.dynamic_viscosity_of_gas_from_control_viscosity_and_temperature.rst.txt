@@ -53,7 +53,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` at which the reference viscosity value is calculated.
 
     Symbol:
-        :code:`T_0`
+        :code:`T0`
 
     Latex:
         :math:`T_0`
@@ -70,7 +70,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
 .. py:data:: law
 
-    :code:`mu = mu_0 * ((T_0 + C) / (T + C)) * (T / T_0)^(3/2)`
+    :code:`mu = mu_0 * ((T0 + C) / (T + C)) * (T / T0)^(3/2)`
 
     Latex:
         .. math::

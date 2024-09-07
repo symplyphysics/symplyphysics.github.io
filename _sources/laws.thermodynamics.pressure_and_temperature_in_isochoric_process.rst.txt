@@ -16,7 +16,7 @@ of the gas.
     Initial pressure of the gas.
 
     Symbol:
-        :code:`p_0`
+        :code:`p0`
 
     Latex:
         :math:`p_0`
@@ -26,7 +26,7 @@ of the gas.
     Final pressure of the gas.
 
     Symbol:
-        :code:`p_1`
+        :code:`p1`
 
     Latex:
         :math:`p_1`
@@ -36,7 +36,7 @@ of the gas.
     Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
-        :code:`T_0`
+        :code:`T0`
 
     Latex:
         :math:`T_0`
@@ -49,7 +49,7 @@ of the gas.
     Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
-        :code:`T_1`
+        :code:`T1`
 
     Latex:
         :math:`T_1`
@@ -59,7 +59,7 @@ of the gas.
 
 .. py:data:: law
 
-    :code:`p_0 / p_1 = T_0 / T_1`
+    :code:`p0 / p1 = T0 / T1`
 
     Latex:
         .. math::

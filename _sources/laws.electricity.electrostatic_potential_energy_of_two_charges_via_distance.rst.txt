@@ -39,7 +39,7 @@ interaction belonging to the entire system.
     Value of the first charge.
 
     Symbol:
-        :code:`q_1`
+        :code:`q1`
 
     Latex:
         :math:`q_1`
@@ -49,14 +49,14 @@ interaction belonging to the entire system.
     Value of the second charge.
 
     Symbol:
-        :code:`q_2`
+        :code:`q2`
 
     Latex:
         :math:`q_2`
 
 .. py:data:: law
 
-    :code:`U_E = q_1 * q_2 / (4 * pi * epsilon * r)`
+    :code:`U_E = q1 * q2 / (4 * pi * epsilon * r)`
 
     Latex:
         .. math::

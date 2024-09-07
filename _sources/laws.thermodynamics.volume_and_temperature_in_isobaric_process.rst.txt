@@ -12,7 +12,7 @@ by the same amount as the temperature during an isobaric process.
     Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
     Symbol:
-        :code:`T_0`
+        :code:`T0`
 
     Latex:
         :math:`T_0`
@@ -25,7 +25,7 @@ by the same amount as the temperature during an isobaric process.
     Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
     Symbol:
-        :code:`T_1`
+        :code:`T1`
 
     Latex:
         :math:`T_1`
@@ -38,7 +38,7 @@ by the same amount as the temperature during an isobaric process.
     Initial volume of the system.
 
     Symbol: 
-        :code:`V_0`
+        :code:`V0`
 
     Latex:
         :math:`V_0`
@@ -48,14 +48,14 @@ by the same amount as the temperature during an isobaric process.
     Final volume of the system.
 
     Symbol: 
-        :code:`V_1`
+        :code:`V1`
 
     Latex:
         :math:`V_1`
 
 .. py:data:: law
 
-    :code:`V_0 / V_1 = T_0 / T_1`
+    :code:`V0 / V1 = T0 / T1`
 
     Latex:
         .. math::

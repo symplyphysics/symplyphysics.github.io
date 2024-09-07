@@ -12,12 +12,24 @@ Mechanical energy is kinetic and potential energy
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: kinetic_energy
 
     Kinetic energy of the system.
 
     Symbol:
         :code:`K`
+
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: potential_energy
 
@@ -26,11 +38,19 @@ Mechanical energy is kinetic and potential energy
     Symbol:
         :code:`U`
 
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: definition
 
     :code:`E = K + U`
 
+
     Latex:
         .. math::
             E = K + U
+
 

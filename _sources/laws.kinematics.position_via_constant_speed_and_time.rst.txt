@@ -22,7 +22,7 @@ of time.
     Position at :math:`t = 0`.
 
     Symbol:
-        :code:`x_0`
+        :code:`x0`
 
     Latex:
         :math:`x_0`
@@ -43,7 +43,7 @@ of time.
 
 .. py:data:: law
 
-    :code:`x = x_0 + v * t`
+    :code:`x = x0 + v * t`
 
     Latex:
         .. math::

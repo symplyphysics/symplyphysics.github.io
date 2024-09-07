@@ -103,3 +103,45 @@ Contains useful physical constants. Fundamental constants can be also found in `
     Dimension:
         :code:`mass`
 
+.. py:data:: boltzmann_constant
+
+    The Boltzmann constant is the proportionality factor that relates the average relative thermal energy of particles
+    in a gas with the thermodynamic temperature of the gas.
+
+    Symbol:
+        :code:`k_B`
+
+    Latex:
+        :math:`k_\text{B}`
+
+    Dimension:
+        :code:`energy/temperature`
+
+.. py:data:: molar_gas_constant
+
+    The gas constant is the constant of proportionality that relates the energy scale in physics to the temperature
+    scale and the scale used for amount of substance.
+    It is molar equivalent to the :attr:`~symplyphysics.quantities.boltzmann_constant`
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
+
+.. py:data:: speed_of_light
+
+    The speed of light in vacuum is a universal physical constant that is exactly equal to 299,792,458 metres per second.
+
+    Symbol:
+        :code:`c`
+
+    Latex:
+        :math:`c`
+
+    Dimension:
+        :code:`velocity`
+

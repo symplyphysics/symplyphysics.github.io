@@ -24,7 +24,7 @@ in space, say, a container with gas particles.
     Total volume of the region.
 
     Symbol:
-        :code:`V_0`
+        :code:`V0`
 
     Latex:
         :math:`V_0`
@@ -45,7 +45,7 @@ in space, say, a container with gas particles.
 
 .. py:data:: law
 
-    :code:`P = (V / V_0)^N`
+    :code:`P = (V / V0)^N`
 
     Latex:
         .. math::

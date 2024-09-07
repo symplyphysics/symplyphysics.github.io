@@ -11,24 +11,24 @@ at all times.
     Initial charge of the system.
 
     Symbol:
-        :code:`q_0`
+        :code:`q0`
 
     Latex:
-        :math:`q_1`
+        :math:`q_0`
 
 .. py:data:: final_charge
 
     Final charge of the system.
 
     Symbol:
-        :code:`q_1`
+        :code:`q1`
 
     Latex:
         :math:`q_1`
 
 .. py:data:: law
 
-    :code:`q_0 = q_1`
+    :code:`q0 = q1`
 
     Latex:
         .. math::

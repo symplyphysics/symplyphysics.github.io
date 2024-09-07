@@ -12,7 +12,7 @@ process.
     Initial pressure inside the system.
 
     Symbol:
-        :code:`p_0`
+        :code:`p0`
 
     Latex:
         :math:`p_0`
@@ -22,7 +22,7 @@ process.
     Final pressure inside the system.
 
     Symbol:
-        :code:`p_1`
+        :code:`p1`
 
     Latex:
         :math:`p_1`
@@ -32,7 +32,7 @@ process.
     Initial volume of the system.
 
     Symbol:
-        :code:`V_0`
+        :code:`V0`
 
     Latex:
         :math:`V_0`
@@ -42,14 +42,14 @@ process.
     Final volume of the system.
 
     Symbol:
-        :code:`V_1`
+        :code:`V1`
 
     Latex:
         :math:`V_1`
 
 .. py:data:: law
 
-    :code:`p_0 * V_0 = p_1 * V_1`
+    :code:`p0 * V0 = p1 * V1`
 
     Latex:
         .. math::

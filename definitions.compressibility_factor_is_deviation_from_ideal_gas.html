@@ -40,10 +40,6 @@
 describes the deviation of a real gas from ideal gas behaviour. In general, the deviation from
 ideal gas behaviour becomes more prominent the closer the gas is to a phase change, the lower
 the temperature or the larger the pressure.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(R\)</span> is the molar gas constant.</p></li>
-</ol>
 <p><strong>Notes:</strong></p>
 <ol class="arabic simple">
 <li><p>Can be equivalently defined as the ratio of the molar volume <span class="math notranslate nohighlight">\(\frac{V}{n}\)</span> of the real gas to the
@@ -61,6 +57,10 @@ particles have a larger extended volume, leading to <span class="math notranslat
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span></code></p>
 </dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(Z\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -70,6 +70,10 @@ particles have a larger extended volume, leading to <span class="math notranslat
 <dd><p>Pressure of the gas.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -81,6 +85,10 @@ particles have a larger extended volume, leading to <span class="math notranslat
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V</span></code></p>
 </dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -90,6 +98,10 @@ particles have a larger extended volume, leading to <span class="math notranslat
 <dd><p>Amount of gas substance.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(n\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">amount_of_substance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -109,12 +121,26 @@ particles have a larger extended volume, leading to <span class="math notranslat
 </dd></dl>
 
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.molar_gas_constant">
+<span class="sig-name descname"><span class="pre">molar_gas_constant</span></span><a class="headerlink" href="#symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.molar_gas_constant" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="quantities.html#symplyphysics.quantities.molar_gas_constant" title="symplyphysics.quantities.molar_gas_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">molar_gas_constant</span></code></a></p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/(amount_of_substance*temperature)</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span> <span class="pre">=</span> <span class="pre">(p</span> <span class="pre">*</span> <span class="pre">V)</span> <span class="pre">/</span> <span class="pre">(n</span> <span class="pre">*</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span> <span class="pre">=</span> <span class="pre">p*V/(R*T*n)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[Z = \frac{p V}{n R T}\]</div>
+\[Z = \frac{p V}{n T R}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -165,6 +191,7 @@ particles have a larger extended volume, leading to <span class="math notranslat
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.volume"><code class="docutils literal notranslate"><span class="pre">volume</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.amount_of_substance"><code class="docutils literal notranslate"><span class="pre">amount_of_substance</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.molar_gas_constant"><code class="docutils literal notranslate"><span class="pre">molar_gas_constant</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.compressibility_factor_is_deviation_from_ideal_gas.definition"><code class="docutils literal notranslate"><span class="pre">definition</span></code></a></li>
 </ul>
 </li>

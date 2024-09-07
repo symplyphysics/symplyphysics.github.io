@@ -23,6 +23,9 @@ reversible processes; the speed of sound also depends on this factor.
     Latex:
         :math:`\gamma`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: isobaric_heat_capacity
 
     Heat capacity of the system at constant pressure.
@@ -32,6 +35,9 @@ reversible processes; the speed of sound also depends on this factor.
 
     Latex:
         :math:`C_p`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: isochoric_heat_capacity
 
@@ -43,11 +49,16 @@ reversible processes; the speed of sound also depends on this factor.
     Latex:
         :math:`C_V`
 
+    Dimension:
+        :code:`energy/temperature`
+
 .. py:data:: definition
 
-    :code:`gamma = C_p / C_V`
+    :code:`gamma = C_p/C_V`
+
 
     Latex:
         .. math::
-            \gamma = \frac{C_p}{C_V}
+            \gamma = \frac{C_{p}}{C_{V}}
+
 

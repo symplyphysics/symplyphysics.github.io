@@ -29,9 +29,6 @@ as well as by the magnetic field and it does not depend on the particle speed.
     Symbol:
         :code:`m`
 
-    Symbol:
-        :code:`m`
-
     Latex:
         :math:`m`
 

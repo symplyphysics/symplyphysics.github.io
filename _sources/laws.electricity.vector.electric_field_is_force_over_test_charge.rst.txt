@@ -11,7 +11,7 @@ the electrostatic force that is applied to it.
     Value of the test charge.
 
     Symbol:
-        :code:`q_0`
+        :code:`q0`
 
     Latex:
         :math:`q_0`
@@ -21,7 +21,7 @@ the electrostatic force that is applied to it.
     Electric field via electrostatic force.
 
     Law:
-        :code:`E = F / q_0`
+        :code:`E = F / q0`
 
     Latex:
         .. math::
@@ -48,7 +48,7 @@ the electrostatic force that is applied to it.
     Electrostatic force via electric field.
 
     Law:
-        :code:`F = q_0 * E`
+        :code:`F = q0 * E`
 
     Latex:
         .. math::

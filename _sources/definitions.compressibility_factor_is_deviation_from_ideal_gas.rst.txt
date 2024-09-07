@@ -6,10 +6,6 @@ describes the deviation of a real gas from ideal gas behaviour. In general, the 
 ideal gas behaviour becomes more prominent the closer the gas is to a phase change, the lower
 the temperature or the larger the pressure.
 
-**Notation:**
-
-#. :math:`R` is the molar gas constant.
-
 **Notes:**
 
 #. Can be equivalently defined as the ratio of the molar volume :math:`\frac{V}{n}` of the real gas to the
@@ -29,12 +25,24 @@ the temperature or the larger the pressure.
     Symbol:
         :code:`Z`
 
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: pressure
 
     Pressure of the gas.
 
     Symbol:
         :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: volume
 
@@ -43,12 +51,24 @@ the temperature or the larger the pressure.
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: amount_of_substance
 
     Amount of gas substance.
 
     Symbol:
         :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`amount_of_substance`
 
 .. py:data:: temperature
 
@@ -63,11 +83,26 @@ the temperature or the larger the pressure.
     Dimension:
         :code:`temperature`
 
+.. py:data:: molar_gas_constant
+
+    :attr:`~symplyphysics.quantities.molar_gas_constant`
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
+
 .. py:data:: definition
 
-    :code:`Z = (p * V) / (n * R * T)`
+    :code:`Z = p*V/(R*T*n)`
+
 
     Latex:
         .. math::
-            Z = \frac{p V}{n R T}
+            Z = \frac{p V}{n T R}
+
 

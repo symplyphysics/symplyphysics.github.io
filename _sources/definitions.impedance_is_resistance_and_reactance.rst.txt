@@ -18,12 +18,24 @@ resistance, and the imaginary part is reactance.
     Symbol:
         :code:`Z`
 
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: resistance
 
     Resistance of the system.
 
     Symbol:
         :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
 
 .. py:data:: reactance
 
@@ -32,11 +44,19 @@ resistance, and the imaginary part is reactance.
     Symbol:
         :code:`X`
 
+    Latex:
+        :math:`X`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: definition
 
-    :code:`Z = R + i * X`
+    :code:`Z = R + I*X`
+
 
     Latex:
         .. math::
             Z = R + i X
+
 
