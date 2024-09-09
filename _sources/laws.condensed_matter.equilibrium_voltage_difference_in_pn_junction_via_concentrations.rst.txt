@@ -1,0 +1,87 @@
+Equilibrium voltage difference in p-n junction via concentrations
+-----------------------------------------------------------------
+
+The p-n junction has a potential barrier preventing the movement of charge carriers.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Conditions:**
+
+#. :math:`n_\text{a}` is constant on the p side and zero on the n side.
+#. :math:`n_\text{d}` is constant on the n side and zero on the p side.
+#. The semiconductor is non-degenerate, i.e. :math:`n_\text{i}` is independent of
+   the Fermi energy.
+
+**Links:**
+
+#. `Size of depleting region <https://en.wikipedia.org/wiki/P%E2%80%93n_junction#Size_of_depletion_region>`_.
+
+.. py:currentmodule:: symplyphysics.laws.condensed_matter.equilibrium_voltage_difference_in_pn_junction_via_concentrations
+
+.. py:data:: equilibrium_voltage_difference
+
+    Equilibrium voltage difference corresponding to the size of the depletion region.
+
+    Symbol:
+        :code:`Delta(V)`
+
+    Latex:
+        :math:`\Delta V`
+
+.. py:data:: donor_concentration
+
+    Concentration of positively-charged donor atoms.
+
+    Symbol:
+        :code:`n_d`
+
+    Latex:
+        :math:`n_\text{d}`
+
+.. py:data:: acceptor_concentration
+
+    Concentration of negatively-charged acceptor atoms.
+
+    Symbol:
+        :code:`n_a`
+
+    Latex:
+        :math:`n_\text{a}`
+
+.. py:data:: charge_carriers_concentration
+
+    Concentration of intrinsic charge carriers.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the semiconductor.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: charge_electron
+
+    Magnitude of the electron charge.
+
+    Symbol:
+        :code:`q`
+
+.. py:data:: law
+
+    :code:`Delta(V) = (k_B * T / q) * log(n_a * n_d / n^2)`
+
+    Latex:
+        .. math::
+            \Delta V = \frac{k_\text{B} T}{q} \log \left( \frac{n_\text{a} n_\text{d}}{n^2} \right)
+

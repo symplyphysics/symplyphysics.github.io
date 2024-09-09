@@ -1,0 +1,34 @@
+Avogadro constant is particle count over amount of substance
+------------------------------------------------------------
+
+The Avogadro constant is the constant of proportionality between particle count
+and amount of substance.
+
+**Notation:**
+
+#. :math:`N_\text{A}` (:code:`N_A`) is the Avogadro constant.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance
+
+.. py:data:: particle_count
+
+    Number of particles.
+
+    Symbol:
+        :code:`N`
+
+.. py:data:: amount_of_substance
+
+    Amount of substance.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: law
+
+    :code:`N_A = N / n`
+
+    Latex:
+        .. math::
+            N_\text{A} = \frac{N}{n}
+

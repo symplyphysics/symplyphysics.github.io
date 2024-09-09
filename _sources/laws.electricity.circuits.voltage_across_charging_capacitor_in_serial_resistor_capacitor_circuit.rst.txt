@@ -1,0 +1,57 @@
+Voltage across charging capacitor in serial resistor-capacitor circuit
+----------------------------------------------------------------------
+
+A series circuit containing only a resistor, a capacitor, a switch and a constant DC source of voltage
+is known as a charging circuit. The capacitor is initially uncharged while the switch is open. The switch
+is closed at :math:`t = 0`. Afterwards, the capacitor begins to charge and the voltage across it rises
+while the voltage across the resistor begins to drop. Note that the voltage across the capacitor never
+reaches the voltage of the source.
+
+**Conditions:**
+
+#. The circuit is a DC one.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit
+
+.. py:data:: capacitor_voltage
+
+    Voltage across the capacitor.
+
+    Symbol:
+        :code:`V`
+
+.. py:data:: source_voltage
+
+    Voltage of the source, which is the initial voltage across the resistor.
+
+    Symbol:
+        :code:`V_0`
+
+    Latex:
+        :math:`V_0`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+.. py:data:: time_constant
+
+    :doc:`Time constant <laws.electricity.circuits.time_constant_of_resistor_capacitor_circuit>` of the circuit.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+.. py:data:: law
+
+    :code:`V = V_0 * (1 - exp(-1 * t / tau))`
+
+    Latex:
+        .. math::
+            V = V_0 \left( 1 - \exp \left( - \frac{t}{\tau} \right) \right)
+

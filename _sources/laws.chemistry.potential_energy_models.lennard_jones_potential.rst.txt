@@ -1,0 +1,53 @@
+Lennard-Jones potential
+-----------------------
+
+The Lennard-Jones (LJ) potential is an intermolecular pair potential. It models soft repulsive and
+attractive (van der Waals) interactions, and it describes electronically neutral atoms or molecules.
+It is a simple yet realistic model to describe intermolecular interactions: two particles repel each
+other at a very close distance, attract each other at moderate distance, and do not interact at infinite
+distance.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.potential_energy_models.lennard_jones_potential
+
+.. py:data:: potential
+
+    Potential energy of the configuration.
+
+    Symbol:
+        :code:`U`
+
+.. py:data:: dispersion_energy
+
+    Depth of the potential well, also referred to as "dispersion energy".
+
+    Symbol:
+        :code:`e`
+
+    Latex:
+        :math:`\varepsilon`
+
+.. py:data:: particle_size
+
+    Distance at which potential is zero, also referred to as "particle size".
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+.. py:data:: distance
+
+    Distance between the centers of the particles.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: law
+
+    :code:`U = 4 * e * ((sigma / r)^12 - (sigma / r)^6)`
+
+    Latex:
+        .. math::
+            U = 4 \varepsilon \left( \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right)
+

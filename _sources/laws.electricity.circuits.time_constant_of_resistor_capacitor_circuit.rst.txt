@@ -1,0 +1,41 @@
+Time constant of resistor-capacitor circuit
+-------------------------------------------
+
+The time constant of an RC circuit is the time it takes for the current to become
+:math:`e` times smaller its original value. Also see `exponential decay
+<https://en.wikipedia.org/wiki/Exponential_decay>`_.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.time_constant_of_resistor_capacitor_circuit
+
+.. py:data:: time_constant
+
+    Time constant of the circuit.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+.. py:data:: resistance
+
+    Resistance of the resistor.
+
+    Symbol:
+        :code:`R`
+
+.. py:data:: capacitance
+
+    Capacitance of the capacitor.
+
+    Symbol:
+        :code:`C`
+
+.. py:data:: law
+
+    :code:`tau = R * C`
+
+    Latex:
+        .. math::
+            \tau = R C
+

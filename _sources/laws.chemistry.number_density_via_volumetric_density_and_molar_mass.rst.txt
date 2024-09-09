@@ -1,0 +1,45 @@
+Number density via volumetric density and molar mass
+----------------------------------------------------
+
+Number density, or number of molecules per unit volume, can be expressed using
+the volumetric density, or mass per unit volume, and molar mass, or mass per unit
+amount of substance.
+
+**Notation:**
+
+#. :math:`N_\text{A}` (:code:`N_A`) is the Avogadro constant.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.number_density_via_volumetric_density_and_molar_mass
+
+.. py:data:: number_density
+
+    Number density, or number of molecules per unit volume.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: volumetric_density
+
+    Volumetric density, or mass per unit volume.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+.. py:data:: molar_mass
+
+    Molar mass, or mass per unit amount of substance.
+
+    Symbol:
+        :code:`M`
+
+.. py:data:: law
+
+    :code:`n = rho * N_A / M`
+
+    Latex:
+        .. math::
+            n = \frac{\rho N_\text{A}}{M}
+

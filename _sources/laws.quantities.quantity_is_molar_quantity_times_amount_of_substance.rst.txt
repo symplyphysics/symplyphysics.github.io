@@ -1,0 +1,40 @@
+Quantity is molar quantity times amount of substance
+----------------------------------------------------
+
+An extensive quantity of interest can be obtained by multiplying the corresponding molar-specific
+intensive quantity by the amount of substance.
+
+.. py:currentmodule:: symplyphysics.laws.quantities.quantity_is_molar_quantity_times_amount_of_substance
+
+.. py:data:: extensive_quantity
+
+    Extensive property.
+
+    Symbol:
+        :code:`X`
+
+.. py:data:: molar_quantity
+
+    Intensive molar quantity.
+
+    Symbol:
+        :code:`X_m`
+
+    Latex:
+        :math:`X_m`
+
+.. py:data:: amount_of_substance
+
+    Amount of substance.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: law
+
+    :code:`X = X_m * n`
+
+    Latex:
+        .. math::
+            X = X_m n
+

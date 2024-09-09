@@ -14,3 +14,7 @@ Contents:
 
   laws.chemistry.electrochemistry
   laws.chemistry.potential_energy_models
+  laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance
+  laws.chemistry.molar_mass_via_molecular_mass
+  laws.chemistry.number_density_via_volumetric_density_and_molar_mass
+  laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy

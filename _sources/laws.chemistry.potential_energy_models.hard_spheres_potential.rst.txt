@@ -1,0 +1,45 @@
+Hard spheres potential
+----------------------
+
+Hard spheres are widely used as model particles in the statistical mechanical theory, defined as
+impenetrable spheres that cannot overlap in space, which mimics extremely strong repulsion that
+atoms and molecules experience at very close distances.
+
+**Conditions:**
+
+#. Spheres are identical.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.potential_energy_models.hard_spheres_potential
+
+.. py:data:: potential
+
+    Potential energy of the configuration.
+
+    Symbol:
+        :code:`U`
+
+.. py:data:: distance
+
+    Distance between the centers of the particles.
+
+    Symbol:
+        :code:`r`
+
+.. py:data:: sphere_diameter
+
+    Diameter of the spheres.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+.. py:data:: law
+
+    :code:`U = Piecewise((Infinity, r <= sigma), (0, r > sigma))`
+
+    Latex:
+        .. math::
+            U = \begin{cases} \infty & r \le \sigma \\ 0 & r > \sigma \end{cases}
+

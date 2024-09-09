@@ -1,0 +1,33 @@
+Sum of currents through junction is zero
+----------------------------------------
+
+Electrical charge is neither created nor accumulated in electrical circuits.
+Alternatively, one can think that the total current flowing into an electrical
+junction must be equal to the total current flowing out of it. This law is also
+known as the **first Kirchhoff's law**, or the **Kirchhoff's junction rule**.
+
+**Notes:**
+
+#. Current flowing into the junction and current flowing out of the junction
+   are of opposite signs.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.sum_of_currents_through_junction_is_zero
+
+.. py:data:: current
+
+    :math:`k`-th current flowing through the node.
+
+    Symbol:
+        :code:`I_k`
+
+    Latex:
+        :math:`I_k`
+
+.. py:data:: law
+
+    :code:`Sum(I_k, k) = 0`
+
+    Latex:
+        .. math::
+            \sum_k I_k = 0
+

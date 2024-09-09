@@ -1,0 +1,78 @@
+Concentration of intrinsic charge carriers
+------------------------------------------
+
+In the absence of external influences (lighting, electric field, etc.), there is a
+nonzero concentration of free charge carriers in the semiconductor.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+**Links:**
+
+#. `Intrinsic carrier concentration <https://www.universitywafer.com/intrinsic-carrier-concentration.html>`_.
+
+**Conditions:**
+
+#. There are no external influences, such as lighting, electric field, etc.
+
+.. py:currentmodule:: symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers
+
+.. py:data:: charge_carriers_concentration
+
+    Concentration of intrinsic charge carriers.
+
+    Symbol:
+        :code:`n`
+
+.. py:data:: density_of_states_in_conduction_band
+
+    Effective density of states in the conduction band.
+
+    Symbol:
+        :code:`N_c`
+
+    Latex:
+        :math:`N_\text{c}`
+
+.. py:data:: density_of_states_in_valence_band
+
+    Effective density of states in the valence band.
+
+    Symbol:
+        :code:`N_v`
+
+    Latex:
+        :math:`N_\text{v}`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the semiconductor.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: band_gap
+
+    Band gap of the semiconductor.
+
+    Symbol:
+        :code:`E_g`
+
+    Latex:
+        :math:`E_\text{g}`
+
+.. py:data:: law
+
+    :code:`n = sqrt(N_c * N_v) * exp(-1 * E_g / (2 * k_B * T))`
+
+    Latex:
+        .. math::
+            n = \sqrt{N_\text{c} N_\text{v}} \exp \left( -\frac{E_\text{g}}{2 k_\text{B} T} \right)
+

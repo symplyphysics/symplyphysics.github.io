@@ -1,0 +1,37 @@
+Capacitance in parallel connection
+----------------------------------
+
+The total capacitance of capacitors connected in parallel is the sum of the
+capacitances of individual capacitors.
+
+**Conditions:**
+
+#. Components are connected in parallel.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.capacitance_in_parallel_connection
+
+.. py:data:: total_capacitance
+
+    Total capacitance.
+
+    Symbol:
+        :code:`C`
+
+.. py:data:: capacitance
+
+    Capacitance of :math:`i`-th capacitor.
+
+    Symbol:
+        :code:`C_i`
+
+    Latex:
+        :math:`C_i`
+
+.. py:data:: law
+
+    :code:`C = Sum(C_i), i`
+
+    Latex:
+        .. math::
+            C = \sum_i C_i
+

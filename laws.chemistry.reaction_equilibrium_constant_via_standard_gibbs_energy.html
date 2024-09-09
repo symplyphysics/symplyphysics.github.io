@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Reaction equilibrium constant via standard Gibbs energy &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Condensed matter" href="laws.condensed_matter.html" />
+    <link rel="prev" title="Number density via volumetric density and molar mass" href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="reaction-equilibrium-constant-via-standard-gibbs-energy">
+<h1>Reaction equilibrium constant via standard Gibbs energy<a class="headerlink" href="#reaction-equilibrium-constant-via-standard-gibbs-energy" title="Link to this heading">¶</a></h1>
+<p>The equilibrium constant is a value that determines for a given chemical reaction the ratio between
+thermodynamic activities (or, depending on the conditions of the reaction, partial pressures,
+concentrations or fugitives) of reactants and products in a state of chemical equilibrium.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(R\)</span> is the molar gas constant.</p></li>
+</ol>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The term “standard” applies to a solution of an infinite dilution and of a hypothetical standard
+concentration, typically 1 mol/kg.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.equilibrium_constant">
+<span class="sig-name descname"><span class="pre">equilibrium_constant</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.equilibrium_constant" title="Link to this definition">¶</a></dt>
+<dd><p>Equilibrium constant of the reaction.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">K</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.reaction_standard_gibbs_energy">
+<span class="sig-name descname"><span class="pre">reaction_standard_gibbs_energy</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.reaction_standard_gibbs_energy" title="Link to this definition">¶</a></dt>
+<dd><p>Reaction standard Gibbs energy, which is the sum of the standard Gibbs energies of the reaction
+products minus that of reactants.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(G)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta G\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.temperature">
+<span class="sig-name descname"><span class="pre">temperature</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.temperature" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.temperature" title="symplyphysics.symbols.thermodynamics.temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temperature</span></code></a> of the system.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">T</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(T\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">temperature</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">K</span> <span class="pre">=</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">Delta(G)</span> <span class="pre">/</span> <span class="pre">(R</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[K = \exp \left( - \frac{\Delta G}{R T} \right)\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.chemistry.html">Chemistry</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electrochemistry.html"><strong>Electrochemistry</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.potential_energy_models.html"><strong>Potential energy models</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance.html">Avogadro constant is particle count over amount of substance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.molar_mass_via_molecular_mass.html">Molar mass via molecular mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html">Number density via volumetric density and molar mass</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Reaction equilibrium constant via standard Gibbs energy</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.equilibrium_constant"><code class="docutils literal notranslate"><span class="pre">equilibrium_constant</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.reaction_standard_gibbs_energy"><code class="docutils literal notranslate"><span class="pre">reaction_standard_gibbs_energy</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.chemistry.html">Chemistry</a><ul>
+      <li>Previous: <a href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html" title="previous chapter">Number density via volumetric density and molar mass</a></li>
+      <li>Next: <a href="laws.condensed_matter.html" title="next chapter">Condensed matter</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.0.2</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

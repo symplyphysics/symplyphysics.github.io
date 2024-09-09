@@ -1,0 +1,37 @@
+Energy stored in inductor via inductance and current
+----------------------------------------------------
+
+Inductors store energy in the magnetic field when the current is flowing
+through it.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.energy_stored_in_inductor_via_inductance_and_current
+
+.. py:data:: energy
+
+    Energy stored in the magnetic field.
+
+    Symbol:
+        :code:`W`
+
+.. py:data:: inductance
+
+    Inductance of the inductor.
+
+    Symbol:
+        :code:`L`
+
+.. py:data:: current
+
+    Current flowing through the inductor.
+
+    Symbol:
+        :code:`I`
+
+.. py:data:: law
+
+    :code:`W = 1/2 * L * I^2`
+
+    Latex:
+        .. math::
+            W = \frac{1}{2} L I^2
+

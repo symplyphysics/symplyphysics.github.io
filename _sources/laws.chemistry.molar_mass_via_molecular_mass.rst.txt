@@ -1,0 +1,36 @@
+Molar mass via molecular mass
+-----------------------------
+
+The Avogadro constant is also the constant of proportionality between molar mass and
+molecular mass.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.molar_mass_via_molecular_mass
+
+.. py:data:: molar_mass
+
+    Mass per unit amount of substance.
+
+    Symbol:
+        :code:`M`
+
+.. py:data:: molecular_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a single molecule.
+
+    Symbol:
+        :code:`m_0`
+
+    Latex:
+        :math:`m_0`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`M = m_0 * N_A`
+
+    Latex:
+        .. math::
+            M = m_0 N_\text{A}
+

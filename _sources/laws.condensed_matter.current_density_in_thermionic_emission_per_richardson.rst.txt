@@ -1,0 +1,61 @@
+Current density in thermionic emission per Richardson
+-----------------------------------------------------
+
+Thermionic emission is the liberation of electrons from an electrode by virtue of its temperature.
+This occurs because the thermal energy given to the charge carrier overcomes the work function of
+the material. This formula for emission current density was proposed by Owen Williams Richardson.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+
+.. py:currentmodule:: symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson
+
+.. py:data:: current_density
+
+    Emission current density.
+
+    Symbol:
+        :code:`j`
+
+.. py:data:: work_function
+
+    Work function of the material.
+
+    Symbol: 
+        :code:`W`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the metal.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: richardson_constant
+
+    Constant of proportionality proposed by Richardson.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`current/(length**2*temperature**2)`
+
+.. py:data:: law
+
+    :code:`j = A * T^2 * exp(-1 * W / (k_B * T))`
+
+    Latex:
+        .. math::
+            j = A T^2 \exp \left( - \frac{W}{k_\text{B} T} \right)
+

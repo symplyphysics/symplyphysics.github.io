@@ -1,0 +1,41 @@
+Capacitor impedance from capacitance and frequency
+--------------------------------------------------
+
+The impedance of the capacitor is a purely imaginary reactive impedance which
+is inversely proportional to its capacitance. Note that the resistance of the
+capacitor is infinite, i.e. it is considered to be an opened connection.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.capacitor_impedance_from_capacitance_and_frequency
+
+.. py:data:: impedance
+
+    Impedance of the capacitor.
+
+    Symbol:
+        :code:`Z`
+
+.. py:data:: angular_frequency
+
+    Angular frequency of the alternating current.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+.. py:data:: capacitance
+
+    Capacitance of the capacitor.
+
+    Symbol:
+        :code:`C`
+
+.. py:data:: law
+
+    :code:`Z = -i / (w * C)`
+
+    Latex:
+        .. math::
+            Z = -\frac{i}{\omega C}
+

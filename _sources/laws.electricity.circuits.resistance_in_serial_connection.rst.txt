@@ -1,0 +1,37 @@
+Resistivity of serial resistors
+-------------------------------
+
+The total resistance of the circuit whose components are connected in series is the sum
+of the resistances of individual components.
+
+**Conditions:**
+
+#. Applies to direct current circuits.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.resistance_in_serial_connection
+
+.. py:data:: total_resistance
+
+    Total resistance of the circuit.
+
+    Symbol:
+        :code:`R`
+
+.. py:data:: resistance
+
+    Resistance of the :math:`i`-th component.
+
+    Symbol:
+        :code:`R_i`
+
+    Latex:
+        :math:`R_i`
+
+.. py:data:: law
+
+    :code:`R = Sum(R_i, i)`
+
+    Latex:
+        .. math::
+            R = \sum_i R_i
+

@@ -1,0 +1,37 @@
+Admittance in parallel connection
+---------------------------------
+
+The total admittance of the circuit whose components are connected in parallel is the sum
+of the admittances of individual components.
+
+**Conditions:**
+
+#. Components are connected in parallel.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.admittance_in_parallel_connection
+
+.. py:data:: total_admittance
+
+    Total admittance of the circuit.
+
+    Symbol:
+        :code:`Y`
+
+.. py:data:: admittance
+
+    Admittance of :math:`i`-th circuit.
+
+    Symbol:
+        :code:`Y_i`
+
+    Latex:
+        :math:`Y_i`
+
+.. py:data:: law
+
+    :code:`Y = Sum(Y_i, i)`
+
+    Latex:
+        .. math::
+            Y = \sum_i Y_i
+

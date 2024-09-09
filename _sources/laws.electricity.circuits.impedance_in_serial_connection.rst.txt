@@ -1,0 +1,37 @@
+Impedance in serial connection
+------------------------------
+
+The total impedance of a circuit whose components are connected in series is the sum
+of the impedances of individual components.
+
+**Conditions:**
+
+#. Components are connected in series.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.impedance_in_serial_connection
+
+.. py:data:: total_impedance
+
+    Total impedance of the circuit.
+
+    Symbol:
+        :code:`Z`
+
+.. py:data:: impedance
+
+    Impedance of the :math:`i`-th component.
+
+    Symbol:
+        :code:`Z_i`
+
+    Latex:
+        :math:`Z_i`
+
+.. py:data:: law
+
+    :code:`Z = Sum(Z_i, i)`
+
+    Latex:
+        .. math::
+            Z = \sum_i Z_i
+

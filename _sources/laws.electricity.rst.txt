@@ -16,6 +16,7 @@ Contents:
   laws.electricity.maxwell_equations
   laws.electricity.vector
   laws.electricity.absolute_permittivity_via_relative_permittivity
+  laws.electricity.admittance_is_conductance_and_susceptance
   laws.electricity.charge_is_quantized
   laws.electricity.current_is_voltage_over_resistance
   laws.electricity.electric_charge_is_constant_in_isolated_system

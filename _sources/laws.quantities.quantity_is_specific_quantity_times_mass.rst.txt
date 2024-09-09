@@ -1,0 +1,46 @@
+Quantity is specific quantity times mass
+----------------------------------------
+
+An extensive quantity of interest can be obtained by multiplying the corresponding mass-specific
+intensive quantity by the mass.
+
+.. py:currentmodule:: symplyphysics.laws.quantities.quantity_is_specific_quantity_times_mass
+
+.. py:data:: extensive_quantity
+
+    Extensive quantity.
+
+    Symbol:
+        :code:`X`
+
+.. py:data:: specific_quantity
+
+    Intensive mass-specific quantity.
+
+    Symbol:
+        :code:`x`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass`.
+
+    Symbol:
+        :code:`m`
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`X = x * m`
+
+    Latex:
+        .. math::
+            X = x m
+
