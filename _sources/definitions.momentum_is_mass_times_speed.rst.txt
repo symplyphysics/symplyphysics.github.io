@@ -46,7 +46,7 @@ Momentum is a physical quantity equal to the product of the object's speed and i
 
 .. py:data:: definition
 
-    :code:`p = m*v`
+    :code:`p = m * v`
 
 
     Latex:

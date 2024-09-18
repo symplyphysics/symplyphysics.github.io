@@ -60,7 +60,7 @@ energy stored in system and the power losses.
 
 .. py:data:: definition
 
-    :code:`Q = w*E/P`
+    :code:`Q = w * E / P`
 
 
     Latex:

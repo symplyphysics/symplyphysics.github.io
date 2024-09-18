@@ -57,7 +57,7 @@ at constant pressure.
 
 .. py:data:: definition
 
-    :code:`alpha_l = Derivative(l(T, p), T)/l(T, p)`
+    :code:`alpha_l = Derivative(l(T, p), T) / l(T, p)`
 
 
     .. only:: comment

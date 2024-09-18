@@ -36,6 +36,7 @@ ability of a circuit or device to conduct electrical current.
 
     :code:`Y = 1 / Z`
 
+
     Latex:
         .. math::
             Y = \frac{1}{Z}

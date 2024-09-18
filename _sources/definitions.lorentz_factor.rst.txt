@@ -48,7 +48,8 @@ change for a body while it is moving.
 
 .. py:data:: definition
 
-    :code:`gamma = 1 / sqrt(1 - (v / c)^2)`
+    :code:`gamma = 1 / sqrt(1 - v^2 / c^2)`
+
 
     Latex:
         .. math::

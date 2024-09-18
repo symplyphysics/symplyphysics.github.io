@@ -64,7 +64,7 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 
 .. py:data:: definition
 
-    :code:`f = exp(-E[i]/(k_B*T))`
+    :code:`f = exp(-E[i] / (k_B * T))`
 
 
     Latex:

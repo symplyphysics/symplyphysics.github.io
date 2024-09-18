@@ -36,6 +36,7 @@ It is defined as the inverse of resistance.
 
     :code:`sigma = 1 / R`
 
+
     Latex:
         .. math::
             \sigma = \frac{1}{R}

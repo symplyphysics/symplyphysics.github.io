@@ -36,6 +36,7 @@ how flexible the spring is.
 
     :code:`c = 1 / k`
 
+
     Latex:
         .. math::
             c = \frac{1}{k}

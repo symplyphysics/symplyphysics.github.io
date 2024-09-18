@@ -46,7 +46,7 @@ Mass fraction is the ratio of the mass of a mixture component to the total mass 
 
 .. py:data:: definition
 
-    :code:`w = m[i]/m`
+    :code:`w = m[i] / m`
 
 
     Latex:

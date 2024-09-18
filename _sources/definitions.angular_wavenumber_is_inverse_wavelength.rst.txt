@@ -33,7 +33,7 @@ Angular wavenumber is inverse wavelength
 
 .. py:data:: definition
 
-    :code:`k = 2*pi/lambda`
+    :code:`k = 2 * pi / lambda`
 
 
     Latex:

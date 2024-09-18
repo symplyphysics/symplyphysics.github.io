@@ -48,7 +48,7 @@ the charge accumulated in the object and inversely proportional to the voltage a
 
 .. py:data:: definition
 
-    :code:`C = q/V`
+    :code:`C = q / V`
 
 
     Latex:

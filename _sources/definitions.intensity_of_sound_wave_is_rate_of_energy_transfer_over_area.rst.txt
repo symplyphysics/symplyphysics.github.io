@@ -47,7 +47,7 @@ per unit area at which energy is transferred by the wave through or onto the sur
 
 .. py:data:: definition
 
-    :code:`I = P/A`
+    :code:`I = P / A`
 
 
     Latex:

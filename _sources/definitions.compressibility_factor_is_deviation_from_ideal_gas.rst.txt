@@ -98,7 +98,7 @@ the temperature or the larger the pressure.
 
 .. py:data:: definition
 
-    :code:`Z = p*V/(R*T*n)`
+    :code:`Z = p * V / (R * n * T)`
 
 
     Latex:

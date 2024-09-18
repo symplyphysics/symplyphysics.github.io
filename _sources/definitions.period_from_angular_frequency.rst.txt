@@ -35,7 +35,7 @@ The Period is inversely proportional to the angular frequency of oscillations. S
 
 .. py:data:: law
 
-    :code:`T = 2*pi/w`
+    :code:`T = 2 * pi / w`
 
 
     Latex:

@@ -47,7 +47,7 @@ See :doc:`laws.quantities.quantity_is_linear_density_times_length` for a general
 
 .. py:data:: definition
 
-    :code:`lambda = q/l`
+    :code:`lambda = q / l`
 
 
     Latex:

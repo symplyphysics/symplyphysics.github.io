@@ -61,7 +61,7 @@ assuming the body only moves in one direction.
 
 .. py:data:: definition
 
-    :code:`w^2*x(t) + 2*w*z*Derivative(x(t), t) + Derivative(x(t), (t, 2)) = 0`
+    :code:`w^2 * x(t) + 2 * Derivative(x(t), t) * w * z + Derivative(x(t), (t, 2)) = 0`
 
 
     Latex:

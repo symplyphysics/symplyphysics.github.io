@@ -47,7 +47,7 @@ See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume` for a mor
 
 .. py:data:: definition
 
-    :code:`n = N/V`
+    :code:`n = N / V`
 
 
     Latex:

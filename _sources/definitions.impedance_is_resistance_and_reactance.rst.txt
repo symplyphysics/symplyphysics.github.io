@@ -52,7 +52,7 @@ resistance, and the imaginary part is reactance.
 
 .. py:data:: definition
 
-    :code:`Z = R + I*X`
+    :code:`Z = R + I * X`
 
 
     Latex:
