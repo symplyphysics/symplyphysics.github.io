@@ -7,7 +7,7 @@ amount of substance.
 
 **Notation:**
 
-#. :math:`N_\text{A}` (:code:`N_A`) is the Avogadro constant.
+#. :math:`N_\text{A}` (:code:`N_A`) is :attr:`~symplyphysics.quantities.avogadro_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.chemistry.number_density_via_volumetric_density_and_molar_mass
 

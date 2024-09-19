@@ -6,36 +6,56 @@ to the value of the charge and the square inverse of the distance to it.
 
 **Notation:**
 
-#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.electric_field_due_to_point_charge
 
 .. py:data:: electric_field_strength
 
-    Strength of the electric field due to point charge :math:`q`.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` due to point charge :math:`q`.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`voltage/length`
+
 .. py:data:: charge
 
-    Value of the point charge.
+    Value of the point :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
 .. py:data:: distance
 
-    Distance to the charge.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance` to the charge.
 
     Symbol:
-        :code:`r`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`E = 1 / (4 * pi * epsilon_0) * q / r^2`
+    :code:`E = q / (4 * pi * epsilon_0 * d^2)`
+
 
     Latex:
         .. math::
-            E = \frac{1}{4 \pi \varepsilon_0} \frac{q}{r^2}
+            E = \frac{q}{4 \pi d^{2} \varepsilon_0}
+
 

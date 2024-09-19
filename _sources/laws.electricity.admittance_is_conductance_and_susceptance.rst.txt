@@ -8,30 +8,50 @@ and whose imaginary part is called susceptance.
 
 .. py:data:: admittance
 
-    Admittance.
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance`.
 
     Symbol:
         :code:`Y`
 
+    Latex:
+        :math:`Y`
+
+    Dimension:
+        :code:`conductance`
+
 .. py:data:: conductance
 
-    Conductance.
+    :attr:`~symplyphysics.symbols.electrodynamics.conductance`.
 
     Symbol:
         :code:`G`
 
+    Latex:
+        :math:`G`
+
+    Dimension:
+        :code:`conductance`
+
 .. py:data:: susceptance
 
-    Susceptance.
+    :attr:`~symplyphysics.symbols.electrodynamics.susceptance`.
 
     Symbol:
         :code:`B`
 
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`conductance`
+
 .. py:data:: law
 
-    :code:`Y = G + i * B`
+    :code:`Y = G + I * B`
+
 
     Latex:
         .. math::
             Y = G + i B
+
 

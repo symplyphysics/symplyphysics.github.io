@@ -53,7 +53,7 @@ and (2) the angular frequency of the external force driving the oscillations.
 
 .. py:data:: driving_force_amplitude
 
-    The amplitude of the external driving :attr:`~symplyphysics.symbols.dynamics.force`.
+    The amplitude of the external driving :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`F`

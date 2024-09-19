@@ -7,9 +7,9 @@ thermal emission, but fails to do that for long-wavelength (i.e. low-frequency) 
 
 **Notation:**
 
-#. :math:`h` is the Planck constant.
-#. :math:`c` is the speed of light.
-#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+#. :math:`h` (:code:`h`) is :attr:`~symplyphysics.quantities.planck`.
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Conditions:**
 

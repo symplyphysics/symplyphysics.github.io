@@ -10,14 +10,20 @@ the value of the test charge.
 
 .. py:data:: electric_field_strength
 
-    Strength of the electric field.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`voltage/length`
+
 .. py:data:: electrostatic_force
 
-    Projection of the electrostatic :attr:`~symplyphysics.symbols.dynamics.force` applied to the test charge.
+    Projection of the electrostatic :attr:`~symplyphysics.symbols.classical_mechanics.force` applied to the test charge.
 
     Symbol:
         :code:`F`
@@ -30,19 +36,24 @@ the value of the test charge.
 
 .. py:data:: test_charge
 
-    Value of the test charge.
+    Value of the test :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
-        :code:`q0`
+        :code:`q_0`
 
     Latex:
         :math:`q_0`
 
+    Dimension:
+        :code:`charge`
+
 .. py:data:: law
 
-    :code:`E = F / q0`
+    :code:`E = F / q_0`
+
 
     Latex:
         .. math::
-            E = \frac{F}{q_0}
+            E = \frac{F}{q_{0}}
+
 

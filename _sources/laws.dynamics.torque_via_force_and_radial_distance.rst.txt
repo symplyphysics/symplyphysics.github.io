@@ -22,7 +22,7 @@ Torque via force and radial distance
 
 .. py:data:: force
 
-    The magnitude of the :attr:`~symplyphysics.symbols.dynamics.force` exerted on the given point.
+    The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the given point.
 
     Symbol:
         :code:`F`

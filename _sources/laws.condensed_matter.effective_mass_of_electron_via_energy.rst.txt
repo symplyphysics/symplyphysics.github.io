@@ -8,7 +8,7 @@ of a free particle with that mass.
 
 **Notation:**
 
-#. :math:`\hbar` (:code:`hbar`) is the reduced Planck constant.
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
 
 .. py:currentmodule:: symplyphysics.laws.condensed_matter.effective_mass_of_electron_via_energy
 

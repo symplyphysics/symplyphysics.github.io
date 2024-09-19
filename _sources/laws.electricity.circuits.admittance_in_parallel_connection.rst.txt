@@ -12,7 +12,7 @@ of the admittances of individual components.
 
 .. py:data:: total_admittance
 
-    Total admittance of the circuit.
+    Total :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the circuit.
 
     Symbol:
         :code:`Y`
@@ -25,10 +25,10 @@ of the admittances of individual components.
 
 .. py:data:: admittance
 
-    Admittance of :math:`i`-th circuit.
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of :math:`i`-th circuit.
 
     Symbol:
-        :code:`Y_i`
+        :code:`Y[i]`
 
     Latex:
         :math:`Y_i`
@@ -38,11 +38,11 @@ of the admittances of individual components.
 
 .. py:data:: law
 
-    :code:`Y = Sum(Y_i, i)`
+    :code:`Y = Sum(Y[i], i)`
 
 
     Latex:
         .. math::
-            Y = \sum_i {Y_{i}}
+            Y = \sum_i Y_{i}
 
 

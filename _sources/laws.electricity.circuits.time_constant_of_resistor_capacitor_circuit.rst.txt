@@ -9,7 +9,7 @@ The time constant of an RC circuit is the time it takes for the current to becom
 
 .. py:data:: time_constant
 
-    Time constant of the circuit.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_time_constant` of the circuit.
 
     Symbol:
         :code:`tau`
@@ -17,25 +17,42 @@ The time constant of an RC circuit is the time it takes for the current to becom
     Latex:
         :math:`\tau`
 
+    Dimension:
+        :code:`time`
+
 .. py:data:: resistance
 
-    Resistance of the resistor.
+    :attr:`~symplyphysics.symbols.electrodynamics.resistance` of the resistor.
 
     Symbol:
         :code:`R`
 
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: capacitance
 
-    Capacitance of the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
     Symbol:
         :code:`C`
 
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
+
 .. py:data:: law
 
-    :code:`tau = R * C`
+    :code:`tau = C * R`
+
 
     Latex:
         .. math::
-            \tau = R C
+            \tau = C R
+
 

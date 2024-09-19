@@ -7,30 +7,50 @@ Power can be found using voltage and resistance.
 
 .. py:data:: power
 
-    Power.
+    :attr:`~symplyphysics.symbols.basic.power`.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: voltage
 
-    Voltage.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: resistance
 
-    Resistance.
+    :attr:`~symplyphysics.symbols.electrodynamics.resistance`.
 
     Symbol:
         :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
 
 .. py:data:: law
 
     :code:`P = V^2 / R`
 
+
     Latex:
         .. math::
-            P = \frac{V^2}{R}
+            P = \frac{V^{2}}{R}
+
 

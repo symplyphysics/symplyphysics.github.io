@@ -10,7 +10,7 @@ solids, it is a big achievement and the result has correct asymptotic behaviour 
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids
 

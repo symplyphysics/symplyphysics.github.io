@@ -46,7 +46,7 @@ filled with a dielectric medium. See <a class="reference external" href="http://
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.capacitance">
 <span class="sig-name descname"><span class="pre">capacitance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.capacitance" title="Link to this definition">¶</a></dt>
-<dd><p>Capacitance of the capacitor.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.capacitance" title="symplyphysics.symbols.electrodynamics.capacitance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">capacitance</span></code></a> of the capacitor.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">C</span></code></p>
 </dd>
@@ -60,7 +60,7 @@ filled with a dielectric medium. See <a class="reference external" href="http://
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.absolute_permittivity">
 <span class="sig-name descname"><span class="pre">absolute_permittivity</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.absolute_permittivity" title="Link to this definition">¶</a></dt>
-<dd><p>Absolute permittivity of the medium between the spheres.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permittivity" title="symplyphysics.symbols.electrodynamics.absolute_permittivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permittivity</span></code></a> of the medium between the spheres.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">epsilon</span></code></p>
 </dd>
@@ -74,7 +74,7 @@ filled with a dielectric medium. See <a class="reference external" href="http://
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.inner_radius">
 <span class="sig-name descname"><span class="pre">inner_radius</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.inner_radius" title="Link to this definition">¶</a></dt>
-<dd><p>Radius of the inner sphere.</p>
+<dd><p>Radius of the inner sphere. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_origin" title="symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_in</span></code></p>
 </dd>
@@ -88,7 +88,7 @@ filled with a dielectric medium. See <a class="reference external" href="http://
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.outer_radius">
 <span class="sig-name descname"><span class="pre">outer_radius</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.outer_radius" title="Link to this definition">¶</a></dt>
-<dd><p>Radius of the outer sphere.</p>
+<dd><p>Radius of the outer sphere. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_origin" title="symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_out</span></code></p>
 </dd>
@@ -102,10 +102,10 @@ filled with a dielectric medium. See <a class="reference external" href="http://
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">C</span> <span class="pre">=</span> <span class="pre">4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon</span> <span class="pre">*</span> <span class="pre">r_in</span> <span class="pre">*</span> <span class="pre">r_out</span> <span class="pre">/</span> <span class="pre">(-r_in</span> <span class="pre">+</span> <span class="pre">r_out)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">C</span> <span class="pre">=</span> <span class="pre">4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">r_in</span> <span class="pre">*</span> <span class="pre">r_out</span> <span class="pre">*</span> <span class="pre">epsilon</span> <span class="pre">/</span> <span class="pre">(-r_in</span> <span class="pre">+</span> <span class="pre">r_out)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[C = \frac{4 \pi \varepsilon r_\text{in} r_\text{out}}{- r_\text{in} + r_\text{out}}\]</div>
+\[C = \frac{4 \pi r_\text{in} r_\text{out} \varepsilon}{- r_\text{in} + r_\text{out}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -188,7 +188,8 @@ filled with a dielectric medium. See <a class="reference external" href="http://
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>

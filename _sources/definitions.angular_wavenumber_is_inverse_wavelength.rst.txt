@@ -7,7 +7,7 @@ Angular wavenumber is inverse wavelength
 
 .. py:data:: angular_wavenumber
 
-    Angular wavenumber of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of the wave.
 
     Symbol:
         :code:`k`
@@ -20,7 +20,7 @@ Angular wavenumber is inverse wavelength
 
 .. py:data:: wavelength
 
-    Wavelength of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the wave.
 
     Symbol:
         :code:`lambda`

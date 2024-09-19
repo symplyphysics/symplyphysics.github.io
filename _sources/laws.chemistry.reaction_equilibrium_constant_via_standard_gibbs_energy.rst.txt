@@ -7,7 +7,7 @@ concentrations or fugitives) of reactants and products in a state of chemical eq
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 **Conditions:**
 

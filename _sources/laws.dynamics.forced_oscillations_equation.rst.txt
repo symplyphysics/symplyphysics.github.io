@@ -43,7 +43,7 @@ frequency of the oscillator.
 
 .. py:data:: driving_force_amplitude
 
-    The amplitude of the driving :attr:`~symplyphysics.symbols.dynamics.force`.
+    The amplitude of the driving :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`F`

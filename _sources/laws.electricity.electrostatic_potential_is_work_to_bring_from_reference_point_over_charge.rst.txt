@@ -16,30 +16,50 @@ the potential approach zero at an infinitely remote point.
 
 .. py:data:: electrostatic_potential
 
-    Electrostatic potential of a point in an electric field.
+    Electrostatic potential of a point in an electric field. See :attr:`~symplyphysics.symbols.electrodynamics.electric_potential`.
 
     Symbol:
-        :code:`V`
+        :code:`U_E`
+
+    Latex:
+        :math:`U_\mathbf{E}`
+
+    Dimension:
+        :code:`voltage`
 
 .. py:data:: work
 
-    Work needed to bring the charge from the reference point.
+    :attr:`~symplyphysics.symbols.basic.work` needed to bring the charge from the reference point.
 
     Symbol:
-        :code:`A`
+        :code:`W`
+
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: charge
 
-    Value of the electric charge.
+    Value of the electric :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
 .. py:data:: law
 
-    :code:`V = A / q`
+    :code:`U_E = W / q`
+
 
     Latex:
         .. math::
-            V = \frac{A}{q}
+            U_\mathbf{E} = \frac{W}{q}
+
 

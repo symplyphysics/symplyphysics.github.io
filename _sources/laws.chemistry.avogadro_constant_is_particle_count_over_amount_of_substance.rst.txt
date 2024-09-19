@@ -6,7 +6,7 @@ and amount of substance.
 
 **Notation:**
 
-#. :math:`N_\text{A}` (:code:`N_A`) is the Avogadro constant.
+#. :math:`N_\text{A}` (:code:`N_A`) is :attr:`~symplyphysics.quantities.avogadro_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance
 

@@ -8,14 +8,20 @@ to the distance to the point charge. Also see :doc:`laws.electricity.electrostat
 
 .. py:data:: electrostatic_potential
 
-    Electrostatic potential at given point.
+    Electrostatic potential at given point. See :attr:`~symplyphysics.symbols.electrodynamics.electric_potential`.
 
     Symbol:
-        :code:`V`
+        :code:`U_E`
+
+    Latex:
+        :math:`U_\mathbf{E}`
+
+    Dimension:
+        :code:`voltage`
 
 .. py:data:: absolute_permittivity
 
-    Absolute permittivity of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity` of the medium.
 
     Symbol:
         :code:`epsilon`
@@ -23,25 +29,42 @@ to the distance to the point charge. Also see :doc:`laws.electricity.electrostat
     Latex:
         :math:`\varepsilon`
 
+    Dimension:
+        :code:`capacitance/length`
+
 .. py:data:: distance
 
-    Distance to the point charge.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance` to the point charge.
 
     Symbol:
-        :code:`r`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: charge
 
-    Electric charge.
+    Electric :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
 .. py:data:: law
 
-    :code:`V = q / (4 * pi * epsilon * r)`
+    :code:`U_E = q / (4 * pi * d * epsilon)`
+
 
     Latex:
         .. math::
-            V = \frac{q}{4 \pi \varepsilon r}
+            U_\mathbf{E} = \frac{q}{4 \pi d \varepsilon}
+
 

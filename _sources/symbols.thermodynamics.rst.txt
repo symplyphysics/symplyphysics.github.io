@@ -1,15 +1,14 @@
-Symbols (Thermodynamics)
-========================
+Thermodynamics (Symbols)
+------------------------
 
-Contains properties for 'thermodynamics' branch of physics
-
-Thermodynamics is a branch of physics that deals with heat, work, and temperature, and their relation to energy, entropy, and the physical properties of matter and radiation.
+Symbols related to thermodynamics.
 
 .. py:currentmodule:: symplyphysics.symbols.thermodynamics
 
 .. py:data:: temperature
 
-    Temperature reflects the average kinetic energy of the vibrating and colliding atoms making up a substance.
+    Temperature is a scalar quantity that quantitatively expresses the attribute of hotness and coldness. It reflects
+    the average kinetic energy of the vibrating and colliding atoms making up a substance.
 
     Symbol:
         :code:`T`
@@ -19,4 +18,46 @@ Thermodynamics is a branch of physics that deals with heat, work, and temperatur
 
     Dimension:
         :code:`temperature`
+
+.. py:data:: adiabatic_index
+
+    **Adiabatic index**, or **heat capacity ratio**, is the ratio of heat capacity at constant pressure to that
+    at constant volume.
+
+    Symbol:
+        :code:`gamma`
+
+    Latex:
+        :math:`\gamma`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: heat_capacity
+
+    **Heat capacity** or **thermal capacity** is a physical property of matter, defined as the amount of heat to be
+    supplied to an object to produce a unit change in its temperature.
+
+    Symbol:
+        :code:`C`
+
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`energy/temperature`
+
+.. py:data:: thermal_expansion_coefficient
+
+    **Thermal expansion coefficient** describes how the size of an object changes with a change in temperature at
+    constant pressure.
+
+    Symbol:
+        :code:`alpha`
+
+    Latex:
+        :math:`\alpha`
+
+    Dimension:
+        :code:`1/temperature`
 

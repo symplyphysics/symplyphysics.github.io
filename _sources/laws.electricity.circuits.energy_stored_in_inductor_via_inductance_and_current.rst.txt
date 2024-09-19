@@ -8,30 +8,50 @@ through it.
 
 .. py:data:: energy
 
-    Energy stored in the magnetic field.
+    :attr:`~symplyphysics.symbols.basic.energy` stored in the magnetic field.
 
     Symbol:
         :code:`W`
 
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: inductance
 
-    Inductance of the inductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the inductor.
 
     Symbol:
         :code:`L`
 
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
 .. py:data:: current
 
-    Current flowing through the inductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the inductor.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
 .. py:data:: law
 
-    :code:`W = 1/2 * L * I^2`
+    :code:`W = I^2 * L / 2`
+
 
     Latex:
         .. math::
-            W = \frac{1}{2} L I^2
+            W = \frac{I^{2} L}{2}
+
 

@@ -9,14 +9,20 @@ capacitor is infinite, i.e. it is considered to be an opened connection.
 
 .. py:data:: impedance
 
-    Impedance of the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the capacitor.
 
     Symbol:
         :code:`Z`
 
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: angular_frequency
 
-    Angular frequency of the alternating current.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the alternating current.
 
     Symbol:
         :code:`w`
@@ -24,18 +30,29 @@ capacitor is infinite, i.e. it is considered to be an opened connection.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: capacitance
 
-    Capacitance of the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
     Symbol:
         :code:`C`
 
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
+
 .. py:data:: law
 
-    :code:`Z = -i / (w * C)`
+    :code:`Z = -I / (w * C)`
+
 
     Latex:
         .. math::
-            Z = -\frac{i}{\omega C}
+            Z = - \frac{i}{\omega C}
+
 

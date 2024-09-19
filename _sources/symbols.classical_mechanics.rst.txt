@@ -1,0 +1,231 @@
+Classical mechanics (Symbols)
+-----------------------------
+
+Symbols related to classical mechanics.
+
+.. py:currentmodule:: symplyphysics.symbols.classical_mechanics
+
+.. py:data:: force
+
+    **Force** is a vector quantity denoting an influence that can cause an object to change its velocity
+    unless counterbalanced by other forces.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
+.. py:data:: speed
+
+    **Speed** is the rate of change of the object's position with respect to time. It is the scalar counterpart
+    of the velocity vector, which is the rate of change of the object's displacement with respect to time.
+
+    Symbol:
+        :code:`v`
+
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: acceleration
+
+    **Acceleration** is the rate of change of the object's velocity with respect to time. It is a vector quantity.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: distance
+
+    **Distance** is is a measure of the spatial separation between two points.
+
+    Symbol:
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: distance_to_origin
+
+    Distance to the origin of the coordinate system.
+
+    Symbol:
+        :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: distance_to_axis
+
+    Distance to reference axis.
+
+    Symbol:
+        :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: length
+
+    **Length** is a measure of a size of an object.
+
+    Symbol:
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: area
+
+    **Area** is the size of a region on a two-dimensional surface.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: angular_speed
+
+    **Angular speed** is the rate of change of angular distance with respect to time.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: angular_frequency
+
+    **Angular frequency**, also called **angular rate**, is a scalar measure of the temporal
+    rate of change of the phase argument of a sinusoidal waveform or sine function.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: angular_acceleration
+
+    **Angular acceleration** is the rate of change of angular speed with respect to time.
+
+    Symbol:
+        :code:`alpha`
+
+    Latex:
+        :math:`\alpha`
+
+    Dimension:
+        :code:`angle/time**2`
+
+.. py:data:: angular_distance
+
+    **Angular distance** is a measure of an angular separation between two points.
+
+    Symbol:
+        :code:`theta`
+
+    Latex:
+        :math:`\theta`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: angular_wavenumber
+
+    **Angular wavenumber** is the spatial analog of temporal frequency equal to radians per unit length.
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`angle/length`
+
+.. py:data:: wavelength
+
+    **Wavelength** or **spatial period** is the distance over which the wave's shape repeats.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: damping_ratio
+
+    **Damping ratio** is a dimensionless measure describing how oscillations in a system decay after a disturbance.
+
+    Symbol:
+        :code:`zeta`
+
+    Latex:
+        :math:`\zeta`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: volume
+
+    Volume is a measure of regions in three-dimensional space.
+
+    Symbol:
+        :code:`V`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
+.. py:data:: impulse
+
+    **Impulse** is the change in momentum of an object.
+
+    Symbol:
+        :code:`J`
+
+    Latex:
+        :math:`J`
+
+    Dimension:
+        :code:`momentum`
+

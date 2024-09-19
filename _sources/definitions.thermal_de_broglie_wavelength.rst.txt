@@ -9,8 +9,8 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.
 
 **Notation:**
 
-#. :math:`\hbar` (:code:`hbar`) is the reduced Planck constant.
-#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 .. py:currentmodule:: symplyphysics.definitions.thermal_de_broglie_wavelength
 

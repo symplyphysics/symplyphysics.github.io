@@ -50,6 +50,10 @@ of the resistances of individual components.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R</span></code></p>
 </dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
@@ -58,9 +62,11 @@ of the resistances of individual components.</p>
 <span class="sig-name descname"><span class="pre">resistance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resistance_in_serial_connection.resistance" title="Link to this definition">¶</a></dt>
 <dd><p>Resistance of the <span class="math notranslate nohighlight">\(i\)</span>-th component.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R_i</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R[i]</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_i\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -68,10 +74,10 @@ of the resistances of individual components.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resistance_in_serial_connection.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resistance_in_serial_connection.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">R</span> <span class="pre">=</span> <span class="pre">Sum(R_i,</span> <span class="pre">i)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">R</span> <span class="pre">=</span> <span class="pre">Sum(R[i],</span> <span class="pre">i)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[R = \sum_i R_i\]</div>
+\[R = \sum_i R_{i}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -154,7 +160,8 @@ of the resistances of individual components.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>

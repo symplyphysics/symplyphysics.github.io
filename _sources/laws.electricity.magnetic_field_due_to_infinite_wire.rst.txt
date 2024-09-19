@@ -6,7 +6,7 @@ current through it and the radial distance to the wire.
 
 **Notation:**
 
-#. :math:`\mu_0` (:code:`mu_0`) is vacuum permeability.
+#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
 
 **Conditions:**
 
@@ -16,30 +16,50 @@ current through it and the radial distance to the wire.
 
 .. py:data:: magnetic_flux_density
 
-    Magnitude of magnetic flux density.
+    Magnitude of :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
 
     Symbol:
         :code:`B`
 
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`magnetic_density`
+
 .. py:data:: current
 
-    Current flowing through the wire.
+    :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the wire.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
 .. py:data:: radial_distance
 
-    Radial distance to wire.
+    Radial distance to wire. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_axis`.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`B = mu_0 * I / (2 * pi * r)`
 
+
     Latex:
         .. math::
-            B = \frac{\mu_0 I}{2 \pi r}
+            B = \frac{I \mu_0}{2 \pi r}
+
 

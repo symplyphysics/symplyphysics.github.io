@@ -9,7 +9,7 @@ directions.
 
 .. py:data:: action_force
 
-    The projection of the :attr:`~symplyphysics.symbols.dynamics.force` that the first body exerts on the second body.
+    The projection of the :attr:`~symplyphysics.symbols.classical_mechanics.force` that the first body exerts on the second body.
 
     Symbol:
         :code:`F_12`
@@ -22,7 +22,7 @@ directions.
 
 .. py:data:: reaction_force
 
-    The projection of the :attr:`~symplyphysics.symbols.dynamics.force` that the second body exerts on the first body.
+    The projection of the :attr:`~symplyphysics.symbols.classical_mechanics.force` that the second body exerts on the first body.
 
     Symbol:
         :code:`F_21`

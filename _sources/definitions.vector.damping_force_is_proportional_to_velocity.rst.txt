@@ -33,7 +33,7 @@ of an oscillator.
 
         Dimension: *velocity*
 
-    :return: vector of damping :attr:`~symplyphysics.symbols.dynamics.force`.
+    :return: vector of damping :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
         Symbol: :code:`F`
 
@@ -52,7 +52,7 @@ of an oscillator.
         .. math::
             \vec v = - \frac{\vec F}{b}
 
-    :param damping_force\_: damping :attr:`~symplyphysics.symbols.dynamics.force` exerted on the object.
+    :param damping_force\_: damping :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object.
 
         Symbol: :code:`F`
 

@@ -228,7 +228,7 @@
 
 <span class="c1"># Symbol and Function have generated names, hence their display is not readable.</span>
 <span class="c1"># Use custom implementation of the PrettyPrinter to convert real symbol names</span>
-<span class="c1"># to user fiendly names.</span>
+<span class="c1"># to user friendly names.</span>
 
 
 <span class="k">class</span> <span class="nc">SymbolPrinter</span><span class="p">(</span><span class="n">PrettyPrinter</span><span class="p">):</span>
@@ -285,24 +285,60 @@
         <span class="n">pretty_use_unicode</span><span class="p">(</span><span class="n">uflag</span><span class="p">)</span>
 
 
-<span class="k">def</span> <span class="nf">clone_symbol</span><span class="p">(</span><span class="n">source</span><span class="p">:</span> <span class="n">SymbolNew</span><span class="p">,</span>
+<span class="k">def</span> <span class="nf">clone_as_symbol</span><span class="p">(</span><span class="n">source</span><span class="p">:</span> <span class="n">SymbolNew</span> <span class="o">|</span> <span class="n">SymbolIndexedNew</span><span class="p">,</span>
     <span class="o">*</span><span class="p">,</span>
     <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">SymbolNew</span><span class="p">:</span>
-    <span class="n">assumptions</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span> <span class="k">if</span> <span class="n">assumptions</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">or</span> <span class="nb">len</span><span class="p">(</span>
-        <span class="n">assumptions</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="k">else</span> <span class="n">assumptions</span>
-    <span class="n">display_symbol_new</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span> <span class="k">if</span> <span class="n">display_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="n">display_symbol</span>
-    <span class="n">display_latex_new</span> <span class="o">=</span> <span class="n">display_latex</span>
-    <span class="k">if</span> <span class="n">display_latex_new</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">display_latex_new</span> <span class="o">=</span> <span class="n">display_symbol</span>
-    <span class="k">if</span> <span class="n">display_latex_new</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="n">display_latex_new</span> <span class="o">=</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
-    <span class="k">return</span> <span class="n">SymbolNew</span><span class="p">(</span><span class="n">display_symbol_new</span><span class="p">,</span> <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex_new</span><span class="p">,</span> <span class="o">**</span><span class="n">assumptions</span><span class="p">)</span>
+    <span class="n">assumptions</span> <span class="o">=</span> <span class="n">assumptions</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span>
+    <span class="n">display_symbol</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span>
+    <span class="n">display_latex</span> <span class="o">=</span> <span class="n">display_latex</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
+    <span class="k">return</span> <span class="n">SymbolNew</span><span class="p">(</span>
+        <span class="n">display_symbol</span><span class="p">,</span>
+        <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">assumptions</span><span class="p">,</span>
+    <span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">clone_as_function</span><span class="p">(</span>
+    <span class="n">source</span><span class="p">:</span> <span class="n">SymbolNew</span> <span class="o">|</span> <span class="n">SymbolIndexedNew</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">FunctionNew</span><span class="p">:</span>
+    <span class="n">assumptions</span> <span class="o">=</span> <span class="n">assumptions</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span>
+    <span class="n">display_symbol</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span>
+    <span class="n">display_latex</span> <span class="o">=</span> <span class="n">display_latex</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
+    <span class="k">return</span> <span class="n">FunctionNew</span><span class="p">(</span>
+        <span class="n">display_symbol</span><span class="p">,</span>
+        <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">assumptions</span><span class="p">,</span>
+    <span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">clone_as_indexed</span><span class="p">(</span>
+    <span class="n">source</span><span class="p">:</span> <span class="n">SymbolNew</span> <span class="o">|</span> <span class="n">SymbolIndexedNew</span><span class="p">,</span>
+    <span class="o">*</span><span class="p">,</span>
+    <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">SymbolIndexedNew</span><span class="p">:</span>
+    <span class="n">assumptions</span> <span class="o">=</span> <span class="n">assumptions</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span>
+    <span class="n">display_symbol</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span>
+    <span class="n">display_latex</span> <span class="o">=</span> <span class="n">display_latex</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
+    <span class="k">return</span> <span class="n">SymbolIndexedNew</span><span class="p">(</span>
+        <span class="n">display_symbol</span><span class="p">,</span>
+        <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span>
+        <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">assumptions</span><span class="p">,</span>
+    <span class="p">)</span>
 
 
 <span class="c1"># This is default index for indexed parameters, eg for using in SumIndexed</span>
-<span class="n">global_index</span> <span class="o">=</span> <span class="n">Idx</span><span class="p">(</span><span class="s2">&quot;global_index&quot;</span><span class="p">)</span>
+<span class="n">global_index</span> <span class="o">=</span> <span class="n">Idx</span><span class="p">(</span><span class="s2">&quot;i&quot;</span><span class="p">)</span>
 </pre></div>
 
           </div>

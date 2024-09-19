@@ -7,7 +7,7 @@ Acceleration is speed derivative
 
 .. py:data:: acceleration
 
-    :attr:`~symplyphysics.symbols.kinematics.acceleration` of the body as a function of time.
+    :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the body as a function of time.
 
     Symbol:
         :code:`a(t)`
@@ -20,7 +20,7 @@ Acceleration is speed derivative
 
 .. py:data:: speed
 
-    Speed of the body as a function of time.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body as a function of time.
 
     Symbol:
         :code:`v(t)`
@@ -33,7 +33,7 @@ Acceleration is speed derivative
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`

@@ -7,13 +7,13 @@ square of the distance between them.
 
 **Notation:**
 
-#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance
 
 .. py:data:: electrostatic_force
 
-    Electrostatic :attr:`~symplyphysics.symbols.dynamics.force` between two charges.
+    Electrostatic :attr:`~symplyphysics.symbols.classical_mechanics.force` between two charges.
 
     Symbol:
         :code:`F`
@@ -26,36 +26,50 @@ square of the distance between them.
 
 .. py:data:: first_charge
 
-    First charge.
+    First :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
-        :code:`q1`
+        :code:`q_1`
 
     Latex:
         :math:`q_1`
 
+    Dimension:
+        :code:`charge`
+
 .. py:data:: second_charge
 
-    Second charge.
+    Second :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
-        :code:`q2`
+        :code:`q_2`
 
     Latex:
         :math:`q_2`
 
+    Dimension:
+        :code:`charge`
+
 .. py:data:: distance
 
-    Distance between the charges.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the charges.
 
     Symbol:
-        :code:`r`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`F = 1 / (4 * pi * epsilon_0) * q1 * q2 / r^2`
+    :code:`F = q_1 * q_2 / (4 * pi * epsilon_0 * d^2)`
+
 
     Latex:
         .. math::
-            F = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2}
+            F = \frac{q_{1} q_{2}}{4 \pi d^{2} \varepsilon_0}
+
 

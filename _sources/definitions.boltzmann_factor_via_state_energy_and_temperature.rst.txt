@@ -6,7 +6,7 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 
 **Notation:**
 
-#. :math:`\exp` is the exponential function.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 .. py:currentmodule:: symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature
 
@@ -25,7 +25,7 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 
 .. py:data:: energy_of_state
 
-    Energy of state :math:`i`.
+    :attr:`~symplyphysics.symbols.basic.energy` of state :math:`i`.
 
     Symbol:
         :code:`E[i]`
@@ -49,19 +49,6 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
     Dimension:
         :code:`temperature`
 
-.. py:data:: boltzmann_constant
-
-    :attr:`~symplyphysics.quantities.boltzmann_constant`
-
-    Symbol:
-        :code:`k_B`
-
-    Latex:
-        :math:`k_\text{B}`
-
-    Dimension:
-        :code:`energy/temperature`
-
 .. py:data:: definition
 
     :code:`f = exp(-E[i] / (k_B * T))`
@@ -69,6 +56,6 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 
     Latex:
         .. math::
-            f = exp{\left(- \frac{E_{i}}{T k_\text{B}} \right)}
+            f = \exp{\left(- \frac{E_{i}}{T k_\text{B}} \right)}
 
 

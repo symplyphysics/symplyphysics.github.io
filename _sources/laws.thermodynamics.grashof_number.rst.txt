@@ -7,7 +7,7 @@ and is analogous to the Reynolds number.
 
 **Notation:**
 
-#. :math:`g` is the acceleration due to gravity.
+#. :math:`g` (:code:`g`) is :attr:`~symplyphysics.quantities.acceleration_due_to_gravity`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.grashof_number
 

@@ -9,8 +9,8 @@ known as the *ultraviolet catastrophe*.
 
 **Notation:**
 
-#. :math:`c` is the speed of light.
-#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Conditions:**
 

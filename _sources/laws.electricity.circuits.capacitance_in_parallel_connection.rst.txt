@@ -12,7 +12,7 @@ capacitances of individual capacitors.
 
 .. py:data:: total_capacitance
 
-    Total capacitance.
+    Total :attr:`~symplyphysics.symbols.electrodynamics.capacitance`.
 
     Symbol:
         :code:`C`
@@ -25,10 +25,10 @@ capacitances of individual capacitors.
 
 .. py:data:: capacitance
 
-    Capacitance of :math:`i`-th capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of :math:`i`-th capacitor.
 
     Symbol:
-        :code:`C_i`
+        :code:`C[i]`
 
     Latex:
         :math:`C_i`
@@ -38,11 +38,11 @@ capacitances of individual capacitors.
 
 .. py:data:: law
 
-    :code:`C = Sum(C_i, i)`
+    :code:`C = Sum(C[i], i)`
 
 
     Latex:
         .. math::
-            C = \sum_i {C_{i}}
+            C = \sum_i C_{i}
 
 

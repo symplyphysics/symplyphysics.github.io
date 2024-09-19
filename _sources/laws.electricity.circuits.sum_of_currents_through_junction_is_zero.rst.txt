@@ -18,16 +18,21 @@ known as the **first Kirchhoff's law**, or the **Kirchhoff's junction rule**.
     :math:`k`-th current flowing through the node.
 
     Symbol:
-        :code:`I_k`
+        :code:`I[k]`
 
     Latex:
         :math:`I_k`
 
+    Dimension:
+        :code:`current`
+
 .. py:data:: law
 
-    :code:`Sum(I_k, k) = 0`
+    :code:`Sum(I[k], k) = 0`
+
 
     Latex:
         .. math::
-            \sum_k I_k = 0
+            \sum_k I_{k} = 0
+
 

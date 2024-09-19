@@ -24,7 +24,7 @@ Displacement is not only limited to physical motion, but should be interpreted i
 
 .. py:data:: angular_frequency
 
-    Angular frequency of the oscillator.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
         :code:`w`
@@ -33,11 +33,11 @@ Displacement is not only limited to physical motion, but should be interpreted i
         :math:`\omega`
 
     Dimension:
-        :code:`frequency`
+        :code:`angle/time`
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`

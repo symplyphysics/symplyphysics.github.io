@@ -15,7 +15,7 @@ per unit area over which the force is distributed.
 
 .. py:data:: force
 
-    :attr:`~symplyphysics.symbols.dynamics.force` applied.
+    :attr:`~symplyphysics.symbols.classical_mechanics.force` applied.
 
     Symbol:
         :code:`F`

@@ -9,7 +9,7 @@ the charge accumulated in the object and inversely proportional to the voltage a
 
 .. py:data:: capacitance
 
-    Capacitance of the object.
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the object.
 
     Symbol:
         :code:`C`
@@ -22,7 +22,7 @@ the charge accumulated in the object and inversely proportional to the voltage a
 
 .. py:data:: charge
 
-    Charge accumulated in the object.
+    :attr:`~symplyphysics.symbols.electrodynamics.charge` accumulated in the object.
 
     Symbol:
         :code:`q`
@@ -35,7 +35,7 @@ the charge accumulated in the object and inversely proportional to the voltage a
 
 .. py:data:: voltage
 
-    Voltage across the object.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` across the object.
 
     Symbol:
         :code:`V`

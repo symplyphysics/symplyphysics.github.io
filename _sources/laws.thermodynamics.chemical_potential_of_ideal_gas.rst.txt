@@ -6,7 +6,7 @@ and thermal wavelength.
 
 **Notation:**
 
-#. :math:`k_\text{B}` is the Boltzmann constant.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Conditions:**
 

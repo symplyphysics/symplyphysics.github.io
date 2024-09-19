@@ -8,7 +8,7 @@ per unit area at which energy is transferred by the wave through or onto the sur
 
 .. py:data:: intensity
 
-    Intensity of the sound wave.
+    :attr:`~symplyphysics.symbols.basic.intensity` of the sound wave.
 
     Symbol:
         :code:`I`
@@ -21,7 +21,7 @@ per unit area at which energy is transferred by the wave through or onto the sur
 
 .. py:data:: power
 
-    Power, or rate of energy transfer, of the wave.
+    :attr:`~symplyphysics.symbols.basic.power`, or rate of energy transfer, of the wave.
 
     Symbol:
         :code:`P`
@@ -34,7 +34,7 @@ per unit area at which energy is transferred by the wave through or onto the sur
 
 .. py:data:: area
 
-    Surface area.
+    Surface :attr:`~symplyphysics.symbols.classical_mechanics.area`.
 
     Symbol:
         :code:`A`

@@ -8,7 +8,7 @@ defined as the time derivative of the flowing charge.
 
 .. py:data:: current
 
-    Electric current as a function of time.
+    Electric :attr:`~symplyphysics.symbols.electrodynamics.current` as a function of time.
 
     Symbol:
         :code:`I(t)`
@@ -21,7 +21,7 @@ defined as the time derivative of the flowing charge.
 
 .. py:data:: charge
 
-    Electric charge as a function of time.
+    Electric :attr:`~symplyphysics.symbols.electrodynamics.charge` as a function of time.
 
     Symbol:
         :code:`q(t)`

@@ -8,14 +8,21 @@ on the strength of the electric field at that point.
 
 .. py:data:: energy_density
 
-    Volumetric energy density of the electric field, see :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`.
+    Volumetric :attr:`~symplyphysics.symbols.basic.energy_density` of the electric field, see
+    :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`.
 
     Symbol:
         :code:`w`
 
+    Latex:
+        :math:`w`
+
+    Dimension:
+        :code:`energy/volume`
+
 .. py:data:: absolute_permittivity
 
-    Absolute permittivity of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity` of the medium.
 
     Symbol:
         :code:`epsilon`
@@ -23,18 +30,29 @@ on the strength of the electric field at that point.
     Latex:
         :math:`\varepsilon`
 
+    Dimension:
+        :code:`capacitance/length`
+
 .. py:data:: electric_field_strength
 
-    Strength of the electric field.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`voltage/length`
+
 .. py:data:: law
 
-    :code:`w = 1/2 * epsilon * E^2`
+    :code:`w = E^2 * epsilon / 2`
+
 
     Latex:
         .. math::
-            w = \frac{1}{2} \varepsilon E^2
+            w = \frac{E^{2} \varepsilon}{2}
+
 

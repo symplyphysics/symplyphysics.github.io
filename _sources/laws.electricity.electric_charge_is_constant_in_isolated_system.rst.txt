@@ -8,29 +8,37 @@ at all times.
 
 .. py:data:: initial_charge
 
-    Initial charge of the system.
+    Initial :attr:`~symplyphysics.symbols.electrodynamics.charge` of the system.
 
     Symbol:
-        :code:`q0`
+        :code:`q_0`
 
     Latex:
         :math:`q_0`
 
+    Dimension:
+        :code:`charge`
+
 .. py:data:: final_charge
 
-    Final charge of the system.
+    Final :attr:`~symplyphysics.symbols.electrodynamics.charge` of the system.
 
     Symbol:
-        :code:`q1`
+        :code:`q_1`
 
     Latex:
         :math:`q_1`
 
+    Dimension:
+        :code:`charge`
+
 .. py:data:: law
 
-    :code:`q0 = q1`
+    :code:`q_1 = q_0`
+
 
     Latex:
         .. math::
-            q_0 = q_1
+            q_{1} = q_{0}
+
 

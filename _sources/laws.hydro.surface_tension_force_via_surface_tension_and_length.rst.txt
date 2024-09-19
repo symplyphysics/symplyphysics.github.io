@@ -9,7 +9,7 @@ Also see `figure <https://www.researchgate.net/publication/312093145/figure/fig7
 
 .. py:data:: surface_tension_force
 
-    Surface tension :attr:`~symplyphysics.symbols.dynamics.force`.
+    Surface tension :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`F`

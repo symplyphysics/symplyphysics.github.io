@@ -5,7 +5,7 @@ The p-n junction has a potential barrier preventing the movement of charge carri
 
 **Notation:**
 
-#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Conditions:**
 

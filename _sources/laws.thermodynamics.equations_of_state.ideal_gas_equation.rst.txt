@@ -6,7 +6,7 @@ describe a hypothetical ideal gas.
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.ideal_gas_equation
 

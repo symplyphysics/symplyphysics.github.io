@@ -30,6 +30,7 @@ Contents:
   laws.electricity.electric_flux_through_closed_surface_via_total_charge
   laws.electricity.electromotive_force_induced_in_moving_contour
   laws.electricity.electromotive_force_induced_in_rotating_rod
+  laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil
   laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil
   laws.electricity.electrostatic_force_via_charges_and_distance
   laws.electricity.electrostatic_potential_due_to_point_charge

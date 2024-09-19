@@ -10,30 +10,50 @@ resonant frequency.
 
 .. py:data:: period
 
-    Natural period of oscillations.
+    Natural :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
     Symbol:
         :code:`T`
 
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: inductance
 
-    Inductance of the inductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the inductor.
 
     Symbol:
         :code:`L`
 
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
 .. py:data:: capacitance
 
-    Capacitance of the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
     Symbol:
         :code:`C`
 
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
+
 .. py:data:: law
 
-    :code:`T = 2 * pi * sqrt(L * C)`
+    :code:`T = 2 * pi * sqrt(C * L)`
+
 
     Latex:
         .. math::
-            T = 2 \pi \sqrt{L C}
+            T = 2 \pi \sqrt{C L}
+
 

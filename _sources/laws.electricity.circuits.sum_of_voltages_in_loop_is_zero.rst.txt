@@ -12,15 +12,21 @@ This law is also known as **Kirchhoff's second law**, or **Kirchhoff's loop rule
     :math:`i`-th voltage.
 
     Symbol:
-        :code:`V_i`
+        :code:`V[i]`
 
     Latex:
         :math:`V_i`
 
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: law
 
-    :code:`Sum(V_i, i) = 0`
+    :code:`Sum(V[i], i) = 0`
+
 
     Latex:
-        :math:`\sum_i V_i = 0`
+        .. math::
+            \sum_i V_{i} = 0
+
 

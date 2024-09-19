@@ -13,14 +13,14 @@ object.
 
 .. py:data:: work
 
-    The work done by :attr:`~symplyphysics.symbols.dynamics.force` :math:`F`.
+    The work done by :attr:`~symplyphysics.symbols.classical_mechanics.force` :math:`F`.
 
     Symbol:
         :code:`W`
 
 .. py:data:: force
 
-    The :attr:`~symplyphysics.symbols.dynamics.force` exerted on the object as a function of position.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object as a function of position.
 
     Symbol:
         :code:`F(x)`

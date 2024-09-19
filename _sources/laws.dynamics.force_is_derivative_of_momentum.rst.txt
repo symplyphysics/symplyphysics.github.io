@@ -19,7 +19,7 @@ the net force exerted on a body is equal to the time derivative of the body's mo
 
 .. py:data:: force
 
-    The magnitude of the net :attr:`~symplyphysics.symbols.dynamics.force` exerted on the body.
+    The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
 
     Symbol:
         :code:`F(t)`

@@ -9,20 +9,26 @@ reaches the voltage of the source.
 
 **Conditions:**
 
-#. The circuit is a DC one.
+#. Applies to direct current circuits.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit
 
 .. py:data:: capacitor_voltage
 
-    Voltage across the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` across the capacitor.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: source_voltage
 
-    Voltage of the source, which is the initial voltage across the resistor.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` of the source, which is the initial voltage across the resistor.
 
     Symbol:
         :code:`V_0`
@@ -30,16 +36,26 @@ reaches the voltage of the source.
     Latex:
         :math:`V_0`
 
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: time_constant
 
     :doc:`Time constant <laws.electricity.circuits.time_constant_of_resistor_capacitor_circuit>` of the circuit.
+    See :attr:`~symplyphysics.symbols.electrodynamics.electric_time_constant`.
 
     Symbol:
         :code:`tau`
@@ -47,11 +63,16 @@ reaches the voltage of the source.
     Latex:
         :math:`\tau`
 
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`V = V_0 * (1 - exp(-1 * t / tau))`
+    :code:`V = (1 - exp(-t / tau)) * V_0`
+
 
     Latex:
         .. math::
-            V = V_0 \left( 1 - \exp \left( - \frac{t}{\tau} \right) \right)
+            V = V_{0} \left(1 - \exp{\left(- \frac{t}{\tau} \right)}\right)
+
 

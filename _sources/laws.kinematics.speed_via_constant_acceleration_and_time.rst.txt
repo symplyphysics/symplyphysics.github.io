@@ -26,7 +26,7 @@ of time.
 
 .. py:data:: acceleration
 
-    Constant :attr:`~symplyphysics.symbols.kinematics.acceleration`.
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.acceleration`.
 
     Symbol:
         :code:`a`

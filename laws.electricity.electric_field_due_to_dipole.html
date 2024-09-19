@@ -42,7 +42,7 @@ which runs through both point charges comprising the dipole, is proportional to 
 cube of the distance to the dipole and the value of the electric dipole moment.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\varepsilon_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">epsilon_0</span></code>) is vacuum permittivity.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\varepsilon_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">epsilon_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permittivity" title="symplyphysics.quantities.vacuum_permittivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permittivity</span></code></a>.</p></li>
 </ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
@@ -53,9 +53,13 @@ from the dipole itself.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_dipole.electric_field_strength">
 <span class="sig-name descname"><span class="pre">electric_field_strength</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_dipole.electric_field_strength" title="Link to this definition">¶</a></dt>
-<dd><p>Electric field strength due to dipole.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_field_strength" title="symplyphysics.symbols.electrodynamics.electric_field_strength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_field_strength</span></code></a> due to dipole.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">voltage/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -63,9 +67,14 @@ from the dipole itself.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_dipole.electric_dipole_moment">
 <span class="sig-name descname"><span class="pre">electric_dipole_moment</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_dipole.electric_dipole_moment" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="laws.electricity.electric_dipole_moment_is_charge_times_distance.html"><span class="doc">Electric dipole moment is charge times distance</span></a>.</p>
+<dd><p>See <a class="reference internal" href="laws.electricity.electric_dipole_moment_is_charge_times_distance.html"><span class="doc">Electric dipole moment is charge times distance</span></a> and
+<a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_dipole_moment" title="symplyphysics.symbols.electrodynamics.electric_dipole_moment"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_dipole_moment</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge*length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -73,9 +82,13 @@ from the dipole itself.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_dipole.distance">
 <span class="sig-name descname"><span class="pre">distance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_dipole.distance" title="Link to this definition">¶</a></dt>
-<dd><p>Distance to dipole.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a> to dipole.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -83,10 +96,10 @@ from the dipole itself.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_dipole.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_dipole.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon_0)</span> <span class="pre">*</span> <span class="pre">p</span> <span class="pre">/</span> <span class="pre">r^3</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">p</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon_0</span> <span class="pre">*</span> <span class="pre">d^3)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[E = \frac{1}{2 \pi \varepsilon_0} \frac{p}{r^3}\]</div>
+\[E = \frac{p}{2 \pi d^{3} \varepsilon_0}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -151,7 +164,8 @@ from the dipole itself.</p></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>

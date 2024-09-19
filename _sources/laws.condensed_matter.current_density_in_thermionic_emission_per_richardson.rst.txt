@@ -7,7 +7,7 @@ the material. This formula for emission current density was proposed by Owen Wil
 
 **Notation:**
 
-#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson
 

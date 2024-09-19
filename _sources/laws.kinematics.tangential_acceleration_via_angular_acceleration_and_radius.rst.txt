@@ -12,7 +12,7 @@ of the velocity vector, and its vector is tangent to the path of the body.
 
 .. py:data:: tangential_acceleration
 
-    Tangential :attr:`~symplyphysics.symbols.kinematics.acceleration`.
+    Tangential :attr:`~symplyphysics.symbols.classical_mechanics.acceleration`.
 
     Symbol:
         :code:`a_t`

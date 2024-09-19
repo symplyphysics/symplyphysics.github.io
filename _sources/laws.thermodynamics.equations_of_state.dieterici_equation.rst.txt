@@ -6,7 +6,7 @@ along with the more well-known van der Waals equation of state.
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 **Notes:**
 

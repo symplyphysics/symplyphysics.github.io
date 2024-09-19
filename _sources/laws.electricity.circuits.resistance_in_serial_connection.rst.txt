@@ -17,21 +17,32 @@ of the resistances of individual components.
     Symbol:
         :code:`R`
 
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: resistance
 
     Resistance of the :math:`i`-th component.
 
     Symbol:
-        :code:`R_i`
+        :code:`R[i]`
 
     Latex:
         :math:`R_i`
 
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: law
 
-    :code:`R = Sum(R_i, i)`
+    :code:`R = Sum(R[i], i)`
+
 
     Latex:
         .. math::
-            R = \sum_i R_i
+            R = \sum_i R_{i}
+
 

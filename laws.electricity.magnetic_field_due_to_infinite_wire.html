@@ -41,7 +41,7 @@
 current through it and the radial distance to the wire.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\mu_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">mu_0</span></code>) is vacuum permeability.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mu_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">mu_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permeability" title="symplyphysics.quantities.vacuum_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permeability</span></code></a>.</p></li>
 </ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
@@ -50,9 +50,13 @@ current through it and the radial distance to the wire.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.magnetic_flux_density">
 <span class="sig-name descname"><span class="pre">magnetic_flux_density</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.magnetic_flux_density" title="Link to this definition">¶</a></dt>
-<dd><p>Magnitude of magnetic flux density.</p>
+<dd><p>Magnitude of <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.magnetic_flux_density" title="symplyphysics.symbols.electrodynamics.magnetic_flux_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">magnetic_flux_density</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_density</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -60,9 +64,13 @@ current through it and the radial distance to the wire.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.current">
 <span class="sig-name descname"><span class="pre">current</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.current" title="Link to this definition">¶</a></dt>
-<dd><p>Current flowing through the wire.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current" title="symplyphysics.symbols.electrodynamics.current"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current</span></code></a> flowing through the wire.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">I</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(I\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">current</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -70,9 +78,13 @@ current through it and the radial distance to the wire.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.radial_distance">
 <span class="sig-name descname"><span class="pre">radial_distance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.radial_distance" title="Link to this definition">¶</a></dt>
-<dd><p>Radial distance to wire.</p>
+<dd><p>Radial distance to wire. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_axis" title="symplyphysics.symbols.classical_mechanics.distance_to_axis"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_axis</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -83,7 +95,7 @@ current through it and the radial distance to the wire.</p>
 <dd><p><code class="code docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">mu_0</span> <span class="pre">*</span> <span class="pre">I</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">r)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[B = \frac{\mu_0 I}{2 \pi r}\]</div>
+\[B = \frac{I \mu_0}{2 \pi r}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -142,7 +154,8 @@ current through it and the radial distance to the wire.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>

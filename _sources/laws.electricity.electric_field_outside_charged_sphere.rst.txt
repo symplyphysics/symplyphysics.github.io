@@ -7,7 +7,7 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
 
 **Notation:**
 
-#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
 
 **Conditions:**
 
@@ -17,7 +17,7 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
 
 .. py:data:: electric_field_strength
 
-    Value of the electric field.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
     Symbol:
         :code:`E`
@@ -30,7 +30,7 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
 
 .. py:data:: charge
 
-    Total charge of the sphere.
+    Total :attr:`~symplyphysics.symbols.electrodynamics.charge` of the sphere.
 
     Symbol:
         :code:`q`
@@ -43,24 +43,24 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
 
 .. py:data:: distance
 
-    Distance to the center of the sphere.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance` to the center of the sphere.
 
     Symbol:
-        :code:`r`
+        :code:`d`
 
     Latex:
-        :math:`r`
+        :math:`d`
 
     Dimension:
         :code:`length`
 
 .. py:data:: law
 
-    :code:`E = q / (4 * pi * epsilon_0 * r^2)`
+    :code:`E = q / (4 * pi * epsilon_0 * d^2)`
 
 
     Latex:
         .. math::
-            E = \frac{q}{4 \pi r^{2} \varepsilon_0}
+            E = \frac{q}{4 \pi d^{2} \varepsilon_0}
 
 

@@ -17,10 +17,16 @@ as well as by the magnetic field and it does not depend on the particle speed.
 
 .. py:data:: period
 
-    Period of the particle's rotation.
+    :attr:`~symplyphysics.symbols.basic.period` of the particle's rotation.
 
     Symbol:
         :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: mass
 
@@ -37,23 +43,37 @@ as well as by the magnetic field and it does not depend on the particle speed.
 
 .. py:data:: charge
 
-    Charge of the particle.
+    :attr:`~symplyphysics.symbols.electrodynamics.charge` of the particle.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
 .. py:data:: magnetic_flux_density
 
-    Magnitude of magnetic flux density.
+    Magnitude of :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
 
     Symbol:
         :code:`B`
+
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`magnetic_density`
 
 .. py:data:: law
 
     :code:`T = 2 * pi * m / (q * B)`
 
+
     Latex:
         .. math::
-            T = 2 \pi \frac{m}{q B}
+            T = \frac{2 \pi m}{q B}
+
 

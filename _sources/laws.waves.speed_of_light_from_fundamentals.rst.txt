@@ -6,9 +6,9 @@ of the vacuum.
 
 **Notation:**
 
-#. :math:`c` is the speed of light.
-#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity, or electric constant.
-#. :math:`\mu_0` (:code:`mu_0`) is vacuum permeability, or magnetic constant.
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
 
 .. py:currentmodule:: symplyphysics.laws.waves.speed_of_light_from_fundamentals
 

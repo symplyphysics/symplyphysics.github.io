@@ -11,7 +11,7 @@ The net force is the arithmetic sum of forces.
 
 .. py:data:: net_force
 
-    Net :attr:`~symplyphysics.symbols.dynamics.force`.
+    Net :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`F`
@@ -24,7 +24,7 @@ The net force is the arithmetic sum of forces.
 
 .. py:data:: force
 
-    Individual :attr:`~symplyphysics.symbols.dynamics.force`.
+    Individual :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`F[i]`
@@ -42,6 +42,6 @@ The net force is the arithmetic sum of forces.
 
     Latex:
         .. math::
-            F = \sum_i {F_{i}}
+            F = \sum_i F_{i}
 
 

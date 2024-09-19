@@ -13,7 +13,7 @@ resistance, and the imaginary part is reactance.
 
 .. py:data:: impedance
 
-    Impedance of the system.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the system.
 
     Symbol:
         :code:`Z`
@@ -26,7 +26,7 @@ resistance, and the imaginary part is reactance.
 
 .. py:data:: resistance
 
-    Resistance of the system.
+    :attr:`~symplyphysics.symbols.electrodynamics.resistance` of the system.
 
     Symbol:
         :code:`R`
@@ -39,7 +39,7 @@ resistance, and the imaginary part is reactance.
 
 .. py:data:: reactance
 
-    Reactance of the system.
+    :attr:`~symplyphysics.symbols.electrodynamics.reactance` of the system.
 
     Symbol:
         :code:`X`

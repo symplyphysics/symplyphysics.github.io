@@ -1,0 +1,333 @@
+Electrodynamics (Symbols)
+-------------------------
+
+Symbols related to electrodynamics.
+
+.. py:currentmodule:: symplyphysics.symbols.electrodynamics
+
+.. py:data:: admittance
+
+    **Admittance** is a measure of how easily a circuit or device will allow a current to flow, defined as the reciprocal
+    of impedance.
+
+    Symbol:
+        :code:`Y`
+
+    Latex:
+        :math:`Y`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: conductance
+
+    **Conductance** is the ability of charge to flow in a certain path. It is the reciprocal of electrical resistance.
+
+    Symbol:
+        :code:`G`
+
+    Latex:
+        :math:`G`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: susceptance
+
+    **Susceptance** is the imaginary part of the electrical admittance.
+
+    Symbol:
+        :code:`B`
+
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: electrical_impedance
+
+    **Electrical impedance** is the opposition to current presented by the combined effect of
+    resistance and reactance in a circuit.
+
+    Symbol:
+        :code:`Z`
+
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: electromotive_force
+
+    **Electromotive force**, also **electromotance**, abbreviated **emf**, an energy transfer to an electric circuit per unit
+    of electric charge, measured in volts.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`\mathcal{E}`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: magnetic_flux
+
+    **Magnetic flux** through a surface is the surface integral of the normal component of the magnetic field :math:`\mathbf{B}`
+    over that surface.
+
+    Symbol:
+        :code:`Phi_B`
+
+    Latex:
+        :math:`\Phi_\mathbf{B}`
+
+    Dimension:
+        :code:`magnetic_flux`
+
+.. py:data:: absolute_permittivity
+
+    **Absolute permittivity**, or often sometimes **permittivity**, is a measure of the electric polarizability of a dielectric material.
+
+    Symbol:
+        :code:`epsilon`
+
+    Latex:
+        :math:`\varepsilon`
+
+    Dimension:
+        :code:`capacitance/length`
+
+.. py:data:: relative_permittivity
+
+    **Relative permittivity** is the permittivity of a medium relative to that of free space.
+    Also see :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+
+    Symbol:
+        :code:`epsilon_r`
+
+    Latex:
+        :math:`\varepsilon_r`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: capacitance
+
+    **Capacitance** is the capacity of a material object or device to store electric charge.
+
+    Symbol:
+        :code:`C`
+
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
+
+.. py:data:: charge
+
+    **Electric charge** is the physical property of matter that causes it to experience a force when placed in an electromagnetic field.
+    It can be positive or negative. Like charges repel each other and unlike charges attract each other.
+
+    Symbol:
+        :code:`q`
+
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
+.. py:data:: voltage
+
+    **Voltage** is the difference in electric potential between two points.
+
+    Symbol:
+        :code:`V`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: current
+
+    **Current** is a flow of charged particles moving through an electrical conductor or space.
+
+    Symbol:
+        :code:`I`
+
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
+.. py:data:: resistance
+
+    **Resistance** is the measure of the degree to which a conductor opposes an electric current through that conductor.
+    It is the real part of the complex-valued impedance.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: electric_dipole_moment
+
+    **Electric dipole moment** is a measure of the separation of positive and negative electrical charges within a system:
+    that is, a measure of the system's overall polarity.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`charge*length`
+
+.. py:data:: electric_field_strength
+
+    **Electric field strength** refers to the magnitude of the electric field.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`voltage/length`
+
+.. py:data:: surface_charge_density
+
+    **Surface charge density** is charge per unit surface area.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+    Dimension:
+        :code:`charge/area`
+
+.. py:data:: electric_flux
+
+    **Electric flux** through a surface is the surface integral of the normal component of the electric field :math:`\mathbf{E}`
+    over that surface.
+
+    Symbol:
+        :code:`Phi_E`
+
+    Latex:
+        :math:`\Phi_\mathbf{E}`
+
+    Dimension:
+        :code:`length*voltage`
+
+.. py:data:: magnetic_flux_density
+
+    **Magnetic flux density**, also called **magnetic induction**, is a physical quantity that predicts the force on a charged
+    particle in the Lorentz force law.
+
+    Symbol:
+        :code:`B`
+
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`magnetic_density`
+
+.. py:data:: electric_potential
+
+    **Electric potential** is defined as the amount of work or energy needed per unit of electric charge to move the charge from
+    a reference point to a specific point in an electric field.
+
+    Symbol:
+        :code:`U_E`
+
+    Latex:
+        :math:`U_\mathbf{E}`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: power_factor
+
+    **Power factor** of an AC power system is defined as the ratio of the real power absorbed by the load to the apparent power
+    flowing in the circuit.
+
+    Symbol:
+        :code:`pf`
+
+    Latex:
+        :math:`\mathrm{pf}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: resistivity
+
+    **Electrical resistivity** is a fundamental specific property of a material that measures its electrical resistance or how
+    strongly it resists electric current.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+    Dimension:
+        :code:`impedance*length`
+
+.. py:data:: inductance
+
+    **Inductance** is the tendency of an electrical conductor to oppose a change in the electric current flowing through it.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
+.. py:data:: electric_time_constant
+
+    **Time constant** is the parameter characterizing the response to a step input of a first-order, linear time-invariant
+    system. It is related to the speed of the response.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: reactance
+
+    **Reactance** is the opposition presented to alternating current by inductance and capacitance.
+
+    Symbol:
+        :code:`X`
+
+    Latex:
+        :math:`X`
+
+    Dimension:
+        :code:`impedance`
+

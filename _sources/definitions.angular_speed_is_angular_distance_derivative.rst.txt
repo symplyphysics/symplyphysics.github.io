@@ -7,7 +7,7 @@ Angular speed is angular distance derivative
 
 .. py:data:: angular_speed
 
-    Angular speed of the body as a function of time.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the body as a function of time.
 
     Symbol:
         :code:`w(t)`
@@ -16,11 +16,11 @@ Angular speed is angular distance derivative
         :math:`\omega`
 
     Dimension:
-        :code:`1/time`
+        :code:`angle/time`
 
 .. py:data:: angular_distance
 
-    Angular distance as a function of time.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` as a function of time.
 
     Symbol:
         :code:`theta(t)`
@@ -33,7 +33,7 @@ Angular speed is angular distance derivative
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`

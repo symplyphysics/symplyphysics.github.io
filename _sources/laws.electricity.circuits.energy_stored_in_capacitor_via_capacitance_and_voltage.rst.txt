@@ -7,30 +7,50 @@ Capacitors store energy in the electric field when they are charged.
 
 .. py:data:: energy
 
-    Energy stored in the electric field.
+    :attr:`~symplyphysics.symbols.basic.energy` stored in the electric field.
 
     Symbol:
         :code:`W`
 
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: capacitance
 
-    Capacitance of the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
     Symbol:
         :code:`C`
 
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
+
 .. py:data:: voltage
 
-    Voltage across the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` across the capacitor.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: law
 
-    :code:`W = 1/2 * C * V^2`
+    :code:`W = V^2 * C / 2`
+
 
     Latex:
         .. math::
-            W = \frac{1}{2} C V^2
+            W = \frac{C V^{2}}{2}
+
 

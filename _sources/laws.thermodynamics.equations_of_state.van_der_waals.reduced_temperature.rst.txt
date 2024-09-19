@@ -30,7 +30,8 @@ See :ref:`vdw_reduced_units_def`.
 
 .. py:data:: critical_temperature
 
-    See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature`.
+    See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature`
+    and :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
     Symbol:
         :code:`T_c`

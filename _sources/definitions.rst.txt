@@ -22,7 +22,7 @@ Contents:
   definitions.current_is_charge_derivative
   definitions.damped_harmonic_oscillator_equation
   definitions.density_from_mass_volume
-  definitions.electrical_conductivity_is_inversed_resistance
+  definitions.electrical_conductance_is_inversed_resistance
   definitions.harmonic_oscillator_is_second_derivative_equation
   definitions.heat_capacity_ratio
   definitions.impedance_is_resistance_and_reactance

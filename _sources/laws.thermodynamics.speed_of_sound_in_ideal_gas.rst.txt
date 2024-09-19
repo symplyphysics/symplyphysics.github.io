@@ -7,7 +7,7 @@ for the speed of sound for ideal gases compared to the Newton's formula. See
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.speed_of_sound_in_ideal_gas
 

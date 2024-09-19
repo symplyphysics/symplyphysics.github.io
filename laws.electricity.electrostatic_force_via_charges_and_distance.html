@@ -17,7 +17,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Electrostatic potential due to point charge" href="laws.electricity.electrostatic_potential_due_to_point_charge.html" />
-    <link rel="prev" title="Electromotive force induced in sinusoidally rotating coil" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html" />
+    <link rel="prev" title="Electromotive force induced in rotating coil" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -42,12 +42,12 @@ in a vacuum is proportional to their values and inversely proportional to the
 square of the distance between them.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\varepsilon_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">epsilon_0</span></code>) is vacuum permittivity.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\varepsilon_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">epsilon_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permittivity" title="symplyphysics.quantities.vacuum_permittivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permittivity</span></code></a>.</p></li>
 </ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.electrostatic_force">
 <span class="sig-name descname"><span class="pre">electrostatic_force</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.electrostatic_force" title="Link to this definition">¶</a></dt>
-<dd><p>Electrostatic <a class="reference internal" href="symbols.dynamics.html#symplyphysics.symbols.dynamics.force" title="symplyphysics.symbols.dynamics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> between two charges.</p>
+<dd><p>Electrostatic <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> between two charges.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
 </dd>
@@ -61,11 +61,13 @@ square of the distance between them.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.first_charge">
 <span class="sig-name descname"><span class="pre">first_charge</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.first_charge" title="Link to this definition">¶</a></dt>
-<dd><p>First charge.</p>
+<dd><p>First <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.charge" title="symplyphysics.symbols.electrodynamics.charge"><code class="xref py py-attr docutils literal notranslate"><span class="pre">charge</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q1</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q_1</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(q_1\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -73,11 +75,13 @@ square of the distance between them.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.second_charge">
 <span class="sig-name descname"><span class="pre">second_charge</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.second_charge" title="Link to this definition">¶</a></dt>
-<dd><p>Second charge.</p>
+<dd><p>Second <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.charge" title="symplyphysics.symbols.electrodynamics.charge"><code class="xref py py-attr docutils literal notranslate"><span class="pre">charge</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q2</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q_2</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(q_2\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -85,9 +89,13 @@ square of the distance between them.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.distance">
 <span class="sig-name descname"><span class="pre">distance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.distance" title="Link to this definition">¶</a></dt>
-<dd><p>Distance between the charges.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a> between the charges.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -95,10 +103,10 @@ square of the distance between them.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon_0)</span> <span class="pre">*</span> <span class="pre">q1</span> <span class="pre">*</span> <span class="pre">q2</span> <span class="pre">/</span> <span class="pre">r^2</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">q_1</span> <span class="pre">*</span> <span class="pre">q_2</span> <span class="pre">/</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon_0</span> <span class="pre">*</span> <span class="pre">d^2)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[F = \frac{1}{4 \pi \varepsilon_0} \frac{q_1 q_2}{r^2}\]</div>
+\[F = \frac{q_{1} q_{2}}{4 \pi d^{2} \varepsilon_0}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -157,7 +165,8 @@ square of the distance between them.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Electrostatic force via charges and distance</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.electrostatic_force"><code class="docutils literal notranslate"><span class="pre">electrostatic_force</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance.first_charge"><code class="docutils literal notranslate"><span class="pre">first_charge</span></code></a></li>
@@ -211,7 +220,7 @@ square of the distance between them.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.electricity.html">Electromagnetism</a><ul>
-      <li>Previous: <a href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html" title="previous chapter">Electromotive force induced in sinusoidally rotating coil</a></li>
+      <li>Previous: <a href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html" title="previous chapter">Electromotive force induced in rotating coil</a></li>
       <li>Next: <a href="laws.electricity.electrostatic_potential_due_to_point_charge.html" title="next chapter">Electrostatic potential due to point charge</a></li>
   </ul></li>
   </ul></li>

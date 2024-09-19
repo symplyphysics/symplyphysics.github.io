@@ -41,14 +41,18 @@
 to the value of the charge and the square inverse of the distance to it.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\varepsilon_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">epsilon_0</span></code>) is vacuum permittivity.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\varepsilon_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">epsilon_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permittivity" title="symplyphysics.quantities.vacuum_permittivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permittivity</span></code></a>.</p></li>
 </ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_point_charge.electric_field_strength">
 <span class="sig-name descname"><span class="pre">electric_field_strength</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_point_charge.electric_field_strength" title="Link to this definition">¶</a></dt>
-<dd><p>Strength of the electric field due to point charge <span class="math notranslate nohighlight">\(q\)</span>.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_field_strength" title="symplyphysics.symbols.electrodynamics.electric_field_strength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_field_strength</span></code></a> due to point charge <span class="math notranslate nohighlight">\(q\)</span>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">voltage/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -56,9 +60,13 @@ to the value of the charge and the square inverse of the distance to it.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_point_charge.charge">
 <span class="sig-name descname"><span class="pre">charge</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_point_charge.charge" title="Link to this definition">¶</a></dt>
-<dd><p>Value of the point charge.</p>
+<dd><p>Value of the point <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.charge" title="symplyphysics.symbols.electrodynamics.charge"><code class="xref py py-attr docutils literal notranslate"><span class="pre">charge</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(q\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -66,9 +74,13 @@ to the value of the charge and the square inverse of the distance to it.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_point_charge.distance">
 <span class="sig-name descname"><span class="pre">distance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_point_charge.distance" title="Link to this definition">¶</a></dt>
-<dd><p>Distance to the charge.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a> to the charge.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -76,10 +88,10 @@ to the value of the charge and the square inverse of the distance to it.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electric_field_due_to_point_charge.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electric_field_due_to_point_charge.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon_0)</span> <span class="pre">*</span> <span class="pre">q</span> <span class="pre">/</span> <span class="pre">r^2</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">q</span> <span class="pre">/</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon_0</span> <span class="pre">*</span> <span class="pre">d^2)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[E = \frac{1}{4 \pi \varepsilon_0} \frac{q}{r^2}\]</div>
+\[E = \frac{q}{4 \pi d^{2} \varepsilon_0}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -144,7 +156,8 @@ to the value of the charge and the square inverse of the distance to it.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>

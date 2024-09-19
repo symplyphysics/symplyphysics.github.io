@@ -11,22 +11,34 @@ efficiency. It is the ratio of real power to apparent power of the circuit.
 
 .. py:data:: apparent_power
 
-    Apparent power of the circuit, which is the absolute value of the complex
+    Apparent :attr:`~symplyphysics.symbols.basic.power` of the circuit, which is the absolute value of the complex
     power.
 
     Symbol:
         :code:`S`
 
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: real_power
 
-    Real power, or active power, of the circuit.
+    Real :attr:`~symplyphysics.symbols.basic.power`, or active power, of the circuit.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: power_factor
 
-    Power factor of the circuit.
+    :attr:`~symplyphysics.symbols.electrodynamics.power_factor` of the circuit.
 
     Symbol:
         :code:`pf`
@@ -34,11 +46,16 @@ efficiency. It is the ratio of real power to apparent power of the circuit.
     Latex:
         :math:`\mathrm{pf}`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
     :code:`pf = P / S`
 
+
     Latex:
         .. math::
             \mathrm{pf} = \frac{P}{S}
+
 

@@ -8,40 +8,63 @@ the time derivative of current flowing through the circuit.
 
 .. py:data:: electromotive_force
 
-    Self-induced electromotive force.
+    Self-induced :attr:`~symplyphysics.symbols.electrodynamics.electromotive_force`.
 
     Symbol:
         :code:`E(t)`
 
     Latex:
-        :math:`\mathcal{E}(t)`
+        :math:`\mathcal{E}`
+
+    Dimension:
+        :code:`voltage`
 
 .. py:data:: inductance
 
-    Inductance of the circuit.
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the circuit.
 
     Symbol:
         :code:`L`
 
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
 .. py:data:: current
 
-    Current in the circuit.
+    :attr:`~symplyphysics.symbols.electrodynamics.current` in the circuit.
 
     Symbol:
         :code:`I(t)`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`E(t) = -1 * L * Derivative(I(t), t)`
+    :code:`E(t) = -Derivative(I(t), t) * L`
+
 
     Latex:
         .. math::
-            \mathcal{E}(t) = -L \frac{d I}{d t}
+            \mathcal{E}{\left(t \right)} = - L \frac{d}{d t} I{\left(t \right)}
+
 

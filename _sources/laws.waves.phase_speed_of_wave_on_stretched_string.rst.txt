@@ -15,7 +15,7 @@ and not by properties of the wave such as frequency and amplitude.
 
 .. py:data:: tension
 
-    Tension in the string.
+    Tension in the string. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`tau`

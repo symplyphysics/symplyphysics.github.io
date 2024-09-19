@@ -15,7 +15,7 @@ Instantaneous power is force times speed
 
 .. py:data:: force
 
-    The :attr:`~symplyphysics.symbols.dynamics.force` exerted on the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object.
 
     Symbol:
         :code:`F`

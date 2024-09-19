@@ -9,30 +9,50 @@ instantaneous power in the circuit.
 
 .. py:data:: power
 
-    Electric power.
+    Electric :attr:`~symplyphysics.symbols.basic.power`.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: current
 
-    Electric current.
+    Electric :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
 .. py:data:: resistance
 
-    Electrical resistance.
+    Electrical :attr:`~symplyphysics.symbols.electrodynamics.resistance`.
 
     Symbol:
         :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
 
 .. py:data:: law
 
     :code:`P = I^2 * R`
 
+
     Latex:
         .. math::
-            P = I^2 R
+            P = I^{2} R
+
 

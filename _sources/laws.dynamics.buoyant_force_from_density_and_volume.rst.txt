@@ -9,7 +9,7 @@ vector is directed opposite to the gravity vector.
 
 .. py:data:: buoyant_force
 
-    The buoyant (Archimedes) :attr:`~symplyphysics.symbols.dynamics.force`.
+    The buoyant (Archimedes) :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`Fa`

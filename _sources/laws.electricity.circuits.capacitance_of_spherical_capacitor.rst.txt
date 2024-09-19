@@ -14,7 +14,7 @@ filled with a dielectric medium. See `Figure`_.
 
 .. py:data:: capacitance
 
-    Capacitance of the capacitor.
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
     Symbol:
         :code:`C`
@@ -27,7 +27,7 @@ filled with a dielectric medium. See `Figure`_.
 
 .. py:data:: absolute_permittivity
 
-    Absolute permittivity of the medium between the spheres.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity` of the medium between the spheres.
 
     Symbol:
         :code:`epsilon`
@@ -40,7 +40,7 @@ filled with a dielectric medium. See `Figure`_.
 
 .. py:data:: inner_radius
 
-    Radius of the inner sphere.
+    Radius of the inner sphere. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
 
     Symbol:
         :code:`r_in`
@@ -53,7 +53,7 @@ filled with a dielectric medium. See `Figure`_.
 
 .. py:data:: outer_radius
 
-    Radius of the outer sphere.
+    Radius of the outer sphere. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
 
     Symbol:
         :code:`r_out`
@@ -66,11 +66,11 @@ filled with a dielectric medium. See `Figure`_.
 
 .. py:data:: law
 
-    :code:`C = 4 * pi * epsilon * r_in * r_out / (-r_in + r_out)`
+    :code:`C = 4 * pi * r_in * r_out * epsilon / (-r_in + r_out)`
 
 
     Latex:
         .. math::
-            C = \frac{4 \pi \varepsilon r_\text{in} r_\text{out}}{- r_\text{in} + r_\text{out}}
+            C = \frac{4 \pi r_\text{in} r_\text{out} \varepsilon}{- r_\text{in} + r_\text{out}}
 
 

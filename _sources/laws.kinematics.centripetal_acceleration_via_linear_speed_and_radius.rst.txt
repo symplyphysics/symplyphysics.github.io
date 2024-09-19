@@ -7,7 +7,7 @@ Centripetal acceleration via linear speed and radius
 
 .. py:data:: centripetal_acceleration
 
-    Centripetal, or normal, :attr:`~symplyphysics.symbols.kinematics.acceleration`.
+    Centripetal, or normal, :attr:`~symplyphysics.symbols.classical_mechanics.acceleration`.
 
     Symbol:
         :code:`a_n`

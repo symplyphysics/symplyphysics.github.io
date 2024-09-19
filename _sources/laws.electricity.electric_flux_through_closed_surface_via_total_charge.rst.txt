@@ -14,20 +14,20 @@ vacuum permittivity. The closed surface is also referred to as **Gaussian surfac
 
 .. py:data:: total_electric_flux
 
-    Electric flux through surface :math:`S`.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_flux` through surface :math:`S`.
 
     Symbol:
         :code:`Phi_E`
 
     Latex:
-        :math:`\Phi_E`
+        :math:`\Phi_\mathbf{E}`
 
     Dimension:
         :code:`length*voltage`
 
 .. py:data:: total_charge
 
-    Total charge inside volume :math:`V`.
+    Total :attr:`~symplyphysics.symbols.electrodynamics.charge` inside volume :math:`V`.
 
     Symbol:
         :code:`q`
@@ -45,6 +45,6 @@ vacuum permittivity. The closed surface is also referred to as **Gaussian surfac
 
     Latex:
         .. math::
-            \Phi_{E} = \frac{q}{\varepsilon_0}
+            \Phi_\mathbf{E} = \frac{q}{\varepsilon_0}
 
 

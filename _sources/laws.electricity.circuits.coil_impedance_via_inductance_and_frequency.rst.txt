@@ -8,14 +8,20 @@ current. It is a purely imaginary quantity since the resistance of a coil is zer
 
 .. py:data:: impedance
 
-    Impedance of the coil.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the coil.
 
     Symbol:
         :code:`Z`
 
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: angular_frequency
 
-    Angular frequency of the current.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
 
     Symbol:
         :code:`w`
@@ -23,18 +29,29 @@ current. It is a purely imaginary quantity since the resistance of a coil is zer
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: inductance
 
-    Coil inductance.
+    Coil :attr:`~symplyphysics.symbols.electrodynamics.inductance`.
 
     Symbol:
         :code:`L`
 
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
 .. py:data:: law
 
-    :code:`Z = i * w * L`
+    :code:`Z = I * w * L`
+
 
     Latex:
         .. math::
             Z = i \omega L
+
 

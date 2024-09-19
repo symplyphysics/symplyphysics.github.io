@@ -12,8 +12,8 @@ the type of diffusing particles. This law is also known as the *Stokes—Einstei
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
-#. :math:`N_\text{A}` is the Avogadro constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
+#. :math:`N_\text{A}` (:code:`N_A`) is :attr:`~symplyphysics.quantities.avogadro_constant`.
 
 **Conditions:**
 

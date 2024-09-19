@@ -7,7 +7,7 @@ From that one can derive the expression of the isochoric heat capacity of ideal 
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 **Notes:**
 

@@ -17,10 +17,16 @@ of the particle as well as by the magnetic flux density.
 
 .. py:data:: radius_of_curvature
 
-    Radius of curvature of the particle's orbit.
+    :attr:`~symplyphysics.symbols.basic.radius_of_curvature` of the particle's orbit.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: mass
 
@@ -37,30 +43,50 @@ of the particle as well as by the magnetic flux density.
 
 .. py:data:: speed
 
-    Speed of the particle.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the particle.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: charge
 
-    Charge of the particle.
+    :attr:`~symplyphysics.symbols.electrodynamics.charge` of the particle.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
 .. py:data:: magnetic_flux_density
 
-    Magnitude of magnetic flux density.
+    Magnitude of :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
 
     Symbol:
         :code:`B`
 
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`magnetic_density`
+
 .. py:data:: law
 
-    :code:`r = m * v / (q * B)`
+    :code:`r = v * m / (q * B)`
+
 
     Latex:
         .. math::
-            r = \frac{m v}{q B}
+            r = \frac{v m}{q B}
+
 

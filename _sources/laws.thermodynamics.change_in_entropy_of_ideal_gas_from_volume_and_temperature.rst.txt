@@ -9,7 +9,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 **Conditions:**
 

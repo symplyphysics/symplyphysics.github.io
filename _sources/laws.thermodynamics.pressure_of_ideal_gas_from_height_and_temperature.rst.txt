@@ -5,8 +5,8 @@ The *barometric formula* determines the dependence of the pressure or density of
 
 **Notation:**
 
-#. :math:`g` is the acceleration due to gravity.
-#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+#. :math:`g` (:code:`g`) is :attr:`~symplyphysics.quantities.acceleration_due_to_gravity`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Conditions:**
 

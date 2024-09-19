@@ -26,6 +26,7 @@ the boundary equation :math:`f(x) = T(x, 0)`.
 .. py:data:: temperature
 
     Solution to the heat equation corresponding to the :math:`n`:sup:`th` mode.
+    See :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
     Symbol:
         :code:`T_n(x, t)`

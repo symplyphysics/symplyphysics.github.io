@@ -7,20 +7,20 @@ Angular acceleration is angular speed derivative
 
 .. py:data:: angular_acceleration
 
-    Angular acceleration of the body as a function of time.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration` of the body as a function of time.
 
     Symbol:
-        :code:`epsilon(t)`
+        :code:`alpha(t)`
 
     Latex:
-        :math:`\varepsilon`
+        :math:`\alpha`
 
     Dimension:
         :code:`angle/time**2`
 
 .. py:data:: angular_speed
 
-    Angular speed of the body as a function of time.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the body as a function of time.
 
     Symbol:
         :code:`w(t)`
@@ -33,7 +33,7 @@ Angular acceleration is angular speed derivative
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
@@ -46,11 +46,11 @@ Angular acceleration is angular speed derivative
 
 .. py:data:: definition
 
-    :code:`epsilon(t) = Derivative(w(t), t)`
+    :code:`alpha(t) = Derivative(w(t), t)`
 
 
     Latex:
         .. math::
-            \varepsilon{\left(t \right)} = \frac{d}{d t} \omega{\left(t \right)}
+            \alpha{\left(t \right)} = \frac{d}{d t} \omega{\left(t \right)}
 
 

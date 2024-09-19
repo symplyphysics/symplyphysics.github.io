@@ -12,26 +12,37 @@ of the impedances of individual components.
 
 .. py:data:: total_impedance
 
-    Total impedance of the circuit.
+    Total :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the circuit.
 
     Symbol:
         :code:`Z`
 
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: impedance
 
-    Impedance of the :math:`i`-th component.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the :math:`i`-th component.
 
     Symbol:
-        :code:`Z_i`
+        :code:`Z[i]`
 
     Latex:
         :math:`Z_i`
 
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: law
 
-    :code:`Z = Sum(Z_i, i)`
+    :code:`Z = Sum(Z[i], i)`
+
 
     Latex:
         .. math::
-            Z = \sum_i Z_i
+            Z = \sum_i Z_{i}
+
 

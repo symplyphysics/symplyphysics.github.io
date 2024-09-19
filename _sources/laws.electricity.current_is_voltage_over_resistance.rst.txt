@@ -8,30 +8,50 @@ inversely proportional to its resistance. This is also known as the **Ohm's law*
 
 .. py:data:: current
 
-    Current flowing through the conductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the conductor.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
 .. py:data:: voltage
 
-    Voltage applied to the conductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` applied to the conductor.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: resistance
 
-    Resistance of the conductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.resistance` of the conductor.
 
     Symbol:
         :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
 
 .. py:data:: law
 
     :code:`I = V / R`
 
+
     Latex:
         .. math::
             I = \frac{V}{R}
+
 

@@ -17,7 +17,7 @@ at constant pressure.
 
 .. py:data:: linear_expansion_coefficient
 
-    Linear coefficient of thermal expansion of the object.
+    Linear :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the object.
 
     Symbol:
         :code:`alpha_l`
@@ -30,7 +30,7 @@ at constant pressure.
 
 .. py:data:: length
 
-    Length of the object as a function of :attr:`~symplyphysics.symbols.thermodynamics.temperature`
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the object as a function of temperature
     and, indirectly, pressure :math:`p`.
 
     Symbol:

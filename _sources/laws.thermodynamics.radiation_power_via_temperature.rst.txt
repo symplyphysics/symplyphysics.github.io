@@ -8,7 +8,7 @@ the radiating body's temperature.
 
 **Notation:**
 
-#. :math:`\sigma` (:code:`sigma`) is the Stefan—Boltzmann constant.
+#. :math:`\sigma` (:code:`sigma`) is :attr:`~symplyphysics.quantities.stefan_boltzmann_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature
 

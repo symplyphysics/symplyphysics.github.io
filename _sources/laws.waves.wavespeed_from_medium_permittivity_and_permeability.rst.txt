@@ -6,7 +6,7 @@ permeability of the medium.
 
 **Notation:**
 
-#. :math:`c` is the speed of light.
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
 .. py:currentmodule:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability
 

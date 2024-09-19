@@ -9,7 +9,7 @@ assuming the body only moves in one direction.
 
 .. py:data:: displacement
 
-    Displacement of the oscillating body as a function of time.
+    Displacement of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
         :code:`x(t)`
@@ -22,7 +22,7 @@ assuming the body only moves in one direction.
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
@@ -35,7 +35,7 @@ assuming the body only moves in one direction.
 
 .. py:data:: undamped_angular_frequency
 
-    Undamped angular frequency of the oscillator.
+    Undamped :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
         :code:`w`
@@ -48,10 +48,10 @@ assuming the body only moves in one direction.
 
 .. py:data:: damping_ratio
 
-    Damping ratio, which critically determines the behavior of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio`, which critically determines the behavior of the system.
 
     Symbol:
-        :code:`z`
+        :code:`zeta`
 
     Latex:
         :math:`\zeta`
@@ -61,7 +61,7 @@ assuming the body only moves in one direction.
 
 .. py:data:: definition
 
-    :code:`w^2 * x(t) + 2 * Derivative(x(t), t) * w * z + Derivative(x(t), (t, 2)) = 0`
+    :code:`w^2 * x(t) + 2 * Derivative(x(t), t) * w * zeta + Derivative(x(t), (t, 2)) = 0`
 
 
     Latex:

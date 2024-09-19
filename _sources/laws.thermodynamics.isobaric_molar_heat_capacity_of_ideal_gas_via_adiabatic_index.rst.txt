@@ -6,7 +6,7 @@ constant and the adiabatic index of the gas.
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 **Conditions:**
 

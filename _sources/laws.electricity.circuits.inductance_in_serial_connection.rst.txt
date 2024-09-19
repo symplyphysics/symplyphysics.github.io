@@ -13,26 +13,37 @@ of the inductances of individual components.
 
 .. py:data:: total_inductance
 
-    Total inductance of the circuit.
+    Total :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the circuit.
 
     Symbol:
         :code:`L`
 
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
 .. py:data:: inductance
 
-    Inductance of the :math:`i`-th component.
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the :math:`i`-th component.
 
     Symbol:
-        :code:`L_i`
+        :code:`L[i]`
 
     Latex:
         :math:`L_i`
 
+    Dimension:
+        :code:`inductance`
+
 .. py:data:: law
 
-    :code:`L = Sum(L_i, i)`
+    :code:`L = Sum(L[i], i)`
+
 
     Latex:
         .. math::
-            L = \sum_i L_i
+            L = \sum_i L_{i}
+
 

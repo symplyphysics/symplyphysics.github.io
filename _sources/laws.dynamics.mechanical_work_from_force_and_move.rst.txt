@@ -26,7 +26,7 @@ Work is scalar value equal to force multiplied by distance.
 
 .. py:data:: force
 
-    The :attr:`~symplyphysics.symbols.dynamics.force` exerted on the body.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
 
     Symbol:
         :code:`F`

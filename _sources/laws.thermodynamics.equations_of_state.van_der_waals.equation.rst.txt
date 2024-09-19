@@ -11,7 +11,7 @@ into account the main characteristics of a gas with intermolecular interaction.
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation
 

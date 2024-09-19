@@ -8,30 +8,50 @@ conductor and voltage applied.
 
 .. py:data:: power
 
-    Electric power.
+    Electric :attr:`~symplyphysics.symbols.basic.power`.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: current
 
-    Electric current.
+    Electric ;symbols:`current`.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
 .. py:data:: voltage
 
-    Voltage applied.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` applied.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: law
 
-    :code:`P = I * V`
+    :code:`P = V * I`
+
 
     Latex:
         .. math::
-            P = I V
+            P = V I
+
 

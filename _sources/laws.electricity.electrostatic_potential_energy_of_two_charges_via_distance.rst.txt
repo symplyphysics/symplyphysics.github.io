@@ -9,17 +9,20 @@ interaction belonging to the entire system.
 
 .. py:data:: electrostatic_potential_energy
 
-    Electrostatic potential energy of system.
+    Electrostatic potential :attr:`~symplyphysics.symbols.basic.energy` of system.
 
     Symbol:
         :code:`U_E`
 
     Latex:
-        :math:`U_E`
+        :math:`U_\mathbf{E}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: absolute_permittivity
 
-    Absolute permittivity of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity` of the medium.
 
     Symbol:
         :code:`epsilon`
@@ -27,38 +30,55 @@ interaction belonging to the entire system.
     Latex:
         :math:`\varepsilon`
 
+    Dimension:
+        :code:`capacitance/length`
+
 .. py:data:: distance
 
-    Distance between the point charges.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the point charges.
 
     Symbol:
-        :code:`r`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: first_charge
 
-    Value of the first charge.
+    Value of the first :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
-        :code:`q1`
+        :code:`q_1`
 
     Latex:
         :math:`q_1`
 
+    Dimension:
+        :code:`charge`
+
 .. py:data:: second_charge
 
-    Value of the second charge.
+    Value of the second :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
-        :code:`q2`
+        :code:`q_2`
 
     Latex:
         :math:`q_2`
 
+    Dimension:
+        :code:`charge`
+
 .. py:data:: law
 
-    :code:`U_E = q1 * q2 / (4 * pi * epsilon * r)`
+    :code:`U_E = q_1 * q_2 / (4 * pi * d * epsilon)`
+
 
     Latex:
         .. math::
-            U_E = \frac{q_1 q_2}{4 \pi \varepsilon r}
+            U_\mathbf{E} = \frac{q_{1} q_{2}}{4 \pi d \varepsilon}
+
 

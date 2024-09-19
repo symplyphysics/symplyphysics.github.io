@@ -9,7 +9,7 @@ for a general version of this law.
 
 .. py:data:: density
 
-    Volumetric density of the object.
+    Volumetric :attr:`~symplyphysics.symbols.basic.density` of the object.
 
     Symbol:
         :code:`rho`
@@ -35,7 +35,7 @@ for a general version of this law.
 
 .. py:data:: volume
 
-    Volume of the object.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the object.
 
     Symbol:
         :code:`V`

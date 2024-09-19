@@ -6,7 +6,7 @@ in any reference frame. The energy of a photon depends only on its frequency.
 
 **Notation:**
 
-#. :math:`h` is the Planck constant.
+#. :math:`h` (:code:`h`) is :attr:`~symplyphysics.quantities.planck`.
 
 .. py:currentmodule:: symplyphysics.laws.waves.photon_energy_is_proportional_to_linear_frequency
 

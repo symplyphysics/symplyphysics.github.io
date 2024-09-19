@@ -8,7 +8,7 @@ speeds in the interval :math:`dv_k` around velocity component :math:`v_k`.
 
 **Notation:**
 
-#. :math:`k_\text{B}` (:code:`k_B`) is the Boltzmann constant.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Notes:**
 

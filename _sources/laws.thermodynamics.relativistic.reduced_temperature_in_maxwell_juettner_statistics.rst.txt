@@ -8,8 +8,8 @@ the gas in question.
 
 **Notation:**
 
-#. :math:`k_\text{B}` is the Boltzmann constant.
-#. :math:`c` is the speed of light.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics
 

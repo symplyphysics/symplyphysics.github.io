@@ -9,7 +9,7 @@ by applying this law to the components of the force vector.
 
 .. py:data:: impulse
 
-    Projection of impulse vector due to :attr:`~symplyphysics.symbols.dynamics.force` :math:`\vec F`.
+    Projection of :attr:`~symplyphysics.symbols.classical_mechanics.impulse` vector due to force :math:`\vec F`.
 
     Symbol:
         :code:`J`
@@ -22,7 +22,7 @@ by applying this law to the components of the force vector.
 
 .. py:data:: force
 
-    Projection of :attr:`~symplyphysics.symbols.dynamics.force` :math:`\vec F` as a function of time.
+    Projection of :attr:`~symplyphysics.symbols.classical_mechanics.force` :math:`\vec F` as a function of time.
 
     Symbol:
         :code:`F(t)`
@@ -35,7 +35,7 @@ by applying this law to the components of the force vector.
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
@@ -48,10 +48,10 @@ by applying this law to the components of the force vector.
 
 .. py:data:: time_before
 
-    Initial time of collision.
+    Initial :attr:`~symplyphysics.symbols.basic.time` of collision.
 
     Symbol:
-        :code:`t0`
+        :code:`t_0`
 
     Latex:
         :math:`t_0`
@@ -61,10 +61,10 @@ by applying this law to the components of the force vector.
 
 .. py:data:: time_after
 
-    Final time of collision.
+    Final :attr:`~symplyphysics.symbols.basic.time` of collision.
 
     Symbol:
-        :code:`t1`
+        :code:`t_1`
 
     Latex:
         :math:`t_1`
@@ -74,7 +74,7 @@ by applying this law to the components of the force vector.
 
 .. py:data:: law
 
-    :code:`J = Integral(F(t), (t, t0, t1))`
+    :code:`J = Integral(F(t), (t, t_0, t_1))`
 
 
     Latex:

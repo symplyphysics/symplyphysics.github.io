@@ -17,14 +17,20 @@ property of the material and does not depend on its geometry.
 
 .. py:data:: resistance
 
-    Resistance of the conductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.resistance` of the conductor.
 
     Symbol:
         :code:`R`
 
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: resistivity
 
-    Resistivity of the material.
+    :attr:`~symplyphysics.symbols.electrodynamics.resistivity` of the material.
 
     Symbol:
         :code:`rho`
@@ -32,25 +38,42 @@ property of the material and does not depend on its geometry.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`impedance*length`
+
 .. py:data:: length
 
-    Length of the conductor.
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the conductor.
 
     Symbol:
         :code:`l`
 
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: area
 
-    Cross-sectional area of the conductor.
+    Cross-sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the conductor.
 
     Symbol:
         :code:`A`
 
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
 .. py:data:: law
 
-    :code:`R = rho * l / A`
+    :code:`R = l * rho / A`
+
 
     Latex:
         .. math::
-            R = \rho \frac{l}{A}
+            R = \frac{l \rho}{A}
+
 

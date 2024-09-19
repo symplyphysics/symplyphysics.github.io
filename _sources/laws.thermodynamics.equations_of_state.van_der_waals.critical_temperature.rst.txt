@@ -6,7 +6,7 @@ of the van der Waals equation and the molar gas constant :math:`R`. See :ref:`vd
 
 **Notation:**
 
-#. :math:`R` is the molar gas constant.
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature
 

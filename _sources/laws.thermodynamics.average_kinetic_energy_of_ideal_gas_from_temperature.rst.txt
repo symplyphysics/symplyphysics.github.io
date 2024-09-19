@@ -7,7 +7,7 @@ temperature of the gas and only depends on the temperature.
 
 **Notation:**
 
-#. :math:`k_\text{B}` is the Boltzmann constant.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Conditions:**
 

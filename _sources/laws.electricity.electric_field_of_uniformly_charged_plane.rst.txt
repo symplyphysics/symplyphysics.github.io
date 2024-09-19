@@ -6,7 +6,7 @@ charge density.
 
 **Notation:**
 
-#. :math:`\varepsilon_0` (:code:`epsilon_0`) is vacuum permittivity.
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
 
 **Conditions:**
 
@@ -21,7 +21,7 @@ charge density.
 
 .. py:data:: electric_field_strength
 
-    Value of the electric field.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
     Symbol:
         :code:`E`
@@ -34,7 +34,7 @@ charge density.
 
 .. py:data:: surface_charge_density
 
-    Surface charge density of the plane.
+    :attr:`~symplyphysics.symbols.electrodynamics.surface_charge_density`.
 
     Symbol:
         :code:`sigma`
