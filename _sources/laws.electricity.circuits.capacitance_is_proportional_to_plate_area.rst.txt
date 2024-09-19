@@ -18,6 +18,12 @@ on the permittivity of the medium that fills the space between the plates.
     Symbol:
         :code:`C`
 
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
+
 .. py:data:: absolute_permittivity
 
     Absolute permittivity of the medium between the plates.
@@ -28,12 +34,21 @@ on the permittivity of the medium that fills the space between the plates.
     Latex:
         :math:`\varepsilon`
 
+    Dimension:
+        :code:`capacitance/length`
+
 .. py:data:: area
 
     Area of the plates.
 
     Symbol:
         :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
 
 .. py:data:: distance
 
@@ -42,11 +57,19 @@ on the permittivity of the medium that fills the space between the plates.
     Symbol:
         :code:`d`
 
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
     :code:`C = epsilon * A / d`
 
+
     Latex:
         .. math::
             C = \frac{\varepsilon A}{d}
+
 

@@ -19,6 +19,7 @@ Contents:
   :maxdepth: 4
 
   laws.quantities.fractional_change_is_change_over_initial_value
+  laws.quantities.quantity_is_areal_density_times_area
   laws.quantities.quantity_is_linear_density_times_length
   laws.quantities.quantity_is_molar_quantity_times_amount_of_substance
   laws.quantities.quantity_is_specific_quantity_times_mass

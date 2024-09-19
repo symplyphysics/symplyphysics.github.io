@@ -1,0 +1,72 @@
+Electromotive force induced in moving contour
+---------------------------------------------
+
+The **Faraday's law** states that the electromotive force around a closed path is equal to
+the negative of the time rate of change of the magnetic flux enclosed by the path. In case
+of the current making several turns around the contour, e.g. in a coil, the electromotive force
+would also be proportional to the number of turn the current makes.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour
+
+.. py:data:: electromotive_force
+
+    Electromotive force induced in the contour.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`\mathcal{E}`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: current_turn_count
+
+    Number of turns the current makes around the contour.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: magnetic_flux
+
+    Magnetic flux through the contour.
+
+    Symbol:
+        :code:`Phi`
+
+    Latex:
+        :math:`\Phi`
+
+    Dimension:
+        :code:`magnetic_flux`
+
+.. py:data:: time
+
+    Time.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: law
+
+    :code:`E = -Derivative(Phi, t) * N`
+
+
+    Latex:
+        .. math::
+            \mathcal{E} = - N \frac{d}{d t} \Phi{\left(t \right)}
+
+

@@ -11,6 +11,11 @@ charge density.
 **Conditions:**
 
 #. The plane is thin, i.e. its thickness approaches zero.
+#. The plane is in vacuum.
+
+**Links:**
+
+#. `Electric field of a uniformly charged plane <https://farside.ph.utexas.edu/teaching/316/lectures/node27.html>`__
 
 .. py:currentmodule:: symplyphysics.laws.electricity.electric_field_of_uniformly_charged_plane
 
@@ -20,6 +25,12 @@ charge density.
 
     Symbol:
         :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`voltage/length`
 
 .. py:data:: surface_charge_density
 
@@ -31,11 +42,16 @@ charge density.
     Latex:
         :math:`\sigma`
 
+    Dimension:
+        :code:`charge/area`
+
 .. py:data:: law
 
     :code:`E = sigma / (2 * epsilon_0)`
 
+
     Latex:
         .. math::
             E = \frac{\sigma}{2 \varepsilon_0}
+
 

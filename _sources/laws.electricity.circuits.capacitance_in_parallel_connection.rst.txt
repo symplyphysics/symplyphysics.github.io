@@ -17,6 +17,12 @@ capacitances of individual capacitors.
     Symbol:
         :code:`C`
 
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
+
 .. py:data:: capacitance
 
     Capacitance of :math:`i`-th capacitor.
@@ -27,11 +33,16 @@ capacitances of individual capacitors.
     Latex:
         :math:`C_i`
 
+    Dimension:
+        :code:`capacitance`
+
 .. py:data:: law
 
-    :code:`C = Sum(C_i), i`
+    :code:`C = Sum(C_i, i)`
+
 
     Latex:
         .. math::
-            C = \sum_i C_i
+            C = \sum_i {C_{i}}
+
 

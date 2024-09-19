@@ -22,12 +22,24 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`voltage/length`
+
 .. py:data:: charge
 
     Total charge of the sphere.
 
     Symbol:
         :code:`q`
+
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
 
 .. py:data:: distance
 
@@ -36,11 +48,19 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
     Symbol:
         :code:`r`
 
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
-    :code:`E = 1 / (4 * pi * epsilon_0) * q / r^2`
+    :code:`E = q / (4 * pi * epsilon_0 * r^2)`
+
 
     Latex:
         .. math::
-            E = \frac{1}{4 \pi \varepsilon_0} \frac{q}{r^2}
+            E = \frac{q}{4 \pi r^{2} \varepsilon_0}
+
 

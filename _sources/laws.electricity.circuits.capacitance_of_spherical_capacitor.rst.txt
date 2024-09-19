@@ -6,6 +6,10 @@ filled with a dielectric medium. See `Figure`_.
 
 .. _Figure: http://hyperphysics.phy-astr.gsu.edu/hbase/electric/capsph.html
 
+**Links:**
+
+#. `Spherical capacitor <http://hyperphysics.phy-astr.gsu.edu/hbase/electric/capsph.html>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.capacitance_of_spherical_capacitor
 
 .. py:data:: capacitance
@@ -14,6 +18,12 @@ filled with a dielectric medium. See `Figure`_.
 
     Symbol:
         :code:`C`
+
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance`
 
 .. py:data:: absolute_permittivity
 
@@ -25,6 +35,9 @@ filled with a dielectric medium. See `Figure`_.
     Latex:
         :math:`\varepsilon`
 
+    Dimension:
+        :code:`capacitance/length`
+
 .. py:data:: inner_radius
 
     Radius of the inner sphere.
@@ -34,6 +47,9 @@ filled with a dielectric medium. See `Figure`_.
 
     Latex:
         :math:`r_\text{in}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: outer_radius
 
@@ -45,11 +61,16 @@ filled with a dielectric medium. See `Figure`_.
     Latex:
         :math:`r_\text{out}`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
-    :code:`C = 4 * pi * epsilon * r_in * r_out / (r_out - r_in)`
+    :code:`C = 4 * pi * epsilon * r_in * r_out / (-r_in + r_out)`
+
 
     Latex:
         .. math::
-            C = \frac{4 \pi \varepsilon r_\text{in} r_\text{out}}{r_\text{out} - r_\text{in}}
+            C = \frac{4 \pi \varepsilon r_\text{in} r_\text{out}}{- r_\text{in} + r_\text{out}}
+
 

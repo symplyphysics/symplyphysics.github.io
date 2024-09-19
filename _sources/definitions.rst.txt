@@ -17,7 +17,6 @@ Contents:
   definitions.angular_speed_is_angular_distance_derivative
   definitions.angular_wavenumber_is_inverse_wavelength
   definitions.boltzmann_factor_via_state_energy_and_temperature
-  definitions.capacitance_from_charge_and_voltage
   definitions.compliance_is_inverse_stiffness
   definitions.compressibility_factor_is_deviation_from_ideal_gas
   definitions.current_is_charge_derivative

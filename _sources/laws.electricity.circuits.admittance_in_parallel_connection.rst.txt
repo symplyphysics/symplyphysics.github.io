@@ -17,6 +17,12 @@ of the admittances of individual components.
     Symbol:
         :code:`Y`
 
+    Latex:
+        :math:`Y`
+
+    Dimension:
+        :code:`conductance`
+
 .. py:data:: admittance
 
     Admittance of :math:`i`-th circuit.
@@ -27,11 +33,16 @@ of the admittances of individual components.
     Latex:
         :math:`Y_i`
 
+    Dimension:
+        :code:`conductance`
+
 .. py:data:: law
 
     :code:`Y = Sum(Y_i, i)`
 
+
     Latex:
         .. math::
-            Y = \sum_i Y_i
+            Y = \sum_i {Y_{i}}
+
 

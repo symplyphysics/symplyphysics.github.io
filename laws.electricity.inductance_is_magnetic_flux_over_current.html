@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Electromotive force induced in rotating coil &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Inductance is magnetic flux over current &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=c058f7c8" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.electromotive_force_induced_in_rotating_coil.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.inductance_is_magnetic_flux_over_current.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Electromotive force induced in rotating rod" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html" />
-    <link rel="prev" title="Electric field outside charged sphere" href="laws.electricity.electric_field_outside_charged_sphere.html" />
+    <link rel="next" title="Magnetic field due to infinite wire" href="laws.electricity.magnetic_field_due_to_infinite_wire.html" />
+    <link rel="prev" title="Energy via constant power and time" href="laws.electricity.energy_via_constant_power_and_time.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,87 +35,63 @@
 
           <div class="body" role="main">
             
-  <section id="electromotive-force-induced-in-rotating-coil">
-<h1>Electromotive force induced in rotating coil<a class="headerlink" href="#electromotive-force-induced-in-rotating-coil" title="Link to this heading">¶</a></h1>
-<p>Suppose a coil is being rotated around the axis that lies in the coil’s cross section
-(see <a class="reference external" href="https://www.schoolphysics.co.uk/age16-19/Electricity%20and%20magnetism/Electromagnetic%20induction/text/Induced_emf_in_a_rotating_coil/index.html">Figure</a>)
-in a magnetic field under the conditions described below. Then an electromotive will
-be induced in the contour of the coil. Its amplitude depends on the number of turns in
-the coil, the magnetic flux density, the angular frequency of the coil’s rotation and
-the area of the coil’s contour.</p>
-<p><strong>Notes:</strong></p>
-<ol class="arabic simple">
-<li><p>The angle <span class="math notranslate nohighlight">\(\varphi\)</span> between the normal to the coil’s contour and the magnetic flux
-density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\omega t)\)</span>. See <a class="reference external" href="https://thefactfactor.com/wp-content/uploads/2020/03/Self-Induction-17.png">Figure</a>.</p></li>
-</ol>
-<p><strong>Conditions:</strong></p>
-<ol class="arabic simple">
-<li><p>The magnetic field is uniform.</p></li>
-<li><p>The angular velocity of the coil’s rotation is orthogonal to the magnetic field.</p></li>
-<li><p>The area of the coil’s contour is constant.</p></li>
-<li><p>The rotation of the coil is uniform.</p></li>
-</ol>
+  <section id="inductance-is-magnetic-flux-over-current">
+<h1>Inductance is magnetic flux over current<a class="headerlink" href="#inductance-is-magnetic-flux-over-current" title="Link to this heading">¶</a></h1>
+<p>Inductance is the tendency of an electrical component to oppose a change in the electric current
+flowing through it. It can be defined as the ratio of the total magnetic flux through a circuit
+due to the component over the current in it.</p>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.electromotive_force">
-<span class="sig-name descname"><span class="pre">electromotive_force</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.electromotive_force" title="Link to this definition">¶</a></dt>
-<dd><p>Electromotive force induced in the coil.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.inductance">
+<span class="sig-name descname"><span class="pre">inductance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.inductance" title="Link to this definition">¶</a></dt>
+<dd><p>Inductance.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mathcal{E}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(L\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.coil_turn_count">
-<span class="sig-name descname"><span class="pre">coil_turn_count</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.coil_turn_count" title="Link to this definition">¶</a></dt>
-<dd><p>Number of turns in the coil.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.magnetic_flux">
+<span class="sig-name descname"><span class="pre">magnetic_flux</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.magnetic_flux" title="Link to this definition">¶</a></dt>
+<dd><p>Magnetic flux due to the component.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Phi_B</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Phi_B\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_flux</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.magnetic_flux_density">
-<span class="sig-name descname"><span class="pre">magnetic_flux_density</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.magnetic_flux_density" title="Link to this definition">¶</a></dt>
-<dd><p>Magnetic flux density.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.current">
+<span class="sig-name descname"><span class="pre">current</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.current" title="Link to this definition">¶</a></dt>
+<dd><p>Current flowing through the circuit.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">I</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(I\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">current</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.contour_area">
-<span class="sig-name descname"><span class="pre">contour_area</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.contour_area" title="Link to this definition">¶</a></dt>
-<dd><p>Cross-sectional area of the contour enclosed by the coil.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
-</dd>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.law" title="Link to this definition">¶</a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Laws:symbols:<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p></dd>
 </dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.angular_frequency">
-<span class="sig-name descname"><span class="pre">angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.angular_frequency" title="Link to this definition">¶</a></dt>
-<dd><p>Angular frequency of the coil’s rotation.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">N</span> <span class="pre">*</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">w</span> <span class="pre">*</span> <span class="pre">sin(w</span> <span class="pre">*</span> <span class="pre">t)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\mathcal{E} = -N B A \omega \sin(\omega t)\]</div>
+\[L = \frac{\Phi_{B}}{I}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -161,6 +137,7 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.html"><strong>Electromagnetism (Vector)</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.absolute_permittivity_via_relative_permittivity.html">Absolute permittivity via relative permittivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.admittance_is_conductance_and_susceptance.html">Admittance is conductance and susceptance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.capacitance_from_charge_and_voltage.html">Capacitance from charge and voltage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.charge_is_quantized.html">Charge is quantized</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.current_is_voltage_over_resistance.html">Current is voltage over resistance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_charge_is_constant_in_isolated_system.html">Electric charge is constant in isolated system</a></li>
@@ -170,22 +147,23 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_is_force_over_test_charge.html">Electric field is force over test charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_of_uniformly_charged_plane.html">Electric field of uniformly charged plane</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_outside_charged_sphere.html">Electric field outside charged sphere</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Electromotive force induced in rotating coil</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.electromotive_force"><code class="docutils literal notranslate"><span class="pre">electromotive_force</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.coil_turn_count"><code class="docutils literal notranslate"><span class="pre">coil_turn_count</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.magnetic_flux_density"><code class="docutils literal notranslate"><span class="pre">magnetic_flux_density</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.contour_area"><code class="docutils literal notranslate"><span class="pre">contour_area</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.angular_frequency"><code class="docutils literal notranslate"><span class="pre">angular_frequency</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_coil.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
-</ul>
-</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge.html">Electrostatic potential is work to bring from reference point over charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_density_via_permittivity_and_electric_field.html">Energy density via permittivity and electric field</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_via_constant_power_and_time.html">Energy via constant power and time</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Inductance is magnetic flux over current</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.inductance"><code class="docutils literal notranslate"><span class="pre">inductance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.magnetic_flux"><code class="docutils literal notranslate"><span class="pre">magnetic_flux</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.current"><code class="docutils literal notranslate"><span class="pre">current</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_due_to_infinite_wire.html">Magnetic field due to infinite wire</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_of_coil.html">Magnetic field of coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field.html">Period of rotation of charged particle in magnetic field</a></li>
@@ -196,6 +174,8 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field.html">Radius of curvature of charged particle in magnetic field</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.resistance_via_resistivity_and_dimensions.html">Resistance via resistivity and dimensions</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current.html">Self-induced electromotive force via time derivative of current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.voltage_is_electric_field_times_distance.html">Voltage is electric field times distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.voltage_is_line_integral_of_electric_field.html">Voltage is line integral of electric field</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
@@ -223,8 +203,8 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.electricity.html">Electromagnetism</a><ul>
-      <li>Previous: <a href="laws.electricity.electric_field_outside_charged_sphere.html" title="previous chapter">Electric field outside charged sphere</a></li>
-      <li>Next: <a href="laws.electricity.electromotive_force_induced_in_rotating_rod.html" title="next chapter">Electromotive force induced in rotating rod</a></li>
+      <li>Previous: <a href="laws.electricity.energy_via_constant_power_and_time.html" title="previous chapter">Energy via constant power and time</a></li>
+      <li>Next: <a href="laws.electricity.magnetic_field_due_to_infinite_wire.html" title="next chapter">Magnetic field due to infinite wire</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -250,7 +230,7 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.electricity.electromotive_force_induced_in_rotating_coil.rst.txt"
+      <a href="_sources/laws.electricity.inductance_is_magnetic_flux_over_current.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

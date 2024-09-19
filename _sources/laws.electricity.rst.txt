@@ -17,6 +17,7 @@ Contents:
   laws.electricity.vector
   laws.electricity.absolute_permittivity_via_relative_permittivity
   laws.electricity.admittance_is_conductance_and_susceptance
+  laws.electricity.capacitance_from_charge_and_voltage
   laws.electricity.charge_is_quantized
   laws.electricity.current_is_voltage_over_resistance
   laws.electricity.electric_charge_is_constant_in_isolated_system
@@ -26,14 +27,17 @@ Contents:
   laws.electricity.electric_field_is_force_over_test_charge
   laws.electricity.electric_field_of_uniformly_charged_plane
   laws.electricity.electric_field_outside_charged_sphere
-  laws.electricity.electromotive_force_induced_in_rotating_coil
+  laws.electricity.electric_flux_through_closed_surface_via_total_charge
+  laws.electricity.electromotive_force_induced_in_moving_contour
   laws.electricity.electromotive_force_induced_in_rotating_rod
+  laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil
   laws.electricity.electrostatic_force_via_charges_and_distance
   laws.electricity.electrostatic_potential_due_to_point_charge
   laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance
   laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge
   laws.electricity.energy_density_via_permittivity_and_electric_field
   laws.electricity.energy_via_constant_power_and_time
+  laws.electricity.inductance_is_magnetic_flux_over_current
   laws.electricity.magnetic_field_due_to_infinite_wire
   laws.electricity.magnetic_field_of_coil
   laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field
@@ -44,3 +48,5 @@ Contents:
   laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field
   laws.electricity.resistance_via_resistivity_and_dimensions
   laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current
+  laws.electricity.voltage_is_electric_field_times_distance
+  laws.electricity.voltage_is_line_integral_of_electric_field

@@ -1,0 +1,88 @@
+Voltage is line integral of electric field
+------------------------------------------
+
+In electrostatics, voltage change between two points can be found as the line integral
+of the electric field along any path connecting the two points.
+
+**Conditions:**
+
+#. Applies to electrostatic fields, although electrostatic approximation might be
+   used for electromagnetic fields at lower frequencies.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.voltage_is_line_integral_of_electric_field
+
+.. py:data:: voltage
+
+    Voltage between two points.
+
+    Symbol:
+        :code:`V`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: electric_field_component
+
+    Component of the electric field vector tangent to the integration path.
+
+    Symbol:
+        :code:`E_s(s)`
+
+    Latex:
+        :math:`E_s`
+
+    Dimension:
+        :code:`voltage/length`
+
+.. py:data:: distance
+
+    Distance traveled.
+
+    Symbol:
+        :code:`s`
+
+    Latex:
+        :math:`s`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: initial_distance
+
+    Initial distance.
+
+    Symbol:
+        :code:`s_0`
+
+    Latex:
+        :math:`s_0`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: final_distance
+
+    Final distance.
+
+    Symbol:
+        :code:`s_1`
+
+    Latex:
+        :math:`s_1`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`V = -Integral(E_s(s), (s, s_0, s_1))`
+
+
+    Latex:
+        .. math::
+            V = - \int\limits_{s_{0}}^{s_{1}} E_{s}{\left(s \right)}\, ds
+
+
