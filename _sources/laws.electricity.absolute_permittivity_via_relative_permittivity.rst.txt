@@ -38,7 +38,8 @@ and vacuum permittivity.
 
 .. py:data:: law
 
-    :laws:symbols::
+    :code:`epsilon = epsilon_0 * epsilon_r`
+
 
     Latex:
         .. math::

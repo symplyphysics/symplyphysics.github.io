@@ -48,7 +48,8 @@ due to the component over the current in it.
 
 .. py:data:: law
 
-    :laws:symbols::
+    :code:`L = Phi_B / I`
+
 
     Latex:
         .. math::

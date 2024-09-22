@@ -21,7 +21,7 @@ conductor and voltage applied.
 
 .. py:data:: current
 
-    Electric ;symbols:`current`.
+    Electric :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
     Symbol:
         :code:`I`
