@@ -8,7 +8,7 @@ how flexible the spring is.
 
 .. py:data:: compliance
 
-    Compliance of the spring.
+    :attr:`~symplyphysics.symbols.classical_mechanics.compliance` of the spring.
 
     Symbol:
         :code:`c`
@@ -21,7 +21,7 @@ how flexible the spring is.
 
 .. py:data:: stiffness
 
-    Stiffness of the spring.
+    :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` of the spring.
 
     Symbol:
         :code:`k`

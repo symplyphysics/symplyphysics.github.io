@@ -7,13 +7,13 @@ Mass fraction is the ratio of the mass of a mixture component to the total mass 
 
 .. py:data:: mass_fraction
 
-    Mass fraction of the mixture component.
+    :attr:`~symplyphysics.symbols.chemistry.mass_fraction` of the mixture component.
 
     Symbol:
-        :code:`w`
+        :code:`w[i]`
 
     Latex:
-        :math:`\omega`
+        :math:`w_i`
 
     Dimension:
         :code:`dimensionless`
@@ -46,11 +46,11 @@ Mass fraction is the ratio of the mass of a mixture component to the total mass 
 
 .. py:data:: definition
 
-    :code:`w = m[i] / m`
+    :code:`w[i] = m[i] / m`
 
 
     Latex:
         .. math::
-            \omega = \frac{m_{i}}{m}
+            w_{i} = \frac{m_{i}}{m}
 
 

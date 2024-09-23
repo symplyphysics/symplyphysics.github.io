@@ -8,7 +8,7 @@ It is defined as the inverse of resistance.
 
 .. py:data:: conductance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.conductance` of the object.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` of the object.
 
     Symbol:
         :code:`G`

@@ -1,0 +1,35 @@
+Chemistry (Symbols)
+-------------------
+
+Symbols of physical quantities related to chemistry.
+
+.. py:currentmodule:: symplyphysics.symbols.chemistry
+
+.. py:data:: mass_fraction
+
+    **Mass fraction** of a substance within a mixture is the ratio of the mass of the substance to the total mass
+    of the mixture.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`w`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: amount_of_substance
+
+    **Amount of substance** in a given sample of matter is defined as a ratio between the number of elementary
+    entities and the Avogadro constant.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`amount_of_substance`
+

@@ -37,7 +37,7 @@
             
   <section id="thermodynamic-compressibility">
 <h1>Thermodynamic compressibility<a class="headerlink" href="#thermodynamic-compressibility" title="Link to this heading">¶</a></h1>
-<p><em>Compressibility</em>, or the <em>coefficient of compressibility</em>, is a measure of the instantaneous
+<p><strong>Compressibility</strong>, or the <strong>coefficient of compressibility</strong>, is a measure of the instantaneous
 relative volume change of a fluid or solid as a response to pressure or mean stress change.</p>
 <p><strong>Notes:</strong></p>
 <ol class="arabic simple">
@@ -50,11 +50,13 @@ is usually negligible.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.compressibility">
 <span class="sig-name descname"><span class="pre">compressibility</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.compressibility" title="Link to this definition">¶</a></dt>
-<dd><p>Compressibility of the gas.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.thermodynamic_compressibility" title="symplyphysics.symbols.thermodynamics.thermodynamic_compressibility"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thermodynamic_compressibility</span></code></a> of the gas.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\beta\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -62,9 +64,13 @@ is usually negligible.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.volume">
 <span class="sig-name descname"><span class="pre">volume</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.volume" title="Link to this definition">¶</a></dt>
-<dd><p>Volume of the gas as a function of pressure and other parameters.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the gas as a function of pressure and other parameters.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V(p)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -72,9 +78,13 @@ is usually negligible.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.pressure">
 <span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure in the gas.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> in the gas.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -82,7 +92,7 @@ is usually negligible.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">/</span> <span class="pre">V(p)</span> <span class="pre">*</span> <span class="pre">Derivative(V(p),</span> <span class="pre">p)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span> <span class="pre">=</span> <span class="pre">-Derivative(V(p),</span> <span class="pre">p)</span> <span class="pre">/</span> <span class="pre">V(p)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
 \[\beta = - \frac{1}{V(p)} \frac{\partial V}{\partial p}\]</div>
@@ -139,7 +149,6 @@ is usually negligible.</p></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.impedance_is_resistance_and_reactance.html">Impedance is resistance and reactance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.impulse_is_integral_of_force_over_time.html">Impulse is integral of force over time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area.html">Intensity of sound wave is rate of energy transfer over area</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.linear_charge_density_from_charge_and_length.html">Linear charge density from charge and length</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.linear_coefficient_of_thermal_expansion.html">Linear coefficient of thermal expansion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.lorentz_factor.html">Lorentz factor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.mass_flow_rate.html">Mass flow rate</a></li>
@@ -156,7 +165,6 @@ is usually negligible.</p></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.rotational_inertia_is_mass_times_squared_radius.html">Rotational inertia is mass times squared radius</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.sound_level_in_decibels.html">Sound level in decibels</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.speed_is_distance_derivative.html">Speed is distance derivative</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.surface_charge_density_from_charge_and_area.html">Surface charge density from charge and area</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_from_period.html">Temporal frequency from period</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_is_number_of_events_per_unit_time.html">Temporal frequency is number of events per unit time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.thermal_de_broglie_wavelength.html">Thermal de Broglie wavelength</a></li>

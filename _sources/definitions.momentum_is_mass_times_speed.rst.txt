@@ -7,7 +7,7 @@ Momentum is a physical quantity equal to the product of the object's speed and i
 
 .. py:data:: momentum
 
-    Momentum of the object.
+    :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object.
 
     Symbol:
         :code:`p`
@@ -20,7 +20,7 @@ Momentum is a physical quantity equal to the product of the object's speed and i
 
 .. py:data:: speed
 
-    Speed of the object.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
 
     Symbol:
         :code:`v`
@@ -46,11 +46,11 @@ Momentum is a physical quantity equal to the product of the object's speed and i
 
 .. py:data:: definition
 
-    :code:`p = m * v`
+    :code:`p = v * m`
 
 
     Latex:
         .. math::
-            p = m v
+            p = v m
 
 

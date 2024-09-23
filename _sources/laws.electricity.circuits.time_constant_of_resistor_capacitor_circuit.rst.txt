@@ -22,7 +22,7 @@ The time constant of an RC circuit is the time it takes for the current to becom
 
 .. py:data:: resistance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.resistance` of the resistor.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the resistor.
 
     Symbol:
         :code:`R`

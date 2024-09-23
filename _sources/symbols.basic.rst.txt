@@ -142,3 +142,30 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`power/area`
 
+.. py:data:: positive_number
+
+    A dimensionless **number** used for counting objects or instances.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: number_density
+
+    **Number density** is an intensive quantity used to describe the degree of concentration of countable objects
+    (particles, molecules, phonons, cells, galaxies, etc.) in physical space.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+

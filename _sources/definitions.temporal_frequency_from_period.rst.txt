@@ -9,23 +9,37 @@ for additional information.
 
 .. py:data:: temporal_frequency
 
-    Temporal frequency of oscillations.
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of oscillations.
 
     Symbol:
         :code:`f`
 
+    Latex:
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
+
 .. py:data:: period
 
-    Period of oscillations.
+    :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
     Symbol:
         :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: law
 
     :code:`f = 1 / T`
 
+
     Latex:
         .. math::
             f = \frac{1}{T}
+
 

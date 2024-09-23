@@ -8,7 +8,7 @@ rate at which work is done.
 
 .. py:data:: power
 
-    Power as a function of time.
+    :attr:`~symplyphysics.symbols.basic.power` as a function of time.
 
     Symbol:
         :code:`P(t)`
@@ -21,7 +21,7 @@ rate at which work is done.
 
 .. py:data:: energy
 
-    Energy as a function of time.
+    :attr:`~symplyphysics.symbols.basic.energy` as a function of time.
 
     Symbol:
         :code:`E(t)`
@@ -34,7 +34,7 @@ rate at which work is done.
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`

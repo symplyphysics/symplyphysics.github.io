@@ -38,10 +38,10 @@
   <section id="thermal-de-broglie-wavelength">
 <h1>Thermal de Broglie wavelength<a class="headerlink" href="#thermal-de-broglie-wavelength" title="Link to this heading">¶</a></h1>
 <p>The thermal de Broglie wavelength can be roughly described as the average de Broglie wavelength
-of particles in an ideal gas at a specified temperature. When compared to average interparticle
+of particles in an ideal gas at a specified temperature. When compared to average inter-particle
 spacing in the gas, it can be used to tell if the gas can be considered to be a classical or
 Maxwell-Boltzmann gas, in which case the thermal wavelength must be much smaller than the average
-interparticle spacing. Otherwise, quantum effects must be taken into account.</p>
+inter-particle spacing. Otherwise, quantum effects must be taken into account.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
 <li><p><span class="math notranslate nohighlight">\(\hbar\)</span> (<code class="code docutils literal notranslate"><span class="pre">hbar</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.hbar" title="symplyphysics.quantities.hbar"><code class="xref py py-attr docutils literal notranslate"><span class="pre">hbar</span></code></a>.</p></li>
@@ -50,11 +50,13 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.</p
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermal_de_broglie_wavelength.thermal_wavelength">
 <span class="sig-name descname"><span class="pre">thermal_wavelength</span></span><a class="headerlink" href="#symplyphysics.definitions.thermal_de_broglie_wavelength.thermal_wavelength" title="Link to this definition">¶</a></dt>
-<dd><p>Thermal de Broglies wavelength of the gas.</p>
+<dd><p>Thermal de Broglie <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.wavelength" title="symplyphysics.symbols.classical_mechanics.wavelength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">wavelength</span></code></a> of the gas.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">lambda</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\lambda\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -90,10 +92,10 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.</p
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermal_de_broglie_wavelength.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.thermal_de_broglie_wavelength.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">lambda</span> <span class="pre">=</span> <span class="pre">hbar</span> <span class="pre">*</span> <span class="pre">sqrt(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">/</span> <span class="pre">(m</span> <span class="pre">*</span> <span class="pre">k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">lambda</span> <span class="pre">=</span> <span class="pre">sqrt(2)</span> <span class="pre">*</span> <span class="pre">sqrt(pi)</span> <span class="pre">*</span> <span class="pre">sqrt(1</span> <span class="pre">/</span> <span class="pre">(m</span> <span class="pre">*</span> <span class="pre">T))</span> <span class="pre">*</span> <span class="pre">hbar</span> <span class="pre">/</span> <span class="pre">sqrt(k_B)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\lambda = \hbar \sqrt{\frac{2 \pi}{m k_\text{B} T}}\]</div>
+\[\lambda = \frac{\sqrt{2} \sqrt{\pi} \sqrt{\frac{1}{m T}} \hbar}{\sqrt{k_\text{B}}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -147,7 +149,6 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.</p
 <li class="toctree-l2"><a class="reference internal" href="definitions.impedance_is_resistance_and_reactance.html">Impedance is resistance and reactance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.impulse_is_integral_of_force_over_time.html">Impulse is integral of force over time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area.html">Intensity of sound wave is rate of energy transfer over area</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.linear_charge_density_from_charge_and_length.html">Linear charge density from charge and length</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.linear_coefficient_of_thermal_expansion.html">Linear coefficient of thermal expansion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.lorentz_factor.html">Lorentz factor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.mass_flow_rate.html">Mass flow rate</a></li>
@@ -164,7 +165,6 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.</p
 <li class="toctree-l2"><a class="reference internal" href="definitions.rotational_inertia_is_mass_times_squared_radius.html">Rotational inertia is mass times squared radius</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.sound_level_in_decibels.html">Sound level in decibels</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.speed_is_distance_derivative.html">Speed is distance derivative</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.surface_charge_density_from_charge_and_area.html">Surface charge density from charge and area</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_from_period.html">Temporal frequency from period</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_is_number_of_events_per_unit_time.html">Temporal frequency is number of events per unit time</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Thermal de Broglie wavelength</a><ul>

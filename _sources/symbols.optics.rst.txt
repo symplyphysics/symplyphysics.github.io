@@ -1,0 +1,48 @@
+Optics (Symbols)
+----------------
+
+Symbols related to optics.
+
+.. py:currentmodule:: symplyphysics.symbols.optics
+
+.. py:data:: relative_refractive_index
+
+    **Relative refractive index** of of an optical medium is a dimensionless number that gives the
+    indication of the light bending ability of that medium. It is defined relative to a certain medium.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: radiant_exitance
+
+    **Radiant exitance** or **radiant emittance** is the radiant flux emitted by a surface per unit area.
+
+    Symbol:
+        :code:`M_e`
+
+    Latex:
+        :math:`M_\text{e}`
+
+    Dimension:
+        :code:`power/area`
+
+.. py:data:: radiant_flux
+
+    **Radiant flux** or **radiant power** is the radiant energy emitted, reflected, transmitted, or
+    received per unit time.
+
+    Symbol:
+        :code:`Phi_e`
+
+    Latex:
+        :math:`\Phi_\text{e}`
+
+    Dimension:
+        :code:`power`
+

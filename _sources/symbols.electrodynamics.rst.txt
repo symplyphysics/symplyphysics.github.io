@@ -19,7 +19,7 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`conductance`
 
-.. py:data:: conductance
+.. py:data:: electrical_conductance
 
     **Conductance** is the ability of charge to flow in a certain path. It is the reciprocal of electrical resistance.
 
@@ -167,7 +167,7 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`current`
 
-.. py:data:: resistance
+.. py:data:: electrical_resistance
 
     **Resistance** is the measure of the degree to which a conductor opposes an electric current through that conductor.
     It is the real part of the complex-valued impedance.
@@ -277,7 +277,7 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`dimensionless`
 
-.. py:data:: resistivity
+.. py:data:: electrical_resistivity
 
     **Electrical resistivity** is a fundamental specific property of a material that measures its electrical resistance or how
     strongly it resists electric current.
@@ -318,7 +318,7 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`time`
 
-.. py:data:: reactance
+.. py:data:: electrical_reactance
 
     **Reactance** is the opposition presented to alternating current by inductance and capacitance.
 

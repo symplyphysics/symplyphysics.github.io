@@ -41,11 +41,15 @@
 practice for insulators: greater values of thermal resistance mean better insulation properties of
 a material of given thickness.</p>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.definitions.thermal_resistance_to_conduction.thermal_resistance">
-<span class="sig-name descname"><span class="pre">thermal_resistance</span></span><a class="headerlink" href="#symplyphysics.definitions.thermal_resistance_to_conduction.thermal_resistance" title="Link to this definition">¶</a></dt>
-<dd><p>Thermal resistance to conduction of the insulator, also called R-value.</p>
+<dt class="sig sig-object py" id="symplyphysics.definitions.thermal_resistance_to_conduction.thermal_insulance">
+<span class="sig-name descname"><span class="pre">thermal_insulance</span></span><a class="headerlink" href="#symplyphysics.definitions.thermal_resistance_to_conduction.thermal_insulance" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.thermal_insulance" title="symplyphysics.symbols.thermodynamics.thermal_insulance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thermal_insulance</span></code></a> of the insulator, also called an <strong>R-value</strong>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R_val</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_\text{val}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area*temperature/power</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -53,9 +57,13 @@ a material of given thickness.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermal_resistance_to_conduction.slab_thickness">
 <span class="sig-name descname"><span class="pre">slab_thickness</span></span><a class="headerlink" href="#symplyphysics.definitions.thermal_resistance_to_conduction.slab_thickness" title="Link to this definition">¶</a></dt>
-<dd><p>Thickness of the insulator.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.thickness" title="symplyphysics.symbols.classical_mechanics.thickness"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thickness</span></code></a> of the insulator.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">l</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -63,9 +71,13 @@ a material of given thickness.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermal_resistance_to_conduction.thermal_conductivity">
 <span class="sig-name descname"><span class="pre">thermal_conductivity</span></span><a class="headerlink" href="#symplyphysics.definitions.thermal_resistance_to_conduction.thermal_conductivity" title="Link to this definition">¶</a></dt>
-<dd><p>Thermal conductivity of the insulating material.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.thermal_conductivity" title="symplyphysics.symbols.thermodynamics.thermal_conductivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thermal_conductivity</span></code></a> of the insulating material.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">power/(length*temperature)</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -73,10 +85,10 @@ a material of given thickness.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermal_resistance_to_conduction.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.thermal_resistance_to_conduction.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">R</span> <span class="pre">=</span> <span class="pre">l</span> <span class="pre">/</span> <span class="pre">k</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">R_val</span> <span class="pre">=</span> <span class="pre">d</span> <span class="pre">/</span> <span class="pre">k</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[R = \frac{l}{k}\]</div>
+\[R_\text{val} = \frac{d}{k}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -130,7 +142,6 @@ a material of given thickness.</p>
 <li class="toctree-l2"><a class="reference internal" href="definitions.impedance_is_resistance_and_reactance.html">Impedance is resistance and reactance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.impulse_is_integral_of_force_over_time.html">Impulse is integral of force over time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area.html">Intensity of sound wave is rate of energy transfer over area</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.linear_charge_density_from_charge_and_length.html">Linear charge density from charge and length</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.linear_coefficient_of_thermal_expansion.html">Linear coefficient of thermal expansion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.lorentz_factor.html">Lorentz factor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.mass_flow_rate.html">Mass flow rate</a></li>
@@ -147,12 +158,11 @@ a material of given thickness.</p>
 <li class="toctree-l2"><a class="reference internal" href="definitions.rotational_inertia_is_mass_times_squared_radius.html">Rotational inertia is mass times squared radius</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.sound_level_in_decibels.html">Sound level in decibels</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.speed_is_distance_derivative.html">Speed is distance derivative</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.surface_charge_density_from_charge_and_area.html">Surface charge density from charge and area</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_from_period.html">Temporal frequency from period</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_is_number_of_events_per_unit_time.html">Temporal frequency is number of events per unit time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.thermal_de_broglie_wavelength.html">Thermal de Broglie wavelength</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Thermal resistance to conduction</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermal_resistance_to_conduction.thermal_resistance"><code class="docutils literal notranslate"><span class="pre">thermal_resistance</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermal_resistance_to_conduction.thermal_insulance"><code class="docutils literal notranslate"><span class="pre">thermal_insulance</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermal_resistance_to_conduction.slab_thickness"><code class="docutils literal notranslate"><span class="pre">slab_thickness</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermal_resistance_to_conduction.thermal_conductivity"><code class="docutils literal notranslate"><span class="pre">thermal_conductivity</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermal_resistance_to_conduction.definition"><code class="docutils literal notranslate"><span class="pre">definition</span></code></a></li>

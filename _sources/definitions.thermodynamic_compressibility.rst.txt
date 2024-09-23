@@ -1,7 +1,7 @@
 Thermodynamic compressibility
 -----------------------------
 
-*Compressibility*, or the *coefficient of compressibility*, is a measure of the instantaneous
+**Compressibility**, or the **coefficient of compressibility**, is a measure of the instantaneous
 relative volume change of a fluid or solid as a response to pressure or mean stress change.
 
 **Notes:**
@@ -16,7 +16,7 @@ relative volume change of a fluid or solid as a response to pressure or mean str
 
 .. py:data:: compressibility
 
-    Compressibility of the gas.
+    :attr:`~symplyphysics.symbols.thermodynamics.thermodynamic_compressibility` of the gas.
 
     Symbol:
         :code:`beta`
@@ -24,23 +24,43 @@ relative volume change of a fluid or solid as a response to pressure or mean str
     Latex:
         :math:`\beta`
 
+    Dimension:
+        :code:`1/pressure`
+
 .. py:data:: volume
 
-    Volume of the gas as a function of pressure and other parameters.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas as a function of pressure and other parameters.
 
     Symbol:
         :code:`V(p)`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: pressure
 
-    Pressure in the gas.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the gas.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: definition
 
-    :code:`beta = -1 / V(p) * Derivative(V(p), p)`
+    :code:`beta = -Derivative(V(p), p) / V(p)`
+
+
+    .. only:: comment
+
+        The derivative is partial since more parameters are needed to evaluate it properly
 
     Latex:
         .. math::

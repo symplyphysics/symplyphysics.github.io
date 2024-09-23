@@ -28,7 +28,6 @@ Contents:
   definitions.impedance_is_resistance_and_reactance
   definitions.impulse_is_integral_of_force_over_time
   definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area
-  definitions.linear_charge_density_from_charge_and_length
   definitions.linear_coefficient_of_thermal_expansion
   definitions.lorentz_factor
   definitions.mass_flow_rate
@@ -45,7 +44,6 @@ Contents:
   definitions.rotational_inertia_is_mass_times_squared_radius
   definitions.sound_level_in_decibels
   definitions.speed_is_distance_derivative
-  definitions.surface_charge_density_from_charge_and_area
   definitions.temporal_frequency_from_period
   definitions.temporal_frequency_is_number_of_events_per_unit_time
   definitions.thermal_de_broglie_wavelength

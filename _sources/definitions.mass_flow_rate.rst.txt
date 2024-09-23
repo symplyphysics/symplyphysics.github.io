@@ -8,7 +8,7 @@ from a certain volume, the flow in a pipe section, the combustion of fuel.
 
 .. py:data:: mass_flow_rate
 
-    Mass flow rate as a function of time.
+    :attr:`~symplyphysics.symbols.classical_mechanics.mass_flow_rate` as a function of time.
 
     Symbol:
         :code:`mu(t)`
@@ -34,7 +34,7 @@ from a certain volume, the flow in a pipe section, the combustion of fuel.
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`

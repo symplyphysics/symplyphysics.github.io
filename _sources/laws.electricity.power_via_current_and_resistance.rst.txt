@@ -35,7 +35,7 @@ instantaneous power in the circuit.
 
 .. py:data:: resistance
 
-    Electrical :attr:`~symplyphysics.symbols.electrodynamics.resistance`.
+    Electrical :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance`.
 
     Symbol:
         :code:`R`

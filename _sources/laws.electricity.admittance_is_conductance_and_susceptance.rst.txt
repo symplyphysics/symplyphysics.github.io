@@ -21,7 +21,7 @@ and whose imaginary part is called susceptance.
 
 .. py:data:: conductance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.conductance`.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance`.
 
     Symbol:
         :code:`G`

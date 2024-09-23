@@ -12,7 +12,7 @@ at constant pressure.
 
 .. py:data:: volumetric_expansion_coefficient
 
-    Volumetric coefficient of thermal expansion.
+    Volumetric :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient`.
 
     Symbol:
         :code:`alpha_V`
@@ -20,12 +20,21 @@ at constant pressure.
     Latex:
         :math:`\alpha_V`
 
+    Dimension:
+        :code:`1/temperature`
+
 .. py:data:: volume
 
-    Volume of the body as a function of temperature and pressure.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the body as a function of temperature and pressure.
 
     Symbol:
         :code:`V(T, p)`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: temperature
 
@@ -42,9 +51,14 @@ at constant pressure.
 
 .. py:data:: definition
 
-    :code:`alpha_V = 1 / V(T, p) * Derivative(V(T, p), T)`
+    :code:`alpha_V = Derivative(V(T, p), T) / V(T, p)`
 
-    Lambda:
+
+    .. only:: comment
+
+        Manual formula due to partial derivative not rendered by auto-generation
+
+    Latex:
         .. math::
             \alpha_V = \frac{1}{V(T, p)} \left( \frac{\partial V}{\partial T} \right)_p
 

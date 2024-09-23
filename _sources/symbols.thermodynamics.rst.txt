@@ -61,3 +61,72 @@ Symbols related to thermodynamics.
     Dimension:
         :code:`1/temperature`
 
+.. py:data:: thermodynamic_compressibility
+
+    **Compressibility** is a measure of the instantaneous relative volume change of a fluid or solid as a response
+    to a pressure or mean stress change.
+
+    Symbol:
+        :code:`beta`
+
+    Latex:
+        :math:`\beta`
+
+    Dimension:
+        :code:`1/pressure`
+
+.. py:data:: thermal_resistance
+
+    **Thermal resistance** measures the opposition to the heat current in a material or system.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`temperature/power`
+
+.. py:data:: thermal_conductivity
+
+    **Thermal conductivity** of a material is a measure of its ability to conduct heat. It is defined as the
+    proportionality coefficient between the heat flux and the temperature gradient.
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`power/(length*temperature)`
+
+.. py:data:: thermal_insulance
+
+    The **R-value**, or **thermal insulance**, is a measure of how well a two-dimensional barrier, such as a layer of
+    insulation, a window or a complete wall or ceiling, resists the conductive flow of heat, in the context of construction.
+
+    Symbol:
+        :code:`R_val`
+
+    Latex:
+        :math:`R_\text{val}`
+
+    Dimension:
+        :code:`area*temperature/power`
+
+.. py:data:: compressibility_factor
+
+    The **compressibility factor**, also known as the **compression factor** or the **gas deviation factor**,
+    describes the deviation of a real gas from ideal gas behavior.
+
+    Symbol:
+        :code:`Z`
+
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`dimensionless`
+

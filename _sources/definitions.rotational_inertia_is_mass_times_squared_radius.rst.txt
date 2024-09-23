@@ -12,10 +12,16 @@ be inertial during rotation. It is a rotational analog of mass in linear motion.
 
 .. py:data:: rotational_inertia
 
-    Rotational inertia of the material point.
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the material point.
 
     Symbol:
         :code:`I`
+
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
 
 .. py:data:: mass
 
@@ -32,16 +38,24 @@ be inertial during rotation. It is a rotational analog of mass in linear motion.
 
 .. py:data:: radial_distance
 
-    Distance to the axis of rotation.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_axis` of rotation.
 
     Symbol:
         :code:`r`
 
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: definition
 
-    :code:`I = m * r^2`
+    :code:`I = r^2 * m`
+
 
     Latex:
         .. math::
-            I = m r^2
+            I = m r^{2}
+
 

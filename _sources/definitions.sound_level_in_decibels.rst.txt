@@ -8,40 +8,49 @@ intensity.
 
 .. py:data:: sound_level
 
-    Sound level of the sound wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.sound_intensity_level` of the sound wave.
 
     Symbol:
-        :code:`beta`
+        :code:`L_I`
 
     Latex:
-        :math:`\beta`
+        :math:`L_I`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: intensity
 
-    Intensity of the sound wave.
+    :attr:`~symplyphysics.symbols.basic.intensity` of the sound wave.
 
     Symbol:
         :code:`I`
+
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`power/area`
 
 .. py:data:: reference_sound_level
 
     The sound level when the wave's intensity equals the reference intensity.
 
     Symbol:
-        :code:`beta0`
+        :code:`L_I0`
 
     Latex:
-        :math:`\beta_0`
+        :math:`L_{I0}`
 
     Dimension:
         :code:`dimensionless`
 
 .. py:data:: reference_intensity
 
-    The intensity of a sound wave, relative to which the sound level is measured.
+    The intensity of a sound wave relative to which the sound level is measured.
 
     Symbol:
-        :code:`I0`
+        :code:`I_0`
 
     Latex:
         :math:`I_0`
@@ -51,7 +60,11 @@ intensity.
 
 .. py:data:: definition
 
-    :code:`beta = beta0 * log10(I / I0)`
+    .. only:: comment
+
+        Manual formulas are required since sympy does not handle logarithms with arbitrary bases well.
+
+    :code:`beta = beta0 * log_10(I / I0)`
 
     Latex:
         .. math::

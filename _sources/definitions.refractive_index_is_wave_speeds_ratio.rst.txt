@@ -15,14 +15,20 @@ slower the wave propagates in the refracting medium relative to the incident med
 
 .. py:data:: relative_refractive_index
 
-    Relative refractive index between two media.
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` between the two media.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: incident_wave_speed
 
-    Speed of the incident wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the incident wave.
 
     Symbol:
         :code:`v_incident`
@@ -30,9 +36,12 @@ slower the wave propagates in the refracting medium relative to the incident med
     Latex:
         :math:`v_\text{incident}`
 
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: refracted_wave_speed
 
-    Speed of the refracted wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the refracted wave.
 
     Symbol:
         :code:`v_refracted`
@@ -40,11 +49,16 @@ slower the wave propagates in the refracting medium relative to the incident med
     Latex:
         :math:`v_\text{refracted}`
 
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: definition
 
     :code:`n = v_incident / v_refracted`
 
+
     Latex:
         .. math::
             n = \frac{v_\text{incident}}{v_\text{refracted}}
+
 

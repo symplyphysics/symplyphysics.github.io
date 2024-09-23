@@ -17,7 +17,7 @@ property of the material and does not depend on its geometry.
 
 .. py:data:: resistance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.resistance` of the conductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the conductor.
 
     Symbol:
         :code:`R`
@@ -30,7 +30,7 @@ property of the material and does not depend on its geometry.
 
 .. py:data:: resistivity
 
-    :attr:`~symplyphysics.symbols.electrodynamics.resistivity` of the material.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistivity` of the material.
 
     Symbol:
         :code:`rho`

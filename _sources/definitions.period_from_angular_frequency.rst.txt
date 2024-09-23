@@ -9,7 +9,7 @@ The Period is inversely proportional to the angular frequency of oscillations. S
 
 .. py:data:: period
 
-    Period of oscillations.
+    :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
     Symbol:
         :code:`T`
@@ -22,7 +22,7 @@ The Period is inversely proportional to the angular frequency of oscillations. S
 
 .. py:data:: angular_frequency
 
-    Angular, or circular, frequency of oscillations.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of oscillations.
 
     Symbol:
         :code:`w`
@@ -31,7 +31,7 @@ The Period is inversely proportional to the angular frequency of oscillations. S
         :math:`\omega`
 
     Dimension:
-        :code:`frequency`
+        :code:`angle/time`
 
 .. py:data:: law
 

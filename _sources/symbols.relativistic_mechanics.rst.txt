@@ -1,0 +1,21 @@
+Relativistic mechanics (Symbols)
+--------------------------------
+
+Symbols related to relativistic mechanics.
+
+.. py:currentmodule:: symplyphysics.symbols.relativistic_mechanics
+
+.. py:data:: lorentz_factor
+
+    **Lorentz factor** is a quantity expressing how much the measurements of time, length, and other physical
+    properties change for an object while it moves.
+
+    Symbol:
+        :code:`gamma`
+
+    Latex:
+        :math:`\gamma`
+
+    Dimension:
+        :code:`dimensionless`
+

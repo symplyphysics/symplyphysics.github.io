@@ -7,32 +7,52 @@ a material of given thickness.
 
 .. py:currentmodule:: symplyphysics.definitions.thermal_resistance_to_conduction
 
-.. py:data:: thermal_resistance
+.. py:data:: thermal_insulance
 
-    Thermal resistance to conduction of the insulator, also called R-value.
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_insulance` of the insulator, also called an **R-value**.
 
     Symbol:
-        :code:`R`
+        :code:`R_val`
+
+    Latex:
+        :math:`R_\text{val}`
+
+    Dimension:
+        :code:`area*temperature/power`
 
 .. py:data:: slab_thickness
 
-    Thickness of the insulator.
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the insulator.
 
     Symbol:
-        :code:`l`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: thermal_conductivity
 
-    Thermal conductivity of the insulating material.
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the insulating material.
 
     Symbol:
         :code:`k`
 
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`power/(length*temperature)`
+
 .. py:data:: definition
 
-    :code:`R = l / k`
+    :code:`R_val = d / k`
+
 
     Latex:
         .. math::
-            R = \frac{l}{k}
+            R_\text{val} = \frac{d}{k}
+
 

@@ -34,7 +34,7 @@ inversely proportional to its resistance. This is also known as the **Ohm's law*
 
 .. py:data:: resistance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.resistance` of the conductor.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the conductor.
 
     Symbol:
         :code:`R`

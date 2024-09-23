@@ -42,11 +42,13 @@ intensity.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.sound_level_in_decibels.sound_level">
 <span class="sig-name descname"><span class="pre">sound_level</span></span><a class="headerlink" href="#symplyphysics.definitions.sound_level_in_decibels.sound_level" title="Link to this definition">¶</a></dt>
-<dd><p>Sound level of the sound wave.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.sound_intensity_level" title="symplyphysics.symbols.classical_mechanics.sound_intensity_level"><code class="xref py py-attr docutils literal notranslate"><span class="pre">sound_intensity_level</span></code></a> of the sound wave.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L_I</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\beta\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(L_I\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -54,9 +56,13 @@ intensity.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.sound_level_in_decibels.intensity">
 <span class="sig-name descname"><span class="pre">intensity</span></span><a class="headerlink" href="#symplyphysics.definitions.sound_level_in_decibels.intensity" title="Link to this definition">¶</a></dt>
-<dd><p>Intensity of the sound wave.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.intensity" title="symplyphysics.symbols.basic.intensity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">intensity</span></code></a> of the sound wave.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">I</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(I\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">power/area</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -66,9 +72,9 @@ intensity.</p>
 <span class="sig-name descname"><span class="pre">reference_sound_level</span></span><a class="headerlink" href="#symplyphysics.definitions.sound_level_in_decibels.reference_sound_level" title="Link to this definition">¶</a></dt>
 <dd><p>The sound level when the wave’s intensity equals the reference intensity.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">beta0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L_I0</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\beta_0\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(L_{I0}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
@@ -78,9 +84,9 @@ intensity.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.sound_level_in_decibels.reference_intensity">
 <span class="sig-name descname"><span class="pre">reference_intensity</span></span><a class="headerlink" href="#symplyphysics.definitions.sound_level_in_decibels.reference_intensity" title="Link to this definition">¶</a></dt>
-<dd><p>The intensity of a sound wave, relative to which the sound level is measured.</p>
+<dd><p>The intensity of a sound wave relative to which the sound level is measured.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">I0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">I_0</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(I_0\)</span></p>
 </dd>
@@ -92,7 +98,7 @@ intensity.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.sound_level_in_decibels.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.sound_level_in_decibels.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span> <span class="pre">=</span> <span class="pre">beta0</span> <span class="pre">*</span> <span class="pre">log10(I</span> <span class="pre">/</span> <span class="pre">I0)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span> <span class="pre">=</span> <span class="pre">beta0</span> <span class="pre">*</span> <span class="pre">log_10(I</span> <span class="pre">/</span> <span class="pre">I0)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
 \[\beta = \beta_0 \log_{10} \left( \frac{I}{I_0} \right)\]</div>
@@ -149,7 +155,6 @@ intensity.</p>
 <li class="toctree-l2"><a class="reference internal" href="definitions.impedance_is_resistance_and_reactance.html">Impedance is resistance and reactance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.impulse_is_integral_of_force_over_time.html">Impulse is integral of force over time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area.html">Intensity of sound wave is rate of energy transfer over area</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.linear_charge_density_from_charge_and_length.html">Linear charge density from charge and length</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.linear_coefficient_of_thermal_expansion.html">Linear coefficient of thermal expansion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.lorentz_factor.html">Lorentz factor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.mass_flow_rate.html">Mass flow rate</a></li>
@@ -173,7 +178,6 @@ intensity.</p>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.speed_is_distance_derivative.html">Speed is distance derivative</a></li>
-<li class="toctree-l2"><a class="reference internal" href="definitions.surface_charge_density_from_charge_and_area.html">Surface charge density from charge and area</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_from_period.html">Temporal frequency from period</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.temporal_frequency_is_number_of_events_per_unit_time.html">Temporal frequency is number of events per unit time</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.thermal_de_broglie_wavelength.html">Thermal de Broglie wavelength</a></li>

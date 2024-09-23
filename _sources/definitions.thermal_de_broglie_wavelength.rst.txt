@@ -2,10 +2,10 @@ Thermal de Broglie wavelength
 -----------------------------
 
 The thermal de Broglie wavelength can be roughly described as the average de Broglie wavelength
-of particles in an ideal gas at a specified temperature. When compared to average interparticle
+of particles in an ideal gas at a specified temperature. When compared to average inter-particle
 spacing in the gas, it can be used to tell if the gas can be considered to be a classical or
 Maxwell-Boltzmann gas, in which case the thermal wavelength must be much smaller than the average
-interparticle spacing. Otherwise, quantum effects must be taken into account.
+inter-particle spacing. Otherwise, quantum effects must be taken into account.
 
 **Notation:**
 
@@ -16,13 +16,16 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.
 
 .. py:data:: thermal_wavelength
 
-    Thermal de Broglies wavelength of the gas.
+    Thermal de Broglie :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the gas.
 
     Symbol:
         :code:`lambda`
 
     Latex:
         :math:`\lambda`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: mass
 
@@ -52,9 +55,11 @@ interparticle spacing. Otherwise, quantum effects must be taken into account.
 
 .. py:data:: definition
 
-    :code:`lambda = hbar * sqrt(2 * pi / (m * k_B * T))`
+    :code:`lambda = sqrt(2) * sqrt(pi) * sqrt(1 / (m * T)) * hbar / sqrt(k_B)`
+
 
     Latex:
         .. math::
-            \lambda = \hbar \sqrt{\frac{2 \pi}{m k_\text{B} T}}
+            \lambda = \frac{\sqrt{2} \sqrt{\pi} \sqrt{\frac{1}{m T}} \hbar}{\sqrt{k_\text{B}}}
+
 

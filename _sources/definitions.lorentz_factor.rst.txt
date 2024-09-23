@@ -1,15 +1,19 @@
 Lorentz factor
 --------------
 
-*Lorentz factor*, also known as *Lorentz term* or *gamma factor*, is a quantity that
+**Lorentz factor**, also known as **Lorentz term** or **gamma factor**, is a quantity that
 expresses how much the measurements of time, length, and other physical properties
 change for a body while it is moving.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
 .. py:currentmodule:: symplyphysics.definitions.lorentz_factor
 
 .. py:data:: lorentz_factor
 
-    Lorentz factor of the body.
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.lorentz_factor` of the body.
 
     Symbol:
         :code:`gamma`
@@ -22,26 +26,13 @@ change for a body while it is moving.
 
 .. py:data:: speed
 
-    Speed of the body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body.
 
     Symbol:
         :code:`v`
 
     Latex:
         :math:`v`
-
-    Dimension:
-        :code:`velocity`
-
-.. py:data:: speed_of_light
-
-    :attr:`~symplyphysics.quantities.speed_of_light`
-
-    Symbol:
-        :code:`c`
-
-    Latex:
-        :math:`c`
 
     Dimension:
         :code:`velocity`

@@ -11,6 +11,9 @@ Contents:
   :maxdepth: 4
 
   symbols.basic
+  symbols.chemistry
   symbols.classical_mechanics
   symbols.electrodynamics
+  symbols.optics
+  symbols.relativistic_mechanics
   symbols.thermodynamics

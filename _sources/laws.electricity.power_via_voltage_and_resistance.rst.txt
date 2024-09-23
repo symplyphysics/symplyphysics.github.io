@@ -33,7 +33,7 @@ Power can be found using voltage and resistance.
 
 .. py:data:: resistance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.resistance`.
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance`.
 
     Symbol:
         :code:`R`

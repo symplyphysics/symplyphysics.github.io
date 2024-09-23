@@ -7,7 +7,7 @@ Mechanical energy is kinetic and potential energy
 
 .. py:data:: mechanical_energy
 
-    Mechanical energy of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` of the system.
 
     Symbol:
         :code:`E`
@@ -20,7 +20,7 @@ Mechanical energy is kinetic and potential energy
 
 .. py:data:: kinetic_energy
 
-    Kinetic energy of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the system.
 
     Symbol:
         :code:`K`
@@ -33,7 +33,7 @@ Mechanical energy is kinetic and potential energy
 
 .. py:data:: potential_energy
 
-    Potential energy of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the system.
 
     Symbol:
         :code:`U`

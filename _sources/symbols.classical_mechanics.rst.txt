@@ -46,6 +46,19 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`acceleration`
 
+.. py:data:: position
+
+    **Position** is defined as the spatial location of an object with respect to a coordinate system.
+
+    Symbol:
+        :code:`x`
+
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: distance
 
     **Distance** is is a measure of the spatial separation between two points.
@@ -94,6 +107,20 @@ Symbols related to classical mechanics.
 
     Latex:
         :math:`l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: thickness
+
+    **Thickness** is a measure of a size of an object, usually the separation between two layers, or
+    the distance through an object distinct from length and width.
+
+    Symbol:
+        :code:`d`
+
+    Latex:
+        :math:`d`
 
     Dimension:
         :code:`length`
@@ -228,4 +255,179 @@ Symbols related to classical mechanics.
 
     Dimension:
         :code:`momentum`
+
+.. py:data:: phase_speed
+
+    **Phase speed** is the speed at which the phase of the wave travels.
+
+    Symbol:
+        :code:`v`
+
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: pressure
+
+    **Pressure** is the force applied perpendicular to the surface of an object per unit area over which
+    that force is distributed.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: temporal_frequency
+
+    **Temporal frequency** is the number of occurrences of a repeating event per unit of time.
+
+    Symbol:
+        :code:`f`
+
+    Latex:
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: sound_intensity_level
+
+    **Sound intensity level** is the measure of the *intensity* of a sound relative to a reference value.
+
+    Symbol:
+        :code:`L_I`
+
+    Latex:
+        :math:`L_I`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: rotational_inertia
+
+    **Rotational inertia**, also known as **moment of inertia**, is defined relative to a rotational axis
+    and is the ratio between the torque applied and the resulting angular acceleration about that axis.
+
+    Symbol:
+        :code:`I`
+
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
+.. py:data:: quality_factor
+
+    **Quality factor** or **Q factor** is a dimensionless parameter that describes how underdamped an
+    oscillator or resonator is.
+
+    Symbol:
+        :code:`Q`
+
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: momentum
+
+    **Momentum**, more specifically **linear** or **transitional momentum**, is the product of the mass and
+    velocity of an object.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`momentum`
+
+.. py:data:: mechanical_energy
+
+    **Mechanical energy** is defined to be the sum of potential energy and kinetic energy.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: kinetic_energy
+
+    **Kinetic energy** of an object is the form of energy that it possesses due to its motion.
+
+    Symbol:
+        :code:`K`
+
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: potential_energy
+
+    **Potential energy** is the energy held by an object because of its position relative to other objects,
+    stresses within itself, its electric charge, or other factors. Potential energy is associated with so
+    called conservative forces and only depends on the initial and final positions of the body in space.
+
+    Symbol:
+        :code:`U`
+
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: mass_flow_rate
+
+    **Mass flow rate** is the mass of a substance which passes per unit of time.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`mass/time`
+
+.. py:data:: stiffness
+
+    **Stiffness** is the extent to which an object resists deformation in response to an applied force.
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`force/length`
+
+.. py:data:: compliance
+
+    **Compliance** is the inverse of :attr:`~symplyphysics.symbols.classical_mechanics.stiffness`.
+
+    Symbol:
+        :code:`c`
+
+    Latex:
+        :math:`c`
+
+    Dimension:
+        :code:`length/force`
 
