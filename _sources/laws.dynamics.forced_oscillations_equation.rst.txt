@@ -3,20 +3,31 @@ Forced oscillations equation
 
 *Forced, or driven, oscillations* are a type of oscillations in the presence of an external driving
 force acting on the oscillating system. In the case of an oscillating external force, two angular
-frequencies are associated with such a system: (1) the natural angular frequency of the system,
-which is the angular frequency the system would oscillate with if no external force were present,
-and (2) the angular frequency of the external force driving the oscillations. Such systems can
-undergo resonance if the angular frequency of the driving force is close to the natural angular
-frequency of the oscillator.
+frequencies are associated with such a system: 
+
+#. the *natural angular frequency* of the system, which is the angular frequency the system would 
+   oscillate with if no external force were present,
+
+#. the angular frequency of the external force driving the oscillations.
+
+Such systems can undergo resonance if the angular frequency of the driving force is close to the
+natural angular frequency of the oscillator.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.forced_oscillations_equation
 
 .. py:data:: displacement
 
-    The displacement of the oscillating body from rest value.
+    The displacement of the oscillating body from rest value as a function of :attr:`~time`.
+    See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
 
     Symbol:
-        :code:`q(t)`
+        :code:`x(t)`
+
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: mass
 
@@ -33,13 +44,16 @@ frequency of the oscillator.
 
 .. py:data:: natural_angular_frequency
 
-    The natural angular frequency of the oscillator.
+    The natural :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
-        :code:`w0`
+        :code:`w_0`
 
     Latex:
         :math:`\omega_0`
+
+    Dimension:
+        :code:`angle/time`
 
 .. py:data:: driving_force_amplitude
 
@@ -56,7 +70,7 @@ frequency of the oscillator.
 
 .. py:data:: driving_angular_frequency
 
-    The angular frequency of the driving force.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the driving force.
 
     Symbol:
         :code:`w`
@@ -64,9 +78,12 @@ frequency of the oscillator.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: driving_phase_lag
 
-    The phase lag of the driving force.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the driving force.
 
     Symbol:
         :code:`phi`
@@ -74,18 +91,29 @@ frequency of the oscillator.
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    Derivative(q(t), (t, 2)) + w0^2 * q(t) = (F / m) * cos(w * t + phi)
+    :code:`w_0^2 * x(t) + Derivative(x(t), (t, 2)) = F * cos(t * w + phi) / m`
+
 
     Latex:
         .. math::
-            \frac{d^2}{d t^2} q(t) + \omega_0^2 q(t) = \frac{F}{m} \cos{\left( \omega t + \varphi \right)}
+            \omega_{0}^{2} x{\left(t \right)} + \frac{d^{2}}{d t^{2}} x{\left(t \right)} = \frac{F \cos{\left(t \omega + \varphi \right)}}{m}
+
 

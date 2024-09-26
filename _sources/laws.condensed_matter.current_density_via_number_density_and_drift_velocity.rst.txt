@@ -14,40 +14,63 @@ of the positive charges at this point.
 
 .. py:data:: current_density
 
-    Current density of charge carriers.
+    :attr:`~symplyphysics.symbols.electrodynamics.current_density` of charge carriers.
 
     Symbol:
         :code:`j`
 
+    Latex:
+        :math:`j`
+
+    Dimension:
+        :code:`current/area`
+
 .. py:data:: number_density
 
-    Number density, or number of charge carriers per unit volume.
+    :attr:`~symplyphysics.symbols.basic.number_density`, or number of charge carriers per unit volume.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: drift_velocity
 
-    Drift velocity of charge carriers.
+    :attr:`~symplyphysics.symbols.chemistry.drift_velocity` of charge carriers.
 
     Symbol:
-        :code:`v_d`
+        :code:`u`
 
     Latex:
-        :math:`v_\text{d}`
+        :math:`u`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: charge
 
-    Charge of the charge carriers.
+    :attr:`~symplyphysics.symbols.electrodynamics.charge` of the charge carriers.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
 .. py:data:: law
 
-    :code:`j = q * n * v_d`
+    :code:`j = n * u * q`
+
 
     Latex:
         .. math::
-            j = q n v_\text{d}
+            j = n u q
+
 

@@ -9,21 +9,33 @@ The element of elasticity is associated with the twisting of the suspension wire
 
 .. py:data:: period
 
-    The period of pendulum's oscillations.
+    The :attr:`~symplyphysics.symbols.basic.period` of pendulum's oscillations.
 
     Symbol:
         :code:`T`
 
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: rotational_inertia
 
-    The rotational inertia of the disk.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the disk.
 
     Symbol:
         :code:`I`
 
-.. py:data:: torsion_constant
+    Latex:
+        :math:`I`
 
-    The torsion constant, which depends on the properties of the suspension wire.
+    Dimension:
+        :code:`length**2*mass`
+
+.. py:data:: torsion_stiffness
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.torsion_stiffness`, which depends on the properties of the suspension wire.
 
     Symbol:
         :code:`kappa`
@@ -31,11 +43,16 @@ The element of elasticity is associated with the twisting of the suspension wire
     Latex:
         :math:`\kappa`
 
+    Dimension:
+        :code:`force*length/angle`
+
 .. py:data:: law
 
     :code:`T = 2 * pi * sqrt(I / kappa)`
 
+
     Latex:
         .. math::
             T = 2 \pi \sqrt{\frac{I}{\kappa}}
+
 

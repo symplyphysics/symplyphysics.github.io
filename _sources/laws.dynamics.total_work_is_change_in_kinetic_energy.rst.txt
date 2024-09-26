@@ -8,43 +8,66 @@ The work-energy principle states that the work done by all forces acting on a pa
 
 .. py:data:: work
 
-    The total work done on the body.
+    The total :attr:`~symplyphysics.symbols.basic.work` done on the body.
 
     Symbol:
         :code:`W`
 
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: kinetic_energy
 
-    The kinetic energy of the body.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the body as a function of :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`K(t)`
 
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: time_before
 
-    The time before the work has been done.
+    The :attr:`~symplyphysics.symbols.basic.time` before the work has been done.
 
     Symbol:
-        :code:`t0`
+        :code:`t_0`
 
     Latex:
         :math:`t_0`
 
+    Dimension:
+        :code:`time`
+
 .. py:data:: time_after
 
-    The time after the work has been done.
+    The :attr:`~symplyphysics.symbols.basic.time` after the work has been done.
 
     Symbol:
-        :code:`t1`
+        :code:`t_1`
 
     Latex:
         :math:`t_1`
 
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`W = K(t1) - K(t0)`
+    .. only:: comment
+
+        Custom function arguments are not yet supported.
+
+    :code:`W = K(t_1) - K(t_0)`
 
     Latex:
         .. math::
-            W = K(t_1) - K(t_0)
+            W = - K{\left(t_{0} \right)} + K{\left(t_{1} \right)}
+
 

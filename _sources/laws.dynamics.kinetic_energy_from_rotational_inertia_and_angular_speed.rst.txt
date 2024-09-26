@@ -8,21 +8,33 @@ and its angular speed.
 
 .. py:data:: kinetic_energy
 
-    The kinetic energy of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object.
 
     Symbol:
         :code:`K`
 
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: rotational_inertia
 
-    The rotational inertia of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the object.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
 .. py:data:: angular_speed
 
-    The angular speed of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the object.
 
     Symbol:
         :code:`w`
@@ -30,11 +42,16 @@ and its angular speed.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: law
 
-    :code:`K = I * w^2 / 2`
+    :code:`K = w^2 * I / 2`
+
 
     Latex:
         .. math::
-            K = \frac{1}{2} I \omega^2
+            K = \frac{I \omega^{2}}{2}
+
 

@@ -13,14 +13,20 @@ the individual forces, however these deformations must be small.
 
 .. py:data:: total_strain
 
-    Total strain of the body.
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.strain` of the body.
 
     Symbol:
         :code:`e`
 
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: first_strain
 
-    Strain caused by one force.
+    :attr:`~symplyphysics.symbols.classical_mechanics.strain` caused by one force.
 
     Symbol:
         :code:`e_1`
@@ -28,9 +34,18 @@ the individual forces, however these deformations must be small.
     Latex:
         :math:`e_1`
 
+    Symbol:
+        :code:`e_1`
+
+    Latex:
+        :math:`e_1`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: second_strain
 
-    Strain caused by another force.
+    :attr:`~symplyphysics.symbols.classical_mechanics.strain` caused by another force.
 
     Symbol:
         :code:`e_2`
@@ -38,11 +53,16 @@ the individual forces, however these deformations must be small.
     Latex:
         :math:`e_2`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
     :code:`e = e_1 + e_2`
 
+
     Latex:
         .. math::
-            e = e_1 + e_2
+            e = e_{1} + e_{2}
+
 

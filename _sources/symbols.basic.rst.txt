@@ -169,3 +169,29 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`1/volume`
 
+.. py:data:: particle_count
+
+    Number of particles in the system.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: angle
+
+    An **angle** is the difference in direction between two lines or surfaces.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
+

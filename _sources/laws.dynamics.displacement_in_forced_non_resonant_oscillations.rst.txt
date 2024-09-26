@@ -43,13 +43,16 @@ and (2) the angular frequency of the external force driving the oscillations.
 
 .. py:data:: natural_angular_frequency
 
-    The natural angular frequency of the oscillator.
+    The natural :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
-        :code:`w0`
+        :code:`w_0`
 
     Latex:
         :math:`\omega_0`
+
+    Dimension:
+        :code:`angle/time`
 
 .. py:data:: driving_force_amplitude
 
@@ -66,7 +69,7 @@ and (2) the angular frequency of the external force driving the oscillations.
 
 .. py:data:: driving_angular_frequency
 
-    The angular frequency of the external driving force.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the external driving force.
 
     Symbol:
         :code:`w`
@@ -74,9 +77,12 @@ and (2) the angular frequency of the external force driving the oscillations.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: driving_phase_lag
 
-    The phase lag of the oscillations of the external force.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the oscillations of the external force.
 
     Symbol:
         :code:`phi`
@@ -84,16 +90,29 @@ and (2) the angular frequency of the external force driving the oscillations.
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    q(t) = F / (m * (w0**2 - w**2)) * cos(w * t + phi)
+    .. only:: comment
+
+        `displacement` is a sympy Symbol, therefore auto-generation of formulas is impossible
+
+    :code:`q(t) = F / (m * (w0**2 - w**2)) * cos(w * t + phi)`
 
     Latex:
         .. math::

@@ -17,23 +17,35 @@ the Young modulus of the material and also depends on its Poisson ratio.
 
 .. py:data:: bulk_modulus
 
-    Bulk modulus of the material.
+    :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the material.
 
     Symbol:
         :code:`K`
 
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: young_modulus
 
-    Young modulus of the material.
+    :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the material.
 
     Symbol:
         :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: poisson_ratio
 
     .. _poisson-ratio:
 
-    Poisson ratio of the material.
+    :attr:`~symplyphysics.symbols.classical_mechanics.poisson_ratio` of the material.
 
     Symbol:
         :code:`nu`
@@ -41,11 +53,16 @@ the Young modulus of the material and also depends on its Poisson ratio.
     Latex:
         :math:`\nu`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`K = E / (3 * (1 - 2 * nu))`
+    :code:`K = E / (3 - 6 * nu)`
+
 
     Latex:
         .. math::
-            K = \frac{E}{3 (1 - 2 \nu)}
+            K = \frac{E}{3 - 6 \nu}
+
 

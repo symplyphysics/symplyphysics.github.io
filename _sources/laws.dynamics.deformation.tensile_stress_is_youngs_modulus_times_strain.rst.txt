@@ -8,7 +8,7 @@ Young's modulus.
 
 .. py:data:: stress
 
-    Stress on the object.
+    :attr:`~symplyphysics.symbols.classical_mechanics.stress` on the object.
 
     Symbol:
         :code:`sigma`
@@ -16,25 +16,42 @@ Young's modulus.
     Latex:
         :math:`\sigma`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: young_modulus
 
-    Young's modulus of the material of the object.
+    :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the material of the object.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: engineering_normal_strain
 
-    Engineering normal strain of the deformed body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.engineering_normal_strain` of the deformed body.
 
     Symbol:
         :code:`e`
+
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
     :code:`sigma = E * e`
 
+
     Latex:
         .. math::
             \sigma = E e
+
 

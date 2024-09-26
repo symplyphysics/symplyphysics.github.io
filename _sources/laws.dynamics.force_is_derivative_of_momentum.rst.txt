@@ -8,34 +8,58 @@ the net force exerted on a body is equal to the time derivative of the body's mo
 
 #. Works in relativistic mechanics as well as in classical mechanics.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Momentum#Relation_to_force>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.force_is_derivative_of_momentum
 
 .. py:data:: momentum
 
-    The magnitude of the momentum of the body.
+    The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the body as a function of :attr:`~time`.
 
     Symbol:
         :code:`p(t)`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`momentum`
+
 .. py:data:: force
 
-    The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+    The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body as a function of :attr:`~time`.
 
     Symbol:
         :code:`F(t)`
 
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    Derivative(p(t), t) = F(t)
+    :code:`Derivative(p(t), t) = F(t)`
+
 
     Latex:
         .. math::
-            \frac{d p}{d t} = F(t)
+            \frac{d}{d t} p{\left(t \right)} = F{\left(t \right)}
+
 

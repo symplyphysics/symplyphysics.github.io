@@ -22,7 +22,7 @@ The p-n junction has a potential barrier preventing the movement of charge carri
 
 .. py:data:: equilibrium_voltage_difference
 
-    Equilibrium voltage difference corresponding to the size of the depletion region.
+    Equilibrium :attr:`~symplyphysics.symbols.electrodynamics.voltage` difference corresponding to the size of the depletion region.
 
     Symbol:
         :code:`Delta(V)`
@@ -30,9 +30,12 @@ The p-n junction has a potential barrier preventing the movement of charge carri
     Latex:
         :math:`\Delta V`
 
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: donor_concentration
 
-    Concentration of positively-charged donor atoms.
+    :attr:`~symplyphysics.symbols.basic.number_density` of positively-charged donor atoms.
 
     Symbol:
         :code:`n_d`
@@ -40,9 +43,12 @@ The p-n junction has a potential barrier preventing the movement of charge carri
     Latex:
         :math:`n_\text{d}`
 
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: acceptor_concentration
 
-    Concentration of negatively-charged acceptor atoms.
+    :attr:`~symplyphysics.symbols.basic.number_density` of negatively-charged acceptor atoms.
 
     Symbol:
         :code:`n_a`
@@ -50,12 +56,21 @@ The p-n junction has a potential barrier preventing the movement of charge carri
     Latex:
         :math:`n_\text{a}`
 
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: charge_carriers_concentration
 
-    Concentration of intrinsic charge carriers.
+    :attr:`~symplyphysics.symbols.basic.number_density` of intrinsic charge carriers.
 
     Symbol:
         :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
 
 .. py:data:: temperature
 
@@ -72,16 +87,24 @@ The p-n junction has a potential barrier preventing the movement of charge carri
 
 .. py:data:: charge_electron
 
-    Magnitude of the electron charge.
+    Magnitude of the electron :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
+
 .. py:data:: law
 
-    :code:`Delta(V) = (k_B * T / q) * log(n_a * n_d / n^2)`
+    :code:`Delta(V) = k_B * T * log(n_d * n_a / n^2) / q`
+
 
     Latex:
         .. math::
-            \Delta V = \frac{k_\text{B} T}{q} \log \left( \frac{n_\text{a} n_\text{d}}{n^2} \right)
+            \Delta V = \frac{T \log \frac{n_\text{d} n_\text{a}}{n^{2}} k_\text{B}}{q}
+
 

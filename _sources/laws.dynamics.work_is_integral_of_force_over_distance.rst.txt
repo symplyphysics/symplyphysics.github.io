@@ -6,57 +6,80 @@ on the position of the object, the work done by F on the object while the object
 from one position to another is to be found by integrating the force along the path of the
 object.
 
-..
-    TODO Rename file
-
 .. py:currentmodule:: symplyphysics.laws.dynamics.work_is_integral_of_force_over_distance
 
 .. py:data:: work
 
-    The work done by :attr:`~symplyphysics.symbols.classical_mechanics.force` :math:`F`.
+    The :attr:`~symplyphysics.symbols.basic.work` done by :attr:`~force`.
 
     Symbol:
         :code:`W`
 
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: force
 
-    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object as a function of position.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object as a function of :attr:`~position`.
 
     Symbol:
         :code:`F(x)`
 
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`force`
+
 .. py:data:: position
 
-    The position of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
 
     Symbol:
         :code:`x`
 
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: position_before
 
-    The initial position of the object.
+    The initial :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
 
     Symbol:
-        :code:`x0`
+        :code:`x_0`
 
     Latex:
         :math:`x_0`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: position_after
 
-    The end position of the object.
+    The end :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
 
     Symbol:
-        :code:`x1`
+        :code:`x_1`
 
     Latex:
         :math:`x_1`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
-    :code:`W = Integral(F(x), (x, x0, x1))`
+    :code:`W = Integral(F(x), (x, x_0, x_1))`
+
 
     Latex:
         .. math::
-            W = \int_{x_0}^{x_1} F(x) dx
+            W = \int\limits_{x_{0}}^{x_{1}} F{\left(x \right)}\, dx
+
 

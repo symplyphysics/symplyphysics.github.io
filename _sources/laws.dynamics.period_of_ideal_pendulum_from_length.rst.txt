@@ -15,23 +15,37 @@ Period of pendulum oscillation does not depend on its mass.
 
 .. py:data:: period
 
-    The period of oscillations.
+    The :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
     Symbol:
         :code:`T`
 
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: length
 
-    The length of the pendulum.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.length` of the pendulum.
 
     Symbol:
-        :code:`L`
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`T = 2 * pi * sqrt(L / g)`
+    :code:`T = 2 * pi * (sqrt(l) / sqrt(g))`
+
 
     Latex:
         .. math::
-            T = 2 \pi \sqrt{\frac{L}{g}}
+            T = 2 \pi \frac{\sqrt{l}}{\sqrt{g}}
+
 

@@ -5,21 +5,24 @@ When a torque accelerates a rigid body in rotation about a fixed axis, the torqu
 the body. When the torque is constant, the work done on the body is proportional to torque
 and the angular displacement during the movement of the body.
 
-..
-    TODO Rename file
-
 .. py:currentmodule:: symplyphysics.laws.dynamics.rotational_work_is_torque_times_angular_distance
 
 .. py:data:: work
 
-    The work done by the torque.
+    The :attr:`~symplyphysics.symbols.basic.work` done by the torque.
 
     Symbol:
         :code:`W`
 
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: torque
 
-    The torque acting on the body.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.torque` acting on the body.
 
     Symbol:
         :code:`tau`
@@ -27,21 +30,29 @@ and the angular displacement during the movement of the body.
     Latex:
         :math:`\tau`
 
+    Dimension:
+        :code:`force*length`
+
 .. py:data:: angular_distance
 
-    The angular displacement of the body.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` of the body.
 
     Symbol:
-        :code:`delta(theta)`
+        :code:`theta`
 
     Latex:
-        :math:`\Delta \theta`
+        :math:`\theta`
+
+    Dimension:
+        :code:`angle`
 
 .. py:data:: law
 
-    :code:`W = tau * delta(theta)`
+    :code:`W = theta * tau`
+
 
     Latex:
         .. math::
-            W = \tau \Delta \theta
+            W = \theta \tau
+
 

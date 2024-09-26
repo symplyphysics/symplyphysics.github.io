@@ -12,23 +12,37 @@ and amount of substance.
 
 .. py:data:: particle_count
 
-    Number of particles.
+    :attr:`~symplyphysics.symbols.basic.particle_count`.
 
     Symbol:
         :code:`N`
 
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: amount_of_substance
 
-    Amount of substance.
+    :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
     Symbol:
         :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`amount_of_substance`
 
 .. py:data:: law
 
     :code:`N_A = N / n`
 
+
     Latex:
         .. math::
             N_\text{A} = \frac{N}{n}
+
 

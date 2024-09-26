@@ -9,30 +9,50 @@ and inversely proportional to the bulk modulus of the body's material.
 
 .. py:data:: elastic_energy_density
 
-    Elastic energy of the deformed body per unit of its volume.
+    Elastic energy of the deformed body per unit of its volume. See :attr:`~symplyphysics.symbols.basic.energy_density`
 
     Symbol:
-        :code:`u`
+        :code:`w`
+
+    Latex:
+        :math:`w`
+
+    Dimension:
+        :code:`energy/volume`
 
 .. py:data:: pressure
 
-    Pressure in the deformed body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the deformed body.
 
     Symbol:
-        :code:`P`
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: bulk_modulus
 
-    Bulk modulus of the material.
+    :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the material.
 
     Symbol:
         :code:`K`
 
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: law
 
-    :code:`u = P^2 / (2 * K)`
+    :code:`w = p^2 / (2 * K)`
+
 
     Latex:
         .. math::
-            u = \frac{P^2}{2 K}
+            w = \frac{p^{2}}{2 K}
+
 

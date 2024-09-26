@@ -13,17 +13,23 @@ resonance.
 
 **Notes:**
 
-#. The expression of the driving force has the form :math:`f \cos{\left( \omega t + \varphi \right)}`
+#. The expression of the driving force has the form :math:`F \cos{\left( \omega t + \varphi \right)}`
    where :math:`\omega` is the angular frequency of its oscillations.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.resonant_oscillations
 
 .. py:data:: resonant_displacement
 
-    The displacement of resonant oscillations.
+    The displacement of resonant oscillations as a function of :attr:`~time`. See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
 
     Symbol:
-        :code:`q(t)`
+        :code:`x(t)`
+
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: mass
 
@@ -40,13 +46,16 @@ resonance.
 
 .. py:data:: natural_angular_frequency
 
-    The natural angular frequency of the oscillator.
+    The natural :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
-        :code:`w0`
+        :code:`w_0`
 
     Latex:
         :math:`\omega_0`
+
+    Dimension:
+        :code:`angle/time`
 
 .. py:data:: driving_force_amplitude
 
@@ -63,7 +72,7 @@ resonance.
 
 .. py:data:: driving_phase_lag
 
-    The phase lag of the oscillations of the driving force.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the oscillations of the driving force.
 
     Symbol:
         :code:`phi`
@@ -71,18 +80,29 @@ resonance.
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`q(t) = (F / m) * t * sin(w0 * t + phi) / (2 * w0)`
+    :code:`x(t) = t * F * sin(t * w_0 + phi) / (2 * w_0 * m)`
+
 
     Latex:
         .. math::
-            q(t) = \frac{F t}{2 m \omega_0} \sin{\left( \omega_0 t + \varphi \right)}
+            x{\left(t \right)} = \frac{t F \sin{\left(t \omega_{0} + \varphi \right)}}{2 \omega_{0} m}
+
 

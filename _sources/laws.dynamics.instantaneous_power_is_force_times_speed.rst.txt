@@ -8,10 +8,16 @@ Instantaneous power is force times speed
 
 .. py:data:: power
 
-    The instantaneous power of force :math:`F`.
+    The instantaneous :attr:`~symplyphysics.symbols.basic.power` of :attr:`~force`.
 
     Symbol:
         :code:`P`
+
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
 
 .. py:data:: force
 
@@ -28,14 +34,20 @@ Instantaneous power is force times speed
 
 .. py:data:: speed
 
-    The speed of the object
+    The :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: angle_between_vectors
 
-    The angle between the force and velocity vectors.
+    The :attr:`~symplyphysics.symbols.basic.angle` between the force and velocity vectors.
 
     Symbol:
         :code:`phi`
@@ -43,11 +55,16 @@ Instantaneous power is force times speed
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: law
 
     :code:`P = F * v * cos(phi)`
 
+
     Latex:
         .. math::
-            P = F v \cos{\varphi}
+            P = F v \cos{\left(\varphi \right)}
+
 

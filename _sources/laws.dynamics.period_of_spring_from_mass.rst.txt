@@ -14,10 +14,16 @@ It starts oscillating after being pushed out of balance.
 
 .. py:data:: period
 
-    The period of spring oscillations.
+    The :attr:`~symplyphysics.symbols.basic.period` of spring oscillations.
 
     Symbol:
         :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: mass
 
@@ -34,16 +40,24 @@ It starts oscillating after being pushed out of balance.
 
 .. py:data:: stiffness
 
-    Spring's stiffness, or spring constant.
+    Spring's :attr:`~symplyphysics.symbols.classical_mechanics.stiffness`, or spring constant.
 
     Symbol:
         :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`force/length`
 
 .. py:data:: law
 
     :code:`T = 2 * pi * sqrt(m / k)`
 
+
     Latex:
         .. math::
             T = 2 \pi \sqrt{\frac{m}{k}}
+
 

@@ -23,17 +23,29 @@ its physical state.
 
 .. py:data:: pressure
 
-    Pressure (or tension) in the deformed body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` (or tension) in the deformed body.
 
     Symbol:
-        :code:`P`
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: young_modulus
 
-    Young's modulus of the body's material.
+    :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the body's material.
 
     Symbol:
         :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: second_coefficient
 
@@ -42,6 +54,12 @@ its physical state.
     Symbol:
         :code:`A`
 
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: third_coefficient
 
     Coefficient at the third power of strain in the expansion.
@@ -49,18 +67,32 @@ its physical state.
     Symbol:
         :code:`B`
 
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: strain
 
-    Strain, or engineering normal strain to be exact, of the body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.engineering_normal_strain` of the body.
 
     Symbol:
         :code:`e`
 
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`P = E * e + A * e^2 + B * e^3 + O(e^4)`
+    :code:`p = E * e + e^3 * B + e^2 * A + O(e^4)`
+
 
     Latex:
         .. math::
-            P = E e + A e^2 + B e^3 + O(e^4)
+            p = E e + B e^{3} + A e^{2} + O\left(e^{4}\right)
+
 

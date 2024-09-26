@@ -8,10 +8,16 @@ per unit area over which the force is distributed.
 
 .. py:data:: pressure
 
-    Pressure.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
 
     Symbol:
         :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: force
 
@@ -28,16 +34,24 @@ per unit area over which the force is distributed.
 
 .. py:data:: area
 
-    Area over which the force is distributed.
+    :attr:`~symplyphysics.symbols.classical_mechanics.area` over which the force is distributed.
 
-    Symbol: 
+    Symbol:
         :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
 
 .. py:data:: law
 
     :code:`p = F / A`
 
+
     Latex:
         .. math::
             p = \frac{F}{A}
+
 

@@ -15,7 +15,7 @@ to axial (or longitudinal) strain in the direction of a deforming force.
 
 .. py:data:: poisson_ratio
 
-    Poisson ratio of the material of the deformed body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.poisson_ratio` of the material of the deformed body.
 
     Symbol:
         :code:`nu`
@@ -23,9 +23,12 @@ to axial (or longitudinal) strain in the direction of a deforming force.
     Latex:
         :math:`\nu`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: transverse_strain
 
-    Strain in the transverse (lateral) direction relative to the deforming force.
+    :attr:`~symplyphysics.symbols.classical_mechanics.strain` in the transverse (lateral) direction relative to the deforming force.
 
     Symbol:
         :code:`e_transverse`
@@ -33,9 +36,12 @@ to axial (or longitudinal) strain in the direction of a deforming force.
     Latex:
         :math:`e_\text{transverse}`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: axial_strain
 
-    Strain in the axial direction, i.e. parallel to the deforming force.
+    :attr:`~symplyphysics.symbols.classical_mechanics.strain` in the axial direction, i.e. parallel to the deforming force.
 
     Symbol:
         :code:`e_axial`
@@ -43,11 +49,16 @@ to axial (or longitudinal) strain in the direction of a deforming force.
     Latex:
         :math:`e_\text{axial}`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`nu = -1 * e_transverse / e_axial`
+    :code:`nu = -e_transverse / e_axial`
+
 
     Latex:
         .. math::
             \nu = - \frac{e_\text{transverse}}{e_\text{axial}}
+
 

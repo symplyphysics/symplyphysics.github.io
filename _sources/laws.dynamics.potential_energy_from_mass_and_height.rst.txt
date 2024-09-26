@@ -8,10 +8,16 @@ other objects.
 
 .. py:data:: potential_energy
 
-    The potential energy of the body.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the body.
 
     Symbol:
         :code:`U`
+
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: mass
 
@@ -28,16 +34,24 @@ other objects.
 
 .. py:data:: height
 
-    The elevation from ground level.
+    The elevation from ground level. See :attr:`~symplyphysics.symbols.classical_mechanics.height`
 
     Symbol:
         :code:`h`
 
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
-    :code:`U = m * g * h`
+    :code:`U = g * m * h`
+
 
     Latex:
         .. math::
-            U = m g h
+            U = m h g
+
 

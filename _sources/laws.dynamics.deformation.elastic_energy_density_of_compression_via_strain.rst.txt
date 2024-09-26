@@ -10,30 +10,50 @@ can be used to obtain analogous forms of this law.
 
 .. py:data:: elastic_energy_density
 
-    Elastic energy of the deformed body per unit of its volume.
+    Elastic energy of the deformed body per unit of its volume. See :attr:`~symplyphysics.symbols.basic.energy_density`
 
     Symbol:
-        :code:`u`
+        :code:`w`
+
+    Latex:
+        :math:`w`
+
+    Dimension:
+        :code:`energy/volume`
 
 .. py:data:: young_modulus
 
-    Young's modulus of the body's material.
+    :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the body's material.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: engineering_normal_strain
 
-    Engineering normal strain of the deformed body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.engineering_normal_strain` of the deformed body.
 
     Symbol:
         :code:`e`
 
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`u = E * e^2 / 2`
+    :code:`w = e^2 * E / 2`
+
 
     Latex:
         .. math::
-            u = \frac{1}{2} E e^2
+            w = \frac{E e^{2}}{2}
+
 

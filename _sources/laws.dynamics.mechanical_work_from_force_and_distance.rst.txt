@@ -12,17 +12,20 @@ Work is scalar value equal to force multiplied by distance.
 
 #. Use the vector form of this law for non-collinear vectors of force and movement.
 
-..
-    TODO Rename file
-
-.. py:currentmodule:: symplyphysics.laws.dynamics.mechanical_work_from_force_and_move
+.. py:currentmodule:: symplyphysics.laws.dynamics.mechanical_work_from_force_and_distance
 
 .. py:data:: work
 
-    The mechanical work done by the force.
+    The mechanical :attr:`~symplyphysics.symbols.basic.work` done by the force.
 
     Symbol:
         :code:`W`
+
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: force
 
@@ -39,16 +42,24 @@ Work is scalar value equal to force multiplied by distance.
 
 .. py:data:: distance
 
-    The distance of the body due to the force exerted on it.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.distance` the body traveled due to the force exerted on it.
 
     Symbol:
-        :code:`s`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`W = F * s`
+    :code:`W = F * d`
+
 
     Latex:
         .. math::
-            W = F s
+            W = F d
+
 

@@ -8,30 +8,50 @@ not only in the case of variable mass, but also in the relativistic case.
 
 .. py:data:: kinetic_energy
 
-    The kinetic energy of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object as a function of :attr:`~momentum`.
 
     Symbol:
         :code:`K(p(v))`
 
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: momentum
 
-    The momentum of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object as a function of :attr:`~speed`.
 
     Symbol:
         :code:`p(v)`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`momentum`
+
 .. py:data:: speed
 
-    The speed of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: law
 
-    :code:`Derivative(K(p(v), p(v))) = v`
+    :code:`Derivative(K(p(v)), p(v)) = v`
+
 
     Latex:
         .. math::
-            \frac{d K(p(v))}{d p(v)} = v
+            \frac{d}{d p{\left(v \right)}} K{\left(p{\left(v \right)} \right)} = v
+
 

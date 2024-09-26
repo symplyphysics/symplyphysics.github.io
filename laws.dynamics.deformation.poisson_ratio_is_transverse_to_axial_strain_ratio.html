@@ -49,11 +49,13 @@ describe elastic properties of an isotropic material.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.poisson_ratio">
 <span class="sig-name descname"><span class="pre">poisson_ratio</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.poisson_ratio" title="Link to this definition">¶</a></dt>
-<dd><p>Poisson ratio of the material of the deformed body.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.poisson_ratio" title="symplyphysics.symbols.classical_mechanics.poisson_ratio"><code class="xref py py-attr docutils literal notranslate"><span class="pre">poisson_ratio</span></code></a> of the material of the deformed body.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">nu</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\nu\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -61,11 +63,13 @@ describe elastic properties of an isotropic material.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.transverse_strain">
 <span class="sig-name descname"><span class="pre">transverse_strain</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.transverse_strain" title="Link to this definition">¶</a></dt>
-<dd><p>Strain in the transverse (lateral) direction relative to the deforming force.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.strain" title="symplyphysics.symbols.classical_mechanics.strain"><code class="xref py py-attr docutils literal notranslate"><span class="pre">strain</span></code></a> in the transverse (lateral) direction relative to the deforming force.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">e_transverse</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(e_\text{transverse}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -73,11 +77,13 @@ describe elastic properties of an isotropic material.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.axial_strain">
 <span class="sig-name descname"><span class="pre">axial_strain</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.axial_strain" title="Link to this definition">¶</a></dt>
-<dd><p>Strain in the axial direction, i.e. parallel to the deforming force.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.strain" title="symplyphysics.symbols.classical_mechanics.strain"><code class="xref py py-attr docutils literal notranslate"><span class="pre">strain</span></code></a> in the axial direction, i.e. parallel to the deforming force.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">e_axial</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(e_\text{axial}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -85,7 +91,7 @@ describe elastic properties of an isotropic material.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">nu</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">e_transverse</span> <span class="pre">/</span> <span class="pre">e_axial</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">nu</span> <span class="pre">=</span> <span class="pre">-e_transverse</span> <span class="pre">/</span> <span class="pre">e_axial</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
 \[\nu = - \frac{e_\text{transverse}}{e_\text{axial}}\]</div>
@@ -156,9 +162,8 @@ describe elastic properties of an isotropic material.</p></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_mass_and_speed.html">Kinetic energy from mass and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_rotational_inertia_and_angular_speed.html">Kinetic energy from rotational inertia and angular speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_via_momentum.html">Kinetic energy via momentum</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_velocity.html">Maximum height from initial speed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_move.html">Mechanical work is force times distance</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.html">Torque via rotational inertia and angular acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_initial_speed.html">Maximum height from initial speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_distance.html">Mechanical work is force times distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html">Momentum derivative of kinetic energy is speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_ideal_pendulum_from_length.html">Period of ideal pendulum from length</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_physical_pendulum.html">Period of physical pendulum</a></li>
@@ -173,6 +178,7 @@ describe elastic properties of an isotropic material.</p></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.html">Rocket thrust is rocket mass times acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rotational_work_is_torque_times_angular_distance.html">Rotational work is torque times angular distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_force_and_radial_distance.html">Torque via force and radial distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_rotational_inertia_and_angular_acceleration.html">Torque via rotational inertia and angular acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.total_work_is_change_in_kinetic_energy.html">Total work is change in kinetic energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.work_is_integral_of_force_over_distance.html">Work is integral of force over distance</a></li>
 </ul>

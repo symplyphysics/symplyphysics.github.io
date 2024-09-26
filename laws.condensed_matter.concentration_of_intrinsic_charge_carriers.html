@@ -54,9 +54,13 @@ nonzero concentration of free charge carriers in the semiconductor.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.charge_carriers_concentration">
 <span class="sig-name descname"><span class="pre">charge_carriers_concentration</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.charge_carriers_concentration" title="Link to this definition">¶</a></dt>
-<dd><p>Concentration of intrinsic charge carriers.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.number_density" title="symplyphysics.symbols.basic.number_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">number_density</span></code></a> of intrinsic charge carriers.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(n\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -64,11 +68,13 @@ nonzero concentration of free charge carriers in the semiconductor.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.density_of_states_in_conduction_band">
 <span class="sig-name descname"><span class="pre">density_of_states_in_conduction_band</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.density_of_states_in_conduction_band" title="Link to this definition">¶</a></dt>
-<dd><p>Effective density of states in the conduction band.</p>
+<dd><p>Effective <a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.density_of_states" title="symplyphysics.symbols.chemistry.density_of_states"><code class="xref py py-attr docutils literal notranslate"><span class="pre">density_of_states</span></code></a> in the conduction band.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N_c</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N_\text{c}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -76,11 +82,13 @@ nonzero concentration of free charge carriers in the semiconductor.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.density_of_states_in_valence_band">
 <span class="sig-name descname"><span class="pre">density_of_states_in_valence_band</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.density_of_states_in_valence_band" title="Link to this definition">¶</a></dt>
-<dd><p>Effective density of states in the valence band.</p>
+<dd><p>Effective <a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.density_of_states" title="symplyphysics.symbols.chemistry.density_of_states"><code class="xref py py-attr docutils literal notranslate"><span class="pre">density_of_states</span></code></a> in the valence band.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N_v</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N_\text{v}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -102,11 +110,13 @@ nonzero concentration of free charge carriers in the semiconductor.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.band_gap">
 <span class="sig-name descname"><span class="pre">band_gap</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.band_gap" title="Link to this definition">¶</a></dt>
-<dd><p>Band gap of the semiconductor.</p>
+<dd><p><a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.band_gap" title="symplyphysics.symbols.chemistry.band_gap"><code class="xref py py-attr docutils literal notranslate"><span class="pre">band_gap</span></code></a> of the semiconductor.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E_g</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E_\text{g}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -114,10 +124,10 @@ nonzero concentration of free charge carriers in the semiconductor.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">sqrt(N_c</span> <span class="pre">*</span> <span class="pre">N_v)</span> <span class="pre">*</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">E_g</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">sqrt(N_c</span> <span class="pre">*</span> <span class="pre">N_v)</span> <span class="pre">*</span> <span class="pre">exp(-E_g</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[n = \sqrt{N_\text{c} N_\text{v}} \exp \left( -\frac{E_\text{g}}{2 k_\text{B} T} \right)\]</div>
+\[n = \sqrt{N_\text{c} N_\text{v}} \exp{\left(- \frac{E_\text{g}}{2 T k_\text{B}} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

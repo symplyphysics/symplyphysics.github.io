@@ -431,3 +431,174 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`length/force`
 
+.. py:data:: young_modulus
+
+    **Young modulus** is a mechanical property of solid materials that measures the tensile or compressive
+    stiffness when the force is applied lengthwise.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: phase_shift
+
+    **Phase shift**, also known as **phase offset** or **phase difference**, is the shift of phase between
+    two periodic functions.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: friction_coefficient
+
+    **Coefficient of friction** is a dimensionless scalar value which equals to the ratio of the force of
+    friction between two bodies and the force pressing them together, either during or at the onset of
+    slipping.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: height
+
+    **Height** is measure of vertical distance, either vertical extent or vertical position.
+
+    In the case of three-dimensional space, height is measured along the vertical z axis, describing a
+    distance from (or "above") the x-y plane. 
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: torque
+
+    **Torque** is the turning effect of a force applied to a rotational system at a distance from the axis of
+    rotation.
+
+    Symbol:
+        :code:`tau`
+
+    Latex:
+        :math:`\tau`
+
+    Dimension:
+        :code:`force*length`
+
+.. py:data:: torsion_stiffness
+
+    **Torsion stiffness** or **torsion elastic modulus** is equal to the change in torque required to twist
+    the spring through an angle of 1 radian.
+
+    **Links:**
+
+    #. `Torsion coefficient <https://en.wikipedia.org/wiki/Torsion_spring#Torsion_coefficient>`__.
+
+    Symbol:
+        :code:`kappa`
+
+    Latex:
+        :math:`\kappa`
+
+    Dimension:
+        :code:`force*length/angle`
+
+.. py:data:: bulk_modulus
+
+    **Bulk modulus** of a substance is a measure of the resistance of a substance to bulk compression.
+
+    Symbol:
+        :code:`K`
+
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: poisson_ratio
+
+    **Poisson's ratio** is a measure of the Poisson effect, the deformation (expansion or contraction) of
+    a material in directions perpendicular to the specific direction of loading.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: engineering_normal_strain
+
+    **Engineering strain**, also known as **Cauchy strain**, is expressed as the ratio of total deformation
+    to the initial dimension of the material body on which forces are applied.
+
+    Symbol:
+        :code:`e`
+
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: deformation
+
+    **Deformation** is a change in an object's shape or form due to the application of a force or forces. 
+
+    Symbol:
+        :code:`Delta(l)`
+
+    Latex:
+        :math:`\Delta l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: strain
+
+    **Strain** is defined as relative deformation, compared to a reference position configuration.
+
+    Symbol:
+        :code:`e`
+
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: stress
+
+    **Stress** is a physical quantity that describes forces present during deformation.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+    Dimension:
+        :code:`pressure`
+

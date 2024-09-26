@@ -13,17 +13,29 @@ the material. This formula for emission current density was proposed by Owen Wil
 
 .. py:data:: current_density
 
-    Emission current density.
+    Emission :attr:`~symplyphysics.symbols.electrodynamics.current_density`.
 
     Symbol:
         :code:`j`
 
+    Latex:
+        :math:`j`
+
+    Dimension:
+        :code:`current/area`
+
 .. py:data:: work_function
 
-    Work function of the material.
+    :attr:`~symplyphysics.symbols.chemistry.work_function` of the material.
 
-    Symbol: 
+    Symbol:
         :code:`W`
+
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -38,24 +50,13 @@ the material. This formula for emission current density was proposed by Owen Wil
     Dimension:
         :code:`temperature`
 
-.. py:data:: richardson_constant
-
-    Constant of proportionality proposed by Richardson.
-
-    Symbol:
-        :code:`A`
-
-    Latex:
-        :math:`A`
-
-    Dimension:
-        :code:`current/(length**2*temperature**2)`
-
 .. py:data:: law
 
-    :code:`j = A * T^2 * exp(-1 * W / (k_B * T))`
+    :code:`j = T^2 * a * exp(-W / (k_B * T))`
+
 
     Latex:
         .. math::
-            j = A T^2 \exp \left( - \frac{W}{k_\text{B} T} \right)
+            j = T^{2} \exp{\left(- \frac{W}{T k_\text{B}} \right)} a
+
 

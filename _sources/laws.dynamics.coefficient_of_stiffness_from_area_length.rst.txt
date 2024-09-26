@@ -8,36 +8,63 @@ Young's modulus is a tabular value that is different for each material.
 
 .. py:data:: stiffness
 
-    The stiffness coefficient of the material.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` coefficient of the material.
 
     Symbol:
         :code:`k`
 
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`force/length`
+
 .. py:data:: young_modulus
 
-    The Young's modulus of the material.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the material.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: area
 
-    The cross-sectional area of the object.
+    The cross-sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the object.
 
     Symbol:
         :code:`A`
 
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
 .. py:data:: length
 
-    The length of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.length` of the object.
 
     Symbol:
         :code:`l`
 
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
-    :code:`k = E * A / l`
+    :code:`k = A * E / l`
+
 
     Latex:
-        :math:`k = E \frac{A}{l}`
+        .. math::
+            k = \frac{A E}{l}
+
 

@@ -20,14 +20,20 @@ nonzero concentration of free charge carriers in the semiconductor.
 
 .. py:data:: charge_carriers_concentration
 
-    Concentration of intrinsic charge carriers.
+    :attr:`~symplyphysics.symbols.basic.number_density` of intrinsic charge carriers.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: density_of_states_in_conduction_band
 
-    Effective density of states in the conduction band.
+    Effective :attr:`~symplyphysics.symbols.chemistry.density_of_states` in the conduction band.
 
     Symbol:
         :code:`N_c`
@@ -35,15 +41,21 @@ nonzero concentration of free charge carriers in the semiconductor.
     Latex:
         :math:`N_\text{c}`
 
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: density_of_states_in_valence_band
 
-    Effective density of states in the valence band.
+    Effective :attr:`~symplyphysics.symbols.chemistry.density_of_states` in the valence band.
 
     Symbol:
         :code:`N_v`
 
     Latex:
         :math:`N_\text{v}`
+
+    Dimension:
+        :code:`1/volume`
 
 .. py:data:: temperature
 
@@ -60,7 +72,7 @@ nonzero concentration of free charge carriers in the semiconductor.
 
 .. py:data:: band_gap
 
-    Band gap of the semiconductor.
+    :attr:`~symplyphysics.symbols.chemistry.band_gap` of the semiconductor.
 
     Symbol:
         :code:`E_g`
@@ -68,11 +80,16 @@ nonzero concentration of free charge carriers in the semiconductor.
     Latex:
         :math:`E_\text{g}`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: law
 
-    :code:`n = sqrt(N_c * N_v) * exp(-1 * E_g / (2 * k_B * T))`
+    :code:`n = sqrt(N_c * N_v) * exp(-E_g / (2 * k_B * T))`
+
 
     Latex:
         .. math::
-            n = \sqrt{N_\text{c} N_\text{v}} \exp \left( -\frac{E_\text{g}}{2 k_\text{B} T} \right)
+            n = \sqrt{N_\text{c} N_\text{v}} \exp{\left(- \frac{E_\text{g}}{2 T k_\text{B}} \right)}
+
 

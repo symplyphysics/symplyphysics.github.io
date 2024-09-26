@@ -331,3 +331,16 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`impedance`
 
+.. py:data:: current_density
+
+    **Current density** is the amount of charge per unit time that flows through a unit area of a chosen cross section.
+
+    Symbol:
+        :code:`j`
+
+    Latex:
+        :math:`j`
+
+    Dimension:
+        :code:`current/area`
+

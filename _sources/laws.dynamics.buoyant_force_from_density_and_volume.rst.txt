@@ -12,7 +12,7 @@ vector is directed opposite to the gravity vector.
     The buoyant (Archimedes) :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
-        :code:`Fa`
+        :code:`F_A`
 
     Latex:
         :math:`F_\text{A}`
@@ -22,26 +22,38 @@ vector is directed opposite to the gravity vector.
 
 .. py:data:: fluid_density
 
-    The density of the fluid.
+    The :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
     Symbol:
-        rho
+        :code:`rho`
 
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: displaced_volume
 
-    The volume of the displaced fluid. Equivalently, the volume of the part of the body immersed in the fluid.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the displaced fluid. Equivalently, the volume of the part of the body
+    immersed in the fluid.
 
-    Symbols:
-        V
+    Symbol:
+        :code:`V`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: law
 
-    Fa = -1 * rho * g * V
+    :code:`F_A = -g * V * rho`
+
 
     Latex:
         .. math::
-            F_\text{A} = - \rho g V
+            F_\text{A} = - V \rho g
+
 

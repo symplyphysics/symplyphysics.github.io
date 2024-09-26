@@ -27,23 +27,37 @@ of a free particle with that mass.
 
 .. py:data:: energy
 
-    Electron energy as a function of wavenumber.
+    Electron energy as a function of angular wavenumber.
 
     Symbol:
         :code:`E(k)`
 
-.. py:data:: wavenumber
+    Latex:
+        :math:`E`
 
-    Wavenumber.
+    Dimension:
+        :code:`energy`
+
+.. py:data:: angular_wavenumber
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber`.
 
     Symbol:
         :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`angle/length`
 
 .. py:data:: law
 
     :code:`m_eff = hbar^2 / Derivative(E(k), (k, 2))`
 
+
     Latex:
         .. math::
-            m_\text{eff} = \hbar^2 \left( \frac{d^2 E}{d k^2} \right)^{-1}
+            m_\text{eff} = \frac{\hbar^{2}}{\frac{d^{2}}{d k^{2}} E{\left(k \right)}}
+
 

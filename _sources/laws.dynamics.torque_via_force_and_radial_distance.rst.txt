@@ -12,13 +12,16 @@ Torque via force and radial distance
 
 .. py:data:: torque
 
-    The magnitude of the torque applied at the given point.
+    The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.torque` applied at the given point.
 
     Symbol:
         :code:`tau`
 
     Latex:
         :math:`\tau`
+
+    Dimension:
+        :code:`force*length`
 
 .. py:data:: force
 
@@ -35,14 +38,20 @@ Torque via force and radial distance
 
 .. py:data:: radial_distance
 
-    The distance to axis from the given point.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_axis` from the given point.
 
     Symbol:
         :code:`r`
 
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: angle_between_vectors
 
-    The angle between the position vector of the given point and the force vector.
+    The :attr:`~symplyphysics.symbols.basic.angle` between the position vector of the given point and the force vector.
 
     Symbol:
         :code:`phi`
@@ -50,11 +59,16 @@ Torque via force and radial distance
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: law
 
     :code:`tau = F * r * sin(phi)`
 
+
     Latex:
         .. math::
-            \tau = F r \sin{\varphi}
+            \tau = F r \sin{\left(\varphi \right)}
+
 

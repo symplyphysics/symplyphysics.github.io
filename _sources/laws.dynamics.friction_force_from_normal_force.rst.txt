@@ -19,15 +19,18 @@ It is proportional to the normal force between the two objects.
     Dimension:
         :code:`force`
 
-.. py:data:: coefficient_of_friction
+.. py:data:: friction_coefficient
 
-    The coefficient of friction between the two objects.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.friction_coefficient` between the two objects.
 
     Symbol:
         :code:`mu`
 
     Latex:
         :math:`\mu`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: normal_force
 

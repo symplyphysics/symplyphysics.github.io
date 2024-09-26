@@ -1,7 +1,7 @@
 Elastic potential energy from displacement
 ------------------------------------------
 
-Spring accumulates energy while being deformed. This law is known as the *Hooke's law*.
+Spring accumulates energy while being deformed. This law is known as the **Hooke's law**.
 
 **Conditions:**
 
@@ -14,30 +14,51 @@ Spring accumulates energy while being deformed. This law is known as the *Hooke'
 
 .. py:data:: elastic_potential_energy
 
-    The potential energy of the spring.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the spring.
 
     Symbol:
         :code:`U`
 
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: stiffness
 
-    The spring's stiffness, or spring constant.
+    The spring's :attr:`~symplyphysics.symbols.classical_mechanics.stiffness`, or spring constant.
 
     Symbol:
         :code:`k`
 
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`force/length`
+
 .. py:data:: displacement
 
-    The displacement of the spring.
+    The displacement of the spring, or the :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the initial position
+    and the rest position.
 
     Symbol:
-        :code:`x`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`U = k * x^2 / 2`
+    :code:`U = d^2 * k / 2`
+
 
     Latex:
         .. math::
-            U = \frac{1}{2} k x^2
+            U = \frac{k d^{2}}{2}
+
 

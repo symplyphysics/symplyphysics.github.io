@@ -18,37 +18,55 @@ To do this, the heat capacity of the external environment must be large enough, 
 
 .. py:data:: work
 
-    Work done by the ideal gas during the isothermal process.
+    :attr:`~symplyphysics.symbols.basic.work` done by the ideal gas during the isothermal process.
 
     Symbol:
         :code:`W`
 
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: amount_of_substance
 
-    Amount of ideal gas.
+    :attr:`~symplyphysics.symbols.chemistry.amount_of_substance` of ideal gas.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`amount_of_substance`
+
 .. py:data:: initial_volume
 
-    Initial volume of the gas.
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas.
 
     Symbol:
-        :code:`V0`
+        :code:`V_0`
 
     Latex:
         :math:`V_0`
 
+    Dimension:
+        :code:`volume`
+
 .. py:data:: final_volume
 
-    Final volume of the gas.
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas.
 
     Symbol:
-        :code:`V1`
+        :code:`V_1`
 
     Latex:
         :math:`V_1`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: temperature
 
@@ -65,9 +83,11 @@ To do this, the heat capacity of the external environment must be large enough, 
 
 .. py:data:: law
 
-    :code:`W = n * R * T * log(V1 / V0)`
+    :code:`W = R * n * T * log(V_1 / V_0)`
+
 
     Latex:
         .. math::
-            W = n R T \log \frac{V_1}{V_0}
+            W = n T \log \frac{V_{1}}{V_{0}} R
+
 

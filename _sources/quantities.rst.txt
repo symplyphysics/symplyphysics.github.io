@@ -256,3 +256,20 @@ Contains useful physical constants. Fundamental constants can be also found in `
     Dimension:
         :code:`energy/(length**2*temperature**4*time)`
 
+.. py:data:: richardson_constant
+
+    Constant of proportionality proposed by Richardson to describe the law of thermionic emission.
+
+    **Links:**
+
+    #. `Richardson's law <https://en.wikipedia.org/wiki/Thermionic_emission#Richardson's_law>`__.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`current/(length**2*temperature**2)`
+

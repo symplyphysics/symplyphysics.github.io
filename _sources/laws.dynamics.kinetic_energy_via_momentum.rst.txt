@@ -11,17 +11,29 @@ Kinetic energy can be expressed as a function of momentum and mass.
 
 .. py:data:: kinetic_energy
 
-    The kinetic energy of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object.
 
     Symbol:
         :code:`K`
 
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: momentum
 
-    The momentum of the object.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object.
 
     Symbol:
         :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`momentum`
 
 .. py:data:: mass
 
@@ -40,7 +52,9 @@ Kinetic energy can be expressed as a function of momentum and mass.
 
     :code:`K = p^2 / (2 * m)`
 
+
     Latex:
         .. math::
-            K = \frac{p^2}{2 m}
+            K = \frac{p^{2}}{2 m}
+
 

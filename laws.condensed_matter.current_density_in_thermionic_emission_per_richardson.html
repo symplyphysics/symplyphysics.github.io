@@ -47,9 +47,13 @@ the material. This formula for emission current density was proposed by Owen Wil
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.current_density">
 <span class="sig-name descname"><span class="pre">current_density</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.current_density" title="Link to this definition">¶</a></dt>
-<dd><p>Emission current density.</p>
+<dd><p>Emission <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current_density" title="symplyphysics.symbols.electrodynamics.current_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current_density</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">j</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(j\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">current/area</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -57,9 +61,13 @@ the material. This formula for emission current density was proposed by Owen Wil
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.work_function">
 <span class="sig-name descname"><span class="pre">work_function</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.work_function" title="Link to this definition">¶</a></dt>
-<dd><p>Work function of the material.</p>
+<dd><p><a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.work_function" title="symplyphysics.symbols.chemistry.work_function"><code class="xref py py-attr docutils literal notranslate"><span class="pre">work_function</span></code></a> of the material.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">W</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(W\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -79,26 +87,12 @@ the material. This formula for emission current density was proposed by Owen Wil
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.richardson_constant">
-<span class="sig-name descname"><span class="pre">richardson_constant</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.richardson_constant" title="Link to this definition">¶</a></dt>
-<dd><p>Constant of proportionality proposed by Richardson.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">current/(length**2*temperature**2)</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">j</span> <span class="pre">=</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">T^2</span> <span class="pre">*</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">W</span> <span class="pre">/</span> <span class="pre">(k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">j</span> <span class="pre">=</span> <span class="pre">T^2</span> <span class="pre">*</span> <span class="pre">a</span> <span class="pre">*</span> <span class="pre">exp(-W</span> <span class="pre">/</span> <span class="pre">(k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[j = A T^2 \exp \left( - \frac{W}{k_\text{B} T} \right)\]</div>
+\[j = T^{2} \exp{\left(- \frac{W}{T k_\text{B}} \right)} a\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -141,7 +135,6 @@ the material. This formula for emission current density was proposed by Owen Wil
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.current_density"><code class="docutils literal notranslate"><span class="pre">current_density</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.work_function"><code class="docutils literal notranslate"><span class="pre">work_function</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.richardson_constant"><code class="docutils literal notranslate"><span class="pre">richardson_constant</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>

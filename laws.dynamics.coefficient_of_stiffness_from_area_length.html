@@ -42,9 +42,13 @@ Young’s modulus is a tabular value that is different for each material.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.stiffness">
 <span class="sig-name descname"><span class="pre">stiffness</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.stiffness" title="Link to this definition">¶</a></dt>
-<dd><p>The stiffness coefficient of the material.</p>
+<dd><p>The <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.stiffness" title="symplyphysics.symbols.classical_mechanics.stiffness"><code class="xref py py-attr docutils literal notranslate"><span class="pre">stiffness</span></code></a> coefficient of the material.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -52,9 +56,13 @@ Young’s modulus is a tabular value that is different for each material.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.young_modulus">
 <span class="sig-name descname"><span class="pre">young_modulus</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.young_modulus" title="Link to this definition">¶</a></dt>
-<dd><p>The Young’s modulus of the material.</p>
+<dd><p>The <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.young_modulus" title="symplyphysics.symbols.classical_mechanics.young_modulus"><code class="xref py py-attr docutils literal notranslate"><span class="pre">young_modulus</span></code></a> of the material.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -62,9 +70,13 @@ Young’s modulus is a tabular value that is different for each material.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.area">
 <span class="sig-name descname"><span class="pre">area</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.area" title="Link to this definition">¶</a></dt>
-<dd><p>The cross-sectional area of the object.</p>
+<dd><p>The cross-sectional <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.area" title="symplyphysics.symbols.classical_mechanics.area"><code class="xref py py-attr docutils literal notranslate"><span class="pre">area</span></code></a> of the object.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -72,9 +84,13 @@ Young’s modulus is a tabular value that is different for each material.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.length">
 <span class="sig-name descname"><span class="pre">length</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.length" title="Link to this definition">¶</a></dt>
-<dd><p>The length of the object.</p>
+<dd><p>The <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.length" title="symplyphysics.symbols.classical_mechanics.length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">length</span></code></a> of the object.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">l</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(l\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -82,9 +98,10 @@ Young’s modulus is a tabular value that is different for each material.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.coefficient_of_stiffness_from_area_length.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">k</span> <span class="pre">=</span> <span class="pre">E</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">/</span> <span class="pre">l</span></code></p>
-<dl class="simple">
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k = E \frac{A}{l}\)</span></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">k</span> <span class="pre">=</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">E</span> <span class="pre">/</span> <span class="pre">l</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[k = \frac{A E}{l}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -148,9 +165,8 @@ Young’s modulus is a tabular value that is different for each material.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_mass_and_speed.html">Kinetic energy from mass and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_rotational_inertia_and_angular_speed.html">Kinetic energy from rotational inertia and angular speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_via_momentum.html">Kinetic energy via momentum</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_velocity.html">Maximum height from initial speed</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_move.html">Mechanical work is force times distance</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.moment_of_force_from_moment_of_inertia_and_angular_acceleration.html">Torque via rotational inertia and angular acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_initial_speed.html">Maximum height from initial speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_distance.html">Mechanical work is force times distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html">Momentum derivative of kinetic energy is speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_ideal_pendulum_from_length.html">Period of ideal pendulum from length</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_physical_pendulum.html">Period of physical pendulum</a></li>
@@ -165,6 +181,7 @@ Young’s modulus is a tabular value that is different for each material.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.html">Rocket thrust is rocket mass times acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rotational_work_is_torque_times_angular_distance.html">Rotational work is torque times angular distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_force_and_radial_distance.html">Torque via force and radial distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_rotational_inertia_and_angular_acceleration.html">Torque via rotational inertia and angular acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.total_work_is_change_in_kinetic_energy.html">Total work is change in kinetic energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.work_is_integral_of_force_over_distance.html">Work is integral of force over distance</a></li>
 </ul>

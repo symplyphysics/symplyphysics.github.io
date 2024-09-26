@@ -9,10 +9,16 @@ mass and the distance between the pivot and the center of mass of the pendulum.
 
 .. py:data:: period
 
-    The period of the physical pendulum.
+    The :attr:`~symplyphysics.symbols.basic.period` of the physical pendulum.
 
     Symbol:
         :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: mass
 
@@ -29,23 +35,37 @@ mass and the distance between the pivot and the center of mass of the pendulum.
 
 .. py:data:: rotational_inertia
 
-    The rotational inertia of the pendulum.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the pendulum.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
 .. py:data:: distance_to_pivot
 
-    The distance between the pivot and the pendulum's center of mass.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the pivot and the pendulum's center of mass.
 
     Symbol:
-        :code:`h`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`T = 2 * pi * sqrt(I / (m * g * h))`
+    :code:`T = 2 * pi * (sqrt(I) / (sqrt(g) * sqrt(m) * sqrt(d)))`
+
 
     Latex:
         .. math::
-            T = 2 \pi \sqrt{\frac{I}{m g h}}
+            T = 2 \pi \frac{\sqrt{I}}{\sqrt{d} \sqrt{m} \sqrt{g}}
+
 
