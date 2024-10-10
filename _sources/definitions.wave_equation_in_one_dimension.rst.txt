@@ -21,9 +21,15 @@ or electromagnetic waves.
     Symbol:
         :code:`u(x, t)`
 
+    Latex:
+        :math:`u`
+
+    Dimension:
+        :code:`any_dimension`
+
 .. py:data:: position
 
-    Position, or spatial variable.
+    :attr:`~symplyphysics.symbols.classical_mechanics.position`, or spatial variable.
 
     Symbol:
         :code:`x`
@@ -36,7 +42,7 @@ or electromagnetic waves.
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
@@ -49,7 +55,7 @@ or electromagnetic waves.
 
 .. py:data:: phase_speed
 
-    :doc:`Phase speed <laws.waves.phase_velocity_from_angular_frequency_and_wavenumber>` of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
@@ -62,9 +68,11 @@ or electromagnetic waves.
 
 .. py:data:: definition
 
-    :code:`Derivative(u(x, t), (x, 2)) = (1/v^2) * Derivative(u(x, t), (t, 2))`
+    :code:`Derivative(u(x, t), (x, 2)) = Derivative(u(x, t), (t, 2)) / v^2`
+
 
     Latex:
         .. math::
-            \frac{\partial^2 u}{\partial x^2} = \frac{1}{v^2} \frac{\partial^2 u}{\partial t^2}
+            \frac{\partial^{2}}{\partial x^{2}} u{\left(x,t \right)} = \frac{\frac{\partial^{2}}{\partial t^{2}} u{\left(x,t \right)}}{v^{2}}
+
 
