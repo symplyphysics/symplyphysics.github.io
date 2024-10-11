@@ -12,7 +12,6 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -44,100 +43,6 @@ and points to the instantaneous axis of rotation,</p></li>
 <li><p>and <em>tangential acceleration</em>, which is responsible for the change in the magnitude of
 the velocity vector.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.acceleration_law">
-<span class="sig-name descname"><span class="pre">acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">normal_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tangential_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_is_normal_plus_tangential_acceleration.html#acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.acceleration_law" title="Link to this definition">¶</a></dt>
-<dd><p>Total acceleration via normal and tangential accelerations.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a</span> <span class="pre">=</span> <span class="pre">a_n</span> <span class="pre">+</span> <span class="pre">a_t</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec a = {\vec a}_n + {\vec a}_\tau\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>normal_acceleration_</strong> – <p>vector of normal acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_n</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_n\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p></li>
-<li><p><strong>tangential_acceleration_</strong> – <p>vector of tangential acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_t</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\tau\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>vector of total acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec a\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.normal_acceleration_law">
-<span class="sig-name descname"><span class="pre">normal_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">total_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tangential_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_is_normal_plus_tangential_acceleration.html#normal_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.normal_acceleration_law" title="Link to this definition">¶</a></dt>
-<dd><p>Normal acceleration via total and tangential accelerations.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_n</span> <span class="pre">=</span> <span class="pre">a</span> <span class="pre">-</span> <span class="pre">a_t</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec a}_n = \vec a - {\vec a}_\tau\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>total_acceleration_</strong> – <p>vector of total acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec a\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p></li>
-<li><p><strong>tangential_acceleration_</strong> – <p>vector of tangential acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_t</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\tau\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.tangential_acceleration_law">
-<span class="sig-name descname"><span class="pre">tangential_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">total_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">normal_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_is_normal_plus_tangential_acceleration.html#tangential_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.tangential_acceleration_law" title="Link to this definition">¶</a></dt>
-<dd><p>Tangential acceleration via total and normal accelerations.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_t</span> <span class="pre">=</span> <span class="pre">a</span> <span class="pre">-</span> <span class="pre">a_n</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec a}_\tau = \vec a - {\vec a}_n\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>total_acceleration_</strong> – <p>vector of total acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec a\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p></li>
-<li><p><strong>normal_acceleration_</strong> – <p>vector of normal acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_n</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_n\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p></li>
-</ul>
-</dd>
-</dl>
-</dd></dl>
-
 </section>
 
 

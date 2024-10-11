@@ -98,11 +98,11 @@ resonance.
 
 .. py:data:: law
 
-    :code:`x(t) = t * F * sin(t * w_0 + phi) / (2 * w_0 * m)`
+    :code:`x(t) = F / (2 * m * w_0) * t * sin(w_0 * t + phi)`
 
 
     Latex:
         .. math::
-            x{\left(t \right)} = \frac{t F \sin{\left(t \omega_{0} + \varphi \right)}}{2 \omega_{0} m}
+            x{\left(t \right)} = \frac{F}{2 m \omega_{0}} t \sin{\left(\omega_{0} t + \varphi \right)}
 
 

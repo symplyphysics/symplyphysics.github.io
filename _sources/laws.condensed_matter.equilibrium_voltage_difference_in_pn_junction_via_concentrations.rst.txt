@@ -100,11 +100,11 @@ The p-n junction has a potential barrier preventing the movement of charge carri
 
 .. py:data:: law
 
-    :code:`Delta(V) = k_B * T * log(n_d * n_a / n^2) / q`
+    :code:`Delta(V) = k_B * T / q * log(n_d * n_a / n^2)`
 
 
     Latex:
         .. math::
-            \Delta V = \frac{T \log \frac{n_\text{d} n_\text{a}}{n^{2}} k_\text{B}}{q}
+            \Delta V = \frac{k_\text{B} T}{q} \log \frac{n_\text{d} n_\text{a}}{n^{2}}
 
 

@@ -89,11 +89,11 @@ the temperature or the larger the pressure.
 
 .. py:data:: definition
 
-    :code:`Z = V * p / (R * n * T)`
+    :code:`Z = p * V / (n * R * T)`
 
 
     Latex:
         .. math::
-            Z = \frac{V p}{n T R}
+            Z = \frac{p V}{n R T}
 
 

@@ -59,6 +59,6 @@ to axial (or longitudinal) strain in the direction of a deforming force.
 
     Latex:
         .. math::
-            \nu = - \frac{e_\text{transverse}}{e_\text{axial}}
+            \nu = \frac{- e_\text{transverse}}{e_\text{axial}}
 
 

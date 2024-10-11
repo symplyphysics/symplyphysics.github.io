@@ -66,11 +66,11 @@ filled with a dielectric medium. See `Figure`_.
 
 .. py:data:: law
 
-    :code:`C = 4 * pi * r_in * r_out * epsilon / (-r_in + r_out)`
+    :code:`C = 4 * pi * epsilon * r_in * r_out / (r_out - r_in)`
 
 
     Latex:
         .. math::
-            C = \frac{4 \pi r_\text{in} r_\text{out} \varepsilon}{- r_\text{in} + r_\text{out}}
+            C = \frac{4 \pi \varepsilon r_\text{in} r_\text{out}}{r_\text{out} - r_\text{in}}
 
 

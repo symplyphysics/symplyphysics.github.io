@@ -68,6 +68,6 @@ The work-energy principle states that the work done by all forces acting on a pa
 
     Latex:
         .. math::
-            W = - K{\left(t_{0} \right)} + K{\left(t_{1} \right)}
+            W = K{\left(t_{1} \right)} - K{\left(t_{0} \right)}
 
 

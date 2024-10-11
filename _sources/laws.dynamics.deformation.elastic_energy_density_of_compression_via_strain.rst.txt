@@ -49,7 +49,7 @@ can be used to obtain analogous forms of this law.
 
 .. py:data:: law
 
-    :code:`w = e^2 * E / 2`
+    :code:`w = E * e^2 / 2`
 
 
     Latex:

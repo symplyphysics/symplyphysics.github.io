@@ -47,11 +47,11 @@ other objects.
 
 .. py:data:: law
 
-    :code:`U = g * m * h`
+    :code:`U = m * g * h`
 
 
     Latex:
         .. math::
-            U = m h g
+            U = m g h
 
 

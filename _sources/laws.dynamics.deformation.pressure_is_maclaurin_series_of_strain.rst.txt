@@ -88,11 +88,17 @@ its physical state.
 
 .. py:data:: law
 
-    :code:`p = E * e + e^3 * B + e^2 * A + O(e^4)`
+    .. only:: comment
+
+        Big O should be evaluated by SymPy
+
+    :code:`p = e^2 * A + e^3 * B + E * e + O(e^4)`
 
 
     Latex:
         .. math::
-            p = E e + B e^{3} + A e^{2} + O\left(e^{4}\right)
+            p = e^{2} A + e^{3} B + E e + O\left(e^{4}\right)
+
+
 
 

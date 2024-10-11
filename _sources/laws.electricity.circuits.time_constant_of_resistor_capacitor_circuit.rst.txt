@@ -48,11 +48,11 @@ The time constant of an RC circuit is the time it takes for the current to becom
 
 .. py:data:: law
 
-    :code:`tau = C * R`
+    :code:`tau = R * C`
 
 
     Latex:
         .. math::
-            \tau = C R
+            \tau = R C
 
 

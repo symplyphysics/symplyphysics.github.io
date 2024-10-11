@@ -65,11 +65,11 @@ on the permittivity of the medium that fills the space between the plates.
 
 .. py:data:: law
 
-    :code:`C = A * epsilon / d`
+    :code:`C = epsilon * A / d`
 
 
     Latex:
         .. math::
-            C = \frac{A \varepsilon}{d}
+            C = \frac{\varepsilon A}{d}
 
 

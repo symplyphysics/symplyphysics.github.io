@@ -49,11 +49,11 @@ resonant frequency.
 
 .. py:data:: law
 
-    :code:`T = 2 * pi * sqrt(C * L)`
+    :code:`T = 2 * pi * sqrt(L * C)`
 
 
     Latex:
         .. math::
-            T = 2 \pi \sqrt{C L}
+            T = 2 \pi \sqrt{L C}
 
 

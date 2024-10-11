@@ -51,11 +51,11 @@ to the value of the charge and the square inverse of the distance to it.
 
 .. py:data:: law
 
-    :code:`E = q / (4 * pi * epsilon_0 * d^2)`
+    :code:`E = q / d^2 / 4 * pi * epsilon_0`
 
 
     Latex:
         .. math::
-            E = \frac{q}{4 \pi d^{2} \varepsilon_0}
+            E = \frac{1}{4 \pi \varepsilon_0} \frac{q}{d^{2}}
 
 

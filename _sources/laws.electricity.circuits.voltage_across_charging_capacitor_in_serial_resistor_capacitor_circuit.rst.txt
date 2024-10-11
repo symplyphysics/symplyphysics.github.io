@@ -68,11 +68,11 @@ reaches the voltage of the source.
 
 .. py:data:: law
 
-    :code:`V = (1 - exp(-t / tau)) * V_0`
+    :code:`V = V_0 * (1 - exp(-t / tau))`
 
 
     Latex:
         .. math::
-            V = V_{0} \left(1 - \exp{\left(- \frac{t}{\tau} \right)}\right)
+            V = V_{0} \left(1 - \exp{\left(\frac{- t}{\tau} \right)}\right)
 
 

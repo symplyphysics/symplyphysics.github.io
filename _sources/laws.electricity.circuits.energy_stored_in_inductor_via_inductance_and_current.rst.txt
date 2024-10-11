@@ -47,11 +47,11 @@ through it.
 
 .. py:data:: law
 
-    :code:`W = I^2 * L / 2`
+    :code:`W = L * I^2 / 2`
 
 
     Latex:
         .. math::
-            W = \frac{I^{2} L}{2}
+            W = \frac{L I^{2}}{2}
 
 

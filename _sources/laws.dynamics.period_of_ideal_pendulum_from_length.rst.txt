@@ -41,11 +41,11 @@ Period of pendulum oscillation does not depend on its mass.
 
 .. py:data:: law
 
-    :code:`T = 2 * pi * (sqrt(l) / sqrt(g))`
+    :code:`T = 2 * pi * sqrt(l / g)`
 
 
     Latex:
         .. math::
-            T = 2 \pi \frac{\sqrt{l}}{\sqrt{g}}
+            T = 2 \pi \sqrt{\frac{l}{g}}
 
 

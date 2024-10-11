@@ -18,30 +18,3 @@ of the system. It is collinear to the vector connecting the two point charges.
     Symbol:
         :code:`q`
 
-.. py:function:: dipole_moment_law(displacement_vector_)
-
-    Vector of electric dipole moment via displacement vector.
-
-    Law:
-        :code:`p = q * d`
-
-    Latex:
-        .. math::
-            \vec p = q \vec d
-
-    :param displacement\_vector\_: vector pointing from the negative charge to the positive charge
-
-        Symbol: :code:`d`
-
-        Latex: :math:`\vec d`
-
-        Dimension: *length*
-
-    :return: vector of electric dipole moment
-
-        Symbol: :code:`p`
-
-        Latex: :math:`\vec p`
-
-        Dimension: *charge* * *length*
-

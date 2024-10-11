@@ -66,11 +66,11 @@ of the positive charges at this point.
 
 .. py:data:: law
 
-    :code:`j = n * u * q`
+    :code:`j = q * n * u`
 
 
     Latex:
         .. math::
-            j = n u q
+            j = q n u
 
 

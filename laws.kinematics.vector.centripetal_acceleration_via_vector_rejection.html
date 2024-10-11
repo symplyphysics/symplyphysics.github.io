@@ -47,42 +47,6 @@ which is directed towards the axis of rotation.</p>
 <span class="math notranslate nohighlight">\(\vec a\)</span> from <span class="math notranslate nohighlight">\(\vec b\)</span>, i.e. the component of <span class="math notranslate nohighlight">\(\vec a\)</span> orthogonal
 to <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law">
-<span class="sig-name descname"><span class="pre">centripetal_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angular_velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">radius_vector_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/centripetal_acceleration_via_vector_rejection.html#centripetal_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law" title="Link to this definition">¶</a></dt>
-<dd><p>Centripetal acceleration via angular velocity and radius vector.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_c</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">norm(w)^2</span> <span class="pre">*</span> <span class="pre">reject(r,</span> <span class="pre">w)</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec a}_\text{c} = - |\vec \omega|^2 \text{oproj}_{\vec \omega} \vec r\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>angular_velocity_</strong> – <p>pseudovector of angular velocity</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec \omega\)</span></p>
-<p>Dimension: <em>angle</em> / <em>time</em></p>
-</p></li>
-<li><p><strong>radius_vector_</strong> – <p>radius vector, or position vector</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec r\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>vector of centripetal acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_c</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{c}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
-</dd>
-</dl>
-</dd></dl>
-
 </section>
 
 

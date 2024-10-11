@@ -74,11 +74,11 @@ of the magnetic flux density, the rotation frequency and the length of the rod.
 
 .. py:data:: law
 
-    :code:`E = l^2 * w * B / 2`
+    :code:`E = B * w * l^2 / 2`
 
 
     Latex:
         .. math::
-            \mathcal{E} = \frac{\omega B l^{2}}{2}
+            \mathcal{E} = \frac{B \omega l^{2}}{2}
 
 

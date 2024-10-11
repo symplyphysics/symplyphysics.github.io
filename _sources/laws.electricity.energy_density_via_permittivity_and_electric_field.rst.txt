@@ -48,11 +48,11 @@ on the strength of the electric field at that point.
 
 .. py:data:: law
 
-    :code:`w = E^2 * epsilon / 2`
+    :code:`w = epsilon * E^2 / 2`
 
 
     Latex:
         .. math::
-            w = \frac{E^{2} \varepsilon}{2}
+            w = \frac{\varepsilon E^{2}}{2}
 
 

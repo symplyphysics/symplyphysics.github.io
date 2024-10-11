@@ -47,11 +47,11 @@ conductor and voltage applied.
 
 .. py:data:: law
 
-    :code:`P = V * I`
+    :code:`P = I * V`
 
 
     Latex:
         .. math::
-            P = V I
+            P = I V
 
 

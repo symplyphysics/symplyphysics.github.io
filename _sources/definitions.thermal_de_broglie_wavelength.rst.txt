@@ -55,11 +55,11 @@ inter-particle spacing. Otherwise, quantum effects must be taken into account.
 
 .. py:data:: definition
 
-    :code:`lambda = sqrt(2) * sqrt(pi) * sqrt(1 / (m * T)) * hbar / sqrt(k_B)`
+    :code:`lambda = hbar * sqrt(2 * pi / (m * k_B * T))`
 
 
     Latex:
         .. math::
-            \lambda = \frac{\sqrt{2} \sqrt{\pi} \sqrt{\frac{1}{m T}} \hbar}{\sqrt{k_\text{B}}}
+            \lambda = \hbar \sqrt{\frac{2 \pi}{m k_\text{B} T}}
 
 

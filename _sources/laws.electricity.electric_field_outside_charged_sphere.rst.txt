@@ -61,6 +61,6 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
 
     Latex:
         .. math::
-            E = \frac{q}{4 \pi d^{2} \varepsilon_0}
+            E = \frac{q}{4 \pi \varepsilon_0 d^{2}}
 
 

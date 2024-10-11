@@ -60,11 +60,11 @@ to the distance to the point charge. Also see :doc:`laws.electricity.electrostat
 
 .. py:data:: law
 
-    :code:`U_E = q / (4 * pi * d * epsilon)`
+    :code:`U_E = q / (4 * pi * epsilon * d)`
 
 
     Latex:
         .. math::
-            U_\mathbf{E} = \frac{q}{4 \pi d \varepsilon}
+            U_\mathbf{E} = \frac{q}{4 \pi \varepsilon d}
 
 

@@ -59,11 +59,11 @@ cube of the distance to the dipole and the value of the electric dipole moment.
 
 .. py:data:: law
 
-    :code:`E = p / (2 * pi * epsilon_0 * d^3)`
+    :code:`E = p / d^3 / 2 * pi * epsilon_0`
 
 
     Latex:
         .. math::
-            E = \frac{p}{2 \pi d^{3} \varepsilon_0}
+            E = \frac{1}{2 \pi \varepsilon_0} \frac{p}{d^{3}}
 
 

@@ -58,11 +58,11 @@ the Young modulus of the material and also depends on its Poisson ratio.
 
 .. py:data:: law
 
-    :code:`K = E / (3 - 6 * nu)`
+    :code:`K = E / (3 * (1 - 2 * nu))`
 
 
     Latex:
         .. math::
-            K = \frac{E}{3 - 6 \nu}
+            K = \frac{E}{3 \left(1 - 2 \nu\right)}
 
 

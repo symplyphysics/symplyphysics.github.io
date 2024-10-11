@@ -43,6 +43,6 @@ and vacuum permittivity.
 
     Latex:
         .. math::
-            \varepsilon = \varepsilon_{r} \varepsilon_0
+            \varepsilon = \varepsilon_0 \varepsilon_{r}
 
 

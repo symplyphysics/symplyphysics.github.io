@@ -83,11 +83,11 @@ the total mass of the system does not change.
 
 .. py:data:: law
 
-    :code:`R * v_rel = a * m`
+    :code:`R * v_rel = m * a`
 
 
     Latex:
         .. math::
-            R v_\text{rel} = a m
+            R v_\text{rel} = m a
 
 

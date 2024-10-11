@@ -12,7 +12,6 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -39,64 +38,6 @@
 <h1>Centrifugal acceleration via centripetal acceleration<a class="headerlink" href="#centrifugal-acceleration-via-centripetal-acceleration" title="Link to this heading">¶</a></h1>
 <p>The vector of <em>centrifugal acceleration</em> has the same magnitude as the vector of <em>centripetal
 acceleration</em> but is directed oppositely to it.</p>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_law">
-<span class="sig-name descname"><span class="pre">centrifugal_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">centripetal_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/centrifugal_acceleration_via_centripetal_acceleration.html#centrifugal_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_law" title="Link to this definition">¶</a></dt>
-<dd><p><em>Centrifugal acceleration</em> via centripetal acceleration.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_centrifugal</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">a_centripetal</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec a_\text{cf} = - \vec a_\text{cp}\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>centripetal_acceleration_</strong> – <p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> experienced by the rotating body in an inertial frame.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_centripetal</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec a_\text{cp}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> experienced by the body in a non-inertial, rotating frame.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_centrifugal</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec a_\text{cf}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centripetal_law">
-<span class="sig-name descname"><span class="pre">centripetal_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">centrifugal_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/centrifugal_acceleration_via_centripetal_acceleration.html#centripetal_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centripetal_law" title="Link to this definition">¶</a></dt>
-<dd><p><em>Centripetal acceleration</em> via centrifugal acceleration.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_centripetal</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">a_centrifugal</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec a_\text{cp} = - \vec a_\text{cf}\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>centrifugal_acceleration_</strong> – <p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> experienced by the body in a non-inertial, rotating frame.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_centripetal</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec a_\text{cp}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> experienced by the rotating body in an inertial frame.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_centripetal</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec a_\text{cp}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
-</dd>
-</dl>
-</dd></dl>
-
 </section>
 
 

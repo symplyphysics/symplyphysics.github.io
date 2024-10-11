@@ -60,11 +60,11 @@ Young's modulus is a tabular value that is different for each material.
 
 .. py:data:: law
 
-    :code:`k = A * E / l`
+    :code:`k = E * A / l`
 
 
     Latex:
         .. math::
-            k = \frac{A E}{l}
+            k = \frac{E A}{l}
 
 

@@ -53,11 +53,11 @@ When power is constant, energy can be expressed as a product of power and time.
 
 .. py:data:: law
 
-    :code:`E = t * P`
+    :code:`E = P * t`
 
 
     Latex:
         .. math::
-            E = t P
+            E = P t
 
 

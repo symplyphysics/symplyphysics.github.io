@@ -61,11 +61,11 @@ mass and the distance between the pivot and the center of mass of the pendulum.
 
 .. py:data:: law
 
-    :code:`T = 2 * pi * (sqrt(I) / (sqrt(g) * sqrt(m) * sqrt(d)))`
+    :code:`T = 2 * pi * sqrt(I / (m * g * d))`
 
 
     Latex:
         .. math::
-            T = 2 \pi \frac{\sqrt{I}}{\sqrt{d} \sqrt{m} \sqrt{g}}
+            T = 2 \pi \sqrt{\frac{I}{m g d}}
 
 

@@ -53,6 +53,6 @@ capacitor is infinite, i.e. it is considered to be an opened connection.
 
     Latex:
         .. math::
-            Z = - \frac{i}{\omega C}
+            Z = \frac{- i}{\omega C}
 
 

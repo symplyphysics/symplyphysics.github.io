@@ -82,11 +82,11 @@ of the particle as well as by the magnetic flux density.
 
 .. py:data:: law
 
-    :code:`r = v * m / (q * B)`
+    :code:`r = m * v / (q * B)`
 
 
     Latex:
         .. math::
-            r = \frac{v m}{q B}
+            r = \frac{m v}{q B}
 
 

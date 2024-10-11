@@ -12,7 +12,6 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.vector.center_of_mass_for_system_of_particles.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -39,42 +38,6 @@
 <h1>Center of mass for a system of particles<a class="headerlink" href="#center-of-mass-for-a-system-of-particles" title="Link to this heading">¶</a></h1>
 <p>The center of mass (com) of a system of particles is a unique point at any given time where
 the sum of weighted relative positions of the distributed mass is zero.</p>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass_law">
-<span class="sig-name descname"><span class="pre">center_of_mass_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">masses_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_vectors_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/center_of_mass_for_system_of_particles.html#center_of_mass_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass_law" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the center of mass from masses and position vectors.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_com</span> <span class="pre">=</span> <span class="pre">Sum(m_i</span> <span class="pre">*</span> <span class="pre">r_i,</span> <span class="pre">i)</span> <span class="pre">/</span> <span class="pre">Sum(m_i,</span> <span class="pre">i)</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec r}_\text{com} = \frac{\sum_i m_i {\vec r}_i}{\sum_i m_i}\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>masses_</strong> – <p>sequence of masses of individual parts</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">m_i</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(m_i\)</span></p>
-<p>Dimension: <em>mass</em></p>
-</p></li>
-<li><p><strong>position_vectors_</strong> – <p>sequence of position vectors of individual parts</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r_i</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec r}_i\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>vector of the center of mass</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r_com</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec r}_\text{com}\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p>
-</dd>
-</dl>
-</dd></dl>
-
 </section>
 
 

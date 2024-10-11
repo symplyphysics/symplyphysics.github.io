@@ -48,11 +48,11 @@ and the angular displacement during the movement of the body.
 
 .. py:data:: law
 
-    :code:`W = theta * tau`
+    :code:`W = tau * theta`
 
 
     Latex:
         .. math::
-            W = \theta \tau
+            W = \tau \theta
 
 

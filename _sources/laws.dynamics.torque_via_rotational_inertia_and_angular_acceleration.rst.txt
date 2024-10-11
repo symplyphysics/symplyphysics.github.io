@@ -47,11 +47,11 @@ on a mechanical object causing its rotational motion.
 
 .. py:data:: law
 
-    :code:`tau = alpha * I`
+    :code:`tau = I * alpha`
 
 
     Latex:
         .. math::
-            \tau = \alpha I
+            \tau = I \alpha
 
 

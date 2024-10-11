@@ -54,7 +54,7 @@ Spring accumulates energy while being deformed. This law is known as the **Hooke
 
 .. py:data:: law
 
-    :code:`U = d^2 * k / 2`
+    :code:`U = k * d^2 / 2`
 
 
     Latex:

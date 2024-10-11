@@ -69,11 +69,11 @@ property of the material and does not depend on its geometry.
 
 .. py:data:: law
 
-    :code:`R = l * rho / A`
+    :code:`R = rho * l / A`
 
 
     Latex:
         .. math::
-            R = \frac{l \rho}{A}
+            R = \frac{\rho l}{A}
 
 

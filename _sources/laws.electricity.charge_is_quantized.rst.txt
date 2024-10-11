@@ -37,7 +37,7 @@ Electric charge is quantized, i.e. restricted to certain values.
 
 .. py:data:: law
 
-    :code:`q = e * n`
+    :code:`q = n * e`
 
 
     Latex:

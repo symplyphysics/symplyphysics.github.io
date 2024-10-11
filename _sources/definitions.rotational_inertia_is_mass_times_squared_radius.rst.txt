@@ -51,7 +51,7 @@ be inertial during rotation. It is a rotational analog of mass in linear motion.
 
 .. py:data:: definition
 
-    :code:`I = r^2 * m`
+    :code:`I = m * r^2`
 
 
     Latex:

@@ -52,11 +52,11 @@ the material. This formula for emission current density was proposed by Owen Wil
 
 .. py:data:: law
 
-    :code:`j = T^2 * a * exp(-W / (k_B * T))`
+    :code:`j = a * T^2 * exp(-W / (k_B * T))`
 
 
     Latex:
         .. math::
-            j = T^{2} \exp{\left(- \frac{W}{T k_\text{B}} \right)} a
+            j = a T^{2} \exp{\left(\frac{- W}{k_\text{B} T} \right)}
 
 

@@ -49,11 +49,11 @@ vector is directed opposite to the gravity vector.
 
 .. py:data:: law
 
-    :code:`F_A = -g * V * rho`
+    :code:`F_A = -rho * g * V`
 
 
     Latex:
         .. math::
-            F_\text{A} = - V \rho g
+            F_\text{A} = - \rho g V
 
 

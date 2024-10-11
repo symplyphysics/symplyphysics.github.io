@@ -109,11 +109,11 @@ natural angular frequency of the oscillator.
 
 .. py:data:: law
 
-    :code:`w_0^2 * x(t) + Derivative(x(t), (t, 2)) = F * cos(t * w + phi) / m`
+    :code:`Derivative(x(t), (t, 2)) + w_0^2 * x(t) = F / m * cos(w * t + phi)`
 
 
     Latex:
         .. math::
-            \omega_{0}^{2} x{\left(t \right)} + \frac{d^{2}}{d t^{2}} x{\left(t \right)} = \frac{F \cos{\left(t \omega + \varphi \right)}}{m}
+            \frac{d^{2}}{d t^{2}} x{\left(t \right)} + \omega_{0}^{2} x{\left(t \right)} = \frac{F}{m} \cos{\left(\omega t + \varphi \right)}
 
 

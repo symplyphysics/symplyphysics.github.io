@@ -69,11 +69,11 @@ proportional to the current in the coil's wire.
 
 .. py:data:: law
 
-    :code:`B = mu_0 * N * I / l`
+    :code:`B = mu_0 * I * N / l`
 
 
     Latex:
         .. math::
-            B = \frac{N I \mu_0}{l}
+            B = \frac{\mu_0 I N}{l}
 
 

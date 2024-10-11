@@ -60,7 +60,7 @@ the time derivative of current flowing through the circuit.
 
 .. py:data:: law
 
-    :code:`E(t) = -Derivative(I(t), t) * L`
+    :code:`E(t) = -L * Derivative(I(t), t)`
 
 
     Latex:

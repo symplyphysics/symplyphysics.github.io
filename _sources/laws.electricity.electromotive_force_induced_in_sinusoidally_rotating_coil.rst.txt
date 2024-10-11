@@ -102,11 +102,11 @@ the area of the coil's contour.
 
 .. py:data:: law
 
-    :code:`E = -N * A * w * B * sin(t * w)`
+    :code:`E = -N * B * A * w * sin(w * t)`
 
 
     Latex:
         .. math::
-            \mathcal{E} = - N A \omega B \sin{\left(t \omega \right)}
+            \mathcal{E} = - N B A \omega \sin{\left(\omega t \right)}
 
 

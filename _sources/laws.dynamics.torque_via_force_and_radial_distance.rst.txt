@@ -64,11 +64,11 @@ Torque via force and radial distance
 
 .. py:data:: law
 
-    :code:`tau = F * r * sin(phi)`
+    :code:`tau = r * F * sin(phi)`
 
 
     Latex:
         .. math::
-            \tau = F r \sin{\left(\varphi \right)}
+            \tau = r F \sin{\left(\varphi \right)}
 
 

@@ -60,6 +60,6 @@ current through it and the radial distance to the wire.
 
     Latex:
         .. math::
-            B = \frac{I \mu_0}{2 \pi r}
+            B = \frac{\mu_0 I}{2 \pi r}
 
 

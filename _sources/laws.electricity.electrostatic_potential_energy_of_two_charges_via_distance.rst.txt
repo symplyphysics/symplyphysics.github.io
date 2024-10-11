@@ -74,11 +74,11 @@ interaction belonging to the entire system.
 
 .. py:data:: law
 
-    :code:`U_E = q_1 * q_2 / (4 * pi * d * epsilon)`
+    :code:`U_E = q_1 * q_2 / (4 * pi * epsilon * d)`
 
 
     Latex:
         .. math::
-            U_\mathbf{E} = \frac{q_{1} q_{2}}{4 \pi d \varepsilon}
+            U_\mathbf{E} = \frac{q_{1} q_{2}}{4 \pi \varepsilon d}
 
 

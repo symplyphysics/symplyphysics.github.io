@@ -53,11 +53,11 @@ polarity. Also see :doc:`vector counterpart <laws.electricity.vector.electric_di
 
 .. py:data:: law
 
-    :code:`p = d * q`
+    :code:`p = q * d`
 
 
     Latex:
         .. math::
-            p = d q
+            p = q d
 
 

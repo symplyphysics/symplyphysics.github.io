@@ -47,7 +47,7 @@ and its angular speed.
 
 .. py:data:: law
 
-    :code:`K = w^2 * I / 2`
+    :code:`K = I * w^2 / 2`
 
 
     Latex:

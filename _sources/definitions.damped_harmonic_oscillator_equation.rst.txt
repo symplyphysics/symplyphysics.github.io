@@ -61,11 +61,11 @@ assuming the body only moves in one direction.
 
 .. py:data:: definition
 
-    :code:`w^2 * x(t) + 2 * Derivative(x(t), t) * w * zeta + Derivative(x(t), (t, 2)) = 0`
+    :code:`Derivative(x(t), (t, 2)) + 2 * zeta * w * Derivative(x(t), t) + w^2 * x(t) = 0`
 
 
     Latex:
         .. math::
-            \omega^{2} x{\left(t \right)} + 2 \omega \zeta \frac{d}{d t} x{\left(t \right)} + \frac{d^{2}}{d t^{2}} x{\left(t \right)} = 0
+            \frac{d^{2}}{d t^{2}} x{\left(t \right)} + 2 \zeta \omega \frac{d}{d t} x{\left(t \right)} + \omega^{2} x{\left(t \right)} = 0
 
 

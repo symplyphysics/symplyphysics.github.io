@@ -62,7 +62,7 @@ would also be proportional to the number of turn the current makes.
 
 .. py:data:: law
 
-    :code:`E = -Derivative(Phi, t) * N`
+    :code:`E = -N * Derivative(Phi, t)`
 
 
     Latex:
