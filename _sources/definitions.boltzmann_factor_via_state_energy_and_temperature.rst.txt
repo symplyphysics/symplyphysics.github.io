@@ -56,6 +56,6 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 
     Latex:
         .. math::
-            f = \exp{\left(\frac{- E_{i}}{k_\text{B} T} \right)}
+            f = \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}
 
 

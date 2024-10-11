@@ -73,6 +73,6 @@ reaches the voltage of the source.
 
     Latex:
         .. math::
-            V = V_{0} \left(1 - \exp{\left(\frac{- t}{\tau} \right)}\right)
+            V = V_{0} \left(1 - \exp{\left(- \frac{t}{\tau} \right)}\right)
 
 

@@ -90,6 +90,6 @@ nonzero concentration of free charge carriers in the semiconductor.
 
     Latex:
         .. math::
-            n = \sqrt{N_\text{c} N_\text{v}} \exp{\left(\frac{- E_\text{g}}{2 k_\text{B} T} \right)}
+            n = \sqrt{N_\text{c} N_\text{v}} \exp{\left(- \frac{E_\text{g}}{2 k_\text{B} T} \right)}
 
 

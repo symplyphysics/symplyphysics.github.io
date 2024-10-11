@@ -51,7 +51,7 @@ to the value of the charge and the square inverse of the distance to it.
 
 .. py:data:: law
 
-    :code:`E = q / d^2 / 4 * pi * epsilon_0`
+    :code:`E = q / d^2 / (4 * pi * epsilon_0)`
 
 
     Latex:
