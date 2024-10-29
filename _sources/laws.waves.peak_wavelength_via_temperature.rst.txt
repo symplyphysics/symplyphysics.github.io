@@ -8,13 +8,16 @@ temperature. This law is known as the *Wien's displacement law*.
 
 .. py:data:: peak_wavelength
 
-    Wavelength at which the peak of the spectral radiance of a blackbody occurs.
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` at which the peak of the spectral radiance of a blackbody occurs.
 
     Symbol:
         :code:`lambda_peak`
 
     Latex:
         :math:`\lambda_\text{peak}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: temperature
 
@@ -29,18 +32,13 @@ temperature. This law is known as the *Wien's displacement law*.
     Dimension:
         :code:`temperature`
 
-.. py:data:: wien_displacement_constant
-
-    A constant of proportionality.
-
-    Symbol:
-        :code:`b`
-
 .. py:data:: law
 
     :code:`lambda_peak = b / T`
 
+
     Latex:
         .. math::
             \lambda_\text{peak} = \frac{b}{T}
+
 

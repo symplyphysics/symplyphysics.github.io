@@ -16,7 +16,7 @@ Also see :doc:`laws.waves.frequency_shift_from_speed_in_collinear_motion`.
 
 .. py:data:: observed_frequency
 
-    Observed frequency of the wave.
+    Observed :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the wave.
 
     Symbol:
         :code:`f_o`
@@ -24,9 +24,12 @@ Also see :doc:`laws.waves.frequency_shift_from_speed_in_collinear_motion`.
     Latex:
         :math:`f_\text{o}`
 
+    Dimension:
+        :code:`frequency`
+
 .. py:data:: source_frequency
 
-    Wave frequency of the source.
+    Wave :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the source.
 
     Symbol:
         :code:`f_s`
@@ -34,16 +37,25 @@ Also see :doc:`laws.waves.frequency_shift_from_speed_in_collinear_motion`.
     Latex:
         :math:`f_\text{s}`
 
+    Dimension:
+        :code:`frequency`
+
 .. py:data:: wave_speed
 
-    Phase speed of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: source_speed
 
-    Magnitude of the velocity vector of the source.
+    Magnitude of the velocity vector of the source. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
     Symbol:
         :code:`v_s`
@@ -51,9 +63,12 @@ Also see :doc:`laws.waves.frequency_shift_from_speed_in_collinear_motion`.
     Latex:
         :math:`v_\text{s}`
 
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: observer_speed
 
-    Magnitude of the velocity vector of the observer.
+    Magnitude of the velocity vector of the observer. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
     Symbol:
         :code:`v_o`
@@ -61,9 +76,12 @@ Also see :doc:`laws.waves.frequency_shift_from_speed_in_collinear_motion`.
     Latex:
         :math:`v_\text{o}`
 
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: source_angle
 
-    Angle between the wave velocity and the source velocity.
+    :attr:`~symplyphysics.symbols.basic.angle` between the wave velocity and the source velocity.
 
     Symbol:
         :code:`theta_s`
@@ -71,9 +89,12 @@ Also see :doc:`laws.waves.frequency_shift_from_speed_in_collinear_motion`.
     Latex:
         :math:`\theta_\text{s}`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: observer_angle
 
-    Angle between the wave velocity and the observer velocity.
+    :attr:`~symplyphysics.symbols.basic.angle` between the wave velocity and the observer velocity.
 
     Symbol:
         :code:`theta_o`
@@ -81,11 +102,16 @@ Also see :doc:`laws.waves.frequency_shift_from_speed_in_collinear_motion`.
     Latex:
         :math:`\theta_\text{o}`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: law
 
     :code:`f_o = f_s * (v - v_o * cos(theta_o)) / (v - v_s * cos(theta_s))`
 
+
     Latex:
         .. math::
-            f_\text{o} = f_\text{s} \frac{v - v_\text{o} \cos{\theta_\text{o}}}{v - v_\text{s} \cos{\theta_\text{s}}}
+            f_\text{o} = \frac{f_\text{s} \left(v - v_\text{o} \cos{\left(\theta_\text{o} \right)}\right)}{v - v_\text{s} \cos{\left(\theta_\text{s} \right)}}
+
 

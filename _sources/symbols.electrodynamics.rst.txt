@@ -114,6 +114,20 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`dimensionless`
 
+.. py:data:: relative_permeability
+
+    **Relative permeability** is the permeability of a medium relative to that of free space.
+    Also see :attr:`~symplyphysics.quantities.vacuum_permeability`.
+
+    Symbol:
+        :code:`mu_r`
+
+    Latex:
+        :math:`\mu_r`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: capacitance
 
     **Capacitance** is the capacity of a material object or device to store electric charge.

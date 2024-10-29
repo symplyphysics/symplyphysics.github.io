@@ -14,6 +14,9 @@ expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wa
     Symbol:
         :code:`u`
 
+    Latex:
+        :math:`u`
+
 .. py:data:: solution
 
     One-argument solution function of the wave equation.
@@ -26,13 +29,16 @@ expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wa
 
 .. py:data:: wave_phase
 
-    Phase of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase` of the wave.
 
     Symbol:
         :code:`phi`
 
     Latex:
         :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
 
 .. py:data:: law
 

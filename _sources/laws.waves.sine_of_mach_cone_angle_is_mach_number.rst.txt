@@ -16,27 +16,38 @@ phenomenon.
 
 .. py:data:: mach_cone_angle
 
-    Mach cone angle, which is the angle between the Mach wave wavefront (the Mach cone) and
+    Mach cone :attr:`~symplyphysics.symbols.basic.angle`, which is the angle between the Mach wave wavefront (the Mach cone) and
     the vector pointing opposite to the velocity vector of the source.
 
     Symbol:
-        :code:`theta`
+        :code:`phi`
 
     Latex:
-        :math:`\theta`
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
 
 .. py:data:: mach_number
 
-    Mach number of the moving source.
+    :attr:`~symplyphysics.symbols.classical_mechanics.mach_number` of the moving source.
 
     Symbol:
         :code:`M`
 
+    Latex:
+        :math:`\text{M}`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`sin(theta) = 1 / M`
+    :code:`sin(phi) = 1 / M`
+
 
     Latex:
         .. math::
-            \sin \theta = \frac{1}{M}
+            \sin{\left(\varphi \right)} = \frac{1}{\text{M}}
+
 

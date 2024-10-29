@@ -8,14 +8,20 @@ It is the speed at which the phase of one frequency component of the wave travel
 
 .. py:data:: phase_speed
 
-    Phase speed of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: angular_frequency
 
-    Angular frequency of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the wave.
 
     Symbol:
         :code:`w`
@@ -23,18 +29,29 @@ It is the speed at which the phase of one frequency component of the wave travel
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: angular_wavenumber
 
-    Angular wavenumber of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of the wave.
 
     Symbol:
         :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`angle/length`
 
 .. py:data:: law
 
     :code:`v = w / k`
 
+
     Latex:
         .. math::
             v = \frac{\omega}{k}
+
 

@@ -15,23 +15,37 @@ expressions.
 
 .. py:data:: momentum
 
-    Momentum of a photon.
+    :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of a photon.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`momentum`
+
 .. py:data:: energy
 
-    Energy of a photon.
+    :attr:`~symplyphysics.symbols.basic.energy` of a photon.
 
     Symbol:
         :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 
     :code:`p = E / c`
 
+
     Latex:
         .. math::
             p = \frac{E}{c}
+
 

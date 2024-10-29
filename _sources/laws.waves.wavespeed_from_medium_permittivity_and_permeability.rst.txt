@@ -12,36 +12,50 @@ permeability of the medium.
 
 .. py:data:: wave_speed
 
-    Speed of wave propagation in medium.
+    Speed of wave propagation in medium. See :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed`.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: relative_permittivity
 
-    Permittivity of medium relative to that of vacuum.
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the medium.
 
     Symbol:
-        :code:`epsilon`
+        :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon`
+        :math:`\varepsilon_r`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: relative_permeability
 
-    Permeability of medium relative to that of vacuum.
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
 
     Symbol:
-        :code:`mu`
+        :code:`mu_r`
 
     Latex:
-        :math:`\mu`
+        :math:`\mu_r`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`v = c / sqrt(epsilon * mu)`
+    :code:`v = c / sqrt(epsilon_r * mu_r)`
+
 
     Latex:
         .. math::
-            v = \frac{c}{\sqrt {\varepsilon \mu}}
+            v = \frac{c}{\sqrt{\varepsilon_{r} \mu_{r}}}
+
 

@@ -9,7 +9,7 @@ with the same wave phase.
 
 .. py:data:: wavelength
 
-    Wavelength of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the wave.
 
     Symbol:
         :code:`lambda`
@@ -17,25 +17,42 @@ with the same wave phase.
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: phase_velocity
 
-    Phase velocity of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: period
 
-    Temporal period of the wave.
+    Temporal :attr:`~symplyphysics.symbols.basic.period` of the wave.
 
     Symbol:
         :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: law
 
     :code:`lambda = v * T`
 
+
     Latex:
         .. math::
             \lambda = v T
+
 

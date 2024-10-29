@@ -10,37 +10,51 @@ through space.
 
 .. py:data:: group_velocity
 
-    Group velocity of the wave packet.
+    :attr:`~symplyphysics.symbols.classical_mechanics.group_speed` of the wave packet.
 
     Symbol:
-        :code:`v_group`
+        :code:`v_g`
 
     Latex:
-        :math:`v_\text{group}`
+        :math:`v_\text{g}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: angular_frequency
 
-    Angular frequency of the wave as a function of angular wavenumber, also called the
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the wave as a function of :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber`, also called the
     *dispersion relation* of the wave.
 
     Symbol:
         :code:`w(k)`
 
     Latex:
-        :math:`\omega(k)`
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
 
 .. py:data:: angular_wavenumber
 
-    Angular wavenumber of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of the wave.
 
     Symbol:
         :code:`k`
 
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`angle/length`
+
 .. py:data:: law
 
-    :code:`v_group = Derivative(w(k), k)`
+    :code:`v_g = Derivative(w(k), k)`
+
 
     Latex:
         .. math::
-            v_\text{group} = \frac{\partial \omega}{\partial k}
+            v_\text{g} = \frac{d}{d k} \omega{\left(k \right)}
+
 

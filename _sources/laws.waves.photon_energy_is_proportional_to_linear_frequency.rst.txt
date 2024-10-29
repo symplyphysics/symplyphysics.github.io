@@ -12,26 +12,37 @@ in any reference frame. The energy of a photon depends only on its frequency.
 
 .. py:data:: energy
 
-    Energy of a photon.
+    :attr:`~symplyphysics.symbols.basic.energy` of a photon.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: frequency
 
-    Frequency of a photon.
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of a photon.
 
     Symbol:
-        :code:`nu`
+        :code:`f`
 
     Latex:
-        :math:`\nu`
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
 
 .. py:data:: law
 
-    :code:`E = h * nu`
+    :code:`E = h * f`
+
 
     Latex:
         .. math::
-            E = h \nu
+            E = h f
+
 

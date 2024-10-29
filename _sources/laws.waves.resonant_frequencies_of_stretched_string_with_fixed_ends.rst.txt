@@ -3,44 +3,70 @@ Resonant frequencies of stretched string with fixed ends
 
 For a string with fixed ends there is only a limited set of frequencies at which standing waves will
 occur on it. Each possible frequency is a resonant frequency, and the corresponding wave pattern is
-an oscillation mode. The oscillation mode corresponding to :math:`m = 1` is called the fundamental mode or
-the first harmonic, the mode corresponding to :math:`m = 2` is the second harmonic, and so on.
+an oscillation mode. The oscillation mode corresponding to :math:`N = 1` is called the fundamental mode or
+the first harmonic, the mode corresponding to :math:`N = 2` is the second harmonic, and so on.
 
 .. py:currentmodule:: symplyphysics.laws.waves.resonant_frequencies_of_stretched_string_with_fixed_ends
 
 .. py:data:: resonant_frequency
 
-    Resonant frequency of the :math:`m`-th harmonic.
+    Resonant frequency of the :math:`m`-th harmonic. See :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
     Symbol:
         :code:`f`
 
+    Latex:
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
+
 .. py:data:: harmonic_number
 
-    An integer called harmonic number.
+    An integer called harmonic number. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
     Symbol:
-        :code:`m`
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: phase_velocity
 
-    Phase velocity of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: string_length
 
-    Length of the string.
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the string.
 
-    Symbol: 
+    Symbol:
         :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`f = m * v / (2 * l)`
+    :code:`f = N * v / (2 * l)`
+
 
     Latex:
         .. math::
-            f = \frac{m v}{2 l}
+            f = \frac{N v}{2 l}
+
 

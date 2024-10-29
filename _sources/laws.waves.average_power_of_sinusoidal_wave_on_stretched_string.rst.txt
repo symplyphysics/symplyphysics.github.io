@@ -12,14 +12,20 @@ square of its angular frequency.
 
 .. py:data:: wave_average_power
 
-    Average power, or rate of energy transfer, of the wave.
+    Average :attr:`~symplyphysics.symbols.basic.power`, or rate of energy transfer, of the wave.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: string_linear_density
 
-    Linear density of the string, i.e. mass per unit length.
+    :attr:`~symplyphysics.symbols.basic.linear_density` of the string.
 
     Symbol:
         :code:`mu`
@@ -27,16 +33,25 @@ square of its angular frequency.
     Latex:
         :math:`\mu`
 
-.. py:data:: wave_phase_velocity
+    Dimension:
+        :code:`mass/length`
 
-    Phase velocity of the wave.
+.. py:data:: phase_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: wave_angular_frequency
 
-    Angular frequency of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the wave.
 
     Symbol:
         :code:`w`
@@ -44,15 +59,21 @@ square of its angular frequency.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: wave_amplitude
 
-    Amplitude of the wave.
+    Amplitude of the wave. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
         :code:`u_max`
 
     Latex:
         :math:`u_\text{max}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 

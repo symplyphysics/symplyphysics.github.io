@@ -75,6 +75,19 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`energy/volume`
 
+.. py:data:: spectral_energy_density
+
+    Energy per unit volume per unit linear frequency.
+
+    Symbol:
+        :code:`w_f`
+
+    Latex:
+        :math:`w_f`
+
+    Dimension:
+        :code:`energy/(frequency*volume)`
+
 .. py:data:: energy
 
     **Energy** is the quantitative property that is transferred to a body or to a physical system, recognizable in
@@ -128,6 +141,19 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`mass/volume`
 
+.. py:data:: linear_density
+
+    **Linear density** is mass per unit length.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`mass/length`
+
 .. py:data:: intensity
 
     **Intensity** or **flux** of radiant energy is the power transferred per unit area,  where the area is measured
@@ -142,9 +168,22 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`power/area`
 
+.. py:data:: whole_number
+
+    A dimensionless **whole** number of any sign.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: positive_number
 
-    A dimensionless **number** used for counting objects or instances.
+    A dimensionless whole **number** used for counting objects or instances.
 
     Symbol:
         :code:`N`

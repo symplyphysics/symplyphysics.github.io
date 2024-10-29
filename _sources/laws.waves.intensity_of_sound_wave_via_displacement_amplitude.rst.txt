@@ -10,14 +10,20 @@ in the medium.
 
 .. py:data:: wave_intensity
 
-    Intensity of the sound wave.
+    :attr:`~symplyphysics.symbols.basic.intensity` of the sound wave.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`power/area`
+
 .. py:data:: medium_density
 
-    Density of the medium in which the sound wave is being propagated.
+    :attr:`~symplyphysics.symbols.basic.density` of the medium in which the sound wave is being propagated.
 
     Symbol:
         :code:`rho`
@@ -25,16 +31,25 @@ in the medium.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: phase_speed
 
-    Phase speed of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: angular_frequency
 
-    Angular frequency of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the wave.
 
     Symbol:
         :code:`w`
@@ -42,9 +57,12 @@ in the medium.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: displacement_amplitude
 
-    Displacement amplitude of the particles in the medium.
+    Displacement amplitude of the particles in the medium. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
         :code:`s_max`
@@ -52,11 +70,16 @@ in the medium.
     Latex:
         :math:`s_\text{max}`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
-    :code:`I = (1 / 2) * rho * v * w^2 * s_max^2`
+    :code:`I = rho * v * w^2 * s_max^2 / 2`
+
 
     Latex:
         .. math::
-            I = \frac{1}{2} \rho v \omega^2 s_\text{max}^2
+            I = \frac{\rho v \omega^{2} s_\text{max}^{2}}{2}
+
 

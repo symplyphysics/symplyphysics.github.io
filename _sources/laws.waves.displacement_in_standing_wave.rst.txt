@@ -19,6 +19,9 @@ moving in opposite directions.
     Symbol:
         :code:`u`
 
+    Latex:
+        :math:`u`
+
 .. py:data:: amplitude
 
     Amplitude of the interfering waves.
@@ -31,21 +34,33 @@ moving in opposite directions.
 
 .. py:data:: angular_wavenumber
 
-    Angular wavenumber of the interfering waves.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of the interfering waves.
 
     Symbol:
         :code:`k`
 
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`angle/length`
+
 .. py:data:: position
 
-    Position, or spatial coordinate.
+    :attr:`~symplyphysics.symbols.classical_mechanics.position`, or spatial coordinate.
 
     Symbol:
         :code:`x`
 
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: angular_frequency
 
-    Angular frequency of the interfering waves.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the interfering waves.
 
     Symbol:
         :code:`w`
@@ -53,12 +68,21 @@ moving in opposite directions.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: law
 

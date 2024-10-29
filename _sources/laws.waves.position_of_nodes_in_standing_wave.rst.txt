@@ -8,21 +8,33 @@ are not arbitrary and are integer multiples of half the wavelength of the standi
 
 .. py:data:: node_position
 
-    Position of :math:`m`-th node.
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` of :math:`m`-th node.
 
     Symbol:
         :code:`x`
 
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: integer_factor
 
-    An integer.
+    An integer. See :attr:`~symplyphysics.symbols.basic.whole_number`.
 
     Symbol:
-        :code:`m`
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: wavelength
 
-    Wavelength of the standing wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the standing wave.
 
     Symbol:
         :code:`lambda`
@@ -30,11 +42,16 @@ are not arbitrary and are integer multiples of half the wavelength of the standi
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
-    :code:`x = (m / 2) * lambda`
+    :code:`x = N * lambda / 2`
+
 
     Latex:
         .. math::
-            x = \frac{m}{2} \lambda
+            x = \frac{N \lambda}{2}
+
 

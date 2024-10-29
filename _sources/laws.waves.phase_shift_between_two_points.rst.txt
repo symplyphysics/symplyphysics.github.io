@@ -8,7 +8,7 @@ of the distance between the points and the wavelength of the wave.
 
 .. py:data:: phase_shift
 
-    Phase shift between the two points.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` between the two points.
 
     Symbol:
         :code:`phi`
@@ -16,16 +16,25 @@ of the distance between the points and the wavelength of the wave.
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: distance
 
-    Distance between the two points.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the two points.
 
     Symbol:
         :code:`d`
 
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: wavelength
 
-    Wavelength of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the wave.
 
     Symbol:
         :code:`lambda`
@@ -33,11 +42,16 @@ of the distance between the points and the wavelength of the wave.
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
     :code:`phi = 2 * pi * d / lambda`
 
+
     Latex:
         .. math::
-            \varphi = 2 \pi \frac{d}{\lambda}
+            \varphi = \frac{2 \pi d}{\lambda}
+
 

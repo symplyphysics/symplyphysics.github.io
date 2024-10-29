@@ -8,36 +8,50 @@ of the medium.
 
 .. py:data:: refractive_index
 
-    Refractive index of the medium.
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: relative_permittivity
 
-    Relative permittivity of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the medium.
 
     Symbol:
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_\text{r}`
+        :math:`\varepsilon_r`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: relative_permeability
 
-    Relative permeability of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
 
     Symbol:
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu_r`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
     :code:`n = sqrt(epsilon_r * mu_r)`
 
+
     Latex:
         .. math::
-            n = \sqrt{\varepsilon_\text{r} \mu_\text{r}}
+            n = \sqrt{\varepsilon_{r} \mu_{r}}
+
 

@@ -9,7 +9,7 @@ there must be an even number of half-cycles out of phase between each other.
 
 .. py:data:: phase_shift
 
-    Phase shift between interfering waves.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` between interfering waves.
 
     Symbol:
         :code:`phi`
@@ -17,18 +17,29 @@ there must be an even number of half-cycles out of phase between each other.
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: integer_factor
 
-    Integer factor.
+    Integer factor. See :attr:`~symplyphysics.symbols.basic.whole_number`
 
     Symbol:
-        :code:`n`
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`phi = 2 * pi * n`
+    :code:`phi = 2 * pi * N`
+
 
     Latex:
         .. math::
-            \varphi = 2 \pi n
+            \varphi = 2 \pi N
+
 

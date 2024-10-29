@@ -9,7 +9,7 @@ the angular frequency of the wave and the displacement of particles in the mediu
 
 .. py:data:: pressure_amplitude
 
-    Amplitude of pressure change.
+    Amplitude of :attr:`~symplyphysics.symbols.classical_mechanics.pressure` change.
 
     Symbol:
         :code:`Delta(p)_max`
@@ -17,16 +17,25 @@ the angular frequency of the wave and the displacement of particles in the mediu
     Latex:
         :math:`(\Delta p)_\text{max}`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: speed_of_sound
 
-    Speed of sound in the medium.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of sound in the medium.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: medium_density
 
-    Density of the medium.
+    :attr:`~symplyphysics.symbols.basic.density` of the medium.
 
     Symbol:
         :code:`rho`
@@ -34,9 +43,12 @@ the angular frequency of the wave and the displacement of particles in the mediu
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: angular_frequency
 
-    Angular frequency of the sound wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the sound wave.
 
     Symbol:
         :code:`w`
@@ -44,9 +56,12 @@ the angular frequency of the wave and the displacement of particles in the mediu
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: displacement_amplitude
 
-    Displacement amplitude of particles in the medium.
+    Displacement amplitude of particles in the medium. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
         :code:`s_max`
@@ -54,11 +69,16 @@ the angular frequency of the wave and the displacement of particles in the mediu
     Latex:
         :math:`s_\text{max}`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
 
     :code:`Delta(p)_max = v * rho * w * s_max`
 
+
     Latex:
         .. math::
             (\Delta p)_\text{max} = v \rho \omega s_\text{max}
+
 

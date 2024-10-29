@@ -2,7 +2,7 @@ Spectral energy density at all frequencies
 ------------------------------------------
 
 *Planck's radiation law* describes the spectral density of electromagnetic radiation emitted
-by a black body in thermal equlibrium at a given temperature when there is no net flow of
+by a black body in thermal equilibrium at a given temperature when there is no net flow of
 matter or energy between the body and its environment.
 
 **Notation:**
@@ -19,23 +19,29 @@ matter or energy between the body and its environment.
 
 .. py:data:: spectral_energy_density
 
-    Spectral energy density, which is energy per unit volume per unit frequency.
+    :attr:`~symplyphysics.symbols.basic.spectral_energy_density`.
 
     Symbol:
-        :code:`u_nu`
+        :code:`w_f`
 
     Latex:
-        :math:`u_\nu`
+        :math:`w_f`
+
+    Dimension:
+        :code:`energy/(frequency*volume)`
 
 .. py:data:: radiation_frequency
 
-    Frequency (linear) of the radiation.
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the radiation.
 
     Symbol:
-        :code:`nu`
+        :code:`f`
 
     Latex:
-        :math:`\nu`
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
 
 .. py:data:: equilibrium_temperature
 
@@ -52,9 +58,11 @@ matter or energy between the body and its environment.
 
 .. py:data:: law
 
-    :code:`u_nu = (8 * pi * h * nu^3 / c^3) / (exp(h * nu / (k_B * T)) - 1)`
+    :code:`w_f = 8 * pi * h * f^3 / c^3 / (exp(h * f / (k_B * T)) - 1)`
+
 
     Latex:
         .. math::
-            u_\nu = \frac{8 \pi h \nu^3}{c^3} \frac{1}{\exp \left( \frac{h \nu}{k_\text{B} T} \right) - 1}
+            w_{f} = \frac{8 \pi h f^{3}}{c^{3}} \frac{1}{\exp{\left(\frac{h f}{k_\text{B} T} \right)} - 1}
+
 

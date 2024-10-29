@@ -20,7 +20,7 @@ relation to an observer moving relative to the wave source.
 
 .. py:data:: observed_frequency
 
-    Observed frequency of the wave.
+    Observed :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the wave.
 
     Symbol:
         :code:`f_o`
@@ -28,9 +28,12 @@ relation to an observer moving relative to the wave source.
     Latex:
         :math:`f_\text{o}`
 
+    Dimension:
+        :code:`frequency`
+
 .. py:data:: source_frequency
 
-    Wave frequency of the source.
+    Wave :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the source.
 
     Symbol:
         :code:`f_s`
@@ -38,16 +41,25 @@ relation to an observer moving relative to the wave source.
     Latex:
         :math:`f_\text{s}`
 
+    Dimension:
+        :code:`frequency`
+
 .. py:data:: wave_speed
 
-    Phase speed of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: source_speed
 
-    Speed of the wave source, positive when moving away from the observer and negative otherwise.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the wave source, positive when moving away from the observer and negative otherwise.
 
     Symbol:
         :code:`v_s`
@@ -55,9 +67,12 @@ relation to an observer moving relative to the wave source.
     Latex:
         :math:`v_\text{s}`
 
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: observer_speed
 
-    Speed of the observer, positive when moving away from the source and negative otherwise.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the observer, positive when moving away from the source and negative otherwise.
 
     Symbol:
         :code:`v_o`
@@ -65,11 +80,16 @@ relation to an observer moving relative to the wave source.
     Latex:
         :math:`v_\text{o}`
 
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: law
 
     :code:`f_o = f_s * (v - v_o) / (v + v_s)`
 
+
     Latex:
         .. math::
-            f_\text{o} = f_\text{s} \frac{v - v_\text{o}}{v + v_\text{s}}
+            f_\text{o} = \frac{f_\text{s} \left(v - v_\text{o}\right)}{v + v_\text{s}}
+
 

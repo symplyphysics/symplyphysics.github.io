@@ -44,11 +44,13 @@ through space.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.group_velocity">
 <span class="sig-name descname"><span class="pre">group_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.group_velocity" title="Link to this definition">¶</a></dt>
-<dd><p>Group velocity of the wave packet.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.group_speed" title="symplyphysics.symbols.classical_mechanics.group_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">group_speed</span></code></a> of the wave packet.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_group</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_g</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_\text{group}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_\text{g}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -56,12 +58,14 @@ through space.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_frequency">
 <span class="sig-name descname"><span class="pre">angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_frequency" title="Link to this definition">¶</a></dt>
-<dd><p>Angular frequency of the wave as a function of angular wavenumber, also called the
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the wave as a function of <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a>, also called the
 <em>dispersion relation</em> of the wave.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w(k)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega(k)\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -69,9 +73,13 @@ through space.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber">
 <span class="sig-name descname"><span class="pre">angular_wavenumber</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber" title="Link to this definition">¶</a></dt>
-<dd><p>Angular wavenumber of the wave.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a> of the wave.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -79,10 +87,10 @@ through space.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">v_group</span> <span class="pre">=</span> <span class="pre">Derivative(w(k),</span> <span class="pre">k)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">v_g</span> <span class="pre">=</span> <span class="pre">Derivative(w(k),</span> <span class="pre">k)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[v_\text{group} = \frac{\partial \omega}{\partial k}\]</div>
+\[v_\text{g} = \frac{d}{d k} \omega{\left(k \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -160,7 +168,7 @@ through space.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.phase_shift_between_two_points.html">Phase shift between two points</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.phase_speed_of_wave_on_stretched_string.html">Phase speed of wave on stretched string</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.phase_velocity_from_angular_frequency_and_wavenumber.html">Phase speed from angular frequency and wavenumber</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.waves.photoelectron_energy_from_photon_energy.html">Photoelectron energy from energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.photoelectron_energy_from_photon_energy.html">Photoelectron energy from photon energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.photon_energy_is_proportional_to_angular_frequency.html">Photon energy is proportional to angular frequency</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.photon_energy_is_proportional_to_linear_frequency.html">Photon energy is proportional to linear frequency</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.photon_momentum_is_proportional_to_angular_wavenumber.html">Photon momentum is proportional to angular wavenumber</a></li>
@@ -216,7 +224,7 @@ through space.</p>
       &#169;2024, Symplyphysics.
       
       |
-      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.0</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |

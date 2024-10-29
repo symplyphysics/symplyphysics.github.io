@@ -46,3 +46,18 @@ Symbols related to optics.
     Dimension:
         :code:`power`
 
+.. py:data:: focal_length
+
+    The **focal length** of an optical system is a measure of how strongly the system converges or diverges
+    light; it is the inverse of the system's optical power. It is the distance between the focal plane and
+    the lens's nodal point.
+
+    Symbol:
+        :code:`f`
+
+    Latex:
+        :math:`f`
+
+    Dimension:
+        :code:`length`
+

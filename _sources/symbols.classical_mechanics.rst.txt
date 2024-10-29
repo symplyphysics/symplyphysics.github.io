@@ -19,6 +19,20 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`force`
 
+.. py:data:: tension
+
+    **Tension** is the pulling or stretching force transmitted axially along an object so as to stretch it
+    or pull it apart.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`force`
+
 .. py:data:: speed
 
     **Speed** is the rate of change of the object's position with respect to time. It is the scalar counterpart
@@ -269,6 +283,20 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`velocity`
 
+.. py:data:: group_speed
+
+    **Group speed** of a wave is the speed with which the overall envelope shape of the wave's
+    amplitudes, or the modulation or envelope of the wave, propagates through space.
+
+    Symbol:
+        :code:`v_g`
+
+    Latex:
+        :math:`v_\text{g}`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: pressure
 
     **Pressure** is the force applied perpendicular to the surface of an object per unit area over which
@@ -459,6 +487,20 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`angle`
 
+.. py:data:: phase
+
+    **Phase** of a wave or other periodic function of some real variable :math:`t`, such as time, is an
+    angle-like quantity representing the fraction of the cycle covered up to :math:`t`.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
+
 .. py:data:: friction_coefficient
 
     **Coefficient of friction** is a dimensionless scalar value which equals to the ratio of the force of
@@ -601,4 +643,18 @@ Symbols related to classical mechanics.
 
     Dimension:
         :code:`pressure`
+
+.. py:data:: mach_number
+
+    The **Mach number** is a dimensionless quantity in fluid dynamics representing the ratio of flow velocity
+    past a boundary to the local speed of sound.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`\text{M}`
+
+    Dimension:
+        :code:`dimensionless`
 

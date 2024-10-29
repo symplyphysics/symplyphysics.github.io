@@ -11,23 +11,37 @@ The momentum of a photon is proportional to its wavenumber.
 
 .. py:data:: momentum
 
-    Momentum of a photon.
+    :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of a photon.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`momentum`
+
 .. py:data:: angular_wavenumber
 
-    Angular wavenumber of a photon.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of a photon.
 
-    Symbol: 
+    Symbol:
         :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`angle/length`
 
 .. py:data:: law
 
     :code:`p = hbar * k`
 
+
     Latex:
         .. math::
             p = \hbar k
+
 

@@ -8,17 +8,20 @@ electron transition to the levels between which the transition is occurring.
 
 .. py:data:: transition_frequency
 
-    Frequency of light emitted or absorbed during electron transition in the Hydrogen atom.
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of light emitted or absorbed during electron transition in the Hydrogen atom.
 
     Symbol:
-        :code:`nu`
+        :code:`f`
 
     Latex:
-        :math:`\nu`
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
 
 .. py:data:: lower_principal_quantum_number
 
-    The principal quantum number of the lower transitional level.
+    The principal quantum number of the lower transitional level. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
     Symbol:
         :code:`n_1`
@@ -26,9 +29,12 @@ electron transition to the levels between which the transition is occurring.
     Latex:
         :math:`n_1`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: higher_principal_quantum_number
 
-    The principal quantum number of the higher transitional level.
+    The principal quantum number of the higher transitional level.  See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
     Symbol:
         :code:`n_2`
@@ -36,24 +42,19 @@ electron transition to the levels between which the transition is occurring.
     Latex:
         :math:`n_2`
 
-.. py:data:: rydberg_constant
-
-    Rydberg frequency constant for Hydrogen.
-
-    Symbol:
-        :code:`R_H`
-
-    Latex:
-        :math:`R_\text{H}`
-
     Dimension:
-        :code:`frequency`
+        :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`nu = R_H * (1 / n_1^2 - 1 / n_2^2)`
+    .. only:: comment
+
+        For now the auto-generation doesn't handle powers correctly here.
+
+    :code:`f = R_H * (1 / n_1^2 - 1 / n_2^2)`
 
     Latex:
         .. math::
-            \nu = R_\text{H} \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right)
+            f = R_\text{H} \left(\frac{1}{n_{1}^{2}} - \frac{1}{n_{2}^{2}}\right)
+
 

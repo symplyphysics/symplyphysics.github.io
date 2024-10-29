@@ -1,0 +1,81 @@
+Frequency shift from speed and angle
+------------------------------------
+
+See :doc:`laws.waves.relativistic.longitudinal_frequency_shift_from_velocity`.
+
+**Notes:**
+
+#. It is not trivial to substitute moving source and idle observer with moving observer and idle source. Law
+   depends on the current frame (observer or source are at rest at this frame), angle is detected at the point
+   of emission or at the point of reception (see relativistic angle aberration).
+
+**Conditions:**
+
+#. Angle is measured at the moment of emission with respect to the observer frame.
+#. Motion is in 2D space.
+
+.. py:currentmodule:: symplyphysics.laws.waves.relativistic.frequency_shift_from_velocity_and_angle
+
+.. py:data:: observer_frequency
+
+    Observed :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the wave.
+
+    Symbol:
+        :code:`f_o`
+
+    Latex:
+        :math:`f_\text{o}`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: source_frequency
+
+    Source :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the wave.
+
+    Symbol:
+        :code:`f_s`
+
+    Latex:
+        :math:`f_\text{s}`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: relative_speed
+
+    Relative :attr:`~symplyphysics.symbols.classical_mechanics.speed` between the source and the observer.
+
+    Symbol:
+        :code:`v`
+
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: source_angle
+
+    :attr:`~symplyphysics.symbols.basic.angle` between the signal vector (directed from the source to the observer) and the source's velocity
+    vector.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: law
+
+    :code:`f_o = f_s * sqrt(c^2 - v^2) / (c - v * cos(phi))`
+
+
+    Latex:
+        .. math::
+            f_\text{o} = \frac{f_\text{s} \sqrt{c^{2} - v^{2}}}{c - v \cos{\left(\varphi \right)}}
+
+

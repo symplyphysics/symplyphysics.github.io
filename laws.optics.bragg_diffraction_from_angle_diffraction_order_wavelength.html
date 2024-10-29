@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bragg diffraction from angle of diffraction and wavelength &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Film thickness for minimum interference" href="laws.optics.film_thickness_for_minimum_interference.html" />
+    <link rel="prev" title="Angle of light deflection in prism" href="laws.optics.angle_of_light_deflection_in_prism.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="bragg-diffraction-from-angle-of-diffraction-and-wavelength">
+<h1>Bragg diffraction from angle of diffraction and wavelength<a class="headerlink" href="#bragg-diffraction-from-angle-of-diffraction-and-wavelength" title="Link to this heading">¶</a></h1>
+<p>Diffraction from a three-dimensional periodic structure such as atoms in a crystal is called Bragg’s
+diffraction. This is similar to what happens when waves are scattered on a diffraction grating. Bragg’s
+diffraction is a consequence of interference between waves reflected from crystal planes.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The scattering of light on the atomic planes is specular (mirror-like).</p></li>
+<li><p>The incident and scattered light and the light inside the crystal have the same wavelength.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Bragg%27s_law#Bragg_condition">Wikipedia</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.distance">
+<span class="sig-name descname"><span class="pre">distance</span></span><a class="headerlink" href="#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.distance" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a> between crystal planes, also called the “grating constant” of the crystal.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.diffraction_order">
+<span class="sig-name descname"><span class="pre">diffraction_order</span></span><a class="headerlink" href="#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.diffraction_order" title="Link to this definition">¶</a></dt>
+<dd><p><strong>Diffraction order</strong> indicates the number of integer wavelengths that fit in the total
+light path so that the light waves could constructively interfere. See <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.positive_number" title="symplyphysics.symbols.basic.positive_number"><code class="xref py py-attr docutils literal notranslate"><span class="pre">positive_number</span></code></a>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.wavelength">
+<span class="sig-name descname"><span class="pre">wavelength</span></span><a class="headerlink" href="#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.wavelength" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.wavelength" title="symplyphysics.symbols.classical_mechanics.wavelength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">wavelength</span></code></a> of the incident and scattered light.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">lambda</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\lambda\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.glancing_angle">
+<span class="sig-name descname"><span class="pre">glancing_angle</span></span><a class="headerlink" href="#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.glancing_angle" title="Link to this definition">¶</a></dt>
+<dd><p>The <strong>glancing :attr:`~symplyphysics.symbols.basic.angle`</strong> is the angle that complements the angle of incidence of the beam
+up to a right angle.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">phi</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varphi\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">d</span> <span class="pre">=</span> <span class="pre">N</span> <span class="pre">*</span> <span class="pre">lambda</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">sin(phi))</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[d = \frac{N \lambda}{2 \sin{\left(\varphi \right)}}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.optics.html">Optics</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="laws.optics.html#small-angle-approximation">Small-angle approximation</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html">Angle of light deflection in prism</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Bragg diffraction from angle of diffraction and wavelength</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html">Film thickness for minimum interference</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html">Focal length of a concave spherical mirror</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html">Optical path length from geometrical path length and refractive index</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.optics.html">Optics</a><ul>
+      <li>Previous: <a href="laws.optics.angle_of_light_deflection_in_prism.html" title="previous chapter">Angle of light deflection in prism</a></li>
+      <li>Next: <a href="laws.optics.film_thickness_for_minimum_interference.html" title="next chapter">Film thickness for minimum interference</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

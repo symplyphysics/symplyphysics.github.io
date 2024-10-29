@@ -15,13 +15,20 @@ string.
 .. py:data:: integer_factor
 
     Positive integer, also called *harmonic number* of the :math:`n`-th harmonic.
+    See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
     Symbol:
-        :code:`n`
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: wavelength
 
-    Wavelength of standing wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of standing wave.
 
     Symbol:
         :code:`lambda`
@@ -29,18 +36,29 @@ string.
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: string_length
 
-    Length of the string.
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the string.
 
     Symbol:
-        :code:`L`
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`n * (lambda / 2) = L`
+    :code:`N * lambda / 2 = l`
+
 
     Latex:
         .. math::
-            n \frac{\lambda}{2} = L
+            \frac{N \lambda}{2} = l
+
 

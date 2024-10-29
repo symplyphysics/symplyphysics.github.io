@@ -20,23 +20,29 @@ thermal emission, but fails to do that for long-wavelength (i.e. low-frequency) 
 
 .. py:data:: spectral_energy_density
 
-    Spectral energy density, which is energy per unit volume per unit frequency.
+    :attr:`~symplyphysics.symbols.basic.spectral_energy_density`.
 
     Symbol:
-        :code:`u_nu`
+        :code:`w_f`
 
     Latex:
-        :math:`u_\nu`
+        :math:`w_f`
+
+    Dimension:
+        :code:`energy/(frequency*volume)`
 
 .. py:data:: radiation_frequency
 
-    Frequency (linear) of the radiation.
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the radiation.
 
     Symbol:
-        :code:`nu`
+        :code:`f`
 
     Latex:
-        :math:`\nu`
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
 
 .. py:data:: equilibrium_temperature
 
@@ -53,9 +59,11 @@ thermal emission, but fails to do that for long-wavelength (i.e. low-frequency) 
 
 .. py:data:: law
 
-    :code:`u_nu = (8 * pi * h * nu^3 / c^3) * exp(-1 * h * nu / (k_B * T))`
+    :code:`w_f = 8 * pi * h * f^3 / c^3 * exp(-h * f / (k_B * T))`
+
 
     Latex:
         .. math::
-            u_\nu = \frac{8 \pi h \nu^3}{c^3} \exp \left( - \frac{h \nu}{k_B T} \right)
+            w_{f} = \frac{8 \pi h f^{3}}{c^{3}} \exp{\left(- \frac{h f}{k_\text{B} T} \right)}
+
 

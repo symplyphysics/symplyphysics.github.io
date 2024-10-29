@@ -11,23 +11,37 @@ Speed of electromagnetic wave propagation depends on the refractive index of the
 
 .. py:data:: wave_speed
 
-    Speed of wave propagation in medium.
+    Speed of wave propagation in medium. See :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed`.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: refractive_index
 
-    Refractive index of the medium relative to vacuum.
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium.
 
     Symbol:
         :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
     :code:`v = c / n`
 
+
     Latex:
         .. math::
             v = \frac{c}{n}
+
 

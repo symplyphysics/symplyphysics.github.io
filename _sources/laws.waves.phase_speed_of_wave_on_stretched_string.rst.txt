@@ -8,27 +8,33 @@ and not by properties of the wave such as frequency and amplitude.
 
 .. py:data:: phase_speed
 
-    Phase speed of the wave.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: tension
 
-    Tension in the string. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.tension` in the string.
 
     Symbol:
-        :code:`tau`
+        :code:`T`
 
     Latex:
-        :math:`\tau`
+        :math:`T`
 
     Dimension:
         :code:`force`
 
 .. py:data:: linear_density
 
-    Linear density of the string, i.e. its mass per units length.
+    :attr:`~symplyphysics.symbols.basic.linear_density` of the string, i.e. its mass per units length.
 
     Symbol:
         :code:`mu`
@@ -36,11 +42,16 @@ and not by properties of the wave such as frequency and amplitude.
     Latex:
         :math:`\mu`
 
+    Dimension:
+        :code:`mass/length`
+
 .. py:data:: law
 
-    :code:`v = sqrt(tau / mu)`
+    :code:`v = sqrt(T / mu)`
+
 
     Latex:
         .. math::
-            v = \sqrt{\frac{\tau}{\mu}}
+            v = \sqrt{\frac{T}{\mu}}
+
 
