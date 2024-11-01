@@ -21,7 +21,7 @@ known as the **first Kirchhoff's law**, or the **Kirchhoff's junction rule**.
         :code:`I[k]`
 
     Latex:
-        :math:`I_k`
+        :math:`I_{k}`
 
     Dimension:
         :code:`current`

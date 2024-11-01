@@ -39,11 +39,6 @@
 <h1>Linear coefficient of thermal expansion<a class="headerlink" href="#linear-coefficient-of-thermal-expansion" title="Link to this heading">¶</a></h1>
 <p>The coefficient of thermal expansion describes how the size of an object changes with a change in temperature
 at constant pressure.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\left( \frac{\partial}{\partial T} \right)_p\)</span> is the derivative w.r.t. temperature
-at constant pressure.</p></li>
-</ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>Pressure must be constant during the expansion process.</p></li>
@@ -55,24 +50,9 @@ at constant pressure.</p></li>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_l</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_l\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_{l}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/temperature</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.definitions.linear_coefficient_of_thermal_expansion.length">
-<span class="sig-name descname"><span class="pre">length</span></span><a class="headerlink" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.length" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.length" title="symplyphysics.symbols.classical_mechanics.length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">length</span></code></a> of the object as a function of temperature
-and, indirectly, pressure <span class="math notranslate nohighlight">\(p\)</span>.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">l(T,</span> <span class="pre">p)</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(l\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -92,12 +72,40 @@ and, indirectly, pressure <span class="math notranslate nohighlight">\(p\)</span
 </dd></dl>
 
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.linear_coefficient_of_thermal_expansion.pressure">
+<span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.pressure" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> of the object, which is held constant.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.linear_coefficient_of_thermal_expansion.length">
+<span class="sig-name descname"><span class="pre">length</span></span><a class="headerlink" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.length" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.length" title="symplyphysics.symbols.classical_mechanics.length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">length</span></code></a> of the object as a function of temperature and, indirectly, pressure <span class="math notranslate nohighlight">\(p\)</span>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">l(T,</span> <span class="pre">p)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(l{\left(T,p \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.linear_coefficient_of_thermal_expansion.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.definition" title="Link to this definition">¶</a></dt>
 <dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_l</span> <span class="pre">=</span> <span class="pre">Derivative(l(T,</span> <span class="pre">p),</span> <span class="pre">T)</span> <span class="pre">/</span> <span class="pre">l(T,</span> <span class="pre">p)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\alpha_l = \frac{1}{l(T, p)} \left( \frac{\partial l(T, p)}{\partial T} \right)_p\]</div>
+\[\alpha_{l} = \frac{\frac{\partial}{\partial T} l{\left(T,p \right)}}{l{\left(T,p \right)}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -153,8 +161,9 @@ and, indirectly, pressure <span class="math notranslate nohighlight">\(p\)</span
 <li class="toctree-l2"><a class="reference internal" href="definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area.html">Intensity of sound wave is rate of energy transfer over area</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Linear coefficient of thermal expansion</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.linear_expansion_coefficient"><code class="docutils literal notranslate"><span class="pre">linear_expansion_coefficient</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.pressure"><code class="docutils literal notranslate"><span class="pre">pressure</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.linear_coefficient_of_thermal_expansion.definition"><code class="docutils literal notranslate"><span class="pre">definition</span></code></a></li>
 </ul>
 </li>

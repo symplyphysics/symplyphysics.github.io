@@ -27,7 +27,7 @@ electron transition to the levels between which the transition is occurring.
         :code:`n_1`
 
     Latex:
-        :math:`n_1`
+        :math:`n_{1}`
 
     Dimension:
         :code:`dimensionless`
@@ -40,7 +40,7 @@ electron transition to the levels between which the transition is occurring.
         :code:`n_2`
 
     Latex:
-        :math:`n_2`
+        :math:`n_{2}`
 
     Dimension:
         :code:`dimensionless`

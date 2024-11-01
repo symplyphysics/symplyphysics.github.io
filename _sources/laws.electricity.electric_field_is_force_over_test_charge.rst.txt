@@ -42,7 +42,7 @@ the value of the test charge.
         :code:`q_0`
 
     Latex:
-        :math:`q_0`
+        :math:`q_{0}`
 
     Dimension:
         :code:`charge`

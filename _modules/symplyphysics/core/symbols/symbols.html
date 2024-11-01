@@ -201,23 +201,27 @@
 
 
 <span class="k">class</span> <span class="nc">FunctionNew</span><span class="p">(</span><span class="n">DimensionSymbolNew</span><span class="p">,</span> <span class="n">UndefinedFunction</span><span class="p">):</span>
+    <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span>
 
     <span class="c1"># NOTE: Self type cannot be used in a metaclass and &#39;mcs&#39; is a metaclass here</span>
     <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span>
         <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span> <span class="o">=</span> <span class="p">(),</span>
         <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">*</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
-        <span class="o">**</span><span class="n">options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Function</span><span class="p">:</span>
+        <span class="o">**</span><span class="n">options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">FunctionNew</span><span class="p">:</span>
         <span class="k">return</span> <span class="n">UndefinedFunction</span><span class="o">.</span><span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span> <span class="n">next_name</span><span class="p">(</span><span class="s2">&quot;FUN&quot;</span><span class="p">),</span> <span class="o">**</span><span class="n">options</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
         <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span> <span class="o">=</span> <span class="p">(),</span>
         <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">*</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="o">**</span><span class="n">_options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">display_name</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="nb">str</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="bp">cls</span><span class="o">.</span><span class="n">arguments</span> <span class="o">=</span> <span class="n">arguments</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
@@ -288,10 +292,16 @@
     <span class="o">*</span><span class="p">,</span>
     <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">subscript</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">SymbolNew</span><span class="p">:</span>
     <span class="n">assumptions</span> <span class="o">=</span> <span class="n">assumptions</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span>
     <span class="n">display_symbol</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span>
     <span class="n">display_latex</span> <span class="o">=</span> <span class="n">display_latex</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
+
+    <span class="k">if</span> <span class="n">subscript</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">display_symbol</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">display_symbol</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">subscript</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="n">display_latex</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">display_latex</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">subscript</span><span class="si">}</span><span class="s2">&quot;</span>
+
     <span class="k">return</span> <span class="n">SymbolNew</span><span class="p">(</span>
         <span class="n">display_symbol</span><span class="p">,</span>
         <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span>
@@ -302,16 +312,24 @@
 
 <span class="k">def</span> <span class="nf">clone_as_function</span><span class="p">(</span>
     <span class="n">source</span><span class="p">:</span> <span class="n">SymbolNew</span> <span class="o">|</span> <span class="n">SymbolIndexedNew</span><span class="p">,</span>
+    <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span> <span class="o">=</span> <span class="p">(),</span>
     <span class="o">*</span><span class="p">,</span>
     <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+    <span class="n">subscript</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">FunctionNew</span><span class="p">:</span>
     <span class="n">assumptions</span> <span class="o">=</span> <span class="n">assumptions</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span>
     <span class="n">display_symbol</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span>
     <span class="n">display_latex</span> <span class="o">=</span> <span class="n">display_latex</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
+
+    <span class="k">if</span> <span class="n">subscript</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="n">display_symbol</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">display_symbol</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">subscript</span><span class="si">}</span><span class="s2">&quot;</span>
+        <span class="n">display_latex</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">display_latex</span><span class="si">}</span><span class="s2">_</span><span class="si">{</span><span class="n">subscript</span><span class="si">}</span><span class="s2">&quot;</span>
+
     <span class="k">return</span> <span class="n">FunctionNew</span><span class="p">(</span>
         <span class="n">display_symbol</span><span class="p">,</span>
+        <span class="n">arguments</span><span class="p">,</span>
         <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">,</span>
         <span class="o">**</span><span class="n">assumptions</span><span class="p">,</span>

@@ -18,7 +18,7 @@ of the velocity vector, and its vector is tangent to the path of the body.
         :code:`a_t`
 
     Latex:
-        :math:`a_\tau`
+        :math:`a_{\tau}`
 
     Dimension:
         :code:`acceleration`

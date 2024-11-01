@@ -24,7 +24,7 @@ heat or mass between the thermodynamic system and its environment.
         :code:`T0`
 
     Latex:
-        :math:`T_0`
+        :math:`T_{0}`
 
     Dimension:
         :code:`temperature`
@@ -37,7 +37,7 @@ heat or mass between the thermodynamic system and its environment.
         :code:`T1`
 
     Latex:
-        :math:`T_1`
+        :math:`T_{1}`
 
     Dimension:
         :code:`temperature`

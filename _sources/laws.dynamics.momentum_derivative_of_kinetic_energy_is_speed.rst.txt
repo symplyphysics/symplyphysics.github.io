@@ -6,32 +6,6 @@ not only in the case of variable mass, but also in the relativistic case.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed
 
-.. py:data:: kinetic_energy
-
-    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object as a function of :attr:`~momentum`.
-
-    Symbol:
-        :code:`K(p(v))`
-
-    Latex:
-        :math:`K`
-
-    Dimension:
-        :code:`energy`
-
-.. py:data:: momentum
-
-    The :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object as a function of :attr:`~speed`.
-
-    Symbol:
-        :code:`p(v)`
-
-    Latex:
-        :math:`p`
-
-    Dimension:
-        :code:`momentum`
-
 .. py:data:: speed
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
@@ -44,6 +18,32 @@ not only in the case of variable mass, but also in the relativistic case.
 
     Dimension:
         :code:`velocity`
+
+.. py:data:: momentum
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object as a function of :attr:`~speed`.
+
+    Symbol:
+        :code:`p(v)`
+
+    Latex:
+        :math:`p{\left(v \right)}`
+
+    Dimension:
+        :code:`momentum`
+
+.. py:data:: kinetic_energy
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object as a function of :attr:`~momentum`.
+
+    Symbol:
+        :code:`K(p(v))`
+
+    Latex:
+        :math:`K{\left(p{\left(v \right)} \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 

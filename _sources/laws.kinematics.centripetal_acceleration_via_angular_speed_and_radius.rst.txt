@@ -13,7 +13,7 @@ Centripetal acceleration via angular speed and radius
         :code:`a_n`
 
     Latex:
-        :math:`a_n`
+        :math:`a_{n}`
 
     Dimension:
         :code:`acceleration`

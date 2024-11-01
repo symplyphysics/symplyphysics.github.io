@@ -18,6 +18,19 @@ resonance.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.resonant_oscillations
 
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: resonant_displacement
 
     The displacement of resonant oscillations as a function of :attr:`~time`. See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
@@ -26,7 +39,7 @@ resonance.
         :code:`x(t)`
 
     Latex:
-        :math:`x`
+        :math:`x{\left(t \right)}`
 
     Dimension:
         :code:`length`
@@ -52,7 +65,7 @@ resonance.
         :code:`w_0`
 
     Latex:
-        :math:`\omega_0`
+        :math:`\omega_{0}`
 
     Dimension:
         :code:`angle/time`
@@ -82,19 +95,6 @@ resonance.
 
     Dimension:
         :code:`angle`
-
-.. py:data:: time
-
-    :attr:`~symplyphysics.symbols.basic.time`.
-
-    Symbol:
-        :code:`t`
-
-    Latex:
-        :math:`t`
-
-    Dimension:
-        :code:`time`
 
 .. py:data:: law
 

@@ -70,20 +70,6 @@ would also be proportional to the number of turn the current makes.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.magnetic_flux">
-<span class="sig-name descname"><span class="pre">magnetic_flux</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.magnetic_flux" title="Link to this definition">¶</a></dt>
-<dd><p>Magnetic flux through the contour.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Phi</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Phi\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_flux</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.time">
 <span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.time" title="Link to this definition">¶</a></dt>
 <dd><p>Time.</p>
@@ -98,12 +84,26 @@ would also be proportional to the number of turn the current makes.</p>
 </dd></dl>
 
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.magnetic_flux">
+<span class="sig-name descname"><span class="pre">magnetic_flux</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.magnetic_flux" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.magnetic_flux" title="symplyphysics.symbols.electrodynamics.magnetic_flux"><code class="xref py py-attr docutils literal notranslate"><span class="pre">magnetic_flux</span></code></a> through the contour.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Phi_B(t)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Phi_\mathbf{B}{\left(t \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_flux</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">-N</span> <span class="pre">*</span> <span class="pre">Derivative(Phi,</span> <span class="pre">t)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">-N</span> <span class="pre">*</span> <span class="pre">Derivative(Phi_B(t),</span> <span class="pre">t)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\mathcal{E} = - N \frac{d}{d t} \Phi{\left(t \right)}\]</div>
+\[\mathcal{E} = - N \frac{d}{d t} \Phi_\mathbf{B}{\left(t \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -163,8 +163,8 @@ would also be proportional to the number of turn the current makes.</p>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Electromotive force induced in moving contour</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.electromotive_force"><code class="docutils literal notranslate"><span class="pre">electromotive_force</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.current_turn_count"><code class="docutils literal notranslate"><span class="pre">current_turn_count</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.magnetic_flux"><code class="docutils literal notranslate"><span class="pre">magnetic_flux</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.magnetic_flux"><code class="docutils literal notranslate"><span class="pre">magnetic_flux</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>

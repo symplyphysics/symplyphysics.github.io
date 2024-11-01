@@ -6,32 +6,6 @@ defined as the time derivative of the flowing charge.
 
 .. py:currentmodule:: symplyphysics.definitions.current_is_charge_derivative
 
-.. py:data:: current
-
-    Electric :attr:`~symplyphysics.symbols.electrodynamics.current` as a function of time.
-
-    Symbol:
-        :code:`I(t)`
-
-    Latex:
-        :math:`I`
-
-    Dimension:
-        :code:`current`
-
-.. py:data:: charge
-
-    Electric :attr:`~symplyphysics.symbols.electrodynamics.charge` as a function of time.
-
-    Symbol:
-        :code:`q(t)`
-
-    Latex:
-        :math:`q`
-
-    Dimension:
-        :code:`charge`
-
 .. py:data:: time
 
     Time.
@@ -44,6 +18,32 @@ defined as the time derivative of the flowing charge.
 
     Dimension:
         :code:`time`
+
+.. py:data:: current
+
+    Electric :attr:`~symplyphysics.symbols.electrodynamics.current` as a function of time.
+
+    Symbol:
+        :code:`I(t)`
+
+    Latex:
+        :math:`I{\left(t \right)}`
+
+    Dimension:
+        :code:`current`
+
+.. py:data:: charge
+
+    Electric :attr:`~symplyphysics.symbols.electrodynamics.charge` as a function of time.
+
+    Symbol:
+        :code:`q(t)`
+
+    Latex:
+        :math:`q{\left(t \right)}`
+
+    Dimension:
+        :code:`charge`
 
 .. py:data:: definition
 

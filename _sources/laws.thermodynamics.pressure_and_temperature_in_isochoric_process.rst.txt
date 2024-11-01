@@ -39,7 +39,7 @@ of the gas.
         :code:`T0`
 
     Latex:
-        :math:`T_0`
+        :math:`T_{0}`
 
     Dimension:
         :code:`temperature`
@@ -52,7 +52,7 @@ of the gas.
         :code:`T1`
 
     Latex:
-        :math:`T_1`
+        :math:`T_{1}`
 
     Dimension:
         :code:`temperature`

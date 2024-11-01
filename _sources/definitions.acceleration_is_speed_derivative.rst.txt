@@ -5,32 +5,6 @@ Acceleration is speed derivative
 
 .. py:currentmodule:: symplyphysics.definitions.acceleration_is_speed_derivative
 
-.. py:data:: acceleration
-
-    :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the body as a function of time.
-
-    Symbol:
-        :code:`a(t)`
-
-    Latex:
-        :math:`a`
-
-    Dimension:
-        :code:`acceleration`
-
-.. py:data:: speed
-
-    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body as a function of time.
-
-    Symbol:
-        :code:`v(t)`
-
-    Latex:
-        :math:`v`
-
-    Dimension:
-        :code:`velocity`
-
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
@@ -43,6 +17,32 @@ Acceleration is speed derivative
 
     Dimension:
         :code:`time`
+
+.. py:data:: acceleration
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the body as a function of time.
+
+    Symbol:
+        :code:`a(t)`
+
+    Latex:
+        :math:`a{\left(t \right)}`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body as a function of time.
+
+    Symbol:
+        :code:`v(t)`
+
+    Latex:
+        :math:`v{\left(t \right)}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: definition
 

@@ -83,7 +83,7 @@ Symbols of fundamental physical quantities.
         :code:`w_f`
 
     Latex:
-        :math:`w_f`
+        :math:`w_{f}`
 
     Dimension:
         :code:`energy/(frequency*volume)`

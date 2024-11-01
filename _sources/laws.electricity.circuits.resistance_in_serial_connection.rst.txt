@@ -31,7 +31,7 @@ of the resistances of individual components.
         :code:`R[i]`
 
     Latex:
-        :math:`R_i`
+        :math:`R_{i}`
 
     Dimension:
         :code:`impedance`

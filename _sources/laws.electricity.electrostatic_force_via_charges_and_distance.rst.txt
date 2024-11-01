@@ -32,7 +32,7 @@ square of the distance between them.
         :code:`q_1`
 
     Latex:
-        :math:`q_1`
+        :math:`q_{1}`
 
     Dimension:
         :code:`charge`
@@ -45,7 +45,7 @@ square of the distance between them.
         :code:`q_2`
 
     Latex:
-        :math:`q_2`
+        :math:`q_{2}`
 
     Dimension:
         :code:`charge`

@@ -14,7 +14,7 @@ at all times.
         :code:`q_0`
 
     Latex:
-        :math:`q_0`
+        :math:`q_{0}`
 
     Dimension:
         :code:`charge`
@@ -27,7 +27,7 @@ at all times.
         :code:`q_1`
 
     Latex:
-        :math:`q_1`
+        :math:`q_{1}`
 
     Dimension:
         :code:`charge`

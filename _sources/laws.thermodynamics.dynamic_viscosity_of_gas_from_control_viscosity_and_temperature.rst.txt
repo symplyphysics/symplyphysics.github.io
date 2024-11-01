@@ -56,7 +56,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
         :code:`T0`
 
     Latex:
-        :math:`T_0`
+        :math:`T_{0}`
 
     Dimension:
         :code:`temperature`

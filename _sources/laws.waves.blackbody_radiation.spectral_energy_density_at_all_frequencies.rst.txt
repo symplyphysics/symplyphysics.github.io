@@ -25,7 +25,7 @@ matter or energy between the body and its environment.
         :code:`w_f`
 
     Latex:
-        :math:`w_f`
+        :math:`w_{f}`
 
     Dimension:
         :code:`energy/(frequency*volume)`

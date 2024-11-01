@@ -14,32 +14,6 @@ the net force exerted on a body is equal to the time derivative of the body's mo
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.force_is_derivative_of_momentum
 
-.. py:data:: momentum
-
-    The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the body as a function of :attr:`~time`.
-
-    Symbol:
-        :code:`p(t)`
-
-    Latex:
-        :math:`p`
-
-    Dimension:
-        :code:`momentum`
-
-.. py:data:: force
-
-    The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body as a function of :attr:`~time`.
-
-    Symbol:
-        :code:`F(t)`
-
-    Latex:
-        :math:`F`
-
-    Dimension:
-        :code:`force`
-
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
@@ -52,6 +26,32 @@ the net force exerted on a body is equal to the time derivative of the body's mo
 
     Dimension:
         :code:`time`
+
+.. py:data:: momentum
+
+    The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the body as a function of :attr:`~time`.
+
+    Symbol:
+        :code:`p(t)`
+
+    Latex:
+        :math:`p{\left(t \right)}`
+
+    Dimension:
+        :code:`momentum`
+
+.. py:data:: force
+
+    The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body as a function of :attr:`~time`.
+
+    Symbol:
+        :code:`F(t)`
+
+    Latex:
+        :math:`F{\left(t \right)}`
+
+    Dimension:
+        :code:`force`
 
 .. py:data:: law
 

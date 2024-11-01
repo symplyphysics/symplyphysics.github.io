@@ -15,6 +15,19 @@ natural angular frequency of the oscillator.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.forced_oscillations_equation
 
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: displacement
 
     The displacement of the oscillating body from rest value as a function of :attr:`~time`.
@@ -24,7 +37,7 @@ natural angular frequency of the oscillator.
         :code:`x(t)`
 
     Latex:
-        :math:`x`
+        :math:`x{\left(t \right)}`
 
     Dimension:
         :code:`length`
@@ -50,7 +63,7 @@ natural angular frequency of the oscillator.
         :code:`w_0`
 
     Latex:
-        :math:`\omega_0`
+        :math:`\omega_{0}`
 
     Dimension:
         :code:`angle/time`
@@ -93,19 +106,6 @@ natural angular frequency of the oscillator.
 
     Dimension:
         :code:`angle`
-
-.. py:data:: time
-
-    :attr:`~symplyphysics.symbols.basic.time`.
-
-    Symbol:
-        :code:`t`
-
-    Latex:
-        :math:`t`
-
-    Dimension:
-        :code:`time`
 
 .. py:data:: law
 

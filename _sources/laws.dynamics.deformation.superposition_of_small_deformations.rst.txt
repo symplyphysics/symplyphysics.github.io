@@ -38,7 +38,7 @@ the individual forces, however these deformations must be small.
         :code:`e_1`
 
     Latex:
-        :math:`e_1`
+        :math:`e_{1}`
 
     Dimension:
         :code:`dimensionless`
@@ -51,7 +51,7 @@ the individual forces, however these deformations must be small.
         :code:`e_2`
 
     Latex:
-        :math:`e_2`
+        :math:`e_{2}`
 
     Dimension:
         :code:`dimensionless`

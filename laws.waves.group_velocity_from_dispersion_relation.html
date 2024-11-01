@@ -61,9 +61,9 @@ through space.</p>
 <dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the wave as a function of <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a>, also called the
 <em>dispersion relation</em> of the wave.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w(k)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w(k)()</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega{\left( \right)}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
 </dd>
@@ -87,7 +87,7 @@ through space.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">v_g</span> <span class="pre">=</span> <span class="pre">Derivative(w(k),</span> <span class="pre">k)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">v_g</span> <span class="pre">=</span> <span class="pre">Derivative(w(k)(k),</span> <span class="pre">k)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
 \[v_\text{g} = \frac{d}{d k} \omega{\left(k \right)}\]</div>

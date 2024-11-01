@@ -5,32 +5,6 @@ Angular acceleration is angular speed derivative
 
 .. py:currentmodule:: symplyphysics.definitions.angular_acceleration_is_angular_speed_derivative
 
-.. py:data:: angular_acceleration
-
-    :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration` of the body as a function of time.
-
-    Symbol:
-        :code:`alpha(t)`
-
-    Latex:
-        :math:`\alpha`
-
-    Dimension:
-        :code:`angle/time**2`
-
-.. py:data:: angular_speed
-
-    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the body as a function of time.
-
-    Symbol:
-        :code:`w(t)`
-
-    Latex:
-        :math:`\omega`
-
-    Dimension:
-        :code:`angle/time`
-
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
@@ -43,6 +17,32 @@ Angular acceleration is angular speed derivative
 
     Dimension:
         :code:`time`
+
+.. py:data:: angular_acceleration
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration` of the body as a function of time.
+
+    Symbol:
+        :code:`alpha(t)`
+
+    Latex:
+        :math:`\alpha{\left(t \right)}`
+
+    Dimension:
+        :code:`angle/time**2`
+
+.. py:data:: angular_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the body as a function of time.
+
+    Symbol:
+        :code:`w(t)`
+
+    Latex:
+        :math:`\omega{\left(t \right)}`
+
+    Dimension:
+        :code:`angle/time`
 
 .. py:data:: definition
 

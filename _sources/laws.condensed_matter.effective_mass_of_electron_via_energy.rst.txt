@@ -25,19 +25,6 @@ of a free particle with that mass.
     Dimension:
         :code:`mass`
 
-.. py:data:: energy
-
-    Electron energy as a function of angular wavenumber.
-
-    Symbol:
-        :code:`E(k)`
-
-    Latex:
-        :math:`E`
-
-    Dimension:
-        :code:`energy`
-
 .. py:data:: angular_wavenumber
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber`.
@@ -50,6 +37,19 @@ of a free particle with that mass.
 
     Dimension:
         :code:`angle/length`
+
+.. py:data:: energy
+
+    Electron energy as a function of angular wavenumber.
+
+    Symbol:
+        :code:`E(k)`
+
+    Latex:
+        :math:`E{\left(k \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 

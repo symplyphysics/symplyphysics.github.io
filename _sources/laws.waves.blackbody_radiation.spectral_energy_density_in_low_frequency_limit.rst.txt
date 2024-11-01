@@ -27,7 +27,7 @@ known as the *ultraviolet catastrophe*.
         :code:`w_f`
 
     Latex:
-        :math:`w_f`
+        :math:`w_{f}`
 
     Dimension:
         :code:`energy/(frequency*volume)`

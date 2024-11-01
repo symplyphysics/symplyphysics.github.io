@@ -31,7 +31,7 @@ of the admittances of individual components.
         :code:`Y[i]`
 
     Latex:
-        :math:`Y_i`
+        :math:`Y_{i}`
 
     Dimension:
         :code:`conductance`

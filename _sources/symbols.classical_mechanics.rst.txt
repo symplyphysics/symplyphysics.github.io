@@ -332,7 +332,7 @@ Symbols related to classical mechanics.
         :code:`L_I`
 
     Latex:
-        :math:`L_I`
+        :math:`L_{I}`
 
     Dimension:
         :code:`dimensionless`

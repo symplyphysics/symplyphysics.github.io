@@ -31,7 +31,7 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
         :code:`E[i]`
 
     Latex:
-        :math:`E_i`
+        :math:`E_{i}`
 
     Dimension:
         :code:`energy`

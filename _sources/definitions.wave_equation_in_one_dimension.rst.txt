@@ -12,21 +12,6 @@ or electromagnetic waves.
 
 .. py:currentmodule:: symplyphysics.definitions.wave_equation_in_one_dimension
 
-.. py:data:: displacement
-
-    Factor representing a displacement from rest position, which could be
-    pressure, position, electric field, etc., as a function of position
-    and time.
-
-    Symbol:
-        :code:`u(x, t)`
-
-    Latex:
-        :math:`u`
-
-    Dimension:
-        :code:`any_dimension`
-
 .. py:data:: position
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position`, or spatial variable.
@@ -52,6 +37,21 @@ or electromagnetic waves.
 
     Dimension:
         :code:`time`
+
+.. py:data:: displacement
+
+    Factor representing a displacement from rest position, which could be
+    pressure, position, electric field, etc., as a function of position
+    and time.
+
+    Symbol:
+        :code:`u(x, t)`
+
+    Latex:
+        :math:`u{\left(x,t \right)}`
+
+    Dimension:
+        :code:`any_dimension`
 
 .. py:data:: phase_speed
 

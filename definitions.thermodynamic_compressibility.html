@@ -62,20 +62,6 @@ is usually negligible.</p></li>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.volume">
-<span class="sig-name descname"><span class="pre">volume</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.volume" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the gas as a function of pressure and other parameters.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V(p)</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.pressure">
 <span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.pressure" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> in the gas.</p>
@@ -90,12 +76,40 @@ is usually negligible.</p></li>
 </dd></dl>
 
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.parameters">
+<span class="sig-name descname"><span class="pre">parameters</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.parameters" title="Link to this definition">¶</a></dt>
+<dd><p>Parameters other than <a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.pressure" title="symplyphysics.definitions.thermodynamic_compressibility.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> on which the volume function depends.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(q\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">any_dimension</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.volume">
+<span class="sig-name descname"><span class="pre">volume</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.volume" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the gas as a function of <a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.pressure" title="symplyphysics.definitions.thermodynamic_compressibility.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> and <a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.parameters" title="symplyphysics.definitions.thermodynamic_compressibility.parameters"><code class="xref py py-attr docutils literal notranslate"><span class="pre">parameters</span></code></a>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V(p,</span> <span class="pre">q)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V{\left(p,q \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.thermodynamic_compressibility.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.thermodynamic_compressibility.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span> <span class="pre">=</span> <span class="pre">-Derivative(V(p),</span> <span class="pre">p)</span> <span class="pre">/</span> <span class="pre">V(p)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span> <span class="pre">=</span> <span class="pre">-Derivative(V(p,</span> <span class="pre">q),</span> <span class="pre">p)</span> <span class="pre">/</span> <span class="pre">V(p,</span> <span class="pre">q)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\beta = - \frac{1}{V(p)} \frac{\partial V}{\partial p}\]</div>
+\[\beta = - \frac{\frac{\partial}{\partial p} V{\left(p,q \right)}}{V{\left(p,q \right)}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -171,8 +185,9 @@ is usually negligible.</p></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.thermal_resistance_to_conduction.html">Thermal resistance to conduction</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Thermodynamic compressibility</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.compressibility"><code class="docutils literal notranslate"><span class="pre">compressibility</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.volume"><code class="docutils literal notranslate"><span class="pre">volume</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.pressure"><code class="docutils literal notranslate"><span class="pre">pressure</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.parameters"><code class="docutils literal notranslate"><span class="pre">parameters</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.volume"><code class="docutils literal notranslate"><span class="pre">volume</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.thermodynamic_compressibility.definition"><code class="docutils literal notranslate"><span class="pre">definition</span></code></a></li>
 </ul>
 </li>

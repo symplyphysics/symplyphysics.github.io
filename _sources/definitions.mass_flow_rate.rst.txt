@@ -6,32 +6,6 @@ from a certain volume, the flow in a pipe section, the combustion of fuel.
 
 .. py:currentmodule:: symplyphysics.definitions.mass_flow_rate
 
-.. py:data:: mass_flow_rate
-
-    :attr:`~symplyphysics.symbols.classical_mechanics.mass_flow_rate` as a function of time.
-
-    Symbol:
-        :code:`mu(t)`
-
-    Latex:
-        :math:`\mu`
-
-    Dimension:
-        :code:`mass/time`
-
-.. py:data:: mass
-
-    :attr:`~symplyphysics.symbols.basic.mass` as a function of time.
-
-    Symbol:
-        :code:`m(t)`
-
-    Latex:
-        :math:`m`
-
-    Dimension:
-        :code:`mass`
-
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
@@ -44,6 +18,32 @@ from a certain volume, the flow in a pipe section, the combustion of fuel.
 
     Dimension:
         :code:`time`
+
+.. py:data:: mass_flow_rate
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.mass_flow_rate` as a function of time.
+
+    Symbol:
+        :code:`mu(t)`
+
+    Latex:
+        :math:`\mu{\left(t \right)}`
+
+    Dimension:
+        :code:`mass/time`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` as a function of time.
+
+    Symbol:
+        :code:`m(t)`
+
+    Latex:
+        :math:`m{\left(t \right)}`
+
+    Dimension:
+        :code:`mass`
 
 .. py:data:: definition
 

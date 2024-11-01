@@ -6,32 +6,6 @@ rate at which work is done.
 
 .. py:currentmodule:: symplyphysics.definitions.power_is_energy_derivative
 
-.. py:data:: power
-
-    :attr:`~symplyphysics.symbols.basic.power` as a function of time.
-
-    Symbol:
-        :code:`P(t)`
-
-    Latex:
-        :math:`P`
-
-    Dimension:
-        :code:`power`
-
-.. py:data:: energy
-
-    :attr:`~symplyphysics.symbols.basic.energy` as a function of time.
-
-    Symbol:
-        :code:`E(t)`
-
-    Latex:
-        :math:`E`
-
-    Dimension:
-        :code:`energy`
-
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
@@ -44,6 +18,32 @@ rate at which work is done.
 
     Dimension:
         :code:`time`
+
+.. py:data:: power
+
+    :attr:`~symplyphysics.symbols.basic.power` as a function of time.
+
+    Symbol:
+        :code:`P(t)`
+
+    Latex:
+        :math:`P{\left(t \right)}`
+
+    Dimension:
+        :code:`power`
+
+.. py:data:: energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` as a function of time.
+
+    Symbol:
+        :code:`E(t)`
+
+    Latex:
+        :math:`E{\left(t \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: definition
 

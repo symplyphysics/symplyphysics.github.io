@@ -8,6 +8,9 @@ at constant pressure.
 
 #. Pressure must be constant during the expansion process.
 
+..
+    TODO add pressure symbol below and in the volume function arguments
+
 .. py:currentmodule:: symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion
 
 .. py:data:: volumetric_expansion_coefficient
@@ -18,23 +21,10 @@ at constant pressure.
         :code:`alpha_V`
 
     Latex:
-        :math:`\alpha_V`
+        :math:`\alpha_{V}`
 
     Dimension:
         :code:`1/temperature`
-
-.. py:data:: volume
-
-    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the body as a function of temperature and pressure.
-
-    Symbol:
-        :code:`V(T, p)`
-
-    Latex:
-        :math:`V`
-
-    Dimension:
-        :code:`volume`
 
 .. py:data:: temperature
 
@@ -49,9 +39,22 @@ at constant pressure.
     Dimension:
         :code:`temperature`
 
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the body as a function of temperature and pressure.
+
+    Symbol:
+        :code:`V(T)`
+
+    Latex:
+        :math:`V{\left(T \right)}`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: definition
 
-    :code:`alpha_V = Derivative(V(T, p), T) / V(T, p)`
+    :code:`alpha_V = Derivative(V(T), T) / V(T)`
 
 
     .. only:: comment

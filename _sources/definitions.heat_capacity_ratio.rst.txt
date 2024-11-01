@@ -34,7 +34,7 @@ reversible processes; the speed of sound also depends on this factor.
         :code:`C_p`
 
     Latex:
-        :math:`C_p`
+        :math:`C_{p}`
 
     Dimension:
         :code:`energy/temperature`
@@ -47,7 +47,7 @@ reversible processes; the speed of sound also depends on this factor.
         :code:`C_V`
 
     Latex:
-        :math:`C_V`
+        :math:`C_{V}`
 
     Dimension:
         :code:`energy/temperature`

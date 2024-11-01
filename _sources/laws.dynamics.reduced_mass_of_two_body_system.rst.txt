@@ -28,7 +28,7 @@ were a one-body problem.
         :code:`m1`
 
     Latex:
-        :math:`m_1`
+        :math:`m_{1}`
 
     Dimension:
         :code:`mass`
@@ -41,7 +41,7 @@ were a one-body problem.
         :code:`m2`
 
     Latex:
-        :math:`m_2`
+        :math:`m_{2}`
 
     Dimension:
         :code:`mass`

@@ -20,19 +20,6 @@ by applying this law to the components of the force vector.
     Dimension:
         :code:`momentum`
 
-.. py:data:: force
-
-    Projection of :attr:`~symplyphysics.symbols.classical_mechanics.force` :math:`\vec F` as a function of time.
-
-    Symbol:
-        :code:`F(t)`
-
-    Latex:
-        :math:`F`
-
-    Dimension:
-        :code:`force`
-
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
@@ -46,6 +33,19 @@ by applying this law to the components of the force vector.
     Dimension:
         :code:`time`
 
+.. py:data:: force
+
+    Projection of :attr:`~symplyphysics.symbols.classical_mechanics.force` :math:`\vec F` as a function of time.
+
+    Symbol:
+        :code:`F(t)`
+
+    Latex:
+        :math:`F{\left(t \right)}`
+
+    Dimension:
+        :code:`force`
+
 .. py:data:: time_before
 
     Initial :attr:`~symplyphysics.symbols.basic.time` of collision.
@@ -54,7 +54,7 @@ by applying this law to the components of the force vector.
         :code:`t_0`
 
     Latex:
-        :math:`t_0`
+        :math:`t_{0}`
 
     Dimension:
         :code:`time`
@@ -67,7 +67,7 @@ by applying this law to the components of the force vector.
         :code:`t_1`
 
     Latex:
-        :math:`t_1`
+        :math:`t_{1}`
 
     Dimension:
         :code:`time`

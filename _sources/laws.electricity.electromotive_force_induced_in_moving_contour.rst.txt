@@ -34,19 +34,6 @@ would also be proportional to the number of turn the current makes.
     Dimension:
         :code:`dimensionless`
 
-.. py:data:: magnetic_flux
-
-    Magnetic flux through the contour.
-
-    Symbol:
-        :code:`Phi`
-
-    Latex:
-        :math:`\Phi`
-
-    Dimension:
-        :code:`magnetic_flux`
-
 .. py:data:: time
 
     Time.
@@ -60,13 +47,26 @@ would also be proportional to the number of turn the current makes.
     Dimension:
         :code:`time`
 
+.. py:data:: magnetic_flux
+
+    :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux` through the contour.
+
+    Symbol:
+        :code:`Phi_B(t)`
+
+    Latex:
+        :math:`\Phi_\mathbf{B}{\left(t \right)}`
+
+    Dimension:
+        :code:`magnetic_flux`
+
 .. py:data:: law
 
-    :code:`E = -N * Derivative(Phi, t)`
+    :code:`E = -N * Derivative(Phi_B(t), t)`
 
 
     Latex:
         .. math::
-            \mathcal{E} = - N \frac{d}{d t} \Phi{\left(t \right)}
+            \mathcal{E} = - N \frac{d}{d t} \Phi_\mathbf{B}{\left(t \right)}
 
 

@@ -27,10 +27,10 @@ through space.
     *dispersion relation* of the wave.
 
     Symbol:
-        :code:`w(k)`
+        :code:`w(k)()`
 
     Latex:
-        :math:`\omega`
+        :math:`\omega{\left( \right)}`
 
     Dimension:
         :code:`angle/time`
@@ -50,7 +50,7 @@ through space.
 
 .. py:data:: law
 
-    :code:`v_g = Derivative(w(k), k)`
+    :code:`v_g = Derivative(w(k)(k), k)`
 
 
     Latex:

@@ -26,7 +26,7 @@ thermal emission, but fails to do that for long-wavelength (i.e. low-frequency) 
         :code:`w_f`
 
     Latex:
-        :math:`w_f`
+        :math:`w_{f}`
 
     Dimension:
         :code:`energy/(frequency*volume)`

@@ -32,7 +32,7 @@ the boundary equation :math:`f(x) = T(x, 0)`.
         :code:`T_n(x, t)`
 
     Latex:
-        :math:`T_n`
+        :math:`T_{n}`
 
     Dimension:
         :code:`temperature`

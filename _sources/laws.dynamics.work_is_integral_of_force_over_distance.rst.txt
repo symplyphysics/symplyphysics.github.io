@@ -21,19 +21,6 @@ object.
     Dimension:
         :code:`energy`
 
-.. py:data:: force
-
-    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object as a function of :attr:`~position`.
-
-    Symbol:
-        :code:`F(x)`
-
-    Latex:
-        :math:`F`
-
-    Dimension:
-        :code:`force`
-
 .. py:data:: position
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
@@ -47,6 +34,19 @@ object.
     Dimension:
         :code:`length`
 
+.. py:data:: force
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object as a function of :attr:`~position`.
+
+    Symbol:
+        :code:`F(x)`
+
+    Latex:
+        :math:`F{\left(x \right)}`
+
+    Dimension:
+        :code:`force`
+
 .. py:data:: position_before
 
     The initial :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
@@ -55,7 +55,7 @@ object.
         :code:`x_0`
 
     Latex:
-        :math:`x_0`
+        :math:`x_{0}`
 
     Dimension:
         :code:`length`
@@ -68,7 +68,7 @@ object.
         :code:`x_1`
 
     Latex:
-        :math:`x_1`
+        :math:`x_{1}`
 
     Dimension:
         :code:`length`

@@ -28,7 +28,7 @@ due to the component over the current in it.
         :code:`Phi_B`
 
     Latex:
-        :math:`\Phi_B`
+        :math:`\Phi_{B}`
 
     Dimension:
         :code:`magnetic_flux`

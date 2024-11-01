@@ -27,19 +27,6 @@ relative volume change of a fluid or solid as a response to pressure or mean str
     Dimension:
         :code:`1/pressure`
 
-.. py:data:: volume
-
-    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas as a function of pressure and other parameters.
-
-    Symbol:
-        :code:`V(p)`
-
-    Latex:
-        :math:`V`
-
-    Dimension:
-        :code:`volume`
-
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the gas.
@@ -53,16 +40,39 @@ relative volume change of a fluid or solid as a response to pressure or mean str
     Dimension:
         :code:`pressure`
 
+.. py:data:: parameters
+
+    Parameters other than :attr:`~pressure` on which the volume function depends.
+
+    Symbol:
+        :code:`q`
+
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`any_dimension`
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas as a function of :attr:`~pressure` and :attr:`~parameters`.
+
+    Symbol:
+        :code:`V(p, q)`
+
+    Latex:
+        :math:`V{\left(p,q \right)}`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: definition
 
-    :code:`beta = -Derivative(V(p), p) / V(p)`
+    :code:`beta = -Derivative(V(p, q), p) / V(p, q)`
 
-
-    .. only:: comment
-
-        The derivative is partial since more parameters are needed to evaluate it properly
 
     Latex:
         .. math::
-            \beta = - \frac{1}{V(p)} \frac{\partial V}{\partial p}
+            \beta = - \frac{\frac{\partial}{\partial p} V{\left(p,q \right)}}{V{\left(p,q \right)}}
+
 

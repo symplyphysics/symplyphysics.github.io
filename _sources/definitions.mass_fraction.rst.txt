@@ -13,7 +13,7 @@ Mass fraction is the ratio of the mass of a mixture component to the total mass 
         :code:`w[i]`
 
     Latex:
-        :math:`w_i`
+        :math:`w_{i}`
 
     Dimension:
         :code:`dimensionless`
@@ -26,7 +26,7 @@ Mass fraction is the ratio of the mass of a mixture component to the total mass 
         :code:`m[i]`
 
     Latex:
-        :math:`m_i`
+        :math:`m_{i}`
 
     Dimension:
         :code:`mass`

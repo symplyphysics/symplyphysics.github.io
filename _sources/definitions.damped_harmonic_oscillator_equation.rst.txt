@@ -7,19 +7,6 @@ assuming the body only moves in one direction.
 
 .. py:currentmodule:: symplyphysics.definitions.damped_harmonic_oscillator_equation
 
-.. py:data:: displacement
-
-    Displacement of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
-
-    Symbol:
-        :code:`x(t)`
-
-    Latex:
-        :math:`x`
-
-    Dimension:
-        :code:`length`
-
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
@@ -32,6 +19,19 @@ assuming the body only moves in one direction.
 
     Dimension:
         :code:`time`
+
+.. py:data:: displacement
+
+    Displacement of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
+
+    Symbol:
+        :code:`x(t)`
+
+    Latex:
+        :math:`x{\left(t \right)}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: undamped_angular_frequency
 

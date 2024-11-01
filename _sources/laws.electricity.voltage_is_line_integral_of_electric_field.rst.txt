@@ -24,19 +24,6 @@ of the electric field along any path connecting the two points.
     Dimension:
         :code:`voltage`
 
-.. py:data:: electric_field_component
-
-    Component of the electric field vector tangent to the integration path.
-
-    Symbol:
-        :code:`E_s(s)`
-
-    Latex:
-        :math:`E_s`
-
-    Dimension:
-        :code:`voltage/length`
-
 .. py:data:: distance
 
     Distance traveled.
@@ -50,6 +37,20 @@ of the electric field along any path connecting the two points.
     Dimension:
         :code:`length`
 
+.. py:data:: electric_field_component
+
+    Component of the electric field vector tangent to the integration path.
+    See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+    Symbol:
+        :code:`E_s(s)`
+
+    Latex:
+        :math:`E_{s}{\left(s \right)}`
+
+    Dimension:
+        :code:`voltage/length`
+
 .. py:data:: initial_distance
 
     Initial distance.
@@ -58,7 +59,7 @@ of the electric field along any path connecting the two points.
         :code:`s_0`
 
     Latex:
-        :math:`s_0`
+        :math:`s_{0}`
 
     Dimension:
         :code:`length`
@@ -71,7 +72,7 @@ of the electric field along any path connecting the two points.
         :code:`s_1`
 
     Latex:
-        :math:`s_1`
+        :math:`s_{1}`
 
     Dimension:
         :code:`length`

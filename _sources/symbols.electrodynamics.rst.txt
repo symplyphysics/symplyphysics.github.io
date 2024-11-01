@@ -109,7 +109,7 @@ Symbols related to electrodynamics.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_r`
+        :math:`\varepsilon_{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -123,7 +123,7 @@ Symbols related to electrodynamics.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_r`
+        :math:`\mu_{r}`
 
     Dimension:
         :code:`dimensionless`

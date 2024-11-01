@@ -34,7 +34,7 @@ reaches the voltage of the source.
         :code:`V_0`
 
     Latex:
-        :math:`V_0`
+        :math:`V_{0}`
 
     Dimension:
         :code:`voltage`

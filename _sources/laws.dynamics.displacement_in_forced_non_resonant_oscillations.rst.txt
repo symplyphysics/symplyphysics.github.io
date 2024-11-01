@@ -49,7 +49,7 @@ and (2) the angular frequency of the external force driving the oscillations.
         :code:`w_0`
 
     Latex:
-        :math:`\omega_0`
+        :math:`\omega_{0}`
 
     Dimension:
         :code:`angle/time`

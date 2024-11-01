@@ -27,7 +27,7 @@ The work-energy principle states that the work done by all forces acting on a pa
         :code:`K(t)`
 
     Latex:
-        :math:`K`
+        :math:`K{\left(t \right)}`
 
     Dimension:
         :code:`energy`
@@ -40,7 +40,7 @@ The work-energy principle states that the work done by all forces acting on a pa
         :code:`t_0`
 
     Latex:
-        :math:`t_0`
+        :math:`t_{0}`
 
     Dimension:
         :code:`time`
@@ -53,18 +53,15 @@ The work-energy principle states that the work done by all forces acting on a pa
         :code:`t_1`
 
     Latex:
-        :math:`t_1`
+        :math:`t_{1}`
 
     Dimension:
         :code:`time`
 
 .. py:data:: law
 
-    .. only:: comment
-
-        Custom function arguments are not yet supported.
-
     :code:`W = K(t_1) - K(t_0)`
+
 
     Latex:
         .. math::

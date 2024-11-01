@@ -15,7 +15,7 @@ by the same amount as the temperature during an isobaric process.
         :code:`T0`
 
     Latex:
-        :math:`T_0`
+        :math:`T_{0}`
 
     Dimension:
         :code:`temperature`
@@ -28,7 +28,7 @@ by the same amount as the temperature during an isobaric process.
         :code:`T1`
 
     Latex:
-        :math:`T_1`
+        :math:`T_{1}`
 
     Dimension:
         :code:`temperature`

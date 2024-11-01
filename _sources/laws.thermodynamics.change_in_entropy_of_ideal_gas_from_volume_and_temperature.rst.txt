@@ -62,7 +62,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
         :code:`T1`
 
     Latex:
-        :math:`T_1`
+        :math:`T_{1}`
 
     Dimension:
         :code:`temperature`
@@ -75,7 +75,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
         :code:`T0`
 
     Latex:
-        :math:`T_0`
+        :math:`T_{0}`
 
     Dimension:
         :code:`temperature`
