@@ -31,7 +31,7 @@ capacitances of individual capacitors.
         :code:`C[i]`
 
     Latex:
-        :math:`C_{i}`
+        :math:`{C}_{i}`
 
     Dimension:
         :code:`capacitance`
@@ -43,6 +43,6 @@ capacitances of individual capacitors.
 
     Latex:
         .. math::
-            C = \sum_i C_{i}
+            C = \sum_i {C}_{i}
 
 

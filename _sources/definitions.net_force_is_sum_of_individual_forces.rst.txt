@@ -30,7 +30,7 @@ The net force is the arithmetic sum of forces.
         :code:`F[i]`
 
     Latex:
-        :math:`F_{i}`
+        :math:`{F}_{i}`
 
     Dimension:
         :code:`force`
@@ -42,6 +42,6 @@ The net force is the arithmetic sum of forces.
 
     Latex:
         .. math::
-            F = \sum_i F_{i}
+            F = \sum_i {F}_{i}
 
 

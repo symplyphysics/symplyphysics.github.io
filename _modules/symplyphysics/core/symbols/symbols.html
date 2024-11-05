@@ -155,10 +155,16 @@
         <span class="k">return</span> <span class="n">p</span><span class="o">.</span><span class="n">doprint</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">display_name</span><span class="p">)</span>
 
 
+<span class="c1"># This is default index for indexed parameters, e.g. for using in SumIndexed</span>
+<span class="n">global_index</span> <span class="o">=</span> <span class="n">Idx</span><span class="p">(</span><span class="s2">&quot;i&quot;</span><span class="p">)</span>
+
+
 <span class="k">class</span> <span class="nc">SymbolIndexedNew</span><span class="p">(</span><span class="n">DimensionSymbolNew</span><span class="p">,</span> <span class="n">IndexedBase</span><span class="p">):</span>  <span class="c1"># pylint: disable=too-many-ancestors</span>
+    <span class="n">index</span><span class="p">:</span> <span class="n">Idx</span>
 
     <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
         <span class="n">name_or_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span> <span class="o">|</span> <span class="n">SymSymbol</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">index</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Idx</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">*</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
@@ -171,11 +177,13 @@
 
     <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
         <span class="n">name_or_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span> <span class="o">|</span> <span class="n">SymSymbol</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">index</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Idx</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">*</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="o">**</span><span class="n">_assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">display_name</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">if</span> <span class="n">name_or_symbol</span> <span class="ow">is</span> <span class="kc">None</span> <span class="k">else</span> <span class="nb">str</span><span class="p">(</span><span class="n">name_or_symbol</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">index</span> <span class="ow">or</span> <span class="n">global_index</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
 
     <span class="k">def</span> <span class="nf">_eval_nseries</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">n</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">logx</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span> <span class="n">cdir</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Any</span><span class="p">:</span>
@@ -338,6 +346,7 @@
 
 <span class="k">def</span> <span class="nf">clone_as_indexed</span><span class="p">(</span>
     <span class="n">source</span><span class="p">:</span> <span class="n">SymbolNew</span> <span class="o">|</span> <span class="n">SymbolIndexedNew</span><span class="p">,</span>
+    <span class="n">index</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Idx</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="o">*</span><span class="p">,</span>
     <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
@@ -348,14 +357,11 @@
     <span class="n">display_latex</span> <span class="o">=</span> <span class="n">display_latex</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
     <span class="k">return</span> <span class="n">SymbolIndexedNew</span><span class="p">(</span>
         <span class="n">display_symbol</span><span class="p">,</span>
+        <span class="n">index</span><span class="p">,</span>
         <span class="n">source</span><span class="o">.</span><span class="n">dimension</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">,</span>
         <span class="o">**</span><span class="n">assumptions</span><span class="p">,</span>
     <span class="p">)</span>
-
-
-<span class="c1"># This is default index for indexed parameters, eg for using in SumIndexed</span>
-<span class="n">global_index</span> <span class="o">=</span> <span class="n">Idx</span><span class="p">(</span><span class="s2">&quot;i&quot;</span><span class="p">)</span>
 </pre></div>
 
           </div>

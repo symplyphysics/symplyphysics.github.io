@@ -32,7 +32,7 @@ of the inductances of individual components.
         :code:`L[i]`
 
     Latex:
-        :math:`L_{i}`
+        :math:`{L}_{i}`
 
     Dimension:
         :code:`inductance`
@@ -44,6 +44,6 @@ of the inductances of individual components.
 
     Latex:
         .. math::
-            L = \sum_i L_{i}
+            L = \sum_i {L}_{i}
 
 

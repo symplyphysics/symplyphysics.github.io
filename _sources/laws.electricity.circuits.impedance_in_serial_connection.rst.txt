@@ -31,7 +31,7 @@ of the impedances of individual components.
         :code:`Z[i]`
 
     Latex:
-        :math:`Z_{i}`
+        :math:`{Z}_{i}`
 
     Dimension:
         :code:`impedance`
@@ -43,6 +43,6 @@ of the impedances of individual components.
 
     Latex:
         .. math::
-            Z = \sum_i Z_{i}
+            Z = \sum_i {Z}_{i}
 
 

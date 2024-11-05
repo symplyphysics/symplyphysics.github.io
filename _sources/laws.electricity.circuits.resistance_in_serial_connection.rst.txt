@@ -31,7 +31,7 @@ of the resistances of individual components.
         :code:`R[i]`
 
     Latex:
-        :math:`R_{i}`
+        :math:`{R}_{i}`
 
     Dimension:
         :code:`impedance`
@@ -43,6 +43,6 @@ of the resistances of individual components.
 
     Latex:
         .. math::
-            R = \sum_i R_{i}
+            R = \sum_i {R}_{i}
 
 

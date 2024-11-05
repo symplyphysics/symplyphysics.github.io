@@ -15,7 +15,7 @@ This law is also known as **Kirchhoff's second law**, or **Kirchhoff's loop rule
         :code:`V[i]`
 
     Latex:
-        :math:`V_{i}`
+        :math:`{V}_{i}`
 
     Dimension:
         :code:`voltage`
@@ -27,6 +27,6 @@ This law is also known as **Kirchhoff's second law**, or **Kirchhoff's loop rule
 
     Latex:
         .. math::
-            \sum_i V_{i} = 0
+            \sum_i {V}_{i} = 0
 
 

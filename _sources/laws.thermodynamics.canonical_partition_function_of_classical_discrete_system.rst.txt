@@ -27,21 +27,21 @@ of all the possible energy states:
     <definitions.boltzmann_factor_via_state_energy_and_temperature>`.
 
     Symbol:
-        :code:`f[i]`
+        :code:`f[i][i]`
 
     Latex:
-        :math:`f_{i}`
+        :math:`{f_i}_{i}`
 
     Dimension:
         :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`Z = Sum(f[i], i)`
+    :code:`Z = Sum(f[i][i], i)`
 
 
     Latex:
         .. math::
-            Z = \sum_i f_{i}
+            Z = \sum_i {f_i}_{i}
 
 

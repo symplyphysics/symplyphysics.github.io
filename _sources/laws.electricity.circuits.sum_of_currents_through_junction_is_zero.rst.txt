@@ -21,7 +21,7 @@ known as the **first Kirchhoff's law**, or the **Kirchhoff's junction rule**.
         :code:`I[k]`
 
     Latex:
-        :math:`I_{k}`
+        :math:`{I}_{k}`
 
     Dimension:
         :code:`current`
@@ -33,6 +33,6 @@ known as the **first Kirchhoff's law**, or the **Kirchhoff's junction rule**.
 
     Latex:
         .. math::
-            \sum_k I_{k} = 0
+            \sum_k {I}_{k} = 0
 
 
