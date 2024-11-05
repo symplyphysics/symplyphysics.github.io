@@ -60,9 +60,13 @@ the type of diffusing particles. This law is also known as the <em>Stokes—Eins
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.diffusion_coefficient">
 <span class="sig-name descname"><span class="pre">diffusion_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.diffusion_coefficient" title="Link to this definition">¶</a></dt>
-<dd><p>Diffusion coefficient of the particles.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.diffusion_coefficient" title="symplyphysics.symbols.classical_mechanics.diffusion_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">diffusion_coefficient</span></code></a> of the particles.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area/time</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -84,9 +88,13 @@ the type of diffusing particles. This law is also known as the <em>Stokes—Eins
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.particle_radius">
 <span class="sig-name descname"><span class="pre">particle_radius</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.particle_radius" title="Link to this definition">¶</a></dt>
-<dd><p>Radius of the particles.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a> of the particles.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -94,11 +102,13 @@ the type of diffusing particles. This law is also known as the <em>Stokes—Eins
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.dynamic_viscosity">
 <span class="sig-name descname"><span class="pre">dynamic_viscosity</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.dynamic_viscosity" title="Link to this definition">¶</a></dt>
-<dd><p>Dynamic viscosity of the particles.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.dynamic_viscosity" title="symplyphysics.symbols.classical_mechanics.dynamic_viscosity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dynamic_viscosity</span></code></a> of the particles.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">eta</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\eta\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure*time</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -106,10 +116,10 @@ the type of diffusing particles. This law is also known as the <em>Stokes—Eins
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">D</span> <span class="pre">=</span> <span class="pre">(R</span> <span class="pre">*</span> <span class="pre">T)</span> <span class="pre">/</span> <span class="pre">(6</span> <span class="pre">*</span> <span class="pre">N_A</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">r</span> <span class="pre">*</span> <span class="pre">eta)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">D</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">/</span> <span class="pre">(6</span> <span class="pre">*</span> <span class="pre">N_A</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">r</span> <span class="pre">*</span> <span class="pre">mu)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[D = \frac{R T}{6 N_\text{A} \pi r \eta}\]</div>
+\[D = \frac{R T}{6 N_\text{A} \pi r \mu}\]</div>
 </dd>
 </dl>
 </dd></dl>

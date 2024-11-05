@@ -12,21 +12,20 @@ the sound wave immediately level out, which eventually turned out to be inconsis
 
 .. py:data:: speed_of_sound
 
-    Speed of sound in the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of sound in the fluid.
 
     Symbol:
-        :code:`c`
+        :code:`v_s`
 
-.. py:data:: pressure
+    Latex:
+        :math:`v_\text{s}`
 
-    Pressure inside the fluid.
-
-    Symbol:
-        :code:`p`
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: density
 
-    Density of the fluid.
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
     Symbol:
         :code:`rho`
@@ -34,18 +33,43 @@ the sound wave immediately level out, which eventually turned out to be inconsis
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: entropy
 
-    Entropy of the fluid.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the fluid.
 
     Symbol:
         :code:`S`
 
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the fluid as a function of :attr:`~density` and
+    :attr:`~entropy`.
+
+    Symbol:
+        :code:`p(rho, S)`
+
+    Latex:
+        :math:`p{\left(\rho,S \right)}`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: law
 
-    :code:`c = sqrt(Derivative(p(rho, S), rho))`
+    :code:`v_s = sqrt(Derivative(p(rho, S), rho))`
+
 
     Latex:
         .. math::
-            c = \sqrt{\left( \frac{\partial p}{\partial \rho} \right)_S}
+            v_\text{s} = \sqrt{\frac{\partial}{\partial \rho} p{\left(\rho,S \right)}}
+
 

@@ -8,17 +8,29 @@ from a closed thermodynamic system at a constant temperature (isothermal process
 
 .. py:data:: helmholtz_free_energy
 
-    Helmholtz free energy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system.
 
     Symbol:
         :code:`F`
 
+    Latex:
+        :math:`F`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: internal_energy
 
-    Internal energy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
     Symbol:
         :code:`U`
+
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -35,16 +47,24 @@ from a closed thermodynamic system at a constant temperature (isothermal process
 
 .. py:data:: entropy
 
-    Entropy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
     Symbol:
         :code:`S`
+
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: law
 
     :code:`F = U - T * S`
 
+
     Latex:
         .. math::
             F = U - T S
+
 

@@ -8,27 +8,33 @@ by the system.
 
 .. py:data:: heat_from_heater
 
-    Heat transferred by the heater to the heat engine.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat` transferred by the heater to the heat engine.
 
     Symbol:
         :code:`Q_h`
 
     Latex:
-        :math:`Q_\text{h}`
+        :math:`Q_{h}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: heat_to_refrigerator
 
-    Heat transferred by the heat engine to the refrigerator.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat` transferred by the heat engine to the refrigerator.
 
     Symbol:
         :code:`Q_r`
 
     Latex:
-        :math:`Q_\text{r}`
+        :math:`Q_{r}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: efficiency
 
-    Efficiency of the heat engine.
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_efficiency` of the heat engine.
 
     Symbol:
         :code:`eta`
@@ -36,11 +42,16 @@ by the system.
     Latex:
         :math:`\eta`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
     :code:`eta = 1 - Q_r / Q_h`
 
+
     Latex:
         .. math::
-            \eta = 1 - \frac{Q_\text{r}}{Q_\text{h}}
+            \eta = 1 - \frac{Q_{r}}{Q_{h}}
+
 

@@ -88,3 +88,17 @@ Symbols of physical quantities related to chemistry.
     Dimension:
         :code:`velocity`
 
+.. py:data:: molar_concentration
+
+    **Molar concentration**, or **molarity**, is a quantity most commonly defined as amount of substance of
+    solute per unit volume of solution, or per unit volume available to the species.
+
+    Symbol:
+        :code:`c`
+
+    Latex:
+        :math:`c`
+
+    Dimension:
+        :code:`amount_of_substance/volume`
+

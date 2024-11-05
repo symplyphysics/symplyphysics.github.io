@@ -18,39 +18,65 @@ Temperature of a thermodynamic system can be found when internal energy is known
     Dimension:
         :code:`temperature`
 
-.. py:data:: internal_energy
-
-    Internal energy of the system as a function of entropy, volume, and particle count.
-
-    Symbol:
-        :code:`U(S, V, N)`
-
 .. py:data:: entropy
 
-    Entropy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
     Symbol:
         :code:`S`
 
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
+
 .. py:data:: volume
 
-    Volume of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: particle_count
 
-    Number of particles in the system.
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
     Symbol:
         :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: internal_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system as a function of its natural variables.
+
+    Symbol:
+        :code:`U(S, V, N)`
+
+    Latex:
+        :math:`U{\left(S,V,N \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 
     :code:`T = Derivative(U(S, V, N), S)`
 
+
     Latex:
         .. math::
-            T = \left( \frac{\partial U}{\partial S} \right)_{V, N}
+            T = \frac{\partial}{\partial S} U{\left(S,V,N \right)}
+
 

@@ -15,14 +15,23 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
 #. The gas is ideal.
 
+..
+    TODO refactor `mass / molar_mass` into `amount_of_substance`
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature
 
 .. py:data:: entropy_change
 
-    Entropy change during the transition between the two states.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` change during the transition between the two states.
 
     Symbol:
         :code:`S`
+
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: mass
 
@@ -39,27 +48,36 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
 .. py:data:: molar_mass
 
-    Molar mass, or molecular weight, of the gas.
+    :attr:`~symplyphysics.symbols.basic.molar_mass`, or molecular weight, of the gas.
 
     Symbol:
         :code:`M`
 
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`mass/amount_of_substance`
+
 .. py:data:: molar_isochoric_heat_capacity
 
-    Heat capacity at constant volume per unit amount of substance.
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant volume.
 
     Symbol:
-        :code:`C_V`
+        :code:`c_Vm`
 
     Latex:
-        :math:`C_V`
+        :math:`c_{V, m}`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
 
 .. py:data:: final_temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the final state.
 
     Symbol:
-        :code:`T1`
+        :code:`T_1`
 
     Latex:
         :math:`T_{1}`
@@ -72,7 +90,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the initial state.
 
     Symbol:
-        :code:`T0`
+        :code:`T_0`
 
     Latex:
         :math:`T_{0}`
@@ -82,29 +100,37 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
 .. py:data:: final_volume
 
-    Volume of the final state.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the final state.
 
     Symbol:
-        :code:`V1`
+        :code:`V_1`
 
     Latex:
-        :math:`V_1`
+        :math:`V_{1}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: initial_volume
 
-    Volume of the initial state.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the initial state.
 
     Symbol:
-        :code:`V0`
+        :code:`V_0`
 
     Latex:
-        :math:`V_0`
+        :math:`V_{0}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: law
 
-    :code:`S = (m / M) * (C_V * log(T1 / T0) + R * log(V1 / V0))`
+    :code:`S = m / M * (c_Vm * log(T_1 / T_0) + R * log(V_1 / V_0))`
+
 
     Latex:
         .. math::
-            S = \frac{m}{M} \left( C_V \log \frac{T_1}{T_0} + R \log \frac{V_1}{V_0} \right)
+            S = \frac{m}{M} \left(c_{V, m} \log \frac{T_{1}}{T_{0}} + R \log \frac{V_{1}}{V_{0}}\right)
+
 

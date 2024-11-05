@@ -11,13 +11,17 @@ The isobaric volumetric expansion coefficient of an ideal gas is the inverse of 
 
 .. py:data:: volumetric_expansion_coefficient
 
-    :doc:`Volumetric expansion coefficient <definitions.volumetric_coefficient_of_thermal_expansion>` of the gas.
+    Volumetric :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the material. Also see
+    :doc:`Volumetric expansion coefficient <definitions.volumetric_coefficient_of_thermal_expansion>`.
 
     Symbol:
         :code:`alpha_V`
 
     Latex:
-        :math:`\alpha_V`
+        :math:`\alpha_{V}`
+
+    Dimension:
+        :code:`1/temperature`
 
 .. py:data:: temperature
 
@@ -36,7 +40,9 @@ The isobaric volumetric expansion coefficient of an ideal gas is the inverse of 
 
     :code:`alpha_V = 1 / T`
 
+
     Latex:
         .. math::
-            \alpha_V = \frac{1}{T}
+            \alpha_{V} = \frac{1}{T}
+
 

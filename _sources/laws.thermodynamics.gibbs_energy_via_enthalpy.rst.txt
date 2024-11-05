@@ -10,24 +10,42 @@ conditions.
 
 .. py:data:: gibbs_energy
 
-    Gibbs energy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system.
 
     Symbol:
         :code:`G`
 
+    Latex:
+        :math:`G`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: enthalpy
 
-    Enthalpy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
 
     Symbol:
         :code:`H`
 
+    Latex:
+        :math:`H`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: entropy
 
-    Entropy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
     Symbol:
         :code:`S`
+
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: temperature
 
@@ -46,7 +64,9 @@ conditions.
 
     :code:`G = H - T * S`
 
+
     Latex:
         .. math::
             G = H - T S
+
 

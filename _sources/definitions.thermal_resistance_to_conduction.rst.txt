@@ -25,10 +25,10 @@ a material of given thickness.
     :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the insulator.
 
     Symbol:
-        :code:`d`
+        :code:`h`
 
     Latex:
-        :math:`d`
+        :math:`h`
 
     Dimension:
         :code:`length`
@@ -48,11 +48,11 @@ a material of given thickness.
 
 .. py:data:: definition
 
-    :code:`R_val = d / k`
+    :code:`R_val = h / k`
 
 
     Latex:
         .. math::
-            R_\text{val} = \frac{d}{k}
+            R_\text{val} = \frac{h}{k}
 
 

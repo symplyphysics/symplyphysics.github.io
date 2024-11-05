@@ -1,8 +1,8 @@
 Volume and temperature in isobaric process
 ------------------------------------------
 
-A thermodynamic process is called isobaric when the pressure inside the system stays
-constant. Also called Guy-Lussac's law, it states that the volume of the gas scales
+A thermodynamic process is called **isobaric** when the pressure inside the system stays
+constant. Also called **Guy-Lussac's law**, it states that the volume of the gas scales
 by the same amount as the temperature during an isobaric process.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.volume_and_temperature_in_isobaric_process
@@ -12,7 +12,7 @@ by the same amount as the temperature during an isobaric process.
     Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
     Symbol:
-        :code:`T0`
+        :code:`T_0`
 
     Latex:
         :math:`T_{0}`
@@ -25,7 +25,7 @@ by the same amount as the temperature during an isobaric process.
     Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
     Symbol:
-        :code:`T1`
+        :code:`T_1`
 
     Latex:
         :math:`T_{1}`
@@ -35,29 +35,37 @@ by the same amount as the temperature during an isobaric process.
 
 .. py:data:: initial_volume
 
-    Initial volume of the system.
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol: 
-        :code:`V0`
+    Symbol:
+        :code:`V_0`
 
     Latex:
-        :math:`V_0`
+        :math:`V_{0}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: final_volume
 
-    Final volume of the system.
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol: 
-        :code:`V1`
+    Symbol:
+        :code:`V_1`
 
     Latex:
-        :math:`V_1`
+        :math:`V_{1}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: law
 
-    :code:`V0 / V1 = T0 / T1`
+    :code:`V_0 / V_1 = T_0 / T_1`
+
 
     Latex:
         .. math::
-            \frac{V_0}{V_1} = \frac{T_0}{T_1}
+            \frac{V_{0}}{V_{1}} = \frac{T_{0}}{T_{1}}
+
 

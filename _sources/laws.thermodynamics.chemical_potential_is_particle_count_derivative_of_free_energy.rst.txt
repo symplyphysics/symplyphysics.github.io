@@ -9,7 +9,7 @@ by one.
 
 .. py:data:: chemical_potential
 
-    Chemical potential of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
     Symbol:
         :code:`mu`
@@ -17,22 +17,8 @@ by one.
     Latex:
         :math:`\mu`
 
-.. py:data:: free_energy
-
-    Helmholtz free energy of the system as a function of its natural variables.
-
-    ..
-        TODO add link to definition file
-
-    Symbol:
-        :code:`F`
-
-.. py:data:: particle_count
-
-    Number of particles in the system.
-
-    Symbol:
-        :code:`N`
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -49,16 +35,53 @@ by one.
 
 .. py:data:: volume
 
-    Volume of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`V`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
+.. py:data:: particle_count
+
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: free_energy
+
+    Helmholtz free energy of the system as a function of its natural variables.
+
+    ..
+        TODO add link to definition file
+
+    Symbol:
+        :code:`F(T, V, N)`
+
+    Latex:
+        :math:`F{\left(T,V,N \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 
     :code:`mu = Derivative(F(T, V, N), N)`
 
+
     Latex:
         .. math::
-            \mu = \left( \frac{\partial F}{\partial N} \right)_{T, V}
+            \mu = \frac{\partial}{\partial N} F{\left(T,V,N \right)}
+
 

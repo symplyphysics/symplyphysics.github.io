@@ -13,17 +13,16 @@ For example, enthalpy :math:`H` can be found using the Gibbs energy :math:`G` un
 
 .. py:data:: enthalpy
 
-    Enthalpy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
 
     Symbol:
         :code:`H`
 
-.. py:data:: gibbs_energy
+    Latex:
+        :math:`H`
 
-    Gibbs energy of the system.
-
-    Symbol:
-        :code:`G(T, p)`
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -40,16 +39,37 @@ For example, enthalpy :math:`H` can be found using the Gibbs energy :math:`G` un
 
 .. py:data:: pressure
 
-    Pressure inside the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
     Symbol:
         :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: gibbs_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system as a function of :attr:`~temperature` and :attr:`~pressure`.
+
+    Symbol:
+        :code:`G(T, p)`
+
+    Latex:
+        :math:`G{\left(T,p \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 
     :code:`H = G(T, p) - T * Derivative(G(T, p), T)`
 
+
     Latex:
         .. math::
-            H = G(T, p) - T \left( \frac{\partial G}{\partial T} \right)_p
+            H = G{\left(T,p \right)} - T \frac{\partial}{\partial T} G{\left(T,p \right)}
+
 

@@ -12,23 +12,37 @@ is the average number of microstates of a system that implement its macro-state.
 
 .. py:data:: entropy
 
-    Entropy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
     Symbol:
         :code:`S`
 
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
+
 .. py:data:: statistical_weight
 
-    Statistical weight of the system's state.
+    :attr:`~symplyphysics.symbols.thermodynamics.statistical_weight` of the system's state.
 
     Symbol:
-        :code:`W`
+        :code:`Omega`
+
+    Latex:
+        :math:`\Omega`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`S = k_B * log(W)`
+    :code:`S = k_B * log(Omega)`
+
 
     Latex:
         .. math::
-            S = k_\text{B} \log W
+            S = k_\text{B} \log \Omega
+
 

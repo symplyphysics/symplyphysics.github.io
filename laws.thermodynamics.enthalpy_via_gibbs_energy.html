@@ -47,19 +47,13 @@ For example, enthalpy <span class="math notranslate nohighlight">\(H\)</span> ca
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.enthalpy">
 <span class="sig-name descname"><span class="pre">enthalpy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.enthalpy" title="Link to this definition">¶</a></dt>
-<dd><p>Enthalpy of the system.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.enthalpy" title="symplyphysics.symbols.thermodynamics.enthalpy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">enthalpy</span></code></a> of the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">H</span></code></p>
 </dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.gibbs_energy">
-<span class="sig-name descname"><span class="pre">gibbs_energy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.gibbs_energy" title="Link to this definition">¶</a></dt>
-<dd><p>Gibbs energy of the system.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">G(T,</span> <span class="pre">p)</span></code></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(H\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -81,9 +75,27 @@ For example, enthalpy <span class="math notranslate nohighlight">\(H\)</span> ca
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.pressure">
 <span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure inside the system.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> inside the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.gibbs_energy">
+<span class="sig-name descname"><span class="pre">gibbs_energy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.gibbs_energy" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.gibbs_energy" title="symplyphysics.symbols.thermodynamics.gibbs_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">gibbs_energy</span></code></a> of the system as a function of <a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.temperature" title="symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temperature</span></code></a> and <a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.pressure" title="symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">G(T,</span> <span class="pre">p)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(G{\left(T,p \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -94,7 +106,7 @@ For example, enthalpy <span class="math notranslate nohighlight">\(H\)</span> ca
 <dd><p><code class="code docutils literal notranslate"><span class="pre">H</span> <span class="pre">=</span> <span class="pre">G(T,</span> <span class="pre">p)</span> <span class="pre">-</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">Derivative(G(T,</span> <span class="pre">p),</span> <span class="pre">T)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[H = G(T, p) - T \left( \frac{\partial G}{\partial T} \right)_p\]</div>
+\[H = G{\left(T,p \right)} - T \frac{\partial}{\partial T} G{\left(T,p \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -175,9 +187,9 @@ For example, enthalpy <span class="math notranslate nohighlight">\(H\)</span> ca
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy.html">Enthalpy is internal energy plus pressure energy</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Enthalpy via Gibbs energy</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.enthalpy"><code class="docutils literal notranslate"><span class="pre">enthalpy</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.gibbs_energy"><code class="docutils literal notranslate"><span class="pre">gibbs_energy</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.pressure"><code class="docutils literal notranslate"><span class="pre">pressure</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.gibbs_energy"><code class="docutils literal notranslate"><span class="pre">gibbs_energy</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>

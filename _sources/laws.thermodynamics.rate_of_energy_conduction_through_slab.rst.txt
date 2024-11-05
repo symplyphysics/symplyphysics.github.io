@@ -9,38 +9,62 @@ its face area and inversely proportional to its length.
 
 .. py:data:: energy_conduction_rate
 
-    Rate of energy conductivity through the slab.
+    Rate of energy conductivity through the slab. See :attr:`~symplyphysics.symbols.basic.power`.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: thermal_conductivity
 
-    Thermal conductivity of the slab's material.
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the slab's material.
 
     Symbol:
         :code:`k`
 
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`power/(length*temperature)`
+
 .. py:data:: face_area
 
-    Area of the face of the slab.
+    :attr:`~symplyphysics.symbols.classical_mechanics.area` of the face of the slab.
 
     Symbol:
         :code:`A`
 
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
 .. py:data:: slab_thickness
 
-    Distance between the two faces of the slab.
+    Distance between the two faces of the slab. See :attr:`~symplyphysics.symbols.classical_mechanics.thickness`.
 
     Symbol:
-        :code:`l`
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: temperature_difference
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` difference between the two faces of the slab.
 
     Symbol:
-        :code:`dT`
+        :code:`Delta(T)`
 
     Latex:
         :math:`\Delta T`
@@ -50,9 +74,11 @@ its face area and inversely proportional to its length.
 
 .. py:data:: law
 
-    :code:`P = k * A * abs(dT) / l`
+    :code:`P = k * A * Abs(Delta(T)) / h`
+
 
     Latex:
         .. math::
-            P = k A \frac{|\Delta T|}{l}
+            P = \frac{k A \left|{\Delta T}\right|}{h}
+
 

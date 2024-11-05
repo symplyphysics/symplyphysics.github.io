@@ -44,16 +44,6 @@ of temperature and pressure.</p>
 <li><p>Works for an infinitesimal quasi-static isothermal process.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.enthalpy">
-<span class="sig-name descname"><span class="pre">enthalpy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.enthalpy" title="Link to this definition">¶</a></dt>
-<dd><p>Enthalpy of the system.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">H(T,</span> <span class="pre">p)</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.temperature">
 <span class="sig-name descname"><span class="pre">temperature</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.temperature" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.temperature" title="symplyphysics.symbols.thermodynamics.temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temperature</span></code></a> of the system.</p>
@@ -70,9 +60,27 @@ of temperature and pressure.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.pressure">
 <span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure inside the system.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> inside the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.enthalpy">
+<span class="sig-name descname"><span class="pre">enthalpy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.enthalpy" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.enthalpy" title="symplyphysics.symbols.thermodynamics.enthalpy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">enthalpy</span></code></a> of the system.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">H(T,</span> <span class="pre">p)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(H{\left(T,p \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -80,9 +88,13 @@ of temperature and pressure.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.volume">
 <span class="sig-name descname"><span class="pre">volume</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.volume" title="Link to this definition">¶</a></dt>
-<dd><p>Volume of the system.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the system.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V(T,</span> <span class="pre">p)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V{\left(T,p \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -93,7 +105,7 @@ of temperature and pressure.</p>
 <dd><p><code class="code docutils literal notranslate"><span class="pre">Derivative(H(T,</span> <span class="pre">p),</span> <span class="pre">p)</span> <span class="pre">=</span> <span class="pre">V(T,</span> <span class="pre">p)</span> <span class="pre">-</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">Derivative(V(T,</span> <span class="pre">p),</span> <span class="pre">T)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\left( \frac{\partial H}{\partial p} \right)_T = V(T, p) - T \left( \frac{\partial V}{\partial T} \right)_p\]</div>
+\[\frac{\partial}{\partial p} H{\left(T,p \right)} = V{\left(T,p \right)} - T \frac{\partial}{\partial T} V{\left(T,p \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -170,9 +182,9 @@ of temperature and pressure.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.dynamic_viscosity_of_gas_from_control_viscosity_and_temperature.html">Dynamic viscosity of gas from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.efficiency_of_heat_engine.html">Efficiency of heat engine</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Enthalpy derivative via volume derivative</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.enthalpy"><code class="docutils literal notranslate"><span class="pre">enthalpy</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.pressure"><code class="docutils literal notranslate"><span class="pre">pressure</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.enthalpy"><code class="docutils literal notranslate"><span class="pre">enthalpy</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.volume"><code class="docutils literal notranslate"><span class="pre">volume</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>

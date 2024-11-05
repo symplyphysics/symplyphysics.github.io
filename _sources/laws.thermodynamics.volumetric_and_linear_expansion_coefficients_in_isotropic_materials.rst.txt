@@ -4,33 +4,48 @@ Volumetric and linear expansion coefficients in isotropic materials
 Coefficients of thermal expansion describe how the size of an object changes with a change in temperature
 at a constant pressure. In isotropic materials, the volumetric coefficient is three times the linear one.
 
+**Conditions:**
+
+#. The material is isotropic.
+#. The pressure is constant during the volume change.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials
 
 .. py:data:: volumetric_expansion_coefficient
 
-    :doc:`Volumetric expansion coefficient <definitions.volumetric_coefficient_of_thermal_expansion>` of the material.
+    Volumetric :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the material. Also see
+    :doc:`Volumetric expansion coefficient <definitions.volumetric_coefficient_of_thermal_expansion>`.
 
     Symbol:
         :code:`alpha_V`
 
     Latex:
-        :math:`\alpha_V`
+        :math:`\alpha_{V}`
+
+    Dimension:
+        :code:`1/temperature`
 
 .. py:data:: linear_expansion_coefficient
 
-    :doc:`Linear expansion coefficient <definitions.linear_coefficient_of_thermal_expansion>` of the material.
+    Linear :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the material. Also see
+    :doc:`Linear expansion coefficient <definitions.linear_coefficient_of_thermal_expansion>`.
 
     Symbol:
-        :code:`alpha_L`
+        :code:`alpha_l`
 
     Latex:
-        :math:`\alpha_L`
+        :math:`\alpha_{l}`
+
+    Dimension:
+        :code:`1/temperature`
 
 .. py:data:: law
 
-    :code:`alpha_V = 3 * alpha_L`
+    :code:`alpha_V = 3 * alpha_l`
+
 
     Latex:
         .. math::
-            \alpha_V = 3 \alpha_L
+            \alpha_{V} = 3 \alpha_{l}
+
 

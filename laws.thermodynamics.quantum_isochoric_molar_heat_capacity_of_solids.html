@@ -50,11 +50,13 @@ solids, it is a big achievement and the result has correct asymptotic behaviour 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.isochoric_molar_heat_capacity">
 <span class="sig-name descname"><span class="pre">isochoric_molar_heat_capacity</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.isochoric_molar_heat_capacity" title="Link to this definition">¶</a></dt>
-<dd><p>Heat capacity at constant volume per unit amount of substance.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.molar_heat_capacity" title="symplyphysics.symbols.thermodynamics.molar_heat_capacity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">molar_heat_capacity</span></code></a> at constant <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">C_V</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">c_Vm</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(C_V\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(c_{V, m}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/(amount_of_substance*temperature)</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -64,15 +66,23 @@ solids, it is a big achievement and the result has correct asymptotic behaviour 
 <span class="sig-name descname"><span class="pre">reduced_photon_energy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.reduced_photon_energy" title="Link to this definition">¶</a></dt>
 <dd><p>Reduced photon energy, defined as the ratio of photon energy <span class="math notranslate nohighlight">\(\hbar \omega\)</span> or <span class="math notranslate nohighlight">\(h \nu\)</span> to
 thermal energy <span class="math notranslate nohighlight">\(k_\text{B} T\)</span>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">x</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(x\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">C_V</span> <span class="pre">=</span> <span class="pre">3</span> <span class="pre">*</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">x^2</span> <span class="pre">*</span> <span class="pre">exp(x)</span> <span class="pre">/</span> <span class="pre">(exp(x)</span> <span class="pre">-</span> <span class="pre">1)^2</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">c_Vm</span> <span class="pre">=</span> <span class="pre">3</span> <span class="pre">*</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">x^2</span> <span class="pre">*</span> <span class="pre">exp(x)</span> <span class="pre">/</span> <span class="pre">(exp(x)</span> <span class="pre">-</span> <span class="pre">1)^2</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[C_V = 3 R \frac{x^2 e^x}{\left( e^x - 1 \right)^2}\]</div>
+\[c_{V, m} = 3 R \frac{x^{2} \exp{\left(x \right)}}{\left(\exp{\left(x \right)} - 1\right)^{2}}\]</div>
 </dd>
 </dl>
 </dd></dl>

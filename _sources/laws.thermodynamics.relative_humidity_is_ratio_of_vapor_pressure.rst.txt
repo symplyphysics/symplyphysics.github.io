@@ -1,8 +1,8 @@
 Relative humidity is ratio of vapor pressure
 --------------------------------------------
 
-*Relative humidity* is the ratio of actual water vapor pressure :math:`p` to saturation vapor
-pressure :math:`p_0` at a given temperature. *Saturation vapor* is vapor in dynamic
+**Relative humidity** is the ratio of actual water vapor pressure :math:`p` to saturation vapor
+pressure :math:`p_0` at a given temperature. **Saturation vapor** is vapor in dynamic
 equilibrium with a liquid or solid of the same composition in a closed system. In such
 a system, the number of evaporating molecules is equal to the number of condensing
 molecules per unit time.
@@ -11,7 +11,7 @@ molecules per unit time.
 
 .. py:data:: relative_humidity
 
-    Relative humidity of air.
+    :attr:`~symplyphysics.symbols.thermodynamics.relative_humidity` of air.
 
     Symbol:
         :code:`phi`
@@ -19,17 +19,26 @@ molecules per unit time.
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: actual_vapor_pressure
 
-    *Partial pressure of water vapor* in the medium, representing how much water vapor is
+    Partial :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of water vapor in the medium, representing how much water vapor is
     actually in the air.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: saturation_vapor_pressure
 
-    *Equilibrium vapor pressure* of water above a flat surface of liquid water or solid ice,
+    Equilibrium :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of water vapor above a flat surface of liquid water or solid ice,
     representing how much water vapor the air could potentially contain at a given temperature.
 
     Symbol:
@@ -38,11 +47,16 @@ molecules per unit time.
     Latex:
         :math:`p_\text{s}`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: law
 
     :code:`phi = p / p_s`
 
+
     Latex:
         .. math::
             \varphi = \frac{p}{p_\text{s}}
+
 

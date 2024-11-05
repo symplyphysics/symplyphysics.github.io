@@ -51,9 +51,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.final_pressure">
 <span class="sig-name descname"><span class="pre">final_pressure</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.final_pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure of the gas at final height.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> of the gas at final height.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -61,11 +65,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.initial_pressure">
 <span class="sig-name descname"><span class="pre">initial_pressure</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.initial_pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure of the gas at initial height.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> of the gas at initial height.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p_0</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p_0\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -87,11 +93,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.height_change">
 <span class="sig-name descname"><span class="pre">height_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.height_change" title="Link to this definition">¶</a></dt>
-<dd><p>Change in height between <span class="math notranslate nohighlight">\(p_0\)</span> and <span class="math notranslate nohighlight">\(p\)</span>.</p>
+<dd><p>Change in <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.height" title="symplyphysics.symbols.classical_mechanics.height"><code class="xref py py-attr docutils literal notranslate"><span class="pre">height</span></code></a> between <a class="reference internal" href="#symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.initial_pressure" title="symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.initial_pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">initial_pressure</span></code></a> and <a class="reference internal" href="#symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.final_pressure" title="symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.final_pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">final_pressure</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dh</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(h)</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta h\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -113,10 +121,10 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">p0</span> <span class="pre">*</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">g</span> <span class="pre">*</span> <span class="pre">m</span> <span class="pre">*</span> <span class="pre">dh</span> <span class="pre">/</span> <span class="pre">(k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">p_0</span> <span class="pre">*</span> <span class="pre">exp(-g</span> <span class="pre">*</span> <span class="pre">m</span> <span class="pre">*</span> <span class="pre">Delta(h)</span> <span class="pre">/</span> <span class="pre">(k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[p = p_0 \exp \left( - \frac{g m \Delta h}{k_\text{B} T} \right)\]</div>
+\[p = p_{0} \exp{\left(- \frac{g m \Delta h}{k_\text{B} T} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

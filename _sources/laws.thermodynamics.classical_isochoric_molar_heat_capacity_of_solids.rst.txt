@@ -16,19 +16,24 @@ of certain chemical elements is constant for temperatures far from the absolute 
 
 .. py:data:: isochoric_molar_heat_capacity
 
-    Heat capacity at constant volume per unit amount of substance.
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant pressure.
 
     Symbol:
-        :code:`C_V`
+        :code:`c_pm`
 
     Latex:
-        :math:`C_V`
+        :math:`c_{p, m}`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
 
 .. py:data:: law
 
-    :code:`C_V = 3 * R`
+    :code:`c_pm = 3 * R`
+
 
     Latex:
         .. math::
-            C_V = 3 R
+            c_{p, m} = 3 R
+
 

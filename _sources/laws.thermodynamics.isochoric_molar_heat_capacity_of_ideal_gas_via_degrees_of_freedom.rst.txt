@@ -19,33 +19,44 @@ From that one can derive the expression of the isochoric heat capacity of ideal 
 **Conditions:**
 
 #. Gas is ideal.
-#. Works in the classical theory of heat capacity of gases. For a more accurate represention refer to
+#. Works in the classical theory of heat capacity of gases. For a more accurate representation refer to
    the quantum theory, which accounts for the "freezing" of the degrees of freedom and other phenomena.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_degrees_of_freedom
 
 .. py:data:: isochoric_molar_heat_capacity
 
-    Heat capacity of ideal gas at constant volume per unit amount of substance.
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
     Symbol:
-        :code:`C_V`
+        :code:`c_Vm`
 
     Latex:
-        :math:`C_V`
+        :math:`c_{V, m}`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
 
 .. py:data:: degrees_of_freedom
 
-    Number of degrees of freedom of gas molecules.
+    Number of :attr:`~symplyphysics.symbols.classical_mechanics.degrees_of_freedom` of gas molecules.
 
     Symbol:
         :code:`f`
 
+    Latex:
+        :math:`f`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`C_V = (f / 2) * R`
+    :code:`c_Vm = f / 2 * R`
+
 
     Latex:
         .. math::
-            C_V = \frac{f}{2} R
+            c_{V, m} = \frac{f}{2} R
+
 

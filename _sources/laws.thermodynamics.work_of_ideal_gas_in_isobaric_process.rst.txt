@@ -7,48 +7,69 @@ by the gas is proportional to the pressure of the gas and its volume change.
 **Conditions:**
 
 #. The gas is ideal.
+#. The process is isobaric.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.work_of_ideal_gas_in_isobaric_process
 
 .. py:data:: work
 
-    Work done by the gas during the isobaric process.
+    :attr:`~symplyphysics.symbols.basic.work` done by the gas during the isobaric process.
 
     Symbol:
         :code:`W`
 
+    Latex:
+        :math:`W`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: pressure
 
-    Pressure of the gas, constant during the process.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas, constant during the process.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: initial_volume
 
-    Initial volume of the gas.
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas.
 
     Symbol:
-        :code:`V0`
+        :code:`V_0`
 
     Latex:
-        :math:`V_0`
+        :math:`V_{0}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: final_volume
 
-    Final volume of the gas
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas
 
     Symbol:
-        :code:`V1`
+        :code:`V_1`
 
     Latex:
-        :math:`V_1`
+        :math:`V_{1}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: law
 
-    :code:`W = p * (V1 - V0)`
+    :code:`W = p * (V_1 - V_0)`
+
 
     Latex:
         .. math::
-            W = p (V_1 - V_0)
+            W = p \left(V_{1} - V_{0}\right)
+
 

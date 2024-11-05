@@ -49,6 +49,19 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`mass`
 
+.. py:data:: molar_mass
+
+    **Molar mass** is defined as the mass per unit amount of substance.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`mass/amount_of_substance`
+
 .. py:data:: work
 
     **Work** is the energy transferred to or from an object via the application of force.
@@ -233,4 +246,17 @@ Symbols of fundamental physical quantities.
 
     Dimension:
         :code:`angle`
+
+.. py:data:: probability
+
+    **Probability** is a measure of an event's likelihood.
+
+    Symbol:
+        :code:`P`
+
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`dimensionless`
 

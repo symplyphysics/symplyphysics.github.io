@@ -18,19 +18,31 @@ around energy value :math:`E`.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.energy_distribution
 
+.. py:data:: energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` of the ensemble.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: energy_distribution_function
 
-    Energy distribution function.
+    :attr:`~energy` distribution function.
 
     Symbol:
         :code:`f(E)`
 
-.. py:data:: energy
+    Latex:
+        :math:`f(E)`
 
-    Energy of the ensemble.
-
-    Symbol:
-        :code:`E`
+    Dimension:
+        :code:`1/energy`
 
 .. py:data:: equilibrium_temperature
 
@@ -47,9 +59,11 @@ around energy value :math:`E`.
 
 .. py:data:: law
 
-    :code:`f(E) = 2 * sqrt(E / pi) * (k_B * T)^(3/2) * exp(-1 * E / (k_B * T))`
+    :code:`f(E) = 2 * sqrt(E / pi) / (k_B^(3/2) * T^(3/2)) * exp(-E / (k_B * T))`
+
 
     Latex:
         .. math::
-            f(E) = 2 \sqrt \frac{E}{\pi} \left( k_\text{B} T \right)^{3/2} \exp \left( - \frac{E}{k_\text{B} T} \right)
+            f(E) = \frac{2 \sqrt{\frac{E}{\pi}}}{k_\text{B}^{\frac{3}{2}} T^{\frac{3}{2}}} \exp{\left(- \frac{E}{k_\text{B} T} \right)}
+
 

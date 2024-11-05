@@ -16,17 +16,21 @@ constant and the adiabatic index of the gas.
 
 .. py:data:: isobaric_molar_heat_capacity
 
-    Heat capacity at constant pressure per unit amount of substance.
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
 
     Symbol:
-        :code:`C_p`
+        :code:`c_pm`
 
     Latex:
-        :math:`C_p`
+        :math:`c_{p, m}`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
 
 .. py:data:: adiabatic_index
 
-    Adiabatic index, or :doc:`heat capacity ratio <definitions.heat_capacity_ratio>` of the gas.
+    :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index`, or :doc:`heat capacity ratio <definitions.heat_capacity_ratio>`
+    of the gas.
 
     Symbol:
         :code:`gamma`
@@ -34,11 +38,16 @@ constant and the adiabatic index of the gas.
     Latex:
         :math:`\gamma`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`C_p = R * gamma / (gamma - 1)`
+    :code:`c_pm = R * gamma / (gamma - 1)`
+
 
     Latex:
         .. math::
-            C_p = \frac{R \gamma}{\gamma - 1}
+            c_{p, m} = \frac{R \gamma}{\gamma - 1}
+
 

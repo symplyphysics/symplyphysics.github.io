@@ -39,14 +39,22 @@
 <h1>Volumetric and linear expansion coefficients in isotropic materials<a class="headerlink" href="#volumetric-and-linear-expansion-coefficients-in-isotropic-materials" title="Link to this heading">¶</a></h1>
 <p>Coefficients of thermal expansion describe how the size of an object changes with a change in temperature
 at a constant pressure. In isotropic materials, the volumetric coefficient is three times the linear one.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The material is isotropic.</p></li>
+<li><p>The pressure is constant during the volume change.</p></li>
+</ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials.volumetric_expansion_coefficient">
 <span class="sig-name descname"><span class="pre">volumetric_expansion_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials.volumetric_expansion_coefficient" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="definitions.volumetric_coefficient_of_thermal_expansion.html"><span class="doc">Volumetric expansion coefficient</span></a> of the material.</p>
+<dd><p>Volumetric <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient" title="symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thermal_expansion_coefficient</span></code></a> of the material. Also see
+<a class="reference internal" href="definitions.volumetric_coefficient_of_thermal_expansion.html"><span class="doc">Volumetric expansion coefficient</span></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_V</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_V\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_{V}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/temperature</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -54,11 +62,14 @@ at a constant pressure. In isotropic materials, the volumetric coefficient is th
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials.linear_expansion_coefficient">
 <span class="sig-name descname"><span class="pre">linear_expansion_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials.linear_expansion_coefficient" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="definitions.linear_coefficient_of_thermal_expansion.html"><span class="doc">Linear expansion coefficient</span></a> of the material.</p>
+<dd><p>Linear <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient" title="symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thermal_expansion_coefficient</span></code></a> of the material. Also see
+<a class="reference internal" href="definitions.linear_coefficient_of_thermal_expansion.html"><span class="doc">Linear expansion coefficient</span></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_L</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_l</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_L\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_{l}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/temperature</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -66,10 +77,10 @@ at a constant pressure. In isotropic materials, the volumetric coefficient is th
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_V</span> <span class="pre">=</span> <span class="pre">3</span> <span class="pre">*</span> <span class="pre">alpha_L</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_V</span> <span class="pre">=</span> <span class="pre">3</span> <span class="pre">*</span> <span class="pre">alpha_l</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\alpha_V = 3 \alpha_L\]</div>
+\[\alpha_{V} = 3 \alpha_{l}\]</div>
 </dd>
 </dl>
 </dd></dl>

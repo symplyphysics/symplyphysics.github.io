@@ -12,27 +12,6 @@ potentials.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.entropy_derivative_via_volume_derivative
 
-.. py:data:: entropy
-
-    Entropy of the system as a function of temperature and pressure.
-
-    Symbol:
-        :code:`S(T, p)`
-
-.. py:data:: pressure
-
-    Pressure inside the system.
-
-    Symbol:
-        :code:`p`
-
-.. py:data:: volume
-
-    Volume of the system as a function of temperature and pressure.
-
-    Symbol:
-        :code:`V(T, p)`
-
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
@@ -46,11 +25,52 @@ potentials.
     Dimension:
         :code:`temperature`
 
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: entropy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system as a function of temperature and pressure.
+
+    Symbol:
+        :code:`S(T, p)`
+
+    Latex:
+        :math:`S{\left(T,p \right)}`
+
+    Dimension:
+        :code:`energy/temperature`
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system as a function of temperature and pressure.
+
+    Symbol:
+        :code:`V(T, p)`
+
+    Latex:
+        :math:`V{\left(T,p \right)}`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: law
 
-    :code:`Derivative(S(T, p), p) = -1 * Derivative(V(T, p), T)`
+    :code:`Derivative(S(T, p), p) = -Derivative(V(T, p), T)`
+
 
     Latex:
         .. math::
-            \left( \frac{\partial S}{\partial p} \right)_T = - \left( \frac{\partial V}{\partial T} \right)_p
+            \frac{\partial}{\partial p} S{\left(T,p \right)} = - \frac{\partial}{\partial T} V{\left(T,p \right)}
+
 

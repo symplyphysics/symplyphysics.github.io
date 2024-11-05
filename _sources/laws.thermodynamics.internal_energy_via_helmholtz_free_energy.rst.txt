@@ -11,17 +11,16 @@ Internal energy via Helmholtz free energy
 
 .. py:data:: internal_energy
 
-    Internal energy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
     Symbol:
         :code:`U`
 
-.. py:data:: free_energy
+    Latex:
+        :math:`U`
 
-    Helmholtz free energy of the system as a function of temperature and volume.
-
-    Symbol:
-        :code:`F(T, V)`
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -38,16 +37,37 @@ Internal energy via Helmholtz free energy
 
 .. py:data:: volume
 
-    Volume of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`V`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
+.. py:data:: free_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system as a function of temperature and volume.
+
+    Symbol:
+        :code:`F(T, V)`
+
+    Latex:
+        :math:`F{\left(T,V \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 
     :code:`U = F(T, V) - T * Derivative(F(T, V), T)`
 
+
     Latex:
         .. math::
-            U = F(T, V) - T \left( \frac{\partial F}{\partial T} \right)_V
+            U = F{\left(T,V \right)} - T \frac{\partial}{\partial T} F{\left(T,V \right)}
+
 

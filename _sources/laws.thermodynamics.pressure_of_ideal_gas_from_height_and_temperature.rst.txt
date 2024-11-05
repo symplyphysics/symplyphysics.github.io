@@ -17,20 +17,29 @@ The *barometric formula* determines the dependence of the pressure or density of
 
 .. py:data:: final_pressure
 
-    Pressure of the gas at final height.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas at final height.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: initial_pressure
 
-    Pressure of the gas at initial height.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas at initial height.
 
     Symbol:
-        :code:`p0`
+        :code:`p_0`
 
     Latex:
-        :math:`p_0`
+        :math:`p_{0}`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: molecular_mass
 
@@ -47,13 +56,16 @@ The *barometric formula* determines the dependence of the pressure or density of
 
 .. py:data:: height_change
 
-    Change in height between :math:`p_0` and :math:`p`.
+    Change in :attr:`~symplyphysics.symbols.classical_mechanics.height` between :attr:`~initial_pressure` and :attr:`~final_pressure`.
 
     Symbol:
-        :code:`dh`
+        :code:`Delta(h)`
 
     Latex:
         :math:`\Delta h`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: temperature
 
@@ -70,9 +82,11 @@ The *barometric formula* determines the dependence of the pressure or density of
 
 .. py:data:: law
 
-    :code:`p = p0 * exp(-1 * g * m * dh / (k_B * T))`
+    :code:`p = p_0 * exp(-g * m * Delta(h) / (k_B * T))`
+
 
     Latex:
         .. math::
-            p = p_0 \exp \left( - \frac{g m \Delta h}{k_\text{B} T} \right)
+            p = p_{0} \exp{\left(- \frac{g m \Delta h}{k_\text{B} T} \right)}
+
 

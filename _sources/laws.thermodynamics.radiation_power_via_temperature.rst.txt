@@ -14,14 +14,20 @@ the radiating body's temperature.
 
 .. py:data:: radiation_power
 
-    Power of radiation emitted or absorbed by the body.
+    :attr:`~symplyphysics.symbols.basic.power` of radiation emitted or absorbed by the body.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: emissivity
 
-    Emissivity of the body's material.
+    :attr:`~symplyphysics.symbols.electrodynamics.emissivity` of the body's material.
 
     Symbol:
         :code:`epsilon`
@@ -29,12 +35,21 @@ the radiating body's temperature.
     Latex:
         :math:`\varepsilon`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: surface_area
 
-    Surface area of the body.
+    Surface :attr:`~symplyphysics.symbols.classical_mechanics.area` of the body.
 
     Symbol:
         :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
 
 .. py:data:: temperature
 
@@ -53,7 +68,9 @@ the radiating body's temperature.
 
     :code:`P = sigma * epsilon * A * T^4`
 
+
     Latex:
         .. math::
-            P = \sigma \varepsilon A T^4
+            P = \sigma \varepsilon A T^{4}
+
 

@@ -13,50 +13,76 @@ system changes.
 
 .. py:data:: work
 
-    Pressure-volume work done by the system.
+    Pressure-volume :attr:`~symplyphysics.symbols.basic.work` done by the system.
 
     Symbol:
         :code:`W`
 
-.. py:data:: pressure
+    Latex:
+        :math:`W`
 
-    Pressure inside the system as a function of volume.
-
-    Symbol:
-        :code:`p(V)`
+    Dimension:
+        :code:`energy`
 
 .. py:data:: volume
 
-    Volume of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`V`
 
-.. py:data:: initial_volume
+    Latex:
+        :math:`V`
 
-    Initial volume of the system.
+    Dimension:
+        :code:`volume`
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system as a function of :attr:`~volume`.
 
     Symbol:
-        :code:`V0`
+        :code:`p(V)`
 
     Latex:
-        :math:`V_0`
+        :math:`p{\left(V \right)}`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: initial_volume
+
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
+
+    Symbol:
+        :code:`V_0`
+
+    Latex:
+        :math:`V_{0}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: final_volume
 
-    Final volume of the system.
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
-        :code:`V1`
+        :code:`V_1`
 
     Latex:
-        :math:`V_1`
+        :math:`V_{1}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: law
 
-    :code:`W = Integral(p(V), (V, V0, V1))`
+    :code:`W = Integral(p(V), (V, V_0, V_1))`
+
 
     Latex:
         .. math::
-            W = \int \limits_{V_0}^{V_1} p(V) \, dV
+            W = \int\limits_{V_{0}}^{V_{1}} p{\left(V \right)}\, dV
+
 

@@ -12,17 +12,20 @@ constant and the adiabatic index of the gas.
 
 .. py:data:: isochoric_molar_heat_capacity
 
-    Heat capacity of ideal gas at constant volume per unit amount of substance.
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
     Symbol:
-        :code:`C_V`
+        :code:`c_Vm`
 
     Latex:
-        :math:`C_V`
+        :math:`c_{V, m}`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
 
 .. py:data:: adiabatic_index
 
-    Adiabatic index, also known as :doc:`heat capacity ratio <definitions.heat_capacity_ratio>`, of the gas.
+    :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index`, also known as :doc:`heat capacity ratio <definitions.heat_capacity_ratio>`, of the gas.
 
     Symbol:
         :code:`gamma`
@@ -30,11 +33,16 @@ constant and the adiabatic index of the gas.
     Latex:
         :math:`\gamma`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`C_V = R / (gamma - 1)`
+    :code:`c_Vm = R / (gamma - 1)`
+
 
     Latex:
         .. math::
-            C_V = \frac{R}{\gamma - 1}
+            c_{V, m} = \frac{R}{\gamma - 1}
+
 

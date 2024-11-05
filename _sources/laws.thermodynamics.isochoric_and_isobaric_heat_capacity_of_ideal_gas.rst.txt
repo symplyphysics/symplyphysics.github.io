@@ -1,7 +1,7 @@
 Isochoric and isobaric heat capacities of ideal gas
 ---------------------------------------------------
 
-Mayer's relation is the relation between heat capacity at constant pressure and that at
+The **Mayer's relation** is the relation between heat capacity at constant pressure and that at
 constant volume in the case of an ideal gas.
 
 **Notation:**
@@ -16,36 +16,50 @@ constant volume in the case of an ideal gas.
 
 .. py:data:: isobaric_heat_capacity
 
-    Heat capacity of gas at constant pressure.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of gas at constant :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
 
     Symbol:
         :code:`C_p`
 
     Latex:
-        :math:`C_p`
+        :math:`C_{p}`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: isochoric_heat_capacity
 
-    Heat capacity of gas at constant volume.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of gas at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
     Symbol:
         :code:`C_V`
 
     Latex:
-        :math:`C_V`
+        :math:`C_{V}`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: amount_of_substance
 
-    Amount of gas substance.
+    :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
     Symbol:
         :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`amount_of_substance`
 
 .. py:data:: law
 
     :code:`C_p - C_V = n * R`
 
+
     Latex:
         .. math::
-            C_p - C_V = n R
+            C_{p} - C_{V} = n R
+
 

@@ -45,19 +45,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.internal_energy">
 <span class="sig-name descname"><span class="pre">internal_energy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.internal_energy" title="Link to this definition">¶</a></dt>
-<dd><p>Internal energy of the system.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.internal_energy" title="symplyphysics.symbols.thermodynamics.internal_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">internal_energy</span></code></a> of the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">U</span></code></p>
 </dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.free_energy">
-<span class="sig-name descname"><span class="pre">free_energy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.free_energy" title="Link to this definition">¶</a></dt>
-<dd><p>Helmholtz free energy of the system as a function of temperature and volume.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F(T,</span> <span class="pre">V)</span></code></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(U\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -79,9 +73,27 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.volume">
 <span class="sig-name descname"><span class="pre">volume</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.volume" title="Link to this definition">¶</a></dt>
-<dd><p>Volume of the system.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.free_energy">
+<span class="sig-name descname"><span class="pre">free_energy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.free_energy" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.helmholtz_free_energy" title="symplyphysics.symbols.thermodynamics.helmholtz_free_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">helmholtz_free_energy</span></code></a> of the system as a function of temperature and volume.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F(T,</span> <span class="pre">V)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(F{\left(T,V \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -92,7 +104,7 @@
 <dd><p><code class="code docutils literal notranslate"><span class="pre">U</span> <span class="pre">=</span> <span class="pre">F(T,</span> <span class="pre">V)</span> <span class="pre">-</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">Derivative(F(T,</span> <span class="pre">V),</span> <span class="pre">T)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[U = F(T, V) - T \left( \frac{\partial F}{\partial T} \right)_V\]</div>
+\[U = F{\left(T,V \right)} - T \frac{\partial}{\partial T} F{\left(T,V \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -197,9 +209,9 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_of_ideal_gas_via_temperature.html">Internal energy of ideal gas via temperature</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Internal energy via Helmholtz free energy</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.internal_energy"><code class="docutils literal notranslate"><span class="pre">internal_energy</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.free_energy"><code class="docutils literal notranslate"><span class="pre">free_energy</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.volume"><code class="docutils literal notranslate"><span class="pre">volume</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.free_energy"><code class="docutils literal notranslate"><span class="pre">free_energy</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.internal_energy_via_helmholtz_free_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>

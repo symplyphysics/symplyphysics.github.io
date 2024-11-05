@@ -13,10 +13,16 @@ for the speed of sound for ideal gases compared to the Newton's formula. See
 
 .. py:data:: speed_of_sound
 
-    Speed of sound in gas.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of sound in gas.
 
     Symbol:
-        :code:`c`
+        :code:`v_s`
+
+    Latex:
+        :math:`v_\text{s}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: temperature
 
@@ -33,7 +39,7 @@ for the speed of sound for ideal gases compared to the Newton's formula. See
 
 .. py:data:: heat_capacity_ratio
 
-    Heat capacity ratio, or adiabatic index, of the gas.
+    Heat capacity ratio, or :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index`, of the gas.
 
     Symbol:
         :code:`gamma`
@@ -41,18 +47,29 @@ for the speed of sound for ideal gases compared to the Newton's formula. See
     Latex:
         :math:`\gamma`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: molar_mass
 
-    Mass of one mole of the gas.
+    :attr:`~symplyphysics.symbols.basic.molar_mass` of the gas.
 
     Symbol:
         :code:`M`
 
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`mass/amount_of_substance`
+
 .. py:data:: law
 
-    :code:`c = sqrt(gamma * R * T / M)`
+    :code:`v_s = sqrt(gamma * R * T / M)`
+
 
     Latex:
         .. math::
-            c = \sqrt{\frac{\gamma R T}{M}}
+            v_\text{s} = \sqrt{\frac{\gamma R T}{M}}
+
 

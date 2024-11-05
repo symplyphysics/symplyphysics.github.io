@@ -13,30 +13,36 @@ of the gas.
 
 .. py:data:: initial_pressure
 
-    Initial pressure of the gas.
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas.
 
     Symbol:
-        :code:`p0`
+        :code:`p_0`
 
     Latex:
-        :math:`p_0`
+        :math:`p_{0}`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: final_pressure
 
-    Final pressure of the gas.
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas.
 
     Symbol:
-        :code:`p1`
+        :code:`p_1`
 
     Latex:
-        :math:`p_1`
+        :math:`p_{1}`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: initial_temperature
 
     Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
-        :code:`T0`
+        :code:`T_0`
 
     Latex:
         :math:`T_{0}`
@@ -49,7 +55,7 @@ of the gas.
     Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
     Symbol:
-        :code:`T1`
+        :code:`T_1`
 
     Latex:
         :math:`T_{1}`
@@ -59,9 +65,11 @@ of the gas.
 
 .. py:data:: law
 
-    :code:`p0 / p1 = T0 / T1`
+    :code:`p_0 / p_1 = T_0 / T_1`
+
 
     Latex:
         .. math::
-            \frac{p_0}{p_1} = \frac{T_0}{T_1}
+            \frac{p_{0}}{p_{1}} = \frac{T_{0}}{T_{1}}
+
 

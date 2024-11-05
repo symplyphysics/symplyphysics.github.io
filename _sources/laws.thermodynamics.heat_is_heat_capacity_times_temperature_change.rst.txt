@@ -17,24 +17,36 @@ to the heat capacity of the body times the change in the body's temperature.
 
 .. py:data:: heat
 
-    Heat received or released by the body.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat` received or released by the body.
 
     Symbol:
         :code:`Q`
 
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: heat_capacity
 
-    Heat capacity of the body.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the body.
 
     Symbol:
         :code:`C`
+
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: temperature_change
 
     Change in the body's :attr:`~symplyphysics.symbols.thermodynamics.temperature`
 
     Symbol:
-        :code:`dT`
+        :code:`Delta(T)`
 
     Latex:
         :math:`\Delta T`
@@ -44,9 +56,11 @@ to the heat capacity of the body times the change in the body's temperature.
 
 .. py:data:: law
 
-    :code:`Q = C * dT`
+    :code:`Q = C * Delta(T)`
+
 
     Latex:
         .. math::
             Q = C \Delta T
+
 

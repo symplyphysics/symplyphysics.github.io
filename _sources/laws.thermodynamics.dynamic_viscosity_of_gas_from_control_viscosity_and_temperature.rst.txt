@@ -10,6 +10,10 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
 #. The gas is ideal.
 
+**Links:**
+
+#. `Sutherland model <https://en.wikipedia.org/wiki/Temperature_dependence_of_viscosity#Sutherland_model>`__.
+
 ..
     TODO Rename file
 
@@ -17,7 +21,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
 .. py:data:: dynamic_viscosity
 
-    Dynamic viscosity of the gas at temperature :math:`T`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the gas at the given :attr:`~temperature`.
 
     Symbol:
         :code:`mu`
@@ -25,15 +29,21 @@ with increasing temperature, whereas for liquids it decreases with increasing te
     Latex:
         :math:`\mu`
 
+    Dimension:
+        :code:`pressure*time`
+
 .. py:data:: reference_dynamic_viscosity
 
-    Dynamic viscosity of the gas at the reference temperature :math:`T_0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the gas at the :attr:`~reference_temperature`.
 
     Symbol:
         :code:`mu_0`
 
     Latex:
-        :math:`\mu_0`
+        :math:`\mu_{0}`
+
+    Dimension:
+        :code:`pressure*time`
 
 .. py:data:: temperature
 
@@ -53,7 +63,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` at which the reference viscosity value is calculated.
 
     Symbol:
-        :code:`T0`
+        :code:`T_0`
 
     Latex:
         :math:`T_{0}`
@@ -65,14 +75,25 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
     Sutherland constant of the gas.
 
+    ..
+        NOTE probably add this to `symbols`? this constant is specific to the Sutherland model
+
     Symbol:
         :code:`C`
 
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`temperature`
+
 .. py:data:: law
 
-    :code:`mu = mu_0 * ((T0 + C) / (T + C)) * (T / T0)^(3/2)`
+    :code:`mu = mu_0 * (T_0 + C) / (T + C) * (T / T_0)^(3/2)`
+
 
     Latex:
         .. math::
-            \mu = \mu_0 \left( \frac{T_0 + C}{T + C} \right) \left( \frac{T}{T_0} \right)^{3 / 2}
+            \mu = \mu_{0} \frac{T_{0} + C}{T + C} \left(\frac{T}{T_{0}}\right)^{\frac{3}{2}}
+
 

@@ -14,40 +14,63 @@ in space, say, a container with gas particles.
 
 .. py:data:: probability
 
-    Probability of finding :math:`N` gas particles in volume :math:`V`.
+    :attr:`~symplyphysics.symbols.basic.probability` of finding :attr:`~particle_count` gas particles in :attr:`~partial_volume`.
 
     Symbol:
         :code:`P`
 
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: total_volume
 
-    Total volume of the region.
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the region.
 
     Symbol:
-        :code:`V0`
+        :code:`V_0`
 
     Latex:
-        :math:`V_0`
+        :math:`V_{0}`
+
+    Dimension:
+        :code:`volume`
 
 .. py:data:: partial_volume
 
-    Volume of part of the container where we are looking for the particles.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of part of the container where we are looking for the particles.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: particle_count
 
-    Number of gas particles in :math:`V`.
+    :attr:`~symplyphysics.symbols.basic.particle_count` in :attr:`~partial_volume`.
 
     Symbol:
         :code:`N`
 
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`P = (V / V0)^N`
+    :code:`P = (V / V_0)^N`
+
 
     Latex:
         .. math::
-            P = \left( \frac{V}{V_0} \right)^N
+            P = \left(\frac{V}{V_{0}}\right)^{N}
+
 

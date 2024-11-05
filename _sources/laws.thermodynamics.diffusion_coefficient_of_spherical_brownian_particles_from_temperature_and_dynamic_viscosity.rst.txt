@@ -26,10 +26,16 @@ the type of diffusing particles. This law is also known as the *Stokes—Einstei
 
 .. py:data:: diffusion_coefficient
 
-    Diffusion coefficient of the particles.
+    :attr:`~symplyphysics.symbols.classical_mechanics.diffusion_coefficient` of the particles.
 
     Symbol:
         :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`area/time`
 
 .. py:data:: temperature
 
@@ -46,26 +52,37 @@ the type of diffusing particles. This law is also known as the *Stokes—Einstei
 
 .. py:data:: particle_radius
 
-    Radius of the particles.
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the particles.
 
     Symbol:
         :code:`r`
 
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: dynamic_viscosity
 
-    Dynamic viscosity of the particles.
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the particles.
 
     Symbol:
-        :code:`eta`
+        :code:`mu`
 
     Latex:
-        :math:`\eta`
+        :math:`\mu`
+
+    Dimension:
+        :code:`pressure*time`
 
 .. py:data:: law
 
-    :code:`D = (R * T) / (6 * N_A * pi * r * eta)`
+    :code:`D = R * T / (6 * N_A * pi * r * mu)`
+
 
     Latex:
         .. math::
-            D = \frac{R T}{6 N_\text{A} \pi r \eta}
+            D = \frac{R T}{6 N_\text{A} \pi r \mu}
+
 

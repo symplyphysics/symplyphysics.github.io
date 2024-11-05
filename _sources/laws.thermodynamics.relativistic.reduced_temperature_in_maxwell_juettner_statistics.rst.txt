@@ -15,13 +15,16 @@ the gas in question.
 
 .. py:data:: reduced_temperature
 
-    Reduced temperature.
+    Reduced :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
     Symbol:
         :code:`theta`
 
     Latex:
         :math:`\theta`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: temperature
 
@@ -51,9 +54,11 @@ the gas in question.
 
 .. py:data:: law
 
-    :code:`theta = (k_B * T) / (m * c^2)`
+    :code:`theta = k_B * T / (m * c^2)`
+
 
     Latex:
         .. math::
-            \theta = \frac{k_\text{B} T}{m c^2}
+            \theta = \frac{k_\text{B} T}{m c^{2}}
+
 

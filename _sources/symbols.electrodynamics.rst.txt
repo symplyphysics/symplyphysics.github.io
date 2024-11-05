@@ -358,3 +358,16 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`current/area`
 
+.. py:data:: emissivity
+
+    The **emissivity** of the surface of a material is its effectiveness in emitting energy as thermal radiation.
+
+    Symbol:
+        :code:`epsilon`
+
+    Latex:
+        :math:`\varepsilon`
+
+    Dimension:
+        :code:`dimensionless`
+

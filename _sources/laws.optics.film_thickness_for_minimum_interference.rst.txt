@@ -19,10 +19,10 @@ interfere. This law describes the result of their constructive interference.
     Film :attr:`~symplyphysics.symbols.classical_mechanics.thickness`.
 
     Symbol:
-        :code:`d`
+        :code:`h`
 
     Latex:
-        :math:`d`
+        :math:`h`
 
     Dimension:
         :code:`length`
@@ -84,11 +84,11 @@ interfere. This law describes the result of their constructive interference.
 
 .. py:data:: law
 
-    :code:`d = k * lambda / (2 * n * cos(phi))`
+    :code:`h = k * lambda / (2 * n * cos(phi))`
 
 
     Latex:
         .. math::
-            d = \frac{k \lambda}{2 n \cos{\left(\varphi \right)}}
+            h = \frac{k \lambda}{2 n \cos{\left(\varphi \right)}}
 
 

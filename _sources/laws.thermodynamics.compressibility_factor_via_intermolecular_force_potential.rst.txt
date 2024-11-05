@@ -22,41 +22,69 @@ linked to the intermolecular force potential.
 
 .. py:data:: compressibility_factor
 
-    :doc:`Compressibility factor <definitions.compressibility_factor_is_deviation_from_ideal_gas>` of the gas.
+    :attr:`~symplyphysics.symbols.thermodynamics.compressibility_factor` of the gas. Also see :doc:`Compressibility factor
+    <definitions.compressibility_factor_is_deviation_from_ideal_gas>`.
 
     Symbol:
         :code:`Z`
 
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: particle_count
 
-    Number of particles in the system.
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
     Symbol:
         :code:`N`
 
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: volume
 
-    Volume of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: intermolecular_distance
 
-    Distance between gas molecules.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between gas molecules.
 
     Symbol:
         :code:`r`
 
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: intermolecular_force_potential
 
-    Intermolecular force potential as a function of intermolecular distance.
+    Intermolecular force potential as a function of :attr:`~intermolecular_distance`. See :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy`.
 
     Symbol:
-        :code:`phi(r)`
+        :code:`U(r)`
 
     Latex:
-        :math:`\varphi(r)`
+        :math:`U{\left(r \right)}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -73,10 +101,11 @@ linked to the intermolecular force potential.
 
 .. py:data:: law
 
-    :code:`Z = 1 + 2 * pi * (N / V) * Integral((1 - exp(-1 * phi(r) / (k_B * T))) * r^2, (r, 0, Infinity))`
+    :code:`Z = 1 + 2 * pi * N / V * Integral((1 - exp(-U(r) / (k_B * T))) * r^2, (r, 0, oo))`
+
 
     Latex:
         .. math::
-            Z = 1 + \frac{2 \pi N}{V}
-                    \int \limits_0^{\infty} \left( 1 - \exp{\left( - \frac{\varphi(r)}{k_\text{B} T} \right)} \right) r^2 dr
+            Z = 1 + \frac{2 \pi N}{V} \int\limits_{0}^{\infty} \left(1 - \exp{\left(- \frac{U{\left(r \right)}}{k_\text{B} T} \right)}\right) r^{2}\, dr
+
 

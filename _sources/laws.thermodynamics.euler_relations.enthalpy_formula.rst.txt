@@ -6,17 +6,23 @@ internal energy.
 
 **Notes:**
 
-#. This formula words for a single-component system. For multi-component system replace the
+#. This formula works for a single-component system. For a multi-component system replace the
    product of chemical potential and particle count with a sum over each type of components.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.euler_relations.enthalpy_formula
 
 .. py:data:: enthalpy
 
-    :doc:`Enthalpy <laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy>` of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system. Also see :doc:`laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy`.
 
     Symbol:
         :code:`H`
+
+    Latex:
+        :math:`H`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -33,15 +39,21 @@ internal energy.
 
 .. py:data:: entropy
 
-    :doc:`Entropy <laws.thermodynamics.entropy_change_in_reversible_process>` of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system. Also see :doc:`laws.thermodynamics.entropy_change_in_reversible_process`.
 
     Symbol:
         :code:`S`
 
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
+
 .. py:data:: chemical_potential
 
-    :doc:`Chemical potential <laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_internal_energy>`
-    of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system. Also see
+    :doc:`laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_internal_energy`.
 
     Symbol:
         :code:`mu`
@@ -49,18 +61,29 @@ internal energy.
     Latex:
         :math:`\mu`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: particle_count
 
-    Number of particles in the system.
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
     Symbol:
         :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
     :code:`H = T * S + mu * N`
 
+
     Latex:
         .. math::
             H = T S + \mu N
+
 
