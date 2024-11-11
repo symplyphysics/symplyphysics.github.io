@@ -8,13 +8,16 @@ the electrostatic force that is applied to it.
 
 .. py:data:: test_charge
 
-    Value of the test charge.
+    Value of the test :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
     Symbol:
-        :code:`q0`
+        :code:`q_0`
 
     Latex:
-        :math:`q_0`
+        :math:`q_{0}`
+
+    Dimension:
+        :code:`charge`
 
 .. py:function:: electric_field_law(electrostatic_force_)
 

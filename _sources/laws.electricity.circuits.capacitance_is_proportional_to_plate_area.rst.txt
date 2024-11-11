@@ -52,7 +52,7 @@ on the permittivity of the medium that fills the space between the plates.
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the plates.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the plates.
 
     Symbol:
         :code:`d`

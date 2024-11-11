@@ -46,7 +46,7 @@ cube of the distance to the dipole and the value of the electric dipole moment.
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` to dipole.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to dipole.
 
     Symbol:
         :code:`d`

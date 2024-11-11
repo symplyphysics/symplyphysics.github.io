@@ -48,7 +48,7 @@ mass and the distance between the pivot and the center of mass of the pendulum.
 
 .. py:data:: distance_to_pivot
 
-    The :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the pivot and the pendulum's center of mass.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the pivot and the pendulum's center of mass.
 
     Symbol:
         :code:`d`

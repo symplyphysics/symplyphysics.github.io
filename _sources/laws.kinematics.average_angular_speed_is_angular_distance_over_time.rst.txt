@@ -8,7 +8,7 @@ the rate of change in angle of rotation over time.
 
 .. py:data:: average_angular_speed
 
-    Average angular speed of rotation.
+    Average :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of rotation.
 
     Symbol:
         :code:`avg(w)`
@@ -16,9 +16,12 @@ the rate of change in angle of rotation over time.
     Latex:
         :math:`\langle \omega \rangle`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: angular_distance
 
-    Total angular distance in radians.
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` in radians.
 
     Symbol:
         :code:`theta`
@@ -26,18 +29,29 @@ the rate of change in angle of rotation over time.
     Latex:
         :math:`\theta`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: time
 
-    Time elapsed during rotation.
+    :attr:`~symplyphysics.symbols.basic.time` elapsed during rotation.
 
     Symbol:
         :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: law
 
     :code:`avg(w) = theta / t`
 
+
     Latex:
         .. math::
             \langle \omega \rangle = \frac{\theta}{t}
+
 

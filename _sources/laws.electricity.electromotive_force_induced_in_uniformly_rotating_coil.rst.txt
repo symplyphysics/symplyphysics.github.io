@@ -24,7 +24,7 @@ the area of the coil's contour.
 
 .. py:data:: electromotive_force
 
-    Electromotive force induced in the coil.
+    :attr:`~symplyphysics.symbols.electrodynamics.electromotive_force` induced in the coil.
 
     Symbol:
         :code:`E`
@@ -32,30 +32,51 @@ the area of the coil's contour.
     Latex:
         :math:`\mathcal{E}`
 
+    Dimension:
+        :code:`voltage`
+
 .. py:data:: coil_turn_count
 
-    Number of turns in the coil.
+    Number of turns in the coil. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
     Symbol:
         :code:`N`
 
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: magnetic_flux_density
 
-    Magnetic flux density.
+    :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
 
     Symbol:
         :code:`B`
 
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`magnetic_density`
+
 .. py:data:: contour_area
 
-    Cross-sectional area of the contour enclosed by the coil.
+    Cross-sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the contour enclosed by the coil.
 
     Symbol:
         :code:`A`
 
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
 .. py:data:: angular_frequency
 
-    Angular frequency of the coil's rotation.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the coil's rotation.
 
     Symbol:
         :code:`w`
@@ -63,11 +84,29 @@ the area of the coil's contour.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`E = -1 * N * B * A * w * sin(w * t)`
+    :code:`E = -N * B * A * w * sin(w * t)`
+
 
     Latex:
         .. math::
-            \mathcal{E} = -N B A \omega \sin(\omega t)
+            \mathcal{E} = - N B A \omega \sin{\left(\omega t \right)}
+
 

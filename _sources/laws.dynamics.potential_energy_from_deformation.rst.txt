@@ -40,7 +40,7 @@ Spring accumulates energy while being deformed. This law is known as the **Hooke
 
 .. py:data:: displacement
 
-    The displacement of the spring, or the :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the initial position
+    The displacement of the spring, or the :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the initial position
     and the rest position.
 
     Symbol:

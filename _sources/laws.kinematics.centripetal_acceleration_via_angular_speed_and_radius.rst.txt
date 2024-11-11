@@ -20,7 +20,7 @@ Centripetal acceleration via angular speed and radius
 
 .. py:data:: angular_speed
 
-    Angular speed.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
 
     Symbol:
         :code:`w`
@@ -28,18 +28,29 @@ Centripetal acceleration via angular speed and radius
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: radius_of_curvature
 
-    Instantaneous radius of curvature.
+    Instantaneous :attr:`~symplyphysics.symbols.basic.radius_of_curvature`.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`a_n = w^2 * r`
 
+
     Latex:
         .. math::
-            a_n = \omega^2 r
+            a_{n} = \omega^{2} r
+
 

@@ -9,7 +9,7 @@ due to the component over the current in it.
 
 .. py:data:: inductance
 
-    Inductance.
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance`.
 
     Symbol:
         :code:`L`
@@ -22,20 +22,20 @@ due to the component over the current in it.
 
 .. py:data:: magnetic_flux
 
-    Magnetic flux due to the component.
+    :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux` due to the component.
 
     Symbol:
         :code:`Phi_B`
 
     Latex:
-        :math:`\Phi_{B}`
+        :math:`\Phi_\mathbf{B}`
 
     Dimension:
         :code:`magnetic_flux`
 
 .. py:data:: current
 
-    Current flowing through the circuit.
+    :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the circuit.
 
     Symbol:
         :code:`I`
@@ -53,6 +53,6 @@ due to the component over the current in it.
 
     Latex:
         .. math::
-            L = \frac{\Phi_{B}}{I}
+            L = \frac{\Phi_\mathbf{B}}{I}
 
 

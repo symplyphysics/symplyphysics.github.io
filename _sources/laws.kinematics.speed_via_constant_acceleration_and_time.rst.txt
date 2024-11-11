@@ -12,17 +12,29 @@ of time.
 
 .. py:data:: final_speed
 
-    Speed at time :math:`t`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` at :attr:`~time`.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: time
 
-    Time at which :math:`v` is measured.
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_speed` is measured.
 
     Symbol:
         :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: acceleration
 
@@ -39,19 +51,24 @@ of time.
 
 .. py:data:: initial_speed
 
-    Speed at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` at :math:`t = 0`.
 
     Symbol:
-        :code:`v0`
+        :code:`v_0`
 
     Latex:
-        :math:`v_0`
+        :math:`v_{0}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: law
 
-    :code:`v = v0 + a * t`
+    :code:`v = v_0 + a * t`
+
 
     Latex:
         .. math::
-            v = v_0 + a t
+            v = v_{0} + a t
+
 

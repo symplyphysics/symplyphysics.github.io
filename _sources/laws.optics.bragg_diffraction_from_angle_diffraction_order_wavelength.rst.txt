@@ -18,7 +18,7 @@ diffraction is a consequence of interference between waves reflected from crysta
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between crystal planes, also called the "grating constant" of the crystal.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between crystal planes, also called the "grating constant" of the crystal.
 
     Symbol:
         :code:`d`

@@ -12,40 +12,63 @@ of time.
 
 .. py:data:: final_position
 
-    Position at time :math:`t`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` at :attr:`~time`.
 
     Symbol:
         :code:`x`
 
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: initial_position
 
-    Position at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` at :math:`t = 0`.
 
     Symbol:
-        :code:`x0`
+        :code:`x_0`
 
     Latex:
-        :math:`x_0`
+        :math:`x_{0}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: speed
 
-    Constant speed.
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: time
 
-    Time at which :math:`x` is measured.
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_position` is measured.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`x = x0 + v * t`
+    :code:`x = x_0 + v * t`
+
 
     Latex:
         .. math::
-            x = x_0 + v t
+            x = x_{0} + v t
+
 

@@ -44,22 +44,17 @@
     <span class="n">Quantity</span><span class="p">,</span>
     <span class="n">QuantityVector</span><span class="p">,</span>
     <span class="n">scale_vector</span><span class="p">,</span>
-    <span class="n">Symbol</span><span class="p">,</span>
     <span class="n">units</span><span class="p">,</span>
     <span class="n">validate_input</span><span class="p">,</span>
     <span class="n">validate_output</span><span class="p">,</span>
     <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">symbols</span><span class="p">,</span>
+    <span class="n">clone_as_symbol</span><span class="p">,</span>
 <span class="p">)</span>
 
-<span class="n">test_charge</span> <span class="o">=</span> <span class="n">Symbol</span><span class="p">(</span><span class="s2">&quot;test_charge&quot;</span><span class="p">,</span> <span class="n">units</span><span class="o">.</span><span class="n">charge</span><span class="p">)</span>
-<span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">Value of the test charge.</span>
-
-<span class="sd">Symbol:</span>
-<span class="sd">    :code:`q0`</span>
-
-<span class="sd">Latex:</span>
-<span class="sd">    :math:`q_0`</span>
+<span class="n">test_charge</span> <span class="o">=</span> <span class="n">clone_as_symbol</span><span class="p">(</span><span class="n">symbols</span><span class="o">.</span><span class="n">charge</span><span class="p">,</span> <span class="n">subscript</span><span class="o">=</span><span class="s2">&quot;0&quot;</span><span class="p">)</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Value of the test :symbols:`charge`.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
 

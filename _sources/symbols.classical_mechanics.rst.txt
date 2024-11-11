@@ -73,15 +73,52 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`length`
 
-.. py:data:: distance
+.. py:data:: euclidean_distance
 
-    **Distance** is is a measure of the spatial separation between two points.
+    **Euclidean distance** between two points is the length of the line segment between them. Mathematically,
+    it can be represented by the following formula:
+
+    .. math::
+        d = \sqrt{\left\Vert \mathbf{r}_2 - \mathbf{r}_1 \right\Vert},
+
+    where :math:`\mathbf{r}_1` is the position vector of the first point, :math:`\mathbf{r}_2` is the position
+    vector of the second point, and :math:`\left\Vert \cdot \right\Vert` is the Euclidean norm.
+
+    **Notes:**
+
+    #. This symbol can be used for representing **displacement**. In that case, :math:`\mathbf{r}_1` corresponds
+       to the initial position of the body and :math:`\mathbf{r}_2` to the final position of the body.
 
     Symbol:
         :code:`d`
 
     Latex:
         :math:`d`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: distance
+
+    **distance**, or more precisely **total distance traveled**, is the length of the path traced by a moving body.
+    Mathematically, it can be represented by the following formula:
+
+    .. math::
+        s(t) = \int \limits_0^t |\mathbf{v}(\tau)| d\tau,
+
+    where :math:`\mathbf{v}` is the velocity vector of the body as a function of time :math:`t`. It is assumed that
+    the total distance traveled is zero at zero time.
+
+    **Notes:**
+
+    #. It is sometimes used in the sense of *the length of space between two points*, in which case
+       :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` must be used.
+
+    Symbol:
+        :code:`s`
+
+    Latex:
+        :math:`s`
 
     Dimension:
         :code:`length`
@@ -165,6 +202,19 @@ Symbols related to classical mechanics.
 
     Dimension:
         :code:`area`
+
+.. py:data:: arc_length
+
+    **Arc length** is the distance between two points along a section of a curve.
+
+    Symbol:
+        :code:`s`
+
+    Latex:
+        :math:`s`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: angular_speed
 
@@ -739,4 +789,18 @@ Symbols related to classical mechanics.
 
     Dimension:
         :code:`dimensionless`
+
+.. py:data:: angular_momentum
+
+    **Angular momentum**, sometimes called **rotational momentum**, is the rotational analog of linear
+    :attr:`~symplyphysics.symbols.classical_mechanics.momentum`.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`length**2*mass/time`
 

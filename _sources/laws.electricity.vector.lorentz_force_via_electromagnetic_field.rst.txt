@@ -23,10 +23,16 @@ magnetic field.
 
 .. py:data:: charge
 
-    Value of the electric charge of the test particle.
+    Value of the electric :attr:`~symplyphysics.symbols.electrodynamics.charge` of the test particle.
 
     Symbol:
         :code:`q`
+
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
 
 .. py:function:: lorentz_force_law(electric_field_, magnetic_flux_density_, velocity_)
 

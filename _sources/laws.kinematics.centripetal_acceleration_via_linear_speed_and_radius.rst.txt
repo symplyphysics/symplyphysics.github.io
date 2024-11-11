@@ -20,23 +20,37 @@ Centripetal acceleration via linear speed and radius
 
 .. py:data:: speed
 
-    Linear speed.
+    Linear :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: radius_of_curvature
 
-    Instantaneous radius of curvature.
+    Instantaneous :attr:`~symplyphysics.symbols.basic.radius_of_curvature`.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`a_n = v^2 / r`
 
+
     Latex:
         .. math::
-            a_n = \frac{v^2}{r}
+            a_{n} = \frac{v^{2}}{r}
+
 

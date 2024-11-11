@@ -16,10 +16,10 @@ and friction force.
     The braking path of the object. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
-        :code:`d`
+        :code:`s`
 
     Latex:
-        :math:`d`
+        :math:`s`
 
     Dimension:
         :code:`length`
@@ -65,11 +65,11 @@ and friction force.
 
 .. py:data:: law
 
-    :code:`d = m * v^2 / (2 * F_fr)`
+    :code:`s = m * v^2 / (2 * F_fr)`
 
 
     Latex:
         .. math::
-            d = \frac{m v^{2}}{2 F_\text{fr}}
+            s = \frac{m v^{2}}{2 F_\text{fr}}
 
 

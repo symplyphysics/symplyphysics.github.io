@@ -25,7 +25,7 @@ of the velocity vector, and its vector is tangent to the path of the body.
 
 .. py:data:: angular_acceleration
 
-    Angular acceleration.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration`.
 
     Symbol:
         :code:`alpha`
@@ -33,18 +33,29 @@ of the velocity vector, and its vector is tangent to the path of the body.
     Latex:
         :math:`\alpha`
 
+    Dimension:
+        :code:`angle/time**2`
+
 .. py:data:: radius_of_curvature
 
-    Instantaneous radius of curvature.
+    Instantaneous :attr:`~symplyphysics.symbols.basic.radius_of_curvature`.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`a_t = alpha * r`
 
+
     Latex:
         .. math::
-            a_\tau = \alpha r
+            a_{\tau} = \alpha r
+
 

@@ -11,24 +11,42 @@ A solid slab is rotating about an axis that is perpendicular to the slab and goe
 
 .. py:data:: rotational_inertia
 
-    Rotational inertia of the slab.
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the slab.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
 .. py:data:: length
 
-    Length, or first slab dimension perpendicular to the axis.
+    :attr:`~symplyphysics.symbols.classical_mechanics.length`, or first slab dimension perpendicular to the axis.
 
     Symbol:
-        :code:`a`
+        :code:`l_1`
+
+    Latex:
+        :math:`l_{1}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: width
 
-    Width, or second slab dimension perpendicular to the axis.
+    Width, or second slab dimension perpendicular to the axis. See :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
     Symbol:
-        :code:`b`
+        :code:`l_2`
+
+    Latex:
+        :math:`l_{2}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: mass
 
@@ -45,9 +63,11 @@ A solid slab is rotating about an axis that is perpendicular to the slab and goe
 
 .. py:data:: law
 
-    :code:`I = 1/12 * m * (a^2 + b^2)`
+    :code:`I = m * (l_1^2 + l_2^2) / 12`
+
 
     Latex:
         .. math::
-            I = \frac{1}{12} m (a^2 + b^2)
+            I = \frac{m \left(l_{1}^{2} + l_{2}^{2}\right)}{12}
+
 

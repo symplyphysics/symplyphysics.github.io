@@ -12,17 +12,29 @@ A thin rod is rotating about an axis that passes through its center perpendicula
 
 .. py:data:: rotational_inertia
 
-    Rotational inertia of the rod.
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the rod.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
 .. py:data:: length
 
-    Length of the rod.
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the rod.
 
     Symbol:
         :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: mass
 
@@ -39,9 +51,11 @@ A thin rod is rotating about an axis that passes through its center perpendicula
 
 .. py:data:: law
 
-    :code:`I = 1/12 * m * l^2`
+    :code:`I = m * l^2 / 12`
+
 
     Latex:
         .. math::
-            I = \frac{1}{12} m l^2
+            I = \frac{m l^{2}}{12}
+
 

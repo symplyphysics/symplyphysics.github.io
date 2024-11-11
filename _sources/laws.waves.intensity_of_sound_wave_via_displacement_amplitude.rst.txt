@@ -62,7 +62,7 @@ in the medium.
 
 .. py:data:: displacement_amplitude
 
-    Displacement amplitude of the particles in the medium. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
+    Displacement amplitude of the particles in the medium. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
 
     Symbol:
         :code:`s_max`

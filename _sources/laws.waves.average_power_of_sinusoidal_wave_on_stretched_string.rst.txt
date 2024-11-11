@@ -64,7 +64,7 @@ square of its angular frequency.
 
 .. py:data:: wave_amplitude
 
-    Amplitude of the wave. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
+    Amplitude of the wave. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
 
     Symbol:
         :code:`u_max`

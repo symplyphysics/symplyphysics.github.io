@@ -13,7 +13,7 @@ of the electric field along any path connecting the two points.
 
 .. py:data:: voltage
 
-    Voltage between two points.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between two points.
 
     Symbol:
         :code:`V`
@@ -26,13 +26,13 @@ of the electric field along any path connecting the two points.
 
 .. py:data:: distance
 
-    Distance traveled.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` traveled.
 
     Symbol:
-        :code:`s`
+        :code:`d`
 
     Latex:
-        :math:`s`
+        :math:`d`
 
     Dimension:
         :code:`length`
@@ -43,17 +43,17 @@ of the electric field along any path connecting the two points.
     See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
     Symbol:
-        :code:`E_s(s)`
+        :code:`E_s(d)`
 
     Latex:
-        :math:`E_{s}{\left(s \right)}`
+        :math:`E_{s}{\left(d \right)}`
 
     Dimension:
         :code:`voltage/length`
 
 .. py:data:: initial_distance
 
-    Initial distance.
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
         :code:`s_0`
@@ -66,7 +66,7 @@ of the electric field along any path connecting the two points.
 
 .. py:data:: final_distance
 
-    Final distance.
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
         :code:`s_1`
@@ -79,11 +79,11 @@ of the electric field along any path connecting the two points.
 
 .. py:data:: law
 
-    :code:`V = -Integral(E_s(s), (s, s_0, s_1))`
+    :code:`V = -Integral(E_s(d), (d, s_0, s_1))`
 
 
     Latex:
         .. math::
-            V = - \int\limits_{s_{0}}^{s_{1}} E_{s}{\left(s \right)}\, ds
+            V = - \int\limits_{s_{0}}^{s_{1}} E_{s}{\left(d \right)}\, dd
 
 

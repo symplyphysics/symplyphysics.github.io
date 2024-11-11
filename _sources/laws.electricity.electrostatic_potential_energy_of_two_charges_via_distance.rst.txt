@@ -35,7 +35,7 @@ interaction belonging to the entire system.
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the point charges.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the point charges.
 
     Symbol:
         :code:`d`

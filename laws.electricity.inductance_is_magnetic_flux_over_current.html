@@ -16,7 +16,7 @@
     <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.inductance_is_magnetic_flux_over_current.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Magnetic field due to infinite wire" href="laws.electricity.magnetic_field_due_to_infinite_wire.html" />
+    <link rel="next" title="Inductance via number of turns and coil volume" href="laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.html" />
     <link rel="prev" title="Energy via constant power and time" href="laws.electricity.energy_via_constant_power_and_time.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -43,7 +43,7 @@ due to the component over the current in it.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.inductance">
 <span class="sig-name descname"><span class="pre">inductance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.inductance" title="Link to this definition">¶</a></dt>
-<dd><p>Inductance.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.inductance" title="symplyphysics.symbols.electrodynamics.inductance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">inductance</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
 </dd>
@@ -57,11 +57,11 @@ due to the component over the current in it.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.magnetic_flux">
 <span class="sig-name descname"><span class="pre">magnetic_flux</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.magnetic_flux" title="Link to this definition">¶</a></dt>
-<dd><p>Magnetic flux due to the component.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.magnetic_flux" title="symplyphysics.symbols.electrodynamics.magnetic_flux"><code class="xref py py-attr docutils literal notranslate"><span class="pre">magnetic_flux</span></code></a> due to the component.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Phi_B</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Phi_{B}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Phi_\mathbf{B}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_flux</span></code></p>
 </dd>
@@ -71,7 +71,7 @@ due to the component over the current in it.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.current">
 <span class="sig-name descname"><span class="pre">current</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.current" title="Link to this definition">¶</a></dt>
-<dd><p>Current flowing through the circuit.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current" title="symplyphysics.symbols.electrodynamics.current"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current</span></code></a> flowing through the circuit.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">I</span></code></p>
 </dd>
@@ -88,7 +88,7 @@ due to the component over the current in it.</p>
 <dd><p><code class="code docutils literal notranslate"><span class="pre">L</span> <span class="pre">=</span> <span class="pre">Phi_B</span> <span class="pre">/</span> <span class="pre">I</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[L = \frac{\Phi_{B}}{I}\]</div>
+\[L = \frac{\Phi_\mathbf{B}}{I}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -147,7 +147,6 @@ due to the component over the current in it.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html">Electromotive force induced in sinusoidally rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
@@ -162,8 +161,10 @@ due to the component over the current in it.</p>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.html">Inductance via number of turns and coil volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_due_to_infinite_wire.html">Magnetic field due to infinite wire</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_of_coil.html">Magnetic field of coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.maximum_moment_of_magnetic_field.html">Magnetic moment via current and contour area</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field.html">Period of rotation of charged particle in magnetic field</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_factor_is_real_power_over_apparent_power.html">Power factor is real power over apparent power</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_current_and_resistance.html">Power via current and resistance</a></li>
@@ -202,7 +203,7 @@ due to the component over the current in it.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.electricity.html">Electromagnetism</a><ul>
       <li>Previous: <a href="laws.electricity.energy_via_constant_power_and_time.html" title="previous chapter">Energy via constant power and time</a></li>
-      <li>Next: <a href="laws.electricity.magnetic_field_due_to_infinite_wire.html" title="next chapter">Magnetic field due to infinite wire</a></li>
+      <li>Next: <a href="laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.html" title="next chapter">Inductance via number of turns and coil volume</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

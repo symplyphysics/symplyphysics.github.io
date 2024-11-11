@@ -52,7 +52,7 @@ square of the distance between them.
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the charges.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the charges.
 
     Symbol:
         :code:`d`

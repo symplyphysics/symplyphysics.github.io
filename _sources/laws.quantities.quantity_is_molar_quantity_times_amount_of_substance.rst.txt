@@ -8,33 +8,51 @@ intensive quantity by the amount of substance.
 
 .. py:data:: extensive_quantity
 
-    Extensive property.
+    Extensive property. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
     Symbol:
         :code:`X`
 
+    Latex:
+        :math:`X`
+
+    Dimension:
+        :code:`any_dimension`
+
 .. py:data:: molar_quantity
 
-    Intensive molar quantity.
+    Intensive molar quantity, which has the dimension of :attr:`~extensive_quantity`
+    divided by :attr:`~amount_of_substance`. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
     Symbol:
-        :code:`X_m`
+        :code:`x_m`
 
     Latex:
-        :math:`X_m`
+        :math:`x_{m}`
+
+    Dimension:
+        :code:`any_dimension`
 
 .. py:data:: amount_of_substance
 
-    Amount of substance.
+    :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`amount_of_substance`
+
 .. py:data:: law
 
-    :code:`X = X_m * n`
+    :code:`X = x_m * n`
+
 
     Latex:
         .. math::
-            X = X_m n
+            X = x_{m} n
+
 

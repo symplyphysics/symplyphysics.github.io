@@ -38,7 +38,7 @@ to the value of the charge and the square inverse of the distance to it.
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` to the charge.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to the charge.
 
     Symbol:
         :code:`d`

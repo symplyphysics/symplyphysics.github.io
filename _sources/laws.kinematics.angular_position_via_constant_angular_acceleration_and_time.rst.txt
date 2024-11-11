@@ -10,7 +10,7 @@ If a body is rotating with a constant acceleration, its angular position is a qu
 
 .. py:data:: final_angular_position
 
-    Angular position at time :math:`t`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :attr:`~time`.
 
     Symbol:
         :code:`theta`
@@ -18,29 +18,38 @@ If a body is rotating with a constant acceleration, its angular position is a qu
     Latex:
         :math:`\theta`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: initial_angular_position
 
-    Angular position at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :math:`t = 0`.
 
     Symbol:
         :code:`theta_0`
 
     Latex:
-        :math:`\theta_0`
+        :math:`\theta_{0}`
+
+    Dimension:
+        :code:`angle`
 
 .. py:data:: initial_angular_speed
 
-    Angular speed at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` at :math:`t = 0`.
 
     Symbol:
         :code:`w_0`
 
     Latex:
-        :math:`\omega_0`
+        :math:`\omega_{0}`
+
+    Dimension:
+        :code:`angle/time`
 
 .. py:data:: angular_acceleration
 
-    Constant angular acceleration.
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration`.
 
     Symbol:
         :code:`alpha`
@@ -48,18 +57,29 @@ If a body is rotating with a constant acceleration, its angular position is a qu
     Latex:
         :math:`\alpha`
 
+    Dimension:
+        :code:`angle/time**2`
+
 .. py:data:: time
 
-    Time at which :math:`\theta` is measured.
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_angular_position` is measured.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`theta = theta_0 + w_0 * t + 1/2 * alpha * t^2`
+    :code:`theta = theta_0 + w_0 * t + alpha * t^2 / 2`
+
 
     Latex:
         .. math::
-            \theta = \theta_0 + \omega_0 t + \frac{1}{2} \alpha t^2
+            \theta = \theta_{0} + \omega_{0} t + \frac{\alpha t^{2}}{2}
+
 

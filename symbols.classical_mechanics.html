@@ -112,13 +112,47 @@ of the velocity vector, which is the rate of change of the object’s displaceme
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.symbols.classical_mechanics.distance">
-<span class="sig-name descname"><span class="pre">distance</span></span><a class="headerlink" href="#symplyphysics.symbols.classical_mechanics.distance" title="Link to this definition">¶</a></dt>
-<dd><p><strong>Distance</strong> is is a measure of the spatial separation between two points.</p>
+<dt class="sig sig-object py" id="symplyphysics.symbols.classical_mechanics.euclidean_distance">
+<span class="sig-name descname"><span class="pre">euclidean_distance</span></span><a class="headerlink" href="#symplyphysics.symbols.classical_mechanics.euclidean_distance" title="Link to this definition">¶</a></dt>
+<dd><p><strong>Euclidean distance</strong> between two points is the length of the line segment between them. Mathematically,
+it can be represented by the following formula:</p>
+<div class="math notranslate nohighlight">
+\[d = \sqrt{\left\Vert \mathbf{r}_2 - \mathbf{r}_1 \right\Vert},\]</div>
+<p>where <span class="math notranslate nohighlight">\(\mathbf{r}_1\)</span> is the position vector of the first point, <span class="math notranslate nohighlight">\(\mathbf{r}_2\)</span> is the position
+vector of the second point, and <span class="math notranslate nohighlight">\(\left\Vert \cdot \right\Vert\)</span> is the Euclidean norm.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>This symbol can be used for representing <strong>displacement</strong>. In that case, <span class="math notranslate nohighlight">\(\mathbf{r}_1\)</span> corresponds
+to the initial position of the body and <span class="math notranslate nohighlight">\(\mathbf{r}_2\)</span> to the final position of the body.</p></li>
+</ol>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.symbols.classical_mechanics.distance">
+<span class="sig-name descname"><span class="pre">distance</span></span><a class="headerlink" href="#symplyphysics.symbols.classical_mechanics.distance" title="Link to this definition">¶</a></dt>
+<dd><p><strong>distance</strong>, or more precisely <strong>total distance traveled</strong>, is the length of the path traced by a moving body.
+Mathematically, it can be represented by the following formula:</p>
+<div class="math notranslate nohighlight">
+\[s(t) = \int \limits_0^t |\mathbf{v}(\tau)| d\tau,\]</div>
+<p>where <span class="math notranslate nohighlight">\(\mathbf{v}\)</span> is the velocity vector of the body as a function of time <span class="math notranslate nohighlight">\(t\)</span>. It is assumed that
+the total distance traveled is zero at zero time.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>It is sometimes used in the sense of <em>the length of space between two points</em>, in which case
+<a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.euclidean_distance" title="symplyphysics.symbols.classical_mechanics.euclidean_distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">euclidean_distance</span></code></a> must be used.</p></li>
+</ol>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">s</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(s\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
@@ -207,6 +241,20 @@ the distance through an object distinct from length and width.</p>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.symbols.classical_mechanics.arc_length">
+<span class="sig-name descname"><span class="pre">arc_length</span></span><a class="headerlink" href="#symplyphysics.symbols.classical_mechanics.arc_length" title="Link to this definition">¶</a></dt>
+<dd><p><strong>Arc length</strong> is the distance between two points along a section of a curve.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">s</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(s\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -824,6 +872,21 @@ in the chosen parameterization.</p>
 </dl>
 </dd></dl>
 
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.symbols.classical_mechanics.angular_momentum">
+<span class="sig-name descname"><span class="pre">angular_momentum</span></span><a class="headerlink" href="#symplyphysics.symbols.classical_mechanics.angular_momentum" title="Link to this definition">¶</a></dt>
+<dd><p><strong>Angular momentum</strong>, sometimes called <strong>rotational momentum</strong>, is the rotational analog of linear
+<a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.momentum" title="symplyphysics.symbols.classical_mechanics.momentum"><code class="xref py py-attr docutils literal notranslate"><span class="pre">momentum</span></code></a>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(L\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length**2*mass/time</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -864,6 +927,7 @@ in the chosen parameterization.</p>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.acceleration"><code class="docutils literal notranslate"><span class="pre">acceleration</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.position"><code class="docutils literal notranslate"><span class="pre">position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.euclidean_distance"><code class="docutils literal notranslate"><span class="pre">euclidean_distance</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.distance"><code class="docutils literal notranslate"><span class="pre">distance</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.distance_to_axis"><code class="docutils literal notranslate"><span class="pre">distance_to_axis</span></code></a></li>
@@ -871,6 +935,7 @@ in the chosen parameterization.</p>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.thickness"><code class="docutils literal notranslate"><span class="pre">thickness</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.area"><code class="docutils literal notranslate"><span class="pre">area</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.arc_length"><code class="docutils literal notranslate"><span class="pre">arc_length</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.angular_speed"><code class="docutils literal notranslate"><span class="pre">angular_speed</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="docutils literal notranslate"><span class="pre">angular_frequency</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.angular_acceleration"><code class="docutils literal notranslate"><span class="pre">angular_acceleration</span></code></a></li>
@@ -912,6 +977,7 @@ in the chosen parameterization.</p>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.dynamic_viscosity"><code class="docutils literal notranslate"><span class="pre">dynamic_viscosity</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.diffusion_flux"><code class="docutils literal notranslate"><span class="pre">diffusion_flux</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.degrees_of_freedom"><code class="docutils literal notranslate"><span class="pre">degrees_of_freedom</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.symbols.classical_mechanics.angular_momentum"><code class="docutils literal notranslate"><span class="pre">angular_momentum</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="symbols.electrodynamics.html">Electrodynamics (Symbols)</a></li>

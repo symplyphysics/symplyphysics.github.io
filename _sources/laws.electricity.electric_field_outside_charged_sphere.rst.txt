@@ -43,7 +43,7 @@ of the sphere. However, due to the Gauss's law, on the inside the electric field
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` to the center of the sphere.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to the center of the sphere.
 
     Symbol:
         :code:`d`

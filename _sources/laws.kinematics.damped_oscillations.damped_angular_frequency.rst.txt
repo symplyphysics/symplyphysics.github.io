@@ -14,7 +14,7 @@ there is no damping force acting on the system.
 
 .. py:data:: damped_angular_frequency
 
-    Angular frequency of a damped oscillator.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of a damped oscillator.
 
     Symbol:
         :code:`w_d`
@@ -22,9 +22,12 @@ there is no damping force acting on the system.
     Latex:
         :math:`\omega_\text{d}`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: undamped_angular_frequency
 
-    Angular frequency of an undamped oscillator.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of an undamped oscillator.
 
     Symbol:
         :code:`w`
@@ -32,9 +35,12 @@ there is no damping force acting on the system.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: damping_ratio
 
-    Damping ratio of the oscillator.
+    :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio` of the oscillator.
 
     Symbol:
         :code:`zeta`
@@ -42,11 +48,16 @@ there is no damping force acting on the system.
     Latex:
         :math:`\zeta`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
     :code:`w_d = w * sqrt(1 - zeta^2)`
 
+
     Latex:
         .. math::
-            \omega_\text{d} = \omega \sqrt{1 - \zeta^2}
+            \omega_\text{d} = \omega \sqrt{1 - \zeta^{2}}
+
 

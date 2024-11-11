@@ -11,30 +11,42 @@ If a body is moving with a constant acceleration, its position in space is a qua
 
 .. py:data:: final_position
 
-    Position at time :math:`t`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` at :attr:`~time`.
 
     Symbol:
         :code:`x`
 
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: initial_position
 
-    Position at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` at :math:`t = 0`.
 
     Symbol:
-        :code:`x0`
+        :code:`x_0`
 
     Latex:
-        :math:`x_0`
+        :math:`x_{0}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: initial_speed
 
-    Speed at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` at :math:`t = 0`.
 
     Symbol:
-        :code:`v0`
+        :code:`v_0`
 
     Latex:
-        :math:`v_0`
+        :math:`v_{0}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: acceleration
 
@@ -51,16 +63,24 @@ If a body is moving with a constant acceleration, its position in space is a qua
 
 .. py:data:: time
 
-    Time at which :math:`x` is measured.
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_position` is measured.
 
     Symbol:
         :code:`t`
 
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: law
 
-    :code:`x = x0 + v0 * t + (1/2) * a * t^2`
+    :code:`x = x_0 + v_0 * t + a * t^2 / 2`
+
 
     Latex:
         .. math::
-            x = x_0 + v_0 t + \frac{1}{2} a t^2
+            x = x_{0} + v_{0} t + \frac{a t^{2}}{2}
+
 

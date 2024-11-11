@@ -11,7 +11,7 @@ position is a linear function of time.
 
 .. py:data:: final_angular_position
 
-    Angular position at time :math:`t`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :attr:`~time`.
 
     Symbol:
         :code:`theta`
@@ -19,19 +19,25 @@ position is a linear function of time.
     Latex:
         :math:`\theta`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: initial_angular_position
 
-    Angular position at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :math:`t = 0`.
 
     Symbol:
         :code:`theta_0`
 
     Latex:
-        :math:`\theta_0`
+        :math:`\theta_{0}`
+
+    Dimension:
+        :code:`angle`
 
 .. py:data:: angular_speed
 
-    Constant angular speed.
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
 
     Symbol:
         :code:`w`
@@ -39,18 +45,29 @@ position is a linear function of time.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: time
 
-    Time at which :math:`\theta` is measured.
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_angular_position` is measured.
 
     Symbol:
         :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: law
 
     :code:`theta = theta_0 + w * t`
 
+
     Latex:
         .. math::
-            \theta = \theta_0 + \omega t
+            \theta = \theta_{0} + \omega t
+
 

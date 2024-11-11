@@ -10,7 +10,7 @@ would also be proportional to the number of turn the current makes.
 
 .. py:data:: electromotive_force
 
-    Electromotive force induced in the contour.
+    :attr:`~symplyphysics.symbols.electrodynamics.electromotive_force` induced in the contour.
 
     Symbol:
         :code:`E`
@@ -23,7 +23,7 @@ would also be proportional to the number of turn the current makes.
 
 .. py:data:: current_turn_count
 
-    Number of turns the current makes around the contour.
+    Number of turns the current makes around the contour. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
     Symbol:
         :code:`N`
@@ -36,7 +36,7 @@ would also be proportional to the number of turn the current makes.
 
 .. py:data:: time
 
-    Time.
+    :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`t`

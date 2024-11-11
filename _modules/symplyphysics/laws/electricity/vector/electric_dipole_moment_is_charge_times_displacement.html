@@ -46,7 +46,6 @@
 <span class="sd">&quot;&quot;&quot;</span>
 
 <span class="kn">from</span> <span class="nn">symplyphysics</span> <span class="kn">import</span> <span class="p">(</span>
-    <span class="n">Symbol</span><span class="p">,</span>
     <span class="n">units</span><span class="p">,</span>
     <span class="n">validate_input</span><span class="p">,</span>
     <span class="n">validate_output</span><span class="p">,</span>
@@ -54,14 +53,12 @@
     <span class="n">scale_vector</span><span class="p">,</span>
     <span class="n">QuantityVector</span><span class="p">,</span>
     <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">symbols</span><span class="p">,</span>
 <span class="p">)</span>
 
-<span class="n">charge</span> <span class="o">=</span> <span class="n">Symbol</span><span class="p">(</span><span class="s2">&quot;charge&quot;</span><span class="p">,</span> <span class="n">units</span><span class="o">.</span><span class="n">charge</span><span class="p">)</span>
+<span class="n">charge</span> <span class="o">=</span> <span class="n">symbols</span><span class="o">.</span><span class="n">charge</span>
 <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">Magnitude of the electric charge of the point charges.</span>
-
-<span class="sd">Symbol:</span>
-<span class="sd">    :code:`q`</span>
+<span class="sd">Magnitude of the electric :symbols:`charge` of the point charges.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
 

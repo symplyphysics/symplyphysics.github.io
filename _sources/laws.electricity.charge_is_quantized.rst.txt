@@ -24,24 +24,24 @@ Electric charge is quantized, i.e. restricted to certain values.
 
 .. py:data:: integer_factor
 
-    Integer factor of any sign.
+    :attr:`~symplyphysics.symbols.basic.whole_number`.
 
     Symbol:
-        :code:`n`
+        :code:`N`
 
     Latex:
-        :math:`n`
+        :math:`N`
 
     Dimension:
         :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`q = n * e`
+    :code:`q = N * e`
 
 
     Latex:
         .. math::
-            q = n e
+            q = N e
 
 

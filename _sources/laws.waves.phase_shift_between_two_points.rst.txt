@@ -21,7 +21,7 @@ of the distance between the points and the wavelength of the wave.
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between the two points.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the two points.
 
     Symbol:
         :code:`d`

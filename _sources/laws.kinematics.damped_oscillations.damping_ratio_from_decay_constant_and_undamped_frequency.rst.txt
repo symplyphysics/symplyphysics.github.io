@@ -8,7 +8,7 @@ which describes how fast its oscillations decay, and its undamped angular freque
 
 .. py:data:: damping_ratio
 
-    Damping ratio of the oscillator.
+    :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio` of the oscillator.
 
     Symbol:
         :code:`zeta`
@@ -16,9 +16,12 @@ which describes how fast its oscillations decay, and its undamped angular freque
     Latex:
         :math:`\zeta`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: exponential_decay_constant
 
-    Exponential decay constant of the oscillator.
+    :attr:`~symplyphysics.symbols.basic.exponential_decay_constant` of the oscillator.
 
     Symbol:
         :code:`lambda`
@@ -26,9 +29,12 @@ which describes how fast its oscillations decay, and its undamped angular freque
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`1/time`
+
 .. py:data:: undamped_angular_frequency
 
-    Undamped angular frequency of the oscillator.
+    Undamped :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
         :code:`w`
@@ -36,11 +42,16 @@ which describes how fast its oscillations decay, and its undamped angular freque
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: law
 
     :code:`zeta = lambda / w`
 
+
     Latex:
         .. math::
             \zeta = \frac{\lambda}{\omega}
+
 

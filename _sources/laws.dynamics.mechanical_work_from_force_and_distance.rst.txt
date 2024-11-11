@@ -45,21 +45,21 @@ Work is scalar value equal to force multiplied by distance.
     The :attr:`~symplyphysics.symbols.classical_mechanics.distance` the body traveled due to the force exerted on it.
 
     Symbol:
-        :code:`d`
+        :code:`s`
 
     Latex:
-        :math:`d`
+        :math:`s`
 
     Dimension:
         :code:`length`
 
 .. py:data:: law
 
-    :code:`W = F * d`
+    :code:`W = F * s`
 
 
     Latex:
         .. math::
-            W = F d
+            W = F s
 
 

@@ -13,10 +13,16 @@ of the system. It is collinear to the vector connecting the two point charges.
 
 .. py:data:: charge
 
-    Magnitude of the electric charge of the point charges.
+    Magnitude of the electric :attr:`~symplyphysics.symbols.electrodynamics.charge` of the point charges.
 
     Symbol:
         :code:`q`
+
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`charge`
 
 .. py:function:: dipole_moment_law(displacement_vector_)
 

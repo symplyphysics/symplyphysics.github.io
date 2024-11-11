@@ -5,6 +5,19 @@ Symbols of fundamental physical quantities.
 
 .. py:currentmodule:: symplyphysics.symbols.basic
 
+.. py:data:: any_quantity
+
+    A quantity that can have any dimension.
+
+    Symbol:
+        :code:`X`
+
+    Latex:
+        :math:`X`
+
+    Dimension:
+        :code:`any_dimension`
+
 .. py:data:: time
 
     **Time** is a scalar physical quantity operationally defined as the reading of a clock, specifically
@@ -131,6 +144,9 @@ Symbols of fundamental physical quantities.
 .. py:data:: radius_of_curvature
 
     **Radius of curvature** is the inverse of curvature and is equal to the distance to the center of curvature.
+
+    ..
+        TODO are this and distance_to_axis interchangeable?
 
     Symbol:
         :code:`r`
@@ -259,4 +275,36 @@ Symbols of fundamental physical quantities.
 
     Dimension:
         :code:`dimensionless`
+
+.. py:data:: fractional_change
+
+    **Fractional change** is linear change divided by initial value of the quantity.
+
+    Symbol:
+        :code:`e`
+
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: exponential_decay_constant
+
+    **Exponential decay constant**, also called **rate constant** or **disintegration constant**, is 
+    the rate at which some quantity is decreasing in such a way that its rate of change is proportional
+    to its current value.
+
+    **Links:**
+
+    #. `Exponential decay <https://en.wikipedia.org/wiki/Exponential_decay>`__.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+    Dimension:
+        :code:`1/time`
 

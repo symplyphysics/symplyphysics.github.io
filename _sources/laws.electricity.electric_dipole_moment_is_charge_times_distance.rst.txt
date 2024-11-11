@@ -40,7 +40,7 @@ polarity. Also see :doc:`vector counterpart <laws.electricity.vector.electric_di
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between point charges.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between point charges.
 
     Symbol:
         :code:`d`

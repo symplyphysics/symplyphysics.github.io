@@ -1,42 +1,57 @@
 Fractional change is change over initial value
 ----------------------------------------------
 
-
+Fractional change of a quantity is defined as ratio of the linear change of the quantity
+to the initial value of the quantity.
 
 .. py:currentmodule:: symplyphysics.laws.quantities.fractional_change_is_change_over_initial_value
 
 .. py:data:: fractional_change
 
-    Fractional change of quantity :math:`X`
+    :attr:`~symplyphysics.symbols.basic.fractional_change` of quantity :math:`X`.
 
     Symbol:
         :code:`e_X`
 
     Latex:
-        :math:`e_X`
+        :math:`e_{X}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: change
 
-    Change in the value of the quantity.
+    Change in the value of the quantity. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
     Symbol:
-        :code:`dX`
+        :code:`Delta(X)`
 
     Latex:
         :math:`\Delta X`
 
+    Dimension:
+        :code:`any_dimension`
+
 .. py:data:: initial_value
 
-    Initial value of the quantity.
+    Initial value of the quantity. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
     Symbol:
         :code:`X`
 
+    Latex:
+        :math:`X`
+
+    Dimension:
+        :code:`any_dimension`
+
 .. py:data:: law
 
-    :code:`e_X = dX / X`
+    :code:`e_X = Delta(X) / X`
+
 
     Latex:
         .. math::
-            e_X = \frac{\Delta X}{X}
+            e_{X} = \frac{\Delta X}{X}
+
 

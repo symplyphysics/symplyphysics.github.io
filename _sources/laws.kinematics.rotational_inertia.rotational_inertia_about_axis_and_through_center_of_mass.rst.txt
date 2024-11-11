@@ -15,14 +15,20 @@ of mass).
 
 .. py:data:: rotational_inertia
 
-    Rotational inertia about some axis.
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` about some axis.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
 .. py:data:: rotational_inertia_through_com
 
-    Rotational inertia about an axis that is parallel to the given one and passes through
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` about an axis that is parallel to the given one and passes through
     the center of mass.
 
     Symbol:
@@ -30,6 +36,9 @@ of mass).
 
     Latex:
         :math:`I_\text{com}`
+
+    Dimension:
+        :code:`length**2*mass`
 
 .. py:data:: mass
 
@@ -46,16 +55,24 @@ of mass).
 
 .. py:data:: distance_between_axes
 
-    Distance between the axes.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the axes.
 
     Symbol:
         :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`I = I_com + m * d^2`
 
+
     Latex:
         .. math::
-            I = I_\text{com} + m d^2
+            I = I_\text{com} + m d^{2}
+
 

@@ -12,7 +12,7 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 
 .. py:data:: boltzmann_factor
 
-    Boltzmann factor.
+    :attr:`~symplyphysics.symbols.thermodynamics.boltzmann_factor`.
 
     Symbol:
         :code:`f`

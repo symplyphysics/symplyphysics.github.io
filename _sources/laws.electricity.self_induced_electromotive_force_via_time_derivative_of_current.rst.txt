@@ -21,7 +21,7 @@ the time derivative of current flowing through the circuit.
 
 .. py:data:: electromotive_force
 
-    Self-induced :attr:`~symplyphysics.symbols.electrodynamics.electromotive_force`.
+    Self-induced :attr:`~symplyphysics.symbols.electrodynamics.electromotive_force` as a function of :attr:`~time`.
 
     Symbol:
         :code:`E(t)`
@@ -47,7 +47,7 @@ the time derivative of current flowing through the circuit.
 
 .. py:data:: current
 
-    :attr:`~symplyphysics.symbols.electrodynamics.current` in the circuit.
+    :attr:`~symplyphysics.symbols.electrodynamics.current` in the circuit as a function of :attr:`~time`.
 
     Symbol:
         :code:`I(t)`

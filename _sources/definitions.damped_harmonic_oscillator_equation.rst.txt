@@ -22,7 +22,7 @@ assuming the body only moves in one direction.
 
 .. py:data:: displacement
 
-    Displacement of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
+    Displacement of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
 
     Symbol:
         :code:`x(t)`

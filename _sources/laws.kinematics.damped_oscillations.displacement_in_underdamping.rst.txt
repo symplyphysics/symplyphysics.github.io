@@ -14,17 +14,29 @@ to zero. This behavior is also known as *underdamping*.
 
 .. py:data:: displacement
 
-    Displacement from rest, usually a function of time.
+    Displacement from rest, usually a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
 
     Symbol:
-        :code:`q`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: time
 
-    Time at which :math:`q` is measured.
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~displacement` is measured.
 
     Symbol:
         :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: scaling_coefficient
 
@@ -33,9 +45,15 @@ to zero. This behavior is also known as *underdamping*.
     Symbol:
         :code:`a`
 
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: exponential_decay_constant
 
-    Exponential decay constant of the oscillator.
+    :attr:`~symplyphysics.symbols.basic.exponential_decay_constant` of the oscillator.
 
     Symbol:
         :code:`lambda`
@@ -43,10 +61,13 @@ to zero. This behavior is also known as *underdamping*.
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`1/time`
+
 .. py:data:: damped_angular_frequency
 
     :doc:`Damped angular frequency <laws.kinematics.damped_oscillations.damped_angular_frequency>`
-    of the oscillator.
+    of the oscillator. See :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency`.
 
     Symbol:
         :code:`w_d`
@@ -54,9 +75,12 @@ to zero. This behavior is also known as *underdamping*.
     Latex:
         :math:`\omega_\text{d}`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: phase_shift
 
-    Phase shift of the oscillations, i.e. the phase at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the oscillations, i.e. the phase at :math:`t = 0`.
 
     Symbol:
         :code:`phi`
@@ -64,11 +88,16 @@ to zero. This behavior is also known as *underdamping*.
     Latex:
         :math:`\varphi`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: law
 
-    :code:`q = a * exp(-1 * lambda * t) * cos(w_d * t + phi)`
+    :code:`d = a * exp(-lambda * t) * cos(w_d * t + phi)`
+
 
     Latex:
         .. math::
-            q = a \exp(-\lambda t) \cos(\omega_\text{d} t + \varphi)
+            d = a \exp{\left(- \lambda t \right)} \cos{\left(\omega_\text{d} t + \varphi \right)}
+
 

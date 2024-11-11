@@ -34,7 +34,7 @@ to the distance to the point charge. Also see :doc:`laws.electricity.electrostat
 
 .. py:data:: distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` to the point charge.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to the point charge.
 
     Symbol:
         :code:`d`

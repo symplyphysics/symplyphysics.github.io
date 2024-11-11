@@ -10,7 +10,7 @@ length of a circular path and its radius (distance to the axis).
 
 .. py:data:: angular_position
 
-    Angular position of the body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` of the body.
 
     Symbol:
         :code:`theta`
@@ -18,25 +18,42 @@ length of a circular path and its radius (distance to the axis).
     Latex:
         :math:`\theta`
 
+    Dimension:
+        :code:`angle`
+
 .. py:data:: arc_length
 
-    Arc length.
+    :attr:`~symplyphysics.symbols.classical_mechanics.arc_length` of the curve traced by the body's movement.
 
     Symbol:
         :code:`s`
 
+    Latex:
+        :math:`s`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: distance_to_axis
 
-    Distance to rotational axis, or radius of rotation.
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_axis` of rotation, or radius of rotation.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`theta = s / r`
 
+
     Latex:
         .. math::
             \theta = \frac{s}{r}
+
 

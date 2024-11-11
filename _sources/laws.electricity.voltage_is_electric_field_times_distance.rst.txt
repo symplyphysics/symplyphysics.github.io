@@ -10,7 +10,7 @@ Voltage is electric field times distance
 
 .. py:data:: voltage
 
-    Voltage between two points.
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between two points.
 
     Symbol:
         :code:`V`
@@ -23,7 +23,7 @@ Voltage is electric field times distance
 
 .. py:data:: electric_field_strength
 
-    Electric field strength.
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
     Symbol:
         :code:`E`
@@ -36,7 +36,7 @@ Voltage is electric field times distance
 
 .. py:data:: distance
 
-    Distance between two points.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between two points.
 
     Symbol:
         :code:`d`

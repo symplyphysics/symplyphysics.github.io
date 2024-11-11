@@ -14,21 +14,33 @@ of its angular velocity.
 
 .. py:data:: angular_momentum
 
-    Component of the vector of angular momentum parallel to the rotational axis.
+    Component of the vector of :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum` parallel to the rotational axis.
 
     Symbol:
         :code:`L`
 
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`length**2*mass/time`
+
 .. py:data:: rotational_inertia
 
-    Rotational inertia of the body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the body.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
 .. py:data:: angular_speed
 
-    Angular speed of the body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the body.
 
     Symbol:
         :code:`w`
@@ -36,11 +48,16 @@ of its angular velocity.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: law
 
     :code:`L = I * w`
 
+
     Latex:
         .. math::
             L = I \omega
+
 

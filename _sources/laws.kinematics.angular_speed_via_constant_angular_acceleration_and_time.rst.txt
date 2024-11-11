@@ -13,7 +13,7 @@ speed is a linear function of time.
 
 .. py:data:: final_angular_speed
 
-    Angular speed at time :math:`t`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` at :attr:`~time`.
 
     Symbol:
         :code:`w`
@@ -21,19 +21,25 @@ speed is a linear function of time.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: initial_angular_speed
 
-    Angular speed at :math:`t = 0`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` at :math:`t = 0`.
 
     Symbol:
         :code:`w_0`
 
     Latex:
-        :math:`\omega_0`
+        :math:`\omega_{0}`
+
+    Dimension:
+        :code:`angle/time`
 
 .. py:data:: angular_acceleration
 
-    Constant angular acceleration.
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration`.
 
     Symbol:
         :code:`alpha`
@@ -41,18 +47,29 @@ speed is a linear function of time.
     Latex:
         :math:`\alpha`
 
+    Dimension:
+        :code:`angle/time**2`
+
 .. py:data:: time
 
-    Time at which :math:`\omega` is measured.
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_angular_speed` is measured.
 
     Symbol:
         :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
 
 .. py:data:: law
 
     :code:`w = w_0 + alpha * t`
 
+
     Latex:
         .. math::
-            \omega = \omega_0 + \alpha t
+            \omega = \omega_{0} + \alpha t
+
 

@@ -8,14 +8,20 @@ radius of curvature of the body's path.
 
 .. py:data:: speed
 
-    Linear speed.
+    Linear :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
     Symbol:
         :code:`v`
 
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: angular_speed
 
-    Angular speed.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
 
     Symbol:
         :code:`w`
@@ -23,18 +29,29 @@ radius of curvature of the body's path.
     Latex:
         :math:`\omega`
 
+    Dimension:
+        :code:`angle/time`
+
 .. py:data:: radius_of_curvature
 
-    Instantaneous radius of curvature.
+    Instantaneous :attr:`~symplyphysics.symbols.basic.radius_of_curvature`.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`v = w * r`
 
+
     Latex:
         .. math::
             v = \omega r
+
 

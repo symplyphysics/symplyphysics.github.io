@@ -62,7 +62,7 @@ linked to the intermolecular force potential.
 
 .. py:data:: intermolecular_distance
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.distance` between gas molecules.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between gas molecules.
 
     Symbol:
         :code:`r`

@@ -114,6 +114,20 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`dimensionless`
 
+.. py:data:: absolute_permeability
+
+    **Absolute permeability**, also called **permeability**, is the measure of magnetization produced in a material in response to an
+    applied magnetic field.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`inductance/length`
+
 .. py:data:: relative_permeability
 
     **Relative permeability** is the permeability of a medium relative to that of free space.
@@ -370,4 +384,24 @@ Symbols related to electrodynamics.
 
     Dimension:
         :code:`dimensionless`
+
+.. py:data:: magnetic_moment
+
+    **Magnetic (dipole) moment** is a vector physical quantity representing the strength and
+    the orientation of a system that exerts a magnetic field. The magnetic dipole moment of
+    an object determines the magnitude of torque the object experiences in a given magnetic
+    field.
+
+    **Links:**
+
+    #. `Magnetic moment <https://en.wikipedia.org/wiki/Magnetic_moment>`__.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`area*current`
 

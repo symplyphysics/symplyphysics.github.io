@@ -56,7 +56,7 @@ proportional to the current in the coil's wire.
 
 .. py:data:: coil_turn_count
 
-    Number of turns in the coil.
+    Number of turns in the coil. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
     Symbol:
         :code:`N`

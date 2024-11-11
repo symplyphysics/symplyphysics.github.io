@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Electromotive force induced in sinusoidally rotating coil &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Inductance via number of turns and coil volume &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Electromotive force induced in rotating coil" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html" />
-    <link rel="prev" title="Electromotive force induced in rotating rod" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html" />
+    <link rel="next" title="Magnetic field due to infinite wire" href="laws.electricity.magnetic_field_due_to_infinite_wire.html" />
+    <link rel="prev" title="Inductance is magnetic flux over current" href="laws.electricity.inductance_is_magnetic_flux_over_current.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,117 +35,73 @@
 
           <div class="body" role="main">
             
-  <section id="electromotive-force-induced-in-sinusoidally-rotating-coil">
-<h1>Electromotive force induced in sinusoidally rotating coil<a class="headerlink" href="#electromotive-force-induced-in-sinusoidally-rotating-coil" title="Link to this heading">¶</a></h1>
-<p>Suppose a coil is being rotated around the axis that lies in the coil’s cross section
-(see <a class="reference external" href="https://www.schoolphysics.co.uk/age16-19/Electricity%20and%20magnetism/Electromagnetic%20induction/text/Induced_emf_in_a_rotating_coil/index.html">Figure</a>)
-in a magnetic field under the conditions described below. Then an electromotive force will
-be induced in the contour of the coil. Its amplitude depends on the number of turns in
-the coil, the magnetic flux density, the angular frequency of the coil’s rotation and
-the area of the coil’s contour.</p>
-<p><strong>Notes:</strong></p>
-<ol class="arabic simple">
-<li><p>The angle <span class="math notranslate nohighlight">\(\varphi\)</span> between the normal to the coil’s contour and the magnetic flux
-density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\omega t)\)</span>. See <a class="reference external" href="https://thefactfactor.com/wp-content/uploads/2020/03/Self-Induction-17.png">Figure</a>.</p></li>
-</ol>
-<p><strong>Conditions:</strong></p>
-<ol class="arabic simple">
-<li><p>The magnetic field is uniform.</p></li>
-<li><p>The angular velocity of the coil’s rotation is orthogonal to the magnetic field.</p></li>
-<li><p>The area of the coil’s contour is constant.</p></li>
-<li><p>The rotation of the coil is uniform.</p></li>
-</ol>
+  <section id="inductance-via-number-of-turns-and-coil-volume">
+<h1>Inductance via number of turns and coil volume<a class="headerlink" href="#inductance-via-number-of-turns-and-coil-volume" title="Link to this heading">¶</a></h1>
+<p>The inductance of a coil (a solenoid) can be expressed as a function of the material’s
+permeability, the number of turns in the coil per unit length and its volume.</p>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.electromotive_force">
-<span class="sig-name descname"><span class="pre">electromotive_force</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.electromotive_force" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electromotive_force" title="symplyphysics.symbols.electrodynamics.electromotive_force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electromotive_force</span></code></a> induced in the coil.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.inductance">
+<span class="sig-name descname"><span class="pre">inductance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.inductance" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.inductance" title="symplyphysics.symbols.electrodynamics.inductance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">inductance</span></code></a> of the coil.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mathcal{E}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(L\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">voltage</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.coil_turn_count">
-<span class="sig-name descname"><span class="pre">coil_turn_count</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.coil_turn_count" title="Link to this definition">¶</a></dt>
-<dd><p>Number of turns in the coil.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.absolute_permeability">
+<span class="sig-name descname"><span class="pre">absolute_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.absolute_permeability" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permeability" title="symplyphysics.symbols.electrodynamics.absolute_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a> of the inside of the coil.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.magnetic_flux_density">
-<span class="sig-name descname"><span class="pre">magnetic_flux_density</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.magnetic_flux_density" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.magnetic_flux_density" title="symplyphysics.symbols.electrodynamics.magnetic_flux_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">magnetic_flux_density</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.specific_coil_turn_count">
+<span class="sig-name descname"><span class="pre">specific_coil_turn_count</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.specific_coil_turn_count" title="Link to this definition">¶</a></dt>
+<dd><p>Number of turns in the coil per unit length.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(n\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_density</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.contour_area">
-<span class="sig-name descname"><span class="pre">contour_area</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.contour_area" title="Link to this definition">¶</a></dt>
-<dd><p>Cross-sectional <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.area" title="symplyphysics.symbols.classical_mechanics.area"><code class="xref py py-attr docutils literal notranslate"><span class="pre">area</span></code></a> of the contour enclosed by the coil.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.volume">
+<span class="sig-name descname"><span class="pre">volume</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.volume" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the coil.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.angular_frequency">
-<span class="sig-name descname"><span class="pre">angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.angular_frequency" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the coil’s rotation.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.time">
-<span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.time" title="Link to this definition">¶</a></dt>
-<dd><p>Time.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">-N</span> <span class="pre">*</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">w</span> <span class="pre">*</span> <span class="pre">sin(w</span> <span class="pre">*</span> <span class="pre">t)</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">L</span> <span class="pre">=</span> <span class="pre">mu</span> <span class="pre">*</span> <span class="pre">n^2</span> <span class="pre">*</span> <span class="pre">V</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\mathcal{E} = - N B A \omega \sin{\left(\omega t \right)}\]</div>
+\[L = \mu n^{2} V\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -204,16 +160,6 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Electromotive force induced in sinusoidally rotating coil</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.electromotive_force"><code class="docutils literal notranslate"><span class="pre">electromotive_force</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.coil_turn_count"><code class="docutils literal notranslate"><span class="pre">coil_turn_count</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.magnetic_flux_density"><code class="docutils literal notranslate"><span class="pre">magnetic_flux_density</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.contour_area"><code class="docutils literal notranslate"><span class="pre">contour_area</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.angular_frequency"><code class="docutils literal notranslate"><span class="pre">angular_frequency</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
-</ul>
-</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
@@ -222,8 +168,17 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_density_via_permittivity_and_electric_field.html">Energy density via permittivity and electric field</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_via_constant_power_and_time.html">Energy via constant power and time</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.inductance_is_magnetic_flux_over_current.html">Inductance is magnetic flux over current</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Inductance via number of turns and coil volume</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.inductance"><code class="docutils literal notranslate"><span class="pre">inductance</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.absolute_permeability"><code class="docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.specific_coil_turn_count"><code class="docutils literal notranslate"><span class="pre">specific_coil_turn_count</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.volume"><code class="docutils literal notranslate"><span class="pre">volume</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_due_to_infinite_wire.html">Magnetic field due to infinite wire</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_of_coil.html">Magnetic field of coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.maximum_moment_of_magnetic_field.html">Magnetic moment via current and contour area</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field.html">Period of rotation of charged particle in magnetic field</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_factor_is_real_power_over_apparent_power.html">Power factor is real power over apparent power</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_current_and_resistance.html">Power via current and resistance</a></li>
@@ -261,8 +216,8 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.electricity.html">Electromagnetism</a><ul>
-      <li>Previous: <a href="laws.electricity.electromotive_force_induced_in_rotating_rod.html" title="previous chapter">Electromotive force induced in rotating rod</a></li>
-      <li>Next: <a href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html" title="next chapter">Electromotive force induced in rotating coil</a></li>
+      <li>Previous: <a href="laws.electricity.inductance_is_magnetic_flux_over_current.html" title="previous chapter">Inductance is magnetic flux over current</a></li>
+      <li>Next: <a href="laws.electricity.magnetic_field_due_to_infinite_wire.html" title="next chapter">Magnetic field due to infinite wire</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -288,7 +243,7 @@ density is <span class="math notranslate nohighlight">\(\varphi \propto \cos(\om
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.electricity.electromotive_force_induced_in_sinusoidally_rotating_coil.rst.txt"
+      <a href="_sources/laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
