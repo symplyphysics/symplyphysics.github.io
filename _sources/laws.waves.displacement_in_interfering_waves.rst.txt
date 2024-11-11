@@ -31,24 +31,12 @@ they are exactly out of phase and their interference is *fully destructive*.
     Latex:
         :math:`u`
 
-    Symbol:
-        :code:`u`
-
-    Latex:
-        :math:`u`
-
     Dimension:
         :code:`any_dimension`
 
 .. py:data:: amplitude
 
     Amplitude of the interfering waves.
-
-    Symbol:
-        :code:`u_max`
-
-    Latex:
-        :math:`u_\text{max}`
 
     Symbol:
         :code:`u_max`

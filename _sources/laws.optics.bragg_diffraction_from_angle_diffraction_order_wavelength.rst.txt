@@ -58,7 +58,7 @@ diffraction is a consequence of interference between waves reflected from crysta
 
 .. py:data:: glancing_angle
 
-    The **glancing :attr:`~symplyphysics.symbols.basic.angle`** is the angle that complements the angle of incidence of the beam
+    The **glancing angle** is the :attr:`~symplyphysics.symbols.basic.angle` that complements the angle of incidence of the beam
     up to a right angle.
 
     Symbol:

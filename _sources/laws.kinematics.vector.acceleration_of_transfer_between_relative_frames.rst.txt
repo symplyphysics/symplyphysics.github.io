@@ -11,3 +11,175 @@ in :math:`S'`.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames
 
+.. py:function:: transfer_acceleration_law(moving_frame_acceleration_, centripetal_acceleration_, rotation_acceleration_)
+
+    Transfer acceleration as a sum of accelerations.
+
+    Law:
+        :code:`a_tr = a_0 + a_cp + a_rot`
+
+    Latex:
+        .. math::
+            {\vec a}_\text{tr} = {\vec a}_0 + {\vec a}_\text{cp} + {\vec a}_\text{rot}
+
+    :param moving\_frame\_acceleration\_: acceleration of :math:`S'` relative to :math:`S`
+
+        Symbol: :code:`a_0`
+
+        Latex: :math:`{\vec a}_0`
+
+        Dimension: *acceleration*
+
+    :param centripetal\_acceleration\_: centripetal acceleration of body in :math:`S'`
+
+        Symbol: :code:`a_cp`
+
+        Latex: :math:`{\vec a}_\text{cp}`
+
+        Dimension: *acceleration*
+
+    :param rotation\_acceleration\_: acceleration caused by non-uniform rotation of :math:`S'`
+
+        Symbol: :code:`a_rot`
+
+        Latex: :math:`{\vec a}_\text{rot}`
+
+        Dimension: *acceleration*
+
+    :return: transfer acceleration of body
+
+        Symbol: :code:`a_tr`
+
+        Latex: :math:`{\vec a}_\text{tr}`
+
+        Dimension: *acceleration*
+
+.. py:function:: moving_frame_acceleration_law(transfer_acceleration_, centripetal_acceleration_, rotation_acceleration_)
+
+    Acceleration of :math:`S'` relative to :math:`S`.
+
+    Law:
+        :code:`a_0 = a_tr - (a_cp + a_rot)`
+
+    Latex:
+        .. math::
+            {\vec a}_0 = {\vec a}_\text{tr} - ({\vec a}_\text{cp} + {\vec a}_\text{rot})
+
+    :param transfer\_acceleration\_: transfer acceleration of body
+
+        Symbol: :code:`a_tr`
+
+        Latex: :math:`{\vec a}_\text{tr}`
+
+        Dimension: *acceleration*
+
+    :param centripetal\_acceleration\_: centripetal acceleration of body in :math:`S'`
+
+        Symbol: :code:`a_cp`
+
+        Latex: :math:`{\vec a}_\text{cp}`
+
+        Dimension: *acceleration*
+
+    :param rotation\_acceleration\_: acceleration caused by non-uniform rotation of :math:`S'`
+
+        Symbol: :code:`a_rot`
+
+        Latex: :math:`{\vec a}_\text{rot}`
+
+        Dimension: *acceleration*
+
+    :return: acceleration of :math:`S'` relative to :math:`S`
+
+        Symbol: :code:`a_0`
+
+        Latex: :math:`{\vec a}_0`
+
+        Dimension: *acceleration*
+
+.. py:function:: centripetal_acceleration_law(transfer_acceleration_, moving_frame_acceleration_, rotation_acceleration_)
+
+    Centripetal acceleration in :math:`S'`.
+
+    Law:
+        :code:`a_cp = a_tr - (a_0 + a_rot)`
+
+    Latex:
+        .. math::
+            {\vec a}_\text{cp} = {\vec a}_\text{tr} - ({\vec a}_0 + {\vec a}_\text{rot})
+
+    :param transfer\_acceleration\_: transfer acceleration of body
+
+        Symbol: :code:`a_tr`
+
+        Latex: :math:`{\vec a}_\text{tr}`
+
+        Dimension: *acceleration*
+
+    :param moving\_frame\_acceleration\_: acceleration of :math:`S'` relative to :math:`S`
+
+        Symbol: :code:`a_0`
+
+        Latex: :math:`{\vec a}_0`
+
+        Dimension: *acceleration*
+
+    :param rotation\_acceleration\_: acceleration caused by non-uniform rotation of :math:`S'`
+
+        Symbol: :code:`a_rot`
+
+        Latex: :math:`{\vec a}_\text{rot}`
+
+        Dimension: *acceleration*
+
+    :return: centripetal acceleration of body in :math:`S'`
+
+        Symbol: :code:`a_cp`
+
+        Latex: :math:`{\vec a}_\text{cp}`
+
+        Dimension: *acceleration*
+
+.. py:function:: rotation_acceleration_law(transfer_acceleration_, moving_frame_acceleration_, centripetal_acceleration_)
+
+    Acceleration due to non-uniform rotation of :math:`S'`.
+
+    Law:
+        :code:`a_rot = a_tr - (a_0 + a_cp)`
+
+    Latex:
+        .. math::
+            {\vec a}_\text{rot} = {\vec a}_\text{tr} - ({\vec a}_0 + {\vec a}_\text{cp})
+
+    :param transfer\_acceleration\_: transfer acceleration of body
+
+        Symbol: :code:`a_tr`
+
+        Latex: :math:`{\vec a}_\text{tr}`
+
+        Dimension: *acceleration*
+
+    :param moving\_frame\_acceleration\_: acceleration of :math:`S'` relative to :math:`S`
+
+        Symbol: :code:`a_0`
+
+        Latex: :math:`{\vec a}_0`
+
+        Dimension: *acceleration*
+
+    :param centripetal\_acceleration\_: centripetal acceleration of body in :math:`S'`
+
+        Symbol: :code:`a_cp`
+
+        Latex: :math:`{\vec a}_\text{cp}`
+
+        Dimension: *acceleration*
+
+    :return: acceleration caused by non-uniform rotation of :math:`S'`
+
+        Symbol: :code:`a_rot`
+
+        Latex: :math:`{\vec a}_\text{rot}`
+
+        Dimension: *acceleration*
+

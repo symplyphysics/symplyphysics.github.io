@@ -212,6 +212,8 @@
     <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span>
 
     <span class="c1"># NOTE: Self type cannot be used in a metaclass and &#39;mcs&#39; is a metaclass here</span>
+    <span class="c1"># NOTE: constructor returns not an object, but a class. Object is constructed</span>
+    <span class="c1">#       when arguments of a function are applied.</span>
     <span class="k">def</span> <span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span>
         <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span> <span class="o">=</span> <span class="p">(),</span>
@@ -327,7 +329,6 @@
     <span class="n">subscript</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="o">**</span><span class="n">assumptions</span><span class="p">:</span> <span class="n">Any</span><span class="p">,</span>
 <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">FunctionNew</span><span class="p">:</span>
-    <span class="n">assumptions</span> <span class="o">=</span> <span class="n">assumptions</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">assumptions0</span>
     <span class="n">display_symbol</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_name</span>
     <span class="n">display_latex</span> <span class="o">=</span> <span class="n">display_latex</span> <span class="ow">or</span> <span class="n">source</span><span class="o">.</span><span class="n">display_latex</span>
 

@@ -12,7 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.vector.electric_field_is_force_over_test_charge.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -47,6 +47,64 @@ the electrostatic force that is applied to it.</p>
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q0</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(q_0\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electric_field_law">
+<span class="sig-name descname"><span class="pre">electric_field_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">electrostatic_force_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/electric_field_is_force_over_test_charge.html#electric_field_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electric_field_law" title="Link to this definition">¶</a></dt>
+<dd><p>Electric field via electrostatic force.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">F</span> <span class="pre">/</span> <span class="pre">q0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\vec E = \frac{\vec F}{q_0}\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>electrostatic_force_</strong> – <p>vector of electrostatic force</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
+<p>Dimension: <em>force</em></p>
+</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>vector of electric field</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec E\)</span></p>
+<p>Dimension: <em>force</em> / <em>charge</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electrostatic_force_law">
+<span class="sig-name descname"><span class="pre">electrostatic_force_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">electric_field_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/electric_field_is_force_over_test_charge.html#electrostatic_force_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electrostatic_force_law" title="Link to this definition">¶</a></dt>
+<dd><p>Electrostatic force via electric field.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">q0</span> <span class="pre">*</span> <span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\vec F = q_0 \vec E\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>electric_field_</strong> – <p>vector of electric field</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec E\)</span></p>
+<p>Dimension: <em>force</em> / <em>charge</em></p>
+</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>vector of electrostatic force</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
+<p>Dimension: <em>force</em></p>
+</p>
 </dd>
 </dl>
 </dd></dl>

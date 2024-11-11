@@ -32,12 +32,6 @@ the individual forces, however these deformations must be small.
         :code:`e_1`
 
     Latex:
-        :math:`e_1`
-
-    Symbol:
-        :code:`e_1`
-
-    Latex:
         :math:`e_{1}`
 
     Dimension:

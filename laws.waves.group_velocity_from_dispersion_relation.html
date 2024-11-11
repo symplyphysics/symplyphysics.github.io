@@ -12,7 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.waves.group_velocity_from_dispersion_relation.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -42,6 +42,20 @@ is called group velocity. In other words, it is the speed with which the overall
 shape of the wave’s amplitudes — called envelope of modulation of the wave — propagates
 through space.</p>
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber">
+<span class="sig-name descname"><span class="pre">angular_wavenumber</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a> of the wave.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.group_velocity">
 <span class="sig-name descname"><span class="pre">group_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.group_velocity" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.group_speed" title="symplyphysics.symbols.classical_mechanics.group_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">group_speed</span></code></a> of the wave packet.</p>
@@ -61,9 +75,9 @@ through space.</p>
 <dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the wave as a function of <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a>, also called the
 <em>dispersion relation</em> of the wave.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w(k)()</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w(k)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega{\left( \right)}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega{\left(k \right)}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
 </dd>
@@ -71,23 +85,9 @@ through space.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber">
-<span class="sig-name descname"><span class="pre">angular_wavenumber</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a> of the wave.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/length</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">v_g</span> <span class="pre">=</span> <span class="pre">Derivative(w(k)(k),</span> <span class="pre">k)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">v_g</span> <span class="pre">=</span> <span class="pre">Derivative(w(k),</span> <span class="pre">k)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
 \[v_\text{g} = \frac{d}{d k} \omega{\left(k \right)}\]</div>
@@ -155,9 +155,9 @@ through space.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.fully_constructive_interference_condition.html">Fully constructive interference condition</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.fully_destructive_interference_condition.html">Fully destructive interference condition</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Group velocity from dispersion relation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber"><code class="docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.group_velocity"><code class="docutils literal notranslate"><span class="pre">group_velocity</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_frequency"><code class="docutils literal notranslate"><span class="pre">angular_frequency</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber"><code class="docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>

@@ -11,3 +11,38 @@ as the cross product of the pseudovector of angular displacement and the radius 
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.displacement_is_angular_displacement_cross_radius
 
+.. py:function:: displacement_law(angular_displacement_, rotation_radius_)
+
+    Displacement vector.
+
+    Law:
+        :code:`s = cross(theta, r)`
+
+    Latex:
+        .. math::
+            \vec s = \vec \theta \times \vec r
+
+    :param angular_displacement\_: pseudovector of angular displacement parallel to axis of rotation
+
+        Symbol: :code:`theta`
+        
+        Latex: :math:`\vec \theta`
+
+        Dimension: *angle*
+
+    :param rotation_radius\_: radius vector pointing away from the rotational axis and perpendicular to it
+
+        Symbol: :code:`r`
+
+        Latex: :math:`\vec r`
+
+        Dimension: *length*
+
+    :return: vector of linear displacement
+
+        Symbol: :code:`s`
+
+        Latex: :math:`\vec s`
+
+        Dimension: *length*
+

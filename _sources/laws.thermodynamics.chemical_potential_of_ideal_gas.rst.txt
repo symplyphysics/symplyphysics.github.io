@@ -74,6 +74,6 @@ and thermal wavelength.
 
     Latex:
         .. math::
-            \mu = k_\text{B} T \log n \lambda^{3}
+            \mu = k_\text{B} T \log \left( n \lambda^{3} \right)
 
 

@@ -12,7 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.vector.coriolis_acceleration.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -44,6 +44,42 @@ but it appears to do so because of the motion of the coordinate system.</p>
 <p>Suppose a reference frame <span class="math notranslate nohighlight">\(S'\)</span> is fixed to a rotating body <span class="math notranslate nohighlight">\(A\)</span> (e.g. Earth), so that frame <span class="math notranslate nohighlight">\(S'\)</span> rotates w.r.t.
 another static reference frame <span class="math notranslate nohighlight">\(S\)</span>. The Coriolis acceleration is the acceleration another body <span class="math notranslate nohighlight">\(B\)</span> has when
 moving within rotating reference frame <span class="math notranslate nohighlight">\(S'\)</span>, so it is essentially zero for objects at rest in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration_law">
+<span class="sig-name descname"><span class="pre">coriolis_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angular_velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/coriolis_acceleration.html#coriolis_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration_law" title="Link to this definition">¶</a></dt>
+<dd><p>Coriolis acceleration via relative velocity of body and angular velocity of rotation of <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_cor</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">cross(v_rel,</span> <span class="pre">w)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{cor} = 2 ({\vec v}_\text{rel} \times \vec \omega)\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>velocity_</strong> – <p>velocity of body relative to <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p></li>
+<li><p><strong>angular_velocity_</strong> – <p>angular velocity of rotation of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec \omega\)</span></p>
+<p>Dimension: <em>angle</em> / <em>time</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>Coriolis acceleration of body in <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_cor</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{cor}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 

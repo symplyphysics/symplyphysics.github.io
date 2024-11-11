@@ -65,6 +65,6 @@ intensity.
 
     Latex:
         .. math::
-            L_{I} = L_{I0} \log_{10} \frac{I}{I_0}
+            L_{I} = L_{I0} \log_{10} \left( \frac{I}{I_0} \right)
 
 

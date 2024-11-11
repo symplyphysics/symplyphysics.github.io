@@ -12,6 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -43,6 +44,42 @@ as the cross product of the pseudovector of angular displacement and the radius 
 <li><p>The axis is fixed.</p></li>
 <li><p>Angular displacement pseudovector and radius vector must be orthogonal to one another.</p></li>
 </ol>
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.displacement_law">
+<span class="sig-name descname"><span class="pre">displacement_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angular_displacement_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation_radius_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/displacement_is_angular_displacement_cross_radius.html#displacement_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.displacement_law" title="Link to this definition">¶</a></dt>
+<dd><p>Displacement vector.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">s</span> <span class="pre">=</span> <span class="pre">cross(theta,</span> <span class="pre">r)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\vec s = \vec \theta \times \vec r\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>angular_displacement_</strong> – <p>pseudovector of angular displacement parallel to axis of rotation</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">theta</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec \theta\)</span></p>
+<p>Dimension: <em>angle</em></p>
+</p></li>
+<li><p><strong>rotation_radius_</strong> – <p>radius vector pointing away from the rotational axis and perpendicular to it</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec r\)</span></p>
+<p>Dimension: <em>length</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>vector of linear displacement</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">s</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\(\vec s\)</span></p>
+<p>Dimension: <em>length</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 

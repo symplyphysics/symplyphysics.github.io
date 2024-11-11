@@ -28,3 +28,138 @@ magnetic field.
     Symbol:
         :code:`q`
 
+.. py:function:: lorentz_force_law(electric_field_, magnetic_flux_density_, velocity_)
+
+    Lorentz force via electric and magnetic fields, and velocity.
+
+    Law:
+        :code:`F = q * (E + cross(v, B))`
+
+    Latex:
+        .. math::
+            \vec F = q \left( \vec E + \vec v \times \vec B \right)
+
+    :param electric\_field\_: vector of electric field
+
+        Symbol: :code:`E`
+
+        Latex: :math:`\vec E`
+
+        Dimension: *voltage* / *length*
+
+    :param magnetic\_flux\_density\_: pseudovector of magnetic flux density
+
+        Symbol: :code:`B`
+
+        Latex: :math:`\vec B`
+
+        Dimension: *magnetic density*
+
+    :param velocity\_: vector of particle's velocity
+
+        Symbol: :code:`v`
+
+        Latex: :math:`\vec v`
+
+        Dimension: *velocity*
+
+    :return: Lorentz force acting on the charged particle
+
+        Symbol: :code:`F`
+
+        Latex: :math:`\vec F`
+
+        Dimension: *force*
+
+.. py:function:: electric_field_law(lorentz_force_, magnetic_flux_density_, velocity_)
+
+    Electric field via Lorentz force, magnetic field, and velocity.
+
+    Law:
+        :code:`E = F / q - cross(v, B)`
+
+    Latex:
+        .. math::
+            \vec E = \frac{\vec F}{q} - \vec v \times \vec B
+
+    :param lorentz\_force\_: Lorentz force acting on the charged particle
+
+        Symbol: :code:`F`
+
+        Latex: :math:`\vec F`
+
+        Dimension: *force*
+
+    :param magnetic\_flux\_density\_: pseudovector of magnetic flux density
+
+        Symbol: :code:`B`
+
+        Latex: :math:`\vec B`
+
+        Dimension: *magnetic density*
+
+    :param velocity\_: vector of particle's velocity
+
+        Symbol: :code:`v`
+
+        Latex: :math:`\vec v`
+
+        Dimension: *velocity*
+
+    :return: vector of electric field
+
+        Symbol: :code:`E`
+
+        Latex: :math:`\vec E`
+
+        Dimension: *voltage* / *length*
+
+.. py:function:: charge_law(lorentz_force_, electric_field_, magnetic_flux_density_, velocity_)
+
+    Magnitude of the particle's charge via force and electromagnetic field.
+
+    Law:
+        :code:`abs(q) = norm(F) / norm(E + cross(v, B))`
+
+    Latex:
+        .. math::
+            |q| = \frac{\lVert \vec F \rVert}{\left \lVert \vec E + \vec v \times \vec B \right \rVert}
+
+    :param lorentz\_force\_: Lorentz force acting on the charged particle
+
+        Symbol: :code:`F`
+
+        Latex: :math:`\vec F`
+
+        Dimension: *force*
+
+    :param electric\_field\_: vector of electric field
+
+        Symbol: :code:`E`
+
+        Latex: :math:`\vec E`
+
+        Dimension: *voltage* / *length*
+
+    :param magnetic\_flux\_density\_: pseudovector of magnetic flux density
+
+        Symbol: :code:`B`
+
+        Latex: :math:`\vec B`
+
+        Dimension: *magnetic density*
+
+    :param velocity\_: vector of particle's velocity
+
+        Symbol: :code:`v`
+
+        Latex: :math:`\vec v`
+
+        Dimension: *velocity*
+
+    :return: magnitude of the test charge
+
+        Symbol: :code:`q`
+
+        Dimension: *charge*
+

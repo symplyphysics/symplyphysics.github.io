@@ -12,7 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -44,6 +44,170 @@ of the moving frame relative to the fixed frame, centripetal acceleration and th
 rotation of the moving frame. The transfer acceleration only depends on the motion of frame <span class="math notranslate nohighlight">\(S'\)</span> relative to
 stationary frame <span class="math notranslate nohighlight">\(S\)</span>, so its physical meaning would be that it is the acceleration in <span class="math notranslate nohighlight">\(S\)</span> of a point stationary
 in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.transfer_acceleration_law">
+<span class="sig-name descname"><span class="pre">transfer_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">moving_frame_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">centripetal_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_of_transfer_between_relative_frames.html#transfer_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.transfer_acceleration_law" title="Link to this definition">¶</a></dt>
+<dd><p>Transfer acceleration as a sum of accelerations.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_tr</span> <span class="pre">=</span> <span class="pre">a_0</span> <span class="pre">+</span> <span class="pre">a_cp</span> <span class="pre">+</span> <span class="pre">a_rot</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{tr} = {\vec a}_0 + {\vec a}_\text{cp} + {\vec a}_\text{rot}\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>moving_frame_acceleration_</strong> – <p>acceleration of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_0</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_0\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>centripetal_acceleration_</strong> – <p>centripetal acceleration of body in <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_cp</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{cp}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>rotation_acceleration_</strong> – <p>acceleration caused by non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_rot</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{rot}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>transfer acceleration of body</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_tr</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{tr}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration_law">
+<span class="sig-name descname"><span class="pre">moving_frame_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">transfer_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">centripetal_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_of_transfer_between_relative_frames.html#moving_frame_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration_law" title="Link to this definition">¶</a></dt>
+<dd><p>Acceleration of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span>.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_0</span> <span class="pre">=</span> <span class="pre">a_tr</span> <span class="pre">-</span> <span class="pre">(a_cp</span> <span class="pre">+</span> <span class="pre">a_rot)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_0 = {\vec a}_\text{tr} - ({\vec a}_\text{cp} + {\vec a}_\text{rot})\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>transfer_acceleration_</strong> – <p>transfer acceleration of body</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_tr</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{tr}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>centripetal_acceleration_</strong> – <p>centripetal acceleration of body in <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_cp</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{cp}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>rotation_acceleration_</strong> – <p>acceleration caused by non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_rot</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{rot}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>acceleration of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_0</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_0\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.centripetal_acceleration_law">
+<span class="sig-name descname"><span class="pre">centripetal_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">transfer_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">moving_frame_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rotation_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_of_transfer_between_relative_frames.html#centripetal_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.centripetal_acceleration_law" title="Link to this definition">¶</a></dt>
+<dd><p>Centripetal acceleration in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_cp</span> <span class="pre">=</span> <span class="pre">a_tr</span> <span class="pre">-</span> <span class="pre">(a_0</span> <span class="pre">+</span> <span class="pre">a_rot)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{cp} = {\vec a}_\text{tr} - ({\vec a}_0 + {\vec a}_\text{rot})\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>transfer_acceleration_</strong> – <p>transfer acceleration of body</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_tr</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{tr}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>moving_frame_acceleration_</strong> – <p>acceleration of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_0</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_0\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>rotation_acceleration_</strong> – <p>acceleration caused by non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_rot</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{rot}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>centripetal acceleration of body in <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_cp</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{cp}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.rotation_acceleration_law">
+<span class="sig-name descname"><span class="pre">rotation_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">transfer_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">moving_frame_acceleration_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">centripetal_acceleration_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_of_transfer_between_relative_frames.html#rotation_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.rotation_acceleration_law" title="Link to this definition">¶</a></dt>
+<dd><p>Acceleration due to non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_rot</span> <span class="pre">=</span> <span class="pre">a_tr</span> <span class="pre">-</span> <span class="pre">(a_0</span> <span class="pre">+</span> <span class="pre">a_cp)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{rot} = {\vec a}_\text{tr} - ({\vec a}_0 + {\vec a}_\text{cp})\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>transfer_acceleration_</strong> – <p>transfer acceleration of body</p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_tr</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{tr}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>moving_frame_acceleration_</strong> – <p>acceleration of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_0</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_0\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+<li><p><strong>centripetal_acceleration_</strong> – <p>centripetal acceleration of body in <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_cp</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{cp}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>acceleration caused by non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_rot</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{rot}\)</span></p>
+<p>Dimension: <em>acceleration</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 

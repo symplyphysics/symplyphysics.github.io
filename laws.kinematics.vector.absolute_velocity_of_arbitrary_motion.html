@@ -12,7 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -45,6 +45,114 @@ motion</em>. Absolute velocity is the sum of relative and transfer velocities.</
 <ol class="arabic simple">
 <li><p>Moving frame <span class="math notranslate nohighlight">\(S'\)</span> can perform both translational and rotational motion.</p></li>
 </ol>
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.absolute_velocity_law">
+<span class="sig-name descname"><span class="pre">absolute_velocity_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">relative_velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">transfer_velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/absolute_velocity_of_arbitrary_motion.html#absolute_velocity_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.absolute_velocity_law" title="Link to this definition">¶</a></dt>
+<dd><p>Absolute velocity via relative and transfer velocities.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_abs</span> <span class="pre">=</span> <span class="pre">v_rel</span> <span class="pre">+</span> <span class="pre">v_tr</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec v}_\text{abs} = {\vec v}_\text{rel} + {\vec v}_\text{tr}\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>relative_velocity_</strong> – <p>velocity relative to moving frame <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p></li>
+<li><p><strong>transfer_velocity_</strong> – <p>velocity due to movement of frame <span class="math notranslate nohighlight">\(S'\)</span> relative to frame <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_tr</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{tr}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>velocity relative to fixed frame <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_abs</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{abs}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.relative_velocity_law">
+<span class="sig-name descname"><span class="pre">relative_velocity_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">absolute_velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">transfer_velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/absolute_velocity_of_arbitrary_motion.html#relative_velocity_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.relative_velocity_law" title="Link to this definition">¶</a></dt>
+<dd><p>Relative velocity via absolute and transfer velocities.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_rel</span> <span class="pre">=</span> <span class="pre">v_abs</span> <span class="pre">-</span> <span class="pre">v_tr</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec v}_\text{rel} = {\vec v}_\text{abs} - {\vec v}_\text{tr}\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>absolute_velocity_</strong> – <p>velocity relative to fixed frame <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_abs</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{abs}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p></li>
+<li><p><strong>transfer_velocity_</strong> – <p>velocity due to movement of frame <span class="math notranslate nohighlight">\(S'\)</span> relative to frame <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_tr</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{tr}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>velocity relative to moving frame <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.transfer_velocity_law">
+<span class="sig-name descname"><span class="pre">transfer_velocity_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">absolute_velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">relative_velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/absolute_velocity_of_arbitrary_motion.html#transfer_velocity_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.transfer_velocity_law" title="Link to this definition">¶</a></dt>
+<dd><p>Transfer velocity via absolute and relative velocities.</p>
+<dl>
+<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_tr</span> <span class="pre">=</span> <span class="pre">v_abs</span> <span class="pre">-</span> <span class="pre">v_rel</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec v}_\text{tr} = {\vec v}_\text{abs} - {\vec v}_\text{rel}\]</div>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>absolute_velocity_</strong> – <p>velocity relative to fixed frame <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_abs</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{abs}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p></li>
+<li><p><strong>relative_velocity_</strong> – <p>velocity relative to moving frame <span class="math notranslate nohighlight">\(S'\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p><p>velocity due to movement of frame <span class="math notranslate nohighlight">\(S'\)</span> relative to frame <span class="math notranslate nohighlight">\(S\)</span></p>
+<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_tr</span></code></p>
+<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{tr}\)</span></p>
+<p>Dimension: <em>velocity</em></p>
+</p>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 

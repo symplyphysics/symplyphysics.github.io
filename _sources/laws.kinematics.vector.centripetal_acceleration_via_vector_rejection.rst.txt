@@ -15,3 +15,38 @@ Also see :doc:`laws.kinematics.vector.centripetal_acceleration_via_cross_product
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection
 
+.. py:function:: centripetal_acceleration_law(angular_velocity_, radius_vector_)
+
+    Centripetal acceleration via angular velocity and radius vector.
+
+    Law:
+        :code:`a_c = -1 * norm(w)^2 * reject(r, w)`
+
+    Latex:
+        .. math::
+            {\vec a}_\text{c} = - |\vec \omega|^2 \text{oproj}_{\vec \omega} \vec r
+
+    :param angular_velocity\_: pseudovector of angular velocity
+
+        Symbol: :code:`w`
+
+        Latex: :math:`\vec \omega`
+
+        Dimension: *angle* / *time*
+
+    :param radius_vector\_: radius vector, or position vector
+
+        Symbol: :code:`r`
+
+        Latex: :math:`\vec r`
+
+        Dimension: *length*
+
+    :return: vector of centripetal acceleration
+
+        Symbol: :code:`a_c`
+
+        Latex: :math:`{\vec a}_\text{c}`
+
+        Dimension: *acceleration*
+

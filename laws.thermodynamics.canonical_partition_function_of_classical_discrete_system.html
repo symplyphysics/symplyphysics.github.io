@@ -12,7 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.thermodynamics.canonical_partition_function_of_classical_discrete_system.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -60,9 +60,9 @@ of all the possible energy states:</p>
 <span class="sig-name descname"><span class="pre">boltzmann_factor</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.canonical_partition_function_of_classical_discrete_system.boltzmann_factor" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.boltzmann_factor" title="symplyphysics.symbols.thermodynamics.boltzmann_factor"><code class="xref py py-attr docutils literal notranslate"><span class="pre">boltzmann_factor</span></code></a> of energy state <span class="math notranslate nohighlight">\(i\)</span>. See <a class="reference internal" href="definitions.boltzmann_factor_via_state_energy_and_temperature.html"><span class="doc">Boltzmann factor</span></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f[i][i]</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f[i]</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({f_i}_{i}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({f}_{i}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
@@ -72,10 +72,10 @@ of all the possible energy states:</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.canonical_partition_function_of_classical_discrete_system.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.canonical_partition_function_of_classical_discrete_system.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span> <span class="pre">=</span> <span class="pre">Sum(f[i][i],</span> <span class="pre">i)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span> <span class="pre">=</span> <span class="pre">Sum(f[i],</span> <span class="pre">i)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[Z = \sum_i {f_i}_{i}\]</div>
+\[Z = \sum_i {f}_{i}\]</div>
 </dd>
 </dl>
 </dd></dl>

@@ -16,3 +16,57 @@ the electrostatic force that is applied to it.
     Latex:
         :math:`q_0`
 
+.. py:function:: electric_field_law(electrostatic_force_)
+
+    Electric field via electrostatic force.
+
+    Law:
+        :code:`E = F / q0`
+
+    Latex:
+        .. math::
+            \vec E = \frac{\vec F}{q_0}
+
+    :param electrostatic\_force\_: vector of electrostatic force
+
+        Symbol: :code:`F`
+
+        Latex: :math:`\vec F`
+
+        Dimension: *force*
+
+    :return: vector of electric field
+
+        Symbol: :code:`E`
+
+        Latex: :math:`\vec E`
+
+        Dimension: *force* / *charge*
+
+.. py:function:: electrostatic_force_law(electric_field_)
+
+    Electrostatic force via electric field.
+
+    Law:
+        :code:`F = q0 * E`
+
+    Latex:
+        .. math::
+            \vec F = q_0 \vec E
+
+    :param electric\_field\_: vector of electric field
+
+        Symbol: :code:`E`
+
+        Latex: :math:`\vec E`
+
+        Dimension: *force* / *charge*
+
+    :return: vector of electrostatic force
+
+        Symbol: :code:`F`
+
+        Latex: :math:`\vec F`
+
+        Dimension: *force*
+

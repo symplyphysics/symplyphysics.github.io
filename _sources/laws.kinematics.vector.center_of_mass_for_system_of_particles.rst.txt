@@ -6,3 +6,38 @@ the sum of weighted relative positions of the distributed mass is zero.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles
 
+.. py:function:: center_of_mass_law(masses_, position_vectors_)
+
+    Vector of the center of mass from masses and position vectors.
+
+    Law:
+        :code:`r_com = Sum(m_i * r_i, i) / Sum(m_i, i)`
+
+    Latex:
+        .. math::
+            {\vec r}_\text{com} = \frac{\sum_i m_i {\vec r}_i}{\sum_i m_i}
+
+    :param masses\_: sequence of masses of individual parts
+
+        Symbol: :code:`m_i`
+
+        Latex: :math:`m_i`
+
+        Dimension: *mass*
+
+    :param position_vectors\_: sequence of position vectors of individual parts
+
+        Symbol: :code:`r_i`
+
+        Latex: :math:`{\vec r}_i`
+
+        Dimension: *length*
+
+    :return: vector of the center of mass
+
+        Symbol: :code:`r_com`
+
+        Latex: :math:`{\vec r}_\text{com}`
+
+        Dimension: *length*
+

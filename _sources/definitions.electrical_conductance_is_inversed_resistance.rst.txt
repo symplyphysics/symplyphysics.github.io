@@ -21,7 +21,7 @@ It is defined as the inverse of resistance.
 
 .. py:data:: resistance
 
-    symbols:`resistance` of the object.
+    symbols:`electrical_resistance` of the object.
 
     Symbol:
         :code:`R`

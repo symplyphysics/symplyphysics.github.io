@@ -25,3 +25,38 @@ the electrostatic force that is applied to it.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.vector.electric_flux_of_uniform_electric_field
 
+.. py:function:: electric_flux_law(electric_field_, area_)
+
+    Electric flux via electric field and vector area.
+
+    Law:
+        :code:`Phi_E = dot(E, A)`
+
+    Latex:
+        .. math::
+            \Phi_E = \vec E \cdot \vec A
+
+    :param electric\_field\_: vector of electric field
+
+        Symbol: :code:`E`
+
+        Latex: :math:`\vec E`
+
+        Dimension: :code:`voltage/length`
+
+    :param area\_: vector area
+
+        Symbol: :code:`A`
+
+        Latex: :math:`\vec A`
+
+        Dimension: :code:`area`
+
+    :return: electric flux
+
+        Symbol: :code:`Phi_E`
+
+        Latex: :math:`\Phi_E`
+
+        Dimension: :code:`voltage*length`
+

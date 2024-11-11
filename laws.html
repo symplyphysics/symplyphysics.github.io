@@ -12,7 +12,7 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script async="async" src="_static/scipy-mathjax/MathJax.js?config=scipy-mathjax"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -240,7 +240,10 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.dynamics.vector.html"><strong>Dynamics (Vector)</strong></a><ul>
-<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity.html">Kinetic energy via angular momentum and angular velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity.html">Kinetic energy via angular momentum and angular velocity</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity.html#symplyphysics.laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity.kinetic_energy_law"><code class="docutils literal notranslate"><span class="pre">kinetic_energy_law()</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.dynamics.acceleration_is_force_over_mass.html">Acceleration is force over mass</a><ul>
@@ -603,15 +606,24 @@
 <li class="toctree-l2"><a class="reference internal" href="laws.electricity.vector.html"><strong>Electromagnetism (Vector)</strong></a><ul>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.html">Electric dipole moment is charge times displacement</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.html#symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.charge"><code class="docutils literal notranslate"><span class="pre">charge</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.html#symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.dipole_moment_law"><code class="docutils literal notranslate"><span class="pre">dipole_moment_law()</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.electric_field_is_force_over_test_charge.html">Electric field is force over test charge (Vector)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.electric_field_is_force_over_test_charge.html#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.test_charge"><code class="docutils literal notranslate"><span class="pre">test_charge</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.electric_field_is_force_over_test_charge.html#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electric_field_law"><code class="docutils literal notranslate"><span class="pre">electric_field_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.electric_field_is_force_over_test_charge.html#symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge.electrostatic_force_law"><code class="docutils literal notranslate"><span class="pre">electrostatic_force_law()</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.electric_flux_of_uniform_electric_field.html">Electric flux of uniform electric field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.electric_flux_of_uniform_electric_field.html">Electric flux of uniform electric field</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.electric_flux_of_uniform_electric_field.html#symplyphysics.laws.electricity.vector.electric_flux_of_uniform_electric_field.electric_flux_law"><code class="docutils literal notranslate"><span class="pre">electric_flux_law()</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html">Lorentz force via electromagnetic field</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.charge"><code class="docutils literal notranslate"><span class="pre">charge</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.lorentz_force_law"><code class="docutils literal notranslate"><span class="pre">lorentz_force_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.electric_field_law"><code class="docutils literal notranslate"><span class="pre">electric_field_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.vector.lorentz_force_via_electromagnetic_field.html#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.charge_law"><code class="docutils literal notranslate"><span class="pre">charge_law()</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -1127,17 +1139,59 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.kinematics.vector.html"><strong>Kinematics (Vector)</strong></a><ul>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html">Acceleration is normal plus tangential acceleration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html">Acceleration of transfer between relative frames</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.center_of_mass_for_system_of_particles.html">Center of mass for a system of particles</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html">Centripetal acceleration via cross product</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.html">Centripetal acceleration via vector rejection</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html">Coriolis acceleration</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html">Linear displacement is angular displacement cross radius</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.absolute_velocity_law"><code class="docutils literal notranslate"><span class="pre">absolute_velocity_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.relative_velocity_law"><code class="docutils literal notranslate"><span class="pre">relative_velocity_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.html#symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion.transfer_velocity_law"><code class="docutils literal notranslate"><span class="pre">transfer_velocity_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration_law"><code class="docutils literal notranslate"><span class="pre">non_uniform_rotation_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html">Acceleration is normal plus tangential acceleration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.acceleration_law"><code class="docutils literal notranslate"><span class="pre">acceleration_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.normal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">normal_acceleration_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration.tangential_acceleration_law"><code class="docutils literal notranslate"><span class="pre">tangential_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html">Acceleration of transfer between relative frames</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.transfer_acceleration_law"><code class="docutils literal notranslate"><span class="pre">transfer_acceleration_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration_law"><code class="docutils literal notranslate"><span class="pre">moving_frame_acceleration_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.centripetal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.html#symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames.rotation_acceleration_law"><code class="docutils literal notranslate"><span class="pre">rotation_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.center_of_mass_for_system_of_particles.html">Center of mass for a system of particles</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.center_of_mass_for_system_of_particles.html#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass_law"><code class="docutils literal notranslate"><span class="pre">center_of_mass_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_law"><code class="docutils literal notranslate"><span class="pre">centrifugal_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centripetal_law"><code class="docutils literal notranslate"><span class="pre">centripetal_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html">Centripetal acceleration via cross product</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_cross_product.centripetal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.html">Centripetal acceleration via vector rejection</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.html#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html">Coriolis acceleration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html#symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration_law"><code class="docutils literal notranslate"><span class="pre">coriolis_acceleration_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html">Linear displacement is angular displacement cross radius</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.html#symplyphysics.laws.kinematics.vector.displacement_is_angular_displacement_cross_radius.displacement_law"><code class="docutils literal notranslate"><span class="pre">displacement_law()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_velocity_law"><code class="docutils literal notranslate"><span class="pre">relative_velocity_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.vector.velocity_relative_to_reference_frame.html#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_position_law"><code class="docutils literal notranslate"><span class="pre">relative_position_law()</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed.html">Angular momentum is rotational inertia times angular speed</a><ul>
@@ -1262,44 +1316,41 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="laws.optics.html">Optics</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="laws.optics.html#small-angle-approximation">Small-angle approximation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html">Angle of light deflection in prism</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.deviation_angle"><code class="docutils literal notranslate"><span class="pre">deviation_angle</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.face_angle"><code class="docutils literal notranslate"><span class="pre">face_angle</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.relative_refractive_index"><code class="docutils literal notranslate"><span class="pre">relative_refractive_index</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html">Angle of light deflection in prism</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.deviation_angle"><code class="docutils literal notranslate"><span class="pre">deviation_angle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.face_angle"><code class="docutils literal notranslate"><span class="pre">face_angle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.relative_refractive_index"><code class="docutils literal notranslate"><span class="pre">relative_refractive_index</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html#symplyphysics.laws.optics.angle_of_light_deflection_in_prism.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html">Bragg diffraction from angle of diffraction and wavelength</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.distance"><code class="docutils literal notranslate"><span class="pre">distance</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.diffraction_order"><code class="docutils literal notranslate"><span class="pre">diffraction_order</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.wavelength"><code class="docutils literal notranslate"><span class="pre">wavelength</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.glancing_angle"><code class="docutils literal notranslate"><span class="pre">glancing_angle</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html">Bragg diffraction from angle of diffraction and wavelength</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.distance"><code class="docutils literal notranslate"><span class="pre">distance</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.diffraction_order"><code class="docutils literal notranslate"><span class="pre">diffraction_order</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.wavelength"><code class="docutils literal notranslate"><span class="pre">wavelength</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.glancing_angle"><code class="docutils literal notranslate"><span class="pre">glancing_angle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html#symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html">Film thickness for minimum interference</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.film_thickness"><code class="docutils literal notranslate"><span class="pre">film_thickness</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.wavelength"><code class="docutils literal notranslate"><span class="pre">wavelength</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.interference_order"><code class="docutils literal notranslate"><span class="pre">interference_order</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.refraction_angle"><code class="docutils literal notranslate"><span class="pre">refraction_angle</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.relative_refractive_index"><code class="docutils literal notranslate"><span class="pre">relative_refractive_index</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html">Film thickness for minimum interference</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.film_thickness"><code class="docutils literal notranslate"><span class="pre">film_thickness</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.wavelength"><code class="docutils literal notranslate"><span class="pre">wavelength</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.interference_order"><code class="docutils literal notranslate"><span class="pre">interference_order</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.refraction_angle"><code class="docutils literal notranslate"><span class="pre">refraction_angle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.relative_refractive_index"><code class="docutils literal notranslate"><span class="pre">relative_refractive_index</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html#symplyphysics.laws.optics.film_thickness_for_minimum_interference.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html">Focal length of a concave spherical mirror</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html#symplyphysics.laws.optics.focal_length_of_a_concave_spherical_mirror.focal_length"><code class="docutils literal notranslate"><span class="pre">focal_length</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html#symplyphysics.laws.optics.focal_length_of_a_concave_spherical_mirror.curvature_radius"><code class="docutils literal notranslate"><span class="pre">curvature_radius</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html#symplyphysics.laws.optics.focal_length_of_a_concave_spherical_mirror.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html">Focal length of a concave spherical mirror</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html#symplyphysics.laws.optics.focal_length_of_a_concave_spherical_mirror.focal_length"><code class="docutils literal notranslate"><span class="pre">focal_length</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html#symplyphysics.laws.optics.focal_length_of_a_concave_spherical_mirror.curvature_radius"><code class="docutils literal notranslate"><span class="pre">curvature_radius</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html#symplyphysics.laws.optics.focal_length_of_a_concave_spherical_mirror.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html">Optical path length from geometrical path length and refractive index</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.optical_path"><code class="docutils literal notranslate"><span class="pre">optical_path</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.geometrical_path"><code class="docutils literal notranslate"><span class="pre">geometrical_path</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.refractive_index"><code class="docutils literal notranslate"><span class="pre">refractive_index</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html">Optical path length from geometrical path length and refractive index</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.optical_path"><code class="docutils literal notranslate"><span class="pre">optical_path</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.geometrical_path"><code class="docutils literal notranslate"><span class="pre">geometrical_path</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.refractive_index"><code class="docutils literal notranslate"><span class="pre">refractive_index</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html#symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
 </ul>
@@ -2275,9 +2326,9 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.waves.group_velocity_from_dispersion_relation.html">Group velocity from dispersion relation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="laws.waves.group_velocity_from_dispersion_relation.html#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber"><code class="docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.group_velocity_from_dispersion_relation.html#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.group_velocity"><code class="docutils literal notranslate"><span class="pre">group_velocity</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.group_velocity_from_dispersion_relation.html#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_frequency"><code class="docutils literal notranslate"><span class="pre">angular_frequency</span></code></a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.waves.group_velocity_from_dispersion_relation.html#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.angular_wavenumber"><code class="docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.group_velocity_from_dispersion_relation.html#symplyphysics.laws.waves.group_velocity_from_dispersion_relation.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>

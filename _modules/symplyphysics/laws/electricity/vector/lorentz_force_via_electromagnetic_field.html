@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/alabaster.css?v=27fed22d" />
+    <script src="../../../../../_static/documentation_options.js?v=8d563738"></script>
+    <script src="../../../../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/_modules/symplyphysics/laws/electricity/vector/lorentz_force_via_electromagnetic_field.html" />
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+   
+  <link rel="stylesheet" href="../../../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field</h1><div class="highlight"><pre>
+<span></span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Lorentz force via electromagnetic field</span>
+<span class="sd">=======================================</span>
+
+<span class="sd">The **Lorentz force law** states that a charged particle moving in an electromagnetic</span>
+<span class="sd">field experiences a force that depends on the values of the electric field and the</span>
+<span class="sd">magnetic field.</span>
+
+<span class="sd">**Notation:**</span>
+
+<span class="sd">#. :math:`\vec a \times \vec b` (:code:`cross(a, b)`) is the cross product between</span>
+<span class="sd">   :math:`\vec a` and :math:`\vec b`.</span>
+<span class="sd">#. :math:`\lVert \vec a \rVert` (:code:`norm(a)`) is the Euclidean norm of :math:`\vec a`.</span>
+<span class="sd">#. :math:`|x|` (:code:`abs(x)`) is the absolute value of :math:`x`.</span>
+
+<span class="sd">**Notes:**</span>
+
+<span class="sd">#. This law is valid even in the relativistic case.</span>
+<span class="sd">#. This law works only in principle because a real particle would generate its own</span>
+<span class="sd">   electromagnetic field that would interact with the external one which would alter</span>
+<span class="sd">   the electromagnetic force it experiences.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">Expr</span>
+<span class="kn">from</span> <span class="nn">symplyphysics</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">Quantity</span><span class="p">,</span>
+    <span class="n">QuantityVector</span><span class="p">,</span>
+    <span class="n">scale_vector</span><span class="p">,</span>
+    <span class="n">add_cartesian_vectors</span><span class="p">,</span>
+    <span class="n">subtract_cartesian_vectors</span><span class="p">,</span>
+    <span class="n">cross_cartesian_vectors</span><span class="p">,</span>
+    <span class="n">vector_magnitude</span><span class="p">,</span>
+    <span class="n">Symbol</span><span class="p">,</span>
+    <span class="n">units</span><span class="p">,</span>
+    <span class="n">validate_input</span><span class="p">,</span>
+    <span class="n">validate_output</span><span class="p">,</span>
+    <span class="n">Vector</span><span class="p">,</span>
+<span class="p">)</span>
+
+<span class="n">charge</span> <span class="o">=</span> <span class="n">Symbol</span><span class="p">(</span><span class="s2">&quot;charge&quot;</span><span class="p">,</span> <span class="n">units</span><span class="o">.</span><span class="n">charge</span><span class="p">)</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Value of the electric charge of the test particle.</span>
+
+<span class="sd">Symbol:</span>
+<span class="sd">    :code:`q`</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+
+<div class="viewcode-block" id="lorentz_force_law">
+<a class="viewcode-back" href="../../../../../laws.electricity.vector.lorentz_force_via_electromagnetic_field.html#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.lorentz_force_law">[docs]</a>
+<span class="k">def</span> <span class="nf">lorentz_force_law</span><span class="p">(</span>
+    <span class="n">electric_field_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">magnetic_flux_density_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">velocity_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
+<span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Lorentz force via electric and magnetic fields, and velocity.</span>
+
+<span class="sd">    Law:</span>
+<span class="sd">        :code:`F = q * (E + cross(v, B))`</span>
+
+<span class="sd">    Latex:</span>
+<span class="sd">        .. math::</span>
+<span class="sd">            \vec F = q \left( \vec E + \vec v \times \vec B \right)</span>
+
+<span class="sd">    :param electric\_field\_: vector of electric field</span>
+
+<span class="sd">        Symbol: :code:`E`</span>
+
+<span class="sd">        Latex: :math:`\vec E`</span>
+
+<span class="sd">        Dimension: *voltage* / *length*</span>
+<span class="sd">    </span>
+<span class="sd">    :param magnetic\_flux\_density\_: pseudovector of magnetic flux density</span>
+
+<span class="sd">        Symbol: :code:`B`</span>
+
+<span class="sd">        Latex: :math:`\vec B`</span>
+
+<span class="sd">        Dimension: *magnetic density*</span>
+
+<span class="sd">    :param velocity\_: vector of particle&#39;s velocity</span>
+
+<span class="sd">        Symbol: :code:`v`</span>
+
+<span class="sd">        Latex: :math:`\vec v`</span>
+
+<span class="sd">        Dimension: *velocity*</span>
+<span class="sd">    </span>
+<span class="sd">    :return: Lorentz force acting on the charged particle</span>
+
+<span class="sd">        Symbol: :code:`F`</span>
+
+<span class="sd">        Latex: :math:`\vec F`</span>
+
+<span class="sd">        Dimension: *force*</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">velocity_cross_magnetic_field_</span> <span class="o">=</span> <span class="n">cross_cartesian_vectors</span><span class="p">(</span>
+        <span class="n">velocity_</span><span class="p">,</span>
+        <span class="n">magnetic_flux_density_</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">total_field_</span> <span class="o">=</span> <span class="n">add_cartesian_vectors</span><span class="p">(</span>
+        <span class="n">electric_field_</span><span class="p">,</span>
+        <span class="n">velocity_cross_magnetic_field_</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">scale_vector</span><span class="p">(</span><span class="n">charge</span><span class="p">,</span> <span class="n">total_field_</span><span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="electric_field_law">
+<a class="viewcode-back" href="../../../../../laws.electricity.vector.lorentz_force_via_electromagnetic_field.html#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.electric_field_law">[docs]</a>
+<span class="k">def</span> <span class="nf">electric_field_law</span><span class="p">(</span>
+    <span class="n">lorentz_force_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">magnetic_flux_density_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">velocity_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
+<span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Electric field via Lorentz force, magnetic field, and velocity.</span>
+
+<span class="sd">    Law:</span>
+<span class="sd">        :code:`E = F / q - cross(v, B)`</span>
+
+<span class="sd">    Latex:</span>
+<span class="sd">        .. math::</span>
+<span class="sd">            \vec E = \frac{\vec F}{q} - \vec v \times \vec B</span>
+
+<span class="sd">    :param lorentz\_force\_: Lorentz force acting on the charged particle</span>
+
+<span class="sd">        Symbol: :code:`F`</span>
+
+<span class="sd">        Latex: :math:`\vec F`</span>
+
+<span class="sd">        Dimension: *force*</span>
+
+<span class="sd">    :param magnetic\_flux\_density\_: pseudovector of magnetic flux density</span>
+
+<span class="sd">        Symbol: :code:`B`</span>
+
+<span class="sd">        Latex: :math:`\vec B`</span>
+
+<span class="sd">        Dimension: *magnetic density*</span>
+
+<span class="sd">    :param velocity\_: vector of particle&#39;s velocity</span>
+
+<span class="sd">        Symbol: :code:`v`</span>
+
+<span class="sd">        Latex: :math:`\vec v`</span>
+
+<span class="sd">        Dimension: *velocity*</span>
+
+<span class="sd">    :return: vector of electric field</span>
+
+<span class="sd">        Symbol: :code:`E`</span>
+
+<span class="sd">        Latex: :math:`\vec E`</span>
+
+<span class="sd">        Dimension: *voltage* / *length*</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">velocity_cross_magnetic_field_</span> <span class="o">=</span> <span class="n">cross_cartesian_vectors</span><span class="p">(</span>
+        <span class="n">velocity_</span><span class="p">,</span>
+        <span class="n">magnetic_flux_density_</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">total_field_</span> <span class="o">=</span> <span class="n">scale_vector</span><span class="p">(</span><span class="mi">1</span> <span class="o">/</span> <span class="n">charge</span><span class="p">,</span> <span class="n">lorentz_force_</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">subtract_cartesian_vectors</span><span class="p">(</span>
+        <span class="n">total_field_</span><span class="p">,</span>
+        <span class="n">velocity_cross_magnetic_field_</span><span class="p">,</span>
+    <span class="p">)</span></div>
+
+
+
+<div class="viewcode-block" id="charge_law">
+<a class="viewcode-back" href="../../../../../laws.electricity.vector.lorentz_force_via_electromagnetic_field.html#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.charge_law">[docs]</a>
+<span class="k">def</span> <span class="nf">charge_law</span><span class="p">(</span>
+    <span class="n">lorentz_force_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">electric_field_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">magnetic_flux_density_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+    <span class="n">velocity_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Expr</span><span class="p">:</span>
+<span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Magnitude of the particle&#39;s charge via force and electromagnetic field.</span>
+
+<span class="sd">    Law:</span>
+<span class="sd">        :code:`abs(q) = norm(F) / norm(E + cross(v, B))`</span>
+
+<span class="sd">    Latex:</span>
+<span class="sd">        .. math::</span>
+<span class="sd">            |q| = \frac{\lVert \vec F \rVert}{\left \lVert \vec E + \vec v \times \vec B \right \rVert}</span>
+
+<span class="sd">    :param lorentz\_force\_: Lorentz force acting on the charged particle</span>
+
+<span class="sd">        Symbol: :code:`F`</span>
+
+<span class="sd">        Latex: :math:`\vec F`</span>
+
+<span class="sd">        Dimension: *force*</span>
+
+<span class="sd">    :param electric\_field\_: vector of electric field</span>
+
+<span class="sd">        Symbol: :code:`E`</span>
+
+<span class="sd">        Latex: :math:`\vec E`</span>
+
+<span class="sd">        Dimension: *voltage* / *length*</span>
+<span class="sd">    </span>
+<span class="sd">    :param magnetic\_flux\_density\_: pseudovector of magnetic flux density</span>
+
+<span class="sd">        Symbol: :code:`B`</span>
+
+<span class="sd">        Latex: :math:`\vec B`</span>
+
+<span class="sd">        Dimension: *magnetic density*</span>
+
+<span class="sd">    :param velocity\_: vector of particle&#39;s velocity</span>
+
+<span class="sd">        Symbol: :code:`v`</span>
+
+<span class="sd">        Latex: :math:`\vec v`</span>
+
+<span class="sd">        Dimension: *velocity*</span>
+
+<span class="sd">    :return: magnitude of the test charge</span>
+
+<span class="sd">        Symbol: :code:`q`</span>
+
+<span class="sd">        Dimension: *charge*</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">velocity_cross_magnetic_field_</span> <span class="o">=</span> <span class="n">cross_cartesian_vectors</span><span class="p">(</span>
+        <span class="n">velocity_</span><span class="p">,</span>
+        <span class="n">magnetic_flux_density_</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="n">total_field_</span> <span class="o">=</span> <span class="n">add_cartesian_vectors</span><span class="p">(</span>
+        <span class="n">electric_field_</span><span class="p">,</span>
+        <span class="n">velocity_cross_magnetic_field_</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">vector_magnitude</span><span class="p">(</span><span class="n">lorentz_force_</span><span class="p">)</span> <span class="o">/</span> <span class="n">vector_magnitude</span><span class="p">(</span><span class="n">total_field_</span><span class="p">)</span></div>
+
+
+
+<span class="nd">@validate_input</span><span class="p">(</span>
+    <span class="n">charge_</span><span class="o">=</span><span class="n">charge</span><span class="p">,</span>
+    <span class="n">electric_field_</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">voltage</span> <span class="o">/</span> <span class="n">units</span><span class="o">.</span><span class="n">length</span><span class="p">,</span>
+    <span class="n">magnetic_flux_density_</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">magnetic_density</span><span class="p">,</span>
+    <span class="n">velocity_</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">velocity</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="nd">@validate_output</span><span class="p">(</span><span class="n">units</span><span class="o">.</span><span class="n">force</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">calculate_lorentz_force</span><span class="p">(</span>
+    <span class="n">charge_</span><span class="p">:</span> <span class="n">Quantity</span><span class="p">,</span>
+    <span class="n">electric_field_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,</span>
+    <span class="n">magnetic_flux_density_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,</span>
+    <span class="n">velocity_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">QuantityVector</span><span class="p">:</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">lorentz_force_law</span><span class="p">(</span>
+        <span class="n">electric_field_</span><span class="o">=</span><span class="n">electric_field_</span><span class="o">.</span><span class="n">to_base_vector</span><span class="p">(),</span>
+        <span class="n">magnetic_flux_density_</span><span class="o">=</span><span class="n">magnetic_flux_density_</span><span class="o">.</span><span class="n">to_base_vector</span><span class="p">(),</span>
+        <span class="n">velocity_</span><span class="o">=</span><span class="n">velocity_</span><span class="o">.</span><span class="n">to_base_vector</span><span class="p">(),</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">QuantityVector</span><span class="o">.</span><span class="n">from_base_vector</span><span class="p">(</span>
+        <span class="n">result</span><span class="p">,</span>
+        <span class="n">subs</span><span class="o">=</span><span class="p">{</span><span class="n">charge</span><span class="p">:</span> <span class="n">charge_</span><span class="p">},</span>
+    <span class="p">)</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../../../index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="../../../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../laws.html">Laws</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../../../index.html">Documentation overview</a><ul>
+  <li><a href="../../../../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

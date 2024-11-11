@@ -43,6 +43,6 @@ is the average number of microstates of a system that implement its macro-state.
 
     Latex:
         .. math::
-            S = k_\text{B} \log \Omega
+            S = k_\text{B} \log \left( \Omega \right)
 
 
