@@ -6,11 +6,15 @@ The potential energy is in turn the sum of the potential energy due to the gravi
 between the planet and the Sun, and the the energy of the tangential motion, which depends on the
 planet's angular momentum.
 
+**Links:**
+
+#. Sivukhin, D.V. (1979). *Obshchiy kurs fiziki* [General course of Physics], vol. 1, p. 315.
+
 .. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.potential_energy_of_planetary_motion
 
 .. py:data:: total_potential_energy
 
-    The total potential energy of the planet.
+    The total :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the planet.
 
     Symbol:
         :code:`U_tot`
@@ -18,9 +22,12 @@ planet's angular momentum.
     Latex:
         :math:`U_\text{tot}`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: gravitational_potential_energy
 
-    The potential energy of the planet due to the gravitational interaction of the planet and the star.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the planet due to the gravitational interaction of the planet and the star.
 
     Symbol:
         :code:`U_gr`
@@ -28,12 +35,21 @@ planet's angular momentum.
     Latex:
         :math:`U_\text{gr}`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: angular_momentum
 
-    The angular momentum of the planet.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum` of the planet.
 
     Symbol:
         :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`length**2*mass/time`
 
 .. py:data:: planetary_mass
 
@@ -50,16 +66,24 @@ planet's angular momentum.
 
 .. py:data:: distance
 
-    The distance between the star and the planet.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the star and the planet.
 
     Symbol:
-        :code:`r`
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`U_tot = U_gr + L^2 / (2 * m * r^2)`
+    :code:`U_tot = U_gr + L^2 / (2 * m * d^2)`
+
 
     Latex:
         .. math::
-            U_\text{tot} = U_\text{gr} + \frac{L^2}{2 m r^2}
+            U_\text{tot} = U_\text{gr} + \frac{L^{2}}{2 m d^{2}}
+
 

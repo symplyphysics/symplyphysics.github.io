@@ -7,18 +7,28 @@ The total energy of an orbiting planet is equal to its negative kinetic energy a
 
 #. Works for elliptical (:math:`E < 0`) orbits.
 
+**Links:**
+
+#. `Physics LibreTexts. Section "Energy in Circular Orbits" <https://phys.libretexts.org/Workbench/PH_245_Textbook_V2/13%3A_Gravitation/13.05%3A_Satellite_Orbits_and_Energy>`__.
+
 .. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy
 
 .. py:data:: total_mechanical_energy
 
-    The total mechanical energy of the planet.
+    The total :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` of the planet.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: average_kinetic_energy
 
-    The kinetic energy of the planet averaged over time.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the planet averaged over :attr:`~symplyphysics.symbols.basic.time`.
 
     Symbol:
         :code:`avg(K)`
@@ -26,11 +36,16 @@ The total energy of an orbiting planet is equal to its negative kinetic energy a
     Latex:
         :math:`\langle K \rangle`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: law
 
-    :code:`E = -1 * avg(K)`
+    :code:`E = -avg(K)`
+
 
     Latex:
         .. math::
             E = - \langle K \rangle
+
 

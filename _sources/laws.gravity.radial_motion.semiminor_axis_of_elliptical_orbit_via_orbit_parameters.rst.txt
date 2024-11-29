@@ -4,31 +4,54 @@ Semiminor axis of elliptical orbit via orbit parameters
 The minor semiaxis can be found as a function of the sector speed of the planet,
 the major semiaxis of its orbit, and the mass of body that attracts it, such as the Sun.
 
+**Notation:**
+
+#. :math:`G` (:code:`G`) is :attr:`~symplyphysics.quantities.gravitational_constant`.
+
+**Links:**
+
+#. Sivukhin, D.V. (1979). *Obshchiy kurs fiziki* [General course of Physics], vol. 1, p. 318, (58.5)
+
 .. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters
 
 .. py:data:: semiminor_axis
 
-    The semi-minor axis of the planet's orbit.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.semiminor_axis` of the planet's orbit.
 
     Symbol:
-        b
+        :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: sector_speed
 
-    The sector speed of the planet, i.e. the area swept by the planet per unit time.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.sector_speed` of the planet, i.e. the area swept by the planet per unit time.
 
     Symbol:
-        sigma
+        :code:`sigma`
 
     Latex:
         :math:`\sigma`
 
+    Dimension:
+        :code:`area/time`
+
 .. py:data:: semimajor_axis
 
-    The semi-major axis of the planet's orbit.
+    The :attr:`~symplyphysics.symbols.classical_mechanics.semimajor_axis` of the planet's orbit.
 
     Symbol:
-        a
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: attracting_mass
 
@@ -45,8 +68,11 @@ the major semiaxis of its orbit, and the mass of body that attracts it, such as 
 
 .. py:data:: law
 
-    b = 2 * sigma * sqrt(a / (G * M))
+    :code:`b = 2 * sigma * sqrt(a / (G * M))`
+
 
     Latex:
-        :math:`b = 2 \sigma \sqrt{\frac{a}{G M}}`
+        .. math::
+            b = 2 \sigma \sqrt{\frac{a}{G M}}
+
 

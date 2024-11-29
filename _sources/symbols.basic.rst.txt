@@ -128,6 +128,19 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`energy`
 
+.. py:data:: specific_energy
+
+    **Specific energy** is defined as :attr:`~symplyphysics.symbols.basic.energy` per unit :attr:`~symplyphysics.symbols.basic.mass`.
+
+    Symbol:
+        :code:`epsilon`
+
+    Latex:
+        :math:`\varepsilon`
+
+    Dimension:
+        :code:`energy/mass`
+
 .. py:data:: power
 
     **Power** is the amount of energy transferred or converted per unit time.

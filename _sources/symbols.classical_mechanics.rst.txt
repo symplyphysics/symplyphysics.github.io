@@ -176,6 +176,32 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`length`
 
+.. py:data:: semimajor_axis
+
+    **Semi-major axis**, or **major semiaxis**, is the longest semidiameter of an ellipse.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: semiminor_axis
+
+    **Semi-minor axis**, or **minor semiaxis**, is the smallest semidiameter of an ellipse.
+
+    Symbol:
+        :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: thickness
 
     **Thickness** is a measure of a size of an object, usually the separation between two layers, or
@@ -803,4 +829,68 @@ Symbols related to classical mechanics.
 
     Dimension:
         :code:`length**2*mass/time`
+
+.. py:data:: latitude
+
+    **Latitude** is a coordinate that specifies the north-south position of a point on the surface of
+    the Earth or another celestial body. Its value ranges from :math:`-90^\circ` at the south pole
+    to :math:`90^\circ` at the north pole, with :math:`0^\circ` at the Equator.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\phi`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: longitude
+
+    **Longitude** is a coordinate that specifies the east-west position of a point on the
+    surface of the Earth, or another celestial body. The prime meridian defines :math:`0^\circ`
+    longitude; positive longitudes are east of the prime meridian, and the negative ones are west.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: sector_speed
+
+    **Areal speed**, also called **sector speed** or **sectorial speed**, is a quantity that indicates
+    the rate of change at which :attr:`~symplyphysics.symbols.classical_mechanics.area` is swept out by a particle as it moves along a curve.
+    The calculation of the area swept can be found in the link below.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Areal_velocity#/media/File:ArealVelocity_with_curved_area.svg>`__.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+    Dimension:
+        :code:`area/time`
+
+.. py:data:: kepler_constant
+
+    The **Kepler's constant** is the constant of proportionality in Kepler's third law of planetary
+    motion, namely the ratio between the square of the period of the planet to the semi-major axis
+    of the planet's orbit. It is constant for all objects orbiting around the same object.
+
+    Symbol:
+        :code:`K`
+
+    Latex:
+        :math:`\mathfrak{K}`
+
+    Dimension:
+        :code:`length**3/time**2`
 

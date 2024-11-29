@@ -13,5 +13,19 @@ Contents:
 
   laws.gravity.radial_motion
   laws.gravity.vector
+  laws.gravity.area_rate_of_change_is_proportional_to_angular_momentum
   laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis
+  laws.gravity.easterly_deviation_from_plumbline_of_falling_bodies
+  laws.gravity.escape_velocity
+  laws.gravity.free_fall_acceleration_from_height
+  laws.gravity.gravitational_potential_energy
+  laws.gravity.gravitational_radius_of_body_mass
+  laws.gravity.gravity_force_from_mass_and_distance
   laws.gravity.keplers_constant_via_attracting_body_mass
+  laws.gravity.maximum_height_of_a_body_thrown_at_an_angle_to_horizon
+  laws.gravity.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon
+  laws.gravity.maximum_movement_time_of_a_body_thrown_horizontally
+  laws.gravity.planet_period_squared_is_proportional_to_cube_of_semimajor_axis
+  laws.gravity.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon
+  laws.gravity.second_escape_velocity
+  laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies

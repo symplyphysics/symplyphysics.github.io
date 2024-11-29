@@ -8,6 +8,10 @@ energy. Note that the sign of the total energy determines the type of the planet
 #. If :math:`E = 0`, the orbit is parabolical.
 #. If :math:`E > 0`, the orbit is hyperbolical.
 
+**Links:**
+
+#. `Physics LibreTexts <https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Dourmashkin)/25%3A_Celestial_Mechanics/25.03%3A_Energy_and_Angular_Momentum_Constants_of_the_Motion>`__.
+
 .. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.radial_kinetic_energy_plus_potential_energy_is_constant
 
 .. py:data:: planetary_mass
@@ -25,33 +29,51 @@ energy. Note that the sign of the total energy determines the type of the planet
 
 .. py:data:: radial_speed
 
-    The projection of the velocity vector in the radial direction.
+    The projection of the velocity vector in the radial direction. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
     Symbol:
         :code:`v_r`
 
     Latex:
-        :math:`v_r`
+        :math:`v_{r}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: potential_energy
 
     The :doc:`potential energy <laws.gravity.radial_motion.potential_energy_of_planetary_motion>` of the planet.
+    See :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy`.
 
     Symbol:
         :code:`U`
 
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: total_mechanical_energy
 
-    Total mechanical energy of the planet, assumed to be constant.
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` of the planet, assumed to be constant.
 
     Symbol:
         :code:`E`
 
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: law
 
-    :code:`m * v_r**2 / 2 + U = E`
+    :code:`m * v_r^2 / 2 + U = E`
+
 
     Latex:
         .. math::
-            \frac{1}{2} m v_r^2 + U = E
+            \frac{m v_{r}^{2}}{2} + U = E
+
 

@@ -16,8 +16,8 @@
     <link rel="canonical" href="https://symplyphysics.github.io/laws.gravity.keplers_constant_via_attracting_body_mass.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Fluid mechanics" href="laws.hydro.html" />
-    <link rel="prev" title="Corrected planet period squared is proportional to cube of semimajor axis" href="laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html" />
+    <link rel="next" title="Maximum height of body thrown at angle to horizon" href="laws.gravity.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html" />
+    <link rel="prev" title="Gravitational force from mass and distance" href="laws.gravity.gravity_force_from_mass_and_distance.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -40,13 +40,20 @@
 <p><em>Kepler’s constant</em> is a physical quantity that only depends on the gravitational constant and the mass of
 the orbited body, such as the Sun. It is constant in the sense that all planets that orbit the same body
 approximately have the same value of the Kepler’s constant.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(G\)</span> (<code class="code docutils literal notranslate"><span class="pre">G</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.gravitational_constant" title="symplyphysics.quantities.gravitational_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">gravitational_constant</span></code></a>.</p></li>
+</ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.keplers_constant">
-<span class="sig-name descname"><span class="pre">keplers_constant</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.keplers_constant" title="Link to this definition">¶</a></dt>
-<dd><dl class="simple">
-<dt>Symbol:</dt><dd><p>K</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.kepler_constant">
+<span class="sig-name descname"><span class="pre">kepler_constant</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.kepler_constant" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.kepler_constant" title="symplyphysics.symbols.classical_mechanics.kepler_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">kepler_constant</span></code></a> of the system.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">K</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mathfrak{K}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length**3/time**2</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -68,9 +75,10 @@ approximately have the same value of the Kepler’s constant.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.law" title="Link to this definition">¶</a></dt>
-<dd><p>K = G * M / (4 * pi^2)</p>
-<dl class="simple">
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mathfrak{K} = \frac{G M}{4 \pi^2}\)</span></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">K</span> <span class="pre">=</span> <span class="pre">G</span> <span class="pre">*</span> <span class="pre">M</span> <span class="pre">/</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi^2)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\mathfrak{K} = \frac{G M}{4 \pi^{2}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -116,13 +124,27 @@ approximately have the same value of the Kepler’s constant.</p>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.gravity.html">Gravity</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.radial_motion.html"><strong>Radial motion</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.vector.html"><strong>Gravity (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.area_rate_of_change_is_proportional_to_angular_momentum.html">Area rate of change is proportional to angular momentum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Corrected planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.easterly_deviation_from_plumbline_of_falling_bodies.html">Easterly deviation from plumbline of falling bodies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.escape_velocity.html">First escape speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.free_fall_acceleration_from_height.html">Free fall acceleration from height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravitational_potential_energy.html">Gravitational potential energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravitational_radius_of_body_mass.html">Gravitational radius of massive body</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravity_force_from_mass_and_distance.html">Gravitational force from mass and distance</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Kepler’s constant via attracting body mass</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.keplers_constant"><code class="docutils literal notranslate"><span class="pre">keplers_constant</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.kepler_constant"><code class="docutils literal notranslate"><span class="pre">kepler_constant</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.attracting_mass"><code class="docutils literal notranslate"><span class="pre">attracting_mass</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.keplers_constant_via_attracting_body_mass.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html">Maximum height of body thrown at angle to horizon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html">Time of flight of a projectile via initial velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_movement_time_of_a_body_thrown_horizontally.html">Time of flight of a projectile via maximum height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html">Horizontal displacement of projectile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.second_escape_velocity.html">Second escape velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies.html">Southerly deviation from plumbline of falling bodies</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
@@ -147,8 +169,8 @@ approximately have the same value of the Kepler’s constant.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.gravity.html">Gravity</a><ul>
-      <li>Previous: <a href="laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html" title="previous chapter">Corrected planet period squared is proportional to cube of semimajor axis</a></li>
-      <li>Next: <a href="laws.hydro.html" title="next chapter">Fluid mechanics</a></li>
+      <li>Previous: <a href="laws.gravity.gravity_force_from_mass_and_distance.html" title="previous chapter">Gravitational force from mass and distance</a></li>
+      <li>Next: <a href="laws.gravity.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html" title="next chapter">Maximum height of body thrown at angle to horizon</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

@@ -1,0 +1,75 @@
+Area rate of change is proportional to angular momentum
+-------------------------------------------------------
+
+The **law of areas**, also known as **Kepler's second law of planetary motion**,
+states that a line the connects a planet to the attracting body (the Sun) sweeps
+out equal areas in the plane of the planet's orbit in equal time intervals, and
+its rate of change is proportional to the planet's angular momentum. It is
+equivalent to saying that the planet's angular momentum is conserved.
+
+#. Sivukhin D.V. (1979), *Obshchiy kurs fiziki* [General course of Physics], vol. 1, pp. 312—314.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.area_rate_of_change_is_proportional_to_angular_momentum
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: area_swept
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.area` swept by the planet.
+
+    Symbol:
+        :code:`A(t)`
+
+    Latex:
+        :math:`A{\left(t \right)}`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: planet_angular_momentum
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum` of the planet.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`length**2*mass/time`
+
+.. py:data:: planet_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the planet.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`Derivative(A(t), t) = L / (2 * m)`
+
+
+    Latex:
+        .. math::
+            \frac{d}{d t} A{\left(t \right)} = \frac{L}{2 m}
+
+

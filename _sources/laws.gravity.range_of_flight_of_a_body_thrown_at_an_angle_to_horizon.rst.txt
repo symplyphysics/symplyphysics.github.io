@@ -1,0 +1,70 @@
+Horizontal displacement of projectile
+-------------------------------------
+
+Let's say we throw the body at an angle to the horizon with some initial velocity.
+Then the horizontal displacement, or **range**, of the body depends on the initial
+speed, the angle of the throw and the acceleration of free fall.
+
+**Conditions:**
+
+#. The acceleration due to gravity is constant throughout the movement
+   of the projectile.
+
+#. The elevation of the initial and final points of the projectile are
+   the same.
+
+**Links:**
+
+#. `Physics LibreTexts. Projectile Motion, Range (3.3.15) <https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/3%3A_Two-Dimensional_Kinematics/3.3%3A_Projectile_Motion>`__.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon
+
+.. py:data:: horizontal_displacement
+
+    Horizontal displacement, or **range**, of the projectile. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+
+    Symbol:
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: initial_speed
+
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the projectile.
+
+    Symbol:
+        :code:`v_0`
+
+    Latex:
+        :math:`v_{0}`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: angle
+
+    :attr:`~symplyphysics.symbols.basic.angle` between the initial velocity and the horizon.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: law
+
+    :code:`d = v_0^2 * sin(2 * phi) / g`
+
+
+    Latex:
+        .. math::
+            d = \frac{v_{0}^{2} \sin{\left(2 \varphi \right)}}{g}
+
+

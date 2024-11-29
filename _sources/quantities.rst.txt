@@ -307,3 +307,21 @@ Contains useful physical constants. Fundamental constants can be also found in `
     Dimension:
         :code:`action*temperature*velocity/energy`
 
+.. py:data:: gravitational_constant
+
+    The **gravitational constant** is a physical constant used in calculating the gravitational
+    attraction between two objects.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Gravitational_constant>`__.
+
+    Symbol:
+        :code:`G`
+
+    Latex:
+        :math:`G`
+
+    Dimension:
+        :code:`length**3/(mass*time**2)`
+

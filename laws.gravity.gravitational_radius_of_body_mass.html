@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Gravitational radius of massive body &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.gravity.gravitational_radius_of_body_mass.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Gravitational force from mass and distance" href="laws.gravity.gravity_force_from_mass_and_distance.html" />
+    <link rel="prev" title="Gravitational potential energy" href="laws.gravity.gravitational_potential_energy.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="gravitational-radius-of-massive-body">
+<h1>Gravitational radius of massive body<a class="headerlink" href="#gravitational-radius-of-massive-body" title="Link to this heading">¶</a></h1>
+<p>The <strong>gravitational radius</strong>, or <strong>Schwarzschild radius</strong>, is a characteristic radius
+defined for any physical body with mass. This is the radius of the sphere on which the
+event horizon created by this mass would be located (from the point of view of general
+theory of relativity) if it were distributed spherically symmetrically, would be
+stationary (in particular, it would not rotate, but radial movements are permissible)
+and would lie entirely inside this sphere.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(G\)</span> (<code class="code docutils literal notranslate"><span class="pre">G</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.gravitational_constant" title="symplyphysics.quantities.gravitational_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">gravitational_constant</span></code></a>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(c\)</span> (<code class="code docutils literal notranslate"><span class="pre">c</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.speed_of_light" title="symplyphysics.quantities.speed_of_light"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed_of_light</span></code></a>.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Schwarzschild_radius">Wikipedia</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.gravitational_radius_of_body_mass.gravitational_radius">
+<span class="sig-name descname"><span class="pre">gravitational_radius</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.gravitational_radius_of_body_mass.gravitational_radius" title="Link to this definition">¶</a></dt>
+<dd><p>Gravitational <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a> of the body.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.gravitational_radius_of_body_mass.body_mass">
+<span class="sig-name descname"><span class="pre">body_mass</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.gravitational_radius_of_body_mass.body_mass" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the body.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(m\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.gravitational_radius_of_body_mass.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.gravitational_radius_of_body_mass.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">r</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">G</span> <span class="pre">*</span> <span class="pre">m</span> <span class="pre">/</span> <span class="pre">c^2</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[r = \frac{2 G m}{c^{2}}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.gravity.html">Gravity</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.radial_motion.html"><strong>Radial motion</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.vector.html"><strong>Gravity (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.area_rate_of_change_is_proportional_to_angular_momentum.html">Area rate of change is proportional to angular momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Corrected planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.easterly_deviation_from_plumbline_of_falling_bodies.html">Easterly deviation from plumbline of falling bodies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.escape_velocity.html">First escape speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.free_fall_acceleration_from_height.html">Free fall acceleration from height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravitational_potential_energy.html">Gravitational potential energy</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Gravitational radius of massive body</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.gravitational_radius_of_body_mass.gravitational_radius"><code class="docutils literal notranslate"><span class="pre">gravitational_radius</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.gravitational_radius_of_body_mass.body_mass"><code class="docutils literal notranslate"><span class="pre">body_mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.gravity.gravitational_radius_of_body_mass.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravity_force_from_mass_and_distance.html">Gravitational force from mass and distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.keplers_constant_via_attracting_body_mass.html">Kepler’s constant via attracting body mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html">Maximum height of body thrown at angle to horizon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html">Time of flight of a projectile via initial velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_movement_time_of_a_body_thrown_horizontally.html">Time of flight of a projectile via maximum height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html">Horizontal displacement of projectile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.second_escape_velocity.html">Second escape velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies.html">Southerly deviation from plumbline of falling bodies</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.gravity.html">Gravity</a><ul>
+      <li>Previous: <a href="laws.gravity.gravitational_potential_energy.html" title="previous chapter">Gravitational potential energy</a></li>
+      <li>Next: <a href="laws.gravity.gravity_force_from_mass_and_distance.html" title="next chapter">Gravitational force from mass and distance</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.gravity.gravitational_radius_of_body_mass.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

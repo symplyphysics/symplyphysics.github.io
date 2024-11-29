@@ -1,0 +1,73 @@
+Time of flight of a projectile via initial velocity
+---------------------------------------------------
+
+Let the body be thrown at an angle to the horizon with some initial velocity. Then the time of the motion
+of this body until it reaches the initial elevation depends only on initial velocity and acceleration
+of free fall.
+
+**Conditions:**
+
+#. The acceleration of gravity stays constant throughout the movement of the body.
+
+#. The initial and final height of the body with respect to the "ground" are the same,
+   i.e. the body lands on a point with the same vertical coordinate as at the start
+   of the flight.
+
+**Links:**
+
+#. `Physics LibreTexts. Projectile Motion, Maximum Height (3.3.13) <https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/3%3A_Two-Dimensional_Kinematics/3.3%3A_Projectile_Motion>`__.
+
+..
+    TODO rename file
+
+.. py:currentmodule:: symplyphysics.laws.gravity.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` of flight of the projectile.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: initial_speed
+
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the projectile.
+
+    Symbol:
+        :code:`v_0`
+
+    Latex:
+        :math:`v_{0}`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: angle
+
+    :attr:`~symplyphysics.symbols.basic.angle`
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: law
+
+    :code:`t = 2 * v_0 * sin(phi) / g`
+
+
+    Latex:
+        .. math::
+            t = \frac{2 v_{0} \sin{\left(\varphi \right)}}{g}
+
+

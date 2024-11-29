@@ -44,12 +44,20 @@ the star—planet system and the total energy of the planet per unit of its mass
 <li><p>Works for both elliptical (<span class="math notranslate nohighlight">\(\varepsilon &lt; 0\)</span>) and hyperbolical
 (<span class="math notranslate nohighlight">\(\varepsilon &gt; 0\)</span>) orbits.</p></li>
 </ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p>Sivukhin D.V. (1979), <em>Obshchiy kurs fiziki</em> [General course of Physics], vol. 1, p. 317, (58.2).</p></li>
+</ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.semimajor_axis">
 <span class="sig-name descname"><span class="pre">semimajor_axis</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.semimajor_axis" title="Link to this definition">¶</a></dt>
-<dd><p>The semi-major axis of the planet’s orbit.</p>
+<dd><p>The <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.semimajor_axis" title="symplyphysics.symbols.classical_mechanics.semimajor_axis"><code class="xref py py-attr docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a> of the planet’s orbit.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p>a</p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(a\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -57,12 +65,14 @@ the star—planet system and the total energy of the planet per unit of its mass
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.kepler_constant">
 <span class="sig-name descname"><span class="pre">kepler_constant</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.kepler_constant" title="Link to this definition">¶</a></dt>
-<dd><p>The Kepler’s constant, whose value is determined by the <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a>
+<dd><p>The <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.kepler_constant" title="symplyphysics.symbols.classical_mechanics.kepler_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">kepler_constant</span></code></a>, whose value is determined by the <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a>
 of the orbited star.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p>K</p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">K</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mathfrak{K}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length**3/time**2</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -70,12 +80,14 @@ of the orbited star.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.specific_energy">
 <span class="sig-name descname"><span class="pre">specific_energy</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.specific_energy" title="Link to this definition">¶</a></dt>
-<dd><p>The total energy of the planet per unit of its <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a>.
-Can be negative or positive depending on the sign of the planet’s energy.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.specific_energy" title="symplyphysics.symbols.basic.specific_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">specific_energy</span></code></a> of the planet. Can be negative or positive depending on the sign of
+the planet’s energy.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p>epsilon</p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">epsilon</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varepsilon\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/mass</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -83,10 +95,10 @@ Can be negative or positive depending on the sign of the planet’s energy.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy.law" title="Link to this definition">¶</a></dt>
-<dd><p>a = 2 * pi^2 * K / abs(epsilon)</p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">a</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">pi^2</span> <span class="pre">*</span> <span class="pre">K</span> <span class="pre">/</span> <span class="pre">Abs(epsilon)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[a = \frac{2 \pi^2 \mathfrak{K}}{|\varepsilon|}\]</div>
+\[a = \frac{2 \pi^{2} \mathfrak{K}}{\left|{\varepsilon}\right|}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -140,8 +152,22 @@ Can be negative or positive depending on the sign of the planet’s energy.</p>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.vector.html"><strong>Gravity (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.area_rate_of_change_is_proportional_to_angular_momentum.html">Area rate of change is proportional to angular momentum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Corrected planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.easterly_deviation_from_plumbline_of_falling_bodies.html">Easterly deviation from plumbline of falling bodies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.escape_velocity.html">First escape speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.free_fall_acceleration_from_height.html">Free fall acceleration from height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravitational_potential_energy.html">Gravitational potential energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravitational_radius_of_body_mass.html">Gravitational radius of massive body</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.gravity_force_from_mass_and_distance.html">Gravitational force from mass and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.keplers_constant_via_attracting_body_mass.html">Kepler’s constant via attracting body mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html">Maximum height of body thrown at angle to horizon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html">Time of flight of a projectile via initial velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.maximum_movement_time_of_a_body_thrown_horizontally.html">Time of flight of a projectile via maximum height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html">Horizontal displacement of projectile</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.second_escape_velocity.html">Second escape velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies.html">Southerly deviation from plumbline of falling bodies</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
