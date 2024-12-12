@@ -8,6 +8,10 @@ at constant pressure.
 
 #. Pressure must be constant during the expansion process.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Thermal_expansion#Length>`__.
+
 .. py:currentmodule:: symplyphysics.definitions.linear_coefficient_of_thermal_expansion
 
 .. py:data:: linear_expansion_coefficient

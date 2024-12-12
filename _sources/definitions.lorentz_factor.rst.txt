@@ -9,6 +9,10 @@ change for a body while it is moving.
 
 #. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Lorentz_factor#Definition>`__.
+
 .. py:currentmodule:: symplyphysics.definitions.lorentz_factor
 
 .. py:data:: lorentz_factor

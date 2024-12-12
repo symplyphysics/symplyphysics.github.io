@@ -12,6 +12,10 @@ inter-particle spacing. Otherwise, quantum effects must be taken into account.
 #. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
+**Links:**
+
+#. `Wikipedia, see last formula in paragraph <https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength#Massive_particles>`__.
+
 .. py:currentmodule:: symplyphysics.definitions.thermal_de_broglie_wavelength
 
 .. py:data:: thermal_wavelength

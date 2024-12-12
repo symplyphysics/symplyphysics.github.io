@@ -5,6 +5,10 @@ Volumetric mass *density* of an object is a physical quantity equal to the mass 
 object per unit of its volume. See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`
 for a general version of this law.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Density#>`__.
+
 .. py:currentmodule:: symplyphysics.definitions.density_from_mass_volume
 
 .. py:data:: density
