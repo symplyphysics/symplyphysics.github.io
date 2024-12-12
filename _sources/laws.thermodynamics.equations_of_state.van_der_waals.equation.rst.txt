@@ -13,6 +13,10 @@ into account the main characteristics of a gas with intermolecular interaction.
 
 #. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Van_der_Waals_equation#>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation
 
 .. py:data:: pressure

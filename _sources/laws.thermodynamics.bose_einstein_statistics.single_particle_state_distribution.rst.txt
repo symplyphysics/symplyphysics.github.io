@@ -9,6 +9,10 @@ of the state and the temperature and the chemical potential of the system.
 
 #. :math:`E_i > \mu`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_statistics#Bose%E2%80%93Einstein_distribution>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution
 
 .. py:data:: occupancy_of_state

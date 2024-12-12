@@ -6,6 +6,13 @@ with the environment, with a temperature T and whose volume and number of consti
 constant. For a classical discrete system the partition function is the sum of the Boltzmann factors
 of all the possible energy states:
 
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Partition_function_(statistical_mechanics)#Classical_discrete_system>`__.
+
+..
+    NOTE replace `boltzmann_factor` with actual exponent?
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.canonical_partition_function_of_classical_discrete_system
 
 .. py:data:: partition_function

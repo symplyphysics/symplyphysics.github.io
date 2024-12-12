@@ -8,6 +8,10 @@ describe a hypothetical ideal gas.
 
 #. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Ideal_gas_law>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.ideal_gas_equation
 
 .. py:data:: pressure

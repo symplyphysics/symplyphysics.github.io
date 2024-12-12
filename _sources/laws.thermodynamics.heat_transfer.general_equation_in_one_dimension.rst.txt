@@ -13,6 +13,10 @@ the evolution of heat transferred from hotter to colder environments in time and
 #. Thermal conductivity :math:`k` can depend not only on position, but also on local
    temperature, but this is out of the scope of this law.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Heat_equation#Non-uniform_isotropic_medium>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.heat_transfer.general_equation_in_one_dimension
 
 .. py:data:: temperature

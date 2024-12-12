@@ -20,6 +20,10 @@ Also called the *virial expansion*, the *virial equation of state* expresses the
    for many fluids.
 #. In this law the limit :math:`\rho \to 0` is assumed.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Virial_expansion>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.virial_equation
 
 .. py:data:: compressibility_factor
