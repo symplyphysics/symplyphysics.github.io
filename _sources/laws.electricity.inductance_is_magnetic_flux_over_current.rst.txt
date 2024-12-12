@@ -5,6 +5,10 @@ Inductance is the tendency of an electrical component to oppose a change in the 
 flowing through it. It can be defined as the ratio of the total magnetic flux through a circuit
 due to the component over the current in it.
 
+**Links:**
+
+#. `Wikipedia, third formula <https://en.wikipedia.org/wiki/Inductance#Source_of_inductance>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current
 
 .. py:data:: inductance

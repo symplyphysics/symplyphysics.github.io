@@ -8,6 +8,10 @@ and vacuum permittivity.
 
 #. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Relative_permittivity#Definition>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.absolute_permittivity_via_relative_permittivity
 
 .. py:data:: absolute_permittivity

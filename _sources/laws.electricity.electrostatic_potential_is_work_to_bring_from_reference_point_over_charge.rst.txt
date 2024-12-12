@@ -12,6 +12,10 @@ the potential approach zero at an infinitely remote point.
 
 #. The electric potential is defined up to a constant.
 
+**Links:**
+
+#. `Wikipedia, fourth formula <https://en.wikipedia.org/wiki/Electric_potential#Electrostatics>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge
 
 .. py:data:: electrostatic_potential

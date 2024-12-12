@@ -7,6 +7,10 @@ Electric charge is quantized, i.e. restricted to certain values.
 
 #. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Elementary_charge>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.charge_is_quantized
 
 .. py:data:: charge

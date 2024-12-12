@@ -9,6 +9,10 @@ square of the distance between them.
 
 #. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Coulomb%27s_law>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.electrostatic_force_via_charges_and_distance
 
 .. py:data:: electrostatic_force

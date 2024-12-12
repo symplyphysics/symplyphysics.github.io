@@ -6,6 +6,10 @@ the negative of the time rate of change of the magnetic flux enclosed by the pat
 of the current making several turns around the contour, e.g. in a coil, the electromotive force
 would also be proportional to the number of turn the current makes.
 
+**Links:**
+
+#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction#Mathematical_statement>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour
 
 .. py:data:: electromotive_force
