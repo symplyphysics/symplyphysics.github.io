@@ -6,6 +6,10 @@ is called group velocity. In other words, it is the speed with which the overall
 shape of the wave's amplitudes — called envelope of modulation of the wave — propagates
 through space.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Group_velocity#Definition_and_interpretation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.group_velocity_from_dispersion_relation
 
 .. py:data:: angular_wavenumber

@@ -8,6 +8,10 @@ in any reference frame. The energy of a photon depends only on its frequency.
 
 #. :math:`h` (:code:`h`) is :attr:`~symplyphysics.quantities.planck`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Relativistic_energy_and_momentum>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.photon_energy_is_proportional_to_linear_frequency
 
 .. py:data:: energy

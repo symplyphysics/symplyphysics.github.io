@@ -8,6 +8,10 @@ permeability of the medium.
 
 #. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Phase_velocity#Refractive_index>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability
 
 .. py:data:: wave_speed

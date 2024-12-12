@@ -7,6 +7,10 @@ The momentum of a photon is proportional to its wavenumber.
 
 #. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Relativistic_energy_and_momentum>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.photon_momentum_is_proportional_to_angular_wavenumber
 
 .. py:data:: momentum

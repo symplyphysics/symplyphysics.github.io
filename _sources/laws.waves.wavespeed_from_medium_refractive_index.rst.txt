@@ -7,6 +7,10 @@ Speed of electromagnetic wave propagation depends on the refractive index of the
 
 #. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Phase_velocity#Refractive_index>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.wavespeed_from_medium_refractive_index
 
 .. py:data:: wave_speed

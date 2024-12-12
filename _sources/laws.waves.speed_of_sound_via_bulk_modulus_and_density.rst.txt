@@ -5,6 +5,10 @@ Sound waves are longitudinal mechanical waves that can travel through any type o
 be it solid, liquid, or gas. The phase velocity of the a sound wave depends on the bulk modulus
 of the medium it is traveling in and its density.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Speed_of_sound#Equations>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.speed_of_sound_via_bulk_modulus_and_density
 
 .. py:data:: phase_velocity

@@ -11,6 +11,10 @@ expressions.
 
 #. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Relativistic_energy_and_momentum>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.photon_momentum_is_proportional_to_energy
 
 .. py:data:: momentum

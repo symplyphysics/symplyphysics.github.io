@@ -18,6 +18,10 @@ calculation of the Doppler effect.
    electromagnetic waves.
 #. Motion is in 1D space.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Relativistic_Doppler_effect#Relativistic_longitudinal_Doppler_effect>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.relativistic.longitudinal_frequency_shift_from_velocity
 
 .. py:data:: observer_frequency

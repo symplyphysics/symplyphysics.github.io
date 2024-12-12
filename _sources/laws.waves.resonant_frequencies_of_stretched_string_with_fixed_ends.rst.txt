@@ -6,6 +6,10 @@ occur on it. Each possible frequency is a resonant frequency, and the correspond
 an oscillation mode. The oscillation mode corresponding to :math:`N = 1` is called the fundamental mode or
 the first harmonic, the mode corresponding to :math:`N = 2` is the second harmonic, and so on.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/String_vibration#Frequency_of_the_wave>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.resonant_frequencies_of_stretched_string_with_fixed_ends
 
 .. py:data:: resonant_frequency

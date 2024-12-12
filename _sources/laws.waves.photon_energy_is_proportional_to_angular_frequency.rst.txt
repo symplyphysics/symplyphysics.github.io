@@ -8,6 +8,10 @@ in any reference frame. The energy of a photon depends only on its frequency.
 
 #. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Relativistic_energy_and_momentum>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.photon_energy_is_proportional_to_angular_frequency
 
 .. py:data:: energy

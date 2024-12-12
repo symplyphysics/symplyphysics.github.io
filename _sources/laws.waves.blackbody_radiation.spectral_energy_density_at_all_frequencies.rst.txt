@@ -15,6 +15,10 @@ matter or energy between the body and its environment.
 
 #. The black body is isolated from the environment.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Planck%27s_law>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_at_all_frequencies
 
 .. py:data:: spectral_energy_density

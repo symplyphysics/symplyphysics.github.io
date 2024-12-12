@@ -6,6 +6,10 @@ through or onto a surface. It depends on the density of the medium, the phase
 speed and the angular frequency of the wave and the amplitude of particles
 in the medium.
 
+**Links:**
+
+#. Equation 17-27 on p. 489 of "Fundamentals of Physics" by David Halladay et al., 10th Ed.
+
 .. py:currentmodule:: symplyphysics.laws.waves.intensity_of_sound_wave_via_displacement_amplitude
 
 .. py:data:: wave_intensity

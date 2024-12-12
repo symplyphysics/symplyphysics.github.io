@@ -5,6 +5,10 @@ Any function of a single variable can be a solution of the wave equation if it d
 on the phase of the wave, i.e. the position and time variables only appear in its
 expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wave>`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Wave_equation#General_solution>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.wave_equation_general_solution_in_one_dimension
 
 .. py:data:: displacement

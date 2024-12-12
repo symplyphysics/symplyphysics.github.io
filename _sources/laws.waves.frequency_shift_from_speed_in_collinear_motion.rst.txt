@@ -16,6 +16,10 @@ relation to an observer moving relative to the wave source.
 #. The source and observer are moving directly towards or away from each other (collinear
    motion).
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Doppler_effect#General>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.frequency_shift_from_speed_in_collinear_motion
 
 .. py:data:: observed_frequency

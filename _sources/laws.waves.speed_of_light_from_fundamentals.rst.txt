@@ -10,6 +10,10 @@ of the vacuum.
 #. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
 #. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Speed_of_light#Propagation_of_light>`__.
+
 .. py:currentmodule:: symplyphysics.laws.waves.speed_of_light_from_fundamentals
 
 .. py:data:: law

@@ -14,6 +14,13 @@ to the difference between the absorbed photon energy and the work function of th
 surface, which is the minimum energy required to remove an electron from the surface
 of the material.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Photoelectric_effect#Theoretical_explanation>`__.
+
+..
+    TODO move to `quantum_mechanics`?
+
 .. py:currentmodule:: symplyphysics.laws.waves.photoelectron_energy_from_photon_energy
 
 .. py:data:: maximum_kinetic_energy
