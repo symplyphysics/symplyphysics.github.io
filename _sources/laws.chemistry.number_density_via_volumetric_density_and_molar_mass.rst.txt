@@ -9,6 +9,10 @@ amount of substance.
 
 #. :math:`N_\text{A}` (:code:`N_A`) is :attr:`~symplyphysics.quantities.avogadro_constant`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Number_density#Mass_density>`__.
+
 .. py:currentmodule:: symplyphysics.laws.chemistry.number_density_via_volumetric_density_and_molar_mass
 
 .. py:data:: number_density

@@ -7,6 +7,10 @@ It is a simple yet realistic model to describe intermolecular interactions: two 
 other at a very close distance, attract each other at moderate distance, and do not interact at infinite
 distance.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Lennard-Jones_potential#Overview>`__.
+
 .. py:currentmodule:: symplyphysics.laws.chemistry.potential_energy_models.lennard_jones_potential
 
 .. py:data:: potential

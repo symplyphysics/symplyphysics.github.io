@@ -8,6 +8,10 @@ molecular mass.
 
 #. :math:`N_\text{A}` (:code:`N_A`) is :attr:`~symplyphysics.quantities.avogadro_constant`
 
+**Links:**
+
+#. `Wikipedia, formula in the second paragraph <https://en.wikipedia.org/wiki/Avogadro_constant#>`__.
+
 .. py:currentmodule:: symplyphysics.laws.chemistry.molar_mass_via_molecular_mass
 
 .. py:data:: molar_mass

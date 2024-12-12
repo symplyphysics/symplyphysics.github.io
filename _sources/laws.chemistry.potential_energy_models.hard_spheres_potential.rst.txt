@@ -9,6 +9,10 @@ atoms and molecules experience at very close distances.
 
 #. Spheres are identical.
 
+**Links**:
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Hard_spheres#Formal_definition>`__.
+
 .. py:currentmodule:: symplyphysics.laws.chemistry.potential_energy_models.hard_spheres_potential
 
 .. py:data:: potential
