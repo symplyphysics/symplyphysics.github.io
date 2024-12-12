@@ -11,6 +11,10 @@ reaches the voltage of the source.
 
 #. Applies to direct current circuits.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Capacitor#DC_circuits>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit
 
 .. py:data:: capacitor_voltage

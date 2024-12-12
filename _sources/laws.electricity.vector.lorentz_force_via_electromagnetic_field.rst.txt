@@ -19,6 +19,10 @@ magnetic field.
    electromagnetic field that would interact with the external one which would alter
    the electromagnetic force it experiences.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Lorentz_force>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field
 
 .. py:data:: charge

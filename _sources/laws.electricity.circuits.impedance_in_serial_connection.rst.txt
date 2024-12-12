@@ -8,6 +8,10 @@ of the impedances of individual components.
 
 #. Components are connected in series.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Electrical_impedance#Series_combination>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.impedance_in_serial_connection
 
 .. py:data:: total_impedance

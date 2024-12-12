@@ -9,6 +9,10 @@ of the inductances of individual components.
 #. Components are connected in series.
 #. Inductors are not magnetically coupled.
 
+**Links:**
+
+#. `Electrical 4 U <https://www.electrical4u.com/series-and-parallel-inductors/>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.inductance_in_serial_connection
 
 .. py:data:: total_inductance

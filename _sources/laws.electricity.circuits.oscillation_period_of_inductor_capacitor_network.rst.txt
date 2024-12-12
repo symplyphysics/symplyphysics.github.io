@@ -6,6 +6,10 @@ An inductor-capacitor network, also called **LC circuit**, **resonator circuit**
 of circuit can act as an electrical resonator, storing energy oscillating at the circuit's
 resonant frequency.
 
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/LC_circuit#Resonance_effect>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.oscillation_period_of_inductor_capacitor_network
 
 .. py:data:: period

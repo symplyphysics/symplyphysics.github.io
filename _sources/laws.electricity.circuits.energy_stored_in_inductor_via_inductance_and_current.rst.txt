@@ -4,6 +4,10 @@ Energy stored in inductor via inductance and current
 Inductors store energy in the magnetic field when the current is flowing
 through it.
 
+**Links:**
+
+#. `Wikipedia, formula in box <https://en.wikipedia.org/wiki/Inductor#Derivation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.energy_stored_in_inductor_via_inductance_and_current
 
 .. py:data:: energy
