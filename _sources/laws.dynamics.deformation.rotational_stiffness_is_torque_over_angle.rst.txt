@@ -3,6 +3,10 @@ Rotational stiffness is torque applied over angle
 
 *Rotational stiffness* is the extent to which an object resists rotational deformation.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Stiffness#Rotational_stiffness>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle
 
 .. py:data:: rotational_stiffness

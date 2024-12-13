@@ -6,6 +6,10 @@ It helps predict fluid flow patterns in different situations by measuring the ra
 and viscous forces. Low Reynolds numbers tend to correspond to laminar flows, while high Reynolds
 numbers tend to correspond to turbulent flows.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Reynolds_number#Definition>`__.
+
 .. py:currentmodule:: symplyphysics.laws.hydro.reynolds_number_formula
 
 .. py:data:: reynolds_number

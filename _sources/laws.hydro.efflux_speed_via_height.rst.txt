@@ -10,6 +10,10 @@ of the height of the fluid column. It is also known as the *Torricelli's law*.
 #. The fluid is :ref:`ideal <ideal_fluid_def>`.
 #. The fluid is subjected to the gravity force of Earth.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Torricelli%27s_law#>`__.
+
 .. py:currentmodule:: symplyphysics.laws.hydro.efflux_speed_via_height
 
 .. py:data:: efflux_speed

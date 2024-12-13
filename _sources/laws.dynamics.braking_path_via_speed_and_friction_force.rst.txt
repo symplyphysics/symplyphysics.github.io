@@ -7,7 +7,7 @@ and friction force.
 
 **Links:**
 
-#. `Braking distance <https://en.wikipedia.org/wiki/Braking_distance>`__.
+#. `Wikipedia <https://en.wikipedia.org/wiki/Braking_distance>`__.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.braking_path_via_speed_and_friction_force
 

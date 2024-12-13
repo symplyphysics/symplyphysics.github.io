@@ -18,6 +18,10 @@ and (2) the angular frequency of the external force driving the oscillations.
 #. The complete expression of the displacement function can be found as the sum of the solution of 
    simple harmonic motion equation and the particular solution presented here.
 
+**Links:**
+
+#. `Physics LibreTexts, derivable from (15.7.2) and (15.7.3) <https://en.wikipedia.org/wiki/Force#Second_law>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.displacement_in_forced_non_resonant_oscillations
 
 .. py:data:: displacement

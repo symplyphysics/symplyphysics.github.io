@@ -9,6 +9,10 @@ the individual forces, however these deformations must be small.
 
 #. The deformations are small.
 
+**Links:**
+
+#. `Wikipedia, general information can be found here <https://en.wikipedia.org/wiki/Infinitesimal_strain_theory>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.deformation.superposition_of_small_deformations
 
 .. py:data:: total_strain

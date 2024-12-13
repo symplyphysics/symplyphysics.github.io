@@ -5,6 +5,10 @@ When a torque accelerates a rigid body in rotation about a fixed axis, the torqu
 the body. When the torque is constant, the work done on the body is proportional to torque
 and the angular displacement during the movement of the body.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Work_(physics)#Torque_and_rotation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.rotational_work_is_torque_times_angular_distance
 
 .. py:data:: work

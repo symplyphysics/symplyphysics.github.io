@@ -8,6 +8,10 @@ pressures at a chosen point in space.
 
 #. The fluid is :ref:`ideal <ideal_fluid_def>`.
 
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Bernoulli%27s_principle#Incompressible_flow_equation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.hydro.inner_pressure_is_sum_of_pressures
 
 .. py:data:: inner_pressure

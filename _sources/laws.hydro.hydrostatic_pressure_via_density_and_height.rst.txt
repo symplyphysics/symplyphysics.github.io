@@ -10,6 +10,10 @@ due to the force of gravity.
 #. The only force acting on the fluid is the force of gravity.
 #. The fluid is subjected to the gravity force of Earth.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Pressure#Liquid_pressure>`__.
+
 .. py:currentmodule:: symplyphysics.laws.hydro.hydrostatic_pressure_via_density_and_height
 
 .. py:data:: hydrostatic_pressure

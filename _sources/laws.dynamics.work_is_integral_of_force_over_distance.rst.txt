@@ -6,6 +6,10 @@ on the position of the object, the work done by F on the object while the object
 from one position to another is to be found by integrating the force along the path of the
 object.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Work_(physics)#Path_dependence>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.work_is_integral_of_force_over_distance
 
 .. py:data:: work

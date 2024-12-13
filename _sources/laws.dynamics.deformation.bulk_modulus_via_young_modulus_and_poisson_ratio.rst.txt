@@ -13,6 +13,10 @@ the Young modulus of the material and also depends on its Poisson ratio.
    since :doc:`elastic energy density <laws.dynamics.deformation.elastic_energy_density_of_bulk_compression_via_pressure>`
    cannot be negative.
 
+**Links:**
+
+#. `Wikipedia, derivable from second part of the equation <https://en.wikipedia.org/wiki/Young%27s_modulus#Usage>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.deformation.bulk_modulus_via_young_modulus_and_poisson_ratio
 
 .. py:data:: bulk_modulus

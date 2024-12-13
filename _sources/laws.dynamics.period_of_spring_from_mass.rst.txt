@@ -10,6 +10,10 @@ It starts oscillating after being pushed out of balance.
 #. The object is small enough to be considered a material point.
 #. The spring is weightless.
 
+**Links:**
+
+#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Spring_(device)#Frequency_&_period>`__.
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.period_of_spring_from_mass
 
 .. py:data:: period
