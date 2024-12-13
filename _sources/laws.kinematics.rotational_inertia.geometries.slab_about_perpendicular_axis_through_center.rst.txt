@@ -7,6 +7,10 @@ A solid slab is rotating about an axis that is perpendicular to the slab and goe
 
 #. The slab is uniform.
 
+**Links:**
+
+#. `Wikipedia, see table <https://en.wikipedia.org/wiki/List_of_moments_of_inertia>`__.
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center
 
 .. py:data:: rotational_inertia

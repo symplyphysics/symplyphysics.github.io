@@ -8,6 +8,10 @@ of the velocity vector, and its vector is tangent to the path of the body.
 
 #. Radius is constant, i.e. :math:`\frac{d r}{d t} = 0.`
 
+**Links:**
+
+#. Equation 10-22 on p. 269 of "Fundamentals of Physics" by David Halladay et al., 10th Ed.
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius
 
 .. py:data:: tangential_acceleration

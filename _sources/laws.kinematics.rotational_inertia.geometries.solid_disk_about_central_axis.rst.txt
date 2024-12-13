@@ -7,6 +7,10 @@ A solid disk (cylinder) rotates about its central axis (axis of cylindrical symm
 
 #. The disk is uniform.
 
+**Links:**
+
+#. `Wikipedia, sixth row of table <https://en.wikipedia.org/wiki/List_of_moments_of_inertia>`__.
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis
 
 .. py:data:: rotational_inertia

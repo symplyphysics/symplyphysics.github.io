@@ -10,6 +10,10 @@ Suppose a reference frame :math:`S'` is fixed to a rotating body :math:`A` (e.g.
 another static reference frame :math:`S`. The Coriolis acceleration is the acceleration another body :math:`B` has when
 moving within rotating reference frame :math:`S'`, so it is essentially zero for objects at rest in :math:`S'`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Coriolis_force#Formula>`__.
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.coriolis_acceleration
 
 .. py:function:: coriolis_acceleration_law(velocity_, angular_velocity_)

@@ -12,6 +12,10 @@ velocity of frame :math:`B` relative to frame :math:`A`.
 #. Space and time are absolute.
 #. Applicable to inertial reference frames.
 
+**Links:**
+
+#. `Wikipedia, vector counterpart of this law <https://en.wikipedia.org/wiki/Velocity-addition_formula#Galilean_relativity>`__.
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.classical_addition_of_velocities
 
 .. py:data:: body_speed_in_first_frame

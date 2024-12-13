@@ -9,6 +9,10 @@ speed is a linear function of time.
 #. The axis is fixed.
 #. Angular acceleration is constant, i.e. :math:`\frac{d \alpha}{d t} = 0.`
 
+**Links:**
+
+#. `Wikipedia, first out of the last four equations in the paragraph <https://en.wikipedia.org/wiki/Kinematics#Acceleration_2>`__.
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time
 
 .. py:data:: final_angular_speed

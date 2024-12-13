@@ -10,6 +10,10 @@ Also see :doc:`laws.kinematics.vector.centrifugal_acceleration_via_centripetal_a
 
 #. :math:`\vec a \times \vec b` (:code:`cross(a, b)`) is the cross product between :math:`\vec a` and :math:`\vec b`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Centripetal_force#Derivation_using_vectors>`__.
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_cross_product
 
 .. py:function:: centripetal_acceleration_law(angular_velocity_, radius_vector_)
