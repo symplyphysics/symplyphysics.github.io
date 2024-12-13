@@ -8,6 +8,10 @@ The angle of the gravitational maneuver depends on the aiming range, the mass of
 .. image:: https://upload.wikimedia.org/wikipedia/commons/a/ad/Gravity_assist\_-\_ru.svg
     :width: 240px
 
+..
+    TODO find link to law
+    TODO move law to `gravity`?
+
 .. py:currentmodule:: symplyphysics.laws.astronomy.angle_of_rotation_during_gravitational_maneuver
 
 .. py:data:: angle

@@ -6,6 +6,9 @@ of a rocket engine, unchanged in direction, in the absence of all other forces.
 For a rocket flying at a speed close to the speed of light, the generalized Tsiolkovsky formula is valid,
 in which the speed of light is present.
 
+..
+    TODO find link
+
 .. py:currentmodule:: symplyphysics.laws.astronomy.relativistic.relative_speed_of_rocket_depends_on_mass_and_impulse
 
 .. py:data:: speed
