@@ -8,13 +8,13 @@ nonzero concentration of free charge carriers in the semiconductor.
 
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
-**Links:**
-
-#. `Intrinsic carrier concentration <https://www.universitywafer.com/intrinsic-carrier-concentration.html>`_.
-
 **Conditions:**
 
 #. There are no external influences, such as lighting, electric field, etc.
+
+**Links:**
+
+#. `University Wafer, Intrinsic carrier concentration <https://www.universitywafer.com/intrinsic-carrier-concentration.html>`_.
 
 .. py:currentmodule:: symplyphysics.laws.condensed_matter.concentration_of_intrinsic_charge_carriers
 

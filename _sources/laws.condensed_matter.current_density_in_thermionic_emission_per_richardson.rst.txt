@@ -9,6 +9,10 @@ the material. This formula for emission current density was proposed by Owen Wil
 
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
+**Links:**
+
+#. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Thermionic_emission#Richardson's_law>`__.
+
 .. py:currentmodule:: symplyphysics.laws.condensed_matter.current_density_in_thermionic_emission_per_richardson
 
 .. py:data:: current_density

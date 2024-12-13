@@ -10,6 +10,10 @@ of the positive charges at this point.
 
 #. Charge carriers carry the the same amount of charge.
 
+**Links:**
+
+#. `Wikipedia, first formula with adjustments <https://en.wikipedia.org/wiki/Electron_mobility#Relation_to_current_density>`__.
+
 .. py:currentmodule:: symplyphysics.laws.condensed_matter.current_density_via_number_density_and_drift_velocity
 
 .. py:data:: current_density
