@@ -10,6 +10,10 @@ the radiating body's temperature.
 
 #. :math:`\sigma` (:code:`sigma`) is :attr:`~symplyphysics.quantities.stefan_boltzmann_constant`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law#Detailed_explanation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.radiation_power_via_temperature
 
 .. py:data:: radiation_power

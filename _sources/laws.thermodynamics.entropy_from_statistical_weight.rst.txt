@@ -8,6 +8,10 @@ is the average number of microstates of a system that implement its macro-state.
 
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Entropy_(statistical_thermodynamics)#Gibbs_entropy_formula>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.entropy_from_statistical_weight
 
 .. py:data:: entropy

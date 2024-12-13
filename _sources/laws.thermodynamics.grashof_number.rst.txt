@@ -9,6 +9,10 @@ and is analogous to the Reynolds number.
 
 #. :math:`g` (:code:`g`) is :attr:`~symplyphysics.quantities.acceleration_due_to_gravity`.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Grashof_number#Definition>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.grashof_number
 
 .. py:data:: grashof_number

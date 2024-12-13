@@ -5,6 +5,10 @@ The **Mayer's relation** is the relation between heat capacity at constant press
 capacity at constant volume. In the current form it is applicable to any homogeneous substance,
 not just ideal gases.
 
+**Links:**
+
+#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Mayer%27s_relation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance
 
 .. py:data:: isobaric_heat_capacity

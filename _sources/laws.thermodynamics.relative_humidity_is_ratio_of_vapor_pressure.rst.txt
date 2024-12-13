@@ -7,6 +7,10 @@ equilibrium with a liquid or solid of the same composition in a closed system. I
 a system, the number of evaporating molecules is equal to the number of condensing
 molecules per unit time.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Humidity#Relative_humidity>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure
 
 .. py:data:: relative_humidity

@@ -9,6 +9,10 @@ of the gas.
 
 #. Applies to ideal gases.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Ideal_gas_law#math_4>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.pressure_and_temperature_in_isochoric_process
 
 .. py:data:: initial_pressure

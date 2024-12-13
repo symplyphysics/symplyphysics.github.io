@@ -9,6 +9,10 @@ parameters, or degrees of freedom.
 
 #. :math:`d` denotes an exact, path-independent differential.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Gibbs%E2%80%93Duhem_equation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.intensive_parameters_relation
 
 .. py:data:: entropy

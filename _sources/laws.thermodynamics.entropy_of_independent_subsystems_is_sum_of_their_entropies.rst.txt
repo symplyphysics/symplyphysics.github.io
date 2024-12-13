@@ -10,6 +10,10 @@ known as `subadditivity <https://en.wikipedia.org/wiki/Subadditivity>`_.
 
 #. The subsystems must be (approximately) independent in the statistical sense.
 
+**Links:**
+
+#. `ScienceDirect <https://www.sciencedirect.com/science/article/abs/pii/S0378437103002620>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.entropy_of_independent_subsystems_is_sum_of_their_entropies
 
 .. py:data:: total_entropy

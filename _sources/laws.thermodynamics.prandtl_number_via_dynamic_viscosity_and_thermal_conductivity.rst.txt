@@ -5,6 +5,10 @@ Prandtl number via dynamic viscosity and thermal conductivity
 (momentum diffusivity) to thermal diffusivity. It can also be expressed using dynamic viscosity
 and thermal conductivity.
 
+**Links:**
+
+#. `Wikipedia, last formula within the box <https://en.wikipedia.org/wiki/Prandtl_number>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity
 
 .. py:data:: isobaric_specific_heat_capacity

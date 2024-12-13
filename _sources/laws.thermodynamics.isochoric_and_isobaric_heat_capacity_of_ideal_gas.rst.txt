@@ -12,6 +12,10 @@ constant volume in the case of an ideal gas.
 
 #. Gas is ideal.
 
+**Links:**
+
+#. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Mayer%27s_relation>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas
 
 .. py:data:: isobaric_heat_capacity

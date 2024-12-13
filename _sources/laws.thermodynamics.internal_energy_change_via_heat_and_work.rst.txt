@@ -20,6 +20,10 @@ during a thermodynamic process.
 #. The heat flowing from the environment *into* the system is positive, and the heat flowing into
    the environment *out of* the system is negative.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/First_law_of_thermodynamics#Definition>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.internal_energy_change_via_heat_and_work
 
 .. py:data:: internal_energy_change

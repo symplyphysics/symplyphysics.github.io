@@ -12,6 +12,10 @@ solids, it is a big achievement and the result has correct asymptotic behaviour 
 
 #. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
+**Links:**
+
+#. `Wikipedia, equivalent formula in the box <https://en.wikipedia.org/wiki/Einstein_solid>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids
 
 .. py:data:: isochoric_molar_heat_capacity

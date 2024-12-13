@@ -10,6 +10,13 @@ in space, say, a container with gas particles.
 #. :math:`V \le V_0`
 #. There are no external fields acting on the particles.
 
+**Links:**
+
+#. Formula 80.1 on p. 292 of "General Course of Physics" (Obschiy kurs fiziki), vol. 1 by Sivukhin D.V. (1979).
+
+..
+    TODO find English link
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume
 
 .. py:data:: probability

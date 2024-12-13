@@ -5,6 +5,10 @@ Under the curved surface of a fluid, in addition to the internal pressure, addit
 is created due to the curvature of the surface. The excess pressure under the curved surface of
 the fluid is called *Laplace pressure*.
 
+**Links:**
+
+#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Laplace_pressure>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.laplace_pressure_of_spherical_shapes
 
 .. py:data:: laplace_pressure

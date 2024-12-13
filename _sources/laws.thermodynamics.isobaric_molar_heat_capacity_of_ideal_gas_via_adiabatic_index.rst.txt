@@ -12,6 +12,10 @@ constant and the adiabatic index of the gas.
 
 #. The gas is ideal.
 
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Heat_capacity_ratio#Ideal-gas_relations>`__.
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
 
 .. py:data:: isobaric_molar_heat_capacity
