@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Chemical potential is Gibbs energy per particle &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Internal energy change via heat and electric displacement change &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Chemical potential is particle count derivative of enthalpy" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_enthalpy.html" />
-    <link rel="prev" title="Change in entropy of ideal gas from volume and temperature" href="laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature.html" />
+    <link rel="next" title="Equations of state" href="laws.thermodynamics.equations_of_state.html" />
+    <link rel="prev" title="Dielectric Thermodynamics" href="laws.thermodynamics.dielectrics.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,64 +35,84 @@
 
           <div class="body" role="main">
             
-  <section id="chemical-potential-is-gibbs-energy-per-particle">
-<h1>Chemical potential is Gibbs energy per particle<a class="headerlink" href="#chemical-potential-is-gibbs-energy-per-particle" title="Link to this heading">¶</a></h1>
-<p>Chemical potential of a thermodynamic system can be expressed as the Gibbs energy of the system
-per particle. Therefore, chemical potential is an intensive physical quantity, whereas Gibbs energy
-and particle count are extensive.</p>
+  <section id="internal-energy-change-via-heat-and-electric-displacement-change">
+<h1>Internal energy change via heat and electric displacement change<a class="headerlink" href="#internal-energy-change-via-heat-and-electric-displacement-change" title="Link to this heading">¶</a></h1>
+<p>Internal energy change of the system with a dielectric medium can be
+expressed using the infinitesimal heat flowing in or out of the system
+and the change in electric displacement.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The dielectric is isotropic whether or not the electric field is present.</p></li>
+<li><p>The medium is homogeneous.</p></li>
+<li><p>The volume change of the medium is insignificant.</p></li>
+</ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Gibbs_free_energy#Definitions">Wikipedia, last formula in paragraph</a>.</p></li>
+<li><p>Formula 31.2 on p. 122 of “General Course of Physics” (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.chemical_potential">
-<span class="sig-name descname"><span class="pre">chemical_potential</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.chemical_potential" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.chemical_potential" title="symplyphysics.symbols.thermodynamics.chemical_potential"><code class="xref py py-attr docutils literal notranslate"><span class="pre">chemical_potential</span></code></a> of the system.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.internal_energy_density_change">
+<span class="sig-name descname"><span class="pre">internal_energy_density_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.internal_energy_density_change" title="Link to this definition">¶</a></dt>
+<dd><p>Infinitesimal change in <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.internal_energy" title="symplyphysics.symbols.thermodynamics.internal_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">internal_energy</span></code></a> per unit <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dU</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(dU\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.gibbs_energy">
-<span class="sig-name descname"><span class="pre">gibbs_energy</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.gibbs_energy" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.gibbs_energy" title="symplyphysics.symbols.thermodynamics.gibbs_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">gibbs_energy</span></code></a> of the system.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.heat_density">
+<span class="sig-name descname"><span class="pre">heat_density</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.heat_density" title="Link to this definition">¶</a></dt>
+<dd><p>Small amount of <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.heat" title="symplyphysics.symbols.thermodynamics.heat"><code class="xref py py-attr docutils literal notranslate"><span class="pre">heat</span></code></a> added to or taken from the system per unit <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">G</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">delta(Q)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(G\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\delta Q\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.particle_count">
-<span class="sig-name descname"><span class="pre">particle_count</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.particle_count" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.particle_count" title="symplyphysics.symbols.basic.particle_count"><code class="xref py py-attr docutils literal notranslate"><span class="pre">particle_count</span></code></a> of the system.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_field_strength">
+<span class="sig-name descname"><span class="pre">electric_field_strength</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_field_strength" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_field_strength" title="symplyphysics.symbols.electrodynamics.electric_field_strength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_field_strength</span></code></a> in the medium.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">voltage/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span> <span class="pre">=</span> <span class="pre">G</span> <span class="pre">/</span> <span class="pre">N</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_displacement_change">
+<span class="sig-name descname"><span class="pre">electric_displacement_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_displacement_change" title="Link to this definition">¶</a></dt>
+<dd><p>Infinitesimal change in <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_displacement" title="symplyphysics.symbols.electrodynamics.electric_displacement"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_displacement</span></code></a>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dD</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(dD\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge/area</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">dU</span> <span class="pre">=</span> <span class="pre">delta(Q)</span> <span class="pre">+</span> <span class="pre">E</span> <span class="pre">*</span> <span class="pre">dD</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\mu = \frac{G}{N}\]</div>
+\[dU = \delta Q + E dD\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -145,7 +165,10 @@ and particle count are extensive.</p>
 <li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.bose_einstein_statistics.html"><strong>Bose—Einstein statistics</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.dielectrics.html"><strong>Dielectric Thermodynamics</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.thermodynamics.dielectrics.html"><strong>Dielectric Thermodynamics</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Internal energy change via heat and electric displacement change</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.equations_of_state.html"><strong>Equations of state</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.euler_relations.html"><strong>Euler relations</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.fermi_dirac_statistics.html"><strong>Fermi—Dirac statistics</strong></a></li>
@@ -157,13 +180,7 @@ and particle count are extensive.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.average_square_speed_in_maxwell_boltzmann_statistics.html">Average square speed in Maxwell—Boltzmann statistics</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.canonical_partition_function_of_classical_discrete_system.html">Canonical partition function of a classical discrete system</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature.html">Change in entropy of ideal gas from volume and temperature</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Chemical potential is Gibbs energy per particle</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.chemical_potential"><code class="docutils literal notranslate"><span class="pre">chemical_potential</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.gibbs_energy"><code class="docutils literal notranslate"><span class="pre">gibbs_energy</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.particle_count"><code class="docutils literal notranslate"><span class="pre">particle_count</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
-</ul>
-</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.html">Chemical potential is Gibbs energy per particle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_enthalpy.html">Chemical potential is particle count derivative of enthalpy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_free_energy.html">Chemical potential is particle count derivative of free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_gibbs_energy.html">Chemical potential is particle count derivative of Gibbs energy</a></li>
@@ -251,8 +268,10 @@ and particle count are extensive.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.thermodynamics.html">Thermodynamics</a><ul>
-      <li>Previous: <a href="laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature.html" title="previous chapter">Change in entropy of ideal gas from volume and temperature</a></li>
-      <li>Next: <a href="laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_enthalpy.html" title="next chapter">Chemical potential is particle count derivative of enthalpy</a></li>
+  <li><a href="laws.thermodynamics.dielectrics.html"><strong>Dielectric Thermodynamics</strong></a><ul>
+      <li>Previous: <a href="laws.thermodynamics.dielectrics.html" title="previous chapter"><strong>Dielectric Thermodynamics</strong></a></li>
+      <li>Next: <a href="laws.thermodynamics.equations_of_state.html" title="next chapter"><strong>Equations of state</strong></a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -278,7 +297,7 @@ and particle count are extensive.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle.rst.txt"
+      <a href="_sources/laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

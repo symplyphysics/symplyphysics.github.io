@@ -394,7 +394,7 @@ Symbols related to electrodynamics.
 
     **Links:**
 
-    #. `Magnetic moment <https://en.wikipedia.org/wiki/Magnetic_moment>`__.
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Magnetic_moment>`__.
 
     Symbol:
         :code:`m`
@@ -404,4 +404,23 @@ Symbols related to electrodynamics.
 
     Dimension:
         :code:`area*current`
+
+.. py:data:: electric_displacement
+
+    **Electric displacement field**, also called **electric flux density** or **electric induction**,
+    is a vector field, which accounts for the electromagnetic effects of polarization and that of an
+    electric field, combining the two in an auxiliary field.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Electric_displacement_field>`__.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`charge/area`
 
