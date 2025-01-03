@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Internal energy change via heat and electric displacement change &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Free energy change via temperature change and electric displacement change &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Equations of state" href="laws.thermodynamics.equations_of_state.html" />
-    <link rel="prev" title="Gibbs energy of dielectrics" href="laws.thermodynamics.dielectrics.gibbs_energy_formula.html" />
+    <link rel="next" title="Gibbs energy of dielectrics" href="laws.thermodynamics.dielectrics.gibbs_energy_formula.html" />
+    <link rel="prev" title="Enthalpy of dielectrics" href="laws.thermodynamics.dielectrics.enthalpy_formula.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,11 +35,11 @@
 
           <div class="body" role="main">
             
-  <section id="internal-energy-change-via-heat-and-electric-displacement-change">
-<h1>Internal energy change via heat and electric displacement change<a class="headerlink" href="#internal-energy-change-via-heat-and-electric-displacement-change" title="Link to this heading">¶</a></h1>
-<p>Internal energy change of the system with a dielectric medium can be
-expressed using the infinitesimal heat flowing in or out of the system
-and the change in electric displacement.</p>
+  <section id="free-energy-change-via-temperature-change-and-electric-displacement-change">
+<h1>Free energy change via temperature change and electric displacement change<a class="headerlink" href="#free-energy-change-via-temperature-change-and-electric-displacement-change" title="Link to this heading">¶</a></h1>
+<p>The infinitesimal change in (Helmholtz) free energy of a system with a dielectric
+medium can be expressed using the change in temperature and the change in electric
+displacement.</p>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>The dielectric is isotropic whether or not the electric field is present.</p></li>
@@ -48,16 +48,17 @@ and the change in electric displacement.</p>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
-<li><p>Formula 31.2 on p. 122 of “General Course of Physics” (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).</p></li>
+<li><p>Formula 31.7 on p. 122 of “General Course of Physics” (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.internal_energy_density_change">
-<span class="sig-name descname"><span class="pre">internal_energy_density_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.internal_energy_density_change" title="Link to this definition">¶</a></dt>
-<dd><p>Infinitesimal change in <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.internal_energy" title="symplyphysics.symbols.thermodynamics.internal_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">internal_energy</span></code></a> per unit <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.free_energy_density_change">
+<span class="sig-name descname"><span class="pre">free_energy_density_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.free_energy_density_change" title="Link to this definition">¶</a></dt>
+<dd><p>Infinitesimal change in <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.helmholtz_free_energy" title="symplyphysics.symbols.thermodynamics.helmholtz_free_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">helmholtz_free_energy</span></code></a> of the system
+per unit <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dU</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dH</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(dU\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(dH\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/volume</span></code></p>
 </dd>
@@ -65,23 +66,37 @@ and the change in electric displacement.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.heat_density">
-<span class="sig-name descname"><span class="pre">heat_density</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.heat_density" title="Link to this definition">¶</a></dt>
-<dd><p>Small amount of <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.heat" title="symplyphysics.symbols.thermodynamics.heat"><code class="xref py py-attr docutils literal notranslate"><span class="pre">heat</span></code></a> added to or taken from the system per unit <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.entropy_density">
+<span class="sig-name descname"><span class="pre">entropy_density</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.entropy_density" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.entropy" title="symplyphysics.symbols.thermodynamics.entropy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">entropy</span></code></a> of the system per unit <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">delta(Q)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">S</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\delta Q\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(S\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/volume</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/(temperature*volume)</span></code></p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_field_strength">
-<span class="sig-name descname"><span class="pre">electric_field_strength</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_field_strength" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_field_strength" title="symplyphysics.symbols.electrodynamics.electric_field_strength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_field_strength</span></code></a> in the medium.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.temperature_change">
+<span class="sig-name descname"><span class="pre">temperature_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.temperature_change" title="Link to this definition">¶</a></dt>
+<dd><p>Infinitesimal change in <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.temperature" title="symplyphysics.symbols.thermodynamics.temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temperature</span></code></a> of the system.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dT</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(dT\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">temperature</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.electric_field_strength">
+<span class="sig-name descname"><span class="pre">electric_field_strength</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.electric_field_strength" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_field_strength" title="symplyphysics.symbols.electrodynamics.electric_field_strength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_field_strength</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
 </dd>
@@ -93,9 +108,9 @@ and the change in electric displacement.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_displacement_change">
-<span class="sig-name descname"><span class="pre">electric_displacement_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.electric_displacement_change" title="Link to this definition">¶</a></dt>
-<dd><p>Infinitesimal change in <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_displacement" title="symplyphysics.symbols.electrodynamics.electric_displacement"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_displacement</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.electric_displacement_change">
+<span class="sig-name descname"><span class="pre">electric_displacement_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.electric_displacement_change" title="Link to this definition">¶</a></dt>
+<dd><p>Infinitesimal change in <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_displacement" title="symplyphysics.symbols.electrodynamics.electric_displacement"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_displacement</span></code></a> of the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dD</span></code></p>
 </dd>
@@ -107,12 +122,12 @@ and the change in electric displacement.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">dU</span> <span class="pre">=</span> <span class="pre">delta(Q)</span> <span class="pre">+</span> <span class="pre">E</span> <span class="pre">*</span> <span class="pre">dD</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">dH</span> <span class="pre">=</span> <span class="pre">-S</span> <span class="pre">*</span> <span class="pre">dT</span> <span class="pre">+</span> <span class="pre">E</span> <span class="pre">*</span> <span class="pre">dD</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[dU = \delta Q + E dD\]</div>
+\[dH = - S dT + E dD\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -168,9 +183,9 @@ and the change in electric displacement.</p>
 <li class="toctree-l3 current"><a class="reference internal" href="laws.thermodynamics.dielectrics.html"><strong>Dielectric Thermodynamics</strong></a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.dielectrics.enthalpy_change_via_entropy_change_and_electric_field_change.html">Enthalpy change via entropy change and electric field change</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.dielectrics.enthalpy_formula.html">Enthalpy of dielectrics</a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.html">Free energy change via temperature change and electric displacement change</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Free energy change via temperature change and electric displacement change</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.dielectrics.gibbs_energy_formula.html">Gibbs energy of dielectrics</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Internal energy change via heat and electric displacement change</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.html">Internal energy change via heat and electric displacement change</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.equations_of_state.html"><strong>Equations of state</strong></a></li>
@@ -273,8 +288,8 @@ and the change in electric displacement.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.thermodynamics.html">Thermodynamics</a><ul>
   <li><a href="laws.thermodynamics.dielectrics.html"><strong>Dielectric Thermodynamics</strong></a><ul>
-      <li>Previous: <a href="laws.thermodynamics.dielectrics.gibbs_energy_formula.html" title="previous chapter">Gibbs energy of dielectrics</a></li>
-      <li>Next: <a href="laws.thermodynamics.equations_of_state.html" title="next chapter"><strong>Equations of state</strong></a></li>
+      <li>Previous: <a href="laws.thermodynamics.dielectrics.enthalpy_formula.html" title="previous chapter">Enthalpy of dielectrics</a></li>
+      <li>Next: <a href="laws.thermodynamics.dielectrics.gibbs_energy_formula.html" title="next chapter">Gibbs energy of dielectrics</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -301,7 +316,7 @@ and the change in electric displacement.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change.rst.txt"
+      <a href="_sources/laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
