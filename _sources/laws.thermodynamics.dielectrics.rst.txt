@@ -10,6 +10,7 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
+  laws.thermodynamics.dielectrics.enthalpy_change_via_entropy_change_and_electric_field_change
   laws.thermodynamics.dielectrics.enthalpy_formula
   laws.thermodynamics.dielectrics.gibbs_energy_formula
   laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change
