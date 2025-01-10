@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>symplyphysics.definitions.vector.damping_force_is_proportional_to_velocity &#8212; symplyphysics 1.0.0 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/alabaster.css?v=27fed22d" />
     <script src="../../../../_static/documentation_options.js?v=8d563738"></script>
@@ -45,7 +45,7 @@
 <span class="sd">#. `Physics LibreTexts, formula 8.3.1 &lt;https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_9HA__Classical_Mechanics/8%3A_Small_Oscillations/8.3%3A_Damping_and_Resonance&gt;`__.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
-<span class="kn">from</span> <span class="nn">symplyphysics</span> <span class="kn">import</span> <span class="p">(</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">symplyphysics</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
     <span class="n">units</span><span class="p">,</span>
     <span class="n">Symbol</span><span class="p">,</span>
     <span class="n">Quantity</span><span class="p">,</span>
@@ -67,7 +67,7 @@
 
 <div class="viewcode-block" id="damping_force_definition">
 <a class="viewcode-back" href="../../../../definitions.vector.damping_force_is_proportional_to_velocity.html#symplyphysics.definitions.vector.damping_force_is_proportional_to_velocity.damping_force_definition">[docs]</a>
-<span class="k">def</span> <span class="nf">damping_force_definition</span><span class="p">(</span><span class="n">velocity_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">damping_force_definition</span><span class="p">(</span><span class="n">velocity_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    Vector of *damping force* exerted on the object.</span>
 
@@ -101,7 +101,7 @@
 
 <div class="viewcode-block" id="velocity_law">
 <a class="viewcode-back" href="../../../../definitions.vector.damping_force_is_proportional_to_velocity.html#symplyphysics.definitions.vector.damping_force_is_proportional_to_velocity.velocity_law">[docs]</a>
-<span class="k">def</span> <span class="nf">velocity_law</span><span class="p">(</span><span class="n">damping_force_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">velocity_law</span><span class="p">(</span><span class="n">damping_force_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    *Velocity* of the object which the damping force is exerted on.</span>
 <span class="sd">    </span>
@@ -135,7 +135,7 @@
 
 <span class="nd">@validate_input</span><span class="p">(</span><span class="n">damping_constant_</span><span class="o">=</span><span class="n">damping_constant</span><span class="p">,</span> <span class="n">velocity_</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">velocity</span><span class="p">)</span>
 <span class="nd">@validate_output</span><span class="p">(</span><span class="n">units</span><span class="o">.</span><span class="n">force</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">calculate_damping_force</span><span class="p">(</span><span class="n">damping_constant_</span><span class="p">:</span> <span class="n">Quantity</span><span class="p">,</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">calculate_damping_force</span><span class="p">(</span><span class="n">damping_constant_</span><span class="p">:</span> <span class="n">Quantity</span><span class="p">,</span>
     <span class="n">velocity_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">QuantityVector</span><span class="p">:</span>
     <span class="n">result_vector</span> <span class="o">=</span> <span class="n">damping_force_definition</span><span class="p">(</span><span class="n">velocity_</span><span class="o">.</span><span class="n">to_base_vector</span><span class="p">())</span>
     <span class="k">return</span> <span class="n">QuantityVector</span><span class="o">.</span><span class="n">from_base_vector</span><span class="p">(</span><span class="n">result_vector</span><span class="p">,</span>
@@ -144,7 +144,7 @@
 
 <span class="nd">@validate_input</span><span class="p">(</span><span class="n">damping_constant_</span><span class="o">=</span><span class="n">damping_constant</span><span class="p">,</span> <span class="n">damping_force_</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">force</span><span class="p">)</span>
 <span class="nd">@validate_output</span><span class="p">(</span><span class="n">units</span><span class="o">.</span><span class="n">velocity</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">calculate_velocity</span><span class="p">(</span><span class="n">damping_constant_</span><span class="p">:</span> <span class="n">Quantity</span><span class="p">,</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">calculate_velocity</span><span class="p">(</span><span class="n">damping_constant_</span><span class="p">:</span> <span class="n">Quantity</span><span class="p">,</span>
     <span class="n">damping_force_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">QuantityVector</span><span class="p">:</span>
     <span class="n">result_vector</span> <span class="o">=</span> <span class="n">velocity_law</span><span class="p">(</span><span class="n">damping_force_</span><span class="o">.</span><span class="n">to_base_vector</span><span class="p">())</span>
     <span class="k">return</span> <span class="n">QuantityVector</span><span class="o">.</span><span class="n">from_base_vector</span><span class="p">(</span><span class="n">result_vector</span><span class="p">,</span>

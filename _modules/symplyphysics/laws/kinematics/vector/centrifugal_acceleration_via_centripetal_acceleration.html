@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration &#8212; symplyphysics 1.0.0 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/alabaster.css?v=27fed22d" />
     <script src="../../../../../_static/documentation_options.js?v=8d563738"></script>
@@ -44,7 +44,7 @@
 <span class="sd">#. `BYJU&#39;s &lt;https://byjus.com/physics/centripetal-and-centrifugal-force/&gt;`__.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
-<span class="kn">from</span> <span class="nn">symplyphysics</span> <span class="kn">import</span> <span class="p">(</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">symplyphysics</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
     <span class="n">units</span><span class="p">,</span>
     <span class="n">validate_input</span><span class="p">,</span>
     <span class="n">validate_output</span><span class="p">,</span>
@@ -56,7 +56,7 @@
 
 <div class="viewcode-block" id="centrifugal_law">
 <a class="viewcode-back" href="../../../../../laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_law">[docs]</a>
-<span class="k">def</span> <span class="nf">centrifugal_law</span><span class="p">(</span><span class="n">centripetal_acceleration_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">centrifugal_law</span><span class="p">(</span><span class="n">centripetal_acceleration_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    *Centrifugal acceleration* via centripetal acceleration.</span>
 
@@ -90,7 +90,7 @@
 
 <div class="viewcode-block" id="centripetal_law">
 <a class="viewcode-back" href="../../../../../laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration.centripetal_law">[docs]</a>
-<span class="k">def</span> <span class="nf">centripetal_law</span><span class="p">(</span><span class="n">centrifugal_acceleration_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">centripetal_law</span><span class="p">(</span><span class="n">centrifugal_acceleration_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Vector</span><span class="p">:</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    *Centripetal acceleration* via centrifugal acceleration.</span>
 
@@ -124,7 +124,7 @@
 
 <span class="nd">@validate_input</span><span class="p">(</span><span class="n">centripetal_acceleration_</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">acceleration</span><span class="p">)</span>
 <span class="nd">@validate_output</span><span class="p">(</span><span class="n">units</span><span class="o">.</span><span class="n">acceleration</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">calculate_centrifugal_acceleration</span><span class="p">(</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">calculate_centrifugal_acceleration</span><span class="p">(</span>
     <span class="n">centripetal_acceleration_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,)</span> <span class="o">-&gt;</span> <span class="n">QuantityVector</span><span class="p">:</span>
     <span class="n">result_vector</span> <span class="o">=</span> <span class="n">centrifugal_law</span><span class="p">(</span><span class="n">centripetal_acceleration_</span><span class="o">.</span><span class="n">to_base_vector</span><span class="p">())</span>
     <span class="k">return</span> <span class="n">QuantityVector</span><span class="o">.</span><span class="n">from_base_vector</span><span class="p">(</span><span class="n">result_vector</span><span class="p">)</span>

@@ -22,6 +22,7 @@ Contents:
   laws.electricity.current_is_voltage_over_resistance
   laws.electricity.electric_charge_is_constant_in_isolated_system
   laws.electricity.electric_dipole_moment_is_charge_times_distance
+  laws.electricity.electric_displacement_is_permittivity_times_electric_field
   laws.electricity.electric_field_due_to_dipole
   laws.electricity.electric_field_due_to_point_charge
   laws.electricity.electric_field_is_force_over_test_charge

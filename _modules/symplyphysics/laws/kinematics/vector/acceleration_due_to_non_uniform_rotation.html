@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation &#8212; symplyphysics 1.0.0 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/alabaster.css?v=27fed22d" />
     <script src="../../../../../_static/documentation_options.js?v=8d563738"></script>
@@ -52,8 +52,8 @@
 <span class="sd">    TODO find English link</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
-<span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">Expr</span><span class="p">,</span> <span class="n">abc</span>
-<span class="kn">from</span> <span class="nn">symplyphysics</span> <span class="kn">import</span> <span class="p">(</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="kn">import</span> <span class="n">Expr</span><span class="p">,</span> <span class="n">abc</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">symplyphysics</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
     <span class="n">units</span><span class="p">,</span>
     <span class="n">angle_type</span><span class="p">,</span>
     <span class="n">validate_input</span><span class="p">,</span>
@@ -64,12 +64,12 @@
     <span class="n">cross_cartesian_vectors</span><span class="p">,</span>
     <span class="n">scale_vector</span><span class="p">,</span>
 <span class="p">)</span>
-<span class="kn">from</span> <span class="nn">symplyphysics.core.vectors.arithmetics</span> <span class="kn">import</span> <span class="n">diff_cartesian_vector</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">symplyphysics.core.vectors.arithmetics</span><span class="w"> </span><span class="kn">import</span> <span class="n">diff_cartesian_vector</span>
 
 
 <div class="viewcode-block" id="non_uniform_rotation_acceleration_law">
 <a class="viewcode-back" href="../../../../../laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.html#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration_law">[docs]</a>
-<span class="k">def</span> <span class="nf">non_uniform_rotation_acceleration_law</span><span class="p">(</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">non_uniform_rotation_acceleration_law</span><span class="p">(</span>
     <span class="n">angular_velocity_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
     <span class="n">time_</span><span class="p">:</span> <span class="n">Expr</span><span class="p">,</span>
     <span class="n">radius_vector_</span><span class="p">:</span> <span class="n">Vector</span><span class="p">,</span>
@@ -128,7 +128,7 @@
     <span class="n">position_vector</span><span class="o">=</span><span class="n">units</span><span class="o">.</span><span class="n">length</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="nd">@validate_output</span><span class="p">(</span><span class="n">units</span><span class="o">.</span><span class="n">acceleration</span><span class="p">)</span>
-<span class="k">def</span> <span class="nf">calculate_non_uniform_rotation_acceleration</span><span class="p">(</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">calculate_non_uniform_rotation_acceleration</span><span class="p">(</span>
     <span class="n">angular_velocity_change_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,</span>
     <span class="n">time_change_</span><span class="p">:</span> <span class="n">Quantity</span><span class="p">,</span>
     <span class="n">radius_vector_</span><span class="p">:</span> <span class="n">QuantityVector</span><span class="p">,</span>
