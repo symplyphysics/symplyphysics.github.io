@@ -13,3 +13,5 @@ Contents:
 
   laws.quantum_mechanics.harmonic_oscillator
   laws.quantum_mechanics.schrodinger
+  laws.quantum_mechanics.expectation_value_of_observable
+  laws.quantum_mechanics.probability_density_of_quantum_state

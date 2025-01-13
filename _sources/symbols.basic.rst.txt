@@ -236,6 +236,19 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`dimensionless`
 
+.. py:data:: nonnegative_number
+
+    A dimensionless non-negative whole **number**, i.e. :math:`0, 1, 2, \dots`.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: number_density
 
     **Number density** is an intensive quantity used to describe the degree of concentration of countable objects

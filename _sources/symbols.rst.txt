@@ -15,5 +15,6 @@ Contents:
   symbols.classical_mechanics
   symbols.electrodynamics
   symbols.optics
+  symbols.quantum_mechanics
   symbols.relativistic_mechanics
   symbols.thermodynamics
