@@ -43,29 +43,39 @@ at constant pressure.
     Dimension:
         :code:`temperature`
 
-.. py:data:: volume
+.. py:data:: parameters
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the body as a function of temperature and pressure.
+    Parameters other than :attr:`~temperature` on which the volume function depends.
 
     Symbol:
-        :code:`V(T)`
+        :code:`q`
 
     Latex:
-        :math:`V{\left(T \right)}`
+        :math:`q`
+
+    Dimension:
+        :code:`any_dimension`
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the body as a function of :attr:`~temperature` and :attr:`~parameters`.
+
+    Symbol:
+        :code:`V(T, q)`
+
+    Latex:
+        :math:`V{\left(T,q \right)}`
 
     Dimension:
         :code:`volume`
 
 .. py:data:: definition
 
-    :code:`alpha_V = Derivative(V(T), T) / V(T)`
+    :code:`alpha_V = Derivative(V(T, q), T) / V(T, q)`
 
-
-    .. only:: comment
-
-        Manual formula due to partial derivative not rendered by auto-generation
 
     Latex:
         .. math::
-            \alpha_V = \frac{1}{V(T, p)} \left( \frac{\partial V}{\partial T} \right)_p
+            \alpha_{V} = \frac{\frac{\partial}{\partial T} V{\left(T,q \right)}}{V{\left(T,q \right)}}
+
 

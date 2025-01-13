@@ -86,7 +86,7 @@ equation can be constructed using the solution of the time-independent equation.
 
 .. py:data:: law
 
-    :code:`Psi(x, t) = psi(x) * exp(I / hbar * E * t)`
+    :code:`Psi(x, t) = psi(x) * exp(-I / hbar * E * t)`
 
 
     Latex:

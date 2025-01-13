@@ -76,13 +76,27 @@ at constant pressure.</p>
 </dd></dl>
 
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.parameters">
+<span class="sig-name descname"><span class="pre">parameters</span></span><a class="headerlink" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.parameters" title="Link to this definition">¶</a></dt>
+<dd><p>Parameters other than <a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.temperature" title="symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temperature</span></code></a> on which the volume function depends.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">q</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(q\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">any_dimension</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.volume">
 <span class="sig-name descname"><span class="pre">volume</span></span><a class="headerlink" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.volume" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the body as a function of temperature and pressure.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the body as a function of <a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.temperature" title="symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temperature</span></code></a> and <a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.parameters" title="symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.parameters"><code class="xref py py-attr docutils literal notranslate"><span class="pre">parameters</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V(T)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V(T,</span> <span class="pre">q)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V{\left(T \right)}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V{\left(T,q \right)}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume</span></code></p>
 </dd>
@@ -92,10 +106,10 @@ at constant pressure.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.definition">
 <span class="sig-name descname"><span class="pre">definition</span></span><a class="headerlink" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.definition" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_V</span> <span class="pre">=</span> <span class="pre">Derivative(V(T),</span> <span class="pre">T)</span> <span class="pre">/</span> <span class="pre">V(T)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_V</span> <span class="pre">=</span> <span class="pre">Derivative(V(T,</span> <span class="pre">q),</span> <span class="pre">T)</span> <span class="pre">/</span> <span class="pre">V(T,</span> <span class="pre">q)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\alpha_V = \frac{1}{V(T, p)} \left( \frac{\partial V}{\partial T} \right)_p\]</div>
+\[\alpha_{V} = \frac{\frac{\partial}{\partial T} V{\left(T,q \right)}}{V{\left(T,q \right)}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -131,7 +145,7 @@ at constant pressure.</p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="laws.html">Laws</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="definitions.html">Definitions</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="definitions.vector.html">Definitions (Vector)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="definitions.vector.html"><strong>Definitions (Vector)</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.acceleration_is_speed_derivative.html">Acceleration is speed derivative</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.admittance_is_inverse_impedance.html">Admittance is inverse impedance</a></li>
 <li class="toctree-l2"><a class="reference internal" href="definitions.angular_acceleration_is_angular_speed_derivative.html">Angular acceleration is angular speed derivative</a></li>
@@ -173,6 +187,7 @@ at constant pressure.</p>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Volumetric coefficient of thermal expansion</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.volumetric_expansion_coefficient"><code class="docutils literal notranslate"><span class="pre">volumetric_expansion_coefficient</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.parameters"><code class="docutils literal notranslate"><span class="pre">parameters</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.volume"><code class="docutils literal notranslate"><span class="pre">volume</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#symplyphysics.definitions.volumetric_coefficient_of_thermal_expansion.definition"><code class="docutils literal notranslate"><span class="pre">definition</span></code></a></li>
 </ul>
@@ -180,6 +195,7 @@ at constant pressure.</p>
 <li class="toctree-l2"><a class="reference internal" href="definitions.wave_equation_in_one_dimension.html">Wave equation in one dimension</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
 <li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
 </ul>

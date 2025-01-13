@@ -38,7 +38,8 @@ position at a particular time.
 
 .. py:data:: law
 
-    :laws:symbols::
+    :code:`rho = Abs(psi)^2`
+
 
     Latex:
         .. math::

@@ -64,10 +64,10 @@ potential and a time-dependent wave function.
     Time-independent :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` as a function of :attr:`~position`.
 
     Symbol:
-        :code:`U(x, t)`
+        :code:`U(x)`
 
     Latex:
-        :math:`U{\left(x,t \right)}`
+        :math:`U{\left(x \right)}`
 
     Dimension:
         :code:`energy`
@@ -87,11 +87,11 @@ potential and a time-dependent wave function.
 
 .. py:data:: law
 
-    :code:`-hbar^2 / (2 * m) * Derivative(psi(x, t), (x, 2)) + U(x, t) * psi(x, t) = I * hbar * Derivative(psi(x, t), t)`
+    :code:`-hbar^2 / (2 * m) * Derivative(psi(x, t), (x, 2)) + U(x) * psi(x, t) = I * hbar * Derivative(psi(x, t), t)`
 
 
     Latex:
         .. math::
-            - \frac{\hbar^{2}}{2 m} \frac{\partial^{2}}{\partial x^{2}} \psi{\left(x,t \right)} + U{\left(x,t \right)} \psi{\left(x,t \right)} = i \hbar \frac{\partial}{\partial t} \psi{\left(x,t \right)}
+            - \frac{\hbar^{2}}{2 m} \frac{\partial^{2}}{\partial x^{2}} \psi{\left(x,t \right)} + U{\left(x \right)} \psi{\left(x,t \right)} = i \hbar \frac{\partial}{\partial t} \psi{\left(x,t \right)}
 
 

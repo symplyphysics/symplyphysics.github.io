@@ -100,9 +100,9 @@ space, replace the spatial second derivative with the Laplace operator.</p></li>
 <span class="sig-name descname"><span class="pre">potential_energy</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension.potential_energy" title="Link to this definition">¶</a></dt>
 <dd><p>Time-independent <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.potential_energy" title="symplyphysics.symbols.classical_mechanics.potential_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">potential_energy</span></code></a> as a function of <a class="reference internal" href="#symplyphysics.laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension.position" title="symplyphysics.laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension.position"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">U(x,</span> <span class="pre">t)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">U(x)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(U{\left(x,t \right)}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(U{\left(x \right)}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
 </dd>
@@ -126,10 +126,10 @@ space, replace the spatial second derivative with the Laplace operator.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">-hbar^2</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">m)</span> <span class="pre">*</span> <span class="pre">Derivative(psi(x,</span> <span class="pre">t),</span> <span class="pre">(x,</span> <span class="pre">2))</span> <span class="pre">+</span> <span class="pre">U(x,</span> <span class="pre">t)</span> <span class="pre">*</span> <span class="pre">psi(x,</span> <span class="pre">t)</span> <span class="pre">=</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">hbar</span> <span class="pre">*</span> <span class="pre">Derivative(psi(x,</span> <span class="pre">t),</span> <span class="pre">t)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">-hbar^2</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">m)</span> <span class="pre">*</span> <span class="pre">Derivative(psi(x,</span> <span class="pre">t),</span> <span class="pre">(x,</span> <span class="pre">2))</span> <span class="pre">+</span> <span class="pre">U(x)</span> <span class="pre">*</span> <span class="pre">psi(x,</span> <span class="pre">t)</span> <span class="pre">=</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">hbar</span> <span class="pre">*</span> <span class="pre">Derivative(psi(x,</span> <span class="pre">t),</span> <span class="pre">t)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[- \frac{\hbar^{2}}{2 m} \frac{\partial^{2}}{\partial x^{2}} \psi{\left(x,t \right)} + U{\left(x,t \right)} \psi{\left(x,t \right)} = i \hbar \frac{\partial}{\partial t} \psi{\left(x,t \right)}\]</div>
+\[- \frac{\hbar^{2}}{2 m} \frac{\partial^{2}}{\partial x^{2}} \psi{\left(x,t \right)} + U{\left(x \right)} \psi{\left(x,t \right)} = i \hbar \frac{\partial}{\partial t} \psi{\left(x,t \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -197,6 +197,7 @@ space, replace the spatial second derivative with the Laplace operator.</p></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
 <li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
 </ul>
