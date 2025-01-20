@@ -81,11 +81,11 @@ the position of the image if the position of the object is known and vice versa.
 
 .. py:data:: law
 
-    :code:`n_0 / (-d_o) + n / d_i = (n - n_0) / r`
+    :code:`-n_0 / d_o + n / d_i = (n - n_0) / r`
 
 
     Latex:
         .. math::
-            \frac{n_{0}}{- d_\text{o}} + \frac{n}{d_\text{i}} = \frac{n - n_{0}}{r}
+            - \frac{n_{0}}{d_\text{o}} + \frac{n}{d_\text{i}} = \frac{n - n_{0}}{r}
 
 

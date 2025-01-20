@@ -42,7 +42,7 @@ there will be a minimum of intensity during interference.
 
 .. py:data:: wavelength
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the two waves.
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of each of the both waves.
 
     Symbol:
         :code:`lambda`
