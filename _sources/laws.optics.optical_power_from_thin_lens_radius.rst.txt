@@ -1,0 +1,91 @@
+Optical power from thin lens radii and refractive indeces
+---------------------------------------------------------
+
+Optical power of a thin lens can be calculated from the radii of its front and back
+surfaces and the refractive indices of the lens material and the medium.
+
+**Links:**
+
+#. `Wikipedia, definition of optical power <https://en.wikipedia.org/wiki/Optical_power>`__.
+#. `Wikipedia, formula for effective focal length <https://en.wikipedia.org/wiki/Lens#Thin_lens_approximation>`__.
+
+..
+    TODO add info about the sign convention for radii
+
+.. py:currentmodule:: symplyphysics.laws.optics.optical_power_from_thin_lens_radius
+
+.. py:data:: optical_power
+
+    :attr:`~symplyphysics.symbols.optics.optical_power` of the lens.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: lens_refractive_index
+
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the lens material.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: medium_refractive_index
+
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the surrounding medium.
+
+    Symbol:
+        :code:`n_0`
+
+    Latex:
+        :math:`n_{0}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: front_radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the front surface.
+
+    Symbol:
+        :code:`r_1`
+
+    Latex:
+        :math:`r_{1}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: back_radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the back surface.
+
+    Symbol:
+        :code:`r_2`
+
+    Latex:
+        :math:`r_{2}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`D = (n - n_0) * (1 / r_1 - 1 / r_2)`
+
+
+    Latex:
+        .. math::
+            D = \left(n - n_{0}\right) \left(\frac{1}{r_{1}} - \frac{1}{r_{2}}\right)
+
+

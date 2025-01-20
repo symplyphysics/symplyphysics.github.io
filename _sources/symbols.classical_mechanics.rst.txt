@@ -176,6 +176,20 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`length`
 
+.. py:data:: diameter
+
+    **Diameter** of a circle or sphere is the length of the biggest chord connecting two
+    points on the circumference.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: semimajor_axis
 
     **Semi-major axis**, or **major semiaxis**, is the longest semidiameter of an ellipse.

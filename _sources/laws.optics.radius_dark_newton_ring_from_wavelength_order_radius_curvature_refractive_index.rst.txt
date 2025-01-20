@@ -1,0 +1,94 @@
+Radius of dark Newton's ring formula
+------------------------------------
+
+Newton's rings are annular interference maxima and minima that appear around the point of contact between a convex
+lens and a plane—parallel plate when light passes through the lens and plate. When the difference in the path of
+the beam reflected from the convex surface of the lens at the glass-air boundary and the beam reflected from the
+plate at the air-glass boundary is equal to an entire wave, then these two waves hit the observation point with
+the same faces and demonstrate interference.
+
+**Links:**
+
+#. `Wikipedia (ru), last formula in paragraph <https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D1%8C%D1%86%D0%B0_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%B0>`__.
+
+..
+    TODO rename file
+    TODO find English link
+
+.. py:currentmodule:: symplyphysics.laws.optics.radius_dark_newton_ring_from_wavelength_order_radius_curvature_refractive_index
+
+.. py:data:: radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the dark Newton's ring.
+
+    Symbol:
+        :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: ring_order
+
+    Ring's order. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: lens_radius_of_curvature
+
+    Lens :attr:`~symplyphysics.symbols.basic.radius_of_curvature`.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: medium_refractive_index
+
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium between the lens and the plate.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`r = sqrt(N * R * lambda / n)`
+
+
+    Latex:
+        .. math::
+            r = \sqrt{\frac{N R \lambda}{n}}
+
+

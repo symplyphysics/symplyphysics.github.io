@@ -20,30 +20,50 @@ between any two points.
 
 .. py:data:: optical_path
 
-    Optical path length of the light ray.
+    Optical path length of the light ray. See :attr:`~symplyphysics.symbols.optics.optical_distance`.
 
     Symbol:
-        :code:`L`
+        :code:`Lambda`
+
+    Latex:
+        :math:`\Lambda`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: geometrical_path
 
-    Geometrical path length of the light ray.
+    Geometrical path length of the light ray. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
 
     Symbol:
-        :code:`l`
+        :code:`s`
+
+    Latex:
+        :math:`s`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: refractive_index
 
-    Refractive index of the medium.
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`L = n * l`
+    :code:`Lambda = n * s`
+
 
     Latex:
         .. math::
-            L = n l
+            \Lambda = n s
+
 

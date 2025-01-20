@@ -1,0 +1,66 @@
+Linear magnification from distance to object and distance to image
+------------------------------------------------------------------
+
+Magnification, in optics, the size of an image relative to the size of the object creating it.
+Depending on the position of the object in relation to the lens, the linear dimensions of the image change.
+
+**Notes:**
+
+#. If magnfication is positive, the image formed is virtual and erect.
+#. If magnfication is negative, the image formed is real and inverted.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Magnification#Single_lens>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.linear_magnification_from_distance_to_object_and_distance_to_image
+
+.. py:data:: magnification
+
+    :attr:`~symplyphysics.symbols.optics.magnification` of the lens.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: distance_to_object
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` from lens to object.
+
+    Symbol:
+        :code:`d_o`
+
+    Latex:
+        :math:`d_\text{o}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: distance_to_image
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` from lens to image.
+
+    Symbol:
+        :code:`d_i`
+
+    Latex:
+        :math:`d_\text{i}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`M = d_i / d_o`
+
+
+    Latex:
+        .. math::
+            M = \frac{d_\text{i}}{d_\text{o}}
+
+

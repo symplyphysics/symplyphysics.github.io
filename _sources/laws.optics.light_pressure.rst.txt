@@ -1,0 +1,66 @@
+Light pressure
+--------------
+
+Light pressure is the pressure exerted by light radiation incident on the surface of a body.
+Under normal light incidence on the surface, the light pressure depends only on the reflection
+coefficient and the intensity of the radiation.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Links:**
+
+#. `BYJU's, "Radiation pressure formula" <https://byjus.com/physics/radiation-pressure/>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.light_pressure
+
+.. py:data:: pressure
+
+    Light :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: intensity
+
+    :attr:`~symplyphysics.symbols.basic.intensity` of incident radiation.
+
+    Symbol:
+        :code:`I`
+
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`power/area`
+
+.. py:data:: reflection_coefficient
+
+    :attr:`~symplyphysics.symbols.optics.reflectance` of the surface.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`p = I * (1 + R) / c`
+
+
+    Latex:
+        .. math::
+            p = \frac{I \left(1 + R\right)}{c}
+
+

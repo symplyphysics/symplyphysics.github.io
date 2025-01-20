@@ -61,3 +61,120 @@ Symbols related to optics.
     Dimension:
         :code:`length`
 
+.. py:data:: optical_distance
+
+    **Optical distance**, also called **optical path length**, is the length that light needs to travel
+    through a vacuum to create the same phase difference as it would have when traveling through a given medium.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Optical_path_length>`__.
+
+    Symbol:
+        :code:`Lambda`
+
+    Latex:
+        :math:`\Lambda`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: irradiance
+
+    In radiometry, **irradiance** is the radiant flux received by a surface per unit area.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Irradiance>`__.
+
+    Symbol:
+        :code:`E_e`
+
+    Latex:
+        :math:`E_\text{e}`
+
+    Dimension:
+        :code:`power/area`
+
+.. py:data:: transparency_coefficient
+
+    The transparency coefficient is used to describe how much light an imperfect polarizer absorbs,
+    zero being a total absorption and one being a perfect polarizer that lets all light pass through.
+
+    ..
+        TODO check if this is the correct English name
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: reflectance
+
+    The **reflectance** of the surface of a material is its effectiveness in reflecting radiant energy.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Reflectance>`__.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: magnification
+
+    Optical **magnification** is the ratio between the apparent size in an image and its true size.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Magnification#Size_ratio_(optical_magnification)>`__.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: optical_power
+
+    **Optical power**, also callled **dioptric power** or **focusing power**, is the degree to which
+    a lens, mirror, or other optical system converges or diverges light.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: angular_resolution
+
+    **Angular resolution** describes the ability of any image-forming device such as an optical or radio telescope, a microscope, a camera, or an eye, to distinguish small details of an object.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Angular_resolution#>`__.
+
+    Symbol:
+        :code:`theta`
+
+    Latex:
+        :math:`\theta`
+
+    Dimension:
+        :code:`angle`
+

@@ -1,0 +1,49 @@
+Linear magnification from object height and image height
+--------------------------------------------------------
+
+Magnification, in optics, is the size of an image relative to the size of the object creating it.
+Linear (sometimes called lateral or transverse) magnification refers to the ratio of image length
+to object length measured in planes that are perpendicular to the optical axis.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Magnification#Single_lens>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.linear_magnification_from_object_height_and_image_height
+
+.. py:data:: image_height
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.height` of the image.
+
+    Symbol:
+        :code:`h_i`
+
+    Latex:
+        :math:`h_\text{i}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: magnification
+
+    :attr:`~symplyphysics.symbols.optics.magnification` of the lens.
+
+    Symbol:
+        :code:`M`
+
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`M = h_i / h_o`
+
+
+    Latex:
+        .. math::
+            M = \frac{h_\text{i}}{h_\text{o}}
+
+
