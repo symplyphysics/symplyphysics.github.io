@@ -5,18 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Relativistic (Vector) &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Proper time for timelike intervals &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.vector.html" />
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.proper_time_for_timelike_intervals.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Coordinate conversion at constant velocity" href="laws.relativistic.coordinate_conversion_velocity_constant.html" />
-    <link rel="prev" title="Relativistic" href="laws.relativistic.html" />
+    <link rel="next" title="Relativistic kinetic energy" href="laws.relativistic.relativistic_kinetic_energy.html" />
+    <link rel="prev" title="Lorentz transformation of time" href="laws.relativistic.lorentz_transformation_of_time.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,9 +35,62 @@
 
           <div class="body" role="main">
             
-  <section id="relativistic-vector">
-<h1><strong>Relativistic (Vector)</strong><a class="headerlink" href="#relativistic-vector" title="Link to this heading">¶</a></h1>
-<p>A collection of laws related to a vectorial description of relativistic mechanics.</p>
+  <section id="proper-time-for-timelike-intervals">
+<h1>Proper time for timelike intervals<a class="headerlink" href="#proper-time-for-timelike-intervals" title="Link to this heading">¶</a></h1>
+<p>In relativity, proper time along a timelike world line is defined as the time as measured by a clock following
+that line. The proper time interval between two events on a world line is the change in proper time, which is
+independent of coordinates, and is a Lorentz scalar.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(c\)</span> (<code class="code docutils literal notranslate"><span class="pre">c</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.speed_of_light" title="symplyphysics.quantities.speed_of_light"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed_of_light</span></code></a>.</p></li>
+</ol>
+<p><strong>Conditions</strong></p>
+<ol class="arabic simple">
+<li><p>The interval is timelike, i.e. <span class="math notranslate nohighlight">\(\Delta s\)</span> is real.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Proper_time#In_special_relativity">Wikipedia, equivalent to formula 2 in box</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.proper_time">
+<span class="sig-name descname"><span class="pre">proper_time</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.proper_time" title="Link to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="symbols.relativistic_mechanics.html#symplyphysics.symbols.relativistic_mechanics.proper_time" title="symplyphysics.symbols.relativistic_mechanics.proper_time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">proper_time</span></code></a> interval between two events.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(tau)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta \tau\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.spacetime_interval">
+<span class="sig-name descname"><span class="pre">spacetime_interval</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.spacetime_interval" title="Link to this definition">¶</a></dt>
+<dd><p>The <a class="reference internal" href="symbols.relativistic_mechanics.html#symplyphysics.symbols.relativistic_mechanics.spacetime_interval" title="symplyphysics.symbols.relativistic_mechanics.spacetime_interval"><code class="xref py py-attr docutils literal notranslate"><span class="pre">spacetime_interval</span></code></a> between two events.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(s)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta s\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(tau)</span> <span class="pre">=</span> <span class="pre">Delta(s)</span> <span class="pre">/</span> <span class="pre">c</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\Delta \tau = \frac{\Delta s}{c}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -83,10 +137,15 @@
 <li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.relativistic.html">Relativistic</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Relativistic (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.relativistic.vector.html"><strong>Relativistic (Vector)</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.coordinate_conversion_velocity_constant.html">Coordinate conversion at constant velocity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.lorentz_transformation_of_time.html">Lorentz transformation of time</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.relativistic.proper_time_for_timelike_intervals.html">Proper time for timelike intervals</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Proper time for timelike intervals</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.proper_time"><code class="docutils literal notranslate"><span class="pre">proper_time</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.spacetime_interval"><code class="docutils literal notranslate"><span class="pre">spacetime_interval</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.relativistic.proper_time_for_timelike_intervals.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.relativistic_kinetic_energy.html">Relativistic kinetic energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.relativistic_length.html">Relativistic length via rest length and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.relativistic_mass.html">Relativistic mass via rest mass and speed</a></li>
@@ -115,8 +174,8 @@
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.relativistic.html">Relativistic</a><ul>
-      <li>Previous: <a href="laws.relativistic.html" title="previous chapter">Relativistic</a></li>
-      <li>Next: <a href="laws.relativistic.coordinate_conversion_velocity_constant.html" title="next chapter">Coordinate conversion at constant velocity</a></li>
+      <li>Previous: <a href="laws.relativistic.lorentz_transformation_of_time.html" title="previous chapter">Lorentz transformation of time</a></li>
+      <li>Next: <a href="laws.relativistic.relativistic_kinetic_energy.html" title="next chapter">Relativistic kinetic energy</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -142,7 +201,7 @@
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.relativistic.vector.rst.txt"
+      <a href="_sources/laws.relativistic.proper_time_for_timelike_intervals.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

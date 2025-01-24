@@ -5,18 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Relativistic (Vector) &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Total energy via relativistic mass &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.vector.html" />
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.total_energy_via_relativistic_mass.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Coordinate conversion at constant velocity" href="laws.relativistic.coordinate_conversion_velocity_constant.html" />
-    <link rel="prev" title="Relativistic" href="laws.relativistic.html" />
+    <link rel="next" title="Thermodynamics" href="laws.thermodynamics.html" />
+    <link rel="prev" title="Total energy via momentum and rest mass" href="laws.relativistic.total_energy_via_momentum_and_rest_mass.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,9 +35,56 @@
 
           <div class="body" role="main">
             
-  <section id="relativistic-vector">
-<h1><strong>Relativistic (Vector)</strong><a class="headerlink" href="#relativistic-vector" title="Link to this heading">¶</a></h1>
-<p>A collection of laws related to a vectorial description of relativistic mechanics.</p>
+  <section id="total-energy-via-relativistic-mass">
+<h1>Total energy via relativistic mass<a class="headerlink" href="#total-energy-via-relativistic-mass" title="Link to this heading">¶</a></h1>
+<p>Fundamentally the energy of an object is synonimical to its mass.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(c\)</span> (<code class="code docutils literal notranslate"><span class="pre">c</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.speed_of_light" title="symplyphysics.quantities.speed_of_light"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed_of_light</span></code></a>.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Mass_in_special_relativity#Relativistic_energy%E2%80%93momentum_equation">Wikipedia, second formula in the last group of three equations</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.relativistic_energy">
+<span class="sig-name descname"><span class="pre">relativistic_energy</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.relativistic_energy" title="Link to this definition">¶</a></dt>
+<dd><p>Total, or relativistic, <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.energy" title="symplyphysics.symbols.basic.energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">energy</span></code></a> of the body.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.relativistic_mass">
+<span class="sig-name descname"><span class="pre">relativistic_mass</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.relativistic_mass" title="Link to this definition">¶</a></dt>
+<dd><p>Relativistic <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the body.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(m\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">m</span> <span class="pre">*</span> <span class="pre">c^2</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[E = m c^{2}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -83,7 +131,7 @@
 <li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.relativistic.html">Relativistic</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Relativistic (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.relativistic.vector.html"><strong>Relativistic (Vector)</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.coordinate_conversion_velocity_constant.html">Coordinate conversion at constant velocity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.lorentz_transformation_of_time.html">Lorentz transformation of time</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.proper_time_for_timelike_intervals.html">Proper time for timelike intervals</a></li>
@@ -96,7 +144,12 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.spacetime_interval.html">Spacetime interval via time and distance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.spacetime_interval_is_lorentz_invariant.html">Spacetime interval is Lorentz invariant</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.total_energy_via_momentum_and_rest_mass.html">Total energy via momentum and rest mass</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.relativistic.total_energy_via_relativistic_mass.html">Total energy via relativistic mass</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Total energy via relativistic mass</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.relativistic_energy"><code class="docutils literal notranslate"><span class="pre">relativistic_energy</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.relativistic_mass"><code class="docutils literal notranslate"><span class="pre">relativistic_mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.relativistic.total_energy_via_relativistic_mass.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
@@ -115,8 +168,8 @@
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.relativistic.html">Relativistic</a><ul>
-      <li>Previous: <a href="laws.relativistic.html" title="previous chapter">Relativistic</a></li>
-      <li>Next: <a href="laws.relativistic.coordinate_conversion_velocity_constant.html" title="next chapter">Coordinate conversion at constant velocity</a></li>
+      <li>Previous: <a href="laws.relativistic.total_energy_via_momentum_and_rest_mass.html" title="previous chapter">Total energy via momentum and rest mass</a></li>
+      <li>Next: <a href="laws.thermodynamics.html" title="next chapter">Thermodynamics</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -142,7 +195,7 @@
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.relativistic.vector.rst.txt"
+      <a href="_sources/laws.relativistic.total_energy_via_relativistic_mass.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
