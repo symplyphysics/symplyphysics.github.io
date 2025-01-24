@@ -424,3 +424,56 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`charge/area`
 
+.. py:data:: attenuation_coefficient
+
+    Attenuation coefficient characterizes how easily a volume of material can be penetrated
+    by energy or matter.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Attenuation_coefficient>`__.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: magnetic_field_strength
+
+    **Magnetic field strength** refers to magnitude of the magnetic field.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Magnetic_field#The_H-field>`__.
+
+    Symbol:
+        :code:`H`
+
+    Latex:
+        :math:`H`
+
+    Dimension:
+        :code:`current/length`
+
+.. py:data:: electrical_conductivity
+
+    **Electrical conductivity** is the reciprocal of electrical resistivity, representing a
+    material's ability to conduct electric current.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Electrical_resistivity_and_conductivity#>`__.
+
+    Symbol:
+        :code:`sigma`
+
+    Latex:
+        :math:`\sigma`
+
+    Dimension:
+        :code:`1/(impedance*length)`
+

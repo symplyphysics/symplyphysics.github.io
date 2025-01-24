@@ -51,11 +51,11 @@ distinguished separately in the telescope.
 
 .. py:data:: law
 
-    :code:`theta = QTY26 * lambda / D`
+    :code:`theta = QTY27 * lambda / D`
 
 
     Latex:
         .. math::
-            \theta = QTY26 \frac{\lambda}{D}
+            \theta = QTY27 \frac{\lambda}{D}
 
 

@@ -40,7 +40,7 @@ with increasing temperature, whereas for liquids it decreases with increasing te
         :code:`mu_0`
 
     Latex:
-        :math:`\mu_{0}`
+        :math:`mu_{0}`
 
     Dimension:
         :code:`pressure*time`
@@ -94,6 +94,6 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
     Latex:
         .. math::
-            \mu = \mu_{0} \frac{T_{0} + C}{T + C} \left(\frac{T}{T_{0}}\right)^{\frac{3}{2}}
+            \mu = mu_{0} \frac{T_{0} + C}{T + C} \left(\frac{T}{T_{0}}\right)^{\frac{3}{2}}
 
 

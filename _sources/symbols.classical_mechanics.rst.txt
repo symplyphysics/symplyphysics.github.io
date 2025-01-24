@@ -908,3 +908,23 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`length**3/time**2`
 
+.. py:data:: surface_tension
+
+    **Surface tension**, as a phenomenon, is the tendency of liquid surfaces at rest to
+    shrink into the minimum surface area possible. The coefficient of surface tension is
+    directly proportional to the force necessary to increase the surface area of the fluid
+    and inversely proportional to the length of the side at which the force is applied to.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Surface_tension#Physics>`__.
+
+    Symbol:
+        :code:`gamma`
+
+    Latex:
+        :math:`\gamma`
+
+    Dimension:
+        :code:`force/length`
+

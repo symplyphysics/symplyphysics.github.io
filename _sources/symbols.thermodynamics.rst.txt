@@ -336,3 +336,138 @@ Symbols related to thermodynamics.
     Dimension:
         :code:`dimensionless`
 
+.. py:data:: mean_free_path
+
+    **Mean free path** is the average distance over which a moving particle travels before
+    substantially changing its direction or energy.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Mean_free_path>`__.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: sutherland_constant
+
+    The **Sutherland constant** is a parameter used in the Sutherland model for gaseous viscosity.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Temperature_dependence_of_viscosity#Sutherland_model>`__.
+
+    Symbol:
+        :code:`S`
+
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: prandtl_number
+
+    The **Prandtl number** is a dimensionless number defined as the ratio of momentum
+    diffusivity to thermal diffusivity.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Prandtl_number>`__.
+
+    Symbol:
+        :code:`Pr`
+
+    Latex:
+        :math:`\text{Pr}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: grashof_number
+
+    The **Grashof number** approximates the ratio of the buoyancy to viscous forces acting
+    on a fluid.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Grashof_number>`__.
+
+    Symbol:
+        :code:`Gr`
+
+    Latex:
+        :math:`\text{Gr}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: kinematic_viscosity
+
+    In fluid dynamics, **kinematic viscosity**, or **momentum diffusivity**, is defined as
+    the ratio of the dynamic viscosity over the density of the fluid.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Viscosity#Kinematic_viscosity>`__.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+    Dimension:
+        :code:`area/time`
+
+.. py:data:: thermal_diffusivity
+
+    **Thermal diffusivity** is the thermal conductivity divided by density and specific heat
+    capacity at constant pressure.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Thermal_diffusivity>`__.
+
+    Symbol:
+        :code:`alpha`
+
+    Latex:
+        :math:`\alpha`
+
+    Dimension:
+        :code:`area/time`
+
+.. py:data:: attractive_forces_parameter
+
+    Parameter specific to each individual substance, usually attributed to the magnitude of
+    attractive forces between particles of the system.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`pressure*volume**2/amount_of_substance**2`
+
+.. py:data:: excluded_volume_parameter
+
+    Parameter specific to each individual substance, usually attributed to the amount of
+    excluded molar volume due to a finite size of particles.
+
+    Symbol:
+        :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
+

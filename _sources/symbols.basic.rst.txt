@@ -334,3 +334,34 @@ Symbols of fundamental physical quantities.
     Dimension:
         :code:`1/time`
 
+.. py:data:: characteristic_length
+
+    **Characteristic length** is a dimension that defines the scale of the physical system.
+    It is usually defined as the volume of the system divided by its surface.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Characteristic_length>`__.
+
+    Symbol:
+        :code:`l_c`
+
+    Latex:
+        :math:`l_\text{c}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: molar_volume
+
+    **Molar volume** is defined as :attr:`~symplyphysics.symbols.classical_mechanics.volume` per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
+
+    Symbol:
+        :code:`v_m`
+
+    Latex:
+        :math:`v_\text{m}`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
+

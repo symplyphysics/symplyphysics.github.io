@@ -397,3 +397,21 @@ Contains useful physical constants. Fundamental constants can be also found in `
     Dimension:
         :code:`length**3/(mass*time**2)`
 
+.. py:data:: faraday_constant
+
+    The **Faraday constant** represents the amount of electric charge carried by one mole,
+    or Avogadro's number, of electrons.
+
+    **Links:**
+
+    #. `TechTarget <https://www.techtarget.com/whatis/definition/Faraday-constant>`__.
+
+    Symbol:
+        :code:`F`
+
+    Latex:
+        :math:`\mathfrak{F}`
+
+    Dimension:
+        :code:`charge/amount_of_substance`
+

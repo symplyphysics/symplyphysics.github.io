@@ -15,6 +15,9 @@ Contents:
   laws.chemistry.electrochemistry
   laws.chemistry.potential_energy_models
   laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance
+  laws.chemistry.boundary_of_thermalization_zone_of_atomized_atoms_in_magnetron
+  laws.chemistry.coefficient_of_volumetric_ionization_of_neutral_atoms_or_gas_molecules_by_electrons
+  laws.chemistry.cross_section_of_interaction_in_coulomb_interaction_model
   laws.chemistry.molar_mass_via_molecular_mass
   laws.chemistry.number_density_via_volumetric_density_and_molar_mass
   laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy
