@@ -1,0 +1,81 @@
+Luminosity of Sun in future from luminosity in present
+------------------------------------------------------
+
+The luminosity of the Sun in the future can be calculated from the luminosity of the Sun in the present.
+
+**Notes:**
+
+#. The :ref:`formula for luminosity in the past <Luminosity of Sun in past from luminosity in present>`
+   is not applicable here due to non-linearity.
+
+**Conditions:**
+
+#. The formula is valid while the Sun is `on the main sequence <https://faculty.wcas.northwestern.edu/infocom/The%20Website/end.html>`__.
+
+..
+    TODO find link
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.luminosity_of_sun_in_future_from_luminosity_in_present
+
+.. py:data:: future_luminosity
+
+    :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun at some point in the future.
+
+    Symbol:
+        :code:`L_1`
+
+    Latex:
+        :math:`L_{1}`
+
+    Dimension:
+        :code:`power`
+
+.. py:data:: present_luminosity
+
+    :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun in the present.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`power`
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` between now and the future event.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: one_billion_years
+
+    A quantity equal to one billion years.
+
+    Symbol:
+        :code:`1 Gyr`
+
+    Latex:
+        :math:`1 \, \text{Gyr}`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: law
+
+    :code:`L_1 = L * (5.59 / (t / 1 Gyr) - 1.41 + 0.26 * t / 1 Gyr)`
+
+
+    Latex:
+        .. math::
+            L_{1} = L \left(\frac{5.59}{\frac{t}{1 \, \text{Gyr}}} - 1.41 + 0.26 \frac{t}{1 \, \text{Gyr}}\right)
+
+

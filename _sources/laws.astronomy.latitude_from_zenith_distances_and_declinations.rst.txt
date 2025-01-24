@@ -1,0 +1,95 @@
+Latitude from zenith angle and declination
+------------------------------------------
+
+Knowing the zenith angles and declinations of the northern and southern stars, it is possible
+to determine the latitude of the observation site.
+
+**Notes:**
+
+#. Northern star is any star north of the zenith with known declination.
+#. Southern star is any star south of the zenith with known declination.
+
+**Conditions:**
+
+#. Both stars are at upper transit (culmination).
+
+..
+    TODO find link
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.latitude_from_zenith_distances_and_declinations
+
+.. py:data:: latitude
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.latitude` of the observation site.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\phi`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: north_zenith_angle
+
+    :attr:`~symplyphysics.symbols.astronomy.zenith_angle` of the northern star.
+
+    Symbol:
+        :code:`theta_N`
+
+    Latex:
+        :math:`\theta_\text{N}`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: south_zenith_angle
+
+    :attr:`~symplyphysics.symbols.astronomy.zenith_angle` of the southern star.
+
+    Symbol:
+        :code:`theta_S`
+
+    Latex:
+        :math:`\theta_\text{S}`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: north_declination
+
+    :attr:`~symplyphysics.symbols.astronomy.declination` of the northern star.
+
+    Symbol:
+        :code:`delta_N`
+
+    Latex:
+        :math:`\delta_\text{N}`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: south_declination
+
+    :attr:`~symplyphysics.symbols.astronomy.declination` of the southern star.
+
+    Symbol:
+        :code:`delta_S`
+
+    Latex:
+        :math:`\delta_\text{S}`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: law
+
+    :code:`phi = (theta_S - theta_N + delta_S + delta_N) / 2`
+
+
+    Latex:
+        .. math::
+            \phi = \frac{\theta_\text{S} - \theta_\text{N} + \delta_\text{S} + \delta_\text{N}}{2}
+
+

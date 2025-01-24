@@ -11,8 +11,7 @@ Absolute magnitude can be calculated using apparent magnitude and distance to th
 
 .. py:data:: absolute_magnitude
 
-    Absolute magnitude for stars is defined as the apparent magnitude of an object if it were located at a distance
-    of 10 parsecs (2.063e+6 astronomical units) from the observer and would not experience either interstellar or atmospheric absorption.
+    :attr:`~symplyphysics.symbols.astronomy.absolute_magnitude` of the object.
 
     Symbol:
         :code:`M`
@@ -25,8 +24,7 @@ Absolute magnitude can be calculated using apparent magnitude and distance to th
 
 .. py:data:: apparent_magnitude
 
-    The apparent magnitude is a measure of the brightness of a celestial body (more precisely, the illumination created
-    by this body) from the observer's point of view. The brighter the object, the smaller its magnitude.
+    :attr:`~symplyphysics.symbols.astronomy.apparent_magnitude` of the object.
 
     Symbol:
         :code:`m`
@@ -39,7 +37,7 @@ Absolute magnitude can be calculated using apparent magnitude and distance to th
 
 .. py:data:: distance
 
-    Distance to the object.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to the object.
 
     Symbol:
         :code:`d`
@@ -52,10 +50,10 @@ Absolute magnitude can be calculated using apparent magnitude and distance to th
 
 .. py:data:: distance_constant
 
-    Constant equal to :math:`2.063e+6` astronomical units.
+    Constant equal to :math:`2.063 \cdot 10^6` astronomical units.
 
     Symbol:
-        :code:`d0`
+        :code:`d_0`
 
     Latex:
         :math:`d_0`
@@ -65,7 +63,7 @@ Absolute magnitude can be calculated using apparent magnitude and distance to th
 
 .. py:data:: law
 
-    :code:`M = m - 5 * log(d / d0, 10)`
+    :code:`M = m - 5 * log(d / d_0, 10)`
 
 
     Latex:

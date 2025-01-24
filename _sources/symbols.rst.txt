@@ -10,6 +10,7 @@ Contents:
 .. toctree::
   :maxdepth: 4
 
+  symbols.astronomy
   symbols.basic
   symbols.chemistry
   symbols.classical_mechanics

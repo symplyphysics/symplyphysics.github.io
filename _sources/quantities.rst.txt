@@ -397,6 +397,56 @@ Contains useful physical constants. Fundamental constants can be also found in `
     Dimension:
         :code:`length**3/(mass*time**2)`
 
+.. py:data:: hubble_constant
+
+    The **Hubble's constant** is the proportionality constant between the recessional velocity and
+    the proper distance between the galaxy and the observer in the Hubble's law. Its exact value
+    is up to debate, however, the fundamental theory gives the number :math:`7%` per billion years.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Hubble%27s_law>`__.
+
+    Symbol:
+        :code:`H`
+
+    Latex:
+        :math:`H`
+
+    Dimension:
+        :code:`1/time`
+
+.. py:data:: zero_point_luminosity
+
+    **Zero-point luminosity** is a constant defined relative to a star for calibrating perposes. The
+    value given here has been defined by the International Astronomical Union (IAU).
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Zero_point_(photometry)#Bolometric_magnitude_zero_point>`__.
+
+    Symbol:
+        :code:`L_0`
+
+    Latex:
+        :math:`L_0`
+
+    Dimension:
+        :code:`power`
+
+.. py:data:: sun_luminosity
+
+    :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun.
+
+    Symbol:
+        :code:`L_Sun`
+
+    Latex:
+        :math:`L_\odot`
+
+    Dimension:
+        :code:`power`
+
 .. py:data:: faraday_constant
 
     The **Faraday constant** represents the amount of electric charge carried by one mole,

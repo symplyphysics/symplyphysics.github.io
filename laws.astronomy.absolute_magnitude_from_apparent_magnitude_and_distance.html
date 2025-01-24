@@ -45,8 +45,7 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.absolute_magnitude">
 <span class="sig-name descname"><span class="pre">absolute_magnitude</span></span><a class="headerlink" href="#symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.absolute_magnitude" title="Link to this definition">¶</a></dt>
-<dd><p>Absolute magnitude for stars is defined as the apparent magnitude of an object if it were located at a distance
-of 10 parsecs (2.063e+6 astronomical units) from the observer and would not experience either interstellar or atmospheric absorption.</p>
+<dd><p><a class="reference internal" href="symbols.astronomy.html#symplyphysics.symbols.astronomy.absolute_magnitude" title="symplyphysics.symbols.astronomy.absolute_magnitude"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_magnitude</span></code></a> of the object.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">M</span></code></p>
 </dd>
@@ -60,8 +59,7 @@ of 10 parsecs (2.063e+6 astronomical units) from the observer and would not expe
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.apparent_magnitude">
 <span class="sig-name descname"><span class="pre">apparent_magnitude</span></span><a class="headerlink" href="#symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.apparent_magnitude" title="Link to this definition">¶</a></dt>
-<dd><p>The apparent magnitude is a measure of the brightness of a celestial body (more precisely, the illumination created
-by this body) from the observer’s point of view. The brighter the object, the smaller its magnitude.</p>
+<dd><p><a class="reference internal" href="symbols.astronomy.html#symplyphysics.symbols.astronomy.apparent_magnitude" title="symplyphysics.symbols.astronomy.apparent_magnitude"><code class="xref py py-attr docutils literal notranslate"><span class="pre">apparent_magnitude</span></code></a> of the object.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
 </dd>
@@ -75,7 +73,7 @@ by this body) from the observer’s point of view. The brighter the object, the 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.distance">
 <span class="sig-name descname"><span class="pre">distance</span></span><a class="headerlink" href="#symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.distance" title="Link to this definition">¶</a></dt>
-<dd><p>Distance to the object.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.euclidean_distance" title="symplyphysics.symbols.classical_mechanics.euclidean_distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">euclidean_distance</span></code></a> to the object.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
 </dd>
@@ -89,9 +87,9 @@ by this body) from the observer’s point of view. The brighter the object, the 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.distance_constant">
 <span class="sig-name descname"><span class="pre">distance_constant</span></span><a class="headerlink" href="#symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.distance_constant" title="Link to this definition">¶</a></dt>
-<dd><p>Constant equal to <span class="math notranslate nohighlight">\(2.063e+6\)</span> astronomical units.</p>
+<dd><p>Constant equal to <span class="math notranslate nohighlight">\(2.063 \cdot 10^6\)</span> astronomical units.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d_0</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d_0\)</span></p>
 </dd>
@@ -103,7 +101,7 @@ by this body) from the observer’s point of view. The brighter the object, the 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">M</span> <span class="pre">=</span> <span class="pre">m</span> <span class="pre">-</span> <span class="pre">5</span> <span class="pre">*</span> <span class="pre">log(d</span> <span class="pre">/</span> <span class="pre">d0,</span> <span class="pre">10)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">M</span> <span class="pre">=</span> <span class="pre">m</span> <span class="pre">-</span> <span class="pre">5</span> <span class="pre">*</span> <span class="pre">log(d</span> <span class="pre">/</span> <span class="pre">d_0,</span> <span class="pre">10)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
 \[M = m - 5 \log_{10} \left( \frac{d}{d_0} \right)\]</div>
@@ -152,7 +150,25 @@ by this body) from the observer’s point of view. The brighter the object, the 
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.astronomy.angle_of_rotation_during_gravitational_maneuver.html">Angle of rotation during gravitational maneuver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.approximate_time_of_stars_location_on_the_main_sequence.html">Approximate lifetime of stars located on the main sequence</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.change_in_apparent_magnitude_from_distance.html">Change in apparent magnitude from distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.eccentricity_of_orbit.html">Eccentricity of orbit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.large_half_axis_of_orbit.html">Semimajor axis of orbit via mass and speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.latitude_from_zenith_distances_and_declinations.html">Latitude from zenith angle and declination</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.lifetime_of_star_on_main_sequence.html">Lifetime of star on main sequence</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.luminosity_of_star_from_absolute_magnitude.html">Luminosity of star from absolute magnitude</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.luminosity_of_sun_in_future_from_luminosity_in_present.html">Luminosity of Sun in future from luminosity in present</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.luminosity_of_sun_in_past_from_luminosity_in_present.html">Luminosity of Sun in past from luminosity in present</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.maximum_angle_of_rotation_during_gravitational_maneuver.html">Maximum angle of rotation during gravitational maneuver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.objects_angular_altitude_in_upper_culmination.html">Object’s angular altitude in upper culmination</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html">Orbital speed from semimajor axis and planet mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.radius_of_geostationary_orbit.html">Radius of geostationary orbit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.radius_of_planets_orbit_from_its_number.html">Radius of planetary orbits from number</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.ratio_of_luminosities_from_ratio_of_masses_of_stars.html">Ratio of luminosities from ratio of masses of stars</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.astronomy.resolution_of_telescope.html">Resolution of telescope</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.speed_of_galaxy_from_distance_to_galaxy.html">Speed of galaxy from distance to galaxy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.speed_of_rocket_depends_on_mass_and_impulse.html">Rocket speed from mass and impulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.astronomy.third_cosmic_velocity_from_orbital_and_second_velocities.html">Third cosmic speed from orbital and second cosmic speed</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>

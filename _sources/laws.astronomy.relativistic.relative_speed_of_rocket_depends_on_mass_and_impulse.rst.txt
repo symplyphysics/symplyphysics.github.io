@@ -6,6 +6,10 @@ of a rocket engine, unchanged in direction, in the absence of all other forces.
 For a rocket flying at a speed close to the speed of light, the generalized Tsiolkovsky formula is valid,
 in which the speed of light is present.
 
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
 ..
     TODO find link
 
@@ -13,30 +17,39 @@ in which the speed of light is present.
 
 .. py:data:: speed
 
-    Final speed of the rocket
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the rocket
 
     Symbol:
-        :code:`V`
-
-.. py:data:: exhaust_velocity
-
-    Effective exhaust velocity of a rocket engine
-
-    Symbol:
-        :code:`Ve`
+        :code:`v`
 
     Latex:
-        :math:`V_e`
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: effective_exhaust_speed
+
+    Effective exhaust :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the rocket engine.
+
+    Symbol:
+        :code:`v_e`
+
+    Latex:
+        :math:`v_\text{e}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: initial_mass
 
     Initial :attr:`~symplyphysics.symbols.basic.mass` of the rocket
 
     Symbol:
-        :code:`M1`
+        :code:`m_0`
 
     Latex:
-        :math:`M_{1}`
+        :math:`m_{0}`
 
     Dimension:
         :code:`mass`
@@ -46,19 +59,21 @@ in which the speed of light is present.
     Final :attr:`~symplyphysics.symbols.basic.mass` of the rocket
 
     Symbol:
-        :code:`M2`
+        :code:`m_1`
 
     Latex:
-        :math:`M_{2}`
+        :math:`m_{1}`
 
     Dimension:
         :code:`mass`
 
 .. py:data:: law
 
-    :code:`M2 / M1 = ((1 - V / c) / (1 + V / c))^(c / (2 * Ve))`
+    :code:`m_1 / m_0 = ((1 - v / c) / (1 + v / c))^(c / (2 * v_e))`
+
 
     Latex:
         .. math::
-            \frac{M_2}{M_1} = \left( \frac{1 - \frac{V}{c}}{1 + \frac{V}{c}} \right) ^ {\frac{c}{2 V_e}}
+            \frac{m_{1}}{m_{0}} = \left(\frac{1 - \frac{v}{c}}{1 + \frac{v}{c}}\right)^{\frac{c}{2 v_\text{e}}}
+
 

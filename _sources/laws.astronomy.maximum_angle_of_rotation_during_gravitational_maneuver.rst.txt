@@ -1,0 +1,69 @@
+Maximum angle of rotation during gravitational maneuver
+-------------------------------------------------------
+
+A gravitational maneuver is a purposeful change in the trajectory and flight speed of a
+spacecraft under the influence of the gravitational fields of celestial bodies. The
+maximum angle of rotation of the rocket during a gravitational maneuver depends on the
+first cosmic velocity of the planet around which the maneuver is performed, and the speed
+of the rocket relative to this planet. The law describes the closest possible maneuver,
+when aiming range is at planet radius.
+
+**Conditions:**
+
+#. Aiming range equals the planet radius.
+
+..
+    TODO find link
+    TODO move law to `gravity`?
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.maximum_angle_of_rotation_during_gravitational_maneuver
+
+.. py:data:: maximum_angle
+
+    Maximum :attr:`~symplyphysics.symbols.basic.angle` of rotation during the gravitational maneuver.
+
+    Symbol:
+        :code:`phi`
+
+    Latex:
+        :math:`\varphi`
+
+    Dimension:
+        :code:`angle`
+
+.. py:data:: first_cosmic_speed
+
+    First cosmic :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the planet.
+
+    Symbol:
+        :code:`v_1`
+
+    Latex:
+        :math:`v_{1}`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: rocket_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` relative to the planet.
+
+    Symbol:
+        :code:`v`
+
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
+
+.. py:data:: law
+
+    :code:`phi = atan((v_1 / v)^2)`
+
+
+    Latex:
+        .. math::
+            \varphi = \operatorname{atan}{\left(\left(\frac{v_{1}}{v}\right)^{2} \right)}
+
+

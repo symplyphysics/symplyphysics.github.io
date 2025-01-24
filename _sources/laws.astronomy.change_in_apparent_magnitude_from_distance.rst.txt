@@ -1,0 +1,79 @@
+Change in apparent magnitude from distance
+------------------------------------------
+
+The apparent magnitude is a measure of the brightness of a celestial body (more
+precisely, the illumination created by this body) from the observer's point of view. The
+brighter the object, the smaller its magnitude. The relationship of the stellar magnitude
+scale with real physical quantities is logarithmic, since a change in brightness by the
+same number of times is perceived by the eye as a change by the same amount. The
+difference in the stellar magnitudes of two objects is equal to the decimal logarithm of
+the ratio of their illuminances, up to a multiplier.
+
+**Links:**
+
+#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Apparent_magnitude#Calculations>`__.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.change_in_apparent_magnitude_from_distance
+
+.. py:data:: first_apparent_magnitude
+
+    :attr:`~symplyphysics.symbols.astronomy.apparent_magnitude` of the first object.
+
+    Symbol:
+        :code:`m_1`
+
+    Latex:
+        :math:`m_{1}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: second_apparent_magnitude
+
+    :attr:`~symplyphysics.symbols.astronomy.apparent_magnitude` of the second object.
+
+    Symbol:
+        :code:`m_2`
+
+    Latex:
+        :math:`m_{2}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: first_irradiance
+
+    Observed :attr:`~symplyphysics.symbols.optics.irradiance` of the first object.
+
+    Symbol:
+        :code:`E_e1`
+
+    Latex:
+        :math:`E_{\text{e}1}`
+
+    Dimension:
+        :code:`power/area`
+
+.. py:data:: second_irradiance
+
+    Observed :attr:`~symplyphysics.symbols.optics.irradiance` of the second object.
+
+    Symbol:
+        :code:`E_e2`
+
+    Latex:
+        :math:`E_{\text{e}2}`
+
+    Dimension:
+        :code:`power/area`
+
+.. py:data:: law
+
+    :code:`m_2 - m_1 = -2.5 * log(E_e2 / E_e1, 10)`
+
+
+    Latex:
+        .. math::
+            m_{2} - m_{1} = - 2.5 \log_{10} \left( \frac{E_{\text{e}2}}{E_{\text{e}1}} \right)
+
+

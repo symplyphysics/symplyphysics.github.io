@@ -1,0 +1,62 @@
+Eccentricity of orbit
+---------------------
+
+Many bodies in space move in orbits that are conic sections. For an elliptical orbit, the
+eccentricity can be calculated from the parameters of the orbit. The eccentricity can be
+used to judge the elongation of the elliptical orbit.
+
+**Links:**
+
+#. `Wikipedia, ellipse <https://en.wikipedia.org/wiki/Eccentricity_(mathematics)#Standard_form>`__.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.eccentricity_of_orbit
+
+.. py:data:: eccentricity
+
+    :attr:`~symplyphysics.symbols.astronomy.eccentricity` of the orbit.
+
+    Symbol:
+        :code:`e`
+
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: semiminor_axis
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.semiminor_axis` of the orbit.
+
+    Symbol:
+        :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: semimajor_axis
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.semimajor_axis` of the orbit.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`e = sqrt(1 - (b / a)^2)`
+
+
+    Latex:
+        .. math::
+            e = \sqrt{1 - \left(\frac{b}{a}\right)^{2}}
+
+
