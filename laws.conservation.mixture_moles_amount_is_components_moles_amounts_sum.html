@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Amount of mixture is sum of amounts of components &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Initial momentum equals final momentum" href="laws.conservation.momentum_after_collision_equals_to_momentum_before.html" />
+    <link rel="prev" title="Mixture mass equals sum of component masses" href="laws.conservation.mixture_mass_equal_sum_of_components_masses.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="amount-of-mixture-is-sum-of-amounts-of-components">
+<h1>Amount of mixture is sum of amounts of components<a class="headerlink" href="#amount-of-mixture-is-sum-of-amounts-of-components" title="Link to this heading">¶</a></h1>
+<p>The total amount of the mixture is equal to the sum of the amounts of each of the components.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>Mixture in a closed impenetrable volume, that is, molecules/atoms cannot leave it and
+they are always inside;</p></li>
+<li><p>Mass is not transformed to energy, for example due to annihilation.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://eng.libretexts.org/Bookshelves/Introductory_Engineering/Basic_Engineering_Science_-_A_Systems_Accounting_and_Modeling_Approach_(Richards)/03%3A_Conservation_of_Mass/3.04%3A_Mixture_Composition">Engineering LibreTexts, Composition on a Molar Basis</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.amount_of_mixture">
+<span class="sig-name descname"><span class="pre">amount_of_mixture</span></span><a class="headerlink" href="#symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.amount_of_mixture" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.amount_of_substance" title="symplyphysics.symbols.chemistry.amount_of_substance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">amount_of_substance</span></code></a> in the mixture.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(n\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">amount_of_substance</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.amount_of_component">
+<span class="sig-name descname"><span class="pre">amount_of_component</span></span><a class="headerlink" href="#symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.amount_of_component" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.amount_of_substance" title="symplyphysics.symbols.chemistry.amount_of_substance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">amount_of_substance</span></code></a> in the <span class="math notranslate nohighlight">\(i\)</span>-th component.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n[i]</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({n}_{i}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">amount_of_substance</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">n</span> <span class="pre">=</span> <span class="pre">Sum(n[i],</span> <span class="pre">i)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[n = \sum_i {n}_{i}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.conservation.html">Conservation</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.abbe_invariant_of_two_optical_environments_is_constant.html">Abbe invariant of two optical environments is constant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.charge_is_constant.html">Charge is constant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.mass_after_equals_to_mass_before.html">Initial mass equals final mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.mass_is_constant.html">Mass is constant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.mechanical_energy_after_equals_to_mechanical_energy_before.html">Initial mechanical energy equals final mechanical energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.mechanical_energy_is_constant.html">Mechanical energy is constant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.mixture_mass_equal_sum_of_components_masses.html">Mixture mass equals sum of component masses</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Amount of mixture is sum of amounts of components</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.amount_of_mixture"><code class="docutils literal notranslate"><span class="pre">amount_of_mixture</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.amount_of_component"><code class="docutils literal notranslate"><span class="pre">amount_of_component</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.momentum_after_collision_equals_to_momentum_before.html">Initial momentum equals final momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.conservation.momentum_of_colliding_objects_is_constant.html">Momentum is constant</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.conservation.html">Conservation</a><ul>
+      <li>Previous: <a href="laws.conservation.mixture_mass_equal_sum_of_components_masses.html" title="previous chapter">Mixture mass equals sum of component masses</a></li>
+      <li>Next: <a href="laws.conservation.momentum_after_collision_equals_to_momentum_before.html" title="next chapter">Initial momentum equals final momentum</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

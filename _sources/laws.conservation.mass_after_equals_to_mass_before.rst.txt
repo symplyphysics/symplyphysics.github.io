@@ -1,0 +1,65 @@
+Initial mass equals final mass
+------------------------------
+
+The total mass of a closed system is conserved. For more information, see
+:ref:`Mass is constant`.
+
+**Conditions:**
+
+#. The system is isolated, i.e. no particles can leave it.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Conservation_of_mass>`__.
+
+.. py:currentmodule:: symplyphysics.laws.conservation.mass_after_equals_to_mass_before
+
+.. py:data:: initial_time
+
+    Initial :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t_0`
+
+    Latex:
+        :math:`t_{0}`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: final_time
+
+    Final :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t_1`
+
+    Latex:
+        :math:`t_{1}`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` as a function of :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`m(t)`
+
+    Latex:
+        :math:`m{\left(t \right)}`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`m(t_1) = m(t_0)`
+
+
+    Latex:
+        .. math::
+            m{\left(t_{1} \right)} = m{\left(t_{0} \right)}
+
+

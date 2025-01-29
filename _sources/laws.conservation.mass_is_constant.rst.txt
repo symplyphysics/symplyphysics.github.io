@@ -1,0 +1,58 @@
+Mass is constant
+----------------
+
+The mass is constant in a system that is closed, and mass is not transformed to energy.
+
+**Conditions:**
+
+#. System in a closed impenetrable volume, that is, molecules/atoms cannot leave it and
+   they are always inside.
+#. Mass is not transformed to energy, for example due to annihilation.
+
+**Note:**
+
+#. SymPy does not have a proper way to represent constant mass. We use it's derivative
+   over time instead. Derivative of the constant value is zero.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Conservation_of_mass>`__.
+
+.. py:currentmodule:: symplyphysics.laws.conservation.mass_is_constant
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` as a function of :attr:`~time`.
+
+    Symbol:
+        :code:`m(t)`
+
+    Latex:
+        :math:`m{\left(t \right)}`
+
+    Dimension:
+        :code:`mass`
+
+.. py:data:: law
+
+    :code:`Derivative(m(t), t) = 0`
+
+
+    Latex:
+        .. math::
+            \frac{d}{d t} m{\left(t \right)} = 0
+
+

@@ -12,10 +12,11 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.dynamics.damped_oscillations.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Deformation (Dynamics)" href="laws.dynamics.deformation.html" />
+    <link rel="next" title="Energy of underdamped oscillator" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html" />
     <link rel="prev" title="Dynamics" href="laws.dynamics.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -38,6 +39,42 @@
 <h1><strong>Damped oscillations (Dynamics)</strong><a class="headerlink" href="#damped-oscillations-dynamics" title="Link to this heading">¶</a></h1>
 <p><em>Damping</em> is the loss of energy of an oscillating system by dissipation. It is an influence within or
 upon an oscillatory system that has the effect of reducing or preventing its oscillation.</p>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html">Energy of underdamped oscillator</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html#symplyphysics.laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.energy"><code class="docutils literal notranslate"><span class="pre">energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html#symplyphysics.laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html#symplyphysics.laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.amplitude"><code class="docutils literal notranslate"><span class="pre">amplitude</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html#symplyphysics.laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.undamped_angular_frequency"><code class="docutils literal notranslate"><span class="pre">undamped_angular_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html#symplyphysics.laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.exponential_decay_constant"><code class="docutils literal notranslate"><span class="pre">exponential_decay_constant</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html#symplyphysics.laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html#symplyphysics.laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.html">Quality factor via bandwidth</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.quality_factor"><code class="docutils literal notranslate"><span class="pre">quality_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.resonant_frequency"><code class="docutils literal notranslate"><span class="pre">resonant_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.resonance_width"><code class="docutils literal notranslate"><span class="pre">resonance_width</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.html">Quality factor via damping ratio</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.quality_factor"><code class="docutils literal notranslate"><span class="pre">quality_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.damping_ratio"><code class="docutils literal notranslate"><span class="pre">damping_ratio</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.html">Quality factor via energy loss</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.quality_factor"><code class="docutils literal notranslate"><span class="pre">quality_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.resonant_angular_frequency"><code class="docutils literal notranslate"><span class="pre">resonant_angular_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.energy_stored"><code class="docutils literal notranslate"><span class="pre">energy_stored</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.power_loss"><code class="docutils literal notranslate"><span class="pre">power_loss</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.html#symplyphysics.laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
 </section>
 
 
@@ -73,7 +110,13 @@ upon an oscillatory system that has the effect of reducing or preventing its osc
 <li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.dynamics.html">Dynamics</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Damped oscillations (Dynamics)</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Damped oscillations (Dynamics)</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html">Energy of underdamped oscillator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_bandwidth.html">Quality factor via bandwidth</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio.html">Quality factor via damping ratio</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.damped_oscillations.quality_factor_via_energy_loss.html">Quality factor via energy loss</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.deformation.html"><strong>Deformation (Dynamics)</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.fields.html"><strong>Fields (Dynamics)</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.springs.html"><strong>Springs</strong></a></li>
@@ -139,7 +182,7 @@ upon an oscillatory system that has the effect of reducing or preventing its osc
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.dynamics.html">Dynamics</a><ul>
       <li>Previous: <a href="laws.dynamics.html" title="previous chapter">Dynamics</a></li>
-      <li>Next: <a href="laws.dynamics.deformation.html" title="next chapter"><strong>Deformation (Dynamics)</strong></a></li>
+      <li>Next: <a href="laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator.html" title="next chapter">Energy of underdamped oscillator</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Stiffness of two parallel springs &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.dynamics.springs.stiffness_of_two_parallel_springs.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Dynamics (Vector)" href="laws.dynamics.vector.html" />
+    <link rel="prev" title="Spring reaction is proportional to deformation" href="laws.dynamics.springs.spring_reaction_is_proportional_to_deformation.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="stiffness-of-two-parallel-springs">
+<h1>Stiffness of two parallel springs<a class="headerlink" href="#stiffness-of-two-parallel-springs" title="Link to this heading">¶</a></h1>
+<p>If two springs are side-to-side to one another, i.e. connected in parallel, the total
+stiffness of the system of springs is equal to the sum of the stiffnesses of each
+spring.</p>
+<p><strong>Condition:</strong></p>
+<ol class="arabic simple">
+<li><p>Springs must be Hookean, or linear-response, i.e. obey the Hooke’s law.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Series_and_parallel_springs#Formulas">Wikipedia</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.total_stiffness">
+<span class="sig-name descname"><span class="pre">total_stiffness</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.total_stiffness" title="Link to this definition">¶</a></dt>
+<dd><p>Total <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.stiffness" title="symplyphysics.symbols.classical_mechanics.stiffness"><code class="xref py py-attr docutils literal notranslate"><span class="pre">stiffness</span></code></a>.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force/length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.first_stiffness">
+<span class="sig-name descname"><span class="pre">first_stiffness</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.first_stiffness" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.stiffness" title="symplyphysics.symbols.classical_mechanics.stiffness"><code class="xref py py-attr docutils literal notranslate"><span class="pre">stiffness</span></code></a> of the first spring.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force/length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.second_stiffness">
+<span class="sig-name descname"><span class="pre">second_stiffness</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.second_stiffness" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.stiffness" title="symplyphysics.symbols.classical_mechanics.stiffness"><code class="xref py py-attr docutils literal notranslate"><span class="pre">stiffness</span></code></a> of the second spring.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k_2</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k_{2}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force/length</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.stiffness_of_two_parallel_springs.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">k</span> <span class="pre">=</span> <span class="pre">k_1</span> <span class="pre">+</span> <span class="pre">k_2</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[k = k_{1} + k_{2}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.dynamics.html">Dynamics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.damped_oscillations.html"><strong>Damped oscillations (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.deformation.html"><strong>Deformation (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.fields.html"><strong>Fields (Dynamics)</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.dynamics.springs.html"><strong>Springs</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.springs.vector.html"><strong>Springs (Vector)</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.springs.compliance_of_two_serial_springs.html">Compliance of two serial springs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.springs.spring_reaction_is_proportional_to_deformation.html">Spring reaction is proportional to deformation</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Stiffness of two parallel springs</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.vector.html"><strong>Dynamics (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.acceleration_is_force_over_mass.html">Acceleration is force over mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.braking_path_via_speed_and_friction_force.html">Braking path via speed and friction force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.buoyant_force_from_density_and_volume.html">Buoyant force from density and volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.coefficient_of_stiffness_from_area_length.html">Coefficient of stiffness from area and length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.displacement_in_forced_non_resonant_oscillations.html">Displacement in forced non-resonant oscillations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.force_is_derivative_of_momentum.html">Force is derivative of momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.forced_oscillations_equation.html">Forced oscillations equation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.friction_force_from_normal_force.html">Friction force from normal force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.instantaneous_power_is_force_times_speed.html">Instantaneous power is force times speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_mass_and_speed.html">Kinetic energy from mass and speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_rotational_inertia_and_angular_speed.html">Kinetic energy from rotational inertia and angular speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_via_momentum.html">Kinetic energy via momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_initial_speed.html">Maximum height from initial speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_distance.html">Mechanical work is force times distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html">Momentum derivative of kinetic energy is speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_ideal_pendulum_from_length.html">Period of ideal pendulum from length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_physical_pendulum.html">Period of physical pendulum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_spring_from_mass.html">Period of spring from mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.html">Period of torsion pendulum from rotational inertia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_deformation.html">Elastic potential energy from displacement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_mass_and_height.html">Potential energy from mass and height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.pressure_from_force_and_area.html">Pressure from force and area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.reaction_force_from_action_force.html">Reaction force equals action force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.reduced_mass_of_two_body_system.html">Reduced mass of a two-body system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.resonant_oscillations.html">Displacement in resonant oscillations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.html">Rocket thrust is rocket mass times acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rotational_work_is_torque_times_angular_distance.html">Rotational work is torque times angular distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_force_and_radial_distance.html">Torque via force and radial distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_rotational_inertia_and_angular_acceleration.html">Torque via rotational inertia and angular acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.total_work_is_change_in_kinetic_energy.html">Total work is change in kinetic energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.work_is_integral_of_force_over_distance.html">Work is integral of force over distance</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.dynamics.html">Dynamics</a><ul>
+  <li><a href="laws.dynamics.springs.html"><strong>Springs</strong></a><ul>
+      <li>Previous: <a href="laws.dynamics.springs.spring_reaction_is_proportional_to_deformation.html" title="previous chapter">Spring reaction is proportional to deformation</a></li>
+      <li>Next: <a href="laws.dynamics.vector.html" title="next chapter"><strong>Dynamics (Vector)</strong></a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.dynamics.springs.stiffness_of_two_parallel_springs.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
