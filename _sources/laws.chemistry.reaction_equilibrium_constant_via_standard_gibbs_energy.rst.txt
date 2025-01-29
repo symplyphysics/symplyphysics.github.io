@@ -12,7 +12,7 @@ concentrations or fugitives) of reactants and products in a state of chemical eq
 **Conditions:**
 
 #. The term "standard" applies to a solution of an infinite dilution and of a hypothetical standard
-   concentration, typically 1 mol/kg.
+   concentration, typically :math:`1 \text{mol}/\text{kg}`.
 
 **Links:**
 
@@ -27,16 +27,25 @@ concentrations or fugitives) of reactants and products in a state of chemical eq
     Symbol:
         :code:`K`
 
+    Latex:
+        :math:`K`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: reaction_standard_gibbs_energy
 
-    Reaction standard Gibbs energy, which is the sum of the standard Gibbs energies of the reaction
-    products minus that of reactants.
+    Reaction standard :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy`, which is the sum of the standard Gibbs
+    energies of the reaction products minus that of reactants.
 
     Symbol:
         :code:`Delta(G)`
 
     Latex:
         :math:`\Delta G`
+
+    Dimension:
+        :code:`energy/amount_of_substance`
 
 .. py:data:: temperature
 
@@ -53,9 +62,11 @@ concentrations or fugitives) of reactants and products in a state of chemical eq
 
 .. py:data:: law
 
-    :code:`K = exp(-1 * Delta(G) / (R * T))`
+    :code:`K = exp(-Delta(G) / (R * T))`
+
 
     Latex:
         .. math::
-            K = \exp \left( - \frac{\Delta G}{R T} \right)
+            K = \exp{\left(- \frac{\Delta G}{R T} \right)}
+
 

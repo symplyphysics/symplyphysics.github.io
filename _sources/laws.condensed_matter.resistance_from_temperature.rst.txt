@@ -1,0 +1,74 @@
+Resistance from temperature
+---------------------------
+
+The resistance depends on the temperature. For different materials, the value of the
+temperature coefficient and resistance at zero degrees celsius may differ.
+
+**Links:**
+
+#. `BYJU's, similar formula for resistivity <https://byjus.com/physics/resistivity-temperature-dependence/>`__.
+
+.. py:currentmodule:: symplyphysics.laws.condensed_matter.resistance_from_temperature
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance`.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: resistance_initial
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` at :attr:`~symplyphysics.quantities.standard_conditions_temperature`.
+
+    Symbol:
+        :code:`R_0`
+
+    Latex:
+        :math:`R_{0}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: temperature_coefficient
+
+    Temperature coefficient of resistance.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`1/temperature`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: law
+
+    :code:`R = R_0 * (1 + a * (T - t_std))`
+
+
+    Latex:
+        .. math::
+            R = R_{0} \left(1 + a \left(T - t_\text{std}\right)\right)
+
+

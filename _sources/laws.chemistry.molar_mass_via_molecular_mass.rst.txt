@@ -16,10 +16,16 @@ molecular mass.
 
 .. py:data:: molar_mass
 
-    Mass per unit amount of substance.
+    :attr:`~symplyphysics.symbols.basic.molar_mass`.
 
     Symbol:
         :code:`M`
+
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`mass/amount_of_substance`
 
 .. py:data:: molecular_mass
 
@@ -38,7 +44,9 @@ molecular mass.
 
     :code:`M = m_0 * N_A`
 
+
     Latex:
         .. math::
-            M = m_0 N_\text{A}
+            M = m_{0} N_\text{A}
+
 

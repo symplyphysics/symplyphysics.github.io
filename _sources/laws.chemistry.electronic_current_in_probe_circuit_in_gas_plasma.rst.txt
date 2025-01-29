@@ -1,0 +1,112 @@
+Electron current in probe circuit in gas plasma
+-----------------------------------------------
+
+A gas-discharge plasma is an ionized gas in which the concentrations of positively and
+negatively charged particles are approximately equal to each other, and the Debye
+shielding radius is significantly smaller than the characteristic size of the volume in
+which the ionized gas is located.
+
+A probe is an auxiliary metal electrode that is inserted into a plasma volume for its
+examination. Flat, cylindrical and spherical probesare used. A potential is set relative
+to one of the electrodes on the probe and the dependence of the incoming current on the
+value of this potential is removed.
+
+**Notation:**
+
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+#. :math:`m_\text{e}` (:code:`m_e`) is :attr:`~symplyphysics.quantities.electron_rest_mass`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma
+
+.. py:data:: probe_current
+
+    Probe :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+    Symbol:
+        :code:`I`
+
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`current`
+
+.. py:data:: probe_surface_area
+
+    Probe surface :attr:`~symplyphysics.symbols.classical_mechanics.area`.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: electron_concentration
+
+    Electron concentration (:attr:`~symplyphysics.symbols.basic.number_density`) in plasma.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
+.. py:data:: plasma_temperature
+
+    Plasma :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: floating_plasma_potential
+
+    Floating plasma :attr:`~symplyphysics.symbols.electrodynamics.electric_potential`.
+
+    Symbol:
+        :code:`U_Ef`
+
+    Latex:
+        :math:`U_\mathbf{E}^\text{f}`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: probe_potential
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_potential` at the location of the probe.
+
+    Symbol:
+        :code:`U_E`
+
+    Latex:
+        :math:`U_\mathbf{E}`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: law
+
+    :code:`I = 0.25 * A * e * n * sqrt(8 * k_B * T / (pi * m_e)) * exp(-e * (U_Ef - U_E) / (k_B * T))`
+
+
+    Latex:
+        .. math::
+            I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\mathbf{E}^\text{f} - U_\mathbf{E}\right)}{k_\text{B} T} \right)}
+
+

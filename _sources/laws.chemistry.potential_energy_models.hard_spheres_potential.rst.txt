@@ -17,21 +17,33 @@ atoms and molecules experience at very close distances.
 
 .. py:data:: potential
 
-    Potential energy of the configuration.
+    :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the configuration.
 
     Symbol:
         :code:`U`
 
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: distance
 
-    Distance between the centers of the particles.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the centers of the particles.
 
     Symbol:
         :code:`r`
 
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: sphere_diameter
 
-    Diameter of the spheres.
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the spheres.
 
     Symbol:
         :code:`sigma`
@@ -39,7 +51,13 @@ atoms and molecules experience at very close distances.
     Latex:
         :math:`\sigma`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: law
+
+    ..
+        The printers cannot yet work with `Piecewise` expressions.
 
     :code:`U = Piecewise((Infinity, r <= sigma), (0, r > sigma))`
 

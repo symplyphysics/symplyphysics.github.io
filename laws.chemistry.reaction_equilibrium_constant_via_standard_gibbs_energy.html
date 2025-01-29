@@ -16,8 +16,8 @@
     <link rel="canonical" href="https://symplyphysics.github.io/laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Condensed matter" href="laws.condensed_matter.html" />
-    <link rel="prev" title="Number density via volumetric density and molar mass" href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html" />
+    <link rel="next" title="Speed of charged particles in gas via mobility" href="laws.chemistry.velocity_of_directional_motion_of_charged_particles_in_gas.html" />
+    <link rel="prev" title="Number of collisions of particle with gas in magnetron" href="laws.chemistry.number_of_collisions_of_atomized_atom_with_gas_atoms_in_magnetron.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -47,7 +47,7 @@ concentrations or fugitives) of reactants and products in a state of chemical eq
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>The term “standard” applies to a solution of an infinite dilution and of a hypothetical standard
-concentration, typically 1 mol/kg.</p></li>
+concentration, typically <span class="math notranslate nohighlight">\(1 \text{mol}/\text{kg}\)</span>.</p></li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
@@ -60,18 +60,24 @@ concentration, typically 1 mol/kg.</p></li>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">K</span></code></p>
 </dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(K\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
 </dl>
 </dd></dl>
 
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.reaction_standard_gibbs_energy">
 <span class="sig-name descname"><span class="pre">reaction_standard_gibbs_energy</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.reaction_standard_gibbs_energy" title="Link to this definition">¶</a></dt>
-<dd><p>Reaction standard Gibbs energy, which is the sum of the standard Gibbs energies of the reaction
-products minus that of reactants.</p>
+<dd><p>Reaction standard <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.gibbs_energy" title="symplyphysics.symbols.thermodynamics.gibbs_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">gibbs_energy</span></code></a>, which is the sum of the standard Gibbs
+energies of the reaction products minus that of reactants.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(G)</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta G\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy/amount_of_substance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -93,10 +99,10 @@ products minus that of reactants.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">K</span> <span class="pre">=</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">Delta(G)</span> <span class="pre">/</span> <span class="pre">(R</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">K</span> <span class="pre">=</span> <span class="pre">exp(-Delta(G)</span> <span class="pre">/</span> <span class="pre">(R</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[K = \exp \left( - \frac{\Delta G}{R T} \right)\]</div>
+\[K = \exp{\left(- \frac{\Delta G}{R T} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -139,8 +145,22 @@ products minus that of reactants.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.boundary_of_thermalization_zone_of_atomized_atoms_in_magnetron.html">Boundary of thermalization zone of atomized atoms in magnetron</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.coefficient_of_volumetric_ionization_of_neutral_atoms_or_gas_molecules_by_electrons.html">Coefficient of volumetric ionization of neutral molecules by electrons</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_coulomb_interaction_model.html">Cross section of interaction in Coulomb’s interaction model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_elastic_interaction_model.html">Cross section of interaction in elastic interaction model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_model_of_quasirigid_spheres.html">Cross section of interaction in model of hard spheres</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_recharge_model.html">Cross section of interaction in recharge model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_granovsky.html">Cross section of ionization of atom by electrons per Granovsky</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.html">Cross section of ionization of atom by electrons per Lotz-Drevin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.distance_of_greatest_convergence_of_particles_in_magnetron.html">Distance of greatest convergence of particles in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_by_druyvestein.html">Electron distribution function in gas plasma per Druyvestein</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_by_maxwell.html">Electron distribution function in gas plasma per Maxwell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma.html">Electron current in probe circuit in gas plasma</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_of_traveling_atom_on_gas_atom_in_magnetron.html">Energy transfer coefficient for elastic scattering in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.etching_rate_of_target_in_magnetron.html">Etching rate of target in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.free_path_of_atomic_particles_in_gaseous_medium.html">Mean free path of particles in gaseous medium</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.mass_of_film_deposited_during_electrolysis.html">Mass of film deposited during electrolysis</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.molar_mass_via_molecular_mass.html">Molar mass via molecular mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html">Number density via volumetric density and molar mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_of_collisions_of_atomized_atom_with_gas_atoms_in_magnetron.html">Number of collisions of particle with gas in magnetron</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Reaction equilibrium constant via standard Gibbs energy</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.equilibrium_constant"><code class="docutils literal notranslate"><span class="pre">equilibrium_constant</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.reaction_standard_gibbs_energy"><code class="docutils literal notranslate"><span class="pre">reaction_standard_gibbs_energy</span></code></a></li>
@@ -148,6 +168,7 @@ products minus that of reactants.</p>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.velocity_of_directional_motion_of_charged_particles_in_gas.html">Speed of charged particles in gas via mobility</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
@@ -180,8 +201,8 @@ products minus that of reactants.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.chemistry.html">Chemistry</a><ul>
-      <li>Previous: <a href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html" title="previous chapter">Number density via volumetric density and molar mass</a></li>
-      <li>Next: <a href="laws.condensed_matter.html" title="next chapter">Condensed matter</a></li>
+      <li>Previous: <a href="laws.chemistry.number_of_collisions_of_atomized_atom_with_gas_atoms_in_magnetron.html" title="previous chapter">Number of collisions of particle with gas in magnetron</a></li>
+      <li>Next: <a href="laws.chemistry.velocity_of_directional_motion_of_charged_particles_in_gas.html" title="next chapter">Speed of charged particles in gas via mobility</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

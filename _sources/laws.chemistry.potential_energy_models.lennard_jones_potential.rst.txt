@@ -15,14 +15,20 @@ distance.
 
 .. py:data:: potential
 
-    Potential energy of the configuration.
+    :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the configuration.
 
     Symbol:
         :code:`U`
 
+    Latex:
+        :math:`U`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: dispersion_energy
 
-    Depth of the potential well, also referred to as "dispersion energy".
+    Depth of the potential well, also referred to as *dispersion energy*. See :attr:`~symplyphysics.symbols.basic.energy`.
 
     Symbol:
         :code:`e`
@@ -30,9 +36,12 @@ distance.
     Latex:
         :math:`\varepsilon`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: particle_size
 
-    Distance at which potential is zero, also referred to as "particle size".
+    Distance at which potential is zero, also referred to as *particle size*.
 
     Symbol:
         :code:`sigma`
@@ -40,18 +49,29 @@ distance.
     Latex:
         :math:`\sigma`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: distance
 
-    Distance between the centers of the particles.
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the centers of the particles.
 
     Symbol:
         :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`U = 4 * e * ((sigma / r)^12 - (sigma / r)^6)`
 
+
     Latex:
         .. math::
-            U = 4 \varepsilon \left( \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right)
+            U = 4 \varepsilon \left(\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6}\right)
+
 

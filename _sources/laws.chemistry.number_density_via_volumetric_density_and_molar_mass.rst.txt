@@ -17,14 +17,20 @@ amount of substance.
 
 .. py:data:: number_density
 
-    Number density, or number of molecules per unit volume.
+    :attr:`~symplyphysics.symbols.basic.number_density`, or number of molecules per unit volume.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: volumetric_density
 
-    Volumetric density, or mass per unit volume.
+    Volumetric :attr:`~symplyphysics.symbols.basic.density`, or mass per unit volume.
 
     Symbol:
         :code:`rho`
@@ -32,18 +38,29 @@ amount of substance.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: molar_mass
 
-    Molar mass, or mass per unit amount of substance.
+    :attr:`~symplyphysics.symbols.basic.molar_mass`, or mass per unit amount of substance.
 
     Symbol:
         :code:`M`
+
+    Latex:
+        :math:`M`
+
+    Dimension:
+        :code:`mass/amount_of_substance`
 
 .. py:data:: law
 
     :code:`n = rho * N_A / M`
 
+
     Latex:
         .. math::
             n = \frac{\rho N_\text{A}}{M}
+
 

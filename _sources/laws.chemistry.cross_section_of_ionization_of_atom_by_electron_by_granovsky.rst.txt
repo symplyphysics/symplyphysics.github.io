@@ -1,0 +1,91 @@
+Cross section of ionization of atom by electrons per Granovsky
+--------------------------------------------------------------
+
+The **Granovsky approximation** for the ionization cross section is considered. As the
+electron energy increases, the velocities of primary and secondary electrons increase,
+the possibility of their recombination with ions decreases, and the ionization cross
+section area increases. However, at very high energies, the ionization cross section
+decreases, as the electrons fly past the atom without having time to ionize it, since
+the time spent by the electron near the atom decreases.
+
+..
+    TODO: find link
+    TODO: move to `ionization` folder?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_granovsky
+
+.. py:data:: effective_cross_section
+
+    Effective :attr:`~symplyphysics.symbols.chemistry.cross_section` of ionization of particles.
+
+    Symbol:
+        :code:`sigma_eff`
+
+    Latex:
+        :math:`\sigma_{\text{eff}}`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: ionization_energy
+
+    Ionization :attr:`~symplyphysics.symbols.basic.energy`.
+
+    Symbol:
+        :code:`E_i`
+
+    Latex:
+        :math:`E_{\text{i}}`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: electron_energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` of ionizing electrons.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: maximum_cross_section
+
+    Maximum :attr:`~symplyphysics.symbols.chemistry.cross_section` of ionization.
+
+    Symbol:
+        :code:`sigma_max`
+
+    Latex:
+        :math:`\sigma_{\text{max}}`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: maximum_electron_energy
+
+    Maximum :attr:`~symplyphysics.symbols.basic.energy` of ionizing electrons.
+
+    Symbol:
+        :code:`E_max`
+
+    Latex:
+        :math:`E_{\text{max}}`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: law
+
+    :code:`sigma_eff = sigma_max * (E - E_i) / (E_max - E_i) * exp((E_max - E) / (E_max - E_i))`
+
+
+    Latex:
+        .. math::
+            \sigma_{\text{eff}} = \sigma_{\text{max}} \frac{E - E_{\text{i}}}{E_{\text{max}} - E_{\text{i}}} \exp{\left(\frac{E_{\text{max}} - E}{E_{\text{max}} - E_{\text{i}}} \right)}
+
+

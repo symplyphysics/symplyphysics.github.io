@@ -34,7 +34,7 @@ atoms.
 
 .. py:data:: ionization_energy
 
-    Ionization :attr:`~symplyphysics.symbols.basic.energy` of atoms in terms of :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+    Ionization :attr:`~symplyphysics.symbols.basic.energy` of atoms expressed in :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
     Symbol:
         :code:`E_i`

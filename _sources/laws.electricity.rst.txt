@@ -29,6 +29,7 @@ Contents:
   laws.electricity.electric_field_of_uniformly_charged_plane
   laws.electricity.electric_field_outside_charged_sphere
   laws.electricity.electric_flux_through_closed_surface_via_total_charge
+  laws.electricity.electric_intensity_in_gas_gap_between_two_electrodes
   laws.electricity.electromotive_force_induced_in_moving_contour
   laws.electricity.electromotive_force_induced_in_rotating_rod
   laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil

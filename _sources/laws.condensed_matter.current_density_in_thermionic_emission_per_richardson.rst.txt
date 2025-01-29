@@ -7,6 +7,7 @@ the material. This formula for emission current density was proposed by Owen Wil
 
 **Notation:**
 
+#. :math:`a` (:code:`a`) is :attr:`~symplyphysics.quantities.richardson_constant`.
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 **Links:**
