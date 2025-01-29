@@ -79,10 +79,10 @@ value of this potential is removed.
     Floating plasma :attr:`~symplyphysics.symbols.electrodynamics.electric_potential`.
 
     Symbol:
-        :code:`U_Ef`
+        :code:`U_f`
 
     Latex:
-        :math:`U_\mathbf{E}^\text{f}`
+        :math:`U_\mathbf{f}`
 
     Dimension:
         :code:`voltage`
@@ -102,11 +102,11 @@ value of this potential is removed.
 
 .. py:data:: law
 
-    :code:`I = 0.25 * A * e * n * sqrt(8 * k_B * T / (pi * m_e)) * exp(-e * (U_Ef - U_E) / (k_B * T))`
+    :code:`I = 0.25 * A * e * n * sqrt(8 * k_B * T / (pi * m_e)) * exp(-e * (U_f - U_E) / (k_B * T))`
 
 
     Latex:
         .. math::
-            I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\mathbf{E}^\text{f} - U_\mathbf{E}\right)}{k_\text{B} T} \right)}
+            I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\mathbf{f} - U_\mathbf{E}\right)}{k_\text{B} T} \right)}
 
 

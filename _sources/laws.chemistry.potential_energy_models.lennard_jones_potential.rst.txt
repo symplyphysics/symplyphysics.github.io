@@ -41,7 +41,7 @@ distance.
 
 .. py:data:: particle_size
 
-    Distance at which potential is zero, also referred to as *particle size*.
+    Distance (see :attr:`~symplyphysics.symbols.classical_mechanics.radius`) at which potential is zero, also referred to as *particle size*.
 
     Symbol:
         :code:`sigma`

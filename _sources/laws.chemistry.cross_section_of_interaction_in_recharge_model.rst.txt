@@ -104,6 +104,6 @@ target with target particles. The effective cross-section has the dimension of t
 
     Latex:
         .. math::
-            \sigma = \pi a_0^{2} \frac{\mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \sqrt{\frac{3 k_\text{B} T}{m}} \sqrt{\frac{E_\text{i}}{\mathrm{IE}_\text{H}}} \frac{\sigma p m}{2 k_\text{B} T e E} \right)
+            \sigma = \pi a_0^{2} \frac{\mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \sqrt{\frac{3 k_\text{B} T}{m}} \sqrt{\frac{E_\text{i}}{\mathrm{IE}_\text{H}}} \frac{\sigma p m}{2 k_\text{B} T e E} \right)^{2}
 
 

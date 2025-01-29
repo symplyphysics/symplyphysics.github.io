@@ -34,7 +34,7 @@ angular speed of the Earth's rotation around its axis.
 
 .. py:data:: planet_mass
 
-    :attr:`~symplyphysics.symbols.basic.mass`
+    :attr:`~symplyphysics.symbols.basic.mass` of the attracting body (planet).
 
     Symbol:
         :code:`m`

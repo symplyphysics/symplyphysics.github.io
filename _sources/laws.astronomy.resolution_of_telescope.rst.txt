@@ -49,13 +49,26 @@ distinguished separately in the telescope.
     Dimension:
         :code:`length`
 
+.. py:data:: constant_rad
+
+    Constant factor derived from a calculation of the position of the first dark circular ring surrounding the central Airy disc of the diffraction pattern. A :math:`\approx` 1.22 radian.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`theta = QTY37 * lambda / D`
+    :code:`theta = A * lambda / D`
 
 
     Latex:
         .. math::
-            \theta = QTY37 \frac{\lambda}{D}
+            \theta = A \frac{\lambda}{D}
 
 

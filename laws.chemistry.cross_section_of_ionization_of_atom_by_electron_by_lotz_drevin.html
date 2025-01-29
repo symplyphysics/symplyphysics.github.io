@@ -93,9 +93,9 @@ Lotz-Drewin approximation for the ionization cross section is considered.</p>
 <span class="sig-name descname"><span class="pre">first_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.first_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p>A coefficient used in the calculation.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">first_coefficient</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(first_{coefficient}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
@@ -107,9 +107,9 @@ Lotz-Drewin approximation for the ionization cross section is considered.</p>
 <span class="sig-name descname"><span class="pre">second_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.second_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p>A coefficient used in the calculation.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">second_coefficient</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(second_{coefficient}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
@@ -131,18 +131,12 @@ Lotz-Drewin approximation for the ionization cross section is considered.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.reduced_energy">
-<span class="sig-name descname"><span class="pre">reduced_energy</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.reduced_energy" title="Link to this definition">¶</a></dt>
-<dd><p>Used to simplify the expression for the law.</p>
-</dd></dl>
-
-<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">sigma</span> <span class="pre">=</span> <span class="pre">2.66</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">a0^2</span> <span class="pre">*</span> <span class="pre">N</span> <span class="pre">*</span> <span class="pre">IE_h^2</span> <span class="pre">/</span> <span class="pre">E_i^2</span> <span class="pre">*</span> <span class="pre">first_coefficient</span> <span class="pre">*</span> <span class="pre">(E</span> <span class="pre">/</span> <span class="pre">E_i</span> <span class="pre">-</span> <span class="pre">1)</span> <span class="pre">/</span> <span class="pre">(E</span> <span class="pre">/</span> <span class="pre">E_i)^2</span> <span class="pre">*</span> <span class="pre">log(1.25</span> <span class="pre">*</span> <span class="pre">second_coefficient</span> <span class="pre">*</span> <span class="pre">E</span> <span class="pre">/</span> <span class="pre">E_i)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">sigma</span> <span class="pre">=</span> <span class="pre">2.66</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">a0^2</span> <span class="pre">*</span> <span class="pre">N</span> <span class="pre">*</span> <span class="pre">IE_h^2</span> <span class="pre">/</span> <span class="pre">E_i^2</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">(E</span> <span class="pre">/</span> <span class="pre">E_i</span> <span class="pre">-</span> <span class="pre">1)</span> <span class="pre">/</span> <span class="pre">(E</span> <span class="pre">/</span> <span class="pre">E_i)^2</span> <span class="pre">*</span> <span class="pre">log(1.25</span> <span class="pre">*</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">E</span> <span class="pre">/</span> <span class="pre">E_i)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_{\text{i}}^{2}} \frac{first_{coefficient} \left(\frac{E}{E_{\text{i}}} - 1\right)}{\left(\frac{E}{E_{\text{i}}}\right)^{2}} \log \left( 1.25 second_{coefficient} \frac{E}{E_{\text{i}}} \right)\]</div>
+\[\sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_{\text{i}}^{2}} \frac{A \left(\frac{E}{E_{\text{i}}} - 1\right)}{\left(\frac{E}{E_{\text{i}}}\right)^{2}} \log \left( 1.25 B \frac{E}{E_{\text{i}}} \right)\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -196,7 +190,6 @@ Lotz-Drewin approximation for the ionization cross section is considered.</p>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.first_coefficient"><code class="docutils literal notranslate"><span class="pre">first_coefficient</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.second_coefficient"><code class="docutils literal notranslate"><span class="pre">second_coefficient</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.electron_count"><code class="docutils literal notranslate"><span class="pre">electron_count</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.reduced_energy"><code class="docutils literal notranslate"><span class="pre">reduced_energy</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>

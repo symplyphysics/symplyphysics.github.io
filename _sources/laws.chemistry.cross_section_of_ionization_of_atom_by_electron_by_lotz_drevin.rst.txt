@@ -62,10 +62,10 @@ Lotz-Drewin approximation for the ionization cross section is considered.
     A coefficient used in the calculation.
 
     Symbol:
-        :code:`first_coefficient`
+        :code:`A`
 
     Latex:
-        :math:`first_{coefficient}`
+        :math:`A`
 
     Dimension:
         :code:`dimensionless`
@@ -75,10 +75,10 @@ Lotz-Drewin approximation for the ionization cross section is considered.
     A coefficient used in the calculation.
 
     Symbol:
-        :code:`second_coefficient`
+        :code:`B`
 
     Latex:
-        :math:`second_{coefficient}`
+        :math:`B`
 
     Dimension:
         :code:`dimensionless`
@@ -96,17 +96,13 @@ Lotz-Drewin approximation for the ionization cross section is considered.
     Dimension:
         :code:`dimensionless`
 
-.. py:data:: reduced_energy
-
-    Used to simplify the expression for the law.
-
 .. py:data:: law
 
-    :code:`sigma = 2.66 * pi * a0^2 * N * IE_h^2 / E_i^2 * first_coefficient * (E / E_i - 1) / (E / E_i)^2 * log(1.25 * second_coefficient * E / E_i)`
+    :code:`sigma = 2.66 * pi * a0^2 * N * IE_h^2 / E_i^2 * A * (E / E_i - 1) / (E / E_i)^2 * log(1.25 * B * E / E_i)`
 
 
     Latex:
         .. math::
-            \sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_{\text{i}}^{2}} \frac{first_{coefficient} \left(\frac{E}{E_{\text{i}}} - 1\right)}{\left(\frac{E}{E_{\text{i}}}\right)^{2}} \log \left( 1.25 second_{coefficient} \frac{E}{E_{\text{i}}} \right)
+            \sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_{\text{i}}^{2}} \frac{A \left(\frac{E}{E_{\text{i}}} - 1\right)}{\left(\frac{E}{E_{\text{i}}}\right)^{2}} \log \left( 1.25 B \frac{E}{E_{\text{i}}} \right)
 
 

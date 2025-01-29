@@ -112,9 +112,9 @@ value of this potential is removed.</p>
 <span class="sig-name descname"><span class="pre">floating_plasma_potential</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma.floating_plasma_potential" title="Link to this definition">¶</a></dt>
 <dd><p>Floating plasma <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_potential" title="symplyphysics.symbols.electrodynamics.electric_potential"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_potential</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">U_Ef</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">U_f</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(U_\mathbf{E}^\text{f}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(U_\mathbf{f}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">voltage</span></code></p>
 </dd>
@@ -138,10 +138,10 @@ value of this potential is removed.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">I</span> <span class="pre">=</span> <span class="pre">0.25</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">e</span> <span class="pre">*</span> <span class="pre">n</span> <span class="pre">*</span> <span class="pre">sqrt(8</span> <span class="pre">*</span> <span class="pre">k_B</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">/</span> <span class="pre">(pi</span> <span class="pre">*</span> <span class="pre">m_e))</span> <span class="pre">*</span> <span class="pre">exp(-e</span> <span class="pre">*</span> <span class="pre">(U_Ef</span> <span class="pre">-</span> <span class="pre">U_E)</span> <span class="pre">/</span> <span class="pre">(k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">I</span> <span class="pre">=</span> <span class="pre">0.25</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">e</span> <span class="pre">*</span> <span class="pre">n</span> <span class="pre">*</span> <span class="pre">sqrt(8</span> <span class="pre">*</span> <span class="pre">k_B</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">/</span> <span class="pre">(pi</span> <span class="pre">*</span> <span class="pre">m_e))</span> <span class="pre">*</span> <span class="pre">exp(-e</span> <span class="pre">*</span> <span class="pre">(U_f</span> <span class="pre">-</span> <span class="pre">U_E)</span> <span class="pre">/</span> <span class="pre">(k_B</span> <span class="pre">*</span> <span class="pre">T))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\mathbf{E}^\text{f} - U_\mathbf{E}\right)}{k_\text{B} T} \right)}\]</div>
+\[I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\mathbf{f} - U_\mathbf{E}\right)}{k_\text{B} T} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

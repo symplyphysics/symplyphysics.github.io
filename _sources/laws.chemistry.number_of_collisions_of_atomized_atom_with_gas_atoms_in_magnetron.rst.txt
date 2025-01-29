@@ -68,7 +68,8 @@ traveling atom and the energy transfer coefficient between the atom and the gas 
 
 .. py:data:: law
 
-    :law:symbol::
+    :code:`N = log(E / E_0) / log(1 - x)`
+
 
     Latex:
         .. math::
