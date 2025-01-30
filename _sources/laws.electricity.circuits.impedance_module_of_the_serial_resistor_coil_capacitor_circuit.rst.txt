@@ -1,0 +1,74 @@
+Impedance module of serial resistor-coil-capacitor circuit
+----------------------------------------------------------
+
+Consider an electrical circuit consisting of a capacitor, coil, and resistor connected
+in series. Then you can find the impedance module of such a circuit.
+
+**Links:**
+
+#. `Wikipedia, derivable from first formula <https://en.wikipedia.org/wiki/Electrical_impedance#Resistance_vs_reactance>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.impedance_module_of_the_serial_resistor_coil_capacitor_circuit
+
+.. py:data:: circuit_impedance_module
+
+    Absolute value of the circuit's :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
+
+    Symbol:
+        :code:`abs(Z)`
+
+    Latex:
+        :math:`|Z|`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: resistor_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the resistor.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: capacitor_reactance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of the capacitor.
+
+    Symbol:
+        :code:`X_C`
+
+    Latex:
+        :math:`X_{\text{C}}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: coil_reactance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of the coil.
+
+    Symbol:
+        :code:`X_C`
+
+    Latex:
+        :math:`X_{\text{C}}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: law
+
+    :code:`abs(Z) = sqrt(R^2 + (X_C - X_C)^2)`
+
+
+    Latex:
+        .. math::
+            |Z| = \sqrt{R^{2} + \left(X_{\text{C}} - X_{\text{C}}\right)^{2}}
+
+

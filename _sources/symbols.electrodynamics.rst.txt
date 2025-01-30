@@ -59,6 +59,24 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`impedance`
 
+.. py:data:: wave_impedance
+
+    **Wave impedance** is a constant related to electromagnetic wave propagation in a
+    medium.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Wave_impedance#>`__.
+
+    Symbol:
+        :code:`eta`
+
+    Latex:
+        :math:`\eta`
+
+    Dimension:
+        :code:`impedance`
+
 .. py:data:: electromotive_force
 
     **Electromotive force**, also **electromotance**, abbreviated **emf**, an energy transfer to an electric circuit per unit

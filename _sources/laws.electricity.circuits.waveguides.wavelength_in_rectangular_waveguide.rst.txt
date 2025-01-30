@@ -1,0 +1,63 @@
+Wavelength in rectangular waveguide
+-----------------------------------
+
+Wavelength in a rectangular waveguide is a function of operating wavelength (or
+wavelength in free space) and the critical (or lower cutoff) wavelength, and is
+always longer than that in free space.
+
+**Links:**
+
+#. `Microwaves101, section "Guide Wavelength" <https://www.microwaves101.com/encyclopedias/waveguide-mathematics>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.wavelength_in_rectangular_waveguide
+
+.. py:data:: waveguide_wavelength
+
+    Guide :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` is defined as the distance between the two equal phase planes along the
+    waveguide.
+
+    Symbol:
+        :code:`lambda_w`
+
+    Latex:
+        :math:`\lambda_{\text{w}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: vacuum_wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the signal wave in vacuum.
+
+    Symbol:
+        :code:`lambda`
+
+    Latex:
+        :math:`\lambda`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: critical_wavelength
+
+    Critical :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the waveguide. See :ref:`Critical wavelength of waveguide`.
+
+    Symbol:
+        :code:`lambda_c`
+
+    Latex:
+        :math:`\lambda_{\text{c}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`lambda_w = lambda / sqrt(1 - (lambda / lambda_c)^2)`
+
+
+    Latex:
+        .. math::
+            \lambda_{\text{w}} = \frac{\lambda}{\sqrt{1 - \left(\frac{\lambda}{\lambda_{\text{c}}}\right)^{2}}}
+
+

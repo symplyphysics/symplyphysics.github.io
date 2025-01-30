@@ -1,0 +1,108 @@
+Specific resistance of coaxial waveguide
+----------------------------------------
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals. The specific resistance of a
+coaxial waveguide depends on the radius of the outer conductor and the radius of the
+inner conductor, as well as on the relative permeability of the insulator material,
+frequency of signal and specific conductivity of conductor.
+
+**Notation:**
+
+#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
+
+..
+    TODO: find link
+    TODO: replace `mu_0 * mu_r` with `mu`
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.specific_resistance_of_coaxial_waveguide
+
+.. py:data:: specific_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of coaxial waveguide per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance/length`
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the insulator.
+
+    Symbol:
+        :code:`mu_r`
+
+    Latex:
+        :math:`\mu_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: specific_conductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+    Symbol:
+        :code:`G`
+
+    Latex:
+        :math:`G`
+
+    Dimension:
+        :code:`conductance/length`
+
+.. py:data:: outer_radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the outer conductor.
+
+    Symbol:
+        :code:`r_o`
+
+    Latex:
+        :math:`r_{\text{o}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: inner_radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the inner conductor.
+
+    Symbol:
+        :code:`r_i`
+
+    Latex:
+        :math:`r_{\text{i}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`R = sqrt(w * mu_0 * mu_r / (2 * G)) / (2 * pi) * (1 / r_i - 1 / r_o)`
+
+
+    Latex:
+        .. math::
+            R = \frac{\sqrt{\frac{\omega \mu_0 \mu_{r}}{2 G}}}{2 \pi} \left(\frac{1}{r_{\text{i}}} - \frac{1}{r_{\text{o}}}\right)
+
+

@@ -1,0 +1,91 @@
+Inductance is proportional to turn count
+----------------------------------------
+
+The basic characteristic of a coil is its inductance, which is the ability of the coil
+to accumulate energy as magnetic field.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Inductance#Inductance_of_a_solenoid>`__.
+
+..
+    TODO: replace `mu_0 * mu_r` with `mu`
+    TODO: fix file name
+
+.. py:currentmodule:: symplyphysics.laws.electricity.inductance_is_proportional_to_turns_squared
+
+.. py:data:: inductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the coil.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium within the coil.
+
+    Symbol:
+        :code:`mu_r`
+
+    Latex:
+        :math:`\mu_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: turn_count
+
+    Number of turns in the coil.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: cross_sectional_area
+
+    Cross sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the coil.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the coil.
+
+    Symbol:
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`L = mu_0 * mu_r * N^2 * A / l`
+
+
+    Latex:
+        .. math::
+            L = \frac{\mu_0 \mu_{r} N^{2} A}{l}
+
+

@@ -1,0 +1,130 @@
+Attenuation coefficient in metal
+--------------------------------
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals. The specific resistance of a
+coaxial waveguide depends on the diameter of the outer conductor and the diameter of the
+inner conductor, as well as on the relative permeability and the relative permittivity
+of the insulator material, the surface resistance of the outer conductor and the surface
+resistance of the inner conductor.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal
+
+.. py:data:: attenuation_coefficient
+
+    :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` in metal.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the insulator.
+
+    Symbol:
+        :code:`epsilon_r`
+
+    Latex:
+        :math:`\varepsilon_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the insulator.
+
+    Symbol:
+        :code:`mu_r`
+
+    Latex:
+        :math:`\mu_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: outer_surface_resistance
+
+    Surface :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the outer conductor.
+
+    Symbol:
+        :code:`R_o`
+
+    Latex:
+        :math:`R_{\text{o}}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: inner_surface_resistance
+
+    Surface :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the inner conductor.
+
+    Symbol:
+        :code:`R_i`
+
+    Latex:
+        :math:`R_{\text{i}}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: outer_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the outer conductor.
+
+    Symbol:
+        :code:`D_o`
+
+    Latex:
+        :math:`D_{\text{o}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: inner_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the inner conductor.
+
+    Symbol:
+        :code:`D_i`
+
+    Latex:
+        :math:`D_{\text{i}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: resistance
+
+    Constant equal to :math:`420 \Omega`.
+
+    Symbol:
+        :code:`R_0`
+
+    Latex:
+        :math:`R_0`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: law
+
+    :code:`mu = sqrt(epsilon_r / mu_r) * (R_i / D_i + R_o / D_o) / (pi * R_0 * log(D_o / D_i))`
+
+
+    Latex:
+        .. math::
+            \mu = \frac{\sqrt{\frac{\varepsilon_{r}}{\mu_{r}}} \left(\frac{R_{\text{i}}}{D_{\text{i}}} + \frac{R_{\text{o}}}{D_{\text{o}}}\right)}{\pi R_0 \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}
+
+

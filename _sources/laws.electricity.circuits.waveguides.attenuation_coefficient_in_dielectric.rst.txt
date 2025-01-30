@@ -1,0 +1,100 @@
+Attenuation coefficient in dielectric
+-------------------------------------
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals. The attenuation coefficient of a
+coaxial waveguide depends on the frequency of signal, as well as on the relative
+permittivity, the relative permeability and the dielectric loss angle of the insulator
+material. The attenuation coefficient shows how many times the transmitted signal
+weakens per unit length of the coaxial waveguide.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
+
+..
+    TODO: replace `vacuum_X * relative_X` with `absolute_X` where X is permittivity or permeability
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric
+
+.. py:data:: attenuation_coefficient
+
+    :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` of the waveguide.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the insulator.
+
+    Symbol:
+        :code:`epsilon_r`
+
+    Latex:
+        :math:`\varepsilon_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the insulator.
+
+    Symbol:
+        :code:`mu_r`
+
+    Latex:
+        :math:`\mu_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: tangent_dielectric_loss_angle
+
+    Tangent of the dielectric loss angle of the medium filling the waveguide.
+
+    ..
+        TODO: replace with an actual tangent of an angle?
+
+    Symbol:
+        :code:`tan(d)`
+
+    Latex:
+        :math:`\tan(d)`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`mu = w * sqrt(mu_0 * mu_r * epsilon_0 * epsilon_r) * tan(d) / 2`
+
+
+    Latex:
+        .. math::
+            \mu = \frac{\omega \sqrt{\mu_0 \mu_{r} \varepsilon_0 \varepsilon_{r}} \tan(d)}{2}
+
+

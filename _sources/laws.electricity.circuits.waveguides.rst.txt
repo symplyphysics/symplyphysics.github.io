@@ -6,5 +6,37 @@ to one direction. Common types of waveguides include acoustic waveguides which d
 sound, optical waveguides which direct light, and radio-frequency waveguides which direct
 electromagnetic waves other than light like radio waves.
 
+Critical wavelength of waveguide
+--------------------------------
+
+The **critical wavelength** of a waveguide is such that signals with a wavelength
+greater than the critical one become attenuated and do not propagate in the waveguide.
+
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides
 
+Contents:
+
+.. toctree::
+  :maxdepth: 4
+
+  laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric
+  laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide
+  laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal
+  laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal_in_rectangular_waveguide_for_transverse_electric_waves
+  laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal_in_rectangular_waveguide_for_transverse_magnetic_waves
+  laws.electricity.circuits.waveguides.characteristic_resistance_of_rectangular_waveguide_for_transverse_electric_waves
+  laws.electricity.circuits.waveguides.characteristic_resistance_of_rectangular_waveguide_for_transverse_magnetic_waves
+  laws.electricity.circuits.waveguides.critical_wavelength_in_rectangular_waveguide
+  laws.electricity.circuits.waveguides.group_velocity_of_wave_in_rectangular_waveguide
+  laws.electricity.circuits.waveguides.maximum_electric_field_intensity_of_main_wave_in_rectangular_waveguide
+  laws.electricity.circuits.waveguides.maximum_voltage_in_coaxial_line
+  laws.electricity.circuits.waveguides.phase_velocity_of_wave_in_rectangular_waveguide
+  laws.electricity.circuits.waveguides.power_carried_by_coaxial_waveguide
+  laws.electricity.circuits.waveguides.power_carried_by_main_wave_of_rectangular_waveguide
+  laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide
+  laws.electricity.circuits.waveguides.specific_conductivity_of_coaxial_waveguide
+  laws.electricity.circuits.waveguides.specific_inductance_of_coaxial_waveguide
+  laws.electricity.circuits.waveguides.specific_resistance_of_coaxial_waveguide
+  laws.electricity.circuits.waveguides.surface_resistance_of_metal
+  laws.electricity.circuits.waveguides.wave_resistance_of_coaxial_waveguide
+  laws.electricity.circuits.waveguides.wavelength_in_rectangular_waveguide

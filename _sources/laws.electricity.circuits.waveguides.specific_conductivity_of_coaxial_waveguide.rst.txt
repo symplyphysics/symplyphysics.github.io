@@ -1,0 +1,81 @@
+Specific conductivity of coaxial waveguide
+------------------------------------------
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a shield arranged coaxially and separated
+by an insulating material or an air gap. It is used to transmit radio frequency electrical signals.
+The specific conductivity of a coaxial waveguide depends on the frequency of signal and the specific capacitance of coaxial waveguide,
+as well as on the tangent of the dielectric loss angle of the insulator material.
+In general, the tangent of the dielectric loss angle is a characteristic of the material. The angle itself is usually not searched for or indicated.
+The tangent of this angle is found as the ratio of the active current to the reactive current. The value of this value for each material is in the tables
+in the public domain.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.specific_conductivity_of_coaxial_waveguide
+
+.. py:data:: specific_conductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` of the waveguide per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+    Symbol:
+        :code:`G`
+
+    Latex:
+        :math:`G`
+
+    Dimension:
+        :code:`conductance/length`
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: specific_capacitance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+    Symbol:
+        :code:`C`
+
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`capacitance/length`
+
+.. py:data:: tangent_dielectric_loss_angle
+
+    Tangent of the dielectric loss angle of the medium filling the waveguide.
+
+    ..
+        TODO: replace with an actual tangent of an angle?
+
+    Symbol:
+        :code:`tan(d)`
+
+    Latex:
+        :math:`\tan(d)`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`G = w * C * tan(d)`
+
+
+    Latex:
+        .. math::
+            G = \omega C \tan(d)
+
+

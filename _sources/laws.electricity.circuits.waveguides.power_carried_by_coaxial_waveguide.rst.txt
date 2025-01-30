@@ -1,0 +1,116 @@
+Power carried by coaxial waveguide
+----------------------------------
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.power_carried_by_coaxial_waveguide
+
+.. py:data:: power
+
+    :attr:`~symplyphysics.symbols.basic.power` transmitted by the waveguide.
+
+    Symbol:
+        :code:`P`
+
+    Latex:
+        :math:`P`
+
+    Dimension:
+        :code:`power`
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the insulator.
+
+    Symbol:
+        :code:`epsilon_r`
+
+    Latex:
+        :math:`\varepsilon_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the insulator.
+
+    Symbol:
+        :code:`mu_r`
+
+    Latex:
+        :math:`\mu_{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the central conductor and the outer conductor.
+
+    Symbol:
+        :code:`V`
+
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: outer_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the outer conductor.
+
+    Symbol:
+        :code:`D_o`
+
+    Latex:
+        :math:`D_{\text{o}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: inner_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the inner conductor.
+
+    Symbol:
+        :code:`D_i`
+
+    Latex:
+        :math:`D_{\text{i}}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: impedance_constant
+
+    Constant equal to :math:`120 \Omega`.
+
+    ..
+        rename back to `vacuum_impedance`?
+
+    Symbol:
+        :code:`Z_0`
+
+    Latex:
+        :math:`Z_0`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: law
+
+    :code:`P = V^2 / Z_0 * sqrt(epsilon_r / (mu_r * log(D_o / D_i)))`
+
+
+    Latex:
+        .. math::
+            P = \frac{V^{2}}{Z_0} \sqrt{\frac{\varepsilon_{r}}{\mu_{r} \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}}
+
+

@@ -13,7 +13,7 @@ of the angle phi between the light's initial polarization direction and the axis
 
 .. py:data:: irradiance_after
 
-    Light :attr:`~symplyphysics.symbols.optics.irradiance` after passing through the polarizer.
+    Light :attr:`~symplyphysics.symbols.astronomy.irradiance` after passing through the polarizer.
 
     Symbol:
         :code:`E_e`
@@ -26,7 +26,7 @@ of the angle phi between the light's initial polarization direction and the axis
 
 .. py:data:: irradiance_before
 
-    Light :attr:`~symplyphysics.symbols.optics.irradiance` befor passing through the polarizer.
+    Light :attr:`~symplyphysics.symbols.astronomy.irradiance` befor passing through the polarizer.
 
     Symbol:
         :code:`E_e0`
