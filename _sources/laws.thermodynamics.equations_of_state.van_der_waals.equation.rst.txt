@@ -21,20 +21,29 @@ into account the main characteristics of a gas with intermolecular interaction.
 
 .. py:data:: pressure
 
-    Pressure in the van der Waals fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the van der Waals fluid.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: molar_volume
 
-    Volume of the van der Waals fluid per unit amount of substance.
+    :attr:`~symplyphysics.symbols.basic.molar_volume` of the van der Waals fluid.
 
     Symbol:
-        :code:`V_m`
+        :code:`v_m`
 
     Latex:
-        :math:`V_m`
+        :math:`v_\text{m}`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: temperature
 
@@ -51,25 +60,37 @@ into account the main characteristics of a gas with intermolecular interaction.
 
 .. py:data:: attractive_forces_parameter
 
-    Parameter of the van der Waals equation denoting the magnitude of attractive
-    forces between gas molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
     Symbol:
         :code:`a`
 
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`pressure*volume**2/amount_of_substance**2`
+
 .. py:data:: excluded_volume_parameter
 
-    Parameter of the van der Waals equation denoting an excluded molar volume
-    due to a finite size of molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
     Symbol:
         :code:`b`
 
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
+
 .. py:data:: law
 
-    :code:`(p + a / V_m^2) * (V_m - b) = R * T`
+    :code:`(p + a / v_m^2) * (v_m - b) = R * T`
+
 
     Latex:
         .. math::
-            \left( p + \frac{a}{V_m^2} \right) (V_m - b) = R T
+            \left(p + \frac{a}{v_\text{m}^{2}}\right) \left(v_\text{m} - b\right) = R T
+
 

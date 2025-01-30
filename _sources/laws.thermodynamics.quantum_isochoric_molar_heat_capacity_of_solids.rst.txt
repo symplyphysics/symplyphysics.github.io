@@ -26,7 +26,7 @@ solids, it is a big achievement and the result has correct asymptotic behaviour 
         :code:`c_Vm`
 
     Latex:
-        :math:`c_{V, m}`
+        :math:`c_{V, \text{m}}`
 
     Dimension:
         :code:`energy/(amount_of_substance*temperature)`
@@ -52,6 +52,6 @@ solids, it is a big achievement and the result has correct asymptotic behaviour 
 
     Latex:
         .. math::
-            c_{V, m} = 3 R \frac{x^{2} \exp{\left(x \right)}}{\left(\exp{\left(x \right)} - 1\right)^{2}}
+            c_{V, \text{m}} = 3 R \frac{x^{2} \exp{\left(x \right)}}{\left(\exp{\left(x \right)} - 1\right)^{2}}
 
 

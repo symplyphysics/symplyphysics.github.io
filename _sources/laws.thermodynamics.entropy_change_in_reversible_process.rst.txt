@@ -24,20 +24,29 @@ system :math:`B` divided by the common thermodynamic temperature of systems :mat
 
 .. py:data:: entropy_change
 
-    Infinitesimal change in entropy of system :math:`B`.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.entropy` of system :math:`B`.
 
     Symbol:
         :code:`dS`
 
-.. py:data:: heat
+    Latex:
+        :math:`dS`
 
-    Infinitesimal amount of heat transferred to system :math:`B`.
+    Dimension:
+        :code:`energy/temperature`
+
+.. py:data:: heat_supplied_to_system
+
+    Infinitesimal amount of :attr:`~symplyphysics.symbols.thermodynamics.heat` transferred to system :math:`B`.
 
     Symbol:
         :code:`delta(Q)`
 
     Latex:
         :math:`\delta Q`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: common_temperature
 
@@ -56,7 +65,9 @@ system :math:`B` divided by the common thermodynamic temperature of systems :mat
 
     :code:`dS = delta(Q) / T`
 
+
     Latex:
         .. math::
             dS = \frac{\delta Q}{T}
+
 

@@ -21,13 +21,16 @@ is maximum.
 
 .. py:data:: most_probable_speed
 
-    Most probable speed of particles.
+    Most probable :attr:`~symplyphysics.symbols.classical_mechanics.speed` of particles.
 
     Symbol:
         :code:`v_prob`
 
     Latex:
         :math:`v_\text{prob}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: equilibrium_temperature
 
@@ -59,7 +62,9 @@ is maximum.
 
     :code:`v_prob = sqrt(2 * k_B * T / m)`
 
+
     Latex:
         .. math::
             v_\text{prob} = \sqrt{\frac{2 k_\text{B} T}{m}}
+
 

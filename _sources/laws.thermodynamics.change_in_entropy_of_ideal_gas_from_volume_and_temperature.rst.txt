@@ -72,7 +72,7 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
         :code:`c_Vm`
 
     Latex:
-        :math:`c_{V, m}`
+        :math:`c_{V, \text{m}}`
 
     Dimension:
         :code:`energy/(amount_of_substance*temperature)`
@@ -136,6 +136,6 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
     Latex:
         .. math::
-            S = \frac{m}{M} \left(c_{V, m} \log \left( \frac{T_{1}}{T_{0}} \right) + R \log \left( \frac{V_{1}}{V_{0}} \right)\right)
+            S = \frac{m}{M} \left(c_{V, \text{m}} \log \left( \frac{T_{1}}{T_{0}} \right) + R \log \left( \frac{V_{1}}{V_{0}} \right)\right)
 
 

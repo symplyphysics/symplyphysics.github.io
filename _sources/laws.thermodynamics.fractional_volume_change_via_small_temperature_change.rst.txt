@@ -21,39 +21,50 @@ and the fractional change in the body's volume is proportional to the change in 
 
 .. py:data:: fractional_volume_change
 
-    Change :math:`\Delta V` in the body's volume divided by its initial volume :math:`V`.
+    Change in the body's :attr:`~symplyphysics.symbols.classical_mechanics.volume` divided by its initial volume. See :attr:`~symplyphysics.symbols.basic.fractional_change`.
 
     Symbol:
         :code:`e_V`
 
     Latex:
-        :math:`e_V`
+        :math:`e_{V}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: volumetric_expansion_coefficient
 
-    Volumetric coefficient of thermal expansion.
+    Volumetric :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient`.
 
     Symbol:
         :code:`alpha_V`
 
     Latex:
-        :math:`\alpha_V`
+        :math:`\alpha_{V}`
+
+    Dimension:
+        :code:`1/temperature`
 
 .. py:data:: temperature_change
 
-    Change in body's temperature.
+    Change in body's :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
     Symbol:
-        :code:`dT`
+        :code:`Delta(T)`
 
     Latex:
         :math:`\Delta T`
 
+    Dimension:
+        :code:`temperature`
+
 .. py:data:: law
 
-    :code:`e_V = alpha_V * dT`
+    :code:`e_V = alpha_V * Delta(T)`
+
 
     Latex:
         .. math::
-            e_V = \alpha_V \, \Delta T
+            e_{V} = \alpha_{V} \Delta T
+
 

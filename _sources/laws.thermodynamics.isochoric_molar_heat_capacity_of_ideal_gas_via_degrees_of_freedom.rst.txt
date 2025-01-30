@@ -36,7 +36,7 @@ From that one can derive the expression of the isochoric heat capacity of ideal 
         :code:`c_Vm`
 
     Latex:
-        :math:`c_{V, m}`
+        :math:`c_{V, \text{m}}`
 
     Dimension:
         :code:`energy/(amount_of_substance*temperature)`
@@ -61,6 +61,6 @@ From that one can derive the expression of the isochoric heat capacity of ideal 
 
     Latex:
         .. math::
-            c_{V, m} = \frac{f}{2} R
+            c_{V, \text{m}} = \frac{f}{2} R
 
 

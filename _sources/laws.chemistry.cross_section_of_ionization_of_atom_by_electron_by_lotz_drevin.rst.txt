@@ -8,7 +8,7 @@ Lotz-Drewin approximation for the ionization cross section is considered.
 
 **Notation:**
 
-#. :math:`a_0` (:code:`a0`) is :attr:`~symplyphysics.quantities.bohr_radius`.
+#. :math:`a_0` (:code:`a_0`) is :attr:`~symplyphysics.quantities.bohr_radius`.
 #. :math:`\mathrm{IE}_\text{H}` (:code:`IE_h`) is :attr:`~symplyphysics.quantities.hydrogen_ionization_energy`.
 
 ..
@@ -98,7 +98,7 @@ Lotz-Drewin approximation for the ionization cross section is considered.
 
 .. py:data:: law
 
-    :code:`sigma = 2.66 * pi * a0^2 * N * IE_h^2 / E_i^2 * A * (E / E_i - 1) / (E / E_i)^2 * log(1.25 * B * E / E_i)`
+    :code:`sigma = 2.66 * pi * a_0^2 * N * IE_h^2 / E_i^2 * A * (E / E_i - 1) / (E / E_i)^2 * log(1.25 * B * E / E_i)`
 
 
     Latex:

@@ -41,7 +41,7 @@
 (and therefore the pressure) of a real gas in local equilibrium as a power series of molar density.</p>
 <p><strong>Notes:</strong></p>
 <ol class="arabic simple">
-<li><p>The first virial coefficient <span class="math notranslate nohighlight">\(A\)</span> is defined to be 1 in order to enforce that the equation
+<li><p>The first virial coefficient <span class="math notranslate nohighlight">\(C_1\)</span> is defined to be 1 in order to enforce that the equation
 reduces to the ideal gas equation as gas density approaches zero.</p></li>
 <li><p>The <span class="math notranslate nohighlight">\(n\)</span>-th virial coefficient represents non-additive <span class="math notranslate nohighlight">\(n\)</span>-body interactions of
 particles and all mutual interactions of <span class="math notranslate nohighlight">\(2\)</span> up to <span class="math notranslate nohighlight">\((n - 1)\)</span> particles.</p></li>
@@ -62,9 +62,13 @@ for many fluids.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.compressibility_factor">
 <span class="sig-name descname"><span class="pre">compressibility_factor</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.compressibility_factor" title="Link to this definition">¶</a></dt>
-<dd><p>See <a class="reference internal" href="definitions.compressibility_factor_is_deviation_from_ideal_gas.html"><span class="doc">Compressibility factor is deviation from ideal gas</span></a>.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.compressibility_factor" title="symplyphysics.symbols.thermodynamics.compressibility_factor"><code class="xref py py-attr docutils literal notranslate"><span class="pre">compressibility_factor</span></code></a>. Also see <a class="reference internal" href="definitions.compressibility_factor_is_deviation_from_ideal_gas.html"><span class="doc">Compressibility factor is deviation from ideal gas</span></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(Z\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -74,7 +78,11 @@ for many fluids.</p></li>
 <span class="sig-name descname"><span class="pre">second_virial_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.second_virial_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p>Second virial coefficient correponding to pair interactions between particles.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">C_2</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(C_{2}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume/amount_of_substance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -84,7 +92,11 @@ for many fluids.</p></li>
 <span class="sig-name descname"><span class="pre">third_virial_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.third_virial_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p>Third virial coefficient corresponding to 3-body interaction between particles.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">C</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">C_3</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(C_{3}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume**2/amount_of_substance**2</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -92,12 +104,14 @@ for many fluids.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.molar_density">
 <span class="sig-name descname"><span class="pre">molar_density</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.molar_density" title="Link to this definition">¶</a></dt>
-<dd><p>Molar density of the system, or as amount of substance per unit volume.
+<dd><p>Molar density of the system, or <a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.amount_of_substance" title="symplyphysics.symbols.chemistry.amount_of_substance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">amount_of_substance</span></code></a> per unit <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>.
 See <a class="reference internal" href="laws.quantities.quantity_is_volumetric_density_times_volume.html"><span class="doc">Quantity is volumetric density times volume</span></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho_m</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho_\text{m}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">amount_of_substance/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -105,10 +119,10 @@ See <a class="reference internal" href="laws.quantities.quantity_is_volumetric_d
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.virial_equation.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">+</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">rho</span> <span class="pre">+</span> <span class="pre">C</span> <span class="pre">*</span> <span class="pre">rho^2</span> <span class="pre">+</span> <span class="pre">O(rho^3)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Z</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">+</span> <span class="pre">rho_m^2</span> <span class="pre">*</span> <span class="pre">C_3</span> <span class="pre">+</span> <span class="pre">C_2</span> <span class="pre">*</span> <span class="pre">rho_m</span> <span class="pre">+</span> <span class="pre">O(rho_m^3)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[Z = 1 + B \rho + C \rho^2 + O \! \left( \rho^3 \right)\]</div>
+\[Z = 1 + \rho_\text{m}^{2} C_{3} + C_{2} \rho_\text{m} + O\left(\rho_\text{m}^{3}\right)\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -221,6 +235,8 @@ See <a class="reference internal" href="laws.quantities.quantity_is_volumetric_d
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_from_heat_capacity.html">Isobaric potential from heat capacity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity.html">Isobaric potential of temperature dependent heat capacity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
@@ -228,6 +244,7 @@ See <a class="reference internal" href="laws.quantities.quantity_is_volumetric_d
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.laplace_pressure_of_spherical_shapes.html">Laplace pressure of spherical shapes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html">Latent heat of fusion via mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.mean_free_path_of_random_motion.html">Mean free path of random motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html">Number of impacts on the wall from area and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
@@ -237,6 +254,7 @@ See <a class="reference internal" href="laws.quantities.quantity_is_volumetric_d
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiance_of_black_body_from_temperature.html">Radiance of black body from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>

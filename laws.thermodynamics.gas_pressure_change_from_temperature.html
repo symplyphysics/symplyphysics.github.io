@@ -46,11 +46,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.gas_pressure_change_from_temperature.pressure_change">
 <span class="sig-name descname"><span class="pre">pressure_change</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.gas_pressure_change_from_temperature.pressure_change" title="Link to this definition">¶</a></dt>
-<dd><p>Finite change in pressure inside the gas.</p>
+<dd><p>Finite change in <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> inside the gas.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dp</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(p)</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -58,11 +60,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.gas_pressure_change_from_temperature.initial_pressure">
 <span class="sig-name descname"><span class="pre">initial_pressure</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.gas_pressure_change_from_temperature.initial_pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure at <a class="reference internal" href="quantities.html#symplyphysics.quantities.standard_conditions_temperature" title="symplyphysics.quantities.standard_conditions_temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">standard</span> <span class="pre">conditions</span></code></a>.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> at <a class="reference internal" href="quantities.html#symplyphysics.quantities.standard_conditions_temperature" title="symplyphysics.quantities.standard_conditions_temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">standard</span> <span class="pre">conditions</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p_0</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p_0\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -72,12 +76,6 @@
 <span class="sig-name descname"><span class="pre">thermal_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.gas_pressure_change_from_temperature.thermal_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p>Isochoric thermal pressure coefficient equal to the inverse of
 <a class="reference internal" href="quantities.html#symplyphysics.quantities.standard_conditions_temperature" title="symplyphysics.quantities.standard_conditions_temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">standard</span> <span class="pre">conditions</span> <span class="pre">temperature</span></code></a>.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">beta_V</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\beta_V\)</span></p>
-</dd>
-</dl>
 </dd></dl>
 
 <dl class="py data">
@@ -97,10 +95,10 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.gas_pressure_change_from_temperature.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.gas_pressure_change_from_temperature.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">dp</span> <span class="pre">=</span> <span class="pre">p0</span> <span class="pre">*</span> <span class="pre">(beta_V</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">-</span> <span class="pre">1)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(p)</span> <span class="pre">=</span> <span class="pre">p_0</span> <span class="pre">*</span> <span class="pre">(T</span> <span class="pre">/</span> <span class="pre">T_std</span> <span class="pre">-</span> <span class="pre">1)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\Delta p = p_0 \left( \beta_V T - 1 \right)\]</div>
+\[\Delta p = p_{0} \left(\frac{T}{T_\text{std}} - 1\right)\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -214,6 +212,8 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_from_heat_capacity.html">Isobaric potential from heat capacity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity.html">Isobaric potential of temperature dependent heat capacity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
@@ -221,6 +221,7 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.laplace_pressure_of_spherical_shapes.html">Laplace pressure of spherical shapes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html">Latent heat of fusion via mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.mean_free_path_of_random_motion.html">Mean free path of random motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html">Number of impacts on the wall from area and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
@@ -230,6 +231,7 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiance_of_black_body_from_temperature.html">Radiance of black body from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>

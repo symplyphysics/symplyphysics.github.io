@@ -43,8 +43,8 @@ a condition that all allowed microstates of the closed system are equiprobable, 
 for the statistical weight of the system can be found in combinatorics.</p>
 <p><strong>Notes:</strong></p>
 <ol class="arabic simple">
-<li><p>Law can also be represented in form <span class="math notranslate nohighlight">\(W = \frac{N!}{\prod_i (N_i!)}\)</span>
-(<code class="code docutils literal notranslate"><span class="pre">W</span> <span class="pre">=</span> <span class="pre">factorial(N)</span> <span class="pre">/</span> <span class="pre">Product(factorial(N_i),</span> <span class="pre">i)</span></code>)</p></li>
+<li><p>Law can also be represented in form <span class="math notranslate nohighlight">\(\\Omega = \frac{N!}{\prod_i (N_i!)}\)</span>
+(<code class="code docutils literal notranslate"><span class="pre">Omega</span> <span class="pre">=</span> <span class="pre">factorial(N)</span> <span class="pre">/</span> <span class="pre">Product(factorial(N_i),</span> <span class="pre">i)</span></code>)</p></li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
@@ -53,9 +53,13 @@ for the statistical weight of the system can be found in combinatorics.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.statistical_weight">
 <span class="sig-name descname"><span class="pre">statistical_weight</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.statistical_weight" title="Link to this definition">¶</a></dt>
-<dd><p>Statistical weight of the system’s macrostate.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.statistical_weight" title="symplyphysics.symbols.thermodynamics.statistical_weight"><code class="xref py py-attr docutils literal notranslate"><span class="pre">statistical_weight</span></code></a> of the system’s macrostate.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">W</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Omega</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Omega\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -63,11 +67,13 @@ for the statistical weight of the system can be found in combinatorics.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.particle_count_in_state">
 <span class="sig-name descname"><span class="pre">particle_count_in_state</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.particle_count_in_state" title="Link to this definition">¶</a></dt>
-<dd><p>Number of particles in state <span class="math notranslate nohighlight">\(i\)</span>.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.particle_count" title="symplyphysics.symbols.basic.particle_count"><code class="xref py py-attr docutils literal notranslate"><span class="pre">particle_count</span></code></a> in state <span class="math notranslate nohighlight">\(i\)</span>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N_i</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N[i]</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N_i\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({N}_{i}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -75,10 +81,10 @@ for the statistical weight of the system can be found in combinatorics.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">W</span> <span class="pre">=</span> <span class="pre">factorial(Sum(N_i,</span> <span class="pre">i))</span> <span class="pre">/</span> <span class="pre">Product(factorial(N_i),</span> <span class="pre">i)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Omega</span> <span class="pre">=</span> <span class="pre">factorial(Sum(N_i,</span> <span class="pre">i))</span> <span class="pre">/</span> <span class="pre">Product(factorial(N_i),</span> <span class="pre">i)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[W = \frac{(\sum_i N_i)!}{\prod_i (N_i!)}\]</div>
+\[\begin{split}\\Omega = \frac{(\sum_i N_i)!}{\prod_i (N_i!)}\end{split}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -193,6 +199,8 @@ for the statistical weight of the system can be found in combinatorics.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_from_heat_capacity.html">Isobaric potential from heat capacity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity.html">Isobaric potential of temperature dependent heat capacity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
@@ -200,6 +208,7 @@ for the statistical weight of the system can be found in combinatorics.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.laplace_pressure_of_spherical_shapes.html">Laplace pressure of spherical shapes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html">Latent heat of fusion via mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.mean_free_path_of_random_motion.html">Mean free path of random motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html">Number of impacts on the wall from area and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
@@ -209,6 +218,7 @@ for the statistical weight of the system can be found in combinatorics.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiance_of_black_body_from_temperature.html">Radiance of black body from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>

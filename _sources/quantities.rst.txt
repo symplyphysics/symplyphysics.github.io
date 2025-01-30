@@ -17,10 +17,10 @@ Contains useful physical constants. Fundamental constants can be also found in `
     #. `Wikipedia <https://en.wikipedia.org/wiki/Standard_temperature_and_pressure>`__.
 
     Symbol:
-        :code:`t_std`
+        :code:`T_std`
 
     Latex:
-        :math:`t_\text{std}`
+        :math:`T_\text{std}`
 
     Dimension:
         :code:`temperature`
@@ -34,10 +34,10 @@ Contains useful physical constants. Fundamental constants can be also found in `
     #. `Wikipedia <https://en.wikipedia.org/wiki/Room_temperature#Definitions_in_science_and_industry>`__.
 
     Symbol:
-        :code:`t_lab`
+        :code:`T_lab`
 
     Latex:
-        :math:`t_\text{lab}`
+        :math:`T_\text{lab}`
 
     Dimension:
         :code:`temperature`
@@ -69,7 +69,7 @@ Contains useful physical constants. Fundamental constants can be also found in `
     #. `Wikipedia <https://en.wikipedia.org/wiki/Bohr_radius>`__.
 
     Symbol:
-        :code:`a0`
+        :code:`a_0`
 
     Latex:
         :math:`a_0`

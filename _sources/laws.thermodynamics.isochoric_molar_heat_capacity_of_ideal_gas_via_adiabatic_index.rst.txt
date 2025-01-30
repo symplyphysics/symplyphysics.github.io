@@ -22,7 +22,7 @@ constant and the adiabatic index of the gas.
         :code:`c_Vm`
 
     Latex:
-        :math:`c_{V, m}`
+        :math:`c_{V, \text{m}}`
 
     Dimension:
         :code:`energy/(amount_of_substance*temperature)`
@@ -47,6 +47,6 @@ constant and the adiabatic index of the gas.
 
     Latex:
         .. math::
-            c_{V, m} = \frac{R}{\gamma - 1}
+            c_{V, \text{m}} = \frac{R}{\gamma - 1}
 
 

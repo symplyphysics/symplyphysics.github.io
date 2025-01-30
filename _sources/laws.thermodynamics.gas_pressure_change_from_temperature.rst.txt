@@ -15,34 +15,34 @@ The change in pressure of ideal gas depends on temperature, standard pressure an
 
 .. py:data:: pressure_change
 
-    Finite change in pressure inside the gas.
+    Finite change in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the gas.
 
     Symbol:
-        :code:`dp`
+        :code:`Delta(p)`
 
     Latex:
         :math:`\Delta p`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: initial_pressure
 
-    Pressure at :attr:`standard conditions <symplyphysics.quantities.standard_conditions_temperature>`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` at :attr:`standard conditions <symplyphysics.quantities.standard_conditions_temperature>`.
 
     Symbol:
-        :code:`p0`
+        :code:`p_0`
 
     Latex:
-        :math:`p_0`
+        :math:`p_{0}`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: thermal_coefficient
 
     Isochoric thermal pressure coefficient equal to the inverse of
     :attr:`standard conditions temperature <symplyphysics.quantities.standard_conditions_temperature>`.
-
-    Symbol:
-        :code:`beta_V`
-
-    Latex:
-        :math:`\beta_V`
 
 .. py:data:: final_temperature
 
@@ -59,9 +59,11 @@ The change in pressure of ideal gas depends on temperature, standard pressure an
 
 .. py:data:: law
 
-    :code:`dp = p0 * (beta_V * T - 1)`
+    :code:`Delta(p) = p_0 * (T / T_std - 1)`
+
 
     Latex:
         .. math::
-            \Delta p = p_0 \left( \beta_V T - 1 \right)
+            \Delta p = p_{0} \left(\frac{T}{T_\text{std}} - 1\right)
+
 

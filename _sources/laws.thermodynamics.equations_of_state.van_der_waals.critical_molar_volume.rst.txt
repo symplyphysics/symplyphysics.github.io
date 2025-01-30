@@ -12,27 +12,37 @@ parameter :math:`b` of the van der Waals equation. See :ref:`vdw_critical_parame
 
 .. py:data:: critical_molar_volume
 
-    Critical volume of the van der Waals fluid per unit amount of substance.
+    Critical :attr:`~symplyphysics.symbols.basic.molar_volume` of the van der Waals fluid.
 
     Symbol:
-        :code:`V_cm`
+        :code:`v_cm`
 
     Latex:
-        :math:`V_\text{c, m}`
+        :math:`v_{\text{c},\text{m}}`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: excluded_volume_parameter
 
-    Parameter of the van der Waals equation denoting an excluded molar volume
-    due to a finite size of molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
     Symbol:
         :code:`b`
 
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
+
 .. py:data:: law
 
-    :code:`V_cm = 3 * b`
+    :code:`v_cm = 3 * b`
+
 
     Latex:
         .. math::
-            V_\text{c, m} = 3 b
+            v_{\text{c},\text{m}} = 3 b
+
 

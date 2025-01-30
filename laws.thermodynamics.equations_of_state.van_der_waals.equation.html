@@ -54,9 +54,13 @@ into account the main characteristics of a gas with intermolecular interaction.<
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.pressure">
 <span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure in the van der Waals fluid.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> in the van der Waals fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -64,11 +68,13 @@ into account the main characteristics of a gas with intermolecular interaction.<
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.molar_volume">
 <span class="sig-name descname"><span class="pre">molar_volume</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.molar_volume" title="Link to this definition">¶</a></dt>
-<dd><p>Volume of the van der Waals fluid per unit amount of substance.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.molar_volume" title="symplyphysics.symbols.basic.molar_volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">molar_volume</span></code></a> of the van der Waals fluid.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V_m</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_m</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V_m\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_\text{m}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume/amount_of_substance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -90,10 +96,13 @@ into account the main characteristics of a gas with intermolecular interaction.<
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.attractive_forces_parameter">
 <span class="sig-name descname"><span class="pre">attractive_forces_parameter</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.attractive_forces_parameter" title="Link to this definition">¶</a></dt>
-<dd><p>Parameter of the van der Waals equation denoting the magnitude of attractive
-forces between gas molecules.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.attractive_forces_parameter" title="symplyphysics.symbols.thermodynamics.attractive_forces_parameter"><code class="xref py py-attr docutils literal notranslate"><span class="pre">attractive_forces_parameter</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(a\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure*volume**2/amount_of_substance**2</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -101,10 +110,13 @@ forces between gas molecules.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.excluded_volume_parameter">
 <span class="sig-name descname"><span class="pre">excluded_volume_parameter</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.excluded_volume_parameter" title="Link to this definition">¶</a></dt>
-<dd><p>Parameter of the van der Waals equation denoting an excluded molar volume
-due to a finite size of molecules.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.excluded_volume_parameter" title="symplyphysics.symbols.thermodynamics.excluded_volume_parameter"><code class="xref py py-attr docutils literal notranslate"><span class="pre">excluded_volume_parameter</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">b</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(b\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume/amount_of_substance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -112,10 +124,10 @@ due to a finite size of molecules.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.equation.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">(p</span> <span class="pre">+</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">V_m^2)</span> <span class="pre">*</span> <span class="pre">(V_m</span> <span class="pre">-</span> <span class="pre">b)</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">(p</span> <span class="pre">+</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">v_m^2)</span> <span class="pre">*</span> <span class="pre">(v_m</span> <span class="pre">-</span> <span class="pre">b)</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\left( p + \frac{a}{V_m^2} \right) (V_m - b) = R T\]</div>
+\[\left(p + \frac{a}{v_\text{m}^{2}}\right) \left(v_\text{m} - b\right) = R T\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -228,6 +240,8 @@ due to a finite size of molecules.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_from_heat_capacity.html">Isobaric potential from heat capacity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity.html">Isobaric potential of temperature dependent heat capacity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
@@ -235,6 +249,7 @@ due to a finite size of molecules.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.laplace_pressure_of_spherical_shapes.html">Laplace pressure of spherical shapes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html">Latent heat of fusion via mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.mean_free_path_of_random_motion.html">Mean free path of random motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html">Number of impacts on the wall from area and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
@@ -244,6 +259,7 @@ due to a finite size of molecules.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiance_of_black_body_from_temperature.html">Radiance of black body from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>

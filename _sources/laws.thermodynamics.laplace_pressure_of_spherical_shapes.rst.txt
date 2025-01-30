@@ -13,7 +13,7 @@ the fluid is called *Laplace pressure*.
 
 .. py:data:: laplace_pressure
 
-    Excess pressure under the curved surface.
+    Excess :attr:`~symplyphysics.symbols.classical_mechanics.pressure` under the curved surface.
 
     Symbol:
         :code:`P_L`
@@ -21,28 +21,42 @@ the fluid is called *Laplace pressure*.
     Latex:
         :math:`P_\text{L}`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: surface_tension
 
-    Surface tension of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.surface_tension` of the fluid.
 
     Symbol:
-        :code:`sigma`
+        :code:`gamma`
 
     Latex:
-        :math:`\sigma`
+        :math:`\gamma`
+
+    Dimension:
+        :code:`force/length`
 
 .. py:data:: radius_of_curvature
 
-    Radius of curvature of the surface.
+    :attr:`~symplyphysics.symbols.basic.radius_of_curvature` of the surface.
 
     Symbol:
-        :code:`R`
+        :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
-    :code:`P_L = 2 * sigma / R`
+    :code:`P_L = 2 * gamma / r`
+
 
     Latex:
         .. math::
-            P_\text{L} = \frac{2 \sigma}{R}
+            P_\text{L} = \frac{2 \gamma}{r}
+
 

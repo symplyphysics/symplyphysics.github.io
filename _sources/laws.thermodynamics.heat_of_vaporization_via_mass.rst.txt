@@ -12,10 +12,16 @@ in which it is converted from liquid into gaseous state.
 
 .. py:data:: heat
 
-    Heat released during vaporization.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat` released during vaporization.
 
     Symbol:
         :code:`Q`
+
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: mass
 
@@ -32,16 +38,24 @@ in which it is converted from liquid into gaseous state.
 
 .. py:data:: specific_heat_of_vaporization
 
-    Heat of vaporization per unit mass of the body.
+    Heat of vaporization per unit mass of the body. See :attr:`~symplyphysics.symbols.basic.specific_energy`.
 
     Symbol:
-        :code:`L`
+        :code:`epsilon_L`
+
+    Latex:
+        :math:`\varepsilon_{L}`
+
+    Dimension:
+        :code:`energy/mass`
 
 .. py:data:: law
 
-    :code:`Q = L * m`
+    :code:`Q = epsilon_L * m`
+
 
     Latex:
         .. math::
-            Q = L m
+            Q = \varepsilon_{L} m
+
 

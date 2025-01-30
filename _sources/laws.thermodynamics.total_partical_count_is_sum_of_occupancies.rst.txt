@@ -19,26 +19,37 @@ in the system.
 
 .. py:data:: total_particle_count
 
-    Total number of particles in the system.
+    Total :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
     Symbol:
         :code:`N`
 
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: occupancy
 
-    Occupancy of energy level or particle state of index :math:`i`
+    Occupancy of energy level or particle state of index :math:`i`.
 
     Symbol:
-        :code:`N_i`
+        :code:`N[i]`
 
     Latex:
-        :math:`N_i`
+        :math:`{N}_{i}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`N = sum(N_i, i)`
+    :code:`N = Sum(N[i], i)`
+
 
     Latex:
         .. math::
-            N = \sum_i N_i
+            N = \sum_i {N}_{i}
+
 

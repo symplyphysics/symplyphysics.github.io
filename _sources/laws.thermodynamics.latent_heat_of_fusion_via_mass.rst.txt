@@ -14,10 +14,16 @@ specific heat of solidification is equal by magnitude to that of fusion.
 
 .. py:data:: latent_heat
 
-    Latent heat of fusion or solidification.
+    Latent :attr:`~symplyphysics.symbols.thermodynamics.heat` of fusion or solidification.
 
     Symbol:
         :code:`Q`
+
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: mass
 
@@ -34,19 +40,24 @@ specific heat of solidification is equal by magnitude to that of fusion.
 
 .. py:data:: specific_heat_of_fusion
 
-    Heat of fusion or solidification per unit mass.
+    Heat of fusion or solidification per unit mass. See :attr:`~symplyphysics.symbols.basic.specific_energy`.
 
     Symbol:
-        :code:`lambda`
+        :code:`epsilon_lambda`
 
     Latex:
-        :math:`\lambda`
+        :math:`\varepsilon_{\lambda}`
+
+    Dimension:
+        :code:`energy/mass`
 
 .. py:data:: law
 
-    :code:`Q = lambda * m`
+    :code:`Q = epsilon_lambda * m`
+
 
     Latex:
         .. math::
-            Q = \lambda m
+            Q = \varepsilon_{\lambda} m
+
 

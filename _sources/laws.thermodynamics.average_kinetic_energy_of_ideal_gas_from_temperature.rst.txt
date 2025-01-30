@@ -21,13 +21,16 @@ temperature of the gas and only depends on the temperature.
 
 .. py:data:: average_kinetic_energy
 
-    Average kinetic energy of the ideal gas.
+    Average :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the ideal gas.
 
     Symbol:
         :code:`avg(K)`
 
     Latex:
         :math:`\langle K \rangle`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: equilibrium_temperature
 
@@ -44,8 +47,11 @@ temperature of the gas and only depends on the temperature.
 
 .. py:data:: law
 
-    :code:`avg(K) = 3/2 * k_B * T`
+    :code:`avg(K) = 3 * k_B / 2 * T`
+
 
     Latex:
-        :math:`\langle K \rangle = \frac{3}{2} k_\text{B} T`
+        .. math::
+            \langle K \rangle = \frac{3 k_\text{B}}{2} T
+
 

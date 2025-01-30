@@ -17,10 +17,16 @@ parameters, or degrees of freedom.
 
 .. py:data:: entropy
 
-    Entropy of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
     Symbol:
         :code:`S`
+
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: temperature_change
 
@@ -37,40 +43,63 @@ parameters, or degrees of freedom.
 
 .. py:data:: volume
 
-    Volume of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: pressure_change
 
-    Infinitesimal change in pressure inside the system.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
     Symbol:
         :code:`dp`
 
+    Latex:
+        :math:`dp`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: particle_count
 
-    Number of particles in the system.
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
     Symbol:
         :code:`N`
 
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: chemical_potential_change
 
-    Infinitesimal change in chemical potential of the system.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
     Symbol:
-        :code:`dmu`
+        :code:`d(mu)`
 
     Latex:
-        :math:`d \mu`
+        :math:`d\mu`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 
-    :code:`E * dT - V * dp + N * dmu = 0`
+    :code:`S * dT - V * dp + N * d(mu) = 0`
+
 
     Latex:
         .. math::
-            E \, dT - V \, dp + N \, d \mu = 0
+            S dT - V dp + N d\mu = 0
+
 

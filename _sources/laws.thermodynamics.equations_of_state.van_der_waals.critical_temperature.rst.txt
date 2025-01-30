@@ -29,25 +29,37 @@ of the van der Waals equation and the molar gas constant :math:`R`. See :ref:`vd
 
 .. py:data:: attractive_forces_parameter
 
-    Parameter of the van der Waals equation denoting the magnitude of attractive
-    forces between gas molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
     Symbol:
         :code:`a`
 
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`pressure*volume**2/amount_of_substance**2`
+
 .. py:data:: excluded_volume_parameter
 
-    Parameter of the van der Waals equation denoting an excluded molar volume
-    due to a finite size of molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
     Symbol:
         :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: law
 
     :code:`T_c = 8 * a / (27 * R * b)`
 
+
     Latex:
         .. math::
             T_\text{c} = \frac{8 a}{27 R b}
+
 

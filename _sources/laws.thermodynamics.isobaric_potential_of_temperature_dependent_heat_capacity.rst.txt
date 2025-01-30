@@ -1,0 +1,128 @@
+Isobaric potential of temperature dependent heat capacity
+---------------------------------------------------------
+
+The isobaric potential of a reaction is a value whose change during a chemical reaction
+is equal to the change in the internal energy of the system. The isobaric potential
+shows how much of the total internal energy of the system can be used for chemical
+transformations. Thermal effect of reaction is enthalpy of the system. The heat capacity
+coefficients are tabular values for the reaction. They are used to express the
+dependence of heat capacity on temperature.
+
+**Notation:**
+
+#. :math:`T_\text{lab}` (:code:`T_lab`) is :attr:`~symplyphysics.quantities.standard_laboratory_temperature`.
+
+**Conditions:**
+
+#. We take into account the dependence of heat capacity on temperature according to the
+   Temkin-Schwarzman formula.
+#. The process is isobaric-isothermal.
+
+..
+    TODO: find link
+    TODO: fix file and documentation name
+    TODO: find reference to the 'Temkin-Schwarzman formula'
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity
+
+.. py:data:: molar_gibbs_energy_change
+
+    :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` change, or isobaric potential, per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
+
+    Symbol:
+        :code:`Delta(G_m)`
+
+    Latex:
+        :math:`\Delta G_\text{m}`
+
+    Dimension:
+        :code:`energy/amount_of_substance`
+
+.. py:data:: molar_enthalpy_change
+
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` change, or thermal effect, per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
+
+    Symbol:
+        :code:`Delta(H_m)`
+
+    Latex:
+        :math:`\Delta H_\text{m}`
+
+    Dimension:
+        :code:`energy/amount_of_substance`
+
+.. py:data:: molar_entropy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
+
+    Symbol:
+        :code:`S_m`
+
+    Latex:
+        :math:`S_\text{m}`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
+
+    Symbol:
+        :code:`T`
+
+    Latex:
+        :math:`T`
+
+    Dimension:
+        :code:`temperature`
+
+.. py:data:: first_capacity_coefficient
+
+    First tabular coefficient of heat capacity.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
+
+.. py:data:: second_capacity_coefficient
+
+    Second tabular coefficient of heat capacity.
+
+    Symbol:
+        :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature**2)`
+
+.. py:data:: third_capacity_coefficient
+
+    Third tabular coefficient of heat capacity.
+
+    Symbol:
+        :code:`c`
+
+    Latex:
+        :math:`c`
+
+    Dimension:
+        :code:`energy*temperature/amount_of_substance`
+
+.. py:data:: law
+
+    :code:`Delta(G_m) = Delta(H_m) - T * S_m - T * (a * (log(T_lab / T) + T_lab / T - 1) + b * (T / 2 + T_lab^2 / (2 * T) - T_lab) + c * (1 / (T^2 * 2) - 1 / (T_lab * T) + 1 / (T_lab^2 * 2)))`
+
+
+    Latex:
+        .. math::
+            \Delta G_\text{m} = \Delta H_\text{m} - T S_\text{m} - T \left(a \left(\log \left( \frac{T_\text{lab}}{T} \right) + \frac{T_\text{lab}}{T} - 1\right) + b \left(\frac{T}{2} + \frac{T_\text{lab}^{2}}{2 T} - T_\text{lab}\right) + c \left(\frac{1}{T^{2} \cdot 2} - \frac{1}{T_\text{lab} T} + \frac{1}{T_\text{lab}^{2} \cdot 2}\right)\right)
+
+

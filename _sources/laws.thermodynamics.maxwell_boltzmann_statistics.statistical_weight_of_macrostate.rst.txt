@@ -8,8 +8,8 @@ for the statistical weight of the system can be found in combinatorics.
 
 **Notes:**
 
-#. Law can also be represented in form :math:`W = \frac{N!}{\prod_i (N_i!)}`
-   (:code:`W = factorial(N) / Product(factorial(N_i), i)`)
+#. Law can also be represented in form :math:`\\Omega = \frac{N!}{\prod_i (N_i!)}`
+   (:code:`Omega = factorial(N) / Product(factorial(N_i), i)`)
 
 **Links:**
 
@@ -19,26 +19,38 @@ for the statistical weight of the system can be found in combinatorics.
 
 .. py:data:: statistical_weight
 
-    Statistical weight of the system's macrostate.
+    :attr:`~symplyphysics.symbols.thermodynamics.statistical_weight` of the system's macrostate.
 
     Symbol:
-        :code:`W`
+        :code:`Omega`
+
+    Latex:
+        :math:`\Omega`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: particle_count_in_state
 
-    Number of particles in state :math:`i`.
+    :attr:`~symplyphysics.symbols.basic.particle_count` in state :math:`i`.
 
     Symbol:
-        :code:`N_i`
+        :code:`N[i]`
 
     Latex:
-        :math:`N_i`
+        :math:`{N}_{i}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`W = factorial(Sum(N_i, i)) / Product(factorial(N_i), i)`
+    ..
+        The printers do not yet recognize the `ProductIndexed` class.
+
+    :code:`Omega = factorial(Sum(N_i, i)) / Product(factorial(N_i), i)`
 
     Latex:
         .. math::
-            W = \frac{(\sum_i N_i)!}{\prod_i (N_i!)}
+            \\Omega = \frac{(\sum_i N_i)!}{\prod_i (N_i!)}
 

@@ -6,7 +6,7 @@ temperature coefficient and resistance at zero degrees celsius may differ.
 
 **Notation:**
 
-#. :math:`t_\text{std}` (:code:`t_std`) is :attr:`~symplyphysics.quantities.standard_conditions_temperature`.
+#. :math:`T_\text{std}` (:code:`T_std`) is :attr:`~symplyphysics.quantities.standard_conditions_temperature`.
 
 **Links:**
 
@@ -68,11 +68,11 @@ temperature coefficient and resistance at zero degrees celsius may differ.
 
 .. py:data:: law
 
-    :code:`R = R_0 * (1 + a * (T - t_std))`
+    :code:`R = R_0 * (1 + a * (T - T_std))`
 
 
     Latex:
         .. math::
-            R = R_{0} \left(1 + a \left(T - t_\text{std}\right)\right)
+            R = R_{0} \left(1 + a \left(T - T_\text{std}\right)\right)
 
 

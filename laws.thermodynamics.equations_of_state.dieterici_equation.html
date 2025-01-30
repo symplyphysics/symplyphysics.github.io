@@ -48,11 +48,11 @@ along with the more well-known van der Waals equation of state.</p>
 <li><p>Like the van der Waals equation of state, the Dieterici equation is semi-empirical.</p></li>
 <li><p>It approximates moderate pressures of real gases much better than the van der Waals equation
 within the conditions stated below.</p></li>
-<li><p>Can be converted to the van der Waals equation under an additional limit <span class="math notranslate nohighlight">\(a \ll R T V_m\)</span></p></li>
+<li><p>Can be converted to the van der Waals equation under an additional limit <span class="math notranslate nohighlight">\(a \ll R T V_m\)</span>.</p></li>
 </ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
-<li><p>Only applicable in the limits <span class="math notranslate nohighlight">\(b \ll V_m\)</span> and <span class="math notranslate nohighlight">\(a \ll p V_m^2\)</span>.</p></li>
+<li><p>Only applicable in the limits <span class="math notranslate nohighlight">\(b \ll V_m\)</span> and <span class="math notranslate nohighlight">\(a \ll p V_m^2\)</span>. Refer to symbols below.</p></li>
 <li><p>Inapplicable for high pressures.</p></li>
 </ol>
 <p><strong>Links:</strong></p>
@@ -62,9 +62,13 @@ within the conditions stated below.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.pressure">
 <span class="sig-name descname"><span class="pre">pressure</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Pressure inside the system.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> inside the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -72,11 +76,13 @@ within the conditions stated below.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.molar_volume">
 <span class="sig-name descname"><span class="pre">molar_volume</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.molar_volume" title="Link to this definition">¶</a></dt>
-<dd><p>Volume of the system per amount of substance.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a> of the system per <a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.amount_of_substance" title="symplyphysics.symbols.chemistry.amount_of_substance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">amount_of_substance</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">V_m</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V_m\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(V_{m}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume/amount_of_substance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -98,10 +104,13 @@ within the conditions stated below.</p></li>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.attractive_forces_parameter">
 <span class="sig-name descname"><span class="pre">attractive_forces_parameter</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.attractive_forces_parameter" title="Link to this definition">¶</a></dt>
-<dd><p>Parameter specific to each individual substance, usually attributed to the magnitude of
-attractive forces between particles of the system.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.attractive_forces_parameter" title="symplyphysics.symbols.thermodynamics.attractive_forces_parameter"><code class="xref py py-attr docutils literal notranslate"><span class="pre">attractive_forces_parameter</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(a\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure*volume**2/amount_of_substance**2</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -109,10 +118,13 @@ attractive forces between particles of the system.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.excluded_volume_parameter">
 <span class="sig-name descname"><span class="pre">excluded_volume_parameter</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.excluded_volume_parameter" title="Link to this definition">¶</a></dt>
-<dd><p>Parameter specific to each individual substance, usually attributed to the amount of
-excluded molar volume due to a finite size of particles.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.excluded_volume_parameter" title="symplyphysics.symbols.thermodynamics.excluded_volume_parameter"><code class="xref py py-attr docutils literal notranslate"><span class="pre">excluded_volume_parameter</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">b</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(b\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">volume/amount_of_substance</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -120,10 +132,10 @@ excluded molar volume due to a finite size of particles.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.equations_of_state.dieterici_equation.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">*</span> <span class="pre">(V_m</span> <span class="pre">-</span> <span class="pre">b)</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">exp(-1</span> <span class="pre">*</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">(R</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">V_m))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">*</span> <span class="pre">(V_m</span> <span class="pre">-</span> <span class="pre">b)</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">exp(-a</span> <span class="pre">/</span> <span class="pre">(R</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">V_m))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[p \left( V_m - b \right) = R T \exp \left( - \frac{a}{R T V_m} \right)\]</div>
+\[p \left(V_{m} - b\right) = R T \exp{\left(- \frac{a}{R T V_{m}} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -236,6 +248,8 @@ excluded molar volume due to a finite size of particles.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_from_heat_capacity.html">Isobaric potential from heat capacity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity.html">Isobaric potential of temperature dependent heat capacity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
@@ -243,6 +257,7 @@ excluded molar volume due to a finite size of particles.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.laplace_pressure_of_spherical_shapes.html">Laplace pressure of spherical shapes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html">Latent heat of fusion via mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.mean_free_path_of_random_motion.html">Mean free path of random motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html">Number of impacts on the wall from area and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
@@ -252,6 +267,7 @@ excluded molar volume due to a finite size of particles.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiance_of_black_body_from_temperature.html">Radiance of black body from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>

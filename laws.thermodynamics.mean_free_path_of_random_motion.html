@@ -16,7 +16,7 @@
     <link rel="canonical" href="https://symplyphysics.github.io/laws.thermodynamics.mean_free_path_of_random_motion.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Prandtl number via dynamic viscosity and thermal conductivity" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html" />
+    <link rel="next" title="Number of impacts on the wall from area and speed" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html" />
     <link rel="prev" title="Latent heat of fusion via mass" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -49,11 +49,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.mean_free_path">
 <span class="sig-name descname"><span class="pre">mean_free_path</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.mean_free_path" title="Link to this definition">¶</a></dt>
-<dd><p>Mean free path estimate of molecules.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.mean_free_path" title="symplyphysics.symbols.thermodynamics.mean_free_path"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mean_free_path</span></code></a> estimate of molecules.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">lambda</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\lambda\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -61,9 +63,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.molecular_diameter">
 <span class="sig-name descname"><span class="pre">molecular_diameter</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.molecular_diameter" title="Link to this definition">¶</a></dt>
-<dd><p>Diameter of molecules.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.diameter" title="symplyphysics.symbols.classical_mechanics.diameter"><code class="xref py py-attr docutils literal notranslate"><span class="pre">diameter</span></code></a> of molecules.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -71,9 +77,13 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.number_density">
 <span class="sig-name descname"><span class="pre">number_density</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.number_density" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="definitions.number_density_is_number_of_objects_per_unit_volume.html"><span class="doc">Number density</span></a> of the system.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.number_density" title="symplyphysics.symbols.basic.number_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">number_density</span></code></a> of the system.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(n\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -81,10 +91,10 @@
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">lambda</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(sqrt(2)</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">d^2</span> <span class="pre">*</span> <span class="pre">n)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">lambda</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(sqrt(2)</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">D^2</span> <span class="pre">*</span> <span class="pre">n)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\lambda = \frac{1}{\sqrt{2} \pi d^2 n}\]</div>
+\[\lambda = \frac{1}{\sqrt{2} \pi D^{2} n}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -191,6 +201,8 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_from_heat_capacity.html">Isobaric potential from heat capacity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity.html">Isobaric potential of temperature dependent heat capacity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
@@ -204,6 +216,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html">Number of impacts on the wall from area and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
@@ -213,6 +226,7 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiance_of_black_body_from_temperature.html">Radiance of black body from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>
@@ -245,7 +259,7 @@
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.thermodynamics.html">Thermodynamics</a><ul>
       <li>Previous: <a href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html" title="previous chapter">Latent heat of fusion via mass</a></li>
-      <li>Next: <a href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html" title="next chapter">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
+      <li>Next: <a href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html" title="next chapter">Number of impacts on the wall from area and speed</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

@@ -34,7 +34,10 @@ speeds in the interval :math:`dv_k` around velocity component :math:`v_k`.
         :code:`f(v_k)`
 
     Latex:
-        :math:`f(v_k)`
+        :math:`f(v_{k)}`
+
+    Dimension:
+        :code:`1/velocity`
 
 .. py:data:: velocity_component
 
@@ -44,7 +47,10 @@ speeds in the interval :math:`dv_k` around velocity component :math:`v_k`.
         :code:`v_k`
 
     Latex:
-        :math:`v_k`
+        :math:`v_{k}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: particle_mass
 
@@ -74,9 +80,11 @@ speeds in the interval :math:`dv_k` around velocity component :math:`v_k`.
 
 .. py:data:: law
 
-    :code:`f(v_k) = sqrt(m / (2 * pi * k_B * T)) * exp(-1 * m * v_k^2 / (2 * k_B * T))`
+    :code:`f(v_k) = sqrt(m / (2 * pi * k_B * T)) * exp(-m * v_k^2 / (2 * k_B * T))`
+
 
     Latex:
         .. math::
-            f(v_k) = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp \left( - \frac{m v_k^2}{2 k_\text{B} T} \right)
+            f(v_{k)} = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp{\left(- \frac{m v_{k}^{2}}{2 k_\text{B} T} \right)}
+
 

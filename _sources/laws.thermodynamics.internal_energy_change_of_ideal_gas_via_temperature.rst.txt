@@ -16,20 +16,29 @@ and is independent of other thermodynamic quantities such as pressure or density
 
 .. py:data:: internal_energy_change
 
-    Infinitesimal change in internal energy of the system.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
     Symbol:
         :code:`dU`
 
+    Latex:
+        :math:`dU`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: isochoric_heat_capacity
 
-    Heat capacity at constant volume.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
     Symbol:
         :code:`C_V`
 
     Latex:
-        :math:`C_V`
+        :math:`C_{V}`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: temperature_change
 
@@ -48,7 +57,9 @@ and is independent of other thermodynamic quantities such as pressure or density
 
     :code:`dU = C_V * dT`
 
+
     Latex:
         .. math::
-            dU = C_V dT
+            dU = C_{V} dT
+
 

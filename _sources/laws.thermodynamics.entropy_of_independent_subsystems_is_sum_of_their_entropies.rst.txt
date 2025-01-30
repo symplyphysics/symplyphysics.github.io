@@ -18,26 +18,37 @@ known as `subadditivity <https://en.wikipedia.org/wiki/Subadditivity>`_.
 
 .. py:data:: total_entropy
 
-    Total entropy of the system as a whole.
+    Total :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system as a whole.
 
     Symbol:
         :code:`S`
 
+    Latex:
+        :math:`S`
+
+    Dimension:
+        :code:`energy/temperature`
+
 .. py:data:: subsystem_entropy
 
-    Entropy of the :math:`i`-th subsystem.
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the :math:`i`-th subsystem.
 
     Symbol:
-        :code:`S_i`
+        :code:`S[i]`
 
     Latex:
-        :math:`S_i`
+        :math:`{S}_{i}`
+
+    Dimension:
+        :code:`energy/temperature`
 
 .. py:data:: law
 
-    :code:`S = Sum(S_i, i)`
+    :code:`S = Sum(S[i], i)`
+
 
     Latex:
         .. math::
-            S = \sum_i S_i
+            S = \sum_i {S}_{i}
+
 

@@ -28,14 +28,21 @@ during a thermodynamic process.
 
 .. py:data:: internal_energy_change
 
-    Infinitesimal change in internal energy of the system.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
     Symbol:
         :code:`dU`
 
+    Latex:
+        :math:`dU`
+
+    Dimension:
+        :code:`energy`
+
 .. py:data:: heat_supplied_to_system
 
-    Infinitesimal amount of heat supplied to the system during its interaction with the environment.
+    Infinitesimal amount of :attr:`~symplyphysics.symbols.thermodynamics.heat` supplied to the system during its interaction
+    with the environment.
 
     Symbol:
         :code:`delta(Q)`
@@ -43,9 +50,12 @@ during a thermodynamic process.
     Latex:
         :math:`\delta Q`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: work_done_by_system
 
-    Infinitesimal work done by the system on its environment.
+    Infinitesimal :attr:`~symplyphysics.symbols.basic.work` done by the system on its environment.
 
     Symbol:
         :code:`delta(W)`
@@ -53,11 +63,16 @@ during a thermodynamic process.
     Latex:
         :math:`\delta W`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: law
 
     :code:`dU = delta(Q) - delta(W)`
 
+
     Latex:
         .. math::
-            d U = \delta Q - \delta W
+            dU = \delta Q - \delta W
+
 

@@ -16,7 +16,7 @@ of the gas and the average kinetic energy of gas particles.
 
 .. py:data:: average_kinetic_energy
 
-    Average kinetic energy of gas particles.
+    Average :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of gas particles.
 
     Symbol:
         :code:`avg(K)`
@@ -24,25 +24,42 @@ of the gas and the average kinetic energy of gas particles.
     Latex:
         :math:`\langle K \rangle`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: number_density
 
-    Number density of the gas.
+    :attr:`~symplyphysics.symbols.basic.number_density` of the gas.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: pressure
 
-    Pressure inside the gas.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the gas.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: law
 
-    :code:`p = 2/3 * n * avg(K)`
+    :code:`p = 0.666666666666667 * n * avg(K)`
+
 
     Latex:
         .. math::
-            p = \frac{2}{3} n \langle K \rangle
+            p = 0.666666666666667 n \langle K \rangle
+
 

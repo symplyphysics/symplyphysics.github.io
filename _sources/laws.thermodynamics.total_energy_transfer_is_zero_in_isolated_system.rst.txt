@@ -10,21 +10,26 @@ This is a direct consequence of the first law of thermodynamics.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.total_energy_transfer_is_zero_in_isolated_system
 
-.. py:data:: amount_of_energy
+.. py:data:: energy
 
-    Amount of energy transferred between parts of the system.
+    Amount of :attr:`~symplyphysics.symbols.basic.energy` transferred between parts of the system.
 
     Symbol:
-        :code:`E_i`
+        :code:`E[i]`
 
     Latex:
-        :math:`E_i`
+        :math:`{E}_{i}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: law
 
-    :code:`Sum(E_i, i) = 0`
+    :code:`Sum(E[i], i) = 0`
+
 
     Latex:
         .. math::
-            \sum_i E_i = 0
+            \sum_i {E}_{i} = 0
+
 

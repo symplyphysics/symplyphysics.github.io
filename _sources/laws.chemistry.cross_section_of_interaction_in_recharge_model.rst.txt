@@ -8,7 +8,7 @@ target with target particles. The effective cross-section has the dimension of t
 
 **Notation:**
 
-#. :math:`a_0` (:code:`a0`) is :attr:`~symplyphysics.quantities.bohr_radius`.
+#. :math:`a_0` (:code:`a_0`) is :attr:`~symplyphysics.quantities.bohr_radius`.
 #. :math:`\mathrm{IE}_\text{H}` (:code:`IE_h`) is :attr:`~symplyphysics.quantities.hydrogen_ionization_energy`.
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 #. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
@@ -99,7 +99,7 @@ target with target particles. The effective cross-section has the dimension of t
 
 .. py:data:: law
 
-    :code:`sigma = pi * a0^2 * IE_h / E_i * log(sqrt(3 * k_B * T / m) * sqrt(E_i / IE_h) * sigma * p * m / (2 * k_B * T * e * E))^2`
+    :code:`sigma = pi * a_0^2 * IE_h / E_i * log(sqrt(3 * k_B * T / m) * sqrt(E_i / IE_h) * sigma * p * m / (2 * k_B * T * e * E))^2`
 
 
     Latex:

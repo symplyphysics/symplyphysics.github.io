@@ -22,31 +22,42 @@ found in a given single-particle microstate.
 
 .. py:data:: occupancy_of_state
 
-    Occupancy of, or expected number of particles in, the single-particle microstate
-    :math:`i`.
+    Occupancy of, or expected number of particles in, the single-particle microstate :math:`i`.
 
     Symbol:
         :code:`N_i`
 
     Latex:
-        :math:`N_i`
+        :math:`N_{i}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: particle_count
 
-    Total number of particles in the system.
+    Total :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
     Symbol:
         :code:`N`
 
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: energy_of_state
 
-    Energy of single-particle microstate :math:`i`.
+    :attr:`~symplyphysics.symbols.basic.energy` of single-particle microstate :math:`i`.
 
     Symbol:
         :code:`E_i`
 
     Latex:
-        :math:`E_i`
+        :math:`E_{i}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: equilibrium_temperature
 
@@ -63,16 +74,24 @@ found in a given single-particle microstate.
 
 .. py:data:: single_particle_partition_function
 
-    Single-particle partition function, which acts as a normalizing factor of the distribution.
+    Single-particle :attr:`~symplyphysics.symbols.thermodynamics.partition_function`, which acts as a normalizing factor of the distribution.
 
     Symbol:
         :code:`Z`
 
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: law
 
-    :code:`N_i = (N / Z) * exp(-1 * E_i / (k_B * T))`
+    :code:`N_i = N / Z * exp(-E_i / (k_B * T))`
+
 
     Latex:
         .. math::
-            N_i = \frac{N}{Z} \exp \left( - \frac{E_i}{k_\text{B} T} \right)
+            N_{i} = \frac{N}{Z} \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}
+
 

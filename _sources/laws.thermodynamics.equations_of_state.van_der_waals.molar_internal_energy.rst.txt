@@ -16,20 +16,16 @@ as a function of volume at constant temperature.
 
 .. py:data:: molar_internal_energy
 
-    Internal energy of the van der Waals fluid per unit amount of substance.
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the van der Waals fluid per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
     Symbol:
-        :code:`u`
-
-.. py:data:: isochoric_molar_heat_capacity
-
-    Heat capacity at constant volume per unit amount of substance.
-
-    Symbol:
-        :code:`c_V(T)`
+        :code:`u_m`
 
     Latex:
-        :math:`c_V(T)`
+        :math:`u_\text{m}`
+
+    Dimension:
+        :code:`energy/amount_of_substance`
 
 .. py:data:: temperature
 
@@ -44,29 +40,52 @@ as a function of volume at constant temperature.
     Dimension:
         :code:`temperature`
 
+.. py:data:: isochoric_molar_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume` as a function of :attr:`~temperature`.
+
+    Symbol:
+        :code:`c_Vm(T)`
+
+    Latex:
+        :math:`c_{V, \text{m}}{\left(T \right)}`
+
+    Dimension:
+        :code:`energy/(amount_of_substance*temperature)`
+
 .. py:data:: attractive_forces_parameter
 
-    Parameter of the van der Waals equation denoting the magnitude of attractive
-    forces between gas molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
     Symbol:
         :code:`a`
 
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`pressure*volume**2/amount_of_substance**2`
+
 .. py:data:: molar_volume
 
-    Volume of the van der Waals fluid per unit amount of substance.
+    :attr:`~symplyphysics.symbols.basic.molar_volume`.
 
     Symbol:
-        :code:`V_m`
+        :code:`v_m`
 
     Latex:
-        :math:`V_m`
+        :math:`v_\text{m}`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: law
 
-    :code:`u = Integral(c_V(T), T) - a / V_m`
+    :code:`u_m = Integral(c_Vm(T), T) - a / v_m`
+
 
     Latex:
         .. math::
-            u = \int c_V(T) \, dT - \frac{a}{V_m}
+            u_\text{m} = \int c_{V, \text{m}}{\left(T \right)}\, dT - \frac{a}{v_\text{m}}
+
 

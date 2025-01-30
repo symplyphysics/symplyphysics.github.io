@@ -11,10 +11,16 @@ Heat of combustion via mass
 
 .. py:data:: heat
 
-    Heat released during combustion.
+    :attr:`~symplyphysics.symbols.thermodynamics.heat` released during combustion.
 
     Symbol:
         :code:`Q`
+
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: mass
 
@@ -31,16 +37,24 @@ Heat of combustion via mass
 
 .. py:data:: specific_heat_of_combustion
 
-    Heat of combustion per unit mass of the body.
+    Heat of combustion per unit mass of the body. See :attr:`~symplyphysics.symbols.basic.specific_energy`.
 
     Symbol:
-        :code:`q`
+        :code:`epsilon_q`
+
+    Latex:
+        :math:`\varepsilon_{q}`
+
+    Dimension:
+        :code:`energy/mass`
 
 .. py:data:: law
 
-    :code:`Q = q * m`
+    :code:`Q = epsilon_q * m`
+
 
     Latex:
         .. math::
-            Q = q m
+            Q = \varepsilon_{q} m
+
 

@@ -5,6 +5,10 @@ Occupancy of a single-particle state of bosons is the probability of a single bo
 to occupy a state with a certain amount of energy. The occupancy depends on the energy
 of the state and the temperature and the chemical potential of the system.
 
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
 **Conditions:**
 
 #. :math:`E_i > \mu`.
@@ -23,27 +27,36 @@ of the state and the temperature and the chemical potential of the system.
         :code:`n_i`
 
     Latex:
-        :math:`n_i`
+        :math:`n_{i}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: energy_of_state
 
-    Energy of single-particle state :math:`i`.
+    :attr:`~symplyphysics.symbols.basic.energy` of single-particle state :math:`i`.
 
     Symbol:
         :code:`E_i`
 
     Latex:
-        :math:`E_i`
+        :math:`E_{i}`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: total_chemical_potential
 
-    Total chemical potential of the system.
+    Total :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
     Symbol:
         :code:`mu`
 
     Latex:
         :math:`\mu`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -62,7 +75,9 @@ of the state and the temperature and the chemical potential of the system.
 
     :code:`n_i = 1 / (exp((E_i - mu) / (k_B * T)) - 1)`
 
+
     Latex:
         .. math::
-            n_i = \frac{1}{\exp{\frac{E_i - \mu}{k_\text{B} T}} - 1}
+            n_{i} = \frac{1}{\exp{\left(\frac{E_{i} - \mu}{k_\text{B} T} \right)} - 1}
+
 

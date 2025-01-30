@@ -65,6 +65,8 @@ Contents:
   laws.thermodynamics.internal_energy_via_helmholtz_free_energy
   laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative
   laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
+  laws.thermodynamics.isobaric_potential_from_heat_capacity
+  laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity
   laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance
   laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas
   laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
@@ -72,6 +74,7 @@ Contents:
   laws.thermodynamics.laplace_pressure_of_spherical_shapes
   laws.thermodynamics.latent_heat_of_fusion_via_mass
   laws.thermodynamics.mean_free_path_of_random_motion
+  laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity
   laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity
   laws.thermodynamics.pressure_and_temperature_in_isochoric_process
   laws.thermodynamics.pressure_and_volume_in_adiabatic_process
@@ -81,6 +84,7 @@ Contents:
   laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume
   laws.thermodynamics.probability_of_ideal_gas_macrostate
   laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids
+  laws.thermodynamics.radiance_of_black_body_from_temperature
   laws.thermodynamics.radiation_power_via_temperature
   laws.thermodynamics.rate_of_energy_conduction_through_slab
   laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure

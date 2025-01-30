@@ -15,24 +15,34 @@ See :ref:`vdw_reduced_units_def`.
 
 .. py:data:: reduced_volume
 
-    Reduced volume of the van der Waals fluid.
+    Reduced :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the van der Waals fluid.
 
     Symbol:
-        :code:`V*`
+        :code:`V_r`
 
     Latex:
-        :math:`V^*`
+        :math:`V_{r}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: volume
 
-    Volume of the van der Waals fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the van der Waals fluid.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: critical_volume
 
-    See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume`.
+    See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume`
+    and :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
     Symbol:
         :code:`V_c`
@@ -40,11 +50,16 @@ See :ref:`vdw_reduced_units_def`.
     Latex:
         :math:`V_\text{c}`
 
+    Dimension:
+        :code:`volume`
+
 .. py:data:: law
 
-    :code:`V* = V / V_c`
+    :code:`V_r = V / V_c`
+
 
     Latex:
         .. math::
-            V^* = \frac{V}{V_\text{c}}
+            V_{r} = \frac{V}{V_\text{c}}
+
 

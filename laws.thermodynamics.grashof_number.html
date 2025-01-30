@@ -51,11 +51,13 @@ and is analogous to the Reynolds number.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.grashof_number.grashof_number">
 <span class="sig-name descname"><span class="pre">grashof_number</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.grashof_number.grashof_number" title="Link to this definition">¶</a></dt>
-<dd><p>Grashof number of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.grashof_number" title="symplyphysics.symbols.thermodynamics.grashof_number"><code class="xref py py-attr docutils literal notranslate"><span class="pre">grashof_number</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Gr</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\text{Gr}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -63,11 +65,13 @@ and is analogous to the Reynolds number.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.grashof_number.volumetric_expansion_coefficient">
 <span class="sig-name descname"><span class="pre">volumetric_expansion_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.grashof_number.volumetric_expansion_coefficient" title="Link to this definition">¶</a></dt>
-<dd><p>Volumetric coefficient of thermal expansion of the body.</p>
+<dd><p>Volumetric (see <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.volume" title="symplyphysics.symbols.classical_mechanics.volume"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volume</span></code></a>) <a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient" title="symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thermal_expansion_coefficient</span></code></a> of the body.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha_V</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\beta\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha_{V}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/temperature</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -103,10 +107,13 @@ and is analogous to the Reynolds number.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.grashof_number.characteristic_length">
 <span class="sig-name descname"><span class="pre">characteristic_length</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.grashof_number.characteristic_length" title="Link to this definition">¶</a></dt>
-<dd><p>An important dimension of the given fluid, usually defined as the volume of the body
-divided by its area.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.characteristic_length" title="symplyphysics.symbols.basic.characteristic_length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">characteristic_length</span></code></a> of the fluid body.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">l_c</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(l_\text{c}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -114,11 +121,13 @@ divided by its area.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.grashof_number.kinematic_viscosity">
 <span class="sig-name descname"><span class="pre">kinematic_viscosity</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.grashof_number.kinematic_viscosity" title="Link to this definition">¶</a></dt>
-<dd><p>Kinematic viscosity of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.kinematic_viscosity" title="symplyphysics.symbols.thermodynamics.kinematic_viscosity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">kinematic_viscosity</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">nu</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\nu\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area/time</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -126,10 +135,10 @@ divided by its area.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.grashof_number.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.grashof_number.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Gr</span> <span class="pre">=</span> <span class="pre">g</span> <span class="pre">*</span> <span class="pre">beta</span> <span class="pre">*</span> <span class="pre">(T_s</span> <span class="pre">-</span> <span class="pre">T_b)</span> <span class="pre">*</span> <span class="pre">L^3</span> <span class="pre">/</span> <span class="pre">nu^2</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Gr</span> <span class="pre">=</span> <span class="pre">g</span> <span class="pre">*</span> <span class="pre">alpha_V</span> <span class="pre">*</span> <span class="pre">(T_s</span> <span class="pre">-</span> <span class="pre">T_b)</span> <span class="pre">*</span> <span class="pre">l_c^3</span> <span class="pre">/</span> <span class="pre">nu^2</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\text{Gr} = g \beta (T_\text{s} - T_\text{b}) \frac{L^3}{\nu^2}\]</div>
+\[\text{Gr} = \frac{g \alpha_{V} \left(T_\text{s} - T_\text{b}\right) l_\text{c}^{3}}{\nu^{2}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -245,6 +254,8 @@ divided by its area.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative.html">Isentropic speed of sound</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isobaric molar heat capacity of ideal gas via adiabatic index</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_from_heat_capacity.html">Isobaric potential from heat capacity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity.html">Isobaric potential of temperature dependent heat capacity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance.html">Isochoric and isobaric heat capacities of homogeneous substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas.html">Isochoric and isobaric heat capacities of ideal gas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index.html">Isochoric molar heat capacity of ideal gas via adiabatic index</a></li>
@@ -252,6 +263,7 @@ divided by its area.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.laplace_pressure_of_spherical_shapes.html">Laplace pressure of spherical shapes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.latent_heat_of_fusion_via_mass.html">Latent heat of fusion via mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.mean_free_path_of_random_motion.html">Mean free path of random motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity.html">Number of impacts on the wall from area and speed</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity.html">Prandtl number via dynamic viscosity and thermal conductivity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_temperature_in_isochoric_process.html">Pressure and temperature in isochoric process</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.pressure_and_volume_in_adiabatic_process.html">Adiabatic process equation via pressure and volume</a></li>
@@ -261,6 +273,7 @@ divided by its area.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume.html">Probability of finding ideal gas molecules in volume</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.probability_of_ideal_gas_macrostate.html">Probability of ideal gas macrostate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids.html">Quantum isochoric molar heat capacity of solids</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiance_of_black_body_from_temperature.html">Radiance of black body from temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.radiation_power_via_temperature.html">Radiation power via temperature</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.rate_of_energy_conduction_through_slab.html">Rate of energy conduction through slab</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure.html">Relative humidity is ratio of vapor pressure</a></li>

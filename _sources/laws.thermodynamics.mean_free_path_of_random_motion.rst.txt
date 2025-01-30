@@ -11,11 +11,14 @@ The mean free path of a molecule in random motion is its average path length bet
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Mean_free_path#Kinetic_theory_of_gases>`__.
 
+..
+    NOTE: replace `pi * d^2` with cross-section?
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.mean_free_path_of_random_motion
 
 .. py:data:: mean_free_path
 
-    Mean free path estimate of molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.mean_free_path` estimate of molecules.
 
     Symbol:
         :code:`lambda`
@@ -23,25 +26,42 @@ The mean free path of a molecule in random motion is its average path length bet
     Latex:
         :math:`\lambda`
 
+    Dimension:
+        :code:`length`
+
 .. py:data:: molecular_diameter
 
-    Diameter of molecules.
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of molecules.
 
     Symbol:
-        :code:`d`
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: number_density
 
-    :doc:`Number density <definitions.number_density_is_number_of_objects_per_unit_volume>` of the system.
+    :attr:`~symplyphysics.symbols.basic.number_density` of the system.
 
     Symbol:
         :code:`n`
 
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
 .. py:data:: law
 
-    :code:`lambda = 1 / (sqrt(2) * pi * d^2 * n)`
+    :code:`lambda = 1 / (sqrt(2) * pi * D^2 * n)`
+
 
     Latex:
         .. math::
-            \lambda = \frac{1}{\sqrt{2} \pi d^2 n}
+            \lambda = \frac{1}{\sqrt{2} \pi D^{2} n}
+
 

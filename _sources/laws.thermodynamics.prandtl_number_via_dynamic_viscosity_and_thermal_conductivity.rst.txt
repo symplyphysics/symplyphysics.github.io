@@ -11,36 +11,9 @@ and thermal conductivity.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity
 
-.. py:data:: isobaric_specific_heat_capacity
-
-    Heat capacity at constant pressure per unit mass.
-
-    Symbol:
-        :code:`c_p`
-
-    Latex:
-        :math:`c_p`
-
-.. py:data:: dynamic_viscosity
-
-    Dynamic viscosity of the fluid.
-
-    Symbol:
-        :code:`mu`
-
-    Latex:
-        :math:`\mu`
-
-.. py:data:: thermal_conductivity
-
-    Thermal conductivity of the fluid.
-
-    Symbol:
-        :code:`k`
-
 .. py:data:: prandtl_number
 
-    Prandtl number of the fluid.
+    :attr:`~symplyphysics.symbols.thermodynamics.prandtl_number` of the fluid.
 
     Symbol:
         :code:`Pr`
@@ -48,11 +21,55 @@ and thermal conductivity.
     Latex:
         :math:`\text{Pr}`
 
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: isobaric_specific_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.pressure` per unit :attr:`~symplyphysics.symbols.basic.mass`.
+
+    Symbol:
+        :code:`c_p`
+
+    Latex:
+        :math:`c_{p}`
+
+    Dimension:
+        :code:`energy/(mass*temperature)`
+
+.. py:data:: dynamic_viscosity
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the fluid.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`pressure*time`
+
+.. py:data:: thermal_conductivity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the fluid.
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`power/(length*temperature)`
+
 .. py:data:: law
 
     :code:`Pr = c_p * mu / k`
 
+
     Latex:
         .. math::
-            \text{Pr} = \frac{c_p \mu}{k}
+            \text{Pr} = \frac{c_{p} \mu}{k}
+
 

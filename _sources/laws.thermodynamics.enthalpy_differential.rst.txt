@@ -28,10 +28,16 @@ thermodynamic quantities depend on variables that are measurable experimentally.
 
 .. py:data:: enthalpy_change
 
-    Infinitesimal change in enthalpy of the system.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
 
     Symbol:
         :code:`dH`
+
+    Latex:
+        :math:`dH`
+
+    Dimension:
+        :code:`energy`
 
 .. py:data:: temperature
 
@@ -48,28 +54,46 @@ thermodynamic quantities depend on variables that are measurable experimentally.
 
 .. py:data:: entropy_change
 
-    Infinitesimal change in entropy of the system.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
     Symbol:
         :code:`dS`
 
+    Latex:
+        :math:`dS`
+
+    Dimension:
+        :code:`energy/temperature`
+
 .. py:data:: volume
 
-    Volume of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: pressure_change
 
-    Infinitesimal change in pressure inside the system.
+    Infinitesimal change in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
     Symbol:
         :code:`dp`
 
+    Latex:
+        :math:`dp`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: chemical_potential
 
-    Chemical potential of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
     Symbol:
         :code:`mu`
@@ -77,18 +101,29 @@ thermodynamic quantities depend on variables that are measurable experimentally.
     Latex:
         :math:`\mu`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: particle_count_change
 
-    Infinitesimal change in the number of particles in the system.
+    Infinitesimal change in the :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
     Symbol:
         :code:`dN`
+
+    Latex:
+        :math:`dN`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: law
 
     :code:`dH = T * dS + V * dp + mu * dN`
 
+
     Latex:
         .. math::
-            dH = T \, dS + V \, dp + \mu \, dN
+            dH = T dS + V dp + \mu dN
+
 

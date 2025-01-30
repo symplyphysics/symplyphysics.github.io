@@ -11,13 +11,16 @@ See :ref:`vdw_reduced_units_def`.
 
 .. py:data:: reduced_temperature
 
-    Reduced temperature of the van der Waals fluid.
+    Reduced :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
 
     Symbol:
-        :code:`T*`
+        :code:`T_r`
 
     Latex:
-        :math:`T^*`
+        :math:`T_{r}`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: temperature
 
@@ -48,9 +51,11 @@ See :ref:`vdw_reduced_units_def`.
 
 .. py:data:: law
 
-    :code:`T* = T / T_c`
+    :code:`T_r = T / T_c`
+
 
     Latex:
         .. math::
-            T^* = \frac{T}{T_\text{c}}
+            T_{r} = \frac{T}{T_\text{c}}
+
 

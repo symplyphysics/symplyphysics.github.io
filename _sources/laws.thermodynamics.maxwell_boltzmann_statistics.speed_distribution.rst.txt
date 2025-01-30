@@ -24,17 +24,29 @@ particles in thermodynamic equilibrium, the speed distribution function is a fun
 
 .. py:data:: speed_distribution_function
 
-    Speed distribution function.
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` distribution function.
 
     Symbol:
         :code:`f(v)`
 
+    Latex:
+        :math:`f(v)`
+
+    Dimension:
+        :code:`1/velocity`
+
 .. py:data:: particle_speed
 
-    Particle speed.
+    Particle :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
     Symbol:
         :code:`v`
+
+    Latex:
+        :math:`v`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: particle_mass
 
@@ -64,9 +76,11 @@ particles in thermodynamic equilibrium, the speed distribution function is a fun
 
 .. py:data:: law
 
-    :code:`f(v) = sqrt(2 / pi) * (m / (k_B * T))^(3/2) * v^2 * exp(-1 * m * v^2 / (2 * k_B * T))`
+    :code:`f(v) = sqrt(2 / pi) * (m / (k_B * T))^(3/2) * v^2 * exp(-m * v^2 / (2 * k_B * T))`
+
 
     Latex:
         .. math::
-            f(v) = \sqrt{\frac{2}{\pi}} \left( \frac{m}{k_\text{B} T} \right)^{3/2} v^2 \exp \left( - \frac{m v^2}{2 k_\text{B} T} \right)
+            f(v) = \sqrt{\frac{2}{\pi}} \left(\frac{m}{k_\text{B} T}\right)^{\frac{3}{2}} v^{2} \exp{\left(- \frac{m v^{2}}{2 k_\text{B} T} \right)}
+
 

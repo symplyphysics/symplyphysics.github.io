@@ -6,7 +6,7 @@ Also called the *virial expansion*, the *virial equation of state* expresses the
 
 **Notes:**
 
-#. The first virial coefficient :math:`A` is defined to be 1 in order to enforce that the equation
+#. The first virial coefficient :math:`C_1` is defined to be 1 in order to enforce that the equation
    reduces to the ideal gas equation as gas density approaches zero.
 #. The :math:`n`-th virial coefficient represents non-additive :math:`n`-body interactions of
    particles and all mutual interactions of :math:`2` up to :math:`(n - 1)` particles.
@@ -28,41 +28,70 @@ Also called the *virial expansion*, the *virial equation of state* expresses the
 
 .. py:data:: compressibility_factor
 
-    See :doc:`definitions.compressibility_factor_is_deviation_from_ideal_gas`.
+    :attr:`~symplyphysics.symbols.thermodynamics.compressibility_factor`. Also see :doc:`definitions.compressibility_factor_is_deviation_from_ideal_gas`.
 
     Symbol:
         :code:`Z`
+
+    Latex:
+        :math:`Z`
+
+    Dimension:
+        :code:`dimensionless`
 
 .. py:data:: second_virial_coefficient
 
     Second virial coefficient correponding to pair interactions between particles.
 
     Symbol:
-        :code:`B`
+        :code:`C_2`
+
+    Latex:
+        :math:`C_{2}`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: third_virial_coefficient
 
     Third virial coefficient corresponding to 3-body interaction between particles.
 
     Symbol:
-        :code:`C`
+        :code:`C_3`
+
+    Latex:
+        :math:`C_{3}`
+
+    Dimension:
+        :code:`volume**2/amount_of_substance**2`
 
 .. py:data:: molar_density
 
-    Molar density of the system, or as amount of substance per unit volume.
+    Molar density of the system, or :attr:`~symplyphysics.symbols.chemistry.amount_of_substance` per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
     See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`.
 
     Symbol:
-        :code:`rho`
+        :code:`rho_m`
 
     Latex:
-        :math:`\rho`
+        :math:`\rho_\text{m}`
+
+    Dimension:
+        :code:`amount_of_substance/volume`
 
 .. py:data:: law
 
-    :code:`Z = 1 + B * rho + C * rho^2 + O(rho^3)`
+    .. only:: comment
+
+        Big O should be evaluated by SymPy
+
+    :code:`Z = 1 + rho_m^2 * C_3 + C_2 * rho_m + O(rho_m^3)`
+
 
     Latex:
         .. math::
-            Z = 1 + B \rho + C \rho^2 + O \! \left( \rho^3 \right)
+            Z = 1 + \rho_\text{m}^{2} C_{3} + C_{2} \rho_\text{m} + O\left(\rho_\text{m}^{3}\right)
+
+
+
 

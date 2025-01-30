@@ -17,7 +17,7 @@ and is analogous to the Reynolds number.
 
 .. py:data:: grashof_number
 
-    Grashof number of the fluid.
+    :attr:`~symplyphysics.symbols.thermodynamics.grashof_number` of the fluid.
 
     Symbol:
         :code:`Gr`
@@ -25,15 +25,21 @@ and is analogous to the Reynolds number.
     Latex:
         :math:`\text{Gr}`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: volumetric_expansion_coefficient
 
-    Volumetric coefficient of thermal expansion of the body.
+    Volumetric (see :attr:`~symplyphysics.symbols.classical_mechanics.volume`) :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the body.
 
     Symbol:
-        :code:`beta`
+        :code:`alpha_V`
 
     Latex:
-        :math:`\beta`
+        :math:`\alpha_{V}`
+
+    Dimension:
+        :code:`1/temperature`
 
 .. py:data:: surface_temperature
 
@@ -63,15 +69,20 @@ and is analogous to the Reynolds number.
 
 .. py:data:: characteristic_length
 
-    An important dimension of the given fluid, usually defined as the volume of the body
-    divided by its area.
+    :attr:`~symplyphysics.symbols.basic.characteristic_length` of the fluid body.
 
     Symbol:
-        :code:`L`
+        :code:`l_c`
+
+    Latex:
+        :math:`l_\text{c}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: kinematic_viscosity
 
-    Kinematic viscosity of the fluid.
+    :attr:`~symplyphysics.symbols.thermodynamics.kinematic_viscosity` of the fluid.
 
     Symbol:
         :code:`nu`
@@ -79,11 +90,16 @@ and is analogous to the Reynolds number.
     Latex:
         :math:`\nu`
 
+    Dimension:
+        :code:`area/time`
+
 .. py:data:: law
 
-    :code:`Gr = g * beta * (T_s - T_b) * L^3 / nu^2`
+    :code:`Gr = g * alpha_V * (T_s - T_b) * l_c^3 / nu^2`
+
 
     Latex:
         .. math::
-            \text{Gr} = g \beta (T_\text{s} - T_\text{b}) \frac{L^3}{\nu^2}
+            \text{Gr} = \frac{g \alpha_{V} \left(T_\text{s} - T_\text{b}\right) l_\text{c}^{3}}{\nu^{2}}
+
 

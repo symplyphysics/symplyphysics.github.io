@@ -21,13 +21,16 @@ and inversely proportional to the mass of the gas.
 
 .. py:data:: average_square_speed
 
-    Average square of the speed of gas molecules.
+    Average square of the :attr:`~symplyphysics.symbols.classical_mechanics.speed` of gas molecules.
 
     Symbol:
         :code:`avg(v^2)`
 
     Latex:
-        :math:`\langle v^2 \rangle`
+        :math:`\langle v^{2 \rangle}`
+
+    Dimension:
+        :code:`velocity**2`
 
 .. py:data:: equilibrium_temperature
 
@@ -59,7 +62,9 @@ and inversely proportional to the mass of the gas.
 
     :code:`avg(v^2) = 3 * k_B * T / m`
 
+
     Latex:
         .. math::
-            \langle v^2 \rangle = \frac{3 k_\text{B} T}{m}
+            \langle v^{2 \rangle} = \frac{3 k_\text{B} T}{m}
+
 

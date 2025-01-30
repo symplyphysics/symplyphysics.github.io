@@ -11,6 +11,10 @@ to inverse molar volume or equivalently, to molar density.
 
 #. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
 
+**Notes:**
+
+#. Also see :ref:`Virial equation`.
+
 **Conditions:**
 
 #. The gas density is small enough within the context of perturbation theory.
@@ -26,23 +30,39 @@ to inverse molar volume or equivalently, to molar density.
     Second virial coefficient of the virial expansion.
 
     Symbol:
-        :code:`B`
+        :code:`C_2`
+
+    Latex:
+        :math:`C_{2}`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: attractive_forces_parameter
 
-    Parameter of the van der Waals equation denoting the magnitude of attractive
-    forces between gas molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
     Symbol:
         :code:`a`
 
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`pressure*volume**2/amount_of_substance**2`
+
 .. py:data:: excluded_volume_parameter
 
-    Parameter of the van der Waals equation denoting an excluded molar molar_volume
-    due to a finite size of molecules.
+    :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
     Symbol:
         :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: temperature
 
@@ -59,9 +79,11 @@ to inverse molar volume or equivalently, to molar density.
 
 .. py:data:: law
 
-    :code:`B = b - a / (R * T)`
+    :code:`C_2 = b - a / (R * T)`
+
 
     Latex:
         .. math::
-            B = b - \frac{a}{R T}
+            C_{2} = b - \frac{a}{R T}
+
 

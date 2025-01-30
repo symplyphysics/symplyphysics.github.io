@@ -13,11 +13,11 @@ along with the more well-known van der Waals equation of state.
 #. Like the van der Waals equation of state, the Dieterici equation is semi-empirical.
 #. It approximates moderate pressures of real gases much better than the van der Waals equation
    within the conditions stated below.
-#. Can be converted to the van der Waals equation under an additional limit :math:`a \ll R T V_m`
+#. Can be converted to the van der Waals equation under an additional limit :math:`a \ll R T V_m`.
 
 **Conditions:**
 
-#. Only applicable in the limits :math:`b \ll V_m` and :math:`a \ll p V_m^2`.
+#. Only applicable in the limits :math:`b \ll V_m` and :math:`a \ll p V_m^2`. Refer to symbols below.
 #. Inapplicable for high pressures.
 
 **Links:**
@@ -28,20 +28,29 @@ along with the more well-known van der Waals equation of state.
 
 .. py:data:: pressure
 
-    Pressure inside the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: molar_volume
 
-    Volume of the system per amount of substance.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system per :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
     Symbol:
         :code:`V_m`
 
     Latex:
-        :math:`V_m`
+        :math:`V_{m}`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
 
 .. py:data:: temperature
 
@@ -58,25 +67,37 @@ along with the more well-known van der Waals equation of state.
 
 .. py:data:: attractive_forces_parameter
 
-    Parameter specific to each individual substance, usually attributed to the magnitude of
-    attractive forces between particles of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
     Symbol:
         :code:`a`
 
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`pressure*volume**2/amount_of_substance**2`
+
 .. py:data:: excluded_volume_parameter
 
-    Parameter specific to each individual substance, usually attributed to the amount of
-    excluded molar volume due to a finite size of particles.
+    :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
     Symbol:
         :code:`b`
 
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`volume/amount_of_substance`
+
 .. py:data:: law
 
-    :code:`p * (V_m - b) = R * T * exp(-1 * a / (R * T * V_m))`
+    :code:`p * (V_m - b) = R * T * exp(-a / (R * T * V_m))`
+
 
     Latex:
         .. math::
-            p \left( V_m - b \right) = R T \exp \left( - \frac{a}{R T V_m} \right)
+            p \left(V_{m} - b\right) = R T \exp{\left(- \frac{a}{R T V_{m}} \right)}
+
 

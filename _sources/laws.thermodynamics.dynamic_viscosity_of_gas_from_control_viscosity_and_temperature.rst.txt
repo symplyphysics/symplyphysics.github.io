@@ -73,27 +73,24 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
 .. py:data:: sutherland_constant
 
-    Sutherland constant of the gas.
-
-    ..
-        NOTE probably add this to `symbols`? this constant is specific to the Sutherland model
+    :attr:`~symplyphysics.symbols.thermodynamics.sutherland_constant` of the gas.
 
     Symbol:
-        :code:`C`
+        :code:`S`
 
     Latex:
-        :math:`C`
+        :math:`S`
 
     Dimension:
         :code:`temperature`
 
 .. py:data:: law
 
-    :code:`mu = mu_0 * (T_0 + C) / (T + C) * (T / T_0)^(3/2)`
+    :code:`mu = mu_0 * (T_0 + S) / (T + S) * (T / T_0)^(3/2)`
 
 
     Latex:
         .. math::
-            \mu = mu_{0} \frac{T_{0} + C}{T + C} \left(\frac{T}{T_{0}}\right)^{\frac{3}{2}}
+            \mu = mu_{0} \frac{T_{0} + S}{T + S} \left(\frac{T}{T_{0}}\right)^{\frac{3}{2}}
 
 

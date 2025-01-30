@@ -17,9 +17,9 @@ increment of volume of the system.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.infinitesimal_work_in_quasistatic_process
 
-.. py:data:: infinitesimal_work_done
+.. py:data:: work_done_by_system
 
-    Infinitesimal increment of work done *by* the system.
+    Infinitesimal increment of :attr:`~symplyphysics.symbols.basic.work` done *by* the system.
 
     Symbol:
         :code:`delta(W)`
@@ -27,16 +27,25 @@ increment of volume of the system.
     Latex:
         :math:`\delta W`
 
+    Dimension:
+        :code:`energy`
+
 .. py:data:: pressure
 
-    Pressure inside the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
     Symbol:
         :code:`p`
 
-.. py:data:: infinitesimal_volume_change
+    Latex:
+        :math:`p`
 
-    Infinitesimal increment of volume of the system.
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: volume_change
+
+    Infinitesimal increment of :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
     Symbol:
         :code:`dV`
@@ -44,11 +53,16 @@ increment of volume of the system.
     Latex:
         :math:`dV`
 
+    Dimension:
+        :code:`volume`
+
 .. py:data:: law
 
     :code:`delta(W) = p * dV`
 
+
     Latex:
         .. math::
-            \delta W = p \, dV
+            \delta W = p dV
+
 
