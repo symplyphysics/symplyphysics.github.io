@@ -1,0 +1,52 @@
+Geometric buckling for uniform slab
+-----------------------------------
+
+Geometric buckling for the reactor in the shape of an infinite uniform slab of finite
+thickness is a function of its thickness.
+
+**Notes:**
+
+#. Also see :ref:`Geometric buckling from neutron flux`.
+
+**Links:**
+
+#. `Wikipedia, derivable from third row of first table <https://en.wikipedia.org/wiki/Geometric_and_material_buckling#Geometric_Buckling>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_slab
+
+.. py:data:: thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the slab.
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: geometric_buckling
+
+    :attr:`~symplyphysics.symbols.nuclear.geometric_buckling`.
+
+    Symbol:
+        :code:`B_g^2`
+
+    Latex:
+        :math:`B_\text{g}^2`
+
+    Dimension:
+        :code:`1/area`
+
+.. py:data:: law
+
+    :code:`B_g^2 = (pi / h)^2`
+
+
+    Latex:
+        .. math::
+            B_\text{g}^2 = \left(\frac{\pi}{h}\right)^{2}
+
+

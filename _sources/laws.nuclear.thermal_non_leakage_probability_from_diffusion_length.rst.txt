@@ -1,0 +1,62 @@
+Thermal non-leakage probability from diffusion area and geometric buckling
+--------------------------------------------------------------------------
+
+Thermal non-leakage probability can be found from the diffusion area of thermal neutrons
+and geometric buckling.
+
+**Links:**
+
+#. `NuclearPower <https://www.nuclear-power.com/nuclear-power/reactor-physics/nuclear-fission-chain-reaction/thermal-non-leakage-probability/>`__.
+#. `Wikipedia, last row in table <https://en.wikipedia.org/wiki/Six_factor_formula>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.thermal_non_leakage_probability_from_diffusion_length
+
+.. py:data:: thermal_diffusion_area
+
+    Thermal :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_area`.
+
+    Symbol:
+        :code:`L_th^2`
+
+    Latex:
+        :math:`L_\text{th}^2`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: geometric_buckling
+
+    :attr:`~symplyphysics.symbols.nuclear.geometric_buckling`.
+
+    Symbol:
+        :code:`B_g^2`
+
+    Latex:
+        :math:`B_\text{g}^2`
+
+    Dimension:
+        :code:`1/area`
+
+.. py:data:: thermal_non_leakage_probability
+
+    :attr:`~symplyphysics.symbols.nuclear.thermal_non_leakage_probability`.
+
+    Symbol:
+        :code:`P_TNL`
+
+    Latex:
+        :math:`P_\text{TNL}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`P_TNL = 1 / (1 + L_th^2 * B_g^2)`
+
+
+    Latex:
+        .. math::
+            P_\text{TNL} = \frac{1}{1 + L_\text{th}^2 B_\text{g}^2}
+
+

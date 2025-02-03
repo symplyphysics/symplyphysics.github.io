@@ -15,6 +15,7 @@ Contents:
   symbols.chemistry
   symbols.classical_mechanics
   symbols.electrodynamics
+  symbols.nuclear
   symbols.optics
   symbols.quantum_mechanics
   symbols.relativistic_mechanics

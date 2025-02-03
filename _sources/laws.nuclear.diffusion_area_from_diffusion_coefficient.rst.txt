@@ -1,0 +1,61 @@
+Diffusion area from diffusion coefficient and absorption cross section
+----------------------------------------------------------------------
+
+Diffusion area of a nuclear reaction can be found as the ratio of he diffusion
+coefficient to the macroscopic absorption cross section of the reaction.
+
+**Links:**
+
+#. `NuclearPower <https://www.nuclear-power.com/nuclear-power/reactor-physics/neutron-diffusion-theory/diffusion-length/>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.diffusion_area_from_diffusion_coefficient
+
+.. py:data:: diffusion_coefficient
+
+    :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_coefficient`.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: macroscopic_absorption_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of absorption.
+
+    Symbol:
+        :code:`Sigma_a`
+
+    Latex:
+        :math:`\Sigma_\text{a}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: diffusion_area
+
+    :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_area`.
+
+    Symbol:
+        :code:`L^2`
+
+    Latex:
+        :math:`L^{2}`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: law
+
+    :code:`L^2 = D / Sigma_a`
+
+
+    Latex:
+        .. math::
+            L^{2} = \frac{D}{\Sigma_\text{a}}
+
+

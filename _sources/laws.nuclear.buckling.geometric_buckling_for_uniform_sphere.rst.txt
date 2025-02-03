@@ -1,0 +1,47 @@
+Geometric buckling for uniform sphere
+-------------------------------------
+
+Geometric buckling for a uniform spherical reactor is a function of its radius.
+
+**Links:**
+
+#. `Wikipedia, first row in first table <https://en.wikipedia.org/wiki/Geometric_and_material_buckling#Geometric_Buckling>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_sphere
+
+.. py:data:: radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the sphere.
+
+    Symbol:
+        :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: geometric_buckling
+
+    :attr:`~symplyphysics.symbols.nuclear.geometric_buckling`.
+
+    Symbol:
+        :code:`B_g^2`
+
+    Latex:
+        :math:`B_\text{g}^2`
+
+    Dimension:
+        :code:`1/area`
+
+.. py:data:: law
+
+    :code:`B_g^2 = (pi / r)^2`
+
+
+    Latex:
+        .. math::
+            B_\text{g}^2 = \left(\frac{\pi}{r}\right)^{2}
+
+

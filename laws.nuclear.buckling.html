@@ -12,10 +12,11 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.nuclear.buckling.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Optics" href="laws.optics.html" />
+    <link rel="next" title="Geometric buckling for uniform cylinder" href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html" />
     <link rel="prev" title="Nuclear physics" href="laws.nuclear.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -38,6 +39,111 @@
 <h1><strong>Buckling (Nuclear physics)</strong><a class="headerlink" href="#buckling-nuclear-physics" title="Link to this heading">¶</a></h1>
 <p><em>Geometric buckling</em> is a measure of neutron leakage and <em>material buckling</em> is a measure
 of the difference between neutron production and neutron absorption.</p>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html">Geometric buckling for uniform cylinder</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.geometric_buckling"><code class="docutils literal notranslate"><span class="pre">geometric_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.html">Geometric buckling for uniform parallelepiped</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.width"><code class="docutils literal notranslate"><span class="pre">width</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.geometric_buckling"><code class="docutils literal notranslate"><span class="pre">geometric_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_slab.html">Geometric buckling for uniform slab</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_slab.thickness"><code class="docutils literal notranslate"><span class="pre">thickness</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_slab.geometric_buckling"><code class="docutils literal notranslate"><span class="pre">geometric_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_slab.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.html">Geometric buckling for uniform sphere</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.geometric_buckling"><code class="docutils literal notranslate"><span class="pre">geometric_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html">Geometric buckling from multiplication factors and diffusion area</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.infinite_multiplication_factor"><code class="docutils literal notranslate"><span class="pre">infinite_multiplication_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.effective_multiplication_factor"><code class="docutils literal notranslate"><span class="pre">effective_multiplication_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.diffusion_area"><code class="docutils literal notranslate"><span class="pre">diffusion_area</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.geometric_buckling"><code class="docutils literal notranslate"><span class="pre">geometric_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html">Geometric buckling from macroscopic cross sections and diffusion coefficient</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.neutrons_per_fission"><code class="docutils literal notranslate"><span class="pre">neutrons_per_fission</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.effective_multiplication_factor"><code class="docutils literal notranslate"><span class="pre">effective_multiplication_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_fission_cross_section"><code class="docutils literal notranslate"><span class="pre">macroscopic_fission_cross_section</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_absorption_cross_section"><code class="docutils literal notranslate"><span class="pre">macroscopic_absorption_cross_section</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.diffusion_coefficient"><code class="docutils literal notranslate"><span class="pre">diffusion_coefficient</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.geometric_buckling"><code class="docutils literal notranslate"><span class="pre">geometric_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_neutron_flux.html">Geometric buckling from neutron flux</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_neutron_flux.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_neutron_flux.position"><code class="docutils literal notranslate"><span class="pre">position</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_neutron_flux.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_neutron_flux.neutron_flux"><code class="docutils literal notranslate"><span class="pre">neutron_flux</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_neutron_flux.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_neutron_flux.geometric_buckling"><code class="docutils literal notranslate"><span class="pre">geometric_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_neutron_flux.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_neutron_flux.neutron_flux_laplacian"><code class="docutils literal notranslate"><span class="pre">neutron_flux_laplacian</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_neutron_flux.html#symplyphysics.laws.nuclear.buckling.geometric_buckling_from_neutron_flux.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html">Material buckling from material cross sections and diffusion coefficient</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.neutrons_per_fission"><code class="docutils literal notranslate"><span class="pre">neutrons_per_fission</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_fission_cross_section"><code class="docutils literal notranslate"><span class="pre">macroscopic_fission_cross_section</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_absorption_cross_section"><code class="docutils literal notranslate"><span class="pre">macroscopic_absorption_cross_section</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.diffusion_coefficient"><code class="docutils literal notranslate"><span class="pre">diffusion_coefficient</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.material_buckling"><code class="docutils literal notranslate"><span class="pre">material_buckling</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html#symplyphysics.laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html">Neutron flux for uniform cylinder</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.dimension_factor"><code class="docutils literal notranslate"><span class="pre">dimension_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.radial_distance"><code class="docutils literal notranslate"><span class="pre">radial_distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.axial_coordinate"><code class="docutils literal notranslate"><span class="pre">axial_coordinate</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.neutron_flux"><code class="docutils literal notranslate"><span class="pre">neutron_flux</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html">Neutron flux for uniform parallelepiped</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.dimension_factor"><code class="docutils literal notranslate"><span class="pre">dimension_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.x"><code class="docutils literal notranslate"><span class="pre">x</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.y"><code class="docutils literal notranslate"><span class="pre">y</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.z"><code class="docutils literal notranslate"><span class="pre">z</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.width"><code class="docutils literal notranslate"><span class="pre">width</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.neutron_flux"><code class="docutils literal notranslate"><span class="pre">neutron_flux</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_slab.html">Neutron flux for uniform slab</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_slab.dimension_factor"><code class="docutils literal notranslate"><span class="pre">dimension_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_slab.distance"><code class="docutils literal notranslate"><span class="pre">distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_slab.thickness"><code class="docutils literal notranslate"><span class="pre">thickness</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_slab.neutron_flux"><code class="docutils literal notranslate"><span class="pre">neutron_flux</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_slab.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_slab.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_sphere.html">Neutron flux for uniform sphere</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_sphere.dimension_factor"><code class="docutils literal notranslate"><span class="pre">dimension_factor</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_sphere.radial_distance"><code class="docutils literal notranslate"><span class="pre">radial_distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_sphere.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_sphere.neutron_flux"><code class="docutils literal notranslate"><span class="pre">neutron_flux</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_sphere.html#symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_sphere.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
 </section>
 
 
@@ -80,7 +186,39 @@ of the difference between neutron production and neutron absorption.</p>
 <li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Buckling (Nuclear physics)</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Buckling (Nuclear physics)</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html">Geometric buckling for uniform cylinder</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped.html">Geometric buckling for uniform parallelepiped</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_slab.html">Geometric buckling for uniform slab</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_for_uniform_sphere.html">Geometric buckling for uniform sphere</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html">Geometric buckling from multiplication factors and diffusion area</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html">Geometric buckling from macroscopic cross sections and diffusion coefficient</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.geometric_buckling_from_neutron_flux.html">Geometric buckling from neutron flux</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html">Material buckling from material cross sections and diffusion coefficient</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_cylinder.html">Neutron flux for uniform cylinder</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped.html">Neutron flux for uniform parallelepiped</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_slab.html">Neutron flux for uniform slab</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.nuclear.buckling.neutron_flux_for_uniform_sphere.html">Neutron flux for uniform sphere</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.diffusion_area_from_diffusion_coefficient.html">Diffusion area from diffusion coefficient and absorption cross section</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.diffusion_equation_from_neutron_flux.html">Diffusion equation from neutron flux</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.effective_multiplication_factor.html">Effective multiplication factor from infinite multiplication factor and probabilities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.fast_fission_factor_from_resonance_escape_probability.html">Fast fission factor from resonance escape probability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.fast_non_leakage_probability_from_fermi_age.html">Fast non-leakage probability from Fermi age and geometric buckling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.infinite_multiplication_factor.html">Infinite multiplication factor formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.infinite_multiplication_factor_from_macroscopic_fission_cross_section.html">Infinite multiplication factor from macroscopic cross sections</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.law_of_half_life.html">Solution to the exponential decay equation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.macroscopic_cross_section_from_free_mean_path.html">Macroscopic cross section from mean free path</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.macroscopic_cross_section_from_microscopic_cross_section.html">Macroscopic cross section from microscopic cross section and number density</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.macroscopic_transport_cross_section.html">Macroscopic transport cross section from macroscopic scattering cross section</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.migration_area_from_diffusion_length.html">Migration area from diffusion length and Fermi age</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.most_neutron_energies_scattering_angle_average_cosine.html">Average cosine of scattering angle from mass number</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.neutron_diffusion_coefficient_from_scattering_cross_section.html">Diffusion coefficient from macroscopic scattering cross section</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.reproduction_factor_from_macroscopic_fission_cross_section.html">Reproduction factor from macroscopic cross sections in fuel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.resonance_escape_probability_from_resonance_absorption_integral.html">Resonance escape probability from resonance absorption integral</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.thermal_non_leakage_probability_from_diffusion_length.html">Thermal non-leakage probability from diffusion area and geometric buckling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.nuclear.thermal_utilisation_factor_from_macroscopic_absorption_cross_sections.html">Thermal utilization factor from macroscopic absorption cross sections</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
@@ -104,7 +242,7 @@ of the difference between neutron production and neutron absorption.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.nuclear.html">Nuclear physics</a><ul>
       <li>Previous: <a href="laws.nuclear.html" title="previous chapter">Nuclear physics</a></li>
-      <li>Next: <a href="laws.optics.html" title="next chapter">Optics</a></li>
+      <li>Next: <a href="laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder.html" title="next chapter">Geometric buckling for uniform cylinder</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

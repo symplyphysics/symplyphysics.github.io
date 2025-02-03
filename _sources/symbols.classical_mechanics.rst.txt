@@ -149,6 +149,20 @@ Symbols related to classical mechanics.
     Dimension:
         :code:`length`
 
+.. py:data:: orthogonal_distance
+
+    **Orthogonal distance** between two objects is the distance from one to the other,
+    measured along a line that is perpendicular to one or both.
+
+    Symbol:
+        :code:`z`
+
+    Latex:
+        :math:`z`
+
+    Dimension:
+        :code:`length`
+
 .. py:data:: length
 
     **Length** is a measure of a size of an object.

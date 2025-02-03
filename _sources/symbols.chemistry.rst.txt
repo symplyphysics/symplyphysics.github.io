@@ -247,3 +247,21 @@ Symbols of physical quantities related to chemistry.
     Dimension:
         :code:`area/time`
 
+.. py:data:: mass_number
+
+    **Mass number**, also called **atomic mass number** or **nucleon number**, is the total
+    number of protons and neutrons in an atomic nucleus.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Mass_number>`__.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`dimensionless`
+

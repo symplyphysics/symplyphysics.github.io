@@ -1,0 +1,78 @@
+Geometric buckling for uniform parallelepiped
+---------------------------------------------
+
+Geometric buckling of a uniform parallelepiped reactor is a function of its side lengths
+:math:`a, b, c`.
+
+**Notes:**
+
+#. Also see :ref:`Geometric buckling from neutron flux`.
+
+**Links:**
+
+#. `Wikipedia, third row in first table <https://en.wikipedia.org/wiki/Geometric_and_material_buckling#Geometric_Buckling>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the first side of the parallelepiped.
+
+    Symbol:
+        :code:`l_1`
+
+    Latex:
+        :math:`l_{1}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: width
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the second side of the parallelepiped.
+
+    Symbol:
+        :code:`l_2`
+
+    Latex:
+        :math:`l_{2}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: height
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the third side of the parallelepiped.
+
+    Symbol:
+        :code:`l_3`
+
+    Latex:
+        :math:`l_{3}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: geometric_buckling
+
+    :attr:`~symplyphysics.symbols.nuclear.geometric_buckling`.
+
+    Symbol:
+        :code:`B_g^2`
+
+    Latex:
+        :math:`B_\text{g}^2`
+
+    Dimension:
+        :code:`1/area`
+
+.. py:data:: law
+
+    :code:`B_g^2 = (pi / l_1)^2 + (pi / l_2)^2 + (pi / l_3)^2`
+
+
+    Latex:
+        .. math::
+            B_\text{g}^2 = \left(\frac{\pi}{l_{1}}\right)^{2} + \left(\frac{\pi}{l_{2}}\right)^{2} + \left(\frac{\pi}{l_{3}}\right)^{2}
+
+

@@ -1,0 +1,93 @@
+Resonance escape probability from resonance absorption integral
+---------------------------------------------------------------
+
+**Conditions:**
+
+#. The reactor is homogeneous.
+#. There are weak fast absorptions.
+#. The absorber is predominant.
+
+**Links:**
+
+#. `Wikipedia, article <https://en.wikipedia.org/wiki/Resonance_escape_probability#Effective_resonance_integral>`__.
+#. `Wikipedia, third row in table <https://en.wikipedia.org/wiki/Six_factor_formula>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.resonance_escape_probability_from_resonance_absorption_integral
+
+.. py:data:: absorber_number_density
+
+    :attr:`~symplyphysics.symbols.basic.number_density` of atoms in the absorber.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`1/volume`
+
+.. py:data:: effective_resonance_integral
+
+    Effective resonance integral characterizes the absorption of neutrons by a single
+    nucleus in the resonance region.
+
+    Symbol:
+        :code:`J_eff`
+
+    Latex:
+        :math:`J_\text{eff}`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: lethargy_gain_per_scattering
+
+    Average lethargy gain per scattering event. Lethargy is defined as decrease in neutron
+    energy.
+
+    Symbol:
+        :code:`xi`
+
+    Latex:
+        :math:`\xi`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: moderator_macroscopic_scattering_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of scattering in the moderator.
+
+    Symbol:
+        :code:`Sigma_s`
+
+    Latex:
+        :math:`\Sigma_\text{s}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: resonance_escape_probability
+
+    :attr:`~symplyphysics.symbols.nuclear.resonance_escape_probability`.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`p = exp(-n * J_eff / (xi * Sigma_s))`
+
+
+    Latex:
+        .. math::
+            p = \exp{\left(- \frac{n J_\text{eff}}{\xi \Sigma_\text{s}} \right)}
+
+

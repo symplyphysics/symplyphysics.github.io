@@ -1,0 +1,87 @@
+Material buckling from material cross sections and diffusion coefficient
+------------------------------------------------------------------------
+
+Material buckling can be calculated from material fission and absorption cross sections
+as well as diffusion coefficient and average number of neutrons produced per fission.
+
+**Links:**
+
+#. `Wikipedia, last formula in paragraph <https://en.wikipedia.org/wiki/Geometric_and_material_buckling#Material_Buckling>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient
+
+.. py:data:: neutrons_per_fission
+
+    The average number of neutrons produced per fission. See :attr:`~symplyphysics.symbols.basic.particle_count`.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: macroscopic_fission_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of fission.
+
+    Symbol:
+        :code:`Sigma_f`
+
+    Latex:
+        :math:`\Sigma_\text{f}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: macroscopic_absorption_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of absorption.
+
+    Symbol:
+        :code:`Sigma_a`
+
+    Latex:
+        :math:`\Sigma_\text{a}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: diffusion_coefficient
+
+    :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_coefficient`.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: material_buckling
+
+    :attr:`~symplyphysics.symbols.nuclear.material_buckling`.
+
+    Symbol:
+        :code:`B_m^2`
+
+    Latex:
+        :math:`B_\text{m}^2`
+
+    Dimension:
+        :code:`1/area`
+
+.. py:data:: law
+
+    :code:`B_m^2 = (nu * Sigma_f - Sigma_a) / D`
+
+
+    Latex:
+        .. math::
+            B_\text{m}^2 = \frac{\nu \Sigma_\text{f} - \Sigma_\text{a}}{D}
+
+

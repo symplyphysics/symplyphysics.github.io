@@ -1,0 +1,64 @@
+Macroscopic transport cross section from macroscopic scattering cross section
+-----------------------------------------------------------------------------
+
+Macroscopic transport cross section can be found using the macroscopic scattering cross
+section and the averaged cosine of the scattering angle.
+
+**Links:**
+
+#. `NuclearPower <https://www.nuclear-power.com/nuclear-power/reactor-physics/neutron-diffusion-theory/diffusion-coefficient/>`__.
+#. `ScienceDirect, neutron transport <https://www.sciencedirect.com/topics/engineering/neutron-transport>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.macroscopic_transport_cross_section
+
+.. py:data:: macroscopic_scattering_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of scattering.
+
+    Symbol:
+        :code:`Sigma_s`
+
+    Latex:
+        :math:`\sigma_\text{s}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: average_scattering_angle_cosine
+
+    Average of the cosine of the angle at which neutrons are scattered in the medium in the
+    lab system.
+
+    Symbol:
+        :code:`mu`
+
+    Latex:
+        :math:`\mu`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: macroscopic_transport_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of neutron transport (i.e. the movement of neutrons
+    through the material).
+
+    Symbol:
+        :code:`Sigma_tr`
+
+    Latex:
+        :math:`\Sigma_\text{tr}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: law
+
+    :code:`Sigma_tr = Sigma_s * (1 - mu)`
+
+
+    Latex:
+        .. math::
+            \Sigma_\text{tr} = \sigma_\text{s} \left(1 - \mu\right)
+
+

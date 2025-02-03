@@ -1,0 +1,102 @@
+Geometric buckling from macroscopic cross sections and diffusion coefficient
+----------------------------------------------------------------------------
+
+Geometrical buckling is a quantity describing the reactor which depends only on its
+geometry. It can also be calculated from the macroscopic cross sections and the
+diffusion coefficient as well as the effective multiplicative factor and the neutron
+production rate.
+
+**Links:**
+
+#. `Wikipedia, second part of second equation <https://en.wikipedia.org/wiki/Geometric_and_material_buckling#Material_Buckling>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient
+
+.. py:data:: neutrons_per_fission
+
+    The average number of neutrons produced per fission. See :attr:`~symplyphysics.symbols.basic.particle_count`.
+
+    Symbol:
+        :code:`nu`
+
+    Latex:
+        :math:`\nu`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: effective_multiplication_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.effective_multiplication_factor`.
+
+    Symbol:
+        :code:`k_eff`
+
+    Latex:
+        :math:`k_\text{eff}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: macroscopic_fission_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of fission.
+
+    Symbol:
+        :code:`Sigma_f`
+
+    Latex:
+        :math:`\Sigma_\text{f}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: macroscopic_absorption_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of absorption.
+
+    Symbol:
+        :code:`Sigma_a`
+
+    Latex:
+        :math:`\Sigma_\text{a}`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: diffusion_coefficient
+
+    :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_coefficient`.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: geometric_buckling
+
+    :attr:`~symplyphysics.symbols.nuclear.geometric_buckling`.
+
+    Symbol:
+        :code:`B_g^2`
+
+    Latex:
+        :math:`B_\text{g}^2`
+
+    Dimension:
+        :code:`1/area`
+
+.. py:data:: law
+
+    :code:`B_g^2 = (nu / k_eff * Sigma_f - Sigma_a) / D`
+
+
+    Latex:
+        .. math::
+            B_\text{g}^2 = \frac{\frac{\nu}{k_\text{eff}} \Sigma_\text{f} - \Sigma_\text{a}}{D}
+
+
