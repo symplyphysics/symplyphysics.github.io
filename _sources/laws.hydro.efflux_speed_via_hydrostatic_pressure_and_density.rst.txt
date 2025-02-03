@@ -17,21 +17,33 @@ and density.
 
 .. py:data:: efflux_speed
 
-    Speed of the fluid flowing out of the pipe.
+    :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` of the fluid flowing out of the pipe.
 
     Symbol:
-        :code:`v`
+        :code:`u`
+
+    Latex:
+        :math:`u`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: hydrostatic_pressure
 
-    Hydrostatic pressure of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.hydrostatic_pressure` of the fluid.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: density
 
-    Density of the fluid.
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
     Symbol:
         :code:`rho`
@@ -39,11 +51,16 @@ and density.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: law
 
-    :code:`v = sqrt(2 * p / rho)`
+    :code:`u = sqrt(2 * p / rho)`
+
 
     Latex:
         .. math::
-            v = \sqrt{\frac{2 p}{\rho}}
+            u = \sqrt{\frac{2 p}{\rho}}
+
 

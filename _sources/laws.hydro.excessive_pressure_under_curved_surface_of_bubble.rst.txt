@@ -1,0 +1,65 @@
+Excess pressure under curved surface of bubble
+----------------------------------------------
+
+Under the curved surface of the liquid, in addition to the internal pressure, additional
+pressure is created due to the curvature of the surface. For a bubble, this pressure is
+created by two surfaces: the outer and the inner.
+
+**Links:**
+
+#. `Physics LibreTexts, formula 20.2.4 <https://phys.libretexts.org/Bookshelves/Classical_Mechanics/Classical_Mechanics_(Tatum)/20%3A_Miscellaneous/20.02%3A_Surface_Tension/20.2.01%3A_Excess_Pressure_Inside_Drops_and_Bubbles>`__.
+
+..
+    TODO: fix file name
+
+.. py:currentmodule:: symplyphysics.laws.hydro.excessive_pressure_under_curved_surface_of_bubble
+
+.. py:data:: pressure_difference
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` difference between the surfaces of the bubble.
+
+    Symbol:
+        :code:`Delta(p)`
+
+    Latex:
+        :math:`\Delta p`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: surface_tension
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.surface_tension` of the bubble.
+
+    Symbol:
+        :code:`gamma`
+
+    Latex:
+        :math:`\gamma`
+
+    Dimension:
+        :code:`force/length`
+
+.. py:data:: radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the bubble.
+
+    Symbol:
+        :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`Delta(p) = 4 * gamma / r`
+
+
+    Latex:
+        .. math::
+            \Delta p = \frac{4 \gamma}{r}
+
+

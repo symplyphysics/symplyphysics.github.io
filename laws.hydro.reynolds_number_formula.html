@@ -17,7 +17,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Shear stress is proportional to speed gradient" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html" />
-    <link rel="prev" title="Mach number is flow speed over speed of sound" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html" />
+    <link rel="prev" title="Pressure of liquid in vessel moving vertically" href="laws.hydro.pressure_of_liquid_in_vessel_moving_vertically.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -37,10 +37,10 @@
             
   <section id="reynolds-number-formula">
 <h1>Reynolds number formula<a class="headerlink" href="#reynolds-number-formula" title="Link to this heading">¶</a></h1>
-<p><em>Reynolds number</em> is a dimensionless quantity that characterizes the flow of a fluid.
-It helps predict fluid flow patterns in different situations by measuring the ratio between inertial
-and viscous forces. Low Reynolds numbers tend to correspond to laminar flows, while high Reynolds
-numbers tend to correspond to turbulent flows.</p>
+<p><em>Reynolds number</em> is a dimensionless quantity that characterizes the flow of a fluid. It
+helps predict fluid flow patterns in different situations by measuring the ratio between
+inertial and viscous forces. Low Reynolds numbers tend to correspond to laminar flows,
+while high Reynolds numbers tend to correspond to turbulent flows.</p>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Reynolds_number#Definition">Wikipedia</a>.</p></li>
@@ -48,11 +48,13 @@ numbers tend to correspond to turbulent flows.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.reynolds_number_formula.reynolds_number">
 <span class="sig-name descname"><span class="pre">reynolds_number</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.reynolds_number_formula.reynolds_number" title="Link to this definition">¶</a></dt>
-<dd><p>Reynolds number of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.reynolds_number" title="symplyphysics.symbols.classical_mechanics.reynolds_number"><code class="xref py py-attr docutils literal notranslate"><span class="pre">reynolds_number</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Re</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\text{Re}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -60,10 +62,13 @@ numbers tend to correspond to turbulent flows.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.reynolds_number_formula.characteristic_length">
 <span class="sig-name descname"><span class="pre">characteristic_length</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.reynolds_number_formula.characteristic_length" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference external" href="https://en.wikipedia.org/wiki/Characteristic_length">Characteristic length</a> of the fluid
-container whose value depends on its shape.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.characteristic_length" title="symplyphysics.symbols.basic.characteristic_length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">characteristic_length</span></code></a> of the system.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">l_c</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(l_\text{c}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -71,11 +76,13 @@ container whose value depends on its shape.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.reynolds_number_formula.density">
 <span class="sig-name descname"><span class="pre">density</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.reynolds_number_formula.density" title="Link to this definition">¶</a></dt>
-<dd><p>Density of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.density" title="symplyphysics.symbols.basic.density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">density</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -83,9 +90,13 @@ container whose value depends on its shape.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.reynolds_number_formula.flow_speed">
 <span class="sig-name descname"><span class="pre">flow_speed</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.reynolds_number_formula.flow_speed" title="Link to this definition">¶</a></dt>
-<dd><p>Speed of the fluid flow.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.flow_speed" title="symplyphysics.symbols.classical_mechanics.flow_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">flow_speed</span></code></a></p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">u</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(u\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -93,11 +104,13 @@ container whose value depends on its shape.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.reynolds_number_formula.dynamic_viscosity">
 <span class="sig-name descname"><span class="pre">dynamic_viscosity</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.reynolds_number_formula.dynamic_viscosity" title="Link to this definition">¶</a></dt>
-<dd><p>Dynamic viscosity of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.dynamic_viscosity" title="symplyphysics.symbols.classical_mechanics.dynamic_viscosity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dynamic_viscosity</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure*time</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -105,10 +118,10 @@ container whose value depends on its shape.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.reynolds_number_formula.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.reynolds_number_formula.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Re</span> <span class="pre">=</span> <span class="pre">rho</span> <span class="pre">*</span> <span class="pre">u</span> <span class="pre">*</span> <span class="pre">L</span> <span class="pre">/</span> <span class="pre">mu</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Re</span> <span class="pre">=</span> <span class="pre">rho</span> <span class="pre">*</span> <span class="pre">u</span> <span class="pre">*</span> <span class="pre">l_c</span> <span class="pre">/</span> <span class="pre">mu</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\text{Re} = \frac{\rho u L}{\mu}\]</div>
+\[\text{Re} = \frac{\rho u l_\text{c}}{\mu}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -154,13 +167,23 @@ container whose value depends on its shape.</p>
 <li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html">Dynamic pressure from speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.efficiency_of_the_hydraulic_press_from_force_and_height.html">Efficiency of hydraulic press from force and height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html">Efflux speed via height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html">Efflux speed via pressure and density</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.excessive_pressure_under_curved_surface_of_bubble.html">Excess pressure under curved surface of bubble</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.froude_number.html">Froude number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hagen_poiseuille_equation.html">Pressure difference at pipe ends from dynamic viscosity and flow rate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html">Hydraulic stress is bulk modulus times strain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_from_density_and_depth_acceleration.html">Hydrostatic pressure from density, height and acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html">Hydrostatic pressure via density and height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html">Inner pressure is constant</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html">Inner pressure is sum of pressures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.input_force_to_area_ratio_equals_to_output.html">Force to area ratio in hydraulic press</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.jurin_equation.html">Capillary rise from surface tension and contact angle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.nusselt_number.html">Nusselt number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally.html">Pressure of liquid in vessel moving horizontally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_vertically.html">Pressure of liquid in vessel moving vertically</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Reynolds number formula</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.reynolds_number_formula.reynolds_number"><code class="docutils literal notranslate"><span class="pre">reynolds_number</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.reynolds_number_formula.characteristic_length"><code class="docutils literal notranslate"><span class="pre">characteristic_length</span></code></a></li>
@@ -199,7 +222,7 @@ container whose value depends on its shape.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.hydro.html">Fluid mechanics</a><ul>
-      <li>Previous: <a href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html" title="previous chapter">Mach number is flow speed over speed of sound</a></li>
+      <li>Previous: <a href="laws.hydro.pressure_of_liquid_in_vessel_moving_vertically.html" title="previous chapter">Pressure of liquid in vessel moving vertically</a></li>
       <li>Next: <a href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html" title="next chapter">Shear stress is proportional to speed gradient</a></li>
   </ul></li>
   </ul></li>

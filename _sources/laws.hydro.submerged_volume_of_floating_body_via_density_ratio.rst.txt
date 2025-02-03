@@ -10,7 +10,8 @@ depends on the ratio of the densities of the body and the fluid.
 
 **Conditions:**
 
-#. :math:`\rho \le \rho_\text{fl}`, so the body must be floating.
+#. :math:`\rho \le \rho_\text{fl}`, so the body must be floating. See below for the
+   description of the symbols.
 #. The body must be in static equilibrium.
 
 **Links:**
@@ -21,7 +22,8 @@ depends on the ratio of the densities of the body and the fluid.
 
 .. py:data:: submerged_volume
 
-    Volume submerged in the fluid, which is equal to the volume of the displaced fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` submerged in the fluid, which is equal to the volume of the displaced
+    fluid.
 
     Symbol:
         :code:`V_fl`
@@ -29,16 +31,25 @@ depends on the ratio of the densities of the body and the fluid.
     Latex:
         :math:`V_\text{fl}`
 
+    Dimension:
+        :code:`volume`
+
 .. py:data:: body_volume
 
-    Total volume of the body.
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the body.
 
     Symbol:
         :code:`V`
 
+    Latex:
+        :math:`V`
+
+    Dimension:
+        :code:`volume`
+
 .. py:data:: body_density
 
-    Density of the body.
+    :attr:`~symplyphysics.symbols.basic.density` of the body.
 
     Symbol:
         :code:`rho`
@@ -46,9 +57,12 @@ depends on the ratio of the densities of the body and the fluid.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: fluid_density
 
-    Density of the fluid.
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
     Symbol:
         :code:`rho_fl`
@@ -56,11 +70,16 @@ depends on the ratio of the densities of the body and the fluid.
     Latex:
         :math:`\rho_\text{fl}`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: law
 
     :code:`V_fl / V = rho / rho_fl`
 
+
     Latex:
         .. math::
             \frac{V_\text{fl}}{V} = \frac{\rho}{\rho_\text{fl}}
+
 

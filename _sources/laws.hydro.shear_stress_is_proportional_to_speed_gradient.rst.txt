@@ -30,7 +30,7 @@ of the plate and the ratio :math:`\frac{u}{d}` where :math:`d` is the distance b
 
 .. py:data:: shear_stress
 
-    Shear stress. See :doc:`laws.dynamics.pressure_from_force_and_area`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.shear_stress`.
 
     Symbol:
         :code:`tau`
@@ -38,35 +38,56 @@ of the plate and the ratio :math:`\frac{u}{d}` where :math:`d` is the distance b
     Latex:
         :math:`\tau`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: dynamic_viscosity
 
-    Dynamic viscosity of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the fluid.
 
     Symbol:
-        :code:`eta`
+        :code:`mu`
 
     Latex:
-        :math:`\eta`
+        :math:`\mu`
 
-.. py:data:: fluid_speed
-
-    Fluid speed as a function of position perpendicular to the fluid flow, or layer position.
-
-    Symbol:
-        :code:`u(y)`
+    Dimension:
+        :code:`pressure*time`
 
 .. py:data:: layer_position
 
-    Layer position, or position in the direction perpendicular to fluid velocity.
+    Layer :attr:`~symplyphysics.symbols.classical_mechanics.position`, or position in the direction perpendicular to fluid velocity.
 
     Symbol:
-        :code:`y`
+        :code:`x`
+
+    Latex:
+        :math:`x`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: flow_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` as a function of position perpendicular to the fluid flow, or
+    :attr:`~layer_position`.
+
+    Symbol:
+        :code:`u(x)`
+
+    Latex:
+        :math:`u{\left(x \right)}`
+
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: law
 
-    :code:`tau = eta * Derivative(u(y), y)`
+    :code:`tau = mu * Derivative(u(x), x)`
+
 
     Latex:
         .. math::
-            \tau = \eta \frac{d u}{d y}
+            \tau = \mu \frac{d}{d x} u{\left(x \right)}
+
 

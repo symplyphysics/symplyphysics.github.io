@@ -26,7 +26,7 @@ Also see `figure <https://www.researchgate.net/publication/312093145/figure/fig7
 
 .. py:data:: surface_tension
 
-    Surface tension of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.surface_tension` of the fluid.
 
     Symbol:
         :code:`gamma`
@@ -34,18 +34,29 @@ Also see `figure <https://www.researchgate.net/publication/312093145/figure/fig7
     Latex:
         :math:`\gamma`
 
+    Dimension:
+        :code:`force/length`
+
 .. py:data:: length
 
-    Length of the contour to which the force is applied.
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the contour to which the force is applied.
 
     Symbol:
         :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`F = gamma * l`
 
+
     Latex:
         .. math::
             F = \gamma l
+
 

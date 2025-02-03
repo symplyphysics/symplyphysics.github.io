@@ -1,0 +1,77 @@
+Hydrostatic pressure from density, height and acceleration
+----------------------------------------------------------
+
+Hydrostatic pressure is the pressure exerted by a fluid at equilibrium at a given point
+within the fluid, due to the force of gravity.
+
+**Conditions:**
+
+#. The only force acting on the fluid is the gravitational force.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.hydro.hydrostatic_pressure_from_density_and_depth_acceleration
+
+.. py:data:: density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+    Dimension:
+        :code:`mass/volume`
+
+.. py:data:: height
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.height` of the fluid column.
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: acceleration
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the vessel.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: hydrostatic_pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.hydrostatic_pressure` of the fluid.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: law
+
+    :code:`p = rho * a * h`
+
+
+    Latex:
+        .. math::
+            p = \rho a h
+
+

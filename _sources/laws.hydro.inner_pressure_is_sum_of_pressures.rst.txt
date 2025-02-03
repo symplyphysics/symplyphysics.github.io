@@ -16,7 +16,7 @@ pressures at a chosen point in space.
 
 .. py:data:: inner_pressure
 
-    Inner pressure of the fluid.
+    Inner :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the fluid.
 
     Symbol:
         :code:`p_inner`
@@ -24,9 +24,12 @@ pressures at a chosen point in space.
     Latex:
         :math:`p_\text{inner}`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: static_pressure
 
-    Static pressure of the fluid.
+    Static :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the fluid.
 
     Symbol:
         :code:`p_static`
@@ -34,25 +37,42 @@ pressures at a chosen point in space.
     Latex:
         :math:`p_\text{static}`
 
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: dynamic_pressure
 
-    Dynamic pressure of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_pressure` of the fluid.
 
     Symbol:
         :code:`q`
 
+    Latex:
+        :math:`q`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: hydrostatic_pressure
 
-    Hydrostatic pressure of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.hydrostatic_pressure` of the fluid.
 
     Symbol:
         :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
 
 .. py:data:: law
 
     :code:`p_inner = p_static + q + p`
 
+
     Latex:
         .. math::
             p_\text{inner} = p_\text{static} + q + p
+
 

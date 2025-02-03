@@ -17,7 +17,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Efflux speed via pressure and density" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html" />
-    <link rel="prev" title="Dynamic pressure from speed" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html" />
+    <link rel="prev" title="Efficiency of hydraulic press from force and height" href="laws.hydro.efficiency_of_the_hydraulic_press_from_force_and_height.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -37,8 +37,12 @@
             
   <section id="efflux-speed-via-height">
 <h1>Efflux speed via height<a class="headerlink" href="#efflux-speed-via-height" title="Link to this heading">¶</a></h1>
-<p>The speed of a fluid flowing out from a small orifice can be expressed as a function
-of the height of the fluid column. It is also known as the <em>Torricelli’s law</em>.</p>
+<p>The speed of a fluid flowing out from a small orifice can be expressed as a function of
+the height of the fluid column. It is also known as the <strong>Torricelli’s law</strong>.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(g\)</span> (<code class="code docutils literal notranslate"><span class="pre">g</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.acceleration_due_to_gravity" title="symplyphysics.quantities.acceleration_due_to_gravity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration_due_to_gravity</span></code></a>.</p></li>
+</ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>The orifice is very small relative to the horizontal cross-section of the container.</p></li>
@@ -52,9 +56,13 @@ of the height of the fluid column. It is also known as the <em>Torricelli’s la
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.efflux_speed_via_height.efflux_speed">
 <span class="sig-name descname"><span class="pre">efflux_speed</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.efflux_speed_via_height.efflux_speed" title="Link to this definition">¶</a></dt>
-<dd><p>Speed of the fluid flowing out of the pipe.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.flow_speed" title="symplyphysics.symbols.classical_mechanics.flow_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">flow_speed</span></code></a> of the fluid flowing out of the pipe.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">u</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(u\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -62,9 +70,13 @@ of the height of the fluid column. It is also known as the <em>Torricelli’s la
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.efflux_speed_via_height.height">
 <span class="sig-name descname"><span class="pre">height</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.efflux_speed_via_height.height" title="Link to this definition">¶</a></dt>
-<dd><p>Height of the fluid column above the orifice.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.height" title="symplyphysics.symbols.classical_mechanics.height"><code class="xref py py-attr docutils literal notranslate"><span class="pre">height</span></code></a> of the fluid column above the orifice.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">h</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(h\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -72,10 +84,10 @@ of the height of the fluid column. It is also known as the <em>Torricelli’s la
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.efflux_speed_via_height.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.efflux_speed_via_height.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">v</span> <span class="pre">=</span> <span class="pre">sqrt(2</span> <span class="pre">*</span> <span class="pre">g</span> <span class="pre">*</span> <span class="pre">h)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">u</span> <span class="pre">=</span> <span class="pre">sqrt(2</span> <span class="pre">*</span> <span class="pre">g</span> <span class="pre">*</span> <span class="pre">h)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[v = \sqrt{2 g h}\]</div>
+\[u = \sqrt{2 g h}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -121,6 +133,7 @@ of the height of the fluid column. It is also known as the <em>Torricelli’s la
 <li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html">Dynamic pressure from speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.efficiency_of_the_hydraulic_press_from_force_and_height.html">Efficiency of hydraulic press from force and height</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Efflux speed via height</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.efflux_speed_via_height.efflux_speed"><code class="docutils literal notranslate"><span class="pre">efflux_speed</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.efflux_speed_via_height.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
@@ -128,11 +141,20 @@ of the height of the fluid column. It is also known as the <em>Torricelli’s la
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html">Efflux speed via pressure and density</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.excessive_pressure_under_curved_surface_of_bubble.html">Excess pressure under curved surface of bubble</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.froude_number.html">Froude number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hagen_poiseuille_equation.html">Pressure difference at pipe ends from dynamic viscosity and flow rate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html">Hydraulic stress is bulk modulus times strain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_from_density_and_depth_acceleration.html">Hydrostatic pressure from density, height and acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html">Hydrostatic pressure via density and height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html">Inner pressure is constant</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html">Inner pressure is sum of pressures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.input_force_to_area_ratio_equals_to_output.html">Force to area ratio in hydraulic press</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.jurin_equation.html">Capillary rise from surface tension and contact angle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.nusselt_number.html">Nusselt number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally.html">Pressure of liquid in vessel moving horizontally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_vertically.html">Pressure of liquid in vessel moving vertically</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html">Reynolds number formula</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html">Shear stress is proportional to speed gradient</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html">Submerged volume of floating body via density ratio</a></li>
@@ -163,7 +185,7 @@ of the height of the fluid column. It is also known as the <em>Torricelli’s la
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.hydro.html">Fluid mechanics</a><ul>
-      <li>Previous: <a href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html" title="previous chapter">Dynamic pressure from speed</a></li>
+      <li>Previous: <a href="laws.hydro.efficiency_of_the_hydraulic_press_from_force_and_height.html" title="previous chapter">Efficiency of hydraulic press from force and height</a></li>
       <li>Next: <a href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html" title="next chapter">Efflux speed via pressure and density</a></li>
   </ul></li>
   </ul></li>

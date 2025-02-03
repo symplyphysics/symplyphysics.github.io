@@ -16,7 +16,7 @@
     <link rel="canonical" href="https://symplyphysics.github.io/laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Hydraulic stress is bulk modulus times strain" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html" />
+    <link rel="next" title="Excess pressure under curved surface of bubble" href="laws.hydro.excessive_pressure_under_curved_surface_of_bubble.html" />
     <link rel="prev" title="Efflux speed via height" href="laws.hydro.efflux_speed_via_height.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -48,9 +48,13 @@ and density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.efflux_speed">
 <span class="sig-name descname"><span class="pre">efflux_speed</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.efflux_speed" title="Link to this definition">¶</a></dt>
-<dd><p>Speed of the fluid flowing out of the pipe.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.flow_speed" title="symplyphysics.symbols.classical_mechanics.flow_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">flow_speed</span></code></a> of the fluid flowing out of the pipe.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">u</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(u\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -58,9 +62,13 @@ and density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.hydrostatic_pressure">
 <span class="sig-name descname"><span class="pre">hydrostatic_pressure</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.hydrostatic_pressure" title="Link to this definition">¶</a></dt>
-<dd><p>Hydrostatic pressure of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.hydrostatic_pressure" title="symplyphysics.symbols.classical_mechanics.hydrostatic_pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">hydrostatic_pressure</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -68,11 +76,13 @@ and density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.density">
 <span class="sig-name descname"><span class="pre">density</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.density" title="Link to this definition">¶</a></dt>
-<dd><p>Density of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.density" title="symplyphysics.symbols.basic.density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">density</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -80,10 +90,10 @@ and density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">v</span> <span class="pre">=</span> <span class="pre">sqrt(2</span> <span class="pre">*</span> <span class="pre">p</span> <span class="pre">/</span> <span class="pre">rho)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">u</span> <span class="pre">=</span> <span class="pre">sqrt(2</span> <span class="pre">*</span> <span class="pre">p</span> <span class="pre">/</span> <span class="pre">rho)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[v = \sqrt{\frac{2 p}{\rho}}\]</div>
+\[u = \sqrt{\frac{2 p}{\rho}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -129,6 +139,7 @@ and density.</p>
 <li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html">Dynamic pressure from speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.efficiency_of_the_hydraulic_press_from_force_and_height.html">Efficiency of hydraulic press from force and height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html">Efflux speed via height</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Efflux speed via pressure and density</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.efflux_speed"><code class="docutils literal notranslate"><span class="pre">efflux_speed</span></code></a></li>
@@ -137,11 +148,20 @@ and density.</p>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.excessive_pressure_under_curved_surface_of_bubble.html">Excess pressure under curved surface of bubble</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.froude_number.html">Froude number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hagen_poiseuille_equation.html">Pressure difference at pipe ends from dynamic viscosity and flow rate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html">Hydraulic stress is bulk modulus times strain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_from_density_and_depth_acceleration.html">Hydrostatic pressure from density, height and acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html">Hydrostatic pressure via density and height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html">Inner pressure is constant</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html">Inner pressure is sum of pressures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.input_force_to_area_ratio_equals_to_output.html">Force to area ratio in hydraulic press</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.jurin_equation.html">Capillary rise from surface tension and contact angle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.nusselt_number.html">Nusselt number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally.html">Pressure of liquid in vessel moving horizontally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_vertically.html">Pressure of liquid in vessel moving vertically</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html">Reynolds number formula</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html">Shear stress is proportional to speed gradient</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html">Submerged volume of floating body via density ratio</a></li>
@@ -173,7 +193,7 @@ and density.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.hydro.html">Fluid mechanics</a><ul>
       <li>Previous: <a href="laws.hydro.efflux_speed_via_height.html" title="previous chapter">Efflux speed via height</a></li>
-      <li>Next: <a href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html" title="next chapter">Hydraulic stress is bulk modulus times strain</a></li>
+      <li>Next: <a href="laws.hydro.excessive_pressure_under_curved_surface_of_bubble.html" title="next chapter">Excess pressure under curved surface of bubble</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

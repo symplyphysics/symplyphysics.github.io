@@ -15,32 +15,52 @@ known as the *equation of continuity*.
 
 .. py:currentmodule:: symplyphysics.laws.hydro.volume_flux_is_constant
 
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: tube_area
 
-    Cross-sectional area of the tube of flow as a function of time.
+    Cross-sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the tube of flow as a function of :attr:`~time`.
 
     Symbol:
         :code:`A(t)`
 
-.. py:data:: fluid_speed
+    Latex:
+        :math:`A{\left(t \right)}`
 
-    Fluid speed as a function of time.
+    Dimension:
+        :code:`area`
+
+.. py:data:: flow_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` of the fluid as a function of :attr:`~time`.
 
     Symbol:
         :code:`u(t)`
 
-.. py:data:: time
+    Latex:
+        :math:`u{\left(t \right)}`
 
-    Time.
-
-    Symbol:
-        :code:`t`
+    Dimension:
+        :code:`velocity`
 
 .. py:data:: law
 
     :code:`Derivative(A(t) * u(t), t) = 0`
 
+
     Latex:
         .. math::
-            \frac{d (A u)}{d t} = 0
+            \frac{d}{d t} A{\left(t \right)} u{\left(t \right)} = 0
+
 

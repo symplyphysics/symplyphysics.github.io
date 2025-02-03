@@ -13,7 +13,7 @@ on the ratio of the fluid density and body density.
 
 .. py:data:: weight_in_fluid
 
-    Weight of the body immersed in the fluid.
+    Weight of the body immersed in the fluid. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`W_fl`
@@ -26,7 +26,7 @@ on the ratio of the fluid density and body density.
 
 .. py:data:: weight_in_vacuum
 
-    Weight of the body in vacuum, i.e. its true weight.
+    Weight of the body in vacuum, i.e. its true weight. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
     Symbol:
         :code:`W_vac`
@@ -39,7 +39,7 @@ on the ratio of the fluid density and body density.
 
 .. py:data:: fluid_density
 
-    Density of the fluid.
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
     Symbol:
         :code:`rho_fl`
@@ -47,9 +47,12 @@ on the ratio of the fluid density and body density.
     Latex:
         :math:`\rho_\text{fl}`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: body_density
 
-    Density of the body.
+    :attr:`~symplyphysics.symbols.basic.density` of the body.
 
     Symbol:
         :code:`rho_b`
@@ -57,11 +60,16 @@ on the ratio of the fluid density and body density.
     Latex:
         :math:`\rho_\text{b}`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: law
 
     :code:`W_fl = W_vac * (1 - rho_fl / rho_b)`
 
+
     Latex:
         .. math::
-            W_\text{fl} = W_\text{vac} \left( 1 - \frac{\rho_\text{fl}}{\rho_\text{b}} \right)
+            W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)
+
 

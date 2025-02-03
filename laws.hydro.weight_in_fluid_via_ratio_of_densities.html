@@ -47,7 +47,7 @@ on the ratio of the fluid density and body density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.weight_in_fluid">
 <span class="sig-name descname"><span class="pre">weight_in_fluid</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.weight_in_fluid" title="Link to this definition">¶</a></dt>
-<dd><p>Weight of the body immersed in the fluid.</p>
+<dd><p>Weight of the body immersed in the fluid. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">W_fl</span></code></p>
 </dd>
@@ -61,7 +61,7 @@ on the ratio of the fluid density and body density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.weight_in_vacuum">
 <span class="sig-name descname"><span class="pre">weight_in_vacuum</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.weight_in_vacuum" title="Link to this definition">¶</a></dt>
-<dd><p>Weight of the body in vacuum, i.e. its true weight.</p>
+<dd><p>Weight of the body in vacuum, i.e. its true weight. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a>.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">W_vac</span></code></p>
 </dd>
@@ -75,11 +75,13 @@ on the ratio of the fluid density and body density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.fluid_density">
 <span class="sig-name descname"><span class="pre">fluid_density</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.fluid_density" title="Link to this definition">¶</a></dt>
-<dd><p>Density of the fluid.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.density" title="symplyphysics.symbols.basic.density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">density</span></code></a> of the fluid.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho_fl</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho_\text{fl}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -87,11 +89,13 @@ on the ratio of the fluid density and body density.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.body_density">
 <span class="sig-name descname"><span class="pre">body_density</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities.body_density" title="Link to this definition">¶</a></dt>
-<dd><p>Density of the body.</p>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.density" title="symplyphysics.symbols.basic.density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">density</span></code></a> of the body.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho_b</span></code></p>
 </dd>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho_\text{b}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass/volume</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -102,7 +106,7 @@ on the ratio of the fluid density and body density.</p>
 <dd><p><code class="code docutils literal notranslate"><span class="pre">W_fl</span> <span class="pre">=</span> <span class="pre">W_vac</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">rho_fl</span> <span class="pre">/</span> <span class="pre">rho_b)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[W_\text{fl} = W_\text{vac} \left( 1 - \frac{\rho_\text{fl}}{\rho_\text{b}} \right)\]</div>
+\[W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -148,13 +152,23 @@ on the ratio of the fluid density and body density.</p>
 <li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html">Dynamic pressure from speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.efficiency_of_the_hydraulic_press_from_force_and_height.html">Efficiency of hydraulic press from force and height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html">Efflux speed via height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html">Efflux speed via pressure and density</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.excessive_pressure_under_curved_surface_of_bubble.html">Excess pressure under curved surface of bubble</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.froude_number.html">Froude number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hagen_poiseuille_equation.html">Pressure difference at pipe ends from dynamic viscosity and flow rate</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain.html">Hydraulic stress is bulk modulus times strain</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_from_density_and_depth_acceleration.html">Hydrostatic pressure from density, height and acceleration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html">Hydrostatic pressure via density and height</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html">Inner pressure is constant</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html">Inner pressure is sum of pressures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.input_force_to_area_ratio_equals_to_output.html">Force to area ratio in hydraulic press</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.jurin_equation.html">Capillary rise from surface tension and contact angle</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.nusselt_number.html">Nusselt number formula</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally.html">Pressure of liquid in vessel moving horizontally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_vertically.html">Pressure of liquid in vessel moving vertically</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.reynolds_number_formula.html">Reynolds number formula</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html">Shear stress is proportional to speed gradient</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html">Submerged volume of floating body via density ratio</a></li>

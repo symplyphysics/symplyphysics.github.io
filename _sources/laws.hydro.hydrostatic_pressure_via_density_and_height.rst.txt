@@ -4,6 +4,10 @@ Hydrostatic pressure via density and height
 Hydrostatic pressure is the pressure exerted by a fluid at equilibrium at any point of time
 due to the force of gravity.
 
+**Notation:**
+
+#. :math:`g` (:code:`g`) is :attr:`~symplyphysics.quantities.acceleration_due_to_gravity`.
+
 **Conditions:**
 
 #. The fluid is in statical equilibrium.
@@ -18,14 +22,20 @@ due to the force of gravity.
 
 .. py:data:: hydrostatic_pressure
 
-    Hydrostatic pressure of the fluid column.
+    :attr:`~symplyphysics.symbols.classical_mechanics.hydrostatic_pressure` of the fluid column.
 
     Symbol:
         :code:`p`
 
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
 .. py:data:: density
 
-    Density of the fluid.
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
     Symbol:
         :code:`rho`
@@ -33,18 +43,29 @@ due to the force of gravity.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: height
 
-    Height of the fluid column.
+    :attr:`~symplyphysics.symbols.classical_mechanics.height` of the fluid column.
 
     Symbol:
         :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: law
 
     :code:`p = rho * g * h`
 
+
     Latex:
         .. math::
             p = \rho g h
+
 

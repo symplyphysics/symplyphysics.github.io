@@ -1,0 +1,78 @@
+Pressure of liquid in vessel moving horizontally
+------------------------------------------------
+
+If a vessel with a liquid moves with horizontal acceleration, then the hydrostatic
+pressure of the liquid depends on the density of the liquid, the acceleration of free
+fall, the horizontal acceleration of the vessel and the height of liquid.
+
+**Notation:**
+
+#. :math:`g` (:code:`g`) is :attr:`~symplyphysics.quantities.acceleration_due_to_gravity`.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the liquid.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`pressure`
+
+.. py:data:: density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the liquid.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+    Dimension:
+        :code:`mass/volume`
+
+.. py:data:: acceleration
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the vessel.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`acceleration`
+
+.. py:data:: height
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.height` of the liquid column.
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`p = rho * sqrt(g^2 + a^2) * h`
+
+
+    Latex:
+        .. math::
+            p = \rho \sqrt{g^{2} + a^{2}} h
+
+

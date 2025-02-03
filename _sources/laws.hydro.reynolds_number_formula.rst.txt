@@ -1,10 +1,10 @@
 Reynolds number formula
 -----------------------
 
-*Reynolds number* is a dimensionless quantity that characterizes the flow of a fluid.
-It helps predict fluid flow patterns in different situations by measuring the ratio between inertial
-and viscous forces. Low Reynolds numbers tend to correspond to laminar flows, while high Reynolds
-numbers tend to correspond to turbulent flows.
+*Reynolds number* is a dimensionless quantity that characterizes the flow of a fluid. It
+helps predict fluid flow patterns in different situations by measuring the ratio between
+inertial and viscous forces. Low Reynolds numbers tend to correspond to laminar flows,
+while high Reynolds numbers tend to correspond to turbulent flows.
 
 **Links:**
 
@@ -14,7 +14,7 @@ numbers tend to correspond to turbulent flows.
 
 .. py:data:: reynolds_number
 
-    Reynolds number of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.reynolds_number` of the fluid.
 
     Symbol:
         :code:`Re`
@@ -22,17 +22,25 @@ numbers tend to correspond to turbulent flows.
     Latex:
         :math:`\text{Re}`
 
+    Dimension:
+        :code:`dimensionless`
+
 .. py:data:: characteristic_length
 
-    `Characteristic length <https://en.wikipedia.org/wiki/Characteristic_length>`_ of the fluid
-    container whose value depends on its shape.
+    :attr:`~symplyphysics.symbols.basic.characteristic_length` of the system.
 
     Symbol:
-        :code:`L`
+        :code:`l_c`
+
+    Latex:
+        :math:`l_\text{c}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: density
 
-    Density of the fluid.
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
     Symbol:
         :code:`rho`
@@ -40,16 +48,25 @@ numbers tend to correspond to turbulent flows.
     Latex:
         :math:`\rho`
 
+    Dimension:
+        :code:`mass/volume`
+
 .. py:data:: flow_speed
 
-    Speed of the fluid flow.
+    :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed`
 
     Symbol:
         :code:`u`
 
+    Latex:
+        :math:`u`
+
+    Dimension:
+        :code:`velocity`
+
 .. py:data:: dynamic_viscosity
 
-    Dynamic viscosity of the fluid.
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the fluid.
 
     Symbol:
         :code:`mu`
@@ -57,11 +74,16 @@ numbers tend to correspond to turbulent flows.
     Latex:
         :math:`\mu`
 
+    Dimension:
+        :code:`pressure*time`
+
 .. py:data:: law
 
-    :code:`Re = rho * u * L / mu`
+    :code:`Re = rho * u * l_c / mu`
+
 
     Latex:
         .. math::
-            \text{Re} = \frac{\rho u L}{\mu}
+            \text{Re} = \frac{\rho u l_\text{c}}{\mu}
+
 

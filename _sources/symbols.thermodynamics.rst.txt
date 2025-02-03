@@ -471,3 +471,24 @@ Symbols related to thermodynamics.
     Dimension:
         :code:`volume/amount_of_substance`
 
+.. py:data:: heat_transfer_coefficient
+
+    The **heat transfer coefficient** is the proportionality constant between the heat flux
+    :math:`d \dot{Q} / d A` and the thermodynamic driving force for the flow of heat
+    (i.e. the temperature difference :math:`\Delta T`). In other words, it is the rate of
+    heat transfer through a surface of unit area that results in a unit temperature
+    difference.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Heat_transfer_coefficient#>`__.
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`power/(area*temperature)`
+
