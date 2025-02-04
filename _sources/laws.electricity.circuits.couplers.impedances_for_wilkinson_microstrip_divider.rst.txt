@@ -1,0 +1,112 @@
+Impedance of Wilkinson microstrip divider
+-----------------------------------------
+
+The Wilkinson divider is a device designed to divide the power of a microwave signal
+into two output ports. Different sections of the divider consist of a microstrip line of
+different widths. There are four such sections in total and each has its own impedance.
+
+.. image:: https://habrastorage.org/getpro/habr/upload_files/c24/031/52e/c2403152e2b320ab1c4c44f970dee1f2.gif
+    :width: 400px
+    :align: center
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.impedances_for_wilkinson_microstrip_divider
+
+.. py:data:: first_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the first section.
+
+    Symbol:
+        :code:`Z_1`
+
+    Latex:
+        :math:`Z_{1}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: second_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the second section.
+
+    Symbol:
+        :code:`Z_2`
+
+    Latex:
+        :math:`Z_{2}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: third_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the third section.
+
+    Symbol:
+        :code:`Z_3`
+
+    Latex:
+        :math:`Z_{3}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: fourth_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the fourth section.
+
+    Symbol:
+        :code:`Z_4`
+
+    Latex:
+        :math:`Z_{4}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: transmission_line_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the transmission line to which the divider is
+    connected.
+
+    Symbol:
+        :code:`Z_0`
+
+    Latex:
+        :math:`Z_{0}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: power_ratio
+
+    Ratio of the :attr:`~symplyphysics.symbols.basic.power` at the outputs of the divider.
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    ..
+        Code printers don't work with matrices yet.
+
+    :code:`[Z_1, Z_2, Z_3, Z_4] = Z_0 * [sqrt(k * (1 + k^2)), sqrt((1 + k^2) / k^3), sqrt(k), 1 / sqrt(k)]`
+
+    Latex:
+        .. math::
+            \begin{pmatrix} Z_1 \\ Z_2 \\ Z_3 \\ Z_4 \end{pmatrix}
+            = Z_0 \begin{pmatrix}
+                \sqrt{k (1 + k^2)} \\
+                \sqrt{\frac{1 + k^2}{k^3}} \\
+                \sqrt{k} \\
+                \frac{1}{\sqrt{k}}
+            \end{pmatrix}
+

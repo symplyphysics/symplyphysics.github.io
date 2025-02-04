@@ -1,0 +1,108 @@
+Admittance of rectangular loop coupler
+--------------------------------------
+
+The rectangular loop coupler consists of four sections. The admittance of each section
+can be calculated by calculating the admittance of the transmission line to which the
+coupler is connected and the power ratio at the outputs.
+
+..
+    TODO: find link
+    TODO: rename file
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.conductivity_for_rectangular_loop_coupler
+
+.. py:data:: first_admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the first section.
+
+    Symbol:
+        :code:`Y_1`
+
+    Latex:
+        :math:`Y_{1}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: second_admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the second section.
+
+    Symbol:
+        :code:`Y_2`
+
+    Latex:
+        :math:`Y_{2}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: third_admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the third section.
+
+    Symbol:
+        :code:`Y_3`
+
+    Latex:
+        :math:`Y_{3}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: fourth_admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the fourth section.
+
+    Symbol:
+        :code:`Y_4`
+
+    Latex:
+        :math:`Y_{4}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: transmission_line_admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the transmission line.
+
+    Symbol:
+        :code:`Y_0`
+
+    Latex:
+        :math:`Y_{0}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: power_ratio
+
+    Ratio of the power at the outputs of the coupler.
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    ..
+        Code printers don't work with matrices yet.
+
+    :code:`[Y_1, Y_2, Y_3, Y_4] = Y_0 * [1 / sqrt(k), sqrt((k + 1) / k), sqrt((k + 1) / k), 1 / sqrt(k)]`
+
+    Latex:
+        .. math::
+            \begin{pmatrix} Y_1 \\ Y_2 \\ Y_3 \\ Y_4 \end{pmatrix}
+            = Y_0 \begin{pmatrix}
+                \frac{1}{\sqrt{k}} \\
+                \sqrt{\frac{k + 1}{k}} \\
+                \sqrt{\frac{k + 1}{k}} \\
+                \frac{1}{\sqrt{k}} \\
+            \end{pmatrix}
+

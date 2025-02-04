@@ -12,11 +12,12 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.circuits.filters.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Resonators" href="laws.electricity.circuits.resonators.html" />
-    <link rel="prev" title="Diodes" href="laws.electricity.circuits.diodes.html" />
+    <link rel="next" title="Transmission coefficient approximation of low-pass filter" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html" />
+    <link rel="prev" title="Equivalent diode voltage for triode" href="laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_triode.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -37,6 +38,65 @@
   <section id="filters">
 <h1><strong>Filters</strong><a class="headerlink" href="#filters" title="Link to this heading">¶</a></h1>
 <p>A <em>filter</em> is a device or process that removes some unwanted components or features from a signal.</p>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html">Transmission coefficient approximation of low-pass filter</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html#symplyphysics.laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.frequency"><code class="docutils literal notranslate"><span class="pre">frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html#symplyphysics.laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.filter_function"><code class="docutils literal notranslate"><span class="pre">filter_function</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html#symplyphysics.laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.bandwidth_distortion"><code class="docutils literal notranslate"><span class="pre">bandwidth_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html#symplyphysics.laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.transfer_coefficient"><code class="docutils literal notranslate"><span class="pre">transfer_coefficient</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html#symplyphysics.laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html">Band pass Chebyshev filter order from distortion and frequency</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.filter_order"><code class="docutils literal notranslate"><span class="pre">filter_order</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.bandwidth_distortion"><code class="docutils literal notranslate"><span class="pre">bandwidth_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.band_stop_distortion"><code class="docutils literal notranslate"><span class="pre">band_stop_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.cutoff_frequency"><code class="docutils literal notranslate"><span class="pre">cutoff_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.band_stop_frequency"><code class="docutils literal notranslate"><span class="pre">band_stop_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.bandwidth"><code class="docutils literal notranslate"><span class="pre">bandwidth</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html">Butterworth filter order from distortion and frequency</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.filter_order"><code class="docutils literal notranslate"><span class="pre">filter_order</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.bandwidth_distortion"><code class="docutils literal notranslate"><span class="pre">bandwidth_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.band_stop_distortion"><code class="docutils literal notranslate"><span class="pre">band_stop_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.cutoff_frequency"><code class="docutils literal notranslate"><span class="pre">cutoff_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.band_stop_frequency"><code class="docutils literal notranslate"><span class="pre">band_stop_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.html">Filter order from distortion and frequency</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.filter_function"><code class="docutils literal notranslate"><span class="pre">filter_function</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.filter_order"><code class="docutils literal notranslate"><span class="pre">filter_order</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.bandwidth_distortion"><code class="docutils literal notranslate"><span class="pre">bandwidth_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.band_stop_distortion"><code class="docutils literal notranslate"><span class="pre">band_stop_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.band_stop_frequency"><code class="docutils literal notranslate"><span class="pre">band_stop_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html">High pass Chebyshev filter from distortion and frequency</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.filter_order"><code class="docutils literal notranslate"><span class="pre">filter_order</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth_distortion"><code class="docutils literal notranslate"><span class="pre">bandwidth_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_distortion"><code class="docutils literal notranslate"><span class="pre">band_stop_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.cutoff_frequency"><code class="docutils literal notranslate"><span class="pre">cutoff_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_frequency"><code class="docutils literal notranslate"><span class="pre">band_stop_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html">Low-pass Chebyshev filter order from distortion and frequencies</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.filter_order"><code class="docutils literal notranslate"><span class="pre">filter_order</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth_distortion"><code class="docutils literal notranslate"><span class="pre">bandwidth_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_distortion"><code class="docutils literal notranslate"><span class="pre">band_stop_distortion</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.cutoff_frequency"><code class="docutils literal notranslate"><span class="pre">cutoff_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_frequency"><code class="docutils literal notranslate"><span class="pre">band_stop_frequency</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html#symplyphysics.laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
 </section>
 
 
@@ -182,8 +242,8 @@
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.electricity.html">Electromagnetism</a><ul>
   <li><a href="laws.electricity.circuits.html"><strong>Circuits</strong></a><ul>
-      <li>Previous: <a href="laws.electricity.circuits.diodes.html" title="previous chapter"><strong>Diodes</strong></a></li>
-      <li>Next: <a href="laws.electricity.circuits.resonators.html" title="next chapter"><strong>Resonators</strong></a></li>
+      <li>Previous: <a href="laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_triode.html" title="previous chapter">Equivalent diode voltage for triode</a></li>
+      <li>Next: <a href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html" title="next chapter">Transmission coefficient approximation of low-pass filter</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

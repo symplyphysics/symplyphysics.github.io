@@ -1,0 +1,62 @@
+Transient attenuation of separate loop coupler with cascade connection
+----------------------------------------------------------------------
+
+The multistage connection of the couplers allows you to expand the working band and
+realize less transient attenuation. Transient attenuation is a part of the power passing
+into the auxiliary channel of the coupler.
+
+..
+    TODO: find link
+    TODO: specify what dimensionless attenuation means
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.transient_attenuation_of_separate_loop_coupler_with_cascade_connection
+
+.. py:data:: coupler_attenuation
+
+    Transient :attr:`~symplyphysics.symbols.electrodynamics.attenuation` of one coupler from the cascade, measured in decibels.
+
+    Symbol:
+        :code:`A_0`
+
+    Latex:
+        :math:`A_{0}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: cascade_attenuation
+
+    Transient :attr:`~symplyphysics.symbols.electrodynamics.attenuation` of the cascade, measured in decibels.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: coupler_count
+
+    Number of couplers in the cascade. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`A_0 = 20 * log(sin(N * asin(10^(A / 20))), 10)`
+
+
+    Latex:
+        .. math::
+            A_{0} = 20 \log_{10} \left( \sin{\left(N \operatorname{asin}{\left(10^{\frac{A}{20}} \right)} \right)} \right)
+
+

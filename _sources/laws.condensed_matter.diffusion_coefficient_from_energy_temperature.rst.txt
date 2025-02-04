@@ -21,7 +21,7 @@ result of the thermal motion of molecules.
 
 .. py:data:: diffusion_coefficient
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.diffusion_coefficient`.
+    :attr:`~symplyphysics.symbols.chemistry.diffusion_coefficient`.
 
     Symbol:
         :code:`D`
@@ -47,7 +47,7 @@ result of the thermal motion of molecules.
 
 .. py:data:: maximum_diffusion_coefficient
 
-    Maximum :attr:`~symplyphysics.symbols.classical_mechanics.diffusion_coefficient`, e.g. at infinite temperature.
+    Maximum :attr:`~symplyphysics.symbols.chemistry.diffusion_coefficient`, e.g. at infinite temperature.
 
     Symbol:
         :code:`D_0`

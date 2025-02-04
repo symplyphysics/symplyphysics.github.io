@@ -1,0 +1,88 @@
+Low-pass Chebyshev filter order from distortion and frequencies
+---------------------------------------------------------------
+
+The approximation of the power transmission coefficient of a normalized high-pass filter
+is given by approximating functions of order :math:`n`. The **Chebyshev filter** is
+described by the function :math:`\left(\cos{n \acos{f^{-1}}}\right)^{-1}` of
+frequency :math:`f`. In this case, a low-pass filter is considered. The low-pass filter
+lets through all frequencies from :math:`0` to the set frequency.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies
+
+.. py:data:: filter_order
+
+    Filter order. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: bandwidth_distortion
+
+    Bandwidth distortion, which corresponds to the number of ripples in the bandwidth.
+
+    Symbol:
+        :code:`e`
+
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: band_stop_distortion
+
+    Band-stop distortion, which sets the required suppression level in the filter band-stop.
+
+    Symbol:
+        :code:`e_1`
+
+    Latex:
+        :math:`e_{1}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: cutoff_frequency
+
+    Cut-off frequency, i.e. :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` that corresponds to the maximum
+    bandwidth distortion.
+
+    Symbol:
+        :code:`f_0`
+
+    Latex:
+        :math:`f_{0}`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: band_stop_frequency
+
+    Band-stop frequency, i.e. :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` that corresponds to the maximum
+    band-stop distortion.
+
+    Symbol:
+        :code:`f_1`
+
+    Latex:
+        :math:`f_{1}`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: law
+
+    :code:`N = acos(e_1 / e) / acos(f_1 / f_0)`
+
+
+    Latex:
+        .. math::
+            N = \frac{\operatorname{acos}{\left(\frac{e_{1}}{e} \right)}}{\operatorname{acos}{\left(\frac{f_{1}}{f_{0}} \right)}}
+
+

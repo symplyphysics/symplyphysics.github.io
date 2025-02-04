@@ -1,0 +1,81 @@
+Diode constant of cylindrical diode
+-----------------------------------
+
+In a cylindrical diode, the cathode is located in the center, and the anode is located
+around it in the form of a cylinder. The radius of the anode is usually much larger than
+the radius of the cathode. The diode constant depends on the radii and on the area of
+the anode.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+#. :math:`m_\text{e}` (:code:`m_e`) is :attr:`~symplyphysics.quantities.electron_rest_mass`.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.diodes.diode_constant_of_cylindrical_diode
+
+.. py:data:: diode_constant
+
+    :attr:`~symplyphysics.symbols.electrodynamics.diode_constant`.
+
+    Symbol:
+        :code:`g`
+
+    Latex:
+        :math:`g`
+
+    Dimension:
+        :code:`current/voltage**(3/2)`
+
+.. py:data:: anode_area
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.area` of the anode.
+
+    Symbol:
+        :code:`A_a`
+
+    Latex:
+        :math:`A_\text{a}`
+
+    Dimension:
+        :code:`area`
+
+.. py:data:: anode_radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the anode.
+
+    Symbol:
+        :code:`r_a`
+
+    Latex:
+        :math:`r_\text{a}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: cathode_radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the cathode.
+
+    Symbol:
+        :code:`r_c`
+
+    Latex:
+        :math:`r_\text{c}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`g = 4 * epsilon_0 / 9 * sqrt(2 * e / m_e) * A_a / (r_a^2 * (1 - r_c / r_a)^2)`
+
+
+    Latex:
+        .. math::
+            g = \frac{\frac{4 \varepsilon_0}{9} \sqrt{\frac{2 e}{m_\text{e}}} A_\text{a}}{r_\text{a}^{2} \left(1 - \frac{r_\text{c}}{r_\text{a}}\right)^{2}}
+
+

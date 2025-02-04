@@ -254,6 +254,19 @@ Symbols related to electrodynamics.
     Dimension:
         :code:`voltage/length`
 
+.. py:data:: volumetric_charge_density
+
+    **Volume charge density** is the electric charge per unit volume.
+
+    Symbol:
+        :code:`rho`
+
+    Latex:
+        :math:`\rho`
+
+    Dimension:
+        :code:`charge/volume`
+
 .. py:data:: surface_charge_density
 
     **Surface charge density** is charge per unit surface area.
@@ -494,4 +507,75 @@ Symbols related to electrodynamics.
 
     Dimension:
         :code:`1/(impedance*length)`
+
+.. py:data:: circuit_gain
+
+    **Gain** is a measure of the ability of a two-port circuit (often an amplifier) to
+    increase the power or amplitude of a signal from the input to the output port by adding
+    energy converted from some power supply to the signal.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Gain_(electronics)>`__.
+
+    Symbol:
+        :code:`gain`
+
+    Latex:
+        :math:`\text{gain}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: diode_constant
+
+    **Diode constant** is the constant of proportionality between the anode current or
+    current density and anode voltage. Refer to :ref:`Current from voltage and diode
+    constant in vacuum diode`.
+
+    Symbol:
+        :code:`g`
+
+    Latex:
+        :math:`g`
+
+    Dimension:
+        :code:`current/voltage**(3/2)`
+
+.. py:data:: direct_permeability_coefficient
+
+    **Direct permeability coefficient** characterizes the shielding effect of the grid and
+    shows how much weaker the electrostatic field of the anode is than the field of the grid
+    which affects the cathode area.
+
+    ..
+        TODO: find link
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: attenuation
+
+    Attenuation is a quantity measuring the relative amount of power the circuit reduces
+    from the input signal. It is measured in decibels or other relative units of
+    measurement.
+
+    **Links:**
+
+    #. `Wikipedia, first item of the list <https://en.wikipedia.org/wiki/Attenuator_(electronics)#Attenuator_characteristics>`__.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`dimensionless`
 

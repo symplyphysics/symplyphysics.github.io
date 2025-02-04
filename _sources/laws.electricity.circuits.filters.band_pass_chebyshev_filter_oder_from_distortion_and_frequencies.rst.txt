@@ -1,0 +1,109 @@
+Band pass Chebyshev filter order from distortion and frequency
+--------------------------------------------------------------
+
+The approximation of the power transmission coefficient of a normalized high-pass filter
+is given by approximating functions of order :math:`n`. The **Chebyshev filter** is
+described by the function :math:`\left(\cos{n \acos{f^{-1}}}\right)^{-1}` of
+frequency :math:`f`. In this case, a band-pass filter is considered. The bandpass filter
+only passes frequencies from a certain frequency range.
+
+**Notes:**
+
+#. Also refer to `this link (in Russian) <http://www.dsplib.ru/content/filters/ch8/ch8.html#r4>`__.
+
+..
+    TODO: find link
+    TODO: fix file name
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies
+
+.. py:data:: filter_order
+
+    Chebyshev filter order. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+    Symbol:
+        :code:`N`
+
+    Latex:
+        :math:`N`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: bandwidth_distortion
+
+    Bandwidth distortion, which corresponds to the number of ripples in the bandwidth.
+
+    Symbol:
+        :code:`e`
+
+    Latex:
+        :math:`e`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: band_stop_distortion
+
+    Band-stop distortion, which sets the required suppression level in the filter band-stop.
+
+    Symbol:
+        :code:`e_1`
+
+    Latex:
+        :math:`e_{1}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: cutoff_frequency
+
+    Cut-off frequency, i.e. :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` that corresponds to the maximum
+    bandwidth distortion.
+
+    Symbol:
+        :code:`f_0`
+
+    Latex:
+        :math:`f_{0}`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: band_stop_frequency
+
+    Band-stop frequency, i.e. :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` that corresponds to the maximum
+    band-stop distortion.
+
+    Symbol:
+        :code:`f_1`
+
+    Latex:
+        :math:`f_{1}`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: bandwidth
+
+    Bandwidth. See :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
+
+    Symbol:
+        :code:`Delta(f)`
+
+    Latex:
+        :math:`\Delta f`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: law
+
+    :code:`N = acosh(e / e_1) / acosh((f_1^2 - f_0^2) / (Delta(f) * f_1))`
+
+
+    Latex:
+        .. math::
+            N = \frac{\operatorname{acosh}{\left(\frac{e}{e_{1}} \right)}}{\operatorname{acosh}{\left(\frac{f_{1}^{2} - f_{0}^{2}}{\Delta f f_{1}} \right)}}
+
+

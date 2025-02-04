@@ -1,0 +1,75 @@
+Relative operating bandwidth of quarter-wave transformer
+--------------------------------------------------------
+
+The relative operating bandwidth of a quarter-wave transformer depends on the reflection
+coefficient, the characteristic resistance of the transmission line to which the
+transformer is connected and the load resistance.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer
+
+.. py:data:: relative_bandwidth
+
+    Relative operating bandwidth is the ratio of the bandwidth to the center frequency.
+
+    Symbol:
+        :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: load_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the load.
+
+    Symbol:
+        :code:`R_L`
+
+    Latex:
+        :math:`R_\text{L}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: characteristic_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the transmission line.
+
+    Symbol:
+        :code:`R_0`
+
+    Latex:
+        :math:`R_{0}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: reflection_coefficient
+
+    Reflection coefficient, which is the ratio of the power of the signal reflected from the
+    transformer to the power of the signal incident on the transformer.
+
+    Symbol:
+        :code:`k`
+
+    Latex:
+        :math:`k`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`b = 2 - 4 / pi * acos(2 * k * sqrt(R_L * R_0) / (sqrt(1 - k^2) * Abs(R_L - R_0)))`
+
+
+    Latex:
+        .. math::
+            b = 2 - \frac{4}{\pi} \operatorname{acos}{\left(\frac{2 k \sqrt{R_\text{L} R_{0}}}{\sqrt{1 - k^{2}} \left|{R_\text{L} - R_{0}}\right|} \right)}
+
+
