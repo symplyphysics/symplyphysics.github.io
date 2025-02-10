@@ -1,0 +1,97 @@
+Effective permittivity of coplanar transmission line when distance is greater than thickness
+--------------------------------------------------------------------------------------------
+
+Under the conditions described below, the effective permittivity of a coplanar line can
+be calculated from the relative permittivity of the substrate and the physical
+dimensions of the system.
+
+**Conditions:**
+
+#. :math:`h < \frac{d}{4}`
+#. :math:`0 < \left( \frac{l}{d} \right)^2 \le \frac{1}{2}`
+#. :math:`0 < \left( \frac{\sinh{ \left((\pi l) / (4 h)\right) }}{\sinh{ \left((\pi d) / (4 h)\right) }} \right)^2 \le \frac{1}{2}`
+
+See below for symbol descriptions.
+
+..
+    TODO: fix file name
+    TODO: add link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness
+
+.. py:data:: effective_permittivity
+
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the coplanar line. See :ref:`Effective
+    permittivity of coplanar line`.
+
+    Symbol:
+        :code:`epsilon_eff`
+
+    Latex:
+        :math:`\varepsilon_\text{eff}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the dielectric substrate of the coplanar line.
+
+    Symbol:
+        :code:`epsilon_r`
+
+    Latex:
+        :math:`\varepsilon_\text{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: electrode_distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the first and last electrodes.
+
+    Symbol:
+        :code:`d`
+
+    Latex:
+        :math:`d`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: substrate_thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: central_electrode_width
+
+    Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the central electrode of the coplanar line.
+
+    Symbol:
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`epsilon_eff = 1 + (epsilon_r - 1) / 2 * log(2 * (1 + (1 - (l / d)^2)^(1 / 4)) / (1 - (1 - (l / d)^2)^(1 / 4))) / log(2 * (1 + (1 - (sinh(pi * l / (4 * h)) / sinh(pi * d / (4 * h)))^2)^(1 / 4)) / (1 - (1 - (sinh(pi * l / (4 * h)) / sinh(pi * d / (4 * h)))^2)^(1 / 4)))`
+
+
+    Latex:
+        .. math::
+            \varepsilon_\text{eff} = 1 + \frac{\varepsilon_\text{r} - 1}{2} \frac{\log \left( \frac{2 \left(1 + \left(1 - \left(\frac{l}{d}\right)^{2}\right)^{\frac{1}{4}}\right)}{1 - \left(1 - \left(\frac{l}{d}\right)^{2}\right)^{\frac{1}{4}}} \right)}{\log \left( \frac{2 \left(1 + \left(1 - \left(\frac{\sinh{\left(\frac{\pi l}{4 h} \right)}}{\sinh{\left(\frac{\pi d}{4 h} \right)}}\right)^{2}\right)^{\frac{1}{4}}\right)}{1 - \left(1 - \left(\frac{\sinh{\left(\frac{\pi l}{4 h} \right)}}{\sinh{\left(\frac{\pi d}{4 h} \right)}}\right)^{2}\right)^{\frac{1}{4}}} \right)}
+
+

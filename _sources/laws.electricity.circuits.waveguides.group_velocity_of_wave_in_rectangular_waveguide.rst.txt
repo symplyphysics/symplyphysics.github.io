@@ -35,7 +35,7 @@ electromagnetic properties of the insulator within the waveguide.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -48,7 +48,7 @@ electromagnetic properties of the insulator within the waveguide.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -86,6 +86,6 @@ electromagnetic properties of the insulator within the waveguide.
 
     Latex:
         .. math::
-            v_\text{g} = \frac{c \sqrt{1 - \left(\frac{\lambda}{\lambda_{\text{c}}}\right)^{2}}}{\sqrt{\varepsilon_{r} \mu_{r}}}
+            v_\text{g} = \frac{c \sqrt{1 - \left(\frac{\lambda}{\lambda_{\text{c}}}\right)^{2}}}{\sqrt{\varepsilon_\text{r} \mu_\text{r}}}
 
 

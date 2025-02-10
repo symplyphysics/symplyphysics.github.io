@@ -35,7 +35,7 @@ to accumulate energy as magnetic field.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -86,6 +86,6 @@ to accumulate energy as magnetic field.
 
     Latex:
         .. math::
-            L = \frac{\mu_0 \mu_{r} N^{2} A}{l}
+            L = \frac{\mu_0 \mu_\text{r} N^{2} A}{l}
 
 

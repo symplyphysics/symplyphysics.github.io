@@ -38,7 +38,7 @@ inner conductor, as well as on the relative permeability of the insulator materi
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -76,6 +76,6 @@ inner conductor, as well as on the relative permeability of the insulator materi
 
     Latex:
         .. math::
-            L = \frac{\mu_0 \mu_{r}}{2 \pi} \log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)
+            L = \frac{\mu_0 \mu_\text{r}}{2 \pi} \log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)
 
 

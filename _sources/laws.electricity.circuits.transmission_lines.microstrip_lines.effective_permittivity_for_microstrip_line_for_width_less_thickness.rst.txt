@@ -1,0 +1,92 @@
+Effective permittivity of microstrip line when width is less than thickness
+---------------------------------------------------------------------------
+
+Under the conditions described below, the effective permittivity of the microstrip line
+can be calculated from its relative permittivity and physical dimensions.
+
+**Conditions:**
+
+#. The thickness :math:`h` of the substrate of the microstrip line should be greater
+   than or equal to the width :math:`w` of the microstrip.
+
+   ..
+    TODO: find link.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.microstrip_lines.effective_permittivity_for_microstrip_line_for_width_less_thickness
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the dielectric substrate of the microstrip line.
+
+    Symbol:
+        :code:`epsilon_r`
+
+    Latex:
+        :math:`\varepsilon_\text{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: effective_permittivity
+
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective
+    permittivity of microstrip line`.
+
+    Symbol:
+        :code:`epsilon_eff`
+
+    Latex:
+        :math:`\varepsilon_\text{eff}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: width
+
+    Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`w`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the microstrip line.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: substrate_thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`epsilon_eff = (1 + epsilon_r) / 2 + (epsilon_r - 1) / 2 * (1 / sqrt(1 + 12 * h / w) + 0.04 * (1 - w / h)^2) - (epsilon_r - 1) / 4.6 * t / h * sqrt(h / w)`
+
+
+    Latex:
+        .. math::
+            \varepsilon_\text{eff} = \frac{1 + \varepsilon_\text{r}}{2} + \frac{\varepsilon_\text{r} - 1}{2} \left(\frac{1}{\sqrt{1 + \frac{12 h}{w}}} + 0.04 \left(1 - \frac{w}{h}\right)^{2}\right) - \frac{\varepsilon_\text{r} - 1}{4.6} \frac{t}{h} \sqrt{\frac{h}{w}}
+
+

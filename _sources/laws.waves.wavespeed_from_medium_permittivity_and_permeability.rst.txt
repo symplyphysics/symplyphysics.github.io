@@ -35,7 +35,7 @@ permeability of the medium.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -48,7 +48,7 @@ permeability of the medium.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -60,6 +60,6 @@ permeability of the medium.
 
     Latex:
         .. math::
-            v = \frac{c}{\sqrt{\varepsilon_{r} \mu_{r}}}
+            v = \frac{c}{\sqrt{\varepsilon_\text{r} \mu_\text{r}}}
 
 

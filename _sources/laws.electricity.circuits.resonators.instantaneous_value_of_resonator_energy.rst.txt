@@ -1,0 +1,87 @@
+Instantaneous energy of resonator
+---------------------------------
+
+A rectangular resonator consists of metal walls and a material filling it. The resonator
+is capable of storing energy. The instantaneous value of the resonator energy depends on
+its quality factor, initial energy value, time and angular frequency.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators.instantaneous_value_of_resonator_energy
+
+.. py:data:: instantaneous_energy
+
+    Instantaneous :attr:`~symplyphysics.symbols.basic.energy` of the resonator.
+
+    Symbol:
+        :code:`E`
+
+    Latex:
+        :math:`E`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: initial_energy
+
+    Initial :attr:`~symplyphysics.symbols.basic.energy` of the resonator.
+
+    Symbol:
+        :code:`E_0`
+
+    Latex:
+        :math:`E_{0}`
+
+    Dimension:
+        :code:`energy`
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~instantaneous_energy` is measured.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`\omega`
+
+    Dimension:
+        :code:`angle/time`
+
+.. py:data:: quality_factor
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the resonator.
+
+    Symbol:
+        :code:`Q`
+
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`E = E_0 * exp(-w * t / Q)`
+
+
+    Latex:
+        .. math::
+            E = E_{0} \exp{\left(- \frac{\omega t}{Q} \right)}
+
+

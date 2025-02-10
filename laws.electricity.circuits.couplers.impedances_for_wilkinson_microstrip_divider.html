@@ -130,16 +130,10 @@ connected.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.impedances_for_wilkinson_microstrip_divider.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.impedances_for_wilkinson_microstrip_divider.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">[Z_1,</span> <span class="pre">Z_2,</span> <span class="pre">Z_3,</span> <span class="pre">Z_4]</span> <span class="pre">=</span> <span class="pre">Z_0</span> <span class="pre">*</span> <span class="pre">[sqrt(k</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">+</span> <span class="pre">k^2)),</span> <span class="pre">sqrt((1</span> <span class="pre">+</span> <span class="pre">k^2)</span> <span class="pre">/</span> <span class="pre">k^3),</span> <span class="pre">sqrt(k),</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">sqrt(k)]</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">[Z_1,</span> <span class="pre">Z_2,</span> <span class="pre">Z_3,</span> <span class="pre">Z_4]</span> <span class="pre">=</span> <span class="pre">[Z_0</span> <span class="pre">*</span> <span class="pre">sqrt(k</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">+</span> <span class="pre">k^2)),</span> <span class="pre">Z_0</span> <span class="pre">*</span> <span class="pre">sqrt((1</span> <span class="pre">+</span> <span class="pre">k^2)</span> <span class="pre">/</span> <span class="pre">k^3),</span> <span class="pre">Z_0</span> <span class="pre">*</span> <span class="pre">sqrt(k),</span> <span class="pre">Z_0</span> <span class="pre">/</span> <span class="pre">sqrt(k)]</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\begin{split}\begin{pmatrix} Z_1 \\ Z_2 \\ Z_3 \\ Z_4 \end{pmatrix}
-= Z_0 \begin{pmatrix}
-    \sqrt{k (1 + k^2)} \\
-    \sqrt{\frac{1 + k^2}{k^3}} \\
-    \sqrt{k} \\
-    \frac{1}{\sqrt{k}}
-\end{pmatrix}\end{split}\]</div>
+\[\begin{split}\begin{pmatrix} Z_{1} \\ Z_{2} \\ Z_{3} \\ Z_{4} \end{pmatrix} = \begin{pmatrix} Z_{0} \sqrt{k \left(1 + k^{2}\right)} \\ Z_{0} \sqrt{\frac{1 + k^{2}}{k^{3}}} \\ Z_{0} \sqrt{k} \\ \frac{Z_{0}}{\sqrt{k}} \end{pmatrix}\end{split}\]</div>
 </dd>
 </dl>
 </dd></dl>

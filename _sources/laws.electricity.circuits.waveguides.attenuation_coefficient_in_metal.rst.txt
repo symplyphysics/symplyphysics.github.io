@@ -35,7 +35,7 @@ resistance of the inner conductor.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -48,7 +48,7 @@ resistance of the inner conductor.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -125,6 +125,6 @@ resistance of the inner conductor.
 
     Latex:
         .. math::
-            \mu = \frac{\sqrt{\frac{\varepsilon_{r}}{\mu_{r}}} \left(\frac{R_{\text{i}}}{D_{\text{i}}} + \frac{R_{\text{o}}}{D_{\text{o}}}\right)}{\pi R_0 \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}
+            \mu = \frac{\sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r}}} \left(\frac{R_{\text{i}}}{D_{\text{i}}} + \frac{R_{\text{o}}}{D_{\text{o}}}\right)}{\pi R_0 \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}
 
 

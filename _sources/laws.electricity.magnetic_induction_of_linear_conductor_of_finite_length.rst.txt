@@ -42,7 +42,7 @@ the ends of the conductor to the point and the conductor.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -106,6 +106,6 @@ the ends of the conductor to the point and the conductor.
 
     Latex:
         .. math::
-            B = \frac{\mu_{r} \mu_0 I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}
+            B = \frac{\mu_\text{r} \mu_0 I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}
 
 

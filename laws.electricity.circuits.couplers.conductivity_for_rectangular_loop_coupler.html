@@ -127,16 +127,10 @@ coupler is connected and the power ratio at the outputs.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.conductivity_for_rectangular_loop_coupler.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.conductivity_for_rectangular_loop_coupler.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">[Y_1,</span> <span class="pre">Y_2,</span> <span class="pre">Y_3,</span> <span class="pre">Y_4]</span> <span class="pre">=</span> <span class="pre">Y_0</span> <span class="pre">*</span> <span class="pre">[1</span> <span class="pre">/</span> <span class="pre">sqrt(k),</span> <span class="pre">sqrt((k</span> <span class="pre">+</span> <span class="pre">1)</span> <span class="pre">/</span> <span class="pre">k),</span> <span class="pre">sqrt((k</span> <span class="pre">+</span> <span class="pre">1)</span> <span class="pre">/</span> <span class="pre">k),</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">sqrt(k)]</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">[Y_1,</span> <span class="pre">Y_2,</span> <span class="pre">Y_3,</span> <span class="pre">Y_4]</span> <span class="pre">=</span> <span class="pre">[Y_0</span> <span class="pre">/</span> <span class="pre">sqrt(k),</span> <span class="pre">Y_0</span> <span class="pre">*</span> <span class="pre">sqrt((k</span> <span class="pre">+</span> <span class="pre">1)</span> <span class="pre">/</span> <span class="pre">k),</span> <span class="pre">Y_0</span> <span class="pre">*</span> <span class="pre">sqrt((k</span> <span class="pre">+</span> <span class="pre">1)</span> <span class="pre">/</span> <span class="pre">k),</span> <span class="pre">Y_0</span> <span class="pre">/</span> <span class="pre">sqrt(k)]</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\begin{split}\begin{pmatrix} Y_1 \\ Y_2 \\ Y_3 \\ Y_4 \end{pmatrix}
-= Y_0 \begin{pmatrix}
-    \frac{1}{\sqrt{k}} \\
-    \sqrt{\frac{k + 1}{k}} \\
-    \sqrt{\frac{k + 1}{k}} \\
-    \frac{1}{\sqrt{k}} \\
-\end{pmatrix}\end{split}\]</div>
+\[\begin{split}\begin{pmatrix} Y_{1} \\ Y_{2} \\ Y_{3} \\ Y_{4} \end{pmatrix} = \begin{pmatrix} \frac{Y_{0}}{\sqrt{k}} \\ Y_{0} \sqrt{\frac{k + 1}{k}} \\ Y_{0} \sqrt{\frac{k + 1}{k}} \\ \frac{Y_{0}}{\sqrt{k}} \end{pmatrix}\end{split}\]</div>
 </dd>
 </dl>
 </dd></dl>

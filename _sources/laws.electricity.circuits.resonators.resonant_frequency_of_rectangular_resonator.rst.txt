@@ -1,0 +1,147 @@
+Resonant frequency of rectangular resonator
+-------------------------------------------
+
+A rectangular resonator consists of metal walls and a material filling it.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Links:**
+
+#. `Mahatma Gandhi Central University, formula 17 on page 12 (PDF file) <https://mgcub.ac.in/pdf/material/20200427120209be39415ad1.pdf>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators.resonant_frequency_of_rectangular_resonator
+
+.. py:data:: resonant_frequency
+
+    Resonant :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the resonator.
+
+    Symbol:
+        :code:`f_r`
+
+    Latex:
+        :math:`f_\text{r}`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: first_index
+
+    Index that changes along the :attr:`~width` of the resonator, see
+    :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+    Symbol:
+        :code:`m`
+
+    Latex:
+        :math:`m`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: second_index
+
+    Index that changes along the :attr:`~height` of the resonator, see
+    :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+    Symbol:
+        :code:`n`
+
+    Latex:
+        :math:`n`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: third_index
+
+    Index that changes along the :attr:`~length` of the resonator, see
+    :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+    Symbol:
+        :code:`p`
+
+    Latex:
+        :math:`p`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: width
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the resonator along the axis perpendicular to the axis of wave
+    propagation and to :attr:`~height`.
+
+    Symbol:
+        :code:`l_1`
+
+    Latex:
+        :math:`l_{1}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: height
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the resonator along the axis perpendicular to the axis of wave
+    propagation and to :attr:`~width`.
+
+    Symbol:
+        :code:`l_2`
+
+    Latex:
+        :math:`l_{2}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the resonator along the axis of wave propagation.
+
+    Symbol:
+        :code:`l_3`
+
+    Latex:
+        :math:`l_{3}`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the medium filling the resonator.
+
+    Symbol:
+        :code:`epsilon_r`
+
+    Latex:
+        :math:`\varepsilon_\text{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium filling the resonator.
+
+    Symbol:
+        :code:`mu_r`
+
+    Latex:
+        :math:`\mu_\text{r}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`f_r = c / (2 * sqrt(epsilon_r * mu_r)) * sqrt((m / l_1)^2 + (n / l_2)^2 + (p / l_3)^2)`
+
+
+    Latex:
+        .. math::
+            f_\text{r} = \frac{c}{2 \sqrt{\varepsilon_\text{r} \mu_\text{r}}} \sqrt{\left(\frac{m}{l_{1}}\right)^{2} + \left(\frac{n}{l_{2}}\right)^{2} + \left(\frac{p}{l_{3}}\right)^{2}}
+
+

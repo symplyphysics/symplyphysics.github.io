@@ -39,7 +39,7 @@ frequency of signal and specific conductivity of conductor.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -103,6 +103,6 @@ frequency of signal and specific conductivity of conductor.
 
     Latex:
         .. math::
-            R = \frac{\sqrt{\frac{\omega \mu_0 \mu_{r}}{2 G}}}{2 \pi} \left(\frac{1}{r_{\text{i}}} - \frac{1}{r_{\text{o}}}\right)
+            R = \frac{\sqrt{\frac{\omega \mu_0 \mu_\text{r}}{2 G}}}{2 \pi} \left(\frac{1}{r_{\text{i}}} - \frac{1}{r_{\text{o}}}\right)
 
 

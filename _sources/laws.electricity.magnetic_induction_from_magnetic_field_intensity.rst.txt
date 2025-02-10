@@ -40,7 +40,7 @@ with a magnetic moment.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -65,6 +65,6 @@ with a magnetic moment.
 
     Latex:
         .. math::
-            B = \mu_0 \mu_{r} H
+            B = \mu_0 \mu_\text{r} H
 
 

@@ -43,7 +43,7 @@ wave.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -56,7 +56,7 @@ wave.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -68,6 +68,6 @@ wave.
 
     Latex:
         .. math::
-            \eta = Z_0 \sqrt{\frac{\mu_{r}}{\varepsilon_{r}}}
+            \eta = Z_0 \sqrt{\frac{\mu_\text{r}}{\varepsilon_\text{r}}}
 
 

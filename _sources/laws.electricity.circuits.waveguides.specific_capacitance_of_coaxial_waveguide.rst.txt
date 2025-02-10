@@ -38,7 +38,7 @@ inner conductor, as well as on the relative permittivity of the insulator materi
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -76,6 +76,6 @@ inner conductor, as well as on the relative permittivity of the insulator materi
 
     Latex:
         .. math::
-            C = \frac{2 \pi \varepsilon_0 \varepsilon_{r}}{\log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)}
+            C = \frac{2 \pi \varepsilon_0 \varepsilon_\text{r}}{\log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)}
 
 

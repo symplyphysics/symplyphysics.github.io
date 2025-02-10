@@ -1,0 +1,74 @@
+Quality factor of resonator
+---------------------------
+
+If the resonator is an oscillatory circuit, that quality factor will depend on the
+resistance, inductance, and oscillation frequency.
+
+..
+    TODO: fix file name
+    TODO: replace `2 * pi * f` with `omega`
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator
+
+.. py:data:: quality_factor
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the resonator.
+
+    Symbol:
+        :code:`Q`
+
+    Latex:
+        :math:`Q`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the oscillating circuit.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: inductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the oscillating circuit.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
+.. py:data:: frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the current.
+
+    Symbol:
+        :code:`f`
+
+    Latex:
+        :math:`f`
+
+    Dimension:
+        :code:`frequency`
+
+.. py:data:: law
+
+    :code:`Q = R / (2 * pi * f * L)`
+
+
+    Latex:
+        .. math::
+            Q = \frac{R}{2 \pi f L}
+
+

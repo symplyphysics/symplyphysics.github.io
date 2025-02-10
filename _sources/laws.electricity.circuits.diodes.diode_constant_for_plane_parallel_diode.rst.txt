@@ -59,3 +59,13 @@ electrodes.
     Dimension:
         :code:`length`
 
+.. py:data:: law
+
+    :code:`g = 4 * epsilon_0 / 9 * sqrt(2 * e / m_e) * A / d^2`
+
+
+    Latex:
+        .. math::
+            g = \frac{4 \varepsilon_0}{9} \sqrt{\frac{2 e}{m_\text{e}}} \frac{A}{d^{2}}
+
+

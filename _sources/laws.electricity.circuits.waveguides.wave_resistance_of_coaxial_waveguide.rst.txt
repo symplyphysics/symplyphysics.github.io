@@ -36,7 +36,7 @@ insulator material.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -49,7 +49,7 @@ insulator material.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -87,6 +87,6 @@ insulator material.
 
     Latex:
         .. math::
-            R = \frac{\sqrt{\frac{\mu_0 \mu_{r}}{\varepsilon_0 \varepsilon_{r}}}}{2 \pi} \log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)
+            R = \frac{\sqrt{\frac{\mu_0 \mu_\text{r}}{\varepsilon_0 \varepsilon_\text{r}}}}{2 \pi} \log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)
 
 

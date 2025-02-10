@@ -41,7 +41,7 @@ weakens per unit length of the coaxial waveguide.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -54,7 +54,7 @@ weakens per unit length of the coaxial waveguide.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -95,6 +95,6 @@ weakens per unit length of the coaxial waveguide.
 
     Latex:
         .. math::
-            \mu = \frac{\omega \sqrt{\mu_0 \mu_{r} \varepsilon_0 \varepsilon_{r}} \tan(d)}{2}
+            \mu = \frac{\omega \sqrt{\mu_0 \mu_\text{r} \varepsilon_0 \varepsilon_\text{r}} \tan(d)}{2}
 
 

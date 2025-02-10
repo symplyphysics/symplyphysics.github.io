@@ -1,0 +1,67 @@
+Short circuit inductance of microstrip line
+-------------------------------------------
+
+To create a short circuit based on a microstrip line, a metallized hole can be made in
+the line. Such an opening will have a certain inductance, which can be calculated.
+
+**Notation:**
+
+#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
+
+..
+    TODO: add link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.microstrip_lines.short_circuit_inductance_of_microstrip_line
+
+.. py:data:: inductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of a metallized hole in a microstrip line.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
+.. py:data:: substrate_thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate of the microstrip line.
+
+    Symbol:
+        :code:`h`
+
+    Latex:
+        :math:`h`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the metallized hole.
+
+    Symbol:
+        :code:`r`
+
+    Latex:
+        :math:`r`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: law
+
+    :code:`L = mu_0 / (2 * pi) * (h * log((h + sqrt(r^2 + h^2)) / r) + 1.5 * (r - sqrt(r^2 + h^2)))`
+
+
+    Latex:
+        .. math::
+            L = \frac{\mu_0}{2 \pi} \left(h \log \left( \frac{h + \sqrt{r^{2} + h^{2}}}{r} \right) + 1.5 \left(r - \sqrt{r^{2} + h^{2}}\right)\right)
+
+
+    ..
+        TODO: check if `1.5` isn't really `3/2`
+

@@ -1,0 +1,86 @@
+Resistance of microstrip line
+-----------------------------
+
+The resistance of the microstrip line depends on the physical dimensions of the
+microstrip and the resistance of its surface.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.microstrip_lines.microstrip_line_resistance
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the microstrip line.
+
+    Symbol:
+        :code:`R`
+
+    Latex:
+        :math:`R`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the microstrip.
+
+    Symbol:
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: width
+
+    Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`w`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the microstrip.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: surface_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the surface of the microstrip.
+
+    Symbol:
+        :code:`R_s`
+
+    Latex:
+        :math:`R_\text{s}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: law
+
+    :code:`R = (1.4 + 0.217 * log(w / (5 * t))) * R_s * l / (2 * (w + t))`
+
+
+    Latex:
+        .. math::
+            R = \left(1.4 + 0.217 \log \left( \frac{w}{5 t} \right)\right) \frac{R_\text{s} l}{2 \left(w + t\right)}
+
+

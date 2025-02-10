@@ -34,7 +34,7 @@ the coil and volume of the core.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -72,6 +72,6 @@ the coil and volume of the core.
 
     Latex:
         .. math::
-            E = \frac{\mu_0 \mu_{r} H^{2} V}{2}
+            E = \frac{\mu_0 \mu_\text{r} H^{2} V}{2}
 
 

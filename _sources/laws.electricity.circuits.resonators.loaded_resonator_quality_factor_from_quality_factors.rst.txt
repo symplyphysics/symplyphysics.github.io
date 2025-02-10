@@ -1,0 +1,60 @@
+Quality resonator of loaded resonator from quality factors
+----------------------------------------------------------
+
+The loaded quality factor of the resonator depends on the own quality factor of the
+resonator and the quality factor of the external circuit connected to the resonator.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_quality_factors
+
+.. py:data:: loaded_quality_factor
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the loaded resonator.
+
+    Symbol:
+        :code:`Q_1`
+
+    Latex:
+        :math:`Q_{1}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: quality_factor
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the resonator without load.
+
+    Symbol:
+        :code:`Q_0`
+
+    Latex:
+        :math:`Q_{0}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: external_circuit_quality_factor
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the external circuit.
+
+    Symbol:
+        :code:`Q_e`
+
+    Latex:
+        :math:`Q_\text{e}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`1 / Q_1 = 1 / Q_0 + 1 / Q_e`
+
+
+    Latex:
+        .. math::
+            \frac{1}{Q_{1}} = \frac{1}{Q_{0}} + \frac{1}{Q_\text{e}}
+
+

@@ -35,7 +35,7 @@ and vacuum permittivity.
         :code:`epsilon_r`
 
     Latex:
-        :math:`\varepsilon_{r}`
+        :math:`\varepsilon_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -47,6 +47,6 @@ and vacuum permittivity.
 
     Latex:
         .. math::
-            \varepsilon = \varepsilon_0 \varepsilon_{r}
+            \varepsilon = \varepsilon_0 \varepsilon_\text{r}
 
 

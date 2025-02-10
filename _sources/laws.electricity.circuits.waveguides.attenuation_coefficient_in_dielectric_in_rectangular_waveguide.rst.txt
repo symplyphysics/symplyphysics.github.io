@@ -66,7 +66,7 @@ propagating along it.
     Tangent of the dielectric loss angle of the medium filling the waveguide.
 
     ..
-        TODO: replave with an actual tangent of an angle?
+        TODO: replace with an actual tangent of an angle?
 
     Symbol:
         :code:`tan(d)`

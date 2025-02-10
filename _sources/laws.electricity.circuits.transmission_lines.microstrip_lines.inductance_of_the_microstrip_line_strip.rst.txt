@@ -1,0 +1,85 @@
+Inductance of microstrip line strip
+-----------------------------------
+
+The inductance of the microstrip line can be calculated from its physical dimensions.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.microstrip_lines.inductance_of_the_microstrip_line_strip
+
+.. py:data:: inductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the strip.
+
+    Symbol:
+        :code:`L`
+
+    Latex:
+        :math:`L`
+
+    Dimension:
+        :code:`inductance`
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the microstrip.
+
+    Symbol:
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: width
+
+    Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip.
+
+    Symbol:
+        :code:`w`
+
+    Latex:
+        :math:`w`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the microstrip.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: specific_inductance_constant
+
+    Constant equal to :math:`2 \cdot 10^{-4} \, \frac{\text{H}}{\text{m}}` (:code:`2e-4 H/m`).
+
+    Symbol:
+        :code:`L_0`
+
+    Latex:
+        :math:`L_0`
+
+    Dimension:
+        :code:`inductance/length`
+
+.. py:data:: law
+
+    :code:`L = L_0 * l * (log(l / (w + t)) + 1.193 + 0.2235 / (l / (w + t)))`
+
+
+    Latex:
+        .. math::
+            L = L_0 l \left(\log \left( \frac{l}{w + t} \right) + 1.193 + \frac{0.2235}{\frac{l}{w + t}}\right)
+
+

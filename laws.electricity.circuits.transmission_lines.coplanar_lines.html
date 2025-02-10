@@ -12,10 +12,11 @@
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.circuits.transmission_lines.coplanar_lines.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Microstrip lines" href="laws.electricity.circuits.transmission_lines.microstrip_lines.html" />
+    <link rel="next" title="Effective permittivity of coplanar transmission line when distance is greater than thickness" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html" />
     <link rel="prev" title="Transmission lines" href="laws.electricity.circuits.transmission_lines.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -39,6 +40,57 @@
 <p>A <em>coplanar</em> transmission line is a type of transmission line where the signal strip and
 ground planes are all located on the same side of the substrate. It is commonly used in
 microwave devices and MMICs due to its better isolation compared to microstrip lines.</p>
+<p>By design, the coplanar transmission line is a dielectric substrate on the surface of
+which 3 electrodes are located:</p>
+<a class="reference internal image-reference" href="https://www.tutorialspoint.com/microwave_engineering/images/coplanar_waveguide.jpg"><img alt="https://www.tutorialspoint.com/microwave_engineering/images/coplanar_waveguide.jpg" class="align-center" src="https://www.tutorialspoint.com/microwave_engineering/images/coplanar_waveguide.jpg" style="width: 400px;" />
+</a>
+<p>When a wave propagates along a coplanar line, part of the field goes out, since the
+coplanar line does not have metal borders on all sides, unlike, for example, rectangular
+waveguides.</p>
+<section id="effective-permittivity-of-coplanar-line">
+<h2>Effective permittivity of coplanar line<a class="headerlink" href="#effective-permittivity-of-coplanar-line" title="Link to this heading">¶</a></h2>
+<p>Imagine an environment in which the field will have the same magnitude as the field of a
+coplanar line. The (relative) permittivity of such a medium will be called the
+<em>effective (relative) permittivity</em> of the line.</p>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html">Effective permittivity of coplanar transmission line when distance is greater than thickness</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.effective_permittivity"><code class="docutils literal notranslate"><span class="pre">effective_permittivity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.relative_permittivity"><code class="docutils literal notranslate"><span class="pre">relative_permittivity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.electrode_distance"><code class="docutils literal notranslate"><span class="pre">electrode_distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.substrate_thickness"><code class="docutils literal notranslate"><span class="pre">substrate_thickness</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.central_electrode_width"><code class="docutils literal notranslate"><span class="pre">central_electrode_width</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness.html">Effective permittivity of coplanar transmission line when distance is less than thickness</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness.effective_permittivity"><code class="docutils literal notranslate"><span class="pre">effective_permittivity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness.relative_permittivity"><code class="docutils literal notranslate"><span class="pre">relative_permittivity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.html">Wave impedance of coplanar line when hyperbolic sine ratio squared is between <span class="math notranslate nohighlight">\(0\)</span> and <span class="math notranslate nohighlight">\(\frac{1}{2}\)</span></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.wave_impedance"><code class="docutils literal notranslate"><span class="pre">wave_impedance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.effective_permittivity"><code class="docutils literal notranslate"><span class="pre">effective_permittivity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.electrode_distance"><code class="docutils literal notranslate"><span class="pre">electrode_distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.central_electrode_width"><code class="docutils literal notranslate"><span class="pre">central_electrode_width</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.resistance_constant"><code class="docutils literal notranslate"><span class="pre">resistance_constant</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.html">Wave impedance of coplanar line when length to distance ratio squared is between <span class="math notranslate nohighlight">\(\frac{1}{2}\)</span> and <span class="math notranslate nohighlight">\(1\)</span></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.wave_impedance"><code class="docutils literal notranslate"><span class="pre">wave_impedance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.effective_permittivity"><code class="docutils literal notranslate"><span class="pre">effective_permittivity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.electrode_distance"><code class="docutils literal notranslate"><span class="pre">electrode_distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.central_electrode_width"><code class="docutils literal notranslate"><span class="pre">central_electrode_width</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.resistance_constant"><code class="docutils literal notranslate"><span class="pre">resistance_constant</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.html#symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
 </section>
 
 
@@ -186,7 +238,7 @@ microwave devices and MMICs due to its better isolation compared to microstrip l
   <li><a href="laws.electricity.circuits.html"><strong>Circuits</strong></a><ul>
   <li><a href="laws.electricity.circuits.transmission_lines.html"><strong>Transmission lines</strong></a><ul>
       <li>Previous: <a href="laws.electricity.circuits.transmission_lines.html" title="previous chapter"><strong>Transmission lines</strong></a></li>
-      <li>Next: <a href="laws.electricity.circuits.transmission_lines.microstrip_lines.html" title="next chapter"><strong>Microstrip lines</strong></a></li>
+      <li>Next: <a href="laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness.html" title="next chapter">Effective permittivity of coplanar transmission line when distance is greater than thickness</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

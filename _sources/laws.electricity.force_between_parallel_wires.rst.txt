@@ -43,7 +43,7 @@ wires, as well as on the material and length of the wire.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -107,6 +107,6 @@ wires, as well as on the material and length of the wire.
 
     Latex:
         .. math::
-            F = \frac{\mu_0 \mu_{r} I_{1} I_{2} l}{2 \pi d}
+            F = \frac{\mu_0 \mu_\text{r} I_{1} I_{2} l}{2 \pi d}
 
 

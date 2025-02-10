@@ -38,7 +38,7 @@ frequency, magnetic permeability and specific conductivity of the metal.
         :code:`mu_r`
 
     Latex:
-        :math:`\mu_{r}`
+        :math:`\mu_\text{r}`
 
     Dimension:
         :code:`dimensionless`
@@ -77,6 +77,6 @@ frequency, magnetic permeability and specific conductivity of the metal.
 
     Latex:
         .. math::
-            R = \sqrt{\frac{\omega \mu_0 \mu_{r}}{2 G}}
+            R = \sqrt{\frac{\omega \mu_0 \mu_\text{r}}{2 G}}
 
 
