@@ -81,10 +81,10 @@ for the statistical weight of the system can be found in combinatorics.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Omega</span> <span class="pre">=</span> <span class="pre">factorial(Sum(N_i,</span> <span class="pre">i))</span> <span class="pre">/</span> <span class="pre">Product(factorial(N_i),</span> <span class="pre">i)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Omega</span> <span class="pre">=</span> <span class="pre">factorial(Sum(N[i],</span> <span class="pre">i))</span> <span class="pre">*</span> <span class="pre">Product(factorial(N[i]),</span> <span class="pre">i)^(-1)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\begin{split}\\Omega = \frac{(\sum_i N_i)!}{\prod_i (N_i!)}\end{split}\]</div>
+\[\Omega = \sum_i {N}_{i}! \prod_i {N}_{i}!^{-1}\]</div>
 </dd>
 </dl>
 </dd></dl>
