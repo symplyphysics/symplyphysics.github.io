@@ -1,0 +1,101 @@
+Input impedance of lossy transmission line
+------------------------------------------
+
+Knowing the length of the transmission line, the loss factor of the transmission line
+and its characteristic resistance, as well as the propagation constant and load
+resistance, it is possible to determine the input impedance of the transmission line.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.input_impedance_lossy_transmission_line
+
+.. py:data:: input_impedance
+
+    Input :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the transmission line.
+
+    Symbol:
+        :code:`Z_in`
+
+    Latex:
+        :math:`Z_\text{in}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: load_impedance
+
+    Load :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
+
+    Symbol:
+        :code:`Z_L`
+
+    Latex:
+        :math:`Z_\text{L}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: surge_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
+
+    Symbol:
+        :code:`Z_S`
+
+    Latex:
+        :math:`Z_\text{S}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the transmission line.
+
+    Symbol:
+        :code:`l`
+
+    Latex:
+        :math:`l`
+
+    Dimension:
+        :code:`length`
+
+.. py:data:: propagation_constant
+
+    The **propagation constant** is the inverse of the signal :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`.
+
+    Symbol:
+        :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: loss_factor
+
+    The **loss factor** shows how many times the transmitted signal weakens per unit
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the transmission line.
+
+    Symbol:
+        :code:`a`
+
+    Latex:
+        :math:`a`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: law
+
+    :code:`Z_in = (cosh((a + I * b) * l) * Z_L + Z_S * sinh((a + I * b) * l)) / (Z_L * sinh((a + I * b) * l) / Z_S + cosh((a + I * b) * l))`
+
+
+    Latex:
+        .. math::
+            Z_\text{in} = \frac{\cosh{\left(\left(a + i b\right) l \right)} Z_\text{L} + Z_\text{S} \sinh{\left(\left(a + i b\right) l \right)}}{\frac{Z_\text{L} \sinh{\left(\left(a + i b\right) l \right)}}{Z_\text{S}} + \cosh{\left(\left(a + i b\right) l \right)}}
+
+

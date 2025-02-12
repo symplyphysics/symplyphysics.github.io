@@ -1,0 +1,131 @@
+Admittance matrix equation
+--------------------------
+
+The admittance matrix is one of the ways to describe a microwave device. The
+:math:`Y`-parameters of the device act as elements of this matrix. The matrix equation
+relates the input and output currents to the input and output voltages.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Two-port_network#Admittance_parameters_(y-parameters)>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.total_conductivities_matrix
+
+.. py:data:: input_voltage
+
+    Input :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+
+    Symbol:
+        :code:`V_i`
+
+    Latex:
+        :math:`V_\text{i}`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: output_voltage
+
+    Output :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+
+    Symbol:
+        :code:`V_o`
+
+    Latex:
+        :math:`V_\text{o}`
+
+    Dimension:
+        :code:`voltage`
+
+.. py:data:: input_current
+
+    Input :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+    Symbol:
+        :code:`I_i`
+
+    Latex:
+        :math:`I_\text{i}`
+
+    Dimension:
+        :code:`current`
+
+.. py:data:: output_current
+
+    Output :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+    Symbol:
+        :code:`I_o`
+
+    Latex:
+        :math:`I_\text{o}`
+
+    Dimension:
+        :code:`current`
+
+.. py:data:: input_input_admittance
+
+    Ratio of :attr:`~input_current` to :attr:`~input_voltage` in case of a short circuit at
+    the output. See :attr:`~symplyphysics.symbols.electrodynamics.admittance`.
+
+    Symbol:
+        :code:`Y_ii`
+
+    Latex:
+        :math:`Y_\text{ii}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: input_output_admittance
+
+    Ratio of :attr:`~input_current` to :attr:`~output_voltage` in case of a short circuit at
+    the output. See :attr:`~symplyphysics.symbols.electrodynamics.admittance`.
+
+    Symbol:
+        :code:`Y_io`
+
+    Latex:
+        :math:`Y_\text{io}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: output_input_admittance
+
+    Ratio of :attr:`~output_current` to :attr:`~input_voltage` in case of a short circuit at
+    the output. See :attr:`~symplyphysics.symbols.electrodynamics.admittance`.
+
+    Symbol:
+        :code:`Y_oi`
+
+    Latex:
+        :math:`Y_\text{oi}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: output_output_admittance
+
+    Ratio of :attr:`~output_current` to :attr:`~output_voltage` in case of a short circuit
+    at the output. See :attr:`~symplyphysics.symbols.electrodynamics.admittance`.
+
+    Symbol:
+        :code:`Y_oo`
+
+    Latex:
+        :math:`Y_\text{oo}`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: law
+
+    :code:`[I_i, I_o] = [[Y_ii, Y_io], [Y_oi, Y_oo]]*[V_i, V_o]`
+
+
+    Latex:
+        .. math::
+            \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix} = \begin{pmatrix} Y_\text{ii} & Y_\text{io} \\ Y_\text{oi} & Y_\text{oo} \end{pmatrix} \begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix}
+
+

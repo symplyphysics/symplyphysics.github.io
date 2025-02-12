@@ -1,0 +1,147 @@
+Scattering matrix to transmission matrix
+----------------------------------------
+
+Knowing the parameters of the scattering matrix, it is possible to determine the
+parameters of the transmission matrix.
+
+**Notes:**
+
+#. See :ref:`Transmission matrix`.
+#. See :ref:`Scattering matrix`.
+#. See `this site <https://www.microwaves101.com/encyclopedias/s-parameters>`__ for more
+   information about :math:`S`-parameters.
+#. See this `Wikipedia page <https://en.wikipedia.org/wiki/Scattering_parameters#Two-port_S-parameters>`__
+   for more information about :math:`S`-parameters.
+
+..
+    TODO: make laws for the S-parameters, see second link above.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.scattering_matrix_to_transmission_matrix
+
+.. py:data:: voltage_voltage_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
+
+    Symbol:
+        :code:`A`
+
+    Latex:
+        :math:`A`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: voltage_current_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short circuit at the output.
+
+    Symbol:
+        :code:`B`
+
+    Latex:
+        :math:`B`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: current_voltage_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
+
+    Symbol:
+        :code:`C`
+
+    Latex:
+        :math:`C`
+
+    Dimension:
+        :code:`conductance`
+
+.. py:data:: current_current_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short circuit at the output.
+
+    Symbol:
+        :code:`D`
+
+    Latex:
+        :math:`D`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: surge_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance`.
+
+    Symbol:
+        :code:`Z_S`
+
+    Latex:
+        :math:`Z_\text{S}`
+
+    Dimension:
+        :code:`impedance`
+
+.. py:data:: input_voltage_reflection_coefficient
+
+    Input port :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
+
+    Symbol:
+        :code:`S_ii`
+
+    Latex:
+        :math:`S_\text{ii}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: reverse_voltage_gain
+
+    Reverse :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
+
+    Symbol:
+        :code:`S_io`
+
+    Latex:
+        :math:`S_\text{io}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: forward_voltage_gain
+
+    Forward :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
+
+    Symbol:
+        :code:`S_oi`
+
+    Latex:
+        :math:`S_\text{oi}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: output_voltage_reflection_coefficient
+
+    Output port :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
+
+    Symbol:
+        :code:`S_oo`
+
+    Latex:
+        :math:`S_\text{oo}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: law
+
+    :code:`[[A, B], [C, D]] = [[((1 + S_ii) * (1 - S_oo) + S_io * S_oi) / (2 * S_oi), Z_S * ((1 + S_ii) * (1 + S_oo) - S_io * S_oi) / (2 * S_oi)], [((1 - S_ii) * (1 - S_oo) - S_io * S_oi) / Z_S / (2 * S_oi), ((1 - S_ii) * (1 + S_oo) + S_io * S_oi) / (2 * S_oi)]]`
+
+
+    Latex:
+        .. math::
+            \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} \frac{\left(1 + S_\text{ii}\right) \left(1 - S_\text{oo}\right) + S_\text{io} S_\text{oi}}{2 S_\text{oi}} & \frac{Z_\text{S} \left(\left(1 + S_\text{ii}\right) \left(1 + S_\text{oo}\right) - S_\text{io} S_\text{oi}\right)}{2 S_\text{oi}} \\ \frac{\left(1 - S_\text{ii}\right) \left(1 - S_\text{oo}\right) - S_\text{io} S_\text{oi}}{Z_\text{S}} \frac{1}{2 S_\text{oi}} & \frac{\left(1 - S_\text{ii}\right) \left(1 + S_\text{oo}\right) + S_\text{io} S_\text{oi}}{2 S_\text{oi}} \end{pmatrix}
+
+
