@@ -44,7 +44,7 @@ in series. Then you can find the impedance module of such a circuit.
         :code:`X_C`
 
     Latex:
-        :math:`X_{\text{C}}`
+        :math:`X_\text{C}`
 
     Dimension:
         :code:`impedance`
@@ -54,21 +54,21 @@ in series. Then you can find the impedance module of such a circuit.
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of the coil.
 
     Symbol:
-        :code:`X_C`
+        :code:`X_L`
 
     Latex:
-        :math:`X_{\text{C}}`
+        :math:`X_\text{L}`
 
     Dimension:
         :code:`impedance`
 
 .. py:data:: law
 
-    :code:`abs(Z) = sqrt(R^2 + (X_C - X_C)^2)`
+    :code:`abs(Z) = sqrt(R^2 + (X_L - X_C)^2)`
 
 
     Latex:
         .. math::
-            |Z| = \sqrt{R^{2} + \left(X_{\text{C}} - X_{\text{C}}\right)^{2}}
+            |Z| = \sqrt{R^{2} + \left(X_\text{L} - X_\text{C}\right)^{2}}
 
 

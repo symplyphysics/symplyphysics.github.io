@@ -7,12 +7,7 @@ used to transmit radio frequency electrical signals. The resistance formed by th
 surface of the metal sheath of the cable can be calculated by knowing the signal
 frequency, magnetic permeability and specific conductivity of the metal.
 
-**Notation:**
-
-#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
-
 ..
-    TODO: replace `mu_0 * mu_r` with `mu`
     TODO: find link
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal
@@ -30,18 +25,18 @@ frequency, magnetic permeability and specific conductivity of the metal.
     Dimension:
         :code:`impedance`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the insulator.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the insulator.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: angular_frequency
 
@@ -72,11 +67,11 @@ frequency, magnetic permeability and specific conductivity of the metal.
 
 .. py:data:: law
 
-    :code:`R = sqrt(w * mu_0 * mu_r / (2 * G))`
+    :code:`R = sqrt(w * mu / (2 * G))`
 
 
     Latex:
         .. math::
-            R = \sqrt{\frac{\omega \mu_0 \mu_\text{r}}{2 G}}
+            R = \sqrt{\frac{\omega \mu}{2 G}}
 
 

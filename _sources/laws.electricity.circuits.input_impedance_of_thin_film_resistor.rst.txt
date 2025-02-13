@@ -3,11 +3,10 @@ Input impedance of thin film resistor
 
 Thin-film resistors in integrated design are used in microwave circuits. The input
 impedance of a thin-film resistor depends on its resistance and capacitance, as well as
-on the frequency.
+on the angular frequency.
 
 ..
     TODO: find link
-    NOTE: replace `2 * pi * f` with `omega`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.input_impedance_of_thin_film_resistor
 
@@ -37,18 +36,18 @@ on the frequency.
     Dimension:
         :code:`impedance`
 
-.. py:data:: frequency
+.. py:data:: angular_frequency
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the current.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
 
     Symbol:
-        :code:`f`
+        :code:`w`
 
     Latex:
-        :math:`f`
+        :math:`\omega`
 
     Dimension:
-        :code:`frequency`
+        :code:`angle/time`
 
 .. py:data:: capacitance
 
@@ -65,11 +64,11 @@ on the frequency.
 
 .. py:data:: law
 
-    :code:`Z = R / (1 + I * 2 * pi * f * R * C / 3)`
+    :code:`Z = R / (1 + I * w * R * C / 3)`
 
 
     Latex:
         .. math::
-            Z = \frac{R}{1 + \frac{i 2 \pi f R C}{3}}
+            Z = \frac{R}{1 + \frac{i \omega R C}{3}}
 
 

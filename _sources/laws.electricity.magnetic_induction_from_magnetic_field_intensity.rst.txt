@@ -5,17 +5,12 @@ Magnetic flux density is a physical quantity that is a force characteristic of a
 field, namely, a characteristic of its action on moving charged particles and on bodies
 with a magnetic moment.
 
-**Notation:**
-
-#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
-
 **Links:**
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Magnetic_field#The_H-field>`__.
 
 ..
     TODO: rename file
-    TODO: replace `mu_0 * mu_r` with `mu`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.magnetic_induction_from_magnetic_field_intensity
 
@@ -32,18 +27,18 @@ with a magnetic moment.
     Dimension:
         :code:`magnetic_density`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: magnetic_field_strength
 
@@ -60,11 +55,11 @@ with a magnetic moment.
 
 .. py:data:: law
 
-    :code:`B = mu_0 * mu_r * H`
+    :code:`B = mu * H`
 
 
     Latex:
         .. math::
-            B = \mu_0 \mu_\text{r} H
+            B = \mu H
 
 

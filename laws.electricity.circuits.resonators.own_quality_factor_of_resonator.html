@@ -38,7 +38,7 @@
   <section id="quality-factor-of-resonator">
 <h1>Quality factor of resonator<a class="headerlink" href="#quality-factor-of-resonator" title="Link to this heading">¶</a></h1>
 <p>If the resonator is an oscillatory circuit, that quality factor will depend on the
-resistance, inductance, and oscillation frequency.</p>
+resistance, inductance, and angular oscillation frequency.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.quality_factor">
 <span class="sig-name descname"><span class="pre">quality_factor</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.quality_factor" title="Link to this definition">¶</a></dt>
@@ -82,15 +82,15 @@ resistance, inductance, and oscillation frequency.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.frequency">
-<span class="sig-name descname"><span class="pre">frequency</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.frequency" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.temporal_frequency" title="symplyphysics.symbols.classical_mechanics.temporal_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temporal_frequency</span></code></a> of the current.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.angular_frequency">
+<span class="sig-name descname"><span class="pre">angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.angular_frequency" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the current.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">frequency</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -98,10 +98,10 @@ resistance, inductance, and oscillation frequency.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.own_quality_factor_of_resonator.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Q</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">f</span> <span class="pre">*</span> <span class="pre">L)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Q</span> <span class="pre">=</span> <span class="pre">R</span> <span class="pre">/</span> <span class="pre">(w</span> <span class="pre">*</span> <span class="pre">L)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[Q = \frac{R}{2 \pi f L}\]</div>
+\[Q = \frac{R}{\omega L}\]</div>
 </dd>
 </dl>
 </dd></dl>

@@ -62,7 +62,7 @@ insulator material.
         :code:`r_o`
 
     Latex:
-        :math:`r_{\text{o}}`
+        :math:`r_\text{o}`
 
     Dimension:
         :code:`length`
@@ -75,7 +75,7 @@ insulator material.
         :code:`r_i`
 
     Latex:
-        :math:`r_{\text{i}}`
+        :math:`r_\text{i}`
 
     Dimension:
         :code:`length`
@@ -87,6 +87,6 @@ insulator material.
 
     Latex:
         .. math::
-            R = \frac{\sqrt{\frac{\mu_0 \mu_\text{r}}{\varepsilon_0 \varepsilon_\text{r}}}}{2 \pi} \log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)
+            R = \frac{\sqrt{\frac{\mu_0 \mu_\text{r}}{\varepsilon_0 \varepsilon_\text{r}}}}{2 \pi} \log \left( \frac{r_\text{o}}{r_\text{i}} \right)
 
 

@@ -23,10 +23,10 @@ the microstrip.
     :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` the metal in the microstrip.
 
     Symbol:
-        :code:`mu`
+        :code:`alpha`
 
     Latex:
-        :math:`\mu`
+        :math:`\alpha`
 
     Dimension:
         :code:`1/length`
@@ -112,11 +112,11 @@ the microstrip.
 
 .. py:data:: law
 
-    :code:`mu = 1.38 * R_s / (h * Z_S) * (32 - (w_eff / h)^2) / (32 + (w_eff / h)^2) * (1 + h / w_eff * (1 + 1.25 / pi * t / w + 1.25 / pi * log(4 * pi * w / t)))`
+    :code:`alpha = 1.38 * R_s / (h * Z_S) * (32 - (w_eff / h)^2) / (32 + (w_eff / h)^2) * (1 + h / w_eff * (1 + 1.25 / pi * t / w + 1.25 / pi * log(4 * pi * w / t)))`
 
 
     Latex:
         .. math::
-            \mu = \frac{1.38 R_\text{s}}{h Z_\text{S}} \frac{32 - \left(\frac{w_\text{eff}}{h}\right)^{2}}{32 + \left(\frac{w_\text{eff}}{h}\right)^{2}} \left(1 + \frac{h}{w_\text{eff}} \left(1 + \frac{1.25}{\pi} \frac{t}{w} + \frac{1.25}{\pi} \log \left( \frac{4 \pi w}{t} \right)\right)\right)
+            \alpha = \frac{1.38 R_\text{s}}{h Z_\text{S}} \frac{32 - \left(\frac{w_\text{eff}}{h}\right)^{2}}{32 + \left(\frac{w_\text{eff}}{h}\right)^{2}} \left(1 + \frac{h}{w_\text{eff}} \left(1 + \frac{1.25}{\pi} \frac{t}{w} + \frac{1.25}{\pi} \log \left( \frac{4 \pi w}{t} \right)\right)\right)
 
 

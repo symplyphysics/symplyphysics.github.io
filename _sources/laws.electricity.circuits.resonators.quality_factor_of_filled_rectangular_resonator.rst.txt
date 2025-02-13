@@ -6,10 +6,6 @@ when the resonator is empty, its quality factor depends only on the losses in th
 walls of the resonator. In the case of a filled resonator, the Q factor also depends on
 the losses in the dielectric.
 
-**Notation:**
-
-#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
-
 ..
     TODO: find link
 
@@ -41,29 +37,26 @@ the losses in the dielectric.
     Dimension:
         :code:`dimensionless`
 
-.. py:data:: tangent_dielectric_loss_angle
+.. py:data:: loss_tangent
 
-    Tangent of the dielectric loss angle of the medium filling the waveguide.
-
-    ..
-        TODO: replace with an actual tangent of an angle?
+    :attr:`~symplyphysics.symbols.electrodynamics.dielectric_loss_tangent`.
 
     Symbol:
-        :code:`tan(d)`
+        :code:`tan(delta)`
 
     Latex:
-        :math:`\tan(d)`
+        :math:`\tan \delta`
 
     Dimension:
         :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`Q_1 = 1 / (1 / Q_0 + tan(d))`
+    :code:`Q_1 = 1 / (1 / Q_0 + tan(delta))`
 
 
     Latex:
         .. math::
-            Q_{1} = \frac{1}{\frac{1}{Q_{0}} + \tan(d)}
+            Q_{1} = \frac{1}{\frac{1}{Q_{0}} + \tan \delta}
 
 

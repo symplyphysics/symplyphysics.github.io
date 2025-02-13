@@ -53,9 +53,9 @@ frequency of signal and specific conductivity of conductor.</p>
 <span class="sig-name descname"><span class="pre">attenuation_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal_in_rectangular_waveguide_for_transverse_electric_waves.attenuation_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.attenuation_coefficient" title="symplyphysics.symbols.electrodynamics.attenuation_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">attenuation_coefficient</span></code></a> in metal.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
 </dd>
@@ -69,7 +69,7 @@ frequency of signal and specific conductivity of conductor.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R_s</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_{\text{s}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_\text{s}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
 </dd>
@@ -169,7 +169,7 @@ section.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">lambda_c</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\lambda_{\text{c}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\lambda_\text{c}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
@@ -179,10 +179,10 @@ section.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal_in_rectangular_waveguide_for_transverse_electric_waves.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal_in_rectangular_waveguide_for_transverse_electric_waves.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">R_s</span> <span class="pre">/</span> <span class="pre">R</span> <span class="pre">/</span> <span class="pre">(a</span> <span class="pre">*</span> <span class="pre">sqrt(1</span> <span class="pre">-</span> <span class="pre">(lambda</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">lambda_c))^2))</span> <span class="pre">*</span> <span class="pre">((1</span> <span class="pre">+</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">b)</span> <span class="pre">*</span> <span class="pre">(lambda</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">lambda_c))^2</span> <span class="pre">+</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">(lambda</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">lambda_c))^2)</span> <span class="pre">*</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">b</span> <span class="pre">*</span> <span class="pre">(a</span> <span class="pre">/</span> <span class="pre">b</span> <span class="pre">*</span> <span class="pre">n^2</span> <span class="pre">+</span> <span class="pre">m^2)</span> <span class="pre">/</span> <span class="pre">((a</span> <span class="pre">/</span> <span class="pre">b</span> <span class="pre">*</span> <span class="pre">n)^2</span> <span class="pre">+</span> <span class="pre">m^2))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">R_s</span> <span class="pre">/</span> <span class="pre">R</span> <span class="pre">/</span> <span class="pre">(a</span> <span class="pre">*</span> <span class="pre">sqrt(1</span> <span class="pre">-</span> <span class="pre">(lambda</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">lambda_c))^2))</span> <span class="pre">*</span> <span class="pre">((1</span> <span class="pre">+</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">b)</span> <span class="pre">*</span> <span class="pre">(lambda</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">lambda_c))^2</span> <span class="pre">+</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">(lambda</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">lambda_c))^2)</span> <span class="pre">*</span> <span class="pre">a</span> <span class="pre">/</span> <span class="pre">b</span> <span class="pre">*</span> <span class="pre">(a</span> <span class="pre">/</span> <span class="pre">b</span> <span class="pre">*</span> <span class="pre">n^2</span> <span class="pre">+</span> <span class="pre">m^2)</span> <span class="pre">/</span> <span class="pre">((a</span> <span class="pre">/</span> <span class="pre">b</span> <span class="pre">*</span> <span class="pre">n)^2</span> <span class="pre">+</span> <span class="pre">m^2))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\mu = \frac{2 \frac{R_{\text{s}}}{R}}{a \sqrt{1 - \left(\frac{\lambda}{2 \lambda_{\text{c}}}\right)^{2}}} \left(\left(1 + \frac{a}{b}\right) \left(\frac{\lambda}{2 \lambda_{\text{c}}}\right)^{2} + \frac{\left(1 - \left(\frac{\lambda}{2 \lambda_{\text{c}}}\right)^{2}\right) \frac{a}{b} \left(\frac{a}{b} n^{2} + m^{2}\right)}{\left(\frac{a}{b} n\right)^{2} + m^{2}}\right)\]</div>
+\[\alpha = \frac{2 \frac{R_\text{s}}{R}}{a \sqrt{1 - \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2}}} \left(\left(1 + \frac{a}{b}\right) \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2} + \frac{\left(1 - \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2}\right) \frac{a}{b} \left(\frac{a}{b} n^{2} + m^{2}\right)}{\left(\frac{a}{b} n\right)^{2} + m^{2}}\right)\]</div>
 </dd>
 </dl>
 </dd></dl>

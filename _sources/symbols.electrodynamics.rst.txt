@@ -457,18 +457,19 @@ Symbols related to electrodynamics.
 
 .. py:data:: attenuation_coefficient
 
-    Attenuation coefficient characterizes how easily a volume of material can be penetrated
-    by energy or matter.
+    **Attenuation coefficient**, also called **attenuation constant**, characterizes how
+    easily a volume of material can be penetrated by energy or matter.
 
     **Links:**
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Attenuation_coefficient>`__.
+    #. `Wikipedia, propagation constant <https://en.wikipedia.org/wiki/Propagation_constant#Attenuation_constant>`__.
 
     Symbol:
-        :code:`mu`
+        :code:`alpha`
 
     Latex:
-        :math:`\mu`
+        :math:`\alpha`
 
     Dimension:
         :code:`1/length`
@@ -632,6 +633,60 @@ Symbols related to electrodynamics.
 
     Latex:
         :math:`\text{SWR}`
+
+    Dimension:
+        :code:`dimensionless`
+
+.. py:data:: phase_constant
+
+    The **phase constant**, also called **phase change constant**, is the imaginary
+    component of the **propagation constant** for a plane wave.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Propagation_constant#Phase_constant>`__.
+
+    Symbol:
+        :code:`beta`
+
+    Latex:
+        :math:`\beta`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: propagation_constant
+
+    The **propagation constant** is complex-valued quantity measuring the change undergone
+    by the amplitude and phase of the wave as it propagates in a given direction.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Propagation_constant#>`__.
+
+    Symbol:
+        :code:`gamma`
+
+    Latex:
+        :math:`\gamma`
+
+    Dimension:
+        :code:`1/length`
+
+.. py:data:: dielectric_loss_tangent
+
+    **Dielectric loss tangent** (which is the tangent of the **dielectric loss angle**)
+    quantifies a dielectric material's inherent dissipation of electromagnetic energy.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Dielectric_loss#>`__.
+
+    Symbol:
+        :code:`tan(delta)`
+
+    Latex:
+        :math:`\tan \delta`
 
     Dimension:
         :code:`dimensionless`

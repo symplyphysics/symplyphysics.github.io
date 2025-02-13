@@ -2,8 +2,8 @@ Relative operating bandwidth of quarter-wave transformer
 --------------------------------------------------------
 
 The relative operating bandwidth of a quarter-wave transformer depends on the reflection
-coefficient, the characteristic resistance of the transmission line to which the
-transformer is connected and the load resistance.
+coefficient, the surge impendance of the transmission line to which the transformer is
+connected and the load resistance.
 
 ..
     TODO: find link
@@ -36,40 +36,39 @@ transformer is connected and the load resistance.
     Dimension:
         :code:`impedance`
 
-.. py:data:: characteristic_resistance
+.. py:data:: surge_impedance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the transmission line.
+    :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
 
     Symbol:
-        :code:`R_0`
+        :code:`Z_S`
 
     Latex:
-        :math:`R_{0}`
+        :math:`Z_\text{S}`
 
     Dimension:
         :code:`impedance`
 
 .. py:data:: reflection_coefficient
 
-    Reflection coefficient, which is the ratio of the power of the signal reflected from the
-    transformer to the power of the signal incident on the transformer.
+    :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
     Symbol:
-        :code:`k`
+        :code:`Gamma`
 
     Latex:
-        :math:`k`
+        :math:`\Gamma`
 
     Dimension:
         :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`b = 2 - 4 / pi * acos(2 * k * sqrt(R_L * R_0) / (sqrt(1 - k^2) * Abs(R_L - R_0)))`
+    :code:`b = 2 - 4 / pi * acos(2 * Gamma * sqrt(R_L * Z_S) / (sqrt(1 - Gamma^2) * Abs(R_L - Z_S)))`
 
 
     Latex:
         .. math::
-            b = 2 - \frac{4}{\pi} \operatorname{acos}{\left(\frac{2 k \sqrt{R_\text{L} R_{0}}}{\sqrt{1 - k^{2}} \left|{R_\text{L} - R_{0}}\right|} \right)}
+            b = 2 - \frac{4}{\pi} \operatorname{acos}{\left(\frac{2 \Gamma \sqrt{R_\text{L} Z_\text{S}}}{\sqrt{1 - \Gamma^{2}} \left|{R_\text{L} - Z_\text{S}}\right|} \right)}
 
 

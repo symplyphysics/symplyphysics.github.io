@@ -41,13 +41,9 @@
 will depend on the magnitude of the current and the material. It also depends on the
 perpendicular distance to the conductor and on the angles between the lines drawn from
 the ends of the conductor to the point and the conductor.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\mu_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">mu_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permeability" title="symplyphysics.quantities.vacuum_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permeability</span></code></a>.</p></li>
-</ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
-<li><p>Conductor should be rectilinear;</p></li>
+<li><p>Conductor should be rectilinear.</p></li>
 <li><p>Length of the conductor is finite.</p></li>
 </ol>
 <dl class="py data">
@@ -65,15 +61,15 @@ the ends of the conductor to the point and the conductor.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.relative_permeability">
-<span class="sig-name descname"><span class="pre">relative_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.relative_permeability" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.relative_permeability" title="symplyphysics.symbols.electrodynamics.relative_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">relative_permeability</span></code></a> of the medium.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.absolute_permeability">
+<span class="sig-name descname"><span class="pre">absolute_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.absolute_permeability" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permeability" title="symplyphysics.symbols.electrodynamics.absolute_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a> of the medium.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu_r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu_\text{r}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -137,10 +133,10 @@ the ends of the conductor to the point and the conductor.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">mu_r</span> <span class="pre">*</span> <span class="pre">mu_0</span> <span class="pre">*</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">(cos(phi_1)</span> <span class="pre">+</span> <span class="pre">cos(phi_2))</span> <span class="pre">/</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">d)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">mu</span> <span class="pre">*</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">(cos(phi_1)</span> <span class="pre">+</span> <span class="pre">cos(phi_2))</span> <span class="pre">/</span> <span class="pre">(4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">d)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[B = \frac{\mu_\text{r} \mu_0 I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}\]</div>
+\[B = \frac{\mu I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -222,7 +218,7 @@ the ends of the conductor to the point and the conductor.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_induction_from_magnetic_field_intensity.html">Magnetic flux density from magnetic field strength</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Magnetic flux density of linear conductor of finite length</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.magnetic_flux_density"><code class="docutils literal notranslate"><span class="pre">magnetic_flux_density</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.relative_permeability"><code class="docutils literal notranslate"><span class="pre">relative_permeability</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.absolute_permeability"><code class="docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.current"><code class="docutils literal notranslate"><span class="pre">current</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.first_angle"><code class="docutils literal notranslate"><span class="pre">first_angle</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.second_angle"><code class="docutils literal notranslate"><span class="pre">second_angle</span></code></a></li>

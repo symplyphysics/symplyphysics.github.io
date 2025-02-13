@@ -5,16 +5,11 @@ A coaxial waveguide is an electrical cable consisting of a central conductor and
 shield arranged coaxially and separated by an insulating material or an air gap. It is
 used to transmit radio frequency electrical signals. The specific resistance of a
 coaxial waveguide depends on the radius of the outer conductor and the radius of the
-inner conductor, as well as on the relative permeability of the insulator material,
-frequency of signal and specific conductivity of conductor.
-
-**Notation:**
-
-#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
+inner conductor, as well as on the permeability of the insulator material, frequency of
+signal and specific conductivity of conductor.
 
 ..
     TODO: find link
-    TODO: replace `mu_0 * mu_r` with `mu`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.specific_resistance_of_coaxial_waveguide
 
@@ -31,18 +26,18 @@ frequency of signal and specific conductivity of conductor.
     Dimension:
         :code:`impedance/length`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the insulator.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the insulator.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: angular_frequency
 
@@ -78,7 +73,7 @@ frequency of signal and specific conductivity of conductor.
         :code:`r_o`
 
     Latex:
-        :math:`r_{\text{o}}`
+        :math:`r_\text{o}`
 
     Dimension:
         :code:`length`
@@ -91,18 +86,18 @@ frequency of signal and specific conductivity of conductor.
         :code:`r_i`
 
     Latex:
-        :math:`r_{\text{i}}`
+        :math:`r_\text{i}`
 
     Dimension:
         :code:`length`
 
 .. py:data:: law
 
-    :code:`R = sqrt(w * mu_0 * mu_r / (2 * G)) / (2 * pi) * (1 / r_i - 1 / r_o)`
+    :code:`R = sqrt(w * mu / (2 * G)) / (2 * pi) * (1 / r_i - 1 / r_o)`
 
 
     Latex:
         .. math::
-            R = \frac{\sqrt{\frac{\omega \mu_0 \mu_\text{r}}{2 G}}}{2 \pi} \left(\frac{1}{r_{\text{i}}} - \frac{1}{r_{\text{o}}}\right)
+            R = \frac{\sqrt{\frac{\omega \mu}{2 G}}}{2 \pi} \left(\frac{1}{r_\text{i}} - \frac{1}{r_\text{o}}\right)
 
 

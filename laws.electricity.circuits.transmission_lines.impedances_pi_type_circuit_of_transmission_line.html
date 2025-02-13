@@ -114,26 +114,11 @@ circuit by knowing the transmission line parameters.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.propagation_constant">
 <span class="sig-name descname"><span class="pre">propagation_constant</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.propagation_constant" title="Link to this definition">¶</a></dt>
-<dd><p>The <strong>propagation constant</strong> is the inverse of the signal <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.wavelength" title="symplyphysics.symbols.classical_mechanics.wavelength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">wavelength</span></code></a>.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.propagation_constant" title="symplyphysics.symbols.electrodynamics.propagation_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">propagation_constant</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">b</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">gamma</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(b\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.loss_factor">
-<span class="sig-name descname"><span class="pre">loss_factor</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.loss_factor" title="Link to this definition">¶</a></dt>
-<dd><p>The <strong>loss factor</strong> shows how many times the transmitted signal weakens per unit
-<a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.length" title="symplyphysics.symbols.classical_mechanics.length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">length</span></code></a> of the transmission line.</p>
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(a\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\gamma\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
 </dd>
@@ -143,10 +128,10 @@ circuit by knowing the transmission line parameters.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">[Z_1,</span> <span class="pre">Z_2,</span> <span class="pre">Z_3]</span> <span class="pre">=</span> <span class="pre">[Z_S</span> <span class="pre">*</span> <span class="pre">coth((I</span> <span class="pre">*</span> <span class="pre">b</span> <span class="pre">+</span> <span class="pre">a)</span> <span class="pre">*</span> <span class="pre">l</span> <span class="pre">/</span> <span class="pre">2),</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">coth((I</span> <span class="pre">*</span> <span class="pre">b</span> <span class="pre">+</span> <span class="pre">a)</span> <span class="pre">*</span> <span class="pre">l</span> <span class="pre">/</span> <span class="pre">2),</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">sinh((I</span> <span class="pre">*</span> <span class="pre">b</span> <span class="pre">+</span> <span class="pre">a)</span> <span class="pre">*</span> <span class="pre">l)]</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">[Z_1,</span> <span class="pre">Z_2,</span> <span class="pre">Z_3]</span> <span class="pre">=</span> <span class="pre">[Z_S</span> <span class="pre">*</span> <span class="pre">coth(l</span> <span class="pre">*</span> <span class="pre">gamma</span> <span class="pre">/</span> <span class="pre">2),</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">coth(l</span> <span class="pre">*</span> <span class="pre">gamma</span> <span class="pre">/</span> <span class="pre">2),</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">sinh(l</span> <span class="pre">*</span> <span class="pre">gamma)]</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\begin{split}\begin{pmatrix} Z_{1} \\ Z_{2} \\ Z_{3} \end{pmatrix} = \begin{pmatrix} Z_\text{S} \coth{\left(\frac{\left(i b + a\right) l}{2} \right)} \\ Z_\text{S} \coth{\left(\frac{\left(i b + a\right) l}{2} \right)} \\ Z_\text{S} \sinh{\left(\left(i b + a\right) l \right)} \end{pmatrix}\end{split}\]</div>
+\[\begin{split}\begin{pmatrix} Z_{1} \\ Z_{2} \\ Z_{3} \end{pmatrix} = \begin{pmatrix} Z_\text{S} \coth{\left(\frac{l \gamma}{2} \right)} \\ Z_\text{S} \coth{\left(\frac{l \gamma}{2} \right)} \\ Z_\text{S} \sinh{\left(l \gamma \right)} \end{pmatrix}\end{split}\]</div>
 </dd>
 </dl>
 </dd></dl>

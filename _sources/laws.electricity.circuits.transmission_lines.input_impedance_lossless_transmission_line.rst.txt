@@ -62,26 +62,26 @@ of the transmission line.
     Dimension:
         :code:`length`
 
-.. py:data:: propagation_constant
+.. py:data:: phase_constant
 
-    The **propagation constant** is the inverse of the signal :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`.
+    :attr:`~symplyphysics.symbols.electrodynamics.phase_constant`.
 
     Symbol:
-        :code:`b`
+        :code:`beta`
 
     Latex:
-        :math:`b`
+        :math:`\beta`
 
     Dimension:
         :code:`1/length`
 
 .. py:data:: law
 
-    :code:`Z_in = Z_S * (Z_L + I * Z_S * tan(b * l)) / (Z_S + I * Z_L * tan(b * l))`
+    :code:`Z_in = Z_S * (Z_L + I * Z_S * tan(beta * l)) / (Z_S + I * Z_L * tan(beta * l))`
 
 
     Latex:
         .. math::
-            Z_\text{in} = \frac{Z_\text{S} \left(Z_\text{L} + i Z_\text{S} \tan{\left(b l \right)}\right)}{Z_\text{S} + i Z_\text{L} \tan{\left(b l \right)}}
+            Z_\text{in} = \frac{Z_\text{S} \left(Z_\text{L} + i Z_\text{S} \tan{\left(\beta l \right)}\right)}{Z_\text{S} + i Z_\text{L} \tan{\left(\beta l \right)}}
 
 

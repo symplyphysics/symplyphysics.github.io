@@ -67,10 +67,10 @@ used to transmit radio frequency electrical signals.
     :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the outer conductor.
 
     Symbol:
-        :code:`D_o`
+        :code:`d_o`
 
     Latex:
-        :math:`D_{\text{o}}`
+        :math:`d_\text{o}`
 
     Dimension:
         :code:`length`
@@ -80,10 +80,10 @@ used to transmit radio frequency electrical signals.
     :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the inner conductor.
 
     Symbol:
-        :code:`D_i`
+        :code:`d_i`
 
     Latex:
-        :math:`D_{\text{i}}`
+        :math:`d_\text{i}`
 
     Dimension:
         :code:`length`
@@ -106,11 +106,11 @@ used to transmit radio frequency electrical signals.
 
 .. py:data:: law
 
-    :code:`P = V^2 / Z_0 * sqrt(epsilon_r / (mu_r * log(D_o / D_i)))`
+    :code:`P = V^2 / Z_0 * sqrt(epsilon_r / (mu_r * log(d_o / d_i)))`
 
 
     Latex:
         .. math::
-            P = \frac{V^{2}}{Z_0} \sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r} \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}}
+            P = \frac{V^{2}}{Z_0} \sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r} \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}}
 
 

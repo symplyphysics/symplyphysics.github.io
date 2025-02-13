@@ -61,7 +61,7 @@ and the critical wavelength of the waveguide.
         :code:`lambda_c`
 
     Latex:
-        :math:`\lambda_{\text{c}}`
+        :math:`\lambda_\text{c}`
 
     Dimension:
         :code:`length`
@@ -73,6 +73,6 @@ and the critical wavelength of the waveguide.
 
     Latex:
         .. math::
-            \eta = \eta_{0} \sqrt{1 - \left(\frac{\lambda}{\lambda_{\text{c}}}\right)^{2}}
+            \eta = \eta_{0} \sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}
 
 

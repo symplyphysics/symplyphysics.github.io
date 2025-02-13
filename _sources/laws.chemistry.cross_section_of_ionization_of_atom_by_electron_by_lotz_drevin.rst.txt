@@ -36,7 +36,7 @@ Lotz-Drewin approximation for the ionization cross section is considered.
     :attr:`~symplyphysics.symbols.basic.energy` of ionization of atoms.
 
     Symbol:
-        :code:`E_i`
+        :code:`E_\text{i}`
 
     Latex:
         :math:`E_{\text{i}}`
@@ -98,7 +98,7 @@ Lotz-Drewin approximation for the ionization cross section is considered.
 
 .. py:data:: law
 
-    :code:`sigma = 2.66 * pi * a_0^2 * N * IE_h^2 / E_i^2 * A * (E / E_i - 1) / (E / E_i)^2 * log(1.25 * B * E / E_i)`
+    :code:`sigma = 2.66 * pi * a_0^2 * N * IE_h^2 / E_\text{i}^2 * A * (E / E_\text{i} - 1) / (E / E_\text{i})^2 * log(1.25 * B * E / E_\text{i})`
 
 
     Latex:

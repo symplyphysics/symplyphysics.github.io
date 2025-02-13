@@ -5,15 +5,10 @@ A coaxial waveguide is an electrical cable consisting of a central conductor and
 shield arranged coaxially and separated by an insulating material or an air gap. It is
 used to transmit radio frequency electrical signals. The specific inductance of a
 coaxial waveguide depends on the radius of the outer conductor and the radius of the
-inner conductor, as well as on the relative permeability of the insulator material.
-
-**Notation:**
-
-#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
+inner conductor, as well as on the permeability of the insulator material.
 
 ..
     TODO: find link
-    TODO: replace `mu_0 * mu_r` with `mu`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.specific_inductance_of_coaxial_waveguide
 
@@ -30,18 +25,18 @@ inner conductor, as well as on the relative permeability of the insulator materi
     Dimension:
         :code:`inductance/length`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the insulator.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the insulator.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: outer_radius
 
@@ -51,7 +46,7 @@ inner conductor, as well as on the relative permeability of the insulator materi
         :code:`r_o`
 
     Latex:
-        :math:`r_{\text{o}}`
+        :math:`r_\text{o}`
 
     Dimension:
         :code:`length`
@@ -64,18 +59,18 @@ inner conductor, as well as on the relative permeability of the insulator materi
         :code:`r_i`
 
     Latex:
-        :math:`r_{\text{i}}`
+        :math:`r_\text{i}`
 
     Dimension:
         :code:`length`
 
 .. py:data:: law
 
-    :code:`L = mu_0 * mu_r / (2 * pi) * log(r_o / r_i)`
+    :code:`L = mu / (2 * pi) * log(r_o / r_i)`
 
 
     Latex:
         .. math::
-            L = \frac{\mu_0 \mu_\text{r}}{2 \pi} \log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)
+            L = \frac{\mu}{2 \pi} \log \left( \frac{r_\text{o}}{r_\text{i}} \right)
 
 

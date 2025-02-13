@@ -41,11 +41,7 @@
 shield arranged coaxially and separated by an insulating material or an air gap. It is
 used to transmit radio frequency electrical signals. The specific capacitance of a
 coaxial waveguide depends on the radius of the outer conductor and the radius of the
-inner conductor, as well as on the relative permittivity of the insulator material.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\varepsilon_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">epsilon_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permittivity" title="symplyphysics.quantities.vacuum_permittivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permittivity</span></code></a>.</p></li>
-</ol>
+inner conductor, as well as on the permittivity of the insulator material.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.specific_capacitance">
 <span class="sig-name descname"><span class="pre">specific_capacitance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.specific_capacitance" title="Link to this definition">¶</a></dt>
@@ -61,15 +57,15 @@ inner conductor, as well as on the relative permittivity of the insulator materi
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.relative_permittivity">
-<span class="sig-name descname"><span class="pre">relative_permittivity</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.relative_permittivity" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.relative_permittivity" title="symplyphysics.symbols.electrodynamics.relative_permittivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">relative_permittivity</span></code></a> of the insulator.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.absolute_permittivity">
+<span class="sig-name descname"><span class="pre">absolute_permittivity</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.absolute_permittivity" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permittivity" title="symplyphysics.symbols.electrodynamics.absolute_permittivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permittivity</span></code></a> of the insulator.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">epsilon_r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">epsilon</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varepsilon_\text{r}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varepsilon\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">capacitance/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -81,7 +77,7 @@ inner conductor, as well as on the relative permittivity of the insulator materi
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_o</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_{\text{o}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_\text{o}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
@@ -95,7 +91,7 @@ inner conductor, as well as on the relative permittivity of the insulator materi
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_i</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_{\text{i}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_\text{i}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
@@ -105,10 +101,10 @@ inner conductor, as well as on the relative permittivity of the insulator materi
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">C</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon_0</span> <span class="pre">*</span> <span class="pre">epsilon_r</span> <span class="pre">/</span> <span class="pre">log(r_o</span> <span class="pre">/</span> <span class="pre">r_i)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">C</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">epsilon</span> <span class="pre">/</span> <span class="pre">log(r_o</span> <span class="pre">/</span> <span class="pre">r_i)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[C = \frac{2 \pi \varepsilon_0 \varepsilon_\text{r}}{\log \left( \frac{r_{\text{o}}}{r_{\text{i}}} \right)}\]</div>
+\[C = \frac{2 \pi \varepsilon}{\log \left( \frac{r_\text{o}}{r_\text{i}} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

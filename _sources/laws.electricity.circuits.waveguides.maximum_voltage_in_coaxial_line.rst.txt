@@ -43,10 +43,10 @@ than the critical one — dielectric breakdown intensity.
     :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the outer conductor.
 
     Symbol:
-        :code:`D_o`
+        :code:`d_o`
 
     Latex:
-        :math:`D_{\text{o}}`
+        :math:`d_\text{o}`
 
     Dimension:
         :code:`length`
@@ -56,21 +56,21 @@ than the critical one — dielectric breakdown intensity.
     :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the inner conductor.
 
     Symbol:
-        :code:`D_i`
+        :code:`d_i`
 
     Latex:
-        :math:`D_{\text{i}}`
+        :math:`d_\text{i}`
 
     Dimension:
         :code:`length`
 
 .. py:data:: law
 
-    :code:`V = E * D_o * log(D_o / D_i) / 2`
+    :code:`V = E * d_o * log(d_o / d_i) / 2`
 
 
     Latex:
         .. math::
-            V = \frac{E D_{\text{o}} \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}{2}
+            V = \frac{E d_\text{o} \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}{2}
 
 

@@ -34,7 +34,7 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
     Resonant :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
-        :code:`w_r`
+        :code:`w_\text{r}`
 
     Latex:
         :math:`\omega_{\text{r}}`
@@ -47,7 +47,7 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
     :attr:`~symplyphysics.symbols.basic.energy` stored in the oscillator.
 
     Symbol:
-        :code:`E_stored`
+        :code:`E_\text{stored}`
 
     Latex:
         :math:`E_{\text{stored}}`
@@ -60,7 +60,7 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
     :attr:`~symplyphysics.symbols.basic.power` lost by the oscillator, i.e. the rate of energy dissipating from it.
 
     Symbol:
-        :code:`P_loss`
+        :code:`P_\text{loss}`
 
     Latex:
         :math:`P_{\text{loss}}`
@@ -70,7 +70,7 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
 
 .. py:data:: law
 
-    :code:`Q = w_r * E_stored / P_loss`
+    :code:`Q = w_\text{r} * E_\text{stored} / P_\text{loss}`
 
 
     Latex:

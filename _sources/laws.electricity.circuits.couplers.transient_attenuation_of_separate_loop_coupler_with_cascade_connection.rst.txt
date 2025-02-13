@@ -7,7 +7,6 @@ into the auxiliary channel of the coupler.
 
 ..
     TODO: find link
-    TODO: specify what dimensionless attenuation means
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.transient_attenuation_of_separate_loop_coupler_with_cascade_connection
 

@@ -62,7 +62,7 @@ the
         :code:`lambda_c`
 
     Latex:
-        :math:`\lambda_{\text{c}}`
+        :math:`\lambda_\text{c}`
 
     Dimension:
         :code:`length`
@@ -74,6 +74,6 @@ the
 
     Latex:
         .. math::
-            \eta = \frac{\eta_{0}}{\sqrt{1 - \left(\frac{\lambda}{\lambda_{\text{c}}}\right)^{2}}}
+            \eta = \frac{\eta_{0}}{\sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}}
 
 

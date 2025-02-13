@@ -4,11 +4,10 @@ Quality factor of loaded resonator from circuit parameters
 If the resonator is an oscillatory circuit to which an external circuit is connected,
 then the loaded Q-factor of the resonator depends on the resistances of the resonator
 and the external circuit, as well as on the inductance of the resonator and the
-oscillation frequency.
+angular oscillation frequency.
 
 ..
     TODO: find link
-    TODO: replace `2 * pi * f` with `omega`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_circuit_parameters
 
@@ -51,18 +50,18 @@ oscillation frequency.
     Dimension:
         :code:`inductance`
 
-.. py:data:: frequency
+.. py:data:: angular_frequency
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the current.
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
 
     Symbol:
-        :code:`f`
+        :code:`w`
 
     Latex:
-        :math:`f`
+        :math:`\omega`
 
     Dimension:
-        :code:`frequency`
+        :code:`angle/time`
 
 .. py:data:: load_resistance
 
@@ -79,11 +78,11 @@ oscillation frequency.
 
 .. py:data:: law
 
-    :code:`Q_1 = R_L * R_0 / (2 * pi * f * L * (R_L + R_0))`
+    :code:`Q_1 = R_L * R_0 / (w * L * (R_L + R_0))`
 
 
     Latex:
         .. math::
-            Q_{1} = \frac{R_\text{L} R_{0}}{2 \pi f L \left(R_\text{L} + R_{0}\right)}
+            Q_{1} = \frac{R_\text{L} R_{0}}{\omega L \left(R_\text{L} + R_{0}\right)}
 
 

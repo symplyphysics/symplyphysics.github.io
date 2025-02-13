@@ -39,9 +39,9 @@
 <h1>Wave impedance of odd mode of Lange coupler<a class="headerlink" href="#wave-impedance-of-odd-mode-of-lange-coupler" title="Link to this heading">¶</a></h1>
 <p>The Lange coupler is based on microstrip transmission lines. When this coupler is in
 operation, both even and odd modes are distributed. Knowing the coupling coefficient
-between the coupler segments, the characteristic resistance of the transmission line to
-which the coupler is connected, as well as the number of coupler segments, it is
-possible to calculate the wave impedance for an odd mode.</p>
+between the coupler segments, the surge impedance of the transmission line to which the
+coupler is connected, as well as the number of coupler segments, it is possible to
+calculate the wave impedance for an odd mode.</p>
 <a class="reference internal image-reference" href="https://habrastorage.org/r/w1560/getpro/habr/upload_files/054/d02/c8d/054d02c8d91c06425ae079d34b18ce15.jpeg"><img alt="https://habrastorage.org/r/w1560/getpro/habr/upload_files/054/d02/c8d/054d02c8d91c06425ae079d34b18ce15.jpeg" class="align-center" src="https://habrastorage.org/r/w1560/getpro/habr/upload_files/054/d02/c8d/054d02c8d91c06425ae079d34b18ce15.jpeg" style="width: 400px;" />
 </a>
 <dl class="py data">
@@ -73,13 +73,13 @@ possible to calculate the wave impedance for an odd mode.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.wave_resistance_odd_mode_of_lange_coupler.characteristic_impedance">
-<span class="sig-name descname"><span class="pre">characteristic_impedance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.wave_resistance_odd_mode_of_lange_coupler.characteristic_impedance" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electrical_impedance" title="symplyphysics.symbols.electrodynamics.electrical_impedance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electrical_impedance</span></code></a> of the transmission line.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.wave_resistance_odd_mode_of_lange_coupler.surge_impedance">
+<span class="sig-name descname"><span class="pre">surge_impedance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.wave_resistance_odd_mode_of_lange_coupler.surge_impedance" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.surge_impedance" title="symplyphysics.symbols.electrodynamics.surge_impedance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">surge_impedance</span></code></a> of the transmission line.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Z_0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Z_S</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(Z_{0}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(Z_\text{S}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
 </dd>
@@ -103,10 +103,10 @@ possible to calculate the wave impedance for an odd mode.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.wave_resistance_odd_mode_of_lange_coupler.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.wave_resistance_odd_mode_of_lange_coupler.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">eta_o</span> <span class="pre">=</span> <span class="pre">Z_0</span> <span class="pre">*</span> <span class="pre">sqrt((1</span> <span class="pre">-</span> <span class="pre">C)</span> <span class="pre">/</span> <span class="pre">(1</span> <span class="pre">+</span> <span class="pre">C))</span> <span class="pre">*</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">+</span> <span class="pre">sqrt(C^2</span> <span class="pre">+</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">C^2)</span> <span class="pre">*</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)^2))</span> <span class="pre">/</span> <span class="pre">(C</span> <span class="pre">+</span> <span class="pre">sqrt(C^2</span> <span class="pre">+</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">C^2)</span> <span class="pre">*</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)^2)</span> <span class="pre">+</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">C))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">eta_o</span> <span class="pre">=</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">sqrt((1</span> <span class="pre">-</span> <span class="pre">C)</span> <span class="pre">/</span> <span class="pre">(1</span> <span class="pre">+</span> <span class="pre">C))</span> <span class="pre">*</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">+</span> <span class="pre">sqrt(C^2</span> <span class="pre">+</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">C^2)</span> <span class="pre">*</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)^2))</span> <span class="pre">/</span> <span class="pre">(C</span> <span class="pre">+</span> <span class="pre">sqrt(C^2</span> <span class="pre">+</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">C^2)</span> <span class="pre">*</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)^2)</span> <span class="pre">+</span> <span class="pre">(N</span> <span class="pre">-</span> <span class="pre">1)</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">-</span> <span class="pre">C))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\eta_\text{o} = Z_{0} \sqrt{\frac{1 - C}{1 + C}} \frac{\left(N - 1\right) \left(1 + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}}\right)}{C + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}} + \left(N - 1\right) \left(1 - C\right)}\]</div>
+\[\eta_\text{o} = Z_\text{S} \sqrt{\frac{1 - C}{1 + C}} \frac{\left(N - 1\right) \left(1 + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}}\right)}{C + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}} + \left(N - 1\right) \left(1 - C\right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

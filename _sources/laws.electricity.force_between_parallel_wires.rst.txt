@@ -5,10 +5,6 @@ Two parallel wires through which current flows interact with each other. The int
 of their interaction depends on the magnitude of the current, the distance from the
 wires, as well as on the material and length of the wire.
 
-**Notation:**
-
-#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
-
 **Notes:**
 
 #. Also see `Ampère's force law <https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_force_law>`__.
@@ -16,9 +12,6 @@ wires, as well as on the material and length of the wire.
 **Links:**
 
 #. `Physics LibreTexts, formula 22.10.3 <https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/22%3A_Magnetism/22.10%3A_Magnetic_Force_between_Two_Parallel_Conductors>`__.
-
-..
-    TODO: replace `mu_0 * mu_r` with `mu`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.force_between_parallel_wires
 
@@ -35,18 +28,18 @@ wires, as well as on the material and length of the wire.
     Dimension:
         :code:`force`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: first_current
 
@@ -102,11 +95,11 @@ wires, as well as on the material and length of the wire.
 
 .. py:data:: law
 
-    :code:`F = mu_0 * mu_r * I_1 * I_2 * l / (2 * pi * d)`
+    :code:`F = mu * I_1 * I_2 * l / (2 * pi * d)`
 
 
     Latex:
         .. math::
-            F = \frac{\mu_0 \mu_\text{r} I_{1} I_{2} l}{2 \pi d}
+            F = \frac{\mu I_{1} I_{2} l}{2 \pi d}
 
 

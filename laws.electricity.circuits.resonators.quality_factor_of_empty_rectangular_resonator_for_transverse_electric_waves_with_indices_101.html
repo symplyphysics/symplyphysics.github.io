@@ -40,10 +40,6 @@
 <p>A rectangular resonator consists of metal walls and a material filling it. In the case
 when the resonator is empty, its quality factor depends only on the losses in the metal
 walls of the resonator.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\mu_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">mu_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permeability" title="symplyphysics.quantities.vacuum_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permeability</span></code></a>.</p></li>
-</ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>Applies to transverse electric waves with indices <span class="math notranslate nohighlight">\(m = p = 1, n = 0\)</span>.</p></li>
@@ -77,15 +73,15 @@ walls of the resonator.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101.relative_permeability">
-<span class="sig-name descname"><span class="pre">relative_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101.relative_permeability" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.relative_permeability" title="symplyphysics.symbols.electrodynamics.relative_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">relative_permeability</span></code></a> of the resonator walls.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101.absolute_permeability">
+<span class="sig-name descname"><span class="pre">absolute_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101.absolute_permeability" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permeability" title="symplyphysics.symbols.electrodynamics.absolute_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a> of the resonator walls.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu_r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu_\text{r}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -151,10 +147,10 @@ propagation and to <a class="reference internal" href="#symplyphysics.laws.elect
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Q</span> <span class="pre">=</span> <span class="pre">w</span> <span class="pre">*</span> <span class="pre">mu_0</span> <span class="pre">*</span> <span class="pre">mu_r</span> <span class="pre">*</span> <span class="pre">l_3</span> <span class="pre">*</span> <span class="pre">l_2</span> <span class="pre">*</span> <span class="pre">l_1</span> <span class="pre">*</span> <span class="pre">(l_2^2</span> <span class="pre">+</span> <span class="pre">l_1^2)</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">R_s</span> <span class="pre">*</span> <span class="pre">(l_2^3</span> <span class="pre">*</span> <span class="pre">(l_1</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">l_3)</span> <span class="pre">+</span> <span class="pre">l_1^3</span> <span class="pre">*</span> <span class="pre">(l_2</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">l_3)))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Q</span> <span class="pre">=</span> <span class="pre">w</span> <span class="pre">*</span> <span class="pre">mu</span> <span class="pre">*</span> <span class="pre">l_3</span> <span class="pre">*</span> <span class="pre">l_2</span> <span class="pre">*</span> <span class="pre">l_1</span> <span class="pre">*</span> <span class="pre">(l_2^2</span> <span class="pre">+</span> <span class="pre">l_1^2)</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">R_s</span> <span class="pre">*</span> <span class="pre">(l_2^3</span> <span class="pre">*</span> <span class="pre">(l_1</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">l_3)</span> <span class="pre">+</span> <span class="pre">l_1^3</span> <span class="pre">*</span> <span class="pre">(l_2</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">l_3)))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[Q = \frac{\omega \mu_0 \mu_\text{r} l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}\]</div>
+\[Q = \frac{\omega \mu l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

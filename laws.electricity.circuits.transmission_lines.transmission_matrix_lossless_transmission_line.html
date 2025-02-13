@@ -135,13 +135,13 @@ circuit at the output.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line.propagation_constant">
-<span class="sig-name descname"><span class="pre">propagation_constant</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line.propagation_constant" title="Link to this definition">¶</a></dt>
-<dd><p>The <strong>propagation constant</strong> is the inverse of the signal <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.wavelength" title="symplyphysics.symbols.classical_mechanics.wavelength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">wavelength</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line.phase_constant">
+<span class="sig-name descname"><span class="pre">phase_constant</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line.phase_constant" title="Link to this definition">¶</a></dt>
+<dd><p>:symbols`phase_constant`.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">b</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">beta</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(b\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\beta\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
 </dd>
@@ -151,10 +151,10 @@ circuit at the output.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">[[A,</span> <span class="pre">B],</span> <span class="pre">[C,</span> <span class="pre">D]]</span> <span class="pre">=</span> <span class="pre">[[cos(b</span> <span class="pre">*</span> <span class="pre">l),</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">sin(b</span> <span class="pre">*</span> <span class="pre">l)],</span> <span class="pre">[I</span> <span class="pre">/</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">sin(b</span> <span class="pre">*</span> <span class="pre">l),</span> <span class="pre">cos(b</span> <span class="pre">*</span> <span class="pre">l)]]</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">[[A,</span> <span class="pre">B],</span> <span class="pre">[C,</span> <span class="pre">D]]</span> <span class="pre">=</span> <span class="pre">[[cos(beta</span> <span class="pre">*</span> <span class="pre">l),</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">sin(beta</span> <span class="pre">*</span> <span class="pre">l)],</span> <span class="pre">[I</span> <span class="pre">/</span> <span class="pre">Z_S</span> <span class="pre">*</span> <span class="pre">sin(beta</span> <span class="pre">*</span> <span class="pre">l),</span> <span class="pre">cos(beta</span> <span class="pre">*</span> <span class="pre">l)]]</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\begin{split}\begin{pmatrix} A &amp; B \\ C &amp; D \end{pmatrix} = \begin{pmatrix} \cos{\left(b l \right)} &amp; i Z_\text{S} \sin{\left(b l \right)} \\ \frac{i}{Z_\text{S}} \sin{\left(b l \right)} &amp; \cos{\left(b l \right)} \end{pmatrix}\end{split}\]</div>
+\[\begin{split}\begin{pmatrix} A &amp; B \\ C &amp; D \end{pmatrix} = \begin{pmatrix} \cos{\left(\beta l \right)} &amp; i Z_\text{S} \sin{\left(\beta l \right)} \\ \frac{i}{Z_\text{S}} \sin{\left(\beta l \right)} &amp; \cos{\left(\beta l \right)} \end{pmatrix}\end{split}\]</div>
 </dd>
 </dl>
 </dd></dl>

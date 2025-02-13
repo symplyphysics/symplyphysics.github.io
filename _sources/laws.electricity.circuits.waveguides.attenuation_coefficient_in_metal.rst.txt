@@ -19,10 +19,10 @@ resistance of the inner conductor.
     :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` in metal.
 
     Symbol:
-        :code:`mu`
+        :code:`alpha`
 
     Latex:
-        :math:`\mu`
+        :math:`\alpha`
 
     Dimension:
         :code:`1/length`
@@ -61,7 +61,7 @@ resistance of the inner conductor.
         :code:`R_o`
 
     Latex:
-        :math:`R_{\text{o}}`
+        :math:`R_\text{o}`
 
     Dimension:
         :code:`impedance`
@@ -74,7 +74,7 @@ resistance of the inner conductor.
         :code:`R_i`
 
     Latex:
-        :math:`R_{\text{i}}`
+        :math:`R_\text{i}`
 
     Dimension:
         :code:`impedance`
@@ -84,10 +84,10 @@ resistance of the inner conductor.
     :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the outer conductor.
 
     Symbol:
-        :code:`D_o`
+        :code:`d_o`
 
     Latex:
-        :math:`D_{\text{o}}`
+        :math:`d_\text{o}`
 
     Dimension:
         :code:`length`
@@ -97,10 +97,10 @@ resistance of the inner conductor.
     :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the inner conductor.
 
     Symbol:
-        :code:`D_i`
+        :code:`d_i`
 
     Latex:
-        :math:`D_{\text{i}}`
+        :math:`d_\text{i}`
 
     Dimension:
         :code:`length`
@@ -120,11 +120,11 @@ resistance of the inner conductor.
 
 .. py:data:: law
 
-    :code:`mu = sqrt(epsilon_r / mu_r) * (R_i / D_i + R_o / D_o) / (pi * R_0 * log(D_o / D_i))`
+    :code:`alpha = sqrt(epsilon_r / mu_r) * (R_i / d_i + R_o / d_o) / (pi * R_0 * log(d_o / d_i))`
 
 
     Latex:
         .. math::
-            \mu = \frac{\sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r}}} \left(\frac{R_{\text{i}}}{D_{\text{i}}} + \frac{R_{\text{o}}}{D_{\text{o}}}\right)}{\pi R_0 \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}
+            \alpha = \frac{\sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r}}} \left(\frac{R_\text{i}}{d_\text{i}} + \frac{R_\text{o}}{d_\text{o}}\right)}{\pi R_0 \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}
 
 

@@ -44,9 +44,9 @@ propagating along it.</p>
 <span class="sig-name descname"><span class="pre">attenuation_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide.attenuation_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.attenuation_coefficient" title="symplyphysics.symbols.electrodynamics.attenuation_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">attenuation_coefficient</span></code></a> of the waveguide.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
 </dd>
@@ -96,13 +96,13 @@ propagating along it.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide.tangent_dielectric_loss_angle">
-<span class="sig-name descname"><span class="pre">tangent_dielectric_loss_angle</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide.tangent_dielectric_loss_angle" title="Link to this definition">¶</a></dt>
-<dd><p>Tangent of the dielectric loss angle of the medium filling the waveguide.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide.loss_tangent">
+<span class="sig-name descname"><span class="pre">loss_tangent</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide.loss_tangent" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.dielectric_loss_tangent" title="symplyphysics.symbols.electrodynamics.dielectric_loss_tangent"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dielectric_loss_tangent</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">tan(d)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">tan(delta)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\tan(d)\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\tan \delta\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
@@ -112,10 +112,10 @@ propagating along it.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span> <span class="pre">=</span> <span class="pre">pi</span> <span class="pre">/</span> <span class="pre">lambda</span> <span class="pre">*</span> <span class="pre">eta</span> <span class="pre">/</span> <span class="pre">eta_0</span> <span class="pre">*</span> <span class="pre">tan(d)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha</span> <span class="pre">=</span> <span class="pre">pi</span> <span class="pre">/</span> <span class="pre">lambda</span> <span class="pre">*</span> <span class="pre">eta</span> <span class="pre">/</span> <span class="pre">eta_0</span> <span class="pre">*</span> <span class="pre">tan(delta)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\mu = \frac{\pi}{\lambda} \frac{\eta}{\eta_{0}} \tan(d)\]</div>
+\[\alpha = \frac{\pi}{\lambda} \frac{\eta}{\eta_{0}} \tan \delta\]</div>
 </dd>
 </dl>
 </dd></dl>

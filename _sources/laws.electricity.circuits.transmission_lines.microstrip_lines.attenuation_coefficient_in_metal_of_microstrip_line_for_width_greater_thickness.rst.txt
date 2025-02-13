@@ -21,10 +21,10 @@ the system.
     :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` of the metal of the microstrip line.
 
     Symbol:
-        :code:`mu`
+        :code:`alpha`
 
     Latex:
-        :math:`\mu`
+        :math:`\alpha`
 
     Dimension:
         :code:`1/length`
@@ -124,12 +124,12 @@ the system.
 
 .. py:data:: law
 
-    :code:`mu = a * R_s * Z_S * epsilon_eff / h * (w_eff / h + 0.667 * w_eff / h / (w_eff / h + 1.444)) * (1 + (1 - 1.25 / pi * t / h + 1.25 / pi * log(2 * h / t)) / (w_eff / h))`
+    :code:`alpha = a * R_s * Z_S * epsilon_eff / h * (w_eff / h + 0.667 * w_eff / h / (w_eff / h + 1.444)) * (1 + (1 - 1.25 / pi * t / h + 1.25 / pi * log(2 * h / t)) / (w_eff / h))`
 
 
     Latex:
         .. math::
-            \mu = \frac{a R_\text{s} Z_\text{S} \varepsilon_\text{eff}}{h} \left(\frac{w_\text{eff}}{h} + \frac{0.667 \frac{w_\text{eff}}{h}}{\frac{w_\text{eff}}{h} + 1.444}\right) \left(1 + \frac{1 - \frac{1.25}{\pi} \frac{t}{h} + \frac{1.25}{\pi} \log \left( \frac{2 h}{t} \right)}{\frac{w_\text{eff}}{h}}\right)
+            \alpha = \frac{a R_\text{s} Z_\text{S} \varepsilon_\text{eff}}{h} \left(\frac{w_\text{eff}}{h} + \frac{0.667 \frac{w_\text{eff}}{h}}{\frac{w_\text{eff}}{h} + 1.444}\right) \left(1 + \frac{1 - \frac{1.25}{\pi} \frac{t}{h} + \frac{1.25}{\pi} \log \left( \frac{2 h}{t} \right)}{\frac{w_\text{eff}}{h}}\right)
 
 
     ..

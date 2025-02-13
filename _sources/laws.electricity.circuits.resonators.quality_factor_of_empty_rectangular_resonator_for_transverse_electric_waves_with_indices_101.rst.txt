@@ -5,17 +5,12 @@ A rectangular resonator consists of metal walls and a material filling it. In th
 when the resonator is empty, its quality factor depends only on the losses in the metal
 walls of the resonator.
 
-**Notation:**
-
-#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
-
 **Conditions:**
 
 #. Applies to transverse electric waves with indices :math:`m = p = 1, n = 0`.
 
 ..
     TODO: find link
-    TODO: replace `mu_0 * mu_r` with `mu`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101
 
@@ -45,18 +40,18 @@ walls of the resonator.
     Dimension:
         :code:`angle/time`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the resonator walls.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the resonator walls.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: surface_resistance
 
@@ -114,11 +109,11 @@ walls of the resonator.
 
 .. py:data:: law
 
-    :code:`Q = w * mu_0 * mu_r * l_3 * l_2 * l_1 * (l_2^2 + l_1^2) / (2 * R_s * (l_2^3 * (l_1 + 2 * l_3) + l_1^3 * (l_2 + 2 * l_3)))`
+    :code:`Q = w * mu * l_3 * l_2 * l_1 * (l_2^2 + l_1^2) / (2 * R_s * (l_2^3 * (l_1 + 2 * l_3) + l_1^3 * (l_2 + 2 * l_3)))`
 
 
     Latex:
         .. math::
-            Q = \frac{\omega \mu_0 \mu_\text{r} l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}
+            Q = \frac{\omega \mu l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}
 
 

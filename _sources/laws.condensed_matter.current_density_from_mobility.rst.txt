@@ -32,7 +32,7 @@ electrons and the electric field.
     Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of electrons.
 
     Symbol:
-        :code:`n_e`
+        :code:`n_\text{e}`
 
     Latex:
         :math:`n_{\text{e}}`
@@ -45,7 +45,7 @@ electrons and the electric field.
     Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of holes.
 
     Symbol:
-        :code:`n_h`
+        :code:`n_\text{h}`
 
     Latex:
         :math:`n_{\text{h}}`
@@ -58,7 +58,7 @@ electrons and the electric field.
     :attr:`~symplyphysics.symbols.chemistry.mobility` of electrons.
 
     Symbol:
-        :code:`mu_e`
+        :code:`mu_\text{e}`
 
     Latex:
         :math:`\mu_{\text{e}}`
@@ -71,7 +71,7 @@ electrons and the electric field.
     :attr:`~symplyphysics.symbols.chemistry.mobility` of holes.
 
     Symbol:
-        :code:`mu_h`
+        :code:`mu_\text{h}`
 
     Latex:
         :math:`\mu_{\text{h}}`
@@ -94,7 +94,7 @@ electrons and the electric field.
 
 .. py:data:: law
 
-    :code:`j = e * (-n_e * mu_e + n_h * mu_h) * E`
+    :code:`j = e * (-n_\text{e} * mu_\text{e} + n_\text{h} * mu_\text{h}) * E`
 
 
     Latex:

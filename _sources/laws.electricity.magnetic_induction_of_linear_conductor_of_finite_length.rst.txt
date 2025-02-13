@@ -6,18 +6,13 @@ will depend on the magnitude of the current and the material. It also depends on
 perpendicular distance to the conductor and on the angles between the lines drawn from
 the ends of the conductor to the point and the conductor.
 
-**Notation:**
-
-#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
-
 **Conditions:**
 
-#. Conductor should be rectilinear;
+#. Conductor should be rectilinear.
 #. Length of the conductor is finite.
 
 ..
     TODO: find link
-    TODO: replace `mu_0 * mu_r` with `mu`
 
 .. py:currentmodule:: symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length
 
@@ -34,18 +29,18 @@ the ends of the conductor to the point and the conductor.
     Dimension:
         :code:`magnetic_density`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: current
 
@@ -101,11 +96,11 @@ the ends of the conductor to the point and the conductor.
 
 .. py:data:: law
 
-    :code:`B = mu_r * mu_0 * I * (cos(phi_1) + cos(phi_2)) / (4 * pi * d)`
+    :code:`B = mu * I * (cos(phi_1) + cos(phi_2)) / (4 * pi * d)`
 
 
     Latex:
         .. math::
-            B = \frac{\mu_\text{r} \mu_0 I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}
+            B = \frac{\mu I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}
 
 

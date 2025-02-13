@@ -41,10 +41,6 @@
 when the resonator is empty, its quality factor depends only on the losses in the metal
 walls of the resonator. In the case of a filled resonator, the Q factor also depends on
 the losses in the dielectric.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(c\)</span> (<code class="code docutils literal notranslate"><span class="pre">c</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.speed_of_light" title="symplyphysics.quantities.speed_of_light"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed_of_light</span></code></a>.</p></li>
-</ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.filled_quality_factor">
 <span class="sig-name descname"><span class="pre">filled_quality_factor</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.filled_quality_factor" title="Link to this definition">¶</a></dt>
@@ -74,13 +70,13 @@ the losses in the dielectric.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.tangent_dielectric_loss_angle">
-<span class="sig-name descname"><span class="pre">tangent_dielectric_loss_angle</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.tangent_dielectric_loss_angle" title="Link to this definition">¶</a></dt>
-<dd><p>Tangent of the dielectric loss angle of the medium filling the waveguide.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.loss_tangent">
+<span class="sig-name descname"><span class="pre">loss_tangent</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.loss_tangent" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.dielectric_loss_tangent" title="symplyphysics.symbols.electrodynamics.dielectric_loss_tangent"><code class="xref py py-attr docutils literal notranslate"><span class="pre">dielectric_loss_tangent</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">tan(d)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">tan(delta)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\tan(d)\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\tan \delta\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
@@ -90,10 +86,10 @@ the losses in the dielectric.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Q_1</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(1</span> <span class="pre">/</span> <span class="pre">Q_0</span> <span class="pre">+</span> <span class="pre">tan(d))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Q_1</span> <span class="pre">=</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">(1</span> <span class="pre">/</span> <span class="pre">Q_0</span> <span class="pre">+</span> <span class="pre">tan(delta))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[Q_{1} = \frac{1}{\frac{1}{Q_{0}} + \tan(d)}\]</div>
+\[Q_{1} = \frac{1}{\frac{1}{Q_{0}} + \tan \delta}\]</div>
 </dd>
 </dl>
 </dd></dl>

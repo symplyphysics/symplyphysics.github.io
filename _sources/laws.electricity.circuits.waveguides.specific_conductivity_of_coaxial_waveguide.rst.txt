@@ -1,13 +1,12 @@
 Specific conductivity of coaxial waveguide
 ------------------------------------------
 
-A coaxial waveguide is an electrical cable consisting of a central conductor and a shield arranged coaxially and separated
-by an insulating material or an air gap. It is used to transmit radio frequency electrical signals.
-The specific conductivity of a coaxial waveguide depends on the frequency of signal and the specific capacitance of coaxial waveguide,
-as well as on the tangent of the dielectric loss angle of the insulator material.
-In general, the tangent of the dielectric loss angle is a characteristic of the material. The angle itself is usually not searched for or indicated.
-The tangent of this angle is found as the ratio of the active current to the reactive current. The value of this value for each material is in the tables
-in the public domain.
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals. The specific conductivity of a
+coaxial waveguide depends on the frequency of signal and the specific capacitance of
+coaxial waveguide, as well as on the tangent of the dielectric loss angle of the
+insulator material.
 
 ..
     TODO: find link
@@ -53,29 +52,26 @@ in the public domain.
     Dimension:
         :code:`capacitance/length`
 
-.. py:data:: tangent_dielectric_loss_angle
+.. py:data:: loss_tangent
 
-    Tangent of the dielectric loss angle of the medium filling the waveguide.
-
-    ..
-        TODO: replace with an actual tangent of an angle?
+    :attr:`~symplyphysics.symbols.electrodynamics.dielectric_loss_tangent`.
 
     Symbol:
-        :code:`tan(d)`
+        :code:`tan(delta)`
 
     Latex:
-        :math:`\tan(d)`
+        :math:`\tan \delta`
 
     Dimension:
         :code:`dimensionless`
 
 .. py:data:: law
 
-    :code:`G = w * C * tan(d)`
+    :code:`G = w * C * tan(delta)`
 
 
     Latex:
         .. math::
-            G = \omega C \tan(d)
+            G = \omega C \tan \delta
 
 

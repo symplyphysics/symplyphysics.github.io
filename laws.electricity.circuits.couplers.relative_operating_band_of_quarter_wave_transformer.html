@@ -38,8 +38,8 @@
   <section id="relative-operating-bandwidth-of-quarter-wave-transformer">
 <h1>Relative operating bandwidth of quarter-wave transformer<a class="headerlink" href="#relative-operating-bandwidth-of-quarter-wave-transformer" title="Link to this heading">¶</a></h1>
 <p>The relative operating bandwidth of a quarter-wave transformer depends on the reflection
-coefficient, the characteristic resistance of the transmission line to which the
-transformer is connected and the load resistance.</p>
+coefficient, the surge impendance of the transmission line to which the transformer is
+connected and the load resistance.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.relative_bandwidth">
 <span class="sig-name descname"><span class="pre">relative_bandwidth</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.relative_bandwidth" title="Link to this definition">¶</a></dt>
@@ -69,13 +69,13 @@ transformer is connected and the load resistance.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.characteristic_resistance">
-<span class="sig-name descname"><span class="pre">characteristic_resistance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.characteristic_resistance" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electrical_resistance" title="symplyphysics.symbols.electrodynamics.electrical_resistance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electrical_resistance</span></code></a> of the transmission line.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.surge_impedance">
+<span class="sig-name descname"><span class="pre">surge_impedance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.surge_impedance" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.surge_impedance" title="symplyphysics.symbols.electrodynamics.surge_impedance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">surge_impedance</span></code></a> of the transmission line.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R_0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Z_S</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_{0}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(Z_\text{S}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
 </dd>
@@ -85,12 +85,11 @@ transformer is connected and the load resistance.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.reflection_coefficient">
 <span class="sig-name descname"><span class="pre">reflection_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.reflection_coefficient" title="Link to this definition">¶</a></dt>
-<dd><p>Reflection coefficient, which is the ratio of the power of the signal reflected from the
-transformer to the power of the signal incident on the transformer.</p>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.reflection_coefficient" title="symplyphysics.symbols.electrodynamics.reflection_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">reflection_coefficient</span></code></a>.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Gamma</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Gamma\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
@@ -100,10 +99,10 @@ transformer to the power of the signal incident on the transformer.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">b</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">-</span> <span class="pre">4</span> <span class="pre">/</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">acos(2</span> <span class="pre">*</span> <span class="pre">k</span> <span class="pre">*</span> <span class="pre">sqrt(R_L</span> <span class="pre">*</span> <span class="pre">R_0)</span> <span class="pre">/</span> <span class="pre">(sqrt(1</span> <span class="pre">-</span> <span class="pre">k^2)</span> <span class="pre">*</span> <span class="pre">Abs(R_L</span> <span class="pre">-</span> <span class="pre">R_0)))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">b</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">-</span> <span class="pre">4</span> <span class="pre">/</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">acos(2</span> <span class="pre">*</span> <span class="pre">Gamma</span> <span class="pre">*</span> <span class="pre">sqrt(R_L</span> <span class="pre">*</span> <span class="pre">Z_S)</span> <span class="pre">/</span> <span class="pre">(sqrt(1</span> <span class="pre">-</span> <span class="pre">Gamma^2)</span> <span class="pre">*</span> <span class="pre">Abs(R_L</span> <span class="pre">-</span> <span class="pre">Z_S)))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[b = 2 - \frac{4}{\pi} \operatorname{acos}{\left(\frac{2 k \sqrt{R_\text{L} R_{0}}}{\sqrt{1 - k^{2}} \left|{R_\text{L} - R_{0}}\right|} \right)}\]</div>
+\[b = 2 - \frac{4}{\pi} \operatorname{acos}{\left(\frac{2 \Gamma \sqrt{R_\text{L} Z_\text{S}}}{\sqrt{1 - \Gamma^{2}} \left|{R_\text{L} - Z_\text{S}}\right|} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

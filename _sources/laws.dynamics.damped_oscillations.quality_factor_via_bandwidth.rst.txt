@@ -35,7 +35,7 @@ over which the vibration power is greater than half the power at the resonant fr
     Oscillator's resonant :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
     Symbol:
-        :code:`f_r`
+        :code:`f_\text{r}`
 
     Latex:
         :math:`f_{\text{r}}`
@@ -62,7 +62,7 @@ over which the vibration power is greater than half the power at the resonant fr
 
 .. py:data:: law
 
-    :code:`Q = f_r / Delta(f)`
+    :code:`Q = f_\text{r} / Delta(f)`
 
 
     Latex:

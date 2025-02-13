@@ -40,10 +40,6 @@
 <p>Two parallel wires through which current flows interact with each other. The intensity
 of their interaction depends on the magnitude of the current, the distance from the
 wires, as well as on the material and length of the wire.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\mu_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">mu_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permeability" title="symplyphysics.quantities.vacuum_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permeability</span></code></a>.</p></li>
-</ol>
 <p><strong>Notes:</strong></p>
 <ol class="arabic simple">
 <li><p>Also see <a class="reference external" href="https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_force_law">Ampère’s force law</a>.</p></li>
@@ -67,15 +63,15 @@ wires, as well as on the material and length of the wire.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.force_between_parallel_wires.relative_permeability">
-<span class="sig-name descname"><span class="pre">relative_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.force_between_parallel_wires.relative_permeability" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.relative_permeability" title="symplyphysics.symbols.electrodynamics.relative_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">relative_permeability</span></code></a> of the medium.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.force_between_parallel_wires.absolute_permeability">
+<span class="sig-name descname"><span class="pre">absolute_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.force_between_parallel_wires.absolute_permeability" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permeability" title="symplyphysics.symbols.electrodynamics.absolute_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a> of the medium.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu_r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu_\text{r}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -139,10 +135,10 @@ wires, as well as on the material and length of the wire.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.force_between_parallel_wires.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.force_between_parallel_wires.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">mu_0</span> <span class="pre">*</span> <span class="pre">mu_r</span> <span class="pre">*</span> <span class="pre">I_1</span> <span class="pre">*</span> <span class="pre">I_2</span> <span class="pre">*</span> <span class="pre">l</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">d)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">mu</span> <span class="pre">*</span> <span class="pre">I_1</span> <span class="pre">*</span> <span class="pre">I_2</span> <span class="pre">*</span> <span class="pre">l</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">d)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[F = \frac{\mu_0 \mu_\text{r} I_{1} I_{2} l}{2 \pi d}\]</div>
+\[F = \frac{\mu I_{1} I_{2} l}{2 \pi d}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -215,7 +211,7 @@ wires, as well as on the material and length of the wire.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_via_constant_power_and_time.html">Energy via constant power and time</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Force between parallel wires</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.force_between_parallel_wires.force"><code class="docutils literal notranslate"><span class="pre">force</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.force_between_parallel_wires.relative_permeability"><code class="docutils literal notranslate"><span class="pre">relative_permeability</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.force_between_parallel_wires.absolute_permeability"><code class="docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.force_between_parallel_wires.first_current"><code class="docutils literal notranslate"><span class="pre">first_current</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.force_between_parallel_wires.second_current"><code class="docutils literal notranslate"><span class="pre">second_current</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.force_between_parallel_wires.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>

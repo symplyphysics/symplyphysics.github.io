@@ -9,7 +9,6 @@ to accumulate energy as magnetic field.
 #. `Wikipedia <https://en.wikipedia.org/wiki/Inductance#Inductance_of_a_solenoid>`__.
 
 ..
-    TODO: replace `mu_0 * mu_r` with `mu`
     TODO: fix file name
 
 .. py:currentmodule:: symplyphysics.laws.electricity.inductance_is_proportional_to_turns_squared
@@ -27,18 +26,18 @@ to accumulate energy as magnetic field.
     Dimension:
         :code:`inductance`
 
-.. py:data:: relative_permeability
+.. py:data:: absolute_permeability
 
-    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium within the coil.
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium within the coil.
 
     Symbol:
-        :code:`mu_r`
+        :code:`mu`
 
     Latex:
-        :math:`\mu_\text{r}`
+        :math:`\mu`
 
     Dimension:
-        :code:`dimensionless`
+        :code:`inductance/length`
 
 .. py:data:: turn_count
 
@@ -81,11 +80,11 @@ to accumulate energy as magnetic field.
 
 .. py:data:: law
 
-    :code:`L = mu_0 * mu_r * N^2 * A / l`
+    :code:`L = mu * N^2 * A / l`
 
 
     Latex:
         .. math::
-            L = \frac{\mu_0 \mu_\text{r} N^{2} A}{l}
+            L = \frac{\mu N^{2} A}{l}
 
 

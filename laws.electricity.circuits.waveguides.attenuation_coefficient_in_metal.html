@@ -49,9 +49,9 @@ resistance of the inner conductor.</p>
 <span class="sig-name descname"><span class="pre">attenuation_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal.attenuation_coefficient" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.attenuation_coefficient" title="symplyphysics.symbols.electrodynamics.attenuation_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">attenuation_coefficient</span></code></a> in metal.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">alpha</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\alpha\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
 </dd>
@@ -93,7 +93,7 @@ resistance of the inner conductor.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R_o</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_{\text{o}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_\text{o}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
 </dd>
@@ -107,7 +107,7 @@ resistance of the inner conductor.</p>
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">R_i</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_{\text{i}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(R_\text{i}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
 </dd>
@@ -119,9 +119,9 @@ resistance of the inner conductor.</p>
 <span class="sig-name descname"><span class="pre">outer_diameter</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal.outer_diameter" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.diameter" title="symplyphysics.symbols.classical_mechanics.diameter"><code class="xref py py-attr docutils literal notranslate"><span class="pre">diameter</span></code></a> of the outer conductor.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D_o</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d_o</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D_{\text{o}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d_\text{o}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
@@ -133,9 +133,9 @@ resistance of the inner conductor.</p>
 <span class="sig-name descname"><span class="pre">inner_diameter</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal.inner_diameter" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.diameter" title="symplyphysics.symbols.classical_mechanics.diameter"><code class="xref py py-attr docutils literal notranslate"><span class="pre">diameter</span></code></a> of the inner conductor.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D_i</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d_i</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D_{\text{i}}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(d_\text{i}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
@@ -159,10 +159,10 @@ resistance of the inner conductor.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span> <span class="pre">=</span> <span class="pre">sqrt(epsilon_r</span> <span class="pre">/</span> <span class="pre">mu_r)</span> <span class="pre">*</span> <span class="pre">(R_i</span> <span class="pre">/</span> <span class="pre">D_i</span> <span class="pre">+</span> <span class="pre">R_o</span> <span class="pre">/</span> <span class="pre">D_o)</span> <span class="pre">/</span> <span class="pre">(pi</span> <span class="pre">*</span> <span class="pre">R_0</span> <span class="pre">*</span> <span class="pre">log(D_o</span> <span class="pre">/</span> <span class="pre">D_i))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">alpha</span> <span class="pre">=</span> <span class="pre">sqrt(epsilon_r</span> <span class="pre">/</span> <span class="pre">mu_r)</span> <span class="pre">*</span> <span class="pre">(R_i</span> <span class="pre">/</span> <span class="pre">d_i</span> <span class="pre">+</span> <span class="pre">R_o</span> <span class="pre">/</span> <span class="pre">d_o)</span> <span class="pre">/</span> <span class="pre">(pi</span> <span class="pre">*</span> <span class="pre">R_0</span> <span class="pre">*</span> <span class="pre">log(d_o</span> <span class="pre">/</span> <span class="pre">d_i))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\mu = \frac{\sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r}}} \left(\frac{R_{\text{i}}}{D_{\text{i}}} + \frac{R_{\text{o}}}{D_{\text{o}}}\right)}{\pi R_0 \log \left( \frac{D_{\text{o}}}{D_{\text{i}}} \right)}\]</div>
+\[\alpha = \frac{\sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r}}} \left(\frac{R_\text{i}}{d_\text{i}} + \frac{R_\text{o}}{d_\text{o}}\right)}{\pi R_0 \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}\]</div>
 </dd>
 </dl>
 </dd></dl>

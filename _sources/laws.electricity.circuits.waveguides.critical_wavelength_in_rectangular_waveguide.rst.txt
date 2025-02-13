@@ -18,7 +18,7 @@ propagation mode and the dimensions of the waveguide cross-section.
         :code:`lambda_c`
 
     Latex:
-        :math:`\lambda_{\text{c}}`
+        :math:`\lambda_\text{c}`
 
     Dimension:
         :code:`length`
@@ -84,6 +84,6 @@ propagation mode and the dimensions of the waveguide cross-section.
 
     Latex:
         .. math::
-            \lambda_{\text{c}} = \frac{2}{\sqrt{\left(\frac{m}{a}\right)^{2} + \left(\frac{n}{b}\right)^{2}}}
+            \lambda_\text{c} = \frac{2}{\sqrt{\left(\frac{m}{a}\right)^{2} + \left(\frac{n}{b}\right)^{2}}}
 
 

@@ -41,7 +41,7 @@ angular frequency of the current, the time and the initial phase.
         :code:`I_max`
 
     Latex:
-        :math:`I_{\text{max}}`
+        :math:`I_\text{max}`
 
     Dimension:
         :code:`current`
@@ -92,6 +92,6 @@ angular frequency of the current, the time and the initial phase.
 
     Latex:
         .. math::
-            E = \frac{L I_{\text{max}}^{2}}{2} \cos^{2}{\left(\omega t + \varphi \right)}
+            E = \frac{L I_\text{max}^{2}}{2} \cos^{2}{\left(\omega t + \varphi \right)}
 
 

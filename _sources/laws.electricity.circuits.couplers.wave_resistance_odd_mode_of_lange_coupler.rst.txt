@@ -3,9 +3,9 @@ Wave impedance of odd mode of Lange coupler
 
 The Lange coupler is based on microstrip transmission lines. When this coupler is in
 operation, both even and odd modes are distributed. Knowing the coupling coefficient
-between the coupler segments, the characteristic resistance of the transmission line to
-which the coupler is connected, as well as the number of coupler segments, it is
-possible to calculate the wave impedance for an odd mode.
+between the coupler segments, the surge impedance of the transmission line to which the
+coupler is connected, as well as the number of coupler segments, it is possible to
+calculate the wave impedance for an odd mode.
 
 .. image:: https://habrastorage.org/r/w1560/getpro/habr/upload_files/054/d02/c8d/054d02c8d91c06425ae079d34b18ce15.jpeg
     :width: 400px
@@ -43,15 +43,15 @@ possible to calculate the wave impedance for an odd mode.
     Dimension:
         :code:`dimensionless`
 
-.. py:data:: characteristic_impedance
+.. py:data:: surge_impedance
 
-    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the transmission line.
+    :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
 
     Symbol:
-        :code:`Z_0`
+        :code:`Z_S`
 
     Latex:
-        :math:`Z_{0}`
+        :math:`Z_\text{S}`
 
     Dimension:
         :code:`impedance`
@@ -71,11 +71,11 @@ possible to calculate the wave impedance for an odd mode.
 
 .. py:data:: law
 
-    :code:`eta_o = Z_0 * sqrt((1 - C) / (1 + C)) * (N - 1) * (1 + sqrt(C^2 + (1 - C^2) * (N - 1)^2)) / (C + sqrt(C^2 + (1 - C^2) * (N - 1)^2) + (N - 1) * (1 - C))`
+    :code:`eta_o = Z_S * sqrt((1 - C) / (1 + C)) * (N - 1) * (1 + sqrt(C^2 + (1 - C^2) * (N - 1)^2)) / (C + sqrt(C^2 + (1 - C^2) * (N - 1)^2) + (N - 1) * (1 - C))`
 
 
     Latex:
         .. math::
-            \eta_\text{o} = Z_{0} \sqrt{\frac{1 - C}{1 + C}} \frac{\left(N - 1\right) \left(1 + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}}\right)}{C + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}} + \left(N - 1\right) \left(1 - C\right)}
+            \eta_\text{o} = Z_\text{S} \sqrt{\frac{1 - C}{1 + C}} \frac{\left(N - 1\right) \left(1 + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}}\right)}{C + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}} + \left(N - 1\right) \left(1 - C\right)}
 
 

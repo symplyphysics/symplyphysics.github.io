@@ -18,10 +18,10 @@ frequency of signal and specific conductivity of conductor.
     :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` in metal.
 
     Symbol:
-        :code:`mu`
+        :code:`alpha`
 
     Latex:
-        :math:`\mu`
+        :math:`\alpha`
 
     Dimension:
         :code:`1/length`
@@ -34,7 +34,7 @@ frequency of signal and specific conductivity of conductor.
         :code:`R_s`
 
     Latex:
-        :math:`R_{\text{s}}`
+        :math:`R_\text{s}`
 
     Dimension:
         :code:`impedance`
@@ -127,18 +127,18 @@ frequency of signal and specific conductivity of conductor.
         :code:`lambda_c`
 
     Latex:
-        :math:`\lambda_{\text{c}}`
+        :math:`\lambda_\text{c}`
 
     Dimension:
         :code:`length`
 
 .. py:data:: law
 
-    :code:`mu = 2 * R_s / R * (n^2 * (a / b)^3 + m^2) / (a * sqrt(1 - (lambda / (2 * lambda_c))^2) * (n^2 * (a / b)^2 + m^2))`
+    :code:`alpha = 2 * R_s / R * (n^2 * (a / b)^3 + m^2) / (a * sqrt(1 - (lambda / (2 * lambda_c))^2) * (n^2 * (a / b)^2 + m^2))`
 
 
     Latex:
         .. math::
-            \mu = \frac{2 \frac{R_{\text{s}}}{R} \left(n^{2} \left(\frac{a}{b}\right)^{3} + m^{2}\right)}{a \sqrt{1 - \left(\frac{\lambda}{2 \lambda_{\text{c}}}\right)^{2}} \left(n^{2} \left(\frac{a}{b}\right)^{2} + m^{2}\right)}
+            \alpha = \frac{2 \frac{R_\text{s}}{R} \left(n^{2} \left(\frac{a}{b}\right)^{3} + m^{2}\right)}{a \sqrt{1 - \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2}} \left(n^{2} \left(\frac{a}{b}\right)^{2} + m^{2}\right)}
 
 

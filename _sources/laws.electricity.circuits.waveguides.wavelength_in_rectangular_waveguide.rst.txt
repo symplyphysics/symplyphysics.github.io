@@ -17,10 +17,10 @@ always longer than that in free space.
     waveguide.
 
     Symbol:
-        :code:`lambda_w`
+        :code:`lambda_g`
 
     Latex:
-        :math:`\lambda_{\text{w}}`
+        :math:`\lambda_\text{g}`
 
     Dimension:
         :code:`length`
@@ -46,18 +46,18 @@ always longer than that in free space.
         :code:`lambda_c`
 
     Latex:
-        :math:`\lambda_{\text{c}}`
+        :math:`\lambda_\text{c}`
 
     Dimension:
         :code:`length`
 
 .. py:data:: law
 
-    :code:`lambda_w = lambda / sqrt(1 - (lambda / lambda_c)^2)`
+    :code:`lambda_g = lambda / sqrt(1 - (lambda / lambda_c)^2)`
 
 
     Latex:
         .. math::
-            \lambda_{\text{w}} = \frac{\lambda}{\sqrt{1 - \left(\frac{\lambda}{\lambda_{\text{c}}}\right)^{2}}}
+            \lambda_\text{g} = \frac{\lambda}{\sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}}
 
 

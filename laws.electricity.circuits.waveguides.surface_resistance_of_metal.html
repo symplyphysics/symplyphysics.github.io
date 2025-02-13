@@ -42,10 +42,6 @@ shield arranged coaxially and separated by an insulating material or an air gap.
 used to transmit radio frequency electrical signals. The resistance formed by the
 surface of the metal sheath of the cable can be calculated by knowing the signal
 frequency, magnetic permeability and specific conductivity of the metal.</p>
-<p><strong>Notation:</strong></p>
-<ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\mu_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">mu_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.vacuum_permeability" title="symplyphysics.quantities.vacuum_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">vacuum_permeability</span></code></a>.</p></li>
-</ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.resistance">
 <span class="sig-name descname"><span class="pre">resistance</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.resistance" title="Link to this definition">¶</a></dt>
@@ -61,15 +57,15 @@ frequency, magnetic permeability and specific conductivity of the metal.</p>
 </dd></dl>
 
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.relative_permeability">
-<span class="sig-name descname"><span class="pre">relative_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.relative_permeability" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.relative_permeability" title="symplyphysics.symbols.electrodynamics.relative_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">relative_permeability</span></code></a> of the insulator.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.absolute_permeability">
+<span class="sig-name descname"><span class="pre">absolute_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.absolute_permeability" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permeability" title="symplyphysics.symbols.electrodynamics.absolute_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a> of the insulator.</p>
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu_r</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu_\text{r}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance/length</span></code></p>
 </dd>
 </dl>
 </dd></dl>
@@ -106,10 +102,10 @@ frequency, magnetic permeability and specific conductivity of the metal.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">R</span> <span class="pre">=</span> <span class="pre">sqrt(w</span> <span class="pre">*</span> <span class="pre">mu_0</span> <span class="pre">*</span> <span class="pre">mu_r</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">G))</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">R</span> <span class="pre">=</span> <span class="pre">sqrt(w</span> <span class="pre">*</span> <span class="pre">mu</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">G))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[R = \sqrt{\frac{\omega \mu_0 \mu_\text{r}}{2 G}}\]</div>
+\[R = \sqrt{\frac{\omega \mu}{2 G}}\]</div>
 </dd>
 </dl>
 </dd></dl>
