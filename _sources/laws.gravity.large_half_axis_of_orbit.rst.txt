@@ -10,10 +10,9 @@ rotates and the orbital velocity.
 
 ..
     TODO: find link
-    TODO: move to `gravity`?
     TODO: rename file
 
-.. py:currentmodule:: symplyphysics.laws.astronomy.large_half_axis_of_orbit
+.. py:currentmodule:: symplyphysics.laws.gravity.large_half_axis_of_orbit
 
 .. py:data:: semimajor_axis
 

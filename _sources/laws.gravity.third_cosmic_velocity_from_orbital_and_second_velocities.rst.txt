@@ -10,9 +10,8 @@ that it can overcome the gravitational attraction of the Earth and the Sun and l
 
 ..
     TODO: find English link
-    TODO: move to `gravity`?
 
-.. py:currentmodule:: symplyphysics.laws.astronomy.third_cosmic_velocity_from_orbital_and_second_velocities
+.. py:currentmodule:: symplyphysics.laws.gravity.third_cosmic_velocity_from_orbital_and_second_velocities
 
 .. py:data:: third_cosmic_speed
 

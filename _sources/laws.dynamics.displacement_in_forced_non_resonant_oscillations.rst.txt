@@ -24,13 +24,32 @@ and (2) the angular frequency of the external force driving the oscillations.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.displacement_in_forced_non_resonant_oscillations
 
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+    Symbol:
+        :code:`t`
+
+    Latex:
+        :math:`t`
+
+    Dimension:
+        :code:`time`
+
 .. py:data:: displacement
 
     The particular solution of the forced oscillations equation that accounts for the
-    oscillator's response to the driving force.
+    oscillator's response to the driving force. See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
 
     Symbol:
         :code:`q(t)`
+
+    Latex:
+        :math:`q{\left(t \right)}`
+
+    Dimension:
+        :code:`length`
 
 .. py:data:: mass
 
@@ -96,19 +115,6 @@ and (2) the angular frequency of the external force driving the oscillations.
 
     Dimension:
         :code:`angle`
-
-.. py:data:: time
-
-    :attr:`~symplyphysics.symbols.basic.time`.
-
-    Symbol:
-        :code:`t`
-
-    Latex:
-        :math:`t`
-
-    Dimension:
-        :code:`time`
 
 .. py:data:: law
 

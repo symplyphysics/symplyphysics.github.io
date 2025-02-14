@@ -15,9 +15,8 @@ angular speed of the Earth's rotation around its axis.
 
 ..
     TODO: find link with exact formula
-    TODO: move law to `gravity`?
 
-.. py:currentmodule:: symplyphysics.laws.astronomy.radius_of_geostationary_orbit
+.. py:currentmodule:: symplyphysics.laws.gravity.radius_of_geostationary_orbit
 
 .. py:data:: orbital_radius
 

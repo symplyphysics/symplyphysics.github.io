@@ -18,10 +18,7 @@ planet and the orbit configuration parameters.
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Orbital_speed#Instantaneous_orbital_speed>`__.
 
-..
-    TODO: move law to gravity?
-
-.. py:currentmodule:: symplyphysics.laws.astronomy.orbital_velocity_from_length_of_large_half_axis_and_planet_mass
+.. py:currentmodule:: symplyphysics.laws.gravity.orbital_velocity_from_length_of_large_half_axis_and_planet_mass
 
 .. py:data:: orbital_speed
 

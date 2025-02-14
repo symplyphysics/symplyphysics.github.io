@@ -9,7 +9,7 @@ used to judge the elongation of the elliptical orbit.
 
 #. `Wikipedia, ellipse <https://en.wikipedia.org/wiki/Eccentricity_(mathematics)#Standard_form>`__.
 
-.. py:currentmodule:: symplyphysics.laws.astronomy.eccentricity_of_orbit
+.. py:currentmodule:: symplyphysics.laws.gravity.eccentricity_of_orbit
 
 .. py:data:: eccentricity
 

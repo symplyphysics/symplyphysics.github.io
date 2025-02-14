@@ -14,9 +14,8 @@ when aiming range is at planet radius.
 
 ..
     TODO find link
-    TODO move law to `gravity`?
 
-.. py:currentmodule:: symplyphysics.laws.astronomy.maximum_angle_of_rotation_during_gravitational_maneuver
+.. py:currentmodule:: symplyphysics.laws.gravity.maximum_angle_of_rotation_during_gravitational_maneuver
 
 .. py:data:: maximum_angle
 

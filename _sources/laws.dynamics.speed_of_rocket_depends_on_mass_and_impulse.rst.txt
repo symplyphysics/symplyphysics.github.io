@@ -8,7 +8,7 @@ of a rocket engine, unchanged in direction, in the absence of all other forces.
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation>`__.
 
-.. py:currentmodule:: symplyphysics.laws.astronomy.speed_of_rocket_depends_on_mass_and_impulse
+.. py:currentmodule:: symplyphysics.laws.dynamics.speed_of_rocket_depends_on_mass_and_impulse
 
 .. py:data:: speed_change
 

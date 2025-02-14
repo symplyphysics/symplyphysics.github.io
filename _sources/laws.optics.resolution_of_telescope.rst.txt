@@ -8,7 +8,7 @@ distinguished separately in the telescope.
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Angular_resolution#The_Rayleigh_criterion>`__.
 
-.. py:currentmodule:: symplyphysics.laws.astronomy.resolution_of_telescope
+.. py:currentmodule:: symplyphysics.laws.optics.resolution_of_telescope
 
 .. py:data:: resolution
 
@@ -51,7 +51,9 @@ distinguished separately in the telescope.
 
 .. py:data:: constant_rad
 
-    Constant factor derived from a calculation of the position of the first dark circular ring surrounding the central Airy disc of the diffraction pattern. A :math:`\approx` 1.22 radian.
+    Constant factor :math:`\approx 1.22 \, \text{rad}` derived from a calculation of the
+    position of the first dark circular ring surrounding the central Airy disc of the
+    diffraction pattern.
 
     Symbol:
         :code:`A`

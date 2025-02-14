@@ -42,6 +42,7 @@ Contents:
   laws.dynamics.resonant_oscillations
   laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration
   laws.dynamics.rotational_work_is_torque_times_angular_distance
+  laws.dynamics.speed_of_rocket_depends_on_mass_and_impulse
   laws.dynamics.torque_via_force_and_radial_distance
   laws.dynamics.torque_via_rotational_inertia_and_angular_acceleration
   laws.dynamics.total_work_is_change_in_kinetic_energy

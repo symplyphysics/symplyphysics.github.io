@@ -15,8 +15,17 @@ of an oscillator.
 
     Non-negative damping constant.
 
+    ..
+        TODO: add to `symbols`
+
     Symbol:
         :code:`b`
+
+    Latex:
+        :math:`b`
+
+    Dimension:
+        :code:`mass/time`
 
 .. py:function:: damping_force_definition(velocity_)
 

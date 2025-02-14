@@ -16,26 +16,41 @@ inertia of each part of the system.
 
 .. py:data:: total_rotational_inertia
 
-    Total rotational inertia of the system.
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the system.
 
     Symbol:
         :code:`I`
 
+    Latex:
+        :math:`I`
+
+    Dimension:
+        :code:`length**2*mass`
+
+.. py:data:: index
+
+    Index assigned to each part of the system.
+
 .. py:data:: rotational_inertia
 
-    Rotational inertia of the :math:`k`-th part of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the :math:`k`-th part of the system.
 
     Symbol:
-        :code:`I_k`
+        :code:`I[k]`
 
     Latex:
-        :math:`I_k`
+        :math:`{I}_{k}`
+
+    Dimension:
+        :code:`length**2*mass`
 
 .. py:data:: law
 
-    :code:`I = Sum(I_k, k)`
+    :code:`I = Sum(I[k], k)`
+
 
     Latex:
         .. math::
-            I = \sum_k I_k
+            I = \sum_k {I}_{k}
+
 

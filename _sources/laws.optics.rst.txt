@@ -45,3 +45,4 @@ Contents:
   laws.optics.radiation_intensity_from_energy_area_time
   laws.optics.radius_dark_newton_ring_from_wavelength_order_radius_curvature_refractive_index
   laws.optics.refraction_angle_from_environments
+  laws.optics.resolution_of_telescope
