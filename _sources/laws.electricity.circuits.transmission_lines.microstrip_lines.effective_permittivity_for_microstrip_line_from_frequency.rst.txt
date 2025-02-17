@@ -95,11 +95,11 @@ from its frequency-indendent effective permittivity and physical dimensions.
 
 .. py:data:: law
 
-    :code:`epsilon_eff = ((sqrt(epsilon_r) - sqrt(epsilon_eff0)) / (1 + 4 / (4 * (1 + 2 * log(1 + w / h))^2 * sqrt(epsilon_r - 1) * 1 / (2 * c) * h * f)^(3/2)) + sqrt(epsilon_eff0))^2`
+    :code:`epsilon_eff = ((sqrt(epsilon_r) - sqrt(epsilon_eff0)) / (1 + 4 / (4 * h * f * (1 + 2 * log(1 + w / h))^2 * sqrt(epsilon_r - 1) * 1 / (2 * c))^(3/2)) + sqrt(epsilon_eff0))^2`
 
 
     Latex:
         .. math::
-            \varepsilon_\text{eff} = \left(\frac{\sqrt{\varepsilon_\text{r}} - \sqrt{\varepsilon_{\text{eff}, 0}}}{1 + \frac{4}{\left(4 \left(1 + 2 \log \left( 1 + \frac{w}{h} \right)\right)^{2} \sqrt{\varepsilon_\text{r} - 1} \frac{1}{2 c} h f\right)^{\frac{3}{2}}}} + \sqrt{\varepsilon_{\text{eff}, 0}}\right)^{2}
+            \varepsilon_\text{eff} = \left(\frac{\sqrt{\varepsilon_\text{r}} - \sqrt{\varepsilon_{\text{eff}, 0}}}{1 + \frac{4}{\left(4 h f \left(1 + 2 \log \left( 1 + \frac{w}{h} \right)\right)^{2} \sqrt{\varepsilon_\text{r} - 1} \frac{1}{2 c}\right)^{\frac{3}{2}}}} + \sqrt{\varepsilon_{\text{eff}, 0}}\right)^{2}
 
 

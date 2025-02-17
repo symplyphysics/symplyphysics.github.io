@@ -63,11 +63,11 @@ around energy value :math:`E`.
 
 .. py:data:: law
 
-    :code:`f(E) = 2 * sqrt(E / pi) / (k_B^(3/2) * T^(3/2)) * exp(-E / (k_B * T))`
+    :code:`f(E) = 2 * sqrt(E / pi) / (T^(3/2) * k_B^(3/2)) * exp(-E / (k_B * T))`
 
 
     Latex:
         .. math::
-            f(E) = \frac{2 \sqrt{\frac{E}{\pi}}}{k_\text{B}^{\frac{3}{2}} T^{\frac{3}{2}}} \exp{\left(- \frac{E}{k_\text{B} T} \right)}
+            f(E) = \frac{2 \sqrt{\frac{E}{\pi}}}{T^{\frac{3}{2}} k_\text{B}^{\frac{3}{2}}} \exp{\left(- \frac{E}{k_\text{B} T} \right)}
 
 

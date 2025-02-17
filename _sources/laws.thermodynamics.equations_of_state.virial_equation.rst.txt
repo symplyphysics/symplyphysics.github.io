@@ -85,12 +85,12 @@ Also called the *virial expansion*, the *virial equation of state* expresses the
 
         Big O should be evaluated by SymPy
 
-    :code:`Z = 1 + rho_m^2 * C_3 + C_2 * rho_m + O(rho_m^3)`
+    :code:`Z = 1 + C_2 * rho_m + C_3 * rho_m^2 + O(rho_m^3)`
 
 
     Latex:
         .. math::
-            Z = 1 + \rho_\text{m}^{2} C_{3} + C_{2} \rho_\text{m} + O\left(\rho_\text{m}^{3}\right)
+            Z = 1 + C_{2} \rho_\text{m} + C_{3} \rho_\text{m}^{2} + O\left(\rho_\text{m}^{3}\right)
 
 
 

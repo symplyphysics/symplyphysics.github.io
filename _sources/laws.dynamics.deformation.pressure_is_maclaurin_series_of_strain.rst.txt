@@ -96,12 +96,12 @@ its physical state.
 
         Big O should be evaluated by SymPy
 
-    :code:`p = e^2 * A + e^3 * B + E * e + O(e^4)`
+    :code:`p = A * e^2 + B * e^3 + E * e + O(e^4)`
 
 
     Latex:
         .. math::
-            p = e^{2} A + e^{3} B + E e + O\left(e^{4}\right)
+            p = A e^{2} + B e^{3} + E e + O\left(e^{4}\right)
 
 
 

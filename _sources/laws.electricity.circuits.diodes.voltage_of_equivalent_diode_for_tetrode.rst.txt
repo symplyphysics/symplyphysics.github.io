@@ -116,11 +116,11 @@ equivalent diode can be calculated.
 
 .. py:data:: law
 
-    :code:`V = (V_2 * D_1 + U_a * D_1 * D_2 + V_1) / (1 + (d_a / d_1)^(4/3) * D_1)`
+    :code:`V = (V_1 + V_2 * D_1 + U_a * D_1 * D_2) / (1 + D_1 * (d_a / d_1)^(4/3))`
 
 
     Latex:
         .. math::
-            V = \frac{V_{2} D_{1} + U_\text{a} D_{1} D_{2} + V_{1}}{1 + \left(\frac{d_\text{a}}{d_{1}}\right)^{\frac{4}{3}} D_{1}}
+            V = \frac{V_{1} + V_{2} D_{1} + U_\text{a} D_{1} D_{2}}{1 + D_{1} \left(\frac{d_\text{a}}{d_{1}}\right)^{\frac{4}{3}}}
 
 
