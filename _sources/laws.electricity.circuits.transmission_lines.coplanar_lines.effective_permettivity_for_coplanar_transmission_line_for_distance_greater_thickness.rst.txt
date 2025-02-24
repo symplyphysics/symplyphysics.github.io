@@ -21,8 +21,7 @@ See below for symbol descriptions.
 
 .. py:data:: effective_permittivity
 
-    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the coplanar line. See :ref:`Effective
-    permittivity of coplanar line`.
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the coplanar line. See :ref:`Effective permittivity of coplanar line <effective_permittivity_coplanar_line_def>`.
 
     Symbol:
         :code:`epsilon_eff`

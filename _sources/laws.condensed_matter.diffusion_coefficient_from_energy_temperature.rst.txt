@@ -37,10 +37,10 @@ result of the thermal motion of molecules.
     Activation :attr:`~symplyphysics.symbols.basic.energy` of the dopant.
 
     Symbol:
-        :code:`E_\text{A}`
+        :code:`E_A`
 
     Latex:
-        :math:`E_{\text{A}}`
+        :math:`E_\text{A}`
 
     Dimension:
         :code:`energy`
@@ -73,11 +73,11 @@ result of the thermal motion of molecules.
 
 .. py:data:: law
 
-    :code:`D = D_0 * exp(-E_\text{A} / (k_B * T))`
+    :code:`D = D_0 * exp(-E_A / (k_B * T))`
 
 
     Latex:
         .. math::
-            D = D_{0} \exp{\left(- \frac{E_{\text{A}}}{k_\text{B} T} \right)}
+            D = D_{0} \exp{\left(- \frac{E_\text{A}}{k_\text{B} T} \right)}
 
 

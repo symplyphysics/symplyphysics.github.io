@@ -40,7 +40,7 @@ always longer than that in free space.
 
 .. py:data:: critical_wavelength
 
-    Critical :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the waveguide. See :ref:`Critical wavelength of waveguide`.
+    Critical :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the waveguide. See :ref:`Critical wavelength of waveguide <critical_wavelength_waveguide_def>`.
 
     Symbol:
         :code:`lambda_c`

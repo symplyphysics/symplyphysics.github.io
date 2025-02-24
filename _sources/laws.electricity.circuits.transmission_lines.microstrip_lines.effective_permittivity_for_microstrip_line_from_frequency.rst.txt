@@ -16,7 +16,7 @@ from its frequency-indendent effective permittivity and physical dimensions.
 .. py:data:: effective_permittivity
 
     Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line when frequency
-    dependence is taken into account. See :ref:`Effective permittivity of microstrip line`.
+    dependence is taken into account. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
     Symbol:
         :code:`epsilon_eff`
@@ -82,7 +82,7 @@ from its frequency-indendent effective permittivity and physical dimensions.
 .. py:data:: independent_effective_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line when frequency dependence is
-    omitted. See :ref:`Effective permittivity of microstrip line`.
+    omitted. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
     Symbol:
         :code:`epsilon_eff0`

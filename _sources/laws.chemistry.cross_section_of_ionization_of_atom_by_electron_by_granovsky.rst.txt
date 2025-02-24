@@ -19,10 +19,10 @@ the time spent by the electron near the atom decreases.
     Effective :attr:`~symplyphysics.symbols.chemistry.cross_section` of ionization of particles.
 
     Symbol:
-        :code:`sigma_\text{eff}`
+        :code:`sigma_eff`
 
     Latex:
-        :math:`\sigma_{\text{eff}}`
+        :math:`\sigma_\text{eff}`
 
     Dimension:
         :code:`area`
@@ -32,10 +32,10 @@ the time spent by the electron near the atom decreases.
     Ionization :attr:`~symplyphysics.symbols.basic.energy`.
 
     Symbol:
-        :code:`E_\text{i}`
+        :code:`sigma_i`
 
     Latex:
-        :math:`E_{\text{i}}`
+        :math:`\sigma_\text{i}`
 
     Dimension:
         :code:`energy`
@@ -58,10 +58,10 @@ the time spent by the electron near the atom decreases.
     Maximum :attr:`~symplyphysics.symbols.chemistry.cross_section` of ionization.
 
     Symbol:
-        :code:`sigma_\text{max}`
+        :code:`sigma_max`
 
     Latex:
-        :math:`\sigma_{\text{max}}`
+        :math:`\sigma_\text{max}`
 
     Dimension:
         :code:`area`
@@ -71,21 +71,21 @@ the time spent by the electron near the atom decreases.
     Maximum :attr:`~symplyphysics.symbols.basic.energy` of ionizing electrons.
 
     Symbol:
-        :code:`E_\text{max}`
+        :code:`E_max`
 
     Latex:
-        :math:`E_{\text{max}}`
+        :math:`E_\text{max}`
 
     Dimension:
         :code:`energy`
 
 .. py:data:: law
 
-    :code:`sigma_\text{eff} = sigma_\text{max} * (E - E_\text{i}) / (E_\text{max} - E_\text{i}) * exp((E_\text{max} - E) / (E_\text{max} - E_\text{i}))`
+    :code:`sigma_eff = sigma_max * (E - sigma_i) / (E_max - sigma_i) * exp((E_max - E) / (E_max - sigma_i))`
 
 
     Latex:
         .. math::
-            \sigma_{\text{eff}} = \sigma_{\text{max}} \frac{E - E_{\text{i}}}{E_{\text{max}} - E_{\text{i}}} \exp{\left(\frac{E_{\text{max}} - E}{E_{\text{max}} - E_{\text{i}}} \right)}
+            \sigma_\text{eff} = \sigma_\text{max} \frac{E - \sigma_\text{i}}{E_\text{max} - \sigma_\text{i}} \exp{\left(\frac{E_\text{max} - E}{E_\text{max} - \sigma_\text{i}} \right)}
 
 

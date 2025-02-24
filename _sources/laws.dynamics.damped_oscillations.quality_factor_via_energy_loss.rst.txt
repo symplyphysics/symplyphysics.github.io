@@ -34,10 +34,10 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
     Resonant :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
     Symbol:
-        :code:`w_\text{r}`
+        :code:`w_r`
 
     Latex:
-        :math:`\omega_{\text{r}}`
+        :math:`\omega_\text{r}`
 
     Dimension:
         :code:`angle/time`
@@ -47,10 +47,10 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
     :attr:`~symplyphysics.symbols.basic.energy` stored in the oscillator.
 
     Symbol:
-        :code:`E_\text{stored}`
+        :code:`E_stored`
 
     Latex:
-        :math:`E_{\text{stored}}`
+        :math:`E_\text{stored}`
 
     Dimension:
         :code:`energy`
@@ -60,21 +60,21 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
     :attr:`~symplyphysics.symbols.basic.power` lost by the oscillator, i.e. the rate of energy dissipating from it.
 
     Symbol:
-        :code:`P_\text{loss}`
+        :code:`P_loss`
 
     Latex:
-        :math:`P_{\text{loss}}`
+        :math:`P_\text{loss}`
 
     Dimension:
         :code:`power`
 
 .. py:data:: law
 
-    :code:`Q = w_\text{r} * E_\text{stored} / P_\text{loss}`
+    :code:`Q = w_r * E_stored / P_loss`
 
 
     Latex:
         .. math::
-            Q = \omega_{\text{r}} \frac{E_{\text{stored}}}{P_{\text{loss}}}
+            Q = \omega_\text{r} \frac{E_\text{stored}}{P_\text{loss}}
 
 

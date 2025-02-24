@@ -70,8 +70,7 @@ the system.
 
 .. py:data:: effective_width
 
-    Effective width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line. See :ref:`Effective
-    width of microstrip line`.
+    Effective width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line. See :ref:`Effective width of microstrip line <effective_width_microstrip_line_def>`.
 
     Symbol:
         :code:`w_eff`
@@ -97,8 +96,7 @@ the system.
 
 .. py:data:: effective_permittivity
 
-    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective
-    permittivity of microstrip line`.
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
     Symbol:
         :code:`epsilon_eff`

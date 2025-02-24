@@ -36,10 +36,10 @@ Lotz-Drewin approximation for the ionization cross section is considered.
     :attr:`~symplyphysics.symbols.basic.energy` of ionization of atoms.
 
     Symbol:
-        :code:`E_\text{i}`
+        :code:`E_i`
 
     Latex:
-        :math:`E_{\text{i}}`
+        :math:`E_\text{i}`
 
     Dimension:
         :code:`energy`
@@ -98,11 +98,11 @@ Lotz-Drewin approximation for the ionization cross section is considered.
 
 .. py:data:: law
 
-    :code:`sigma = 2.66 * pi * a_0^2 * N * IE_h^2 / E_\text{i}^2 * A * (E / E_\text{i} - 1) / (E / E_\text{i})^2 * log(1.25 * B * E / E_\text{i})`
+    :code:`sigma = 2.66 * pi * a_0^2 * N * IE_h^2 / E_i^2 * A * (E / E_i - 1) / (E / E_i)^2 * log(1.25 * B * E / E_i)`
 
 
     Latex:
         .. math::
-            \sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_{\text{i}}^{2}} \frac{A \left(\frac{E}{E_{\text{i}}} - 1\right)}{\left(\frac{E}{E_{\text{i}}}\right)^{2}} \log \left( 1.25 B \frac{E}{E_{\text{i}}} \right)
+            \sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_\text{i}^{2}} \frac{A \left(\frac{E}{E_\text{i}} - 1\right)}{\left(\frac{E}{E_\text{i}}\right)^{2}} \log \left( 1.25 B \frac{E}{E_\text{i}} \right)
 
 

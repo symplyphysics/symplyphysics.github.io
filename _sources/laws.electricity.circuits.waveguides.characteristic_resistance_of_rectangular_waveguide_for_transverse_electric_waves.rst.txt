@@ -56,7 +56,7 @@ the
 
 .. py:data:: critical_wavelength
 
-    Critical :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`. See :ref:`Critical wavelength of waveguide`.
+    Critical :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`. See :ref:`Critical wavelength of waveguide <critical_wavelength_waveguide_def>`.
 
     Symbol:
         :code:`lambda_c`

@@ -32,10 +32,10 @@ electrons and the electric field.
     Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of electrons.
 
     Symbol:
-        :code:`n_\text{e}`
+        :code:`n_e`
 
     Latex:
-        :math:`n_{\text{e}}`
+        :math:`n_\text{e}`
 
     Dimension:
         :code:`1/volume`
@@ -45,10 +45,10 @@ electrons and the electric field.
     Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of holes.
 
     Symbol:
-        :code:`n_\text{h}`
+        :code:`n_h`
 
     Latex:
-        :math:`n_{\text{h}}`
+        :math:`n_\text{h}`
 
     Dimension:
         :code:`1/volume`
@@ -58,10 +58,10 @@ electrons and the electric field.
     :attr:`~symplyphysics.symbols.chemistry.mobility` of electrons.
 
     Symbol:
-        :code:`mu_\text{e}`
+        :code:`mu_e`
 
     Latex:
-        :math:`\mu_{\text{e}}`
+        :math:`\mu_\text{e}`
 
     Dimension:
         :code:`area/(time*voltage)`
@@ -71,10 +71,10 @@ electrons and the electric field.
     :attr:`~symplyphysics.symbols.chemistry.mobility` of holes.
 
     Symbol:
-        :code:`mu_\text{h}`
+        :code:`mu_h`
 
     Latex:
-        :math:`\mu_{\text{h}}`
+        :math:`\mu_\text{h}`
 
     Dimension:
         :code:`area/(time*voltage)`
@@ -94,11 +94,11 @@ electrons and the electric field.
 
 .. py:data:: law
 
-    :code:`j = e * (-n_\text{e} * mu_\text{e} + n_\text{h} * mu_\text{h}) * E`
+    :code:`j = e * (-n_e * mu_e + n_h * mu_h) * E`
 
 
     Latex:
         .. math::
-            j = e \left(- n_{\text{e}} \mu_{\text{e}} + n_{\text{h}} \mu_{\text{h}}\right) E
+            j = e \left(- n_\text{e} \mu_\text{e} + n_\text{h} \mu_\text{h}\right) E
 
 

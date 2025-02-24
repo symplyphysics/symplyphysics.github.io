@@ -59,8 +59,7 @@ the microstrip.
 
 .. py:data:: effective_width
 
-    Effective width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line. See :ref:`Effective
-    width of microstrip line`.
+    Effective width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line. See :ref:`Effective width of microstrip line <effective_width_microstrip_line_def>`.
 
     Symbol:
         :code:`w_eff`

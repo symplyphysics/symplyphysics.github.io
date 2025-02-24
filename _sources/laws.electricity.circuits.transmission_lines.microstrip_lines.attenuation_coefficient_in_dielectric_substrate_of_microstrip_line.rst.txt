@@ -38,8 +38,7 @@ the dielectric loss angle of the substrate.
 
 .. py:data:: effective_permittivity
 
-    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective
-    permittivity of microstrip line`.
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
     Symbol:
         :code:`epsilon_eff`
