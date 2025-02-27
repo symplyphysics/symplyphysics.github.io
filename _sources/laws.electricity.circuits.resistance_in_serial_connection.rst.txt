@@ -1,5 +1,5 @@
 Resistivity of serial resistors
--------------------------------
+===============================
 
 The total resistance of the circuit whose components are connected in series is the sum
 of the resistances of individual components.
@@ -18,27 +18,29 @@ of the resistances of individual components.
 
     Total resistance of the circuit.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: resistance
 
     Resistance of the :math:`i`-th component.
 
-    Symbol:
-        :code:`R[i]`
+Symbol:
+    :code:`R[i]`
 
-    Latex:
-        :math:`{R}_{i}`
+Latex:
+    :math:`{R}_{i}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

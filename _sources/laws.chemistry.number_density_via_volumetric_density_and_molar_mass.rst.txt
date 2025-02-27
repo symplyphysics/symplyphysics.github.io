@@ -1,5 +1,5 @@
 Number density via volumetric density and molar mass
-----------------------------------------------------
+====================================================
 
 Number density, or number of molecules per unit volume, can be expressed using
 the volumetric density, or mass per unit volume, and molar mass, or mass per unit
@@ -19,40 +19,43 @@ amount of substance.
 
     :attr:`~symplyphysics.symbols.basic.number_density`, or number of molecules per unit volume.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: volumetric_density
 
     Volumetric :attr:`~symplyphysics.symbols.basic.density`, or mass per unit volume.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: molar_mass
 
     :attr:`~symplyphysics.symbols.basic.molar_mass`, or mass per unit amount of substance.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Helmholtz free energy via internal energy
------------------------------------------
+=========================================
 
 *Helmholtz free energy* is a thermodynamic potential that measures the useful work obtainable
 from a closed thermodynamic system at a constant temperature (isothermal process).
@@ -14,53 +14,57 @@ from a closed thermodynamic system at a constant temperature (isothermal process
 
     :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: internal_energy
 
     :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
-    Symbol:
-        :code:`U`
+Symbol:
+    :code:`U`
 
-    Latex:
-        :math:`U`
+Latex:
+    :math:`U`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: entropy
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: law
 

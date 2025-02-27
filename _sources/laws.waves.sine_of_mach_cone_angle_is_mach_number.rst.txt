@@ -1,5 +1,5 @@
 Sine of Mach cone angle via Mach number
----------------------------------------
+=======================================
 
 If the speed of a source relative to the medium exceeds the speed of sound in the medium,
 the Doppler equation no longer applies and this results in shock waves. The wavefronts
@@ -23,27 +23,29 @@ phenomenon.
     Mach cone :attr:`~symplyphysics.symbols.basic.angle`, which is the angle between the Mach wave wavefront (the Mach cone) and
     the vector pointing opposite to the velocity vector of the source.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: mach_number
 
     :attr:`~symplyphysics.symbols.classical_mechanics.mach_number` of the moving source.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`\text{M}`
+Latex:
+    :math:`\text{M}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

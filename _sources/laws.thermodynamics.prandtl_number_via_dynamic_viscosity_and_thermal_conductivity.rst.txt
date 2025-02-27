@@ -1,5 +1,5 @@
 Prandtl number via dynamic viscosity and thermal conductivity
--------------------------------------------------------------
+=============================================================
 
 *Prandtl number* is a dimensionless quantity defined as the ratio of kinetic viscosity
 (momentum diffusivity) to thermal diffusivity. It can also be expressed using dynamic viscosity
@@ -15,53 +15,57 @@ and thermal conductivity.
 
     :attr:`~symplyphysics.symbols.thermodynamics.prandtl_number` of the fluid.
 
-    Symbol:
-        :code:`Pr`
+Symbol:
+    :code:`Pr`
 
-    Latex:
-        :math:`\text{Pr}`
+Latex:
+    :math:`\text{Pr}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: isobaric_specific_heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.pressure` per unit :attr:`~symplyphysics.symbols.basic.mass`.
 
-    Symbol:
-        :code:`c_p`
+Symbol:
+    :code:`c_p`
 
-    Latex:
-        :math:`c_{p}`
+Latex:
+    :math:`c_{p}`
 
-    Dimension:
-        :code:`energy/(mass*temperature)`
+Dimension:
+    :code:`energy/(mass*temperature)`
+
 
 .. py:data:: dynamic_viscosity
 
     :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the fluid.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`pressure*time`
+Dimension:
+    :code:`pressure*time`
+
 
 .. py:data:: thermal_conductivity
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the fluid.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`power/(length*temperature)`
+Dimension:
+    :code:`power/(length*temperature)`
+
 
 .. py:data:: law
 

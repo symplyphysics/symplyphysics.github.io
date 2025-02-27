@@ -1,5 +1,5 @@
 Cross section of ionization of atom by electrons per Granovsky
---------------------------------------------------------------
+==============================================================
 
 The **Granovsky approximation** for the ionization cross section is considered. As the
 electron energy increases, the velocities of primary and secondary electrons increase,
@@ -18,66 +18,71 @@ the time spent by the electron near the atom decreases.
 
     Effective :attr:`~symplyphysics.symbols.chemistry.cross_section` of ionization of particles.
 
-    Symbol:
-        :code:`sigma_eff`
+Symbol:
+    :code:`sigma_eff`
 
-    Latex:
-        :math:`\sigma_\text{eff}`
+Latex:
+    :math:`\sigma_\text{eff}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: ionization_energy
 
     Ionization :attr:`~symplyphysics.symbols.basic.energy`.
 
-    Symbol:
-        :code:`sigma_i`
+Symbol:
+    :code:`sigma_i`
 
-    Latex:
-        :math:`\sigma_\text{i}`
+Latex:
+    :math:`\sigma_\text{i}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: electron_energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of ionizing electrons.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: maximum_cross_section
 
     Maximum :attr:`~symplyphysics.symbols.chemistry.cross_section` of ionization.
 
-    Symbol:
-        :code:`sigma_max`
+Symbol:
+    :code:`sigma_max`
 
-    Latex:
-        :math:`\sigma_\text{max}`
+Latex:
+    :math:`\sigma_\text{max}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: maximum_electron_energy
 
     Maximum :attr:`~symplyphysics.symbols.basic.energy` of ionizing electrons.
 
-    Symbol:
-        :code:`E_max`
+Symbol:
+    :code:`E_max`
 
-    Latex:
-        :math:`E_\text{max}`
+Latex:
+    :math:`E_\text{max}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

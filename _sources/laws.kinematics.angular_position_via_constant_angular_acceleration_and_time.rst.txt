@@ -1,5 +1,5 @@
 Angular position via constant angular acceleration and time
------------------------------------------------------------
+===========================================================
 
 If a body is rotating with a constant acceleration, its angular position is a quadratic function of time.
 
@@ -16,66 +16,71 @@ If a body is rotating with a constant acceleration, its angular position is a qu
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :attr:`~time`.
 
-    Symbol:
-        :code:`theta`
+Symbol:
+    :code:`theta`
 
-    Latex:
-        :math:`\theta`
+Latex:
+    :math:`\theta`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: initial_angular_position
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :math:`t = 0`.
 
-    Symbol:
-        :code:`theta_0`
+Symbol:
+    :code:`theta_0`
 
-    Latex:
-        :math:`\theta_{0}`
+Latex:
+    :math:`\theta_{0}`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: initial_angular_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` at :math:`t = 0`.
 
-    Symbol:
-        :code:`w_0`
+Symbol:
+    :code:`w_0`
 
-    Latex:
-        :math:`\omega_{0}`
+Latex:
+    :math:`\omega_{0}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: angular_acceleration
 
     Constant :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration`.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`angle/time**2`
+Dimension:
+    :code:`angle/time**2`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_angular_position` is measured.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

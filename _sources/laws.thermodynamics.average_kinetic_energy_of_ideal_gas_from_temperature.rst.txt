@@ -1,5 +1,5 @@
 Average kinetic energy of ideal gas from temperature
-----------------------------------------------------
+====================================================
 
 The kinetic theory of ideal gases allows us to determine the *average kinetic energy* for an ideal gas.
 It states that the average kinetic energy for all ideal gases is directly proportional to the absolute
@@ -23,27 +23,29 @@ temperature of the gas and only depends on the temperature.
 
     Average :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the ideal gas.
 
-    Symbol:
-        :code:`avg(K)`
+Symbol:
+    :code:`avg(K)`
 
-    Latex:
-        :math:`\langle K \rangle`
+Latex:
+    :math:`\langle K \rangle`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: equilibrium_temperature
 
     Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Light pressure
---------------
+==============
 
 Light pressure is the pressure exerted by light radiation incident on the surface of a body.
 Under normal light incidence on the surface, the light pressure depends only on the reflection
@@ -19,40 +19,43 @@ coefficient and the intensity of the radiation.
 
     Light :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: intensity
 
     :attr:`~symplyphysics.symbols.basic.intensity` of incident radiation.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: reflection_coefficient
 
     :attr:`~symplyphysics.symbols.optics.reflectance` of the surface.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

@@ -7,59 +7,62 @@ electrostatics and magnetism, which are distinct but closely intertwined phenome
 
 .. py:currentmodule:: symplyphysics.laws.electricity
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.electricity.circuits
-  laws.electricity.maxwell_equations
-  laws.electricity.vector
-  laws.electricity.absolute_permittivity_via_relative_permittivity
-  laws.electricity.admittance_is_conductance_and_susceptance
-  laws.electricity.capacitance_from_charge_and_voltage
-  laws.electricity.characteristic_resistance_of_medium
-  laws.electricity.charge_is_quantized
-  laws.electricity.corona_discharge_current_from_voltage
-  laws.electricity.current_is_voltage_over_resistance
-  laws.electricity.electric_charge_is_constant_in_isolated_system
-  laws.electricity.electric_dipole_moment_is_charge_times_distance
-  laws.electricity.electric_displacement_is_permittivity_times_electric_field
-  laws.electricity.electric_field_due_to_dipole
-  laws.electricity.electric_field_due_to_point_charge
-  laws.electricity.electric_field_is_force_over_test_charge
-  laws.electricity.electric_field_of_uniformly_charged_plane
-  laws.electricity.electric_field_outside_charged_sphere
-  laws.electricity.electric_flux_through_closed_surface_via_total_charge
-  laws.electricity.electric_intensity_in_gas_gap_between_two_electrodes
-  laws.electricity.electromotive_force_induced_in_moving_contour
-  laws.electricity.electromotive_force_induced_in_rotating_rod
-  laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil
-  laws.electricity.electrostatic_force_via_charges_and_distance
-  laws.electricity.electrostatic_potential_due_to_point_charge
-  laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance
-  laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge
-  laws.electricity.energy_density_via_permittivity_and_electric_field
-  laws.electricity.energy_of_magnetic_field_of_solenoid
-  laws.electricity.energy_via_constant_power_and_time
-  laws.electricity.force_between_parallel_wires
-  laws.electricity.inductance_is_magnetic_flux_over_current
-  laws.electricity.inductance_is_proportional_to_turns_squared
-  laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume
-  laws.electricity.instantaneous_energy_of_electric_field
-  laws.electricity.magnetic_field_due_to_infinite_wire
-  laws.electricity.magnetic_field_of_coil
-  laws.electricity.magnetic_flux_from_induction_and_area
-  laws.electricity.magnetic_induction_from_magnetic_field_intensity
-  laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length
-  laws.electricity.maximum_moment_of_magnetic_field
-  laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field
-  laws.electricity.power_factor_is_real_power_over_apparent_power
-  laws.electricity.power_via_current_and_resistance
-  laws.electricity.power_via_voltage_and_current
-  laws.electricity.power_via_voltage_and_resistance
-  laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field
-  laws.electricity.resistance_via_resistivity_and_dimensions
-  laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current
-  laws.electricity.voltage_is_electric_field_times_distance
-  laws.electricity.voltage_is_line_integral_of_electric_field
+    laws.electricity.circuits
+    laws.electricity.maxwell_equations
+    laws.electricity.vector
+    laws.electricity.absolute_permittivity_via_relative_permittivity
+    laws.electricity.admittance_is_conductance_and_susceptance
+    laws.electricity.capacitance_from_charge_and_voltage
+    laws.electricity.characteristic_resistance_of_medium
+    laws.electricity.charge_is_quantized
+    laws.electricity.corona_discharge_current_from_voltage
+    laws.electricity.current_is_voltage_over_resistance
+    laws.electricity.electric_charge_is_constant_in_isolated_system
+    laws.electricity.electric_dipole_moment_is_charge_times_distance
+    laws.electricity.electric_displacement_is_permittivity_times_electric_field
+    laws.electricity.electric_field_due_to_dipole
+    laws.electricity.electric_field_due_to_point_charge
+    laws.electricity.electric_field_is_force_over_test_charge
+    laws.electricity.electric_field_of_uniformly_charged_plane
+    laws.electricity.electric_field_outside_charged_sphere
+    laws.electricity.electric_flux_through_closed_surface_via_total_charge
+    laws.electricity.electric_intensity_in_gas_gap_between_two_electrodes
+    laws.electricity.electromotive_force_induced_in_moving_contour
+    laws.electricity.electromotive_force_induced_in_rotating_rod
+    laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil
+    laws.electricity.electrostatic_force_via_charges_and_distance
+    laws.electricity.electrostatic_potential_due_to_point_charge
+    laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance
+    laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge
+    laws.electricity.energy_density_via_permittivity_and_electric_field
+    laws.electricity.energy_of_magnetic_field_of_solenoid
+    laws.electricity.energy_via_constant_power_and_time
+    laws.electricity.force_between_parallel_wires
+    laws.electricity.inductance_is_magnetic_flux_over_current
+    laws.electricity.inductance_is_proportional_to_turns_squared
+    laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume
+    laws.electricity.instantaneous_energy_of_electric_field
+    laws.electricity.magnetic_field_due_to_infinite_wire
+    laws.electricity.magnetic_field_of_coil
+    laws.electricity.magnetic_flux_from_induction_and_area
+    laws.electricity.magnetic_induction_from_magnetic_field_intensity
+    laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length
+    laws.electricity.maximum_moment_of_magnetic_field
+    laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field
+    laws.electricity.power_factor_is_real_power_over_apparent_power
+    laws.electricity.power_via_current_and_resistance
+    laws.electricity.power_via_voltage_and_current
+    laws.electricity.power_via_voltage_and_resistance
+    laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field
+    laws.electricity.resistance_via_resistivity_and_dimensions
+    laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current
+    laws.electricity.voltage_is_electric_field_times_distance
+    laws.electricity.voltage_is_line_integral_of_electric_field
+
+
+

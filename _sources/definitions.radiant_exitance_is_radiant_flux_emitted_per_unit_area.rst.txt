@@ -1,5 +1,5 @@
 Radiant exitance is radiant flux emitted per unit area
-------------------------------------------------------
+======================================================
 
 **Radiant exitance**, or **radiant emittance** is the radiant flux emitted by a surface per unit area.
 
@@ -17,40 +17,43 @@ Radiant exitance is radiant flux emitted per unit area
 
     :attr:`~symplyphysics.symbols.optics.radiant_exitance` of the surface.
 
-    Symbol:
-        :code:`M_e`
+Symbol:
+    :code:`M_e`
 
-    Latex:
-        :math:`M_\text{e}`
+Latex:
+    :math:`M_\text{e}`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area` of the surface.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: radiant_flux
 
     :attr:`~symplyphysics.symbols.optics.radiant_flux` emitted from the surface as a function of :attr:`~area`.
 
-    Symbol:
-        :code:`Phi_e(A)`
+Symbol:
+    :code:`Phi_e(A)`
 
-    Latex:
-        :math:`\Phi_\text{e}{\left(A \right)}`
+Latex:
+    :math:`\Phi_\text{e}{\left(A \right)}`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: definition
 

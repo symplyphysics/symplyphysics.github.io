@@ -1,5 +1,5 @@
 Voltage is electric field times distance
-----------------------------------------
+========================================
 
 **Conditions:**
 
@@ -16,40 +16,43 @@ Voltage is electric field times distance
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` between two points.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between two points.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

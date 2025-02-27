@@ -1,5 +1,5 @@
 Period of spring from mass
---------------------------
+==========================
 
 Mass on spring is a system of object with mass :math:`m` and spring with stiffness :math:`k`.
 It starts oscillating after being pushed out of balance.
@@ -20,40 +20,43 @@ It starts oscillating after being pushed out of balance.
 
     The :attr:`~symplyphysics.symbols.basic.period` of spring oscillations.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the object attached to the spring.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: stiffness
 
     Spring's :attr:`~symplyphysics.symbols.classical_mechanics.stiffness`, or spring constant.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`force/length`
+Dimension:
+    :code:`force/length`
+
 
 .. py:data:: law
 

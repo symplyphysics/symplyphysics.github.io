@@ -1,5 +1,5 @@
 Intensive parameters relation
------------------------------
+=============================
 
 The *Gibbs—Duhem relation* is a relationship among the intensive parameters of the system.
 Subsequently, for a system with :math:`i` components, there are :math:`(i + 1)` independent
@@ -19,79 +19,85 @@ parameters, or degrees of freedom.
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: temperature_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`dT`
+Symbol:
+    :code:`dT`
 
-    Latex:
-        :math:`dT`
+Latex:
+    :math:`dT`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: pressure_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`dp`
+Symbol:
+    :code:`dp`
 
-    Latex:
-        :math:`dp`
+Latex:
+    :math:`dp`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: particle_count
 
     :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: chemical_potential_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
-    Symbol:
-        :code:`d(mu)`
+Symbol:
+    :code:`d(mu)`
 
-    Latex:
-        :math:`d\mu`
+Latex:
+    :math:`d\mu`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

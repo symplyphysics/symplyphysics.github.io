@@ -1,5 +1,5 @@
 Transmission matrix for parallel load in line
----------------------------------------------
+=============================================
 
 Knowing the impedance of the load connected in parallel to the transmission line, it is
 possible to calculate the parameters :math:`A, B, C, D` of the transmission matrix of
@@ -22,68 +22,73 @@ the load.
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: voltage_current_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
     circuit at the output.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: current_voltage_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: current_current_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
     circuit at the output.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: load_impedance
 
     Load :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_L`
+Symbol:
+    :code:`Z_L`
 
-    Latex:
-        :math:`Z_\text{L}`
+Latex:
+    :math:`Z_\text{L}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

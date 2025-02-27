@@ -1,5 +1,5 @@
 Displacement in simple harmonic motion
---------------------------------------
+======================================
 
 Any motion that repeats at regular intervals is called periodic, or harmonic, motion.
 Simple harmonic motion is a particular type of repeated motion that is a sinusoidal
@@ -20,66 +20,71 @@ function of time.
 
     Displacement from rest, usually a function of :attr:`~symplyphysics.symbols.basic.time`. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: amplitude
 
     The maximum absolute value of the :attr:`~displacement`. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
-    Symbol:
-        :code:`q_max`
+Symbol:
+    :code:`q_max`
 
-    Latex:
-        :math:`q_\text{max}`
+Latex:
+    :math:`q_\text{max}`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of oscillations.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: phase_shift
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of oscillations, which is the phase at :math:`t = 0`.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~displacement` is measured.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

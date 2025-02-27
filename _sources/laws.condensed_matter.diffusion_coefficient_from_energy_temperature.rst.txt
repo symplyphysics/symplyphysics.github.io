@@ -1,5 +1,5 @@
 Diffusion coefficient from energy and temperature
--------------------------------------------------
+=================================================
 
 The diffusion coefficient is a quantitative characteristic of the diffusion rate, equal
 to the amount of matter passing per unit time through a section of a unit area as a
@@ -23,53 +23,57 @@ result of the thermal motion of molecules.
 
     :attr:`~symplyphysics.symbols.chemistry.diffusion_coefficient`.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`area/time`
+Dimension:
+    :code:`area/time`
+
 
 .. py:data:: energy
 
     Activation :attr:`~symplyphysics.symbols.basic.energy` of the dopant.
 
-    Symbol:
-        :code:`E_A`
+Symbol:
+    :code:`E_A`
 
-    Latex:
-        :math:`E_\text{A}`
+Latex:
+    :math:`E_\text{A}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: maximum_diffusion_coefficient
 
     Maximum :attr:`~symplyphysics.symbols.chemistry.diffusion_coefficient`, e.g. at infinite temperature.
 
-    Symbol:
-        :code:`D_0`
+Symbol:
+    :code:`D_0`
 
-    Latex:
-        :math:`D_{0}`
+Latex:
+    :math:`D_{0}`
 
-    Dimension:
-        :code:`area/time`
+Dimension:
+    :code:`area/time`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

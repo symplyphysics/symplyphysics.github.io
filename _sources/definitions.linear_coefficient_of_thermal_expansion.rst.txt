@@ -1,5 +1,5 @@
 Linear coefficient of thermal expansion
----------------------------------------
+=======================================
 
 The coefficient of thermal expansion describes how the size of an object changes with a change in temperature
 at constant pressure.
@@ -18,53 +18,57 @@ at constant pressure.
 
     Linear :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the object.
 
-    Symbol:
-        :code:`alpha_l`
+Symbol:
+    :code:`alpha_l`
 
-    Latex:
-        :math:`\alpha_{l}`
+Latex:
+    :math:`\alpha_{l}`
 
-    Dimension:
-        :code:`1/temperature`
+Dimension:
+    :code:`1/temperature`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the object.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the object, which is held constant.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: length
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` of the object as a function of temperature and, indirectly, pressure :math:`p`.
 
-    Symbol:
-        :code:`l(T, p)`
+Symbol:
+    :code:`l(T, p)`
 
-    Latex:
-        :math:`l{\left(T,p \right)}`
+Latex:
+    :math:`l{\left(T,p \right)}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: definition
 

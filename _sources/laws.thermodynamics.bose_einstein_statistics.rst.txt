@@ -8,9 +8,13 @@ and have integer values of spin.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.bose_einstein_statistics
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution
+
+    laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution
+
+
+

@@ -1,5 +1,5 @@
 Diffusion equation from neutron flux
-------------------------------------
+====================================
 
 The diffusion equation, based on Fick's law, provides an analytical solution of spatial
 neutron flux distribution in the multiplying system.
@@ -14,92 +14,99 @@ neutron flux distribution in the multiplying system.
 
     :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_coefficient`.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: macroscopic_fission_cross_section
 
     :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of fission.
 
-    Symbol:
-        :code:`Sigma_f`
+Symbol:
+    :code:`Sigma_f`
 
-    Latex:
-        :math:`\Sigma_text{f}`
+Latex:
+    :math:`\Sigma_text{f}`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: macroscopic_absorption_cross_section
 
     :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of absorption.
 
-    Symbol:
-        :code:`Sigma_a`
+Symbol:
+    :code:`Sigma_a`
 
-    Latex:
-        :math:`\Sigma_\text{a}`
+Latex:
+    :math:`\Sigma_\text{a}`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: effective_multiplication_factor
 
     :attr:`~symplyphysics.symbols.nuclear.effective_multiplication_factor`.
 
-    Symbol:
-        :code:`k_eff`
+Symbol:
+    :code:`k_eff`
 
-    Latex:
-        :math:`k_\text{eff}`
+Latex:
+    :math:`k_\text{eff}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: position
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position`.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: neutron_flux
 
     :attr:`~symplyphysics.symbols.nuclear.neutron_flux` as a function of :attr:`~position`.
 
-    Symbol:
-        :code:`Phi(x)`
+Symbol:
+    :code:`Phi(x)`
 
-    Latex:
-        :math:`\Phi{\left(x \right)}`
+Latex:
+    :math:`\Phi{\left(x \right)}`
 
-    Dimension:
-        :code:`1/(area*time)`
+Dimension:
+    :code:`1/(area*time)`
+
 
 .. py:data:: neutron_flux_laplacian
 
     Laplacian of the :attr:`~neutron_flux` as a function of :attr:`~position`.
 
-    Symbol:
-        :code:`Laplace(Phi)(x)`
+Symbol:
+    :code:`Laplace(Phi)(x)`
 
-    Latex:
-        :math:`\nabla^{2} \Phi{\left(x \right)}`
+Latex:
+    :math:`\nabla^{2} \Phi{\left(x \right)}`
 
-    Dimension:
-        :code:`1/(length**4*time)`
+Dimension:
+    :code:`1/(length**4*time)`
+
 
 .. py:data:: law
 

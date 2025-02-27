@@ -1,5 +1,5 @@
 Radiance of black body from temperature
----------------------------------------
+=======================================
 
 The Stefan—Boltzmann law, also known as Stefan's law, states that the total energy radiated per
 unit surface area of a black body per unit time is directly proportional to the fourth
@@ -23,27 +23,29 @@ power of the black body's thermodynamic temperature.
 
     :attr:`~symplyphysics.symbols.optics.radiant_exitance` of the body.
 
-    Symbol:
-        :code:`M_e`
+Symbol:
+    :code:`M_e`
 
-    Latex:
-        :math:`M_\text{e}`
+Latex:
+    :math:`M_\text{e}`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the body.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

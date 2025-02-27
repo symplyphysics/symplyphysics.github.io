@@ -7,12 +7,15 @@ or internal energy.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.thermodynamics.equations_of_state.van_der_waals
-  laws.thermodynamics.equations_of_state.dieterici_equation
-  laws.thermodynamics.equations_of_state.ideal_gas_equation
-  laws.thermodynamics.equations_of_state.virial_equation
+    laws.thermodynamics.equations_of_state.van_der_waals
+    laws.thermodynamics.equations_of_state.dieterici_equation
+    laws.thermodynamics.equations_of_state.ideal_gas_equation
+    laws.thermodynamics.equations_of_state.virial_equation
+
+
+

@@ -1,5 +1,5 @@
 Quality factor of loaded resonator from circuit parameters
-----------------------------------------------------------
+==========================================================
 
 If the resonator is an oscillatory circuit to which an external circuit is connected,
 then the loaded Q-factor of the resonator depends on the resistances of the resonator
@@ -15,66 +15,71 @@ angular oscillation frequency.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the loaded resonator.
 
-    Symbol:
-        :code:`Q_1`
+Symbol:
+    :code:`Q_1`
 
-    Latex:
-        :math:`Q_{1}`
+Latex:
+    :math:`Q_{1}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the oscillating circuit.
 
-    Symbol:
-        :code:`R_0`
+Symbol:
+    :code:`R_0`
 
-    Latex:
-        :math:`R_{0}`
+Latex:
+    :math:`R_{0}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: inductance
 
     :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the oscillating circuit.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`inductance`
+Dimension:
+    :code:`inductance`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: load_resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the load.
 
-    Symbol:
-        :code:`R_L`
+Symbol:
+    :code:`R_L`
 
-    Latex:
-        :math:`R_\text{L}`
+Latex:
+    :math:`R_\text{L}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

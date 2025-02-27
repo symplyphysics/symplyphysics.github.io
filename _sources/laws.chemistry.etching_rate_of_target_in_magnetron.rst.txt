@@ -1,5 +1,5 @@
 Etching rate of target in magnetron
------------------------------------
+===================================
 
 The ions of the gas-discharge plasma in the magnetron fall on the target and knock the
 atoms out of it. The etching rate is how many nanometers of the target
@@ -21,66 +21,71 @@ becomes per unit of time.
 
     Target etching rate. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: ion_current_density
 
     Ion flux :attr:`~symplyphysics.symbols.electrodynamics.current_density` incident on the target.
 
-    Symbol:
-        :code:`j`
+Symbol:
+    :code:`j`
 
-    Latex:
-        :math:`j`
+Latex:
+    :math:`j`
 
-    Dimension:
-        :code:`current/area`
+Dimension:
+    :code:`current/area`
+
 
 .. py:data:: target_molar_mass
 
     :attr:`~symplyphysics.symbols.basic.molar_mass` of target atoms.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: sputtering_coefficient
 
     Sputtering coefficient. Shows how many target atoms are knocked out of the target by a single ion.
 
-    Symbol:
-        :code:`Y`
+Symbol:
+    :code:`Y`
 
-    Latex:
-        :math:`Y`
+Latex:
+    :math:`Y`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: target_density
 
     Target :attr:`~symplyphysics.symbols.basic.density`.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: law
 

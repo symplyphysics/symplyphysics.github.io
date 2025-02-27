@@ -1,5 +1,5 @@
 Surge impedance of microstrip line when effective width is less than substrate thickness
-----------------------------------------------------------------------------------------
+========================================================================================
 
 The microstrip line is a dielectric substrate on which a metal strip is applied. When a
 wave propagates along a microstrip line, part of the field goes out, since the
@@ -20,53 +20,57 @@ rectangular waveguides.
 
     :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the microstrip line.
 
-    Symbol:
-        :code:`Z_S`
+Symbol:
+    :code:`Z_S`
 
-    Latex:
-        :math:`Z_\text{S}`
+Latex:
+    :math:`Z_\text{S}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: effective_permittivity
 
     Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
-    Symbol:
-        :code:`epsilon_eff`
+Symbol:
+    :code:`epsilon_eff`
 
-    Latex:
-        :math:`\varepsilon_\text{eff}`
+Latex:
+    :math:`\varepsilon_\text{eff}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: substrate_thickness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: effective_width
 
     Effective width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line. See :ref:`Effective width of microstrip line <effective_width_microstrip_line_def>`.
 
-    Symbol:
-        :code:`w_eff`
+Symbol:
+    :code:`w_eff`
 
-    Latex:
-        :math:`w_\text{eff}`
+Latex:
+    :math:`w_\text{eff}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

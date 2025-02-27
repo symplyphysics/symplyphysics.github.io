@@ -1,5 +1,5 @@
 Expectation value of observable
--------------------------------
+===============================
 
 Roughly speaking, an observable is a measurable property of a physical system, such as spin, position,
 energy, momentum, etc. In terms of Quantum Mechanics, every physical observable corresponds to an operator
@@ -15,66 +15,71 @@ which acts on the wave function.
 
     The mean value of the :attr:`~observable` operator. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
-    Symbol:
-        :code:`avg(O)`
+Symbol:
+    :code:`avg(O)`
 
-    Latex:
-        :math:`\langle O \rangle`
+Latex:
+    :math:`\langle O \rangle`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: position
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position`.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: wave_function
 
     :attr:`~symplyphysics.symbols.quantum_mechanics.wave_function` as a function of :attr:`~position` and :attr:`~time`.
 
-    Symbol:
-        :code:`psi(x, t)`
+Symbol:
+    :code:`psi(x, t)`
 
-    Latex:
-        :math:`\psi{\left(x,t \right)}`
+Latex:
+    :math:`\psi{\left(x,t \right)}`
 
-    Dimension:
-        :code:`1/sqrt(length)`
+Dimension:
+    :code:`1/sqrt(length)`
+
 
 .. py:data:: observable
 
     Observable operator as a function of :attr:`~wave_function`. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
-    Symbol:
-        :code:`O(psi)`
+Symbol:
+    :code:`O(psi)`
 
-    Latex:
-        :math:`O{\left(\psi \right)}`
+Latex:
+    :math:`O{\left(\psi \right)}`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: law
 
@@ -87,4 +92,5 @@ which acts on the wave function.
     .. math::
         
         \langle O \rangle = \int \limits_{-\infty}^{\infty} \psi^* (x, t) O[\psi](x, t) dx
+
 

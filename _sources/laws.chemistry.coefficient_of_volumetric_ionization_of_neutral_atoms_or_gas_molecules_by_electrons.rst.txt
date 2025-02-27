@@ -1,5 +1,5 @@
 Coefficient of volumetric ionization of neutral molecules by electrons
-----------------------------------------------------------------------
+======================================================================
 
 At a certain voltage, the gas discharge becomes independent. To find this voltage, it is
 necessary to know the (volumetric) ionization coefficient. And it, in turn, depends on
@@ -19,66 +19,71 @@ the energy distribution of electrons and can be approximated by the expression b
 
     :attr:`~symplyphysics.symbols.chemistry.ionization_coefficient` of the gas.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: first_constant
 
     The first gas constant used in this model.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`1/(length*pressure)`
+Dimension:
+    :code:`1/(length*pressure)`
+
 
 .. py:data:: second_constant
 
     The second gas constant used in this model.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`voltage/(length*pressure)`
+Dimension:
+    :code:`voltage/(length*pressure)`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: law
 

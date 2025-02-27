@@ -7,9 +7,13 @@ exclusion principle.
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.fermi_dirac_statistics
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution
+
+    laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution
+
+
+

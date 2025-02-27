@@ -1,5 +1,5 @@
 Fully constructive interference condition
------------------------------------------
+=========================================
 
 The interference of two waves is said to be *fully constructive* when the amplitude of the
 resulting wave is precisely the sum of the amplitudes of the comprising waves. In that case,
@@ -15,27 +15,29 @@ there must be an even number of half-cycles out of phase between each other.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` between interfering waves.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: integer_factor
 
     Integer factor. See :attr:`~symplyphysics.symbols.basic.whole_number`
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Coupling parameter of resonator from quality factor
----------------------------------------------------
+===================================================
 
 There is a coupling parameter to describe the resonator and the load. The parameter is
 equal to the ratio of the resonator's own quality factor to the quality factor of the
@@ -14,40 +14,43 @@ external circuit.
 
     Coupling parameter of the resonator.
 
-    Symbol:
-        :code:`g`
+Symbol:
+    :code:`g`
 
-    Latex:
-        :math:`g`
+Latex:
+    :math:`g`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resonator_quality_factor
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the resonator.
 
-    Symbol:
-        :code:`Q_0`
+Symbol:
+    :code:`Q_0`
 
-    Latex:
-        :math:`Q_{0}`
+Latex:
+    :math:`Q_{0}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: external_circuit_quality_factor
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the external circuit.
 
-    Symbol:
-        :code:`Q_e`
+Symbol:
+    :code:`Q_e`
 
-    Latex:
-        :math:`Q_\text{e}`
+Latex:
+    :math:`Q_\text{e}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

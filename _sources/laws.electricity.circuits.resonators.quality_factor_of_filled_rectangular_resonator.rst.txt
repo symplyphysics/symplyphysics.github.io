@@ -1,5 +1,5 @@
 Quality factor of filled rectangular resonator
-----------------------------------------------
+==============================================
 
 A rectangular resonator consists of metal walls and a material filling it. In the case
 when the resonator is empty, its quality factor depends only on the losses in the metal
@@ -15,40 +15,43 @@ the losses in the dielectric.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the filled resonator.
 
-    Symbol:
-        :code:`Q_1`
+Symbol:
+    :code:`Q_1`
 
-    Latex:
-        :math:`Q_{1}`
+Latex:
+    :math:`Q_{1}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: empty_quality_factor
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the empty resonator.
 
-    Symbol:
-        :code:`Q_0`
+Symbol:
+    :code:`Q_0`
 
-    Latex:
-        :math:`Q_{0}`
+Latex:
+    :math:`Q_{0}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: loss_tangent
 
     :attr:`~symplyphysics.symbols.electrodynamics.dielectric_loss_tangent`.
 
-    Symbol:
-        :code:`tan(delta)`
+Symbol:
+    :code:`tan(delta)`
 
-    Latex:
-        :math:`\tan \delta`
+Latex:
+    :math:`\tan \delta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

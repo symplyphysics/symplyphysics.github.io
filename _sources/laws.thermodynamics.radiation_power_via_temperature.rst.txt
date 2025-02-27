@@ -1,5 +1,5 @@
 Radiation power via temperature
--------------------------------
+===============================
 
 One of the methods an object can exchange energy with its environment is via thermal radiation by
 emitting or absorbing energy in the form of electromagnetic waves. Also known as the *Stefan—Boltzmann
@@ -20,53 +20,57 @@ the radiating body's temperature.
 
     :attr:`~symplyphysics.symbols.basic.power` of radiation emitted or absorbed by the body.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: emissivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.emissivity` of the body's material.
 
-    Symbol:
-        :code:`epsilon`
+Symbol:
+    :code:`epsilon`
 
-    Latex:
-        :math:`\varepsilon`
+Latex:
+    :math:`\varepsilon`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: surface_area
 
     Surface :attr:`~symplyphysics.symbols.classical_mechanics.area` of the body.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the body.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

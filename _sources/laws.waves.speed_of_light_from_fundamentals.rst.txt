@@ -1,5 +1,5 @@
 Speed of light via vacuum permittivity and permeability
--------------------------------------------------------
+=======================================================
 
 Speed of light can be expressed using the permittivity and permeability
 of the vacuum.
@@ -23,4 +23,5 @@ of the vacuum.
     Latex:
         .. math::
             c = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}
+
 

@@ -1,5 +1,5 @@
 Position via constant acceleration and time
--------------------------------------------
+===========================================
 
 If a body is moving with a constant acceleration, its position in space is a quadratic function of time.
 
@@ -17,66 +17,71 @@ If a body is moving with a constant acceleration, its position in space is a qua
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` at :attr:`~time`.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: initial_position
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` at :math:`t = 0`.
 
-    Symbol:
-        :code:`x_0`
+Symbol:
+    :code:`x_0`
 
-    Latex:
-        :math:`x_{0}`
+Latex:
+    :math:`x_{0}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: initial_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` at :math:`t = 0`.
 
-    Symbol:
-        :code:`v_0`
+Symbol:
+    :code:`v_0`
 
-    Latex:
-        :math:`v_{0}`
+Latex:
+    :math:`v_{0}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: acceleration
 
     Constant :attr:`~symplyphysics.symbols.classical_mechanics.acceleration`.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`acceleration`
+Dimension:
+    :code:`acceleration`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_position` is measured.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

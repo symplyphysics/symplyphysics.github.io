@@ -1,5 +1,5 @@
 Angular acceleration is angular speed derivative
-------------------------------------------------
+================================================
 
 *Angular acceleration* is a physical quantity that describes the change in angular speed over time.
 
@@ -13,40 +13,43 @@ Angular acceleration is angular speed derivative
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: angular_acceleration
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration` of the body as a function of time.
 
-    Symbol:
-        :code:`alpha(t)`
+Symbol:
+    :code:`alpha(t)`
 
-    Latex:
-        :math:`\alpha{\left(t \right)}`
+Latex:
+    :math:`\alpha{\left(t \right)}`
 
-    Dimension:
-        :code:`angle/time**2`
+Dimension:
+    :code:`angle/time**2`
+
 
 .. py:data:: angular_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the body as a function of time.
 
-    Symbol:
-        :code:`w(t)`
+Symbol:
+    :code:`w(t)`
 
-    Latex:
-        :math:`\omega{\left(t \right)}`
+Latex:
+    :math:`\omega{\left(t \right)}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: definition
 

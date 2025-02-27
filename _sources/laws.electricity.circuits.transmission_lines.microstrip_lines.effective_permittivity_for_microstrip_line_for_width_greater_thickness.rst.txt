@@ -1,5 +1,5 @@
 Effective permittivity of microstrip line when width is greater than thickness
-------------------------------------------------------------------------------
+==============================================================================
 
 Under the conditions described below, the effective permittivity of the microstrip line
 can be calculated from its relative permittivity and physical dimensions.
@@ -18,66 +18,71 @@ can be calculated from its relative permittivity and physical dimensions.
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the dielectric substrate of the microstrip line.
 
-    Symbol:
-        :code:`epsilon_r`
+Symbol:
+    :code:`epsilon_r`
 
-    Latex:
-        :math:`\varepsilon_\text{r}`
+Latex:
+    :math:`\varepsilon_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: effective_permittivity
 
     Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
-    Symbol:
-        :code:`epsilon_eff`
+Symbol:
+    :code:`epsilon_eff`
 
-    Latex:
-        :math:`\varepsilon_\text{eff}`
+Latex:
+    :math:`\varepsilon_\text{eff}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: width
 
     Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`w`
+Latex:
+    :math:`w`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: thickness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the microstrip line.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: substrate_thickness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

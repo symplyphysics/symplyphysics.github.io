@@ -1,5 +1,5 @@
 Resistance via resistivity and dimensions
------------------------------------------
+=========================================
 
 In the ideal conditions described below, the resistivity of a conductor is proportional
 to its length and the inverse of its cross-sectional area. The constant of proportionality
@@ -23,53 +23,57 @@ property of the material and does not depend on its geometry.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the conductor.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: resistivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistivity` of the material.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`impedance*length`
+Dimension:
+    :code:`impedance*length`
+
 
 .. py:data:: length
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` of the conductor.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: area
 
     Cross-sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the conductor.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: law
 

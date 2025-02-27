@@ -1,5 +1,5 @@
 Voltage across charging capacitor in serial resistor-capacitor circuit
-----------------------------------------------------------------------
+======================================================================
 
 A series circuit containing only a resistor, a capacitor, a switch and a constant DC source of voltage
 is known as a charging circuit. The capacitor is initially uncharged while the switch is open. The switch
@@ -21,54 +21,58 @@ reaches the voltage of the source.
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` across the capacitor.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: source_voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` of the source, which is the initial voltage across the resistor.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: time_constant
 
     :doc:`Time constant <laws.electricity.circuits.time_constant_of_resistor_capacitor_circuit>` of the circuit.
     See :attr:`~symplyphysics.symbols.electrodynamics.electric_time_constant`.
 
-    Symbol:
-        :code:`tau`
+Symbol:
+    :code:`tau`
 
-    Latex:
-        :math:`\tau`
+Latex:
+    :math:`\tau`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

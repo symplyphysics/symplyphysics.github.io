@@ -1,5 +1,5 @@
 Total work is change in kinetic energy
---------------------------------------
+======================================
 
 The work-energy principle states that the work done by all forces acting on a particle
 (the work of the resultant force) equals the change in the kinetic energy of the particle.
@@ -14,53 +14,57 @@ The work-energy principle states that the work done by all forces acting on a pa
 
     The total :attr:`~symplyphysics.symbols.basic.work` done on the body.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: kinetic_energy
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the body as a function of :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`K(t)`
+Symbol:
+    :code:`K(t)`
 
-    Latex:
-        :math:`K{\left(t \right)}`
+Latex:
+    :math:`K{\left(t \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: time_before
 
     The :attr:`~symplyphysics.symbols.basic.time` before the work has been done.
 
-    Symbol:
-        :code:`t_0`
+Symbol:
+    :code:`t_0`
 
-    Latex:
-        :math:`t_{0}`
+Latex:
+    :math:`t_{0}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: time_after
 
     The :attr:`~symplyphysics.symbols.basic.time` after the work has been done.
 
-    Symbol:
-        :code:`t_1`
+Symbol:
+    :code:`t_1`
 
-    Latex:
-        :math:`t_{1}`
+Latex:
+    :math:`t_{1}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

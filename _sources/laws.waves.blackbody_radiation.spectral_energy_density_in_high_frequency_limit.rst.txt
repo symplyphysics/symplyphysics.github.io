@@ -1,5 +1,5 @@
 Spectral energy density at high frequency limit
------------------------------------------------
+===============================================
 
 *Wien's approximation*, also known as *Wien distribution law*, describes the spectrum of blackbody
 thermal radiation. It accurately describes short-wavelength (i.e. high-frequency) spectrum of
@@ -26,40 +26,43 @@ thermal emission, but fails to do that for long-wavelength (i.e. low-frequency) 
 
     :attr:`~symplyphysics.symbols.basic.spectral_energy_density`.
 
-    Symbol:
-        :code:`w_f`
+Symbol:
+    :code:`w_f`
 
-    Latex:
-        :math:`w_{f}`
+Latex:
+    :math:`w_{f}`
 
-    Dimension:
-        :code:`energy/(frequency*volume)`
+Dimension:
+    :code:`energy/(frequency*volume)`
+
 
 .. py:data:: radiation_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the radiation.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: equilibrium_temperature
 
     Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the ensemble.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

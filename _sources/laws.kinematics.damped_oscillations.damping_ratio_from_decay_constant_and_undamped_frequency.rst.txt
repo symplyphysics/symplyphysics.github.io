@@ -1,5 +1,5 @@
 Damping ratio from decay constant and undamped frequency
---------------------------------------------------------
+========================================================
 
 The damping ratio of an oscillator can be calculated via the exponential decay constant,
 which describes how fast its oscillations decay, and its undamped angular frequency.
@@ -10,40 +10,43 @@ which describes how fast its oscillations decay, and its undamped angular freque
 
     :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio` of the oscillator.
 
-    Symbol:
-        :code:`zeta`
+Symbol:
+    :code:`zeta`
 
-    Latex:
-        :math:`\zeta`
+Latex:
+    :math:`\zeta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: exponential_decay_constant
 
     :attr:`~symplyphysics.symbols.basic.exponential_decay_constant` of the oscillator.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`1/time`
+Dimension:
+    :code:`1/time`
+
 
 .. py:data:: undamped_angular_frequency
 
     Undamped :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

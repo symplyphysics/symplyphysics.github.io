@@ -1,5 +1,5 @@
 Position via constant speed and time
-------------------------------------
+====================================
 
 If a body is moving with constant speed, its position can be expressed as a linear function
 of time.
@@ -18,53 +18,57 @@ of time.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` at :attr:`~time`.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: initial_position
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` at :math:`t = 0`.
 
-    Symbol:
-        :code:`x_0`
+Symbol:
+    :code:`x_0`
 
-    Latex:
-        :math:`x_{0}`
+Latex:
+    :math:`x_{0}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: speed
 
     Constant :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_position` is measured.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

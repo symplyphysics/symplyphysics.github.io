@@ -7,17 +7,21 @@ that arise from electromagnetic forces between atoms and electrons.
 
 .. py:currentmodule:: symplyphysics.laws.condensed_matter
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.condensed_matter.concentration_of_intrinsic_charge_carriers
-  laws.condensed_matter.current_density_from_mobility
-  laws.condensed_matter.current_density_in_thermionic_emission_per_richardson
-  laws.condensed_matter.current_density_via_number_density_and_drift_velocity
-  laws.condensed_matter.diffusion_coefficient_from_energy_temperature
-  laws.condensed_matter.drift_velocity_of_charge_carriers
-  laws.condensed_matter.effective_mass_of_electron_via_energy
-  laws.condensed_matter.equilibrium_voltage_difference_in_pn_junction_via_concentrations
-  laws.condensed_matter.resistance_from_temperature
+
+    laws.condensed_matter.concentration_of_intrinsic_charge_carriers
+    laws.condensed_matter.current_density_from_mobility
+    laws.condensed_matter.current_density_in_thermionic_emission_per_richardson
+    laws.condensed_matter.current_density_via_number_density_and_drift_velocity
+    laws.condensed_matter.diffusion_coefficient_from_energy_temperature
+    laws.condensed_matter.drift_velocity_of_charge_carriers
+    laws.condensed_matter.effective_mass_of_electron_via_energy
+    laws.condensed_matter.equilibrium_voltage_difference_in_pn_junction_via_concentrations
+    laws.condensed_matter.resistance_from_temperature
+
+
+

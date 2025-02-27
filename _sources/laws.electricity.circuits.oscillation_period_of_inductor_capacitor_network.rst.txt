@@ -1,5 +1,5 @@
 Oscillation period of inductor-capacitor network
-------------------------------------------------
+================================================
 
 An inductor-capacitor network, also called **LC circuit**, **resonator circuit**, or
 **tuned circuit**, consists of an inductor and a capacitor connected together. This type
@@ -16,40 +16,43 @@ resonant frequency.
 
     Natural :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: inductance
 
     :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the inductor.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`inductance`
+Dimension:
+    :code:`inductance`
+
 
 .. py:data:: capacitance
 
     :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: law
 

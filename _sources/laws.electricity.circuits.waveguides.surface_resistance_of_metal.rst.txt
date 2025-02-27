@@ -1,5 +1,5 @@
 Surface resistance of metal
----------------------------
+===========================
 
 A coaxial waveguide is an electrical cable consisting of a central conductor and a
 shield arranged coaxially and separated by an insulating material or an air gap. It is
@@ -16,54 +16,58 @@ frequency, magnetic permeability and specific conductivity of the metal.
 
     Surface :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance`.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: absolute_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the insulator.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`inductance/length`
+Dimension:
+    :code:`inductance/length`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: specific_conductance
 
     Specific conductance of the conductor, i.e. :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` per unit
     :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`G`
+Symbol:
+    :code:`G`
 
-    Latex:
-        :math:`G`
+Latex:
+    :math:`G`
 
-    Dimension:
-        :code:`conductance/length`
+Dimension:
+    :code:`conductance/length`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Impedances of π-type circuit of transmission line
--------------------------------------------------
+=================================================
 
 The π-type circuit consists of the first impedance connected in parallel, the third
 impedance connected in series, and the second impedance connected in parallel. For a
@@ -15,79 +15,85 @@ circuit by knowing the transmission line parameters.
 
     First :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_1`
+Symbol:
+    :code:`Z_1`
 
-    Latex:
-        :math:`Z_{1}`
+Latex:
+    :math:`Z_{1}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: second_impedance
 
     Second :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_2`
+Symbol:
+    :code:`Z_2`
 
-    Latex:
-        :math:`Z_{2}`
+Latex:
+    :math:`Z_{2}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: third_impedance
 
     Third :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_3`
+Symbol:
+    :code:`Z_3`
 
-    Latex:
-        :math:`Z_{3}`
+Latex:
+    :math:`Z_{3}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: surge_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
 
-    Symbol:
-        :code:`Z_S`
+Symbol:
+    :code:`Z_S`
 
-    Latex:
-        :math:`Z_\text{S}`
+Latex:
+    :math:`Z_\text{S}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: length
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` of the transmission line.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: propagation_constant
 
     :attr:`~symplyphysics.symbols.electrodynamics.propagation_constant`.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Radial kinetic energy plus potential energy is constant
--------------------------------------------------------
+=======================================================
 
 The total energy of the planet is composed of its radial kinetic energy and potential
 energy. Note that the sign of the total energy determines the type of the planet's orbit:
@@ -18,54 +18,58 @@ energy. Note that the sign of the total energy determines the type of the planet
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the planet.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: radial_speed
 
     The projection of the velocity vector in the radial direction. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
-    Symbol:
-        :code:`v_r`
+Symbol:
+    :code:`v_r`
 
-    Latex:
-        :math:`v_{r}`
+Latex:
+    :math:`v_{r}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: potential_energy
 
     The :doc:`potential energy <laws.gravity.radial_motion.potential_energy_of_planetary_motion>` of the planet.
     See :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy`.
 
-    Symbol:
-        :code:`U`
+Symbol:
+    :code:`U`
 
-    Latex:
-        :math:`U`
+Latex:
+    :math:`U`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: total_mechanical_energy
 
     Total :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` of the planet, assumed to be constant.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

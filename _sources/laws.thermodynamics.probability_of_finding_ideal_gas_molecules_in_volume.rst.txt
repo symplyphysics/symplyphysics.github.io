@@ -1,5 +1,5 @@
 Probability of finding ideal gas molecules in volume
-----------------------------------------------------
+====================================================
 
 For ideal gas molecules, we can calculate the probability of N molecules occupying a certain region
 in space, say, a container with gas particles.
@@ -23,53 +23,57 @@ in space, say, a container with gas particles.
 
     :attr:`~symplyphysics.symbols.basic.probability` of finding :attr:`~particle_count` gas particles in :attr:`~partial_volume`.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: total_volume
 
     Total :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the region.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: partial_volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of part of the container where we are looking for the particles.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: particle_count
 
     :attr:`~symplyphysics.symbols.basic.particle_count` in :attr:`~partial_volume`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

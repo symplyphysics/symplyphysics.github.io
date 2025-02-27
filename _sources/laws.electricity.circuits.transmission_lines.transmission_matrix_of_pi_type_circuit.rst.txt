@@ -1,5 +1,5 @@
 Transmission matrix of π-type matrix
-------------------------------------
+====================================
 
 The π-type circuit consists of the first impedance connected in parallel, the third
 impedance connected in series, and the second impedance connected in parallel. Knowing
@@ -24,94 +24,101 @@ transmission matrix of this line.
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: voltage_current_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
     circuit at the output.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: current_voltage_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: current_current_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
     circuit at the output.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: first_impedance
 
     First :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_1`
+Symbol:
+    :code:`Z_1`
 
-    Latex:
-        :math:`Z_{1}`
+Latex:
+    :math:`Z_{1}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: second_impedance
 
     Second :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_2`
+Symbol:
+    :code:`Z_2`
 
-    Latex:
-        :math:`Z_{2}`
+Latex:
+    :math:`Z_{2}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: third_impedance
 
     Third :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_3`
+Symbol:
+    :code:`Z_3`
 
-    Latex:
-        :math:`Z_{3}`
+Latex:
+    :math:`Z_{3}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Mass is constant
-----------------
+================
 
 The mass is constant in a system that is closed, and mass is not transformed to energy.
 
@@ -24,27 +24,29 @@ The mass is constant in a system that is closed, and mass is not transformed to 
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` as a function of :attr:`~time`.
 
-    Symbol:
-        :code:`m(t)`
+Symbol:
+    :code:`m(t)`
 
-    Latex:
-        :math:`m{\left(t \right)}`
+Latex:
+    :math:`m{\left(t \right)}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

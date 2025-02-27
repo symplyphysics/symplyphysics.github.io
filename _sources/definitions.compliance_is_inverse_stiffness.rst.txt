@@ -1,5 +1,5 @@
 Compliance is inverse stiffness
--------------------------------
+===============================
 
 *Compliance, or flexibility*, of a spring is the inverse of its stiffness and measures
 how flexible the spring is.
@@ -14,27 +14,29 @@ how flexible the spring is.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.compliance` of the spring.
 
-    Symbol:
-        :code:`c`
+Symbol:
+    :code:`c`
 
-    Latex:
-        :math:`c`
+Latex:
+    :math:`c`
 
-    Dimension:
-        :code:`length/force`
+Dimension:
+    :code:`length/force`
+
 
 .. py:data:: stiffness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` of the spring.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`force/length`
+Dimension:
+    :code:`force/length`
+
 
 .. py:data:: definition
 

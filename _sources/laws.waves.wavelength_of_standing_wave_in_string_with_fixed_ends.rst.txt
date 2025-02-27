@@ -1,5 +1,5 @@
 Wavelength of standing wave in string with fixed ends
------------------------------------------------------
+=====================================================
 
 If a standing wave occurs in a string with fixed ends, the value of the displacement
 function :math:`q(x)` must be zero on both ends of the string. To satisfy this boundary
@@ -21,40 +21,43 @@ string.
     Positive integer, also called *harmonic number* of the :math:`n`-th harmonic.
     See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of standing wave.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: string_length
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` of the string.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

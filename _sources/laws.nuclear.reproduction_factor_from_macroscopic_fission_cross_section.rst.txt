@@ -1,5 +1,5 @@
 Reproduction factor from macroscopic cross sections in fuel
------------------------------------------------------------
+===========================================================
 
 Reproduction factor can be found using the macroscopic fissure and absorption cross
 sections in the fuel and the average number of neutrons produced per fission.
@@ -14,53 +14,57 @@ sections in the fuel and the average number of neutrons produced per fission.
 
     Average number of neutrons produced per fission. See :attr:`~symplyphysics.symbols.basic.particle_count`.
 
-    Symbol:
-        :code:`nu`
+Symbol:
+    :code:`nu`
 
-    Latex:
-        :math:`\nu`
+Latex:
+    :math:`\nu`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: macroscopic_fission_cross_section
 
     :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of fission *in the fuel*.
 
-    Symbol:
-        :code:`Sigma_ff`
+Symbol:
+    :code:`Sigma_ff`
 
-    Latex:
-        :math:`\Sigma_\text{f}^\text{f}`
+Latex:
+    :math:`\Sigma_\text{f}^\text{f}`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: macroscopic_absorption_cross_section
 
     :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of absorption *in the fuel*.
 
-    Symbol:
-        :code:`Sigma_af`
+Symbol:
+    :code:`Sigma_af`
 
-    Latex:
-        :math:`\Sigma_\text{a}^\text{f}`
+Latex:
+    :math:`\Sigma_\text{a}^\text{f}`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: reproduction_factor
 
     Neutron :attr:`~symplyphysics.symbols.nuclear.reproduction_factor`.
 
-    Symbol:
-        :code:`eta`
+Symbol:
+    :code:`eta`
 
-    Latex:
-        :math:`\eta`
+Latex:
+    :math:`\eta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

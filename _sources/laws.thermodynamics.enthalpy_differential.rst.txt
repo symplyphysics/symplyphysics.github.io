@@ -1,5 +1,5 @@
 Enthalpy differential
----------------------
+=====================
 
 The fundamental thermodynamic relations are fundamental equations which demonstate how the important
 thermodynamic quantities depend on variables that are measurable experimentally.
@@ -30,92 +30,99 @@ thermodynamic quantities depend on variables that are measurable experimentally.
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
 
-    Symbol:
-        :code:`dH`
+Symbol:
+    :code:`dH`
 
-    Latex:
-        :math:`dH`
+Latex:
+    :math:`dH`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: entropy_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
-    Symbol:
-        :code:`dS`
+Symbol:
+    :code:`dS`
 
-    Latex:
-        :math:`dS`
+Latex:
+    :math:`dS`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: pressure_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`dp`
+Symbol:
+    :code:`dp`
 
-    Latex:
-        :math:`dp`
+Latex:
+    :math:`dp`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: chemical_potential
 
     :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: particle_count_change
 
     Infinitesimal change in the :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`dN`
+Symbol:
+    :code:`dN`
 
-    Latex:
-        :math:`dN`
+Latex:
+    :math:`dN`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

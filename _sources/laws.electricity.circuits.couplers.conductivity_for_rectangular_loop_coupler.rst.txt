@@ -1,5 +1,5 @@
 Admittance of rectangular loop coupler
---------------------------------------
+======================================
 
 The rectangular loop coupler consists of four sections. The admittance of each section
 can be calculated by calculating the admittance of the transmission line to which the
@@ -15,79 +15,85 @@ coupler is connected and the power ratio at the outputs.
 
     :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the first section.
 
-    Symbol:
-        :code:`Y_1`
+Symbol:
+    :code:`Y_1`
 
-    Latex:
-        :math:`Y_{1}`
+Latex:
+    :math:`Y_{1}`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: second_admittance
 
     :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the second section.
 
-    Symbol:
-        :code:`Y_2`
+Symbol:
+    :code:`Y_2`
 
-    Latex:
-        :math:`Y_{2}`
+Latex:
+    :math:`Y_{2}`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: third_admittance
 
     :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the third section.
 
-    Symbol:
-        :code:`Y_3`
+Symbol:
+    :code:`Y_3`
 
-    Latex:
-        :math:`Y_{3}`
+Latex:
+    :math:`Y_{3}`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: fourth_admittance
 
     :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the fourth section.
 
-    Symbol:
-        :code:`Y_4`
+Symbol:
+    :code:`Y_4`
 
-    Latex:
-        :math:`Y_{4}`
+Latex:
+    :math:`Y_{4}`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: transmission_line_admittance
 
     :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the transmission line.
 
-    Symbol:
-        :code:`Y_0`
+Symbol:
+    :code:`Y_0`
 
-    Latex:
-        :math:`Y_{0}`
+Latex:
+    :math:`Y_{0}`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: power_ratio
 
     Ratio of the power at the outputs of the coupler.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

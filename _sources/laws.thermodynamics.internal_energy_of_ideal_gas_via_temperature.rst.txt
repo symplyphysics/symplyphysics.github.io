@@ -1,5 +1,5 @@
 Internal energy of ideal gas via temperature
---------------------------------------------
+============================================
 
 Internal energy of an ideal gas is the sum of the kinetic energy of all of its molecules.
 
@@ -27,53 +27,57 @@ Internal energy of an ideal gas is the sum of the kinetic energy of all of its m
 
     :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the gas.
 
-    Symbol:
-        :code:`U`
+Symbol:
+    :code:`U`
 
-    Latex:
-        :math:`U`
+Latex:
+    :math:`U`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the gas.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: molar_mass
 
     :attr:`~symplyphysics.symbols.basic.molar_mass` of the gas.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: law
 

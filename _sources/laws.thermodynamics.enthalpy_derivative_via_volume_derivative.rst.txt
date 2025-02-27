@@ -1,5 +1,5 @@
 Enthalpy derivative via volume derivative
------------------------------------------
+=========================================
 
 Isothermal derivative of enthalpy w.r.t. pressure can be found using volume as a function
 of temperature and pressure.
@@ -18,53 +18,57 @@ of temperature and pressure.
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: enthalpy
 
     :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
 
-    Symbol:
-        :code:`H(T, p)`
+Symbol:
+    :code:`H(T, p)`
 
-    Latex:
-        :math:`H{\left(T,p \right)}`
+Latex:
+    :math:`H{\left(T,p \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V(T, p)`
+Symbol:
+    :code:`V(T, p)`
 
-    Latex:
-        :math:`V{\left(T,p \right)}`
+Latex:
+    :math:`V{\left(T,p \right)}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

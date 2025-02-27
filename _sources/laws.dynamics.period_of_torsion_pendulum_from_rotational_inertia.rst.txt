@@ -1,5 +1,5 @@
 Period of torsion pendulum from rotational inertia
---------------------------------------------------
+==================================================
 
 A torsion pendulum is an angular version of a linear harmonic oscillator: a disk
 oscillates in a horizontal plane; the reference line oscillates with some angular amplitude.
@@ -15,40 +15,43 @@ The element of elasticity is associated with the twisting of the suspension wire
 
     The :attr:`~symplyphysics.symbols.basic.period` of pendulum's oscillations.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: rotational_inertia
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the disk.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`length**2*mass`
+Dimension:
+    :code:`length**2*mass`
+
 
 .. py:data:: torsion_stiffness
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.torsion_stiffness`, which depends on the properties of the suspension wire.
 
-    Symbol:
-        :code:`kappa`
+Symbol:
+    :code:`kappa`
 
-    Latex:
-        :math:`\kappa`
+Latex:
+    :math:`\kappa`
 
-    Dimension:
-        :code:`force*length/angle`
+Dimension:
+    :code:`force*length/angle`
+
 
 .. py:data:: law
 

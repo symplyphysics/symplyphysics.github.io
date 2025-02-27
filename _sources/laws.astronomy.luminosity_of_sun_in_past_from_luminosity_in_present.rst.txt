@@ -1,5 +1,5 @@
 Luminosity of Sun in past from luminosity in present
-----------------------------------------------------
+====================================================
 
 The luminosity of the Sun in the past can be calculated from the luminosity of the Sun in the present.
 
@@ -17,53 +17,57 @@ The luminosity of the Sun in the past can be calculated from the luminosity of t
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun at some point in the past.
 
-    Symbol:
-        :code:`L_0`
+Symbol:
+    :code:`L_0`
 
-    Latex:
-        :math:`L_{0}`
+Latex:
+    :math:`L_{0}`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: present_luminosity
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun in the present.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` between the past even and today.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: one_billion_years
 
     A quantity equal to one billion years.
 
-    Symbol:
-        :code:`1 Gyr`
+Symbol:
+    :code:`1 Gyr`
 
-    Latex:
-        :math:`1 \, \text{Gyr}`
+Latex:
+    :math:`1 \, \text{Gyr}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

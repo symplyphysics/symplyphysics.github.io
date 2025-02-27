@@ -26,12 +26,16 @@ coplanar line. The (relative) permittivity of such a medium will be called the
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness
-  laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness
-  laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first
-  laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second
+
+    laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness
+    laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness
+    laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first
+    laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second
+
+
+

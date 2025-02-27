@@ -1,5 +1,5 @@
 Neutron flux for uniform parallelepiped
----------------------------------------
+=======================================
 
 Neutron flux for a uniform rectangular parallelepiped reactor of side lengths
 :math:`a, b, c` depends on the cartesian coordinates :math:`x, y, z`.
@@ -11,105 +11,113 @@ Neutron flux for a uniform rectangular parallelepiped reactor of side lengths
     Dimension factor that appears as a coefficient in the solution to the :ref:`differential
     equation <Diffusion equation from neutron flux>`. See :attr:`~symplyphysics.symbols.nuclear.neutron_flux`.
 
-    Symbol:
-        :code:`Phi_0`
+Symbol:
+    :code:`Phi_0`
 
-    Latex:
-        :math:`\Phi_{0}`
+Latex:
+    :math:`\Phi_{0}`
 
-    Dimension:
-        :code:`1/(area*time)`
+Dimension:
+    :code:`1/(area*time)`
+
 
 .. py:data:: x
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` along the :math:`x`-axis.
 
-    Symbol:
-        :code:`x_1`
+Symbol:
+    :code:`x_1`
 
-    Latex:
-        :math:`x_{1}`
+Latex:
+    :math:`x_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: y
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` along the :math:`y`-axis.
 
-    Symbol:
-        :code:`x_2`
+Symbol:
+    :code:`x_2`
 
-    Latex:
-        :math:`x_{2}`
+Latex:
+    :math:`x_{2}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: z
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` along the :math:`z`-axis.
 
-    Symbol:
-        :code:`x_3`
+Symbol:
+    :code:`x_3`
 
-    Latex:
-        :math:`x_{3}`
+Latex:
+    :math:`x_{3}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: length
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` along the :math:`x`-axis.
 
-    Symbol:
-        :code:`l_1`
+Symbol:
+    :code:`l_1`
 
-    Latex:
-        :math:`l_{1}`
+Latex:
+    :math:`l_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: width
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` along the :math:`y`-axis.
 
-    Symbol:
-        :code:`l_2`
+Symbol:
+    :code:`l_2`
 
-    Latex:
-        :math:`l_{2}`
+Latex:
+    :math:`l_{2}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: height
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` along the :math:`z`-axis.
 
-    Symbol:
-        :code:`l_3`
+Symbol:
+    :code:`l_3`
 
-    Latex:
-        :math:`l_{3}`
+Latex:
+    :math:`l_{3}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: neutron_flux
 
     :attr:`~symplyphysics.symbols.nuclear.neutron_flux` at a point with coordinates :attr:`~x`, :attr:`~y`, :attr:`~z`.
 
-    Symbol:
-        :code:`Phi`
+Symbol:
+    :code:`Phi`
 
-    Latex:
-        :math:`\Phi`
+Latex:
+    :math:`\Phi`
 
-    Dimension:
-        :code:`1/(area*time)`
+Dimension:
+    :code:`1/(area*time)`
+
 
 .. py:data:: law
 

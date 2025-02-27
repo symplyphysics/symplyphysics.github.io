@@ -1,5 +1,5 @@
 Migration area from diffusion length and Fermi age
---------------------------------------------------
+==================================================
 
 Migration area of a neutron can be found as the sum of the diffusion area and the Fermi
 age.
@@ -14,40 +14,43 @@ age.
 
     :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_area`.
 
-    Symbol:
-        :code:`L^2`
+Symbol:
+    :code:`L^2`
 
-    Latex:
-        :math:`L^{2}`
+Latex:
+    :math:`L^{2}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: fermi_age
 
     :attr:`~symplyphysics.symbols.nuclear.neutron_fermi_age`.
 
-    Symbol:
-        :code:`tau`
+Symbol:
+    :code:`tau`
 
-    Latex:
-        :math:`\tau`
+Latex:
+    :math:`\tau`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: migration_area
 
     :attr:`~symplyphysics.symbols.nuclear.migration_area`.
 
-    Symbol:
-        :code:`M^2`
+Symbol:
+    :code:`M^2`
 
-    Latex:
-        :math:`M^{2}`
+Latex:
+    :math:`M^{2}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: law
 

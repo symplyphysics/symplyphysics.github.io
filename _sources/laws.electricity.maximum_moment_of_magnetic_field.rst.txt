@@ -1,5 +1,5 @@
 Magnetic moment via current and contour area
---------------------------------------------
+============================================
 
 The **magnetic moment** is the main physical quantity characterizing the magnetic
 properties of a substance, that is, the ability to create and perceive a magnetic
@@ -27,40 +27,43 @@ field.
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_moment`.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`area*current`
+Dimension:
+    :code:`area*current`
+
 
 .. py:data:: current
 
     :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the contour.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: area
 
     Contour :attr:`~symplyphysics.symbols.classical_mechanics.area`.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Concentration of intrinsic charge carriers
-------------------------------------------
+==========================================
 
 In the absence of external influences (lighting, electric field, etc.), there is a
 nonzero concentration of free charge carriers in the semiconductor.
@@ -22,66 +22,71 @@ nonzero concentration of free charge carriers in the semiconductor.
 
     :attr:`~symplyphysics.symbols.basic.number_density` of intrinsic charge carriers.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: density_of_states_in_conduction_band
 
     Effective :attr:`~symplyphysics.symbols.chemistry.density_of_states` in the conduction band.
 
-    Symbol:
-        :code:`N_c`
+Symbol:
+    :code:`N_c`
 
-    Latex:
-        :math:`N_\text{c}`
+Latex:
+    :math:`N_\text{c}`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: density_of_states_in_valence_band
 
     Effective :attr:`~symplyphysics.symbols.chemistry.density_of_states` in the valence band.
 
-    Symbol:
-        :code:`N_v`
+Symbol:
+    :code:`N_v`
 
-    Latex:
-        :math:`N_\text{v}`
+Latex:
+    :math:`N_\text{v}`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the semiconductor.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: band_gap
 
     :attr:`~symplyphysics.symbols.chemistry.band_gap` of the semiconductor.
 
-    Symbol:
-        :code:`E_g`
+Symbol:
+    :code:`E_g`
 
-    Latex:
-        :math:`E_\text{g}`
+Latex:
+    :math:`E_\text{g}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Molar internal energy
----------------------
+=====================
 
 If the equation of state is known, the internal energy of a substance can be found
 as a function of volume at constant temperature.
@@ -18,66 +18,71 @@ as a function of volume at constant temperature.
 
     :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the van der Waals fluid per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`u_m`
+Symbol:
+    :code:`u_m`
 
-    Latex:
-        :math:`u_\text{m}`
+Latex:
+    :math:`u_\text{m}`
 
-    Dimension:
-        :code:`energy/amount_of_substance`
+Dimension:
+    :code:`energy/amount_of_substance`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: isochoric_molar_heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume` as a function of :attr:`~temperature`.
 
-    Symbol:
-        :code:`c_Vm(T)`
+Symbol:
+    :code:`c_Vm(T)`
 
-    Latex:
-        :math:`c_{V, \text{m}}{\left(T \right)}`
+Latex:
+    :math:`c_{V, \text{m}}{\left(T \right)}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: attractive_forces_parameter
 
     :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`pressure*volume**2/amount_of_substance**2`
+Dimension:
+    :code:`pressure*volume**2/amount_of_substance**2`
+
 
 .. py:data:: molar_volume
 
     :attr:`~symplyphysics.symbols.basic.molar_volume`.
 
-    Symbol:
-        :code:`v_m`
+Symbol:
+    :code:`v_m`
 
-    Latex:
-        :math:`v_\text{m}`
+Latex:
+    :math:`v_\text{m}`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: law
 

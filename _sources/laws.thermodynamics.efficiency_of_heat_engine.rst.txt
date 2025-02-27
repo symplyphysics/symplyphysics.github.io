@@ -1,5 +1,5 @@
 Efficiency of heat engine
--------------------------
+=========================
 
 Efficiency of a heat engine is the ratio of the useful energy to the total energy received
 by the system.
@@ -14,40 +14,43 @@ by the system.
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat` transferred by the heater to the heat engine.
 
-    Symbol:
-        :code:`Q_h`
+Symbol:
+    :code:`Q_h`
 
-    Latex:
-        :math:`Q_{h}`
+Latex:
+    :math:`Q_{h}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: heat_to_refrigerator
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat` transferred by the heat engine to the refrigerator.
 
-    Symbol:
-        :code:`Q_r`
+Symbol:
+    :code:`Q_r`
 
-    Latex:
-        :math:`Q_{r}`
+Latex:
+    :math:`Q_{r}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: efficiency
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermal_efficiency` of the heat engine.
 
-    Symbol:
-        :code:`eta`
+Symbol:
+    :code:`eta`
 
-    Latex:
-        :math:`\eta`
+Latex:
+    :math:`\eta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

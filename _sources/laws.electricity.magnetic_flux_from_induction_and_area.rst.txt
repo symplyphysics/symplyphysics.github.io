@@ -1,5 +1,5 @@
 Magnetic flux from magnetic flux density and area
--------------------------------------------------
+=================================================
 
 Magnetic flux is the flux of the vector of magnetic flux density through a certain surface.
 
@@ -13,53 +13,57 @@ Magnetic flux is the flux of the vector of magnetic flux density through a certa
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux` through the area.
 
-    Symbol:
-        :code:`Phi_B`
+Symbol:
+    :code:`Phi_B`
 
-    Latex:
-        :math:`\Phi_\mathbf{B}`
+Latex:
+    :math:`\Phi_\mathbf{B}`
 
-    Dimension:
-        :code:`magnetic_flux`
+Dimension:
+    :code:`magnetic_flux`
+
 
 .. py:data:: magnetic_flux_density
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`magnetic_density`
+Dimension:
+    :code:`magnetic_density`
+
 
 .. py:data:: area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area`.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: angle
 
     :attr:`~symplyphysics.symbols.basic.angle` between the vector of magnetic flux density and the area vector.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

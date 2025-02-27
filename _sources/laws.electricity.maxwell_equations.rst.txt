@@ -8,3 +8,5 @@ optics, electric and magnetic circuits.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.maxwell_equations
 
+
+

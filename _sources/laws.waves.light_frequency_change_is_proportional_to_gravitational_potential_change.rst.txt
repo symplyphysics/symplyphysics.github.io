@@ -1,5 +1,5 @@
 Light frequency change is proportional to gravitational potential change
-------------------------------------------------------------------------
+========================================================================
 
 When light is propagating in a gravitational field, its frequency changes proportionally to the
 change in the potential of the gravitational field.
@@ -30,41 +30,44 @@ between the change in light's frequency and the change in the gravitational pote
     The infinitesimal change in :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` after passing an infinitesimal section
     :math:`d \vec r`.
 
-    Symbol:
-        :code:`d(f)`
+Symbol:
+    :code:`d(f)`
 
-    Latex:
-        :math:`df`
+Latex:
+    :math:`df`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: frequency
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of light within an infinitesimal section :math:`d \vec r`.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: gravitational_potential_change
 
     The infinitesimal change in :ref:`gravitational potential <gravitational potential>` after passing an
     infinitesimal section :math:`d \vec r`.
 
-    Symbol:
-        :code:`d(phi)`
+Symbol:
+    :code:`d(phi)`
 
-    Latex:
-        :math:`d \phi`
+Latex:
+    :math:`d \phi`
 
-    Dimension:
-        :code:`velocity**2`
+Dimension:
+    :code:`velocity**2`
+
 
 .. py:data:: law
 

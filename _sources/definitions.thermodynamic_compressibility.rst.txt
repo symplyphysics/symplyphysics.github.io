@@ -1,5 +1,5 @@
 Thermodynamic compressibility
------------------------------
+=============================
 
 **Compressibility**, or the **coefficient of compressibility**, is a measure of the instantaneous
 relative volume change of a fluid or solid as a response to pressure or mean stress change.
@@ -22,53 +22,57 @@ relative volume change of a fluid or solid as a response to pressure or mean str
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermodynamic_compressibility` of the gas.
 
-    Symbol:
-        :code:`beta`
+Symbol:
+    :code:`beta`
 
-    Latex:
-        :math:`\beta`
+Latex:
+    :math:`\beta`
 
-    Dimension:
-        :code:`1/pressure`
+Dimension:
+    :code:`1/pressure`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the gas.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: parameters
 
     Parameters other than :attr:`~pressure` on which the volume function depends.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas as a function of :attr:`~pressure` and :attr:`~parameters`.
 
-    Symbol:
-        :code:`V(p, q)`
+Symbol:
+    :code:`V(p, q)`
 
-    Latex:
-        :math:`V{\left(p,q \right)}`
+Latex:
+    :math:`V{\left(p,q \right)}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: definition
 

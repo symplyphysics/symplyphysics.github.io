@@ -1,5 +1,5 @@
 Equation in homogeneous medium in one dimension
------------------------------------------------
+===============================================
 
 Heat equation governs heat diffusion, as well as other diffusive processes. It describes
 the evolution of heat transferred from hotter to colder environments in time and space.
@@ -25,53 +25,57 @@ the evolution of heat transferred from hotter to colder environments in time and
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position`, or spatial variable.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: temperature
 
     Temperature as a function of :attr:`~position` and :attr:`~time`.
 
-    Symbol:
-        :code:`T(x, t)`
+Symbol:
+    :code:`T(x, t)`
 
-    Latex:
-        :math:`T{\left(x,t \right)}`
+Latex:
+    :math:`T{\left(x,t \right)}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: thermal_diffusivity
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermal_diffusivity`.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`area/time`
+Dimension:
+    :code:`area/time`
+
 
 .. py:data:: law
 

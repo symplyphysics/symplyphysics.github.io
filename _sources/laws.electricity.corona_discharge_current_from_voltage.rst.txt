@@ -1,5 +1,5 @@
 Corona discharge current from voltage
--------------------------------------
+=====================================
 
 The corona discharge is an independent discharge in a relatively dense gas. If an
 electric field is applied to two electrodes between which there is a gas gap, then a
@@ -14,66 +14,71 @@ corona discharge occurs at a certain potential difference between the electrodes
 
     Corona discharge :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: experimental_coefficient
 
     Coefficient of the gas which is experimentally determined.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`charge/(area*voltage)`
+Dimension:
+    :code:`charge/(area*voltage)`
+
 
 .. py:data:: mobility
 
     :attr:`~symplyphysics.symbols.chemistry.mobility` of charge carriers.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`area/(time*voltage)`
+Dimension:
+    :code:`area/(time*voltage)`
+
 
 .. py:data:: voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` applied.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: discharge_voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` at which the corona discharge occurs.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Lorentz force via electromagnetic field
----------------------------------------
+=======================================
 
 The **Lorentz force law** states that a charged particle moving in an electromagnetic
 field experiences a force that depends on the values of the electric field and the
@@ -29,14 +29,15 @@ magnetic field.
 
     Value of the electric :attr:`~symplyphysics.symbols.electrodynamics.charge` of the test particle.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:function:: lorentz_force_law(electric_field_, magnetic_flux_density_, velocity_)
 
@@ -81,6 +82,7 @@ magnetic field.
 
         Dimension: *force*
 
+
 .. py:function:: electric_field_law(lorentz_force_, magnetic_flux_density_, velocity_)
 
     Electric field via Lorentz force, magnetic field, and velocity.
@@ -123,6 +125,7 @@ magnetic field.
         Latex: :math:`\vec E`
 
         Dimension: *voltage* / *length*
+
 
 .. py:function:: charge_law(lorentz_force_, electric_field_, magnetic_flux_density_, velocity_)
 
@@ -172,4 +175,3 @@ magnetic field.
         Symbol: :code:`q`
 
         Dimension: *charge*
-

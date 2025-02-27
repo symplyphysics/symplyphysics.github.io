@@ -1,5 +1,5 @@
 Isentropic speed of sound
--------------------------
+=========================
 
 Derived by Laplace, the formula for the speed of sound in fluids uses the pressure-density dependence
 and the fact that the oscillations in a sound wave happen so fast, and the thermal conductivity of air
@@ -18,54 +18,58 @@ the sound wave immediately level out, which eventually turned out to be inconsis
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of sound in the fluid.
 
-    Symbol:
-        :code:`v_s`
+Symbol:
+    :code:`v_s`
 
-    Latex:
-        :math:`v_\text{s}`
+Latex:
+    :math:`v_\text{s}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: density
 
     :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: entropy
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the fluid.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the fluid as a function of :attr:`~density` and
     :attr:`~entropy`.
 
-    Symbol:
-        :code:`p(rho, S)`
+Symbol:
+    :code:`p(rho, S)`
 
-    Latex:
-        :math:`p{\left(\rho,S \right)}`
+Latex:
+    :math:`p{\left(\rho,S \right)}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: law
 

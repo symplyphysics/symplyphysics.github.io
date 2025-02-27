@@ -1,5 +1,5 @@
 Current density from mobility
------------------------------
+=============================
 
 The current density can be calculated from the concentration and mobilities of holes and
 electrons and the electric field.
@@ -18,79 +18,85 @@ electrons and the electric field.
 
     :attr:`~symplyphysics.symbols.electrodynamics.current_density` of charge carriers.
 
-    Symbol:
-        :code:`j`
+Symbol:
+    :code:`j`
 
-    Latex:
-        :math:`j`
+Latex:
+    :math:`j`
 
-    Dimension:
-        :code:`current/area`
+Dimension:
+    :code:`current/area`
+
 
 .. py:data:: electrons_concentration
 
     Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of electrons.
 
-    Symbol:
-        :code:`n_e`
+Symbol:
+    :code:`n_e`
 
-    Latex:
-        :math:`n_\text{e}`
+Latex:
+    :math:`n_\text{e}`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: holes_concentration
 
     Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of holes.
 
-    Symbol:
-        :code:`n_h`
+Symbol:
+    :code:`n_h`
 
-    Latex:
-        :math:`n_\text{h}`
+Latex:
+    :math:`n_\text{h}`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: electrons_mobility
 
     :attr:`~symplyphysics.symbols.chemistry.mobility` of electrons.
 
-    Symbol:
-        :code:`mu_e`
+Symbol:
+    :code:`mu_e`
 
-    Latex:
-        :math:`\mu_\text{e}`
+Latex:
+    :math:`\mu_\text{e}`
 
-    Dimension:
-        :code:`area/(time*voltage)`
+Dimension:
+    :code:`area/(time*voltage)`
+
 
 .. py:data:: holes_mobility
 
     :attr:`~symplyphysics.symbols.chemistry.mobility` of holes.
 
-    Symbol:
-        :code:`mu_h`
+Symbol:
+    :code:`mu_h`
 
-    Latex:
-        :math:`\mu_\text{h}`
+Latex:
+    :math:`\mu_\text{h}`
 
-    Dimension:
-        :code:`area/(time*voltage)`
+Dimension:
+    :code:`area/(time*voltage)`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: law
 

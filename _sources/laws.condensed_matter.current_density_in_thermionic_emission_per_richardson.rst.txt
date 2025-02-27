@@ -1,5 +1,5 @@
 Current density in thermionic emission per Richardson
------------------------------------------------------
+=====================================================
 
 Thermionic emission is the liberation of electrons from an electrode by virtue of its temperature.
 This occurs because the thermal energy given to the charge carrier overcomes the work function of
@@ -20,40 +20,43 @@ the material. This formula for emission current density was proposed by Owen Wil
 
     Emission :attr:`~symplyphysics.symbols.electrodynamics.current_density`.
 
-    Symbol:
-        :code:`j`
+Symbol:
+    :code:`j`
 
-    Latex:
-        :math:`j`
+Latex:
+    :math:`j`
 
-    Dimension:
-        :code:`current/area`
+Dimension:
+    :code:`current/area`
+
 
 .. py:data:: work_function
 
     :attr:`~symplyphysics.symbols.chemistry.work_function` of the material.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the metal.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

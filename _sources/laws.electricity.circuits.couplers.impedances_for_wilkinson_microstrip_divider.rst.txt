@@ -1,5 +1,5 @@
 Impedance of Wilkinson microstrip divider
------------------------------------------
+=========================================
 
 The Wilkinson divider is a device designed to divide the power of a microwave signal
 into two output ports. Different sections of the divider consist of a microstrip line of
@@ -18,80 +18,86 @@ different widths. There are four such sections in total and each has its own imp
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the first section.
 
-    Symbol:
-        :code:`Z_1`
+Symbol:
+    :code:`Z_1`
 
-    Latex:
-        :math:`Z_{1}`
+Latex:
+    :math:`Z_{1}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: second_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the second section.
 
-    Symbol:
-        :code:`Z_2`
+Symbol:
+    :code:`Z_2`
 
-    Latex:
-        :math:`Z_{2}`
+Latex:
+    :math:`Z_{2}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: third_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the third section.
 
-    Symbol:
-        :code:`Z_3`
+Symbol:
+    :code:`Z_3`
 
-    Latex:
-        :math:`Z_{3}`
+Latex:
+    :math:`Z_{3}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: fourth_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the fourth section.
 
-    Symbol:
-        :code:`Z_4`
+Symbol:
+    :code:`Z_4`
 
-    Latex:
-        :math:`Z_{4}`
+Latex:
+    :math:`Z_{4}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: transmission_line_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the transmission line to which the divider is
     connected.
 
-    Symbol:
-        :code:`Z_0`
+Symbol:
+    :code:`Z_0`
 
-    Latex:
-        :math:`Z_{0}`
+Latex:
+    :math:`Z_{0}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: power_ratio
 
     Ratio of the :attr:`~symplyphysics.symbols.basic.power` at the outputs of the divider.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

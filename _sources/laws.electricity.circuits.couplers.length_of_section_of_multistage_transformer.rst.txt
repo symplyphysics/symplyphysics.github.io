@@ -1,5 +1,5 @@
 Section length of multistage transformer
-----------------------------------------
+========================================
 
 A multistage resistance transformer consists of several sections. The length of each
 section depends on the wavelength at the upper operating frequency and the wavelength at
@@ -14,40 +14,43 @@ the lower operating frequency.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length` of the section.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: upper_frequency_wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` at the upper operating :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
-    Symbol:
-        :code:`lambda_1`
+Symbol:
+    :code:`lambda_1`
 
-    Latex:
-        :math:`\lambda_{1}`
+Latex:
+    :math:`\lambda_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: lower_frequency_wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` at the lower operating :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
-    Symbol:
-        :code:`lambda_2`
+Symbol:
+    :code:`lambda_2`
 
-    Latex:
-        :math:`\lambda_{2}`
+Latex:
+    :math:`\lambda_{2}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

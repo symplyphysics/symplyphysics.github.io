@@ -1,5 +1,5 @@
 Amount of mixture is sum of amounts of components
--------------------------------------------------
+=================================================
 
 The total amount of the mixture is equal to the sum of the amounts of each of the components.
 
@@ -22,27 +22,29 @@ The total amount of the mixture is equal to the sum of the amounts of each of th
 
     :attr:`~symplyphysics.symbols.chemistry.amount_of_substance` in the mixture.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`amount_of_substance`
+Dimension:
+    :code:`amount_of_substance`
+
 
 .. py:data:: amount_of_component
 
     :attr:`~symplyphysics.symbols.chemistry.amount_of_substance` in the :math:`i`-th component.
 
-    Symbol:
-        :code:`n[i]`
+Symbol:
+    :code:`n[i]`
 
-    Latex:
-        :math:`{n}_{i}`
+Latex:
+    :math:`{n}_{i}`
 
-    Dimension:
-        :code:`amount_of_substance`
+Dimension:
+    :code:`amount_of_substance`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Chemical potential is particle count derivative of free energy
---------------------------------------------------------------
+==============================================================
 
 The chemical potential of the system is the amount of energy the system absorbs or releases
 due to the introduction of a particle into the system, i.e. when the particle count increases
@@ -15,53 +15,57 @@ by one.
 
     :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: particle_count
 
     :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: free_energy
 
@@ -70,14 +74,15 @@ by one.
     ..
         TODO add link to definition file
 
-    Symbol:
-        :code:`F(T, V, N)`
+Symbol:
+    :code:`F(T, V, N)`
 
-    Latex:
-        :math:`F{\left(T,V,N \right)}`
+Latex:
+    :math:`F{\left(T,V,N \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Input impedance of thin film resistor
--------------------------------------
+=====================================
 
 Thin-film resistors in integrated design are used in microwave circuits. The input
 impedance of a thin-film resistor depends on its resistance and capacitance, as well as
@@ -14,53 +14,57 @@ on the angular frequency.
 
     Input :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the resistor.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the film.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: capacitance
 
     :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the film.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: law
 

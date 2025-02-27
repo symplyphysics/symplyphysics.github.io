@@ -1,5 +1,5 @@
 Van der Waals equation
-----------------------
+======================
 
 To more accurately describe the behavior of real gases at low temperatures,
 a Van der Waals gas model was created, taking into account the forces of intermolecular interaction.
@@ -23,66 +23,71 @@ into account the main characteristics of a gas with intermolecular interaction.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the van der Waals fluid.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: molar_volume
 
     :attr:`~symplyphysics.symbols.basic.molar_volume` of the van der Waals fluid.
 
-    Symbol:
-        :code:`v_m`
+Symbol:
+    :code:`v_m`
 
-    Latex:
-        :math:`v_\text{m}`
+Latex:
+    :math:`v_\text{m}`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: attractive_forces_parameter
 
     :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`pressure*volume**2/amount_of_substance**2`
+Dimension:
+    :code:`pressure*volume**2/amount_of_substance**2`
+
 
 .. py:data:: excluded_volume_parameter
 
     :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: law
 

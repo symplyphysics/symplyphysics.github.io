@@ -1,5 +1,5 @@
 Thermal resistance to conduction
---------------------------------
+================================
 
 Thermal resistance to conduction is a physical quantity that was introduced in the engineering
 practice for insulators: greater values of thermal resistance mean better insulation properties of
@@ -15,40 +15,43 @@ a material of given thickness.
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermal_insulance` of the insulator, also called an **R-value**.
 
-    Symbol:
-        :code:`R_val`
+Symbol:
+    :code:`R_val`
 
-    Latex:
-        :math:`R_\text{val}`
+Latex:
+    :math:`R_\text{val}`
 
-    Dimension:
-        :code:`area*temperature/power`
+Dimension:
+    :code:`area*temperature/power`
+
 
 .. py:data:: slab_thickness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the insulator.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: thermal_conductivity
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the insulating material.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`power/(length*temperature)`
+Dimension:
+    :code:`power/(length*temperature)`
+
 
 .. py:data:: definition
 

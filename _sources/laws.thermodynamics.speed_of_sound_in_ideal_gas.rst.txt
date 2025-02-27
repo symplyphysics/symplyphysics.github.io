@@ -1,5 +1,5 @@
 Speed of sound in ideal gas
----------------------------
+===========================
 
 Also known as the Laplace's formula of the speed of sound, it provides a correct expression
 for the speed of sound for ideal gases compared to the Newton's formula. See
@@ -19,53 +19,57 @@ for the speed of sound for ideal gases compared to the Newton's formula. See
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of sound in gas.
 
-    Symbol:
-        :code:`v_s`
+Symbol:
+    :code:`v_s`
 
-    Latex:
-        :math:`v_\text{s}`
+Latex:
+    :math:`v_\text{s}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: heat_capacity_ratio
 
     Heat capacity ratio, or :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index`, of the gas.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: molar_mass
 
     :attr:`~symplyphysics.symbols.basic.molar_mass` of the gas.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: law
 

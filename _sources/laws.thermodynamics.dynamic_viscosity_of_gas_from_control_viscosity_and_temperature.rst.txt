@@ -1,5 +1,5 @@
 Dynamic viscosity of gas from temperature
------------------------------------------
+=========================================
 
 Viscosity is a phenomenon of molecular transport, the property of fluid bodies (liquids and gases)
 to resist the movement of one part of them relative to another. As a result, the macroscopic work
@@ -23,66 +23,71 @@ with increasing temperature, whereas for liquids it decreases with increasing te
 
     :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the gas at the given :attr:`~temperature`.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`pressure*time`
+Dimension:
+    :code:`pressure*time`
+
 
 .. py:data:: reference_dynamic_viscosity
 
     :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the gas at the :attr:`~reference_temperature`.
 
-    Symbol:
-        :code:`mu_0`
+Symbol:
+    :code:`mu_0`
 
-    Latex:
-        :math:`mu_{0}`
+Latex:
+    :math:`mu_{0}`
 
-    Dimension:
-        :code:`pressure*time`
+Dimension:
+    :code:`pressure*time`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` at which the viscosity value is calculated.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: reference_temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` at which the reference viscosity value is calculated.
 
-    Symbol:
-        :code:`T_0`
+Symbol:
+    :code:`T_0`
 
-    Latex:
-        :math:`T_{0}`
+Latex:
+    :math:`T_{0}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: sutherland_constant
 
     :attr:`~symplyphysics.symbols.thermodynamics.sutherland_constant` of the gas.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

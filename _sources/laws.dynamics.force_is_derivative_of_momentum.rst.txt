@@ -1,5 +1,5 @@
 Force is derivative of momentum
--------------------------------
+===============================
 
 Newton's second law of motion can be generalized in terms of linear momentum. Precisely,
 the net force exerted on a body is equal to the time derivative of the body's momentum.
@@ -18,40 +18,43 @@ the net force exerted on a body is equal to the time derivative of the body's mo
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: momentum
 
     The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the body as a function of :attr:`~time`.
 
-    Symbol:
-        :code:`p(t)`
+Symbol:
+    :code:`p(t)`
 
-    Latex:
-        :math:`p{\left(t \right)}`
+Latex:
+    :math:`p{\left(t \right)}`
 
-    Dimension:
-        :code:`momentum`
+Dimension:
+    :code:`momentum`
+
 
 .. py:data:: force
 
     The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body as a function of :attr:`~time`.
 
-    Symbol:
-        :code:`F(t)`
+Symbol:
+    :code:`F(t)`
 
-    Latex:
-        :math:`F{\left(t \right)}`
+Latex:
+    :math:`F{\left(t \right)}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Phase speed of wave on stretched string
----------------------------------------
+=======================================
 
 The phase speed of a wave on a stretched ideal string is set by properties of the string
 and not by properties of the wave such as frequency and amplitude.
@@ -14,40 +14,43 @@ and not by properties of the wave such as frequency and amplitude.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: tension
 
     :attr:`~symplyphysics.symbols.classical_mechanics.tension` in the string.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: linear_density
 
     :attr:`~symplyphysics.symbols.basic.linear_density` of the string, i.e. its mass per units length.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`mass/length`
+Dimension:
+    :code:`mass/length`
+
 
 .. py:data:: law
 

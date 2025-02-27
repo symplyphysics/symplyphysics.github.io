@@ -1,5 +1,5 @@
 Reaction force equals action force
-----------------------------------
+==================================
 
 Newton's third law of motion states that for every action there is an equal and opposite reaction.
 Namely, if two bodies exert forces on each other, these forces have the same magnitude but opposite
@@ -15,27 +15,29 @@ directions.
 
     The projection of the :attr:`~symplyphysics.symbols.classical_mechanics.force` that the first body exerts on the second body.
 
-    Symbol:
-        :code:`F_12`
+Symbol:
+    :code:`F_12`
 
-    Latex:
-        :math:`F_{12}`
+Latex:
+    :math:`F_{12}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: reaction_force
 
     The projection of the :attr:`~symplyphysics.symbols.classical_mechanics.force` that the second body exerts on the first body.
 
-    Symbol:
-        :code:`F_21`
+Symbol:
+    :code:`F_21`
 
-    Latex:
-        :math:`F_{21}`
+Latex:
+    :math:`F_{21}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: law
 
@@ -44,4 +46,5 @@ directions.
     Latex:
         .. math::
             F_{12} = - F_{21}
+
 

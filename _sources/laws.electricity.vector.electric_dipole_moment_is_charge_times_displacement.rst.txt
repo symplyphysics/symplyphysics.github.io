@@ -1,5 +1,5 @@
 Electric dipole moment is charge times displacement
----------------------------------------------------
+===================================================
 
 The vector of electric dipole moment is a vector whose magnitude describes the
 :doc:`electric dipole moment <laws.electricity.electric_dipole_moment_is_charge_times_distance>`
@@ -19,14 +19,15 @@ of the system. It is collinear to the vector connecting the two point charges.
 
     Magnitude of the electric :attr:`~symplyphysics.symbols.electrodynamics.charge` of the point charges.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:function:: dipole_moment_law(displacement_vector_)
 
@@ -54,4 +55,3 @@ of the system. It is collinear to the vector connecting the two point charges.
         Latex: :math:`\vec p`
 
         Dimension: *charge* * *length*
-

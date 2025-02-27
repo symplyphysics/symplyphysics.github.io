@@ -1,5 +1,5 @@
 Free energy change via temperature change and electric displacement change
---------------------------------------------------------------------------
+==========================================================================
 
 The infinitesimal change in (Helmholtz) free energy of a system with a dielectric
 medium can be expressed using the change in temperature and the change in electric
@@ -22,66 +22,71 @@ displacement.
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system
     per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`dH`
+Symbol:
+    :code:`dH`
 
-    Latex:
-        :math:`dH`
+Latex:
+    :math:`dH`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: entropy_density
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/(temperature*volume)`
+Dimension:
+    :code:`energy/(temperature*volume)`
+
 
 .. py:data:: temperature_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`dT`
+Symbol:
+    :code:`dT`
 
-    Latex:
-        :math:`dT`
+Latex:
+    :math:`dT`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: electric_displacement_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement` of the system.
 
-    Symbol:
-        :code:`dD`
+Symbol:
+    :code:`dD`
 
-    Latex:
-        :math:`dD`
+Latex:
+    :math:`dD`
 
-    Dimension:
-        :code:`charge/area`
+Dimension:
+    :code:`charge/area`
+
 
 .. py:data:: law
 

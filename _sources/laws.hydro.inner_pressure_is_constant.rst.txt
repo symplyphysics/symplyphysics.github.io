@@ -1,5 +1,5 @@
 Inner pressure is constant
---------------------------
+==========================
 
 Bernoulli's equation applied to an ideal liquid specifies that the inner pressure of the
 fluid is constant at all points along a streamline.
@@ -18,28 +18,30 @@ fluid is constant at all points along a streamline.
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: inner_pressure
 
     Inner pressure of the fluid at a chosen point in space as a function of :attr:`~time`.
     See :ref:`Inner pressure is sum of pressures`.
 
-    Symbol:
-        :code:`p_inner(t)`
+Symbol:
+    :code:`p_inner(t)`
 
-    Latex:
-        :math:`p_\text{inner}{\left(t \right)}`
+Latex:
+    :math:`p_\text{inner}{\left(t \right)}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: law
 

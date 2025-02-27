@@ -1,5 +1,5 @@
 Impedance matrix equation
--------------------------
+=========================
 
 The impedance matrix is one of the ways to describe a microwave device. The
 :math:`Z`-parameters of the device act as elements of this matrix. The matrix equation
@@ -15,109 +15,117 @@ relates the input and output voltages to the input and output currents.
 
     Input :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
-    Symbol:
-        :code:`V_i`
+Symbol:
+    :code:`V_i`
 
-    Latex:
-        :math:`V_\text{i}`
+Latex:
+    :math:`V_\text{i}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: output_voltage
 
     Output :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
-    Symbol:
-        :code:`V_o`
+Symbol:
+    :code:`V_o`
 
-    Latex:
-        :math:`V_\text{o}`
+Latex:
+    :math:`V_\text{o}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: input_current
 
     Input :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I_i`
+Symbol:
+    :code:`I_i`
 
-    Latex:
-        :math:`I_\text{i}`
+Latex:
+    :math:`I_\text{i}`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: output_current
 
     Output :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I_o`
+Symbol:
+    :code:`I_o`
 
-    Latex:
-        :math:`I_\text{o}`
+Latex:
+    :math:`I_\text{o}`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: input_input_impedance
 
     Ratio of :attr:`~input_voltage` to :attr:`~input_current` at idle at the output. See
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_ii`
+Symbol:
+    :code:`Z_ii`
 
-    Latex:
-        :math:`Z_\text{ii}`
+Latex:
+    :math:`Z_\text{ii}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: input_output_impedance
 
     Ratio of :attr:`~input_voltage` to :attr:`~output_current` at idle at the output. See
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_io`
+Symbol:
+    :code:`Z_io`
 
-    Latex:
-        :math:`Z_\text{io}`
+Latex:
+    :math:`Z_\text{io}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: output_input_impedance
 
     Ratio of :attr:`~output_voltage` to :attr:`~input_current` at idle at the output. See
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_oi`
+Symbol:
+    :code:`Z_oi`
 
-    Latex:
-        :math:`Z_\text{oi}`
+Latex:
+    :math:`Z_\text{oi}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: output_output_impedance
 
     Ratio of :attr:`~output_voltage` to :attr:`~output_current` at idle at the output. See
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_oo`
+Symbol:
+    :code:`Z_oo`
 
-    Latex:
-        :math:`Z_\text{oo}`
+Latex:
+    :math:`Z_\text{oo}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

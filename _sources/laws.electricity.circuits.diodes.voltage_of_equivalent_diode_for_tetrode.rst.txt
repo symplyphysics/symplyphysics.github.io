@@ -1,5 +1,5 @@
 Equivalent diode voltage for tetrode
-------------------------------------
+====================================
 
 A tetrode has four electrodes: a cathode, an anode, and two grids (control and
 shielding). The tetrode can be replaced with an equivalent diode, and the voltage in the
@@ -14,105 +14,113 @@ equivalent diode can be calculated.
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the cathode and anode of an equivalent diode for a tetrode.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: first_grid_voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the cathode and the first grid.
 
-    Symbol:
-        :code:`V_1`
+Symbol:
+    :code:`V_1`
 
-    Latex:
-        :math:`V_{1}`
+Latex:
+    :math:`V_{1}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: second_grid_voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the cathode and the second grid.
 
-    Symbol:
-        :code:`V_2`
+Symbol:
+    :code:`V_2`
 
-    Latex:
-        :math:`V_{2}`
+Latex:
+    :math:`V_{2}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: anode_voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the cathode and the anode.
 
-    Symbol:
-        :code:`U_a`
+Symbol:
+    :code:`U_a`
 
-    Latex:
-        :math:`U_\text{a}`
+Latex:
+    :math:`U_\text{a}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: first_grid_direct_permeability_coefficient
 
     :attr:`~symplyphysics.symbols.electrodynamics.direct_permeability_coefficient` of the first grid.
 
-    Symbol:
-        :code:`D_1`
+Symbol:
+    :code:`D_1`
 
-    Latex:
-        :math:`D_{1}`
+Latex:
+    :math:`D_{1}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: second_grid_direct_permeability_coefficient
 
     :attr:`~symplyphysics.symbols.electrodynamics.direct_permeability_coefficient` of the second grid.
 
-    Symbol:
-        :code:`D_2`
+Symbol:
+    :code:`D_2`
 
-    Latex:
-        :math:`D_{2}`
+Latex:
+    :math:`D_{2}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: anode_distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the cathode and the anode.
 
-    Symbol:
-        :code:`d_a`
+Symbol:
+    :code:`d_a`
 
-    Latex:
-        :math:`d_\text{a}`
+Latex:
+    :math:`d_\text{a}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: first_grid_distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the cathode and the first grid.
 
-    Symbol:
-        :code:`d_1`
+Symbol:
+    :code:`d_1`
 
-    Latex:
-        :math:`d_{1}`
+Latex:
+    :math:`d_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

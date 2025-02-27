@@ -1,5 +1,5 @@
 Thermodynamics (Symbols)
-------------------------
+========================
 
 Symbols related to thermodynamics.
 
@@ -10,138 +10,148 @@ Symbols related to thermodynamics.
     Temperature is a scalar quantity that quantitatively expresses the attribute of hotness and coldness. It reflects
     the average kinetic energy of the vibrating and colliding atoms making up a substance.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: adiabatic_index
 
     **Adiabatic index**, or **heat capacity ratio**, is the ratio of heat capacity at constant pressure to that
     at constant volume.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: heat_capacity
 
     **Heat capacity** or **thermal capacity** is a physical property of matter, defined as the amount of heat to be
     supplied to an object to produce a unit change in its temperature.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: molar_heat_capacity
 
     **Molar heat capacity** is defined as the heat capacity per unit amount of substance.
 
-    Symbol:
-        :code:`c_m`
+Symbol:
+    :code:`c_m`
 
-    Latex:
-        :math:`c_{m}`
+Latex:
+    :math:`c_{m}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: thermal_expansion_coefficient
 
     **Thermal expansion coefficient** describes how the size of an object changes with a change in temperature at
     constant pressure.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`1/temperature`
+Dimension:
+    :code:`1/temperature`
+
 
 .. py:data:: thermodynamic_compressibility
 
     **Compressibility** is a measure of the instantaneous relative volume change of a fluid or solid as a response
     to a pressure or mean stress change.
 
-    Symbol:
-        :code:`beta`
+Symbol:
+    :code:`beta`
 
-    Latex:
-        :math:`\beta`
+Latex:
+    :math:`\beta`
 
-    Dimension:
-        :code:`1/pressure`
+Dimension:
+    :code:`1/pressure`
+
 
 .. py:data:: thermal_resistance
 
     **Thermal resistance** measures the opposition to the heat current in a material or system.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`temperature/power`
+Dimension:
+    :code:`temperature/power`
+
 
 .. py:data:: thermal_conductivity
 
     **Thermal conductivity** of a material is a measure of its ability to conduct heat. It is defined as the
     proportionality coefficient between the heat flux and the temperature gradient.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`power/(length*temperature)`
+Dimension:
+    :code:`power/(length*temperature)`
+
 
 .. py:data:: thermal_insulance
 
     The **R-value**, or **thermal insulance**, is a measure of how well a two-dimensional barrier, such as a layer of
     insulation, a window or a complete wall or ceiling, resists the conductive flow of heat, in the context of construction.
 
-    Symbol:
-        :code:`R_val`
+Symbol:
+    :code:`R_val`
 
-    Latex:
-        :math:`R_\text{val}`
+Latex:
+    :math:`R_\text{val}`
 
-    Dimension:
-        :code:`area*temperature/power`
+Dimension:
+    :code:`area*temperature/power`
+
 
 .. py:data:: compressibility_factor
 
     The **compressibility factor**, also known as the **compression factor** or the **gas deviation factor**,
     describes the deviation of a real gas from ideal gas behavior.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: partition_function
 
@@ -150,28 +160,30 @@ Symbols related to thermodynamics.
     the system by encoding the information about how the probabilities are partitioned among the different
     microstates based on the specific microstate variables.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: boltzmann_factor
 
     In statistical mechanics, the **Boltzmann factor** is a quantity that describes the approximate fraction
     of particles in the canonical ensemble.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: entropy
 
@@ -180,28 +192,30 @@ Symbols related to thermodynamics.
     properties, such as volume, bulk mass, pressure, etc. The statistical definition defines it in terms of the
     statistics of the motions of the microscopic constituents of a system.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: chemical_potential
 
     The **chemical potential** of a species is the energy that can be absorbed or released due to a change of the
     particle number of the given species, e.g. in a chemical reaction or phase transition.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: gibbs_energy
 
@@ -209,42 +223,45 @@ Symbols related to thermodynamics.
     other than pressure-volume work, that may be performed by a thermodynamically closed system at constant
     temperature and pressure.
 
-    Symbol:
-        :code:`G`
+Symbol:
+    :code:`G`
 
-    Latex:
-        :math:`G`
+Latex:
+    :math:`G`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: enthalpy
 
     **Enthalpy** is a state function defined as the sum of a thermodynamic system's internal energy and the
     product of its pressure and volume, used in measurements at a constant external pressure.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: helmholtz_free_energy
 
     In thermodynamics, the **Helmholtz free energy** (or **Helmholtz energy**) is a thermodynamic potential
     that measures the useful work obtainable from a closed thermodynamic system at a constant temperature.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: internal_energy
 
@@ -253,14 +270,15 @@ Symbols related to thermodynamics.
     and kinetic energies of the system as a whole and is only concerned with the energy of the molecules comprising
     the system.
 
-    Symbol:
-        :code:`U`
+Symbol:
+    :code:`U`
 
-    Latex:
-        :math:`U`
+Latex:
+    :math:`U`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: thermal_wavelength
 
@@ -271,70 +289,75 @@ Symbols related to thermodynamics.
 
     #. `Thermal de Broglie wavelength <https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength>`__.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: heat
 
     In thermodynamics, **heat** is energy in transfer between a thermodynamic system and its surroundings by modes
     other than thermodynamic work and transfer of matter.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: thermal_efficiency
 
     The **thermal efficiency** is a dimensionless performance measure of a device that uses thermal energy. A generic
     definition of thermal energy is the ratio of the energy benefit to the energy costs attributed to the defice.
 
-    Symbol:
-        :code:`eta`
+Symbol:
+    :code:`eta`
 
-    Latex:
-        :math:`\eta`
+Latex:
+    :math:`\eta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: statistical_weight
 
     **Statistical weight**, or **multiplicity**, is a physical quantity denoting the number of microstates
     corresponding to a particular macrostate of a thermodynamic system.
 
-    Symbol:
-        :code:`Omega`
+Symbol:
+    :code:`Omega`
 
-    Latex:
-        :math:`\Omega`
+Latex:
+    :math:`\Omega`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: relative_humidity
 
     **Relative humidity** is a quantity that indicates a present state of absolute humidity relative to a
     maximum humidity given the same temperature.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: mean_free_path
 
@@ -345,14 +368,15 @@ Symbols related to thermodynamics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Mean_free_path>`__.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: sutherland_constant
 
@@ -362,14 +386,15 @@ Symbols related to thermodynamics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Temperature_dependence_of_viscosity#Sutherland_model>`__.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: prandtl_number
 
@@ -380,14 +405,15 @@ Symbols related to thermodynamics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Prandtl_number>`__.
 
-    Symbol:
-        :code:`Pr`
+Symbol:
+    :code:`Pr`
 
-    Latex:
-        :math:`\text{Pr}`
+Latex:
+    :math:`\text{Pr}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: grashof_number
 
@@ -398,14 +424,15 @@ Symbols related to thermodynamics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Grashof_number>`__.
 
-    Symbol:
-        :code:`Gr`
+Symbol:
+    :code:`Gr`
 
-    Latex:
-        :math:`\text{Gr}`
+Latex:
+    :math:`\text{Gr}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: kinematic_viscosity
 
@@ -416,14 +443,15 @@ Symbols related to thermodynamics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Viscosity#Kinematic_viscosity>`__.
 
-    Symbol:
-        :code:`nu`
+Symbol:
+    :code:`nu`
 
-    Latex:
-        :math:`\nu`
+Latex:
+    :math:`\nu`
 
-    Dimension:
-        :code:`area/time`
+Dimension:
+    :code:`area/time`
+
 
 .. py:data:: thermal_diffusivity
 
@@ -434,42 +462,45 @@ Symbols related to thermodynamics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Thermal_diffusivity>`__.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`area/time`
+Dimension:
+    :code:`area/time`
+
 
 .. py:data:: attractive_forces_parameter
 
     Parameter specific to each individual substance, usually attributed to the magnitude of
     attractive forces between particles of the system.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`pressure*volume**2/amount_of_substance**2`
+Dimension:
+    :code:`pressure*volume**2/amount_of_substance**2`
+
 
 .. py:data:: excluded_volume_parameter
 
     Parameter specific to each individual substance, usually attributed to the amount of
     excluded molar volume due to a finite size of particles.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: heat_transfer_coefficient
 
@@ -483,12 +514,13 @@ Symbols related to thermodynamics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Heat_transfer_coefficient#>`__.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`power/(area*temperature)`
+Dimension:
+    :code:`power/(area*temperature)`
+
 

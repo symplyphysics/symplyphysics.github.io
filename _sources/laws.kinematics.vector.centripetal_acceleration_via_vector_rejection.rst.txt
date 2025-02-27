@@ -1,5 +1,5 @@
 Centripetal acceleration via vector rejection
----------------------------------------------
+=============================================
 
 *Centripetal acceleration* is the acceleration of a body in a rotating coordinate system
 which is directed towards the axis of rotation.
@@ -18,6 +18,8 @@ Also see :doc:`laws.kinematics.vector.centripetal_acceleration_via_cross_product
 #. `Wikipedia <https://en.wikipedia.org/wiki/Centripetal_force#Derivation_using_vectors>`__.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection
+
+
 
 .. py:function:: centripetal_acceleration_law(angular_velocity_, radius_vector_)
 
@@ -53,4 +55,3 @@ Also see :doc:`laws.kinematics.vector.centripetal_acceleration_via_cross_product
         Latex: :math:`{\vec a}_\text{c}`
 
         Dimension: *acceleration*
-

@@ -1,5 +1,5 @@
 Efflux speed via pressure and density
--------------------------------------
+=====================================
 
 The speed of a fluid flowing out from a small orifice can be expressed as a function
 of the fluid's :doc:`hydrostatic pressure <laws.hydro.hydrostatic_pressure_via_density_and_height>`
@@ -19,40 +19,43 @@ and density.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` of the fluid flowing out of the pipe.
 
-    Symbol:
-        :code:`u`
+Symbol:
+    :code:`u`
 
-    Latex:
-        :math:`u`
+Latex:
+    :math:`u`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: hydrostatic_pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.hydrostatic_pressure` of the fluid.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: density
 
     :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: law
 

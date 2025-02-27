@@ -1,5 +1,5 @@
 Momentum is mass times velocity (Vector)
-----------------------------------------
+========================================
 
 An object's *linear momentum* is a vector quantity defined as the product of its mass and velocity vector.
 
@@ -13,14 +13,15 @@ An object's *linear momentum* is a vector quantity defined as the product of its
 
     :attr:`~symplyphysics.symbols.basic.mass` of the object.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:function:: momentum_definition(velocity_)
 
@@ -49,6 +50,7 @@ An object's *linear momentum* is a vector quantity defined as the product of its
 
         Dimension: *momentum*
 
+
 .. py:function:: velocity_law(momentum_)
 
     Vector of *velocity*
@@ -75,4 +77,3 @@ An object's *linear momentum* is a vector quantity defined as the product of its
         Latex: :math:`\vec v`
 
         Dimension: *velocity*
-

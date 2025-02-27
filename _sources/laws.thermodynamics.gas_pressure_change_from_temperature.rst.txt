@@ -1,5 +1,5 @@
 Gas pressure change from temperature
-------------------------------------
+====================================
 
 The change in pressure of ideal gas depends on temperature, standard pressure and thermal coefficient.
 
@@ -17,45 +17,49 @@ The change in pressure of ideal gas depends on temperature, standard pressure an
 
     Finite change in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the gas.
 
-    Symbol:
-        :code:`Delta(p)`
+Symbol:
+    :code:`Delta(p)`
 
-    Latex:
-        :math:`\Delta p`
+Latex:
+    :math:`\Delta p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: initial_pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` at :attr:`standard conditions <symplyphysics.quantities.standard_conditions_temperature>`.
 
-    Symbol:
-        :code:`p_0`
+Symbol:
+    :code:`p_0`
 
-    Latex:
-        :math:`p_{0}`
+Latex:
+    :math:`p_{0}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: thermal_coefficient
 
     Isochoric thermal pressure coefficient equal to the inverse of
     :attr:`standard conditions temperature <symplyphysics.quantities.standard_conditions_temperature>`.
 
+
 .. py:data:: final_temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

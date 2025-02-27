@@ -1,5 +1,5 @@
 Period from angular frequency
------------------------------
+=============================
 
 The period of oscillations is the time it takes for the system to perform a single oscillation cycle.
 The Period is inversely proportional to the angular frequency of oscillations. See
@@ -15,27 +15,29 @@ The Period is inversely proportional to the angular frequency of oscillations. S
 
     :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of oscillations.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

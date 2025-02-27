@@ -1,5 +1,5 @@
 Intensity of sound wave is rate of energy transfer over area
-------------------------------------------------------------
+============================================================
 
 The *intensity* of a sound wave at a surface is a physical quantity defined as the average rate
 per unit area at which energy is transferred by the wave through or onto the surface.
@@ -14,40 +14,43 @@ per unit area at which energy is transferred by the wave through or onto the sur
 
     :attr:`~symplyphysics.symbols.basic.intensity` of the sound wave.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: power
 
     :attr:`~symplyphysics.symbols.basic.power`, or rate of energy transfer, of the wave.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: area
 
     Surface :attr:`~symplyphysics.symbols.classical_mechanics.area`.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: definition
 

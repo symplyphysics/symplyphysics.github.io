@@ -1,5 +1,5 @@
 Electrostatic potential is work to bring from reference point over charge
--------------------------------------------------------------------------
+=========================================================================
 
 Electrostatic potential is a physical quantity defined as the amount of
 work needed per unit electric charge to move it from a reference point,
@@ -22,40 +22,43 @@ the potential approach zero at an infinitely remote point.
 
     Electrostatic potential of a point in an electric field. See :attr:`~symplyphysics.symbols.electrodynamics.electric_potential`.
 
-    Symbol:
-        :code:`U_E`
+Symbol:
+    :code:`U_E`
 
-    Latex:
-        :math:`U_\mathbf{E}`
+Latex:
+    :math:`U_\mathbf{E}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: work
 
     :attr:`~symplyphysics.symbols.basic.work` needed to bring the charge from the reference point.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: charge
 
     Value of the electric :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: law
 

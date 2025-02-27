@@ -1,5 +1,5 @@
 Acceleration due to non-uniform rotation
-----------------------------------------
+========================================
 
 Imagine two reference frames, one of which is fixed (:math:`S`) and the other is moving (:math:`S'`). When :math:`S'` rotates
 around :math:`S` in a non-uniform way, the acceleration of some body :math:`B` in :math:`S` has a component corresponding to
@@ -17,6 +17,8 @@ that non-uniform rotation of :math:`S'`. It is part of the transfer acceleration
     TODO find English link
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation
+
+
 
 .. py:function:: non_uniform_rotation_acceleration_law(angular_velocity_, time_, radius_vector_)
 
@@ -58,4 +60,3 @@ that non-uniform rotation of :math:`S'`. It is part of the transfer acceleration
         Latex: :math:`{\vec a}_\text{rot}`
 
         Dimension: *acceleration*
-

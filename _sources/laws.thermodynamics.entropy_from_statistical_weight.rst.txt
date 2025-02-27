@@ -1,5 +1,5 @@
 Entropy from statistical weight
--------------------------------
+===============================
 
 Entropy of a system depends on the statistical weight of the system's state. Statistical weight
 is the average number of microstates of a system that implement its macro-state.
@@ -18,27 +18,29 @@ is the average number of microstates of a system that implement its macro-state.
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: statistical_weight
 
     :attr:`~symplyphysics.symbols.thermodynamics.statistical_weight` of the system's state.
 
-    Symbol:
-        :code:`Omega`
+Symbol:
+    :code:`Omega`
 
-    Latex:
-        :math:`\Omega`
+Latex:
+    :math:`\Omega`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

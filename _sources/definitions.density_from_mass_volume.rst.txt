@@ -1,5 +1,5 @@
 Density from mass and volume
-----------------------------
+============================
 
 Volumetric mass *density* of an object is a physical quantity equal to the mass of the
 object per unit of its volume. See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`
@@ -15,40 +15,43 @@ for a general version of this law.
 
     Volumetric :attr:`~symplyphysics.symbols.basic.density` of the object.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the object.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the object.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: definition
 

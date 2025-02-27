@@ -1,5 +1,5 @@
 Coupling parameter of resonator from resistance
------------------------------------------------
+===============================================
 
 There is a coupling parameter to describe the resonator and the load. The parameter is
 equal to the ratio of the resonator's resistance to the load resistance.
@@ -13,40 +13,43 @@ equal to the ratio of the resonator's resistance to the load resistance.
 
     Coupling parameter of the resonator.
 
-    Symbol:
-        :code:`g`
+Symbol:
+    :code:`g`
 
-    Latex:
-        :math:`g`
+Latex:
+    :math:`g`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resonator_resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the resonator.
 
-    Symbol:
-        :code:`R_0`
+Symbol:
+    :code:`R_0`
 
-    Latex:
-        :math:`R_{0}`
+Latex:
+    :math:`R_{0}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: load_resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the resonator.
 
-    Symbol:
-        :code:`R_L`
+Symbol:
+    :code:`R_L`
 
-    Latex:
-        :math:`R_\text{L}`
+Latex:
+    :math:`R_\text{L}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

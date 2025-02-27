@@ -1,5 +1,5 @@
 Infinitesimal work in quasistatic process
------------------------------------------
+=========================================
 
 For a process in a closed system, occuring slowly enough for it to be quasi-static (i.e. the system
 remains in internal physical, but not necessarily chemical, thermodynamic equilibrium), the infinitesimal
@@ -21,40 +21,43 @@ increment of volume of the system.
 
     Infinitesimal increment of :attr:`~symplyphysics.symbols.basic.work` done *by* the system.
 
-    Symbol:
-        :code:`delta(W)`
+Symbol:
+    :code:`delta(W)`
 
-    Latex:
-        :math:`\delta W`
+Latex:
+    :math:`\delta W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: volume_change
 
     Infinitesimal increment of :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`dV`
+Symbol:
+    :code:`dV`
 
-    Latex:
-        :math:`dV`
+Latex:
+    :math:`dV`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Capacitance from charge and voltage
------------------------------------
+===================================
 
 The electrical *capacitance* of an object is a physical quantity that describes the capability
 of the object to store energy in the form of an electric charge. It is directly proportional to
@@ -15,40 +15,43 @@ the charge accumulated in the object and inversely proportional to the voltage a
 
     :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the object.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: charge
 
     :attr:`~symplyphysics.symbols.electrodynamics.charge` accumulated in the object.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` across the object.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: definition
 

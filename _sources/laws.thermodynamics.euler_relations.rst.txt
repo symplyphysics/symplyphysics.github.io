@@ -9,11 +9,15 @@ forms. They are derived using `Euler's homogeneous function theorem
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.euler_relations
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.thermodynamics.euler_relations.enthalpy_formula
-  laws.thermodynamics.euler_relations.gibbs_energy_formula
-  laws.thermodynamics.euler_relations.internal_energy_formula
+
+    laws.thermodynamics.euler_relations.enthalpy_formula
+    laws.thermodynamics.euler_relations.gibbs_energy_formula
+    laws.thermodynamics.euler_relations.internal_energy_formula
+
+
+

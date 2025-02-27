@@ -5,18 +5,22 @@ A *resonator* is an electronic component that can generate a resonant frequency.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.electricity.circuits.resonators.coupling_parameter_of_resonator_from_quality_factors
-  laws.electricity.circuits.resonators.coupling_parameter_of_resonator_from_resistances
-  laws.electricity.circuits.resonators.instantaneous_value_of_resonator_energy
-  laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_circuit_parameters
-  laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_quality_factors
-  laws.electricity.circuits.resonators.own_quality_factor_of_resonator
-  laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101
-  laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator
-  laws.electricity.circuits.resonators.resonant_frequency_of_rectangular_resonator
-  laws.electricity.circuits.resonators.resonant_frequency_of_ring_resonator
+
+    laws.electricity.circuits.resonators.coupling_parameter_of_resonator_from_quality_factors
+    laws.electricity.circuits.resonators.coupling_parameter_of_resonator_from_resistances
+    laws.electricity.circuits.resonators.instantaneous_value_of_resonator_energy
+    laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_circuit_parameters
+    laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_quality_factors
+    laws.electricity.circuits.resonators.own_quality_factor_of_resonator
+    laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101
+    laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator
+    laws.electricity.circuits.resonators.resonant_frequency_of_rectangular_resonator
+    laws.electricity.circuits.resonators.resonant_frequency_of_ring_resonator
+
+
+

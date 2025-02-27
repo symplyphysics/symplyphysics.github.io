@@ -5,3 +5,5 @@ The conditions in this folder are related to the equilibrium in dynamic systems.
 
 .. py:currentmodule:: symplyphysics.conditions.dynamics.equilibrium
 
+
+

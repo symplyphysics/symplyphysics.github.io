@@ -1,5 +1,5 @@
 Scattering matrix equation
---------------------------
+==========================
 
 The scattering matrix is one of the ways to describe a microwave device. The
 :math:`S`-parameters of the device act as elements of this matrix. The matrix equation
@@ -24,105 +24,113 @@ and output.
 
     Outgoing ("reflected") power wave at input port.
 
-    Symbol:
-        :code:`b_i`
+Symbol:
+    :code:`b_i`
 
-    Latex:
-        :math:`b_\text{i}`
+Latex:
+    :math:`b_\text{i}`
 
-    Dimension:
-        :code:`sqrt(power)`
+Dimension:
+    :code:`sqrt(power)`
+
 
 .. py:data:: output_reflected_power_wave
 
     Outgoing ("reflected") power wave at output port.
 
-    Symbol:
-        :code:`b_o`
+Symbol:
+    :code:`b_o`
 
-    Latex:
-        :math:`b_\text{o}`
+Latex:
+    :math:`b_\text{o}`
 
-    Dimension:
-        :code:`sqrt(power)`
+Dimension:
+    :code:`sqrt(power)`
+
 
 .. py:data:: input_incident_power_wave
 
     Incident power wave at input port.
 
-    Symbol:
-        :code:`a_i`
+Symbol:
+    :code:`a_i`
 
-    Latex:
-        :math:`a_\text{i}`
+Latex:
+    :math:`a_\text{i}`
 
-    Dimension:
-        :code:`sqrt(power)`
+Dimension:
+    :code:`sqrt(power)`
+
 
 .. py:data:: output_incident_power_wave
 
     Incident power wave at output port.
 
-    Symbol:
-        :code:`a_o`
+Symbol:
+    :code:`a_o`
 
-    Latex:
-        :math:`a_\text{o}`
+Latex:
+    :math:`a_\text{o}`
 
-    Dimension:
-        :code:`sqrt(power)`
+Dimension:
+    :code:`sqrt(power)`
+
 
 .. py:data:: input_voltage_reflection_coefficient
 
     Input port :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
-    Symbol:
-        :code:`S_ii`
+Symbol:
+    :code:`S_ii`
 
-    Latex:
-        :math:`S_\text{ii}`
+Latex:
+    :math:`S_\text{ii}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: reverse_voltage_gain
 
     Reverse :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`S_io`
+Symbol:
+    :code:`S_io`
 
-    Latex:
-        :math:`S_\text{io}`
+Latex:
+    :math:`S_\text{io}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: forward_voltage_gain
 
     Forward :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`S_oi`
+Symbol:
+    :code:`S_oi`
 
-    Latex:
-        :math:`S_\text{oi}`
+Latex:
+    :math:`S_\text{oi}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: output_voltage_reflection_coefficient
 
     Output port :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
-    Symbol:
-        :code:`S_oo`
+Symbol:
+    :code:`S_oo`
 
-    Latex:
-        :math:`S_\text{oo}`
+Latex:
+    :math:`S_\text{oo}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

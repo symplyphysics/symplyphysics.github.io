@@ -1,5 +1,5 @@
 Luminosity of star from absolute magnitude
-------------------------------------------
+==========================================
 
 The luminosity of a star can be calculated from the absolute magnitude of the star.
 
@@ -17,27 +17,29 @@ The luminosity of a star can be calculated from the absolute magnitude of the st
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the star.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: absolute_magnitude
 
     :attr:`~symplyphysics.symbols.astronomy.absolute_magnitude` of the star.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

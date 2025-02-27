@@ -1,5 +1,5 @@
 Virial equation
----------------
+===============
 
 Also called the *virial expansion*, the *virial equation of state* expresses the compressibility factor
 (and therefore the pressure) of a real gas in local equilibrium as a power series of molar density.
@@ -30,54 +30,58 @@ Also called the *virial expansion*, the *virial equation of state* expresses the
 
     :attr:`~symplyphysics.symbols.thermodynamics.compressibility_factor`. Also see :doc:`definitions.compressibility_factor_is_deviation_from_ideal_gas`.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: second_virial_coefficient
 
     Second virial coefficient correponding to pair interactions between particles.
 
-    Symbol:
-        :code:`C_2`
+Symbol:
+    :code:`C_2`
 
-    Latex:
-        :math:`C_{2}`
+Latex:
+    :math:`C_{2}`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: third_virial_coefficient
 
     Third virial coefficient corresponding to 3-body interaction between particles.
 
-    Symbol:
-        :code:`C_3`
+Symbol:
+    :code:`C_3`
 
-    Latex:
-        :math:`C_{3}`
+Latex:
+    :math:`C_{3}`
 
-    Dimension:
-        :code:`volume**2/amount_of_substance**2`
+Dimension:
+    :code:`volume**2/amount_of_substance**2`
+
 
 .. py:data:: molar_density
 
     Molar density of the system, or :attr:`~symplyphysics.symbols.chemistry.amount_of_substance` per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
     See :doc:`laws.quantities.quantity_is_volumetric_density_times_volume`.
 
-    Symbol:
-        :code:`rho_m`
+Symbol:
+    :code:`rho_m`
 
-    Latex:
-        :math:`\rho_\text{m}`
+Latex:
+    :math:`\rho_\text{m}`
 
-    Dimension:
-        :code:`amount_of_substance/volume`
+Dimension:
+    :code:`amount_of_substance/volume`
+
 
 .. py:data:: law
 
@@ -91,7 +95,5 @@ Also called the *virial expansion*, the *virial equation of state* expresses the
     Latex:
         .. math::
             Z = 1 + C_{2} \rho_\text{m} + C_{3} \rho_\text{m}^{2} + O\left(\rho_\text{m}^{3}\right)
-
-
 
 

@@ -1,5 +1,5 @@
 Coriolis acceleration
----------------------
+=====================
 
 Imagine two reference frames, one of which is fixed (:math:`S`) and the other one is moving (:math:`S'`). When
 the body is moving within a rotating coordinate system, its path deflects due to the appearance
@@ -15,6 +15,8 @@ moving within rotating reference frame :math:`S'`, so it is essentially zero for
 #. `Wikipedia <https://en.wikipedia.org/wiki/Coriolis_force#Formula>`__.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.coriolis_acceleration
+
+
 
 .. py:function:: coriolis_acceleration_law(velocity_, angular_velocity_)
 
@@ -50,4 +52,3 @@ moving within rotating reference frame :math:`S'`, so it is essentially zero for
         Latex: :math:`{\vec a}_\text{cor}`
 
         Dimension: *acceleration*
-

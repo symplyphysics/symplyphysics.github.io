@@ -1,5 +1,5 @@
 Photon momentum is proportional to angular wavenumber
------------------------------------------------------
+=====================================================
 
 The momentum of a photon is proportional to its wavenumber.
 
@@ -17,27 +17,29 @@ The momentum of a photon is proportional to its wavenumber.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of a photon.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`momentum`
+Dimension:
+    :code:`momentum`
+
 
 .. py:data:: angular_wavenumber
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of a photon.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`angle/length`
+Dimension:
+    :code:`angle/length`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Easterly deviation from plumbline of falling bodies
----------------------------------------------------
+===================================================
 
 Suppose a body is falling freely in Earth's gravity field with its initial velocity being zero.
 Then the effect of the Coriolis force on the falling body can be found in the fact that it deflects
@@ -20,66 +20,71 @@ from plumbline in the easterly and southerly (equatorial) directions.
     Easterly deviation of falling body from plumbline due to Earth's rotation.
     See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`
 
-    Symbol:
-        :code:`s_east`
+Symbol:
+    :code:`s_east`
 
-    Latex:
-        :math:`s_\text{east}`
+Latex:
+    :math:`s_\text{east}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: fall_time
 
     :attr:`~symplyphysics.symbols.basic.time` of the body's fall.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: rotation_period
 
     :attr:`~symplyphysics.symbols.basic.period` of the Earth's rotation.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: initial_elevation
 
     Initial elevation (:attr:`~symplyphysics.symbols.classical_mechanics.height`) of the body from the Earth's surface.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: latitude
 
     :attr:`~symplyphysics.symbols.classical_mechanics.latitude` of the location of the body.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\phi`
+Latex:
+    :math:`\phi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

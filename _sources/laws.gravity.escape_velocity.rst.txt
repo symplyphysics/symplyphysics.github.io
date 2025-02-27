@@ -1,5 +1,5 @@
 First escape speed
-------------------
+==================
 
 **First escape speed** is the minimum speed needed for an object to escape from contact with or orbit of a primary body.
 
@@ -20,53 +20,57 @@ First escape speed
 
     Escape :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: radius
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the planet.
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: height
 
     Elevation (:attr:`~symplyphysics.symbols.classical_mechanics.height`) of the body from the surface of the planet
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: planet_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the planet.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

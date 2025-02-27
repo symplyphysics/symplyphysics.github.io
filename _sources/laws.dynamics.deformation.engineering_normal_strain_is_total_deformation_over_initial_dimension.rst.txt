@@ -1,5 +1,5 @@
 Engineering normal strain is total deformation over initial dimension
----------------------------------------------------------------------
+=====================================================================
 
 *Engineering normal strain*, also called *Cauchy strain*, is expressed as the ratio of total
 deformation to the initial dimension of a material body on which forces are applied.
@@ -14,40 +14,43 @@ deformation to the initial dimension of a material body on which forces are appl
 
     :attr:`~symplyphysics.symbols.classical_mechanics.engineering_normal_strain` of the body.
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: total_deformation
 
     Total :attr:`~symplyphysics.symbols.classical_mechanics.deformation` of the body.
 
-    Symbol:
-        :code:`Delta(l)`
+Symbol:
+    :code:`Delta(l)`
 
-    Latex:
-        :math:`\Delta l`
+Latex:
+    :math:`\Delta l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: initial_dimension
 
     Initial dimension of the body, e.g. initial :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

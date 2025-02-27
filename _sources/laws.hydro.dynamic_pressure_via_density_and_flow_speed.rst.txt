@@ -1,5 +1,5 @@
 Dynamic pressure from speed
----------------------------
+===========================
 
 **Dynamic pressure**, sometimes called **velocity pressure**, is a physical quantity denoting the
 pressure caused by a flowing fluid.
@@ -19,40 +19,43 @@ pressure caused by a flowing fluid.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_pressure` of the fluid. 
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: density
 
     :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: flow_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` of the fluid.
 
-    Symbol:
-        :code:`u`
+Symbol:
+    :code:`u`
 
-    Latex:
-        :math:`u`
+Latex:
+    :math:`u`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

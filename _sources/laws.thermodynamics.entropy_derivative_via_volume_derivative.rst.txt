@@ -1,5 +1,5 @@
 Entropy derivative via volume derivative
-----------------------------------------
+========================================
 
 Maxwell relations are a set of equations that unite the most common thermodynamic quantities between
 one another. They are derived from the fundamental themodynamic relations featuring differentials
@@ -20,53 +20,57 @@ potentials.
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: entropy
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system as a function of temperature and pressure.
 
-    Symbol:
-        :code:`S(T, p)`
+Symbol:
+    :code:`S(T, p)`
 
-    Latex:
-        :math:`S{\left(T,p \right)}`
+Latex:
+    :math:`S{\left(T,p \right)}`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system as a function of temperature and pressure.
 
-    Symbol:
-        :code:`V(T, p)`
+Symbol:
+    :code:`V(T, p)`
 
-    Latex:
-        :math:`V{\left(T,p \right)}`
+Latex:
+    :math:`V{\left(T,p \right)}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

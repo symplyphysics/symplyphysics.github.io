@@ -5,3 +5,5 @@ A collection of laws related to a vectorial description of gravity.
 
 .. py:currentmodule:: symplyphysics.laws.gravity.vector
 
+
+

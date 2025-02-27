@@ -1,5 +1,5 @@
 Number of collisions of particle with gas in magnetron
-------------------------------------------------------
+======================================================
 
 The atoms of the target material evaporate and move towards the substrate inside the
 magnetron. The traveling atom moves towards the substrate in the magnetron. At the same
@@ -18,53 +18,57 @@ traveling atom and the energy transfer coefficient between the atom and the gas 
 
     Number of collisions between the particle and gas.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: initial_energy
 
     Initial :attr:`~symplyphysics.symbols.basic.energy` of the particle.
 
-    Symbol:
-        :code:`E_0`
+Symbol:
+    :code:`E_0`
 
-    Latex:
-        :math:`E_{0}`
+Latex:
+    :math:`E_{0}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: thermal_energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of thermal motion in the plasma.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: energy_transfer_coefficient
 
     Energy transfer coefficient between the particle and the gas.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

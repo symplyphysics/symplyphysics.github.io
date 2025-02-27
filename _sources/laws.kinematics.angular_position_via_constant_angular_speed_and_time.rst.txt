@@ -1,5 +1,5 @@
 Angular position via constant angular speed and time
-----------------------------------------------------
+====================================================
 
 When a body is rotating around a fixed axis with a constant angular speed, its angular
 position is a linear function of time.
@@ -17,53 +17,57 @@ position is a linear function of time.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :attr:`~time`.
 
-    Symbol:
-        :code:`theta`
+Symbol:
+    :code:`theta`
 
-    Latex:
-        :math:`\theta`
+Latex:
+    :math:`\theta`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: initial_angular_position
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :math:`t = 0`.
 
-    Symbol:
-        :code:`theta_0`
+Symbol:
+    :code:`theta_0`
 
-    Latex:
-        :math:`\theta_{0}`
+Latex:
+    :math:`\theta_{0}`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: angular_speed
 
     Constant :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_angular_position` is measured.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

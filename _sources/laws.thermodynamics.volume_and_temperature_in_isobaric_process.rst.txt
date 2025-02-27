@@ -1,5 +1,5 @@
 Volume and temperature in isobaric process
-------------------------------------------
+==========================================
 
 A thermodynamic process is called **isobaric** when the pressure inside the system stays
 constant. Also called **Charles's law**, it states that the volume of the gas scales
@@ -15,53 +15,57 @@ by the same amount as the temperature during an isobaric process.
 
     Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T_0`
+Symbol:
+    :code:`T_0`
 
-    Latex:
-        :math:`T_{0}`
+Latex:
+    :math:`T_{0}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: final_temperature
 
     Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T_1`
+Symbol:
+    :code:`T_1`
 
-    Latex:
-        :math:`T_{1}`
+Latex:
+    :math:`T_{1}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: initial_volume
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: final_volume
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_1`
+Symbol:
+    :code:`V_1`
 
-    Latex:
-        :math:`V_{1}`
+Latex:
+    :math:`V_{1}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

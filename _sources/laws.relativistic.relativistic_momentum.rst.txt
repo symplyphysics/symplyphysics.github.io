@@ -1,5 +1,5 @@
 Relativistic momentum via rest mass and speed
----------------------------------------------
+=============================================
 
 Momentum (amount of motion) is a vector physical quantity that is a measure of the mechanical movement
 of a body. The relativistic momentum also takes into account speed limits equal to the speed of light.
@@ -18,40 +18,43 @@ of a body. The relativistic momentum also takes into account speed limits equal 
 
     :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the body.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`momentum`
+Dimension:
+    :code:`momentum`
+
 
 .. py:data:: rest_mass
 
     :attr:`~symplyphysics.symbols.relativistic_mechanics.rest_mass` of the body.
 
-    Symbol:
-        :code:`m_0`
+Symbol:
+    :code:`m_0`
 
-    Latex:
-        :math:`m_{0}`
+Latex:
+    :math:`m_{0}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

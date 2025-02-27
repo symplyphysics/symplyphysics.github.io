@@ -1,5 +1,5 @@
 Forced oscillations equation
-----------------------------
+============================
 
 *Forced, or driven, oscillations* are a type of oscillations in the presence of an external driving
 force acting on the oscillating system. In the case of an oscillating external force, two angular
@@ -23,93 +23,100 @@ natural angular frequency of the oscillator.
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: displacement
 
     The displacement of the oscillating body from rest value as a function of :attr:`~time`.
     See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
 
-    Symbol:
-        :code:`x(t)`
+Symbol:
+    :code:`x(t)`
 
-    Latex:
-        :math:`x{\left(t \right)}`
+Latex:
+    :math:`x{\left(t \right)}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the oscillating body.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: natural_angular_frequency
 
     The natural :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
-    Symbol:
-        :code:`w_0`
+Symbol:
+    :code:`w_0`
 
-    Latex:
-        :math:`\omega_{0}`
+Latex:
+    :math:`\omega_{0}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: driving_force_amplitude
 
     The amplitude of the driving :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: driving_angular_frequency
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the driving force.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: driving_phase_lag
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the driving force.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

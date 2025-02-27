@@ -1,5 +1,5 @@
 Number of impacts on the wall from area and speed
--------------------------------------------------
+=================================================
 
 The number of impacts of molecules against the wall in a specified direction is
 proportional to the number density of the molecules, the area of the wall, the
@@ -23,66 +23,71 @@ projection of velocity in said direction and time.
 
     Impact count.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: number_density
 
     :attr:`~symplyphysics.symbols.basic.number_density` of particles.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: area
 
     Wall :attr:`~symplyphysics.symbols.classical_mechanics.area`.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: velocity_projection
 
     Projection of velocity vector in the given direction. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

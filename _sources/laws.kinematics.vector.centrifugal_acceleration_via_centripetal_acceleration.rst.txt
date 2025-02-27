@@ -1,5 +1,5 @@
 Centrifugal acceleration via centripetal acceleration
------------------------------------------------------
+=====================================================
 
 The vector of *centrifugal acceleration* has the same magnitude as the vector of *centripetal
 acceleration* but is directed oppositely to it.
@@ -9,6 +9,8 @@ acceleration* but is directed oppositely to it.
 #. `BYJU's <https://byjus.com/physics/centripetal-and-centrifugal-force/>`__.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration
+
+
 
 .. py:function:: centrifugal_law(centripetal_acceleration_)
 
@@ -37,6 +39,7 @@ acceleration* but is directed oppositely to it.
 
         Dimension: *acceleration*
 
+
 .. py:function:: centripetal_law(centrifugal_acceleration_)
 
     *Centripetal acceleration* via centrifugal acceleration.
@@ -63,4 +66,3 @@ acceleration* but is directed oppositely to it.
         Latex: :math:`\vec a_\text{cp}`
 
         Dimension: *acceleration*
-

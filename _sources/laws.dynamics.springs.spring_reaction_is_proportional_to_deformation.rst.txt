@@ -1,5 +1,5 @@
 Spring reaction is proportional to deformation
-----------------------------------------------
+==============================================
 
 Also called Hooke's law, it is an empirical law which states that the force needed to
 extend or compress a spring by some distance is proportional with respect to the
@@ -29,40 +29,43 @@ deformation of the spring.
     Restoring :attr:`~symplyphysics.symbols.classical_mechanics.force`, or spring reaction, exerted by the spring due to the
     deformation.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: stiffness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` of the spring.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`force/length`
+Dimension:
+    :code:`force/length`
+
 
 .. py:data:: deformation
 
     :attr:`~symplyphysics.symbols.classical_mechanics.deformation` of the spring.
 
-    Symbol:
-        :code:`Delta(l)`
+Symbol:
+    :code:`Delta(l)`
 
-    Latex:
-        :math:`\Delta l`
+Latex:
+    :math:`\Delta l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

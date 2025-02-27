@@ -1,5 +1,5 @@
 Elastic energy density of compression via strain
-------------------------------------------------
+================================================
 
 Volumetric density of the elastic energy of a body is proportional to
 its Young's modulus and the square of its strain. The
@@ -20,40 +20,43 @@ can be used to obtain analogous forms of this law.
 
     Elastic energy of the deformed body per unit of its volume. See :attr:`~symplyphysics.symbols.basic.energy_density`
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`w`
+Latex:
+    :math:`w`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: young_modulus
 
     :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the body's material.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: engineering_normal_strain
 
     :attr:`~symplyphysics.symbols.classical_mechanics.engineering_normal_strain` of the deformed body.
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Average speed in Maxwell—Boltzmann statistics
----------------------------------------------
+=============================================
 
 The *average*, or mean, *speed* is the expected value of the speed distribution of gas particles.
 
@@ -22,40 +22,43 @@ The *average*, or mean, *speed* is the expected value of the speed distribution 
 
     Average molecular :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
-    Symbol:
-        :code:`avg(v)`
+Symbol:
+    :code:`avg(v)`
 
-    Latex:
-        :math:`\langle v \rangle`
+Latex:
+    :math:`\langle v \rangle`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: equilibrium_temperature
 
     Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: molecular_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of a gas molecule.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

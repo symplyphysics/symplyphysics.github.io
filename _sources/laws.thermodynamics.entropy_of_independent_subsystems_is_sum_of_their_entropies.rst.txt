@@ -1,5 +1,5 @@
 Entropy of independent subsystems is sum of their entropies
------------------------------------------------------------
+===========================================================
 
 If a thermodynamic system can be decomposed into several subsystems which are all statistically
 independent, the total entropy of the system can be calculated as the sum of the entropies of all
@@ -20,27 +20,29 @@ known as `subadditivity <https://en.wikipedia.org/wiki/Subadditivity>`_.
 
     Total :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system as a whole.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: subsystem_entropy
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the :math:`i`-th subsystem.
 
-    Symbol:
-        :code:`S[i]`
+Symbol:
+    :code:`S[i]`
 
-    Latex:
-        :math:`{S}_{i}`
+Latex:
+    :math:`{S}_{i}`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: law
 

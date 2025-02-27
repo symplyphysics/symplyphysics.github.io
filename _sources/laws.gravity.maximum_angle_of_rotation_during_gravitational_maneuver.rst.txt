@@ -1,5 +1,5 @@
 Maximum angle of rotation during gravitational maneuver
--------------------------------------------------------
+=======================================================
 
 A gravitational maneuver is a purposeful change in the trajectory and flight speed of a
 spacecraft under the influence of the gravitational fields of celestial bodies. The
@@ -21,40 +21,43 @@ when aiming range is at planet radius.
 
     Maximum :attr:`~symplyphysics.symbols.basic.angle` of rotation during the gravitational maneuver.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: first_cosmic_speed
 
     First cosmic :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the planet.
 
-    Symbol:
-        :code:`v_1`
+Symbol:
+    :code:`v_1`
 
-    Latex:
-        :math:`v_{1}`
+Latex:
+    :math:`v_{1}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: rocket_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` relative to the planet.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

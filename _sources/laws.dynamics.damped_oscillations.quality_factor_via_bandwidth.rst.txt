@@ -1,5 +1,5 @@
 Quality factor via bandwidth
-----------------------------
+============================
 
 The quality factor of the system can be defined in terms of its resonant frequency and
 the resonance width, referred to as full width at half maximum, i.e. it is the bandwidth
@@ -21,27 +21,29 @@ over which the vibration power is greater than half the power at the resonant fr
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the oscillator.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resonant_frequency
 
     Oscillator's resonant :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
-    Symbol:
-        :code:`f_r`
+Symbol:
+    :code:`f_r`
 
-    Latex:
-        :math:`f_\text{r}`
+Latex:
+    :math:`f_\text{r}`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: resonance_width
 
@@ -51,14 +53,15 @@ over which the vibration power is greater than half the power at the resonant fr
     happens at the resonant frequency, vid. `figure <http://spiff.rit.edu/classes/phys283/lectures/forced_ii/half_power.png>`__.
     See :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
-    Symbol:
-        :code:`Delta(f)`
+Symbol:
+    :code:`Delta(f)`
 
-    Latex:
-        :math:`\Delta f`
+Latex:
+    :math:`\Delta f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: law
 

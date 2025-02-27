@@ -1,5 +1,5 @@
 Quantum isochoric molar heat capacity of solids
------------------------------------------------
+===============================================
 
 To derive the heat capacity of a solid, one should account for quantum effects. Albert Einstein used the
 same model as in the classical case, namely the atoms are harmonic oscillators with three degrees
@@ -22,28 +22,30 @@ solids, it is a big achievement and the result has correct asymptotic behaviour 
 
     :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`c_Vm`
+Symbol:
+    :code:`c_Vm`
 
-    Latex:
-        :math:`c_{V, \text{m}}`
+Latex:
+    :math:`c_{V, \text{m}}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: reduced_photon_energy
 
     Reduced photon energy, defined as the ratio of photon energy :math:`\hbar \omega` or :math:`h \nu` to
     thermal energy :math:`k_\text{B} T`.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

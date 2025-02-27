@@ -1,5 +1,5 @@
 General solution to wave equation in one dimension
---------------------------------------------------
+==================================================
 
 Any function of a single variable can be a solution of the wave equation if it depends
 on the phase of the wave, i.e. the position and time variables only appear in its
@@ -21,6 +21,7 @@ expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wa
     Latex:
         :math:`u`
 
+
 .. py:data:: solution
 
     One-argument solution function of the wave equation.
@@ -31,18 +32,20 @@ expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wa
     Latex:
         :math:`f(\varphi)`
 
+
 .. py:data:: wave_phase
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase` of the wave.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 
@@ -51,4 +54,5 @@ expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wa
     Latex:
         .. math::
             u = f(\varphi)
+
 

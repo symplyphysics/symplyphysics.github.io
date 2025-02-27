@@ -1,5 +1,5 @@
 Absolute velocity of arbitrary motion
--------------------------------------
+=====================================
 
 Imagine two reference frames, one of which is fixed (:math:`S`) and the other one is moving arbitrarily (:math:`S'`). The motion of the
 body relative to fixed frame :math:`S` is called *absolute motion*. The motion of the body relative to moving frame :math:`S'`
@@ -18,6 +18,8 @@ motion*. Absolute velocity is the sum of relative and transfer velocities.
     TODO: find English link
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.absolute_velocity_of_arbitrary_motion
+
+
 
 .. py:function:: absolute_velocity_law(relative_velocity_, transfer_velocity_)
 
@@ -54,6 +56,7 @@ motion*. Absolute velocity is the sum of relative and transfer velocities.
 
         Dimension: *velocity*
 
+
 .. py:function:: relative_velocity_law(absolute_velocity_, transfer_velocity_)
 
     Relative velocity via absolute and transfer velocities.
@@ -89,6 +92,7 @@ motion*. Absolute velocity is the sum of relative and transfer velocities.
 
         Dimension: *velocity*
 
+
 .. py:function:: transfer_velocity_law(absolute_velocity_, relative_velocity_)
 
     Transfer velocity via absolute and relative velocities.
@@ -123,4 +127,3 @@ motion*. Absolute velocity is the sum of relative and transfer velocities.
         Latex: :math:`{\vec v}_\text{tr}`
 
         Dimension: *velocity*
-

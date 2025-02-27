@@ -1,5 +1,5 @@
 Pressure and volume in isothermal process
------------------------------------------
+=========================================
 
 A thermodynamic process is isothermal when the temperature of the system stays the same.
 **Boyle's law** states that the product of pressure and volume is constant during an isothermal
@@ -15,53 +15,57 @@ process.
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p_0`
+Symbol:
+    :code:`p_0`
 
-    Latex:
-        :math:`p_{0}`
+Latex:
+    :math:`p_{0}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: final_pressure
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p_1`
+Symbol:
+    :code:`p_1`
 
-    Latex:
-        :math:`p_{1}`
+Latex:
+    :math:`p_{1}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: initial_volume
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: final_volume
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_1`
+Symbol:
+    :code:`V_1`
 
-    Latex:
-        :math:`V_{1}`
+Latex:
+    :math:`V_{1}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

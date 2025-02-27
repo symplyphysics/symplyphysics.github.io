@@ -5,9 +5,13 @@ Collection of laws related to relativistic description of astronomy.
 
 .. py:currentmodule:: symplyphysics.laws.astronomy.relativistic
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.astronomy.relativistic.relative_speed_of_rocket_depends_on_mass_and_impulse
+
+    laws.astronomy.relativistic.relative_speed_of_rocket_depends_on_mass_and_impulse
+
+
+

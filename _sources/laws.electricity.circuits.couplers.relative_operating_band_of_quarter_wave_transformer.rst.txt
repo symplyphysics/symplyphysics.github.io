@@ -1,5 +1,5 @@
 Relative operating bandwidth of quarter-wave transformer
---------------------------------------------------------
+========================================================
 
 The relative operating bandwidth of a quarter-wave transformer depends on the reflection
 coefficient, the surge impendance of the transmission line to which the transformer is
@@ -14,53 +14,57 @@ connected and the load resistance.
 
     Relative operating bandwidth is the ratio of the bandwidth to the center frequency.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: load_resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the load.
 
-    Symbol:
-        :code:`R_L`
+Symbol:
+    :code:`R_L`
 
-    Latex:
-        :math:`R_\text{L}`
+Latex:
+    :math:`R_\text{L}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: surge_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
 
-    Symbol:
-        :code:`Z_S`
+Symbol:
+    :code:`Z_S`
 
-    Latex:
-        :math:`Z_\text{S}`
+Latex:
+    :math:`Z_\text{S}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: reflection_coefficient
 
     :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
-    Symbol:
-        :code:`Gamma`
+Symbol:
+    :code:`Gamma`
 
-    Latex:
-        :math:`\Gamma`
+Latex:
+    :math:`\Gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

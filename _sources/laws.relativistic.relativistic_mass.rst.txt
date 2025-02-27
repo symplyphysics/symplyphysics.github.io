@@ -1,5 +1,5 @@
 Relativistic mass via rest mass and speed
------------------------------------------
+=========================================
 
 Relativistic mass is proportional to the rest mass of the object and approaches
 infinity as its speed approaches the speed of light.
@@ -25,40 +25,43 @@ infinity as its speed approaches the speed of light.
 
     :attr:`~symplyphysics.symbols.relativistic_mechanics.relativistic_mass` of the object.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: rest_mass
 
     :attr:`~symplyphysics.symbols.relativistic_mechanics.rest_mass` of the object.
 
-    Symbol:
-        :code:`m_0`
+Symbol:
+    :code:`m_0`
 
-    Latex:
-        :math:`m_{0}`
+Latex:
+    :math:`m_{0}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Absolute permittivity via relative permittivity
------------------------------------------------
+===============================================
 
 Absolute permittivity of a medium can be expressed as the product of its relative permittivity
 and vacuum permittivity.
@@ -18,27 +18,29 @@ and vacuum permittivity.
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity`.
 
-    Symbol:
-        :code:`epsilon`
+Symbol:
+    :code:`epsilon`
 
-    Latex:
-        :math:`\varepsilon`
+Latex:
+    :math:`\varepsilon`
 
-    Dimension:
-        :code:`capacitance/length`
+Dimension:
+    :code:`capacitance/length`
+
 
 .. py:data:: relative_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity`.
 
-    Symbol:
-        :code:`epsilon_r`
+Symbol:
+    :code:`epsilon_r`
 
-    Latex:
-        :math:`\varepsilon_\text{r}`
+Latex:
+    :math:`\varepsilon_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

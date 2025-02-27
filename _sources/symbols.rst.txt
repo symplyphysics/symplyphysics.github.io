@@ -5,18 +5,22 @@ Symbols represent physical quantities, units, mathematical operations and relati
 
 .. py:currentmodule:: symplyphysics.symbols
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  symbols.astronomy
-  symbols.basic
-  symbols.chemistry
-  symbols.classical_mechanics
-  symbols.electrodynamics
-  symbols.nuclear
-  symbols.optics
-  symbols.quantum_mechanics
-  symbols.relativistic_mechanics
-  symbols.thermodynamics
+
+    symbols.astronomy
+    symbols.basic
+    symbols.chemistry
+    symbols.classical_mechanics
+    symbols.electrodynamics
+    symbols.nuclear
+    symbols.optics
+    symbols.quantum_mechanics
+    symbols.relativistic_mechanics
+    symbols.thermodynamics
+
+
+

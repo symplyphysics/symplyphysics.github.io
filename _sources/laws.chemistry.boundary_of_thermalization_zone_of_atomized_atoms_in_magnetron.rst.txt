@@ -1,5 +1,5 @@
 Boundary of thermalization zone of atomized atoms in magnetron
---------------------------------------------------------------
+==============================================================
 
 The atoms of the target material evaporate and move towards the substrate inside the
 magnetron. There is a distance at which the energy of the traveling atom will decrease to
@@ -21,40 +21,43 @@ which its energy will be equal to the energy of thermal motion in a gas-discharg
 
     Boundary of thermalization zone of traveling atoms in magnetron. See :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: number_of_collisions_of_atom
 
     Number (:attr:`~symplyphysics.symbols.basic.nonnegative_number`) of collisions of traveling atom with gas atoms.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: free_path_length
 
     :attr:`~symplyphysics.symbols.thermodynamics.mean_free_path` of traveling atoms.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

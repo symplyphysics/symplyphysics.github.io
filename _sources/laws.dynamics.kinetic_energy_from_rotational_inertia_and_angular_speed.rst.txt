@@ -1,5 +1,5 @@
 Kinetic energy from rotational inertia and angular speed
---------------------------------------------------------
+========================================================
 
 Every rotating object bears kinetic energy, which depends on the rotational inertia of the object
 and its angular speed.
@@ -14,40 +14,43 @@ and its angular speed.
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object.
 
-    Symbol:
-        :code:`K`
+Symbol:
+    :code:`K`
 
-    Latex:
-        :math:`K`
+Latex:
+    :math:`K`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: rotational_inertia
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the object.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`length**2*mass`
+Dimension:
+    :code:`length**2*mass`
+
 
 .. py:data:: angular_speed
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the object.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

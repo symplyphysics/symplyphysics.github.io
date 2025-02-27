@@ -1,5 +1,5 @@
 Reflection coefficient from load and surge impedance
-----------------------------------------------------
+====================================================
 
 Knowing the load impedance and the surge impedance of the transmission line, it is
 possible to calculate the reflection coefficient.
@@ -14,40 +14,43 @@ possible to calculate the reflection coefficient.
 
     :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
-    Symbol:
-        :code:`Gamma`
+Symbol:
+    :code:`Gamma`
 
-    Latex:
-        :math:`\Gamma`
+Latex:
+    :math:`\Gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: load_impedance
 
     Load :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_L`
+Symbol:
+    :code:`Z_L`
 
-    Latex:
-        :math:`Z_\text{L}`
+Latex:
+    :math:`Z_\text{L}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: surge_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
 
-    Symbol:
-        :code:`Z_S`
+Symbol:
+    :code:`Z_S`
 
-    Latex:
-        :math:`Z_\text{S}`
+Latex:
+    :math:`Z_\text{S}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

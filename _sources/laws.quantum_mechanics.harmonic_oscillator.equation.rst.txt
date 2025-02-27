@@ -1,5 +1,5 @@
 Quantum harmonic oscillator equation
-------------------------------------
+====================================
 
 The Schrödinger equation for the quantum simple harmonic oscillator governs the wave function
 of the quantum oscillator.
@@ -18,66 +18,71 @@ of the quantum oscillator.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` of the particle.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: wave_function
 
     :attr:`~symplyphysics.symbols.quantum_mechanics.wave_function` of the oscillating particle.
 
-    Symbol:
-        :code:`psi(x)`
+Symbol:
+    :code:`psi(x)`
 
-    Latex:
-        :math:`\psi{\left(x \right)}`
+Latex:
+    :math:`\psi{\left(x \right)}`
 
-    Dimension:
-        :code:`1/sqrt(length)`
+Dimension:
+    :code:`1/sqrt(length)`
+
 
 .. py:data:: particle_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the particle.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: particle_energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of the particle.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillations.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

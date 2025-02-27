@@ -1,5 +1,5 @@
 Phase speed from angular frequency and wavenumber
--------------------------------------------------
+=================================================
 
 *Phase speed* of a wave is the rate at which the wave propagates in a medium.
 It is the speed at which the phase of one frequency component of the wave travels.
@@ -14,40 +14,43 @@ It is the speed at which the phase of one frequency component of the wave travel
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the wave.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: angular_wavenumber
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of the wave.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`angle/length`
+Dimension:
+    :code:`angle/length`
+
 
 .. py:data:: law
 

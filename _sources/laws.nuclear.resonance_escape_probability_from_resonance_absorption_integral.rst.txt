@@ -1,5 +1,5 @@
 Resonance escape probability from resonance absorption integral
----------------------------------------------------------------
+===============================================================
 
 **Conditions:**
 
@@ -18,68 +18,73 @@ Resonance escape probability from resonance absorption integral
 
     :attr:`~symplyphysics.symbols.basic.number_density` of atoms in the absorber.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: effective_resonance_integral
 
     Effective resonance integral characterizes the absorption of neutrons by a single
     nucleus in the resonance region.
 
-    Symbol:
-        :code:`J_eff`
+Symbol:
+    :code:`J_eff`
 
-    Latex:
-        :math:`J_\text{eff}`
+Latex:
+    :math:`J_\text{eff}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: lethargy_gain_per_scattering
 
     Average lethargy gain per scattering event. Lethargy is defined as decrease in neutron
     energy.
 
-    Symbol:
-        :code:`xi`
+Symbol:
+    :code:`xi`
 
-    Latex:
-        :math:`\xi`
+Latex:
+    :math:`\xi`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: moderator_macroscopic_scattering_cross_section
 
     :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of scattering in the moderator.
 
-    Symbol:
-        :code:`Sigma_s`
+Symbol:
+    :code:`Sigma_s`
 
-    Latex:
-        :math:`\Sigma_\text{s}`
+Latex:
+    :math:`\Sigma_\text{s}`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: resonance_escape_probability
 
     :attr:`~symplyphysics.symbols.nuclear.resonance_escape_probability`.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

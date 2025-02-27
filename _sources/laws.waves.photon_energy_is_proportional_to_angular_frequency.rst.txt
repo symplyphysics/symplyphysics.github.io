@@ -1,5 +1,5 @@
 Photon energy is proportional to angular frequency
---------------------------------------------------
+==================================================
 
 Photon is the elementary part of any electromagnetical radiation, having no mass and moving with speed of light
 in any reference frame. The energy of a photon depends only on its frequency.
@@ -18,27 +18,29 @@ in any reference frame. The energy of a photon depends only on its frequency.
 
     :attr:`~symplyphysics.symbols.basic.energy` of a photon.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of a photon.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

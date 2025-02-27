@@ -1,5 +1,5 @@
 Power is energy derivative
---------------------------
+==========================
 
 Power is the amount of energy transferred or converted per unit time. Equally, it is the
 rate at which work is done.
@@ -14,40 +14,43 @@ rate at which work is done.
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: power
 
     :attr:`~symplyphysics.symbols.basic.power` as a function of time.
 
-    Symbol:
-        :code:`P(t)`
+Symbol:
+    :code:`P(t)`
 
-    Latex:
-        :math:`P{\left(t \right)}`
+Latex:
+    :math:`P{\left(t \right)}`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: energy
 
     :attr:`~symplyphysics.symbols.basic.energy` as a function of time.
 
-    Symbol:
-        :code:`E(t)`
+Symbol:
+    :code:`E(t)`
 
-    Latex:
-        :math:`E{\left(t \right)}`
+Latex:
+    :math:`E{\left(t \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: definition
 

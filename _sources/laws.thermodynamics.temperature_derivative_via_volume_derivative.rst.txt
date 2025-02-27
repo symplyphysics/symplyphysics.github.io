@@ -1,5 +1,5 @@
 Temperature derivative via volume derivative
---------------------------------------------
+============================================
 
 The **Joule—Thompson effect** describes the change in temperature that accompanies the expansion of
 a gas without production of work or transfer of heat, which is in effect an isenthalpic process.
@@ -25,68 +25,73 @@ a gas without production of work or transfer of heat, which is in effect an isen
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: enthalpy
 
     :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system as a function of :attr:`~pressure` and
     :attr:`~enthalpy`.
 
-    Symbol:
-        :code:`T(p, H)`
+Symbol:
+    :code:`T(p, H)`
 
-    Latex:
-        :math:`T{\left(p,H \right)}`
+Latex:
+    :math:`T{\left(p,H \right)}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system as a function of :attr:`~temperature` and
     :attr:`~pressure`.
 
-    Symbol:
-        :code:`V(T(p, H), p)`
+Symbol:
+    :code:`V(T(p, H), p)`
 
-    Latex:
-        :math:`V{\left(T{\left(p,H \right)},p \right)}`
+Latex:
+    :math:`V{\left(T{\left(p,H \right)},p \right)}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: isobaric_heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the system at constant pressure.
 
-    Symbol:
-        :code:`C_p`
+Symbol:
+    :code:`C_p`
 
-    Latex:
-        :math:`C_{p}`
+Latex:
+    :math:`C_{p}`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: law
 

@@ -5,11 +5,15 @@ Collection of laws related to electromagnetical description of chemical laws.
 
 .. py:currentmodule:: symplyphysics.laws.chemistry.electrochemistry
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.chemistry.electrochemistry.electrochemical_equivalent_from_molar_mass_and_valence
-  laws.chemistry.electrochemistry.energy_of_an_electron_in_a_hydrogen_atom
-  laws.chemistry.electrochemistry.mass_of_the_substance_deposited_on_electrode
+
+    laws.chemistry.electrochemistry.electrochemical_equivalent_from_molar_mass_and_valence
+    laws.chemistry.electrochemistry.energy_of_an_electron_in_a_hydrogen_atom
+    laws.chemistry.electrochemistry.mass_of_the_substance_deposited_on_electrode
+
+
+

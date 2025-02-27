@@ -1,5 +1,5 @@
 Rotational work is torque times angular distance
-------------------------------------------------
+================================================
 
 When a torque accelerates a rigid body in rotation about a fixed axis, the torque does work on
 the body. When the torque is constant, the work done on the body is proportional to torque
@@ -15,40 +15,43 @@ and the angular displacement during the movement of the body.
 
     The :attr:`~symplyphysics.symbols.basic.work` done by the torque.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: torque
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.torque` acting on the body.
 
-    Symbol:
-        :code:`tau`
+Symbol:
+    :code:`tau`
 
-    Latex:
-        :math:`\tau`
+Latex:
+    :math:`\tau`
 
-    Dimension:
-        :code:`force*length`
+Dimension:
+    :code:`force*length`
+
 
 .. py:data:: angular_distance
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` of the body.
 
-    Symbol:
-        :code:`theta`
+Symbol:
+    :code:`theta`
 
-    Latex:
-        :math:`\theta`
+Latex:
+    :math:`\theta`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Wave impedance of odd mode of Lange coupler
--------------------------------------------
+===========================================
 
 The Lange coupler is based on microstrip transmission lines. When this coupler is in
 operation, both even and odd modes are distributed. Knowing the coupling coefficient
@@ -21,53 +21,57 @@ calculate the wave impedance for an odd mode.
 
     :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the odd mode.
 
-    Symbol:
-        :code:`eta_o`
+Symbol:
+    :code:`eta_o`
 
-    Latex:
-        :math:`\eta_\text{o}`
+Latex:
+    :math:`\eta_\text{o}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: coupling_factor
 
     Coupling factor between coupler segments.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: surge_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
 
-    Symbol:
-        :code:`Z_S`
+Symbol:
+    :code:`Z_S`
 
-    Latex:
-        :math:`Z_\text{S}`
+Latex:
+    :math:`Z_\text{S}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: segment_count
 
     Number of segments in Lange coupler. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

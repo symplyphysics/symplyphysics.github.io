@@ -1,5 +1,5 @@
 Coordinate conversion at constant velocity
-------------------------------------------
+==========================================
 
 Let the frame of reference move relative to the other frame of reference at a constant speed along the X
 axis, and the origin of the spatial coordinates coincide at the initial moment of time in both systems.
@@ -23,53 +23,57 @@ knowing the x coordinate in another frame of reference.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` in the second frame of reference.
 
-    Symbol:
-        :code:`x_2`
+Symbol:
+    :code:`x_2`
 
-    Latex:
-        :math:`x_{2}`
+Latex:
+    :math:`x_{2}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: position_in_lab_frame
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` in the first frame of reference.
 
-    Symbol:
-        :code:`x_1`
+Symbol:
+    :code:`x_1`
 
-    Latex:
-        :math:`x_{1}`
+Latex:
+    :math:`x_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: proper_frame_speed_in_lab_frame
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the second reference frame relative to the first one.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: time_in_lab_frame
 
     :attr:`~symplyphysics.symbols.basic.time` in the first frame of reference.
 
-    Symbol:
-        :code:`t_1`
+Symbol:
+    :code:`t_1`
 
-    Latex:
-        :math:`t_{1}`
+Latex:
+    :math:`t_{1}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

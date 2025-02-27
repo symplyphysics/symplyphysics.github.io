@@ -1,5 +1,5 @@
 Total energy is negative average kinetic energy
------------------------------------------------
+===============================================
 
 The total energy of an orbiting planet is equal to its negative kinetic energy averaged over time.
 
@@ -17,27 +17,29 @@ The total energy of an orbiting planet is equal to its negative kinetic energy a
 
     The total :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` of the planet.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: average_kinetic_energy
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the planet averaged over :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`avg(K)`
+Symbol:
+    :code:`avg(K)`
 
-    Latex:
-        :math:`\langle K \rangle`
+Latex:
+    :math:`\langle K \rangle`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

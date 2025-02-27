@@ -1,5 +1,5 @@
 Quantum Mechanics (Symbols)
----------------------------
+===========================
 
 Symbols related to quantum mechanics.
 
@@ -13,14 +13,15 @@ Symbols related to quantum mechanics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Wave_function>`__.
 
-    Symbol:
-        :code:`psi`
+Symbol:
+    :code:`psi`
 
-    Latex:
-        :math:`\psi`
+Latex:
+    :math:`\psi`
 
-    Dimension:
-        :code:`1/sqrt(length)`
+Dimension:
+    :code:`1/sqrt(length)`
+
 
 .. py:data:: probability_density
 
@@ -33,12 +34,13 @@ Symbols related to quantum mechanics.
     #. `Wikipedia <https://en.wikipedia.org/wiki/Probability_amplitude>`__.
     #. `AK Lectures <https://aklectures.com/lecture/schrodinger%27s-equations/probability-density-of-particles>`__.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 

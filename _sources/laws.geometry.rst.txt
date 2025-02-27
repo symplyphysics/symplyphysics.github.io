@@ -5,9 +5,13 @@ A collection of geometry relations commonly used in physics.
 
 .. py:currentmodule:: symplyphysics.laws.geometry
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.geometry.vector
+    laws.geometry.vector
+
+
+
+

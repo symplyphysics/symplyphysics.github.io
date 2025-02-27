@@ -1,5 +1,5 @@
 Spacetime interval via time and distance
-----------------------------------------
+========================================
 
 The spacetime interval is a combination of distance and time that is invariant under Lorentz tranformations.
 It has the property of being invariant in the sense that it has the same value for all observers in any
@@ -35,40 +35,43 @@ inertial reference frame.
 
     :attr:`~symplyphysics.symbols.relativistic_mechanics.spacetime_interval` between the two events.
 
-    Symbol:
-        :code:`s`
+Symbol:
+    :code:`s`
 
-    Latex:
-        :math:`s`
+Latex:
+    :math:`s`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: temporal_distance
 
     :attr:`~symplyphysics.symbols.basic.time` separation between the two events.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: spatial_distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the two events.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

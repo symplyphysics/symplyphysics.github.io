@@ -1,5 +1,5 @@
 Photon momentum is proportional to energy
------------------------------------------
+=========================================
 
 The momentum of a photon is its energy divided by the speed of light.
 
@@ -21,27 +21,29 @@ expressions.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of a photon.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`momentum`
+Dimension:
+    :code:`momentum`
+
 
 .. py:data:: energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of a photon.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

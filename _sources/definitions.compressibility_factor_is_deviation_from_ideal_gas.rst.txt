@@ -1,5 +1,5 @@
 Compressibility factor is deviation from ideal gas
---------------------------------------------------
+==================================================
 
 The **compressibility factor**, also known as the **compression factor** or the **gas deviation factor**,
 describes the deviation of a real gas from ideal gas behavior. In general, the deviation from
@@ -30,66 +30,71 @@ the temperature or the larger the pressure.
 
     :attr:`~symplyphysics.symbols.thermodynamics.compressibility_factor` of the real gas.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: amount_of_substance
 
     :attr:`~symplyphysics.symbols.chemistry.amount_of_substance` of gas.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`amount_of_substance`
+Dimension:
+    :code:`amount_of_substance`
+
 
 .. py:data:: temperature
 
     Gas :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: definition
 

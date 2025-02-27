@@ -1,5 +1,5 @@
 Energy levels of harmonic oscillator
-------------------------------------
+====================================
 
 As opposed to the classical harmonic oscillator, the energy levels of a quantum harmonic oscillator
 are quantized, meaning that its energy take a value out of a discrete range. These energy levels
@@ -24,41 +24,44 @@ are equidistant, i.e. the difference between successive energy levels is the sam
 
     Energy of the level corresponding to the :attr:`~mode_number`.
 
-    Symbol:
-        :code:`E_n`
+Symbol:
+    :code:`E_n`
 
-    Latex:
-        :math:`E_{n}`
+Latex:
+    :math:`E_{n}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: mode_number
 
     Quantum number of oscillator, which is any non-negative integer (:math:`0, 1, 2, \dots`).
     See :attr:`~symplyphysics.symbols.basic.nonnegative_number`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

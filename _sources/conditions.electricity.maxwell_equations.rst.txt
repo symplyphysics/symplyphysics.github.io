@@ -5,3 +5,5 @@ The conditions in this folder are related to the Maxwell Equations.
 
 .. py:currentmodule:: symplyphysics.conditions.electricity.maxwell_equations
 
+
+

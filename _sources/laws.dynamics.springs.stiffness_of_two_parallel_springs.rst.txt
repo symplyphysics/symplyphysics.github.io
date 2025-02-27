@@ -1,5 +1,5 @@
 Stiffness of two parallel springs
----------------------------------
+=================================
 
 If two springs are side-to-side to one another, i.e. connected in parallel, the total
 stiffness of the system of springs is equal to the sum of the stiffnesses of each
@@ -19,40 +19,43 @@ spring.
 
     Total :attr:`~symplyphysics.symbols.classical_mechanics.stiffness`.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`force/length`
+Dimension:
+    :code:`force/length`
+
 
 .. py:data:: first_stiffness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` of the first spring.
 
-    Symbol:
-        :code:`k_1`
+Symbol:
+    :code:`k_1`
 
-    Latex:
-        :math:`k_{1}`
+Latex:
+    :math:`k_{1}`
 
-    Dimension:
-        :code:`force/length`
+Dimension:
+    :code:`force/length`
+
 
 .. py:data:: second_stiffness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` of the second spring.
 
-    Symbol:
-        :code:`k_2`
+Symbol:
+    :code:`k_2`
 
-    Latex:
-        :math:`k_{2}`
+Latex:
+    :math:`k_{2}`
 
-    Dimension:
-        :code:`force/length`
+Dimension:
+    :code:`force/length`
+
 
 .. py:data:: law
 

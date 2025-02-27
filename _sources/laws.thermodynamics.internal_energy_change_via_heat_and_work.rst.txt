@@ -1,5 +1,5 @@
 Internal energy change via heat and work
-----------------------------------------
+========================================
 
 The *first law of thermodynamics* is a formulation of the law of conservation of energy in the
 context of thermodynamic processes. It relates the change in internal energe of the system,
@@ -30,41 +30,44 @@ during a thermodynamic process.
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
-    Symbol:
-        :code:`dU`
+Symbol:
+    :code:`dU`
 
-    Latex:
-        :math:`dU`
+Latex:
+    :math:`dU`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: heat_supplied_to_system
 
     Infinitesimal amount of :attr:`~symplyphysics.symbols.thermodynamics.heat` supplied to the system during its interaction
     with the environment.
 
-    Symbol:
-        :code:`delta(Q)`
+Symbol:
+    :code:`delta(Q)`
 
-    Latex:
-        :math:`\delta Q`
+Latex:
+    :math:`\delta Q`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: work_done_by_system
 
     Infinitesimal :attr:`~symplyphysics.symbols.basic.work` done by the system on its environment.
 
-    Symbol:
-        :code:`delta(W)`
+Symbol:
+    :code:`delta(W)`
 
-    Latex:
-        :math:`\delta W`
+Latex:
+    :math:`\delta W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

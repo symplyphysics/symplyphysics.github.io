@@ -1,5 +1,5 @@
 Gibbs energy via enthalpy
--------------------------
+=========================
 
 Gibbs energy is a thermodynamic potential that can be used to calculate the maximum amount of work
 that may be performed by a thermodynamically closed system at constant temperature and pressure.
@@ -16,53 +16,57 @@ conditions.
 
     :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system.
 
-    Symbol:
-        :code:`G`
+Symbol:
+    :code:`G`
 
-    Latex:
-        :math:`G`
+Latex:
+    :math:`G`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: enthalpy
 
     :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: entropy
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

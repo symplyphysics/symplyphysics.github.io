@@ -1,5 +1,5 @@
 Probability of ideal gas macrostate
------------------------------------
+===================================
 
 Suppose there is a vessel of volume :math:`V` with :math:`N` identical ideal gas particles whose movement is described
 by classical mechanics. Let us divide the volume of the vessel into :math:`m` small enough cells with volumes :math:`V_1`
@@ -39,53 +39,57 @@ of the macrostate.
 
     :attr:`~symplyphysics.symbols.basic.probability` of the macrostate.
 
-    Symbol:
-        :code:`P_macro`
+Symbol:
+    :code:`P_macro`
 
-    Latex:
-        :math:`P_\text{macro}`
+Latex:
+    :math:`P_\text{macro}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: statistical_weight
 
     :attr:`~symplyphysics.symbols.thermodynamics.statistical_weight` of the macrostate.
 
-    Symbol:
-        :code:`Omega`
+Symbol:
+    :code:`Omega`
 
-    Latex:
-        :math:`\Omega`
+Latex:
+    :math:`\Omega`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: particle_in_cell_probability
 
     :attr:`~symplyphysics.symbols.basic.probability` of finding at least one particle in cell :math:`i`.
 
-    Symbol:
-        :code:`P[i]`
+Symbol:
+    :code:`P[i]`
 
-    Latex:
-        :math:`{P}_{i}`
+Latex:
+    :math:`{P}_{i}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: particle_count_in_cell
 
     :attr:`~symplyphysics.symbols.basic.particle_count` of cell :math:`i`.
 
-    Symbol:
-        :code:`N[i]`
+Symbol:
+    :code:`N[i]`
 
-    Latex:
-        :math:`{N}_{i}`
+Latex:
+    :math:`{N}_{i}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

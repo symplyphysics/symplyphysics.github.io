@@ -1,5 +1,5 @@
 Maximum electric field strength of main wave in rectangular waveguide
----------------------------------------------------------------------
+=====================================================================
 
 A rectangular waveguide is a rectangular metal waveguide capable of supporting waves
 propagating along it. The main wave is a transverse electric wave with the first index
@@ -32,66 +32,71 @@ equal to :math:`1` and the second index equal to :math:`0`.
 
     Maximum :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` in the waveguide.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: relative_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the insulator.
 
-    Symbol:
-        :code:`epsilon_r`
+Symbol:
+    :code:`epsilon_r`
 
-    Latex:
-        :math:`\varepsilon_\text{r}`
+Latex:
+    :math:`\varepsilon_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: width
 
     Horizontal dimension of the waveguide. See :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the signal.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: magnetic_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_field_strength`.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`current/length`
+Dimension:
+    :code:`current/length`
+
 
 .. py:data:: law
 

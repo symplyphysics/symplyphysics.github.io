@@ -1,5 +1,5 @@
 Equation of state
------------------
+=================
 
 In the physics of dielectric materials, the "equation of state" is the equation that connects
 the electric displacement with electric field strength, temperature, and density of the
@@ -16,67 +16,72 @@ supplied from experiment or derived from the theory of dielectric polarization.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement`.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`charge/area`
+Dimension:
+    :code:`charge/area`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the medium.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: density
 
     :attr:`~symplyphysics.symbols.basic.density` of the medium.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: state_function
 
     The function that describes the relationship between :attr:`~electric_displacement` and
     :attr:`~electric_field_strength`, :attr:`~temperature` and :attr:`~density`.
 
-    Symbol:
-        :code:`f(E, T, rho)`
+Symbol:
+    :code:`f(E, T, rho)`
 
-    Latex:
-        :math:`f{\left(E,T,\rho \right)}`
+Latex:
+    :math:`f{\left(E,T,\rho \right)}`
 
-    Dimension:
-        :code:`charge/area`
+Dimension:
+    :code:`charge/area`
+
 
 .. py:data:: condition
 

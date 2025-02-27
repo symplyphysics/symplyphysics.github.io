@@ -1,5 +1,5 @@
 Quality factor of resonator
----------------------------
+===========================
 
 If the resonator is an oscillatory circuit, that quality factor will depend on the
 resistance, inductance, and angular oscillation frequency.
@@ -13,53 +13,57 @@ resistance, inductance, and angular oscillation frequency.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the resonator.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the oscillating circuit.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: inductance
 
     :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the oscillating circuit.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`inductance`
+Dimension:
+    :code:`inductance`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

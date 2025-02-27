@@ -1,5 +1,5 @@
 Cross section of ionization of atom by electrons per Lotz-Drevin
-----------------------------------------------------------------
+================================================================
 
 In this law, we are talking about the interaction of an atom and an electron, which
 ionizes an atom. Equivalent electrons on the outer shell of the ionized atom are
@@ -22,79 +22,85 @@ Lotz-Drewin approximation for the ionization cross section is considered.
 
     :attr:`~symplyphysics.symbols.chemistry.cross_section` of ionization.
 
-    Symbol:
-        :code:`sigma`
+Symbol:
+    :code:`sigma`
 
-    Latex:
-        :math:`\sigma`
+Latex:
+    :math:`\sigma`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: ionization_energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of ionization of atoms.
 
-    Symbol:
-        :code:`E_i`
+Symbol:
+    :code:`E_i`
 
-    Latex:
-        :math:`E_\text{i}`
+Latex:
+    :math:`E_\text{i}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: electron_energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of ionizing electrons.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: first_coefficient
 
     A coefficient used in the calculation.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: second_coefficient
 
     A coefficient used in the calculation.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: electron_count
 
     A :attr:`~symplyphysics.symbols.basic.nonnegative_number` of equivalent electrons on the outer shell of the ionized atom.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

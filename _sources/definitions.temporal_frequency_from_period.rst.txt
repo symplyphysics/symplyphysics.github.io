@@ -1,5 +1,5 @@
 Temporal frequency from period
-------------------------------
+==============================
 
 Frequency is a physical quantity that describes how many cycles or events happen per unit time.
 It is the inverse of period. See :doc:`definitions.temporal_frequency_is_number_of_events_per_unit_time`
@@ -15,27 +15,29 @@ for additional information.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of oscillations.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: period
 
     :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

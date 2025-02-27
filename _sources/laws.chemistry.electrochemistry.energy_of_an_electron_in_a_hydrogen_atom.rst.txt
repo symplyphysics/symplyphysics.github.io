@@ -1,5 +1,5 @@
 Energy of electron in hydrogen atom per Bohr
---------------------------------------------
+============================================
 
 There is an expression for the total energy of the hydrogen atom according to Bohr's
 theory.
@@ -19,27 +19,29 @@ theory.
 
     Electron :attr:`~symplyphysics.symbols.basic.energy`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: radius
 
     Electron :attr:`~symplyphysics.symbols.classical_mechanics.radius`.
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

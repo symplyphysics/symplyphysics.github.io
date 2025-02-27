@@ -5,9 +5,13 @@ The conditions in this folder are related to the dynamics.
 
 .. py:currentmodule:: symplyphysics.conditions.dynamics
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  conditions.dynamics.equilibrium
+    conditions.dynamics.equilibrium
+
+
+
+

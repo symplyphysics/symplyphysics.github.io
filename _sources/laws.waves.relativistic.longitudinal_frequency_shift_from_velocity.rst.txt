@@ -1,5 +1,5 @@
 Longitudinal frequency shift from speed
----------------------------------------
+=======================================
 
 Doppler effect is also applicable to electromagnetic waves in vacuum. As there is no any medium
 required for these waves to propagate, speed of source related to observer is used for the
@@ -28,40 +28,43 @@ calculation of the Doppler effect.
 
     Observer :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
-    Symbol:
-        :code:`f_o`
+Symbol:
+    :code:`f_o`
 
-    Latex:
-        :math:`f_\text{o}`
+Latex:
+    :math:`f_\text{o}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: source_frequency
 
     Source :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency`.
 
-    Symbol:
-        :code:`f_s`
+Symbol:
+    :code:`f_s`
 
-    Latex:
-        :math:`f_\text{s}`
+Latex:
+    :math:`f_\text{s}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: relative_speed
 
     Relative speed between source and observer.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

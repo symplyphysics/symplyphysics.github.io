@@ -1,5 +1,5 @@
 Inner pressure is sum of pressures
-----------------------------------
+==================================
 
 Inner pressure of an ideal fluid is the sum of static, dynamic, and hydrostatic
 pressures at a chosen point in space.
@@ -18,53 +18,57 @@ pressures at a chosen point in space.
 
     Inner :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the fluid.
 
-    Symbol:
-        :code:`p_inner`
+Symbol:
+    :code:`p_inner`
 
-    Latex:
-        :math:`p_\text{inner}`
+Latex:
+    :math:`p_\text{inner}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: static_pressure
 
     Static :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the fluid.
 
-    Symbol:
-        :code:`p_static`
+Symbol:
+    :code:`p_static`
 
-    Latex:
-        :math:`p_\text{static}`
+Latex:
+    :math:`p_\text{static}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: dynamic_pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_pressure` of the fluid.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: hydrostatic_pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.hydrostatic_pressure` of the fluid.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: law
 

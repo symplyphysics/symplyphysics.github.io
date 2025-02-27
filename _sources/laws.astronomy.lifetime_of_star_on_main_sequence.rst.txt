@@ -1,5 +1,5 @@
 Lifetime of star on main sequence
----------------------------------
+=================================
 
 The main sequence is the stage of stellar evolution. This stage begins in stars after the
 protostar stage. At the beginning of the main sequence stage, the age of the star is
@@ -25,53 +25,57 @@ star.
 
     The lifetime (:attr:`~symplyphysics.symbols.basic.time`) of the star.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the star.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: indicator
 
     A dimensionless parameter whose value depends on the mass of the star.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: ten_billion_years
 
     A quantity equal to ten billion years.
 
-    Symbol:
-        :code:`10 Gyr`
+Symbol:
+    :code:`10 Gyr`
 
-    Latex:
-        :math:`10 \, \text{Gyr}`
+Latex:
+    :math:`10 \, \text{Gyr}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

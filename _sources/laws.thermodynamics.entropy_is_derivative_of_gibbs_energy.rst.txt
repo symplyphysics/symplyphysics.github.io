@@ -1,5 +1,5 @@
 Entropy is derivative of Gibbs energy
--------------------------------------
+=====================================
 
 Entropy of a system can be found if its Gibbs energy is known as a function of temperature.
 
@@ -13,67 +13,72 @@ Entropy of a system can be found if its Gibbs energy is known as a function of t
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: particle_count
 
     :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: gibbs_energy
 
     :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system as a function of :attr:`~temperature`, :attr:`~pressure`,
     and :attr:`~particle_count`.
 
-    Symbol:
-        :code:`G(T, p, N)`
+Symbol:
+    :code:`G(T, p, N)`
 
-    Latex:
-        :math:`G{\left(T,p,N \right)}`
+Latex:
+    :math:`G{\left(T,p,N \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

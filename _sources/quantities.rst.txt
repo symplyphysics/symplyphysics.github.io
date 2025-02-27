@@ -16,14 +16,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Standard_temperature_and_pressure>`__.
 
-    Symbol:
-        :code:`T_std`
+Symbol:
+    :code:`T_std`
 
-    Latex:
-        :math:`T_\text{std}`
+Latex:
+    :math:`T_\text{std}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: standard_laboratory_temperature
 
@@ -33,14 +34,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Room_temperature#Definitions_in_science_and_industry>`__.
 
-    Symbol:
-        :code:`T_lab`
+Symbol:
+    :code:`T_lab`
 
-    Latex:
-        :math:`T_\text{lab}`
+Latex:
+    :math:`T_\text{lab}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: electron_rest_mass
 
@@ -50,14 +52,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Electron_mass>`__.
 
-    Symbol:
-        :code:`m_e`
+Symbol:
+    :code:`m_e`
 
-    Latex:
-        :math:`m_\text{e}`
+Latex:
+    :math:`m_\text{e}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: bohr_radius
 
@@ -68,14 +71,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Bohr_radius>`__.
 
-    Symbol:
-        :code:`a_0`
+Symbol:
+    :code:`a_0`
 
-    Latex:
-        :math:`a_0`
+Latex:
+    :math:`a_0`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: hydrogen_ionization_energy
 
@@ -86,14 +90,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Ionization_energy#Bohr_model_for_hydrogen_atom>`__.
 
-    Symbol:
-        :code:`IE_h`
+Symbol:
+    :code:`IE_h`
 
-    Latex:
-        :math:`\mathrm{IE}_\text{H}`
+Latex:
+    :math:`\mathrm{IE}_\text{H}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: solar_mass
 
@@ -104,14 +109,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Solar_mass>`__.
 
-    Symbol:
-        :code:`M_Sun`
+Symbol:
+    :code:`M_Sun`
 
-    Latex:
-        :math:`M_\odot`
+Latex:
+    :math:`M_\odot`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: earth_mass
 
@@ -122,14 +128,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Earth_mass>`__.
 
-    Symbol:
-        :code:`M_Earth`
+Symbol:
+    :code:`M_Earth`
 
-    Latex:
-        :math:`M_\oplus`
+Latex:
+    :math:`M_\oplus`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: boltzmann_constant
 
@@ -140,14 +147,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Boltzmann_constant>`__.
 
-    Symbol:
-        :code:`k_B`
+Symbol:
+    :code:`k_B`
 
-    Latex:
-        :math:`k_\text{B}`
+Latex:
+    :math:`k_\text{B}`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: molar_gas_constant
 
@@ -159,14 +167,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Gas_constant>`__.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: speed_of_light
 
@@ -176,14 +185,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Speed_of_light>`__.
 
-    Symbol:
-        :code:`c`
+Symbol:
+    :code:`c`
 
-    Latex:
-        :math:`c`
+Latex:
+    :math:`c`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: vacuum_permittivity
 
@@ -194,14 +204,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Vacuum_permittivity>`__.
 
-    Symbol:
-        :code:`epsilon_0`
+Symbol:
+    :code:`epsilon_0`
 
-    Latex:
-        :math:`\varepsilon_0`
+Latex:
+    :math:`\varepsilon_0`
 
-    Dimension:
-        :code:`capacitance/length`
+Dimension:
+    :code:`capacitance/length`
+
 
 .. py:data:: vacuum_permeability
 
@@ -212,14 +223,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Vacuum_permeability>`__.
 
-    Symbol:
-        :code:`mu_0`
+Symbol:
+    :code:`mu_0`
 
-    Latex:
-        :math:`\mu_0`
+Latex:
+    :math:`\mu_0`
 
-    Dimension:
-        :code:`force/current**2`
+Dimension:
+    :code:`force/current**2`
+
 
 .. py:data:: elementary_charge
 
@@ -230,14 +242,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Elementary_charge>`__.
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: hbar
 
@@ -248,14 +261,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Planck_constant#Reduced_Planck_constant>`__.
 
-    Symbol:
-        :code:`hbar`
+Symbol:
+    :code:`hbar`
 
-    Latex:
-        :math:`\hbar`
+Latex:
+    :math:`\hbar`
 
-    Dimension:
-        :code:`action`
+Dimension:
+    :code:`action`
+
 
 .. py:data:: planck
 
@@ -266,14 +280,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Planck_constant#>`__.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`action`
+Dimension:
+    :code:`action`
+
 
 .. py:data:: avogadro_constant
 
@@ -284,14 +299,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Avogadro_constant>`__.
 
-    Symbol:
-        :code:`N_A`
+Symbol:
+    :code:`N_A`
 
-    Latex:
-        :math:`N_\text{A}`
+Latex:
+    :math:`N_\text{A}`
 
-    Dimension:
-        :code:`1/amount_of_substance`
+Dimension:
+    :code:`1/amount_of_substance`
+
 
 .. py:data:: acceleration_due_to_gravity
 
@@ -301,14 +317,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Standard_gravity>`__.
 
-    Symbol:
-        :code:`g`
+Symbol:
+    :code:`g`
 
-    Latex:
-        :math:`g`
+Latex:
+    :math:`g`
 
-    Dimension:
-        :code:`acceleration`
+Dimension:
+    :code:`acceleration`
+
 
 .. py:data:: stefan_boltzmann_constant
 
@@ -319,14 +336,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Stefan%E2%80%93Boltzmann_law#>`__.
 
-    Symbol:
-        :code:`sigma`
+Symbol:
+    :code:`sigma`
 
-    Latex:
-        :math:`\sigma`
+Latex:
+    :math:`\sigma`
 
-    Dimension:
-        :code:`energy/(length**2*temperature**4*time)`
+Dimension:
+    :code:`energy/(length**2*temperature**4*time)`
+
 
 .. py:data:: richardson_constant
 
@@ -336,14 +354,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Richardson's law <https://en.wikipedia.org/wiki/Thermionic_emission#Richardson's_law>`__.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`current/(length**2*temperature**2)`
+Dimension:
+    :code:`current/(length**2*temperature**2)`
+
 
 .. py:data:: rydberg_frequency
 
@@ -353,14 +372,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Rydberg_constant#Rydberg_frequency>`__.
 
-    Symbol:
-        :code:`R_H`
+Symbol:
+    :code:`R_H`
 
-    Latex:
-        :math:`R_\text{H}`
+Latex:
+    :math:`R_\text{H}`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: wien_displacement_constant
 
@@ -370,14 +390,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wien's displacement law <https://en.wikipedia.org/wiki/Wien%27s_displacement_law>`__.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`action*temperature*velocity/energy`
+Dimension:
+    :code:`action*temperature*velocity/energy`
+
 
 .. py:data:: gravitational_constant
 
@@ -388,14 +409,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Gravitational_constant>`__.
 
-    Symbol:
-        :code:`G`
+Symbol:
+    :code:`G`
 
-    Latex:
-        :math:`G`
+Latex:
+    :math:`G`
 
-    Dimension:
-        :code:`length**3/(mass*time**2)`
+Dimension:
+    :code:`length**3/(mass*time**2)`
+
 
 .. py:data:: hubble_constant
 
@@ -407,14 +429,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Hubble%27s_law>`__.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`1/time`
+Dimension:
+    :code:`1/time`
+
 
 .. py:data:: zero_point_luminosity
 
@@ -425,27 +448,29 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Zero_point_(photometry)#Bolometric_magnitude_zero_point>`__.
 
-    Symbol:
-        :code:`L_0`
+Symbol:
+    :code:`L_0`
 
-    Latex:
-        :math:`L_0`
+Latex:
+    :math:`L_0`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: sun_luminosity
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun.
 
-    Symbol:
-        :code:`L_Sun`
+Symbol:
+    :code:`L_Sun`
 
-    Latex:
-        :math:`L_\odot`
+Latex:
+    :math:`L_\odot`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: faraday_constant
 
@@ -456,14 +481,15 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `TechTarget <https://www.techtarget.com/whatis/definition/Faraday-constant>`__.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`\mathfrak{F}`
+Latex:
+    :math:`\mathfrak{F}`
 
-    Dimension:
-        :code:`charge/amount_of_substance`
+Dimension:
+    :code:`charge/amount_of_substance`
+
 
 .. py:data:: vacuum_impedance
 
@@ -475,12 +501,13 @@ Contains useful physical constants. Fundamental constants can be also found in `
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Impedance_of_free_space>`__.
 
-    Symbol:
-        :code:`Z_0`
+Symbol:
+    :code:`Z_0`
 
-    Latex:
-        :math:`Z_0`
+Latex:
+    :math:`Z_0`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 

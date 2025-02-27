@@ -1,5 +1,5 @@
 Heat is heat capacity times temperature change
-----------------------------------------------
+==============================================
 
 The amount of heat a body receives or releases when its temperature changes is equal
 to the heat capacity of the body times the change in the body's temperature.
@@ -23,40 +23,43 @@ to the heat capacity of the body times the change in the body's temperature.
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat` received or released by the body.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the body.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: temperature_change
 
     Change in the body's :attr:`~symplyphysics.symbols.thermodynamics.temperature`
 
-    Symbol:
-        :code:`Delta(T)`
+Symbol:
+    :code:`Delta(T)`
 
-    Latex:
-        :math:`\Delta T`
+Latex:
+    :math:`\Delta T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

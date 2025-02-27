@@ -1,5 +1,5 @@
 Wave impedance of Lange coupler
--------------------------------
+===============================
 
 The Lange coupler is based on microstrip transmission lines. When this coupler is in
 operation, both even and odd modes are distributed. Knowing the wave impedance for even
@@ -20,53 +20,57 @@ coupler.
 
     :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the Lange coupler.
 
-    Symbol:
-        :code:`eta`
+Symbol:
+    :code:`eta`
 
-    Latex:
-        :math:`\eta`
+Latex:
+    :math:`\eta`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: odd_mode_wave_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the odd mode.
 
-    Symbol:
-        :code:`eta_o`
+Symbol:
+    :code:`eta_o`
 
-    Latex:
-        :math:`\eta_\text{o}`
+Latex:
+    :math:`\eta_\text{o}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: even_mode_wave_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the even mode.
 
-    Symbol:
-        :code:`eta_e`
+Symbol:
+    :code:`eta_e`
 
-    Latex:
-        :math:`\eta_\text{e}`
+Latex:
+    :math:`\eta_\text{e}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: segment_count
 
     Number of the segments of the Lange coupler. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

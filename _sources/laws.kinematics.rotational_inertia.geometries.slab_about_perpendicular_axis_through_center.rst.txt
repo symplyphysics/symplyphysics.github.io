@@ -1,5 +1,5 @@
 Slab about perpendicular axis through center
---------------------------------------------
+============================================
 
 A solid slab is rotating about an axis that is perpendicular to the slab and goes through its center.
 
@@ -17,53 +17,57 @@ A solid slab is rotating about an axis that is perpendicular to the slab and goe
 
     :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the slab.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`length**2*mass`
+Dimension:
+    :code:`length**2*mass`
+
 
 .. py:data:: length
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length`, or first slab dimension perpendicular to the axis.
 
-    Symbol:
-        :code:`l_1`
+Symbol:
+    :code:`l_1`
 
-    Latex:
-        :math:`l_{1}`
+Latex:
+    :math:`l_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: width
 
     Width, or second slab dimension perpendicular to the axis. See :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`l_2`
+Symbol:
+    :code:`l_2`
 
-    Latex:
-        :math:`l_{2}`
+Latex:
+    :math:`l_{2}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the slab.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

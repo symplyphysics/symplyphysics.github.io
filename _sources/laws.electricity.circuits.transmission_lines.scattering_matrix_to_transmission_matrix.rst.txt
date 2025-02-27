@@ -1,5 +1,5 @@
 Scattering matrix to transmission matrix
-----------------------------------------
+========================================
 
 Knowing the parameters of the scattering matrix, it is possible to determine the
 parameters of the transmission matrix.
@@ -23,118 +23,127 @@ parameters of the transmission matrix.
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: voltage_current_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short circuit at the output.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: current_voltage_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: current_current_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short circuit at the output.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: surge_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance`.
 
-    Symbol:
-        :code:`Z_S`
+Symbol:
+    :code:`Z_S`
 
-    Latex:
-        :math:`Z_\text{S}`
+Latex:
+    :math:`Z_\text{S}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: input_voltage_reflection_coefficient
 
     Input port :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
-    Symbol:
-        :code:`S_ii`
+Symbol:
+    :code:`S_ii`
 
-    Latex:
-        :math:`S_\text{ii}`
+Latex:
+    :math:`S_\text{ii}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: reverse_voltage_gain
 
     Reverse :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`S_io`
+Symbol:
+    :code:`S_io`
 
-    Latex:
-        :math:`S_\text{io}`
+Latex:
+    :math:`S_\text{io}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: forward_voltage_gain
 
     Forward :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`S_oi`
+Symbol:
+    :code:`S_oi`
 
-    Latex:
-        :math:`S_\text{oi}`
+Latex:
+    :math:`S_\text{oi}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: output_voltage_reflection_coefficient
 
     Output port :attr:`~symplyphysics.symbols.electrodynamics.voltage` :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
-    Symbol:
-        :code:`S_oo`
+Symbol:
+    :code:`S_oo`
 
-    Latex:
-        :math:`S_\text{oo}`
+Latex:
+    :math:`S_\text{oo}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

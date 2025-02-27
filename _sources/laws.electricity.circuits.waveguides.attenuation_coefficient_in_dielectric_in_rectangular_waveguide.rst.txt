@@ -1,5 +1,5 @@
 Attenuation coefficient in dielectric in rectangular waveguide
---------------------------------------------------------------
+==============================================================
 
 A rectangular waveguide is a rectangular metal waveguide capable of supporting waves
 propagating along it. 
@@ -13,66 +13,71 @@ propagating along it.
 
     :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` of the waveguide.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: waveguide_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` in the waveguide.
 
-    Symbol:
-        :code:`eta`
+Symbol:
+    :code:`eta`
 
-    Latex:
-        :math:`\eta`
+Latex:
+    :math:`\eta`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: medium_impedance
 
     :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` in the dielectric medium.
 
-    Symbol:
-        :code:`eta_0`
+Symbol:
+    :code:`eta_0`
 
-    Latex:
-        :math:`\eta_{0}`
+Latex:
+    :math:`\eta_{0}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: loss_tangent
 
     :attr:`~symplyphysics.symbols.electrodynamics.dielectric_loss_tangent`.
 
-    Symbol:
-        :code:`tan(delta)`
+Symbol:
+    :code:`tan(delta)`
 
-    Latex:
-        :math:`\tan \delta`
+Latex:
+    :math:`\tan \delta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

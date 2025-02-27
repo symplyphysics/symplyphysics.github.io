@@ -1,5 +1,5 @@
 Capacitance in parallel connection
-----------------------------------
+==================================
 
 The total capacitance of capacitors connected in parallel is the sum of the
 capacitances of individual capacitors.
@@ -18,27 +18,29 @@ capacitances of individual capacitors.
 
     Total :attr:`~symplyphysics.symbols.electrodynamics.capacitance`.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: capacitance
 
     :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of :math:`i`-th capacitor.
 
-    Symbol:
-        :code:`C[i]`
+Symbol:
+    :code:`C[i]`
 
-    Latex:
-        :math:`{C}_{i}`
+Latex:
+    :math:`{C}_{i}`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: law
 

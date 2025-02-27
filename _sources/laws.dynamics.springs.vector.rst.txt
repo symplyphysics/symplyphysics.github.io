@@ -5,3 +5,5 @@ Collection of laws related to vectorial description of springs.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.springs.vector
 
+
+

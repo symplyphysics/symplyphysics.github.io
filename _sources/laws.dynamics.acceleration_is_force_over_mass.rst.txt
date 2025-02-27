@@ -1,5 +1,5 @@
 Acceleration is force over mass
--------------------------------
+===============================
 
 Newton's second law of motion states that the acceleration of a body is directly proportional
 to the net force exerted on the body.
@@ -14,40 +14,43 @@ to the net force exerted on the body.
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the body.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`acceleration`
+Dimension:
+    :code:`acceleration`
+
 
 .. py:data:: force
 
     The net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the body.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

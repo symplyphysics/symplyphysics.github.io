@@ -1,5 +1,5 @@
 Frequency of electron transition in Hydrogen
---------------------------------------------
+============================================
 
 The *Rydberg formula* relates the frequency of light emitted or absorbed during
 electron transition to the levels between which the transition is occurring.
@@ -14,40 +14,43 @@ electron transition to the levels between which the transition is occurring.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of light emitted or absorbed during electron transition in the Hydrogen atom.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: lower_principal_quantum_number
 
     The principal quantum number of the lower transitional level. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
-    Symbol:
-        :code:`n_1`
+Symbol:
+    :code:`n_1`
 
-    Latex:
-        :math:`n_{1}`
+Latex:
+    :math:`n_{1}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: higher_principal_quantum_number
 
     The principal quantum number of the higher transitional level.  See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
-    Symbol:
-        :code:`n_2`
+Symbol:
+    :code:`n_2`
 
-    Latex:
-        :math:`n_{2}`
+Latex:
+    :math:`n_{2}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

@@ -5,10 +5,14 @@ Collection of laws related to thermodynamical description of relativistic system
 
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.relativistic
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.thermodynamics.relativistic.maxwell_juettner_distribution
-  laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics
+
+    laws.thermodynamics.relativistic.maxwell_juettner_distribution
+    laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics
+
+
+

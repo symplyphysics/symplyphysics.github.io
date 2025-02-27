@@ -1,5 +1,5 @@
 Weight in fluid via ratio of densities
---------------------------------------
+======================================
 
 The *Archimedean force* acting on a body immersed in a fluid is equal to the weight of the fluid displaced by the body.
 It can be derived that the weight of the body immersed in the fluid is proportional to its weight in vacuum and also depends
@@ -15,53 +15,57 @@ on the ratio of the fluid density and body density.
 
     Weight of the body immersed in the fluid. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
-    Symbol:
-        :code:`W_fl`
+Symbol:
+    :code:`W_fl`
 
-    Latex:
-        :math:`W_\text{fl}`
+Latex:
+    :math:`W_\text{fl}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: weight_in_vacuum
 
     Weight of the body in vacuum, i.e. its true weight. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
-    Symbol:
-        :code:`W_vac`
+Symbol:
+    :code:`W_vac`
 
-    Latex:
-        :math:`W_\text{vac}`
+Latex:
+    :math:`W_\text{vac}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: fluid_density
 
     :attr:`~symplyphysics.symbols.basic.density` of the fluid.
 
-    Symbol:
-        :code:`rho_fl`
+Symbol:
+    :code:`rho_fl`
 
-    Latex:
-        :math:`\rho_\text{fl}`
+Latex:
+    :math:`\rho_\text{fl}`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: body_density
 
     :attr:`~symplyphysics.symbols.basic.density` of the body.
 
-    Symbol:
-        :code:`rho_b`
+Symbol:
+    :code:`rho_b`
 
-    Latex:
-        :math:`\rho_\text{b}`
+Latex:
+    :math:`\rho_\text{b}`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: law
 

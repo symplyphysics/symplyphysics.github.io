@@ -1,5 +1,5 @@
 Irradiance of light after polarizer
------------------------------------
+===================================
 
 **Malus's law** states that the irradiance of linearly polarized light that passes through a polarizer
 is proportional to its initial intensity, transparency coefficient of the polarizer and square cosine
@@ -15,53 +15,57 @@ of the angle phi between the light's initial polarization direction and the axis
 
     Light :attr:`~symplyphysics.symbols.astronomy.irradiance` after passing through the polarizer.
 
-    Symbol:
-        :code:`E_e`
+Symbol:
+    :code:`E_e`
 
-    Latex:
-        :math:`E_\text{e}`
+Latex:
+    :math:`E_\text{e}`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: irradiance_before
 
     Light :attr:`~symplyphysics.symbols.astronomy.irradiance` befor passing through the polarizer.
 
-    Symbol:
-        :code:`E_e0`
+Symbol:
+    :code:`E_e0`
 
-    Latex:
-        :math:`E_{\text{e}0}`
+Latex:
+    :math:`E_{\text{e}0}`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: transparency_coefficient
 
     :attr:`~symplyphysics.symbols.optics.transparency_coefficient` of the polarizer.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: polarization_angle
 
     Polarization :attr:`~symplyphysics.symbols.basic.angle`.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

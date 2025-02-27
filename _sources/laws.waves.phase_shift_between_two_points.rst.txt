@@ -1,5 +1,5 @@
 Phase shift between two points
-------------------------------
+==============================
 
 The phase shift of wave oscillations between two points is proportional to the ratio
 of the distance between the points and the wavelength of the wave.
@@ -14,40 +14,43 @@ of the distance between the points and the wavelength of the wave.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` between the two points.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the two points.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the wave.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

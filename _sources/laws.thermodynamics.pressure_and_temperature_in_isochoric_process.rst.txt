@@ -1,5 +1,5 @@
 Pressure and temperature in isochoric process
----------------------------------------------
+=============================================
 
 A thermodynamic process is isochoric when the volume of the body stays constant during it.
 During an isochoric process, the pressure of the gas scales by the same amount as the temperature
@@ -19,53 +19,57 @@ of the gas.
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas.
 
-    Symbol:
-        :code:`p_0`
+Symbol:
+    :code:`p_0`
 
-    Latex:
-        :math:`p_{0}`
+Latex:
+    :math:`p_{0}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: final_pressure
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas.
 
-    Symbol:
-        :code:`p_1`
+Symbol:
+    :code:`p_1`
 
-    Latex:
-        :math:`p_{1}`
+Latex:
+    :math:`p_{1}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: initial_temperature
 
     Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T_0`
+Symbol:
+    :code:`T_0`
 
-    Latex:
-        :math:`T_{0}`
+Latex:
+    :math:`T_{0}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: final_temperature
 
     Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T_1`
+Symbol:
+    :code:`T_1`
 
-    Latex:
-        :math:`T_{1}`
+Latex:
+    :math:`T_{1}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

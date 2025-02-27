@@ -6,26 +6,29 @@ Kinematics
 
 .. py:currentmodule:: symplyphysics.laws.kinematics
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.kinematics.damped_oscillations
-  laws.kinematics.rotational_inertia
-  laws.kinematics.vector
-  laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed
-  laws.kinematics.angular_position_is_arc_length_over_radius
-  laws.kinematics.angular_position_via_constant_angular_acceleration_and_time
-  laws.kinematics.angular_position_via_constant_angular_speed_and_time
-  laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time
-  laws.kinematics.average_angular_speed_is_angular_distance_over_time
-  laws.kinematics.centripetal_acceleration_via_angular_speed_and_radius
-  laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius
-  laws.kinematics.classical_addition_of_velocities
-  laws.kinematics.displacement_in_simple_harmonic_motion
-  laws.kinematics.position_via_constant_acceleration_and_time
-  laws.kinematics.position_via_constant_speed_and_time
-  laws.kinematics.speed_via_angular_speed_and_radius
-  laws.kinematics.speed_via_constant_acceleration_and_time
-  laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius
+    laws.kinematics.damped_oscillations
+    laws.kinematics.rotational_inertia
+    laws.kinematics.vector
+    laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed
+    laws.kinematics.angular_position_is_arc_length_over_radius
+    laws.kinematics.angular_position_via_constant_angular_acceleration_and_time
+    laws.kinematics.angular_position_via_constant_angular_speed_and_time
+    laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time
+    laws.kinematics.average_angular_speed_is_angular_distance_over_time
+    laws.kinematics.centripetal_acceleration_via_angular_speed_and_radius
+    laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius
+    laws.kinematics.classical_addition_of_velocities
+    laws.kinematics.displacement_in_simple_harmonic_motion
+    laws.kinematics.position_via_constant_acceleration_and_time
+    laws.kinematics.position_via_constant_speed_and_time
+    laws.kinematics.speed_via_angular_speed_and_radius
+    laws.kinematics.speed_via_constant_acceleration_and_time
+    laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius
+
+
+

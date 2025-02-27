@@ -1,5 +1,5 @@
 Effective mass of electron via energy
--------------------------------------
+=====================================
 
 In solid state physics, a particle's effective mass is the mass that it seems to have when responding to forces,
 or the mass that it seems to have when interacting with other identical particles in a thermal distribution.
@@ -22,40 +22,43 @@ of a free particle with that mass.
 
     Effective :attr:`~symplyphysics.symbols.basic.mass` of the electron.
 
-    Symbol:
-        :code:`m_eff`
+Symbol:
+    :code:`m_eff`
 
-    Latex:
-        :math:`m_\text{eff}`
+Latex:
+    :math:`m_\text{eff}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: angular_wavenumber
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber`.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`angle/length`
+Dimension:
+    :code:`angle/length`
+
 
 .. py:data:: energy
 
     Electron energy as a function of angular wavenumber.
 
-    Symbol:
-        :code:`E(k)`
+Symbol:
+    :code:`E(k)`
 
-    Latex:
-        :math:`E{\left(k \right)}`
+Latex:
+    :math:`E{\left(k \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

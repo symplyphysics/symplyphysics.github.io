@@ -1,5 +1,5 @@
 Rotational inertia about axis and through center of mass
---------------------------------------------------------
+========================================================
 
 The *parallel-axis theorem* relates the rotational inertia of a body about any axis to
 that of the same body about a parallel axis that extends through the body's center of mass
@@ -20,54 +20,58 @@ of mass).
 
     :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` about some axis.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`length**2*mass`
+Dimension:
+    :code:`length**2*mass`
+
 
 .. py:data:: rotational_inertia_through_com
 
     :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` about an axis that is parallel to the given one and passes through
     the center of mass.
 
-    Symbol:
-        :code:`I_com`
+Symbol:
+    :code:`I_com`
 
-    Latex:
-        :math:`I_\text{com}`
+Latex:
+    :math:`I_\text{com}`
 
-    Dimension:
-        :code:`length**2*mass`
+Dimension:
+    :code:`length**2*mass`
+
 
 .. py:data:: mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the body.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: distance_between_axes
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the axes.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

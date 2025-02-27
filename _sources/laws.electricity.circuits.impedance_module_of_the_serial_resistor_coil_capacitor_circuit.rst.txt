@@ -1,5 +1,5 @@
 Impedance module of serial resistor-coil-capacitor circuit
-----------------------------------------------------------
+==========================================================
 
 Consider an electrical circuit consisting of a capacitor, coil, and resistor connected
 in series. Then you can find the impedance module of such a circuit.
@@ -14,53 +14,57 @@ in series. Then you can find the impedance module of such a circuit.
 
     Absolute value of the circuit's :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`abs(Z)`
+Symbol:
+    :code:`abs(Z)`
 
-    Latex:
-        :math:`|Z|`
+Latex:
+    :math:`|Z|`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: resistor_resistance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the resistor.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: capacitor_reactance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of the capacitor.
 
-    Symbol:
-        :code:`X_C`
+Symbol:
+    :code:`X_C`
 
-    Latex:
-        :math:`X_\text{C}`
+Latex:
+    :math:`X_\text{C}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: coil_reactance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of the coil.
 
-    Symbol:
-        :code:`X_L`
+Symbol:
+    :code:`X_L`
 
-    Latex:
-        :math:`X_\text{L}`
+Latex:
+    :math:`X_\text{L}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

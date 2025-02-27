@@ -1,5 +1,5 @@
 Period of ideal pendulum from length
-------------------------------------
+====================================
 
 An ideal pendulum is an object hanging on a thread. In a gravitational field it starts oscillating after being pushed out of balance.
 Period of pendulum oscillation does not depend on its mass.
@@ -21,27 +21,29 @@ Period of pendulum oscillation does not depend on its mass.
 
     The :attr:`~symplyphysics.symbols.basic.period` of oscillations.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: length
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.length` of the pendulum.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Mechanical energy is kinetic and potential energy
--------------------------------------------------
+=================================================
 
 *Mechanical energy* of the system is defined as the sum of its kinetic energy and potential energy.
 
@@ -13,40 +13,43 @@ Mechanical energy is kinetic and potential energy
 
     :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` of the system.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: kinetic_energy
 
     :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the system.
 
-    Symbol:
-        :code:`K`
+Symbol:
+    :code:`K`
 
-    Latex:
-        :math:`K`
+Latex:
+    :math:`K`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: potential_energy
 
     :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the system.
 
-    Symbol:
-        :code:`U`
+Symbol:
+    :code:`U`
 
-    Latex:
-        :math:`U`
+Latex:
+    :math:`U`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: definition
 

@@ -1,5 +1,5 @@
 Isobaric potential from heat capacity
--------------------------------------
+=====================================
 
 The isobaric potential of a reaction is a value whose change during a chemical reaction
 is equal to the change in the internal energy of the system. The isobaric potential
@@ -27,66 +27,71 @@ pressure of :math:`1 \, \text{atm}`, as well as at a fixed composition of the sy
 
     Standard change of :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`Delta(G_m)`
+Symbol:
+    :code:`Delta(G_m)`
 
-    Latex:
-        :math:`\Delta G_\text{m}`
+Latex:
+    :math:`\Delta G_\text{m}`
 
-    Dimension:
-        :code:`energy/amount_of_substance`
+Dimension:
+    :code:`energy/amount_of_substance`
+
 
 .. py:data:: standard_molar_enthalpy_change
 
     Standard change of :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`Delta(H_m)`
+Symbol:
+    :code:`Delta(H_m)`
 
-    Latex:
-        :math:`\Delta H_\text{m}`
+Latex:
+    :math:`\Delta H_\text{m}`
 
-    Dimension:
-        :code:`energy/amount_of_substance`
+Dimension:
+    :code:`energy/amount_of_substance`
+
 
 .. py:data:: standard_molar_entropy_change
 
     Standard change of :attr:`~symplyphysics.symbols.thermodynamics.entropy` per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`Delta(S_m)`
+Symbol:
+    :code:`Delta(S_m)`
 
-    Latex:
-        :math:`\Delta S_\text{m}`
+Latex:
+    :math:`\Delta S_\text{m}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: standard_molar_heat_capacity_change
 
     Standard change of :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity`.
 
-    Symbol:
-        :code:`Delta(c_m)`
+Symbol:
+    :code:`Delta(c_m)`
 
-    Latex:
-        :math:`\Delta c_\text{m}`
+Latex:
+    :math:`\Delta c_\text{m}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: law
 

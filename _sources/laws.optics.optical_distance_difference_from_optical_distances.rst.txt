@@ -1,5 +1,5 @@
 Optical distance difference from optical distances
---------------------------------------------------
+==================================================
 
 The optical difference in the course of two rays is the difference
 in the optical distances traversed by each of the rays
@@ -17,40 +17,43 @@ in the optical distances traversed by each of the rays
 
     :attr:`~symplyphysics.symbols.optics.optical_distance` of first wave.
 
-    Symbol:
-        :code:`Lambda_1`
+Symbol:
+    :code:`Lambda_1`
 
-    Latex:
-        :math:`\Lambda_{1}`
+Latex:
+    :math:`\Lambda_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: second_optical_distance
 
     :attr:`~symplyphysics.symbols.optics.optical_distance` of second wave.
 
-    Symbol:
-        :code:`Lambda_2`
+Symbol:
+    :code:`Lambda_2`
 
-    Latex:
-        :math:`\Lambda_{2}`
+Latex:
+    :math:`\Lambda_{2}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: optical_difference_distance
 
     :attr:`~symplyphysics.symbols.optics.optical_distance` difference between waves.
 
-    Symbol:
-        :code:`Delta(Lambda)`
+Symbol:
+    :code:`Delta(Lambda)`
 
-    Latex:
-        :math:`\Delta \Lambda`
+Latex:
+    :math:`\Delta \Lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

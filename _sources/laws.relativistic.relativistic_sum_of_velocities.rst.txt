@@ -1,5 +1,5 @@
 Relativistic sum of velocities
-------------------------------
+==============================
 
 In relativistic mechanics, the speed of the body in the lab reference frame
 is no longer the sum of the speed of the body's proper reference frame and
@@ -24,40 +24,43 @@ its speed in the proper frame.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body relative to the lab frame.
 
-    Symbol:
-        :code:`v_OL`
+Symbol:
+    :code:`v_OL`
 
-    Latex:
-        :math:`v_{OL}`
+Latex:
+    :math:`v_{OL}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: body_speed_in_proper_frame
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body relative to the proper reference frame.
 
-    Symbol:
-        :code:`v_OP`
+Symbol:
+    :code:`v_OP`
 
-    Latex:
-        :math:`v_{OP}`
+Latex:
+    :math:`v_{OP}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: proper_frame_speed_in_lab_frame
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the proper frame relative to the lab frame.
 
-    Symbol:
-        :code:`v_PL`
+Symbol:
+    :code:`v_PL`
 
-    Latex:
-        :math:`v_{PL}`
+Latex:
+    :math:`v_{PL}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

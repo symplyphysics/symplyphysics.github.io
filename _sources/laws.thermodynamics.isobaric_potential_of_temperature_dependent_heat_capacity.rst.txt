@@ -1,5 +1,5 @@
 Isobaric potential of temperature dependent heat capacity
----------------------------------------------------------
+=========================================================
 
 The isobaric potential of a reaction is a value whose change during a chemical reaction
 is equal to the change in the internal energy of the system. The isobaric potential
@@ -29,92 +29,99 @@ dependence of heat capacity on temperature.
 
     :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` change, or isobaric potential, per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`Delta(G_m)`
+Symbol:
+    :code:`Delta(G_m)`
 
-    Latex:
-        :math:`\Delta G_\text{m}`
+Latex:
+    :math:`\Delta G_\text{m}`
 
-    Dimension:
-        :code:`energy/amount_of_substance`
+Dimension:
+    :code:`energy/amount_of_substance`
+
 
 .. py:data:: molar_enthalpy_change
 
     :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` change, or thermal effect, per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`Delta(H_m)`
+Symbol:
+    :code:`Delta(H_m)`
 
-    Latex:
-        :math:`\Delta H_\text{m}`
+Latex:
+    :math:`\Delta H_\text{m}`
 
-    Dimension:
-        :code:`energy/amount_of_substance`
+Dimension:
+    :code:`energy/amount_of_substance`
+
 
 .. py:data:: molar_entropy
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`S_m`
+Symbol:
+    :code:`S_m`
 
-    Latex:
-        :math:`S_\text{m}`
+Latex:
+    :math:`S_\text{m}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: first_capacity_coefficient
 
     First tabular coefficient of heat capacity.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: second_capacity_coefficient
 
     Second tabular coefficient of heat capacity.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature**2)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature**2)`
+
 
 .. py:data:: third_capacity_coefficient
 
     Third tabular coefficient of heat capacity.
 
-    Symbol:
-        :code:`c`
+Symbol:
+    :code:`c`
 
-    Latex:
-        :math:`c`
+Latex:
+    :math:`c`
 
-    Dimension:
-        :code:`energy*temperature/amount_of_substance`
+Dimension:
+    :code:`energy*temperature/amount_of_substance`
+
 
 .. py:data:: law
 

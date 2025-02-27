@@ -1,5 +1,5 @@
 Inductance in serial connection
--------------------------------
+===============================
 
 The total inductance of the circuit whose components are connected in series is the sum
 of the inductances of individual components.
@@ -19,27 +19,29 @@ of the inductances of individual components.
 
     Total :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the circuit.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`inductance`
+Dimension:
+    :code:`inductance`
+
 
 .. py:data:: inductance
 
     :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the :math:`i`-th component.
 
-    Symbol:
-        :code:`L[i]`
+Symbol:
+    :code:`L[i]`
 
-    Latex:
-        :math:`{L}_{i}`
+Latex:
+    :math:`{L}_{i}`
 
-    Dimension:
-        :code:`inductance`
+Dimension:
+    :code:`inductance`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Mass of substance deposited on electrode
-----------------------------------------
+========================================
 
 Faraday's first law of electrolysis: the mass of a substance deposited on an electrode
 during electrolysis is directly proportional to the amount of electricity transferred to
@@ -19,53 +19,57 @@ passed through the surface of the electrode.
 
     :attr:`~symplyphysics.symbols.basic.mass` deposited on the electrode.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: equivalent
 
     :attr:`~symplyphysics.symbols.chemistry.electrochemical_equivalent`.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`mass/charge`
+Dimension:
+    :code:`mass/charge`
+
 
 .. py:data:: current
 
     :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

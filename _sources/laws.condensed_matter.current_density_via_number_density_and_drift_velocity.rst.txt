@@ -1,5 +1,5 @@
 Current density via number density and drift velocity
------------------------------------------------------
+=====================================================
 
 Current density is the amount of charge per unit time that flows through a unit area of a chosen
 cross section. The current density vector is defined as a vector whose magnitude is the electric
@@ -20,53 +20,57 @@ of the positive charges at this point.
 
     :attr:`~symplyphysics.symbols.electrodynamics.current_density` of charge carriers.
 
-    Symbol:
-        :code:`j`
+Symbol:
+    :code:`j`
 
-    Latex:
-        :math:`j`
+Latex:
+    :math:`j`
 
-    Dimension:
-        :code:`current/area`
+Dimension:
+    :code:`current/area`
+
 
 .. py:data:: number_density
 
     :attr:`~symplyphysics.symbols.basic.number_density`, or number of charge carriers per unit volume.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: drift_velocity
 
     :attr:`~symplyphysics.symbols.chemistry.drift_velocity` of charge carriers.
 
-    Symbol:
-        :code:`u`
+Symbol:
+    :code:`u`
 
-    Latex:
-        :math:`u`
+Latex:
+    :math:`u`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: charge
 
     :attr:`~symplyphysics.symbols.electrodynamics.charge` of the charge carriers.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: law
 

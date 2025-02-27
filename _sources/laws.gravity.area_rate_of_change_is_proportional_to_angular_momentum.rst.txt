@@ -1,5 +1,5 @@
 Area rate of change is proportional to angular momentum
--------------------------------------------------------
+=======================================================
 
 The **law of areas**, also known as **Kepler's second law of planetary motion**,
 states that a line the connects a planet to the attracting body (the Sun) sweeps
@@ -15,53 +15,57 @@ equivalent to saying that the planet's angular momentum is conserved.
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: area_swept
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area` swept by the planet.
 
-    Symbol:
-        :code:`A(t)`
+Symbol:
+    :code:`A(t)`
 
-    Latex:
-        :math:`A{\left(t \right)}`
+Latex:
+    :math:`A{\left(t \right)}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: planet_angular_momentum
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum` of the planet.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`length**2*mass/time`
+Dimension:
+    :code:`length**2*mass/time`
+
 
 .. py:data:: planet_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the planet.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

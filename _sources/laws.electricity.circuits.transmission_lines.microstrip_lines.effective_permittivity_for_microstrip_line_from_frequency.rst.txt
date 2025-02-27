@@ -1,5 +1,5 @@
 Effective permittivity of microstrip line from frequency
---------------------------------------------------------
+========================================================
 
 The frequency-dependent effective permittivity of the microstrip line can be calculated
 from its frequency-indendent effective permittivity and physical dimensions.
@@ -18,80 +18,86 @@ from its frequency-indendent effective permittivity and physical dimensions.
     Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line when frequency
     dependence is taken into account. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
-    Symbol:
-        :code:`epsilon_eff`
+Symbol:
+    :code:`epsilon_eff`
 
-    Latex:
-        :math:`\varepsilon_\text{eff}`
+Latex:
+    :math:`\varepsilon_\text{eff}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: relative_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the dielectric substrate of the microstrip line.
 
-    Symbol:
-        :code:`epsilon_r`
+Symbol:
+    :code:`epsilon_r`
 
-    Latex:
-        :math:`\varepsilon_\text{r}`
+Latex:
+    :math:`\varepsilon_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the signal.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: substrate_thickness
 
     :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: width
 
     Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`w`
+Latex:
+    :math:`w`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: independent_effective_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line when frequency dependence is
     omitted. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
 
-    Symbol:
-        :code:`epsilon_eff0`
+Symbol:
+    :code:`epsilon_eff0`
 
-    Latex:
-        :math:`\varepsilon_{\text{eff}, 0}`
+Latex:
+    :math:`\varepsilon_{\text{eff}, 0}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

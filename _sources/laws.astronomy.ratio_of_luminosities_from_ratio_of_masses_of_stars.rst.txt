@@ -1,5 +1,5 @@
 Ratio of luminosities from ratio of masses of stars
----------------------------------------------------
+===================================================
 
 The comparisons of masses and luminosities for most stars revealed the following relationship:
 luminosity is approximately proportional to the fourth power of mass.
@@ -19,53 +19,57 @@ luminosity is approximately proportional to the fourth power of mass.
 
     :attr:`~symplyphysics.symbols.basic.mass` of the first star.
 
-    Symbol:
-        :code:`m_1`
+Symbol:
+    :code:`m_1`
 
-    Latex:
-        :math:`m_{1}`
+Latex:
+    :math:`m_{1}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: second_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the second star.
 
-    Symbol:
-        :code:`m_2`
+Symbol:
+    :code:`m_2`
 
-    Latex:
-        :math:`m_{2}`
+Latex:
+    :math:`m_{2}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: first_luminosity
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the first star.
 
-    Symbol:
-        :code:`L_1`
+Symbol:
+    :code:`L_1`
 
-    Latex:
-        :math:`L_{1}`
+Latex:
+    :math:`L_{1}`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: second_luminosity
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the second star.
 
-    Symbol:
-        :code:`L_2`
+Symbol:
+    :code:`L_2`
 
-    Latex:
-        :math:`L_{2}`
+Latex:
+    :math:`L_{2}`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: law
 

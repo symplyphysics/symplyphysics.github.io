@@ -1,5 +1,5 @@
 Reduced temperature
--------------------
+===================
 
 See :ref:`vdw_reduced_units_def`.
 
@@ -13,41 +13,44 @@ See :ref:`vdw_reduced_units_def`.
 
     Reduced :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
 
-    Symbol:
-        :code:`T_r`
+Symbol:
+    :code:`T_r`
 
-    Latex:
-        :math:`T_{r}`
+Latex:
+    :math:`T_{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: critical_temperature
 
     See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature`
     and :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`T_c`
+Symbol:
+    :code:`T_c`
 
-    Latex:
-        :math:`T_\text{c}`
+Latex:
+    :math:`T_\text{c}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

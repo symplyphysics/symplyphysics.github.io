@@ -1,5 +1,5 @@
 Electric flux of uniform electric field
----------------------------------------
+=======================================
 
 Electric field at a point in space can be found by placing there a test charge and measuring
 the electrostatic force that is applied to it.
@@ -24,6 +24,8 @@ the electrostatic force that is applied to it.
 #. `Electric flux <https://en.wikipedia.org/wiki/Electric_flux#Overview>`__.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.vector.electric_flux_of_uniform_electric_field
+
+
 
 .. py:function:: electric_flux_law(electric_field_, area_)
 
@@ -59,4 +61,3 @@ the electrostatic force that is applied to it.
         Latex: :math:`\Phi_E`
 
         Dimension: :code:`voltage*length`
-

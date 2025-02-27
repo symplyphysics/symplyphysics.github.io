@@ -1,5 +1,5 @@
 Luminosity of Sun in future from luminosity in present
-------------------------------------------------------
+======================================================
 
 The luminosity of the Sun in the future can be calculated from the luminosity of the Sun in the present.
 
@@ -21,53 +21,57 @@ The luminosity of the Sun in the future can be calculated from the luminosity of
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun at some point in the future.
 
-    Symbol:
-        :code:`L_1`
+Symbol:
+    :code:`L_1`
 
-    Latex:
-        :math:`L_{1}`
+Latex:
+    :math:`L_{1}`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: present_luminosity
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the Sun in the present.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` between now and the future event.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: one_billion_years
 
     A quantity equal to one billion years.
 
-    Symbol:
-        :code:`1 Gyr`
+Symbol:
+    :code:`1 Gyr`
 
-    Latex:
-        :math:`1 \, \text{Gyr}`
+Latex:
+    :math:`1 \, \text{Gyr}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

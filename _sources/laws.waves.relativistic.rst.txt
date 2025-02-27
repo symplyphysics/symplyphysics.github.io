@@ -5,11 +5,15 @@ Collection of laws related to relativistic description of waves.
 
 .. py:currentmodule:: symplyphysics.laws.waves.relativistic
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.waves.relativistic.frequency_shift_from_velocity_and_angle
-  laws.waves.relativistic.longitudinal_frequency_shift_from_absolute_velocities
-  laws.waves.relativistic.longitudinal_frequency_shift_from_velocity
+
+    laws.waves.relativistic.frequency_shift_from_velocity_and_angle
+    laws.waves.relativistic.longitudinal_frequency_shift_from_absolute_velocities
+    laws.waves.relativistic.longitudinal_frequency_shift_from_velocity
+
+
+

@@ -1,5 +1,5 @@
 Standing wave ratio from reflection coefficient
------------------------------------------------
+===============================================
 
 The standing wave ratio can be calculated by knowing the reflection coefficient of the
 wave.
@@ -17,27 +17,29 @@ wave.
 
     :attr:`~symplyphysics.symbols.electrodynamics.standing_wave_ratio`.
 
-    Symbol:
-        :code:`SWR`
+Symbol:
+    :code:`SWR`
 
-    Latex:
-        :math:`\text{SWR}`
+Latex:
+    :math:`\text{SWR}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: reflection_coefficient
 
     :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
 
-    Symbol:
-        :code:`Gamma`
+Symbol:
+    :code:`Gamma`
 
-    Latex:
-        :math:`\Gamma`
+Latex:
+    :math:`\Gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

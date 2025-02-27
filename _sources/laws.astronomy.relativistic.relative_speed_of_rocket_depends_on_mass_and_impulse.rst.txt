@@ -1,5 +1,5 @@
 Relative speed of rocket depends on mass and impulse
-----------------------------------------------------
+====================================================
 
 The Tsiolkovsky formula determines the speed that an aircraft develops under the influence of the thrust
 of a rocket engine, unchanged in direction, in the absence of all other forces.
@@ -19,53 +19,57 @@ in which the speed of light is present.
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the rocket
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: effective_exhaust_speed
 
     Effective exhaust :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the rocket engine.
 
-    Symbol:
-        :code:`v_e`
+Symbol:
+    :code:`v_e`
 
-    Latex:
-        :math:`v_\text{e}`
+Latex:
+    :math:`v_\text{e}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: initial_mass
 
     Initial :attr:`~symplyphysics.symbols.basic.mass` of the rocket
 
-    Symbol:
-        :code:`m_0`
+Symbol:
+    :code:`m_0`
 
-    Latex:
-        :math:`m_{0}`
+Latex:
+    :math:`m_{0}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: final_mass
 
     Final :attr:`~symplyphysics.symbols.basic.mass` of the rocket
 
-    Symbol:
-        :code:`m_1`
+Symbol:
+    :code:`m_1`
 
-    Latex:
-        :math:`m_{1}`
+Latex:
+    :math:`m_{1}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

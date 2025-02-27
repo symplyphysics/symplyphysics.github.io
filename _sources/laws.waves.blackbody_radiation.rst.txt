@@ -9,11 +9,15 @@ which is assumed, for the sake of calculations and theory, to be uniform and con
 
 .. py:currentmodule:: symplyphysics.laws.waves.blackbody_radiation
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.waves.blackbody_radiation.spectral_energy_density_at_all_frequencies
-  laws.waves.blackbody_radiation.spectral_energy_density_in_high_frequency_limit
-  laws.waves.blackbody_radiation.spectral_energy_density_in_low_frequency_limit
+
+    laws.waves.blackbody_radiation.spectral_energy_density_at_all_frequencies
+    laws.waves.blackbody_radiation.spectral_energy_density_in_high_frequency_limit
+    laws.waves.blackbody_radiation.spectral_energy_density_in_low_frequency_limit
+
+
+

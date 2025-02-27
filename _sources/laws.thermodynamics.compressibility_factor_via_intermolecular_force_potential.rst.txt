@@ -1,5 +1,5 @@
 Compressibility factor via intermolecular force potential
----------------------------------------------------------
+=========================================================
 
 The virial equation describes the deviation of a real gas from ideal gas behaviour. The virial coefficients
 in the virial expansion account for interactions between successively larger groups of molecules. Since
@@ -29,79 +29,85 @@ linked to the intermolecular force potential.
     :attr:`~symplyphysics.symbols.thermodynamics.compressibility_factor` of the gas. Also see :doc:`Compressibility factor
     <definitions.compressibility_factor_is_deviation_from_ideal_gas>`.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: particle_count
 
     :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: intermolecular_distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between gas molecules.
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: intermolecular_force_potential
 
     Intermolecular force potential as a function of :attr:`~intermolecular_distance`. See :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy`.
 
-    Symbol:
-        :code:`U(r)`
+Symbol:
+    :code:`U(r)`
 
-    Latex:
-        :math:`U{\left(r \right)}`
+Latex:
+    :math:`U{\left(r \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

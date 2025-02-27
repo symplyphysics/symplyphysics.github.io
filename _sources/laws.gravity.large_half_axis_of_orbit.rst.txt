@@ -1,5 +1,5 @@
 Semimajor axis of orbit via mass and speed
-------------------------------------------
+==========================================
 
 Let the body move in an elliptical orbit. Then its semimajor axis depends on the mass of the body around which it
 rotates and the orbital velocity.
@@ -18,40 +18,43 @@ rotates and the orbital velocity.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.semimajor_axis` of the orbit.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: orbital_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the attracted body at which it orbits the attracting body.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: attracting_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the attracting body.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

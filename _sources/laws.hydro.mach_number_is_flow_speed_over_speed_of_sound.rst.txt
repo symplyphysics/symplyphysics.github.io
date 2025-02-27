@@ -1,5 +1,5 @@
 Mach number is flow speed over speed of sound
----------------------------------------------
+=============================================
 
 *Mach number* is a dimensionless quantity in fluid dynamics representing
 the ratio of flow speed divided by the speed of sound in the medium.
@@ -14,40 +14,43 @@ the ratio of flow speed divided by the speed of sound in the medium.
 
     Local :attr:`~symplyphysics.symbols.classical_mechanics.mach_number`.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`\text{M}`
+Latex:
+    :math:`\text{M}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: flow_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` with respect to internal or external boundaries.
 
-    Symbol:
-        :code:`u`
+Symbol:
+    :code:`u`
 
-    Latex:
-        :math:`u`
+Latex:
+    :math:`u`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: speed_of_sound
 
     Local :attr:`~symplyphysics.symbols.classical_mechanics.speed_of_sound`.
 
-    Symbol:
-        :code:`c`
+Symbol:
+    :code:`c`
 
-    Latex:
-        :math:`c`
+Latex:
+    :math:`c`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

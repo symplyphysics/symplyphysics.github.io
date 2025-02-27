@@ -1,5 +1,5 @@
 Internal energy change of ideal gas via temperature
----------------------------------------------------
+===================================================
 
 The internal energy of an ideal gas depends solely on its temperature and the number of gas particles
 and is independent of other thermodynamic quantities such as pressure or density.
@@ -18,40 +18,43 @@ and is independent of other thermodynamic quantities such as pressure or density
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
-    Symbol:
-        :code:`dU`
+Symbol:
+    :code:`dU`
 
-    Latex:
-        :math:`dU`
+Latex:
+    :math:`dU`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: isochoric_heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`C_V`
+Symbol:
+    :code:`C_V`
 
-    Latex:
-        :math:`C_{V}`
+Latex:
+    :math:`C_{V}`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: temperature_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`dT`
+Symbol:
+    :code:`dT`
 
-    Latex:
-        :math:`dT`
+Latex:
+    :math:`dT`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

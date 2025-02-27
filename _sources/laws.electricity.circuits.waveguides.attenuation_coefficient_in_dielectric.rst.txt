@@ -1,5 +1,5 @@
 Attenuation coefficient in dielectric
--------------------------------------
+=====================================
 
 A coaxial waveguide is an electrical cable consisting of a central conductor and a
 shield arranged coaxially and separated by an insulating material or an air gap. It is
@@ -16,66 +16,71 @@ the permeability and the dielectric loss angle of the insulator material.
 
     :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` of the waveguide.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: absolute_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity` of the insulator.
 
-    Symbol:
-        :code:`epsilon`
+Symbol:
+    :code:`epsilon`
 
-    Latex:
-        :math:`\varepsilon`
+Latex:
+    :math:`\varepsilon`
 
-    Dimension:
-        :code:`capacitance/length`
+Dimension:
+    :code:`capacitance/length`
+
 
 .. py:data:: absolute_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the insulator.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`inductance/length`
+Dimension:
+    :code:`inductance/length`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: loss_tangent
 
     :attr:`~symplyphysics.symbols.electrodynamics.dielectric_loss_tangent`.
 
-    Symbol:
-        :code:`tan(delta)`
+Symbol:
+    :code:`tan(delta)`
 
-    Latex:
-        :math:`\tan \delta`
+Latex:
+    :math:`\tan \delta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

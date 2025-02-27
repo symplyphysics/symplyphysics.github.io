@@ -1,5 +1,5 @@
 Radiation intensity from energy, area, and time
------------------------------------------------
+===============================================
 
 Intensity is a scalar physical quantity that quantitatively characterizes the power carried by
 a wave in the direction of propagation per unit area per unit time.
@@ -14,53 +14,57 @@ a wave in the direction of propagation per unit area per unit time.
 
     (Average) :attr:`~symplyphysics.symbols.basic.intensity` of incident radiation.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of incident radiation.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area`.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

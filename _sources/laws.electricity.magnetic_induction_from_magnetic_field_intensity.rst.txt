@@ -1,5 +1,5 @@
 Magnetic flux density from magnetic field strength
---------------------------------------------------
+==================================================
 
 Magnetic flux density is a physical quantity that is a force characteristic of a magnetic
 field, namely, a characteristic of its action on moving charged particles and on bodies
@@ -18,40 +18,43 @@ with a magnetic moment.
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`magnetic_density`
+Dimension:
+    :code:`magnetic_density`
+
 
 .. py:data:: absolute_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`inductance/length`
+Dimension:
+    :code:`inductance/length`
+
 
 .. py:data:: magnetic_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_field_strength`.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`current/length`
+Dimension:
+    :code:`current/length`
+
 
 .. py:data:: law
 

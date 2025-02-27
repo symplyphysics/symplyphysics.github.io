@@ -1,5 +1,5 @@
 Refractive index via permittivity and permeability
---------------------------------------------------
+==================================================
 
 Refractive index can be calculated from the relative permittivity and permeability
 of the medium.
@@ -17,40 +17,43 @@ of the medium.
 
     :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: relative_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the medium.
 
-    Symbol:
-        :code:`epsilon_r`
+Symbol:
+    :code:`epsilon_r`
 
-    Latex:
-        :math:`\varepsilon_\text{r}`
+Latex:
+    :math:`\varepsilon_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: relative_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
 
-    Symbol:
-        :code:`mu_r`
+Symbol:
+    :code:`mu_r`
 
-    Latex:
-        :math:`\mu_\text{r}`
+Latex:
+    :math:`\mu_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

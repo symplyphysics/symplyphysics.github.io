@@ -1,5 +1,5 @@
 Astronomy (Symbols)
--------------------
+===================
 
 Symbols related to astronomy.
 
@@ -17,14 +17,15 @@ Symbols related to astronomy.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Absolute_magnitude>`__.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: apparent_magnitude
 
@@ -37,14 +38,15 @@ Symbols related to astronomy.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Apparent_magnitude>`__.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: luminosity
 
@@ -55,14 +57,15 @@ Symbols related to astronomy.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Luminosity#>`__.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: illuminance
 
@@ -72,14 +75,15 @@ Symbols related to astronomy.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Illuminance#>`__.
 
-    Symbol:
-        :code:`E_v`
+Symbol:
+    :code:`E_v`
 
-    Latex:
-        :math:`E_\text{v}`
+Latex:
+    :math:`E_\text{v}`
 
-    Dimension:
-        :code:`luminous_intensity/area`
+Dimension:
+    :code:`luminous_intensity/area`
+
 
 .. py:data:: irradiance
 
@@ -90,42 +94,45 @@ Symbols related to astronomy.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Irradiance>`__.
 
-    Symbol:
-        :code:`E_e`
+Symbol:
+    :code:`E_e`
 
-    Latex:
-        :math:`E_\text{e}`
+Latex:
+    :math:`E_\text{e}`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: eccentricity
 
     The **eccentricity** of a conic section is a non-negative real number that uniquely
     characterizes its shape. 
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: zenith_angle
 
     The **zenith angle**, or **zenith angular distance**, is the angle between a direction of
     interest (e.g. a star) and the local zenith.
 
-    Symbol:
-        :code:`theta`
+Symbol:
+    :code:`theta`
 
-    Latex:
-        :math:`\theta`
+Latex:
+    :math:`\theta`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: declination
 
@@ -133,14 +140,15 @@ Symbols related to astronomy.
     the equatorial coordinate system, measured north (positive) or south (negative) of the
     celestial equator.
 
-    Symbol:
-        :code:`delta`
+Symbol:
+    :code:`delta`
 
-    Latex:
-        :math:`\delta`
+Latex:
+    :math:`\delta`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: altitude
 
@@ -151,12 +159,13 @@ Symbols related to astronomy.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Horizontal_coordinate_system#Definition>`__.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 

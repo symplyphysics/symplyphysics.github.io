@@ -25,34 +25,37 @@ and output.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.electricity.circuits.transmission_lines.coplanar_lines
-  laws.electricity.circuits.transmission_lines.microstrip_lines
-  laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_reflection_coefficient
-  laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_voltages
-  laws.electricity.circuits.transmission_lines.hybrid_parameters_matrix
-  laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line
-  laws.electricity.circuits.transmission_lines.impedances_t_type_circuit_of_transmission_line
-  laws.electricity.circuits.transmission_lines.input_impedance_from_parameters_transmission_matrix
-  laws.electricity.circuits.transmission_lines.input_impedance_lossless_transmission_line
-  laws.electricity.circuits.transmission_lines.input_impedance_lossy_transmission_line
-  laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_reflection_coefficient
-  laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_standing_wave_coefficient
-  laws.electricity.circuits.transmission_lines.reflection_coefficient_from_load_and_transmission_line_impedances
-  laws.electricity.circuits.transmission_lines.scattering_matrix
-  laws.electricity.circuits.transmission_lines.scattering_matrix_to_transmission_matrix
-  laws.electricity.circuits.transmission_lines.total_conductivities_matrix
-  laws.electricity.circuits.transmission_lines.total_resistance_matrix
-  laws.electricity.circuits.transmission_lines.transmission_matrix
-  laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line
-  laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line
-  laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line
-  laws.electricity.circuits.transmission_lines.transmission_matrix_lossy_transmission_line
-  laws.electricity.circuits.transmission_lines.transmission_matrix_of_pi_type_circuit
-  laws.electricity.circuits.transmission_lines.transmission_matrix_of_t_type_circuit
-  laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_greater_thickness
-  laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_less_thickness
+    laws.electricity.circuits.transmission_lines.coplanar_lines
+    laws.electricity.circuits.transmission_lines.microstrip_lines
+    laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_reflection_coefficient
+    laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_voltages
+    laws.electricity.circuits.transmission_lines.hybrid_parameters_matrix
+    laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line
+    laws.electricity.circuits.transmission_lines.impedances_t_type_circuit_of_transmission_line
+    laws.electricity.circuits.transmission_lines.input_impedance_from_parameters_transmission_matrix
+    laws.electricity.circuits.transmission_lines.input_impedance_lossless_transmission_line
+    laws.electricity.circuits.transmission_lines.input_impedance_lossy_transmission_line
+    laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_reflection_coefficient
+    laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_standing_wave_coefficient
+    laws.electricity.circuits.transmission_lines.reflection_coefficient_from_load_and_transmission_line_impedances
+    laws.electricity.circuits.transmission_lines.scattering_matrix
+    laws.electricity.circuits.transmission_lines.scattering_matrix_to_transmission_matrix
+    laws.electricity.circuits.transmission_lines.total_conductivities_matrix
+    laws.electricity.circuits.transmission_lines.total_resistance_matrix
+    laws.electricity.circuits.transmission_lines.transmission_matrix
+    laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_lossy_transmission_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_of_pi_type_circuit
+    laws.electricity.circuits.transmission_lines.transmission_matrix_of_t_type_circuit
+    laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_greater_thickness
+    laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_less_thickness
+
+
+

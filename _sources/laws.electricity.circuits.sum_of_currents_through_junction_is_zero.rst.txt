@@ -1,5 +1,5 @@
 Sum of currents through junction is zero
-----------------------------------------
+========================================
 
 Electrical charge is neither created nor accumulated in electrical circuits.
 Alternatively, one can think that the total current flowing into an electrical
@@ -21,14 +21,15 @@ known as the **first Kirchhoff's law**, or the **Kirchhoff's junction rule**.
 
     :math:`k`-th current flowing through the node.
 
-    Symbol:
-        :code:`I[k]`
+Symbol:
+    :code:`I[k]`
 
-    Latex:
-        :math:`{I}_{k}`
+Latex:
+    :math:`{I}_{k}`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: law
 

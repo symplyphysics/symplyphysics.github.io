@@ -1,5 +1,5 @@
 Isochoric molar heat capacity of ideal gas via degrees of freedom
------------------------------------------------------------------
+=================================================================
 
 The internal energy of an ideal gas consisting of molecules whose energy is all kinetic
 depends only on the degrees of freedom of the molecule and the temperature of the gas.
@@ -32,27 +32,29 @@ From that one can derive the expression of the isochoric heat capacity of ideal 
 
     :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`c_Vm`
+Symbol:
+    :code:`c_Vm`
 
-    Latex:
-        :math:`c_{V, \text{m}}`
+Latex:
+    :math:`c_{V, \text{m}}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: degrees_of_freedom
 
     Number of :attr:`~symplyphysics.symbols.classical_mechanics.degrees_of_freedom` of gas molecules.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

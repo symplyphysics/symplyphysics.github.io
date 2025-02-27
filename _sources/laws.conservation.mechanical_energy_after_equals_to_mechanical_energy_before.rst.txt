@@ -1,5 +1,5 @@
 Initial mechanical energy equals final mechanical energy
---------------------------------------------------------
+========================================================
 
 The total mechanical energy of an isolated system is conserved, i.e. the energy can
 neither be created nor be destroyed. It can only be internally converted from one form
@@ -22,40 +22,43 @@ to another if the forces doing work on the system are conservative in nature.
 
     Initial :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t_0`
+Symbol:
+    :code:`t_0`
 
-    Latex:
-        :math:`t_{0}`
+Latex:
+    :math:`t_{0}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: final_time
 
     Final :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t_1`
+Symbol:
+    :code:`t_1`
 
-    Latex:
-        :math:`t_{1}`
+Latex:
+    :math:`t_{1}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mechanical_energy
 
     :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` of the system as a function of :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`E(t)`
+Symbol:
+    :code:`E(t)`
 
-    Latex:
-        :math:`E{\left(t \right)}`
+Latex:
+    :math:`E{\left(t \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

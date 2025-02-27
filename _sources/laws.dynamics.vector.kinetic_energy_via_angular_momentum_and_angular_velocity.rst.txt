@@ -1,10 +1,12 @@
 Kinetic energy via angular momentum and angular velocity
---------------------------------------------------------
+========================================================
 
 Kinetic energy of a body rotating around a fixed or instantaneous axis depends on its
 angular momentum and angular velocity.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
+
+
 
 .. py:function:: kinetic_energy_law(angular_momentum_, angular_velocity_)
 
@@ -42,4 +44,3 @@ angular momentum and angular velocity.
         Symbol: :code:`K`
 
         Dimension: *energy*
-

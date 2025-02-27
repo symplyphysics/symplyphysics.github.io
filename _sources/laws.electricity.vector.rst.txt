@@ -5,12 +5,16 @@ Collection of laws related to vectorial description of electromagnetism.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.vector
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement
-  laws.electricity.vector.electric_field_is_force_over_test_charge
-  laws.electricity.vector.electric_flux_of_uniform_electric_field
-  laws.electricity.vector.lorentz_force_via_electromagnetic_field
+
+    laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement
+    laws.electricity.vector.electric_field_is_force_over_test_charge
+    laws.electricity.vector.electric_flux_of_uniform_electric_field
+    laws.electricity.vector.lorentz_force_via_electromagnetic_field
+
+
+

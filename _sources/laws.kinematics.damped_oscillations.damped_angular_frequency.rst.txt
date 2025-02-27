@@ -1,5 +1,5 @@
 Damped angular frequency
-------------------------
+========================
 
 A damped oscillator performs oscillations with a frequency proportional
 to that of an undamped oscillator, i.e. to the frequency of an oscillator when
@@ -16,40 +16,43 @@ there is no damping force acting on the system.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of a damped oscillator.
 
-    Symbol:
-        :code:`w_d`
+Symbol:
+    :code:`w_d`
 
-    Latex:
-        :math:`\omega_\text{d}`
+Latex:
+    :math:`\omega_\text{d}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: undamped_angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of an undamped oscillator.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: damping_ratio
 
     :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio` of the oscillator.
 
-    Symbol:
-        :code:`zeta`
+Symbol:
+    :code:`zeta`
 
-    Latex:
-        :math:`\zeta`
+Latex:
+    :math:`\zeta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

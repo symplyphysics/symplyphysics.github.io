@@ -1,5 +1,5 @@
 Radius of dark Newton's ring formula
-------------------------------------
+====================================
 
 Newton's rings are annular interference maxima and minima that appear around the point of contact between a convex
 lens and a plane—parallel plate when light passes through the lens and plate. When the difference in the path of
@@ -21,66 +21,71 @@ the same faces and demonstrate interference.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the dark Newton's ring.
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: ring_order
 
     Ring's order. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: lens_radius_of_curvature
 
     Lens :attr:`~symplyphysics.symbols.basic.radius_of_curvature`.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: medium_refractive_index
 
     :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium between the lens and the plate.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

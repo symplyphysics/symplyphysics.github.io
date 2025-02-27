@@ -1,5 +1,5 @@
 Momentum derivative of kinetic energy is speed
-----------------------------------------------
+==============================================
 
 The general formula for the kinetic energy of an object features its speed and momentum. This way it can be used
 not only in the case of variable mass, but also in the relativistic case.
@@ -14,40 +14,43 @@ not only in the case of variable mass, but also in the relativistic case.
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: momentum
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object as a function of :attr:`~speed`.
 
-    Symbol:
-        :code:`p(v)`
+Symbol:
+    :code:`p(v)`
 
-    Latex:
-        :math:`p{\left(v \right)}`
+Latex:
+    :math:`p{\left(v \right)}`
 
-    Dimension:
-        :code:`momentum`
+Dimension:
+    :code:`momentum`
+
 
 .. py:data:: kinetic_energy
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object as a function of :attr:`~momentum`.
 
-    Symbol:
-        :code:`K(p(v))`
+Symbol:
+    :code:`K(p(v))`
 
-    Latex:
-        :math:`K{\left(p{\left(v \right)} \right)}`
+Latex:
+    :math:`K{\left(p{\left(v \right)} \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

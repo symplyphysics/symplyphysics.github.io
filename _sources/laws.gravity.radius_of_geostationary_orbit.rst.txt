@@ -1,5 +1,5 @@
 Radius of geostationary orbit
------------------------------
+=============================
 
 A geostationary orbit is a circular orbit located above the Earth's equator (0° latitude),
 where an artificial satellite orbits the planet with an angular velocity equal to the
@@ -22,40 +22,43 @@ angular speed of the Earth's rotation around its axis.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the satellite's geostationary orbit.
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: planet_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the attracting body (planet).
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: satellite_angular_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` of the satellite's rotation.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

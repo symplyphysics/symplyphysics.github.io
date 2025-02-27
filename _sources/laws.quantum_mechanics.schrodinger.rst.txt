@@ -5,12 +5,16 @@ The Schrödinger equation is a partial differential equation that governs the wa
 
 .. py:currentmodule:: symplyphysics.laws.quantum_mechanics.schrodinger
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.quantum_mechanics.schrodinger.free_particle_plane_wave_solution
-  laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension
-  laws.quantum_mechanics.schrodinger.time_dependent_via_time_independent_solution
-  laws.quantum_mechanics.schrodinger.time_independent_equation_in_one_dimension
+
+    laws.quantum_mechanics.schrodinger.free_particle_plane_wave_solution
+    laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension
+    laws.quantum_mechanics.schrodinger.time_dependent_via_time_independent_solution
+    laws.quantum_mechanics.schrodinger.time_independent_equation_in_one_dimension
+
+
+

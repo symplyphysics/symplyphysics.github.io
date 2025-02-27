@@ -1,5 +1,5 @@
 Wave speed from medium permittivity and permeability
-----------------------------------------------------
+====================================================
 
 Speed of electromagnetic wave propagation depends on relative permittivity and relative
 permeability of the medium.
@@ -18,40 +18,43 @@ permeability of the medium.
 
     Speed of wave propagation in medium. See :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed`.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: relative_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the medium.
 
-    Symbol:
-        :code:`epsilon_r`
+Symbol:
+    :code:`epsilon_r`
 
-    Latex:
-        :math:`\varepsilon_\text{r}`
+Latex:
+    :math:`\varepsilon_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: relative_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
 
-    Symbol:
-        :code:`mu_r`
+Symbol:
+    :code:`mu_r`
 
-    Latex:
-        :math:`\mu_\text{r}`
+Latex:
+    :math:`\mu_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

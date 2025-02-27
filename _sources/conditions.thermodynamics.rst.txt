@@ -5,9 +5,13 @@ The conditions in this folder are related to the thermodynamics.
 
 .. py:currentmodule:: symplyphysics.conditions.thermodynamics
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  conditions.thermodynamics.dielectrics
+    conditions.thermodynamics.dielectrics
+
+
+
+

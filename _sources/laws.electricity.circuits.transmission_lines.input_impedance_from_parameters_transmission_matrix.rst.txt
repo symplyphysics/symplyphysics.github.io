@@ -1,5 +1,5 @@
 Input impedance from transmission matrix
-----------------------------------------
+========================================
 
 Knowing the transmission matrix of the device, it is possible to determine the input
 impedance of this device.
@@ -21,79 +21,85 @@ impedance of this device.
 
     Input :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the transmission line.
 
-    Symbol:
-        :code:`Z_in`
+Symbol:
+    :code:`Z_in`
 
-    Latex:
-        :math:`Z_\text{in}`
+Latex:
+    :math:`Z_\text{in}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: load_impedance
 
     Load :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
 
-    Symbol:
-        :code:`Z_L`
+Symbol:
+    :code:`Z_L`
 
-    Latex:
-        :math:`Z_\text{L}`
+Latex:
+    :math:`Z_\text{L}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: voltage_voltage_parameter
 
     Ratio of input voltage to output voltage at idle at the output.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: voltage_current_parameter
 
     Ratio of input voltage to output current in case of a short circuit at the output.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: current_voltage_parameter
 
     Ratio of input current to output voltage at idle at the output.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: current_current_parameter
 
     Ratio of input current to output current in case of a short circuit at the output.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

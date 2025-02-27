@@ -1,5 +1,5 @@
 Average potential energy via average kinetic energy
----------------------------------------------------
+===================================================
 
 The average potential energy of an orbiting planet is directly proportional to its average
 kinetic energy. The average of both energies is taken w.r.t. time.
@@ -18,27 +18,29 @@ kinetic energy. The average of both energies is taken w.r.t. time.
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the planet averaged over :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`avg(U)`
+Symbol:
+    :code:`avg(U)`
 
-    Latex:
-        :math:`\langle U \rangle`
+Latex:
+    :math:`\langle U \rangle`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: average_kinetic_energy
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the planet averaged over :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`avg(K)`
+Symbol:
+    :code:`avg(K)`
 
-    Latex:
-        :math:`\langle K \rangle`
+Latex:
+    :math:`\langle K \rangle`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

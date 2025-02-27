@@ -1,5 +1,5 @@
 Bulk modulus via Young modulus and Poisson ratio
-------------------------------------------------
+================================================
 
 Suppose a uniform isotropic body is subjected to bulk compression, i.e. forces are applied
 to it from all its sides. Then the bulk modulus is the proportionality coefficient between
@@ -23,27 +23,29 @@ the Young modulus of the material and also depends on its Poisson ratio.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the material.
 
-    Symbol:
-        :code:`K`
+Symbol:
+    :code:`K`
 
-    Latex:
-        :math:`K`
+Latex:
+    :math:`K`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: young_modulus
 
     :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the material.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: poisson_ratio
 
@@ -51,14 +53,15 @@ the Young modulus of the material and also depends on its Poisson ratio.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.poisson_ratio` of the material.
 
-    Symbol:
-        :code:`nu`
+Symbol:
+    :code:`nu`
 
-    Latex:
-        :math:`\nu`
+Latex:
+    :math:`\nu`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

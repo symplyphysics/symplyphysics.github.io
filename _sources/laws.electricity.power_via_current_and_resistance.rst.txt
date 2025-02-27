@@ -1,5 +1,5 @@
 Power via current and resistance
---------------------------------
+================================
 
 Electric power can be expressed using current flowing through a
 conductor and its resistance. Applied to AC circuits, the power in this law is the
@@ -15,40 +15,43 @@ instantaneous power in the circuit.
 
     Electric :attr:`~symplyphysics.symbols.basic.power`.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: current
 
     Electric :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: resistance
 
     Electrical :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance`.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

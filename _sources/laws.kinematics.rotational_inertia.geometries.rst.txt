@@ -5,11 +5,15 @@ Formulas of rotational inertia can be pre-calculated for bodies of certain shape
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.geometries
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center
-  laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis
-  laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length
+
+    laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center
+    laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis
+    laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length
+
+
+

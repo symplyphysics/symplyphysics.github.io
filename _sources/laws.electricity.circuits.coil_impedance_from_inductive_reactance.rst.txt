@@ -1,5 +1,5 @@
 Coil impedance from inductive reactance
----------------------------------------
+=======================================
 
 The impedance of ideal coil depends on its inductive reactance. Having zero resistivity,
 the real part of coil impedance is zero.
@@ -13,27 +13,29 @@ the real part of coil impedance is zero.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of a coil.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: reactance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of a coil.
 
-    Symbol:
-        :code:`X`
+Symbol:
+    :code:`X`
 
-    Latex:
-        :math:`X`
+Latex:
+    :math:`X`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

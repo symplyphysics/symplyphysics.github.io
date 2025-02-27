@@ -1,5 +1,5 @@
 Angle of light deflection in prism
-----------------------------------
+==================================
 
 A prism, an optical prism, is a body made of a homogeneous material transparent to optical radiation,
 bounded by flat reflecting and refractive surfaces located at strictly defined angles to each other.
@@ -27,40 +27,43 @@ on the angle between the faces of the prism and the refractive index of the pris
     the prism. Then the angle of intersection of these rays, looking towards the output beam, will be called
     the angle of deviation.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: face_angle
 
     :attr:`~symplyphysics.symbols.basic.angle` between faces of the prism.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: relative_refractive_index
 
     :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the prism.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Center of mass for a system of particles
-----------------------------------------
+========================================
 
 The center of mass (com) of a system of particles is a unique point at any given time where
 the sum of weighted relative positions of the distributed mass is zero.
@@ -9,6 +9,8 @@ the sum of weighted relative positions of the distributed mass is zero.
 #. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Center_of_mass#A_system_of_particles>`__.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles
+
+
 
 .. py:function:: center_of_mass_law(masses_, position_vectors_)
 
@@ -44,4 +46,3 @@ the sum of weighted relative positions of the distributed mass is zero.
         Latex: :math:`{\vec r}_\text{com}`
 
         Dimension: *length*
-

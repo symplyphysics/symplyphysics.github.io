@@ -1,5 +1,5 @@
 Pressure of ideal gas from height and temperature
--------------------------------------------------
+=================================================
 
 The *barometric formula* determines the dependence of the pressure or density of a gas on the height in the gravity field.
 
@@ -23,66 +23,71 @@ The *barometric formula* determines the dependence of the pressure or density of
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas at final height.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: initial_pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas at initial height.
 
-    Symbol:
-        :code:`p_0`
+Symbol:
+    :code:`p_0`
 
-    Latex:
-        :math:`p_{0}`
+Latex:
+    :math:`p_{0}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: molecular_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of a single gas molecule.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: height_change
 
     Change in :attr:`~symplyphysics.symbols.classical_mechanics.height` between :attr:`~initial_pressure` and :attr:`~final_pressure`.
 
-    Symbol:
-        :code:`Delta(h)`
+Symbol:
+    :code:`Delta(h)`
 
-    Latex:
-        :math:`\Delta h`
+Latex:
+    :math:`\Delta h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

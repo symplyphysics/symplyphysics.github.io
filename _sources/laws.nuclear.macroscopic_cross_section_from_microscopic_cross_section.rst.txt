@@ -1,5 +1,5 @@
 Macroscopic cross section from microscopic cross section and number density
----------------------------------------------------------------------------
+===========================================================================
 
 Macroscopic cross section is equal to the product of the microscopic cross section, i.e.
 the effective target area where the nucleus interacts with an incident neutron, and the
@@ -16,40 +16,43 @@ atomic number density (concentration).
 
     Microscopic :attr:`~symplyphysics.symbols.chemistry.cross_section`.
 
-    Symbol:
-        :code:`sigma`
+Symbol:
+    :code:`sigma`
 
-    Latex:
-        :math:`\sigma`
+Latex:
+    :math:`\sigma`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: number_density
 
     :attr:`~symplyphysics.symbols.basic.number_density` of particles.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: macroscopic_cross_section
 
     :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section`.
 
-    Symbol:
-        :code:`Sigma`
+Symbol:
+    :code:`Sigma`
 
-    Latex:
-        :math:`\Sigma`
+Latex:
+    :math:`\Sigma`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: law
 

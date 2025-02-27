@@ -1,5 +1,5 @@
 Capacitor impedance from capacitance and frequency
---------------------------------------------------
+==================================================
 
 The impedance of the capacitor is a purely imaginary reactive impedance which
 is inversely proportional to its capacitance. Note that the resistance of the
@@ -15,40 +15,43 @@ capacitor is infinite, i.e. it is considered to be an opened connection.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the capacitor.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the alternating current.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: capacitance
 
     :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: law
 

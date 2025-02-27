@@ -1,5 +1,5 @@
 Entropy is derivative of free energy
-------------------------------------
+====================================
 
 Entropy of a system can be found if its free energy is known as a function of temperature.
 
@@ -13,67 +13,72 @@ Entropy of a system can be found if its free energy is known as a function of te
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: particle_count
 
     :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: free_energy
 
     :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system as a function of :attr:`~temperature`,
     :attr:`~volume`, and :attr:`~particle_count`.
 
-    Symbol:
-        :code:`F(T, V, N)`
+Symbol:
+    :code:`F(T, V, N)`
 
-    Latex:
-        :math:`F{\left(T,V,N \right)}`
+Latex:
+    :math:`F{\left(T,V,N \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

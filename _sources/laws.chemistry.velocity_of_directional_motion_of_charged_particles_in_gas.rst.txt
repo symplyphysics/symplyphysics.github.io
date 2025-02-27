@@ -1,5 +1,5 @@
 Speed of charged particles in gas via mobility
-----------------------------------------------
+==============================================
 
 In a gas, the free path length of charged particles is small and the particles, as they
 move, experience many collisions in the volume between the electrodes. In this case, the
@@ -20,53 +20,57 @@ on the local value of the electric intensity.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of charged particles in the gas.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: mobility_at_unit_pressure
 
     Mobility of charged particles at unit pressure.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`length*pressure*velocity/voltage`
+Dimension:
+    :code:`length*pressure*velocity/voltage`
+
 
 .. py:data:: pressure
 
     Pressure in the gas.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: law
 

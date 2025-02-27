@@ -1,5 +1,5 @@
 Drift velocity of charge carriers
----------------------------------
+=================================
 
 Drift velocity is the average velocity attained by charged particles, such as electrons,
 in a material due to an electric field. In general, an electron in a conductor will
@@ -17,40 +17,43 @@ this is the drift.
 
     :attr:`~symplyphysics.symbols.chemistry.drift_velocity` of charge carriers.
 
-    Symbol:
-        :code:`u`
+Symbol:
+    :code:`u`
 
-    Latex:
-        :math:`u`
+Latex:
+    :math:`u`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: mobility
 
     :attr:`~symplyphysics.symbols.chemistry.mobility` of charge carriers.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`area/(time*voltage)`
+Dimension:
+    :code:`area/(time*voltage)`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: law
 

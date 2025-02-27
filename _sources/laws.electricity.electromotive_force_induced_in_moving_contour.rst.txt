@@ -1,5 +1,5 @@
 Electromotive force induced in moving contour
----------------------------------------------
+=============================================
 
 The **Faraday's law** states that the electromotive force around a closed path is equal to
 the negative of the time rate of change of the magnetic flux enclosed by the path. In case
@@ -16,53 +16,57 @@ would also be proportional to the number of turn the current makes.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electromotive_force` induced in the contour.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`\mathcal{E}`
+Latex:
+    :math:`\mathcal{E}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: current_turn_count
 
     Number of turns the current makes around the contour. See :attr:`~symplyphysics.symbols.basic.positive_number`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: magnetic_flux
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux` through the contour.
 
-    Symbol:
-        :code:`Phi_B(t)`
+Symbol:
+    :code:`Phi_B(t)`
 
-    Latex:
-        :math:`\Phi_\mathbf{B}{\left(t \right)}`
+Latex:
+    :math:`\Phi_\mathbf{B}{\left(t \right)}`
 
-    Dimension:
-        :code:`magnetic_flux`
+Dimension:
+    :code:`magnetic_flux`
+
 
 .. py:data:: law
 

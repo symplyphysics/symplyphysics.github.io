@@ -1,5 +1,5 @@
 Third cosmic speed from orbital and second cosmic speed
--------------------------------------------------------
+=======================================================
 
 The third cosmic velocity is the minimum velocity that must be given to a body located near the Earth's surface so
 that it can overcome the gravitational attraction of the Earth and the Sun and leave the Solar System.
@@ -17,40 +17,43 @@ that it can overcome the gravitational attraction of the Earth and the Sun and l
 
     Third cosmic :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the orbiting body.
 
-    Symbol:
-        :code:`v_3`
+Symbol:
+    :code:`v_3`
 
-    Latex:
-        :math:`v_{3}`
+Latex:
+    :math:`v_{3}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: orbital_speed
 
     Orbital :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body around the attracting mass.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: second_cosmic_speed
 
     Second cosmic :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the orbiting body.
 
-    Symbol:
-        :code:`v_2`
+Symbol:
+    :code:`v_2`
 
-    Latex:
-        :math:`v_{2}`
+Latex:
+    :math:`v_{2}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

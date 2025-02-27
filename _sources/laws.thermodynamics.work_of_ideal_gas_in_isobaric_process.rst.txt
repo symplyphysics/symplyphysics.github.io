@@ -1,5 +1,5 @@
 Work of ideal gas in isobaric process
--------------------------------------
+=====================================
 
 An isobaric process is a process that occurs at constant pressure. The work done
 by the gas is proportional to the pressure of the gas and its volume change.
@@ -19,53 +19,57 @@ by the gas is proportional to the pressure of the gas and its volume change.
 
     :attr:`~symplyphysics.symbols.basic.work` done by the gas during the isobaric process.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas, constant during the process.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: initial_volume
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: final_volume
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas
 
-    Symbol:
-        :code:`V_1`
+Symbol:
+    :code:`V_1`
 
-    Latex:
-        :math:`V_{1}`
+Latex:
+    :math:`V_{1}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

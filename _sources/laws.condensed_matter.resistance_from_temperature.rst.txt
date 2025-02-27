@@ -1,5 +1,5 @@
 Resistance from temperature
----------------------------
+===========================
 
 The resistance depends on the temperature. For different materials, the value of the
 temperature coefficient and resistance at zero degrees celsius may differ.
@@ -18,53 +18,57 @@ temperature coefficient and resistance at zero degrees celsius may differ.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance`.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: resistance_initial
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` at :attr:`~symplyphysics.quantities.standard_conditions_temperature`.
 
-    Symbol:
-        :code:`R_0`
+Symbol:
+    :code:`R_0`
 
-    Latex:
-        :math:`R_{0}`
+Latex:
+    :math:`R_{0}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: temperature_coefficient
 
     Temperature coefficient of resistance.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`1/temperature`
+Dimension:
+    :code:`1/temperature`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

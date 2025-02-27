@@ -1,5 +1,5 @@
 Distance of greatest convergence of particles in magnetron
-----------------------------------------------------------
+==========================================================
 
 The traveling atom moves towards the substrate in the magnetron. At the same time, it
 collides with gas atoms. The energy transfer coefficient in these collisions depends on
@@ -18,79 +18,85 @@ anode in the magnetron at which plasma occurs.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` of greatest convergence of two colliding particles.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: discharge_voltage
 
     Discharge :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: first_atomic_number
 
     :attr:`~symplyphysics.symbols.chemistry.atomic_number` of first atom.
 
-    Symbol:
-        :code:`Z_1`
+Symbol:
+    :code:`Z_1`
 
-    Latex:
-        :math:`Z_{1}`
+Latex:
+    :math:`Z_{1}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: second_atomic_number
 
     :attr:`~symplyphysics.symbols.chemistry.atomic_number` of second atom.
 
-    Symbol:
-        :code:`Z_2`
+Symbol:
+    :code:`Z_2`
 
-    Latex:
-        :math:`Z_{2}`
+Latex:
+    :math:`Z_{2}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: distance_constant
 
     Constant equal to :math:`0.122 \cdot 10^{-10} \, \text{m}`.
 
-    Symbol:
-        :code:`d_0`
+Symbol:
+    :code:`d_0`
 
-    Latex:
-        :math:`d_0`
+Latex:
+    :math:`d_0`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: voltage_constant
 
     Constant equal to :math:`95.863 \, \text{V}`.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_0`
+Latex:
+    :math:`V_0`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

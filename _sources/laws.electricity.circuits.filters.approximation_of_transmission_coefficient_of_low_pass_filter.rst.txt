@@ -1,5 +1,5 @@
 Transmission coefficient approximation of low-pass filter
----------------------------------------------------------
+=========================================================
 
 The approximation of the power transmission coefficient of a normalized low-pass filter
 is given by approximating functions of the order of :math:`n`. 
@@ -10,54 +10,58 @@ is given by approximating functions of the order of :math:`n`.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the signal.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: filter_function
 
     Function (of :attr:`~frequency`) of order :math:`n` which approximates the transfer
     coefficient.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: bandwidth_distortion
 
     Bandwidth distortion determines the maximum distortion in the bandwidth.
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: transfer_coefficient
 
     Transfer coefficient of the filter.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

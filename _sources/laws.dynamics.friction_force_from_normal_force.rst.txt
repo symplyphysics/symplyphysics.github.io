@@ -1,5 +1,5 @@
 Friction force from normal force
---------------------------------
+================================
 
 The *friction* force is tangential interaction between two objects, which impedes their relative movement.
 It is proportional to the normal force between the two objects.
@@ -14,40 +14,43 @@ It is proportional to the normal force between the two objects.
 
     The friction :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
-    Symbol:
-        :code:`F_fr`
+Symbol:
+    :code:`F_fr`
 
-    Latex:
-        :math:`F_\text{fr}`
+Latex:
+    :math:`F_\text{fr}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: friction_coefficient
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.friction_coefficient` between the two objects.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: normal_force
 
     The normal reaction :attr:`~symplyphysics.symbols.classical_mechanics.force` from one object to another.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: law
 
@@ -56,4 +59,5 @@ It is proportional to the normal force between the two objects.
     Latex:
         .. math::
             F_\text{fr} = \mu N
+
 

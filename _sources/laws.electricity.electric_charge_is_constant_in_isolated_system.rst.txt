@@ -1,5 +1,5 @@
 Electric charge is constant in isolated system
-----------------------------------------------
+==============================================
 
 The electric charge of an isolated system is conserved. As a result, its charge is constant
 at all times.
@@ -14,27 +14,29 @@ at all times.
 
     Initial :attr:`~symplyphysics.symbols.electrodynamics.charge` of the system.
 
-    Symbol:
-        :code:`q_0`
+Symbol:
+    :code:`q_0`
 
-    Latex:
-        :math:`q_{0}`
+Latex:
+    :math:`q_{0}`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: final_charge
 
     Final :attr:`~symplyphysics.symbols.electrodynamics.charge` of the system.
 
-    Symbol:
-        :code:`q_1`
+Symbol:
+    :code:`q_1`
 
-    Latex:
-        :math:`q_{1}`
+Latex:
+    :math:`q_{1}`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: law
 

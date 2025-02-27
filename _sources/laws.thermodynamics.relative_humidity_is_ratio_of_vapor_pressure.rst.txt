@@ -1,5 +1,5 @@
 Relative humidity is ratio of vapor pressure
---------------------------------------------
+============================================
 
 **Relative humidity** is the ratio of actual water vapor pressure :math:`p` to saturation vapor
 pressure :math:`p_0` at a given temperature. **Saturation vapor** is vapor in dynamic
@@ -17,42 +17,45 @@ molecules per unit time.
 
     :attr:`~symplyphysics.symbols.thermodynamics.relative_humidity` of air.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: actual_vapor_pressure
 
     Partial :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of water vapor in the medium, representing how much water vapor is
     actually in the air.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: saturation_vapor_pressure
 
     Equilibrium :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of water vapor above a flat surface of liquid water or solid ice,
     representing how much water vapor the air could potentially contain at a given temperature.
 
-    Symbol:
-        :code:`p_s`
+Symbol:
+    :code:`p_s`
 
-    Latex:
-        :math:`p_\text{s}`
+Latex:
+    :math:`p_\text{s}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: law
 

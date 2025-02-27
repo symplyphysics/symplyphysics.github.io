@@ -1,5 +1,5 @@
 Average square speed in Maxwell—Boltzmann statistics
-----------------------------------------------------
+====================================================
 
 For an ideal gas, the average square of speed is directly proportional to its temperature
 and inversely proportional to the mass of the gas.
@@ -23,40 +23,43 @@ and inversely proportional to the mass of the gas.
 
     Average square of the :attr:`~symplyphysics.symbols.classical_mechanics.speed` of gas molecules.
 
-    Symbol:
-        :code:`avg(v^2)`
+Symbol:
+    :code:`avg(v^2)`
 
-    Latex:
-        :math:`\langle v^{2 \rangle}`
+Latex:
+    :math:`\langle v^{2 \rangle}`
 
-    Dimension:
-        :code:`velocity**2`
+Dimension:
+    :code:`velocity**2`
+
 
 .. py:data:: equilibrium_temperature
 
     Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: molecular_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of a gas molecule.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

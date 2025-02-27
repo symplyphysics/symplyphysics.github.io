@@ -1,5 +1,5 @@
 Frequency shift from speed in collinear motion
-----------------------------------------------
+==============================================
 
 The *Doppler effect* or *Doppler shift* is the apparent change in frequency of a wave in
 relation to an observer moving relative to the wave source.
@@ -26,66 +26,71 @@ relation to an observer moving relative to the wave source.
 
     Observed :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the wave.
 
-    Symbol:
-        :code:`f_o`
+Symbol:
+    :code:`f_o`
 
-    Latex:
-        :math:`f_\text{o}`
+Latex:
+    :math:`f_\text{o}`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: source_frequency
 
     Wave :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the source.
 
-    Symbol:
-        :code:`f_s`
+Symbol:
+    :code:`f_s`
 
-    Latex:
-        :math:`f_\text{s}`
+Latex:
+    :math:`f_\text{s}`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: wave_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: source_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the wave source, positive when moving away from the observer and negative otherwise.
 
-    Symbol:
-        :code:`v_s`
+Symbol:
+    :code:`v_s`
 
-    Latex:
-        :math:`v_\text{s}`
+Latex:
+    :math:`v_\text{s}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: observer_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the observer, positive when moving away from the source and negative otherwise.
 
-    Symbol:
-        :code:`v_o`
+Symbol:
+    :code:`v_o`
 
-    Latex:
-        :math:`v_\text{o}`
+Latex:
+    :math:`v_\text{o}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

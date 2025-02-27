@@ -1,5 +1,5 @@
 Relativistic mechanics (Symbols)
---------------------------------
+================================
 
 Symbols related to relativistic mechanics.
 
@@ -14,14 +14,15 @@ Symbols related to relativistic mechanics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Lorentz_factor#>`__.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: spacetime_interval
 
@@ -33,14 +34,15 @@ Symbols related to relativistic mechanics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval>`__.
 
-    Symbol:
-        :code:`s`
+Symbol:
+    :code:`s`
 
-    Latex:
-        :math:`s`
+Latex:
+    :math:`s`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: proper_time
 
@@ -52,14 +54,15 @@ Symbols related to relativistic mechanics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Proper_time#>`__.
 
-    Symbol:
-        :code:`tau`
+Symbol:
+    :code:`tau`
 
-    Latex:
-        :math:`\tau`
+Latex:
+    :math:`\tau`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: rest_mass
 
@@ -71,14 +74,15 @@ Symbols related to relativistic mechanics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Invariant_mass#>`__.
 
-    Symbol:
-        :code:`m_0`
+Symbol:
+    :code:`m_0`
 
-    Latex:
-        :math:`m_{0}`
+Latex:
+    :math:`m_{0}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: proper_length
 
@@ -88,14 +92,15 @@ Symbols related to relativistic mechanics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Proper_length#>`__.
 
-    Symbol:
-        :code:`l_0`
+Symbol:
+    :code:`l_0`
 
-    Latex:
-        :math:`l_{0}`
+Latex:
+    :math:`l_{0}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: relativistic_mass
 
@@ -105,12 +110,13 @@ Symbols related to relativistic mechanics.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Mass_in_special_relativity#>`__.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 

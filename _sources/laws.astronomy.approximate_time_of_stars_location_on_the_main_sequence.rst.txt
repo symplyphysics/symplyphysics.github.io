@@ -1,5 +1,5 @@
 Approximate lifetime of stars located on the main sequence
-----------------------------------------------------------
+==========================================================
 
 The main sequence is the stage of stellar evolution. This stage begins in stars after the
 protostar stage. At the beginning of the main sequence stage, the age of the star is
@@ -22,53 +22,57 @@ Sun and the star.
 
     Lifetime (:attr:`~symplyphysics.symbols.basic.time`) of the star on the main sequence.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: star_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the star.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: star_luminosity
 
     :attr:`~symplyphysics.symbols.astronomy.luminosity` of the star.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: sun_lifetime
 
     Lifetime (:attr:`~symplyphysics.symbols.basic.time`) on time main sequence of the Sun.
 
-    Symbol:
-        :code:`t_Sun`
+Symbol:
+    :code:`t_Sun`
 
-    Latex:
-        :math:`t_\odot`
+Latex:
+    :math:`t_\odot`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

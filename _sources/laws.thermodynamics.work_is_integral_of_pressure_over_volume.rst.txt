@@ -1,5 +1,5 @@
 Work is integral of pressure over volume
-----------------------------------------
+========================================
 
 The pressure-volume work is the work done by a thermodynamic system when the volume of the
 system changes.
@@ -19,66 +19,71 @@ system changes.
 
     Pressure-volume :attr:`~symplyphysics.symbols.basic.work` done by the system.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system as a function of :attr:`~volume`.
 
-    Symbol:
-        :code:`p(V)`
+Symbol:
+    :code:`p(V)`
 
-    Latex:
-        :math:`p{\left(V \right)}`
+Latex:
+    :math:`p{\left(V \right)}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: initial_volume
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: final_volume
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_1`
+Symbol:
+    :code:`V_1`
 
-    Latex:
-        :math:`V_{1}`
+Latex:
+    :math:`V_{1}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

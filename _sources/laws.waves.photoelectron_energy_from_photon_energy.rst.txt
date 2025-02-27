@@ -1,5 +1,5 @@
 Photoelectron energy from photon energy
----------------------------------------
+=======================================
 
 The photoelectric effect is the emission of electrons from a material caused by
 electromagnetic radiation. Electrons emitted in this manner are called photoelectrons.
@@ -27,40 +27,43 @@ of the material.
 
     Maximum :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of emitted electron.
 
-    Symbol:
-        :code:`K_max`
+Symbol:
+    :code:`K_max`
 
-    Latex:
-        :math:`K_\text{max}`
+Latex:
+    :math:`K_\text{max}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: photon_energy
 
     :attr:`~symplyphysics.symbols.basic.energy` of absorbed photon.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: work_function
 
     :attr:`~symplyphysics.symbols.chemistry.work_function` of the surface.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Extensive quantity is linear density times length
--------------------------------------------------
+=================================================
 
 An extensive quantity of interest can be obtained by multiplying the corresponding *linear
 density* by length.
@@ -10,41 +10,44 @@ density* by length.
 
     Extensive quantity. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
-    Symbol:
-        :code:`X`
+Symbol:
+    :code:`X`
 
-    Latex:
-        :math:`X`
+Latex:
+    :math:`X`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: linear_density
 
     Intensive linear density, which has the dimension of :attr:`~extensive_quantity`
     divided by :attr:`~length`. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
-    Symbol:
-        :code:`lambda_X`
+Symbol:
+    :code:`lambda_X`
 
-    Latex:
-        :math:`\lambda_{X}`
+Latex:
+    :math:`\lambda_{X}`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: length
 
     :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`l`
+Symbol:
+    :code:`l`
 
-    Latex:
-        :math:`l`
+Latex:
+    :math:`l`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

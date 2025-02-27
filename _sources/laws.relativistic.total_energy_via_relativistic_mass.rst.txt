@@ -1,5 +1,5 @@
 Total energy via relativistic mass
-----------------------------------
+==================================
 
 Fundamentally the energy of an object is synonimical to its mass.
 
@@ -17,27 +17,29 @@ Fundamentally the energy of an object is synonimical to its mass.
 
     Total, or relativistic, :attr:`~symplyphysics.symbols.basic.energy` of the body.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: relativistic_mass
 
     Relativistic :attr:`~symplyphysics.symbols.basic.mass` of the body.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

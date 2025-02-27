@@ -1,5 +1,5 @@
 Internal energy change via heat and electric displacement change
-----------------------------------------------------------------
+================================================================
 
 Internal energy change of the system with a dielectric medium can be
 expressed using the infinitesimal heat flowing in or out of the system
@@ -21,53 +21,57 @@ and the change in electric displacement.
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`dU`
+Symbol:
+    :code:`dU`
 
-    Latex:
-        :math:`dU`
+Latex:
+    :math:`dU`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: heat_density
 
     Small amount of :attr:`~symplyphysics.symbols.thermodynamics.heat` added to or taken from the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`delta(Q)`
+Symbol:
+    :code:`delta(Q)`
 
-    Latex:
-        :math:`\delta Q`
+Latex:
+    :math:`\delta Q`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` in the medium.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: electric_displacement_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement`.
 
-    Symbol:
-        :code:`dD`
+Symbol:
+    :code:`dD`
 
-    Latex:
-        :math:`dD`
+Latex:
+    :math:`dD`
 
-    Dimension:
-        :code:`charge/area`
+Dimension:
+    :code:`charge/area`
+
 
 .. py:data:: law
 

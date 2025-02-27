@@ -1,5 +1,5 @@
 Work is integral of force over distance
----------------------------------------
+=======================================
 
 Assuming a one-dimensional environment, when the force F on a particle-like object depends
 on the position of the object, the work done by F on the object while the object moves
@@ -16,66 +16,71 @@ object.
 
     The :attr:`~symplyphysics.symbols.basic.work` done by :attr:`~force`.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: position
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: force
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object as a function of :attr:`~position`.
 
-    Symbol:
-        :code:`F(x)`
+Symbol:
+    :code:`F(x)`
 
-    Latex:
-        :math:`F{\left(x \right)}`
+Latex:
+    :math:`F{\left(x \right)}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: position_before
 
     The initial :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
 
-    Symbol:
-        :code:`x_0`
+Symbol:
+    :code:`x_0`
 
-    Latex:
-        :math:`x_{0}`
+Latex:
+    :math:`x_{0}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: position_after
 
     The end :attr:`~symplyphysics.symbols.classical_mechanics.position` of the object.
 
-    Symbol:
-        :code:`x_1`
+Symbol:
+    :code:`x_1`
 
-    Latex:
-        :math:`x_{1}`
+Latex:
+    :math:`x_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

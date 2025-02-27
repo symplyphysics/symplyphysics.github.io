@@ -1,5 +1,5 @@
 Rocket thrust is rocket mass times acceleration
------------------------------------------------
+===============================================
 
 Assuming we are at rest relative to an inertial reference frame, we observe a rocket
 through space with no gravitational or atmospheric drag forces acting on it.
@@ -35,40 +35,43 @@ the total mass of the system does not change.
     The rate of fuel consumption, or :attr:`~symplyphysics.symbols.classical_mechanics.mass_flow_rate` of exhaust. See :ref:`Note <rate_note>`
     for the definition.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`mass/time`
+Dimension:
+    :code:`mass/time`
+
 
 .. py:data:: relative_speed
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the rocket relative to its products.
 
-    Symbol:
-        :code:`v_rel`
+Symbol:
+    :code:`v_rel`
 
-    Latex:
-        :math:`v_\text{rel}`
+Latex:
+    :math:`v_\text{rel}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: acceleration
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the rocket.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`acceleration`
+Dimension:
+    :code:`acceleration`
+
 
 .. py:data:: mass
 
@@ -76,14 +79,15 @@ the total mass of the system does not change.
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the rocket
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

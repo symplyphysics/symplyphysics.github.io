@@ -1,5 +1,5 @@
 Reduced temperature in Maxwell—Jüttner statistics
--------------------------------------------------
+=================================================
 
 Reduced temperature is a dimensionless quantity used in the
 :doc:`Maxwell—Jüttner distribution <laws.thermodynamics.relativistic.maxwell_juettner_distribution>`
@@ -21,40 +21,43 @@ the gas in question.
 
     Reduced :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`theta`
+Symbol:
+    :code:`theta`
 
-    Latex:
-        :math:`\theta`
+Latex:
+    :math:`\theta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: particle_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of a relativistic particle comprising the gas.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

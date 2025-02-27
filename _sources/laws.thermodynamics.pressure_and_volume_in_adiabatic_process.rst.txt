@@ -1,5 +1,5 @@
 Adiabatic process equation via pressure and volume
---------------------------------------------------
+==================================================
 
 An *adiabatic process* is a type of thermodynamic process that occurs without transferring
 heat or mass between the thermodynamic system and its environment.
@@ -17,92 +17,99 @@ heat or mass between the thermodynamic system and its environment.
 
     :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index`, also known as :doc:`heat capacity ratio <definitions.heat_capacity_ratio>`, of the gas.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: initial_temperature
 
     Initial :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T_0`
+Symbol:
+    :code:`T_0`
 
-    Latex:
-        :math:`T_{0}`
+Latex:
+    :math:`T_{0}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: final_temperature
 
     Final :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T_1`
+Symbol:
+    :code:`T_1`
 
-    Latex:
-        :math:`T_{1}`
+Latex:
+    :math:`T_{1}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: initial_volume
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: final_volume
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V_1`
+Symbol:
+    :code:`V_1`
 
-    Latex:
-        :math:`V_{1}`
+Latex:
+    :math:`V_{1}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: initial_pressure
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p_0`
+Symbol:
+    :code:`p_0`
 
-    Latex:
-        :math:`p_{0}`
+Latex:
+    :math:`p_{0}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: final_pressure
 
     Final :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p_1`
+Symbol:
+    :code:`p_1`
 
-    Latex:
-        :math:`p_{1}`
+Latex:
+    :math:`p_{1}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: adiabatic_condition
 

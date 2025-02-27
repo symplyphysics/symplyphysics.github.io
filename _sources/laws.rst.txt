@@ -5,26 +5,30 @@ A physical law, scientific law, or a law of nature is a scientific generalizatio
 
 .. py:currentmodule:: symplyphysics.laws
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.astronomy
-  laws.chemistry
-  laws.condensed_matter
-  laws.conservation
-  laws.dynamics
-  laws.electricity
-  laws.fields
-  laws.geometry
-  laws.gravity
-  laws.hydro
-  laws.kinematics
-  laws.nuclear
-  laws.optics
-  laws.quantities
-  laws.quantum_mechanics
-  laws.relativistic
-  laws.thermodynamics
-  laws.waves
+    laws.astronomy
+    laws.chemistry
+    laws.condensed_matter
+    laws.conservation
+    laws.dynamics
+    laws.electricity
+    laws.fields
+    laws.geometry
+    laws.gravity
+    laws.hydro
+    laws.kinematics
+    laws.nuclear
+    laws.optics
+    laws.quantities
+    laws.quantum_mechanics
+    laws.relativistic
+    laws.thermodynamics
+    laws.waves
+
+
+
+

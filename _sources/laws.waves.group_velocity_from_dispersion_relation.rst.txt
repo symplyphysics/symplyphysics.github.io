@@ -1,5 +1,5 @@
 Group velocity from dispersion relation
----------------------------------------
+=======================================
 
 Waves can form a group, called wave packets. The speed with which a wave packet travels
 is called group velocity. In other words, it is the speed with which the overall envelope
@@ -16,41 +16,44 @@ through space.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of the wave.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`angle/length`
+Dimension:
+    :code:`angle/length`
+
 
 .. py:data:: group_velocity
 
     :attr:`~symplyphysics.symbols.classical_mechanics.group_speed` of the wave packet.
 
-    Symbol:
-        :code:`v_g`
+Symbol:
+    :code:`v_g`
 
-    Latex:
-        :math:`v_\text{g}`
+Latex:
+    :math:`v_\text{g}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the wave as a function of :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber`, also called the
     *dispersion relation* of the wave.
 
-    Symbol:
-        :code:`w(k)`
+Symbol:
+    :code:`w(k)`
 
-    Latex:
-        :math:`\omega{\left(k \right)}`
+Latex:
+    :math:`\omega{\left(k \right)}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: law
 

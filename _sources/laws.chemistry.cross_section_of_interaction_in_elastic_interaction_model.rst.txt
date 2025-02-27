@@ -1,5 +1,5 @@
 Cross section of interaction in elastic interaction model
----------------------------------------------------------
+=========================================================
 
 The effective cross section is a physical quantity characterizing the probability of
 transition of a system of two interacting particles to a certain final state, a
@@ -19,53 +19,57 @@ target with target particles. The effective cross-section has the dimension of t
 
     :attr:`~symplyphysics.symbols.chemistry.cross_section` of interaction of particles.
 
-    Symbol:
-        :code:`sigma`
+Symbol:
+    :code:`sigma`
 
-    Latex:
-        :math:`\sigma`
+Latex:
+    :math:`\sigma`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: particle_diameter
 
     :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of a gas particle.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: sutherland_constant
 
     :attr:`~symplyphysics.symbols.thermodynamics.sutherland_constant` of the gas.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

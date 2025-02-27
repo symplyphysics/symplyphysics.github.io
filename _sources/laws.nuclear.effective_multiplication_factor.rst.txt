@@ -1,5 +1,5 @@
 Effective multiplication factor from infinite multiplication factor and probabilities
--------------------------------------------------------------------------------------
+=====================================================================================
 
 The effective multiplication factor can be found from the infinite multiplication factor
 as well as fast and thermal non-leakage probabilities.
@@ -14,53 +14,57 @@ as well as fast and thermal non-leakage probabilities.
 
     :attr:`~symplyphysics.symbols.nuclear.fast_non_leakage_probability`.
 
-    Symbol:
-        :code:`P_FNL`
+Symbol:
+    :code:`P_FNL`
 
-    Latex:
-        :math:`P_\text{FNL}`
+Latex:
+    :math:`P_\text{FNL}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: thermal_non_leakage_probability
 
     :attr:`~symplyphysics.symbols.nuclear.thermal_non_leakage_probability`.
 
-    Symbol:
-        :code:`P_TNL`
+Symbol:
+    :code:`P_TNL`
 
-    Latex:
-        :math:`P_\text{TNL}`
+Latex:
+    :math:`P_\text{TNL}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: infinite_multiplication_factor
 
     :attr:`~symplyphysics.symbols.nuclear.infinite_multiplication_factor`.
 
-    Symbol:
-        :code:`k_inf`
+Symbol:
+    :code:`k_inf`
 
-    Latex:
-        :math:`k_{\infty}`
+Latex:
+    :math:`k_{\infty}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: effective_multiplication_factor
 
     :attr:`~symplyphysics.symbols.nuclear.effective_multiplication_factor`.
 
-    Symbol:
-        :code:`k_eff`
+Symbol:
+    :code:`k_eff`
 
-    Latex:
-        :math:`k_\text{eff}`
+Latex:
+    :math:`k_\text{eff}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

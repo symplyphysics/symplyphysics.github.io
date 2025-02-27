@@ -1,5 +1,5 @@
 Reduced pressure
-----------------
+================
 
 See :ref:`vdw_reduced_units_def`.
 
@@ -13,40 +13,43 @@ See :ref:`vdw_reduced_units_def`.
 
     Reduced :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the van der Waals fluid.
 
-    Symbol:
-        :code:`p_r`
+Symbol:
+    :code:`p_r`
 
-    Latex:
-        :math:`p_{r}`
+Latex:
+    :math:`p_{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: pressure
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the van der Waals fluid.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: critical_pressure
 
     Critical :attr:`~symplyphysics.symbols.classical_mechanics.pressure`. See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure`.
 
-    Symbol:
-        :code:`p_c`
+Symbol:
+    :code:`p_c`
 
-    Latex:
-        :math:`p_\text{c}`
+Latex:
+    :math:`p_\text{c}`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Chemical potential is Gibbs energy per particle
------------------------------------------------
+===============================================
 
 Chemical potential of a thermodynamic system can be expressed as the Gibbs energy of the system
 per particle. Therefore, chemical potential is an intensive physical quantity, whereas Gibbs energy
@@ -15,40 +15,43 @@ and particle count are extensive.
 
     :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: gibbs_energy
 
     :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system.
 
-    Symbol:
-        :code:`G`
+Symbol:
+    :code:`G`
 
-    Latex:
-        :math:`G`
+Latex:
+    :math:`G`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: particle_count
 
     :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

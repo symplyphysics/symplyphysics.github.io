@@ -1,5 +1,5 @@
 Standing wave ratio from voltage
---------------------------------
+================================
 
 The standing wave ratio can be calculated by knowing the maximum and minimum absolute
 value of voltage in the transmission line.
@@ -17,40 +17,43 @@ value of voltage in the transmission line.
 
     :attr:`~symplyphysics.symbols.electrodynamics.standing_wave_ratio`.
 
-    Symbol:
-        :code:`SWR`
+Symbol:
+    :code:`SWR`
 
-    Latex:
-        :math:`\text{SWR}`
+Latex:
+    :math:`\text{SWR}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: maximum_voltage_module
 
     Minimum absolute value of :attr:`~symplyphysics.symbols.electrodynamics.voltage` in the transmission line.
 
-    Symbol:
-        :code:`min(abs(V))`
+Symbol:
+    :code:`min(abs(V))`
 
-    Latex:
-        :math:`\min{|V|}`
+Latex:
+    :math:`\min{|V|}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: minimum_voltage_module
 
     Maximum absolute value of :attr:`~symplyphysics.symbols.electrodynamics.voltage` in the transmission line.
 
-    Symbol:
-        :code:`max(abs(V))`
+Symbol:
+    :code:`max(abs(V))`
 
-    Latex:
-        :math:`\max{|V|}`
+Latex:
+    :math:`\max{|V|}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Initial mass equals final mass
-------------------------------
+==============================
 
 The total mass of a closed system is conserved. For more information, see
 :ref:`Mass is constant`.
@@ -18,40 +18,43 @@ The total mass of a closed system is conserved. For more information, see
 
     Initial :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t_0`
+Symbol:
+    :code:`t_0`
 
-    Latex:
-        :math:`t_{0}`
+Latex:
+    :math:`t_{0}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: final_time
 
     Final :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t_1`
+Symbol:
+    :code:`t_1`
 
-    Latex:
-        :math:`t_{1}`
+Latex:
+    :math:`t_{1}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` as a function of :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`m(t)`
+Symbol:
+    :code:`m(t)`
 
-    Latex:
-        :math:`m{\left(t \right)}`
+Latex:
+    :math:`m{\left(t \right)}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

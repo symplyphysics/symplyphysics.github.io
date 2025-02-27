@@ -1,5 +1,5 @@
 Optical power from thin lens radii and refractive indices
----------------------------------------------------------
+=========================================================
 
 Optical power of a thin lens can be calculated from the radii of its front and back
 surfaces and the refractive indices of the lens material and the medium.
@@ -18,66 +18,71 @@ surfaces and the refractive indices of the lens material and the medium.
 
     :attr:`~symplyphysics.symbols.optics.optical_power` of the lens.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`1/length`
+Dimension:
+    :code:`1/length`
+
 
 .. py:data:: lens_refractive_index
 
     :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the lens material.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: medium_refractive_index
 
     :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the surrounding medium.
 
-    Symbol:
-        :code:`n_0`
+Symbol:
+    :code:`n_0`
 
-    Latex:
-        :math:`n_{0}`
+Latex:
+    :math:`n_{0}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: front_radius
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the front surface.
 
-    Symbol:
-        :code:`r_1`
+Symbol:
+    :code:`r_1`
 
-    Latex:
-        :math:`r_{1}`
+Latex:
+    :math:`r_{1}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: back_radius
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the back surface.
 
-    Symbol:
-        :code:`r_2`
+Symbol:
+    :code:`r_2`
 
-    Latex:
-        :math:`r_{2}`
+Latex:
+    :math:`r_{2}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

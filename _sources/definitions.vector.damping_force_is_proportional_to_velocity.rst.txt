@@ -1,5 +1,5 @@
 Damping force is proportional to velocity
------------------------------------------
+=========================================
 
 Damping force is an external (relative to an object) force that drains energy from the object,
 reducing the motion of the object. It is a model used, for example, to describe the motion
@@ -18,14 +18,15 @@ of an oscillator.
     ..
         TODO: add to `symbols`
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`mass/time`
+Dimension:
+    :code:`mass/time`
+
 
 .. py:function:: damping_force_definition(velocity_)
 
@@ -54,6 +55,7 @@ of an oscillator.
 
         Dimension: *force*
 
+
 .. py:function:: velocity_law(damping_force_)
 
     *Velocity* of the object which the damping force is exerted on.
@@ -80,4 +82,3 @@ of an oscillator.
         Latex: :math:`\vec v`
 
         Dimension: *velocity*
-

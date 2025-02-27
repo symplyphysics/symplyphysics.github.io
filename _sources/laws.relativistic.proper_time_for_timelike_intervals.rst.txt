@@ -1,5 +1,5 @@
 Proper time for timelike intervals
-----------------------------------
+==================================
 
 In relativity, proper time along a timelike world line is defined as the time as measured by a clock following
 that line. The proper time interval between two events on a world line is the change in proper time, which is
@@ -23,27 +23,29 @@ independent of coordinates, and is a Lorentz scalar.
 
     The :attr:`~symplyphysics.symbols.relativistic_mechanics.proper_time` interval between two events.
 
-    Symbol:
-        :code:`Delta(tau)`
+Symbol:
+    :code:`Delta(tau)`
 
-    Latex:
-        :math:`\Delta \tau`
+Latex:
+    :math:`\Delta \tau`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: spacetime_interval
 
     The :attr:`~symplyphysics.symbols.relativistic_mechanics.spacetime_interval` between two events.
 
-    Symbol:
-        :code:`Delta(s)`
+Symbol:
+    :code:`Delta(s)`
 
-    Latex:
-        :math:`\Delta s`
+Latex:
+    :math:`\Delta s`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

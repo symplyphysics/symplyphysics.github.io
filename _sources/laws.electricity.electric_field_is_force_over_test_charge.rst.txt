@@ -1,5 +1,5 @@
 Electric field is force over test charge
-----------------------------------------
+========================================
 
 The strength of the electric field at any point in space can be found by placing a
 so called test charge in that point and measuring the electrostatic force applied to
@@ -16,40 +16,43 @@ the value of the test charge.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: electrostatic_force
 
     Projection of the electrostatic :attr:`~symplyphysics.symbols.classical_mechanics.force` applied to the test charge.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: test_charge
 
     Value of the test :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
-    Symbol:
-        :code:`q_0`
+Symbol:
+    :code:`q_0`
 
-    Latex:
-        :math:`q_{0}`
+Latex:
+    :math:`q_{0}`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: law
 

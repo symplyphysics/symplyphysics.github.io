@@ -1,5 +1,5 @@
 Internal energy via Helmholtz free energy
------------------------------------------
+=========================================
 
 *Gibbs—Helmholtz relations* are a set of equations that relate thermodynamic potentials between each other.
 
@@ -17,53 +17,57 @@ Internal energy via Helmholtz free energy
 
     :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
 
-    Symbol:
-        :code:`U`
+Symbol:
+    :code:`U`
 
-    Latex:
-        :math:`U`
+Latex:
+    :math:`U`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: free_energy
 
     :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system as a function of temperature and volume.
 
-    Symbol:
-        :code:`F(T, V)`
+Symbol:
+    :code:`F(T, V)`
 
-    Latex:
-        :math:`F{\left(T,V \right)}`
+Latex:
+    :math:`F{\left(T,V \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

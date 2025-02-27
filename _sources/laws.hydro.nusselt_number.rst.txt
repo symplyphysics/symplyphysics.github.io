@@ -1,5 +1,5 @@
 Nusselt number formula
-----------------------
+======================
 
 Nusselt number is the ratio of total heat transfer to conductive heat transfer at a
 boundary in a fluid. It can be expressed using the heat transfer coefficient of the
@@ -18,53 +18,57 @@ flow, characteristic length of the system, and thermal conductivity of the fluid
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat_transfer_coefficient` of the flow.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`power/(area*temperature)`
+Dimension:
+    :code:`power/(area*temperature)`
+
 
 .. py:data:: characteristic_length
 
     :attr:`~symplyphysics.symbols.basic.characteristic_length` of the system.
 
-    Symbol:
-        :code:`l_c`
+Symbol:
+    :code:`l_c`
 
-    Latex:
-        :math:`l_\text{c}`
+Latex:
+    :math:`l_\text{c}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: thermal_conductivity
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the fluid.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`power/(length*temperature)`
+Dimension:
+    :code:`power/(length*temperature)`
+
 
 .. py:data:: nusselt_number
 
     :attr:`~symplyphysics.symbols.classical_mechanics.nusselt_number`.
 
-    Symbol:
-        :code:`Nu`
+Symbol:
+    :code:`Nu`
 
-    Latex:
-        :math:`\text{Nu}`
+Latex:
+    :math:`\text{Nu}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

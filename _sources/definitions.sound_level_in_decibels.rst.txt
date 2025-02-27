@@ -1,5 +1,5 @@
 Sound level in decibels
------------------------
+=======================
 
 The sound level of a sound wave is a physical quantity that is used to describe the wave's
 intensity.
@@ -14,53 +14,57 @@ intensity.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.sound_intensity_level` of the sound wave.
 
-    Symbol:
-        :code:`L_I`
+Symbol:
+    :code:`L_I`
 
-    Latex:
-        :math:`L_{I}`
+Latex:
+    :math:`L_{I}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: intensity
 
     :attr:`~symplyphysics.symbols.basic.intensity` of the sound wave.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: reference_sound_level
 
     The sound level when the wave's intensity equals the reference intensity.
 
-    Symbol:
-        :code:`L_I0`
+Symbol:
+    :code:`L_I0`
 
-    Latex:
-        :math:`L_{I0}`
+Latex:
+    :math:`L_{I0}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: reference_intensity
 
     The intensity of a sound wave relative to which the sound level is measured.
 
-    Symbol:
-        :code:`I_0`
+Symbol:
+    :code:`I_0`
 
-    Latex:
-        :math:`I_0`
+Latex:
+    :math:`I_0`
 
-    Dimension:
-        :code:`power/length**2`
+Dimension:
+    :code:`power/length**2`
+
 
 .. py:data:: definition
 

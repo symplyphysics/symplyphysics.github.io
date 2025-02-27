@@ -1,5 +1,5 @@
 Classical addition of velocities
---------------------------------
+================================
 
 The *law of classical addition of velocities*, usually attributed to Galileo and called the
 *Galilean law of velocity addition*, states that the velocity of a body in an inertial reference
@@ -22,40 +22,43 @@ velocity of frame :math:`B` relative to frame :math:`A`.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body in frame :math:`A`.
 
-    Symbol:
-        :code:`v_OA`
+Symbol:
+    :code:`v_OA`
 
-    Latex:
-        :math:`v_{OA}`
+Latex:
+    :math:`v_{OA}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: body_speed_in_second_frame
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body in frame :math:`B`.
 
-    Symbol:
-        :code:`v_OB`
+Symbol:
+    :code:`v_OB`
 
-    Latex:
-        :math:`v_{OB}`
+Latex:
+    :math:`v_{OB}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: second_frame_speed_in_first_frame
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of frame :math:`B` relative to frame :math:`A`.
 
-    Symbol:
-        :code:`v_BA`
+Symbol:
+    :code:`v_BA`
 
-    Latex:
-        :math:`v_{BA}`
+Latex:
+    :math:`v_{BA}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

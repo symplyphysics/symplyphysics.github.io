@@ -1,5 +1,5 @@
 Diffusion flux from diffusion coefficient and concentration gradient
---------------------------------------------------------------------
+====================================================================
 
 *Fick's first law* relates the diffusion flux to the gradient of the concentration.
 It postulates that the flux goes from regions of high concentration to regions of
@@ -24,53 +24,57 @@ and the gradient is directed towards a higher concentration.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.position` of particles.
 
-    Symbol:
-        :code:`x`
+Symbol:
+    :code:`x`
 
-    Latex:
-        :math:`x`
+Latex:
+    :math:`x`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: diffusion_flux
 
     :attr:`~symplyphysics.symbols.classical_mechanics.diffusion_flux` as a function of :attr:`~position`.
 
-    Symbol:
-        :code:`J(x)`
+Symbol:
+    :code:`J(x)`
 
-    Latex:
-        :math:`J{\left(x \right)}`
+Latex:
+    :math:`J{\left(x \right)}`
 
-    Dimension:
-        :code:`amount_of_substance/(area*time)`
+Dimension:
+    :code:`amount_of_substance/(area*time)`
+
 
 .. py:data:: diffusion_coefficient
 
     :attr:`~symplyphysics.symbols.chemistry.diffusion_coefficient`.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`area/time`
+Dimension:
+    :code:`area/time`
+
 
 .. py:data:: concentration
 
     :attr:`~symplyphysics.symbols.chemistry.molar_concentration` of particles as a function of :attr:`~position`.
 
-    Symbol:
-        :code:`c(x)`
+Symbol:
+    :code:`c(x)`
 
-    Latex:
-        :math:`c{\left(x \right)}`
+Latex:
+    :math:`c{\left(x \right)}`
 
-    Dimension:
-        :code:`amount_of_substance/volume`
+Dimension:
+    :code:`amount_of_substance/volume`
+
 
 .. py:data:: law
 

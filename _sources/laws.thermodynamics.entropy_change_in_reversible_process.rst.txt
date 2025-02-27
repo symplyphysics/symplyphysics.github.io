@@ -1,5 +1,5 @@
 Entropy change in reversible process
-------------------------------------
+====================================
 
 The second law of thermodynamics applied to a closed system and an idealized, reversible or quasistatic process,
 states that in such a process of transfer of energy as heat to closed thermodynamic system :math:`B`, which
@@ -26,40 +26,43 @@ system :math:`B` divided by the common thermodynamic temperature of systems :mat
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.entropy` of system :math:`B`.
 
-    Symbol:
-        :code:`dS`
+Symbol:
+    :code:`dS`
 
-    Latex:
-        :math:`dS`
+Latex:
+    :math:`dS`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: heat_supplied_to_system
 
     Infinitesimal amount of :attr:`~symplyphysics.symbols.thermodynamics.heat` transferred to system :math:`B`.
 
-    Symbol:
-        :code:`delta(Q)`
+Symbol:
+    :code:`delta(Q)`
 
-    Latex:
-        :math:`\delta Q`
+Latex:
+    :math:`\delta Q`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: common_temperature
 
     Common :attr:`~symplyphysics.symbols.thermodynamics.temperature` of systems :math:`A` and :math:`B`.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Rate of energy conduction through slab
---------------------------------------
+======================================
 
 The rate at which energy is conducted through a slab for which one face is maintained at a higher
 temperature than the other face is proportional to the temperature difference of the faces and
@@ -15,66 +15,71 @@ its face area and inversely proportional to its length.
 
     Rate of energy conductivity through the slab. See :attr:`~symplyphysics.symbols.basic.power`.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: thermal_conductivity
 
     :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the slab's material.
 
-    Symbol:
-        :code:`k`
+Symbol:
+    :code:`k`
 
-    Latex:
-        :math:`k`
+Latex:
+    :math:`k`
 
-    Dimension:
-        :code:`power/(length*temperature)`
+Dimension:
+    :code:`power/(length*temperature)`
+
 
 .. py:data:: face_area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area` of the face of the slab.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: slab_thickness
 
     Distance between the two faces of the slab. See :attr:`~symplyphysics.symbols.classical_mechanics.thickness`.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: temperature_difference
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` difference between the two faces of the slab.
 
-    Symbol:
-        :code:`Delta(T)`
+Symbol:
+    :code:`Delta(T)`
 
-    Latex:
-        :math:`\Delta T`
+Latex:
+    :math:`\Delta T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

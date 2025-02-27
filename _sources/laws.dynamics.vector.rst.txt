@@ -5,9 +5,13 @@ Vector subset of dynamics laws
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.vector
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
+
+    laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
+
+
+

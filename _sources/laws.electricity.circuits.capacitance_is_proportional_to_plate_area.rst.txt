@@ -1,5 +1,5 @@
 Capacitance is proportional to plate area
------------------------------------------
+=========================================
 
 If a capacitor is composed of two equal parallel plates, its capacitance is proportional to
 the area of the plates and the inverse of the distance between the plates. It also depends
@@ -19,53 +19,57 @@ on the permittivity of the medium that fills the space between the plates.
 
     :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: absolute_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity` of the medium between the plates.
 
-    Symbol:
-        :code:`epsilon`
+Symbol:
+    :code:`epsilon`
 
-    Latex:
-        :math:`\varepsilon`
+Latex:
+    :math:`\varepsilon`
 
-    Dimension:
-        :code:`capacitance/length`
+Dimension:
+    :code:`capacitance/length`
+
 
 .. py:data:: area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area` of the plates.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the plates.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

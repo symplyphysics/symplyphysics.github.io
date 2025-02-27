@@ -1,5 +1,5 @@
 Steepness of volt-ampere characteristic of vacuum diode
--------------------------------------------------------
+=======================================================
 
 The steepness of the volt-ampere characteristic is generally equal to the voltage
 derivative of the current. For a vacuum diode, it can be calculated if the diode
@@ -14,40 +14,43 @@ parameter and the voltage between the anode and cathode are known.
 
     Steepness of the volt-ampere characteristic of the vacuum diode.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`current/voltage`
+Dimension:
+    :code:`current/voltage`
+
 
 .. py:data:: diode_constant
 
     :attr:`~symplyphysics.symbols.electrodynamics.diode_constant`.
 
-    Symbol:
-        :code:`g`
+Symbol:
+    :code:`g`
 
-    Latex:
-        :math:`g`
+Latex:
+    :math:`g`
 
-    Dimension:
-        :code:`current/voltage**(3/2)`
+Dimension:
+    :code:`current/voltage**(3/2)`
+
 
 .. py:data:: anode_voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` between cathode and anode.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

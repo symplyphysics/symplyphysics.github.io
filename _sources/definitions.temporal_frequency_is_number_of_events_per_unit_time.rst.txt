@@ -1,5 +1,5 @@
 Temporal frequency is number of events per unit time
-----------------------------------------------------
+====================================================
 
 **Temporal frequency**, or simply **frequency**, is the number of occurrences of a repeating
 event per unit of time.
@@ -14,40 +14,43 @@ event per unit of time.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of events.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`frequency`
+Dimension:
+    :code:`frequency`
+
 
 .. py:data:: number_of_events
 
     :attr:`~symplyphysics.symbols.basic.positive_number` of events occurred during the given time.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` elapsed.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: definition
 

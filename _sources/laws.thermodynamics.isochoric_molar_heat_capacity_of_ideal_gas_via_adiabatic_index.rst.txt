@@ -1,5 +1,5 @@
 Isochoric molar heat capacity of ideal gas via adiabatic index
---------------------------------------------------------------
+==============================================================
 
 For ideal gases the isobaric and isochoric heat capacities can be calculated via the molar gas
 constant and the adiabatic index of the gas.
@@ -18,27 +18,29 @@ constant and the adiabatic index of the gas.
 
     :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`c_Vm`
+Symbol:
+    :code:`c_Vm`
 
-    Latex:
-        :math:`c_{V, \text{m}}`
+Latex:
+    :math:`c_{V, \text{m}}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: adiabatic_index
 
     :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index`, also known as :doc:`heat capacity ratio <definitions.heat_capacity_ratio>`, of the gas.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

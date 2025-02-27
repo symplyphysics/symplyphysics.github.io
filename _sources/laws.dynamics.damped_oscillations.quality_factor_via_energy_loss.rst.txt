@@ -1,5 +1,5 @@
 Quality factor via energy loss
-------------------------------
+==============================
 
 The quality factor of the system can be defined using the energy stored in the system
 and the power dissipated from the system. In electrical system, the loss of energy
@@ -20,53 +20,57 @@ occurs due to resistors; in mechanical systems, it occurs due to external forces
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the oscillator.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resonant_angular_frequency
 
     Resonant :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
-    Symbol:
-        :code:`w_r`
+Symbol:
+    :code:`w_r`
 
-    Latex:
-        :math:`\omega_\text{r}`
+Latex:
+    :math:`\omega_\text{r}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: energy_stored
 
     :attr:`~symplyphysics.symbols.basic.energy` stored in the oscillator.
 
-    Symbol:
-        :code:`E_stored`
+Symbol:
+    :code:`E_stored`
 
-    Latex:
-        :math:`E_\text{stored}`
+Latex:
+    :math:`E_\text{stored}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: power_loss
 
     :attr:`~symplyphysics.symbols.basic.power` lost by the oscillator, i.e. the rate of energy dissipating from it.
 
-    Symbol:
-        :code:`P_loss`
+Symbol:
+    :code:`P_loss`
 
-    Latex:
-        :math:`P_\text{loss}`
+Latex:
+    :math:`P_\text{loss}`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: law
 

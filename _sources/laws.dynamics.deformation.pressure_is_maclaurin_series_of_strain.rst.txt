@@ -1,5 +1,5 @@
 Pressure is Maclaurin series of strain
---------------------------------------
+======================================
 
 A statement more general than the Hooke's law is that pressure in a body can be expressed
 as a *power series* (Maclaurin series, to be exact) of (engineering normal) *strain* with the
@@ -29,66 +29,71 @@ its physical state.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` (or tension) in the deformed body.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: young_modulus
 
     :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the body's material.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: second_coefficient
 
     Coefficient at the second power of strain in the expansion.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: third_coefficient
 
     Coefficient at the third power of strain in the expansion.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: strain
 
     :attr:`~symplyphysics.symbols.classical_mechanics.engineering_normal_strain` of the body.
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 
@@ -102,7 +107,5 @@ its physical state.
     Latex:
         .. math::
             p = A e^{2} + B e^{3} + E e + O\left(e^{4}\right)
-
-
 
 

@@ -1,5 +1,5 @@
 Relativistic kinetic energy
----------------------------
+===========================
 
 The kinetic energy of an object is the form of energy that it possesses due to its motion.
 
@@ -22,40 +22,43 @@ The kinetic energy of an object is the form of energy that it possesses due to i
 
     :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the body.
 
-    Symbol:
-        :code:`K`
+Symbol:
+    :code:`K`
 
-    Latex:
-        :math:`K`
+Latex:
+    :math:`K`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: lorentz_factor
 
     :attr:`~symplyphysics.symbols.relativistic_mechanics.lorentz_factor` of the body.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: rest_mass
 
     :attr:`~symplyphysics.symbols.relativistic_mechanics.rest_mass` of the body.
 
-    Symbol:
-        :code:`m_0`
+Symbol:
+    :code:`m_0`
 
-    Latex:
-        :math:`m_{0}`
+Latex:
+    :math:`m_{0}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

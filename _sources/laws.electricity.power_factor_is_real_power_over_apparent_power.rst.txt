@@ -1,5 +1,5 @@
 Power factor is real power over apparent power
-----------------------------------------------
+==============================================
 
 Power factor of an AC circuit is a dimensionless physical quantity expressing the circuit's
 efficiency. It is the ratio of real power to apparent power of the circuit.
@@ -18,40 +18,43 @@ efficiency. It is the ratio of real power to apparent power of the circuit.
     Apparent :attr:`~symplyphysics.symbols.basic.power` of the circuit, which is the absolute value of the complex
     power.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: real_power
 
     Real :attr:`~symplyphysics.symbols.basic.power`, or active power, of the circuit.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: power_factor
 
     :attr:`~symplyphysics.symbols.electrodynamics.power_factor` of the circuit.
 
-    Symbol:
-        :code:`pf`
+Symbol:
+    :code:`pf`
 
-    Latex:
-        :math:`\mathrm{pf}`
+Latex:
+    :math:`\mathrm{pf}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

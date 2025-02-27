@@ -1,5 +1,5 @@
 Heat capacity ratio
--------------------
+===================
 
 The *heat capacity ratio*, also known as the *adiabatic index*, the *ratio of specific heats*, or
 the *isentropic expansion factor*, is the ratio of the heat capacity at constant pressure
@@ -21,40 +21,43 @@ reversible processes; the speed of sound also depends on this factor.
 
     :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index` of the system.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: isobaric_heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the system at constant pressure.
 
-    Symbol:
-        :code:`C_p`
+Symbol:
+    :code:`C_p`
 
-    Latex:
-        :math:`C_{p}`
+Latex:
+    :math:`C_{p}`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: isochoric_heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the system at constant volume.
 
-    Symbol:
-        :code:`C_V`
+Symbol:
+    :code:`C_V`
 
-    Latex:
-        :math:`C_{V}`
+Latex:
+    :math:`C_{V}`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: definition
 

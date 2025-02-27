@@ -1,5 +1,5 @@
 Molar mass via molecular mass
------------------------------
+=============================
 
 The Avogadro constant is also the constant of proportionality between molar mass and
 molecular mass.
@@ -18,27 +18,29 @@ molecular mass.
 
     :attr:`~symplyphysics.symbols.basic.molar_mass`.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: molecular_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of a single molecule.
 
-    Symbol:
-        :code:`m_0`
+Symbol:
+    :code:`m_0`
 
-    Latex:
-        :math:`m_{0}`
+Latex:
+    :math:`m_{0}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

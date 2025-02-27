@@ -1,5 +1,5 @@
 Change in apparent magnitude from distance
-------------------------------------------
+==========================================
 
 The apparent magnitude is a measure of the brightness of a celestial body (more
 precisely, the illumination created by this body) from the observer's point of view. The
@@ -19,53 +19,57 @@ the ratio of their illuminances, up to a multiplier.
 
     :attr:`~symplyphysics.symbols.astronomy.apparent_magnitude` of the first object.
 
-    Symbol:
-        :code:`m_1`
+Symbol:
+    :code:`m_1`
 
-    Latex:
-        :math:`m_{1}`
+Latex:
+    :math:`m_{1}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: second_apparent_magnitude
 
     :attr:`~symplyphysics.symbols.astronomy.apparent_magnitude` of the second object.
 
-    Symbol:
-        :code:`m_2`
+Symbol:
+    :code:`m_2`
 
-    Latex:
-        :math:`m_{2}`
+Latex:
+    :math:`m_{2}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: first_irradiance
 
     Observed :attr:`~symplyphysics.symbols.astronomy.irradiance` of the first object.
 
-    Symbol:
-        :code:`E_e1`
+Symbol:
+    :code:`E_e1`
 
-    Latex:
-        :math:`E_{\text{e}1}`
+Latex:
+    :math:`E_{\text{e}1}`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: second_irradiance
 
     Observed :attr:`~symplyphysics.symbols.astronomy.irradiance` of the second object.
 
-    Symbol:
-        :code:`E_e2`
+Symbol:
+    :code:`E_e2`
 
-    Latex:
-        :math:`E_{\text{e}2}`
+Latex:
+    :math:`E_{\text{e}2}`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Electron current in probe circuit in gas plasma
------------------------------------------------
+===============================================
 
 A gas-discharge plasma is an ionized gas in which the concentrations of positively and
 negatively charged particles are approximately equal to each other, and the Debye
@@ -26,79 +26,85 @@ value of this potential is removed.
 
     Probe :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: probe_surface_area
 
     Probe surface :attr:`~symplyphysics.symbols.classical_mechanics.area`.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: electron_concentration
 
     Electron concentration (:attr:`~symplyphysics.symbols.basic.number_density`) in plasma.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: plasma_temperature
 
     Plasma :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: floating_plasma_potential
 
     Floating plasma :attr:`~symplyphysics.symbols.electrodynamics.electric_potential`.
 
-    Symbol:
-        :code:`U_f`
+Symbol:
+    :code:`U_f`
 
-    Latex:
-        :math:`U_\mathbf{f}`
+Latex:
+    :math:`U_\mathbf{f}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: probe_potential
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_potential` at the location of the probe.
 
-    Symbol:
-        :code:`U_E`
+Symbol:
+    :code:`U_E`
 
-    Latex:
-        :math:`U_\mathbf{E}`
+Latex:
+    :math:`U_\mathbf{E}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

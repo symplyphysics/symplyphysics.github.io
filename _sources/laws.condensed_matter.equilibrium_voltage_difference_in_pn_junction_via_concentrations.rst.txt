@@ -1,5 +1,5 @@
 Equilibrium voltage difference in p-n junction via concentrations
------------------------------------------------------------------
+=================================================================
 
 The p-n junction has a potential barrier preventing the movement of charge carriers.
 
@@ -24,79 +24,85 @@ The p-n junction has a potential barrier preventing the movement of charge carri
 
     Equilibrium :attr:`~symplyphysics.symbols.electrodynamics.voltage` difference corresponding to the size of the depletion region.
 
-    Symbol:
-        :code:`Delta(V)`
+Symbol:
+    :code:`Delta(V)`
 
-    Latex:
-        :math:`\Delta V`
+Latex:
+    :math:`\Delta V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: donor_concentration
 
     :attr:`~symplyphysics.symbols.basic.number_density` of positively-charged donor atoms.
 
-    Symbol:
-        :code:`n_d`
+Symbol:
+    :code:`n_d`
 
-    Latex:
-        :math:`n_\text{d}`
+Latex:
+    :math:`n_\text{d}`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: acceptor_concentration
 
     :attr:`~symplyphysics.symbols.basic.number_density` of negatively-charged acceptor atoms.
 
-    Symbol:
-        :code:`n_a`
+Symbol:
+    :code:`n_a`
 
-    Latex:
-        :math:`n_\text{a}`
+Latex:
+    :math:`n_\text{a}`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: charge_carriers_concentration
 
     :attr:`~symplyphysics.symbols.basic.number_density` of intrinsic charge carriers.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the semiconductor.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: charge_electron
 
     Magnitude of the electron :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: law
 

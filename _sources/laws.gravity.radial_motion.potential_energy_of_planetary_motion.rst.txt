@@ -1,5 +1,5 @@
 Potential energy of radial planetary motion
--------------------------------------------
+===========================================
 
 The total mechanical energy of the planet can be viewed as the sum of the kinetic and potential energy.
 The potential energy is in turn the sum of the potential energy due to the gravitational interaction
@@ -16,66 +16,71 @@ planet's angular momentum.
 
     The total :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the planet.
 
-    Symbol:
-        :code:`U_tot`
+Symbol:
+    :code:`U_tot`
 
-    Latex:
-        :math:`U_\text{tot}`
+Latex:
+    :math:`U_\text{tot}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: gravitational_potential_energy
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the planet due to the gravitational interaction of the planet and the star.
 
-    Symbol:
-        :code:`U_gr`
+Symbol:
+    :code:`U_gr`
 
-    Latex:
-        :math:`U_\text{gr}`
+Latex:
+    :math:`U_\text{gr}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: angular_momentum
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum` of the planet.
 
-    Symbol:
-        :code:`L`
+Symbol:
+    :code:`L`
 
-    Latex:
-        :math:`L`
+Latex:
+    :math:`L`
 
-    Dimension:
-        :code:`length**2*mass/time`
+Dimension:
+    :code:`length**2*mass/time`
+
 
 .. py:data:: planetary_mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the planet.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: distance
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the star and the planet.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

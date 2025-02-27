@@ -1,5 +1,5 @@
 Electric flux through closed surface via total charge
------------------------------------------------------
+=====================================================
 
 Known as **Gauss's law**, it states that the electric flux through any closed surface :math:`S` is equal to
 the total charge within volume :math:`V` enclosed by that surface, and in the SI units, divided by the
@@ -20,27 +20,29 @@ vacuum permittivity. The closed surface is also referred to as **Gaussian surfac
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_flux` through surface :math:`S`.
 
-    Symbol:
-        :code:`Phi_E`
+Symbol:
+    :code:`Phi_E`
 
-    Latex:
-        :math:`\Phi_\mathbf{E}`
+Latex:
+    :math:`\Phi_\mathbf{E}`
 
-    Dimension:
-        :code:`length*voltage`
+Dimension:
+    :code:`length*voltage`
+
 
 .. py:data:: total_charge
 
     Total :attr:`~symplyphysics.symbols.electrodynamics.charge` inside volume :math:`V`.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: law
 

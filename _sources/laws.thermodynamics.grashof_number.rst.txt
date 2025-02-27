@@ -1,5 +1,5 @@
 Grashof number
---------------
+==============
 
 The Grashof number (Gr) is a dimensionless number which approximates the ratio of the
 buoyancy to viscous forces acting on a fluid. It arises in situations involving natural convection
@@ -19,79 +19,85 @@ and is analogous to the Reynolds number.
 
     :attr:`~symplyphysics.symbols.thermodynamics.grashof_number` of the fluid.
 
-    Symbol:
-        :code:`Gr`
+Symbol:
+    :code:`Gr`
 
-    Latex:
-        :math:`\text{Gr}`
+Latex:
+    :math:`\text{Gr}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: volumetric_expansion_coefficient
 
     Volumetric (see :attr:`~symplyphysics.symbols.classical_mechanics.volume`) :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the body.
 
-    Symbol:
-        :code:`alpha_V`
+Symbol:
+    :code:`alpha_V`
 
-    Latex:
-        :math:`\alpha_{V}`
+Latex:
+    :math:`\alpha_{V}`
 
-    Dimension:
-        :code:`1/temperature`
+Dimension:
+    :code:`1/temperature`
+
 
 .. py:data:: surface_temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the surface of the fluid.
 
-    Symbol:
-        :code:`T_s`
+Symbol:
+    :code:`T_s`
 
-    Latex:
-        :math:`T_\text{s}`
+Latex:
+    :math:`T_\text{s}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: bulk_temperature
 
     Average :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the inside of the fluid.
 
-    Symbol:
-        :code:`T_b`
+Symbol:
+    :code:`T_b`
 
-    Latex:
-        :math:`T_\text{b}`
+Latex:
+    :math:`T_\text{b}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: characteristic_length
 
     :attr:`~symplyphysics.symbols.basic.characteristic_length` of the fluid body.
 
-    Symbol:
-        :code:`l_c`
+Symbol:
+    :code:`l_c`
 
-    Latex:
-        :math:`l_\text{c}`
+Latex:
+    :math:`l_\text{c}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: kinematic_viscosity
 
     :attr:`~symplyphysics.symbols.thermodynamics.kinematic_viscosity` of the fluid.
 
-    Symbol:
-        :code:`nu`
+Symbol:
+    :code:`nu`
 
-    Latex:
-        :math:`\nu`
+Latex:
+    :math:`\nu`
 
-    Dimension:
-        :code:`area/time`
+Dimension:
+    :code:`area/time`
+
 
 .. py:data:: law
 

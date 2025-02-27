@@ -1,5 +1,5 @@
 Power via voltage and current
------------------------------
+=============================
 
 Electric power can be expressed using current flowing through a
 conductor and voltage applied.
@@ -14,40 +14,43 @@ conductor and voltage applied.
 
     Electric :attr:`~symplyphysics.symbols.basic.power`.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: current
 
     Electric :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` applied.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

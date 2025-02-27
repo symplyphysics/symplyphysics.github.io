@@ -1,5 +1,5 @@
 Hybrid parameters matrix equation
----------------------------------
+=================================
 
 The **hybrid parameters matrix** is one of the ways to describe a microwave device. The
 :math:`H`-parameters of the device act as elements of this matrix. The matrix equation
@@ -15,107 +15,115 @@ relates the input voltage and output current to the input current and output vol
 
     Input :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
-    Symbol:
-        :code:`V_i`
+Symbol:
+    :code:`V_i`
 
-    Latex:
-        :math:`V_\text{i}`
+Latex:
+    :math:`V_\text{i}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: output_voltage
 
     Output :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
-    Symbol:
-        :code:`V_o`
+Symbol:
+    :code:`V_o`
 
-    Latex:
-        :math:`V_\text{o}`
+Latex:
+    :math:`V_\text{o}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: input_current
 
     Input :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I_i`
+Symbol:
+    :code:`I_i`
 
-    Latex:
-        :math:`I_\text{i}`
+Latex:
+    :math:`I_\text{i}`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: output_current
 
     Output :attr:`~symplyphysics.symbols.electrodynamics.current`.
 
-    Symbol:
-        :code:`I_o`
+Symbol:
+    :code:`I_o`
 
-    Latex:
-        :math:`I_\text{o}`
+Latex:
+    :math:`I_\text{o}`
 
-    Dimension:
-        :code:`current`
+Dimension:
+    :code:`current`
+
 
 .. py:data:: input_input_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to input :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short circuit
     at the output.
 
-    Symbol:
-        :code:`H_ii`
+Symbol:
+    :code:`H_ii`
 
-    Latex:
-        :math:`H_\text{ii}`
+Latex:
+    :math:`H_\text{ii}`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: input_output_parameter
 
     Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the input.
 
-    Symbol:
-        :code:`H_io`
+Symbol:
+    :code:`H_io`
 
-    Latex:
-        :math:`H_\text{io}`
+Latex:
+    :math:`H_\text{io}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: output_input_parameter
 
     Ratio of output :attr:`~symplyphysics.symbols.electrodynamics.current` to input :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short circuit
     at the output.
 
-    Symbol:
-        :code:`H_oi`
+Symbol:
+    :code:`H_oi`
 
-    Latex:
-        :math:`H_\text{oi}`
+Latex:
+    :math:`H_\text{oi}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: output_output_parameter
 
     Ratio of output :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the input.
 
-    Symbol:
-        :code:`H_oo`
+Symbol:
+    :code:`H_oo`
 
-    Latex:
-        :math:`H_\text{oo}`
+Latex:
+    :math:`H_\text{oo}`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Superposition of small deformations
------------------------------------
+===================================
 
 If the deformations are small, the elastic properties of bodies stay the same under deformations.
 If several forces act on a body, its total deformation can be computed from the deformations of
@@ -19,40 +19,43 @@ the individual forces, however these deformations must be small.
 
     Total :attr:`~symplyphysics.symbols.classical_mechanics.strain` of the body.
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: first_strain
 
     :attr:`~symplyphysics.symbols.classical_mechanics.strain` caused by one force.
 
-    Symbol:
-        :code:`e_1`
+Symbol:
+    :code:`e_1`
 
-    Latex:
-        :math:`e_{1}`
+Latex:
+    :math:`e_{1}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: second_strain
 
     :attr:`~symplyphysics.symbols.classical_mechanics.strain` caused by another force.
 
-    Symbol:
-        :code:`e_2`
+Symbol:
+    :code:`e_2`
 
-    Latex:
-        :math:`e_{2}`
+Latex:
+    :math:`e_{2}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

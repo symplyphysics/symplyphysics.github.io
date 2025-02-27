@@ -1,5 +1,5 @@
 Wave impedance from permeability and permittivity
--------------------------------------------------
+=================================================
 
 The impedance of a wave is a value determined by the ratio of the transverse component
 of the electric field to the transverse component of the magnetic field of a traveling
@@ -26,40 +26,43 @@ wave.
 
     :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance`.
 
-    Symbol:
-        :code:`eta`
+Symbol:
+    :code:`eta`
 
-    Latex:
-        :math:`\eta`
+Latex:
+    :math:`\eta`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: relative_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the medium.
 
-    Symbol:
-        :code:`epsilon_r`
+Symbol:
+    :code:`epsilon_r`
 
-    Latex:
-        :math:`\varepsilon_\text{r}`
+Latex:
+    :math:`\varepsilon_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: relative_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
 
-    Symbol:
-        :code:`mu_r`
+Symbol:
+    :code:`mu_r`
 
-    Latex:
-        :math:`\mu_\text{r}`
+Latex:
+    :math:`\mu_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Momentum is mass times speed
-----------------------------
+============================
 
 Momentum is a physical quantity equal to the product of the object's speed and its mass.
 
@@ -13,40 +13,43 @@ Momentum is a physical quantity equal to the product of the object's speed and i
 
     :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`momentum`
+Dimension:
+    :code:`momentum`
+
 
 .. py:data:: speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the object.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: definition
 

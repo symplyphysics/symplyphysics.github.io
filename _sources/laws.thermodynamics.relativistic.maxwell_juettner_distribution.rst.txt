@@ -1,5 +1,5 @@
 Maxwell—Jüttner distribution
-----------------------------
+============================
 
 The Maxwell—Jüttner distribution is the distribution of speeds of particles in a hypothetical
 gas of relativistic particles. It is similar to the Maxwell—Boltzmann distribution in that it considers 
@@ -32,40 +32,43 @@ to the Maxwell—Boltzmann distribution.
 
     :attr:`~lorentz_factor` distribution function.
 
-    Symbol:
-        :code:`f(gamma)`
+Symbol:
+    :code:`f(gamma)`
 
-    Latex:
-        :math:`f(\gamma)`
+Latex:
+    :math:`f(\gamma)`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: lorentz_factor
 
     :attr:`~symplyphysics.symbols.relativistic_mechanics.lorentz_factor` of relativistic particles.
 
-    Symbol:
-        :code:`gamma`
+Symbol:
+    :code:`gamma`
 
-    Latex:
-        :math:`\gamma`
+Latex:
+    :math:`\gamma`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: reduced_temperature
 
     :doc:`Reduced temperature <laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics>` of the system.
 
-    Symbol:
-        :code:`theta`
+Symbol:
+    :code:`theta`
 
-    Latex:
-        :math:`\theta`
+Latex:
+    :math:`\theta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 
@@ -79,4 +82,5 @@ to the Maxwell—Boltzmann distribution.
             f(\gamma) = \frac{\gamma \sqrt{\gamma^2 - 1}}
                              {\theta K_2 \left( \frac{1}{\theta} \right)} 
                         \exp{\left( -\frac{\gamma}{\theta} \right)}
+
 

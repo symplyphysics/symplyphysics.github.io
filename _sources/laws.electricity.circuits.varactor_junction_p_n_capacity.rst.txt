@@ -1,5 +1,5 @@
 Capacitance of p-n varactor junction
-------------------------------------
+====================================
 
 The principle of operation of the variator is based on the dependence of the barrier
 capacitance of the p-n junction on the voltage value. Knowing the doping coefficient,
@@ -15,67 +15,72 @@ calculate the capacity of the varactor at a given voltage.
 
     Barrier :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the p-n junction.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: capacitance_without_bias_voltage
 
     Barrier :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the p-n junction without the bias voltage.
 
-    Symbol:
-        :code:`C_0`
+Symbol:
+    :code:`C_0`
 
-    Latex:
-        :math:`C_{0}`
+Latex:
+    :math:`C_{0}`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` applied.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: material_parameter
 
     A certain constant having the dimension of :attr:`~symplyphysics.symbols.electrodynamics.voltage` which depends on the exact
     material.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: doping_coefficient
 
     Doping coefficient.
 
-    Symbol:
-        :code:`y`
+Symbol:
+    :code:`y`
 
-    Latex:
-        :math:`y`
+Latex:
+    :math:`y`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

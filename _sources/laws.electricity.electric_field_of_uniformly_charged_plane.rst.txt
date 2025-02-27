@@ -1,5 +1,5 @@
 Electric field of uniformly charged plane
------------------------------------------
+=========================================
 
 The electric field strength of a uniformly charged plane is proportional to its
 charge density.
@@ -23,27 +23,29 @@ charge density.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: surface_charge_density
 
     :attr:`~symplyphysics.symbols.electrodynamics.surface_charge_density`.
 
-    Symbol:
-        :code:`sigma`
+Symbol:
+    :code:`sigma`
 
-    Latex:
-        :math:`\sigma`
+Latex:
+    :math:`\sigma`
 
-    Dimension:
-        :code:`charge/area`
+Dimension:
+    :code:`charge/area`
+
 
 .. py:data:: law
 

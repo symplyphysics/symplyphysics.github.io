@@ -1,5 +1,5 @@
 Mechanical energy is constant
------------------------------
+=============================
 
 Mechanical energy is constant in a system that has only gravitational forces or in an
 otherwise idealized system — that is, one lacking dissipative forces, such as friction
@@ -20,27 +20,29 @@ and air resistance, or one in which such forces can be reasonably neglected.
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mechanical_energy
 
     :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_energy` as a function of :attr:`~time`.
 
-    Symbol:
-        :code:`E(t)`
+Symbol:
+    :code:`E(t)`
 
-    Latex:
-        :math:`E{\left(t \right)}`
+Latex:
+    :math:`E{\left(t \right)}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

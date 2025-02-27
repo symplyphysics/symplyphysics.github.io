@@ -1,5 +1,5 @@
 Basic (Symbols)
----------------
+===============
 
 Symbols of fundamental physical quantities.
 
@@ -9,14 +9,15 @@ Symbols of fundamental physical quantities.
 
     A quantity that can have any dimension.
 
-    Symbol:
-        :code:`X`
+Symbol:
+    :code:`X`
 
-    Latex:
-        :math:`X`
+Latex:
+    :math:`X`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: time
 
@@ -24,27 +25,29 @@ Symbols of fundamental physical quantities.
     a count of repeating events such as the SI second. It is a fundamental concept used to define other
     physical quantities.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: period
 
     **Period** is the duration of time of one cycle in a repeating event.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mass
 
@@ -53,106 +56,114 @@ Symbols of fundamental physical quantities.
     equal. Often, the inertial mass is being used, which is a measure of the object's resistance to acceleration
     when a force is applied.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: molar_mass
 
     **Molar mass** is defined as the mass per unit amount of substance.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: work
 
     **Work** is the energy transferred to or from an object via the application of force.
 
-    Symbol:
-        :code:`W`
+Symbol:
+    :code:`W`
 
-    Latex:
-        :math:`W`
+Latex:
+    :math:`W`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: energy_density
 
     Energy per unit volume.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`w`
+Latex:
+    :math:`w`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: spectral_energy_density
 
     Energy per unit volume per unit linear frequency.
 
-    Symbol:
-        :code:`w_f`
+Symbol:
+    :code:`w_f`
 
-    Latex:
-        :math:`w_{f}`
+Latex:
+    :math:`w_{f}`
 
-    Dimension:
-        :code:`energy/(frequency*volume)`
+Dimension:
+    :code:`energy/(frequency*volume)`
+
 
 .. py:data:: energy
 
     **Energy** is the quantitative property that is transferred to a body or to a physical system, recognizable in
     the performance of work and in the form of heat and light.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: specific_energy
 
     **Specific energy** is defined as :attr:`~symplyphysics.symbols.basic.energy` per unit :attr:`~symplyphysics.symbols.basic.mass`.
 
-    Symbol:
-        :code:`epsilon`
+Symbol:
+    :code:`epsilon`
 
-    Latex:
-        :math:`\varepsilon`
+Latex:
+    :math:`\varepsilon`
 
-    Dimension:
-        :code:`energy/mass`
+Dimension:
+    :code:`energy/mass`
+
 
 .. py:data:: power
 
     **Power** is the amount of energy transferred or converted per unit time.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: radius_of_curvature
 
@@ -161,159 +172,171 @@ Symbols of fundamental physical quantities.
     ..
         TODO are this and distance_to_axis interchangeable?
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: density
 
     **Density** is mass per unit volume.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: linear_density
 
     **Linear density** is mass per unit length.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`mass/length`
+Dimension:
+    :code:`mass/length`
+
 
 .. py:data:: intensity
 
     **Intensity** or **flux** of radiant energy is the power transferred per unit area,  where the area is measured
     on the plane perpendicular to the direction of propagation of the energy.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`power/area`
+Dimension:
+    :code:`power/area`
+
 
 .. py:data:: whole_number
 
     A dimensionless **whole** number of any sign.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: positive_number
 
     A dimensionless whole **number** used for counting objects or instances.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: nonnegative_number
 
     A dimensionless non-negative whole **number**, i.e. :math:`0, 1, 2, \dots`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: number_density
 
     **Number density** is an intensive quantity used to describe the degree of concentration of countable objects
     (particles, molecules, phonons, cells, galaxies, etc.) in physical space.
 
-    Symbol:
-        :code:`n`
+Symbol:
+    :code:`n`
 
-    Latex:
-        :math:`n`
+Latex:
+    :math:`n`
 
-    Dimension:
-        :code:`1/volume`
+Dimension:
+    :code:`1/volume`
+
 
 .. py:data:: particle_count
 
     Number of particles in the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: angle
 
     An **angle** is the difference in direction between two lines or surfaces.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: probability
 
     **Probability** is a measure of an event's likelihood.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: fractional_change
 
     **Fractional change** is linear change divided by initial value of the quantity.
 
-    Symbol:
-        :code:`e`
+Symbol:
+    :code:`e`
 
-    Latex:
-        :math:`e`
+Latex:
+    :math:`e`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: exponential_decay_constant
 
@@ -325,14 +348,15 @@ Symbols of fundamental physical quantities.
 
     #. `Exponential decay <https://en.wikipedia.org/wiki/Exponential_decay>`__.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`1/time`
+Dimension:
+    :code:`1/time`
+
 
 .. py:data:: characteristic_length
 
@@ -343,25 +367,27 @@ Symbols of fundamental physical quantities.
 
     #. `Wikipedia <https://en.wikipedia.org/wiki/Characteristic_length>`__.
 
-    Symbol:
-        :code:`l_c`
+Symbol:
+    :code:`l_c`
 
-    Latex:
-        :math:`l_\text{c}`
+Latex:
+    :math:`l_\text{c}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: molar_volume
 
     **Molar volume** is defined as :attr:`~symplyphysics.symbols.classical_mechanics.volume` per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`v_m`
+Symbol:
+    :code:`v_m`
 
-    Latex:
-        :math:`v_\text{m}`
+Latex:
+    :math:`v_\text{m}`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 

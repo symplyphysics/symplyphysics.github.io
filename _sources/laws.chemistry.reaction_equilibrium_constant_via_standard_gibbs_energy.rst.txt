@@ -1,5 +1,5 @@
 Reaction equilibrium constant via standard Gibbs energy
--------------------------------------------------------
+=======================================================
 
 The equilibrium constant is a value that determines for a given chemical reaction the ratio between
 thermodynamic activities (or, depending on the conditions of the reaction, partial pressures,
@@ -24,41 +24,44 @@ concentrations or fugitives) of reactants and products in a state of chemical eq
 
     Equilibrium constant of the reaction.
 
-    Symbol:
-        :code:`K`
+Symbol:
+    :code:`K`
 
-    Latex:
-        :math:`K`
+Latex:
+    :math:`K`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: reaction_standard_gibbs_energy
 
     Reaction standard :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy`, which is the sum of the standard Gibbs
     energies of the reaction products minus that of reactants.
 
-    Symbol:
-        :code:`Delta(G)`
+Symbol:
+    :code:`Delta(G)`
 
-    Latex:
-        :math:`\Delta G`
+Latex:
+    :math:`\Delta G`
 
-    Dimension:
-        :code:`energy/amount_of_substance`
+Dimension:
+    :code:`energy/amount_of_substance`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: law
 

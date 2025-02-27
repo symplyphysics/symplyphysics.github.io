@@ -1,5 +1,5 @@
 Electric field is force over test charge (Vector)
--------------------------------------------------
+=================================================
 
 Electric field at a point in space can be found by placing there a test charge and measuring
 the electrostatic force that is applied to it.
@@ -14,14 +14,15 @@ the electrostatic force that is applied to it.
 
     Value of the test :attr:`~symplyphysics.symbols.electrodynamics.charge`.
 
-    Symbol:
-        :code:`q_0`
+Symbol:
+    :code:`q_0`
 
-    Latex:
-        :math:`q_{0}`
+Latex:
+    :math:`q_{0}`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:function:: electric_field_law(electrostatic_force_)
 
@@ -50,6 +51,7 @@ the electrostatic force that is applied to it.
 
         Dimension: *force* / *charge*
 
+
 .. py:function:: electrostatic_force_law(electric_field_)
 
     Electrostatic force via electric field.
@@ -76,4 +78,3 @@ the electrostatic force that is applied to it.
         Latex: :math:`\vec F`
 
         Dimension: *force*
-

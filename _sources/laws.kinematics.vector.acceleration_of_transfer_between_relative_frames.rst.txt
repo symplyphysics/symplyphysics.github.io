@@ -1,5 +1,5 @@
 Acceleration of transfer between relative frames
-------------------------------------------------
+================================================
 
 Imagine two reference frames, one of which is fixed (:math:`S`) and the other one is moving (:math:`S'`). The motion of
 a body stationary in moving frame :math:`S'` due to the motion of the frame itself is called transfer motion.
@@ -17,6 +17,8 @@ in :math:`S'`.
     TODO find English link
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.acceleration_of_transfer_between_relative_frames
+
+
 
 .. py:function:: transfer_acceleration_law(moving_frame_acceleration_, centripetal_acceleration_, rotation_acceleration_)
 
@@ -61,6 +63,7 @@ in :math:`S'`.
 
         Dimension: *acceleration*
 
+
 .. py:function:: moving_frame_acceleration_law(transfer_acceleration_, centripetal_acceleration_, rotation_acceleration_)
 
     Acceleration of :math:`S'` relative to :math:`S`.
@@ -103,6 +106,7 @@ in :math:`S'`.
         Latex: :math:`{\vec a}_0`
 
         Dimension: *acceleration*
+
 
 .. py:function:: centripetal_acceleration_law(transfer_acceleration_, moving_frame_acceleration_, rotation_acceleration_)
 
@@ -147,6 +151,7 @@ in :math:`S'`.
 
         Dimension: *acceleration*
 
+
 .. py:function:: rotation_acceleration_law(transfer_acceleration_, moving_frame_acceleration_, centripetal_acceleration_)
 
     Acceleration due to non-uniform rotation of :math:`S'`.
@@ -189,4 +194,3 @@ in :math:`S'`.
         Latex: :math:`{\vec a}_\text{rot}`
 
         Dimension: *acceleration*
-

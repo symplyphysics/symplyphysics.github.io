@@ -1,5 +1,5 @@
 Cross section of interaction in Coulomb's interaction model
------------------------------------------------------------
+===========================================================
 
 The effective cross section is a physical quantity characterizing the probability of
 transition of a system of two interacting particles to a certain final state, a
@@ -23,27 +23,29 @@ atoms.
 
     :attr:`~symplyphysics.symbols.chemistry.cross_section` of the interaction of particles.
 
-    Symbol:
-        :code:`sigma`
+Symbol:
+    :code:`sigma`
 
-    Latex:
-        :math:`\sigma`
+Latex:
+    :math:`\sigma`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: ionization_energy
 
     Ionization :attr:`~symplyphysics.symbols.basic.energy` of atoms expressed in :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
 
-    Symbol:
-        :code:`E_i`
+Symbol:
+    :code:`E_i`
 
-    Latex:
-        :math:`E_\text{i}`
+Latex:
+    :math:`E_\text{i}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

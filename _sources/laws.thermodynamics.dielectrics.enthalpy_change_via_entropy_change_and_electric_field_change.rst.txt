@@ -1,5 +1,5 @@
 Enthalpy change via entropy change and electric field change
-------------------------------------------------------------
+============================================================
 
 The infinitesimal change in entropy of the system with a dielectric medium can
 be expressed using the change in its entropy and the change in the electric
@@ -21,66 +21,71 @@ field strength.
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`dH`
+Symbol:
+    :code:`dH`
 
-    Latex:
-        :math:`dH`
+Latex:
+    :math:`dH`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: entropy_density_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`dS`
+Symbol:
+    :code:`dS`
 
-    Latex:
-        :math:`dS`
+Latex:
+    :math:`dS`
 
-    Dimension:
-        :code:`energy/(temperature*volume)`
+Dimension:
+    :code:`energy/(temperature*volume)`
+
 
 .. py:data:: electric_displacement
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement`.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`charge/area`
+Dimension:
+    :code:`charge/area`
+
 
 .. py:data:: electric_field_change
 
     Infinitesimal change in :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Symbol:
-        :code:`dE`
+Symbol:
+    :code:`dE`
 
-    Latex:
-        :math:`dE`
+Latex:
+    :math:`dE`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: law
 

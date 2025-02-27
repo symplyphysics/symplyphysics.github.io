@@ -1,5 +1,5 @@
 Period of rotation of charged particle in magnetic field
---------------------------------------------------------
+========================================================
 
 When a charged particle enters a magnetic field, it experiences an :doc:`electromagnetic
 force <laws.electricity.vector.lorentz_force_via_electromagnetic_field>` upon itself.
@@ -23,53 +23,57 @@ as well as by the magnetic field and it does not depend on the particle speed.
 
     :attr:`~symplyphysics.symbols.basic.period` of the particle's rotation.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the particle.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: charge
 
     :attr:`~symplyphysics.symbols.electrodynamics.charge` of the particle.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: magnetic_flux_density
 
     Magnitude of :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
 
-    Symbol:
-        :code:`B`
+Symbol:
+    :code:`B`
 
-    Latex:
-        :math:`B`
+Latex:
+    :math:`B`
 
-    Dimension:
-        :code:`magnetic_density`
+Dimension:
+    :code:`magnetic_density`
+
 
 .. py:data:: law
 

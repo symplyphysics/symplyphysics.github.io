@@ -1,5 +1,5 @@
 Mixture mass equals sum of component masses
--------------------------------------------
+===========================================
 
 The mass of a mixture of fluids is equal to the sum of the masses of the components of
 the mixture.
@@ -23,27 +23,29 @@ the mixture.
 
     :attr:`~symplyphysics.symbols.basic.mass` of the mixture.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: component_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the :math:`i`-th component.
 
-    Symbol:
-        :code:`m[i]`
+Symbol:
+    :code:`m[i]`
 
-    Latex:
-        :math:`{m}_{i}`
+Latex:
+    :math:`{m}_{i}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Charge is quantized
--------------------
+===================
 
 Electric charge is quantized, i.e. restricted to certain values.
 
@@ -17,27 +17,29 @@ Electric charge is quantized, i.e. restricted to certain values.
 
     Total :attr:`~symplyphysics.symbols.electrodynamics.charge` of the body.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: integer_factor
 
     :attr:`~symplyphysics.symbols.basic.whole_number`.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

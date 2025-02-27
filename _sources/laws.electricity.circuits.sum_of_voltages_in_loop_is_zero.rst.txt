@@ -1,5 +1,5 @@
 Sum of voltages in loop is zero
--------------------------------
+===============================
 
 The directed sum of the potential differences, or voltages, around any closed loop
 is zero. Directed sum implies that the sign of the voltages must be taken into account.
@@ -15,14 +15,15 @@ This law is also known as **Kirchhoff's second law**, or **Kirchhoff's loop rule
 
     :math:`i`-th voltage.
 
-    Symbol:
-        :code:`V[i]`
+Symbol:
+    :code:`V[i]`
 
-    Latex:
-        :math:`{V}_{i}`
+Latex:
+    :math:`{V}_{i}`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: law
 

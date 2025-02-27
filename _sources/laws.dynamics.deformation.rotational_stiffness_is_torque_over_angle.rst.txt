@@ -1,5 +1,5 @@
 Rotational stiffness is torque applied over angle
--------------------------------------------------
+=================================================
 
 *Rotational stiffness* is the extent to which an object resists rotational deformation.
 
@@ -13,40 +13,43 @@ Rotational stiffness is torque applied over angle
 
     Rotational stiffness of the body. See :attr:`~symplyphysics.symbols.classical_mechanics.torsion_stiffness`.
 
-    Symbol:
-        :code:`kappa`
+Symbol:
+    :code:`kappa`
 
-    Latex:
-        :math:`\kappa`
+Latex:
+    :math:`\kappa`
 
-    Dimension:
-        :code:`force*length/angle`
+Dimension:
+    :code:`force*length/angle`
+
 
 .. py:data:: torque
 
     :attr:`~symplyphysics.symbols.classical_mechanics.torque` applied to the body.
 
-    Symbol:
-        :code:`tau`
+Symbol:
+    :code:`tau`
 
-    Latex:
-        :math:`\tau`
+Latex:
+    :math:`\tau`
 
-    Dimension:
-        :code:`force*length`
+Dimension:
+    :code:`force*length`
+
 
 .. py:data:: angular_distance
 
     Angle of deformation. See :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance`
 
-    Symbol:
-        :code:`theta`
+Symbol:
+    :code:`theta`
 
-    Latex:
-        :math:`\theta`
+Latex:
+    :math:`\theta`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

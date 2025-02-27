@@ -1,5 +1,5 @@
 Fast fission factor from resonance escape probability
------------------------------------------------------
+=====================================================
 
 The fast fission factor is the ratio of the fast neutrons produced by fissions at all
 energies to the number of fast neutrons produced in thermal fission. Unfortunately
@@ -17,118 +17,127 @@ not very useful since there is no actual data on :math:`P_\text{FAF}`,
 
     :attr:`~symplyphysics.symbols.nuclear.fast_fission_factor`.
 
-    Symbol:
-        :code:`epsilon`
+Symbol:
+    :code:`epsilon`
 
-    Latex:
-        :math:`\varepsilon`
+Latex:
+    :math:`\varepsilon`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resonance_escape_probability
 
     :attr:`~symplyphysics.symbols.nuclear.resonance_escape_probability`.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: thermal_utilization_factor
 
     :attr:`~symplyphysics.symbols.nuclear.thermal_utilization_factor`.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: fast_utilization
 
     :attr:`~symplyphysics.symbols.nuclear.fast_utilization`.
 
-    Symbol:
-        :code:`u_f`
+Symbol:
+    :code:`u_f`
 
-    Latex:
-        :math:`u_\text{f}`
+Latex:
+    :math:`u_\text{f}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: fast_neutrons_per_fission
 
     Number of fast neutrons produced per fission. See :attr:`~symplyphysics.symbols.basic.particle_count`.
 
-    Symbol:
-        :code:`nu_f`
+Symbol:
+    :code:`nu_f`
 
-    Latex:
-        :math:`\nu_\text{f}`
+Latex:
+    :math:`\nu_\text{f}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: thermal_neutrons_per_fission
 
     Number of thermal neutrons produced per fission. See :attr:`~symplyphysics.symbols.basic.particle_count`.
 
-    Symbol:
-        :code:`nu_t`
+Symbol:
+    :code:`nu_t`
 
-    Latex:
-        :math:`\nu_\text{t}`
+Latex:
+    :math:`\nu_\text{t}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: fast_absorption_fission_probability
 
     :attr:`~symplyphysics.symbols.nuclear.fast_absorption_fission_probability`.
 
-    Symbol:
-        :code:`P_FAF`
+Symbol:
+    :code:`P_FAF`
 
-    Latex:
-        :math:`P_\text{FAF}`
+Latex:
+    :math:`P_\text{FAF}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: thermal_absorption_fission_probability
 
     :attr:`~symplyphysics.symbols.nuclear.thermal_absorption_fission_probability`.
 
-    Symbol:
-        :code:`P_TAF`
+Symbol:
+    :code:`P_TAF`
 
-    Latex:
-        :math:`P_\text{TAF}`
+Latex:
+    :math:`P_\text{TAF}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: thermal_non_leakage_probability
 
     :attr:`~symplyphysics.symbols.nuclear.thermal_non_leakage_probability`.
 
-    Symbol:
-        :code:`P_TNL`
+Symbol:
+    :code:`P_TNL`
 
-    Latex:
-        :math:`P_\text{TNL}`
+Latex:
+    :math:`P_\text{TNL}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

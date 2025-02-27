@@ -1,5 +1,5 @@
 Interference maximum
---------------------
+====================
 
 If the difference in the optical path of two waves is equal to an integer number of wavelengths
 (i.e. an even number of half-wavelengths) then an interference maximum is formed at the point
@@ -20,40 +20,43 @@ of superposition of these waves.
 
     Optical travel difference between two coherent waves. See :attr:`~symplyphysics.symbols.optics.optical_distance`.
 
-    Symbol:
-        :code:`Lambda`
+Symbol:
+    :code:`Lambda`
 
-    Latex:
-        :math:`\Lambda`
+Latex:
+    :math:`\Lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: integer_factor
 
     A :attr:`~symplyphysics.symbols.basic.whole_number` of interference maxima.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: wavelength
 
     :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of each of the both waves.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

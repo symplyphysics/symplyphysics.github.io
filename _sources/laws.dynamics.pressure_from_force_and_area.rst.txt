@@ -1,5 +1,5 @@
 Pressure from force and area
-----------------------------
+============================
 
 Pressure is the amount of force applied perpendicular to the surface of an object
 per unit area over which the force is distributed.
@@ -14,40 +14,43 @@ per unit area over which the force is distributed.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: force
 
     :attr:`~symplyphysics.symbols.classical_mechanics.force` applied.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area` over which the force is distributed.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: law
 

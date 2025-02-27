@@ -1,5 +1,5 @@
 Rotational inertia is mass times squared radius
------------------------------------------------
+===============================================
 
 Rotational inertia, or moment of inertia, is a physical quantity that describes a body's ability to
 be inertial during rotation. It is a rotational analog of mass in linear motion.
@@ -17,40 +17,43 @@ be inertial during rotation. It is a rotational analog of mass in linear motion.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the material point.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`length**2*mass`
+Dimension:
+    :code:`length**2*mass`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the material point.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: radial_distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_axis` of rotation.
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: definition
 

@@ -1,5 +1,5 @@
 Speed of sound via bulk modulus and density
--------------------------------------------
+===========================================
 
 Sound waves are longitudinal mechanical waves that can travel through any type of material,
 be it solid, liquid, or gas. The phase velocity of the a sound wave depends on the bulk modulus
@@ -15,40 +15,43 @@ of the medium it is traveling in and its density.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of sound wave.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: bulk_modulus
 
     :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the medium. Also see :doc:`laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain`.
 
-    Symbol:
-        :code:`K`
+Symbol:
+    :code:`K`
 
-    Latex:
-        :math:`K`
+Latex:
+    :math:`K`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: density
 
     :attr:`~symplyphysics.symbols.basic.density` of the medium.
 
-    Symbol:
-        :code:`rho`
+Symbol:
+    :code:`rho`
 
-    Latex:
-        :math:`\rho`
+Latex:
+    :math:`\rho`
 
-    Dimension:
-        :code:`mass/volume`
+Dimension:
+    :code:`mass/volume`
+
 
 .. py:data:: law
 

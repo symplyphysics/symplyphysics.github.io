@@ -1,5 +1,5 @@
 Gibbs energy of dielectrics
----------------------------
+===========================
 
 Gibbs energy of the system with a dielectric medium can be expressed using
 the Helmholtz free energy and the electric displacement and field strength.
@@ -20,53 +20,57 @@ the Helmholtz free energy and the electric displacement and field strength.
 
     :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`G`
+Symbol:
+    :code:`G`
 
-    Latex:
-        :math:`G`
+Latex:
+    :math:`G`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: free_energy_density
 
     :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system per units :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
 
-    Symbol:
-        :code:`F`
+Symbol:
+    :code:`F`
 
-    Latex:
-        :math:`F`
+Latex:
+    :math:`F`
 
-    Dimension:
-        :code:`energy/volume`
+Dimension:
+    :code:`energy/volume`
+
 
 .. py:data:: electric_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` in the medium.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`voltage/length`
+Dimension:
+    :code:`voltage/length`
+
 
 .. py:data:: electric_displacement
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement` in the medium.
 
-    Symbol:
-        :code:`D`
+Symbol:
+    :code:`D`
 
-    Latex:
-        :math:`D`
+Latex:
+    :math:`D`
 
-    Dimension:
-        :code:`charge/area`
+Dimension:
+    :code:`charge/area`
+
 
 .. py:data:: law
 

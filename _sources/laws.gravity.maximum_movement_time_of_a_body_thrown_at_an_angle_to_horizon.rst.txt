@@ -1,5 +1,5 @@
 Time of flight of a projectile via initial velocity
----------------------------------------------------
+===================================================
 
 Let the body be thrown at an angle to the horizon with some initial velocity. Then the time of the motion
 of this body until it reaches the initial elevation depends only on initial velocity and acceleration
@@ -26,40 +26,43 @@ of free fall.
 
     :attr:`~symplyphysics.symbols.basic.time` of flight of the projectile.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: initial_speed
 
     Initial :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the projectile.
 
-    Symbol:
-        :code:`v_0`
+Symbol:
+    :code:`v_0`
 
-    Latex:
-        :math:`v_{0}`
+Latex:
+    :math:`v_{0}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: angle
 
     :attr:`~symplyphysics.symbols.basic.angle`
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

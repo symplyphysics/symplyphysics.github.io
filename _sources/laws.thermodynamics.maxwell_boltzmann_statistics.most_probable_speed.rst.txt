@@ -1,5 +1,5 @@
 Most probable speed in Maxwell—Boltzmann statistics
----------------------------------------------------
+===================================================
 
 The *most probable speed* is the speed at which the Maxwell—Boltzmann speed distribution function
 is maximum.
@@ -23,40 +23,43 @@ is maximum.
 
     Most probable :attr:`~symplyphysics.symbols.classical_mechanics.speed` of particles.
 
-    Symbol:
-        :code:`v_prob`
+Symbol:
+    :code:`v_prob`
 
-    Latex:
-        :math:`v_\text{prob}`
+Latex:
+    :math:`v_\text{prob}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: equilibrium_temperature
 
     Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: molecular_mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of a gas molecule.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 

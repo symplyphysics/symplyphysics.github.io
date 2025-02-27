@@ -1,5 +1,5 @@
 Critical temperature
---------------------
+====================
 
 Critical temperature of a van der Waals fluid depends on the parameters :math:`a` and :math:`b`
 of the van der Waals equation and the molar gas constant :math:`R`. See :ref:`vdw_critical_parameters_def`.
@@ -18,40 +18,43 @@ of the van der Waals equation and the molar gas constant :math:`R`. See :ref:`vd
 
     Critical :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
 
-    Symbol:
-        :code:`T_c`
+Symbol:
+    :code:`T_c`
 
-    Latex:
-        :math:`T_\text{c}`
+Latex:
+    :math:`T_\text{c}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: attractive_forces_parameter
 
     :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`pressure*volume**2/amount_of_substance**2`
+Dimension:
+    :code:`pressure*volume**2/amount_of_substance**2`
+
 
 .. py:data:: excluded_volume_parameter
 
     :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: law
 

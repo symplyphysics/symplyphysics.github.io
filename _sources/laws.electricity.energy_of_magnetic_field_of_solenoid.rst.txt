@@ -1,5 +1,5 @@
 Energy of magnetic field of coil
---------------------------------
+================================
 
 Energy of a coil depends on the material of the core, the mangetic field strength within
 the coil and volume of the core.
@@ -17,53 +17,57 @@ the coil and volume of the core.
 
     :attr:`~symplyphysics.symbols.basic.energy` of the coil.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: relative_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
 
-    Symbol:
-        :code:`mu_r`
+Symbol:
+    :code:`mu_r`
 
-    Latex:
-        :math:`\mu_\text{r}`
+Latex:
+    :math:`\mu_\text{r}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: magnetic_field_strength
 
     :attr:`~symplyphysics.symbols.electrodynamics.magnetic_field_strength`.
 
-    Symbol:
-        :code:`H`
+Symbol:
+    :code:`H`
 
-    Latex:
-        :math:`H`
+Latex:
+    :math:`H`
 
-    Dimension:
-        :code:`current/length`
+Dimension:
+    :code:`current/length`
+
 
 .. py:data:: volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the coil.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

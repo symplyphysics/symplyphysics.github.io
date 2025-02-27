@@ -1,5 +1,5 @@
 Admittance in parallel connection
----------------------------------
+=================================
 
 The total admittance of the circuit whose components are connected in parallel is the sum
 of the admittances of individual components.
@@ -18,27 +18,29 @@ of the admittances of individual components.
 
     Total :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the circuit.
 
-    Symbol:
-        :code:`Y`
+Symbol:
+    :code:`Y`
 
-    Latex:
-        :math:`Y`
+Latex:
+    :math:`Y`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: admittance
 
     :attr:`~symplyphysics.symbols.electrodynamics.admittance` of :math:`i`-th circuit.
 
-    Symbol:
-        :code:`Y[i]`
+Symbol:
+    :code:`Y[i]`
 
-    Latex:
-        :math:`{Y}_{i}`
+Latex:
+    :math:`{Y}_{i}`
 
-    Dimension:
-        :code:`conductance`
+Dimension:
+    :code:`conductance`
+
 
 .. py:data:: law
 

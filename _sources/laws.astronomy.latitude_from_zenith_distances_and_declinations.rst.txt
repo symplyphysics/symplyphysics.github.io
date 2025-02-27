@@ -1,5 +1,5 @@
 Latitude from zenith angle and declination
-------------------------------------------
+==========================================
 
 Knowing the zenith angles and declinations of the northern and southern stars, it is possible
 to determine the latitude of the observation site.
@@ -22,66 +22,71 @@ to determine the latitude of the observation site.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.latitude` of the observation site.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\phi`
+Latex:
+    :math:`\phi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: north_zenith_angle
 
     :attr:`~symplyphysics.symbols.astronomy.zenith_angle` of the northern star.
 
-    Symbol:
-        :code:`theta_N`
+Symbol:
+    :code:`theta_N`
 
-    Latex:
-        :math:`\theta_\text{N}`
+Latex:
+    :math:`\theta_\text{N}`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: south_zenith_angle
 
     :attr:`~symplyphysics.symbols.astronomy.zenith_angle` of the southern star.
 
-    Symbol:
-        :code:`theta_S`
+Symbol:
+    :code:`theta_S`
 
-    Latex:
-        :math:`\theta_\text{S}`
+Latex:
+    :math:`\theta_\text{S}`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: north_declination
 
     :attr:`~symplyphysics.symbols.astronomy.declination` of the northern star.
 
-    Symbol:
-        :code:`delta_N`
+Symbol:
+    :code:`delta_N`
 
-    Latex:
-        :math:`\delta_\text{N}`
+Latex:
+    :math:`\delta_\text{N}`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: south_declination
 
     :attr:`~symplyphysics.symbols.astronomy.declination` of the southern star.
 
-    Symbol:
-        :code:`delta_S`
+Symbol:
+    :code:`delta_S`
 
-    Latex:
-        :math:`\delta_\text{S}`
+Latex:
+    :math:`\delta_\text{S}`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

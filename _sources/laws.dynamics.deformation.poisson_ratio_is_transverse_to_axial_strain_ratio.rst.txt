@@ -1,5 +1,5 @@
 Poisson ratio is transverse to axial strain ratio
--------------------------------------------------
+=================================================
 
 Poisson ratio is a physical quantity equal to the ratio of transverse strain
 to axial (or longitudinal) strain in the direction of a deforming force.
@@ -25,40 +25,43 @@ to axial (or longitudinal) strain in the direction of a deforming force.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.poisson_ratio` of the material of the deformed body.
 
-    Symbol:
-        :code:`nu`
+Symbol:
+    :code:`nu`
 
-    Latex:
-        :math:`\nu`
+Latex:
+    :math:`\nu`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: transverse_strain
 
     :attr:`~symplyphysics.symbols.classical_mechanics.strain` in the transverse (lateral) direction relative to the deforming force.
 
-    Symbol:
-        :code:`e_transverse`
+Symbol:
+    :code:`e_transverse`
 
-    Latex:
-        :math:`e_\text{transverse}`
+Latex:
+    :math:`e_\text{transverse}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: axial_strain
 
     :attr:`~symplyphysics.symbols.classical_mechanics.strain` in the axial direction, i.e. parallel to the deforming force.
 
-    Symbol:
-        :code:`e_axial`
+Symbol:
+    :code:`e_axial`
 
-    Latex:
-        :math:`e_\text{axial}`
+Latex:
+    :math:`e_\text{axial}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Electrochemical equivalent from molar mass and valence
-------------------------------------------------------
+======================================================
 
 Faraday's second law of electrolysis. The equivalent mass of a substance in general in
 chemistry is its molar mass divided by an integer depending on the chemical reaction in
@@ -21,40 +21,43 @@ in elementary units), resulting in a molecule or atom of the substance.
 
     :attr:`~symplyphysics.symbols.chemistry.electrochemical_equivalent`.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`mass/charge`
+Dimension:
+    :code:`mass/charge`
+
 
 .. py:data:: molar_mass
 
     :attr:`~symplyphysics.symbols.basic.molar_mass`.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: valence
 
     :attr:`~symplyphysics.symbols.chemistry.valence`.
 
-    Symbol:
-        :code:`v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        :math:`v`
+Latex:
+    :math:`v`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

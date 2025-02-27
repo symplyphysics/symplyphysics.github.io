@@ -1,5 +1,5 @@
 Total gain of transistor amplifier
-----------------------------------
+==================================
 
 The total gain of a transistor amplifier depends on the gain of the input and output
 matching circuits and the transistor gain.
@@ -13,53 +13,57 @@ matching circuits and the transistor gain.
 
     Total gain of the transistor amplifier. See :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`gain`
+Symbol:
+    :code:`gain`
 
-    Latex:
-        :math:`\text{gain}`
+Latex:
+    :math:`\text{gain}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: input_circuit_gain
 
     Input matching :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`gain_i`
+Symbol:
+    :code:`gain_i`
 
-    Latex:
-        :math:`\text{gain}_\text{i}`
+Latex:
+    :math:`\text{gain}_\text{i}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: transistor_gain
 
     Transistor gain. See :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`gain_t`
+Symbol:
+    :code:`gain_t`
 
-    Latex:
-        :math:`\text{gain}_\text{t}`
+Latex:
+    :math:`\text{gain}_\text{t}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: output_circuit_gain
 
     Output matching :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
 
-    Symbol:
-        :code:`gain_o`
+Symbol:
+    :code:`gain_o`
 
-    Latex:
-        :math:`\text{gain}_\text{o}`
+Latex:
+    :math:`\text{gain}_\text{o}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

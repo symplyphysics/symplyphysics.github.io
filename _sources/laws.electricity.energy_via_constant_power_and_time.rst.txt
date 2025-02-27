@@ -1,5 +1,5 @@
 Energy via constant power and time
-----------------------------------
+==================================
 
 When power is constant, energy can be expressed as a product of power and time.
 
@@ -20,40 +20,43 @@ When power is constant, energy can be expressed as a product of power and time.
 
     :attr:`~symplyphysics.symbols.basic.energy` consumed or released during time :math:`t`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: power
 
     Constant :attr:`~symplyphysics.symbols.basic.power`.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

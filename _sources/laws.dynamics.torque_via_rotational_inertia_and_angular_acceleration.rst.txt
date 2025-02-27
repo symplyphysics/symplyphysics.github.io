@@ -1,5 +1,5 @@
 Torque via rotational inertia and angular acceleration
-------------------------------------------------------
+======================================================
 
 Torque due to a force is a vector physical quantity that describes the effect of the force
 on a mechanical object causing its rotational motion.
@@ -14,40 +14,43 @@ on a mechanical object causing its rotational motion.
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.torque` applied on the object.
 
-    Symbol:
-        :code:`tau`
+Symbol:
+    :code:`tau`
 
-    Latex:
-        :math:`\tau`
+Latex:
+    :math:`\tau`
 
-    Dimension:
-        :code:`force*length`
+Dimension:
+    :code:`force*length`
+
 
 .. py:data:: rotational_inertia
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the object.
 
-    Symbol:
-        :code:`I`
+Symbol:
+    :code:`I`
 
-    Latex:
-        :math:`I`
+Latex:
+    :math:`I`
 
-    Dimension:
-        :code:`length**2*mass`
+Dimension:
+    :code:`length**2*mass`
+
 
 .. py:data:: angular_acceleration
 
     The :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration` of the object.
 
-    Symbol:
-        :code:`alpha`
+Symbol:
+    :code:`alpha`
 
-    Latex:
-        :math:`\alpha`
+Latex:
+    :math:`\alpha`
 
-    Dimension:
-        :code:`angle/time**2`
+Dimension:
+    :code:`angle/time**2`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Solution to the exponential decay equation
-------------------------------------------
+==========================================
 
 The solution to the exponential decay equation is the product of the initial quantity
 and the the ratio of the current time to the half-life of the quantity, raised to the
@@ -16,53 +16,57 @@ factor of 2.
 
     Quantity that still remains and has not decayed after :attr:`~time` :math:`t`.
 
-    Symbol:
-        :code:`X`
+Symbol:
+    :code:`X`
 
-    Latex:
-        :math:`X`
+Latex:
+    :math:`X`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: initial_quantity
 
     Initial quantity that will decay.
 
-    Symbol:
-        :code:`X_0`
+Symbol:
+    :code:`X_0`
 
-    Latex:
-        :math:`X_{0}`
+Latex:
+    :math:`X_{0}`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: half_life
 
     :attr:`~symplyphysics.symbols.nuclear.half_life` of the decaying quantity.
 
-    Symbol:
-        :code:`t_1/2`
+Symbol:
+    :code:`t_1/2`
 
-    Latex:
-        :math:`t_{1/2}`
+Latex:
+    :math:`t_{1/2}`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: law
 

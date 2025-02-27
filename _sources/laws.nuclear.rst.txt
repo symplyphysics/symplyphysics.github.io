@@ -6,27 +6,30 @@ and interactions, in addition to the study of other forms of nuclear matter.
 
 .. py:currentmodule:: symplyphysics.laws.nuclear
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.nuclear.buckling
-  laws.nuclear.diffusion_area_from_diffusion_coefficient
-  laws.nuclear.diffusion_equation_from_neutron_flux
-  laws.nuclear.effective_multiplication_factor
-  laws.nuclear.fast_fission_factor_from_resonance_escape_probability
-  laws.nuclear.fast_non_leakage_probability_from_fermi_age
-  laws.nuclear.infinite_multiplication_factor
-  laws.nuclear.infinite_multiplication_factor_from_macroscopic_fission_cross_section
-  laws.nuclear.law_of_half_life
-  laws.nuclear.macroscopic_cross_section_from_free_mean_path
-  laws.nuclear.macroscopic_cross_section_from_microscopic_cross_section
-  laws.nuclear.macroscopic_transport_cross_section
-  laws.nuclear.migration_area_from_diffusion_length
-  laws.nuclear.most_neutron_energies_scattering_angle_average_cosine
-  laws.nuclear.neutron_diffusion_coefficient_from_scattering_cross_section
-  laws.nuclear.reproduction_factor_from_macroscopic_fission_cross_section
-  laws.nuclear.resonance_escape_probability_from_resonance_absorption_integral
-  laws.nuclear.thermal_non_leakage_probability_from_diffusion_length
-  laws.nuclear.thermal_utilisation_factor_from_macroscopic_absorption_cross_sections
+    laws.nuclear.buckling
+    laws.nuclear.diffusion_area_from_diffusion_coefficient
+    laws.nuclear.diffusion_equation_from_neutron_flux
+    laws.nuclear.effective_multiplication_factor
+    laws.nuclear.fast_fission_factor_from_resonance_escape_probability
+    laws.nuclear.fast_non_leakage_probability_from_fermi_age
+    laws.nuclear.infinite_multiplication_factor
+    laws.nuclear.infinite_multiplication_factor_from_macroscopic_fission_cross_section
+    laws.nuclear.law_of_half_life
+    laws.nuclear.macroscopic_cross_section_from_free_mean_path
+    laws.nuclear.macroscopic_cross_section_from_microscopic_cross_section
+    laws.nuclear.macroscopic_transport_cross_section
+    laws.nuclear.migration_area_from_diffusion_length
+    laws.nuclear.most_neutron_energies_scattering_angle_average_cosine
+    laws.nuclear.neutron_diffusion_coefficient_from_scattering_cross_section
+    laws.nuclear.reproduction_factor_from_macroscopic_fission_cross_section
+    laws.nuclear.resonance_escape_probability_from_resonance_absorption_integral
+    laws.nuclear.thermal_non_leakage_probability_from_diffusion_length
+    laws.nuclear.thermal_utilisation_factor_from_macroscopic_absorption_cross_sections
+
+
+

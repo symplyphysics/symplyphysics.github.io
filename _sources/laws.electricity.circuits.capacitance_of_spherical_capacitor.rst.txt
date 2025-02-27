@@ -1,5 +1,5 @@
 Capacitance of spherical capacitor
-----------------------------------
+==================================
 
 A spherical capacitor is composed of two concentric spheres with the space between them
 filled with a dielectric medium. See `Figure`_.
@@ -16,53 +16,57 @@ filled with a dielectric medium. See `Figure`_.
 
     :attr:`~symplyphysics.symbols.electrodynamics.capacitance` of the capacitor.
 
-    Symbol:
-        :code:`C`
+Symbol:
+    :code:`C`
 
-    Latex:
-        :math:`C`
+Latex:
+    :math:`C`
 
-    Dimension:
-        :code:`capacitance`
+Dimension:
+    :code:`capacitance`
+
 
 .. py:data:: absolute_permittivity
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permittivity` of the medium between the spheres.
 
-    Symbol:
-        :code:`epsilon`
+Symbol:
+    :code:`epsilon`
 
-    Latex:
-        :math:`\varepsilon`
+Latex:
+    :math:`\varepsilon`
 
-    Dimension:
-        :code:`capacitance/length`
+Dimension:
+    :code:`capacitance/length`
+
 
 .. py:data:: inner_radius
 
     Radius of the inner sphere. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
 
-    Symbol:
-        :code:`r_in`
+Symbol:
+    :code:`r_in`
 
-    Latex:
-        :math:`r_\text{in}`
+Latex:
+    :math:`r_\text{in}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: outer_radius
 
     Radius of the outer sphere. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
 
-    Symbol:
-        :code:`r_out`
+Symbol:
+    :code:`r_out`
 
-    Latex:
-        :math:`r_\text{out}`
+Latex:
+    :math:`r_\text{out}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Compliance of two serial springs
---------------------------------
+================================
 
 If two springs are connected end-to-end to one another, i.e. connected in series, the
 total compliance of the system of springs is the sum of the compliances of each spring.
@@ -18,40 +18,43 @@ total compliance of the system of springs is the sum of the compliances of each 
 
     Total :attr:`~symplyphysics.symbols.classical_mechanics.compliance`.
 
-    Symbol:
-        :code:`c`
+Symbol:
+    :code:`c`
 
-    Latex:
-        :math:`c`
+Latex:
+    :math:`c`
 
-    Dimension:
-        :code:`length/force`
+Dimension:
+    :code:`length/force`
+
 
 .. py:data:: first_compliance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.compliance` of the first spring.
 
-    Symbol:
-        :code:`c_1`
+Symbol:
+    :code:`c_1`
 
-    Latex:
-        :math:`c_{1}`
+Latex:
+    :math:`c_{1}`
 
-    Dimension:
-        :code:`length/force`
+Dimension:
+    :code:`length/force`
+
 
 .. py:data:: second_compliance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.compliance` of the second spring.
 
-    Symbol:
-        :code:`c_2`
+Symbol:
+    :code:`c_2`
 
-    Latex:
-        :math:`c_{2}`
+Latex:
+    :math:`c_{2}`
 
-    Dimension:
-        :code:`length/force`
+Dimension:
+    :code:`length/force`
+
 
 .. py:data:: law
 

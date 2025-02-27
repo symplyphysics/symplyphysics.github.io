@@ -1,5 +1,5 @@
 Volume flux is constant
------------------------
+=======================
 
 The product of the area and the fluid speed, which is called the *volume flux*, is constant
 at all points along the tube of flow of an incompressible liquid. This equation is also
@@ -19,40 +19,43 @@ known as the *equation of continuity*.
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: tube_area
 
     Cross-sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the tube of flow as a function of :attr:`~time`.
 
-    Symbol:
-        :code:`A(t)`
+Symbol:
+    :code:`A(t)`
 
-    Latex:
-        :math:`A{\left(t \right)}`
+Latex:
+    :math:`A{\left(t \right)}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: flow_speed
 
     :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` of the fluid as a function of :attr:`~time`.
 
-    Symbol:
-        :code:`u(t)`
+Symbol:
+    :code:`u(t)`
 
-    Latex:
-        :math:`u{\left(t \right)}`
+Latex:
+    :math:`u{\left(t \right)}`
 
-    Dimension:
-        :code:`velocity`
+Dimension:
+    :code:`velocity`
+
 
 .. py:data:: law
 

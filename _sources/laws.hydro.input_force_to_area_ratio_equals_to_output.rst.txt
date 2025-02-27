@@ -1,5 +1,5 @@
 Force to area ratio in hydraulic press
---------------------------------------
+======================================
 
 If both vertically positioned cylinders of communicating vessels are closed with
 pistons, then with the help of external forces applied to the pistons, a large pressure
@@ -27,53 +27,57 @@ applied to the pistons to keep the system in balance.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.force` acting on the first piston.
 
-    Symbol:
-        :code:`F_1`
+Symbol:
+    :code:`F_1`
 
-    Latex:
-        :math:`F_{1}`
+Latex:
+    :math:`F_{1}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: input_area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area` of the first piston.
 
-    Symbol:
-        :code:`A_1`
+Symbol:
+    :code:`A_1`
 
-    Latex:
-        :math:`A_{1}`
+Latex:
+    :math:`A_{1}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: output_force
 
     :attr:`~symplyphysics.symbols.classical_mechanics.force` acting on the second piston.
 
-    Symbol:
-        :code:`F_2`
+Symbol:
+    :code:`F_2`
 
-    Latex:
-        :math:`F_{2}`
+Latex:
+    :math:`F_{2}`
 
-    Dimension:
-        :code:`force`
+Dimension:
+    :code:`force`
+
 
 .. py:data:: output_area
 
     :attr:`~symplyphysics.symbols.classical_mechanics.area` of the second piston.
 
-    Symbol:
-        :code:`A_2`
+Symbol:
+    :code:`A_2`
 
-    Latex:
-        :math:`A_{2}`
+Latex:
+    :math:`A_{2}`
 
-    Dimension:
-        :code:`area`
+Dimension:
+    :code:`area`
+
 
 .. py:data:: law
 

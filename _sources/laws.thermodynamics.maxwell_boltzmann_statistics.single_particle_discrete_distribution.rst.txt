@@ -1,5 +1,5 @@
 Discrete distribution
----------------------
+=====================
 
 Maxwell—Boltzmann distribution can be written as a discrete distribution of a single particle's
 discrete energy spectrum. Maxwell-Boltzmann statistics gives the average number of particles
@@ -24,66 +24,71 @@ found in a given single-particle microstate.
 
     Occupancy of, or expected number of particles in, the single-particle microstate :math:`i`.
 
-    Symbol:
-        :code:`N_i`
+Symbol:
+    :code:`N_i`
 
-    Latex:
-        :math:`N_{i}`
+Latex:
+    :math:`N_{i}`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: particle_count
 
     Total :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
 
-    Symbol:
-        :code:`N`
+Symbol:
+    :code:`N`
 
-    Latex:
-        :math:`N`
+Latex:
+    :math:`N`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: energy_of_state
 
     :attr:`~symplyphysics.symbols.basic.energy` of single-particle microstate :math:`i`.
 
-    Symbol:
-        :code:`E_i`
+Symbol:
+    :code:`E_i`
 
-    Latex:
-        :math:`E_{i}`
+Latex:
+    :math:`E_{i}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: equilibrium_temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: single_particle_partition_function
 
     Single-particle :attr:`~symplyphysics.symbols.thermodynamics.partition_function`, which acts as a normalizing factor of the distribution.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

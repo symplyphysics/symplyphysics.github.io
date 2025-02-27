@@ -1,5 +1,5 @@
 Dieterici equation
-------------------
+==================
 
 *Dieterici equation* is another type of semi-empirical equations approximating real gases
 along with the more well-known van der Waals equation of state.
@@ -30,66 +30,71 @@ along with the more well-known van der Waals equation of state.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`pressure`
+Dimension:
+    :code:`pressure`
+
 
 .. py:data:: molar_volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system per :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
 
-    Symbol:
-        :code:`V_m`
+Symbol:
+    :code:`V_m`
 
-    Latex:
-        :math:`V_{m}`
+Latex:
+    :math:`V_{m}`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: attractive_forces_parameter
 
     :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`pressure*volume**2/amount_of_substance**2`
+Dimension:
+    :code:`pressure*volume**2/amount_of_substance**2`
+
 
 .. py:data:: excluded_volume_parameter
 
     :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
 
-    Symbol:
-        :code:`b`
+Symbol:
+    :code:`b`
 
-    Latex:
-        :math:`b`
+Latex:
+    :math:`b`
 
-    Dimension:
-        :code:`volume/amount_of_substance`
+Dimension:
+    :code:`volume/amount_of_substance`
+
 
 .. py:data:: law
 

@@ -1,5 +1,5 @@
 Capacitor impedance from capacitor reactance
---------------------------------------------
+============================================
 
 When the serial resistance of ideal capacitor is zero, its impedance depends on its reactance.
 
@@ -12,27 +12,29 @@ When the serial resistance of ideal capacitor is zero, its impedance depends on 
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of a capacitor.
 
-    Symbol:
-        :code:`Z`
+Symbol:
+    :code:`Z`
 
-    Latex:
-        :math:`Z`
+Latex:
+    :math:`Z`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: reactance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of a capacitor.
 
-    Symbol:
-        :code:`X`
+Symbol:
+    :code:`X`
 
-    Latex:
-        :math:`X`
+Latex:
+    :math:`X`
 
-    Dimension:
-        :code:`impedance`
+Dimension:
+    :code:`impedance`
+
 
 .. py:data:: law
 

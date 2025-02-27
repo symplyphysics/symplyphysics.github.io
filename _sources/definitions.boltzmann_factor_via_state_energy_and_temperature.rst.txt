@@ -1,5 +1,5 @@
 Boltzmann factor via state energy and temperature
--------------------------------------------------
+=================================================
 
 The *Boltzmann factor* is an exponential factor that appears in many formulas of statistical physics
 and thermodynamics, e.g. the canonical partition function of a classical discrete system.
@@ -18,40 +18,43 @@ and thermodynamics, e.g. the canonical partition function of a classical discret
 
     :attr:`~symplyphysics.symbols.thermodynamics.boltzmann_factor`.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: energy_of_state
 
     :attr:`~symplyphysics.symbols.basic.energy` of state :math:`i`.
 
-    Symbol:
-        :code:`E[i]`
+Symbol:
+    :code:`E[i]`
 
-    Latex:
-        :math:`E_{i}`
+Latex:
+    :math:`E_{i}`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: equilibrium_temperature
 
     Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
 
-    Symbol:
-        :code:`T`
+Symbol:
+    :code:`T`
 
-    Latex:
-        :math:`T`
+Latex:
+    :math:`T`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: definition
 

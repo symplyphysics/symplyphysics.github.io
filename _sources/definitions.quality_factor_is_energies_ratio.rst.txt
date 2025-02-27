@@ -1,5 +1,5 @@
 Quality factor is ratio of energies
------------------------------------
+===================================
 
 **Quality factor** is a property of an oscillating system defined as the ratio between the amount of
 energy stored in system and the power losses.
@@ -13,53 +13,57 @@ energy stored in system and the power losses.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the oscillator.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: resonant_angular_frequency
 
     Resonant :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: stored_energy
 
     :attr:`~symplyphysics.symbols.basic.energy` stored in the oscillator.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: dissipated_power
 
     :attr:`~symplyphysics.symbols.basic.power` dissipated from the oscillator.
 
-    Symbol:
-        :code:`P`
+Symbol:
+    :code:`P`
 
-    Latex:
-        :math:`P`
+Latex:
+    :math:`P`
 
-    Dimension:
-        :code:`power`
+Dimension:
+    :code:`power`
+
 
 .. py:data:: definition
 

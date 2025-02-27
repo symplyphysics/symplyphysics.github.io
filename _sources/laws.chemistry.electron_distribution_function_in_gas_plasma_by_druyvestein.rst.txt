@@ -1,5 +1,5 @@
 Electron distribution function in gas plasma per Druyvestein
-------------------------------------------------------------
+============================================================
 
 In a gas discharge, electrons have a wide range of energies, which is described by the
 electron energy distribution function. Electrons in a gas-discharge plasma acquire their
@@ -28,53 +28,57 @@ passes into the Druyvestein distribution function.
 
     Electron distribution function.
 
-    Symbol:
-        :code:`f`
+Symbol:
+    :code:`f`
 
-    Latex:
-        :math:`f`
+Latex:
+    :math:`f`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: voltage
 
     :attr:`~symplyphysics.symbols.electrodynamics.voltage` between electrodes.
 
-    Symbol:
-        :code:`V`
+Symbol:
+    :code:`V`
 
-    Latex:
-        :math:`V`
+Latex:
+    :math:`V`
 
-    Dimension:
-        :code:`voltage`
+Dimension:
+    :code:`voltage`
+
 
 .. py:data:: electron_energy
 
     Electron :attr:`~symplyphysics.symbols.basic.energy`.
 
-    Symbol:
-        :code:`E`
+Symbol:
+    :code:`E`
 
-    Latex:
-        :math:`E`
+Latex:
+    :math:`E`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: energy_constant
 
     Constant equal to :math:`1.04 \, \text{eV}`.
 
-    Symbol:
-        :code:`E_0`
+Symbol:
+    :code:`E_0`
 
-    Latex:
-        :math:`E_0`
+Latex:
+    :math:`E_0`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: law
 

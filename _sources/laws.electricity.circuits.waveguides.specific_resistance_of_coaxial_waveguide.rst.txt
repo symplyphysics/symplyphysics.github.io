@@ -1,5 +1,5 @@
 Specific resistance of coaxial waveguide
-----------------------------------------
+========================================
 
 A coaxial waveguide is an electrical cable consisting of a central conductor and a
 shield arranged coaxially and separated by an insulating material or an air gap. It is
@@ -17,79 +17,85 @@ signal and specific conductivity of conductor.
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of coaxial waveguide per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`R`
+Symbol:
+    :code:`R`
 
-    Latex:
-        :math:`R`
+Latex:
+    :math:`R`
 
-    Dimension:
-        :code:`impedance/length`
+Dimension:
+    :code:`impedance/length`
+
 
 .. py:data:: absolute_permeability
 
     :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the insulator.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`inductance/length`
+Dimension:
+    :code:`inductance/length`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: specific_conductance
 
     :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
 
-    Symbol:
-        :code:`G`
+Symbol:
+    :code:`G`
 
-    Latex:
-        :math:`G`
+Latex:
+    :math:`G`
 
-    Dimension:
-        :code:`conductance/length`
+Dimension:
+    :code:`conductance/length`
+
 
 .. py:data:: outer_radius
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the outer conductor.
 
-    Symbol:
-        :code:`r_o`
+Symbol:
+    :code:`r_o`
 
-    Latex:
-        :math:`r_\text{o}`
+Latex:
+    :math:`r_\text{o}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: inner_radius
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the inner conductor.
 
-    Symbol:
-        :code:`r_i`
+Symbol:
+    :code:`r_i`
 
-    Latex:
-        :math:`r_\text{i}`
+Latex:
+    :math:`r_\text{i}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

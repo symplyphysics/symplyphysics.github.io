@@ -1,5 +1,5 @@
 Neutron flux for uniform cylinder
----------------------------------
+=================================
 
 Neutron flux for the uniform cylindrical reactor of radius :math:`r_0` and height
 :math:`h_0` depends on the radial distance :math:`r` and axial coordinate :math:`z`. A
@@ -17,80 +17,86 @@ the :math:`z`-axis.
     Dimension factor that appears as a coefficient in the solution to the :ref:`differential
     equation <Diffusion equation from neutron flux>`. See :attr:`~symplyphysics.symbols.nuclear.neutron_flux`.
 
-    Symbol:
-        :code:`Phi_0`
+Symbol:
+    :code:`Phi_0`
 
-    Latex:
-        :math:`\Phi_{0}`
+Latex:
+    :math:`\Phi_{0}`
 
-    Dimension:
-        :code:`1/(area*time)`
+Dimension:
+    :code:`1/(area*time)`
+
 
 .. py:data:: radial_distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_axis` within the cylindrical coordinate system of the cylinder.
 
-    Symbol:
-        :code:`r`
+Symbol:
+    :code:`r`
 
-    Latex:
-        :math:`r`
+Latex:
+    :math:`r`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: axial_coordinate
 
     :attr:`~symplyphysics.symbols.classical_mechanics.height` within the cylindrical coordinate system of the cylinder.
 
-    Symbol:
-        :code:`h`
+Symbol:
+    :code:`h`
 
-    Latex:
-        :math:`h`
+Latex:
+    :math:`h`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: radius
 
     :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the cylinder.
 
-    Symbol:
-        :code:`r_0`
+Symbol:
+    :code:`r_0`
 
-    Latex:
-        :math:`r_{0}`
+Latex:
+    :math:`r_{0}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: height
 
     :attr:`~symplyphysics.symbols.classical_mechanics.height` of the cylinder.
 
-    Symbol:
-        :code:`h_0`
+Symbol:
+    :code:`h_0`
 
-    Latex:
-        :math:`h_{0}`
+Latex:
+    :math:`h_{0}`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: neutron_flux
 
     :attr:`~symplyphysics.symbols.nuclear.neutron_flux` at a point with coordinates :attr:`~radial_distance` and
     :attr:`~axial_coordinate`.
 
-    Symbol:
-        :code:`Phi`
+Symbol:
+    :code:`Phi`
 
-    Latex:
-        :math:`\Phi`
+Latex:
+    :math:`\Phi`
 
-    Dimension:
-        :code:`1/(area*time)`
+Dimension:
+    :code:`1/(area*time)`
+
 
 .. py:data:: law
 

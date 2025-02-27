@@ -1,5 +1,5 @@
 Change in entropy of ideal gas from volume and temperature
-----------------------------------------------------------
+==========================================================
 
 *Entropy* is a property of a thermodynamic system that expresses the direction or outcome of spontaneous changes in the system.
 The term was introduced to explain the relationship of the internal energy that is available or unavailable for transformations in form of heat and work.
@@ -29,105 +29,113 @@ as they always tend to arrive at a state of thermodynamic equilibrium, where the
 
     :attr:`~symplyphysics.symbols.thermodynamics.entropy` change during the transition between the two states.
 
-    Symbol:
-        :code:`S`
+Symbol:
+    :code:`S`
 
-    Latex:
-        :math:`S`
+Latex:
+    :math:`S`
 
-    Dimension:
-        :code:`energy/temperature`
+Dimension:
+    :code:`energy/temperature`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the gas.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: molar_mass
 
     :attr:`~symplyphysics.symbols.basic.molar_mass`, or molecular weight, of the gas.
 
-    Symbol:
-        :code:`M`
+Symbol:
+    :code:`M`
 
-    Latex:
-        :math:`M`
+Latex:
+    :math:`M`
 
-    Dimension:
-        :code:`mass/amount_of_substance`
+Dimension:
+    :code:`mass/amount_of_substance`
+
 
 .. py:data:: molar_isochoric_heat_capacity
 
     :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant volume.
 
-    Symbol:
-        :code:`c_Vm`
+Symbol:
+    :code:`c_Vm`
 
-    Latex:
-        :math:`c_{V, \text{m}}`
+Latex:
+    :math:`c_{V, \text{m}}`
 
-    Dimension:
-        :code:`energy/(amount_of_substance*temperature)`
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
 
 .. py:data:: final_temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the final state.
 
-    Symbol:
-        :code:`T_1`
+Symbol:
+    :code:`T_1`
 
-    Latex:
-        :math:`T_{1}`
+Latex:
+    :math:`T_{1}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: initial_temperature
 
     :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the initial state.
 
-    Symbol:
-        :code:`T_0`
+Symbol:
+    :code:`T_0`
 
-    Latex:
-        :math:`T_{0}`
+Latex:
+    :math:`T_{0}`
 
-    Dimension:
-        :code:`temperature`
+Dimension:
+    :code:`temperature`
+
 
 .. py:data:: final_volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the final state.
 
-    Symbol:
-        :code:`V_1`
+Symbol:
+    :code:`V_1`
 
-    Latex:
-        :math:`V_{1}`
+Latex:
+    :math:`V_{1}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: initial_volume
 
     :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the initial state.
 
-    Symbol:
-        :code:`V_0`
+Symbol:
+    :code:`V_0`
 
-    Latex:
-        :math:`V_{0}`
+Latex:
+    :math:`V_{0}`
 
-    Dimension:
-        :code:`volume`
+Dimension:
+    :code:`volume`
+
 
 .. py:data:: law
 

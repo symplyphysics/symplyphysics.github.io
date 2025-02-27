@@ -1,5 +1,5 @@
 Quality factor via damping ratio
---------------------------------
+================================
 
 In case of a damped oscillating system where the damping force is linearly proportional
 to the oscillator's frequency, the :math:`Q` factor of the oscillator is inversely
@@ -16,27 +16,29 @@ correspond to lower values of the damping ratio and to lower damping.
 
     :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the oscillator.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: damping_ratio
 
     :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio` of the oscillator. Also see :ref:`Damped harmonic oscillator equation`.
 
-    Symbol:
-        :code:`zeta`
+Symbol:
+    :code:`zeta`
 
-    Latex:
-        :math:`\zeta`
+Latex:
+    :math:`\zeta`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 

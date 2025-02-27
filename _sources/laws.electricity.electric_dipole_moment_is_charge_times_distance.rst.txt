@@ -1,5 +1,5 @@
 Electric dipole moment is charge times distance
------------------------------------------------
+===============================================
 
 Electric dipole moment is a measure of the separation of positive and negative
 electrical charges within a system, i.e. it is a measure of the system's overall
@@ -20,40 +20,43 @@ polarity. Also see :doc:`vector counterpart <laws.electricity.vector.electric_di
 
     :attr:`~symplyphysics.symbols.electrodynamics.electric_dipole_moment` of the system.
 
-    Symbol:
-        :code:`p`
+Symbol:
+    :code:`p`
 
-    Latex:
-        :math:`p`
+Latex:
+    :math:`p`
 
-    Dimension:
-        :code:`charge*length`
+Dimension:
+    :code:`charge*length`
+
 
 .. py:data:: charge
 
     Magnitude of one the two point :attr:`~symplyphysics.symbols.electrodynamics.charge`-s comprising the system.
 
-    Symbol:
-        :code:`q`
+Symbol:
+    :code:`q`
 
-    Latex:
-        :math:`q`
+Latex:
+    :math:`q`
 
-    Dimension:
-        :code:`charge`
+Dimension:
+    :code:`charge`
+
 
 .. py:data:: distance
 
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between point charges.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: law
 

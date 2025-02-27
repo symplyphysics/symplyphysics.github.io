@@ -1,5 +1,5 @@
 Reduced mass of a two-body system
----------------------------------
+=================================
 
 Reduced mass is effective inertial mass in a system with two or more particles when they
 are interacting with each other. This allowes the two-body problem to be solved as if it
@@ -15,40 +15,43 @@ were a one-body problem.
 
     The reduced :attr:`~symplyphysics.symbols.basic.mass` of the system.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: first_mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the first body.
 
-    Symbol:
-        :code:`m1`
+Symbol:
+    :code:`m1`
 
-    Latex:
-        :math:`m_{1}`
+Latex:
+    :math:`m_{1}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: second_mass
 
     The :attr:`~symplyphysics.symbols.basic.mass` of the second body.
 
-    Symbol:
-        :code:`m2`
+Symbol:
+    :code:`m2`
 
-    Latex:
-        :math:`m_{2}`
+Latex:
+    :math:`m_{2}`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: law
 
@@ -57,4 +60,5 @@ were a one-body problem.
     Latex:
         .. math::
             \mu = \frac{1}{\frac{1}{m_1} + \frac{1}{m_2}}
+
 

@@ -1,5 +1,5 @@
 Displacement in underdamping
-----------------------------
+============================
 
 In the presence of a damping force in the oscillating system, the system's behavior
 depends on the value of the damping ratio. When it is less than :math:`1`, the system oscillates
@@ -16,80 +16,86 @@ to zero. This behavior is also known as *underdamping*.
 
     Displacement from rest, usually a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
 
-    Symbol:
-        :code:`d`
+Symbol:
+    :code:`d`
 
-    Latex:
-        :math:`d`
+Latex:
+    :math:`d`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: time
 
     :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~displacement` is measured.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: scaling_coefficient
 
     Scaling coefficient to be found using initial conditions.
 
-    Symbol:
-        :code:`a`
+Symbol:
+    :code:`a`
 
-    Latex:
-        :math:`a`
+Latex:
+    :math:`a`
 
-    Dimension:
-        :code:`length`
+Dimension:
+    :code:`length`
+
 
 .. py:data:: exponential_decay_constant
 
     :attr:`~symplyphysics.symbols.basic.exponential_decay_constant` of the oscillator.
 
-    Symbol:
-        :code:`lambda`
+Symbol:
+    :code:`lambda`
 
-    Latex:
-        :math:`\lambda`
+Latex:
+    :math:`\lambda`
 
-    Dimension:
-        :code:`1/time`
+Dimension:
+    :code:`1/time`
+
 
 .. py:data:: damped_angular_frequency
 
     :doc:`Damped angular frequency <laws.kinematics.damped_oscillations.damped_angular_frequency>`
     of the oscillator. See :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency`.
 
-    Symbol:
-        :code:`w_d`
+Symbol:
+    :code:`w_d`
 
-    Latex:
-        :math:`\omega_\text{d}`
+Latex:
+    :math:`\omega_\text{d}`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: phase_shift
 
     :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the oscillations, i.e. the phase at :math:`t = 0`.
 
-    Symbol:
-        :code:`phi`
+Symbol:
+    :code:`phi`
 
-    Latex:
-        :math:`\varphi`
+Latex:
+    :math:`\varphi`
 
-    Dimension:
-        :code:`angle`
+Dimension:
+    :code:`angle`
+
 
 .. py:data:: law
 

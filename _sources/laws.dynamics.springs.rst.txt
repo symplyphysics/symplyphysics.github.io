@@ -7,12 +7,15 @@ energy.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.springs
 
-Contents:
+**Contents:**
 
 .. toctree::
-  :maxdepth: 4
+    :maxdepth: 4
 
-  laws.dynamics.springs.vector
-  laws.dynamics.springs.compliance_of_two_serial_springs
-  laws.dynamics.springs.spring_reaction_is_proportional_to_deformation
-  laws.dynamics.springs.stiffness_of_two_parallel_springs
+    laws.dynamics.springs.vector
+    laws.dynamics.springs.compliance_of_two_serial_springs
+    laws.dynamics.springs.spring_reaction_is_proportional_to_deformation
+    laws.dynamics.springs.stiffness_of_two_parallel_springs
+
+
+

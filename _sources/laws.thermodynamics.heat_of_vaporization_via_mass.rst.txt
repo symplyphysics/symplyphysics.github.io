@@ -1,5 +1,5 @@
 Heat of vaporization via mass
------------------------------
+=============================
 
 *Heat of vaporization* is the heat released during the complete vaporization of a body,
 in which it is converted from liquid into gaseous state.
@@ -14,40 +14,43 @@ in which it is converted from liquid into gaseous state.
 
     :attr:`~symplyphysics.symbols.thermodynamics.heat` released during vaporization.
 
-    Symbol:
-        :code:`Q`
+Symbol:
+    :code:`Q`
 
-    Latex:
-        :math:`Q`
+Latex:
+    :math:`Q`
 
-    Dimension:
-        :code:`energy`
+Dimension:
+    :code:`energy`
+
 
 .. py:data:: mass
 
     :attr:`~symplyphysics.symbols.basic.mass` of the body subjected to vaporization.
 
-    Symbol:
-        :code:`m`
+Symbol:
+    :code:`m`
 
-    Latex:
-        :math:`m`
+Latex:
+    :math:`m`
 
-    Dimension:
-        :code:`mass`
+Dimension:
+    :code:`mass`
+
 
 .. py:data:: specific_heat_of_vaporization
 
     Heat of vaporization per unit mass of the body. See :attr:`~symplyphysics.symbols.basic.specific_energy`.
 
-    Symbol:
-        :code:`epsilon_L`
+Symbol:
+    :code:`epsilon_L`
 
-    Latex:
-        :math:`\varepsilon_{L}`
+Latex:
+    :math:`\varepsilon_{L}`
 
-    Dimension:
-        :code:`energy/mass`
+Dimension:
+    :code:`energy/mass`
+
 
 .. py:data:: law
 

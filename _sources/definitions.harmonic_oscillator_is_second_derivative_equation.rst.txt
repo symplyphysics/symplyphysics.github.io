@@ -1,5 +1,5 @@
 Harmonic oscillator is a second order derivative equation
----------------------------------------------------------
+=========================================================
 
 In classical mechanics, a harmonic oscillator is a system that, when displaced from its equilibrium position, experiences a restoring force F proportional to the displacement x.
 If F is the only force acting on the system, the system is called a simple harmonic oscillator.
@@ -20,40 +20,43 @@ Displacement is not only limited to physical motion, but should be interpreted i
 
     :attr:`~symplyphysics.symbols.basic.time`.
 
-    Symbol:
-        :code:`t`
+Symbol:
+    :code:`t`
 
-    Latex:
-        :math:`t`
+Latex:
+    :math:`t`
 
-    Dimension:
-        :code:`time`
+Dimension:
+    :code:`time`
+
 
 .. py:data:: displacement
 
     Displacement of oscillator from equilibrium as a function of time. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
 
-    Symbol:
-        :code:`x(t)`
+Symbol:
+    :code:`x(t)`
 
-    Latex:
-        :math:`x{\left(t \right)}`
+Latex:
+    :math:`x{\left(t \right)}`
 
-    Dimension:
-        :code:`any_dimension`
+Dimension:
+    :code:`any_dimension`
+
 
 .. py:data:: angular_frequency
 
     :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
 
-    Symbol:
-        :code:`w`
+Symbol:
+    :code:`w`
 
-    Latex:
-        :math:`\omega`
+Latex:
+    :math:`\omega`
 
-    Dimension:
-        :code:`angle/time`
+Dimension:
+    :code:`angle/time`
+
 
 .. py:data:: definition
 

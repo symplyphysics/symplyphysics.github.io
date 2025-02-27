@@ -1,5 +1,5 @@
 Average cosine of scattering angle from mass number
----------------------------------------------------
+===================================================
 
 Averaged cosine of the angle of neutron scattering depends on the mass number of the
 target nucleus.
@@ -14,28 +14,30 @@ target nucleus.
 
     :attr:`~symplyphysics.symbols.chemistry.mass_number` of the target nucleus.
 
-    Symbol:
-        :code:`A`
+Symbol:
+    :code:`A`
 
-    Latex:
-        :math:`A`
+Latex:
+    :math:`A`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: average_scattering_angle_cosine
 
     Average of the cosine of the angle at which neutrons are scattered in the medium in the
     lab system.
 
-    Symbol:
-        :code:`mu`
+Symbol:
+    :code:`mu`
 
-    Latex:
-        :math:`\mu`
+Latex:
+    :math:`\mu`
 
-    Dimension:
-        :code:`dimensionless`
+Dimension:
+    :code:`dimensionless`
+
 
 .. py:data:: law
 
