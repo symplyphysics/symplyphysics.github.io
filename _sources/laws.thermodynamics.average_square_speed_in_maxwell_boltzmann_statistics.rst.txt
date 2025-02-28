@@ -27,7 +27,7 @@ Symbol:
     :code:`avg(v^2)`
 
 Latex:
-    :math:`\langle v^{2 \rangle}`
+    :math:`\langle v^{2} \rangle`
 
 Dimension:
     :code:`velocity**2`
@@ -68,6 +68,6 @@ Dimension:
 
     Latex:
         .. math::
-            \langle v^{2 \rangle} = \frac{3 k_\text{B} T}{m}
+            \langle v^{2} \rangle = \frac{3 k_\text{B} T}{m}
 
 

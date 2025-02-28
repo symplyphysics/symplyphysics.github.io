@@ -37,7 +37,7 @@ Symbol:
     :code:`dT`
 
 Latex:
-    :math:`dT`
+    :math:`d T`
 
 Dimension:
     :code:`temperature`
@@ -65,7 +65,7 @@ Symbol:
     :code:`dp`
 
 Latex:
-    :math:`dp`
+    :math:`d p`
 
 Dimension:
     :code:`pressure`
@@ -93,7 +93,7 @@ Symbol:
     :code:`d(mu)`
 
 Latex:
-    :math:`d\mu`
+    :math:`d \mu`
 
 Dimension:
     :code:`energy`
@@ -106,6 +106,6 @@ Dimension:
 
     Latex:
         .. math::
-            S dT - V dp + N d\mu = 0
+            S d T - V d p + N d \mu = 0
 
 
