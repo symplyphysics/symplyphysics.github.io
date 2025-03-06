@@ -159,7 +159,7 @@
         <span class="bp">cls</span><span class="o">.</span><span class="n">arguments</span> <span class="o">=</span> <span class="n">arguments</span>
         <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
 
-    <span class="k">def</span><span class="w"> </span><span class="fm">__repr__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__repr__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>  <span class="c1"># pylint: disable=invalid-repr-returned</span>
         <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">display_name</span>
 
 
