@@ -36,7 +36,7 @@
 <span class="kn">from</span><span class="w"> </span><span class="nn">typing</span><span class="w"> </span><span class="kn">import</span> <span class="n">Any</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Sequence</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sympy</span><span class="w"> </span><span class="kn">import</span> <span class="n">S</span><span class="p">,</span> <span class="n">Idx</span><span class="p">,</span> <span class="n">MatAdd</span><span class="p">,</span> <span class="n">MatMul</span><span class="p">,</span> <span class="n">MatrixBase</span><span class="p">,</span> <span class="n">Symbol</span> <span class="k">as</span> <span class="n">SymSymbol</span><span class="p">,</span> <span class="n">Expr</span><span class="p">,</span> <span class="n">Equality</span><span class="p">,</span> <span class="n">IndexedBase</span><span class="p">,</span> <span class="n">Matrix</span> <span class="k">as</span> <span class="n">SymMatrix</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sympy.physics.units</span><span class="w"> </span><span class="kn">import</span> <span class="n">Dimension</span>
-<span class="kn">from</span><span class="w"> </span><span class="nn">sympy.core.function</span><span class="w"> </span><span class="kn">import</span> <span class="n">UndefinedFunction</span>
+<span class="kn">from</span><span class="w"> </span><span class="nn">sympy.core.function</span><span class="w"> </span><span class="kn">import</span> <span class="n">UndefinedFunction</span><span class="p">,</span> <span class="n">AppliedUndef</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sympy.printing.printer</span><span class="w"> </span><span class="kn">import</span> <span class="n">Printer</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sympy.printing.pretty.pretty</span><span class="w"> </span><span class="kn">import</span> <span class="n">PrettyPrinter</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sympy.printing.pretty.stringpict</span><span class="w"> </span><span class="kn">import</span> <span class="n">prettyForm</span>
@@ -133,14 +133,14 @@
 
 
 <span class="k">class</span><span class="w"> </span><span class="nc">Function</span><span class="p">(</span><span class="n">DimensionSymbol</span><span class="p">,</span> <span class="n">UndefinedFunction</span><span class="p">):</span>  <span class="c1"># type: ignore[misc]</span>
-    <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span>
+    <span class="n">arguments</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]]</span>
 
     <span class="c1"># NOTE: Self type cannot be used in a metaclass and &#39;mcs&#39; is a metaclass here</span>
     <span class="c1"># NOTE: constructor returns not an object, but a class. Object is constructed</span>
     <span class="c1">#       when arguments of a function are applied.</span>
     <span class="k">def</span><span class="w"> </span><span class="fm">__new__</span><span class="p">(</span><span class="n">mcs</span><span class="p">,</span>
         <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
-        <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span> <span class="o">=</span> <span class="p">(),</span>
+        <span class="n">arguments</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">_dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">*</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
@@ -150,14 +150,18 @@
 
     <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span>
         <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
-        <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span> <span class="o">=</span> <span class="p">(),</span>
+        <span class="n">arguments</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
         <span class="n">dimension</span><span class="p">:</span> <span class="n">Dimension</span> <span class="o">=</span> <span class="n">Dimension</span><span class="p">(</span><span class="n">S</span><span class="o">.</span><span class="n">One</span><span class="p">),</span>
         <span class="o">*</span><span class="p">,</span>
         <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
-        <span class="o">**</span><span class="n">_options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="o">**</span><span class="n">options</span><span class="p">:</span> <span class="n">Any</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="n">display_name</span> <span class="o">=</span> <span class="n">display_symbol</span> <span class="ow">or</span> <span class="nb">str</span><span class="p">(</span><span class="bp">cls</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
         <span class="bp">cls</span><span class="o">.</span><span class="n">arguments</span> <span class="o">=</span> <span class="n">arguments</span>
-        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
+        <span class="n">DimensionSymbol</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">display_name</span><span class="p">,</span> <span class="n">dimension</span><span class="p">,</span> <span class="n">display_latex</span><span class="o">=</span><span class="n">display_latex</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">arguments</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">options</span><span class="p">[</span><span class="s2">&quot;nargs&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">arguments</span><span class="p">)</span>
+        <span class="n">UndefinedFunction</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="o">**</span><span class="n">options</span><span class="p">)</span>
 
     <span class="k">def</span><span class="w"> </span><span class="fm">__repr__</span><span class="p">(</span><span class="bp">cls</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>  <span class="c1"># pylint: disable=invalid-repr-returned</span>
         <span class="k">return</span> <span class="bp">cls</span><span class="o">.</span><span class="n">display_name</span>
@@ -265,7 +269,7 @@
 
 <span class="k">def</span><span class="w"> </span><span class="nf">clone_as_function</span><span class="p">(</span>
     <span class="n">source</span><span class="p">:</span> <span class="n">Symbol</span> <span class="o">|</span> <span class="n">IndexedSymbol</span><span class="p">,</span>
-    <span class="n">arguments</span><span class="p">:</span> <span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]</span> <span class="o">=</span> <span class="p">(),</span>
+    <span class="n">arguments</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Sequence</span><span class="p">[</span><span class="n">Expr</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="o">*</span><span class="p">,</span>
     <span class="n">display_symbol</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
     <span class="n">display_latex</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
