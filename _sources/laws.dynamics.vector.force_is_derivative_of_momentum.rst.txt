@@ -1,5 +1,5 @@
-Force is derivative of momentum
-===============================
+Force is derivative of momentum (vector)
+========================================
 
 Newton's second law of motion can be generalized in terms of linear momentum. Precisely,
 the net force exerted on a body is equal to the time derivative of the body's momentum.
@@ -8,13 +8,13 @@ the net force exerted on a body is equal to the time derivative of the body's mo
 
 #. Works in relativistic mechanics as well as in classical mechanics.
 
-#. See :ref:`vector counterpart <Force is derivative of momentum (vector)>` of this law.
+#. See :ref:`scalar counterpart <Force is derivative of momentum>` of this law.
 
 **Links:**
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Momentum#Relation_to_force>`__.
 
-.. py:currentmodule:: symplyphysics.laws.dynamics.force_is_derivative_of_momentum
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.force_is_derivative_of_momentum
 
 .. py:data:: time
 
@@ -35,10 +35,10 @@ Dimension:
     The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the body as a function of :attr:`~time`.
 
 Symbol:
-    :code:`p(t)`
+    :code:`p`
 
 Latex:
-    :math:`p{\left(t \right)}`
+    :math:`p`
 
 Dimension:
     :code:`momentum`
@@ -49,22 +49,24 @@ Dimension:
     The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body as a function of :attr:`~time`.
 
 Symbol:
-    :code:`F(t)`
+    :code:`F`
 
 Latex:
-    :math:`F{\left(t \right)}`
+    :math:`F`
 
 Dimension:
     :code:`force`
 
 
-.. py:data:: law
+.. py:data:: force_law
 
-    :code:`Derivative(p(t), t) = F(t)`
+    ..
+        Auto-printing of vector expressions has not been implemented yet.
 
+    :code:`F(t) = Derivative(p(t), t)`
 
     Latex:
         .. math::
-            \frac{d}{d t} p{\left(t \right)} = F{\left(t \right)}
+            \mathbf{F}(t) = \frac{d}{d t} \mathbf{p}(t)
 
 
