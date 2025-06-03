@@ -35,10 +35,10 @@ Dimension:
     The magnitude of the :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the body as a function of :attr:`~time`.
 
 Symbol:
-    :code:`p`
+    :code:`p(t)`
 
 Latex:
-    :math:`p`
+    :math:`\mathbf{p} \left( t \right)`
 
 Dimension:
     :code:`momentum`
@@ -49,10 +49,10 @@ Dimension:
     The magnitude of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body as a function of :attr:`~time`.
 
 Symbol:
-    :code:`F`
+    :code:`F(t)`
 
 Latex:
-    :math:`F`
+    :math:`\mathbf{F} \left( t \right)`
 
 Dimension:
     :code:`force`
