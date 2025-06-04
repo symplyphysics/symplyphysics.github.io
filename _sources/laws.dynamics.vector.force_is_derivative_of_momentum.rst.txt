@@ -60,13 +60,11 @@ Dimension:
 
 .. py:data:: force_law
 
-    ..
-        Auto-printing of vector expressions has not been implemented yet.
-
     :code:`F(t) = Derivative(p(t), t)`
+
 
     Latex:
         .. math::
-            \mathbf{F}(t) = \frac{d}{d t} \mathbf{p}(t)
+            \mathbf{F} \left( t \right) = \frac{d}{d t} \mathbf{p} \left( t \right)
 
 
