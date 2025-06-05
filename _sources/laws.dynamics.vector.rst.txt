@@ -11,6 +11,7 @@ Vector subset of dynamics laws
     :maxdepth: 4
 
 
+    laws.dynamics.vector.acceleration_from_force
     laws.dynamics.vector.force_is_derivative_of_momentum
     laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
 

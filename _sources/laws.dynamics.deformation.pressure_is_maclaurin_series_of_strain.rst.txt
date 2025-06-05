@@ -101,11 +101,11 @@ Dimension:
 
         Big O should be evaluated by SymPy
 
-    :code:`p = A * e^2 + B * e^3 + E * e + O(e^4)`
+    :code:`p = e * E + A * e^2 + B * e^3 + O(e^4)`
 
 
     Latex:
         .. math::
-            p = A e^{2} + B e^{3} + E e + O\left(e^{4}\right)
+            p = e E + A e^{2} + B e^{3} + O\left(e^{4}\right)
 
 
