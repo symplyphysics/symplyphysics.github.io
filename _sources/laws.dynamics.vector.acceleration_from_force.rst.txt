@@ -33,7 +33,7 @@ Symbol:
     :code:`a`
 
 Latex:
-    :math:`a`
+    :math:`\mathbf{a}`
 
 Dimension:
     :code:`acceleration`
@@ -47,7 +47,7 @@ Symbol:
     :code:`F`
 
 Latex:
-    :math:`F`
+    :math:`\mathbf{F}`
 
 Dimension:
     :code:`force`
@@ -60,6 +60,6 @@ Dimension:
 
     Latex:
         .. math::
-            a = \frac{F}{m}
+            \mathbf{a} = \frac{\mathbf{F}}{m}
 
 

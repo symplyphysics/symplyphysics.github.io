@@ -23,57 +23,41 @@ Dimension:
     :code:`mass`
 
 
-.. py:function:: momentum_definition(velocity_)
+.. py:data:: velocity
 
-    Vector of *linear momentum*.
+    Vector of the object's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
-    Law:
-        :code:`p = m * v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        .. math::
-            \vec p = m \vec v
+Latex:
+    :math:`\mathbf{v}`
 
-    :param velocity\_: vector of velocity of the object.
-
-        Symbol: :code:`v`
-
-        Latex: :math:`\vec v`
-
-        Dimension: *velocity*
-
-    :return: vector of linear momentum.
-
-        Symbol: :code:`p`
-
-        Latex: :math:`\vec p`
-
-        Dimension: *momentum*
+Dimension:
+    :code:`velocity`
 
 
-.. py:function:: velocity_law(momentum_)
+.. py:data:: momentum
 
-    Vector of *velocity*
+    Vector of the object's linear :attr:`~symplyphysics.symbols.classical_mechanics.momentum`.
 
-    Law:
-        :code:`v = p / m`
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`\mathbf{p}`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: law
+
+    :code:`p = m * v`
+
 
     Latex:
         .. math::
-            \vec v = \frac{\vec p}{m}
+            \mathbf{p} = m \mathbf{v}
 
-    :param momentum\_: vector of linear momentum.
 
-        Symbol: :code:`p`
-
-        Latex: :math:`\vec p`
-
-        Dimension: *momentum*
-
-    :return: vector of velocity of the object.
-
-        Symbol: :code:`v`
-
-        Latex: :math:`\vec v`
-
-        Dimension: *velocity*
