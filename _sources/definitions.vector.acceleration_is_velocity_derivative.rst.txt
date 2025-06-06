@@ -1,0 +1,67 @@
+Acceleration is velocity derivative
+===================================
+
+**Acceleration** is the derivative of velocity w.r.t. time.
+
+**Notes:**
+
+#. Also see :ref:`the scalar counterpart <Acceleration is speed derivative>` of this law.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Acceleration#Instantaneous_acceleration>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.vector.acceleration_is_velocity_derivative
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: acceleration
+
+    Vector of the body's :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` as a function of :attr:`~time`.
+
+Symbol:
+    :code:`a(t)`
+
+Latex:
+    :math:`a \left( t \right)`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: velocity
+
+    Vector of the body's velocity as a function of :attr:`~time`. Also see :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v(t)`
+
+Latex:
+    :math:`v \left( t \right)`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: law
+
+    :code:`a(t) = Derivative(v(t), t)`
+
+
+    Latex:
+        .. math::
+            a \left( t \right) = \frac{d}{d t} v \left( t \right)
+
+
