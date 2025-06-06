@@ -13,10 +13,7 @@ of an oscillator.
 
 .. py:data:: damping_constant
 
-    Non-negative damping constant.
-
-    ..
-        TODO: add to `symbols`
+    Non-negative :attr:`~symplyphysics.symbols.classical_mechanics.damping_constant`.
 
 Symbol:
     :code:`b`
@@ -28,57 +25,41 @@ Dimension:
     :code:`mass/time`
 
 
-.. py:function:: damping_force_definition(velocity_)
+.. py:data:: velocity
 
-    Vector of *damping force* exerted on the object.
+    Vector of the body's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
 
-    Law:
-        :code:`F = -1 * b * v`
+Symbol:
+    :code:`v`
 
-    Latex:
-        .. math::
-            \vec F = -b \vec v
+Latex:
+    :math:`{\vec v}`
 
-    :param velocity\_: velocity vector of the object.
-
-        Symbol: :code:`v`
-
-        Latex: :math:`\vec v`
-
-        Dimension: *velocity*
-
-    :return: vector of damping :attr:`~symplyphysics.symbols.classical_mechanics.force`.
-
-        Symbol: :code:`F`
-
-        Latex: :math:`\vec F`
-
-        Dimension: *force*
+Dimension:
+    :code:`velocity`
 
 
-.. py:function:: velocity_law(damping_force_)
+.. py:data:: damping_force
 
-    *Velocity* of the object which the damping force is exerted on.
+    Vector of the damping :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
 
-    Law:
-        :code:`v = -1/b * F`
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: law
+
+    :code:`F = -b * v`
+
 
     Latex:
         .. math::
-            \vec v = - \frac{\vec F}{b}
+            {\vec F} = - b {\vec v}
 
-    :param damping_force\_: damping :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object.
 
-        Symbol: :code:`F`
-
-        Latex: :math:`\vec F`
-
-        Dimension: *force*
-
-    :return: velocity vector of the object.
-
-        Symbol: :code:`v`
-
-        Latex: :math:`\vec v`
-
-        Dimension: *velocity*
