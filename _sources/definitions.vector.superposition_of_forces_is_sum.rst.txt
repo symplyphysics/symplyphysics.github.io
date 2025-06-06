@@ -13,31 +13,41 @@ The net force exerted on an object is equal to the vector sum of all the forces 
 
 .. py:currentmodule:: symplyphysics.definitions.vector.superposition_of_forces_is_sum
 
+.. py:data:: net_force
+
+    Vector of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
 
 
-.. py:function:: superposition_law(forces_)
+.. py:data:: force
 
-    The net force vector is the sum of individual force vectors.
+    Vector of an individual :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
-    Law:
-        :code:`F = Sum(F_i, i)`
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`VEC_{11}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: law
+
+    :code:`F = Sum(F[i], i)`
+
 
     Latex:
         .. math::
-            \vec F = \sum_i {\vec F}_i
+            {\vec F} = \sum_i {VEC_{11}}_{i}
 
-    :param forces\_: sequence of individual :attr:`~symplyphysics.symbols.classical_mechanics.force` vectors.
 
-        Symbol: :code:`F_i`
-
-        Latex: :math:`{\vec F}_i`
-
-        Dimension: *force*
-
-    :return: net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object.
-
-        Symbol: :code:`F`
-
-        Latex: :math:`\vec F`
-
-        Dimension: *force*

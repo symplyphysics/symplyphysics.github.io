@@ -46,31 +46,41 @@
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Superposition_principle">Wikipedia, general principle</a>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.definitions.vector.superposition_of_forces_is_sum.superposition_law">
-<span class="sig-name descname"><span class="pre">superposition_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">forces_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/definitions/vector/superposition_of_forces_is_sum.html#superposition_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.superposition_law" title="Link to this definition">¶</a></dt>
-<dd><p>The net force vector is the sum of individual force vectors.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">Sum(F_i,</span> <span class="pre">i)</span></code></p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.vector.superposition_of_forces_is_sum.net_force">
+<span class="sig-name descname"><span class="pre">net_force</span></span><a class="headerlink" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.net_force" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the net <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> exerted on the body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec F = \sum_i {\vec F}_i\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec F}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>forces_</strong> – <p>sequence of individual <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> vectors.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F_i</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec F}_i\)</span></p>
-<p>Dimension: <em>force</em></p>
-</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.vector.superposition_of_forces_is_sum.force">
+<span class="sig-name descname"><span class="pre">force</span></span><a class="headerlink" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.force" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of an individual <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>net <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> exerted on the object.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
-<p>Dimension: <em>force</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(VEC_{11}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.vector.superposition_of_forces_is_sum.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">Sum(F[i],</span> <span class="pre">i)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec F} = \sum_i {VEC_{11}}_{i}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -112,7 +122,9 @@
 <li class="toctree-l3"><a class="reference internal" href="definitions.vector.damping_force_is_proportional_to_velocity.html">Damping force is proportional to velocity</a></li>
 <li class="toctree-l3"><a class="reference internal" href="definitions.vector.momentum_is_mass_times_velocity_vector.html">Momentum is mass times velocity (Vector)</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Superposition of forces is sum (Vector)</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.superposition_law"><code class="docutils literal notranslate"><span class="pre">superposition_law()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.net_force"><code class="docutils literal notranslate"><span class="pre">net_force</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.force"><code class="docutils literal notranslate"><span class="pre">force</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.superposition_of_forces_is_sum.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
 </ul>
