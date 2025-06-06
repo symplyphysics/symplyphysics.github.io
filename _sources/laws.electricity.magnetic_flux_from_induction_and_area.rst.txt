@@ -17,7 +17,7 @@ Symbol:
     :code:`Phi_B`
 
 Latex:
-    :math:`\Phi_\mathbf{B}`
+    :math:`\Phi_{\vec B}`
 
 Dimension:
     :code:`magnetic_flux`
@@ -72,6 +72,6 @@ Dimension:
 
     Latex:
         .. math::
-            \Phi_\mathbf{B} = B A \cos{\left(\varphi \right)}
+            \Phi_{\vec B} = B A \cos{\left(\varphi \right)}
 
 

@@ -62,7 +62,7 @@ Symbol:
     :code:`Phi_B(t)`
 
 Latex:
-    :math:`\Phi_\mathbf{B}{\left(t \right)}`
+    :math:`\Phi_{\vec B}{\left(t \right)}`
 
 Dimension:
     :code:`magnetic_flux`
@@ -75,6 +75,6 @@ Dimension:
 
     Latex:
         .. math::
-            \mathcal{E} = - N \frac{d}{d t} \Phi_\mathbf{B}{\left(t \right)}
+            \mathcal{E} = - N \frac{d}{d t} \Phi_{\vec B}{\left(t \right)}
 
 

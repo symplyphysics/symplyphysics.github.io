@@ -19,7 +19,7 @@ Symbol:
     :code:`U_E`
 
 Latex:
-    :math:`U_\mathbf{E}`
+    :math:`U_{\vec E}`
 
 Dimension:
     :code:`energy`
@@ -88,6 +88,6 @@ Dimension:
 
     Latex:
         .. math::
-            U_\mathbf{E} = \frac{q_{1} q_{2}}{4 \pi \varepsilon d}
+            U_{\vec E} = \frac{q_{1} q_{2}}{4 \pi \varepsilon d}
 
 

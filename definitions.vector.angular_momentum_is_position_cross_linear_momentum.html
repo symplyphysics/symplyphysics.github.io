@@ -50,38 +50,56 @@ vectors <span class="math notranslate nohighlight">\(\vec a\)</span> and <span c
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Angular_momentum#">Wikipedia, see second paragraph</a>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.angular_momentum_definition">
-<span class="sig-name descname"><span class="pre">angular_momentum_definition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position_vector_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">linear_momentum_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/definitions/vector/angular_momentum_is_position_cross_linear_momentum.html#angular_momentum_definition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.angular_momentum_definition" title="Link to this definition">¶</a></dt>
-<dd><p>Pseudovector of angular momentum is defined as the cross product between the position vector and the momentum vector.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span> <span class="pre">=</span> <span class="pre">cross(r,</span> <span class="pre">p)</span></code></p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.position_vector">
+<span class="sig-name descname"><span class="pre">position_vector</span></span><a class="headerlink" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.position_vector" title="Link to this definition">¶</a></dt>
+<dd><p>Displacement of the body relative to the origin of the reference frame. See
+<a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_origin" title="symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec L = \vec r \times \vec p\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec r}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>position_vector_</strong> – <p>position vector of the particle relative to a fixed point.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec r\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-<li><p><strong>linear_momentum_</strong> – <p>vector of linear momentum of the particle.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec p\)</span></p>
-<p>Dimension: <em>momentum</em></p>
-</p></li>
-</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.linear_momentum">
+<span class="sig-name descname"><span class="pre">linear_momentum</span></span><a class="headerlink" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.linear_momentum" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of linear <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.momentum" title="symplyphysics.symbols.classical_mechanics.momentum"><code class="xref py py-attr docutils literal notranslate"><span class="pre">momentum</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>pseudovector of angular momentum of the particle.</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec L\)</span></p>
-<p>Dimension: <em>length</em> * <em>momentum</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec p}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">momentum</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.angular_momentum">
+<span class="sig-name descname"><span class="pre">angular_momentum</span></span><a class="headerlink" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.angular_momentum" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_momentum" title="symplyphysics.symbols.classical_mechanics.angular_momentum"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_momentum</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">L</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec L}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length**2*mass/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">L</span> <span class="pre">=</span> <span class="pre">cross(r,</span> <span class="pre">p)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec L} = \left[ {\vec r}, {\vec p} \right]\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -119,7 +137,10 @@ vectors <span class="math notranslate nohighlight">\(\vec a\)</span> and <span c
 <li class="toctree-l1 current"><a class="reference internal" href="definitions.html">Definitions</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="definitions.vector.html"><strong>Definitions (Vector)</strong></a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Angular momentum is position cross linear momentum</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.angular_momentum_definition"><code class="docutils literal notranslate"><span class="pre">angular_momentum_definition()</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.linear_momentum"><code class="docutils literal notranslate"><span class="pre">linear_momentum</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.angular_momentum"><code class="docutils literal notranslate"><span class="pre">angular_momentum</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="definitions.vector.damping_force_is_proportional_to_velocity.html">Damping force is proportional to velocity</a></li>

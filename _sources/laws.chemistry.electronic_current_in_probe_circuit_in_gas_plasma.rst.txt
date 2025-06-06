@@ -86,7 +86,7 @@ Symbol:
     :code:`U_f`
 
 Latex:
-    :math:`U_\mathbf{f}`
+    :math:`U_\text{f}`
 
 Dimension:
     :code:`voltage`
@@ -100,7 +100,7 @@ Symbol:
     :code:`U_E`
 
 Latex:
-    :math:`U_\mathbf{E}`
+    :math:`U_{\vec E}`
 
 Dimension:
     :code:`voltage`
@@ -113,6 +113,6 @@ Dimension:
 
     Latex:
         .. math::
-            I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\mathbf{f} - U_\mathbf{E}\right)}{k_\text{B} T} \right)}
+            I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\text{f} - U_{\vec E}\right)}{k_\text{B} T} \right)}
 
 

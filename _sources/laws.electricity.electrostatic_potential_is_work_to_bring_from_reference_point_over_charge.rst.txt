@@ -26,7 +26,7 @@ Symbol:
     :code:`U_E`
 
 Latex:
-    :math:`U_\mathbf{E}`
+    :math:`U_{\vec E}`
 
 Dimension:
     :code:`voltage`
@@ -67,6 +67,6 @@ Dimension:
 
     Latex:
         .. math::
-            U_\mathbf{E} = \frac{W}{q}
+            U_{\vec E} = \frac{W}{q}
 
 

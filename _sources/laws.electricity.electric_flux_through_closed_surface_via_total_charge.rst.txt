@@ -24,7 +24,7 @@ Symbol:
     :code:`Phi_E`
 
 Latex:
-    :math:`\Phi_\mathbf{E}`
+    :math:`\Phi_{\vec E}`
 
 Dimension:
     :code:`length*voltage`
@@ -51,6 +51,6 @@ Dimension:
 
     Latex:
         .. math::
-            \Phi_\mathbf{E} = \frac{q}{\varepsilon_0}
+            \Phi_{\vec E} = \frac{q}{\varepsilon_0}
 
 

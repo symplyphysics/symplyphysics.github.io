@@ -33,7 +33,7 @@ Symbol:
     :code:`Phi_B`
 
 Latex:
-    :math:`\Phi_\mathbf{B}`
+    :math:`\Phi_{\vec B}`
 
 Dimension:
     :code:`magnetic_flux`
@@ -60,6 +60,6 @@ Dimension:
 
     Latex:
         .. math::
-            L = \frac{\Phi_\mathbf{B}}{I}
+            L = \frac{\Phi_{\vec B}}{I}
 
 

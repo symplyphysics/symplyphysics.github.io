@@ -99,14 +99,14 @@ Dimension:
 
 .. py:data:: magnetic_flux
 
-    **Magnetic flux** through a surface is the surface integral of the normal component of the magnetic field :math:`\mathbf{B}`
+    **Magnetic flux** through a surface is the surface integral of the normal component of the magnetic field :math:`\vec B`
     over that surface.
 
 Symbol:
     :code:`Phi_B`
 
 Latex:
-    :math:`\Phi_\mathbf{B}`
+    :math:`\Phi_{\vec B}`
 
 Dimension:
     :code:`magnetic_flux`
@@ -302,14 +302,14 @@ Dimension:
 
 .. py:data:: electric_flux
 
-    **Electric flux** through a surface is the surface integral of the normal component of the electric field :math:`\mathbf{E}`
+    **Electric flux** through a surface is the surface integral of the normal component of the electric field :math:`\vec E`
     over that surface.
 
 Symbol:
     :code:`Phi_E`
 
 Latex:
-    :math:`\Phi_\mathbf{E}`
+    :math:`\Phi_{\vec E}`
 
 Dimension:
     :code:`length*voltage`
@@ -339,7 +339,7 @@ Symbol:
     :code:`U_E`
 
 Latex:
-    :math:`U_\mathbf{E}`
+    :math:`U_{\vec E}`
 
 Dimension:
     :code:`voltage`

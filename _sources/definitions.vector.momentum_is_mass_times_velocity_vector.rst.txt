@@ -31,7 +31,7 @@ Symbol:
     :code:`v`
 
 Latex:
-    :math:`\mathbf{v}`
+    :math:`{\vec v}`
 
 Dimension:
     :code:`velocity`
@@ -45,7 +45,7 @@ Symbol:
     :code:`p`
 
 Latex:
-    :math:`\mathbf{p}`
+    :math:`{\vec p}`
 
 Dimension:
     :code:`momentum`
@@ -58,6 +58,6 @@ Dimension:
 
     Latex:
         .. math::
-            \mathbf{p} = m \mathbf{v}
+            {\vec p} = m {\vec v}
 
 

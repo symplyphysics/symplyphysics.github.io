@@ -17,39 +17,56 @@ vector of the particle defined relative to that origin.
 
 .. py:currentmodule:: symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum
 
+.. py:data:: position_vector
+
+    Displacement of the body relative to the origin of the reference frame. See
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
 
 
-.. py:function:: angular_momentum_definition(position_vector_, linear_momentum_)
+.. py:data:: linear_momentum
 
-    Pseudovector of angular momentum is defined as the cross product between the position vector and the momentum vector.
+    Vector of linear :attr:`~symplyphysics.symbols.classical_mechanics.momentum`.
 
-    Law:
-        :code:`L = cross(r, p)`
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`{\vec p}`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: angular_momentum
+
+    Vector of :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum`.
+
+Symbol:
+    :code:`L`
+
+Latex:
+    :math:`{\vec L}`
+
+Dimension:
+    :code:`length**2*mass/time`
+
+
+.. py:data:: law
+
+    :code:`L = cross(r, p)`
+
 
     Latex:
         .. math::
-            \vec L = \vec r \times \vec p
+            {\vec L} = \left[ {\vec r}, {\vec p} \right]
 
-    :param position_vector\_: position vector of the particle relative to a fixed point.
 
-        Symbol: :code:`r`
-
-        Latex: :math:`\vec r`
-
-        Dimension: *length*
-
-    :param linear_momentum\_: vector of linear momentum of the particle.
-
-        Symbol: :code:`p`
-
-        Latex: :math:`\vec p`
-
-        Dimension: *momentum*
-
-    :return: pseudovector of angular momentum of the particle.
-
-        Symbol: :code:`L`
-
-        Latex: :math:`\vec L`
-
-        Dimension: *length* * *momentum*
