@@ -14,6 +14,7 @@ Vector subset of dynamics laws
     laws.dynamics.vector.acceleration_from_force
     laws.dynamics.vector.force_is_derivative_of_momentum
     laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
+    laws.dynamics.vector.mechanical_work_from_force_and_move
 
 
 
