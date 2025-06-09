@@ -1,0 +1,100 @@
+Relative acceleration from force
+================================
+
+Suppose reference frame :math:`S` is fixed to a moving object (e.g. Earth). For some body
+:math:`B` we can write an equation of motion in coordinates of :math:`S'` akin to the Newton's
+second law of motion for inertial frames, although we obtain two additional components to the
+equation: one corresponding to the Coriolis force, and another to the fictitious force of
+translation between inertial frame :math:`S` and non-inertial frame :math:`S'`.
+
+..
+    TODO: add link to source
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.relative_acceleration_from_force
+
+.. py:data:: relative_acceleration
+
+    Vector of relative :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of body :math:`B` relative to :math:`S'`
+
+Symbol:
+    :code:`a_rel`
+
+Latex:
+    :math:`{\vec a}_\text{rel}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: force
+
+    Vector of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on body :math:`B`.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of body :math:`B`.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: coriolis_acceleration
+
+    Vector of the Coriolis :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of body :math:`B`.
+
+    ..
+        TODO: add link to vector law
+
+Symbol:
+    :code:`a_Cor`
+
+Latex:
+    :math:`{\vec a}_\text{Cor}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: translation_acceleration
+
+    Vector of translation :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of body :math:`B`.
+
+    ..
+        TODO: add link to vector law
+
+Symbol:
+    :code:`a_tr`
+
+Latex:
+    :math:`{\vec a}_\text{tr}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: law
+
+    :code:`a_rel = F / m + a_Cor - a_tr`
+
+
+    Latex:
+        .. math::
+            {\vec a}_\text{rel} = \frac{{\vec F}}{m} + {\vec a}_\text{Cor} - {\vec a}_\text{tr}
+
+
