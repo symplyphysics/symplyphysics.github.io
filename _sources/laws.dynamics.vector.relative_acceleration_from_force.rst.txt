@@ -7,8 +7,9 @@ second law of motion for inertial frames, although we obtain two additional comp
 equation: one corresponding to the Coriolis force, and another to the fictitious force of
 translation between inertial frame :math:`S` and non-inertial frame :math:`S'`.
 
-..
-    TODO: add link to source
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Coriolis_force#Formula>`__.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.vector.relative_acceleration_from_force
 
@@ -28,7 +29,7 @@ Dimension:
 
 .. py:data:: force
 
-    Vector of the net :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on body :math:`B`.
+    Vector of the net physical :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on body :math:`B`.
 
 Symbol:
     :code:`F`

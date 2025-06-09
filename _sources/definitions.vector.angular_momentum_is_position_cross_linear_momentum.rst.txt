@@ -48,7 +48,7 @@ Dimension:
 
 .. py:data:: angular_momentum
 
-    Vector of :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum`.
+    Pseudovector of :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum`.
 
 Symbol:
     :code:`L`

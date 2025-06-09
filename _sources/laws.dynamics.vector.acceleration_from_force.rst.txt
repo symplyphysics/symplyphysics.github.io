@@ -27,7 +27,7 @@ Dimension:
 
 .. py:data:: acceleration
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the object.
+    Vector of the :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the object.
 
 Symbol:
     :code:`a`
@@ -41,7 +41,7 @@ Dimension:
 
 .. py:data:: force
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object.
+    Vector of the :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object.
 
 Symbol:
     :code:`F`

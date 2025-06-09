@@ -18,6 +18,7 @@ Vector subset of dynamics laws
     laws.dynamics.vector.mechanical_work_from_force_and_move
     laws.dynamics.vector.relative_acceleration_from_force
     laws.dynamics.vector.restoring_torque_due_to_twist_of_torsion_pendulum
+    laws.dynamics.vector.torque_is_angular_momentum_derivative
     laws.dynamics.vector.torque_vector_of_twisting_force
 
 

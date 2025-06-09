@@ -22,7 +22,7 @@ Dimension:
 
 .. py:data:: angular_momentum
 
-    Vector of the body's :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum`.
+    Pseudovector of the body's :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum`.
 
 Symbol:
     :code:`L`
@@ -36,7 +36,7 @@ Dimension:
 
 .. py:data:: angular_velocity
 
-    Vector of the body's angular velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
+    Pseudovector of the body's angular velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
 
 Symbol:
     :code:`w`
