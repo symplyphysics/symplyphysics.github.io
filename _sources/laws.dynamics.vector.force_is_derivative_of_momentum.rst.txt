@@ -58,7 +58,7 @@ Dimension:
     :code:`force`
 
 
-.. py:data:: force_law
+.. py:data:: law
 
     :code:`F(t) = Derivative(p(t), t)`
 
