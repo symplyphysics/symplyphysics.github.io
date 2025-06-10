@@ -24,57 +24,41 @@ Dimension:
     :code:`charge`
 
 
-.. py:function:: electric_field_law(electrostatic_force_)
+.. py:data:: electric_field
 
-    Electric field via electrostatic force.
+    Vector of the electric field. See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Law:
-        :code:`E = F / q0`
+Symbol:
+    :code:`E`
 
-    Latex:
-        .. math::
-            \vec E = \frac{\vec F}{q_0}
+Latex:
+    :math:`{\vec E}`
 
-    :param electrostatic\_force\_: vector of electrostatic force
-
-        Symbol: :code:`F`
-
-        Latex: :math:`\vec F`
-
-        Dimension: *force*
-
-    :return: vector of electric field
-
-        Symbol: :code:`E`
-
-        Latex: :math:`\vec E`
-
-        Dimension: *force* / *charge*
+Dimension:
+    :code:`voltage/length`
 
 
-.. py:function:: electrostatic_force_law(electric_field_)
+.. py:data:: electrostatic_force
 
-    Electrostatic force via electric field.
+    Vector of the electrostatic :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
-    Law:
-        :code:`F = q0 * E`
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: law
+
+    :code:`E = F / q_0`
+
 
     Latex:
         .. math::
-            \vec F = q_0 \vec E
+            {\vec E} = \frac{{\vec F}}{q_{0}}
 
-    :param electric\_field\_: vector of electric field
 
-        Symbol: :code:`E`
-
-        Latex: :math:`\vec E`
-
-        Dimension: *force* / *charge*
-
-    :return: vector of electrostatic force
-
-        Symbol: :code:`F`
-
-        Latex: :math:`\vec F`
-
-        Dimension: *force*
