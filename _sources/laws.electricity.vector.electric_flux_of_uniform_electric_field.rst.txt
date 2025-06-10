@@ -6,7 +6,7 @@ the electrostatic force that is applied to it.
 
 **Notation:**
 
-#. :math:`\vec a \cdot \vec b` (:code:`dot(a, b)`) is the dot product between vectors
+#. :math:`\\left( \vec a, \vec b \\right)` (:code:`dot(a, b)`) is the dot product between vectors
    :math:`\vec a` and :math:`\vec b`.
 
 **Notes:**
@@ -25,39 +25,56 @@ the electrostatic force that is applied to it.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.vector.electric_flux_of_uniform_electric_field
 
+.. py:data:: electric_flux
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_flux`.
+
+Symbol:
+    :code:`Phi_E`
+
+Latex:
+    :math:`\Phi_{\vec E}`
+
+Dimension:
+    :code:`length*voltage`
 
 
-.. py:function:: electric_flux_law(electric_field_, area_)
+.. py:data:: electric_field
 
-    Electric flux via electric field and vector area.
+    Vector of the electric field. See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
-    Law:
-        :code:`Phi_E = dot(E, A)`
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`{\vec E}`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: area
+
+    Area pseudovector, i.e. a vector that is aligned in the direction of the unit normal to the surface
+    and whose magnitude is equal to the area of the surface. See :attr:`~symplyphysics.symbols.classical_mechanics.area`.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`{\vec A}`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: law
+
+    :code:`Phi_E = dot(E, A)`
+
 
     Latex:
         .. math::
-            \Phi_E = \vec E \cdot \vec A
+            \Phi_{\vec E} = \left( {\vec E}, {\vec A} \right)
 
-    :param electric\_field\_: vector of electric field
 
-        Symbol: :code:`E`
-
-        Latex: :math:`\vec E`
-
-        Dimension: :code:`voltage/length`
-
-    :param area\_: vector area
-
-        Symbol: :code:`A`
-
-        Latex: :math:`\vec A`
-
-        Dimension: :code:`area`
-
-    :return: electric flux
-
-        Symbol: :code:`Phi_E`
-
-        Latex: :math:`\Phi_E`
-
-        Dimension: :code:`voltage*length`
