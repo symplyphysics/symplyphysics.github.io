@@ -13,6 +13,7 @@ A collection of laws related to a vectorial description of gravity.
 
     laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration
     laws.gravity.vector.falling_body_displacement
+    laws.gravity.vector.relative_acceleration_from_force_and_acceleration_due_to_gravity
 
 
 
