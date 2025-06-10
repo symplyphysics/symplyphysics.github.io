@@ -42,10 +42,8 @@ field experiences a force that depends on the values of the electric field and t
 magnetic field.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\vec a \times \vec b\)</span> (<code class="code docutils literal notranslate"><span class="pre">cross(a,</span> <span class="pre">b)</span></code>) is the cross product between
+<li><p><span class="math notranslate nohighlight">\(\left[ \vec a, \vec b \right]\)</span> (<code class="code docutils literal notranslate"><span class="pre">cross(a,</span> <span class="pre">b)</span></code>) is the cross product between
 <span class="math notranslate nohighlight">\(\vec a\)</span> and <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(\lVert \vec a \rVert\)</span> (<code class="code docutils literal notranslate"><span class="pre">norm(a)</span></code>) is the Euclidean norm of <span class="math notranslate nohighlight">\(\vec a\)</span>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(|x|\)</span> (<code class="code docutils literal notranslate"><span class="pre">abs(x)</span></code>) is the absolute value of <span class="math notranslate nohighlight">\(x\)</span>.</p></li>
 </ol>
 <p><strong>Notes:</strong></p>
 <ol class="arabic simple">
@@ -58,6 +56,20 @@ the electromagnetic force it experiences.</p></li>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Lorentz_force">Wikipedia</a>.</p></li>
 </ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.lorentz_force">
+<span class="sig-name descname"><span class="pre">lorentz_force</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.lorentz_force" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the Lorentz <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> exerted on the charged particle.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec F}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force</span></code></p>
+</dd>
+</dl>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.charge">
 <span class="sig-name descname"><span class="pre">charge</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.charge" title="Link to this definition">¶</a></dt>
@@ -72,129 +84,55 @@ the electromagnetic force it experiences.</p></li>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge</span></code></p>
 </dd>
 </dl>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.lorentz_force_law">
-<span class="sig-name descname"><span class="pre">lorentz_force_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">electric_field_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">magnetic_flux_density_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/lorentz_force_via_electromagnetic_field.html#lorentz_force_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.lorentz_force_law" title="Link to this definition">¶</a></dt>
-<dd><p>Lorentz force via electric and magnetic fields, and velocity.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">q</span> <span class="pre">*</span> <span class="pre">(E</span> <span class="pre">+</span> <span class="pre">cross(v,</span> <span class="pre">B))</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec F = q \left( \vec E + \vec v \times \vec B \right)\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>electric_field_</strong> – <p>vector of electric field</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec E\)</span></p>
-<p>Dimension: <em>voltage</em> / <em>length</em></p>
-</p></li>
-<li><p><strong>magnetic_flux_density_</strong> – <p>pseudovector of magnetic flux density</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec B\)</span></p>
-<p>Dimension: <em>magnetic density</em></p>
-</p></li>
-<li><p><strong>velocity_</strong> – <p>vector of particle’s velocity</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec v\)</span></p>
-<p>Dimension: <em>velocity</em></p>
-</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>Lorentz force acting on the charged particle</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
-<p>Dimension: <em>force</em></p>
-</p>
-</dd>
-</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.electric_field">
+<span class="sig-name descname"><span class="pre">electric_field</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.electric_field" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the electric field. See <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_field_strength" title="symplyphysics.symbols.electrodynamics.electric_field_strength"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_field_strength</span></code></a>.</p>
 </dd></dl>
 
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.electric_field_law">
-<span class="sig-name descname"><span class="pre">electric_field_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lorentz_force_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">magnetic_flux_density_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/lorentz_force_via_electromagnetic_field.html#electric_field_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.electric_field_law" title="Link to this definition">¶</a></dt>
-<dd><p>Electric field via Lorentz force, magnetic field, and velocity.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">F</span> <span class="pre">/</span> <span class="pre">q</span> <span class="pre">-</span> <span class="pre">cross(v,</span> <span class="pre">B)</span></code></p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec E = \frac{\vec F}{q} - \vec v \times \vec B\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec E}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">voltage/length</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>lorentz_force_</strong> – <p>Lorentz force acting on the charged particle</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
-<p>Dimension: <em>force</em></p>
-</p></li>
-<li><p><strong>magnetic_flux_density_</strong> – <p>pseudovector of magnetic flux density</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec B\)</span></p>
-<p>Dimension: <em>magnetic density</em></p>
-</p></li>
-<li><p><strong>velocity_</strong> – <p>vector of particle’s velocity</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec v\)</span></p>
-<p>Dimension: <em>velocity</em></p>
-</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>vector of electric field</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec E\)</span></p>
-<p>Dimension: <em>voltage</em> / <em>length</em></p>
-</p>
-</dd>
-</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.velocity">
+<span class="sig-name descname"><span class="pre">velocity</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the particle’s velocity. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
 </dd></dl>
 
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.charge_law">
-<span class="sig-name descname"><span class="pre">charge_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">lorentz_force_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">electric_field_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">magnetic_flux_density_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/lorentz_force_via_electromagnetic_field.html#charge_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.charge_law" title="Link to this definition">¶</a></dt>
-<dd><p>Magnitude of the particle’s charge via force and electromagnetic field.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">abs(q)</span> <span class="pre">=</span> <span class="pre">norm(F)</span> <span class="pre">/</span> <span class="pre">norm(E</span> <span class="pre">+</span> <span class="pre">cross(v,</span> <span class="pre">B))</span></code></p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[|q| = \frac{\lVert \vec F \rVert}{\left \lVert \vec E + \vec v \times \vec B \right \rVert}\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec v}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>lorentz_force_</strong> – <p>Lorentz force acting on the charged particle</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec F\)</span></p>
-<p>Dimension: <em>force</em></p>
-</p></li>
-<li><p><strong>electric_field_</strong> – <p>vector of electric field</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec E\)</span></p>
-<p>Dimension: <em>voltage</em> / <em>length</em></p>
-</p></li>
-<li><p><strong>magnetic_flux_density_</strong> – <p>pseudovector of magnetic flux density</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec B\)</span></p>
-<p>Dimension: <em>magnetic density</em></p>
-</p></li>
-<li><p><strong>velocity_</strong> – <p>vector of particle’s velocity</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec v\)</span></p>
-<p>Dimension: <em>velocity</em></p>
-</p></li>
-</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.magnetic_flux_density">
+<span class="sig-name descname"><span class="pre">magnetic_flux_density</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.magnetic_flux_density" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.magnetic_flux_density" title="symplyphysics.symbols.electrodynamics.magnetic_flux_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">magnetic_flux_density</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>magnitude of the test charge</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">q</span></code></p>
-<p>Dimension: <em>charge</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec B}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_density</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.lorentz_force_via_electromagnetic_field.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">q</span> <span class="pre">*</span> <span class="pre">(E</span> <span class="pre">+</span> <span class="pre">cross(v,</span> <span class="pre">B))</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec F} = q \left({\vec E} + \left[ {\vec v}, {\vec B} \right]\right)\]</div>
 </dd>
 </dl>
 </dd></dl>
