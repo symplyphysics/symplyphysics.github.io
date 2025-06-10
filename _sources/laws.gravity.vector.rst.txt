@@ -5,5 +5,13 @@ A collection of laws related to a vectorial description of gravity.
 
 .. py:currentmodule:: symplyphysics.laws.gravity.vector
 
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.gravity.vector.falling_body_displacement
+
 
 
