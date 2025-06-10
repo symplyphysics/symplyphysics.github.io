@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Falling body displacement &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Acceleration due to gravity via gravity force and centripetal acceleration &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.gravity.vector.falling_body_displacement.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Angle of rotation during gravitational maneuver" href="laws.gravity.angle_of_rotation_during_gravitational_maneuver.html" />
-    <link rel="prev" title="Acceleration due to gravity via gravity force and centripetal acceleration" href="laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.html" />
+    <link rel="next" title="Falling body displacement" href="laws.gravity.vector.falling_body_displacement.html" />
+    <link rel="prev" title="Gravity (Vector)" href="laws.gravity.vector.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,86 +35,32 @@
 
           <div class="body" role="main">
             
-  <section id="falling-body-displacement">
-<h1>Falling body displacement<a class="headerlink" href="#falling-body-displacement" title="Link to this heading">¶</a></h1>
-<p>Suppose a reference frame <span class="math notranslate nohighlight">\(S'\)</span> is fixed to a moving object <span class="math notranslate nohighlight">\(A\)</span> (e.g., Earth) and some
-body <span class="math notranslate nohighlight">\(B\)</span> moving freely (i.e. the sum of external non-gravitational forces acting on it is
-zero). In the case of an inertial frame of reference, the displacement of body <span class="math notranslate nohighlight">\(B\)</span> from the
-starting position would follow the usual rule <span class="math notranslate nohighlight">\(\vec s = {\vec v}_0 t + \frac{1}{2} {\vec g} t^2\)</span>.
-But in the case of non-inertial frames, we have to take the Coriolis and the centrifugal force
-into account as well, which results into the series shown below.</p>
-<p><strong>Notes:</strong></p>
-<ol class="arabic simple">
-<li><p>Note that the series is truncated at the fifth term. More terms can be obtained by plugging the
-result into the equation of motion <span class="math notranslate nohighlight">\(\vec a = \vec g + \left[ \vec v, \vec \omega \right]\)</span>
-and integrating it over time.</p></li>
-</ol>
-<p><strong>Conditions:</strong></p>
-<ol class="arabic simple">
-<li><p>The sum <span class="math notranslate nohighlight">\(\vec F\)</span> of all other, non-gravitational forces acting on body <span class="math notranslate nohighlight">\(B\)</span> is
-<span class="math notranslate nohighlight">\(0\)</span>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(\vec g\)</span> is independent of coordinates.</p></li>
-</ol>
+  <section id="acceleration-due-to-gravity-via-gravity-force-and-centripetal-acceleration">
+<h1>Acceleration due to gravity via gravity force and centripetal acceleration<a class="headerlink" href="#acceleration-due-to-gravity-via-gravity-force-and-centripetal-acceleration" title="Link to this heading">¶</a></h1>
+<p>Suppose a reference frame <span class="math notranslate nohighlight">\(S'\)</span> is fixed to a rotating body <span class="math notranslate nohighlight">\(A\)</span> (e.g. Earth), so that
+frame <span class="math notranslate nohighlight">\(S'\)</span> rotates w.r.t. another static reference frame <span class="math notranslate nohighlight">\(S\)</span>. The acceleration due to
+gravity (in moving frame <span class="math notranslate nohighlight">\(S'\)</span>) is the acceleration another body <span class="math notranslate nohighlight">\(B\)</span> has in the gravity
+field of body <span class="math notranslate nohighlight">\(A\)</span>, with rotational effects such as the centripetal acceleration taken into
+account. It is the same for all bodies at a fixed point, but can be different at different points
+in space.</p>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.falling_body_displacement.displacement">
-<span class="sig-name descname"><span class="pre">displacement</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.falling_body_displacement.displacement" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the displacement of body <span class="math notranslate nohighlight">\(B\)</span> in frame <span class="math notranslate nohighlight">\(S'\)</span>. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.mass">
+<span class="sig-name descname"><span class="pre">mass</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.mass" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of body <span class="math notranslate nohighlight">\(B\)</span>.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">s</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec s}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(m\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
-</dd>
-</dl>
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.falling_body_displacement.time">
-<span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.falling_body_displacement.time" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.time" title="symplyphysics.symbols.basic.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
-</dd></dl>
-
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.falling_body_displacement.initial_velocity">
-<span class="sig-name descname"><span class="pre">initial_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.falling_body_displacement.initial_velocity" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the initial velocity of body <span class="math notranslate nohighlight">\(B\)</span>. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
-</dd></dl>
-
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_0</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec v}_{0}\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
-</dd>
-</dl>
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.falling_body_displacement.angular_velocity">
-<span class="sig-name descname"><span class="pre">angular_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.falling_body_displacement.angular_velocity" title="Link to this definition">¶</a></dt>
-<dd><p>Pseudovector of the angular velocity of body <span class="math notranslate nohighlight">\(B\)</span>. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_speed" title="symplyphysics.symbols.classical_mechanics.angular_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_speed</span></code></a>.</p>
-</dd></dl>
-
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec \omega}\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
-</dd>
-</dl>
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.falling_body_displacement.acceleration_due_to_gravity">
-<span class="sig-name descname"><span class="pre">acceleration_due_to_gravity</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.falling_body_displacement.acceleration_due_to_gravity" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the acceleration due to gravity of body <span class="math notranslate nohighlight">\(B\)</span>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.acceleration_due_to_gravity">
+<span class="sig-name descname"><span class="pre">acceleration_due_to_gravity</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.acceleration_due_to_gravity" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of acceleration due to gravity of body <span class="math notranslate nohighlight">\(B\)</span>.</p>
 </dd></dl>
 
 <dl class="simple">
@@ -126,12 +72,40 @@ and integrating it over time.</p></li>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.falling_body_displacement.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.falling_body_displacement.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">s</span> <span class="pre">=</span> <span class="pre">v_0</span> <span class="pre">*</span> <span class="pre">t</span> <span class="pre">+</span> <span class="pre">t^2</span> <span class="pre">*</span> <span class="pre">(g</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">+</span> <span class="pre">cross(v_0,</span> <span class="pre">w))</span> <span class="pre">+</span> <span class="pre">t^3</span> <span class="pre">/</span> <span class="pre">3</span> <span class="pre">*</span> <span class="pre">(cross(g,</span> <span class="pre">w)</span> <span class="pre">+</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">cross(cross(v_0,</span> <span class="pre">w),</span> <span class="pre">w))</span> <span class="pre">+</span> <span class="pre">t^4</span> <span class="pre">/</span> <span class="pre">6</span> <span class="pre">*</span> <span class="pre">cross(cross(g,</span> <span class="pre">w),</span> <span class="pre">w)</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.gravity_force">
+<span class="sig-name descname"><span class="pre">gravity_force</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.gravity_force" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> of gravity pull exerted on body <span class="math notranslate nohighlight">\(B\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec F}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.centripetal_acceleration">
+<span class="sig-name descname"><span class="pre">centripetal_acceleration</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.centripetal_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of centripetal <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> of body <span class="math notranslate nohighlight">\(B\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_cp</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{cp}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">g</span> <span class="pre">=</span> <span class="pre">F</span> <span class="pre">/</span> <span class="pre">m</span> <span class="pre">-</span> <span class="pre">a_cp</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec s} = {\vec v}_{0} t + t^{2} \left(\frac{{\vec g}}{2} + \left[ {\vec v}_{0}, {\vec \omega} \right]\right) + \frac{t^{3}}{3} \left(\left[ {\vec g}, {\vec \omega} \right] + 2 \left[ \left[ {\vec v}_{0}, {\vec \omega} \right], {\vec \omega} \right]\right) + \frac{t^{4}}{6} \left[ \left[ {\vec g}, {\vec \omega} \right], {\vec \omega} \right]\]</div>
+\[{\vec g} = \frac{{\vec F}}{m} - {\vec a}_\text{cp}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -177,8 +151,8 @@ and integrating it over time.</p></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.gravity.html">Gravity</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.radial_motion.html"><strong>Radial motion</strong></a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="laws.gravity.vector.html"><strong>Gravity (Vector)</strong></a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.html">Acceleration due to gravity via gravity force and centripetal acceleration</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Falling body displacement</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Acceleration due to gravity via gravity force and centripetal acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.gravity.vector.falling_body_displacement.html">Falling body displacement</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.gravity.angle_of_rotation_during_gravitational_maneuver.html">Angle of rotation during gravitational maneuver</a></li>
@@ -230,8 +204,8 @@ and integrating it over time.</p></li>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.gravity.html">Gravity</a><ul>
   <li><a href="laws.gravity.vector.html"><strong>Gravity (Vector)</strong></a><ul>
-      <li>Previous: <a href="laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.html" title="previous chapter">Acceleration due to gravity via gravity force and centripetal acceleration</a></li>
-      <li>Next: <a href="laws.gravity.angle_of_rotation_during_gravitational_maneuver.html" title="next chapter">Angle of rotation during gravitational maneuver</a></li>
+      <li>Previous: <a href="laws.gravity.vector.html" title="previous chapter"><strong>Gravity (Vector)</strong></a></li>
+      <li>Next: <a href="laws.gravity.vector.falling_body_displacement.html" title="next chapter">Falling body displacement</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -258,7 +232,7 @@ and integrating it over time.</p></li>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.gravity.vector.falling_body_displacement.rst.txt"
+      <a href="_sources/laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
