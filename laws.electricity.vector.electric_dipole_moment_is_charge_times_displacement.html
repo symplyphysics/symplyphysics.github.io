@@ -49,6 +49,20 @@ of the system. It is collinear to the vector connecting the two point charges.</
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Electric_dipole_moment#Elementary_definition">Wikipedia</a>.</p></li>
 </ol>
 <dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.electric_dipole_moment">
+<span class="sig-name descname"><span class="pre">electric_dipole_moment</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.electric_dipole_moment" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_dipole_moment" title="symplyphysics.symbols.electrodynamics.electric_dipole_moment"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_dipole_moment</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec p}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge*length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.charge">
 <span class="sig-name descname"><span class="pre">charge</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.charge" title="Link to this definition">¶</a></dt>
 <dd><p>Magnitude of the electric <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.charge" title="symplyphysics.symbols.electrodynamics.charge"><code class="xref py py-attr docutils literal notranslate"><span class="pre">charge</span></code></a> of the point charges.</p>
@@ -62,31 +76,28 @@ of the system. It is collinear to the vector connecting the two point charges.</
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge</span></code></p>
 </dd>
 </dl>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.dipole_moment_law">
-<span class="sig-name descname"><span class="pre">dipole_moment_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">displacement_vector_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/electricity/vector/electric_dipole_moment_is_charge_times_displacement.html#dipole_moment_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.dipole_moment_law" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of electric dipole moment via displacement vector.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">q</span> <span class="pre">*</span> <span class="pre">d</span></code></p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.displacement">
+<span class="sig-name descname"><span class="pre">displacement</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.displacement" title="Link to this definition">¶</a></dt>
+<dd><p>Position vector pointing from the <em>negative</em> charge to the <em>positive</em> charge. See
+<a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec p = q \vec d\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec d}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><p><strong>displacement_vector_</strong> – <p>vector pointing from the negative charge to the positive charge</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">d</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec d\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>vector of electric dipole moment</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec p\)</span></p>
-<p>Dimension: <em>charge</em> * <em>length</em></p>
-</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">q</span> <span class="pre">*</span> <span class="pre">d</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec p} = q {\vec d}\]</div>
 </dd>
 </dl>
 </dd></dl>
