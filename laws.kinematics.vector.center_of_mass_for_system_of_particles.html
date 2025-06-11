@@ -43,38 +43,55 @@ the sum of weighted relative positions of the distributed mass is zero.</p>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Center_of_mass#A_system_of_particles">Wikipedia, second formula</a>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass_law">
-<span class="sig-name descname"><span class="pre">center_of_mass_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">masses_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">position_vectors_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/center_of_mass_for_system_of_particles.html#center_of_mass_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass_law" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the center of mass from masses and position vectors.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_com</span> <span class="pre">=</span> <span class="pre">Sum(m_i</span> <span class="pre">*</span> <span class="pre">r_i,</span> <span class="pre">i)</span> <span class="pre">/</span> <span class="pre">Sum(m_i,</span> <span class="pre">i)</span></code></p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass">
+<span class="sig-name descname"><span class="pre">center_of_mass</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.center_of_mass" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the system’s center of mass (COM).</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_com</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec r}_\text{com} = \frac{\sum_i m_i {\vec r}_i}{\sum_i m_i}\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec r}_\text{COM}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>masses_</strong> – <p>sequence of masses of individual parts</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">m_i</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(m_i\)</span></p>
-<p>Dimension: <em>mass</em></p>
-</p></li>
-<li><p><strong>position_vectors_</strong> – <p>sequence of position vectors of individual parts</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r_i</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec r}_i\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.position_vector">
+<span class="sig-name descname"><span class="pre">position_vector</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.position_vector" title="Link to this definition">¶</a></dt>
+<dd><p>Position vector of the <span class="math notranslate nohighlight">\(i\)</span>-th body. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_origin" title="symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>vector of the center of mass</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r_com</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec r}_\text{com}\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(VEC_{74}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.mass">
+<span class="sig-name descname"><span class="pre">mass</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.mass" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the <span class="math notranslate nohighlight">\(i\)</span>-th body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m[i]</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({m}_{i}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">r_com</span> <span class="pre">=</span> <span class="pre">Sum(m[i]</span> <span class="pre">*</span> <span class="pre">r[i],</span> <span class="pre">i)</span> <span class="pre">*</span> <span class="pre">Sum(m[i],</span> <span class="pre">i)^(-1)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec r}_\text{COM} = \frac{\sum_i m_i {\vec r}_i}{\sum_i m_i}\]</div>
 </dd>
 </dl>
 </dd></dl>

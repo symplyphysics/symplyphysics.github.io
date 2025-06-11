@@ -10,39 +10,60 @@ the sum of weighted relative positions of the distributed mass is zero.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.center_of_mass_for_system_of_particles
 
+.. py:data:: center_of_mass
+
+    Vector of the system's center of mass (COM).
+
+Symbol:
+    :code:`r_com`
+
+Latex:
+    :math:`{\vec r}_\text{COM}`
+
+Dimension:
+    :code:`length`
 
 
-.. py:function:: center_of_mass_law(masses_, position_vectors_)
+.. py:data:: position_vector
 
-    Vector of the center of mass from masses and position vectors.
+    Position vector of the :math:`i`-th body. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
 
-    Law:
-        :code:`r_com = Sum(m_i * r_i, i) / Sum(m_i, i)`
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`VEC_{74}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the :math:`i`-th body.
+
+Symbol:
+    :code:`m[i]`
+
+Latex:
+    :math:`{m}_{i}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`r_com = Sum(m[i] * r[i], i) * Sum(m[i], i)^(-1)`
+
+
+    ..
+        For the Latex code printer:
+        TODO: fix indexed vector symbols
+        TODO: add parenthesis around IndexedSum when it is the base of an exponent
 
     Latex:
         .. math::
-            {\vec r}_\text{com} = \frac{\sum_i m_i {\vec r}_i}{\sum_i m_i}
+            {\vec r}_\text{COM} = \frac{\sum_i m_i {\vec r}_i}{\sum_i m_i}
 
-    :param masses\_: sequence of masses of individual parts
 
-        Symbol: :code:`m_i`
-
-        Latex: :math:`m_i`
-
-        Dimension: *mass*
-
-    :param position_vectors\_: sequence of position vectors of individual parts
-
-        Symbol: :code:`r_i`
-
-        Latex: :math:`{\vec r}_i`
-
-        Dimension: *length*
-
-    :return: vector of the center of mass
-
-        Symbol: :code:`r_com`
-
-        Latex: :math:`{\vec r}_\text{com}`
-
-        Dimension: *length*
