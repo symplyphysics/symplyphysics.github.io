@@ -1,8 +1,8 @@
 Velocity relative to reference frame
 ====================================
 
-For any reference frame, whether it is inertial or not, the motion relative to it can be described using
-the position vector relative to that frame's origin.
+For any reference frame, whether it is inertial or not, the motion relative to it can be described
+using the position vector relative to that frame's origin.
 
 **Links:**
 
@@ -12,79 +12,55 @@ the position vector relative to that frame's origin.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame
 
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
 
 
-.. py:function:: relative_velocity_law(position_, time_)
+.. py:data:: relative_velocity
 
-    Velocity relative to :math:`S`.
+    Vector of the body's speed relative to :math:`S` as a function of :attr:`~time`.
 
-    Law:
-        :code:`v_rel = Derivative(r(t), t)`
+Symbol:
+    :code:`v(t)`
+
+Latex:
+    :math:`v \left( t \right)`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: position_vector
+
+    Vector of the body's position relative to :math:`S` as a function of :attr:`~time`.
+
+Symbol:
+    :code:`r(t)`
+
+Latex:
+    :math:`r \left( t \right)`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`v(t) = Derivative(r(t), t)`
+
 
     Latex:
         .. math::
-            {\vec v}_\text{rel} = \frac{d \vec r}{d t}
-
-    :param position\_: radius vector, or position vector, of body in :math:`S` as a function of time
-
-        Symbol: :code:`r(t)`
-
-        Latex: :math:`\vec r(t)`
-
-        Dimension: *length*
-
-    :param time\_: time
-
-        Symbol: :code:`t`
-
-        Dimension: *time*
-
-    :return: velocity relative to :math:`S`
-
-        Symbol: :code:`v_rel`
-
-        Latex: :math:`{\vec v}_\text{rel}`
-
-        Dimension: *velocity*
+            v \left( t \right) = \frac{d}{d t} r \left( t \right)
 
 
-.. py:function:: relative_position_law(initial_position_, velocity_, time_)
-
-    Final position via initial position and velocity as a function of time.
-
-    Law:
-        :code:`r = r_0 + Integral(v_rel(t), t)`
-
-    Latex:
-        .. math::
-            \vec r = {\vec r}_0 + \int {\vec v}_\text{rel}(t) dt
-
-    :param initial\_position\_: position vector in :math:`S` at :math:`t = 0`
-
-        Symbol: :code:`r_0`
-
-        Latex: :math:`{\vec r}_0`
-
-        Dimension: *length*
-
-    :param velocity\_: velocity relative to :math:`S` as a function of time
-
-        Symbol: :code:`v_rel(t)`
-
-        Latex: :math:`{\vec v}_\text{rel}(t)`
-
-        Dimension: *velocity*
-
-    :param time\_: time
-
-        Symbol: :code:`t`
-
-        Dimension: *time*
-
-    :return: position vector in :math:`S` at time :math:`t`
-
-        Symbol: :code:`r`
-
-        Latex: :math:`\vec r`
-
-        Dimension: *length*

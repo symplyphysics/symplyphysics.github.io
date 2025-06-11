@@ -37,84 +37,62 @@
             
   <section id="velocity-relative-to-reference-frame">
 <h1>Velocity relative to reference frame<a class="headerlink" href="#velocity-relative-to-reference-frame" title="Link to this heading">¶</a></h1>
-<p>For any reference frame, whether it is inertial or not, the motion relative to it can be described using
-the position vector relative to that frame’s origin.</p>
+<p>For any reference frame, whether it is inertial or not, the motion relative to it can be described
+using the position vector relative to that frame’s origin.</p>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Velocity#Instantaneous_velocity">Wikipedia</a>.</p></li>
 <li><p><a class="reference external" href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B5%D0%BC%D0%B0_%D0%BE_%D1%81%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8_%D1%81%D0%BA%D0%BE%D1%80%D0%BE%D1%81%D1%82%D0%B5%D0%B9#%D0%9E%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5">Wikipedia (ru)</a>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_velocity_law">
-<span class="sig-name descname"><span class="pre">relative_velocity_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">position_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/velocity_relative_to_reference_frame.html#relative_velocity_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_velocity_law" title="Link to this definition">¶</a></dt>
-<dd><p>Velocity relative to <span class="math notranslate nohighlight">\(S\)</span>.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_rel</span> <span class="pre">=</span> <span class="pre">Derivative(r(t),</span> <span class="pre">t)</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec v}_\text{rel} = \frac{d \vec r}{d t}\]</div>
-</dd>
-</dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>position_</strong> – <p>radius vector, or position vector, of body in <span class="math notranslate nohighlight">\(S\)</span> as a function of time</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r(t)</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec r(t)\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-<li><p><strong>time_</strong> – <p>time</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
-<p>Dimension: <em>time</em></p>
-</p></li>
-</ul>
-</dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>velocity relative to <span class="math notranslate nohighlight">\(S\)</span></p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
-<p>Dimension: <em>velocity</em></p>
-</p>
-</dd>
-</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.time">
+<span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.time" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.time" title="symplyphysics.symbols.basic.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
 </dd></dl>
 
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_position_law">
-<span class="sig-name descname"><span class="pre">relative_position_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">initial_position_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/velocity_relative_to_reference_frame.html#relative_position_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_position_law" title="Link to this definition">¶</a></dt>
-<dd><p>Final position via initial position and velocity as a function of time.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span> <span class="pre">=</span> <span class="pre">r_0</span> <span class="pre">+</span> <span class="pre">Integral(v_rel(t),</span> <span class="pre">t)</span></code></p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\vec r = {\vec r}_0 + \int {\vec v}_\text{rel}(t) dt\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>initial_position_</strong> – <p>position vector in <span class="math notranslate nohighlight">\(S\)</span> at <span class="math notranslate nohighlight">\(t = 0\)</span></p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r_0</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec r}_0\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-<li><p><strong>velocity_</strong> – <p>velocity relative to <span class="math notranslate nohighlight">\(S\)</span> as a function of time</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_rel(t)</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{rel}(t)\)</span></p>
-<p>Dimension: <em>velocity</em></p>
-</p></li>
-<li><p><strong>time_</strong> – <p>time</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
-<p>Dimension: <em>time</em></p>
-</p></li>
-</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_velocity">
+<span class="sig-name descname"><span class="pre">relative_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.relative_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s speed relative to <span class="math notranslate nohighlight">\(S\)</span> as a function of <a class="reference internal" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.time" title="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v(t)</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>position vector in <span class="math notranslate nohighlight">\(S\)</span> at time <span class="math notranslate nohighlight">\(t\)</span></p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec r\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v \left( t \right)\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.position_vector">
+<span class="sig-name descname"><span class="pre">position_vector</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.position_vector" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s position relative to <span class="math notranslate nohighlight">\(S\)</span> as a function of <a class="reference internal" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.time" title="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r(t)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r \left( t \right)\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.velocity_relative_to_reference_frame.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">v(t)</span> <span class="pre">=</span> <span class="pre">Derivative(r(t),</span> <span class="pre">t)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[v \left( t \right) = \frac{d}{d t} r \left( t \right)\]</div>
 </dd>
 </dl>
 </dd></dl>
