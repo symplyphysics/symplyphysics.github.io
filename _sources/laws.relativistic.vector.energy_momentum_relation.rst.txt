@@ -1,0 +1,81 @@
+Energy—momentum relation
+========================
+
+Relativistic momentum and total relativistic energy of a relativistic particle are related by a
+linear equation.
+
+**Conditions:**
+
+#. Velocity :math:`\vec v` and momentum :math:`\vec p` must be parallel to each other.
+
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Energy%E2%80%93momentum_relation#Heuristic_approach_for_massive_particles>`__.
+
+..
+    TODO: find a more exact link
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.vector.energy_momentum_relation
+
+.. py:data:: total_energy
+
+    Total energy of the relativistic :attr:`~symplyphysics.symbols.basic.energy`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: momentum
+
+    Vector of the particle's relativistic :attr:`~symplyphysics.symbols.classical_mechanics.momentum`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`{\vec p}`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: velocity
+
+    Vector of the particle's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: vector_law
+
+    :code:`p * c^2 = E * v`
+
+
+    Latex:
+        .. math::
+            {\vec p} c^{2} = E {\vec v}
+
+
+.. py:data:: energy_law
+
+    :code:`E = c^2 * norm(p) / norm(v)`
+
+
+    Latex:
+        .. math::
+            E = c^{2} \frac{\left \Vert {\vec p} \right \Vert}{\left \Vert {\vec v} \right \Vert}
+
+

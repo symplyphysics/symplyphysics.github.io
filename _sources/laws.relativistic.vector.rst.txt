@@ -5,5 +5,13 @@ A collection of laws related to a vectorial description of relativistic mechanic
 
 .. py:currentmodule:: symplyphysics.laws.relativistic.vector
 
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.relativistic.vector.energy_momentum_relation
+
 
 
