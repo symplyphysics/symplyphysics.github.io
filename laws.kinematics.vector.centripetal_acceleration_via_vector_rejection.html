@@ -42,47 +42,62 @@ which is directed towards the axis of rotation.</p>
 <p>Also see <a class="reference internal" href="laws.kinematics.vector.centripetal_acceleration_via_cross_product.html"><span class="doc">Centripetal acceleration via cross product</span></a>.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(|\vec a|\)</span> (<code class="code docutils literal notranslate"><span class="pre">norm(a)</span></code>) is the Euclidean norm of <span class="math notranslate nohighlight">\(\vec a\)</span>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(\text{oproj}_{\vec b} \vec a\)</span> (<code class="code docutils literal notranslate"><span class="pre">reject(a,</span> <span class="pre">b)</span></code>) is the rejection of
-<span class="math notranslate nohighlight">\(\vec a\)</span> from <span class="math notranslate nohighlight">\(\vec b\)</span>, i.e. the component of <span class="math notranslate nohighlight">\(\vec a\)</span> orthogonal
-to <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\left( \vec a, \vec b \right)\)</span> (<code class="code docutils literal notranslate"><span class="pre">dot(a,</span> <span class="pre">b)</span></code>) is the dot product between
+vectors <span class="math notranslate nohighlight">\(\vec a\)</span> and <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Centripetal_force#Derivation_using_vectors">Wikipedia</a>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law">
-<span class="sig-name descname"><span class="pre">centripetal_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angular_velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">radius_vector_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/centripetal_acceleration_via_vector_rejection.html#centripetal_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration_law" title="Link to this definition">¶</a></dt>
-<dd><p>Centripetal acceleration via angular velocity and radius vector.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_c</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">norm(w)^2</span> <span class="pre">*</span> <span class="pre">reject(r,</span> <span class="pre">w)</span></code></p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration">
+<span class="sig-name descname"><span class="pre">centripetal_acceleration</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.centripetal_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s centripetal <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_cp</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec a}_\text{c} = - |\vec \omega|^2 \text{oproj}_{\vec \omega} \vec r\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{cp}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>angular_velocity_</strong> – <p>pseudovector of angular velocity</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec \omega\)</span></p>
-<p>Dimension: <em>angle</em> / <em>time</em></p>
-</p></li>
-<li><p><strong>radius_vector_</strong> – <p>radius vector, or position vector</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec r\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.angular_velocity">
+<span class="sig-name descname"><span class="pre">angular_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.angular_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Pseudovector of the angular velocity of the body’s rotation. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_speed" title="symplyphysics.symbols.classical_mechanics.angular_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_speed</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>vector of centripetal acceleration</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_c</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{c}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec \omega}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.position_vector">
+<span class="sig-name descname"><span class="pre">position_vector</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.position_vector" title="Link to this definition">¶</a></dt>
+<dd><p>The body’s position vector. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_origin" title="symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec r}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.centripetal_acceleration_via_vector_rejection.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">a_cp</span> <span class="pre">=</span> <span class="pre">w</span> <span class="pre">*</span> <span class="pre">dot(r,</span> <span class="pre">w)</span> <span class="pre">-</span> <span class="pre">r</span> <span class="pre">*</span> <span class="pre">dot(w,</span> <span class="pre">w)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{cp} = {\vec \omega} \left( {\vec r}, {\vec \omega} \right) - {\vec r} \left( {\vec \omega}, {\vec \omega} \right)\]</div>
 </dd>
 </dl>
 </dd></dl>
