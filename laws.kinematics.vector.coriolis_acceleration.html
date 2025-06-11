@@ -37,49 +37,67 @@
             
   <section id="coriolis-acceleration">
 <h1>Coriolis acceleration<a class="headerlink" href="#coriolis-acceleration" title="Link to this heading">¶</a></h1>
-<p>Imagine two reference frames, one of which is fixed (<span class="math notranslate nohighlight">\(S\)</span>) and the other one is moving (<span class="math notranslate nohighlight">\(S'\)</span>). When
-the body is moving within a rotating coordinate system, its path deflects due to the appearance
-of the Coriolis acceleration on it. The object does not actually deviate from its path per se
-but it appears to do so because of the motion of the coordinate system.</p>
-<p>Suppose a reference frame <span class="math notranslate nohighlight">\(S'\)</span> is fixed to a rotating body <span class="math notranslate nohighlight">\(A\)</span> (e.g. Earth), so that frame <span class="math notranslate nohighlight">\(S'\)</span> rotates w.r.t.
-another static reference frame <span class="math notranslate nohighlight">\(S\)</span>. The Coriolis acceleration is the acceleration another body <span class="math notranslate nohighlight">\(B\)</span> has when
-moving within rotating reference frame <span class="math notranslate nohighlight">\(S'\)</span>, so it is essentially zero for objects at rest in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<p>Imagine two reference frames, one of which is fixed (<span class="math notranslate nohighlight">\(S\)</span>) and the other one is moving
+(<span class="math notranslate nohighlight">\(S'\)</span>). When the body is moving within a rotating coordinate system, its path deflects due
+to the appearance of the Coriolis acceleration on it. The object does not actually deviate from
+its path per se but it appears to do so because of the motion of the coordinate system.</p>
+<p>Suppose a reference frame <span class="math notranslate nohighlight">\(S'\)</span> is fixed to a rotating body <span class="math notranslate nohighlight">\(A\)</span> (e.g. Earth), so that
+frame <span class="math notranslate nohighlight">\(S'\)</span> rotates w.r.t. another static reference frame <span class="math notranslate nohighlight">\(S\)</span>. The Coriolis
+acceleration is the acceleration another body <span class="math notranslate nohighlight">\(B\)</span> has when moving within rotating reference
+frame <span class="math notranslate nohighlight">\(S'\)</span>, so it is essentially zero for objects at rest in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Coriolis_force#Formula">Wikipedia</a>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration_law">
-<span class="sig-name descname"><span class="pre">coriolis_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angular_velocity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/coriolis_acceleration.html#coriolis_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration_law" title="Link to this definition">¶</a></dt>
-<dd><p>Coriolis acceleration via relative velocity of body and angular velocity of rotation of <span class="math notranslate nohighlight">\(S'\)</span>.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_cor</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">cross(v_rel,</span> <span class="pre">w)</span></code></p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration">
+<span class="sig-name descname"><span class="pre">coriolis_acceleration</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.coriolis_acceleration.coriolis_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s Coreolis <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_Cor</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec a}_\text{cor} = 2 ({\vec v}_\text{rel} \times \vec \omega)\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{Cor}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>velocity_</strong> – <p>velocity of body relative to <span class="math notranslate nohighlight">\(S'\)</span></p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
-<p>Dimension: <em>velocity</em></p>
-</p></li>
-<li><p><strong>angular_velocity_</strong> – <p>angular velocity of rotation of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span></p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec \omega\)</span></p>
-<p>Dimension: <em>angle</em> / <em>time</em></p>
-</p></li>
-</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.coriolis_acceleration.relative_velocity">
+<span class="sig-name descname"><span class="pre">relative_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.coriolis_acceleration.relative_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s velocity relative to <span class="math notranslate nohighlight">\(S'\)</span>. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>Coriolis acceleration of body in <span class="math notranslate nohighlight">\(S'\)</span></p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_cor</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{cor}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.coriolis_acceleration.angular_velocity">
+<span class="sig-name descname"><span class="pre">angular_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.coriolis_acceleration.angular_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Pseudovector of the angular velocity of the body’s rotation. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_speed" title="symplyphysics.symbols.classical_mechanics.angular_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_speed</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec \omega}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.coriolis_acceleration.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.coriolis_acceleration.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">a_Cor</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">cross(v_rel,</span> <span class="pre">w)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{Cor} = 2 \left[ {\vec v}_\text{rel}, {\vec \omega} \right]\]</div>
 </dd>
 </dl>
 </dd></dl>
