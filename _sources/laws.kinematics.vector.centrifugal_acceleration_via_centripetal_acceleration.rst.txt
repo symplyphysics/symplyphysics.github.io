@@ -10,59 +10,43 @@ acceleration* but is directed oppositely to it.
 
 .. py:currentmodule:: symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration
 
+.. py:data:: centrifugal_acceleration
+
+    Vector of centrifugal :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the body in the non-inertial,
+    rotating frame.
+
+Symbol:
+    :code:`a_cf`
+
+Latex:
+    :math:`{\vec a}_\text{cf}`
+
+Dimension:
+    :code:`acceleration`
 
 
-.. py:function:: centrifugal_law(centripetal_acceleration_)
+.. py:data:: centripetal_acceleration
 
-    *Centrifugal acceleration* via centripetal acceleration.
+    Vector of centripetal :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the rotating body in the inertial
+    frame.
 
-    Law:
-        :code:`a_centrifugal = -1 * a_centripetal`
+Symbol:
+    :code:`a_cp`
+
+Latex:
+    :math:`{\vec a}_\text{cp}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: law
+
+    :code:`a_cf = -a_cp`
+
 
     Latex:
         .. math::
-            \vec a_\text{cf} = - \vec a_\text{cp}
-
-    :param centripetal_acceleration\_: :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the rotating body in an inertial frame.
-
-        Symbol: :code:`a_centripetal`
-
-        Latex: :math:`\vec a_\text{cp}`
-
-        Dimension: *acceleration*
-
-    :return: :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the body in a non-inertial, rotating frame.
-
-        Symbol: :code:`a_centrifugal`
-
-        Latex: :math:`\vec a_\text{cf}`
-
-        Dimension: *acceleration*
+            {\vec a}_\text{cf} = - {\vec a}_\text{cp}
 
 
-.. py:function:: centripetal_law(centrifugal_acceleration_)
-
-    *Centripetal acceleration* via centrifugal acceleration.
-
-    Law:
-        :code:`a_centripetal = -1 * a_centrifugal`
-
-    Latex:
-        .. math::
-            \vec a_\text{cp} = - \vec a_\text{cf}
-
-    :param centrifugal_acceleration\_: :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the body in a non-inertial, rotating frame.
-
-        Symbol: :code:`a_centripetal`
-
-        Latex: :math:`\vec a_\text{cp}`
-
-        Dimension: *acceleration*
-
-    :return: :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the rotating body in an inertial frame.
-
-        Symbol: :code:`a_centripetal`
-
-        Latex: :math:`\vec a_\text{cp}`
-
-        Dimension: *acceleration*

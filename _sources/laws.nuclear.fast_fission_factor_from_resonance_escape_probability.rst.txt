@@ -141,11 +141,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`epsilon = 1 + (1 - p) / p * P_FAF * u_f * nu_f / (P_TNL * P_TAF * f * nu_t)`
+    :code:`epsilon = 1 + (1 - p) / p * nu_f * P_FAF * u_f / (nu_t * P_TNL * P_TAF * f)`
 
 
     Latex:
         .. math::
-            \varepsilon = 1 + \frac{1 - p}{p} \frac{P_\text{FAF} u_\text{f} \nu_\text{f}}{P_\text{TNL} P_\text{TAF} f \nu_\text{t}}
+            \varepsilon = 1 + \frac{1 - p}{p} \frac{\nu_\text{f} P_\text{FAF} u_\text{f}}{\nu_\text{t} P_\text{TNL} P_\text{TAF} f}
 
 
