@@ -1,0 +1,84 @@
+Relativistic momentum via rest mass and velocity
+================================================
+
+Momentum (amount of motion) is a vector physical quantity that is a measure of the mechanical
+movement of a body. The relativistic momentum also takes into account speed limits equal to the
+speed of light.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Notes:**
+
+#. To find rest mass refer to the :ref:`scalar law <Relativistic momentum via rest mass and
+   speed>`.
+
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Mass_in_special_relativity#Relativistic_mass>`__.
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.vector.relativistic_momentum
+
+.. py:data:: momentum
+
+    Vector of the body's relativistic :attr:`~symplyphysics.symbols.classical_mechanics.momentum`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`{\vec p}`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: rest_mass
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.rest_mass` of the body.
+
+Symbol:
+    :code:`m_0`
+
+Latex:
+    :math:`m_{0}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: velocity
+
+    Vector of the body's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: momentum_law
+
+    :code:`p = m_0 * v * (sqrt(1 - dot(v, v) / c^2))^(-1)`
+
+
+    Latex:
+        .. math::
+            {\vec p} = m_{0} {\vec v} \left(\sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}\right)^{-1}
+
+
+.. py:data:: velocity_law
+
+    :code:`v = p * c * (sqrt((m_0 * c)^2 + dot(p, p)))^(-1)`
+
+
+    Latex:
+        .. math::
+            {\vec v} = {\vec p} c \left(\sqrt{\left(m_{0} c\right)^{2} + \left( {\vec p}, {\vec p} \right)}\right)^{-1}
+
+
