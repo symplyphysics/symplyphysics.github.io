@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Relativistic momentum via rest mass and velocity &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Acceleration from force and velocity &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.vector.relativistic_momentum.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.vector.acceleration_from_force_and_velocity.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Coordinate conversion at constant velocity" href="laws.relativistic.coordinate_conversion_velocity_constant.html" />
-    <link rel="prev" title="Relativistic mass moment" href="laws.relativistic.vector.relativistic_mass_moment.html" />
+    <link rel="next" title="Energy—momentum relation" href="laws.relativistic.vector.energy_momentum_relation.html" />
+    <link rel="prev" title="Relativistic (Vector)" href="laws.relativistic.vector.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,40 +35,39 @@
 
           <div class="body" role="main">
             
-  <section id="relativistic-momentum-via-rest-mass-and-velocity">
-<h1>Relativistic momentum via rest mass and velocity<a class="headerlink" href="#relativistic-momentum-via-rest-mass-and-velocity" title="Link to this heading">¶</a></h1>
-<p>Momentum (amount of motion) is a vector physical quantity that is a measure of the mechanical
-movement of a body. The relativistic momentum also takes into account speed limits equal to the
-speed of light.</p>
+  <section id="acceleration-from-force-and-velocity">
+<h1>Acceleration from force and velocity<a class="headerlink" href="#acceleration-from-force-and-velocity" title="Link to this heading">¶</a></h1>
+<p>In special relativity, the Newton’s second law does not hold in the classical form
+<span class="math notranslate nohighlight">\(\vec F = m \vec a\)</span>, but acceleration can still be expressed via force and velocity.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
 <li><p><span class="math notranslate nohighlight">\(c\)</span> (<code class="code docutils literal notranslate"><span class="pre">c</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.speed_of_light" title="symplyphysics.quantities.speed_of_light"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed_of_light</span></code></a>.</p></li>
 </ol>
-<p><strong>Notes:</strong></p>
+<p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
-<li><p>To find rest mass refer to the <a class="reference internal" href="laws.relativistic.relativistic_momentum.html#relativistic-momentum-via-rest-mass-and-speed"><span class="std std-ref">scalar law</span></a>.</p></li>
+<li><p>This law applies to special relativity.</p></li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Mass_in_special_relativity#Relativistic_mass">Wikipedia, derivable from here</a>.</p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Acceleration_(special_relativity)#Acceleration_and_force">Wikipedia, see paragraph</a>.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_momentum.momentum">
-<span class="sig-name descname"><span class="pre">momentum</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_momentum.momentum" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the body’s relativistic <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.momentum" title="symplyphysics.symbols.classical_mechanics.momentum"><code class="xref py py-attr docutils literal notranslate"><span class="pre">momentum</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.acceleration">
+<span class="sig-name descname"><span class="pre">acceleration</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a>.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec p}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">momentum</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_momentum.rest_mass">
-<span class="sig-name descname"><span class="pre">rest_mass</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_momentum.rest_mass" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.rest_mass">
+<span class="sig-name descname"><span class="pre">rest_mass</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.rest_mass" title="Link to this definition">¶</a></dt>
 <dd><p><a class="reference internal" href="symbols.relativistic_mechanics.html#symplyphysics.symbols.relativistic_mechanics.rest_mass" title="symplyphysics.symbols.relativistic_mechanics.rest_mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">rest_mass</span></code></a> of the body.</p>
 </dd></dl>
 
@@ -81,8 +80,22 @@ speed of light.</p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_momentum.velocity">
-<span class="sig-name descname"><span class="pre">velocity</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_momentum.velocity" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.force">
+<span class="sig-name descname"><span class="pre">force</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.force" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> exerted on the body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec F}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.velocity">
+<span class="sig-name descname"><span class="pre">velocity</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.velocity" title="Link to this definition">¶</a></dt>
 <dd><p>Vector of the body’s velocity. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
 </dd></dl>
 
@@ -95,23 +108,26 @@ speed of light.</p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_momentum.momentum_law">
-<span class="sig-name descname"><span class="pre">momentum_law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_momentum.momentum_law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">m_0</span> <span class="pre">*</span> <span class="pre">v</span> <span class="pre">*</span> <span class="pre">(sqrt(1</span> <span class="pre">-</span> <span class="pre">dot(v,</span> <span class="pre">v)</span> <span class="pre">/</span> <span class="pre">c^2))^(-1)</span></code></p>
-<dl>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec p} = m_{0} {\vec v} \left(\sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}\right)^{-1}\]</div>
-</dd>
-</dl>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.lorentz_factor">
+<span class="sig-name descname"><span class="pre">lorentz_factor</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.lorentz_factor" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.relativistic_mechanics.html#symplyphysics.symbols.relativistic_mechanics.lorentz_factor" title="symplyphysics.symbols.relativistic_mechanics.lorentz_factor"><code class="xref py py-attr docutils literal notranslate"><span class="pre">lorentz_factor</span></code></a>.</p>
 </dd></dl>
 
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">gamma</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\gamma\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_momentum.velocity_law">
-<span class="sig-name descname"><span class="pre">velocity_law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_momentum.velocity_law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">v</span> <span class="pre">=</span> <span class="pre">p</span> <span class="pre">*</span> <span class="pre">c</span> <span class="pre">*</span> <span class="pre">(sqrt((m_0</span> <span class="pre">*</span> <span class="pre">c)^2</span> <span class="pre">+</span> <span class="pre">dot(p,</span> <span class="pre">p)))^(-1)</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.acceleration_from_force_and_velocity.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">a</span> <span class="pre">=</span> <span class="pre">(F</span> <span class="pre">-</span> <span class="pre">dot(F,</span> <span class="pre">v)</span> <span class="pre">/</span> <span class="pre">c^2</span> <span class="pre">*</span> <span class="pre">v)</span> <span class="pre">/</span> <span class="pre">(m_0</span> <span class="pre">*</span> <span class="pre">gamma)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec v} = {\vec p} c \left(\sqrt{\left(m_{0} c\right)^{2} + \left( {\vec p}, {\vec p} \right)}\right)^{-1}\]</div>
+\[{\vec a} = \frac{{\vec F} - \frac{\left( {\vec F}, {\vec v} \right)}{c^{2}} {\vec v}}{m_{0} \gamma}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -163,11 +179,11 @@ speed of light.</p>
 <li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.relativistic.html">Relativistic</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="laws.relativistic.vector.html"><strong>Relativistic (Vector)</strong></a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.acceleration_from_force_and_velocity.html">Acceleration from force and velocity</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Acceleration from force and velocity</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.energy_momentum_relation.html">Energy—momentum relation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.force_acceleration_relation.html">Force from acceleration and velocity</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.relativistic_mass_moment.html">Relativistic mass moment</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Relativistic momentum via rest mass and velocity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.relativistic_momentum.html">Relativistic momentum via rest mass and velocity</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.coordinate_conversion_velocity_constant.html">Coordinate conversion at constant velocity</a></li>
@@ -202,8 +218,8 @@ speed of light.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.relativistic.html">Relativistic</a><ul>
   <li><a href="laws.relativistic.vector.html"><strong>Relativistic (Vector)</strong></a><ul>
-      <li>Previous: <a href="laws.relativistic.vector.relativistic_mass_moment.html" title="previous chapter">Relativistic mass moment</a></li>
-      <li>Next: <a href="laws.relativistic.coordinate_conversion_velocity_constant.html" title="next chapter">Coordinate conversion at constant velocity</a></li>
+      <li>Previous: <a href="laws.relativistic.vector.html" title="previous chapter"><strong>Relativistic (Vector)</strong></a></li>
+      <li>Next: <a href="laws.relativistic.vector.energy_momentum_relation.html" title="next chapter">Energy—momentum relation</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -230,7 +246,7 @@ speed of light.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.relativistic.vector.relativistic_momentum.rst.txt"
+      <a href="_sources/laws.relativistic.vector.acceleration_from_force_and_velocity.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
