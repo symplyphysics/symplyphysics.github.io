@@ -16,6 +16,7 @@ A collection of laws related to a vectorial description of relativistic mechanic
     laws.relativistic.vector.force_acceleration_relation
     laws.relativistic.vector.relativistic_mass_moment
     laws.relativistic.vector.relativistic_momentum
+    laws.relativistic.vector.relativistic_velocity_parallel_to_movement
 
 
 

@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Energy—momentum relation &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Relativistic velocity tangential to movement &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.vector.energy_momentum_relation.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.relativistic.vector.relativistic_velocity_parallel_to_movement.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Force from acceleration and velocity" href="laws.relativistic.vector.force_acceleration_relation.html" />
-    <link rel="prev" title="Acceleration from force and velocity" href="laws.relativistic.vector.acceleration_from_force_and_velocity.html" />
+    <link rel="next" title="Coordinate conversion at constant velocity" href="laws.relativistic.coordinate_conversion_velocity_constant.html" />
+    <link rel="prev" title="Relativistic momentum via rest mass and velocity" href="laws.relativistic.vector.relativistic_momentum.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,50 +35,61 @@
 
           <div class="body" role="main">
             
-  <section id="energymomentum-relation">
-<h1>Energy—momentum relation<a class="headerlink" href="#energymomentum-relation" title="Link to this heading">¶</a></h1>
-<p>Relativistic momentum and total relativistic energy of a relativistic particle are related by a
-linear equation.</p>
+  <section id="relativistic-velocity-tangential-to-movement">
+<h1>Relativistic velocity tangential to movement<a class="headerlink" href="#relativistic-velocity-tangential-to-movement" title="Link to this heading">¶</a></h1>
+<p>Consider two inertial reference frames: one fixed (lab frame) and one tied to the moving object
+(proper frame). The proper frame is moving with some velocity <span class="math notranslate nohighlight">\(\vec v\)</span> relative to the lab
+frame. According to the theory of special relativity, the velocity of the object relative to lab
+frame is <em>not</em> equal to the sum of its velocity in the proper frame and the velocity of the proper
+frame relative to the lab frame.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>One can get the same expression for <span class="math notranslate nohighlight">\({\vec u'}_\perp\)</span> in terms of <span class="math notranslate nohighlight">\(\vec u\)</span> by
+replacing <span class="math notranslate nohighlight">\(\vec v\)</span> with <span class="math notranslate nohighlight">\(-{\vec v}\)</span>. This is essentially the inverse Lorentz
+transformation from lab frame to proper frame that uses the fact that the lab frame can be
+viewed as moving with velocity vector <span class="math notranslate nohighlight">\(-{\vec v}\)</span> relative to the proper frame.</p></li>
+</ol>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
-<li><p>Velocity <span class="math notranslate nohighlight">\(\vec v\)</span> and momentum <span class="math notranslate nohighlight">\(\vec p\)</span> must be parallel to each other.</p></li>
+<li><p>Works in special relativity.</p></li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Energy%E2%80%93momentum_relation#Heuristic_approach_for_massive_particles">Wikipedia, derivable from here</a>.</p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Velocity-addition_formula#General_configuration">Wikipedia</a>.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.energy_momentum_relation.total_energy">
-<span class="sig-name descname"><span class="pre">total_energy</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.energy_momentum_relation.total_energy" title="Link to this definition">¶</a></dt>
-<dd><p>Total energy of the relativistic <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.energy" title="symplyphysics.symbols.basic.energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">energy</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.tangential_velocity_in_lab_frame">
+<span class="sig-name descname"><span class="pre">tangential_velocity_in_lab_frame</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.tangential_velocity_in_lab_frame" title="Link to this definition">¶</a></dt>
+<dd><p>Component of the velocity vector relative to the lab frame tangential to <span class="math notranslate nohighlight">\(\vec v\)</span>. See
+<a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">u_t</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec u}_\text{t}\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.energy_momentum_relation.momentum">
-<span class="sig-name descname"><span class="pre">momentum</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.energy_momentum_relation.momentum" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the particle’s relativistic <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.momentum" title="symplyphysics.symbols.classical_mechanics.momentum"><code class="xref py py-attr docutils literal notranslate"><span class="pre">momentum</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.velocity_in_proper_frame">
+<span class="sig-name descname"><span class="pre">velocity_in_proper_frame</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.velocity_in_proper_frame" title="Link to this definition">¶</a></dt>
+<dd><p>Velocity vector relative to the proper frame. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">p</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">u'</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec p}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec u'}\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">momentum</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.energy_momentum_relation.velocity">
-<span class="sig-name descname"><span class="pre">velocity</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.energy_momentum_relation.velocity" title="Link to this definition">¶</a></dt>
-<dd><p>Vector of the particle’s velocity. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.proper_frame_velocity">
+<span class="sig-name descname"><span class="pre">proper_frame_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.proper_frame_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Velocity vector of the proper frame relative to the lab frame. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
 </dd></dl>
 
 <dl class="simple">
@@ -90,23 +101,12 @@ linear equation.</p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.energy_momentum_relation.vector_law">
-<span class="sig-name descname"><span class="pre">vector_law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.energy_momentum_relation.vector_law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">*</span> <span class="pre">c^2</span> <span class="pre">=</span> <span class="pre">E</span> <span class="pre">*</span> <span class="pre">v</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">u_t</span> <span class="pre">=</span> <span class="pre">v</span> <span class="pre">*</span> <span class="pre">(dot(u',</span> <span class="pre">v)</span> <span class="pre">*</span> <span class="pre">dot(v,</span> <span class="pre">v)^(-1)</span> <span class="pre">+</span> <span class="pre">1)</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">+</span> <span class="pre">dot(u',</span> <span class="pre">v)</span> <span class="pre">/</span> <span class="pre">c^2)^(-1)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec p} c^{2} = E {\vec v}\]</div>
-</dd>
-</dl>
-</dd></dl>
-
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.energy_momentum_relation.energy_law">
-<span class="sig-name descname"><span class="pre">energy_law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.energy_momentum_relation.energy_law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">E</span> <span class="pre">=</span> <span class="pre">c^2</span> <span class="pre">*</span> <span class="pre">norm(p)</span> <span class="pre">/</span> <span class="pre">norm(v)</span></code></p>
-<dl>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[E = c^{2} \frac{\left \Vert {\vec p} \right \Vert}{\left \Vert {\vec v} \right \Vert}\]</div>
+\[{\vec u}_\text{t} = {\vec v} \left(\left( {\vec u'}, {\vec v} \right) \left( {\vec v}, {\vec v} \right)^{-1} + 1\right) \left(1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}\right)^{-1}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -159,11 +159,11 @@ linear equation.</p>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.relativistic.html">Relativistic</a><ul class="current">
 <li class="toctree-l3 current"><a class="reference internal" href="laws.relativistic.vector.html"><strong>Relativistic (Vector)</strong></a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.acceleration_from_force_and_velocity.html">Acceleration from force and velocity</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Energy—momentum relation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.energy_momentum_relation.html">Energy—momentum relation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.force_acceleration_relation.html">Force from acceleration and velocity</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.relativistic_mass_moment.html">Relativistic mass moment</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.relativistic_momentum.html">Relativistic momentum via rest mass and velocity</a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.relativistic.vector.relativistic_velocity_parallel_to_movement.html">Relativistic velocity tangential to movement</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Relativistic velocity tangential to movement</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.relativistic.coordinate_conversion_velocity_constant.html">Coordinate conversion at constant velocity</a></li>
@@ -198,8 +198,8 @@ linear equation.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.relativistic.html">Relativistic</a><ul>
   <li><a href="laws.relativistic.vector.html"><strong>Relativistic (Vector)</strong></a><ul>
-      <li>Previous: <a href="laws.relativistic.vector.acceleration_from_force_and_velocity.html" title="previous chapter">Acceleration from force and velocity</a></li>
-      <li>Next: <a href="laws.relativistic.vector.force_acceleration_relation.html" title="next chapter">Force from acceleration and velocity</a></li>
+      <li>Previous: <a href="laws.relativistic.vector.relativistic_momentum.html" title="previous chapter">Relativistic momentum via rest mass and velocity</a></li>
+      <li>Next: <a href="laws.relativistic.coordinate_conversion_velocity_constant.html" title="next chapter">Coordinate conversion at constant velocity</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -226,7 +226,7 @@ linear equation.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.relativistic.vector.energy_momentum_relation.rst.txt"
+      <a href="_sources/laws.relativistic.vector.relativistic_velocity_parallel_to_movement.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
