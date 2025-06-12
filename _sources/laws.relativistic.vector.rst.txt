@@ -12,6 +12,7 @@ A collection of laws related to a vectorial description of relativistic mechanic
 
 
     laws.relativistic.vector.energy_momentum_relation
+    laws.relativistic.vector.relativistic_mass_moment
 
 
 

@@ -1,0 +1,107 @@
+Relativistic mass moment
+========================
+
+Mass moment is an additive physical quantity useful for deriving the Lorentz transformation of
+angular momentum. For isolated systems, it is conserved in time, but unlike angular momentum, the
+vector of mass moment is a polar ("ordinary") vector and therefore invariant under inversion.
+
+**Links:**
+
+#. `Wikipedia, end of paragraph <https://en.wikipedia.org/wiki/Relativistic_angular_momentum#Dynamic_mass_moment>`__.
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.vector.relativistic_mass_moment
+
+.. py:data:: mass_moment
+
+    Vector of mass moment.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`{\vec N}`
+
+Dimension:
+    :code:`length*mass`
+
+
+.. py:data:: rest_mass
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.rest_mass` of the body.
+
+Symbol:
+    :code:`m_0`
+
+Latex:
+    :math:`m_{0}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: lorentz_factor
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.lorentz_factor`.
+
+Symbol:
+    :code:`gamma`
+
+Latex:
+    :math:`\gamma`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: position_vector
+
+    Vector of the body's position. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: velocity
+
+    Vector of the body's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: law
+
+    :code:`N = m_0 * gamma^2 * (r - v * t)`
+
+
+    Latex:
+        .. math::
+            {\vec N} = m_{0} \gamma^{2} \left({\vec r} - {\vec v} t\right)
+
+
