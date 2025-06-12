@@ -1,0 +1,107 @@
+Curl of magnetic field is free current density and electric displacement derivative
+===================================================================================
+
+The magnetic field circulation theorem states that an electric current and a change in electric
+displacement generate a rotational magnetic field. Also known as the **Ampère's circuital law**.
+
+**Notes:**
+
+#. The :math:`\text{curl}` operator is only defined for a 3D space.
+
+**Links:**
+
+#. `Wikipedia, second line in table <https://en.wikipedia.org/wiki/Maxwell%27s_equations#Macroscopic_formulation>`__.
+#. `Physics LibreTexts, formula 15.5.3 <https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/15%3A_Maxwell's_Equations/15.05%3A_Maxwell's_Third_Equation>`__.
+
+..
+    TODO: shorten file name
+
+.. py:currentmodule:: symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: position_vector
+
+    Position vector of a point in space. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: magnetic_field
+
+    Vector of the magnetic field as a function of :attr:`~position_vector` and :attr:`~time`. See
+    :symbols:~magnetic_field_strength`.
+
+Symbol:
+    :code:`H(r, t)`
+
+Latex:
+    :math:`H \left( {\vec r}, t \right)`
+
+Dimension:
+    :code:`current/length`
+
+
+.. py:data:: electric_displacement
+
+    Vector of the :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement` field as a function of :attr:`~position_vector` and
+    :attr:`~time`.
+
+Symbol:
+    :code:`D(r, t)`
+
+Latex:
+    :math:`D \left( {\vec r}, t \right)`
+
+Dimension:
+    :code:`charge/area`
+
+
+.. py:data:: free_current_density
+
+    Vector of the free (i.e. unbound) :attr:`~symplyphysics.symbols.electrodynamics.current_density` field as a function of
+    :attr:`~position_vector` and :attr:`~time`.
+
+Symbol:
+    :code:`J_f(r, t)`
+
+Latex:
+    :math:`{\vec J}_\text{f} \left( {\vec r}, t \right)`
+
+Dimension:
+    :code:`current/area`
+
+
+.. py:data:: law
+
+    ..
+        NOTE: code printers have not been implemented for `VectorCurl` yet
+
+    :code:`curl(H(r, t)) = J_f(r, t) + Derivative(D(r, t), t)`
+
+    Latex:
+        .. math::
+            \text{curl} \, \vec H \! \left( \vec r, t \right)
+                = {\vec J}_\text{f} \! \left( \vec r, t \right)
+                + \frac{\partial}{\partial t} \vec D \! \left( \vec r, t \right)
+
+

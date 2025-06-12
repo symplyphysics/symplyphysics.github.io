@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Divergence of electric displacement field is volumetric charge density &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Curl of magnetic field is free current density and electric displacement derivative &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Curl of magnetic field is free current density and electric displacement derivative" href="laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.html" />
-    <link rel="prev" title="Maxwell equations" href="laws.electricity.maxwell_equations.html" />
+    <link rel="next" title="Electromagnetism (Vector)" href="laws.electricity.vector.html" />
+    <link rel="prev" title="Divergence of electric displacement field is volumetric charge density" href="laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,19 +35,36 @@
 
           <div class="body" role="main">
             
-  <section id="divergence-of-electric-displacement-field-is-volumetric-charge-density">
-<h1>Divergence of electric displacement field is volumetric charge density<a class="headerlink" href="#divergence-of-electric-displacement-field-is-volumetric-charge-density" title="Link to this heading">¶</a></h1>
-<p>The divergence of the electric induction field (also known as the electric displacement field) is
-equal to the volumetric charge density at all points in space. Another form of this law states
-that there exist electric charges.</p>
+  <section id="curl-of-magnetic-field-is-free-current-density-and-electric-displacement-derivative">
+<h1>Curl of magnetic field is free current density and electric displacement derivative<a class="headerlink" href="#curl-of-magnetic-field-is-free-current-density-and-electric-displacement-derivative" title="Link to this heading">¶</a></h1>
+<p>The magnetic field circulation theorem states that an electric current and a change in electric
+displacement generate a rotational magnetic field. Also known as the <strong>Ampère’s circuital law</strong>.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>The <span class="math notranslate nohighlight">\(\text{curl}\)</span> operator is only defined for a 3D space.</p></li>
+</ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Maxwell%27s_equations#Macroscopic_formulation">Wikipedia, first line in table</a>.</p></li>
-<li><p><a class="reference external" href="https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/15%3A_Maxwell's_Equations/15.02%3A_Maxwell's_First_Equation">Physics LibreTexts, formula 15.2.3</a>.</p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Maxwell%27s_equations#Macroscopic_formulation">Wikipedia, second line in table</a>.</p></li>
+<li><p><a class="reference external" href="https://phys.libretexts.org/Bookshelves/Electricity_and_Magnetism/Electricity_and_Magnetism_(Tatum)/15%3A_Maxwell's_Equations/15.05%3A_Maxwell's_Third_Equation">Physics LibreTexts, formula 15.5.3</a>.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.position_vector">
-<span class="sig-name descname"><span class="pre">position_vector</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.position_vector" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time">
+<span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.time" title="symplyphysics.symbols.basic.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector">
+<span class="sig-name descname"><span class="pre">position_vector</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector" title="Link to this definition">¶</a></dt>
 <dd><p>Position vector of a point in space. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_origin" title="symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a>.</p>
 </dd></dl>
 
@@ -60,42 +77,59 @@ that there exist electric charges.</p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.electric_displacement">
-<span class="sig-name descname"><span class="pre">electric_displacement</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.electric_displacement" title="Link to this definition">¶</a></dt>
-<dd><p>Vector field of the <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_displacement" title="symplyphysics.symbols.electrodynamics.electric_displacement"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_displacement</span></code></a> as a function of the
-<a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.position_vector" title="symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.position_vector"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position_vector</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.magnetic_field">
+<span class="sig-name descname"><span class="pre">magnetic_field</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.magnetic_field" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the magnetic field as a function of <a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector" title="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position_vector</span></code></a> and <a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time" title="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>. See
+:symbols:~magnetic_field_strength`.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D(r)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">H(r,</span> <span class="pre">t)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D \left( {\vec r} \right)\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(H \left( {\vec r}, t \right)\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">current/length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.electric_displacement">
+<span class="sig-name descname"><span class="pre">electric_displacement</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.electric_displacement" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electric_displacement" title="symplyphysics.symbols.electrodynamics.electric_displacement"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electric_displacement</span></code></a> field as a function of <a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector" title="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position_vector</span></code></a> and
+<a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time" title="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D(r,</span> <span class="pre">t)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D \left( {\vec r}, t \right)\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge/area</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.volumetric_charge_density">
-<span class="sig-name descname"><span class="pre">volumetric_charge_density</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.volumetric_charge_density" title="Link to this definition">¶</a></dt>
-<dd><p>Scalar field of the <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.volumetric_charge_density" title="symplyphysics.symbols.electrodynamics.volumetric_charge_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">volumetric_charge_density</span></code></a> as a function of the
-<a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.position_vector" title="symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.position_vector"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position_vector</span></code></a>.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.free_current_density">
+<span class="sig-name descname"><span class="pre">free_current_density</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.free_current_density" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the free (i.e. unbound) <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current_density" title="symplyphysics.symbols.electrodynamics.current_density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current_density</span></code></a> field as a function of
+<a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector" title="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.position_vector"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position_vector</span></code></a> and <a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time" title="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho(r)</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">J_f(r,</span> <span class="pre">t)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho{\left({\vec r} \right)}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec J}_\text{f} \left( {\vec r}, t \right)\)</span></p>
 </dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">charge/volume</span></code></p>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">current/area</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">div(D(r))</span> <span class="pre">=</span> <span class="pre">rho(r)</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">curl(H(r,</span> <span class="pre">t))</span> <span class="pre">=</span> <span class="pre">J_f(r,</span> <span class="pre">t)</span> <span class="pre">+</span> <span class="pre">Derivative(D(r,</span> <span class="pre">t),</span> <span class="pre">t)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\text{div} \, \vec D \! \left( \vec r \right) = \rho \! \left( \vec r \right)\]</div>
+\[\text{curl} \, \vec H \! \left( \vec r, t \right)
+    = {\vec J}_\text{f} \! \left( \vec r, t \right)
+    + \frac{\partial}{\partial t} \vec D \! \left( \vec r, t \right)\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -138,8 +172,8 @@ that there exist electric charges.</p>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.circuits.html"><strong>Circuits</strong></a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="laws.electricity.maxwell_equations.html"><strong>Maxwell equations</strong></a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Divergence of electric displacement field is volumetric charge density</a></li>
-<li class="toctree-l4"><a class="reference internal" href="laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.html">Curl of magnetic field is free current density and electric displacement derivative</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.html">Divergence of electric displacement field is volumetric charge density</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Curl of magnetic field is free current density and electric displacement derivative</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.html"><strong>Electromagnetism (Vector)</strong></a></li>
@@ -220,8 +254,8 @@ that there exist electric charges.</p>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.electricity.html">Electromagnetism</a><ul>
   <li><a href="laws.electricity.maxwell_equations.html"><strong>Maxwell equations</strong></a><ul>
-      <li>Previous: <a href="laws.electricity.maxwell_equations.html" title="previous chapter"><strong>Maxwell equations</strong></a></li>
-      <li>Next: <a href="laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.html" title="next chapter">Curl of magnetic field is free current density and electric displacement derivative</a></li>
+      <li>Previous: <a href="laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.html" title="previous chapter">Divergence of electric displacement field is volumetric charge density</a></li>
+      <li>Next: <a href="laws.electricity.vector.html" title="next chapter"><strong>Electromagnetism (Vector)</strong></a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -248,7 +282,7 @@ that there exist electric charges.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence.rst.txt"
+      <a href="_sources/laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
