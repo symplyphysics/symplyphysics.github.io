@@ -5,18 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Waves (Vector) &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Phase velocity from angular velocity and wavevector &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.waves.vector.html" />
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Phase velocity from angular velocity and wavevector" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html" />
-    <link rel="prev" title="Longitudinal frequency shift from speed" href="laws.waves.relativistic.longitudinal_frequency_shift_from_velocity.html" />
+    <link rel="next" title="Average power of sinusoidal wave on stretched string" href="laws.waves.average_power_of_sinusoidal_wave_on_stretched_string.html" />
+    <link rel="prev" title="Waves (Vector)" href="laws.waves.vector.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,22 +35,87 @@
 
           <div class="body" role="main">
             
-  <section id="waves-vector">
-<h1><strong>Waves (Vector)</strong><a class="headerlink" href="#waves-vector" title="Link to this heading">¶</a></h1>
-<p>Laws related to waves in vector form.</p>
-<p><strong>Contents:</strong></p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html">Phase velocity from angular velocity and wavevector</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.phase_velocity"><code class="docutils literal notranslate"><span class="pre">phase_velocity</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_frequency"><code class="docutils literal notranslate"><span class="pre">angular_frequency</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_wavevector"><code class="docutils literal notranslate"><span class="pre">angular_wavevector</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.phase_velocity_law_"><code class="docutils literal notranslate"><span class="pre">phase_velocity_law_</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_wavevector_law"><code class="docutils literal notranslate"><span class="pre">angular_wavevector_law</span></code></a></li>
-</ul>
-</li>
-</ul>
-</div>
+  <section id="phase-velocity-from-angular-velocity-and-wavevector">
+<h1>Phase velocity from angular velocity and wavevector<a class="headerlink" href="#phase-velocity-from-angular-velocity-and-wavevector" title="Link to this heading">¶</a></h1>
+<p>The phase velocity of a wave is the rate at which the wave propagates in a medium. It is the
+velocity at which the phase of one frequency component of the wave travels. The phase velocity is
+collinear with the wavevector.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>Angular wavevector is a vector used in describing a wave. Its magnitude is the angular
+wavenumber of the wave. Its direction is perpendicular to the wavefront, and in isotropic media
+it is also the direction of wave propagation.</p></li>
+<li><p>Also see the <a class="reference internal" href="laws.waves.phase_velocity_from_angular_frequency_and_wavenumber.html#phase-speed-from-angular-frequency-and-wavenumber"><span class="std std-ref">scalar counterpart</span></a> of
+this law.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Phase_velocity">Wikipedia, derivable from here</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.phase_velocity">
+<span class="sig-name descname"><span class="pre">phase_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.phase_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the phase velocity of the wave. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.phase_speed" title="symplyphysics.symbols.classical_mechanics.phase_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">phase_speed</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec v}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_frequency">
+<span class="sig-name descname"><span class="pre">angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_frequency" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the wave.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_wavevector">
+<span class="sig-name descname"><span class="pre">angular_wavevector</span></span><a class="headerlink" href="#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_wavevector" title="Link to this definition">¶</a></dt>
+<dd><p>Angular wavevector of the wave. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec k}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.phase_velocity_law_">
+<span class="sig-name descname"><span class="pre">phase_velocity_law_</span></span><a class="headerlink" href="#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.phase_velocity_law_" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">v</span> <span class="pre">=</span> <span class="pre">w</span> <span class="pre">/</span> <span class="pre">norm(k)^2</span> <span class="pre">*</span> <span class="pre">k</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec v} = \frac{\omega}{\left \Vert {\vec k} \right \Vert^{2}} {\vec k}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_wavevector_law">
+<span class="sig-name descname"><span class="pre">angular_wavevector_law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.angular_wavevector_law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">k</span> <span class="pre">=</span> <span class="pre">w</span> <span class="pre">/</span> <span class="pre">norm(v)^2</span> <span class="pre">*</span> <span class="pre">v</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec k} = \frac{\omega}{\left \Vert {\vec v} \right \Vert^{2}} {\vec v}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -100,8 +166,8 @@
 <li class="toctree-l2 current"><a class="reference internal" href="laws.waves.html">Waves</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.blackbody_radiation.html"><strong>Blackbody radiation</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.relativistic.html"><strong>Waves (Relativistic)</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Waves (Vector)</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html">Phase velocity from angular velocity and wavevector</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.waves.vector.html"><strong>Waves (Vector)</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Phase velocity from angular velocity and wavevector</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="laws.waves.average_power_of_sinusoidal_wave_on_stretched_string.html">Average power of sinusoidal wave on stretched string</a></li>
@@ -154,8 +220,10 @@
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.waves.html">Waves</a><ul>
-      <li>Previous: <a href="laws.waves.relativistic.longitudinal_frequency_shift_from_velocity.html" title="previous chapter">Longitudinal frequency shift from speed</a></li>
-      <li>Next: <a href="laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.html" title="next chapter">Phase velocity from angular velocity and wavevector</a></li>
+  <li><a href="laws.waves.vector.html"><strong>Waves (Vector)</strong></a><ul>
+      <li>Previous: <a href="laws.waves.vector.html" title="previous chapter"><strong>Waves (Vector)</strong></a></li>
+      <li>Next: <a href="laws.waves.average_power_of_sinusoidal_wave_on_stretched_string.html" title="next chapter">Average power of sinusoidal wave on stretched string</a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -181,7 +249,7 @@
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.waves.vector.rst.txt"
+      <a href="_sources/laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
