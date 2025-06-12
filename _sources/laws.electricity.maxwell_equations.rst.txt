@@ -8,5 +8,13 @@ optics, electric and magnetic circuits.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.maxwell_equations
 
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence
+
 
 
