@@ -16,6 +16,7 @@ optics, electric and magnetic circuits.
 
     laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence
     laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative
+    laws.electricity.maxwell_equations.derivative_of_magnetic_induction_in_time_is_rotor_of_electric_intensity
 
 
 
