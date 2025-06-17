@@ -3,7 +3,8 @@ Spring reaction is proportional to deformation
 
 Also called Hooke's law, it is an empirical law which states that the force needed to
 extend or compress a spring by some distance is proportional with respect to the
-deformation of the spring.
+deformation of the spring. Also see the :ref:`vector counterpart <Spring reaction is proportional
+to deformation (vector)>` of this law.
 
 **Notes:**
 

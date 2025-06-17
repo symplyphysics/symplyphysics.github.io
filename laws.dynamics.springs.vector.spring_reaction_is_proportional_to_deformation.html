@@ -5,18 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Springs (Vector) &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Spring reaction is proportional to deformation (vector) &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.dynamics.springs.vector.html" />
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Spring reaction is proportional to deformation (vector)" href="laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html" />
-    <link rel="prev" title="Springs" href="laws.dynamics.springs.html" />
+    <link rel="next" title="Compliance of two serial springs" href="laws.dynamics.springs.compliance_of_two_serial_springs.html" />
+    <link rel="prev" title="Springs (Vector)" href="laws.dynamics.springs.vector.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,21 +35,74 @@
 
           <div class="body" role="main">
             
-  <section id="springs-vector">
-<h1><strong>Springs (Vector)</strong><a class="headerlink" href="#springs-vector" title="Link to this heading">¶</a></h1>
-<p>Collection of laws related to vectorial description of springs.</p>
-<p><strong>Contents:</strong></p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html">Spring reaction is proportional to deformation (vector)</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.force"><code class="docutils literal notranslate"><span class="pre">force</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.stiffness"><code class="docutils literal notranslate"><span class="pre">stiffness</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.deformation"><code class="docutils literal notranslate"><span class="pre">deformation</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
-</ul>
-</li>
-</ul>
-</div>
+  <section id="spring-reaction-is-proportional-to-deformation-vector">
+<h1>Spring reaction is proportional to deformation (vector)<a class="headerlink" href="#spring-reaction-is-proportional-to-deformation-vector" title="Link to this heading">¶</a></h1>
+<p>The empirical law known as <strong>Hooke’s law</strong> states that that the force needed to extend or compress
+a spring by some distance scales linearly with respect to that distance. Also see the <a class="reference internal" href="laws.dynamics.springs.spring_reaction_is_proportional_to_deformation.html#spring-reaction-is-proportional-to-deformation"><span class="std std-ref">scalar
+counterpart</span></a> of this law.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The deformations are elastic (reversible).</p></li>
+<li><p>The stiffness coefficient is a scalar.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Hooke's_law#Linear_springs">Wikipedia, derivable from here</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.force">
+<span class="sig-name descname"><span class="pre">force</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.force" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> exerted onto the end of the spring.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec F}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.stiffness">
+<span class="sig-name descname"><span class="pre">stiffness</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.stiffness" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.stiffness" title="symplyphysics.symbols.classical_mechanics.stiffness"><code class="xref py py-attr docutils literal notranslate"><span class="pre">stiffness</span></code></a> coefficient of the spring.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force/length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.deformation">
+<span class="sig-name descname"><span class="pre">deformation</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.deformation" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the deformation of the string, which is the difference between the position vector of
+the end of the spring after and before the deformation. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">s</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec s}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">F</span> <span class="pre">=</span> <span class="pre">-k</span> <span class="pre">*</span> <span class="pre">s</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec F} = - k {\vec s}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -88,7 +142,7 @@
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.deformation.html"><strong>Deformation (Dynamics)</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.dynamics.fields.html"><strong>Fields (Dynamics)</strong></a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="laws.dynamics.springs.html"><strong>Springs</strong></a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Springs (Vector)</strong></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="laws.dynamics.springs.vector.html"><strong>Springs (Vector)</strong></a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.dynamics.springs.compliance_of_two_serial_springs.html">Compliance of two serial springs</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.dynamics.springs.spring_reaction_is_proportional_to_deformation.html">Spring reaction is proportional to deformation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="laws.dynamics.springs.stiffness_of_two_parallel_springs.html">Stiffness of two parallel springs</a></li>
@@ -157,8 +211,10 @@
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.dynamics.html">Dynamics</a><ul>
   <li><a href="laws.dynamics.springs.html"><strong>Springs</strong></a><ul>
-      <li>Previous: <a href="laws.dynamics.springs.html" title="previous chapter"><strong>Springs</strong></a></li>
-      <li>Next: <a href="laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.html" title="next chapter">Spring reaction is proportional to deformation (vector)</a></li>
+  <li><a href="laws.dynamics.springs.vector.html"><strong>Springs (Vector)</strong></a><ul>
+      <li>Previous: <a href="laws.dynamics.springs.vector.html" title="previous chapter"><strong>Springs (Vector)</strong></a></li>
+      <li>Next: <a href="laws.dynamics.springs.compliance_of_two_serial_springs.html" title="next chapter">Compliance of two serial springs</a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -185,7 +241,7 @@
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.dynamics.springs.vector.rst.txt"
+      <a href="_sources/laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

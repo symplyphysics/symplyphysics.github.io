@@ -30,7 +30,7 @@ the type of diffusing particles. This law is also known as the *Stokes—Einstei
 
 .. py:data:: diffusion_coefficient
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.diffusion_coefficient` of the particles.
+    :attr:`~symplyphysics.symbols.chemistry.diffusion_coefficient` of the particles.
 
 Symbol:
     :code:`D`
