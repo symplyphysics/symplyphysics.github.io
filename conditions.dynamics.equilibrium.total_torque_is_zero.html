@@ -5,18 +5,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Dynamics (Equilibrium conditions) &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Total torque is zero &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
     <script src="_static/documentation_options.js?v=8d563738"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/conditions.dynamics.equilibrium.html" />
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/conditions.dynamics.equilibrium.total_torque_is_zero.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Total torque is zero" href="conditions.dynamics.equilibrium.total_torque_is_zero.html" />
-    <link rel="prev" title="Dynamics (Conditions)" href="conditions.dynamics.html" />
+    <link rel="next" title="Electrodynamics (Conditions)" href="conditions.electricity.html" />
+    <link rel="prev" title="Dynamics (Equilibrium conditions)" href="conditions.dynamics.equilibrium.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -34,19 +35,38 @@
 
           <div class="body" role="main">
             
-  <section id="dynamics-equilibrium-conditions">
-<h1><strong>Dynamics (Equilibrium conditions)</strong><a class="headerlink" href="#dynamics-equilibrium-conditions" title="Link to this heading">¶</a></h1>
-<p>The conditions in this folder are related to the equilibrium in dynamic systems.</p>
-<p><strong>Contents:</strong></p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="conditions.dynamics.equilibrium.total_torque_is_zero.html">Total torque is zero</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="conditions.dynamics.equilibrium.total_torque_is_zero.html#symplyphysics.conditions.dynamics.equilibrium.total_torque_is_zero.total_torque"><code class="docutils literal notranslate"><span class="pre">total_torque</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="conditions.dynamics.equilibrium.total_torque_is_zero.html#symplyphysics.conditions.dynamics.equilibrium.total_torque_is_zero.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
-</ul>
-</li>
-</ul>
-</div>
+  <section id="total-torque-is-zero">
+<h1>Total torque is zero<a class="headerlink" href="#total-torque-is-zero" title="Link to this heading">¶</a></h1>
+<p>For an object to be in rotational equilibrium, the total torque on the object must be zero.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/8%3A_Static_Equilibrium_Elasticity_and_Torque/8.2%3A_Conditions_for_Equilibrium">Physics LibreTexts</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.conditions.dynamics.equilibrium.total_torque_is_zero.total_torque">
+<span class="sig-name descname"><span class="pre">total_torque</span></span><a class="headerlink" href="#symplyphysics.conditions.dynamics.equilibrium.total_torque_is_zero.total_torque" title="Link to this definition">¶</a></dt>
+<dd><p>Total <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.torque" title="symplyphysics.symbols.classical_mechanics.torque"><code class="xref py py-attr docutils literal notranslate"><span class="pre">torque</span></code></a> is the magnitue of the vector sum of all torques acting on the body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">tau</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\tau\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force*length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.conditions.dynamics.equilibrium.total_torque_is_zero.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.conditions.dynamics.equilibrium.total_torque_is_zero.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">tau</span> <span class="pre">=</span> <span class="pre">0</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\tau = 0\]</div>
+</dd>
+</dl>
+</dd></dl>
+
 </section>
 
 
@@ -80,8 +100,8 @@
 <li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="conditions.html">Conditions</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="conditions.dynamics.html"><strong>Dynamics (Conditions)</strong></a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Dynamics (Equilibrium conditions)</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="conditions.dynamics.equilibrium.total_torque_is_zero.html">Total torque is zero</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="conditions.dynamics.equilibrium.html"><strong>Dynamics (Equilibrium conditions)</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Total torque is zero</a></li>
 </ul>
 </li>
 </ul>
@@ -101,8 +121,10 @@
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="conditions.html">Conditions</a><ul>
   <li><a href="conditions.dynamics.html"><strong>Dynamics (Conditions)</strong></a><ul>
-      <li>Previous: <a href="conditions.dynamics.html" title="previous chapter"><strong>Dynamics (Conditions)</strong></a></li>
-      <li>Next: <a href="conditions.dynamics.equilibrium.total_torque_is_zero.html" title="next chapter">Total torque is zero</a></li>
+  <li><a href="conditions.dynamics.equilibrium.html"><strong>Dynamics (Equilibrium conditions)</strong></a><ul>
+      <li>Previous: <a href="conditions.dynamics.equilibrium.html" title="previous chapter"><strong>Dynamics (Equilibrium conditions)</strong></a></li>
+      <li>Next: <a href="conditions.electricity.html" title="next chapter"><strong>Electrodynamics (Conditions)</strong></a></li>
+  </ul></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -128,7 +150,7 @@
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/conditions.dynamics.equilibrium.rst.txt"
+      <a href="_sources/conditions.dynamics.equilibrium.total_torque_is_zero.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
