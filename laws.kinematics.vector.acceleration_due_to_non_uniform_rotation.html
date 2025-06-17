@@ -37,53 +37,83 @@
             
   <section id="acceleration-due-to-non-uniform-rotation">
 <h1>Acceleration due to non-uniform rotation<a class="headerlink" href="#acceleration-due-to-non-uniform-rotation" title="Link to this heading">¶</a></h1>
-<p>Imagine two reference frames, one of which is fixed (<span class="math notranslate nohighlight">\(S\)</span>) and the other is moving (<span class="math notranslate nohighlight">\(S'\)</span>). When <span class="math notranslate nohighlight">\(S'\)</span> rotates
-around <span class="math notranslate nohighlight">\(S\)</span> in a non-uniform way, the acceleration of some body <span class="math notranslate nohighlight">\(B\)</span> in <span class="math notranslate nohighlight">\(S\)</span> has a component corresponding to
-that non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span>. It is part of the transfer acceleration of body <span class="math notranslate nohighlight">\(B\)</span> in <span class="math notranslate nohighlight">\(S\)</span>.</p>
+<p>Imagine two reference frames, one of which is fixed (<span class="math notranslate nohighlight">\(S\)</span>) and the other is moving
+(<span class="math notranslate nohighlight">\(S'\)</span>). When <span class="math notranslate nohighlight">\(S'\)</span> rotates around <span class="math notranslate nohighlight">\(S\)</span> in a non-uniform way, the acceleration of
+some body <span class="math notranslate nohighlight">\(B\)</span> in <span class="math notranslate nohighlight">\(S\)</span> has a component corresponding to that non-uniform rotation of
+<span class="math notranslate nohighlight">\(S'\)</span>. It is part of the transfer acceleration of body <span class="math notranslate nohighlight">\(B\)</span> in <span class="math notranslate nohighlight">\(S\)</span>.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(\vec a \times \vec b\)</span> (<code class="code docutils literal notranslate"><span class="pre">cross(a,</span> <span class="pre">b)</span></code>) is vector product of <span class="math notranslate nohighlight">\(\vec a\)</span> and <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\left[ \vec a, \vec b \right]\)</span> (<code class="code docutils literal notranslate"><span class="pre">cross(a,</span> <span class="pre">b)</span></code>) is vector product of
+<span class="math notranslate nohighlight">\(\vec a\)</span> and <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5#%D0%A3%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5">Wikipedia</a>.</p></li>
 </ol>
-<dl class="py function">
-<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration_law">
-<span class="sig-name descname"><span class="pre">non_uniform_rotation_acceleration_law</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angular_velocity_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">radius_vector_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/laws/kinematics/vector/acceleration_due_to_non_uniform_rotation.html#non_uniform_rotation_acceleration_law"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration_law" title="Link to this definition">¶</a></dt>
-<dd><p>Acceleration due to non-uniform rotation.</p>
-<dl>
-<dt>Law:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_rot</span> <span class="pre">=</span> <span class="pre">cross(Derivative(w(t),</span> <span class="pre">t),</span> <span class="pre">r)</span></code></p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration">
+<span class="sig-name descname"><span class="pre">non_uniform_rotation_acceleration</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> due to non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_rot</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec a}_\text{rot} = \frac{d \vec \omega}{d t} \times \vec r\]</div>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{rot}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
 </dd>
 </dl>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters<span class="colon">:</span></dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>angular_velocity_</strong> – <p>angular velocity as a function of time</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">w(t)</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec \omega(t)\)</span></p>
-<p>Dimension: <em>angle</em> / <em>time</em></p>
-</p></li>
-<li><p><strong>time_</strong> – <p>time</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
-<p>Dimension: <em>time</em></p>
-</p></li>
-<li><p><strong>radius_vector_</strong> – <p>radius vector, or position vector, of body</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\(\vec r\)</span></p>
-<p>Dimension: <em>length</em></p>
-</p></li>
-</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.time">
+<span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.time" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.time" title="symplyphysics.symbols.basic.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
 </dd>
-<dt class="field-even">Returns<span class="colon">:</span></dt>
-<dd class="field-even"><p><p>acceleration due to non-uniform rotation</p>
-<p>Symbol: <code class="code docutils literal notranslate"><span class="pre">a_rot</span></code></p>
-<p>Latex: <span class="math notranslate nohighlight">\({\vec a}_\text{rot}\)</span></p>
-<p>Dimension: <em>acceleration</em></p>
-</p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.angular_velocity">
+<span class="sig-name descname"><span class="pre">angular_velocity</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.angular_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Pseudovector of the body’s angular velocity as a function of <a class="reference internal" href="#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.time" title="symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>. See
+<a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_speed" title="symplyphysics.symbols.classical_mechanics.angular_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_speed</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w(t)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega \left( t \right)\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.position_vector">
+<span class="sig-name descname"><span class="pre">position_vector</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.position_vector" title="Link to this definition">¶</a></dt>
+<dd><p>The body’s position vector. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance_to_origin" title="symplyphysics.symbols.classical_mechanics.distance_to_origin"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance_to_origin</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec r}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">a_rot</span> <span class="pre">=</span> <span class="pre">cross(Derivative(w(t),</span> <span class="pre">t),</span> <span class="pre">r)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{rot} = \left[ \frac{d}{d t} \omega \left( t \right), {\vec r} \right]\]</div>
 </dd>
 </dl>
 </dd></dl>
