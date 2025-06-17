@@ -32,7 +32,7 @@ Symbol:
     :code:`r`
 
 Latex:
-    :math:`VEC_{82}`
+    :math:`VEC_{84}`
 
 Dimension:
     :code:`length`

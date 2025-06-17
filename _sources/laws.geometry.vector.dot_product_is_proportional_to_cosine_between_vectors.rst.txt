@@ -1,0 +1,60 @@
+Dot product is proportional to cosine of angle between vectors
+==============================================================
+
+The dot product of two vectors is a scalar binary operation that can be defined as the product of
+the norms of the vectors and the cosine of the angle between them.
+
+.. py:currentmodule:: symplyphysics.laws.geometry.vector.dot_product_is_proportional_to_cosine_between_vectors
+
+.. py:data:: first_vector
+
+    First vector.
+
+Symbol:
+    :code:`u`
+
+Latex:
+    :math:`{\vec u}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: second_vector
+
+    Second vector.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: angle_between_vectors
+
+    :attr:`~symplyphysics.symbols.basic.angle` between :attr:`~first_vector` and :attr:`~second_vector`.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\varphi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`dot(u, v) = norm(u) * norm(v) * cos(phi)`
+
+
+    Latex:
+        .. math::
+            \left( {\vec u}, {\vec v} \right) = \left \Vert {\vec u} \right \Vert \left \Vert {\vec v} \right \Vert \cos{\left(\varphi \right)}
+
+
