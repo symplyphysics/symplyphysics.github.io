@@ -35,7 +35,7 @@ Symbol:
     :code:`F`
 
 Latex:
-    :math:`VEC_{11}`
+    :math:`VEC_{12}`
 
 Dimension:
     :code:`force`
@@ -48,6 +48,6 @@ Dimension:
 
     Latex:
         .. math::
-            {\vec F} = \sum_i {VEC_{11}}_{i}
+            {\vec F} = \sum_i {VEC_{12}}_{i}
 
 
