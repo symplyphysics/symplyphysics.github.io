@@ -72,11 +72,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`u_t = v * (dot(u', v) * dot(v, v)^(-1) + 1) * (1 + dot(u', v) / c^2)^(-1)`
+    :code:`u_t = v * (dot(u', v) / dot(v, v) + 1) / (1 + dot(u', v) / c^2)`
 
 
     Latex:
         .. math::
-            {\vec u}_\text{t} = {\vec v} \left(\left( {\vec u'}, {\vec v} \right) \left( {\vec v}, {\vec v} \right)^{-1} + 1\right) \left(1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}\right)^{-1}
+            {\vec u}_\text{t} = \frac{{\vec v} \left(\frac{\left( {\vec u'}, {\vec v} \right)}{\left( {\vec v}, {\vec v} \right)} + 1\right)}{1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}}
 
 

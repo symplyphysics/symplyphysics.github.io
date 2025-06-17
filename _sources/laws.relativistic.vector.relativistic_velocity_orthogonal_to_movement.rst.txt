@@ -69,11 +69,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`u_n = (u' - dot(u', v) * dot(v, v)^(-1) * v) * sqrt(1 - dot(v, v) / c^2) * (1 + dot(u', v) / c^2)^(-1)`
+    :code:`u_n = (u' - dot(u', v) / dot(v, v) * v) * sqrt(1 - dot(v, v) / c^2) / (1 + dot(u', v) / c^2)`
 
 
     Latex:
         .. math::
-            {\vec u}_\text{n} = \left({\vec u'} - \left( {\vec u'}, {\vec v} \right) \left( {\vec v}, {\vec v} \right)^{-1} {\vec v}\right) \sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}} \left(1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}\right)^{-1}
+            {\vec u}_\text{n} = \frac{\left({\vec u'} - \frac{\left( {\vec u'}, {\vec v} \right)}{\left( {\vec v}, {\vec v} \right)} {\vec v}\right) \sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}}{1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}}
 
 

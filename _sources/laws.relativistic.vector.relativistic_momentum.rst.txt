@@ -64,21 +64,21 @@ Dimension:
 
 .. py:data:: momentum_law
 
-    :code:`p = m_0 * v * (sqrt(1 - dot(v, v) / c^2))^(-1)`
+    :code:`p = m_0 * v / sqrt(1 - dot(v, v) / c^2)`
 
 
     Latex:
         .. math::
-            {\vec p} = m_{0} {\vec v} \left(\sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}\right)^{-1}
+            {\vec p} = \frac{m_{0} {\vec v}}{\sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}}
 
 
 .. py:data:: velocity_law
 
-    :code:`v = p * c * (sqrt((m_0 * c)^2 + dot(p, p)))^(-1)`
+    :code:`v = p * c / sqrt((m_0 * c)^2 + dot(p, p))`
 
 
     Latex:
         .. math::
-            {\vec v} = {\vec p} c \left(\sqrt{\left(m_{0} c\right)^{2} + \left( {\vec p}, {\vec p} \right)}\right)^{-1}
+            {\vec v} = \frac{{\vec p} c}{\sqrt{\left(m_{0} c\right)^{2} + \left( {\vec p}, {\vec p} \right)}}
 
 

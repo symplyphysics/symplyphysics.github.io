@@ -97,10 +97,10 @@ speed of light.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_momentum.momentum_law">
 <span class="sig-name descname"><span class="pre">momentum_law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_momentum.momentum_law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">m_0</span> <span class="pre">*</span> <span class="pre">v</span> <span class="pre">*</span> <span class="pre">(sqrt(1</span> <span class="pre">-</span> <span class="pre">dot(v,</span> <span class="pre">v)</span> <span class="pre">/</span> <span class="pre">c^2))^(-1)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">m_0</span> <span class="pre">*</span> <span class="pre">v</span> <span class="pre">/</span> <span class="pre">sqrt(1</span> <span class="pre">-</span> <span class="pre">dot(v,</span> <span class="pre">v)</span> <span class="pre">/</span> <span class="pre">c^2)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec p} = m_{0} {\vec v} \left(\sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}\right)^{-1}\]</div>
+\[{\vec p} = \frac{m_{0} {\vec v}}{\sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -108,10 +108,10 @@ speed of light.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.relativistic.vector.relativistic_momentum.velocity_law">
 <span class="sig-name descname"><span class="pre">velocity_law</span></span><a class="headerlink" href="#symplyphysics.laws.relativistic.vector.relativistic_momentum.velocity_law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">v</span> <span class="pre">=</span> <span class="pre">p</span> <span class="pre">*</span> <span class="pre">c</span> <span class="pre">*</span> <span class="pre">(sqrt((m_0</span> <span class="pre">*</span> <span class="pre">c)^2</span> <span class="pre">+</span> <span class="pre">dot(p,</span> <span class="pre">p)))^(-1)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">v</span> <span class="pre">=</span> <span class="pre">p</span> <span class="pre">*</span> <span class="pre">c</span> <span class="pre">/</span> <span class="pre">sqrt((m_0</span> <span class="pre">*</span> <span class="pre">c)^2</span> <span class="pre">+</span> <span class="pre">dot(p,</span> <span class="pre">p))</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[{\vec v} = {\vec p} c \left(\sqrt{\left(m_{0} c\right)^{2} + \left( {\vec p}, {\vec p} \right)}\right)^{-1}\]</div>
+\[{\vec v} = \frac{{\vec p} c}{\sqrt{\left(m_{0} c\right)^{2} + \left( {\vec p}, {\vec p} \right)}}\]</div>
 </dd>
 </dl>
 </dd></dl>
