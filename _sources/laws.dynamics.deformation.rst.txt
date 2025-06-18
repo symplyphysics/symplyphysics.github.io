@@ -18,6 +18,7 @@ In physics and continuum mechanics, deformation is the change in the shape or si
     laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio
     laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain
     laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle
+    laws.dynamics.deformation.shear_stress_is_shear_modulus_times_strain
     laws.dynamics.deformation.superposition_of_small_deformations
     laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain
 

@@ -1208,3 +1208,42 @@ Dimension:
     :code:`mass/time`
 
 
+.. py:data:: shear_modulus
+
+    **Shear modulus** is a measure of the elastic shear stiffness of a material and is defined as the
+    ratio of shear stress to the shear strain.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Shear_modulus>`__.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: engineering_shear_strain
+
+    **Engineering sheer strain** is defined as the change in angle between lines :math:`AC` and
+    :math:`AB`, see `figure <https://en.wikipedia.org/wiki/Strain_(mechanics)#/media/File:2D_geometric_strain.svg>`__
+    for reference.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Strain_(mechanics)#/media/File:2D_geometric_strain.svg>`__.
+
+Symbol:
+    :code:`gamma`
+
+Latex:
+    :math:`\gamma`
+
+Dimension:
+    :code:`angle`
+
+
