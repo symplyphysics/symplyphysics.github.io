@@ -1,0 +1,68 @@
+Relative aperture of telescope
+==============================
+
+The relative aperture of a telescope is the ratio of the diameter of the lens to its focal length.
+For visual observations, high-power telescopes give a larger exit pupil size, that is, the picture
+is bright and clear. A larger field of view allows you to observe extended objects, which include
+many galaxies and nebulae, that is, objects from Outer Space. In turn, non-high-power telescopes
+give a greater magnification, other things being equal, and are used in working with objects where
+details need to be considered, that is, with planets.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/F-number#Notation>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.relative_aperture_of_telescope
+
+.. py:data:: relative_aperture
+
+    :attr:`~symplyphysics.symbols.optics.relative_aperture`.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: lens_diameter
+
+    Lens :attr:`~symplyphysics.symbols.classical_mechanics.diameter`.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: lens_focal_length
+
+    Lens :attr:`~symplyphysics.symbols.optics.focal_length`.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`A = D / f`
+
+
+    Latex:
+        .. math::
+            A = \frac{D}{f}
+
+
