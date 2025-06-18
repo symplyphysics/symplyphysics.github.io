@@ -34,7 +34,7 @@ Symbol:
     :code:`dU`
 
 Latex:
-    :math:`dU`
+    :math:`d U`
 
 Dimension:
     :code:`energy`
@@ -76,6 +76,6 @@ Dimension:
 
     Latex:
         .. math::
-            dU = \delta Q - \delta W
+            d U = \delta Q - \delta W
 
 

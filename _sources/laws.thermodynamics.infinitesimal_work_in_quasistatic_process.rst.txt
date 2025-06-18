@@ -53,7 +53,7 @@ Symbol:
     :code:`dV`
 
 Latex:
-    :math:`dV`
+    :math:`d V`
 
 Dimension:
     :code:`volume`
@@ -66,6 +66,6 @@ Dimension:
 
     Latex:
         .. math::
-            \delta W = p dV
+            \delta W = p d V
 
 

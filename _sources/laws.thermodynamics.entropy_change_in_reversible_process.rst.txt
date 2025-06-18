@@ -30,7 +30,7 @@ Symbol:
     :code:`dS`
 
 Latex:
-    :math:`dS`
+    :math:`d S`
 
 Dimension:
     :code:`energy/temperature`
@@ -71,6 +71,6 @@ Dimension:
 
     Latex:
         .. math::
-            dS = \frac{\delta Q}{T}
+            d S = \frac{\delta Q}{T}
 
 

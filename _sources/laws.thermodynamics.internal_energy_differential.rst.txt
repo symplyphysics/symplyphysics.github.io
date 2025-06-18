@@ -34,7 +34,7 @@ Symbol:
     :code:`dU`
 
 Latex:
-    :math:`dU`
+    :math:`d U`
 
 Dimension:
     :code:`energy`
@@ -62,7 +62,7 @@ Symbol:
     :code:`dS`
 
 Latex:
-    :math:`dS`
+    :math:`d S`
 
 Dimension:
     :code:`energy/temperature`
@@ -90,7 +90,7 @@ Symbol:
     :code:`dV`
 
 Latex:
-    :math:`dV`
+    :math:`d V`
 
 Dimension:
     :code:`volume`
@@ -118,7 +118,7 @@ Symbol:
     :code:`dN`
 
 Latex:
-    :math:`dN`
+    :math:`d N`
 
 Dimension:
     :code:`dimensionless`
@@ -131,6 +131,6 @@ Dimension:
 
     Latex:
         .. math::
-            dU = T dS - p dV + \mu dN
+            d U = T d S - p d V + \mu d N
 
 
