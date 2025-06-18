@@ -13,6 +13,7 @@ acceleration about a rotational axis.
 
     laws.kinematics.rotational_inertia.geometries
     laws.kinematics.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass
+    laws.kinematics.rotational_inertia.rotational_inertia_cartesian_integral
     laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral
     laws.kinematics.rotational_inertia.rotational_inertia_is_additive
     laws.kinematics.rotational_inertia.rotational_inertia_of_particle
