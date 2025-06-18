@@ -11,6 +11,7 @@ A collection of geometry relations commonly used in physics.
     :maxdepth: 4
 
     laws.geometry.vector
+    laws.geometry.dot_product_is_proportional_to_cosine_between_vectors
     laws.geometry.planar_projection_is_cosine
 
 
