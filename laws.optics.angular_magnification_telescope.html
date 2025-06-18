@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Optical power from thin lens radii and refractive indices &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Angular magnification of telescope &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -13,11 +13,11 @@
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="canonical" href="https://symplyphysics.github.io/laws.optics.optical_power_from_thin_lens_radius.html" />
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.optics.angular_magnification_telescope.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Optical power of spherical lens from refractive indices and distances" href="laws.optics.optical_strength_of_spherical_lens_from_refractive_indices_of_environment_and_lens_and_focal_distances.html" />
-    <link rel="prev" title="Optical power from focus distance" href="laws.optics.optical_power_from_focus_distance.html" />
+    <link rel="next" title="Bragg diffraction from angle of diffraction and wavelength" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html" />
+    <link rel="prev" title="Angle of light deflection in prism" href="laws.optics.angle_of_light_deflection_in_prism.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -35,92 +35,64 @@
 
           <div class="body" role="main">
             
-  <section id="optical-power-from-thin-lens-radii-and-refractive-indices">
-<h1>Optical power from thin lens radii and refractive indices<a class="headerlink" href="#optical-power-from-thin-lens-radii-and-refractive-indices" title="Link to this heading">¶</a></h1>
-<p>Optical power of a thin lens can be calculated from the radii of its front and back
-surfaces and the refractive indices of the lens material and the medium.</p>
+  <section id="angular-magnification-of-telescope">
+<h1>Angular magnification of telescope<a class="headerlink" href="#angular-magnification-of-telescope" title="Link to this heading">¶</a></h1>
+<p>The angular magnification of the telescope shows how many times the angle at which an object is
+visible when viewed through a telescope is greater than when viewed with the eye.</p>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Optical_power">Wikipedia, definition of optical power</a>.</p></li>
-<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Lens#Thin_lens_approximation">Wikipedia, formula for effective focal length</a>.</p></li>
+<li><p><a class="reference external" href="https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation/2.09%3A_Microscopes_and_Telescopes">Physics LibreTexts, paragraph</a>.</p></li>
+<li><p><a class="reference external" href="https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation/2.09%3A_Microscopes_and_Telescopes#mjx-eqn-eq2.36">Physics LibreTexts, formula</a>.</p></li>
 </ol>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.optics.optical_power_from_thin_lens_radius.optical_power">
-<span class="sig-name descname"><span class="pre">optical_power</span></span><a class="headerlink" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.optical_power" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.optics.html#symplyphysics.symbols.optics.optical_power" title="symplyphysics.symbols.optics.optical_power"><code class="xref py py-attr docutils literal notranslate"><span class="pre">optical_power</span></code></a> of the lens.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.angular_magnification_telescope.angular_magnification">
+<span class="sig-name descname"><span class="pre">angular_magnification</span></span><a class="headerlink" href="#symplyphysics.laws.optics.angular_magnification_telescope.angular_magnification" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.optics.html#symplyphysics.symbols.optics.angular_magnification" title="symplyphysics.symbols.optics.angular_magnification"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_magnification</span></code></a>.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">M_A</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
-</dd>
-</dl>
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.optics.optical_power_from_thin_lens_radius.lens_refractive_index">
-<span class="sig-name descname"><span class="pre">lens_refractive_index</span></span><a class="headerlink" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.lens_refractive_index" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.optics.html#symplyphysics.symbols.optics.relative_refractive_index" title="symplyphysics.symbols.optics.relative_refractive_index"><code class="xref py py-attr docutils literal notranslate"><span class="pre">relative_refractive_index</span></code></a> of the lens material.</p>
-</dd></dl>
-
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(n\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(M_\text{A}\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.optics.optical_power_from_thin_lens_radius.medium_refractive_index">
-<span class="sig-name descname"><span class="pre">medium_refractive_index</span></span><a class="headerlink" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.medium_refractive_index" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.optics.html#symplyphysics.symbols.optics.relative_refractive_index" title="symplyphysics.symbols.optics.relative_refractive_index"><code class="xref py py-attr docutils literal notranslate"><span class="pre">relative_refractive_index</span></code></a> of the surrounding medium.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.angular_magnification_telescope.lens_focal_length">
+<span class="sig-name descname"><span class="pre">lens_focal_length</span></span><a class="headerlink" href="#symplyphysics.laws.optics.angular_magnification_telescope.lens_focal_length" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.optics.html#symplyphysics.symbols.optics.focal_length" title="symplyphysics.symbols.optics.focal_length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">focal_length</span></code></a> of the lens.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">n_0</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(n_{0}\)</span></p>
-</dd>
-<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
-</dd>
-</dl>
-<dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.optics.optical_power_from_thin_lens_radius.front_radius">
-<span class="sig-name descname"><span class="pre">front_radius</span></span><a class="headerlink" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.front_radius" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a> of the front surface.</p>
-</dd></dl>
-
-<dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_1</span></code></p>
-</dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_{1}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(F\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.optics.optical_power_from_thin_lens_radius.back_radius">
-<span class="sig-name descname"><span class="pre">back_radius</span></span><a class="headerlink" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.back_radius" title="Link to this definition">¶</a></dt>
-<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a> of the back surface.</p>
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.angular_magnification_telescope.eyepiece_focal_length">
+<span class="sig-name descname"><span class="pre">eyepiece_focal_length</span></span><a class="headerlink" href="#symplyphysics.laws.optics.angular_magnification_telescope.eyepiece_focal_length" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.optics.html#symplyphysics.symbols.optics.focal_length" title="symplyphysics.symbols.optics.focal_length"><code class="xref py py-attr docutils literal notranslate"><span class="pre">focal_length</span></code></a> of the eyepiece.</p>
 </dd></dl>
 
 <dl class="simple">
-<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_2</span></code></p>
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_{2}\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.laws.optics.optical_power_from_thin_lens_radius.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">D</span> <span class="pre">=</span> <span class="pre">(n</span> <span class="pre">-</span> <span class="pre">n_0)</span> <span class="pre">*</span> <span class="pre">(1</span> <span class="pre">/</span> <span class="pre">r_1</span> <span class="pre">-</span> <span class="pre">1</span> <span class="pre">/</span> <span class="pre">r_2)</span></code></p>
+<dt class="sig sig-object py" id="symplyphysics.laws.optics.angular_magnification_telescope.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.optics.angular_magnification_telescope.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">M_A</span> <span class="pre">=</span> <span class="pre">F</span> <span class="pre">/</span> <span class="pre">f</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[D = \left(n - n_{0}\right) \left(\frac{1}{r_{1}} - \frac{1}{r_{2}}\right)\]</div>
+\[M_\text{A} = \frac{F}{f}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -169,7 +141,13 @@ surfaces and the refractive indices of the lens material and the medium.</p>
 <li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="laws.optics.html">Optics</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.angle_of_light_deflection_in_prism.html">Angle of light deflection in prism</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.optics.angular_magnification_telescope.html">Angular magnification of telescope</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Angular magnification of telescope</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.angular_magnification_telescope.angular_magnification"><code class="docutils literal notranslate"><span class="pre">angular_magnification</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.angular_magnification_telescope.lens_focal_length"><code class="docutils literal notranslate"><span class="pre">lens_focal_length</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.angular_magnification_telescope.eyepiece_focal_length"><code class="docutils literal notranslate"><span class="pre">eyepiece_focal_length</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.angular_magnification_telescope.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html">Bragg diffraction from angle of diffraction and wavelength</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.film_thickness_for_minimum_interference.html">Film thickness for minimum interference</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.focal_length_of_a_concave_spherical_mirror.html">Focal length of a concave spherical mirror</a></li>
@@ -184,15 +162,7 @@ surfaces and the refractive indices of the lens material and the medium.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_distance_difference_from_optical_distances.html">Optical distance difference from optical distances</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index.html">Optical path length from geometrical path length and refractive index</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_power_from_focus_distance.html">Optical power from focus distance</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Optical power from thin lens radii and refractive indices</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.optical_power"><code class="docutils literal notranslate"><span class="pre">optical_power</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.lens_refractive_index"><code class="docutils literal notranslate"><span class="pre">lens_refractive_index</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.medium_refractive_index"><code class="docutils literal notranslate"><span class="pre">medium_refractive_index</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.front_radius"><code class="docutils literal notranslate"><span class="pre">front_radius</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.back_radius"><code class="docutils literal notranslate"><span class="pre">back_radius</span></code></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.optics.optical_power_from_thin_lens_radius.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
-</ul>
-</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_power_from_thin_lens_radius.html">Optical power from thin lens radii and refractive indices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.optical_strength_of_spherical_lens_from_refractive_indices_of_environment_and_lens_and_focal_distances.html">Optical power of spherical lens from refractive indices and distances</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.radiation_intensity_from_energy_area_time.html">Radiation intensity from energy, area, and time</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.optics.radius_dark_newton_ring_from_wavelength_order_radius_curvature_refractive_index.html">Radius of dark Newton’s ring formula</a></li>
@@ -219,8 +189,8 @@ surfaces and the refractive indices of the lens material and the medium.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.optics.html">Optics</a><ul>
-      <li>Previous: <a href="laws.optics.optical_power_from_focus_distance.html" title="previous chapter">Optical power from focus distance</a></li>
-      <li>Next: <a href="laws.optics.optical_strength_of_spherical_lens_from_refractive_indices_of_environment_and_lens_and_focal_distances.html" title="next chapter">Optical power of spherical lens from refractive indices and distances</a></li>
+      <li>Previous: <a href="laws.optics.angle_of_light_deflection_in_prism.html" title="previous chapter">Angle of light deflection in prism</a></li>
+      <li>Next: <a href="laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength.html" title="next chapter">Bragg diffraction from angle of diffraction and wavelength</a></li>
   </ul></li>
   </ul></li>
   </ul></li>
@@ -246,7 +216,7 @@ surfaces and the refractive indices of the lens material and the medium.</p>
       &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
       
       |
-      <a href="_sources/laws.optics.optical_power_from_thin_lens_radius.rst.txt"
+      <a href="_sources/laws.optics.angular_magnification_telescope.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

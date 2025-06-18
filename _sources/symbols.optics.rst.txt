@@ -189,3 +189,22 @@ Dimension:
     :code:`angle`
 
 
+.. py:data:: angular_magnification
+
+    **Angular magnification** is the ratio of the angle subtended by an object observed with a
+    magnifier to that observed by the naked eye.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Magnification#Angular_magnification>`__.
+
+Symbol:
+    :code:`M_A`
+
+Latex:
+    :math:`M_\text{A}`
+
+Dimension:
+    :code:`dimensionless`
+
+
