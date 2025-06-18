@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Rotational inertia in terms of a cylindrical integral &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Rotational inertia is additive" href="laws.kinematics.rotational_inertia.rotational_inertia_is_additive.html" />
+    <link rel="prev" title="Rotational inertia about axis and through center of mass" href="laws.kinematics.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="rotational-inertia-in-terms-of-a-cylindrical-integral">
+<h1>Rotational inertia in terms of a cylindrical integral<a class="headerlink" href="#rotational-inertia-in-terms-of-a-cylindrical-integral" title="Link to this heading">¶</a></h1>
+<p>In case of a rigid body with a continuously distributed mass, its rotational inertia is expressed
+as a volume integral over the entire body, i.e. a triple integral over space coordinates.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>The integration is carried out over the entire body as to include every volume element.</p></li>
+</ol>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The <span class="math notranslate nohighlight">\(z\)</span>-axis is the rotational axis of the body.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Moment_of_inertia#Point_mass">Wikipedia, derivable from fourth equation</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.rotational_inertia">
+<span class="sig-name descname"><span class="pre">rotational_inertia</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.rotational_inertia" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.rotational_inertia" title="symplyphysics.symbols.classical_mechanics.rotational_inertia"><code class="xref py py-attr docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a> of the body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">I</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(I\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length**2*mass</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius">
+<span class="sig-name descname"><span class="pre">radius</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a>, or distance to the rotational axis.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius_start">
+<span class="sig-name descname"><span class="pre">radius_start</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius_start" title="Link to this definition">¶</a></dt>
+<dd><p>Initial <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius_end">
+<span class="sig-name descname"><span class="pre">radius_end</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius_end" title="Link to this definition">¶</a></dt>
+<dd><p>Final <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle">
+<span class="sig-name descname"><span class="pre">polar_angle</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle" title="Link to this definition">¶</a></dt>
+<dd><p>Polar <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.angle" title="symplyphysics.symbols.basic.angle"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angle</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">phi</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varphi\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle_start">
+<span class="sig-name descname"><span class="pre">polar_angle_start</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle_start" title="Link to this definition">¶</a></dt>
+<dd><p>Initial polar <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.angle" title="symplyphysics.symbols.basic.angle"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angle</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">phi_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varphi_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle_end">
+<span class="sig-name descname"><span class="pre">polar_angle_end</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle_end" title="Link to this definition">¶</a></dt>
+<dd><p>Final polar <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.angle" title="symplyphysics.symbols.basic.angle"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angle</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">phi_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varphi_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height">
+<span class="sig-name descname"><span class="pre">height</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.height" title="symplyphysics.symbols.classical_mechanics.height"><code class="xref py py-attr docutils literal notranslate"><span class="pre">height</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">h</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(h\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height_start">
+<span class="sig-name descname"><span class="pre">height_start</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height_start" title="Link to this definition">¶</a></dt>
+<dd><p>Initial <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.height" title="symplyphysics.symbols.classical_mechanics.height"><code class="xref py py-attr docutils literal notranslate"><span class="pre">height</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">h_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(h_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height_end">
+<span class="sig-name descname"><span class="pre">height_end</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height_end" title="Link to this definition">¶</a></dt>
+<dd><p>Final <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.height" title="symplyphysics.symbols.classical_mechanics.height"><code class="xref py py-attr docutils literal notranslate"><span class="pre">height</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">h_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(h_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.density">
+<span class="sig-name descname"><span class="pre">density</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.density" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.density" title="symplyphysics.symbols.basic.density"><code class="xref py py-attr docutils literal notranslate"><span class="pre">density</span></code></a> as a function of <a class="reference internal" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius" title="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a>, <a class="reference internal" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle" title="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle"><code class="xref py py-attr docutils literal notranslate"><span class="pre">polar_angle</span></code></a>, and <a class="reference internal" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height" title="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.height"><code class="xref py py-attr docutils literal notranslate"><span class="pre">height</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">rho(r,</span> <span class="pre">phi,</span> <span class="pre">h)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\rho{\left(r,\varphi,h \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass/volume</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">I</span> <span class="pre">=</span> <span class="pre">Integral(rho(r,</span> <span class="pre">phi,</span> <span class="pre">h)</span> <span class="pre">*</span> <span class="pre">r^3,</span> <span class="pre">(r,</span> <span class="pre">r_0,</span> <span class="pre">r_1),</span> <span class="pre">(phi,</span> <span class="pre">phi_0,</span> <span class="pre">phi_1),</span> <span class="pre">(h,</span> <span class="pre">h_0,</span> <span class="pre">h_1))</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[I = \int\limits_{h_{0}}^{h_{1}}\int\limits_{\varphi_{0}}^{\varphi_{1}}\int\limits_{r_{0}}^{r_{1}} \rho{\left(r,\varphi,h \right)} r^{3}\, dr\, d\varphi\, dh\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.kinematics.html">Kinematics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.damped_oscillations.html"><strong>Damped oscillations (Kinematics)</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.kinematics.rotational_inertia.html"><strong>Rotational inertia (Kinematics)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.rotational_inertia.geometries.html"><strong>Geometries (Rotational inertia)</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html">Rotational inertia about axis and through center of mass</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Rotational inertia in terms of a cylindrical integral</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.rotational_inertia.rotational_inertia_is_additive.html">Rotational inertia is additive</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.kinematics.rotational_inertia.rotational_inertia_of_particle.html">Rotational inertia of a particle</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.vector.html"><strong>Kinematics (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed.html">Angular momentum is rotational inertia times angular speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_is_arc_length_over_radius.html">Angular position is arc length over radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_via_constant_angular_acceleration_and_time.html">Angular position via constant angular acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_position_via_constant_angular_speed_and_time.html">Angular position via constant angular speed and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time.html">Angular speed via constant angular acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.average_angular_speed_is_angular_distance_over_time.html">Average angular speed is angular distance over time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.centripetal_acceleration_via_angular_speed_and_radius.html">Centripetal acceleration via angular speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius.html">Centripetal acceleration via linear speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.classical_addition_of_velocities.html">Classical addition of velocities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.displacement_in_simple_harmonic_motion.html">Displacement in simple harmonic motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.position_via_constant_acceleration_and_time.html">Position via constant acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.position_via_constant_speed_and_time.html">Position via constant speed and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.speed_via_angular_speed_and_radius.html">Speed via angular speed and radius</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.speed_via_constant_acceleration_and_time.html">Speed via constant acceleration and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius.html">Tangential acceleration via angular acceleration and radius</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.kinematics.html">Kinematics</a><ul>
+  <li><a href="laws.kinematics.rotational_inertia.html"><strong>Rotational inertia (Kinematics)</strong></a><ul>
+      <li>Previous: <a href="laws.kinematics.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html" title="previous chapter">Rotational inertia about axis and through center of mass</a></li>
+      <li>Next: <a href="laws.kinematics.rotational_inertia.rotational_inertia_is_additive.html" title="next chapter">Rotational inertia is additive</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
