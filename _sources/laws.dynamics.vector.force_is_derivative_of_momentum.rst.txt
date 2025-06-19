@@ -38,7 +38,7 @@ Symbol:
     :code:`p(t)`
 
 Latex:
-    :math:`p \left( t \right)`
+    :math:`{\vec p} \left( t \right)`
 
 Dimension:
     :code:`momentum`
@@ -52,7 +52,7 @@ Symbol:
     :code:`F(t)`
 
 Latex:
-    :math:`F \left( t \right)`
+    :math:`{\vec F} \left( t \right)`
 
 Dimension:
     :code:`force`
@@ -65,6 +65,6 @@ Dimension:
 
     Latex:
         .. math::
-            F \left( t \right) = \frac{d}{d t} p \left( t \right)
+            {\vec F} \left( t \right) = \frac{d}{d t} {\vec p} \left( t \right)
 
 

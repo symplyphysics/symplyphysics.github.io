@@ -52,7 +52,7 @@ Symbol:
     :code:`E(r, t)`
 
 Latex:
-    :math:`E \left( {\vec r}, t \right)`
+    :math:`{\vec E} \left( {\vec r}, t \right)`
 
 Dimension:
     :code:`voltage/length`
@@ -67,7 +67,7 @@ Symbol:
     :code:`B(r, t)`
 
 Latex:
-    :math:`B \left( {\vec r}, t \right)`
+    :math:`{\vec B} \left( {\vec r}, t \right)`
 
 Dimension:
     :code:`magnetic_density`
@@ -75,14 +75,11 @@ Dimension:
 
 .. py:data:: law
 
-    ..
-        NOTE: code printers have not been implemented for `VectorCurl` yet
+    :code:`curl(E(r, t)) = -Derivative(B(r, t), t)`
 
-    :code:`curl(E(r, t)) = -1 * Derivative(B(r, t), t)`
 
     Latex:
         .. math::
-            \text{curl} \, \vec E \! \left( \vec r, t \right)
-                = - \frac{\partial}{\partial t} \vec B \! \left( \vec r, t \right)
+            \text{curl} \, {\vec E} \left( {\vec r}, t \right) = - \frac{\partial}{\partial t} {\vec B} \left( {\vec r}, t \right)
 
 

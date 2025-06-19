@@ -57,7 +57,7 @@ Symbol:
     :code:`w(t)`
 
 Latex:
-    :math:`\omega \left( t \right)`
+    :math:`{\vec \omega} \left( t \right)`
 
 Dimension:
     :code:`angle/time`
@@ -84,6 +84,6 @@ Dimension:
 
     Latex:
         .. math::
-            {\vec a}_\text{rot} = \left[ \frac{d}{d t} \omega \left( t \right), {\vec r} \right]
+            {\vec a}_\text{rot} = \left[ \frac{d}{d t} {\vec \omega} \left( t \right), {\vec r} \right]
 
 

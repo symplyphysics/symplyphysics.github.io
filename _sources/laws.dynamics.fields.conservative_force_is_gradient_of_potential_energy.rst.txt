@@ -40,7 +40,7 @@ Symbol:
     :code:`F(r)`
 
 Latex:
-    :math:`F \left( {\vec r} \right)`
+    :math:`{\vec F} \left( {\vec r} \right)`
 
 Dimension:
     :code:`force`

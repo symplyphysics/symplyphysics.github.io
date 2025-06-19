@@ -32,10 +32,10 @@ Dimension:
     Vector of an individual :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
 Symbol:
-    :code:`F`
+    :code:`F[i]`
 
 Latex:
-    :math:`VEC_{12}`
+    :math:`{{\vec F}}_{i}`
 
 Dimension:
     :code:`force`
@@ -48,6 +48,6 @@ Dimension:
 
     Latex:
         .. math::
-            {\vec F} = \sum_i {VEC_{12}}_{i}
+            {\vec F} = \sum_i {{\vec F}}_{i}
 
 

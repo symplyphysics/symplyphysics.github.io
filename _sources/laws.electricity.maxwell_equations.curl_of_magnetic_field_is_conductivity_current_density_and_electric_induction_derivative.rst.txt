@@ -55,7 +55,7 @@ Symbol:
     :code:`H(r, t)`
 
 Latex:
-    :math:`H \left( {\vec r}, t \right)`
+    :math:`{\vec H} \left( {\vec r}, t \right)`
 
 Dimension:
     :code:`current/length`
@@ -70,7 +70,7 @@ Symbol:
     :code:`D(r, t)`
 
 Latex:
-    :math:`D \left( {\vec r}, t \right)`
+    :math:`{\vec D} \left( {\vec r}, t \right)`
 
 Dimension:
     :code:`charge/area`
@@ -93,15 +93,11 @@ Dimension:
 
 .. py:data:: law
 
-    ..
-        NOTE: code printers have not been implemented for `VectorCurl` yet
-
     :code:`curl(H(r, t)) = J_f(r, t) + Derivative(D(r, t), t)`
+
 
     Latex:
         .. math::
-            \text{curl} \, \vec H \! \left( \vec r, t \right)
-                = {\vec J}_\text{f} \! \left( \vec r, t \right)
-                + \frac{\partial}{\partial t} \vec D \! \left( \vec r, t \right)
+            \text{curl} \, {\vec H} \left( {\vec r}, t \right) = {\vec J}_\text{f} \left( {\vec r}, t \right) + \frac{\partial}{\partial t} {\vec D} \left( {\vec r}, t \right)
 
 

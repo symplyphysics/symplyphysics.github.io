@@ -29,10 +29,10 @@ Dimension:
     Position vector of the :math:`i`-th body. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
 
 Symbol:
-    :code:`r`
+    :code:`r[i]`
 
 Latex:
-    :math:`VEC_{90}`
+    :math:`{{\vec r}}_{i}`
 
 Dimension:
     :code:`length`

@@ -34,7 +34,7 @@ Symbol:
     :code:`v(t)`
 
 Latex:
-    :math:`v \left( t \right)`
+    :math:`{\vec v} \left( t \right)`
 
 Dimension:
     :code:`velocity`
@@ -48,7 +48,7 @@ Symbol:
     :code:`r(t)`
 
 Latex:
-    :math:`r \left( t \right)`
+    :math:`{\vec r} \left( t \right)`
 
 Dimension:
     :code:`length`
@@ -61,6 +61,6 @@ Dimension:
 
     Latex:
         .. math::
-            v \left( t \right) = \frac{d}{d t} r \left( t \right)
+            {\vec v} \left( t \right) = \frac{d}{d t} {\vec r} \left( t \right)
 
 

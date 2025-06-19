@@ -82,7 +82,7 @@ rotational electric field. This law is valid for any magnetic field that changes
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E(r,</span> <span class="pre">t)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E \left( {\vec r}, t \right)\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec E} \left( {\vec r}, t \right)\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">voltage/length</span></code></p>
 </dd>
@@ -97,7 +97,7 @@ and <a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_
 <dl class="simple">
 <dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B(r,</span> <span class="pre">t)</span></code></p>
 </dd>
-<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B \left( {\vec r}, t \right)\)</span></p>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec B} \left( {\vec r}, t \right)\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_density</span></code></p>
 </dd>
@@ -105,11 +105,10 @@ and <a class="reference internal" href="#symplyphysics.laws.electricity.maxwell_
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.maxwell_equations.derivative_of_magnetic_induction_in_time_is_rotor_of_electric_intensity.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.maxwell_equations.derivative_of_magnetic_induction_in_time_is_rotor_of_electric_intensity.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">curl(E(r,</span> <span class="pre">t))</span> <span class="pre">=</span> <span class="pre">-1</span> <span class="pre">*</span> <span class="pre">Derivative(B(r,</span> <span class="pre">t),</span> <span class="pre">t)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">curl(E(r,</span> <span class="pre">t))</span> <span class="pre">=</span> <span class="pre">-Derivative(B(r,</span> <span class="pre">t),</span> <span class="pre">t)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\text{curl} \, \vec E \! \left( \vec r, t \right)
-    = - \frac{\partial}{\partial t} \vec B \! \left( \vec r, t \right)\]</div>
+\[\text{curl} \, {\vec E} \left( {\vec r}, t \right) = - \frac{\partial}{\partial t} {\vec B} \left( {\vec r}, t \right)\]</div>
 </dd>
 </dl>
 </dd></dl>

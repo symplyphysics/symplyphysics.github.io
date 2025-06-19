@@ -53,3 +53,13 @@ Dimension:
     :code:`length`
 
 
+.. py:data:: law
+
+    :code:`tau = cross(r, F)`
+
+
+    Latex:
+        .. math::
+            {\vec \tau} = \left[ {\vec r}, {\vec F} \right]
+
+

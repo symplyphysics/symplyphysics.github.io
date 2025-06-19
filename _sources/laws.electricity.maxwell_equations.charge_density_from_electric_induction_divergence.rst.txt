@@ -38,7 +38,7 @@ Symbol:
     :code:`D(r)`
 
 Latex:
-    :math:`D \left( {\vec r} \right)`
+    :math:`{\vec D} \left( {\vec r} \right)`
 
 Dimension:
     :code:`charge/area`
@@ -61,13 +61,11 @@ Dimension:
 
 .. py:data:: law
 
-    ..
-        NOTE: code printers have not been implemented yet for `VectorDivergence`
-
     :code:`div(D(r)) = rho(r)`
+
 
     Latex:
         .. math::
-            \text{div} \, \vec D \! \left( \vec r \right) = \rho \! \left( \vec r \right)
+            \text{div} \, {\vec D} \left( {\vec r} \right) = \rho{\left({\vec r} \right)}
 
 

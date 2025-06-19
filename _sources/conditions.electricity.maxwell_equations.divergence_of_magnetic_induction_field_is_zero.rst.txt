@@ -33,7 +33,7 @@ Symbol:
     :code:`B(r)`
 
 Latex:
-    :math:`B \left( {\vec r} \right)`
+    :math:`{\vec B} \left( {\vec r} \right)`
 
 Dimension:
     :code:`magnetic_density`
