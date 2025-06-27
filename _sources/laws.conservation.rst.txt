@@ -13,15 +13,15 @@ system does not change as the system evolves over time.
 
 
     laws.conservation.abbe_invariant_of_two_optical_environments_is_constant
+    laws.conservation.amount_of_mixture_is_sum_of_amounts_of_components
     laws.conservation.charge_is_constant
-    laws.conservation.mass_after_equals_to_mass_before
+    laws.conservation.initial_mass_equals_final_mass
+    laws.conservation.initial_mechanical_energy_equals_final_mechanical_energy
+    laws.conservation.initial_momentum_equals_final_momentum
     laws.conservation.mass_is_constant
-    laws.conservation.mechanical_energy_after_equals_to_mechanical_energy_before
     laws.conservation.mechanical_energy_is_constant
-    laws.conservation.mixture_mass_equal_sum_of_components_masses
-    laws.conservation.mixture_moles_amount_is_components_moles_amounts_sum
-    laws.conservation.momentum_after_collision_equals_to_momentum_before
-    laws.conservation.momentum_of_colliding_objects_is_constant
+    laws.conservation.mixture_mass_is_sum_of_component_masses
+    laws.conservation.momentum_is_constant
 
 
 
