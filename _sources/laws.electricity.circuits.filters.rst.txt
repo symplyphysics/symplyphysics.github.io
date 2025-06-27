@@ -12,7 +12,7 @@ A *filter* is a device or process that removes some unwanted components or featu
 
 
     laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter
-    laws.electricity.circuits.filters.band_pass_chebyshev_filter_oder_from_distortion_and_frequencies
+    laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies
     laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies
     laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies
     laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies

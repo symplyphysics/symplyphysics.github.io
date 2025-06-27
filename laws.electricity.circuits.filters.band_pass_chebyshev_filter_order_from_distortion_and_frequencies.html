@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Band pass Chebyshev filter order from distortion and frequency &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Butterworth filter order from distortion and frequency" href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html" />
+    <link rel="prev" title="Transmission coefficient approximation of low-pass filter" href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="band-pass-chebyshev-filter-order-from-distortion-and-frequency">
+<h1>Band pass Chebyshev filter order from distortion and frequency<a class="headerlink" href="#band-pass-chebyshev-filter-order-from-distortion-and-frequency" title="Link to this heading">¶</a></h1>
+<p>The approximation of the power transmission coefficient of a normalized high-pass filter
+is given by approximating functions of order <span class="math notranslate nohighlight">\(n\)</span>. The <strong>Chebyshev filter</strong> is
+described by the function <span class="math notranslate nohighlight">\(\left(\cos{n \arccos{f^{-1}}}\right)^{-1}\)</span> of
+frequency <span class="math notranslate nohighlight">\(f\)</span>. In this case, a band-pass filter is considered. The bandpass filter
+only passes frequencies from a certain frequency range.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>Also refer to <a class="reference external" href="http://www.dsplib.ru/content/filters/ch8/ch8.html#r4">this link (in Russian)</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.filter_order">
+<span class="sig-name descname"><span class="pre">filter_order</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.filter_order" title="Link to this definition">¶</a></dt>
+<dd><p>Chebyshev filter order. See <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.positive_number" title="symplyphysics.symbols.basic.positive_number"><code class="xref py py-attr docutils literal notranslate"><span class="pre">positive_number</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth_distortion">
+<span class="sig-name descname"><span class="pre">bandwidth_distortion</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth_distortion" title="Link to this definition">¶</a></dt>
+<dd><p>Bandwidth distortion, which corresponds to the number of ripples in the bandwidth.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">e</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(e\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_distortion">
+<span class="sig-name descname"><span class="pre">band_stop_distortion</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_distortion" title="Link to this definition">¶</a></dt>
+<dd><p>Band-stop distortion, which sets the required suppression level in the filter band-stop.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">e_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(e_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.cutoff_frequency">
+<span class="sig-name descname"><span class="pre">cutoff_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.cutoff_frequency" title="Link to this definition">¶</a></dt>
+<dd><p>Cut-off frequency, i.e. <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.temporal_frequency" title="symplyphysics.symbols.classical_mechanics.temporal_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temporal_frequency</span></code></a> that corresponds to the maximum
+bandwidth distortion.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">frequency</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_frequency">
+<span class="sig-name descname"><span class="pre">band_stop_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_frequency" title="Link to this definition">¶</a></dt>
+<dd><p>Band-stop frequency, i.e. <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.temporal_frequency" title="symplyphysics.symbols.classical_mechanics.temporal_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temporal_frequency</span></code></a> that corresponds to the maximum
+band-stop distortion.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">frequency</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth">
+<span class="sig-name descname"><span class="pre">bandwidth</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth" title="Link to this definition">¶</a></dt>
+<dd><p>Bandwidth. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.temporal_frequency" title="symplyphysics.symbols.classical_mechanics.temporal_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temporal_frequency</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(f)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta f\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">frequency</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">N</span> <span class="pre">=</span> <span class="pre">acosh(e</span> <span class="pre">/</span> <span class="pre">e_1)</span> <span class="pre">/</span> <span class="pre">acosh((f_1^2</span> <span class="pre">-</span> <span class="pre">f_0^2)</span> <span class="pre">/</span> <span class="pre">(Delta(f)</span> <span class="pre">*</span> <span class="pre">f_1))</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[N = \frac{\operatorname{acosh}{\left(\frac{e}{e_{1}} \right)}}{\operatorname{acosh}{\left(\frac{f_{1}^{2} - f_{0}^{2}}{\Delta f f_{1}} \right)}}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="laws.electricity.circuits.html"><strong>Circuits</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.couplers.html"><strong>Couplers</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.diodes.html"><strong>Diodes</strong></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="laws.electricity.circuits.filters.html"><strong>Filters</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.resonators.html"><strong>Resonators</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.transmission_lines.html"><strong>Transmission lines</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.waveguides.html"><strong>Waveguides</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.admittance_in_parallel_connection.html">Admittance in parallel connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.capacitance_in_parallel_connection.html">Capacitance in parallel connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.capacitance_is_proportional_to_plate_area.html">Capacitance is proportional to plate area</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.capacitance_of_spherical_capacitor.html">Capacitance of spherical capacitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.capacitor_impedance_from_capacitance_and_frequency.html">Capacitor impedance from capacitance and frequency</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.capacitor_impedance_from_capacitive_reactance.html">Capacitor impedance from capacitor reactance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.coil_impedance_from_inductive_reactance.html">Coil impedance from inductive reactance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.coil_impedance_via_inductance_and_frequency.html">Coil impedance via inductance and frequency</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.energy_stored_in_capacitor_via_capacitance_and_voltage.html">Energy stored in capacitor via capacitance and voltage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.energy_stored_in_inductor_via_inductance_and_current.html">Energy stored in inductor via inductance and current</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.impedance_in_serial_connection.html">Impedance in serial connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.impedance_module_of_the_serial_resistor_coil_capacitor_circuit.html">Impedance module of serial resistor-coil-capacitor circuit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.inductance_in_serial_connection.html">Inductance in serial connection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.input_impedance_of_thin_film_resistor.html">Input impedance of thin film resistor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.oscillation_period_of_inductor_capacitor_network.html">Oscillation period of inductor-capacitor network</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.resistance_in_serial_connection.html">Resistivity of serial resistors</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.sum_of_currents_through_junction_is_zero.html">Sum of currents through junction is zero</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.sum_of_voltages_in_loop_is_zero.html">Sum of voltages in loop is zero</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.time_constant_of_resistor_capacitor_circuit.html">Time constant of resistor-capacitor circuit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.varactor_junction_p_n_capacity.html">Capacitance of p-n varactor junction</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.electricity.circuits.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit.html">Voltage across charging capacitor in serial resistor-capacitor circuit</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.maxwell_equations.html"><strong>Maxwell equations</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.vector.html"><strong>Electromagnetism (Vector)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.absolute_permittivity_via_relative_permittivity.html">Absolute permittivity via relative permittivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.admittance_is_conductance_and_susceptance.html">Admittance is conductance and susceptance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.capacitance_from_charge_and_voltage.html">Capacitance from charge and voltage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.characteristic_resistance_of_medium.html">Wave impedance from permeability and permittivity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.charge_is_quantized.html">Charge is quantized</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.corona_discharge_current_from_voltage.html">Corona discharge current from voltage</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.current_is_voltage_over_resistance.html">Current is voltage over resistance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_charge_is_constant_in_isolated_system.html">Electric charge is constant in isolated system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_dipole_moment_is_charge_times_distance.html">Electric dipole moment is charge times distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_displacement_is_permittivity_times_electric_field.html">Electric displacement is permittivity times electric field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_due_to_dipole.html">Electric field due to dipole on the dipole axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_due_to_point_charge.html">Electric field due to point charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_is_force_over_test_charge.html">Electric field is force over test charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_of_uniformly_charged_plane.html">Electric field of uniformly charged plane</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_field_outside_charged_sphere.html">Electric field outside charged sphere</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_flux_through_closed_surface_via_total_charge.html">Electric flux through closed surface via total charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electric_intensity_in_gas_gap_between_two_electrodes.html">Electric field in gas gap between two electrodes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_moving_contour.html">Electromotive force induced in moving contour</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_rotating_rod.html">Electromotive force induced in rotating rod</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil.html">Electromotive force induced in rotating coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_force_via_charges_and_distance.html">Electrostatic force via charges and distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_due_to_point_charge.html">Electrostatic potential due to point charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance.html">Electrostatic potential energy of two charges via distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge.html">Electrostatic potential is work to bring from reference point over charge</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_density_via_permittivity_and_electric_field.html">Energy density via permittivity and electric field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_of_magnetic_field_of_solenoid.html">Energy of magnetic field of coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.energy_via_constant_power_and_time.html">Energy via constant power and time</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.force_between_parallel_wires.html">Force between parallel wires</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.inductance_is_magnetic_flux_over_current.html">Inductance is magnetic flux over current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.inductance_is_proportional_to_turns_squared.html">Inductance is proportional to turn count</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume.html">Inductance via number of turns and coil volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.instantaneous_energy_of_electric_field.html">Instantaneous energy of electric field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_due_to_infinite_wire.html">Magnetic field due to infinite wire</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_field_of_coil.html">Magnetic field of coil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_flux_from_induction_and_area.html">Magnetic flux from magnetic flux density and area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_induction_from_magnetic_field_intensity.html">Magnetic flux density from magnetic field strength</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length.html">Magnetic flux density of linear conductor of finite length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.maximum_moment_of_magnetic_field.html">Magnetic moment via current and contour area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field.html">Period of rotation of charged particle in magnetic field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_factor_is_real_power_over_apparent_power.html">Power factor is real power over apparent power</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_current_and_resistance.html">Power via current and resistance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_voltage_and_current.html">Power via voltage and current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.power_via_voltage_and_resistance.html">Power via voltage and resistance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field.html">Radius of curvature of charged particle in magnetic field</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.resistance_via_resistivity_and_dimensions.html">Resistance via resistivity and dimensions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current.html">Self-induced electromotive force via time derivative of current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.voltage_is_electric_field_times_distance.html">Voltage is electric field times distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.electricity.voltage_is_line_integral_of_electric_field.html">Voltage is line integral of electric field</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.electricity.html">Electromagnetism</a><ul>
+  <li><a href="laws.electricity.circuits.html"><strong>Circuits</strong></a><ul>
+  <li><a href="laws.electricity.circuits.filters.html"><strong>Filters</strong></a><ul>
+      <li>Previous: <a href="laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html" title="previous chapter">Transmission coefficient approximation of low-pass filter</a></li>
+      <li>Next: <a href="laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies.html" title="next chapter">Butterworth filter order from distortion and frequency</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
