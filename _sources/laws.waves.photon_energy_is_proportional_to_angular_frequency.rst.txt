@@ -10,7 +10,7 @@ in any reference frame. The energy of a photon depends only on its frequency.
 
 **Links:**
 
-#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Relativistic_energy_and_momentum>`__.
+#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Energy_and_momentum>`__.
 
 .. py:currentmodule:: symplyphysics.laws.waves.photon_energy_is_proportional_to_angular_frequency
 

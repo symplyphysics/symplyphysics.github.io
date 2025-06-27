@@ -13,7 +13,7 @@ expressions.
 
 **Links:**
 
-#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Relativistic_energy_and_momentum>`__.
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Photon#Energy_and_momentum>`__.
 
 .. py:currentmodule:: symplyphysics.laws.waves.photon_momentum_is_proportional_to_energy
 
