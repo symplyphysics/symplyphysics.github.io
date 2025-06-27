@@ -18,7 +18,7 @@ value of this potential is removed.
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
 ..
-    TODO: find link
+    TODO: find link and check file
 
 .. py:currentmodule:: symplyphysics.laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma
 

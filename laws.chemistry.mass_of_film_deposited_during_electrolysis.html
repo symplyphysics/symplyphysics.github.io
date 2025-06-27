@@ -16,8 +16,8 @@
     <link rel="canonical" href="https://symplyphysics.github.io/laws.chemistry.mass_of_film_deposited_during_electrolysis.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Molar mass via molecular mass" href="laws.chemistry.molar_mass_via_molecular_mass.html" />
-    <link rel="prev" title="Mean free path of particles in gaseous medium" href="laws.chemistry.free_path_of_atomic_particles_in_gaseous_medium.html" />
+    <link rel="next" title="Mean free path of particles in gaseous medium" href="laws.chemistry.mean_free_path_of_particles_in_gaseous_medium.html" />
+    <link rel="prev" title="Ionization cross section of atom by electrons per Lotz-Drevin" href="laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
   
@@ -43,8 +43,11 @@ secondary reactions on the electrodes, which occurs when an electric current pas
 through a solution or melt of an electrolyte.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(e\)</span> (<code class="code docutils literal notranslate"><span class="pre">e</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.elementary_charge" title="symplyphysics.quantities.elementary_charge"><code class="xref py py-attr docutils literal notranslate"><span class="pre">elementary_charge</span></code></a>.</p></li>
-<li><p><span class="math notranslate nohighlight">\(N_\text{A}\)</span> (<code class="code docutils literal notranslate"><span class="pre">N_A</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.avogadro_constant" title="symplyphysics.quantities.avogadro_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">avogadro_constant</span></code></a>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathfrak{F}\)</span> (<code class="code docutils literal notranslate"><span class="pre">F</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.faraday_constant" title="symplyphysics.quantities.faraday_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">faraday_constant</span></code></a>.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis#Derivation">Wikipedia, derivable from here</a>.</p></li>
 </ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis.film_mass">
@@ -133,10 +136,10 @@ through a solution or melt of an electrolyte.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">m</span> <span class="pre">=</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">M</span> <span class="pre">*</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">t</span> <span class="pre">/</span> <span class="pre">(v</span> <span class="pre">*</span> <span class="pre">e</span> <span class="pre">*</span> <span class="pre">N_A)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">m</span> <span class="pre">=</span> <span class="pre">I</span> <span class="pre">*</span> <span class="pre">M</span> <span class="pre">*</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">t</span> <span class="pre">/</span> <span class="pre">(v</span> <span class="pre">*</span> <span class="pre">F)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[m = \frac{I M B t}{v e N_\text{A}}\]</div>
+\[m = \frac{I M B t}{v \mathfrak{F}}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -177,20 +180,18 @@ through a solution or melt of an electrolyte.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.potential_energy_models.html"><strong>Potential energy models</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance.html">Avogadro constant is particle count over amount of substance</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.boundary_of_thermalization_zone_of_atomized_atoms_in_magnetron.html">Boundary of thermalization zone of atomized atoms in magnetron</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.coefficient_of_volumetric_ionization_of_neutral_atoms_or_gas_molecules_by_electrons.html">Coefficient of volumetric ionization of neutral molecules by electrons</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_coulomb_interaction_model.html">Cross section of interaction in Coulomb’s interaction model</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_elastic_interaction_model.html">Cross section of interaction in elastic interaction model</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_model_of_quasirigid_spheres.html">Cross section of interaction in model of hard spheres</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_interaction_in_recharge_model.html">Cross section of interaction in recharge model</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_granovsky.html">Cross section of ionization of atom by electrons per Granovsky</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin.html">Cross section of ionization of atom by electrons per Lotz-Drevin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.distance_of_greatest_convergence_of_particles_in_magnetron.html">Distance of greatest convergence of particles in magnetron</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_by_druyvestein.html">Electron distribution function in gas plasma per Druyvestein</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_by_maxwell.html">Electron distribution function in gas plasma per Maxwell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_per_druyvestein.html">Electron distribution function in gas plasma per Druyvestein</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_per_maxwell.html">Electron distribution function in gas plasma per Maxwell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma.html">Electron current in probe circuit in gas plasma</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_of_traveling_atom_on_gas_atom_in_magnetron.html">Energy transfer coefficient for elastic scattering in magnetron</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.etching_rate_of_target_in_magnetron.html">Etching rate of target in magnetron</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.free_path_of_atomic_particles_in_gaseous_medium.html">Mean free path of particles in gaseous medium</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_in_magnetron.html">Energy transfer coefficient for elastic scattering in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.etch_rate_of_target_in_magnetron.html">Etch rate of target in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_coulomb_interaction_model.html">Interaction cross section in Coulomb’s interaction model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_elastic_interaction_model.html">Interaction cross section in elastic interaction model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_model_of_hard_spheres.html">Interaction cross section in model of hard spheres</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_recharge_model.html">Interaction cross section in recharge model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.ionization_cross_section_of_atom_by_electron_per_granovsky.html">Ionization cross section of atom by electrons per Granovsky</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.html">Ionization cross section of atom by electrons per Lotz-Drevin</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Mass of film deposited during electrolysis</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis.film_mass"><code class="docutils literal notranslate"><span class="pre">film_mass</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis.current"><code class="docutils literal notranslate"><span class="pre">current</span></code></a></li>
@@ -201,11 +202,13 @@ through a solution or melt of an electrolyte.</p>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.mean_free_path_of_particles_in_gaseous_medium.html">Mean free path of particles in gaseous medium</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.molar_mass_via_molecular_mass.html">Molar mass via molecular mass</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html">Number density via volumetric density and molar mass</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_of_collisions_of_atomized_atom_with_gas_atoms_in_magnetron.html">Number of collisions of particle with gas in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_of_collisions_of_particle_with_gas_in_magnetron.html">Number of collisions of particle with gas in magnetron</a></li>
 <li class="toctree-l3"><a class="reference internal" href="laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.html">Reaction equilibrium constant via standard Gibbs energy</a></li>
-<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.velocity_of_directional_motion_of_charged_particles_in_gas.html">Speed of charged particles in gas via mobility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.speed_of_charged_particles_in_gas_via_mobility.html">Speed of charged particles in gas via mobility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.volumetric_ionization_coefficient_of_neutral_particles_by_electrons.html">Volumetric ionization coefficient of neutral particles by electrons</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
@@ -238,8 +241,8 @@ through a solution or melt of an electrolyte.</p>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="laws.html">Laws</a><ul>
   <li><a href="laws.chemistry.html">Chemistry</a><ul>
-      <li>Previous: <a href="laws.chemistry.free_path_of_atomic_particles_in_gaseous_medium.html" title="previous chapter">Mean free path of particles in gaseous medium</a></li>
-      <li>Next: <a href="laws.chemistry.molar_mass_via_molecular_mass.html" title="next chapter">Molar mass via molecular mass</a></li>
+      <li>Previous: <a href="laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.html" title="previous chapter">Ionization cross section of atom by electrons per Lotz-Drevin</a></li>
+      <li>Next: <a href="laws.chemistry.mean_free_path_of_particles_in_gaseous_medium.html" title="next chapter">Mean free path of particles in gaseous medium</a></li>
   </ul></li>
   </ul></li>
   </ul></li>

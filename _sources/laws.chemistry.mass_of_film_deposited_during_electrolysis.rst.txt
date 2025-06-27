@@ -8,11 +8,11 @@ through a solution or melt of an electrolyte.
 
 **Notation:**
 
-#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
-#. :math:`N_\text{A}` (:code:`N_A`) is :attr:`~symplyphysics.quantities.avogadro_constant`.
+#. :math:`\mathfrak{F}` (:code:`F`) is :attr:`~symplyphysics.quantities.faraday_constant`.
 
-..
-    TODO: find link
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis#Derivation>`__.
 
 .. py:currentmodule:: symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis
 
@@ -102,11 +102,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`m = I * M * B * t / (v * e * N_A)`
+    :code:`m = I * M * B * t / (v * F)`
 
 
     Latex:
         .. math::
-            m = \frac{I M B t}{v e N_\text{A}}
+            m = \frac{I M B t}{v \mathfrak{F}}
 
 

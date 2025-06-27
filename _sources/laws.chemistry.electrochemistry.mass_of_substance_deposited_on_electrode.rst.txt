@@ -1,0 +1,81 @@
+Mass of substance deposited on electrode
+========================================
+
+**Faraday's first law of electrolysis** states that the mass of a substance deposited or liberated
+at an electrode is directly proportional to the charge.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis#First_law>`__.
+
+..
+    TODO: replace `I * t` with charge `q`?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.electrochemistry.mass_of_substance_deposited_on_electrode
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` deposited on the electrode.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: equivalent
+
+    :attr:`~symplyphysics.symbols.chemistry.electrochemical_equivalent`.
+
+Symbol:
+    :code:`Z`
+
+Latex:
+    :math:`Z`
+
+Dimension:
+    :code:`mass/charge`
+
+
+.. py:data:: current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`m = Z * I * t`
+
+
+    Latex:
+        .. math::
+            m = Z I t
+
+

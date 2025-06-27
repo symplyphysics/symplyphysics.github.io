@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Ionization cross section of atom by electrons per Lotz-Drevin &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Mass of film deposited during electrolysis" href="laws.chemistry.mass_of_film_deposited_during_electrolysis.html" />
+    <link rel="prev" title="Ionization cross section of atom by electrons per Granovsky" href="laws.chemistry.ionization_cross_section_of_atom_by_electron_per_granovsky.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="ionization-cross-section-of-atom-by-electrons-per-lotz-drevin">
+<h1>Ionization cross section of atom by electrons per Lotz-Drevin<a class="headerlink" href="#ionization-cross-section-of-atom-by-electrons-per-lotz-drevin" title="Link to this heading">¶</a></h1>
+<p>In this law, we are talking about the interaction of an atom and an electron, which
+ionizes an atom. Equivalent electrons on the outer shell of the ionized atom are
+electrons with the same principal and orbital quantum numbers. In this case, the
+Lotz-Drewin approximation for the ionization cross section is considered.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(a_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">a_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.bohr_radius" title="symplyphysics.quantities.bohr_radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">bohr_radius</span></code></a>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\mathrm{IE}_\text{H}\)</span> (<code class="code docutils literal notranslate"><span class="pre">IE_h</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.hydrogen_ionization_energy" title="symplyphysics.quantities.hydrogen_ionization_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">hydrogen_ionization_energy</span></code></a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.cross_section">
+<span class="sig-name descname"><span class="pre">cross_section</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.cross_section" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.chemistry.html#symplyphysics.symbols.chemistry.cross_section" title="symplyphysics.symbols.chemistry.cross_section"><code class="xref py py-attr docutils literal notranslate"><span class="pre">cross_section</span></code></a> of ionization.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">sigma</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\sigma\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.ionization_energy">
+<span class="sig-name descname"><span class="pre">ionization_energy</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.ionization_energy" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.energy" title="symplyphysics.symbols.basic.energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">energy</span></code></a> of ionization of atoms.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E_i</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E_\text{i}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.electron_energy">
+<span class="sig-name descname"><span class="pre">electron_energy</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.electron_energy" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.energy" title="symplyphysics.symbols.basic.energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">energy</span></code></a> of ionizing electrons.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.first_coefficient">
+<span class="sig-name descname"><span class="pre">first_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.first_coefficient" title="Link to this definition">¶</a></dt>
+<dd><p>A coefficient used in the calculation.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.second_coefficient">
+<span class="sig-name descname"><span class="pre">second_coefficient</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.second_coefficient" title="Link to this definition">¶</a></dt>
+<dd><p>A coefficient used in the calculation.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.electron_count">
+<span class="sig-name descname"><span class="pre">electron_count</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.electron_count" title="Link to this definition">¶</a></dt>
+<dd><p>A <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.nonnegative_number" title="symplyphysics.symbols.basic.nonnegative_number"><code class="xref py py-attr docutils literal notranslate"><span class="pre">nonnegative_number</span></code></a> of equivalent electrons on the outer shell of the ionized atom.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">sigma</span> <span class="pre">=</span> <span class="pre">2.66</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">a_0^2</span> <span class="pre">*</span> <span class="pre">N</span> <span class="pre">*</span> <span class="pre">IE_h^2</span> <span class="pre">/</span> <span class="pre">E_i^2</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">(E</span> <span class="pre">/</span> <span class="pre">E_i</span> <span class="pre">-</span> <span class="pre">1)</span> <span class="pre">/</span> <span class="pre">(E</span> <span class="pre">/</span> <span class="pre">E_i)^2</span> <span class="pre">*</span> <span class="pre">log(1.25</span> <span class="pre">*</span> <span class="pre">B</span> <span class="pre">*</span> <span class="pre">E</span> <span class="pre">/</span> <span class="pre">E_i)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_\text{i}^{2}} \frac{A \left(\frac{E}{E_\text{i}} - 1\right)}{\left(\frac{E}{E_\text{i}}\right)^{2}} \log \left( 1.25 B \frac{E}{E_\text{i}} \right)\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.chemistry.html">Chemistry</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electrochemistry.html"><strong>Electrochemistry</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.potential_energy_models.html"><strong>Potential energy models</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance.html">Avogadro constant is particle count over amount of substance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.boundary_of_thermalization_zone_of_atomized_atoms_in_magnetron.html">Boundary of thermalization zone of atomized atoms in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.distance_of_greatest_convergence_of_particles_in_magnetron.html">Distance of greatest convergence of particles in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_per_druyvestein.html">Electron distribution function in gas plasma per Druyvestein</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electron_distribution_function_in_gas_plasma_per_maxwell.html">Electron distribution function in gas plasma per Maxwell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma.html">Electron current in probe circuit in gas plasma</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_in_magnetron.html">Energy transfer coefficient for elastic scattering in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.etch_rate_of_target_in_magnetron.html">Etch rate of target in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_coulomb_interaction_model.html">Interaction cross section in Coulomb’s interaction model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_elastic_interaction_model.html">Interaction cross section in elastic interaction model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_model_of_hard_spheres.html">Interaction cross section in model of hard spheres</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.interaction_cross_section_in_recharge_model.html">Interaction cross section in recharge model</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.ionization_cross_section_of_atom_by_electron_per_granovsky.html">Ionization cross section of atom by electrons per Granovsky</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Ionization cross section of atom by electrons per Lotz-Drevin</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.cross_section"><code class="docutils literal notranslate"><span class="pre">cross_section</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.ionization_energy"><code class="docutils literal notranslate"><span class="pre">ionization_energy</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.electron_energy"><code class="docutils literal notranslate"><span class="pre">electron_energy</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.first_coefficient"><code class="docutils literal notranslate"><span class="pre">first_coefficient</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.second_coefficient"><code class="docutils literal notranslate"><span class="pre">second_coefficient</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.electron_count"><code class="docutils literal notranslate"><span class="pre">electron_count</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.mass_of_film_deposited_during_electrolysis.html">Mass of film deposited during electrolysis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.mean_free_path_of_particles_in_gaseous_medium.html">Mean free path of particles in gaseous medium</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.molar_mass_via_molecular_mass.html">Molar mass via molecular mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_density_via_volumetric_density_and_molar_mass.html">Number density via volumetric density and molar mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.number_of_collisions_of_particle_with_gas_in_magnetron.html">Number of collisions of particle with gas in magnetron</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy.html">Reaction equilibrium constant via standard Gibbs energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.speed_of_charged_particles_in_gas_via_mobility.html">Speed of charged particles in gas via mobility</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.chemistry.volumetric_ionization_coefficient_of_neutral_particles_by_electrons.html">Volumetric ionization coefficient of neutral particles by electrons</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.chemistry.html">Chemistry</a><ul>
+      <li>Previous: <a href="laws.chemistry.ionization_cross_section_of_atom_by_electron_per_granovsky.html" title="previous chapter">Ionization cross section of atom by electrons per Granovsky</a></li>
+      <li>Next: <a href="laws.chemistry.mass_of_film_deposited_during_electrolysis.html" title="next chapter">Mass of film deposited during electrolysis</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,64 @@
+Energy transfer coefficient for elastic scattering in magnetron
+===============================================================
+
+The traveling atom moves towards the substrate in the magnetron. At the same time, it
+collides with gas atoms. The energy transfer coefficient in these collisions depends on
+the mass of the traveling atom and the mass of the gas atom.
+
+..
+    TODO: find link and check file
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_in_magnetron
+
+.. py:data:: energy_transfer_coefficient
+
+    Energy transfer coefficient.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: traveling_atom_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of traveling atom.
+
+Symbol:
+    :code:`m_1`
+
+Latex:
+    :math:`m_{1}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: gas_atom_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of gas atom.
+
+Symbol:
+    :code:`m_2`
+
+Latex:
+    :math:`m_{2}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`x = 2 * m_1 * m_2 / (m_1 + m_2)^2`
+
+
+    Latex:
+        .. math::
+            x = \frac{2 m_{1} m_{2}}{\left(m_{1} + m_{2}\right)^{2}}
+
+

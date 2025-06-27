@@ -1,0 +1,55 @@
+Interaction cross section in Coulomb's interaction model
+========================================================
+
+In a magnetron, the effective cross section of particle interaction can be calculated via the
+ionization energy of gas atoms. See :ref:`Effective cross section`.
+
+**Notation:**
+
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+
+..
+    TODO: find link
+    TODO: move to `magnetron` folder?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.interaction_cross_section_in_coulomb_interaction_model
+
+.. py:data:: interaction_cross_section
+
+    :attr:`~symplyphysics.symbols.chemistry.cross_section` of the interaction of particles.
+
+Symbol:
+    :code:`sigma`
+
+Latex:
+    :math:`\sigma`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: ionization_energy
+
+    Ionization :attr:`~symplyphysics.symbols.basic.energy` of atoms expressed in :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+
+Symbol:
+    :code:`E_i`
+
+Latex:
+    :math:`E_\text{i}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: law
+
+    :code:`sigma = e^2 / (2 * pi * epsilon_0^2 * E_i^2)`
+
+
+    Latex:
+        .. math::
+            \sigma = \frac{e^{2}}{2 \pi \varepsilon_0^{2} E_\text{i}^{2}}
+
+

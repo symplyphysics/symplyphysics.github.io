@@ -5,6 +5,13 @@ Chemistry is a physical science that studies the chemical elements that make up 
 compounds made of atoms, molecules and ions: their composition, structure, properties,
 behavior and the changes they undergo during reactions with other substances.
 
+**Effective cross section**
+
+The effective cross section is a physical quantity characterizing the probability of transition of
+a system of two interacting particles to a certain final state, a quantitative characteristic of
+the acts of collision of particles of a stream hitting a target with target particles. The
+effective cross-section has the dimension of the area.
+
 .. py:currentmodule:: symplyphysics.laws.chemistry
 
 **Contents:**
@@ -16,26 +23,26 @@ behavior and the changes they undergo during reactions with other substances.
     laws.chemistry.potential_energy_models
     laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance
     laws.chemistry.boundary_of_thermalization_zone_of_atomized_atoms_in_magnetron
-    laws.chemistry.coefficient_of_volumetric_ionization_of_neutral_atoms_or_gas_molecules_by_electrons
-    laws.chemistry.cross_section_of_interaction_in_coulomb_interaction_model
-    laws.chemistry.cross_section_of_interaction_in_elastic_interaction_model
-    laws.chemistry.cross_section_of_interaction_in_model_of_quasirigid_spheres
-    laws.chemistry.cross_section_of_interaction_in_recharge_model
-    laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_granovsky
-    laws.chemistry.cross_section_of_ionization_of_atom_by_electron_by_lotz_drevin
     laws.chemistry.distance_of_greatest_convergence_of_particles_in_magnetron
-    laws.chemistry.electron_distribution_function_in_gas_plasma_by_druyvestein
-    laws.chemistry.electron_distribution_function_in_gas_plasma_by_maxwell
+    laws.chemistry.electron_distribution_function_in_gas_plasma_per_druyvestein
+    laws.chemistry.electron_distribution_function_in_gas_plasma_per_maxwell
     laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma
-    laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_of_traveling_atom_on_gas_atom_in_magnetron
-    laws.chemistry.etching_rate_of_target_in_magnetron
-    laws.chemistry.free_path_of_atomic_particles_in_gaseous_medium
+    laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_in_magnetron
+    laws.chemistry.etch_rate_of_target_in_magnetron
+    laws.chemistry.interaction_cross_section_in_coulomb_interaction_model
+    laws.chemistry.interaction_cross_section_in_elastic_interaction_model
+    laws.chemistry.interaction_cross_section_in_model_of_hard_spheres
+    laws.chemistry.interaction_cross_section_in_recharge_model
+    laws.chemistry.ionization_cross_section_of_atom_by_electron_per_granovsky
+    laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin
     laws.chemistry.mass_of_film_deposited_during_electrolysis
+    laws.chemistry.mean_free_path_of_particles_in_gaseous_medium
     laws.chemistry.molar_mass_via_molecular_mass
     laws.chemistry.number_density_via_volumetric_density_and_molar_mass
-    laws.chemistry.number_of_collisions_of_atomized_atom_with_gas_atoms_in_magnetron
+    laws.chemistry.number_of_collisions_of_particle_with_gas_in_magnetron
     laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy
-    laws.chemistry.velocity_of_directional_motion_of_charged_particles_in_gas
+    laws.chemistry.speed_of_charged_particles_in_gas_via_mobility
+    laws.chemistry.volumetric_ionization_coefficient_of_neutral_particles_by_electrons
 
 
 

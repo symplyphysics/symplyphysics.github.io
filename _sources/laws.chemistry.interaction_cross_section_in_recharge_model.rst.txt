@@ -1,0 +1,112 @@
+Interaction cross section in recharge model
+===========================================
+
+See :ref:`Effective cross section`.
+
+**Notation:**
+
+#. :math:`a_0` (:code:`a_0`) is :attr:`~symplyphysics.quantities.bohr_radius`.
+#. :math:`\mathrm{IE}_\text{H}` (:code:`IE_h`) is :attr:`~symplyphysics.quantities.hydrogen_ionization_energy`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+
+..
+    TODO: find link and check file
+    TODO: move to `ionization` folder?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.interaction_cross_section_in_recharge_model
+
+.. py:data:: cross_section
+
+    :attr:`~symplyphysics.symbols.chemistry.cross_section` of interaction of particles.
+
+Symbol:
+    :code:`sigma`
+
+Latex:
+    :math:`\sigma`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: ionization_energy
+
+    Ionization :attr:`~symplyphysics.symbols.basic.energy` of the particles.
+
+Symbol:
+    :code:`E_i`
+
+Latex:
+    :math:`E_\text{i}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: molecular_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a single gas particle.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: pressure
+
+    Gas :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: temperature
+
+    Gas :attr:`~symplyphysics.symbols.thermodynamics.temperature`.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: electric_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: law
+
+    :code:`sigma = pi * a_0^2 * IE_h / E_i * log(sqrt(3 * k_B * T / m) * sqrt(E_i / IE_h) * sigma * p * m / (2 * k_B * T * e * E))^2`
+
+
+    Latex:
+        .. math::
+            \sigma = \pi a_0^{2} \frac{\mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \sqrt{\frac{3 k_\text{B} T}{m}} \sqrt{\frac{E_\text{i}}{\mathrm{IE}_\text{H}}} \frac{\sigma p m}{2 k_\text{B} T e E} \right)^{2}
+
+

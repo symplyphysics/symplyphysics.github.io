@@ -1,11 +1,9 @@
 Electrochemical equivalent from molar mass and valence
 ======================================================
 
-Faraday's second law of electrolysis. The equivalent mass of a substance in general in
-chemistry is its molar mass divided by an integer depending on the chemical reaction in
-which the substance participates; in this case, the equivalent is the molar mass of the
-substance formed during ion discharge divided by the sum of the ion charges (measured
-in elementary units), resulting in a molecule or atom of the substance.
+**Faraday's second law of electrolysis** states that if the same amount of electricity is passed
+through different electrolytes, the masses of ions deposited at the electrodes are directly
+proportional to their chemical equivalents.
 
 **Notations:**
 
@@ -13,11 +11,13 @@ in elementary units), resulting in a molecule or atom of the substance.
 
 **Links:**
 
-#. `Wikipedia, derivable <https://en.wikipedia.org/wiki/Electrochemical_equivalent>`__.
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Faraday%27s_laws_of_electrolysis#Derivation>`__.
+
+#. `BYJU'S <https://byjus.com/chemistry/laws-of-electrolysis/>`__.
 
 .. py:currentmodule:: symplyphysics.laws.chemistry.electrochemistry.electrochemical_equivalent_from_molar_mass_and_valence
 
-.. py:data:: equivalent
+.. py:data:: electrochemical_equivalent
 
     :attr:`~symplyphysics.symbols.chemistry.electrochemical_equivalent`.
 
