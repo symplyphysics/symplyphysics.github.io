@@ -1,0 +1,43 @@
+**Circuits**
+============
+
+An *electrical circuit* is an interconnection of electrical components consisting of
+a closed loop, giving a return path for the current.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    laws.electricity.circuits.couplers
+    laws.electricity.circuits.diodes
+    laws.electricity.circuits.filters
+    laws.electricity.circuits.resonators
+    laws.electricity.circuits.transmission_lines
+    laws.electricity.circuits.waveguides
+    laws.electricity.circuits.admittance_in_parallel_connection
+    laws.electricity.circuits.capacitance_in_parallel_connection
+    laws.electricity.circuits.capacitance_is_proportional_to_plate_area
+    laws.electricity.circuits.capacitance_of_spherical_capacitor
+    laws.electricity.circuits.capacitor_impedance_from_capacitance_and_frequency
+    laws.electricity.circuits.capacitor_impedance_from_capacitive_reactance
+    laws.electricity.circuits.coil_impedance_from_inductive_reactance
+    laws.electricity.circuits.coil_impedance_via_inductance_and_frequency
+    laws.electricity.circuits.energy_stored_in_capacitor_via_capacitance_and_voltage
+    laws.electricity.circuits.energy_stored_in_inductor_via_inductance_and_current
+    laws.electricity.circuits.impedance_in_serial_connection
+    laws.electricity.circuits.impedance_module_of_the_serial_resistor_coil_capacitor_circuit
+    laws.electricity.circuits.inductance_in_serial_connection
+    laws.electricity.circuits.input_impedance_of_thin_film_resistor
+    laws.electricity.circuits.oscillation_period_of_inductor_capacitor_network
+    laws.electricity.circuits.resistance_in_serial_connection
+    laws.electricity.circuits.sum_of_currents_through_junction_is_zero
+    laws.electricity.circuits.sum_of_voltages_in_loop_is_zero
+    laws.electricity.circuits.time_constant_of_resistor_capacitor_circuit
+    laws.electricity.circuits.varactor_junction_p_n_capacity
+    laws.electricity.circuits.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit
+
+
+

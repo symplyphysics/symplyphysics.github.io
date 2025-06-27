@@ -1,0 +1,64 @@
+Electric field is force over test charge (Vector)
+=================================================
+
+Electric field at a point in space can be found by placing there a test charge and measuring
+the electrostatic force that is applied to it.
+
+**Links:**
+
+#. `Wikipedia, last formula in paragraph <https://en.wikipedia.org/wiki/Electric_field#Electrostatics>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector.electric_field_is_force_over_test_charge
+
+.. py:data:: test_charge
+
+    Value of the test :attr:`~symplyphysics.symbols.electrodynamics.charge`.
+
+Symbol:
+    :code:`q_0`
+
+Latex:
+    :math:`q_{0}`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: electric_field
+
+    Vector of the electric field. See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`{\vec E}`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: electrostatic_force
+
+    Vector of the electrostatic :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: law
+
+    :code:`E = F / q_0`
+
+
+    Latex:
+        .. math::
+            {\vec E} = \frac{{\vec F}}{q_{0}}
+
+

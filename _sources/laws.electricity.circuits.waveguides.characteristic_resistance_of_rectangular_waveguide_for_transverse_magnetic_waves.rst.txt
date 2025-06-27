@@ -1,0 +1,82 @@
+Characteristic resitance of rectangular waveguide for transverse magnetic waves
+===============================================================================
+
+The resistance of a rectangular waveguide to transverse magnetic waves can be calculated
+from the resistance of the medium within the waveguide, the wavelength of the signal
+and the critical wavelength of the waveguide.
+
+**Conditions:**
+
+#. Waves propagating in the waveguide must be transverse magnetic waves.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.characteristic_resistance_of_rectangular_waveguide_for_transverse_magnetic_waves
+
+.. py:data:: wave_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` in the waveguide.
+
+Symbol:
+    :code:`eta`
+
+Latex:
+    :math:`\eta`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: medium_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the medium filling the waveguide.
+
+Symbol:
+    :code:`eta_0`
+
+Latex:
+    :math:`\eta_{0}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: vacuum_wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the signal in vacuum.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: critical_wavelength
+
+    Critical :attr:`~symplyphysics.symbols.classical_mechanics.wavelength`. See :ref:`Critical wavelength of waveguide <critical_wavelength_waveguide_def>`.
+
+Symbol:
+    :code:`lambda_c`
+
+Latex:
+    :math:`\lambda_\text{c}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`eta = eta_0 * sqrt(1 - (lambda / lambda_c)^2)`
+
+
+    Latex:
+        .. math::
+            \eta = \eta_{0} \sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}
+
+

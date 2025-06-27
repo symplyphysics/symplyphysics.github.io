@@ -1,0 +1,80 @@
+Gibbs energy via enthalpy
+=========================
+
+Gibbs energy is a thermodynamic potential that can be used to calculate the maximum amount of work
+that may be performed by a thermodynamically closed system at constant temperature and pressure.
+It provides a necessary condition for processes such as chemical reactions that may occur under these
+conditions.
+
+**Links:**
+
+#. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Gibbs_free_energy>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.gibbs_energy_via_enthalpy
+
+.. py:data:: gibbs_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: enthalpy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
+
+Symbol:
+    :code:`H`
+
+Latex:
+    :math:`H`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: entropy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
+
+Symbol:
+    :code:`S`
+
+Latex:
+    :math:`S`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: law
+
+    :code:`G = H - T * S`
+
+
+    Latex:
+        .. math::
+            G = H - T S
+
+

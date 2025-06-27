@@ -1,0 +1,93 @@
+Internal energy is first order homogeneous function
+===================================================
+
+Internal energy is a first-order homogeneous function of its internal variables (entropy, volume,
+and particle count).
+
+**Links:**
+
+#. `Wikipedia, first equation <https://en.wikipedia.org/wiki/Thermodynamic_potential#Euler_relations>`__.
+
+.. py:currentmodule:: symplyphysics.conditions.thermodynamics.internal_energy_is_first_order_homogeneous_function
+
+.. py:data:: entropy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy`.
+
+Symbol:
+    :code:`S`
+
+Latex:
+    :math:`S`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume`
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: particle_count
+
+    :attr:`~symplyphysics.symbols.basic.particle_count`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: internal_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` as a function of :attr:`~entropy`, :attr:`~volume`, and
+    :attr:`~particle_count`.
+
+Symbol:
+    :code:`U(S, V, N)`
+
+Latex:
+    :math:`U{\left(S,V,N \right)}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: factor
+
+    Dimensionless real-valued factor.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: homogeneity_condition
+
+    :code:`U(k * S, k * V, k * N) = k * U(S, V, N)`
+
+
+    Latex:
+        .. math::
+            U{\left(k S,k V,k N \right)} = k U{\left(S,V,N \right)}
+
+

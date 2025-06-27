@@ -1,0 +1,17 @@
+**Waves (Vector)**
+==================
+
+Laws related to waves in vector form.
+
+.. py:currentmodule:: symplyphysics.laws.waves.vector
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.waves.vector.phase_velocity_from_angular_velocity_and_wavevector
+
+
+

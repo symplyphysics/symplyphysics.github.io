@@ -1,0 +1,112 @@
+Mass of film deposited during electrolysis
+==========================================
+
+Electrolysis is a physico-chemical process consisting in the release of components of
+dissolved substances or other substances on the electrodes, which are the result of
+secondary reactions on the electrodes, which occurs when an electric current passes
+through a solution or melt of an electrolyte.
+
+**Notation:**
+
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+#. :math:`N_\text{A}` (:code:`N_A`) is :attr:`~symplyphysics.quantities.avogadro_constant`.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.mass_of_film_deposited_during_electrolysis
+
+.. py:data:: film_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the film deposited.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` in the electrolyte.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: molar_mass
+
+    :attr:`~symplyphysics.symbols.basic.molar_mass` of deposited metal.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`M`
+
+Dimension:
+    :code:`mass/amount_of_substance`
+
+
+.. py:data:: current_output
+
+    Current output is the fraction of electric current spent on the passage of the target electrochemical reaction.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: valence
+
+    :attr:`~symplyphysics.symbols.chemistry.valence` of the deposited metal.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` of electrolysis.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`m = I * M * B * t / (v * e * N_A)`
+
+
+    Latex:
+        .. math::
+            m = \frac{I M B t}{v e N_\text{A}}
+
+

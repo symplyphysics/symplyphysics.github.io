@@ -1,0 +1,50 @@
+Electrical conductance is inverse resistance
+============================================
+
+*Conductivity* is a physical quantity describing the ability of a medium to conduct electrical current.
+It is defined as the inverse of resistance.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance#>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.electrical_conductance_is_inversed_resistance
+
+.. py:data:: conductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` of the object.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the object.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: definition
+
+    :code:`G = 1 / R`
+
+
+    Latex:
+        .. math::
+            G = \frac{1}{R}
+
+

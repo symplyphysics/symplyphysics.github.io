@@ -1,0 +1,68 @@
+Wave speed from medium permittivity and permeability
+====================================================
+
+Speed of electromagnetic wave propagation depends on relative permittivity and relative
+permeability of the medium.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Phase_velocity#Refractive_index>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.wavespeed_from_medium_permittivity_and_permeability
+
+.. py:data:: wave_speed
+
+    Speed of wave propagation in medium. See :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the medium.
+
+Symbol:
+    :code:`epsilon_r`
+
+Latex:
+    :math:`\varepsilon_\text{r}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
+
+Symbol:
+    :code:`mu_r`
+
+Latex:
+    :math:`\mu_\text{r}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`v = c / sqrt(epsilon_r * mu_r)`
+
+
+    Latex:
+        .. math::
+            v = \frac{c}{\sqrt{\varepsilon_\text{r} \mu_\text{r}}}
+
+

@@ -1,0 +1,93 @@
+Mean free path of particles in gaseous medium
+=============================================
+
+The atoms of the target material evaporate and move towards the substrate inside the
+magnetron. At the same time, it collides with gas atoms. The free path length is the
+distance that a traveling atom travels between two collisions.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+**Notes:**
+
+#. Assuming the model of spherical gas molecules, :math:`\sigma = pi d^2`, where
+   :math:`\sigma` is the cross section and :math:`d` is the molecule diameter.
+
+**Links:**
+
+#. `Wikipedia, the fourth formula <https://en.wikipedia.org/wiki/Mean_free_path#Kinetic_theory_of_gases>`__.
+#. `Chemistry LibreTexts, "27.6.4. Mean Free Path" <https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)/27%3A_The_Kinetic_Theory_of_Gases/27.06%3A_Mean_Free_Path>`__.
+
+..
+    NOTE: remove the mention of a magnetron from the description?
+    TODO: move to `magnetron` folder?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.free_path_of_atomic_particles_in_gaseous_medium
+
+.. py:data:: mean_free_path
+
+    :attr:`~symplyphysics.symbols.thermodynamics.mean_free_path` of particle.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the gas.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: cross_section
+
+    :attr:`~symplyphysics.symbols.chemistry.cross_section` of the interaction between the particle and the gas.
+
+Symbol:
+    :code:`sigma`
+
+Latex:
+    :math:`\sigma`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: law
+
+    :code:`lambda = k_B * T / (sqrt(2) * p * sigma)`
+
+
+    Latex:
+        .. math::
+            \lambda = \frac{k_\text{B} T}{\sqrt{2} p \sigma}
+
+

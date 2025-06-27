@@ -1,0 +1,59 @@
+Average kinetic energy of ideal gas from temperature
+====================================================
+
+The kinetic theory of ideal gases allows us to determine the *average kinetic energy* for an ideal gas.
+It states that the average kinetic energy for all ideal gases is directly proportional to the absolute
+temperature of the gas and only depends on the temperature.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Kinetic_theory_of_gases#Temperature_and_kinetic_energy>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.average_kinetic_energy_of_ideal_gas_from_temperature
+
+.. py:data:: average_kinetic_energy
+
+    Average :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the ideal gas.
+
+Symbol:
+    :code:`avg(K)`
+
+Latex:
+    :math:`\langle K \rangle`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: law
+
+    :code:`avg(K) = 3 * k_B / 2 * T`
+
+
+    Latex:
+        .. math::
+            \langle K \rangle = \frac{3 k_\text{B}}{2} T
+
+

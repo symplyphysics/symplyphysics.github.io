@@ -1,0 +1,67 @@
+Charge density in diode
+=======================
+
+The simplest device implementing a cathode current control method is a diode device. It
+contains a vacuum chamber, a thermionic cathode, a mesh electrode and an anode.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.diodes.space_charge_density_in_diode_device
+
+.. py:data:: charge_density
+
+    :attr:`~symplyphysics.symbols.electrodynamics.volumetric_charge_density` in the diode.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`charge/volume`
+
+
+.. py:data:: grid_voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` on the grid.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the grid and the cathode.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`rho = 4 * epsilon_0 / 9 * V / d^2`
+
+
+    Latex:
+        .. math::
+            \rho = \frac{\frac{4 \varepsilon_0}{9} V}{d^{2}}
+
+

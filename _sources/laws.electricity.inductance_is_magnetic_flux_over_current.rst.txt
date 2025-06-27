@@ -1,0 +1,65 @@
+Inductance is magnetic flux over current
+========================================
+
+Inductance is the tendency of an electrical component to oppose a change in the electric current
+flowing through it. It can be defined as the ratio of the total magnetic flux through a circuit
+due to the component over the current in it.
+
+**Links:**
+
+#. `Wikipedia, third formula <https://en.wikipedia.org/wiki/Inductance#Source_of_inductance>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.inductance_is_magnetic_flux_over_current
+
+.. py:data:: inductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance`.
+
+Symbol:
+    :code:`L`
+
+Latex:
+    :math:`L`
+
+Dimension:
+    :code:`inductance`
+
+
+.. py:data:: magnetic_flux
+
+    :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux` due to the component.
+
+Symbol:
+    :code:`Phi_B`
+
+Latex:
+    :math:`\Phi_{\vec B}`
+
+Dimension:
+    :code:`magnetic_flux`
+
+
+.. py:data:: current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the circuit.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: law
+
+    :code:`L = Phi_B / I`
+
+
+    Latex:
+        .. math::
+            L = \frac{\Phi_{\vec B}}{I}
+
+

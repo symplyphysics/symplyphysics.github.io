@@ -1,0 +1,53 @@
+Photon momentum is proportional to angular wavenumber
+=====================================================
+
+The momentum of a photon is proportional to its wavenumber.
+
+**Notation:**
+
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Photon#Relativistic_energy_and_momentum>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.photon_momentum_is_proportional_to_angular_wavenumber
+
+.. py:data:: momentum
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of a photon.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: angular_wavenumber
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of a photon.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`angle/length`
+
+
+.. py:data:: law
+
+    :code:`p = hbar * k`
+
+
+    Latex:
+        .. math::
+            p = \hbar k
+
+

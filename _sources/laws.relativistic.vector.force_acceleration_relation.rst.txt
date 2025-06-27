@@ -1,0 +1,113 @@
+Force from acceleration and velocity
+====================================
+
+In special relativity, the Newton's second law does not hold in the classical form
+:math:`\vec F = m \vec a`, but force can still be expressed via acceleration and velocity.
+
+**Conditions:**
+
+#. This law applies to special relativity.
+
+**Links:**
+
+#. `Wikipedia, see paragraph <https://en.wikipedia.org/wiki/Acceleration_(special_relativity)#Acceleration_and_force>`__.
+
+..
+    TODO: rename file
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.vector.force_acceleration_relation
+
+.. py:data:: force
+
+    Vector of the :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: rest_mass
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.rest_mass` of the body.
+
+Symbol:
+    :code:`m_0`
+
+Latex:
+    :math:`m_{0}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: tangential_acceleration
+
+    Vector of the body's :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` tangential to the :attr:`~velocity` vector.
+
+Symbol:
+    :code:`a_t`
+
+Latex:
+    :math:`{\vec a}_\text{t}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: normal_acceleration
+
+    Vector of the body's :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` normal to the :attr:`~velocity` vector.
+
+Symbol:
+    :code:`a_n`
+
+Latex:
+    :math:`{\vec a}_\text{n}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: velocity
+
+    Vector of the body's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: lorentz_factor
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.lorentz_factor`.
+
+Symbol:
+    :code:`gamma`
+
+Latex:
+    :math:`\gamma`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`F = gamma^3 * m_0 * a_t + gamma * m_0 * a_n`
+
+
+    Latex:
+        .. math::
+            {\vec F} = \gamma^{3} m_{0} {\vec a}_\text{t} + \gamma m_{0} {\vec a}_\text{n}
+
+

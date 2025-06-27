@@ -1,0 +1,70 @@
+Relativistic time dilation
+==========================
+
+Time dilation is the difference in elapsed time as measured by two clocks,
+either due to a relative speed between them (special relativity),
+or a difference in gravitational potential between their locations. This law only
+covers the special relativistic time dilation due to acceleration.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Links:**
+
+#. `Wikipedia, formula in box <https://en.wikipedia.org/wiki/Time_dilation#Simple_inference>`__.
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.relativistic_time_dilation
+
+.. py:data:: proper_time
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.proper_time`, which is measured by clocks stationary in the proper reference frame.
+
+Symbol:
+    :code:`tau`
+
+Latex:
+    :math:`\tau`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: relativistic_time
+
+    Relativistic :attr:`~symplyphysics.symbols.basic.time`, which is measured by clocks stationary in the external reference frame.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`t = tau / sqrt(1 - v^2 / c^2)`
+
+
+    Latex:
+        .. math::
+            t = \frac{\tau}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}
+
+

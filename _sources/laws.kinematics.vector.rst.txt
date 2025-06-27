@@ -1,0 +1,28 @@
+**Kinematics (Vector)**
+=======================
+
+Vector subset of kinematic laws.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.vector
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.kinematics.vector.absolute_velocity_of_arbitrary_motion
+    laws.kinematics.vector.acceleration_due_to_non_uniform_rotation
+    laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration
+    laws.kinematics.vector.acceleration_of_transfer_between_relative_frames
+    laws.kinematics.vector.center_of_mass_for_system_of_particles
+    laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration
+    laws.kinematics.vector.centripetal_acceleration_via_cross_product
+    laws.kinematics.vector.centripetal_acceleration_via_vector_rejection
+    laws.kinematics.vector.coriolis_acceleration
+    laws.kinematics.vector.displacement_is_angular_displacement_cross_radius
+    laws.kinematics.vector.velocity_of_transfer_between_reference_frames
+    laws.kinematics.vector.velocity_relative_to_reference_frame
+
+
+

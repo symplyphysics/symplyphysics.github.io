@@ -1,0 +1,71 @@
+Relative refractive index is ratio of wave speeds
+=================================================
+
+If a wave is moving from one medium to another, it refracts due to the difference
+of propagation speeds in the two  media. Relative refractive index describes how much
+slower the wave propagates in the refracting medium relative to the incident medium.
+
+**Conditions:**
+
+#. Both media are isotropic and transparent.
+#. The wave is monochromatic. Note that the speed of wave propagation depends on the
+   wave frequency.
+
+**Links:**
+
+#. `Wikipedia, first equation <https://en.wikipedia.org/wiki/Refractive_index#Definition>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.refractive_index_is_wave_speeds_ratio
+
+.. py:data:: relative_refractive_index
+
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` between the two media.
+
+Symbol:
+    :code:`n`
+
+Latex:
+    :math:`n`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: incident_wave_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the incident wave.
+
+Symbol:
+    :code:`v_incident`
+
+Latex:
+    :math:`v_\text{incident}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: refracted_wave_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the refracted wave.
+
+Symbol:
+    :code:`v_refracted`
+
+Latex:
+    :math:`v_\text{refracted}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: definition
+
+    :code:`n = v_incident / v_refracted`
+
+
+    Latex:
+        .. math::
+            n = \frac{v_\text{incident}}{v_\text{refracted}}
+
+

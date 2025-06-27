@@ -1,0 +1,111 @@
+Intensive parameters relation
+=============================
+
+The *Gibbs—Duhem relation* is a relationship among the intensive parameters of the system.
+Subsequently, for a system with :math:`i` components, there are :math:`(i + 1)` independent
+parameters, or degrees of freedom.
+
+**Notation:**
+
+#. :math:`d` denotes an exact, path-independent differential.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Gibbs%E2%80%93Duhem_equation>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.intensive_parameters_relation
+
+.. py:data:: entropy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
+
+Symbol:
+    :code:`S`
+
+Latex:
+    :math:`S`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: temperature_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`dT`
+
+Latex:
+    :math:`d T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: pressure_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
+
+Symbol:
+    :code:`dp`
+
+Latex:
+    :math:`d p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: particle_count
+
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: chemical_potential_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
+
+Symbol:
+    :code:`d(mu)`
+
+Latex:
+    :math:`d \mu`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: law
+
+    :code:`S * dT - V * dp + N * d(mu) = 0`
+
+
+    Latex:
+        .. math::
+            S d T - V d p + N d \mu = 0
+
+

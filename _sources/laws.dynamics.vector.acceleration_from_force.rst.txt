@@ -1,0 +1,65 @@
+Acceleration from force and mass (vector)
+=========================================
+
+Newton's second law of motion states that in an inertial frame of reference, the acceleration of
+a body in motion is proportional to the net force exerted on it, and its mass is the constant of
+proportionality.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Newton's_laws_of_motion#Second_law>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.acceleration_from_force
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the object.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: acceleration
+
+    Vector of the :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the object.
+
+Symbol:
+    :code:`a`
+
+Latex:
+    :math:`{\vec a}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: force
+
+    Vector of the :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the object.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: law
+
+    :code:`a = F / m`
+
+
+    Latex:
+        .. math::
+            {\vec a} = \frac{{\vec F}}{m}
+
+

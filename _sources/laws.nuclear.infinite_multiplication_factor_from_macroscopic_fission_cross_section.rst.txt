@@ -1,0 +1,77 @@
+Infinite multiplication factor from macroscopic cross sections
+==============================================================
+
+Infinite multiplication factor can be found using the macroscopic fission and absorption
+cross section and the average number of neutrons produced per fission.
+
+..
+    NOTE: possible link here, but it is about thermal fission factor <https://en.wikipedia.org/wiki/Six_factor_formula#>
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.infinite_multiplication_factor_from_macroscopic_fission_cross_section
+
+.. py:data:: neutrons_per_fission
+
+    Average number of neutrons produced per fission. See :attr:`~symplyphysics.symbols.basic.particle_count`.
+
+Symbol:
+    :code:`nu`
+
+Latex:
+    :math:`\nu`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: macroscopic_fission_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of fission.
+
+Symbol:
+    :code:`Sigma_f`
+
+Latex:
+    :math:`\Sigma_text{f}`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: macroscopic_absorption_cross_section
+
+    :attr:`~symplyphysics.symbols.nuclear.macroscopic_cross_section` of absorption.
+
+Symbol:
+    :code:`Sigma_a`
+
+Latex:
+    :math:`\Sigma_\text{a}`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: infinite_multiplication_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.infinite_multiplication_factor`.
+
+Symbol:
+    :code:`k_inf`
+
+Latex:
+    :math:`k_{\infty}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`k_inf = nu * Sigma_f / Sigma_a`
+
+
+    Latex:
+        .. math::
+            k_{\infty} = \frac{\nu \Sigma_text{f}}{\Sigma_\text{a}}
+
+

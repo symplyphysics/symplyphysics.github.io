@@ -1,0 +1,86 @@
+Thermodynamic compressibility
+=============================
+
+**Compressibility**, or the **coefficient of compressibility**, is a measure of the instantaneous
+relative volume change of a fluid or solid as a response to pressure or mean stress change.
+
+**Notes:**
+
+#. This definition is incomplete in the sense that the value of the compressibility coefficient
+   depends on whether the process is isentropic or isothermal, hence the partial derivative should
+   be taken at either constant entropy or constant temperature.
+#. For solids the difference between isentropic and isothermal compressibility coefficients
+   is usually negligible.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Compressibility#>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.thermodynamic_compressibility
+
+.. py:data:: compressibility
+
+    :attr:`~symplyphysics.symbols.thermodynamics.thermodynamic_compressibility` of the gas.
+
+Symbol:
+    :code:`beta`
+
+Latex:
+    :math:`\beta`
+
+Dimension:
+    :code:`1/pressure`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the gas.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: parameters
+
+    Parameters other than :attr:`~pressure` on which the volume function depends.
+
+Symbol:
+    :code:`q`
+
+Latex:
+    :math:`q`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the gas as a function of :attr:`~pressure` and :attr:`~parameters`.
+
+Symbol:
+    :code:`V(p, q)`
+
+Latex:
+    :math:`V{\left(p,q \right)}`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: definition
+
+    :code:`beta = -Derivative(V(p, q), p) / V(p, q)`
+
+
+    Latex:
+        .. math::
+            \beta = - \frac{\frac{\partial}{\partial p} V{\left(p,q \right)}}{V{\left(p,q \right)}}
+
+

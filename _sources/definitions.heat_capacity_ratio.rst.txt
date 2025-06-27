@@ -1,0 +1,71 @@
+Heat capacity ratio
+===================
+
+The *heat capacity ratio*, also known as the *adiabatic index*, the *ratio of specific heats*, or
+the *isentropic expansion factor*, is the ratio of the heat capacity at constant pressure
+to that of constant volume. The heat capacity ratio is used in the description of thermodynamic
+reversible processes; the speed of sound also depends on this factor.
+
+**Notes:**
+
+#. One can also use intensive heat capacities, such as specific or molar ones, in place of the 
+   extensive heat capacity presented here.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Heat_capacity_ratio#>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.heat_capacity_ratio
+
+.. py:data:: heat_capacity_ratio
+
+    :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index` of the system.
+
+Symbol:
+    :code:`gamma`
+
+Latex:
+    :math:`\gamma`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: isobaric_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the system at constant pressure.
+
+Symbol:
+    :code:`C_p`
+
+Latex:
+    :math:`C_{p}`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: isochoric_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the system at constant volume.
+
+Symbol:
+    :code:`C_V`
+
+Latex:
+    :math:`C_{V}`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: definition
+
+    :code:`gamma = C_p / C_V`
+
+
+    Latex:
+        .. math::
+            \gamma = \frac{C_{p}}{C_{V}}
+
+

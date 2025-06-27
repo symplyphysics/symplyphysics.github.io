@@ -1,0 +1,68 @@
+Reduced volume
+==============
+
+See :ref:`vdw_reduced_units_def`.
+
+**Note:**
+
+#. Specific or molar volumes can be used in the right-hand side of the law.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Van_der_Waals_equation#Critical_point_and_corresponding_states>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume
+
+.. py:data:: reduced_volume
+
+    Reduced :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the van der Waals fluid.
+
+Symbol:
+    :code:`V_r`
+
+Latex:
+    :math:`V_{r}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the van der Waals fluid.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: critical_volume
+
+    See :doc:`laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume`
+    and :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`V_c`
+
+Latex:
+    :math:`V_\text{c}`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: law
+
+    :code:`V_r = V / V_c`
+
+
+    Latex:
+        .. math::
+            V_{r} = \frac{V}{V_\text{c}}
+
+

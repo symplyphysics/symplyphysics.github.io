@@ -1,0 +1,49 @@
+Angular wavenumber is inverse wavelength
+========================================
+
+*Angular wavenumber* is the spatial frequency of a wave, measured in radians per unit distance.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Wavenumber#Definition>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.angular_wavenumber_is_inverse_wavelength
+
+.. py:data:: angular_wavenumber
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_wavenumber` of the wave.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`angle/length`
+
+
+.. py:data:: wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the wave.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: definition
+
+    :code:`k = 2 * pi / lambda`
+
+
+    Latex:
+        .. math::
+            k = \frac{2 \pi}{\lambda}
+
+

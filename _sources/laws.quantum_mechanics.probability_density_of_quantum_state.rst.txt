@@ -1,0 +1,50 @@
+Probability density of quantum state
+====================================
+
+Probability density of a quantum system is the likelihood that the system will be in a particular
+position at a particular time.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Wave_function#Position-space_wave_functions>`__.
+
+.. py:currentmodule:: symplyphysics.laws.quantum_mechanics.probability_density_of_quantum_state
+
+.. py:data:: probability_density
+
+    :attr:`~symplyphysics.symbols.quantum_mechanics.probability_density` of the system.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: wave_function
+
+    :attr:`~symplyphysics.symbols.quantum_mechanics.wave_function` of the system.
+
+Symbol:
+    :code:`psi`
+
+Latex:
+    :math:`\psi`
+
+Dimension:
+    :code:`1/sqrt(length)`
+
+
+.. py:data:: law
+
+    :code:`rho = Abs(psi)^2`
+
+
+    Latex:
+        .. math::
+            \rho = \left|{\psi}\right|^{2}
+
+

@@ -1,0 +1,106 @@
+Power carried by main wave of rectangular waveguide
+===================================================
+
+A rectangular waveguide is a rectangular metal waveguide capable of supporting waves
+propagating along it. The main wave is a transverse electric wave with the first index
+equal to :math:`1` and the second index equal to :math:`0`.
+
+..
+    TODO find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.power_carried_by_main_wave_of_rectangular_waveguide
+
+.. py:data:: power
+
+    :attr:`~symplyphysics.symbols.basic.power` transmitted by the waveguide.
+
+Symbol:
+    :code:`P`
+
+Latex:
+    :math:`P`
+
+Dimension:
+    :code:`power`
+
+
+.. py:data:: width
+
+    Width, or first dimension of the cross section. See :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+Symbol:
+    :code:`a`
+
+Latex:
+    :math:`a`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: height
+
+    Height, or second dimension of the cross section. See :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+Symbol:
+    :code:`b`
+
+Latex:
+    :math:`b`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the signal.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: material_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the medium filling the waveguide.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: electric_field_strength
+
+    Amplitude of :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` in the waveguide.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: law
+
+    :code:`P = a * b * sqrt(1 - (lambda / (2 * a))^2) * E^2 / (4 * R)`
+
+
+    Latex:
+        .. math::
+            P = \frac{a b \sqrt{1 - \left(\frac{\lambda}{2 a}\right)^{2}} E^{2}}{4 R}
+
+

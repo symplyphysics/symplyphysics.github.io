@@ -1,0 +1,94 @@
+Displacement in critical damping
+================================
+
+In the presence of a damping force in the oscillating system, the system's behavior
+depends on the value of the damping ratio. When it is equal to :math:`1`, the system returns
+to equilibrium as quickly as possible without oscillating, but overshoot can occur if
+initial velocity is nonzero. This behavior is also called *critical damping*.
+
+**Conditions:**
+
+#. The system is critically damped, i.e. its damping ratio :math:`\zeta = 1`.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.damped_oscillations.displacement_in_critical_damping
+
+.. py:data:: displacement
+
+    Displacement from rest, usually a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~displacement` is measured.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: undamped_angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the undamped oscillator.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: initial_position
+
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.position` of the oscillator.
+
+Symbol:
+    :code:`x_0`
+
+Latex:
+    :math:`x_{0}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: initial_speed
+
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the oscillator.
+
+Symbol:
+    :code:`v_0`
+
+Latex:
+    :math:`v_{0}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: law
+
+    :code:`d = exp(-w * t) * (x_0 + (v_0 + x_0 * w) * t)`
+
+
+    Latex:
+        .. math::
+            d = \exp{\left(- \omega t \right)} \left(x_{0} + \left(v_{0} + x_{0} \omega\right) t\right)
+
+

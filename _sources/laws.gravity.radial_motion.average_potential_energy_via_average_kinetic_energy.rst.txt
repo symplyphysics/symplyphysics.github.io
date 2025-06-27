@@ -1,0 +1,54 @@
+Average potential energy via average kinetic energy
+===================================================
+
+The average potential energy of an orbiting planet is directly proportional to its average
+kinetic energy. The average of both energies is taken w.r.t. time.
+
+**Conditions:**
+
+#. Works for elliptical orbits, in which case the total energy :math:`E` of the planet is negative.
+
+**Links:**
+
+#. `Physics LibreTexts. Energy in Circular Orbits <https://phys.libretexts.org/Workbench/PH_245_Textbook_V2/13%3A_Gravitation/13.05%3A_Satellite_Orbits_and_Energy>`__.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy
+
+.. py:data:: average_potential_energy
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the planet averaged over :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`avg(U)`
+
+Latex:
+    :math:`\langle U \rangle`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: average_kinetic_energy
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the planet averaged over :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`avg(K)`
+
+Latex:
+    :math:`\langle K \rangle`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: law
+
+    :code:`avg(U) = -2 * avg(K)`
+
+
+    Latex:
+        .. math::
+            \langle U \rangle = - 2 \langle K \rangle
+
+

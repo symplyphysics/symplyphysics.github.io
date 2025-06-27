@@ -1,0 +1,59 @@
+Sine of Mach cone angle via Mach number
+=======================================
+
+If the speed of a source relative to the medium exceeds the speed of sound in the medium,
+the Doppler equation no longer applies and this results in shock waves. The wavefronts
+of the waves originating from the source form a cone, namely a *Mach cone*. The half-angle
+of the cone is called the *Mach cone angle*, which is related to the Mach number of the source.
+See the `illustration <https://www.grc.nasa.gov/www/k-12/airplane/machang.html>`_ of the
+phenomenon.
+
+**Conditions:**
+
+#. :math:`M \ge 1`, i.e. the source speed exceeds the speed of sound in the medium.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Mach_wave#Mach_angle>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.sine_of_mach_cone_angle_is_mach_number
+
+.. py:data:: mach_cone_angle
+
+    Mach cone :attr:`~symplyphysics.symbols.basic.angle`, which is the angle between the Mach wave wavefront (the Mach cone) and
+    the vector pointing opposite to the velocity vector of the source.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\varphi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: mach_number
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.mach_number` of the moving source.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`\text{M}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`sin(phi) = 1 / M`
+
+
+    Latex:
+        .. math::
+            \sin{\left(\varphi \right)} = \frac{1}{\text{M}}
+
+

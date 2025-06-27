@@ -1,0 +1,101 @@
+Wave impedance of coplanar line when length to distance ratio squared is between :math:`\frac{1}{2}` and :math:`1`
+==================================================================================================================
+
+Under the conditions described below, the wave impedance of a coplanar line depends on
+its effective permittivity and physical dimensions.
+
+**Conditions:**
+
+#. :math:`h < \frac{d}{4}`
+#. :math:`\frac{1}{2} < \left( \frac{l}{d} \right)^2 \le 1`
+
+Here, :math:`h` is the thickness of the substrate, and :math:`d` is the distance between
+the first and last electrodes.
+
+..
+    TODO: check if it is *wave impedance* or *surge (characteristic) impedance*
+    TODO: rename file to feature wave *impedance*
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second
+
+.. py:data:: wave_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the coplanar line.
+
+Symbol:
+    :code:`eta`
+
+Latex:
+    :math:`\eta`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: effective_permittivity
+
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the coplanar line. See :ref:`Effective permittivity of coplanar line <effective_permittivity_coplanar_line_def>`.
+
+Symbol:
+    :code:`epsilon_eff`
+
+Latex:
+    :math:`\varepsilon_\text{eff}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: electrode_distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the first and last electrodes.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: central_electrode_width
+
+    Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the central electrode of the coplanar line.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: resistance_constant
+
+    Constant equal to :math:`30 \pi^2 \, \Omega` (:code:`30 * pi^2 Ohm`).
+
+Symbol:
+    :code:`R_0`
+
+Latex:
+    :math:`R_0`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: law
+
+    :code:`eta = R_0 / sqrt(epsilon_eff) / log(2 * (1 + sqrt(l / d)) / (1 - sqrt(l / d)))`
+
+
+    Latex:
+        .. math::
+            \eta = \frac{R_0}{\sqrt{\varepsilon_\text{eff}}} \frac{1}{\log \left( \frac{2 \left(1 + \sqrt{\frac{l}{d}}\right)}{1 - \sqrt{\frac{l}{d}}} \right)}
+
+

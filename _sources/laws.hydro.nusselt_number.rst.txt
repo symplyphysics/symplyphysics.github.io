@@ -1,0 +1,82 @@
+Nusselt number formula
+======================
+
+Nusselt number is the ratio of total heat transfer to conductive heat transfer at a
+boundary in a fluid. It can be expressed using the heat transfer coefficient of the
+flow, characteristic length of the system, and thermal conductivity of the fluid.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Nusselt_number#Definition>`__.
+
+..
+    TODO: rename file
+
+.. py:currentmodule:: symplyphysics.laws.hydro.nusselt_number
+
+.. py:data:: heat_transfer_coefficient
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_transfer_coefficient` of the flow.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`power/(area*temperature)`
+
+
+.. py:data:: characteristic_length
+
+    :attr:`~symplyphysics.symbols.basic.characteristic_length` of the system.
+
+Symbol:
+    :code:`l_c`
+
+Latex:
+    :math:`l_\text{c}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: thermal_conductivity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_conductivity` of the fluid.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`power/(length*temperature)`
+
+
+.. py:data:: nusselt_number
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.nusselt_number`.
+
+Symbol:
+    :code:`Nu`
+
+Latex:
+    :math:`\text{Nu}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`Nu = h * l_c / k`
+
+
+    Latex:
+        .. math::
+            \text{Nu} = \frac{h l_\text{c}}{k}
+
+

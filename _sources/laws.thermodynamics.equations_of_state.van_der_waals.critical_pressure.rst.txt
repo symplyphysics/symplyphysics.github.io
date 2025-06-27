@@ -1,0 +1,64 @@
+Critical pressure
+=================
+
+Critical pressure in a van der Waals fluid depends on the parameters :math:`a` and
+:math:`b` of the van der Waals equation. See :ref:`vdw_critical_parameters_def`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Van_der_Waals_equation#Critical_point_and_corresponding_states>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure
+
+.. py:data:: critical_pressure
+
+    Critical :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the van der Waals fluid.
+
+Symbol:
+    :code:`p_c`
+
+Latex:
+    :math:`p_\text{c}`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: attractive_forces_parameter
+
+    :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
+
+Symbol:
+    :code:`a`
+
+Latex:
+    :math:`a`
+
+Dimension:
+    :code:`pressure*volume**2/amount_of_substance**2`
+
+
+.. py:data:: excluded_volume_parameter
+
+    :attr:`~symplyphysics.symbols.thermodynamics.excluded_volume_parameter`.
+
+Symbol:
+    :code:`b`
+
+Latex:
+    :math:`b`
+
+Dimension:
+    :code:`volume/amount_of_substance`
+
+
+.. py:data:: law
+
+    :code:`p_c = a / (27 * b^2)`
+
+
+    Latex:
+        .. math::
+            p_\text{c} = \frac{a}{27 b^{2}}
+
+

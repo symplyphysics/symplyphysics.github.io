@@ -1,0 +1,81 @@
+Surface resistance of metal
+===========================
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals. The resistance formed by the
+surface of the metal sheath of the cable can be calculated by knowing the signal
+frequency, magnetic permeability and specific conductivity of the metal.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.surface_resistance_of_metal
+
+.. py:data:: resistance
+
+    Surface :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance`.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: absolute_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the insulator.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`inductance/length`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: specific_conductance
+
+    Specific conductance of the conductor, i.e. :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` per unit
+    :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`conductance/length`
+
+
+.. py:data:: law
+
+    :code:`R = sqrt(w * mu / (2 * G))`
+
+
+    Latex:
+        .. math::
+            R = \sqrt{\frac{\omega \mu}{2 G}}
+
+

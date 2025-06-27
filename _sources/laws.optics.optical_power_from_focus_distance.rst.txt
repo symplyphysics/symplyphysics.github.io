@@ -1,0 +1,50 @@
+Optical power from focus distance
+=================================
+
+The optical power of a lens is a value characterizing the refractive power
+of axisymmetric lenses and centered optical systems made of such lenses.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Optical_power>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.optical_power_from_focus_distance
+
+.. py:data:: focus_distance
+
+    :attr:`~symplyphysics.symbols.optics.focal_length` of the lens.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: optical_power
+
+    :attr:`~symplyphysics.symbols.optics.optical_power` of the lens.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: law
+
+    :code:`D = 1 / f`
+
+
+    Latex:
+        .. math::
+            D = \frac{1}{f}
+
+

@@ -1,0 +1,72 @@
+Angular momentum is position cross linear momentum
+==================================================
+
+The pseudovector of *angular momentum* of a particle is the cross product of its
+position vector and linear momentum. Unlike linear momentum, angular momentum depends
+on where the origin of the coordinate system is chosen since it depends on the position
+vector of the particle defined relative to that origin.
+
+**Notation:**
+
+#. :math:`\vec a \times \vec b` (:code:`cross(a, b)`) denotes a cross product between
+   vectors :math:`\vec a` and :math:`\vec b`.
+
+**Links:**
+
+#. `Wikipedia, see second paragraph <https://en.wikipedia.org/wiki/Angular_momentum#>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.vector.angular_momentum_is_position_cross_linear_momentum
+
+.. py:data:: position_vector
+
+    Displacement of the body relative to the origin of the reference frame. See
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: linear_momentum
+
+    Vector of linear :attr:`~symplyphysics.symbols.classical_mechanics.momentum`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`{\vec p}`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: angular_momentum
+
+    Pseudovector of :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum`.
+
+Symbol:
+    :code:`L`
+
+Latex:
+    :math:`{\vec L}`
+
+Dimension:
+    :code:`length**2*mass/time`
+
+
+.. py:data:: law
+
+    :code:`L = cross(r, p)`
+
+
+    Latex:
+        .. math::
+            {\vec L} = \left[ {\vec r}, {\vec p} \right]
+
+

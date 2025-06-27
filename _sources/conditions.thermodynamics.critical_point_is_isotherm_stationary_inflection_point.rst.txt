@@ -1,0 +1,66 @@
+Critical point is stationary inflection point of isotherm
+=========================================================
+
+Critical point (in the thermodynamic sense) is such values of volume, pressure, and temperature at
+which only one phase exists and at the vicinity of which the physical properties of the phases of
+the substance change dramatically. Algebraically, the critical point is the stationary inflection
+point of the isothermal pressure-volume dependency line.
+
+**Note:**
+
+#. These equations need to be solved together with the :ref:`equation of state <**Equations of state**>`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Critical_point_(thermodynamics)#Overview>`__.
+
+.. py:currentmodule:: symplyphysics.conditions.thermodynamics.critical_point_is_isotherm_stationary_inflection_point
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume`
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` as a function of :attr:`~volume`.
+
+Symbol:
+    :code:`p(V)`
+
+Latex:
+    :math:`p{\left(V \right)}`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: inflection_point_condition
+
+    :code:`Derivative(p(V), V) = 0`
+
+
+    Latex:
+        .. math::
+            \frac{d}{d V} p{\left(V \right)} = 0
+
+
+.. py:data:: flat_tangent_condition
+
+    :code:`Derivative(p(V), (V, 2)) = 0`
+
+
+    Latex:
+        .. math::
+            \frac{d^{2}}{d V^{2}} p{\left(V \right)} = 0
+
+

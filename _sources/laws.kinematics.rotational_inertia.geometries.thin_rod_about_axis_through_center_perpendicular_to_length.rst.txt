@@ -1,0 +1,68 @@
+Thin rod about axis through center perpendicular to length
+==========================================================
+
+A thin rod is rotating about an axis that passes through its center perpendicular to its length.
+
+**Conditions:**
+
+#. The rod is uniform.
+#. The rod is thin, i.e. its diameter is much less than its length.
+
+**Links:**
+
+#. `Wikipedia, third row of table <https://en.wikipedia.org/wiki/List_of_moments_of_inertia>`__.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length
+
+.. py:data:: rotational_inertia
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the rod.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`length**2*mass`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the rod.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the rod.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`I = m * l^2 / 12`
+
+
+    Latex:
+        .. math::
+            I = \frac{m l^{2}}{12}
+
+

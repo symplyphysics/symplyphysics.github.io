@@ -1,0 +1,130 @@
+Forced oscillations equation
+============================
+
+*Forced, or driven, oscillations* are a type of oscillations in the presence of an external driving
+force acting on the oscillating system. In the case of an oscillating external force, two angular
+frequencies are associated with such a system: 
+
+#. the *natural angular frequency* of the system, which is the angular frequency the system would 
+   oscillate with if no external force were present,
+
+#. the angular frequency of the external force driving the oscillations.
+
+Such systems can undergo resonance if the angular frequency of the driving force is close to the
+natural angular frequency of the oscillator.
+
+**Links:**
+
+#. `Physics LibreTexts, formula (15.7.1) <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.07%3A_Forced_Oscillations>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.forced_oscillations_equation
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: displacement
+
+    The displacement of the oscillating body from rest value as a function of :attr:`~time`.
+    See :attr:`~symplyphysics.symbols.classical_mechanics.position`.
+
+Symbol:
+    :code:`x(t)`
+
+Latex:
+    :math:`x{\left(t \right)}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the oscillating body.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: natural_angular_frequency
+
+    The natural :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
+
+Symbol:
+    :code:`w_0`
+
+Latex:
+    :math:`\omega_{0}`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: driving_force_amplitude
+
+    The amplitude of the driving :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`F`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: driving_angular_frequency
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the driving force.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: driving_phase_lag
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the driving force.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\varphi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`Derivative(x(t), (t, 2)) + w_0^2 * x(t) = F / m * cos(w * t + phi)`
+
+
+    Latex:
+        .. math::
+            \frac{d^{2}}{d t^{2}} x{\left(t \right)} + \omega_{0}^{2} x{\left(t \right)} = \frac{F}{m} \cos{\left(\omega t + \varphi \right)}
+
+

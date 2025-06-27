@@ -1,0 +1,67 @@
+Kinetic energy via momentum
+===========================
+
+Kinetic energy can be expressed as a function of momentum and mass.
+
+**Notes:**
+
+#. This relation also holds in Quantum Mechanics.
+
+**Links:**
+
+#. `Wikipedia, fourth formula <https://en.wikipedia.org/wiki/Kinetic_energy#Kinetic_energy_of_rigid_bodies>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.kinetic_energy_via_momentum
+
+.. py:data:: kinetic_energy
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the object.
+
+Symbol:
+    :code:`K`
+
+Latex:
+    :math:`K`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: momentum
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the object.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the object.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`K = p^2 / (2 * m)`
+
+
+    Latex:
+        .. math::
+            K = \frac{p^{2}}{2 m}
+
+

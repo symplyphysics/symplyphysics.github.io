@@ -1,0 +1,35 @@
+Total torque is zero
+====================
+
+For an object to be in rotational equilibrium, the total torque on the object must be zero.
+
+**Links:**
+
+#. `Physics LibreTexts <https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/8%3A_Static_Equilibrium_Elasticity_and_Torque/8.2%3A_Conditions_for_Equilibrium>`__.
+
+.. py:currentmodule:: symplyphysics.conditions.dynamics.equilibrium.total_torque_is_zero
+
+.. py:data:: total_torque
+
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.torque` is the magnitue of the vector sum of all torques acting on the body.
+
+Symbol:
+    :code:`tau`
+
+Latex:
+    :math:`\tau`
+
+Dimension:
+    :code:`force*length`
+
+
+.. py:data:: law
+
+    :code:`tau = 0`
+
+
+    Latex:
+        .. math::
+            \tau = 0
+
+

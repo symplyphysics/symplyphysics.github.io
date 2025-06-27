@@ -1,0 +1,94 @@
+Angular position via constant angular acceleration and time
+===========================================================
+
+If a body is rotating with a constant acceleration, its angular position is a quadratic function of time.
+
+#. The axis is fixed.
+#. Angular acceleration is constant, i.e. :math:`\frac{d \alpha}{d t} = 0.`
+
+**Links:**
+
+#. `Wikipedia, second out of the last four equations in the paragraph <https://en.wikipedia.org/wiki/Kinematics#Acceleration_2>`__.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.angular_position_via_constant_angular_acceleration_and_time
+
+.. py:data:: final_angular_position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :attr:`~time`.
+
+Symbol:
+    :code:`theta`
+
+Latex:
+    :math:`\theta`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: initial_angular_position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_distance` at :math:`t = 0`.
+
+Symbol:
+    :code:`theta_0`
+
+Latex:
+    :math:`\theta_{0}`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: initial_angular_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` at :math:`t = 0`.
+
+Symbol:
+    :code:`w_0`
+
+Latex:
+    :math:`\omega_{0}`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: angular_acceleration
+
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration`.
+
+Symbol:
+    :code:`alpha`
+
+Latex:
+    :math:`\alpha`
+
+Dimension:
+    :code:`angle/time**2`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_angular_position` is measured.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`theta = theta_0 + w_0 * t + alpha * t^2 / 2`
+
+
+    Latex:
+        .. math::
+            \theta = \theta_{0} + \omega_{0} t + \frac{\alpha t^{2}}{2}
+
+

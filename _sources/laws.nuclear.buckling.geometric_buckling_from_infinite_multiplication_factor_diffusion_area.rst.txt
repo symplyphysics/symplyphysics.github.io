@@ -1,0 +1,78 @@
+Geometric buckling from multiplication factors and diffusion area
+=================================================================
+
+Geometric buckling can be expressed using infinite and effective multiplication factors
+and diffusion area of the neutrons.
+
+**Links:**
+
+#. `Wikipedia, first part of second equation <https://en.wikipedia.org/wiki/Geometric_and_material_buckling#Material_Buckling>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area
+
+.. py:data:: infinite_multiplication_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.infinite_multiplication_factor`.
+
+Symbol:
+    :code:`k_inf`
+
+Latex:
+    :math:`k_{\infty}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: effective_multiplication_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.effective_multiplication_factor`.
+
+Symbol:
+    :code:`k_eff`
+
+Latex:
+    :math:`k_\text{eff}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: diffusion_area
+
+    :attr:`~symplyphysics.symbols.nuclear.neutron_diffusion_area`.
+
+Symbol:
+    :code:`L^2`
+
+Latex:
+    :math:`L^{2}`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: geometric_buckling
+
+    :attr:`~symplyphysics.symbols.nuclear.geometric_buckling`.
+
+Symbol:
+    :code:`B_g^2`
+
+Latex:
+    :math:`B_\text{g}^2`
+
+Dimension:
+    :code:`1/area`
+
+
+.. py:data:: law
+
+    :code:`B_g^2 = (k_inf / k_eff - 1) / L^2`
+
+
+    Latex:
+        .. math::
+            B_\text{g}^2 = \frac{\frac{k_{\infty}}{k_\text{eff}} - 1}{L^{2}}
+
+

@@ -1,0 +1,81 @@
+Specific conductivity of coaxial waveguide
+==========================================
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals. The specific conductivity of a
+coaxial waveguide depends on the frequency of signal and the specific capacitance of
+coaxial waveguide, as well as on the tangent of the dielectric loss angle of the
+insulator material.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.specific_conductivity_of_coaxial_waveguide
+
+.. py:data:: specific_conductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` of the waveguide per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`conductance/length`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the signal.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: specific_capacitance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.capacitance` per unit :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+Symbol:
+    :code:`C`
+
+Latex:
+    :math:`C`
+
+Dimension:
+    :code:`capacitance/length`
+
+
+.. py:data:: loss_tangent
+
+    :attr:`~symplyphysics.symbols.electrodynamics.dielectric_loss_tangent`.
+
+Symbol:
+    :code:`tan(delta)`
+
+Latex:
+    :math:`\tan \delta`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`G = w * C * tan(delta)`
+
+
+    Latex:
+        .. math::
+            G = \omega C \tan \delta
+
+

@@ -1,0 +1,111 @@
+Pressure is Maclaurin series of strain
+======================================
+
+A statement more general than the Hooke's law is that pressure in a body can be expressed
+as a *power series* (Maclaurin series, to be exact) of (engineering normal) *strain* with the
+free coefficient being zero, since pressure disappears with the disappearance of strain.
+The coefficients of the expansion only depend on the material of the deformed body and on
+its physical state.
+
+**Notation:**
+
+#. :math:`O(f(x))` is the mathematical *Big O*. In this law the limit :math:`e \to 0` is
+   assumed.
+
+**Conditions:**
+
+#. The deformations are elastic.
+#. The deformations are small, i.e. :math:`e \ll 1`.
+#. This law features the expansion up to the third power of strain, higher terms can be added
+   if needed.
+
+**Links:**
+
+#. Section 3 on p. 385 of "General Course of Physics" (Obschiy kurs fiziki), vol. 1 by Sivukhin D.V. (1979).
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.deformation.pressure_is_maclaurin_series_of_strain
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` (or tension) in the deformed body.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: young_modulus
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.young_modulus` of the body's material.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: second_coefficient
+
+    Coefficient at the second power of strain in the expansion.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: third_coefficient
+
+    Coefficient at the third power of strain in the expansion.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: strain
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.engineering_normal_strain` of the body.
+
+Symbol:
+    :code:`e`
+
+Latex:
+    :math:`e`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    .. only:: comment
+
+        Big O should be evaluated by SymPy
+
+    :code:`p = e * E + A * e^2 + B * e^3 + O(e^4)`
+
+
+    Latex:
+        .. math::
+            p = e E + A e^{2} + B e^{3} + O\left(e^{4}\right)
+
+

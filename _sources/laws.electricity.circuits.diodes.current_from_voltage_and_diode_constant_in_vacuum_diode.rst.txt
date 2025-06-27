@@ -1,0 +1,72 @@
+Current from voltage and diode constant in vacuum diode
+=======================================================
+
+The current-voltage characteristic of a vacuum diode is described by the
+:math:`3/2`-power law (referred to as **Child's law** or **Child—Langmuir law**). The
+diode constant in this law depends only on the relative position, shape and size of the
+electrodes of the vacuum diode.
+
+**Conditions:**
+
+#. Electrons travel ballistically between electrodes, i.e. without scattering.
+#. In the interelectrode region, the space charge of any ions is negligible.
+#. The electrons have zero velocity at the cathode surface.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Space_charge#In_vacuum_(Child's_law)>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.diodes.current_from_voltage_and_diode_constant_in_vacuum_diode
+
+.. py:data:: anode_current
+
+    Anode :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: diode_constant
+
+    :attr:`~symplyphysics.symbols.electrodynamics.diode_constant`.
+
+Symbol:
+    :code:`g`
+
+Latex:
+    :math:`g`
+
+Dimension:
+    :code:`current/voltage**(3/2)`
+
+
+.. py:data:: anode_voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between cathode and anode.
+
+Symbol:
+    :code:`U_a`
+
+Latex:
+    :math:`U_\text{a}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: law
+
+    :code:`I = g * U_a^(3/2)`
+
+
+    Latex:
+        .. math::
+            I = g U_\text{a}^{\frac{3}{2}}
+
+

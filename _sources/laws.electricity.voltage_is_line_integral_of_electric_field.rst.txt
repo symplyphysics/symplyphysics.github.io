@@ -1,0 +1,98 @@
+Voltage is line integral of electric field
+==========================================
+
+In electrostatics, voltage change between two points can be found as the line integral
+of the electric field along any path connecting the two points.
+
+**Conditions:**
+
+#. Applies to electrostatic fields, although electrostatic approximation might be
+   used for electromagnetic fields at lower frequencies.
+
+**Links:**
+
+#. `Physics LibreTexts, formula 7.3.18 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/07%3A_Electric_Potential/7.03%3A_Electric_Potential_and_Potential_Difference>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.voltage_is_line_integral_of_electric_field
+
+.. py:data:: voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between two points.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` traveled.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: electric_field_component
+
+    Component of the electric field vector tangent to the integration path.
+    See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E_s(d)`
+
+Latex:
+    :math:`E_{s}{\left(d \right)}`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: initial_distance
+
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
+
+Symbol:
+    :code:`s_0`
+
+Latex:
+    :math:`s_{0}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: final_distance
+
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
+
+Symbol:
+    :code:`s_1`
+
+Latex:
+    :math:`s_{1}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`V = -Integral(E_s(d), (d, s_0, s_1))`
+
+
+    Latex:
+        .. math::
+            V = - \int\limits_{s_{0}}^{s_{1}} E_{s}{\left(d \right)}\, dd
+
+

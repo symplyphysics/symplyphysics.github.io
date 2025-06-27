@@ -1,0 +1,81 @@
+Slab about perpendicular axis through center
+============================================
+
+A solid slab is rotating about an axis that is perpendicular to the slab and goes through its center.
+
+**Conditions:**
+
+#. The slab is uniform.
+
+**Links:**
+
+#. `Wikipedia, see table <https://en.wikipedia.org/wiki/List_of_moments_of_inertia>`__.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center
+
+.. py:data:: rotational_inertia
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the slab.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`length**2*mass`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length`, or first slab dimension perpendicular to the axis.
+
+Symbol:
+    :code:`l_1`
+
+Latex:
+    :math:`l_{1}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: width
+
+    Width, or second slab dimension perpendicular to the axis. See :attr:`~symplyphysics.symbols.classical_mechanics.length`.
+
+Symbol:
+    :code:`l_2`
+
+Latex:
+    :math:`l_{2}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the slab.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`I = m * (l_1^2 + l_2^2) / 12`
+
+
+    Latex:
+        .. math::
+            I = \frac{m \left(l_{1}^{2} + l_{2}^{2}\right)}{12}
+
+

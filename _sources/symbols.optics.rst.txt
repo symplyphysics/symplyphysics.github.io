@@ -1,0 +1,230 @@
+Optics (Symbols)
+================
+
+Symbols related to optics.
+
+.. py:currentmodule:: symplyphysics.symbols.optics
+
+.. py:data:: relative_refractive_index
+
+    **Relative refractive index** of of an optical medium is a dimensionless number that gives the
+    indication of the light bending ability of that medium. It is defined relative to a certain medium.
+
+Symbol:
+    :code:`n`
+
+Latex:
+    :math:`n`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: radiant_exitance
+
+    **Radiant exitance** or **radiant emittance** is the radiant flux emitted by a surface per unit area.
+
+Symbol:
+    :code:`M_e`
+
+Latex:
+    :math:`M_\text{e}`
+
+Dimension:
+    :code:`power/area`
+
+
+.. py:data:: radiant_flux
+
+    **Radiant flux** or **radiant power** is the radiant energy emitted, reflected, transmitted, or
+    received per unit time.
+
+Symbol:
+    :code:`Phi_e`
+
+Latex:
+    :math:`\Phi_\text{e}`
+
+Dimension:
+    :code:`power`
+
+
+.. py:data:: focal_length
+
+    The **focal length** of an optical system is a measure of how strongly the system converges or diverges
+    light; it is the inverse of the system's optical power. It is the distance between the focal plane and
+    the lens's nodal point.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: optical_distance
+
+    **Optical distance**, also called **optical path length**, is the length that light needs to travel
+    through a vacuum to create the same phase difference as it would have when traveling through a given medium.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Optical_path_length>`__.
+
+Symbol:
+    :code:`Lambda`
+
+Latex:
+    :math:`\Lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: irradiance
+
+    In radiometry, **irradiance** is the radiant flux received by a surface per unit area.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Irradiance>`__.
+
+Symbol:
+    :code:`E_e`
+
+Latex:
+    :math:`E_\text{e}`
+
+Dimension:
+    :code:`power/area`
+
+
+.. py:data:: transparency_coefficient
+
+    The transparency coefficient is used to describe how much light an imperfect polarizer absorbs,
+    zero being a total absorption and one being a perfect polarizer that lets all light pass through.
+
+    ..
+        TODO check if this is the correct English name
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: reflectance
+
+    The **reflectance** of the surface of a material is its effectiveness in reflecting radiant energy.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Reflectance>`__.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: magnification
+
+    Optical **magnification** is the ratio between the apparent size in an image and its true size.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Magnification#Size_ratio_(optical_magnification)>`__.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`M`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: optical_power
+
+    **Optical power**, also callled **dioptric power** or **focusing power**, is the degree to which
+    a lens, mirror, or other optical system converges or diverges light.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: angular_resolution
+
+    **Angular resolution** describes the ability of any image-forming device such as an optical or radio telescope, a microscope, a camera, or an eye, to distinguish small details of an object.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Angular_resolution#>`__.
+
+Symbol:
+    :code:`theta`
+
+Latex:
+    :math:`\theta`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: angular_magnification
+
+    **Angular magnification** is the ratio of the angle subtended by an object observed with a
+    magnifier to that observed by the naked eye.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Magnification#Angular_magnification>`__.
+
+Symbol:
+    :code:`M_A`
+
+Latex:
+    :math:`M_\text{A}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: relative_aperture
+
+    **Relative aperture** is the measure of the light-gathering power of an optical system.
+
+    **Links:**
+
+    #. `Britannica <https://www.britannica.com/technology/relative-aperture>`__.
+
+    #. `Wikipedia, see second paragraph <https://en.wikipedia.org/wiki/F-number>`__.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`dimensionless`
+
+

@@ -1,0 +1,61 @@
+**Transmission lines**
+======================
+
+A *transmission line* is a specialized cable or other structure designed to conduct
+electromagnetic waves in a contained manner. The term applies when the conductors
+are long enough that the wave nature of the transmission must be taken into account.
+
+.. _transmission_matrix_def:
+
+**Transmission matrix**
+
+The **transmission matrix** is one of the ways to describe a microwave device. The
+:math:`ABCD`-parameters of the device act as elements of this matrix. The matrix
+equation relates the input voltage and input current to the output voltage and output
+current.
+
+.. _scattering_matrix_def:
+
+**Scattering matrix**
+
+The **scattering matrix** is one of the ways to describe a microwave device. The
+:math:`S`-parameters of the device act as elements of this matrix. The matrix equation
+relates the waves reflected from the input and output to the waves incident on the input
+and output.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    laws.electricity.circuits.transmission_lines.coplanar_lines
+    laws.electricity.circuits.transmission_lines.microstrip_lines
+    laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_reflection_coefficient
+    laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_voltages
+    laws.electricity.circuits.transmission_lines.hybrid_parameters_matrix
+    laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line
+    laws.electricity.circuits.transmission_lines.impedances_t_type_circuit_of_transmission_line
+    laws.electricity.circuits.transmission_lines.input_impedance_from_parameters_transmission_matrix
+    laws.electricity.circuits.transmission_lines.input_impedance_lossless_transmission_line
+    laws.electricity.circuits.transmission_lines.input_impedance_lossy_transmission_line
+    laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_reflection_coefficient
+    laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_standing_wave_coefficient
+    laws.electricity.circuits.transmission_lines.reflection_coefficient_from_load_and_transmission_line_impedances
+    laws.electricity.circuits.transmission_lines.scattering_matrix
+    laws.electricity.circuits.transmission_lines.scattering_matrix_to_transmission_matrix
+    laws.electricity.circuits.transmission_lines.total_conductivities_matrix
+    laws.electricity.circuits.transmission_lines.total_resistance_matrix
+    laws.electricity.circuits.transmission_lines.transmission_matrix
+    laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_lossy_transmission_line
+    laws.electricity.circuits.transmission_lines.transmission_matrix_of_pi_type_circuit
+    laws.electricity.circuits.transmission_lines.transmission_matrix_of_t_type_circuit
+    laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_greater_thickness
+    laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_less_thickness
+
+
+

@@ -1,0 +1,111 @@
+Force between parallel wires
+============================
+
+Two parallel wires through which current flows interact with each other. The intensity
+of their interaction depends on the magnitude of the current, the distance from the
+wires, as well as on the material and length of the wire.
+
+**Notes:**
+
+#. Also see `Ampère's force law <https://en.wikipedia.org/wiki/Amp%C3%A8re%27s_force_law>`__.
+
+**Links:**
+
+#. `Physics LibreTexts, formula 22.10.3 <https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/22%3A_Magnetism/22.10%3A_Magnetic_Force_between_Two_Parallel_Conductors>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.force_between_parallel_wires
+
+.. py:data:: force
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.force` of interaction between the wires.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`F`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: absolute_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`inductance/length`
+
+
+.. py:data:: first_current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` in the first wire.
+
+Symbol:
+    :code:`I_1`
+
+Latex:
+    :math:`I_{1}`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: second_current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` in the second wire.
+
+Symbol:
+    :code:`I_2`
+
+Latex:
+    :math:`I_{2}`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the wires.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: distance
+
+    Perpendicular :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the wires.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`F = mu * I_1 * I_2 * l / (2 * pi * d)`
+
+
+    Latex:
+        .. math::
+            F = \frac{\mu I_{1} I_{2} l}{2 \pi d}
+
+

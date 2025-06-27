@@ -1,0 +1,69 @@
+Electric field due to dipole (Vector)
+=====================================
+
+
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector.electric_field_due_to_dipole
+
+.. py:data:: electric_field
+
+    Vector of the electric field. See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`{\vec E}`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: electric_dipole_moment
+
+    Vector of the :attr:`~symplyphysics.symbols.electrodynamics.electric_dipole_moment`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`{\vec p}`
+
+Dimension:
+    :code:`charge*length`
+
+
+.. py:data:: position_vector
+
+    Position vector of the point in space.  See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: electric_field_law
+
+    :code:`E = (3 * dot(p, r) / norm(r)^5 * r - p / norm(r)^3) / (4 * pi * epsilon_0)`
+
+
+    Latex:
+        .. math::
+            {\vec E} = \frac{\frac{3 \left( {\vec p}, {\vec r} \right)}{\left \Vert {\vec r} \right \Vert^{5}} {\vec r} - \frac{{\vec p}}{\left \Vert {\vec r} \right \Vert^{3}}}{4 \pi \varepsilon_0}
+
+
+.. py:data:: electric_dipole_moment_law
+
+    :code:`p = 4 * pi * epsilon_0 * (3 * dot(E, r) / 2 * norm(r) * r - norm(r)^3 * E)`
+
+
+    Latex:
+        .. math::
+            {\vec p} = 4 \pi \varepsilon_0 \left(\frac{3 \left( {\vec E}, {\vec r} \right)}{2} \left \Vert {\vec r} \right \Vert {\vec r} - \left \Vert {\vec r} \right \Vert^{3} {\vec E}\right)
+
+

@@ -1,0 +1,75 @@
+Spectral energy density at all frequencies
+==========================================
+
+*Planck's radiation law* describes the spectral density of electromagnetic radiation emitted
+by a black body in thermal equilibrium at a given temperature when there is no net flow of
+matter or energy between the body and its environment.
+
+**Notation:**
+
+#. :math:`h` (:code:`h`) is :attr:`~symplyphysics.quantities.planck`.
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+**Conditions:**
+
+#. The black body is isolated from the environment.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Planck%27s_law>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.blackbody_radiation.spectral_energy_density_at_all_frequencies
+
+.. py:data:: spectral_energy_density
+
+    :attr:`~symplyphysics.symbols.basic.spectral_energy_density`.
+
+Symbol:
+    :code:`w_f`
+
+Latex:
+    :math:`w_{f}`
+
+Dimension:
+    :code:`energy/(frequency*volume)`
+
+
+.. py:data:: radiation_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the radiation.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`frequency`
+
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the ensemble.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: law
+
+    :code:`w_f = 8 * pi * h * f^3 / c^3 / (exp(h * f / (k_B * T)) - 1)`
+
+
+    Latex:
+        .. math::
+            w_{f} = \frac{8 \pi h f^{3}}{c^{3}} \frac{1}{\exp{\left(\frac{h f}{k_\text{B} T} \right)} - 1}
+
+

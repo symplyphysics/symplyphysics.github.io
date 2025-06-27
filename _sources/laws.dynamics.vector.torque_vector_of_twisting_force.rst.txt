@@ -1,0 +1,65 @@
+Torque of twisting force
+========================
+
+Torque is a turning or twisting action on a body about a rotation axis due to a force. It is a
+pseudovector defined as a cross product of the force vector and the position vector of the point
+of force application.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Torque#Definition_and_relation_to_other_physical_quantities>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.torque_vector_of_twisting_force
+
+.. py:data:: torque
+
+    Pseudovector of :attr:`~symplyphysics.symbols.classical_mechanics.torque` due to twisting :attr:`~force`.
+
+Symbol:
+    :code:`tau`
+
+Latex:
+    :math:`{\vec \tau}`
+
+Dimension:
+    :code:`force*length`
+
+
+.. py:data:: force
+
+    Vector of :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: position_vector
+
+    Position vector of the body. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`tau = cross(r, F)`
+
+
+    Latex:
+        .. math::
+            {\vec \tau} = \left[ {\vec r}, {\vec F} \right]
+
+

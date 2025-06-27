@@ -1,0 +1,61 @@
+Quantity is areal density times volume
+======================================
+
+An extensive quantity of interest can be obtained by multiplying the corresponding *areal
+density* by area.
+
+.. py:currentmodule:: symplyphysics.laws.quantities.quantity_is_areal_density_times_area
+
+.. py:data:: extensive_quantity
+
+    Extensive quantity. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
+
+Symbol:
+    :code:`X`
+
+Latex:
+    :math:`X`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: areal_density
+
+    Intensive area-specific density, which has the dimension of :attr:`~extensive_quantity`
+    divided by :attr:`~area`. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
+
+Symbol:
+    :code:`sigma_X`
+
+Latex:
+    :math:`\sigma_{X}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: area
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.area`.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: law
+
+    :code:`X = sigma_X * A`
+
+
+    Latex:
+        .. math::
+            X = \sigma_{X} A
+
+

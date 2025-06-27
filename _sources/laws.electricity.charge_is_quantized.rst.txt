@@ -1,0 +1,53 @@
+Charge is quantized
+===================
+
+Electric charge is quantized, i.e. restricted to certain values.
+
+**Notation:**
+
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Elementary_charge>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.charge_is_quantized
+
+.. py:data:: charge
+
+    Total :attr:`~symplyphysics.symbols.electrodynamics.charge` of the body.
+
+Symbol:
+    :code:`q`
+
+Latex:
+    :math:`q`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: integer_factor
+
+    :attr:`~symplyphysics.symbols.basic.whole_number`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`q = N * e`
+
+
+    Latex:
+        .. math::
+            q = N e
+
+

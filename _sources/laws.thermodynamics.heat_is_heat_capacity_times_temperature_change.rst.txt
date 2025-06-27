@@ -1,0 +1,73 @@
+Heat is heat capacity times temperature change
+==============================================
+
+The amount of heat a body receives or releases when its temperature changes is equal
+to the heat capacity of the body times the change in the body's temperature.
+
+**Notes:**
+
+#. Usually intensive heat capacity is known, in that case refer to :doc:`laws.quantities` laws.
+
+**Condition:**
+
+#. The heat capacity must be independent of the body's temperature. If this doesn't hold,
+   refer to the differential definition of the heat capacity.
+
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Heat_capacity#Basic_definition>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.heat_is_heat_capacity_times_temperature_change
+
+.. py:data:: heat
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat` received or released by the body.
+
+Symbol:
+    :code:`Q`
+
+Latex:
+    :math:`Q`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the body.
+
+Symbol:
+    :code:`C`
+
+Latex:
+    :math:`C`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: temperature_change
+
+    Change in the body's :attr:`~symplyphysics.symbols.thermodynamics.temperature`
+
+Symbol:
+    :code:`Delta(T)`
+
+Latex:
+    :math:`\Delta T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: law
+
+    :code:`Q = C * Delta(T)`
+
+
+    Latex:
+        .. math::
+            Q = C \Delta T
+
+

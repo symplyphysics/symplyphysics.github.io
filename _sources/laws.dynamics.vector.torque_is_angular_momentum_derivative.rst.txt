@@ -1,0 +1,67 @@
+Torque is angular momentum derivative
+=====================================
+
+In the case of a single particle, the total vector sum of all the external torques acting on a
+particle is equal to the time rate change of the angular momentum of that particle.
+
+In the case of a system of particles, the net external torque acting on a system of particles is
+equal to the time rate change of the system's total angular momentum.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Torque#Relationship_with_the_angular_momentum>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.torque_is_angular_momentum_derivative
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: angular_momentum
+
+    Pseudovector of net :attr:`~symplyphysics.symbols.classical_mechanics.angular_momentum` as a function of :attr:`~time`.
+
+Symbol:
+    :code:`L(t)`
+
+Latex:
+    :math:`{\vec L} \left( t \right)`
+
+Dimension:
+    :code:`length**2*mass/time`
+
+
+.. py:data:: torque
+
+    Pseudovector of net :attr:`~symplyphysics.symbols.classical_mechanics.torque` as a function of :attr:`~time`.
+
+Symbol:
+    :code:`tau(t)`
+
+Latex:
+    :math:`{\vec \tau} \left( t \right)`
+
+Dimension:
+    :code:`force*length`
+
+
+.. py:data:: law
+
+    :code:`tau(t) = Derivative(L(t), t)`
+
+
+    Latex:
+        .. math::
+            {\vec \tau} \left( t \right) = \frac{d}{d t} {\vec L} \left( t \right)
+
+

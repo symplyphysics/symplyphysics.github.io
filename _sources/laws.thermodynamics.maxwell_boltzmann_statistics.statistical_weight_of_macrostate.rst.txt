@@ -1,0 +1,57 @@
+Statistical weight of macrostate
+================================
+
+If a physical system can be described as having several states which can be occupied by
+different numbers of particles but with the total number of particles being conserved and
+a condition that all allowed microstates of the closed system are equiprobable, the formula
+for the statistical weight of the system can be found in combinatorics.
+
+**Notes:**
+
+#. Law can also be represented in form :math:`\\Omega = \frac{N!}{\prod_i (N_i!)}`
+   (:code:`Omega = factorial(N) / Product(factorial(N_i), i)`)
+
+**Links:**
+
+#. `Chemistry LibreTexts, formula 1.5.1 <https://chem.libretexts.org/Courses/Western_Washington_University/Biophysical_Chemistry_(Smirnov_and_McCarty)/01%3A_Biochemical_Thermodynamics/1.05%3A_The_Boltzmann_Distribution_and_the_Statistical_Definition_of_Entropy>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate
+
+.. py:data:: statistical_weight
+
+    :attr:`~symplyphysics.symbols.thermodynamics.statistical_weight` of the system's macrostate.
+
+Symbol:
+    :code:`Omega`
+
+Latex:
+    :math:`\Omega`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: particle_count_in_state
+
+    :attr:`~symplyphysics.symbols.basic.particle_count` in state :math:`i`.
+
+Symbol:
+    :code:`N[i]`
+
+Latex:
+    :math:`{N}_{i}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`Omega = factorial(Sum(N[i], i)) * Product(factorial(N[i]), i)^(-1)`
+
+
+    Latex:
+        .. math::
+            \Omega = \sum_i {N}_{i}! \prod_i {N}_{i}!^{-1}
+
+

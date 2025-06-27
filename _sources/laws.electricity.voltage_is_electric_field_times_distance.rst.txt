@@ -1,0 +1,66 @@
+Voltage is electric field times distance
+========================================
+
+**Conditions:**
+
+#. The electric field is constant between the two points. This might be achieved by
+   choosing a small enough distance between the points.
+
+**Links:**
+
+#. `Physics LibreTexts, formula 7.3.26 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/07%3A_Electric_Potential/7.03%3A_Electric_Potential_and_Potential_Difference>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.voltage_is_electric_field_times_distance
+
+.. py:data:: voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between two points.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: electric_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between two points.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`V = E * d`
+
+
+    Latex:
+        .. math::
+            V = E d
+
+

@@ -1,0 +1,53 @@
+Luminosity of star from absolute magnitude
+==========================================
+
+The luminosity of a star can be calculated from the absolute magnitude of the star.
+
+**Notation:**
+
+#. :math:`L_0` (:code:`L_0`) is :attr:`~symplyphysics.quantities.zero_point_luminosity`.
+
+**Links:**
+
+#. `Wikipedia, last formula in paragraph <https://en.wikipedia.org/wiki/Luminosity#Relationship_to_magnitude>`__.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.luminosity_of_star_from_absolute_magnitude
+
+.. py:data:: luminosity
+
+    :attr:`~symplyphysics.symbols.astronomy.luminosity` of the star.
+
+Symbol:
+    :code:`L`
+
+Latex:
+    :math:`L`
+
+Dimension:
+    :code:`power`
+
+
+.. py:data:: absolute_magnitude
+
+    :attr:`~symplyphysics.symbols.astronomy.absolute_magnitude` of the star.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`M`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`log(L / L_0, 10) = -0.4 * M`
+
+
+    Latex:
+        .. math::
+            \log_{10} \left( \frac{L}{L_0} \right) = - 0.4 M
+
+

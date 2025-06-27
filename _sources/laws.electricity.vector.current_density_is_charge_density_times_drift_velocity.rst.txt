@@ -1,0 +1,65 @@
+Current density is charge density times drift velocity
+======================================================
+
+The vector of the electric current density is a vector whose magnitude is the electric current per
+cross-sectional area at a given point in space and its direction is that of the motion of positive
+electric charges at that point.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Current_density>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector.current_density_is_charge_density_times_drift_velocity
+
+.. py:data:: current_density
+
+    Vector of the :attr:`~symplyphysics.symbols.electrodynamics.current_density`.
+
+Symbol:
+    :code:`j`
+
+Latex:
+    :math:`{\vec j}`
+
+Dimension:
+    :code:`current/area`
+
+
+.. py:data:: charge_density
+
+    :attr:`~symplyphysics.symbols.electrodynamics.volumetric_charge_density`.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`charge/volume`
+
+
+.. py:data:: drift_velocity
+
+    Vector of the :attr:`~symplyphysics.symbols.chemistry.drift_velocity`.
+
+Symbol:
+    :code:`u`
+
+Latex:
+    :math:`{\vec u}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: law
+
+    :code:`j = rho * u`
+
+
+    Latex:
+        .. math::
+            {\vec j} = \rho {\vec u}
+
+

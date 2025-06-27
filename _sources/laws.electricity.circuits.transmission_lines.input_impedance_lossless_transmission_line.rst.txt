@@ -1,0 +1,92 @@
+Input impedance of lossless transmission line
+=============================================
+
+Knowing the length of the transmission line and its surge impedance, as well as the
+propagation constant and load impedance, it is possible to determine the input impedance
+of the transmission line.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.input_impedance_lossless_transmission_line
+
+.. py:data:: input_impedance
+
+    Input :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the transmission line.
+
+Symbol:
+    :code:`Z_in`
+
+Latex:
+    :math:`Z_\text{in}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: load_impedance
+
+    Load :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance`.
+
+Symbol:
+    :code:`Z_L`
+
+Latex:
+    :math:`Z_\text{L}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: surge_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
+
+Symbol:
+    :code:`Z_S`
+
+Latex:
+    :math:`Z_\text{S}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the transmission line.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: phase_constant
+
+    :attr:`~symplyphysics.symbols.electrodynamics.phase_constant`.
+
+Symbol:
+    :code:`beta`
+
+Latex:
+    :math:`\beta`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: law
+
+    :code:`Z_in = Z_S * (Z_L + I * Z_S * tan(beta * l)) / (Z_S + I * Z_L * tan(beta * l))`
+
+
+    Latex:
+        .. math::
+            Z_\text{in} = \frac{Z_\text{S} \left(Z_\text{L} + i Z_\text{S} \tan{\left(\beta l \right)}\right)}{Z_\text{S} + i Z_\text{L} \tan{\left(\beta l \right)}}
+
+

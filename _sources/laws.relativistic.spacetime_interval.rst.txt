@@ -1,0 +1,85 @@
+Spacetime interval via time and distance
+========================================
+
+The spacetime interval is a combination of distance and time that is invariant under Lorentz tranformations.
+It has the property of being invariant in the sense that it has the same value for all observers in any
+inertial reference frame.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Notes:**
+
+#. If :math:`\Delta s**2 > 0`, the spacetime interval is said to be *timelike*. Events with a timelike
+   separation can be causally connected, i.e. one can find an inertial reference frame in which both
+   events happen at the same place at different times.
+#. If :math:`\Delta s**2 = 0`, the spacetime interval is said to be *lightlike*. Events with a lightlike
+   separation are exactly far enough from each other that light could be present at both events, and they
+   are causally connected.
+#. If :math:`\Delta s**2 < 0`, the spacetime interval is said to be *spacelike*. Events with a spacelike
+   separation are causally disconnected, i.e. one can find an inertial reference frame in which both
+   events happen at the same time in different positions.
+
+**Conditions:**
+
+#. The spacetime in which the two events occur is flat (special relativity case).
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval>`__.
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.spacetime_interval
+
+.. py:data:: spacetime_interval
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.spacetime_interval` between the two events.
+
+Symbol:
+    :code:`s`
+
+Latex:
+    :math:`s`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: temporal_distance
+
+    :attr:`~symplyphysics.symbols.basic.time` separation between the two events.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: spatial_distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the two events.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`s^2 = (c * t)^2 - d^2`
+
+
+    Latex:
+        .. math::
+            s^{2} = \left(c t\right)^{2} - d^{2}
+
+

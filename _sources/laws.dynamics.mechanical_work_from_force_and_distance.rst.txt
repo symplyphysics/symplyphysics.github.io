@@ -1,0 +1,72 @@
+Mechanical work is force times distance
+=======================================
+
+Work is measured result of force applied. Mechanical work is the only reason for the object energy to be changed.
+Work is scalar value equal to force multiplied by distance.
+
+**Conditions:**
+
+#. The force and displacement vectors are collinear.
+
+**Notes:**
+
+#. Use the vector form of this law for non-collinear vectors of force and movement.
+
+**Links:**
+
+#. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Work_(physics)#>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.mechanical_work_from_force_and_distance
+
+.. py:data:: work
+
+    The mechanical :attr:`~symplyphysics.symbols.basic.work` done by the force.
+
+Symbol:
+    :code:`W`
+
+Latex:
+    :math:`W`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: force
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`F`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: distance
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.distance` the body traveled due to the force exerted on it.
+
+Symbol:
+    :code:`s`
+
+Latex:
+    :math:`s`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`W = F * s`
+
+
+    Latex:
+        .. math::
+            W = F s
+
+

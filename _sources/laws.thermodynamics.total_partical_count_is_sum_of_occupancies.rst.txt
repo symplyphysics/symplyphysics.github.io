@@ -1,0 +1,57 @@
+Total particle count is sum of occupancies
+==========================================
+
+Maxwell—Boltzmann, Fermi—Dirac and Bose—Einstein distributions describe the average number of particles
+in some energy level or particle state. They are normalized by the condition that the sum of the number
+of particles in each energy level or particle state should be equal to the total number of particles
+in the system.
+
+**Notes:**
+
+#. This law can be used to express chemical potential :math:`\mu` as a function of temperature :math:`T`
+   and total particle count :math:`N` for Fermi—Dirac and Bose—Einstein distributions.
+
+**Links:**
+
+#. `Wikipedia, see normalization condition (second formula) <https://en.wikipedia.org/wiki/Fermi%E2%80%93Dirac_statistics#Fermi%E2%80%93Dirac_distribution>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.total_partical_count_is_sum_of_occupancies
+
+.. py:data:: total_particle_count
+
+    Total :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: occupancy
+
+    Occupancy of energy level or particle state of index :math:`i`.
+
+Symbol:
+    :code:`N[i]`
+
+Latex:
+    :math:`{N}_{i}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`N = Sum(N[i], i)`
+
+
+    Latex:
+        .. math::
+            N = \sum_i {N}_{i}
+
+

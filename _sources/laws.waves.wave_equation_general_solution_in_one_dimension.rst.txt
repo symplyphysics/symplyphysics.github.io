@@ -1,0 +1,58 @@
+General solution to wave equation in one dimension
+==================================================
+
+Any function of a single variable can be a solution of the wave equation if it depends
+on the phase of the wave, i.e. the position and time variables only appear in its
+expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wave>`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Wave_equation#General_solution>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.wave_equation_general_solution_in_one_dimension
+
+.. py:data:: displacement
+
+    Displacement from rest in the wave. Usually depends on position and time.
+
+    Symbol:
+        :code:`u`
+
+    Latex:
+        :math:`u`
+
+
+.. py:data:: solution
+
+    One-argument solution function of the wave equation.
+
+    Symbol:
+        :code:`f(phi)`
+
+    Latex:
+        :math:`f(\varphi)`
+
+
+.. py:data:: wave_phase
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase` of the wave.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\varphi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`u = f(phi)`
+
+    Latex:
+        .. math::
+            u = f(\varphi)
+
+

@@ -1,0 +1,82 @@
+Position via constant speed and time
+====================================
+
+If a body is moving with constant speed, its position can be expressed as a linear function
+of time.
+
+**Conditions:**
+
+#. Speed is constant, i.e. :math:`\frac{d v}{d t} = 0.`
+
+**Links:**
+
+#. `Wikipedia, derivable from the vector counterpart of this law <https://en.wikipedia.org/wiki/Kinematics#Relative_acceleration>`__.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.position_via_constant_speed_and_time
+
+.. py:data:: final_position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` at :attr:`~time`.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: initial_position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` at :math:`t = 0`.
+
+Symbol:
+    :code:`x_0`
+
+Latex:
+    :math:`x_{0}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: speed
+
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_position` is measured.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`x = x_0 + v * t`
+
+
+    Latex:
+        .. math::
+            x = x_{0} + v t
+
+

@@ -1,0 +1,91 @@
+Internal energy of ideal gas via temperature
+============================================
+
+Internal energy of an ideal gas is the sum of the kinetic energy of all of its molecules.
+
+**Notation:**
+
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+**Links:**
+
+#. `Physics LibreTexts <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/03%3A_The_First_Law_of_Thermodynamics/3.03%3A_Work_Heat_and_Internal_Energy>`__.
+
+#. `Wikipedia, see text <https://en.wikipedia.org/wiki/Ideal_gas#Internal_energy>`__.
+
+..
+    TODO replace `mass/molar_mass` with `amount_of_substance`
+    TODO add to conditions that the gas is monatomic
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.internal_energy_of_ideal_gas_via_temperature
+
+.. py:data:: internal_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the gas.
+
+Symbol:
+    :code:`U`
+
+Latex:
+    :math:`U`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the gas.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: molar_mass
+
+    :attr:`~symplyphysics.symbols.basic.molar_mass` of the gas.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`M`
+
+Dimension:
+    :code:`mass/amount_of_substance`
+
+
+.. py:data:: law
+
+    :code:`U = 3 * m * R * T / (2 * M)`
+
+
+    Latex:
+        .. math::
+            U = \frac{3 m R T}{2 M}
+
+

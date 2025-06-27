@@ -1,0 +1,59 @@
+Isobaric molar heat capacity of ideal gas via adiabatic index
+=============================================================
+
+For ideal gases the isobaric and isochoric heat capacities can be calculated via the molar gas
+constant and the adiabatic index of the gas.
+
+**Notation:**
+
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Heat_capacity_ratio#Ideal-gas_relations>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
+
+.. py:data:: isobaric_molar_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
+
+Symbol:
+    :code:`c_pm`
+
+Latex:
+    :math:`c_{p, \text{m}}`
+
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
+
+.. py:data:: adiabatic_index
+
+    :attr:`~symplyphysics.symbols.thermodynamics.adiabatic_index`, or :doc:`heat capacity ratio <definitions.heat_capacity_ratio>`
+    of the gas.
+
+Symbol:
+    :code:`gamma`
+
+Latex:
+    :math:`\gamma`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`c_pm = R * gamma / (gamma - 1)`
+
+
+    Latex:
+        .. math::
+            c_{p, \text{m}} = \frac{R \gamma}{\gamma - 1}
+
+

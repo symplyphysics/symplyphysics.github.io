@@ -1,0 +1,84 @@
+Gibbs energy of dielectrics
+===========================
+
+Gibbs energy of the system with a dielectric medium can be expressed using
+the Helmholtz free energy and the electric displacement and field strength.
+
+**Conditions:**
+
+#. The dielectric is isotropic whether or not the electric field is present.
+#. The medium is homogeneous.
+#. The volume change of the medium is insignificant.
+
+**Links:**
+
+#. Formula 31.4 on p. 122 of "General Course of Physics" (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.dielectrics.gibbs_energy_formula
+
+.. py:data:: gibbs_energy_density
+
+    :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`energy/volume`
+
+
+.. py:data:: free_energy_density
+
+    :attr:`~symplyphysics.symbols.thermodynamics.helmholtz_free_energy` of the system per units :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`F`
+
+Dimension:
+    :code:`energy/volume`
+
+
+.. py:data:: electric_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` in the medium.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: electric_displacement
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement` in the medium.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`charge/area`
+
+
+.. py:data:: law
+
+    :code:`G = F - E * D`
+
+
+    Latex:
+        .. math::
+            G = F - E D
+
+

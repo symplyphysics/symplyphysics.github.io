@@ -1,0 +1,96 @@
+Molar internal energy
+=====================
+
+If the equation of state is known, the internal energy of a substance can be found
+as a function of volume at constant temperature.
+
+**Conditions:**
+
+#. The fluid is homogeneous and in a single phase state.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Van_der_Waals_equation#Internal_energy_and_specific_heat_at_constant_volume>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy
+
+.. py:data:: molar_internal_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the van der Waals fluid per unit :attr:`~symplyphysics.symbols.chemistry.amount_of_substance`.
+
+Symbol:
+    :code:`u_m`
+
+Latex:
+    :math:`u_\text{m}`
+
+Dimension:
+    :code:`energy/amount_of_substance`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the van der Waals fluid.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: isochoric_molar_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume` as a function of :attr:`~temperature`.
+
+Symbol:
+    :code:`c_Vm(T)`
+
+Latex:
+    :math:`c_{V, \text{m}}{\left(T \right)}`
+
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
+
+.. py:data:: attractive_forces_parameter
+
+    :attr:`~symplyphysics.symbols.thermodynamics.attractive_forces_parameter`.
+
+Symbol:
+    :code:`a`
+
+Latex:
+    :math:`a`
+
+Dimension:
+    :code:`pressure*volume**2/amount_of_substance**2`
+
+
+.. py:data:: molar_volume
+
+    :attr:`~symplyphysics.symbols.basic.molar_volume`.
+
+Symbol:
+    :code:`v_m`
+
+Latex:
+    :math:`v_\text{m}`
+
+Dimension:
+    :code:`volume/amount_of_substance`
+
+
+.. py:data:: law
+
+    :code:`u_m = Integral(c_Vm(T), T) - a / v_m`
+
+
+    Latex:
+        .. math::
+            u_\text{m} = \int c_{V, \text{m}}{\left(T \right)}\, dT - \frac{a}{v_\text{m}}
+
+

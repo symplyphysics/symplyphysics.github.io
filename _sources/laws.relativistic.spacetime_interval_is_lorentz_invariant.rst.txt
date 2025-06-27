@@ -1,0 +1,51 @@
+Spacetime interval is Lorentz invariant
+=======================================
+
+The spacetime interval is invariant under Lorentz transformations, i.e. it remains the same in all
+inertial frames of reference.
+
+**Links:**
+
+#. `Wikipedia, follows from text <https://en.wikipedia.org/wiki/Spacetime#Spacetime_interval>`__.
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.spacetime_interval_is_lorentz_invariant
+
+.. py:data:: first_spacetime_interval
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.spacetime_interval` in one inertial frame of reference.
+
+Symbol:
+    :code:`s_1`
+
+Latex:
+    :math:`s_{1}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: second_spacetime_interval
+
+    :attr:`~symplyphysics.symbols.relativistic_mechanics.spacetime_interval` in another inertial frame of reference related to the former
+    by a Lorentz transformation.
+
+Symbol:
+    :code:`s_2`
+
+Latex:
+    :math:`s_{2}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`s_2 = s_1`
+
+
+    Latex:
+        .. math::
+            s_{2} = s_{1}
+
+

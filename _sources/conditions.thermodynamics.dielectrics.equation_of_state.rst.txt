@@ -1,0 +1,95 @@
+Equation of state
+=================
+
+In the physics of dielectric materials, the "equation of state" is the equation that connects
+the electric displacement with electric field strength, temperature, and density of the
+medium. This equation cannot be determined solely from thermodynamics and must be either
+supplied from experiment or derived from the theory of dielectric polarization.
+
+**Links:**
+
+#. Formula 31.10 on p. 122 of "General Course of Physics" (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).
+
+.. py:currentmodule:: symplyphysics.conditions.thermodynamics.dielectrics.equation_of_state
+
+.. py:data:: electric_displacement
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement`.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`charge/area`
+
+
+.. py:data:: electric_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the medium.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the medium.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: state_function
+
+    The function that describes the relationship between :attr:`~electric_displacement` and
+    :attr:`~electric_field_strength`, :attr:`~temperature` and :attr:`~density`.
+
+Symbol:
+    :code:`f(E, T, rho)`
+
+Latex:
+    :math:`f{\left(E,T,\rho \right)}`
+
+Dimension:
+    :code:`charge/area`
+
+
+.. py:data:: condition
+
+    :code:`D = f(E, T, rho)`
+
+
+    Latex:
+        .. math::
+            D = f{\left(E,T,\rho \right)}
+
+

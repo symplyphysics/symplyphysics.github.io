@@ -1,0 +1,17 @@
+**Electrodynamics (Conditions)**
+================================
+
+The conditions in this folder are related to the electrodynamics.
+
+.. py:currentmodule:: symplyphysics.conditions.electricity
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    conditions.electricity.maxwell_equations
+
+
+
+

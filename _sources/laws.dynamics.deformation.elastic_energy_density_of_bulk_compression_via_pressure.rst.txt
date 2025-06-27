@@ -1,0 +1,69 @@
+Elastic energy density of bulk compression via pressure
+=======================================================
+
+Volumetric density of the elastic energy of a body that is under bulk
+compression is proportional to the square of the pressure in the body
+and inversely proportional to the bulk modulus of the body's material.
+
+**Conditions:**
+
+#. The body undergoes bulk compression.
+
+**Links:**
+
+#. Formula 77.5 on p. 393 of "General Course of Physics" (Obschiy kurs fiziki), vol. 1 by Sivukhin D.V. (1979).
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.deformation.elastic_energy_density_of_bulk_compression_via_pressure
+
+.. py:data:: elastic_energy_density
+
+    Elastic energy of the deformed body per unit of its volume. See :attr:`~symplyphysics.symbols.basic.energy_density`
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`w`
+
+Dimension:
+    :code:`energy/volume`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` in the deformed body.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: bulk_modulus
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the material.
+
+Symbol:
+    :code:`K`
+
+Latex:
+    :math:`K`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: law
+
+    :code:`w = p^2 / (2 * K)`
+
+
+    Latex:
+        .. math::
+            w = \frac{p^{2}}{2 K}
+
+

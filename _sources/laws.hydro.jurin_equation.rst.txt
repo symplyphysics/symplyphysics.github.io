@@ -1,0 +1,106 @@
+Capillary rise from surface tension and contact angle
+=====================================================
+
+The Jurin's law determines the height to which the liquid rises in capillaries. It
+states that the maximum height of a liquid in a capillary tube is inversely proportional
+to the tube's diameter.
+
+**Notation:**
+
+#. :math:`g` (:code:`g`) is :attr:`~symplyphysics.quantities.acceleration_due_to_gravity`.
+
+**Conditions:**
+
+#. The surface of the meniscus is spherical.
+#. Height :math:`h` of the raised (lowered) liquid is much larger than the radius
+   :math:`r` of the capillary.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Jurin%27s_law>`__.
+
+..
+    TODO: rename file to use descriptive name
+
+.. py:currentmodule:: symplyphysics.laws.hydro.jurin_equation
+
+.. py:data:: height
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.height` of the liquid column.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: surface_tension
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.surface_tension` of the liquid.
+
+Symbol:
+    :code:`gamma`
+
+Latex:
+    :math:`\gamma`
+
+Dimension:
+    :code:`force/length`
+
+
+.. py:data:: angle
+
+    Contact :attr:`~symplyphysics.symbols.basic.angle` between of the liquid and the tube wall.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\varphi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the liquid.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the capillary.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`r`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`h = 2 * gamma * cos(phi) / (rho * r * g)`
+
+
+    Latex:
+        .. math::
+            h = \frac{2 \gamma \cos{\left(\varphi \right)}}{\rho r g}
+
+

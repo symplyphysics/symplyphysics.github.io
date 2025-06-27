@@ -1,0 +1,110 @@
+Distance of greatest convergence of particles in magnetron
+==========================================================
+
+The traveling atom moves towards the substrate in the magnetron. At the same time, it
+collides with gas atoms. The energy transfer coefficient in these collisions depends on
+the mass of the traveling atom and the mass of the gas atom. The distance of the
+greatest convergence of colliding particles can be calculated using the model of
+quasi-rigid spheres. The discharge voltage is the voltage between the cathode and the
+anode in the magnetron at which plasma occurs.
+
+..
+    TODO: find link
+    TODO: move to `magnetron` folder?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.distance_of_greatest_convergence_of_particles_in_magnetron
+
+.. py:data:: distance_of_convergence
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` of greatest convergence of two colliding particles.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: discharge_voltage
+
+    Discharge :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: first_atomic_number
+
+    :attr:`~symplyphysics.symbols.chemistry.atomic_number` of first atom.
+
+Symbol:
+    :code:`Z_1`
+
+Latex:
+    :math:`Z_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: second_atomic_number
+
+    :attr:`~symplyphysics.symbols.chemistry.atomic_number` of second atom.
+
+Symbol:
+    :code:`Z_2`
+
+Latex:
+    :math:`Z_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: distance_constant
+
+    Constant equal to :math:`0.122 \cdot 10^{-10} \, \text{m}`.
+
+Symbol:
+    :code:`d_0`
+
+Latex:
+    :math:`d_0`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: voltage_constant
+
+    Constant equal to :math:`95.863 \, \text{V}`.
+
+Symbol:
+    :code:`V_0`
+
+Latex:
+    :math:`V_0`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: law
+
+    :code:`d = -d_0 * (Z_1^0.0387 + Z_2^0.0387) * log(V / (V_0 * (Z_1 * Z_2)^1.4883))`
+
+
+    Latex:
+        .. math::
+            d = - d_0 \left(Z_{1}^{0.0387} + Z_{2}^{0.0387}\right) \log \left( \frac{V}{V_0 \left(Z_{1} Z_{2}\right)^{1.4883}} \right)
+
+

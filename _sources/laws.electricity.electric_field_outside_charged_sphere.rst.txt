@@ -1,0 +1,73 @@
+Electric field outside charged sphere
+=====================================
+
+The electric field outside of a charged sphere behaves as is the sphere were a point charge,
+i.e. its magnitude is inversely proportional to the square of the distance to the center
+of the sphere. However, due to the Gauss's law, on the inside the electric field is exactly zero.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+
+**Conditions:**
+
+#. The sphere is thin, i.e. its thickness approaches zero.
+
+**Links:**
+
+#. `Wikipedia, "Spherical volume" <https://en.wikipedia.org/wiki/Electric_field#Common_formul%C3%A6>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electric_field_outside_charged_sphere
+
+.. py:data:: electric_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: charge
+
+    Total :attr:`~symplyphysics.symbols.electrodynamics.charge` of the sphere.
+
+Symbol:
+    :code:`q`
+
+Latex:
+    :math:`q`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to the center of the sphere.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`E = q / (4 * pi * epsilon_0 * d^2)`
+
+
+    Latex:
+        .. math::
+            E = \frac{q}{4 \pi \varepsilon_0 d^{2}}
+
+

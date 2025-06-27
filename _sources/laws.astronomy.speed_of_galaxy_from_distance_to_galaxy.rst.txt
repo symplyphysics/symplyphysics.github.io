@@ -1,0 +1,55 @@
+Speed of galaxy from distance to galaxy
+=======================================
+
+Hubble's Law is a cosmological law describing the expansion of the universe, according
+to which the recessional speed of a galaxy is proportional to the distance to it from
+the observer.
+
+**Notation:**
+
+#. :math:`H` (:code:`H`) is :attr:`~symplyphysics.quantities.hubble_constant`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Hubble%27s_law#>`__.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.speed_of_galaxy_from_distance_to_galaxy
+
+.. py:data:: recessional_speed
+
+    Recessional :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the galaxy, i.e. the speed at which it moves away from the observer.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: distance
+
+    Proper :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the observer and the galaxy.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`v = H * d`
+
+
+    Latex:
+        .. math::
+            v = H d
+
+

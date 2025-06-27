@@ -1,0 +1,63 @@
+Centripetal acceleration via angular speed and radius
+=====================================================
+
+*Centripetal acceleration* is defined as the change in velocity tangential to the velocity vector.
+
+**Links:**
+
+#. `Physics LibreTexts, second part of equation 6.2.5 <https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/06%3A_Uniform_Circular_Motion_and_Gravitation/6.02%3A_Centripetal_Acceleration>`__.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.centripetal_acceleration_via_angular_speed_and_radius
+
+.. py:data:: centripetal_acceleration
+
+    Centripetal, or normal, :attr:`~symplyphysics.symbols.classical_mechanics.acceleration`.
+
+Symbol:
+    :code:`a_n`
+
+Latex:
+    :math:`a_{n}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: angular_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: radius_of_curvature
+
+    Instantaneous :attr:`~symplyphysics.symbols.basic.radius_of_curvature`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`r`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`a_n = w^2 * r`
+
+
+    Latex:
+        .. math::
+            a_{n} = \omega^{2} r
+
+

@@ -1,0 +1,68 @@
+Pressure from number density and kinetic energy
+===============================================
+
+The ideal gas equation can be written in an equivalent way using the number density
+of the gas and the average kinetic energy of gas particles.
+
+**Condition:**
+
+#. The gas is ideal.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Kinetic_theory_of_gases#Pressure_and_kinetic_energy>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.pressure_from_number_density_and_kinetic_energy
+
+.. py:data:: average_kinetic_energy
+
+    Average :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of gas particles.
+
+Symbol:
+    :code:`avg(K)`
+
+Latex:
+    :math:`\langle K \rangle`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: number_density
+
+    :attr:`~symplyphysics.symbols.basic.number_density` of the gas.
+
+Symbol:
+    :code:`n`
+
+Latex:
+    :math:`n`
+
+Dimension:
+    :code:`1/volume`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the gas.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: law
+
+    :code:`p = 0.666666666666667 * n * avg(K)`
+
+
+    Latex:
+        .. math::
+            p = 0.666666666666667 n \langle K \rangle
+
+

@@ -1,0 +1,29 @@
+**Buckling (Nuclear physics)**
+==============================
+
+*Geometric buckling* is a measure of neutron leakage and *material buckling* is a measure
+of the difference between neutron production and neutron absorption.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder
+    laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped
+    laws.nuclear.buckling.geometric_buckling_for_uniform_slab
+    laws.nuclear.buckling.geometric_buckling_for_uniform_sphere
+    laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area
+    laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient
+    laws.nuclear.buckling.geometric_buckling_from_neutron_flux
+    laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient
+    laws.nuclear.buckling.neutron_flux_for_uniform_cylinder
+    laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped
+    laws.nuclear.buckling.neutron_flux_for_uniform_slab
+    laws.nuclear.buckling.neutron_flux_for_uniform_sphere
+
+
+

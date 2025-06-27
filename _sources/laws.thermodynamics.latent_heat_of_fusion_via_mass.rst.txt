@@ -1,0 +1,66 @@
+Latent heat of fusion via mass
+==============================
+
+*Latent heat of fusion* is the heat released into or withdrawn from the enviroment when
+the body changes its state from a solid to a liquid. The same law applies to the process
+of solidification, when the body changes its state from a liquid to a solid, and the
+specific heat of solidification is equal by magnitude to that of fusion.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Enthalpy_of_fusion>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.latent_heat_of_fusion_via_mass
+
+.. py:data:: latent_heat
+
+    Latent :attr:`~symplyphysics.symbols.thermodynamics.heat` of fusion or solidification.
+
+Symbol:
+    :code:`Q`
+
+Latex:
+    :math:`Q`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a melting or solidifying body.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: specific_heat_of_fusion
+
+    Heat of fusion or solidification per unit mass. See :attr:`~symplyphysics.symbols.basic.specific_energy`.
+
+Symbol:
+    :code:`epsilon_lambda`
+
+Latex:
+    :math:`\varepsilon_{\lambda}`
+
+Dimension:
+    :code:`energy/mass`
+
+
+.. py:data:: law
+
+    :code:`Q = epsilon_lambda * m`
+
+
+    Latex:
+        .. math::
+            Q = \varepsilon_{\lambda} m
+
+

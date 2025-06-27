@@ -1,0 +1,64 @@
+Current is voltage over resistance
+==================================
+
+Current flowing through a conductor is proportional to voltage applied to it and
+inversely proportional to its resistance. This is also known as the **Ohm's law**.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Ohm%27s_law>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.current_is_voltage_over_resistance
+
+.. py:data:: current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the conductor.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` applied to the conductor.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the conductor.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: law
+
+    :code:`I = V / R`
+
+
+    Latex:
+        .. math::
+            I = \frac{V}{R}
+
+

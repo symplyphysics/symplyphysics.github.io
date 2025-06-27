@@ -1,0 +1,102 @@
+Time dependent Schrödinger equation in one dimension
+====================================================
+
+The Schrödinger equation is a linear partial differential equation that governs the wave
+function of a quantum-mechanical system. This law describes the general case of a time-dependent
+potential and a time-dependent wave function.
+
+**Notation:**
+
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
+
+**Notes:**
+
+#. This law works in the case of a single spatial dimension. To use it for the :math:`3`-dimensional
+   space, replace the spatial second derivative with the Laplace operator.
+
+**Links:**
+
+#. Wikipedia <https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation#Separation_of_variables>
+
+.. py:currentmodule:: symplyphysics.laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension
+
+.. py:data:: position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position`.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: wave_function
+
+    Time-dependent :attr:`~symplyphysics.symbols.quantum_mechanics.wave_function` as a function of :attr:`~position` and :attr:`~time`.
+
+Symbol:
+    :code:`psi(x, t)`
+
+Latex:
+    :math:`\psi{\left(x,t \right)}`
+
+Dimension:
+    :code:`1/sqrt(length)`
+
+
+.. py:data:: potential_energy
+
+    Time-independent :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` as a function of :attr:`~position`.
+
+Symbol:
+    :code:`U(x)`
+
+Latex:
+    :math:`U{\left(x \right)}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: particle_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the quantum particle.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`-hbar^2 / (2 * m) * Derivative(psi(x, t), (x, 2)) + U(x) * psi(x, t) = I * hbar * Derivative(psi(x, t), t)`
+
+
+    Latex:
+        .. math::
+            - \frac{\hbar^{2}}{2 m} \frac{\partial^{2}}{\partial x^{2}} \psi{\left(x,t \right)} + U{\left(x \right)} \psi{\left(x,t \right)} = i \hbar \frac{\partial}{\partial t} \psi{\left(x,t \right)}
+
+

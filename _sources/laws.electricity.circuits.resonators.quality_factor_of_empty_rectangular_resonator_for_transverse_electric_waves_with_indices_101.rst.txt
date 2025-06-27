@@ -1,0 +1,126 @@
+Quality factor of empty rectangular resonator for traverse electric waves
+=========================================================================
+
+A rectangular resonator consists of metal walls and a material filling it. In the case
+when the resonator is empty, its quality factor depends only on the losses in the metal
+walls of the resonator.
+
+**Conditions:**
+
+#. Applies to transverse electric waves with indices :math:`m = p = 1, n = 0`.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101
+
+.. py:data:: quality_factor
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.quality_factor` of the resonator.
+
+Symbol:
+    :code:`Q`
+
+Latex:
+    :math:`Q`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: absolute_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the resonator walls.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`inductance/length`
+
+
+.. py:data:: surface_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the resonator walls.
+
+Symbol:
+    :code:`R_s`
+
+Latex:
+    :math:`R_\text{s}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the resonator along the axis of wave propagation.
+
+Symbol:
+    :code:`l_1`
+
+Latex:
+    :math:`l_{1}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: width
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the resonator along the axis perpendicular to the axis of wave
+    propagation and to :attr:`~height`.
+
+Symbol:
+    :code:`l_2`
+
+Latex:
+    :math:`l_{2}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: height
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the resonator along the axis perpendicular to the axis of wave
+    propagation and to :attr:`~width`.
+
+Symbol:
+    :code:`l_3`
+
+Latex:
+    :math:`l_{3}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`Q = w * mu * l_3 * l_2 * l_1 * (l_2^2 + l_1^2) / (2 * R_s * (l_2^3 * (l_1 + 2 * l_3) + l_1^3 * (l_2 + 2 * l_3)))`
+
+
+    Latex:
+        .. math::
+            Q = \frac{\omega \mu l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}
+
+

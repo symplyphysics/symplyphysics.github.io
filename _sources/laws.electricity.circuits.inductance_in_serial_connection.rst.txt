@@ -1,0 +1,55 @@
+Inductance in serial connection
+===============================
+
+The total inductance of the circuit whose components are connected in series is the sum
+of the inductances of individual components.
+
+**Conditions:**
+
+#. Components are connected in series.
+#. Inductors are not magnetically coupled.
+
+**Links:**
+
+#. `Electrical 4 U <https://www.electrical4u.com/series-and-parallel-inductors/>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.inductance_in_serial_connection
+
+.. py:data:: total_inductance
+
+    Total :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the circuit.
+
+Symbol:
+    :code:`L`
+
+Latex:
+    :math:`L`
+
+Dimension:
+    :code:`inductance`
+
+
+.. py:data:: inductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the :math:`i`-th component.
+
+Symbol:
+    :code:`L[i]`
+
+Latex:
+    :math:`{L}_{i}`
+
+Dimension:
+    :code:`inductance`
+
+
+.. py:data:: law
+
+    :code:`L = Sum(L[i], i)`
+
+
+    Latex:
+        .. math::
+            L = \sum_i {L}_{i}
+
+

@@ -1,0 +1,79 @@
+Period of physical pendulum
+===========================
+
+A *physical pendulum* is a pendulum with an arbitrary distribution of mass that
+oscillates about a given pivot point. The period of its oscillations depends on its rotational inertia, 
+mass and the distance between the pivot and the center of mass of the pendulum.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Pendulum#Compound_pendulum>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.period_of_physical_pendulum
+
+.. py:data:: period
+
+    The :attr:`~symplyphysics.symbols.basic.period` of the physical pendulum.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the pendulum.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: rotational_inertia
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the pendulum.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`length**2*mass`
+
+
+.. py:data:: distance_to_pivot
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the pivot and the pendulum's center of mass.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`T = 2 * pi * sqrt(I / (m * g * d))`
+
+
+    Latex:
+        .. math::
+            T = 2 \pi \sqrt{\frac{I}{m g d}}
+
+

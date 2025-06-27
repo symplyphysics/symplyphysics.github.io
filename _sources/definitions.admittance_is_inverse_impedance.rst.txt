@@ -1,0 +1,52 @@
+Admittance is inverse impedance
+===============================
+
+*Admittance, or complex conductance*, is a physical quantity measuring the
+ability of a circuit or device to conduct electrical current.
+
+Also see :doc:`Impedance law <definitions.impedance_is_resistance_and_reactance>`
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Admittance>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.admittance_is_inverse_impedance
+
+.. py:data:: admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the object.
+
+Symbol:
+    :code:`Y`
+
+Latex:
+    :math:`Y`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the object.
+
+Symbol:
+    :code:`Z`
+
+Latex:
+    :math:`Z`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: definition
+
+    :code:`Y = 1 / Z`
+
+
+    Latex:
+        .. math::
+            Y = \frac{1}{Z}
+
+

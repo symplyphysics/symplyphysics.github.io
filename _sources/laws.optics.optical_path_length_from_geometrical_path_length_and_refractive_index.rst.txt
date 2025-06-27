@@ -1,0 +1,68 @@
+Optical path length from geometrical path length and refractive index
+=====================================================================
+
+*Geometrical path length* is the Euclidean distance integrated along a light ray
+between any two points.
+
+**Conditions:**
+
+#. The environment must be homogeneous.
+
+**Links:**
+
+#. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Optical_path_length#>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index
+
+.. py:data:: optical_path
+
+    Optical path length of the light ray. See :attr:`~symplyphysics.symbols.optics.optical_distance`.
+
+Symbol:
+    :code:`Lambda`
+
+Latex:
+    :math:`\Lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: geometrical_path
+
+    Geometrical path length of the light ray. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
+
+Symbol:
+    :code:`s`
+
+Latex:
+    :math:`s`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: refractive_index
+
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium.
+
+Symbol:
+    :code:`n`
+
+Latex:
+    :math:`n`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`Lambda = n * s`
+
+
+    Latex:
+        .. math::
+            \Lambda = n s
+
+

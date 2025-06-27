@@ -1,0 +1,82 @@
+Effective width of microstrip line when width is greater than thickness
+=======================================================================
+
+Under the conditions described below, the effective width of a microstrip line can be
+calculated from its physical dimension.
+
+**Conditions:**
+
+#. The thickness :math:`h` of the substrate of the microstrip line should be less than
+   :math:`2 \pi w` where :math:`w` is the width of the microstrip.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.microstrip_lines.effective_width_for_microstrip_line_for_width_greater_thickness
+
+.. py:data:: effective_width
+
+    Effective width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line. See :ref:`Effective width of microstrip line <effective_width_microstrip_line_def>`.
+
+Symbol:
+    :code:`w_eff`
+
+Latex:
+    :math:`w_\text{eff}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: width
+
+    Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`w`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the microstrip line.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: substrate_thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`w_eff / h = w / h + 1.25 / pi * t / h * (1 + log(2 * h / t))`
+
+
+    Latex:
+        .. math::
+            \frac{w_\text{eff}}{h} = \frac{w}{h} + \frac{1.25}{\pi} \frac{t}{h} \left(1 + \log \left( 2 \frac{h}{t} \right)\right)
+
+

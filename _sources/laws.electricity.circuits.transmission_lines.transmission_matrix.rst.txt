@@ -1,0 +1,143 @@
+Transmission matrix equation
+============================
+
+The transmission matrix equation relates the input voltage and input current to the
+output voltage and output current.
+
+**Notes:**
+
+#. See :ref:`Transmission Matrix <transmission_matrix_def>`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Two-port_network#ABCD-parameters>`__.
+
+..
+    TODO: rename file
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix
+
+.. py:data:: input_voltage
+
+    Input :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+
+Symbol:
+    :code:`V_i`
+
+Latex:
+    :math:`V_\text{i}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: output_voltage
+
+    Output :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+
+Symbol:
+    :code:`V_o`
+
+Latex:
+    :math:`V_\text{o}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: input_current
+
+    Input :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+Symbol:
+    :code:`I_i`
+
+Latex:
+    :math:`I_\text{i}`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: output_current
+
+    Output :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+Symbol:
+    :code:`I_o`
+
+Latex:
+    :math:`I_\text{o}`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: voltage_voltage_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: voltage_current_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
+    circuit at the output.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: current_voltage_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
+
+Symbol:
+    :code:`C`
+
+Latex:
+    :math:`C`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: current_current_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
+    circuit at the output.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`[V_i, I_i] = [[A, B], [C, D]]*[V_o, I_o]`
+
+
+    Latex:
+        .. math::
+            \begin{pmatrix} V_\text{i} \\ I_\text{i} \end{pmatrix} = \begin{pmatrix} A & B \\ C & D \end{pmatrix} \begin{pmatrix} V_\text{o} \\ I_\text{o} \end{pmatrix}
+
+

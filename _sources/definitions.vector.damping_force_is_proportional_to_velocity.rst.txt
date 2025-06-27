@@ -1,0 +1,65 @@
+Damping force is proportional to velocity
+=========================================
+
+Damping force is an external (relative to an object) force that drains energy from the object,
+reducing the motion of the object. It is a model used, for example, to describe the motion
+of an oscillator.
+
+**Links:**
+
+#. `Physics LibreTexts, formula 8.3.1 <https://phys.libretexts.org/Courses/University_of_California_Davis/UCD%3A_Physics_9HA__Classical_Mechanics/8%3A_Small_Oscillations/8.3%3A_Damping_and_Resonance>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.vector.damping_force_is_proportional_to_velocity
+
+.. py:data:: damping_constant
+
+    Non-negative :attr:`~symplyphysics.symbols.classical_mechanics.damping_constant`.
+
+Symbol:
+    :code:`b`
+
+Latex:
+    :math:`b`
+
+Dimension:
+    :code:`mass/time`
+
+
+.. py:data:: velocity
+
+    Vector of the body's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: damping_force
+
+    Vector of the damping :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: law
+
+    :code:`F = -b * v`
+
+
+    Latex:
+        .. math::
+            {\vec F} = - b {\vec v}
+
+

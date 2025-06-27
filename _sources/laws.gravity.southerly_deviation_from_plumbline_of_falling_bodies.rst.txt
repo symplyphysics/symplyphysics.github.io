@@ -1,0 +1,104 @@
+Southerly deviation from plumbline of falling bodies
+====================================================
+
+Suppose a body is falling freely in Earth's gravity field with its initial velocity being zero.
+Then the effect of the Coriolis force on the falling body can be found in the fact that it deflects
+from plumbline in the easterly and southerly (equatorial) directions.
+
+**Notes:**
+
+#. The southerly deviation is extremely small and almost unobservable due to the :math:`t / T` factor.
+
+#. Also see :ref:`Easterly deviation from plumbline of falling bodies`.
+
+**Conditions:**
+
+#. The vector of free fall acceleration is considered constant.
+
+**Links:**
+
+#. Sivukhin D.V. (1979), *Obshchiy kurs fiziki* [General course of Physics], vol. 1, p. 355, (67.11).
+
+.. py:currentmodule:: symplyphysics.laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies
+
+.. py:data:: southerly_deviation_from_plumbline
+
+    Southerly (equatorial) deviation of falling body from plumbline due to Earth's rotation.
+    See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+
+Symbol:
+    :code:`s_south`
+
+Latex:
+    :math:`s_\text{south}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: fall_time
+
+    :attr:`~symplyphysics.symbols.basic.time` elapsed during the body's fall.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: rotation_period
+
+    :attr:`~symplyphysics.symbols.basic.period` of Earth's rotation.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: easterly_deviation_from_plumbline
+
+    Easterly deviation of falling body from plumbline. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+
+Symbol:
+    :code:`s_east`
+
+Latex:
+    :math:`s_\text{east}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: latitude
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.latitude` of the place the body is located in.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\phi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`s_south = pi * t / T * s_east * sin(phi)`
+
+
+    Latex:
+        .. math::
+            s_\text{south} = \pi \frac{t}{T} s_\text{east} \sin{\left(\phi \right)}
+
+

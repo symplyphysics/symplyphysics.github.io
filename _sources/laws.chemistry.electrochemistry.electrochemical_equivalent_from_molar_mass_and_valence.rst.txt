@@ -1,0 +1,71 @@
+Electrochemical equivalent from molar mass and valence
+======================================================
+
+Faraday's second law of electrolysis. The equivalent mass of a substance in general in
+chemistry is its molar mass divided by an integer depending on the chemical reaction in
+which the substance participates; in this case, the equivalent is the molar mass of the
+substance formed during ion discharge divided by the sum of the ion charges (measured
+in elementary units), resulting in a molecule or atom of the substance.
+
+**Notations:**
+
+#. :math:`\mathfrak{F}` (:code:`F`) is :attr:`~symplyphysics.quantities.faraday_constant`.
+
+**Links:**
+
+#. `Wikipedia, derivable <https://en.wikipedia.org/wiki/Electrochemical_equivalent>`__.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.electrochemistry.electrochemical_equivalent_from_molar_mass_and_valence
+
+.. py:data:: equivalent
+
+    :attr:`~symplyphysics.symbols.chemistry.electrochemical_equivalent`.
+
+Symbol:
+    :code:`Z`
+
+Latex:
+    :math:`Z`
+
+Dimension:
+    :code:`mass/charge`
+
+
+.. py:data:: molar_mass
+
+    :attr:`~symplyphysics.symbols.basic.molar_mass`.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`M`
+
+Dimension:
+    :code:`mass/amount_of_substance`
+
+
+.. py:data:: valence
+
+    :attr:`~symplyphysics.symbols.chemistry.valence`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`Z = M / (F * v)`
+
+
+    Latex:
+        .. math::
+            Z = \frac{M}{\mathfrak{F} v}
+
+

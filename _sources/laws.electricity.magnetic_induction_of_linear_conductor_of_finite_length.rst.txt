@@ -1,0 +1,112 @@
+Magnetic flux density of linear conductor of finite length
+==========================================================
+
+Let there be a rectilinear conductor of finite length. Then its magnetic flux density
+will depend on the magnitude of the current and the material. It also depends on the
+perpendicular distance to the conductor and on the angles between the lines drawn from
+the ends of the conductor to the point and the conductor.
+
+**Conditions:**
+
+#. Conductor should be rectilinear.
+#. Length of the conductor is finite.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length
+
+.. py:data:: magnetic_flux_density
+
+    :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density` through the conductor.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`magnetic_density`
+
+
+.. py:data:: absolute_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`inductance/length`
+
+
+.. py:data:: current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` running through the conductor.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: first_angle
+
+    :attr:`~symplyphysics.symbols.basic.angle` between origin and the first end of the conductor.
+
+Symbol:
+    :code:`phi_1`
+
+Latex:
+    :math:`\varphi_{1}`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: second_angle
+
+    :attr:`~symplyphysics.symbols.basic.angle` between origin and the second end of the conductor.
+
+Symbol:
+    :code:`phi_2`
+
+Latex:
+    :math:`\varphi_{2}`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: distance
+
+    Perpendicular :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to the conductor.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`B = mu * I * (cos(phi_1) + cos(phi_2)) / (4 * pi * d)`
+
+
+    Latex:
+        .. math::
+            B = \frac{\mu I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}
+
+

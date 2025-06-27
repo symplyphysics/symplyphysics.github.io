@@ -1,0 +1,89 @@
+Equation in homogeneous medium in one dimension
+===============================================
+
+Heat equation governs heat diffusion, as well as other diffusive processes. It describes
+the evolution of heat transferred from hotter to colder environments in time and space.
+
+**Notes:**
+
+#. There is no straghtforward solution to this equation, and it depends on initial
+   conditions as well.
+
+**Conditions:**
+
+#. There are no heat sources in the system, i.e. the heat distribution only depends on
+   the initial conditions.
+#. Thermal diffusivity :math:`\chi` does not depend on position.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Heat_equation#Heat_flow_in_a_uniform_rod>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.heat_transfer.equation_in_homogeneous_medium_in_one_dimension
+
+.. py:data:: position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position`, or spatial variable.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: temperature
+
+    Temperature as a function of :attr:`~position` and :attr:`~time`.
+
+Symbol:
+    :code:`T(x, t)`
+
+Latex:
+    :math:`T{\left(x,t \right)}`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: thermal_diffusivity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_diffusivity`.
+
+Symbol:
+    :code:`alpha`
+
+Latex:
+    :math:`\alpha`
+
+Dimension:
+    :code:`area/time`
+
+
+.. py:data:: law
+
+    :code:`Derivative(T(x, t), t) = alpha * Derivative(T(x, t), (x, 2))`
+
+
+    Latex:
+        .. math::
+            \frac{\partial}{\partial t} T{\left(x,t \right)} = \alpha \frac{\partial^{2}}{\partial x^{2}} T{\left(x,t \right)}
+
+

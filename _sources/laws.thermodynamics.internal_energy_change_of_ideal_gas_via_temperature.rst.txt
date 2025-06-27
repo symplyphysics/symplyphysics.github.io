@@ -1,0 +1,68 @@
+Internal energy change of ideal gas via temperature
+===================================================
+
+The internal energy of an ideal gas depends solely on its temperature and the number of gas particles
+and is independent of other thermodynamic quantities such as pressure or density.
+
+**Notation:**
+
+#. :math:`d` denotes an exact, path-independent differential.
+
+**Links:**
+
+#. `Wikipedia, equivalent formula <https://en.wikipedia.org/wiki/Internal_energy#Internal_energy_of_the_ideal_gas>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.internal_energy_change_of_ideal_gas_via_temperature
+
+.. py:data:: internal_energy_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system.
+
+Symbol:
+    :code:`dU`
+
+Latex:
+    :math:`dU`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: isochoric_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`C_V`
+
+Latex:
+    :math:`C_{V}`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: temperature_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`dT`
+
+Latex:
+    :math:`dT`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: law
+
+    :code:`dU = C_V * dT`
+
+
+    Latex:
+        .. math::
+            dU = C_{V} dT
+
+

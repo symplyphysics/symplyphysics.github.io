@@ -1,0 +1,52 @@
+Centrifugal acceleration via centripetal acceleration
+=====================================================
+
+The vector of *centrifugal acceleration* has the same magnitude as the vector of *centripetal
+acceleration* but is directed oppositely to it.
+
+**Links:**
+
+#. `BYJU's <https://byjus.com/physics/centripetal-and-centrifugal-force/>`__.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration
+
+.. py:data:: centrifugal_acceleration
+
+    Vector of centrifugal :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the body in the non-inertial,
+    rotating frame.
+
+Symbol:
+    :code:`a_cf`
+
+Latex:
+    :math:`{\vec a}_\text{cf}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: centripetal_acceleration
+
+    Vector of centripetal :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` experienced by the rotating body in the inertial
+    frame.
+
+Symbol:
+    :code:`a_cp`
+
+Latex:
+    :math:`{\vec a}_\text{cp}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: law
+
+    :code:`a_cf = -a_cp`
+
+
+    Latex:
+        .. math::
+            {\vec a}_\text{cf} = - {\vec a}_\text{cp}
+
+

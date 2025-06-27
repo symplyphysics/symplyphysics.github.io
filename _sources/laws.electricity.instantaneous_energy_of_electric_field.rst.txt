@@ -1,0 +1,103 @@
+Instantaneous energy of electric field
+======================================
+
+There is an oscillatory circuit with alternating current. Then the energy of the
+electric field will depend on the inductance, the maximum value of the current, the
+angular frequency of the current, the time and the initial phase.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.instantaneous_energy_of_electric_field
+
+.. py:data:: energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` stored in the coil.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: inductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.inductance` of the coil.
+
+Symbol:
+    :code:`L`
+
+Latex:
+    :math:`L`
+
+Dimension:
+    :code:`inductance`
+
+
+.. py:data:: current_amplitude
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` amplitude.
+
+Symbol:
+    :code:`I_max`
+
+Latex:
+    :math:`I_\text{max}`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the current.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: initial_phase
+
+    Initial :attr:`~symplyphysics.symbols.classical_mechanics.phase_shift` of the oscillations.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\varphi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`E = L * I_max^2 / 2 * cos(w * t + phi)^2`
+
+
+    Latex:
+        .. math::
+            E = \frac{L I_\text{max}^{2}}{2} \cos^{2}{\left(\omega t + \varphi \right)}
+
+

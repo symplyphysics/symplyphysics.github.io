@@ -1,0 +1,83 @@
+Angular speed via constant angular acceleration and time
+========================================================
+
+If a body is rotating around a fixed axis with constant angular acceleration, its angular
+speed is a linear function of time.
+
+**Conditions:**
+
+#. The axis is fixed.
+#. Angular acceleration is constant, i.e. :math:`\frac{d \alpha}{d t} = 0.`
+
+**Links:**
+
+#. `Wikipedia, first out of the last four equations in the paragraph <https://en.wikipedia.org/wiki/Kinematics#Acceleration_2>`__.
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time
+
+.. py:data:: final_angular_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` at :attr:`~time`.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: initial_angular_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed` at :math:`t = 0`.
+
+Symbol:
+    :code:`w_0`
+
+Latex:
+    :math:`\omega_{0}`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: angular_acceleration
+
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.angular_acceleration`.
+
+Symbol:
+    :code:`alpha`
+
+Latex:
+    :math:`\alpha`
+
+Dimension:
+    :code:`angle/time**2`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time` at which :attr:`~final_angular_speed` is measured.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`w = w_0 + alpha * t`
+
+
+    Latex:
+        .. math::
+            \omega = \omega_{0} + \alpha t
+
+

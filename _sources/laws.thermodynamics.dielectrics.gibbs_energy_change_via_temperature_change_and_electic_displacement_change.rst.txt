@@ -1,0 +1,99 @@
+Gibbs energy change via temperature change and electric displacement change
+===========================================================================
+
+The infinitesimal change in Gibbs energy of a system with a dielectric medium
+can be expressed using the change in temperature and the change in electric
+field strength.
+
+**Conditions:**
+
+#. The dielectric is isotropic whether or not the electric field is present.
+#. The medium is homogeneous.
+#. The volume change of the medium is insignificant.
+
+**Links:**
+
+#. Formula 31.8 on p. 122 of "General Course of Physics" (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.dielectrics.gibbs_energy_change_via_temperature_change_and_electic_displacement_change
+
+.. py:data:: gibbs_energy_density_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`dG`
+
+Latex:
+    :math:`dG`
+
+Dimension:
+    :code:`energy/volume`
+
+
+.. py:data:: entropy_density
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system per unit :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`S`
+
+Latex:
+    :math:`S`
+
+Dimension:
+    :code:`energy/(temperature*volume)`
+
+
+.. py:data:: temperature_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`dT`
+
+Latex:
+    :math:`dT`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: electric_displacement
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_displacement`.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`charge/area`
+
+
+.. py:data:: electric_field_change
+
+    Infinitesimal change in :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`dE`
+
+Latex:
+    :math:`dE`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: law
+
+    :code:`dG = -S * dT - D * dE`
+
+
+    Latex:
+        .. math::
+            dG = - S dT - D dE
+
+

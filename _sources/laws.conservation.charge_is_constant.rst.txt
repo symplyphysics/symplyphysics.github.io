@@ -1,0 +1,53 @@
+Charge is constant
+==================
+
+The total charge of any isolated system is conserved.
+
+**Conditions:**
+
+#. The system is isolated, i.e. no particles can leave it.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Charge_conservation>`__.
+
+.. py:currentmodule:: symplyphysics.laws.conservation.charge_is_constant
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: total_charge
+
+    :attr:`~symplyphysics.symbols.electrodynamics.charge` as a function of :attr:`~time`.
+
+Symbol:
+    :code:`q(t)`
+
+Latex:
+    :math:`q{\left(t \right)}`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: law
+
+    :code:`Derivative(q(t), t) = 0`
+
+
+    Latex:
+        .. math::
+            \frac{d}{d t} q{\left(t \right)} = 0
+
+

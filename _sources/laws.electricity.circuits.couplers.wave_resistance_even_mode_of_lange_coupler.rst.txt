@@ -1,0 +1,84 @@
+Wave impedance of even mode of Lange coupler
+============================================
+
+The Lange coupler is based on microstrip transmission lines. When this coupler is in
+operation, both even and odd modes are distributed. Knowing the coupling coefficient
+between the coupler segments, the wave impedance of the odd mode, as well as the number
+of coupler segments, it is possible to calculate the wave impedance for an even mode.
+
+.. image:: https://habrastorage.org/r/w1560/getpro/habr/upload_files/054/d02/c8d/054d02c8d91c06425ae079d34b18ce15.jpeg
+    :width: 400px
+    :align: center
+
+..
+    TODO: find link
+    TODO: rename file to mention wave *impedance*
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.wave_resistance_even_mode_of_lange_coupler
+
+.. py:data:: even_mode_wave_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the even mode.
+
+Symbol:
+    :code:`eta_e`
+
+Latex:
+    :math:`\eta_\text{e}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: odd_mode_wave_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.wave_impedance` of the odd mode.
+
+Symbol:
+    :code:`eta_o`
+
+Latex:
+    :math:`\eta_\text{o}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: coupling_factor
+
+    Coupling factor between coupler segments.
+
+Symbol:
+    :code:`C`
+
+Latex:
+    :math:`C`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: segment_count
+
+    Number of segments in Lange coupler. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`eta_e = eta_o * (C + sqrt(C^2 + (1 - C^2) * (N - 1)^2)) / ((N - 1) * (1 - C))`
+
+
+    Latex:
+        .. math::
+            \eta_\text{e} = \frac{\eta_\text{o} \left(C + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}}\right)}{\left(N - 1\right) \left(1 - C\right)}
+
+

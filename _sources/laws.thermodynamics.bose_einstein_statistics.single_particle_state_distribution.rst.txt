@@ -1,0 +1,87 @@
+Single particle state distribution
+==================================
+
+Occupancy of a single-particle state of bosons is the probability of a single boson
+to occupy a state with a certain amount of energy. The occupancy depends on the energy
+of the state and the temperature and the chemical potential of the system.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+**Conditions:**
+
+#. :math:`E_i > \mu`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Bose%E2%80%93Einstein_statistics#Bose%E2%80%93Einstein_distribution>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution
+
+.. py:data:: occupancy_of_state
+
+    Occupancy of single-particle state :math:`i`.
+
+Symbol:
+    :code:`n_i`
+
+Latex:
+    :math:`n_{i}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: energy_of_state
+
+    :attr:`~symplyphysics.symbols.basic.energy` of single-particle state :math:`i`.
+
+Symbol:
+    :code:`E_i`
+
+Latex:
+    :math:`E_{i}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: total_chemical_potential
+
+    Total :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: law
+
+    :code:`n_i = 1 / (exp((E_i - mu) / (k_B * T)) - 1)`
+
+
+    Latex:
+        .. math::
+            n_{i} = \frac{1}{\exp{\left(\frac{E_{i} - \mu}{k_\text{B} T} \right)} - 1}
+
+

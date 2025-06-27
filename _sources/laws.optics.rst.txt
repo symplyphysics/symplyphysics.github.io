@@ -1,0 +1,54 @@
+Optics
+======
+
+*Optics* is the branch of physics which is concerned with light and its behavioural
+pattern and properties. Optics is a branch of physics that deals with the determination
+of behaviour and the properties of light, along with its interactions with the matter
+and also with the instruments which are used to detect it.
+
+.. _small_angle_def:
+
+**Small-angle approximation**
+
+Approximation that is valid when the size of a spherical mirror is significantly smaller
+than the mirror's radius; in this approximation, spherical aberration is negligible and
+the mirror has a well-defined focal point.
+
+**Links:**
+
+#. `Spherical mirrors <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation/2.03%3A_Spherical_Mirrors>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.optics.angle_of_light_deflection_in_prism
+    laws.optics.angular_magnification_telescope
+    laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength
+    laws.optics.film_thickness_for_minimum_interference
+    laws.optics.focal_length_of_a_concave_spherical_mirror
+    laws.optics.interference_from_two_slits
+    laws.optics.interference_maximum
+    laws.optics.interference_minimum
+    laws.optics.irradiance_of_light_after_polarizer
+    laws.optics.lens_focus_from_object_and_image
+    laws.optics.light_pressure
+    laws.optics.linear_magnification_from_distance_to_object_and_distance_to_image
+    laws.optics.linear_magnification_from_object_height_and_image_height
+    laws.optics.optical_distance_difference_from_optical_distances
+    laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index
+    laws.optics.optical_power_from_focus_distance
+    laws.optics.optical_power_from_thin_lens_radius
+    laws.optics.optical_strength_of_spherical_lens_from_refractive_indices_of_environment_and_lens_and_focal_distances
+    laws.optics.radiation_intensity_from_energy_area_time
+    laws.optics.radius_dark_newton_ring_from_wavelength_order_radius_curvature_refractive_index
+    laws.optics.refraction_angle_from_environments
+    laws.optics.relative_aperture_of_telescope
+    laws.optics.resolution_of_telescope
+
+
+

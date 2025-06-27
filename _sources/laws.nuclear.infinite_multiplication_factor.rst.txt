@@ -1,0 +1,93 @@
+Infinite multiplication factor formula
+======================================
+
+Infinite multiplication factor can be found using thermal fission factor, fast fission
+factor, resonance escape probability, and thermal utilization factor.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Nuclear_chain_reaction#Six-factor_formula>`__.
+# `NuclearPower <https://www.nuclear-power.com/nuclear-power/reactor-physics/nuclear-fission-chain-reaction/four-factor-formula-infinite-multiplication-factor/>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.infinite_multiplication_factor
+
+.. py:data:: thermal_fission_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.thermal_fission_factor`.
+
+Symbol:
+    :code:`eta`
+
+Latex:
+    :math:`\eta`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: thermal_utilization_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.thermal_utilization_factor`.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: resonance_escape_probability
+
+    :attr:`~symplyphysics.symbols.nuclear.resonance_escape_probability`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: fast_fission_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.fast_fission_factor`.
+
+Symbol:
+    :code:`epsilon`
+
+Latex:
+    :math:`\varepsilon`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: infinite_multiplication_factor
+
+    :attr:`~symplyphysics.symbols.nuclear.infinite_multiplication_factor`.
+
+Symbol:
+    :code:`k_inf`
+
+Latex:
+    :math:`k_{\infty}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`k_inf = eta * epsilon * p * f`
+
+
+    Latex:
+        .. math::
+            k_{\infty} = \eta \varepsilon p f
+
+

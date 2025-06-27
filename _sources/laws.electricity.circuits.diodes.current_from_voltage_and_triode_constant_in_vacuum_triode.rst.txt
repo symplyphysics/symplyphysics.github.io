@@ -1,0 +1,98 @@
+Current from voltage and triode constant in vacuum triode
+=========================================================
+
+A triode has three electrodes: a cathode, an anode and one control grid. The triode can
+be replaced with an equivalent diode and the :math:`3/2`-power law can be applied. The
+triode constant in this law depends only on the relative position, shape and size of the
+electrodes of the vacuum triode.
+
+**Links**
+
+#. `StudFiles, formula after (1.15) <https://studfile.net/preview/7192538/page:5/>`__.
+
+..
+    TODO: find link in English
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.diodes.current_from_voltage_and_triode_constant_in_vacuum_triode
+
+.. py:data:: anode_current
+
+    Anode :attr:`~symplyphysics.symbols.electrodynamics.current`.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: triode_constant
+
+    Triode constant which depends only on the relative position, shape and size of the
+    electrodes of the vacuum triode.
+
+Symbol:
+    :code:`g`
+
+Latex:
+    :math:`g`
+
+Dimension:
+    :code:`current/voltage**(3/2)`
+
+
+.. py:data:: anode_voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between cathode and anode.
+
+Symbol:
+    :code:`U_a`
+
+Latex:
+    :math:`U_\text{a}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: voltage_gain
+
+    Voltage gain in the triode. See :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
+
+Symbol:
+    :code:`gain_V`
+
+Latex:
+    :math:`\text{gain}_{V}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: grid_voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between cathode and grid.
+
+Symbol:
+    :code:`U_g`
+
+Latex:
+    :math:`U_\text{g}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: law
+
+    :code:`I = g * (U_a + gain_V * U_g)^(3/2)`
+
+
+    Latex:
+        .. math::
+            I = g \left(U_\text{a} + \text{gain}_{V} U_\text{g}\right)^{\frac{3}{2}}
+
+

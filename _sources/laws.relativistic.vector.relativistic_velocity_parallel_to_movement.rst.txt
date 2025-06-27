@@ -1,0 +1,82 @@
+Relativistic velocity tangential to movement
+============================================
+
+Consider two inertial reference frames: one fixed (lab frame) and one tied to the moving object
+(proper frame). The proper frame is moving with some velocity :math:`\vec v` relative to the lab
+frame. According to the theory of special relativity, the velocity of the object relative to lab
+frame is *not* equal to the sum of its velocity in the proper frame and the velocity of the proper
+frame relative to the lab frame.
+
+**Notes:**
+
+#. One can get the same expression for :math:`{\vec u'}_\perp` in terms of :math:`\vec u` by
+   replacing :math:`\vec v` with :math:`-{\vec v}`. This is essentially the inverse Lorentz
+   transformation from lab frame to proper frame that uses the fact that the lab frame can be
+   viewed as moving with velocity vector :math:`-{\vec v}` relative to the proper frame.
+
+**Conditions:**
+
+#. Works in special relativity.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Velocity-addition_formula#General_configuration>`__.
+
+..
+    TODO: rename file
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.vector.relativistic_velocity_parallel_to_movement
+
+.. py:data:: tangential_velocity_in_lab_frame
+
+    Component of the velocity vector relative to the lab frame tangential to :math:`\vec v`. See
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`u_t`
+
+Latex:
+    :math:`{\vec u}_\text{t}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: velocity_in_proper_frame
+
+    Velocity vector relative to the proper frame. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`u'`
+
+Latex:
+    :math:`{\vec u'}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: proper_frame_velocity
+
+    Velocity vector of the proper frame relative to the lab frame. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: law
+
+    :code:`u_t = v * (dot(u', v) / dot(v, v) + 1) / (1 + dot(u', v) / c^2)`
+
+
+    Latex:
+        .. math::
+            {\vec u}_\text{t} = \frac{{\vec v} \left(\frac{\left( {\vec u'}, {\vec v} \right)}{\left( {\vec v}, {\vec v} \right)} + 1\right)}{1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}}
+
+

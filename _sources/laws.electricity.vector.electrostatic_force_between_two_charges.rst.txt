@@ -1,0 +1,106 @@
+Electrostatic force between two charges
+=======================================
+
+Also known as **Coulomb's law**, it is an experimental law that calculates the amount
+of force between two electrically charged particles at rest.
+
+Also see the :ref:`scalar law <Electrostatic force via charges and distance>`.
+
+**Notes:**
+
+#. If a given charge is in the vicinity of a system of point charges, then the net law can be
+   found via the :ref:`principle of superposition <Superposition of forces is sum (Vector)>`.
+
+**Notation:**
+
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+
+**Conditions:**
+
+#. The charges are small.
+
+#. The charges are at rest.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Coulomb%27s_law#Mathematical_form>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector.electrostatic_force_between_two_charges
+
+.. py:data:: force
+
+    Vector of the electrostatic :attr:`~symplyphysics.symbols.classical_mechanics.force` experienced by the :attr:`~first_charge` in the
+    vicinity of the :attr:`~second_charge` in vacuum.
+
+Symbol:
+    :code:`F_12`
+
+Latex:
+    :math:`{\vec F}_{12}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: first_charge
+
+    Value of the first point :attr:`~symplyphysics.symbols.electrodynamics.charge`.
+
+Symbol:
+    :code:`q_1`
+
+Latex:
+    :math:`q_{1}`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: second_charge
+
+    Value of the second point :attr:`~symplyphysics.symbols.electrodynamics.charge`.
+
+Symbol:
+    :code:`q_2`
+
+Latex:
+    :math:`q_{2}`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: position_vector
+
+    Position vector drawn from the :attr:`~second_charge` to the :attr:`~first_charge`.
+
+Symbol:
+    :code:`d_21`
+
+Latex:
+    :math:`{\vec d}_{21}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: force_law
+
+    :code:`F_12 = q_1 * q_2 / (4 * pi * epsilon_0) * d_21 / norm(d_21)^3`
+
+
+    Latex:
+        .. math::
+            {\vec F}_{12} = \frac{q_{1} q_{2}}{4 \pi \varepsilon_0} \frac{{\vec d}_{21}}{\left \Vert {\vec d}_{21} \right \Vert^{3}}
+
+
+.. py:data:: position_vector_law
+
+    :code:`d_21 = sign(q_1 * q_2) * sqrt(Abs(q_1 * q_2) / (4 * pi * epsilon_0)) * F_12 / norm(F_12)^(3/2)`
+
+
+    Latex:
+        .. math::
+            {\vec d}_{21} = \operatorname{sign}{\left(q_{1} q_{2} \right)} \sqrt{\frac{\left|{q_{1} q_{2}}\right|}{4 \pi \varepsilon_0}} \frac{{\vec F}_{12}}{\left \Vert {\vec F}_{12} \right \Vert^{\frac{3}{2}}}
+
+

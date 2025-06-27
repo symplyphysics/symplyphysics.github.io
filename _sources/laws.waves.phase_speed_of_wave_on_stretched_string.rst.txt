@@ -1,0 +1,64 @@
+Phase speed of wave on stretched string
+=======================================
+
+The phase speed of a wave on a stretched ideal string is set by properties of the string
+and not by properties of the wave such as frequency and amplitude.
+
+**Links:**
+
+#. `Wikipedia, formula 16.4.7 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.04%3A_Wave_Speed_on_a_Stretched_String>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.phase_speed_of_wave_on_stretched_string
+
+.. py:data:: phase_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.phase_speed` of the wave.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: tension
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.tension` in the string.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: linear_density
+
+    :attr:`~symplyphysics.symbols.basic.linear_density` of the string, i.e. its mass per units length.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`mass/length`
+
+
+.. py:data:: law
+
+    :code:`v = sqrt(T / mu)`
+
+
+    Latex:
+        .. math::
+            v = \sqrt{\frac{T}{\mu}}
+
+

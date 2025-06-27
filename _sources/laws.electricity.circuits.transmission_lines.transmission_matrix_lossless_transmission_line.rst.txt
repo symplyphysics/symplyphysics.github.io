@@ -1,0 +1,130 @@
+Transmission matrix of lossless transmission line
+=================================================
+
+Knowing the length of the transmission line, as well as the surge impedance of
+the line and the propagation constant of the signal, it is possible to calculate the
+parameters :math:`A, B, C, D` of the transmission matrix of a lossless line.
+
+**Notes:**
+
+#. See :ref:`Transmission Matrix <transmission_matrix_def>`.
+
+**Conditions:**
+
+#. The transmission line is lossless.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line
+
+.. py:data:: voltage_voltage_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: voltage_current_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.voltage` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
+    circuit at the output.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: current_voltage_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.voltage` at idle at the output.
+
+Symbol:
+    :code:`C`
+
+Latex:
+    :math:`C`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: current_current_parameter
+
+    Ratio of input :attr:`~symplyphysics.symbols.electrodynamics.current` to output :attr:`~symplyphysics.symbols.electrodynamics.current` in case of a short
+    circuit at the output.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: surge_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the transmission line.
+
+Symbol:
+    :code:`Z_S`
+
+Latex:
+    :math:`Z_\text{S}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the transmission line.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: phase_constant
+
+    :symbols`phase_constant`.
+
+Symbol:
+    :code:`beta`
+
+Latex:
+    :math:`\beta`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: law
+
+    :code:`[[A, B], [C, D]] = [[cos(beta * l), I * Z_S * sin(beta * l)], [I / Z_S * sin(beta * l), cos(beta * l)]]`
+
+
+    Latex:
+        .. math::
+            \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} \cos{\left(\beta l \right)} & i Z_\text{S} \sin{\left(\beta l \right)} \\ \frac{i}{Z_\text{S}} \sin{\left(\beta l \right)} & \cos{\left(\beta l \right)} \end{pmatrix}
+
+

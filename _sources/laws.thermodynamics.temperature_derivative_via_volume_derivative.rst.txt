@@ -1,0 +1,105 @@
+Temperature derivative via volume derivative
+============================================
+
+The **Joule—Thompson effect** describes the change in temperature that accompanies the expansion of
+a gas without production of work or transfer of heat, which is in effect an isenthalpic process.
+
+**Notes:**
+
+#. The left-hand side of the equation is also called the **Joule—Thompson coefficient**.
+
+**Conditions:**
+
+#. Particle count is assumed to be constant.
+#. Heat capacity is assumed to be independent of temperature.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Joule%E2%80%93Thomson_effect#The_Joule%E2%80%93Thomson_(Kelvin)_coefficient>`__.
+
+#. `Chemistry LibreTexts <https://chem.libretexts.org/Courses/Millersville_University/CHEM_341-_Physical_Chemistry_I/04%3A_Putting_the_First_Law_to_Work/4.05%3A_The_Joule-Thomson_Effect>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.temperature_derivative_via_volume_derivative
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: enthalpy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
+
+Symbol:
+    :code:`H`
+
+Latex:
+    :math:`H`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system as a function of :attr:`~pressure` and
+    :attr:`~enthalpy`.
+
+Symbol:
+    :code:`T(p, H)`
+
+Latex:
+    :math:`T{\left(p,H \right)}`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system as a function of :attr:`~temperature` and
+    :attr:`~pressure`.
+
+Symbol:
+    :code:`V(T(p, H), p)`
+
+Latex:
+    :math:`V{\left(T{\left(p,H \right)},p \right)}`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: isobaric_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` of the system at constant pressure.
+
+Symbol:
+    :code:`C_p`
+
+Latex:
+    :math:`C_{p}`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: law
+
+    :code:`Derivative(T(p, H), p) = (T(p, H) * Derivative(V(T(p, H), p), T(p, H)) - V(T(p, H), p)) / C_p`
+
+
+    Latex:
+        .. math::
+            \frac{\partial}{\partial p} T{\left(p,H \right)} = \frac{T{\left(p,H \right)} \frac{\partial}{\partial T{\left(p,H \right)}} V{\left(T{\left(p,H \right)},p \right)} - V{\left(T{\left(p,H \right)},p \right)}}{C_{p}}
+
+

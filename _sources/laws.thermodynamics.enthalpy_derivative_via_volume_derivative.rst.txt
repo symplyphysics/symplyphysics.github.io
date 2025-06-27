@@ -1,0 +1,82 @@
+Enthalpy derivative via volume derivative
+=========================================
+
+Isothermal derivative of enthalpy w.r.t. pressure can be found using volume as a function
+of temperature and pressure.
+
+**Conditions:**
+
+#. Works for an infinitesimal quasi-static isothermal process.
+
+**Links:**
+
+#. `Wikipedia, see third table <https://en.wikipedia.org/wiki/Table_of_thermodynamic_equations#Maxwell's_relations>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.enthalpy_derivative_via_volume_derivative
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: enthalpy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
+
+Symbol:
+    :code:`H(T, p)`
+
+Latex:
+    :math:`H{\left(T,p \right)}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
+
+Symbol:
+    :code:`V(T, p)`
+
+Latex:
+    :math:`V{\left(T,p \right)}`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: law
+
+    :code:`Derivative(H(T, p), p) = V(T, p) - T * Derivative(V(T, p), T)`
+
+
+    Latex:
+        .. math::
+            \frac{\partial}{\partial p} H{\left(T,p \right)} = V{\left(T,p \right)} - T \frac{\partial}{\partial T} V{\left(T,p \right)}
+
+

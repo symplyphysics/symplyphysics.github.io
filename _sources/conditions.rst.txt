@@ -1,0 +1,21 @@
+Conditions
+==========
+
+The laws in this folder are considered conditions, i.e. boundary conditions, normalization
+conditions or equations of state.
+
+.. py:currentmodule:: symplyphysics.conditions
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    conditions.dynamics
+    conditions.electricity
+    conditions.quantum_mechanics
+    conditions.thermodynamics
+
+
+
+

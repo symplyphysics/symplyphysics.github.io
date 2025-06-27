@@ -1,0 +1,75 @@
+Energy levels of harmonic oscillator
+====================================
+
+As opposed to the classical harmonic oscillator, the energy levels of a quantum harmonic oscillator
+are quantized, meaning that its energy take a value out of a discrete range. These energy levels
+are equidistant, i.e. the difference between successive energy levels is the same for all levels.
+
+**Notation:**
+
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
+
+**Notes**
+
+#. This means that the energy of a quantum oscillator cannot be zero and the lowest it can be
+   is the zero-point energy :math:`E_0 = \hbar \omega / 2`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator#Hamiltonian_and_energy_eigenstates>`__.
+
+.. py:currentmodule:: symplyphysics.laws.quantum_mechanics.harmonic_oscillator.energy_levels
+
+.. py:data:: energy_level
+
+    Energy of the level corresponding to the :attr:`~mode_number`.
+
+Symbol:
+    :code:`E_n`
+
+Latex:
+    :math:`E_{n}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: mode_number
+
+    Quantum number of oscillator, which is any non-negative integer (:math:`0, 1, 2, \dots`).
+    See :attr:`~symplyphysics.symbols.basic.nonnegative_number`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: law
+
+    :code:`E_n = (N + 1/2) * hbar * w`
+
+
+    Latex:
+        .. math::
+            E_{n} = \left(N + \frac{1}{2}\right) \hbar \omega
+
+

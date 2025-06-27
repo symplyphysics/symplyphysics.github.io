@@ -1,0 +1,63 @@
+Momentum is mass times velocity (Vector)
+========================================
+
+An object's *linear momentum* is a vector quantity defined as the product of its mass and velocity vector.
+
+**Links:**
+
+#. `Wikipedia, see first paragraph <https://en.wikipedia.org/wiki/Momentum#>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.vector.momentum_is_mass_times_velocity_vector
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the object.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: velocity
+
+    Vector of the object's velocity. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`{\vec v}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: momentum
+
+    Vector of the object's linear :attr:`~symplyphysics.symbols.classical_mechanics.momentum`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`{\vec p}`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: law
+
+    :code:`p = m * v`
+
+
+    Latex:
+        .. math::
+            {\vec p} = m {\vec v}
+
+

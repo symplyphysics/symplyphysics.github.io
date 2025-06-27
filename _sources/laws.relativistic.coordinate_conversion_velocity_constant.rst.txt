@@ -1,0 +1,87 @@
+Coordinate conversion at constant velocity
+==========================================
+
+Let the frame of reference move relative to the other frame of reference at a constant speed along the X
+axis, and the origin of the spatial coordinates coincide at the initial moment of time in both systems.
+Then there are simple transformations that can be used to get the x coordinate in one frame of reference,
+knowing the x coordinate in another frame of reference.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Links:**
+
+#. `Wikipedia, second formula in box <https://en.wikipedia.org/wiki/Lorentz_transformation#Coordinate_transformation>`__.
+
+..
+    TODO rename file
+
+.. py:currentmodule:: symplyphysics.laws.relativistic.coordinate_conversion_velocity_constant
+
+.. py:data:: position_in_proper_frame
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` in the second frame of reference.
+
+Symbol:
+    :code:`x_2`
+
+Latex:
+    :math:`x_{2}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: position_in_lab_frame
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` in the first frame of reference.
+
+Symbol:
+    :code:`x_1`
+
+Latex:
+    :math:`x_{1}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: proper_frame_speed_in_lab_frame
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the second reference frame relative to the first one.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: time_in_lab_frame
+
+    :attr:`~symplyphysics.symbols.basic.time` in the first frame of reference.
+
+Symbol:
+    :code:`t_1`
+
+Latex:
+    :math:`t_{1}`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`x_2 = (x_1 - v * t_1) / sqrt(1 - (v / c)^2)`
+
+
+    Latex:
+        .. math::
+            x_{2} = \frac{x_{1} - v t_{1}}{\sqrt{1 - \left(\frac{v}{c}\right)^{2}}}
+
+

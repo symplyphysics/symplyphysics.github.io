@@ -1,0 +1,66 @@
+Buoyant force from density and volume
+=====================================
+
+Any object, totally or partially immersed in a fluid (i.e. liquid or gas), is buoyed up by a force equal to the
+weight of the fluid displaced by the object. Also known as the Archimedes principle. The *buoyant force*
+vector is directed opposite to the gravity vector.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Archimedes%27_principle#Formula>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.buoyant_force_from_density_and_volume
+
+.. py:data:: buoyant_force
+
+    The buoyant (Archimedes) :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`F_A`
+
+Latex:
+    :math:`F_\text{A}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: fluid_density
+
+    The :attr:`~symplyphysics.symbols.basic.density` of the fluid.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: displaced_volume
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the displaced fluid. Equivalently, the volume of the part of the body
+    immersed in the fluid.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: law
+
+    :code:`F_A = -rho * g * V`
+
+
+    Latex:
+        .. math::
+            F_\text{A} = - \rho g V
+
+

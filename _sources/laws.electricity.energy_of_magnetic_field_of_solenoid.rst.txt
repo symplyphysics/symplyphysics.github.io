@@ -1,0 +1,81 @@
+Energy of magnetic field of coil
+================================
+
+Energy of a coil depends on the material of the core, the mangetic field strength within
+the coil and volume of the core.
+
+**Links:**
+
+#. `Physics LibreTexts, derivable from 14.4.1 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/14%3A_Inductance/14.04%3A_Energy_in_a_Magnetic_Field>`__.
+
+..
+    TODO: replace `solenoid` with `coil` in file name
+
+.. py:currentmodule:: symplyphysics.laws.electricity.energy_of_magnetic_field_of_solenoid
+
+.. py:data:: energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` of the coil.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: relative_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permeability` of the medium.
+
+Symbol:
+    :code:`mu_r`
+
+Latex:
+    :math:`\mu_\text{r}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: magnetic_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.magnetic_field_strength`.
+
+Symbol:
+    :code:`H`
+
+Latex:
+    :math:`H`
+
+Dimension:
+    :code:`current/length`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the coil.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: law
+
+    :code:`E = mu_0 * mu_r * H^2 * V / 2`
+
+
+    Latex:
+        .. math::
+            E = \frac{\mu_0 \mu_\text{r} H^{2} V}{2}
+
+

@@ -1,0 +1,59 @@
+Cross section of interaction in Coulomb's interaction model
+===========================================================
+
+The effective cross section is a physical quantity characterizing the probability of
+transition of a system of two interacting particles to a certain final state, a
+quantitative characteristic of the acts of collision of particles of a stream hitting a
+target with target particles. The effective cross-section has the dimension of the area.
+In a magnetron, this value can be calculated if you know the ionization energy of gas
+atoms.
+
+**Notation:**
+
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+#. :math:`\varepsilon_0` (:code:`epsilon_0`) is :attr:`~symplyphysics.quantities.vacuum_permittivity`.
+
+..
+    TODO: find link
+    TODO: move to `magnetron` folder?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.cross_section_of_interaction_in_coulomb_interaction_model
+
+.. py:data:: cross_sectional_area_of_interaction
+
+    :attr:`~symplyphysics.symbols.chemistry.cross_section` of the interaction of particles.
+
+Symbol:
+    :code:`sigma`
+
+Latex:
+    :math:`\sigma`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: ionization_energy
+
+    Ionization :attr:`~symplyphysics.symbols.basic.energy` of atoms expressed in :attr:`~symplyphysics.symbols.electrodynamics.voltage`.
+
+Symbol:
+    :code:`E_i`
+
+Latex:
+    :math:`E_\text{i}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: law
+
+    :code:`sigma = e^2 / (2 * pi * epsilon_0^2 * E_i^2)`
+
+
+    Latex:
+        .. math::
+            \sigma = \frac{e^{2}}{2 \pi \varepsilon_0^{2} E_\text{i}^{2}}
+
+

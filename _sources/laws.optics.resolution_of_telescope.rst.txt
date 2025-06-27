@@ -1,0 +1,80 @@
+Resolution of telescope
+=======================
+
+The resolution of the telescope is the minimum angular distance between point objects that can be
+distinguished separately in the telescope.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Angular_resolution#The_Rayleigh_criterion>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.resolution_of_telescope
+
+.. py:data:: resolution
+
+    :attr:`~symplyphysics.symbols.optics.angular_resolution` of the telescope.
+
+Symbol:
+    :code:`theta`
+
+Latex:
+    :math:`\theta`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of light.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: lens_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the lens.
+
+Symbol:
+    :code:`D`
+
+Latex:
+    :math:`D`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: constant_rad
+
+    Constant factor :math:`\approx 1.22 \, \text{rad}` derived from a calculation of the
+    position of the first dark circular ring surrounding the central Airy disc of the
+    diffraction pattern.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`theta = A * lambda / D`
+
+
+    Latex:
+        .. math::
+            \theta = A \frac{\lambda}{D}
+
+

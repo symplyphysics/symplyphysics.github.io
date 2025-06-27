@@ -1,0 +1,72 @@
+Average speed in Maxwell—Boltzmann statistics
+=============================================
+
+The *average*, or mean, *speed* is the expected value of the speed distribution of gas particles.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+**Conditions:**
+
+#. The gas is in thermal equilibrium with the environment.
+#. The gas particles are distributed according to Maxwell—Boltzmann statistics.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution#Typical_speeds>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.average_speed_in_maxwell_boltzmann_statistics
+
+.. py:data:: average_speed
+
+    Average molecular :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`avg(v)`
+
+Latex:
+    :math:`\langle v \rangle`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: molecular_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a gas molecule.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`avg(v) = sqrt(8 * k_B * T / (pi * m))`
+
+
+    Latex:
+        .. math::
+            \langle v \rangle = \sqrt{\frac{8 k_\text{B} T}{\pi m}}
+
+

@@ -1,0 +1,58 @@
+Focal length of a concave spherical mirror
+==========================================
+
+The focal length of a spherical mirror is equal to half the radius of curvature.
+
+**Notes:**
+
+#. For a concave mirror, the focal length is positive.
+#. For a convex mirror, the focal length is negative.
+
+**Conditions:**
+
+#. The :ref:`Small-angle approximation <small_angle_def>` is assumed.
+
+**Links:**
+
+#. `Spherical mirrors <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/02%3A_Geometric_Optics_and_Image_Formation/2.03%3A_Spherical_Mirrors>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.focal_length_of_a_concave_spherical_mirror
+
+.. py:data:: focal_length
+
+    Mirror's :attr:`~symplyphysics.symbols.optics.focal_length`
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: curvature_radius
+
+    Mirror's :attr:`~symplyphysics.symbols.basic.radius_of_curvature`
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`r`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`f = r / 2`
+
+
+    Latex:
+        .. math::
+            f = \frac{r}{2}
+
+

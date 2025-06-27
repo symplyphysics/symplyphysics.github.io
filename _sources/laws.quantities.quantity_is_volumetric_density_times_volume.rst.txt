@@ -1,0 +1,61 @@
+Quantity is volumetric density times volume
+===========================================
+
+An extensive quantity of interest can be obtained by multiplying the corresponding *volumetric
+density* by volume.
+
+.. py:currentmodule:: symplyphysics.laws.quantities.quantity_is_volumetric_density_times_volume
+
+.. py:data:: extensive_quantity
+
+    Extensive quantity. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
+
+Symbol:
+    :code:`X`
+
+Latex:
+    :math:`X`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: volumetric_density
+
+    Intensive volumetric density, which has the dimension of :attr:`~extensive_quantity`
+    divided by :attr:`~volume`. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
+
+Symbol:
+    :code:`rho_X`
+
+Latex:
+    :math:`\rho_{X}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: law
+
+    :code:`X = rho_X * V`
+
+
+    Latex:
+        .. math::
+            X = \rho_{X} V
+
+

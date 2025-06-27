@@ -1,0 +1,171 @@
+Astronomy (Symbols)
+===================
+
+Symbols related to astronomy.
+
+.. py:currentmodule:: symplyphysics.symbols.astronomy
+
+.. py:data:: absolute_magnitude
+
+    **Absolute magnitude** is a measure of the luminosity of a celestial object on an inverse
+    logarithmic astronomical magnitude scale. An object's absolute magnitude is defined to be
+    equal to the apparent magnitude that the object would have if it were viewed from a
+    distance of exactly 10 parsecs, without extinction or dimming of its light due to
+    absorption by interstellar matter and cosmic dust.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Absolute_magnitude>`__.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`M`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: apparent_magnitude
+
+    **Apparent magnitude** is a measure of the brightness of a star, astronomical object or other
+    celestial objects like artificial satellites. Its value depends on its intrinsic luminosity,
+    its distance, and any extinction of the object's light caused by interstellar dust along the
+    line of sight to the observer.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Apparent_magnitude>`__.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: luminosity
+
+    In astronomy, **luminosity** is the total amount of electromagnetic energy emitted per unit of
+    time by a star, galaxy, or other astronomical objects.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Luminosity#>`__.
+
+Symbol:
+    :code:`L`
+
+Latex:
+    :math:`L`
+
+Dimension:
+    :code:`power`
+
+
+.. py:data:: illuminance
+
+    In photometry, **illuminance** is the total luminous flux incident on a surface, per unit area.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Illuminance#>`__.
+
+Symbol:
+    :code:`E_v`
+
+Latex:
+    :math:`E_\text{v}`
+
+Dimension:
+    :code:`luminous_intensity/area`
+
+
+.. py:data:: irradiance
+
+    In radiometry, **irradiance**, or **flux density**, is the radiant flux received by a
+    surface per unit area.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Irradiance>`__.
+
+Symbol:
+    :code:`E_e`
+
+Latex:
+    :math:`E_\text{e}`
+
+Dimension:
+    :code:`power/area`
+
+
+.. py:data:: eccentricity
+
+    The **eccentricity** of a conic section is a non-negative real number that uniquely
+    characterizes its shape. 
+
+Symbol:
+    :code:`e`
+
+Latex:
+    :math:`e`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: zenith_angle
+
+    The **zenith angle**, or **zenith angular distance**, is the angle between a direction of
+    interest (e.g. a star) and the local zenith.
+
+Symbol:
+    :code:`theta`
+
+Latex:
+    :math:`\theta`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: declination
+
+    **Declination** is one of the two angles that locate a point on the celestial sphere in
+    the equatorial coordinate system, measured north (positive) or south (negative) of the
+    celestial equator.
+
+Symbol:
+    :code:`delta`
+
+Latex:
+    :math:`\delta`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: altitude
+
+    **Altitude**, sometimes referred to as **elevation** or **apparent height**, is the angle
+    between the object and the observer's local horizon.
+
+    **Links:**
+
+    #. `Wikipedia <https://en.wikipedia.org/wiki/Horizontal_coordinate_system#Definition>`__.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`angle`
+
+

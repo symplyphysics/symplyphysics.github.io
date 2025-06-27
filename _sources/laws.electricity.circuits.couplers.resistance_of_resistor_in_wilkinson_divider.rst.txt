@@ -1,0 +1,65 @@
+Resistor resistance in Wilkinson divider
+========================================
+
+The Wilkinson divider is a device designed to divide the power of a microwave signal
+into two output ports. The microstrip version has one surface-mounted resistor. The
+resistance of this resistor depends on the resistance of the transmission line and the
+power ratio at the output ports.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.resistance_of_resistor_in_wilkinson_divider
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the resistor.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: transmission_line_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the transmission line.
+
+Symbol:
+    :code:`R_0`
+
+Latex:
+    :math:`R_{0}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: power_ratio
+
+    Ratio of the power at the outputs of the divider.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`R = R_0 * (1 + k^2) / k`
+
+
+    Latex:
+        .. math::
+            R = \frac{R_{0} \left(1 + k^{2}\right)}{k}
+
+

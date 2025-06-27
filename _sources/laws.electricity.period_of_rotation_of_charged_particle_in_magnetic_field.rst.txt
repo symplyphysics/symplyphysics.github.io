@@ -1,0 +1,87 @@
+Period of rotation of charged particle in magnetic field
+========================================================
+
+When a charged particle enters a magnetic field, it experiences an :doc:`electromagnetic
+force <laws.electricity.vector.lorentz_force_via_electromagnetic_field>` upon itself.
+In the absence of the electric field, the particle starts moving in a circular orbit. The
+period of the particle's rotation is determined by the mass and charge of the particle
+as well as by the magnetic field and it does not depend on the particle speed.
+
+**Conditions:**
+
+#. The particle's speed and the magnetic field are perpendicular to each other.
+#. The magnetic field is uniform.
+#. The electric field is zero.
+
+**Links:**
+
+#. `Physics LibreTexts, formula 11.4.3 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/11%3A_Magnetic_Forces_and_Fields/11.04%3A_Motion_of_a_Charged_Particle_in_a_Magnetic_Field>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field
+
+.. py:data:: period
+
+    :attr:`~symplyphysics.symbols.basic.period` of the particle's rotation.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the particle.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: charge
+
+    :attr:`~symplyphysics.symbols.electrodynamics.charge` of the particle.
+
+Symbol:
+    :code:`q`
+
+Latex:
+    :math:`q`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: magnetic_flux_density
+
+    Magnitude of :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`magnetic_density`
+
+
+.. py:data:: law
+
+    :code:`T = 2 * pi * m / (q * B)`
+
+
+    Latex:
+        .. math::
+            T = \frac{2 \pi m}{q B}
+
+

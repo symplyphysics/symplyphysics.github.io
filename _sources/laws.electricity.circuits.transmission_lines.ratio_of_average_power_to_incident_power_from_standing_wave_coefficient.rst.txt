@@ -1,0 +1,63 @@
+Standing wave ratio from ratio of average power to incident power
+=================================================================
+
+Knowing the average power delivered to the load and the incident power, it is possible
+to calculate the standing wave ratio.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_standing_wave_coefficient
+
+.. py:data:: standing_wave_ratio
+
+    :attr:`~symplyphysics.symbols.electrodynamics.standing_wave_ratio`.
+
+Symbol:
+    :code:`SWR`
+
+Latex:
+    :math:`\text{SWR}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: incident_power
+
+    Incident :attr:`~symplyphysics.symbols.basic.power`.
+
+Symbol:
+    :code:`P_incident`
+
+Latex:
+    :math:`P_\text{incident}`
+
+Dimension:
+    :code:`power`
+
+
+.. py:data:: average_power
+
+    Average :attr:`~symplyphysics.symbols.basic.power` delivered to the load.
+
+Symbol:
+    :code:`avg(P)`
+
+Latex:
+    :math:`\langle P \rangle`
+
+Dimension:
+    :code:`power`
+
+
+.. py:data:: law
+
+    :code:`avg(P) / P_incident = 4 * SWR / (SWR + 1)^2`
+
+
+    Latex:
+        .. math::
+            \frac{\langle P \rangle}{P_\text{incident}} = \frac{4 \text{SWR}}{\left(\text{SWR} + 1\right)^{2}}
+
+

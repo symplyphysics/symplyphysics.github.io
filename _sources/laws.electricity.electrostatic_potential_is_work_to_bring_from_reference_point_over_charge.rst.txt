@@ -1,0 +1,72 @@
+Electrostatic potential is work to bring from reference point over charge
+=========================================================================
+
+Electrostatic potential is a physical quantity defined as the amount of
+work needed per unit electric charge to move it from a reference point,
+usually infinity, to a specific point in an electric field.
+
+Infinity is usually used as the reference point because this would make
+the potential approach zero at an infinitely remote point.
+
+**Notes:**
+
+#. The electric potential is defined up to a constant.
+
+**Links:**
+
+#. `Wikipedia, fourth formula <https://en.wikipedia.org/wiki/Electric_potential#Electrostatics>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge
+
+.. py:data:: electrostatic_potential
+
+    Electrostatic potential of a point in an electric field. See :attr:`~symplyphysics.symbols.electrodynamics.electric_potential`.
+
+Symbol:
+    :code:`U_E`
+
+Latex:
+    :math:`U_{\vec E}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: work
+
+    :attr:`~symplyphysics.symbols.basic.work` needed to bring the charge from the reference point.
+
+Symbol:
+    :code:`W`
+
+Latex:
+    :math:`W`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: charge
+
+    Value of the electric :attr:`~symplyphysics.symbols.electrodynamics.charge`.
+
+Symbol:
+    :code:`q`
+
+Latex:
+    :math:`q`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: law
+
+    :code:`U_E = W / q`
+
+
+    Latex:
+        .. math::
+            U_{\vec E} = \frac{W}{q}
+
+

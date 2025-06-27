@@ -1,0 +1,86 @@
+Bragg diffraction from angle of diffraction and wavelength
+==========================================================
+
+Diffraction from a three-dimensional periodic structure such as atoms in a crystal is called Bragg's
+diffraction. This is similar to what happens when waves are scattered on a diffraction grating. Bragg's
+diffraction is a consequence of interference between waves reflected from crystal planes.
+
+**Conditions:**
+
+#. The scattering of light on the atomic planes is specular (mirror-like).
+#. The incident and scattered light and the light inside the crystal have the same wavelength.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Bragg%27s_law#Bragg_condition>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength
+
+.. py:data:: distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between crystal planes, also called the "grating constant" of the crystal.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: diffraction_order
+
+    **Diffraction order** indicates the number of integer wavelengths that fit in the total
+    light path so that the light waves could constructively interfere. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the incident and scattered light.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: glancing_angle
+
+    The **glancing angle** is the :attr:`~symplyphysics.symbols.basic.angle` that complements the angle of incidence of the beam
+    up to a right angle.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\varphi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`d = N * lambda / (2 * sin(phi))`
+
+
+    Latex:
+        .. math::
+            d = \frac{N \lambda}{2 \sin{\left(\varphi \right)}}
+
+

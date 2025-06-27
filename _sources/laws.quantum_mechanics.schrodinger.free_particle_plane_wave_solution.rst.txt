@@ -1,0 +1,109 @@
+Free particle plane wave solution
+=================================
+
+In the absence of a potential field (:math:`U = 0`) the wave function can be represented in the form of
+a `plane wave <https://en.wikipedia.org/wiki/Plane_wave>`__.
+
+**Notation:**
+
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
+
+**Notes:**
+
+#. The energy and momentum of a quantum particle are related by the equation :math:`E = p^2 / (2 m)`
+   where :math:`m` is the mass of the quantum particle.
+#. The wave function must be normalized, i.e. the integral of the square of its absolute value
+   over the whole range of the spatial variable must equal 1, but the integral of the complex expontential
+   diverges if taken over the real line. This is not a problem, though, because the states described by
+   such a wave function would never be infinite (they would not be defined over the whole real line).
+   Moreover, the correct solution can be represented by a linear combination of planar waves, which can be
+   made convergent.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Free_particle#Quantum_free_particle>`__.
+
+.. py:currentmodule:: symplyphysics.laws.quantum_mechanics.schrodinger.free_particle_plane_wave_solution
+
+.. py:data:: dimensionless_wave_function
+
+    Dimensionless :attr:`~symplyphysics.symbols.quantum_mechanics.wave_function` describing the particle's state. The dimension
+    coefficient has been omitted since this wave function cannot be normalized as it is,
+    see Notes above.
+
+Symbol:
+    :code:`psi`
+
+Latex:
+    :math:`\psi`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: particle_momentum
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of the particle.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: particle_energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` of the particle.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` of the particle.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`psi = exp(I / hbar * (p * x - E * t))`
+
+
+    Latex:
+        .. math::
+            \psi = \exp{\left(\frac{i}{\hbar} \left(p x - E t\right) \right)}
+
+

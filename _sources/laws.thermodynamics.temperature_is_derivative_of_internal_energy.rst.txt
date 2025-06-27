@@ -1,0 +1,91 @@
+Temperature is derivative of internal energy
+============================================
+
+Temperature of a thermodynamic system can be found when internal energy is known as a function of entropy.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Internal_energy#Internal_energy_of_multi-component_systems>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.temperature_is_derivative_of_internal_energy
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: entropy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system.
+
+Symbol:
+    :code:`S`
+
+Latex:
+    :math:`S`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the system.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: particle_count
+
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: internal_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.internal_energy` of the system as a function of its natural variables.
+
+Symbol:
+    :code:`U(S, V, N)`
+
+Latex:
+    :math:`U{\left(S,V,N \right)}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: law
+
+    :code:`T = Derivative(U(S, V, N), S)`
+
+
+    Latex:
+        .. math::
+            T = \frac{\partial}{\partial S} U{\left(S,V,N \right)}
+
+

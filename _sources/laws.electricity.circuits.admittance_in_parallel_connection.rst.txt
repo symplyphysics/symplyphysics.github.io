@@ -1,0 +1,54 @@
+Admittance in parallel connection
+=================================
+
+The total admittance of the circuit whose components are connected in parallel is the sum
+of the admittances of individual components.
+
+**Conditions:**
+
+#. Components are connected in parallel.
+
+**Links:**
+
+#. `Electronics Tutorials, "Admittance of a Parallel RLC Circuit" <https://www.electronics-tutorials.ws/accircuits/parallel-circuit.html>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.admittance_in_parallel_connection
+
+.. py:data:: total_admittance
+
+    Total :attr:`~symplyphysics.symbols.electrodynamics.admittance` of the circuit.
+
+Symbol:
+    :code:`Y`
+
+Latex:
+    :math:`Y`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance` of :math:`i`-th circuit.
+
+Symbol:
+    :code:`Y[i]`
+
+Latex:
+    :math:`{Y}_{i}`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: law
+
+    :code:`Y = Sum(Y[i], i)`
+
+
+    Latex:
+        .. math::
+            Y = \sum_i {Y}_{i}
+
+

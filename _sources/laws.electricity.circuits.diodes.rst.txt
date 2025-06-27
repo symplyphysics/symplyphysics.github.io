@@ -1,0 +1,29 @@
+**Diodes**
+==========
+
+A *diode* is a two-terminal electronic component that conducts current primarily in one direction.
+This directory also contains laws for triodes, tetrodes, pentodes, etc.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.diodes
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    laws.electricity.circuits.diodes.current_from_voltage_and_diode_constant_in_vacuum_diode
+    laws.electricity.circuits.diodes.current_from_voltage_and_triode_constant_in_vacuum_triode
+    laws.electricity.circuits.diodes.diode_constant_for_plane_parallel_diode
+    laws.electricity.circuits.diodes.diode_constant_of_cylindrical_diode
+    laws.electricity.circuits.diodes.direct_permeability_coefficient_for_triode_with_flat_electrodes
+    laws.electricity.circuits.diodes.internal_resistance_of_vacuum_diode
+    laws.electricity.circuits.diodes.limit_operating_frequency_of_vacuum_diode
+    laws.electricity.circuits.diodes.space_charge_density_in_diode_device
+    laws.electricity.circuits.diodes.steepness_of_volt_ampere_characteristic_of_vacuum_diode
+    laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_pentode
+    laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_tetrode
+    laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_triode
+
+
+

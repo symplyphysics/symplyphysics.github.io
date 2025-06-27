@@ -1,0 +1,94 @@
+Reynolds number formula
+=======================
+
+*Reynolds number* is a dimensionless quantity that characterizes the flow of a fluid. It
+helps predict fluid flow patterns in different situations by measuring the ratio between
+inertial and viscous forces. Low Reynolds numbers tend to correspond to laminar flows,
+while high Reynolds numbers tend to correspond to turbulent flows.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Reynolds_number#Definition>`__.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.reynolds_number_formula
+
+.. py:data:: reynolds_number
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.reynolds_number` of the fluid.
+
+Symbol:
+    :code:`Re`
+
+Latex:
+    :math:`\text{Re}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: characteristic_length
+
+    :attr:`~symplyphysics.symbols.basic.characteristic_length` of the system.
+
+Symbol:
+    :code:`l_c`
+
+Latex:
+    :math:`l_\text{c}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: flow_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed`
+
+Symbol:
+    :code:`u`
+
+Latex:
+    :math:`u`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: dynamic_viscosity
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the fluid.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`pressure*time`
+
+
+.. py:data:: law
+
+    :code:`Re = rho * u * l_c / mu`
+
+
+    Latex:
+        .. math::
+            \text{Re} = \frac{\rho u l_\text{c}}{\mu}
+
+

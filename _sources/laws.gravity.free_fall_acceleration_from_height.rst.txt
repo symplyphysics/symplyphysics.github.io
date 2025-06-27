@@ -1,0 +1,78 @@
+Free fall acceleration from height
+==================================
+
+**Free fall** is any motion of a body where gravity is the only force acting upon it.
+**Free fall acceleration** is the acceleration the body experiences during the free fall.
+
+**Notation:**
+
+#. :math:`G` (:code:`G`) is :attr:`~symplyphysics.quantities.gravitational_constant`.
+
+.. py:currentmodule:: symplyphysics.laws.gravity.free_fall_acceleration_from_height
+
+.. py:data:: free_fall_acceleration
+
+    Free fall :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the body.
+
+Symbol:
+    :code:`a`
+
+Latex:
+    :math:`a`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: planet_radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the planet.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`r`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: elevation
+
+    Elevation (:attr:`~symplyphysics.symbols.classical_mechanics.height`) of the body from the planet's surface.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: planet_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the planet.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`a = G * m / (r + h)^2`
+
+
+    Latex:
+        .. math::
+            a = \frac{G m}{\left(r + h\right)^{2}}
+
+

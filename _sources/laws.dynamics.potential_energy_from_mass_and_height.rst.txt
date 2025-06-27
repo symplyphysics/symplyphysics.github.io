@@ -1,0 +1,67 @@
+Potential energy from mass and height
+=====================================
+
+The potential energy is a form of energy a body possesses because of its position relative to
+other objects.
+
+**Links:**
+
+#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Potential_energy#Overview>`__.
+
+..
+    TODO: add note that it is specifically gravitational potential energy => move to `gravity`?
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.potential_energy_from_mass_and_height
+
+.. py:data:: potential_energy
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the body.
+
+Symbol:
+    :code:`U`
+
+Latex:
+    :math:`U`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the body.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: height
+
+    The elevation from ground level. See :attr:`~symplyphysics.symbols.classical_mechanics.height`
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`U = m * g * h`
+
+
+    Latex:
+        .. math::
+            U = m g h
+
+

@@ -1,0 +1,106 @@
+Equivalent diode voltage for triode
+===================================
+
+A triode has three electrodes: a cathode, an anode and one control grid. The triode can
+be replaced with an equivalent diode and the :math:`3/2`-power law can be applied. The
+voltage in the equivalent diode can also be calculated.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_triode
+
+.. py:data:: equivalent_diode_voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the cathode and anode of an equivalent diode for a triode.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: anode_distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the cathode and the anode.
+
+Symbol:
+    :code:`d_a`
+
+Latex:
+    :math:`d_\text{a}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: grid_distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the cathode and the grid.
+
+Symbol:
+    :code:`d_g`
+
+Latex:
+    :math:`d_\text{g}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: anode_voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the cathode and the anode.
+
+Symbol:
+    :code:`U_a`
+
+Latex:
+    :math:`U_\text{a}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: voltage_gain
+
+    Voltage gain (:attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`) of the triode.
+
+Symbol:
+    :code:`gain_V`
+
+Latex:
+    :math:`\text{gain}_{V}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: grid_voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the cathode and the grid.
+
+Symbol:
+    :code:`U_g`
+
+Latex:
+    :math:`U_\text{g}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: law
+
+    :code:`V = (U_g + U_a / gain_V) / (1 + (d_a / d_g)^(4/3) / gain_V)`
+
+
+    Latex:
+        .. math::
+            V = \frac{U_\text{g} + \frac{U_\text{a}}{\text{gain}_{V}}}{1 + \frac{\left(\frac{d_\text{a}}{d_\text{g}}\right)^{\frac{4}{3}}}{\text{gain}_{V}}}
+
+

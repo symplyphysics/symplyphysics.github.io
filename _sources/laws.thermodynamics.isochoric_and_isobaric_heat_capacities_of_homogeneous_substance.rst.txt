@@ -1,0 +1,109 @@
+Isochoric and isobaric heat capacities of homogeneous substance
+===============================================================
+
+The **Mayer's relation** is the relation between heat capacity at constant pressure and heat
+capacity at constant volume. In the current form it is applicable to any homogeneous substance,
+not just ideal gases.
+
+**Links:**
+
+#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Mayer%27s_relation>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance
+
+.. py:data:: isobaric_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
+
+Symbol:
+    :code:`C_p`
+
+Latex:
+    :math:`C_{p}`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: isochoric_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.heat_capacity` at constant :attr:`~symplyphysics.symbols.classical_mechanics.volume`.
+
+Symbol:
+    :code:`C_V`
+
+Latex:
+    :math:`C_{V}`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the substance.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the substance.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: thermal_expansion_coefficient
+
+    :attr:`~symplyphysics.symbols.thermodynamics.thermal_expansion_coefficient` of the substance. Also see :doc:`Thermal volumetric expansion
+    coefficient <definitions.volumetric_coefficient_of_thermal_expansion>`.
+
+Symbol:
+    :code:`alpha_V`
+
+Latex:
+    :math:`\alpha_{V}`
+
+Dimension:
+    :code:`1/temperature`
+
+
+.. py:data:: isothermal_compressibility
+
+    :attr:`~symplyphysics.symbols.thermodynamics.thermodynamic_compressibility` of the substance. Also see :doc:`Isothermal compressibility
+    <definitions.thermodynamic_compressibility>`.
+
+Symbol:
+    :code:`beta_T`
+
+Latex:
+    :math:`\beta_{T}`
+
+Dimension:
+    :code:`1/pressure`
+
+
+.. py:data:: law
+
+    :code:`C_p - C_V = V * T * alpha_V^2 / beta_T`
+
+
+    Latex:
+        .. math::
+            C_{p} - C_{V} = \frac{V T \alpha_{V}^{2}}{\beta_{T}}
+
+

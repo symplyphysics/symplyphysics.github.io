@@ -1,0 +1,80 @@
+Spring reaction is proportional to deformation
+==============================================
+
+Also called Hooke's law, it is an empirical law which states that the force needed to
+extend or compress a spring by some distance is proportional with respect to the
+deformation of the spring. Also see the :ref:`vector counterpart <Spring reaction is proportional
+to deformation (vector)>` of this law.
+
+**Notes:**
+
+#. The spring is aligned in the positive direction of the :math:`x`-axis, thus the
+   deformation can be positive, in which case the spring is stretched, or negative, in
+   which case the spring is compressed. The sign of the force indicates its direction
+   along the :math:`x`-axis.
+
+**Conditions:**
+
+#. :math:`x` is small compared to the total possible deformation of the spring
+#. Only applies to elastic deformations of the body, i.e. the body reverts to its
+   initial state after the removal of force or load applied onto it.
+
+**Links:**
+
+#. `Wikipedia, last formula in paragraph <https://en.wikipedia.org/wiki/Hooke%27s_law#Linear_springs>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.springs.spring_reaction_is_proportional_to_deformation
+
+.. py:data:: spring_reaction
+
+    Restoring :attr:`~symplyphysics.symbols.classical_mechanics.force`, or spring reaction, exerted by the spring due to the
+    deformation.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`F`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: stiffness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` of the spring.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`force/length`
+
+
+.. py:data:: deformation
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.deformation` of the spring.
+
+Symbol:
+    :code:`Delta(l)`
+
+Latex:
+    :math:`\Delta l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`F = -k * Delta(l)`
+
+
+    Latex:
+        .. math::
+            F = - k \Delta l
+
+

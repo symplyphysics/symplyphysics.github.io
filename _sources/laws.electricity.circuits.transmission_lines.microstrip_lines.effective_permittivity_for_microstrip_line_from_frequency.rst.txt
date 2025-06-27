@@ -1,0 +1,111 @@
+Effective permittivity of microstrip line from frequency
+========================================================
+
+The frequency-dependent effective permittivity of the microstrip line can be calculated
+from its frequency-indendent effective permittivity and physical dimensions.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.microstrip_lines.effective_permittivity_for_microstrip_line_from_frequency
+
+.. py:data:: effective_permittivity
+
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line when frequency
+    dependence is taken into account. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
+
+Symbol:
+    :code:`epsilon_eff`
+
+Latex:
+    :math:`\varepsilon_\text{eff}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: relative_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the dielectric substrate of the microstrip line.
+
+Symbol:
+    :code:`epsilon_r`
+
+Latex:
+    :math:`\varepsilon_\text{r}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of the signal.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`frequency`
+
+
+.. py:data:: substrate_thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: width
+
+    Width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`w`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: independent_effective_permittivity
+
+    :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line when frequency dependence is
+    omitted. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
+
+Symbol:
+    :code:`epsilon_eff0`
+
+Latex:
+    :math:`\varepsilon_{\text{eff}, 0}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`epsilon_eff = ((sqrt(epsilon_r) - sqrt(epsilon_eff0)) / (1 + 4 / (4 * h * f * (1 + 2 * log(1 + w / h))^2 * sqrt(epsilon_r - 1) * 1 / (2 * c))^(3/2)) + sqrt(epsilon_eff0))^2`
+
+
+    Latex:
+        .. math::
+            \varepsilon_\text{eff} = \left(\frac{\sqrt{\varepsilon_\text{r}} - \sqrt{\varepsilon_{\text{eff}, 0}}}{1 + \frac{4}{\left(4 h f \left(1 + 2 \log \left( 1 + \frac{w}{h} \right)\right)^{2} \sqrt{\varepsilon_\text{r} - 1} \frac{1}{2 c}\right)^{\frac{3}{2}}}} + \sqrt{\varepsilon_{\text{eff}, 0}}\right)^{2}
+
+

@@ -1,0 +1,97 @@
+Mechanical work is line integral of force
+=========================================
+
+Mechanical work is a scalar quantity denoting the energy transferred to or from an object via the
+application of force along a displacement.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Work_(physics)#Mathematical_calculation>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.mechanical_work_is_line_integral_of_force
+
+.. py:data:: work
+
+    Mechanical :attr:`~symplyphysics.symbols.basic.work` done by the :attr:`~force` to displace the body.
+
+Symbol:
+    :code:`W`
+
+Latex:
+    :math:`W`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: position_vector
+
+    Position vector of the body. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: force
+
+    Vector of the exerted force as a function of :attr:`~position_vector`.
+
+Symbol:
+    :code:`F(r)`
+
+Latex:
+    :math:`{\vec F} \left( {\vec r} \right)`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: curve
+
+    Curve given by the body's trajectory during its displacement.
+
+
+.. py:data:: initial_parameter
+
+    Initial value of the curve parameter.
+
+Symbol:
+    :code:`t_0`
+
+Latex:
+    :math:`t_{0}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: final_parameter
+
+    Final value of the curve parameter.
+
+Symbol:
+    :code:`t_0`
+
+Latex:
+    :math:`t_{0}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: law
+
+    :code:`W = LineIntegral(dot(F(r), dr), C)`
+
+
+    Latex:
+        .. math::
+            W = \int_{C} \left( {\vec F} \left( {\vec r} \right), d \vec r \right)
+
+

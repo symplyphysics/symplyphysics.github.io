@@ -1,0 +1,63 @@
+Kinetic energy from mass and speed
+==================================
+
+The *kinetic energy* of a body is the form of energy that it possesses due to its motion.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Kinetic_energy#>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.kinetic_energy_from_mass_and_speed
+
+.. py:data:: kinetic_energy
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.kinetic_energy` of the body.
+
+Symbol:
+    :code:`K`
+
+Latex:
+    :math:`K`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: speed
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: mass
+
+    The :attr:`~symplyphysics.symbols.basic.mass` of the body.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`K = m * v^2 / 2`
+
+
+    Latex:
+        .. math::
+            K = \frac{m v^{2}}{2}
+
+

@@ -1,0 +1,77 @@
+Total gain of transistor amplifier
+==================================
+
+The total gain of a transistor amplifier depends on the gain of the input and output
+matching circuits and the transistor gain.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.couplers.full_gain_of_transistor_amplifier
+
+.. py:data:: total_gain
+
+    Total gain of the transistor amplifier. See :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
+
+Symbol:
+    :code:`gain`
+
+Latex:
+    :math:`\text{gain}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: input_circuit_gain
+
+    Input matching :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
+
+Symbol:
+    :code:`gain_i`
+
+Latex:
+    :math:`\text{gain}_\text{i}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: transistor_gain
+
+    Transistor gain. See :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
+
+Symbol:
+    :code:`gain_t`
+
+Latex:
+    :math:`\text{gain}_\text{t}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: output_circuit_gain
+
+    Output matching :attr:`~symplyphysics.symbols.electrodynamics.circuit_gain`.
+
+Symbol:
+    :code:`gain_o`
+
+Latex:
+    :math:`\text{gain}_\text{o}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`gain = gain_i * gain_t * gain_o`
+
+
+    Latex:
+        .. math::
+            \text{gain} = \text{gain}_\text{i} \text{gain}_\text{t} \text{gain}_\text{o}
+
+

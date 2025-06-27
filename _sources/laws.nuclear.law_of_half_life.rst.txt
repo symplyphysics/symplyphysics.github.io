@@ -1,0 +1,80 @@
+Solution to the exponential decay equation
+==========================================
+
+The solution to the exponential decay equation is the product of the initial quantity
+and the the ratio of the current time to the half-life of the quantity, raised to the
+power of 2. In other words, for every half-life that passes, the quantity decays by a
+factor of 2.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Exponential_decay#>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.law_of_half_life
+
+.. py:data:: final_quantity
+
+    Quantity that still remains and has not decayed after :attr:`~time` :math:`t`.
+
+Symbol:
+    :code:`X`
+
+Latex:
+    :math:`X`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: initial_quantity
+
+    Initial quantity that will decay.
+
+Symbol:
+    :code:`X_0`
+
+Latex:
+    :math:`X_{0}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: half_life
+
+    :attr:`~symplyphysics.symbols.nuclear.half_life` of the decaying quantity.
+
+Symbol:
+    :code:`t_1/2`
+
+Latex:
+    :math:`t_{1/2}`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`X = X_0 * 2^(-t / t_1/2)`
+
+
+    Latex:
+        .. math::
+            X = X_{0} \cdot 2^{- \frac{t}{t_{1/2}}}
+
+

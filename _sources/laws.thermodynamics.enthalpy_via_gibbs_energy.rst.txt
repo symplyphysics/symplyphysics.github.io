@@ -1,0 +1,83 @@
+Enthalpy via Gibbs energy
+=========================
+
+Gibbs-Helmholtz relations are a set of equations that relate thermodynamic potentials between each other.
+For example, enthalpy :math:`H` can be found using the Gibbs energy :math:`G` under isobaric conditions.
+
+**Conditions:**
+
+#. Particle count must be constant.
+#. Pressure in the system must be constant.
+
+**Links:**
+
+#. `Wikipedia, equivalent concise form of this law <https://en.wikipedia.org/wiki/Gibbs%E2%80%93Helmholtz_equation>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.enthalpy_via_gibbs_energy
+
+.. py:data:: enthalpy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system.
+
+Symbol:
+    :code:`H`
+
+Latex:
+    :math:`H`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` inside the system.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: gibbs_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system as a function of :attr:`~temperature` and :attr:`~pressure`.
+
+Symbol:
+    :code:`G(T, p)`
+
+Latex:
+    :math:`G{\left(T,p \right)}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: law
+
+    :code:`H = G(T, p) - T * Derivative(G(T, p), T)`
+
+
+    Latex:
+        .. math::
+            H = G{\left(T,p \right)} - T \frac{\partial}{\partial T} G{\left(T,p \right)}
+
+

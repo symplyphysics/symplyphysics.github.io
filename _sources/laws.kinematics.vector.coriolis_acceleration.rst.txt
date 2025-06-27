@@ -1,0 +1,74 @@
+Coriolis acceleration
+=====================
+
+Imagine two reference frames, one of which is fixed (:math:`S`) and the other one is moving
+(:math:`S'`). When the body is moving within a rotating coordinate system, its path deflects due
+to the appearance of the Coriolis acceleration on it. The object does not actually deviate from
+its path per se but it appears to do so because of the motion of the coordinate system.
+
+Suppose a reference frame :math:`S'` is fixed to a rotating body :math:`A` (e.g. Earth), so that
+frame :math:`S'` rotates w.r.t. another static reference frame :math:`S`. The Coriolis
+acceleration is the acceleration another body :math:`B` has when moving within rotating reference
+frame :math:`S'`, so it is essentially zero for objects at rest in :math:`S'`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Coriolis_force#Formula>`__.
+
+..
+    TODO: rename law to include its dependency on relative and angular velocity
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.vector.coriolis_acceleration
+
+.. py:data:: coriolis_acceleration
+
+    Vector of the body's Coreolis :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` in :math:`S'`.
+
+Symbol:
+    :code:`a_Cor`
+
+Latex:
+    :math:`{\vec a}_\text{Cor}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: relative_velocity
+
+    Vector of the body's velocity relative to :math:`S'`. See :attr:`~symplyphysics.symbols.classical_mechanics.speed`.
+
+Symbol:
+    :code:`v_rel`
+
+Latex:
+    :math:`{\vec v}_\text{rel}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: angular_velocity
+
+    Pseudovector of the angular velocity of the body's rotation. See :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`{\vec \omega}`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: law
+
+    :code:`a_Cor = 2 * cross(v_rel, w)`
+
+
+    Latex:
+        .. math::
+            {\vec a}_\text{Cor} = 2 \left[ {\vec v}_\text{rel}, {\vec \omega} \right]
+
+

@@ -1,0 +1,87 @@
+Refraction angle from enviroments
+=================================
+
+If ray of light comes from one medium to another, it refracts.
+The law, also known as **Snell's law**, states that, for a given pair of media, the ratio of the sines of angle of incidence and angle of refraction is equal to the refractive index of the second medium with regard to the first.
+
+**Conditions:**
+
+#. Light is monochromatic, as the refractive index depends on the light frequency.
+#. The refracting medium is uniform, so that the refracting index does not change over the ray path.
+#. Incoming ray, refracted ray and perpendicular to medium boundary are within the same plane.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Snell%27s_law>`__.
+
+..
+    TODO rename files
+
+.. py:currentmodule:: symplyphysics.laws.optics.refraction_angle_from_environments
+
+.. py:data:: incidence_refractive_index
+
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium in which the indicent ray travels.
+
+Symbol:
+    :code:`n_1`
+
+Latex:
+    :math:`n_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: resulting_refractive_index
+
+    :attr:`~symplyphysics.symbols.optics.relative_refractive_index` of the medium in which the refracted ray travels.
+
+Symbol:
+    :code:`n_2`
+
+Latex:
+    :math:`n_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: incidence_angle
+
+    :attr:`~symplyphysics.symbols.basic.angle` of incidence.
+
+Symbol:
+    :code:`phi_1`
+
+Latex:
+    :math:`\varphi_{1}`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: refraction_angle
+
+    :attr:`~symplyphysics.symbols.basic.angle` of refraction.
+
+Symbol:
+    :code:`phi_2`
+
+Latex:
+    :math:`\varphi_{2}`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`n_1 * sin(phi_1) = n_2 * sin(phi_2)`
+
+
+    Latex:
+        .. math::
+            n_{1} \sin{\left(\varphi_{1} \right)} = n_{2} \sin{\left(\varphi_{2} \right)}
+
+

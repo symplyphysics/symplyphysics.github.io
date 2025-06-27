@@ -1,0 +1,69 @@
+Mechanical work from force and displacement (vector)
+====================================================
+
+Work is measured result of force applied. Mechanical work is the only reason for the object energy
+to be changed. Work is a scalar value equal to the dot product of force and displacement vectors.
+
+**Notation:**
+
+#. :math:`\left( \vec a, \vec b \right)` (:code:`dot(a, b)`) is the dot product between
+   vectors :math:`\vec a` and :math:`\vec b`.
+
+..
+    TODO: Rename file to match heading
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_move
+
+.. py:data:: work
+
+    Mechanical :attr:`~symplyphysics.symbols.basic.work` done by the :attr:`~force` to displace the body.
+
+Symbol:
+    :code:`W`
+
+Latex:
+    :math:`W`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: force
+
+    Vector of :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: displacement
+
+    Vector denoting the change of the position vector of the body when it moves from one point in
+    space to another. Also see :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
+
+Symbol:
+    :code:`s`
+
+Latex:
+    :math:`{\vec s}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`W = dot(F, s)`
+
+
+    Latex:
+        .. math::
+            W = \left( {\vec F}, {\vec s} \right)
+
+

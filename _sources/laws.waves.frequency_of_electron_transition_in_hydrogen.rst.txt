@@ -1,0 +1,67 @@
+Frequency of electron transition in Hydrogen
+============================================
+
+The *Rydberg formula* relates the frequency of light emitted or absorbed during
+electron transition to the levels between which the transition is occurring.
+
+**Links:**
+
+#. `Wikipedia, equivalent formula in terms of wavelength <https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Introductory_Physics_-_Building_Models_to_Describe_Our_World_(Martin_Neary_Rinaldo_and_Woodman)/14%3A_Waves/14.07%3A_Standing_waves>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.frequency_of_electron_transition_in_hydrogen
+
+.. py:data:: transition_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.temporal_frequency` of light emitted or absorbed during electron transition in the Hydrogen atom.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`frequency`
+
+
+.. py:data:: lower_principal_quantum_number
+
+    The principal quantum number of the lower transitional level. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+Symbol:
+    :code:`n_1`
+
+Latex:
+    :math:`n_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: higher_principal_quantum_number
+
+    The principal quantum number of the higher transitional level.  See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+Symbol:
+    :code:`n_2`
+
+Latex:
+    :math:`n_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    .. only:: comment
+
+        For now the auto-generation doesn't handle powers correctly here.
+
+    :code:`f = R_H * (1 / n_1^2 - 1 / n_2^2)`
+
+    Latex:
+        .. math::
+            f = R_\text{H} \left(\frac{1}{n_{1}^{2}} - \frac{1}{n_{2}^{2}}\right)
+
+

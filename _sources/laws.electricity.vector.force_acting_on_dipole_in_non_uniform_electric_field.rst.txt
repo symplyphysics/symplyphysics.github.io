@@ -1,0 +1,93 @@
+Force acting on dipole in non-uniform electric field
+====================================================
+
+If an electric dipole is positioned in a spatially non-uniform electric field, the forces acting
+on the point charges that compose the dipole no longer cancel each other and the dipole
+experiences an overall non-zero acceleration.
+
+**Notes:**
+
+#. A more general representation of this law, which does not require choosing an axis aligned with
+   the dipole, assuming Cartesian coordinates:
+
+   .. math::
+
+       \vec F = \left( \vec p, \nabla \right) \vec E 
+               = p_x \frac{\partial \vec E}{\partial x}
+               + p_y \frac{\partial \vec E}{\partial y}
+               + p_z \frac{\partial \vec E}{\partial z}
+
+**Links:**
+
+#. `Physics Bootcamp <https://www.physicsbootcamp.org/Torque-on-an-Electric-Dipole.html>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector.force_acting_on_dipole_in_non_uniform_electric_field
+
+.. py:data:: force
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.force` acting on the dipole.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: electric_dipole_moment
+
+    Magnitude of the :attr:`~symplyphysics.symbols.electrodynamics.electric_dipole_moment` vector.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`charge*length`
+
+
+.. py:data:: position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` along the axis whose direction is aligned with that of the
+    :attr:`~electric_dipole_moment` vector.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: electric_field
+
+    Vector of the electric field as a function of :attr:`~position`. See
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E(x)`
+
+Latex:
+    :math:`{\vec E} \left( x \right)`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: law
+
+    :code:`F = p * Derivative(E(x), x)`
+
+
+    Latex:
+        .. math::
+            {\vec F} = p \frac{d}{d x} {\vec E} \left( x \right)
+
+

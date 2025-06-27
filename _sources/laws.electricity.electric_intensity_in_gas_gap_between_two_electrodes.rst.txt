@@ -1,0 +1,84 @@
+Electric field in gas gap between two electrodes
+================================================
+
+Consider a two-electrode gas-filled gap with flat electrodes. Let one of the electrodes
+emit charged particles into a gaseous medium. If the potential collecting these charged
+particles is set to another electrode, then a current will flow through the gap.
+
+**Conditions:**
+
+#. Emittivity of the emitter is unlimited, i.e. emission of charged particles is much
+   greater than current between electrodes.
+#. There is gaseous medium between electrodes.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electric_intensity_in_gas_gap_between_two_electrodes
+
+.. py:data:: electric_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` at a point between the electrodes.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: coordinate
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` of said point on the axis which runs from the cathode to the anode.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the electrodes.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: voltage
+
+    :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the electrodes.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: law
+
+    :code:`E = 3 * sqrt(x / d) * V / d / 2`
+
+
+    Latex:
+        .. math::
+            E = \frac{3 \sqrt{\frac{x}{d}} \frac{V}{d}}{2}
+
+

@@ -1,0 +1,53 @@
+Standing wave ratio from reflection coefficient
+===============================================
+
+The standing wave ratio can be calculated by knowing the reflection coefficient of the
+wave.
+
+**Links:**
+
+#. `Engineering LibreTexts <https://eng.libretexts.org/Bookshelves/Electrical_Engineering/Electro-Optics/Book%3A_Electromagnetics_I_(Ellingson)/03%3A_Transmission_Lines/3.14%3A_Standing_Wave_Ratio>`__.
+
+..
+    TODO: fix file name
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_reflection_coefficient
+
+.. py:data:: standing_wave_ratio
+
+    :attr:`~symplyphysics.symbols.electrodynamics.standing_wave_ratio`.
+
+Symbol:
+    :code:`SWR`
+
+Latex:
+    :math:`\text{SWR}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: reflection_coefficient
+
+    :attr:`~symplyphysics.symbols.electrodynamics.reflection_coefficient`.
+
+Symbol:
+    :code:`Gamma`
+
+Latex:
+    :math:`\Gamma`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`SWR = (1 + Abs(Gamma)) / (1 - Abs(Gamma))`
+
+
+    Latex:
+        .. math::
+            \text{SWR} = \frac{1 + \left|{\Gamma}\right|}{1 - \left|{\Gamma}\right|}
+
+

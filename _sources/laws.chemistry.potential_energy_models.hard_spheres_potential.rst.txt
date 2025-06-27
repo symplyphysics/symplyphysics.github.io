@@ -1,0 +1,71 @@
+Hard spheres potential
+======================
+
+Hard spheres are widely used as model particles in the statistical mechanical theory, defined as
+impenetrable spheres that cannot overlap in space, which mimics extremely strong repulsion that
+atoms and molecules experience at very close distances.
+
+**Conditions:**
+
+#. Spheres are identical.
+
+**Links**:
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Hard_spheres#Formal_definition>`__.
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.potential_energy_models.hard_spheres_potential
+
+.. py:data:: potential
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy` of the configuration.
+
+Symbol:
+    :code:`U`
+
+Latex:
+    :math:`U`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between the centers of the particles.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`r`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: sphere_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the spheres.
+
+Symbol:
+    :code:`sigma`
+
+Latex:
+    :math:`\sigma`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    ..
+        The printers cannot yet work with `Piecewise` expressions.
+
+    :code:`U = Piecewise((Infinity, r <= sigma), (0, r > sigma))`
+
+    Latex:
+        .. math::
+            U = \begin{cases} \infty & r \le \sigma \\ 0 & r > \sigma \end{cases}
+
+

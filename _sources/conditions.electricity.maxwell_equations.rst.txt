@@ -1,0 +1,17 @@
+**Electrodynamics (Maxwell equations conditions)**
+==================================================
+
+The conditions in this folder are related to the Maxwell Equations.
+
+.. py:currentmodule:: symplyphysics.conditions.electricity.maxwell_equations
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    conditions.electricity.maxwell_equations.divergence_of_magnetic_induction_field_is_zero
+
+
+

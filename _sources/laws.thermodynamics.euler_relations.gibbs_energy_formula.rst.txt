@@ -1,0 +1,69 @@
+Gibbs energy formula
+====================
+
+Gibbs energy differential cannot be integrated directly using the Euler's theorem on homogeneous
+functions but it can be derived via its definition and the relation for internal energy.
+
+**Notes:**
+
+#. This formula works for a single-component system. For a multi-component system replace the
+   right-hand side with a sum over each type of components.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Thermodynamic_potential#Euler_relations>`__.
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.euler_relations.gibbs_energy_formula
+
+.. py:data:: gibbs_energy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.gibbs_energy` of the system.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: chemical_potential
+
+    :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: particle_count
+
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`G = mu * N`
+
+
+    Latex:
+        .. math::
+            G = \mu N
+
+

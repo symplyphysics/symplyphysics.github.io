@@ -1,0 +1,149 @@
+Change in entropy of ideal gas from volume and temperature
+==========================================================
+
+*Entropy* is a property of a thermodynamic system that expresses the direction or outcome of spontaneous changes in the system.
+The term was introduced to explain the relationship of the internal energy that is available or unavailable for transformations in form of heat and work.
+Entropy predicts that certain processes are irreversible or impossible, despite not violating the conservation of energy.
+The definition of entropy is central to the establishment of the second law of thermodynamics, which states that the entropy of isolated systems cannot decrease with time,
+as they always tend to arrive at a state of thermodynamic equilibrium, where the entropy is highest.
+
+**Notation:**
+
+#. :math:`R` (:code:`R`) is :attr:`~symplyphysics.quantities.molar_gas_constant`.
+
+**Conditions:**
+
+#. The gas is ideal.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Entropy#Entropy_change_formulas_for_simple_processes>`__.
+
+..
+    TODO refactor `mass / molar_mass` into `amount_of_substance`
+    TODO find other link
+
+.. py:currentmodule:: symplyphysics.laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature
+
+.. py:data:: entropy_change
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` change during the transition between the two states.
+
+Symbol:
+    :code:`S`
+
+Latex:
+    :math:`S`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the gas.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: molar_mass
+
+    :attr:`~symplyphysics.symbols.basic.molar_mass`, or molecular weight, of the gas.
+
+Symbol:
+    :code:`M`
+
+Latex:
+    :math:`M`
+
+Dimension:
+    :code:`mass/amount_of_substance`
+
+
+.. py:data:: molar_isochoric_heat_capacity
+
+    :attr:`~symplyphysics.symbols.thermodynamics.molar_heat_capacity` at constant volume.
+
+Symbol:
+    :code:`c_Vm`
+
+Latex:
+    :math:`c_{V, \text{m}}`
+
+Dimension:
+    :code:`energy/(amount_of_substance*temperature)`
+
+
+.. py:data:: final_temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the final state.
+
+Symbol:
+    :code:`T_1`
+
+Latex:
+    :math:`T_{1}`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: initial_temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the initial state.
+
+Symbol:
+    :code:`T_0`
+
+Latex:
+    :math:`T_{0}`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: final_volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the final state.
+
+Symbol:
+    :code:`V_1`
+
+Latex:
+    :math:`V_{1}`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: initial_volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the initial state.
+
+Symbol:
+    :code:`V_0`
+
+Latex:
+    :math:`V_{0}`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: law
+
+    :code:`S = m / M * (c_Vm * log(T_1 / T_0) + R * log(V_1 / V_0))`
+
+
+    Latex:
+        .. math::
+            S = \frac{m}{M} \left(c_{V, \text{m}} \log \left( \frac{T_{1}}{T_{0}} \right) + R \log \left( \frac{V_{1}}{V_{0}} \right)\right)
+
+

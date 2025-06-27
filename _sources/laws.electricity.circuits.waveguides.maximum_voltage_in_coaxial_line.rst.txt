@@ -1,0 +1,80 @@
+Maximum voltage in coaxial line
+===============================
+
+A coaxial waveguide is an electrical cable consisting of a central conductor and a
+shield arranged coaxially and separated by an insulating material or an air gap. It is
+used to transmit radio frequency electrical signals. An electrical breakdown is a
+phenomenon of a sharp increase in current that occurs when the field intensity is higher
+than the critical one — dielectric breakdown intensity.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.waveguides.maximum_voltage_in_coaxial_line
+
+.. py:data:: maximum_voltage
+
+    Maximum :attr:`~symplyphysics.symbols.electrodynamics.voltage` between the central conductor and the outer conductor.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: breakdown_electric_field
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength` of dielectric breakdown.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: outer_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the outer conductor.
+
+Symbol:
+    :code:`d_o`
+
+Latex:
+    :math:`d_\text{o}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: inner_diameter
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.diameter` of the inner conductor.
+
+Symbol:
+    :code:`d_i`
+
+Latex:
+    :math:`d_\text{i}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`V = E * d_o * log(d_o / d_i) / 2`
+
+
+    Latex:
+        .. math::
+            V = \frac{E d_\text{o} \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}{2}
+
+

@@ -1,0 +1,93 @@
+Pressure amplitude in sound wave
+================================
+
+Sound waves cause a pressure change of the medium from the equilibrium pressure.
+This change is proportional to the speed of sound and the density of the medium,
+the angular frequency of the wave and the displacement of particles in the medium.
+
+**Links:**
+
+#. Equation 17-14 on p. 484 of "Fundamentals of Physics" by David Halladay et al., 10th Ed.
+
+.. py:currentmodule:: symplyphysics.laws.waves.pressure_amplitude_in_sound_wave
+
+.. py:data:: pressure_amplitude
+
+    Amplitude of :attr:`~symplyphysics.symbols.classical_mechanics.pressure` change.
+
+Symbol:
+    :code:`Delta(p)_max`
+
+Latex:
+    :math:`(\Delta p)_\text{max}`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: speed_of_sound
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of sound in the medium.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: medium_density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the medium.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the sound wave.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: displacement_amplitude
+
+    Displacement amplitude of particles in the medium. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+
+Symbol:
+    :code:`s_max`
+
+Latex:
+    :math:`s_\text{max}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`Delta(p)_max = v * rho * w * s_max`
+
+
+    Latex:
+        .. math::
+            (\Delta p)_\text{max} = v \rho \omega s_\text{max}
+
+

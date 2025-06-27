@@ -1,0 +1,78 @@
+Radiation intensity from energy, area, and time
+===============================================
+
+Intensity is a scalar physical quantity that quantitatively characterizes the power carried by
+a wave in the direction of propagation per unit area per unit time.
+
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Intensity_(physics)#Mathematical_description>`__.
+
+.. py:currentmodule:: symplyphysics.laws.optics.radiation_intensity_from_energy_area_time
+
+.. py:data:: intensity
+
+    (Average) :attr:`~symplyphysics.symbols.basic.intensity` of incident radiation.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`power/area`
+
+
+.. py:data:: energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` of incident radiation.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: area
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.area`.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`I = E / (A * t)`
+
+
+    Latex:
+        .. math::
+            I = \frac{E}{A t}
+
+

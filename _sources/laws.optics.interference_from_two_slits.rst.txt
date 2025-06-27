@@ -1,0 +1,91 @@
+Interference due to two slits
+=============================
+
+If two monochromatic waves of the same frequency are combined in the Young scheme,
+then it is possible to approximate the optical travel difference between the two waves
+using the position in the interference picture, the distance between the slits and
+the distance to the picture.
+
+**Conditions:**
+
+#. Two monochromatic waves of the same frequency.
+#. :math:`d \ll l, x \ll l`, see symbols below for reference;
+#. The slits should be positioned symmetrically relative to the axis passing
+   through the radiation source, while this axis of symmetry should be perpendicular
+   to the plane on which the interference pattern will be.
+
+**Links:**
+
+#. `Wikipedia, derivable from fourth formula <https://en.wikipedia.org/wiki/Double-slit_experiment#Classical_wave-optics_formulation>`__.
+
+..
+    TODO rename file
+
+.. py:currentmodule:: symplyphysics.laws.optics.interference_from_two_slits
+
+.. py:data:: travel_difference
+
+    Optical travel difference for two coherent waves. See :attr:`~symplyphysics.symbols.optics.optical_distance`.
+
+Symbol:
+    :code:`Lambda`
+
+Latex:
+    :math:`\Lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: coordinate
+
+    Coordinate (:attr:`~symplyphysics.symbols.classical_mechanics.position`) in interference picture, measured from the center of symmetry.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: distance_between_slits
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` between slits.
+
+Symbol:
+    :code:`d`
+
+Latex:
+    :math:`d`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: distance_to_picture
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` from slits to picture.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`Lambda = x * d / l`
+
+
+    Latex:
+        .. math::
+            \Lambda = \frac{x d}{l}
+
+

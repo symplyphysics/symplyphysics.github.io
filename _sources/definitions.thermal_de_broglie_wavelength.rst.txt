@@ -1,0 +1,72 @@
+Thermal de Broglie wavelength
+=============================
+
+The thermal de Broglie wavelength can be roughly described as the average de Broglie wavelength
+of particles in an ideal gas at a specified temperature. When compared to average inter-particle
+spacing in the gas, it can be used to tell if the gas can be considered to be a classical or
+Maxwell-Boltzmann gas, in which case the thermal wavelength must be much smaller than the average
+inter-particle spacing. Otherwise, quantum effects must be taken into account.
+
+**Notation:**
+
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+**Links:**
+
+#. `Wikipedia, see last formula in paragraph <https://en.wikipedia.org/wiki/Thermal_de_Broglie_wavelength#Massive_particles>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.thermal_de_broglie_wavelength
+
+.. py:data:: thermal_wavelength
+
+    Thermal de Broglie :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the gas.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of a single gas particle.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the gas.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: definition
+
+    :code:`lambda = hbar * sqrt(2 * pi / (m * k_B * T))`
+
+
+    Latex:
+        .. math::
+            \lambda = \hbar \sqrt{\frac{2 \pi}{m k_\text{B} T}}
+
+

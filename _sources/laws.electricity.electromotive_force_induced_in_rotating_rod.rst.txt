@@ -1,0 +1,88 @@
+Electromotive force induced in rotating rod
+===========================================
+
+Let a rod rotate in a uniform magnetic field. The plane of rotation is perpendicular
+to the magnetic field lines. The axis of rotation passes through one of the ends of
+the rod. A wire is connected at both ends of the rod so that it makes a contour.
+Then the electromotive force induced at the ends of the rod depends on the magnitude
+of the magnetic flux density, the rotation frequency and the length of the rod.
+
+**Links:**
+
+#. `Example 13.4.2 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/13%3A_Electromagnetic_Induction/13.04%3A_Motional_Emf>`__.
+
+**Conditions:**
+
+#. The angular velocity of the rod is parallel to the magnetic field. This means that
+   the rod is rotating in a plane perpendicular to the magnetic field.
+#. The magnetic field is uniform.
+#. The angular velocity of the rod is constant.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.electromotive_force_induced_in_rotating_rod
+
+.. py:data:: electromotive_force
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electromotive_force` induced in the rod.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`\mathcal{E}`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: magnetic_flux_density
+
+    Magnitude of :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`magnetic_density`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of rod's rotation.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the rod.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`E = B * w * l^2 / 2`
+
+
+    Latex:
+        .. math::
+            \mathcal{E} = \frac{B \omega l^{2}}{2}
+
+

@@ -1,0 +1,89 @@
+Acceleration due to non-uniform rotation
+========================================
+
+Imagine two reference frames, one of which is fixed (:math:`S`) and the other is moving
+(:math:`S'`). When :math:`S'` rotates around :math:`S` in a non-uniform way, the acceleration of
+some body :math:`B` in :math:`S` has a component corresponding to that non-uniform rotation of
+:math:`S'`. It is part of the transfer acceleration of body :math:`B` in :math:`S`.
+
+**Notation:**
+
+#. :math:`\left[ \vec a, \vec b \right]` (:code:`cross(a, b)`) is vector product of
+   :math:`\vec a` and :math:`\vec b`.
+
+**Links:**
+
+#. `Wikipedia <https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5#%D0%A3%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5>`__.
+
+..
+    TODO find English link
+
+.. py:currentmodule:: symplyphysics.laws.kinematics.vector.acceleration_due_to_non_uniform_rotation
+
+.. py:data:: non_uniform_rotation_acceleration
+
+    Vector of :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` due to non-uniform rotation of :math:`S'` relative to :math:`S`.
+
+Symbol:
+    :code:`a_rot`
+
+Latex:
+    :math:`{\vec a}_\text{rot}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: angular_velocity
+
+    Pseudovector of the body's angular velocity as a function of :attr:`~time`. See
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_speed`.
+
+Symbol:
+    :code:`w(t)`
+
+Latex:
+    :math:`{\vec \omega} \left( t \right)`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: position_vector
+
+    The body's position vector. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`a_rot = cross(Derivative(w(t), t), r)`
+
+
+    Latex:
+        .. math::
+            {\vec a}_\text{rot} = \left[ \frac{d}{d t} {\vec \omega} \left( t \right), {\vec r} \right]
+
+

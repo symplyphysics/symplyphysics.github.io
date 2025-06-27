@@ -1,0 +1,69 @@
+Volume flux is constant
+=======================
+
+The product of the area and the fluid speed, which is called the *volume flux*, is constant
+at all points along the tube of flow of an incompressible liquid. This equation is also
+known as the *equation of continuity*.
+
+**Conditions:**
+
+#. The fluid is :ref:`ideal <ideal_fluid_def>`.
+
+**Links:**
+
+#. `Engineering LibreTexts, derivable from here <https://eng.libretexts.org/Bookshelves/Aerospace_Engineering/Fundamentals_of_Aerospace_Engineering_(Arnedo)/03%3A_Aerodynamics/3.01%3A_Fundamentals_of_fluid_mechanics/3.1.02%3A_Continuity_equation>`__.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.volume_flux_is_constant
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: tube_area
+
+    Cross-sectional :attr:`~symplyphysics.symbols.classical_mechanics.area` of the tube of flow as a function of :attr:`~time`.
+
+Symbol:
+    :code:`A(t)`
+
+Latex:
+    :math:`A{\left(t \right)}`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: flow_speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.flow_speed` of the fluid as a function of :attr:`~time`.
+
+Symbol:
+    :code:`u(t)`
+
+Latex:
+    :math:`u{\left(t \right)}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: law
+
+    :code:`Derivative(A(t) * u(t), t) = 0`
+
+
+    Latex:
+        .. math::
+            \frac{d}{d t} A{\left(t \right)} u{\left(t \right)} = 0
+
+

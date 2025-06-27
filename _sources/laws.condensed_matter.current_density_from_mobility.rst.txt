@@ -1,0 +1,110 @@
+Current density from mobility
+=============================
+
+The current density can be calculated from the concentration and mobilities of holes and
+electrons and the electric field.
+
+**Notation:**
+
+#. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
+
+**Links:**
+
+#. `Wikipedia, last formula <https://en.wikipedia.org/wiki/Electron_mobility#Relation_to_current_density>`__.
+
+.. py:currentmodule:: symplyphysics.laws.condensed_matter.current_density_from_mobility
+
+.. py:data:: current_density
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current_density` of charge carriers.
+
+Symbol:
+    :code:`j`
+
+Latex:
+    :math:`j`
+
+Dimension:
+    :code:`current/area`
+
+
+.. py:data:: electrons_concentration
+
+    Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of electrons.
+
+Symbol:
+    :code:`n_e`
+
+Latex:
+    :math:`n_\text{e}`
+
+Dimension:
+    :code:`1/volume`
+
+
+.. py:data:: holes_concentration
+
+    Concentration (:attr:`~symplyphysics.symbols.basic.number_density`) of holes.
+
+Symbol:
+    :code:`n_h`
+
+Latex:
+    :math:`n_\text{h}`
+
+Dimension:
+    :code:`1/volume`
+
+
+.. py:data:: electrons_mobility
+
+    :attr:`~symplyphysics.symbols.chemistry.mobility` of electrons.
+
+Symbol:
+    :code:`mu_e`
+
+Latex:
+    :math:`\mu_\text{e}`
+
+Dimension:
+    :code:`area/(time*voltage)`
+
+
+.. py:data:: holes_mobility
+
+    :attr:`~symplyphysics.symbols.chemistry.mobility` of holes.
+
+Symbol:
+    :code:`mu_h`
+
+Latex:
+    :math:`\mu_\text{h}`
+
+Dimension:
+    :code:`area/(time*voltage)`
+
+
+.. py:data:: electric_field_strength
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: law
+
+    :code:`j = e * (-n_e * mu_e + n_h * mu_h) * E`
+
+
+    Latex:
+        .. math::
+            j = e \left(- n_\text{e} \mu_\text{e} + n_\text{h} \mu_\text{h}\right) E
+
+

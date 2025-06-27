@@ -1,0 +1,68 @@
+Boltzmann factor via state energy and temperature
+=================================================
+
+The *Boltzmann factor* is an exponential factor that appears in many formulas of statistical physics
+and thermodynamics, e.g. the canonical partition function of a classical discrete system.
+
+**Notation:**
+
+#. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Boltzmann_distribution#>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature
+
+.. py:data:: boltzmann_factor
+
+    :attr:`~symplyphysics.symbols.thermodynamics.boltzmann_factor`.
+
+Symbol:
+    :code:`f`
+
+Latex:
+    :math:`f`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: energy_of_state
+
+    :attr:`~symplyphysics.symbols.basic.energy` of state :math:`i`.
+
+Symbol:
+    :code:`E[i]`
+
+Latex:
+    :math:`E_{i}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: equilibrium_temperature
+
+    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: definition
+
+    :code:`f = exp(-E[i] / (k_B * T))`
+
+
+    Latex:
+        .. math::
+            f = \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}
+
+

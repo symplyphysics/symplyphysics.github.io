@@ -1,0 +1,80 @@
+Neutron flux for uniform sphere
+===============================
+
+Neutron flux for uniform sphere is a function of radial_distance :math:`r` to the center of the
+sphere and depends on the radius :math:`r_0` of the sphere.
+
+**Links:**
+
+#. `NuclearPower, see end of page <https://www.nuclear-power.com/nuclear-power/reactor-physics/neutron-diffusion-theory/finite-spherical-reactor/>`__.
+
+.. py:currentmodule:: symplyphysics.laws.nuclear.buckling.neutron_flux_for_uniform_sphere
+
+.. py:data:: dimension_factor
+
+    Dimension factor that appears as a coefficient in the solution to the :ref:`differential
+    equation <Diffusion equation from neutron flux>`. See :attr:`~symplyphysics.symbols.nuclear.neutron_flux`.
+
+Symbol:
+    :code:`Phi_0`
+
+Latex:
+    :math:`\Phi_{0}`
+
+Dimension:
+    :code:`1/(area*time)`
+
+
+.. py:data:: radial_distance
+
+    Radial distance, or :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin` of coordinate system, i.e. the center
+    of the sphere.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`r`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the sphere.
+
+Symbol:
+    :code:`r_0`
+
+Latex:
+    :math:`r_{0}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: neutron_flux
+
+    :attr:`~symplyphysics.symbols.nuclear.neutron_flux` at a :attr:`radial_distance` from the center of the sphere.
+
+Symbol:
+    :code:`Phi`
+
+Latex:
+    :math:`\Phi`
+
+Dimension:
+    :code:`1/(area*time)`
+
+
+.. py:data:: law
+
+    :code:`Phi = Phi_0 * sin(pi / r_0 * r) / r`
+
+
+    Latex:
+        .. math::
+            \Phi = \Phi_{0} \frac{\sin{\left(\frac{\pi}{r_{0}} r \right)}}{r}
+
+

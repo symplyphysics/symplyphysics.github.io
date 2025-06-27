@@ -1,0 +1,70 @@
+Position of antinodes in standing wave
+======================================
+
+In a standing wave, the locations of maximum amplitude are called antinodes. These locations are
+not arbitrary, however, and are integer multiples of half the wavelength shifted by a quarter
+of the wavelength.
+
+**Notes:**
+
+#. *Amplitude* refers to the absolute value of displacement from rest, therefore positions of
+   maximum amplitude are such positions where the displacement is maximum or minimum.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Standing_wave#Standing_wave_on_an_infinite_length_string>`__.
+
+.. py:currentmodule:: symplyphysics.laws.waves.position_of_antinodes_in_standing_wave
+
+.. py:data:: antinode_position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` of :math:`m`-th antinode.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: integer_factor
+
+    An integer. See :attr:`~symplyphysics.symbols.basic.whole_number`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: wavelength
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.wavelength` of the standing wave.
+
+Symbol:
+    :code:`lambda`
+
+Latex:
+    :math:`\lambda`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`x = (N + 1 / 2) * lambda / 2`
+
+
+    Latex:
+        .. math::
+            x = \frac{\left(N + \frac{1}{2}\right) \lambda}{2}
+
+

@@ -1,0 +1,144 @@
+Attenuation coefficient in metal of microstrip line when width is greater than thickness
+========================================================================================
+
+Under the conditions described below, the attenuation coefficient of the microstrip
+metal can be calculated from the surge impedance of the line, the surface resistance of
+the metal, the effective permittivity of the substrate, and the physical dimensions of
+the system.
+
+**Conditions:**
+
+#. The thickness of the substrate of the microstrip line should be less than the
+   effective width.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.electricity.circuits.transmission_lines.microstrip_lines.attenuation_coefficient_in_metal_of_microstrip_line_for_width_greater_thickness
+
+.. py:data:: attenuation_coefficient
+
+    :attr:`~symplyphysics.symbols.electrodynamics.attenuation_coefficient` of the metal of the microstrip line.
+
+Symbol:
+    :code:`alpha`
+
+Latex:
+    :math:`\alpha`
+
+Dimension:
+    :code:`1/length`
+
+
+.. py:data:: surface_resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the surface of the metal strip.
+
+Symbol:
+    :code:`R_s`
+
+Latex:
+    :math:`R_\text{s}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: surge_impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.surge_impedance` of the microstrip line.
+
+Symbol:
+    :code:`Z_S`
+
+Latex:
+    :math:`Z_\text{S}`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: substrate_thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the substrate.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: effective_width
+
+    Effective width (see :attr:`~symplyphysics.symbols.classical_mechanics.length`) of the microstrip line. See :ref:`Effective width of microstrip line <effective_width_microstrip_line_def>`.
+
+Symbol:
+    :code:`w_eff`
+
+Latex:
+    :math:`w_\text{eff}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: thickness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.thickness` of the strip of the microstrip line.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: effective_permittivity
+
+    Effective :attr:`~symplyphysics.symbols.electrodynamics.relative_permittivity` of the microstrip line. See :ref:`Effective permittivity of microstrip line <effective_permittivity_microstrip_line_def>`.
+
+Symbol:
+    :code:`epsilon_eff`
+
+Latex:
+    :math:`\varepsilon_\text{eff}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: constant
+
+    Constant equal to :math:`6.1 \cdot 10^{-5} \, \Omega^{-2}` (:code:`6.1e-5 Ohm^(-2)`).
+
+Symbol:
+    :code:`a`
+
+Latex:
+    :math:`a`
+
+Dimension:
+    :code:`impedance**(-2)`
+
+
+.. py:data:: law
+
+    :code:`alpha = a * R_s * Z_S * epsilon_eff / h * (w_eff / h + 0.667 * w_eff / h / (w_eff / h + 1.444)) * (1 + (1 - 1.25 / pi * t / h + 1.25 / pi * log(2 * h / t)) / (w_eff / h))`
+
+
+    Latex:
+        .. math::
+            \alpha = \frac{a R_\text{s} Z_\text{S} \varepsilon_\text{eff}}{h} \left(\frac{w_\text{eff}}{h} + \frac{0.667 \frac{w_\text{eff}}{h}}{\frac{w_\text{eff}}{h} + 1.444}\right) \left(1 + \frac{1 - \frac{1.25}{\pi} \frac{t}{h} + \frac{1.25}{\pi} \log \left( \frac{2 h}{t} \right)}{\frac{w_\text{eff}}{h}}\right)
+
+
+    ..
+        NOTE: check if the numbers in the formula should actually be `2/3` and `13/9`
+
+

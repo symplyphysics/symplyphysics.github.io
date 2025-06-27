@@ -1,0 +1,84 @@
+Electric dipole moment of electrically neutral system
+=====================================================
+
+The electric dipole moment of an electrically neutral system of (point) charges can be found as
+the sum of the products of the values and the position vectors of the charges that compose the
+system.
+
+**Notes:**
+
+#. The value of the electric dipole moment for such a system is independent of the choice of the
+   origin of the coordinate frame (i.e. it is translationally invariant).
+
+**Conditions:**
+
+#. The system is electrically neutral.
+
+**Links:**
+
+#. `Wikipedia, derivable from the third equation <https://en.wikipedia.org/wiki/Electric_dipole_moment#Expression_(general_case)>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector.electric_dipole_moment_of_electrically_neutral_system
+
+.. py:data:: electric_dipole_moment
+
+    Vector of the :attr:`~symplyphysics.symbols.electrodynamics.electric_dipole_moment` of the system of charges.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`{\vec p}`
+
+Dimension:
+    :code:`charge*length`
+
+
+.. py:data:: charge
+
+    Value of the :math:`i`-th point charge.
+
+Symbol:
+    :code:`q[i]`
+
+Latex:
+    :math:`{q}_{i}`
+
+Dimension:
+    :code:`charge`
+
+
+.. py:data:: position_vector
+
+    Position vector of the :math:`i`-th point charge. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r[i]`
+
+Latex:
+    :math:`{{\vec r}}_{i}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`p = Sum(q[i] * r[i], i)`
+
+
+    Latex:
+        .. math::
+            {\vec p} = \sum_i {q}_{i} {{\vec r}}_{i}
+
+
+.. py:data:: electric_neutrality_condition
+
+    :code:`Sum(q[i], i) = 0`
+
+
+    Latex:
+        .. math::
+            \sum_i {q}_{i} = 0
+
+

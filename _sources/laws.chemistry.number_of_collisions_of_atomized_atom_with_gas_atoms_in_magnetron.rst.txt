@@ -1,0 +1,82 @@
+Number of collisions of particle with gas in magnetron
+======================================================
+
+The atoms of the target material evaporate and move towards the substrate inside the
+magnetron. The traveling atom moves towards the substrate in the magnetron. At the same
+time, it collides with gas atoms. The number of collisions of a traveling atom, after
+which its energy will be equal to the energy of thermal motion in a gas-discharge
+plasma, can be calculated. This amount will depend on the initial energy of the
+traveling atom and the energy transfer coefficient between the atom and the gas atoms.
+
+..
+    TODO: find link
+    TODO: move to `magnetron` folder?
+
+.. py:currentmodule:: symplyphysics.laws.chemistry.number_of_collisions_of_atomized_atom_with_gas_atoms_in_magnetron
+
+.. py:data:: collision_count
+
+    Number of collisions between the particle and gas.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: initial_energy
+
+    Initial :attr:`~symplyphysics.symbols.basic.energy` of the particle.
+
+Symbol:
+    :code:`E_0`
+
+Latex:
+    :math:`E_{0}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: thermal_energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` of thermal motion in the plasma.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: energy_transfer_coefficient
+
+    Energy transfer coefficient between the particle and the gas.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`N = log(E / E_0) / log(1 - x)`
+
+
+    Latex:
+        .. math::
+            N = \frac{\log \left( \frac{E}{E_{0}} \right)}{\log \left( 1 - x \right)}
+
+

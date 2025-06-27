@@ -1,0 +1,75 @@
+Conservative force is gradient of potential energy
+==================================================
+
+A conservative force is a such a force, the total work of which in moving a particle between two
+points is independent of the path taken. Alternative definition states that if a particle travels
+in a closed loop, the total work done by a conservative force is zero.
+
+**Conditions:**
+
+#. Force is conservative. Mathematically, this can be expressed as
+   :math:`\text{curl} \, {\vec F} \left( \vec r \right) \equiv 0`, i.e. the force field must
+   be irrotational.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Conservative_force>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.fields.conservative_force_is_gradient_of_potential_energy
+
+.. py:data:: position_vector
+
+    Position vector of a point in space. See :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: force
+
+    Vector field of the conservative force as a function of the :attr`position_vector`. See
+    :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`F(r)`
+
+Latex:
+    :math:`{\vec F} \left( {\vec r} \right)`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: potential_energy
+
+    Scalar field of the force's potential as a function of the :attr`position_vector`. See
+    :attr:`~symplyphysics.symbols.classical_mechanics.potential_energy`.
+
+Symbol:
+    :code:`U(r)`
+
+Latex:
+    :math:`U{\left({\vec r} \right)}`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: law
+
+    ..
+        NOTE: code printers have not been implemented yet for `VectorGradient`
+
+    :code:`F(r) = -grad(U(r))`
+
+    Latex:
+        .. math::
+            \vec F \left( \vec r \right) = - \text{grad} \, U \left( \vec r \right)
+
+
