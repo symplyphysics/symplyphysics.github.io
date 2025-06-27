@@ -1,7 +1,7 @@
 Grashof number
 ==============
 
-The Grashof number (Gr) is a dimensionless number which approximates the ratio of the
+The Grashof number is a dimensionless number which approximates the ratio of the
 buoyancy to viscous forces acting on a fluid. It arises in situations involving natural convection
 and is analogous to the Reynolds number.
 

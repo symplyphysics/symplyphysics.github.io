@@ -15,6 +15,9 @@ and the change in electric displacement.
 
 #. Formula 31.2 on p. 122 of "General Course of Physics" (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).
 
+..
+    TODO: make dD and E vectors
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change
 
 .. py:data:: internal_energy_density_change

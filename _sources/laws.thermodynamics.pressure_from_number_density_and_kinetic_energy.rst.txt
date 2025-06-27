@@ -58,11 +58,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`p = 0.666666666666667 * n * avg(K)`
+    :code:`p = 2 * n / 3 * avg(K)`
 
 
     Latex:
         .. math::
-            p = 0.666666666666667 n \langle K \rangle
+            p = \frac{2 n}{3} \langle K \rangle
 
 

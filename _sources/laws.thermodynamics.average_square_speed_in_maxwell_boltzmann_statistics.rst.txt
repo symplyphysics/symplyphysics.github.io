@@ -17,6 +17,9 @@ and inversely proportional to the mass of the gas.
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution#Typical_speeds>`__.
 
+..
+    TODO: move to `./maxwell_boltzmann_statistics.py`
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.average_square_speed_in_maxwell_boltzmann_statistics
 
 .. py:data:: average_square_speed

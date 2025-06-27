@@ -37,12 +37,12 @@ van der Waals equation of state. A reduced quantity :math:`X_r` is defined as th
     laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure
     laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature
     laws.thermodynamics.equations_of_state.van_der_waals.dimensionless_equation
-    laws.thermodynamics.equations_of_state.van_der_waals.equation
     laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy
     laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure
     laws.thermodynamics.equations_of_state.van_der_waals.reduced_temperature
     laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume
     laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient
+    laws.thermodynamics.equations_of_state.van_der_waals.van_der_vaals_equation
 
 
 

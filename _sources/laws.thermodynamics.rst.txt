@@ -33,7 +33,7 @@ Thermodynamics is a branch of physics that studies the relationships among heat,
     laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential
     laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity
     laws.thermodynamics.diffusion_flux_from_diffusion_coefficient_and_concentration_gradient
-    laws.thermodynamics.dynamic_viscosity_of_gas_from_control_viscosity_and_temperature
+    laws.thermodynamics.dynamic_viscosity_from_temperature
     laws.thermodynamics.efficiency_of_heat_engine
     laws.thermodynamics.enthalpy_derivative_via_volume_derivative
     laws.thermodynamics.enthalpy_differential

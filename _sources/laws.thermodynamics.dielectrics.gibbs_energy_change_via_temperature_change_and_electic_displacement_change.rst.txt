@@ -15,6 +15,9 @@ field strength.
 
 #. Formula 31.8 on p. 122 of "General Course of Physics" (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).
 
+..
+    TODO: make D and dE vectors
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.dielectrics.gibbs_energy_change_via_temperature_change_and_electic_displacement_change
 
 .. py:data:: gibbs_energy_density_change

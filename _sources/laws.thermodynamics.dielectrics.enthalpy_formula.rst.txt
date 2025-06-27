@@ -14,6 +14,9 @@ its internal energy and the electric field and electric displacement.
 
 #. Formula 31.5 on p. 122 of "General Course of Physics" (Obschiy kurs fiziki), vol. 3 by Sivukhin D.V. (1979).
 
+..
+    TODO: make E and D vectors
+
 .. py:currentmodule:: symplyphysics.laws.thermodynamics.dielectrics.enthalpy_formula
 
 .. py:data:: enthalpy_density
@@ -70,5 +73,15 @@ Latex:
 
 Dimension:
     :code:`charge/area`
+
+
+.. py:data:: law
+
+    :code:`H = U - E * D`
+
+
+    Latex:
+        .. math::
+            H = U - E D
 
 
