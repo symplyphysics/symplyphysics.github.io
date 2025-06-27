@@ -9,6 +9,9 @@ and friction force.
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Braking_distance>`__.
 
+..
+    TODO: reformulate in terms of the coefficient of friction?
+
 .. py:currentmodule:: symplyphysics.laws.dynamics.braking_path_via_speed_and_friction_force
 
 .. py:data:: braking_path

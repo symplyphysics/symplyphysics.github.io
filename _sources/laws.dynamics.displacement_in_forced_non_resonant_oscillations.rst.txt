@@ -20,7 +20,7 @@ and (2) the angular frequency of the external force driving the oscillations.
 
 **Links:**
 
-#. `Physics LibreTexts, derivable from (15.7.2) and (15.7.3) <https://en.wikipedia.org/wiki/Force#Second_law>`__.
+#. `Physics LibreTexts, derivable from (15.7.2) and (15.7.3) <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.07%3A_Forced_Oscillations>`__.
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.displacement_in_forced_non_resonant_oscillations
 
@@ -125,14 +125,11 @@ Dimension:
 
 .. py:data:: law
 
-    .. only:: comment
+    :code:`q(t) = F / m * cos(w * t + phi) / (w_0^2 - w^2)`
 
-        `displacement` is a sympy Symbol, therefore auto-generation of formulas is impossible
-
-    :code:`q(t) = F / (m * (w0^2 - w^2)) * cos(w * t + phi)`
 
     Latex:
         .. math::
-            q(t) = \frac{F}{m \left( \omega_0^2 - \omega^2 \right)} \cos{\left( \omega t + \varphi \right)}
+            q{\left(t \right)} = \frac{\frac{F}{m} \cos{\left(\omega t + \varphi \right)}}{\omega_{0}^{2} - \omega^{2}}
 
 
