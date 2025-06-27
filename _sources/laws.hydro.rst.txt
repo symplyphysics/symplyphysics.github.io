@@ -24,25 +24,25 @@ the behavior of real fluids. Ideal fluids are:
     :maxdepth: 4
 
 
+    laws.hydro.bulk_stress_is_bulk_modulus_times_strain
+    laws.hydro.capillary_height_via_surface_tension_and_contact_angle
     laws.hydro.dynamic_pressure_via_density_and_flow_speed
-    laws.hydro.efficiency_of_the_hydraulic_press_from_force_and_height
+    laws.hydro.efficiency_of_hydraulic_press_from_force_and_height
     laws.hydro.efflux_speed_via_height
     laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density
-    laws.hydro.excessive_pressure_under_curved_surface_of_bubble
-    laws.hydro.froude_number
-    laws.hydro.hagen_poiseuille_equation
-    laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain
-    laws.hydro.hydrostatic_pressure_from_density_and_depth_acceleration
+    laws.hydro.excess_pressure_under_curved_surface_of_bubble
+    laws.hydro.force_to_area_ratio_in_hydraulic_press
+    laws.hydro.froude_number_via_flow_speed_and_characteristic_length
     laws.hydro.hydrostatic_pressure_via_density_and_height
+    laws.hydro.hydrostatic_pressure_via_density_height_and_acceleration
     laws.hydro.inner_pressure_is_constant
     laws.hydro.inner_pressure_is_sum_of_pressures
-    laws.hydro.input_force_to_area_ratio_equals_to_output
-    laws.hydro.jurin_equation
     laws.hydro.mach_number_is_flow_speed_over_speed_of_sound
-    laws.hydro.nusselt_number
+    laws.hydro.nusselt_number_via_thermal_parameters_and_characteristic_length
+    laws.hydro.pressure_difference_at_pipe_ends_from_dynamic_viscosity_and_flow_rate
     laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally
     laws.hydro.pressure_of_liquid_in_vessel_moving_vertically
-    laws.hydro.reynolds_number_formula
+    laws.hydro.reynolds_number_via_fluid_parameters_and_characteristic_length
     laws.hydro.shear_stress_is_proportional_to_speed_gradient
     laws.hydro.submerged_volume_of_floating_body_via_density_ratio
     laws.hydro.surface_tension_force_via_surface_tension_and_length

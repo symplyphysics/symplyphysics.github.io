@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Bulk stress is bulk modulus times strain &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.hydro.bulk_stress_is_bulk_modulus_times_strain.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Capillary height via surface tension and contact angle" href="laws.hydro.capillary_height_via_surface_tension_and_contact_angle.html" />
+    <link rel="prev" title="Fluid mechanics" href="laws.hydro.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="bulk-stress-is-bulk-modulus-times-strain">
+<h1>Bulk stress is bulk modulus times strain<a class="headerlink" href="#bulk-stress-is-bulk-modulus-times-strain" title="Link to this heading">¶</a></h1>
+<p>When an object undergoes hydraulic compression due to a stress exerted by a surrounding liquid,
+the pressure (hydraulic stress) on the object due to the fluid is proportional to the fractional
+change in the object’s volume due to that pressure and the bulk modulus of the object. Thus, bulk
+modulus of a substance is a measure of its resistance to bulk compression.</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.bulk_stress">
+<span class="sig-name descname"><span class="pre">bulk_stress</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.bulk_stress" title="Link to this definition">¶</a></dt>
+<dd><p>Bulk stress. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(p)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta p\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.bulk_modulus">
+<span class="sig-name descname"><span class="pre">bulk_modulus</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.bulk_modulus" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.bulk_modulus" title="symplyphysics.symbols.classical_mechanics.bulk_modulus"><code class="xref py py-attr docutils literal notranslate"><span class="pre">bulk_modulus</span></code></a> of the material.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">K</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(K\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.fractional_volume_change">
+<span class="sig-name descname"><span class="pre">fractional_volume_change</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.fractional_volume_change" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.fractional_change" title="symplyphysics.symbols.basic.fractional_change"><code class="xref py py-attr docutils literal notranslate"><span class="pre">fractional_change</span></code></a> of volume. See <a class="reference internal" href="laws.quantities.fractional_change_is_change_over_initial_value.html#fractional-change-is-change-over-initial-value"><span class="std std-ref">Fractional change is change over initial value</span></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">e_V</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(e_{V}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(p)</span> <span class="pre">=</span> <span class="pre">K</span> <span class="pre">*</span> <span class="pre">e_V</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\Delta p = K e_{V}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Bulk stress is bulk modulus times strain</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.bulk_stress"><code class="docutils literal notranslate"><span class="pre">bulk_stress</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.bulk_modulus"><code class="docutils literal notranslate"><span class="pre">bulk_modulus</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.fractional_volume_change"><code class="docutils literal notranslate"><span class="pre">fractional_volume_change</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.capillary_height_via_surface_tension_and_contact_angle.html">Capillary height via surface tension and contact angle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.dynamic_pressure_via_density_and_flow_speed.html">Dynamic pressure from density and flow speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.efficiency_of_hydraulic_press_from_force_and_height.html">Efficiency of hydraulic press from force and height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_height.html">Efflux speed via height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density.html">Efflux speed via hydrostatic pressure and density</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.excess_pressure_under_curved_surface_of_bubble.html">Excess pressure under curved surface of bubble</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.force_to_area_ratio_in_hydraulic_press.html">Force to area ratio in hydraulic press</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.froude_number_via_flow_speed_and_characteristic_length.html">Froude number via flow speed and characteristic length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_and_height.html">Hydrostatic pressure via density and height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.hydrostatic_pressure_via_density_height_and_acceleration.html">Hydrostatic pressure via density, height and acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_constant.html">Inner pressure is constant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.inner_pressure_is_sum_of_pressures.html">Inner pressure is sum of pressures</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.nusselt_number_via_thermal_parameters_and_characteristic_length.html">Nusselt number via thermal parameters and characteristic length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_difference_at_pipe_ends_from_dynamic_viscosity_and_flow_rate.html">Pressure difference at pipe ends from dynamic viscosity and flow rate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally.html">Pressure of liquid in vessel moving horizontally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.pressure_of_liquid_in_vessel_moving_vertically.html">Pressure of liquid in vessel moving vertically</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.reynolds_number_via_fluid_parameters_and_characteristic_length.html">Reynolds number via fluid parameters and characteristic length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.shear_stress_is_proportional_to_speed_gradient.html">Shear stress is proportional to speed gradient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.submerged_volume_of_floating_body_via_density_ratio.html">Submerged volume of floating body via density ratio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.surface_tension_force_via_surface_tension_and_length.html">Surface tension force via surface tension and length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.volume_flux_is_constant.html">Volume flux is constant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html">Weight in fluid via ratio of densities</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.hydro.html">Fluid mechanics</a><ul>
+      <li>Previous: <a href="laws.hydro.html" title="previous chapter">Fluid mechanics</a></li>
+      <li>Next: <a href="laws.hydro.capillary_height_via_surface_tension_and_contact_angle.html" title="next chapter">Capillary height via surface tension and contact angle</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.hydro.bulk_stress_is_bulk_modulus_times_strain.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,93 @@
+Efficiency of hydraulic press from force and height
+===================================================
+
+A real hydraulic press is never :math:`100 \%` efficient due to friction and other energy
+losses. Its efficiency is the ratio of the useful work (given by the product of output
+force and the height of the output side) to the expended work (given by the product of
+input force and the height of the input side).
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.hydro.efficiency_of_hydraulic_press_from_force_and_height
+
+.. py:data:: output_force
+
+    Output :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`F_2`
+
+Latex:
+    :math:`F_{2}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: output_distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` covered by the output piston.
+
+Symbol:
+    :code:`d_2`
+
+Latex:
+    :math:`d_{2}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: input_force
+
+    Input :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`F_1`
+
+Latex:
+    :math:`F_{1}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: input_distance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` covered by the input piston.
+
+Symbol:
+    :code:`d_1`
+
+Latex:
+    :math:`d_{1}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: efficiency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.mechanical_efficiency` of the hydraulic press.
+
+Symbol:
+    :code:`eta`
+
+Latex:
+    :math:`\eta`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`eta = F_2 * d_2 / (F_1 * d_1)`
+
+
+    Latex:
+        .. math::
+            \eta = \frac{F_{2} d_{2}}{F_{1} d_{1}}
+
+

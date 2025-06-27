@@ -1,0 +1,104 @@
+Pressure difference at pipe ends from dynamic viscosity and flow rate
+=====================================================================
+
+In non-ideal fluid mechanics, the Hagen—Poiseuille equation is a physical law that gives
+the pressure drop in an incompressible and Newtonian fluid in laminar flow flowing
+through a long cylindrical pipe of constant cross section. It can be successfully
+applied to air flow in lung alveoli, or the flow through a drinking straw.
+
+**Conditions:**
+
+#. The fluid is incompressible and Newtonian.
+#. The flow of the fluid is laminar.
+#. The pipe is long enough for the flow to be laminar.
+#. The pipe has constant cross section.
+
+**Links:**
+
+#. `Wikipedia, first part of the first equation <https://en.wikipedia.org/wiki/Hagen%E2%80%93Poiseuille_equation#Equation>`__.
+
+..
+    TODO: rename file to use descriptive name
+
+.. py:currentmodule:: symplyphysics.laws.hydro.pressure_difference_at_pipe_ends_from_dynamic_viscosity_and_flow_rate
+
+.. py:data:: dynamic_viscosity
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.dynamic_viscosity` of the fluid.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`pressure*time`
+
+
+.. py:data:: length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the pipe.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`l`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: flow_rate
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volumetric_flow_rate` of the fluid through the pipe.
+
+Symbol:
+    :code:`Q`
+
+Latex:
+    :math:`Q`
+
+Dimension:
+    :code:`volume/time`
+
+
+.. py:data:: radius
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.radius` of the pipe.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`r`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: pressure_difference
+
+    Difference in :attr:`~symplyphysics.symbols.classical_mechanics.pressure` between the two ends of the pipe.
+
+Symbol:
+    :code:`Delta(p)`
+
+Latex:
+    :math:`\Delta p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: law
+
+    :code:`Delta(p) = 8 * mu * l * Q / (pi * r^4)`
+
+
+    Latex:
+        .. math::
+            \Delta p = \frac{8 \mu l Q}{\pi r^{4}}
+
+

@@ -1,0 +1,91 @@
+Force to area ratio in hydraulic press
+======================================
+
+If both vertically positioned cylinders of communicating vessels are closed with
+pistons, then with the help of external forces applied to the pistons, a large pressure
+can be created in the liquid, many times exceeding the hydrostatic pressure at any point
+in the system. If the pistons have different areas, then different forces act on them
+from the liquid side. The same modulus, but oppositely directed external forces must be
+applied to the pistons to keep the system in balance.
+
+
+**Conditions:**
+
+#. This ratio is performed only in an ideal hydraulic press, i.e. one in which there is
+   no friction.
+
+**Links:**
+
+#. `Physics LibreTexts, formula 53.1.2 <https://phys.libretexts.org/Courses/Prince_Georges_Community_College/General_Physics_I%3A_Classical_Mechanics/53%3A_Hydraulics_and_Pneumatics/53.01%3A_Hydraulics-_The_Hydraulic_Press>`__.
+
+..
+    TODO: rename file
+
+.. py:currentmodule:: symplyphysics.laws.hydro.force_to_area_ratio_in_hydraulic_press
+
+.. py:data:: input_force
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.force` acting on the first piston.
+
+Symbol:
+    :code:`F_1`
+
+Latex:
+    :math:`F_{1}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: input_area
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.area` of the first piston.
+
+Symbol:
+    :code:`A_1`
+
+Latex:
+    :math:`A_{1}`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: output_force
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.force` acting on the second piston.
+
+Symbol:
+    :code:`F_2`
+
+Latex:
+    :math:`F_{2}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: output_area
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.area` of the second piston.
+
+Symbol:
+    :code:`A_2`
+
+Latex:
+    :math:`A_{2}`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: law
+
+    :code:`F_1 / A_1 = F_2 / A_2`
+
+
+    Latex:
+        .. math::
+            \frac{F_{1}}{A_{1}} = \frac{F_{2}}{A_{2}}
+
+

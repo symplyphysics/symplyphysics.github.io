@@ -27,7 +27,7 @@ Dimension:
 
 .. py:data:: bulk_modulus
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the medium. Also see :doc:`laws.hydro.hydraulic_stress_is_bulk_modulus_times_strain`.
+    :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the medium. Also see :doc:`laws.hydro.bulk_stress_is_bulk_modulus_times_strain`.
 
 Symbol:
     :code:`K`

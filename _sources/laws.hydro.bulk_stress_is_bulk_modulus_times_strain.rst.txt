@@ -1,0 +1,66 @@
+Bulk stress is bulk modulus times strain
+========================================
+
+When an object undergoes hydraulic compression due to a stress exerted by a surrounding liquid,
+the pressure (hydraulic stress) on the object due to the fluid is proportional to the fractional
+change in the object's volume due to that pressure and the bulk modulus of the object. Thus, bulk
+modulus of a substance is a measure of its resistance to bulk compression.
+
+..
+    TODO: find link
+
+.. py:currentmodule:: symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain
+
+.. py:data:: bulk_stress
+
+    Bulk stress. See :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
+
+Symbol:
+    :code:`Delta(p)`
+
+Latex:
+    :math:`\Delta p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: bulk_modulus
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.bulk_modulus` of the material.
+
+Symbol:
+    :code:`K`
+
+Latex:
+    :math:`K`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: fractional_volume_change
+
+    :attr:`~symplyphysics.symbols.basic.fractional_change` of volume. See :ref:`Fractional change is change over
+    initial value`.
+
+Symbol:
+    :code:`e_V`
+
+Latex:
+    :math:`e_{V}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`Delta(p) = K * e_V`
+
+
+    Latex:
+        .. math::
+            \Delta p = K e_{V}
+
+
