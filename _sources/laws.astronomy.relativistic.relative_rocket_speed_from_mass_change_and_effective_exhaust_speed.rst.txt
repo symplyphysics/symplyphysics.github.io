@@ -1,0 +1,84 @@
+Relative rocket speed from mass change and effective exhaust speed
+==================================================================
+
+The Tsiolkovsky formula determines the speed that an aircraft develops due to the
+constant-direction thrust of the rocket engine in the absence of other forces. The generalized
+Tsiolkovsky formula is valid for a rocket flying at a speed close to the speed of light.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation#Special_relativity>`__.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.relativistic.relative_rocket_speed_from_mass_change_and_effective_exhaust_speed
+
+.. py:data:: speed
+
+    Final :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the rocket in the inertial reference frame where the rocket started at
+    rest.
+
+Symbol:
+    :code:`v`
+
+Latex:
+    :math:`v`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: effective_exhaust_speed
+
+    Effective exhaust :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the rocket engine.
+
+Symbol:
+    :code:`v_e`
+
+Latex:
+    :math:`v_\text{e}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: initial_mass
+
+    Initial :attr:`~symplyphysics.symbols.basic.mass` of the rocket.
+
+Symbol:
+    :code:`m_0`
+
+Latex:
+    :math:`m_{0}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: final_mass
+
+    Final :attr:`~symplyphysics.symbols.basic.mass` of the rocket.
+
+Symbol:
+    :code:`m_1`
+
+Latex:
+    :math:`m_{1}`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: law
+
+    :code:`m_1 / m_0 = ((1 - v / c) / (1 + v / c))^(c / (2 * v_e))`
+
+
+    Latex:
+        .. math::
+            \frac{m_{1}}{m_{0}} = \left(\frac{1 - \frac{v}{c}}{1 + \frac{v}{c}}\right)^{\frac{c}{2 v_\text{e}}}
+
+

@@ -12,6 +12,7 @@ Astronomy is a natural science that studies celestial objects and the phenomena 
 
     laws.astronomy.relativistic
     laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance
+    laws.astronomy.angular_altitude_in_upper_culmination
     laws.astronomy.approximate_time_of_stars_location_on_the_main_sequence
     laws.astronomy.change_in_apparent_magnitude_from_distance
     laws.astronomy.latitude_from_zenith_distances_and_declinations
@@ -19,7 +20,6 @@ Astronomy is a natural science that studies celestial objects and the phenomena 
     laws.astronomy.luminosity_of_star_from_absolute_magnitude
     laws.astronomy.luminosity_of_sun_in_future_from_luminosity_in_present
     laws.astronomy.luminosity_of_sun_in_past_from_luminosity_in_present
-    laws.astronomy.objects_angular_altitude_in_upper_culmination
     laws.astronomy.radius_of_planets_orbit_from_its_number
     laws.astronomy.ratio_of_luminosities_from_ratio_of_masses_of_stars
     laws.astronomy.speed_of_galaxy_from_distance_to_galaxy

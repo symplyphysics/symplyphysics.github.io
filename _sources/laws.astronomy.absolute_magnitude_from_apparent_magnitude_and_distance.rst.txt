@@ -1,7 +1,12 @@
-Absolute magnitude of stars from apparent magnitude and distance
-================================================================
+Absolute magnitude from apparent magnitude and distance
+=======================================================
 
 Absolute magnitude can be calculated using apparent magnitude and distance to the object.
+
+**Conditions:**
+
+#. The `extinction <https://en.wikipedia.org/wiki/Extinction_(astronomy)>`__ from gas and dust,
+   i.e. the interstellar absorption and scattering, is negligible.
 
 **Links:**
 

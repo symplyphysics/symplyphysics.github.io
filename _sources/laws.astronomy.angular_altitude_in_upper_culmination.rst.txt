@@ -1,0 +1,83 @@
+Angular altitude in upper culmination
+=====================================
+
+In observational astronomy, culmination is the passage of a celestial object across the observer's
+local meridian. **Upper culmination** refers to the time when the object reaches its highest point
+(i.e. it is nearest to the zenith).
+
+**Conditions:**
+
+#. The object is at its upper culmination.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Culmination#>`__.
+
+.. py:currentmodule:: symplyphysics.laws.astronomy.angular_altitude_in_upper_culmination
+
+.. py:data:: altitude
+
+    :attr:`~symplyphysics.symbols.astronomy.altitude` of the object.
+
+Symbol:
+    :code:`h`
+
+Latex:
+    :math:`h`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: latitude
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.latitude` of the object.
+
+Symbol:
+    :code:`phi`
+
+Latex:
+    :math:`\phi`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: declination
+
+    :attr:`~symplyphysics.symbols.astronomy.declination` of the object.
+
+Symbol:
+    :code:`delta`
+
+Latex:
+    :math:`\delta`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: ninety_degrees
+
+    A :math:`90^\circ` angle.
+
+Symbol:
+    :code:`90_deg`
+
+Latex:
+    :math:`90^\circ`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`h = 90_deg - phi + delta`
+
+
+    Latex:
+        .. math::
+            h = 90^\circ - \phi + \delta
+
+
