@@ -31,7 +31,7 @@ Symbol:
     :code:`Sigma_f`
 
 Latex:
-    :math:`\Sigma_text{f}`
+    :math:`\Sigma_\text{f}`
 
 Dimension:
     :code:`1/length`
@@ -72,6 +72,6 @@ Dimension:
 
     Latex:
         .. math::
-            k_{\infty} = \frac{\nu \Sigma_text{f}}{\Sigma_\text{a}}
+            k_{\infty} = \frac{\nu \Sigma_\text{f}}{\Sigma_\text{a}}
 
 

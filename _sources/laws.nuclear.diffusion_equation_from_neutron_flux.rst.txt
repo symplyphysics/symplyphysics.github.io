@@ -32,7 +32,7 @@ Symbol:
     :code:`Sigma_f`
 
 Latex:
-    :math:`\Sigma_text{f}`
+    :math:`\Sigma_\text{f}`
 
 Dimension:
     :code:`1/length`
@@ -115,6 +115,6 @@ Dimension:
 
     Latex:
         .. math::
-            - D \nabla^{2} \Phi{\left(x \right)} + \Sigma_\text{a} \Phi{\left(x \right)} = \frac{\nu}{k_\text{eff}} \Sigma_text{f} \Phi{\left(x \right)}
+            - D \nabla^{2} \Phi{\left(x \right)} + \Sigma_\text{a} \Phi{\left(x \right)} = \frac{\nu}{k_\text{eff}} \Sigma_\text{f} \Phi{\left(x \right)}
 
 
