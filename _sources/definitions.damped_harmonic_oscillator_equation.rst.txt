@@ -1,13 +1,16 @@
 Damped harmonic oscillator equation
 ===================================
 
-Assuming there is a damping force acting on an oscillating body that is linearly proportional
-to the body's velocity, we can write a differential equation for the body's position. We're
-assuming the body only moves in one direction.
+Describes the motion of a single-degree-of-freedom mechanical oscillator that experiences *linear (viscous) damping*.
+
+**Conditions:**
+
+#. Damping force is directly proportional to velocity (viscous).
+#. Motion is restricted to one spatial dimension.
 
 **Links:**
 
-#. `Physics LibreTexts, similar equation 15.6.2 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.06%3A_Damped_Oscillations>`__.
+#. `Physics LibreTexts – Damped Oscillations (Eq. 15.6.2) <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.06%3A_Damped_Oscillations>`__
 
 .. py:currentmodule:: symplyphysics.definitions.damped_harmonic_oscillator_equation
 
@@ -27,7 +30,7 @@ Dimension:
 
 .. py:data:: displacement
 
-    Displacement of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+    Displacement (1-D) of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
 
 Symbol:
     :code:`x(t)`
@@ -55,7 +58,7 @@ Dimension:
 
 .. py:data:: damping_ratio
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio`, which critically determines the behavior of the system.
+    :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio` of the system.
 
 Symbol:
     :code:`zeta`

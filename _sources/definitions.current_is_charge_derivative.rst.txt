@@ -1,12 +1,11 @@
 Current is charge derivative
 ============================
 
-The instantaneous electric current, or simply the *electric current*, is a physical quantity
-defined as the time derivative of the flowing charge.
+*Electric current* is the rate at which electric charge changes with time in classical electromagnetism.
 
 **Links:**
 
-#. `Wikipedia, second equation <https://en.wikipedia.org/wiki/Electric_current#Metals>`__.
+#. `Wikipedia – Electric current <https://en.wikipedia.org/wiki/Electric_current#Metals>`__
 
 .. py:currentmodule:: symplyphysics.definitions.current_is_charge_derivative
 
@@ -26,7 +25,7 @@ Dimension:
 
 .. py:data:: current
 
-    Electric :attr:`~symplyphysics.symbols.electrodynamics.current` as a function of time.
+    :attr:`~symplyphysics.symbols.electrodynamics.current` as a function of time.
 
 Symbol:
     :code:`I(t)`
@@ -40,7 +39,7 @@ Dimension:
 
 .. py:data:: charge
 
-    Electric :attr:`~symplyphysics.symbols.electrodynamics.charge` as a function of time.
+    :attr:`~symplyphysics.symbols.electrodynamics.charge` as a function of time.
 
 Symbol:
     :code:`q(t)`

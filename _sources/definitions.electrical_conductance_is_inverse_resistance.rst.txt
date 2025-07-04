@@ -1,0 +1,53 @@
+Electrical conductance is inverse resistance
+============================================
+
+*Electrical conductance* quantifies how readily electric current flows through a component or material; it is defined as the reciprocal of electrical resistance.
+
+**Conditions:**
+
+#. The current–voltage relationship is linear (Ohmic behaviour) and time-invariant.
+
+**Links:**
+
+#. `Wikipedia – Electrical resistance and conductance <https://en.wikipedia.org/wiki/Electrical_resistance_and_conductance>`__
+
+.. py:currentmodule:: symplyphysics.definitions.electrical_conductance_is_inverse_resistance
+
+.. py:data:: conductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance` of the object.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the object.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: definition
+
+    :code:`G = 1 / R`
+
+
+    Latex:
+        .. math::
+            G = \frac{1}{R}
+
+

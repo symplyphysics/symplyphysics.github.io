@@ -1,16 +1,19 @@
 Boltzmann factor via state energy and temperature
 =================================================
 
-The *Boltzmann factor* is an exponential factor that appears in many formulas of statistical physics
-and thermodynamics, e.g. the canonical partition function of a classical discrete system.
+The *Boltzmann factor* weights how likely a system is to occupy a micro-state of a given energy at thermal equilibrium.
 
 **Notation:**
 
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 
+**Conditions:**
+
+#. Equilibrium temperature is positive.
+
 **Links:**
 
-#. `Wikipedia <https://en.wikipedia.org/wiki/Boltzmann_distribution#>`__.
+#. `Wikipedia – Boltzmann distribution <https://en.wikipedia.org/wiki/Boltzmann_distribution>`__
 
 .. py:currentmodule:: symplyphysics.definitions.boltzmann_factor_via_state_energy_and_temperature
 
@@ -44,7 +47,7 @@ Dimension:
 
 .. py:data:: equilibrium_temperature
 
-    Equilibrium :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system at equilibrium.
 
 Symbol:
     :code:`T`

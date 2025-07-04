@@ -1,11 +1,17 @@
 Acceleration is speed derivative
 ================================
 
-*Acceleration* is the derivative of speed w.r.t. time.
+*Acceleration* describes how quickly speed changes with time.
+
+**Notes:**
+
+#. It still holds for special relativity and general relativity cases, but general relativity requires
+    4-velocity and 4-acceleration instead of speed and acceleration.
+    See `Wikipedia – Acceleration (special relativity) <https://en.wikipedia.org/wiki/Acceleration_(special_relativity)>`__ for reference.
 
 **Links:**
 
-#. `Wikipedia <https://en.wikipedia.org/wiki/Acceleration#Instantaneous_acceleration>`__.
+#. `Wikipedia – Instantaneous acceleration <https://en.wikipedia.org/wiki/Acceleration#Instantaneous_acceleration>`__
 
 .. py:currentmodule:: symplyphysics.definitions.acceleration_is_speed_derivative
 

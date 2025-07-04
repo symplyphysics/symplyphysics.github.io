@@ -441,7 +441,7 @@ Dimension:
 
 .. py:data:: zero_point_luminosity
 
-    **Zero-point luminosity** is a constant defined relative to a star for calibrating perposes. The
+    **Zero-point luminosity** is a constant defined relative to a star for calibrating purposes. The
     value given here has been defined by the International Astronomical Union (IAU).
 
     **Links:**
