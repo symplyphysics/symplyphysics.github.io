@@ -34,10 +34,10 @@ Dimension:
     :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` traveled.
 
 Symbol:
-    :code:`d`
+    :code:`s`
 
 Latex:
-    :math:`d`
+    :math:`s`
 
 Dimension:
     :code:`length`
@@ -49,10 +49,10 @@ Dimension:
     See :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
 
 Symbol:
-    :code:`E_s(d)`
+    :code:`E_s(s)`
 
 Latex:
-    :math:`E_{s}{\left(d \right)}`
+    :math:`E_{s}{\left(s \right)}`
 
 Dimension:
     :code:`voltage/length`
@@ -88,11 +88,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`V = -Integral(E_s(d), (d, s_0, s_1))`
+    :code:`V = -Integral(E_s(s), (s, s_0, s_1))`
 
 
     Latex:
         .. math::
-            V = - \int\limits_{s_{0}}^{s_{1}} E_{s}{\left(d \right)}\, dd
+            V = - \int\limits_{s_{0}}^{s_{1}} E_{s}{\left(s \right)}\, ds
 
 

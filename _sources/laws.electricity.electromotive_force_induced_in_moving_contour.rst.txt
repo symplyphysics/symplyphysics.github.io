@@ -8,7 +8,7 @@ would also be proportional to the number of turn the current makes.
 
 **Links:**
 
-#. `Wikipedia, second formula <https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction#Mathematical_statement>`__.
+#. `Wikipedia, third formula <https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction#Flux_rule>`__.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.electromotive_force_induced_in_moving_contour
 

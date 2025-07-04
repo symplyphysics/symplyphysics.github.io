@@ -13,7 +13,7 @@ reaches the voltage of the source.
 
 **Links:**
 
-#. `Wikipedia <https://en.wikipedia.org/wiki/Capacitor#DC_circuits>`__.
+#. `Wikipedia <https://en.wikipedia.org/wiki/Capacitor#RC_circuits>`__.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.circuits.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit
 
