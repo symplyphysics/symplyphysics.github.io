@@ -317,7 +317,7 @@ Dimension:
 .. py:data:: thermal_efficiency
 
     The **thermal efficiency** is a dimensionless performance measure of a device that uses thermal energy. A generic
-    definition of thermal energy is the ratio of the energy benefit to the energy costs attributed to the defice.
+    definition of thermal energy is the ratio of the energy benefit to the energy costs attributed to the device.
 
 Symbol:
     :code:`eta`

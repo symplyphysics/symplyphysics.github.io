@@ -11,7 +11,7 @@ For an object to be in rotational equilibrium, the total torque on the object mu
 
 .. py:data:: total_torque
 
-    Total :attr:`~symplyphysics.symbols.classical_mechanics.torque` is the magnitue of the vector sum of all torques acting on the body.
+    Total :attr:`~symplyphysics.symbols.classical_mechanics.torque` is the magnitude of the vector sum of all torques acting on the body.
 
 Symbol:
     :code:`tau`

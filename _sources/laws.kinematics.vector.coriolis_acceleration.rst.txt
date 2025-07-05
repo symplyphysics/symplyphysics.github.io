@@ -22,7 +22,7 @@ frame :math:`S'`, so it is essentially zero for objects at rest in :math:`S'`.
 
 .. py:data:: coriolis_acceleration
 
-    Vector of the body's Coreolis :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` in :math:`S'`.
+    Vector of the body's Coriolis :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` in :math:`S'`.
 
 Symbol:
     :code:`a_Cor`
