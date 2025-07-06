@@ -60,7 +60,7 @@ Dimension:
 
 .. py:data:: magnetic_flux_density
 
-    Vector of the :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density` field as a function of of :attr:`~position_vector`
+    Vector of the :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density` field as a function of :attr:`~position_vector`
     and :attr:`~time`.
 
 Symbol:

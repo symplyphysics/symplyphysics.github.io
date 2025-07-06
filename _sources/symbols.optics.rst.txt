@@ -7,7 +7,7 @@ Symbols related to optics.
 
 .. py:data:: relative_refractive_index
 
-    **Relative refractive index** of of an optical medium is a dimensionless number that gives the
+    **Relative refractive index** of an optical medium is a dimensionless number that gives the
     indication of the light bending ability of that medium. It is defined relative to a certain medium.
 
 Symbol:
