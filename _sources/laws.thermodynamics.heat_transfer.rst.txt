@@ -15,6 +15,7 @@ thermal radiation, and transfer of energy by phase changes.
 
 
     laws.thermodynamics.heat_transfer.equation_in_homogeneous_medium_in_one_dimension
+    laws.thermodynamics.heat_transfer.general_equation_in_3d
     laws.thermodynamics.heat_transfer.general_equation_in_one_dimension
     laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries
 
