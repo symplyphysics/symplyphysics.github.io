@@ -16,6 +16,7 @@ Definitions in vector form.
     definitions.vector.damping_force_is_proportional_to_velocity
     definitions.vector.momentum_is_mass_times_velocity_vector
     definitions.vector.superposition_of_forces_is_sum
+    definitions.vector.velocity_is_position_vector_derivative
 
 
 
