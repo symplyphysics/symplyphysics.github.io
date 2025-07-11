@@ -1,0 +1,75 @@
+Normal force via pressure and vector area
+=========================================
+
+Pressure is the proportionality constant between the vector area and the normal force
+acting on it.
+
+**Conditions:**
+
+#. Pressure is constant thoughout the given area, which can be achieved by making it
+   infinitesimally small.
+
+**Links:**
+
+#. `Wikipedia — Pressure <https://en.wikipedia.org/wiki/Pressure#Formula>`__.
+
+#. `Wikipedia — Normal force <https://en.wikipedia.org/wiki/Normal_force>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.vector.normal_force_via_pressure_and_vector_area
+
+.. py:data:: normal_force
+
+    **Normal force** is the component of a contact force that is normal to the contact surface of the
+    object.
+
+Symbol:
+    :code:`F_n`
+
+Latex:
+    :math:`{\vec F}_{n}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure`.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: vector_area
+
+    Vector area is a vector that is normal to the surface and has a magnitude of its (scalar) area.
+
+    ..
+        TODO: add reference to definition file
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`{\vec A}`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: law
+
+    :code:`F_n = p * A`
+
+
+    Latex:
+        .. math::
+            {\vec F}_{n} = p {\vec A}
+
+
