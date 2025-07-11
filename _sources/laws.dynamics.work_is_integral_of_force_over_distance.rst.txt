@@ -1,8 +1,8 @@
 Work is integral of force over distance
 =======================================
 
-Assuming a one-dimensional environment, when the force F on a particle-like object depends
-on the position of the object, the work done by F on the object while the object moves
+Assuming a one-dimensional environment, when the force :math:`\vec F` on a particle-like object depends
+on the position of the object, the work done by :math:`\vec F` on the object while the object moves
 from one position to another is to be found by integrating the force along the path of the
 object.
 
