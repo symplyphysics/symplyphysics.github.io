@@ -30,7 +30,7 @@ Dimension:
     The :attr:`~symplyphysics.symbols.basic.mass` of the first body.
 
 Symbol:
-    :code:`m1`
+    :code:`m_1`
 
 Latex:
     :math:`m_{1}`
@@ -44,7 +44,7 @@ Dimension:
     The :attr:`~symplyphysics.symbols.basic.mass` of the second body.
 
 Symbol:
-    :code:`m2`
+    :code:`m_2`
 
 Latex:
     :math:`m_{2}`
@@ -55,10 +55,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`mu = 1 / (1 / m1 + 1 / m2)`
+    :code:`mu = 1 / (1 / m_1 + 1 / m_2)`
+
 
     Latex:
         .. math::
-            \mu = \frac{1}{\frac{1}{m_1} + \frac{1}{m_2}}
+            \mu = \frac{1}{\frac{1}{m_{1}} + \frac{1}{m_{2}}}
 
 
