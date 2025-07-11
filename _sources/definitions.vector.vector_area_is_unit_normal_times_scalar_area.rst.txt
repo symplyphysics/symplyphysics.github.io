@@ -1,0 +1,92 @@
+Vector area is unit normal times scalar area
+============================================
+
+**Vector area**, or **oriented area**, is a vector quantity equal to the surface integral of the
+surface normal. If the unit normal is constant at all points of the surface, integral can be
+reduced to a product of the unit normal to the scalar area of the surface.
+
+**Notes:**
+
+#. If the normal changes direction across the surface, you can divide the surface into parts of
+   constant unit normal and sum up the vector areas of all parts:
+
+   .. math::
+
+       \vec A = \sum_i \vec A_i = \sum_i \vec n_i A_i
+
+   Alternatively, use the surface integral that sums up infinitesimal vector areas across the
+   surface:
+
+   .. math::
+
+       \vec A = \iint \limits_S d \vec A = \iint \limits_S \vec n (\vec r) dA
+
+**Conditions:**
+
+#. The surface is bounded (i.e. finite).
+
+#. The surface normal is the same thoughout the given region, which can be achieved by choosing a
+   small enough (or infinitesimal) surface.
+
+**Links:**
+
+#. `Wikipedia — Vector area <https://en.wikipedia.org/wiki/Vector_area#Definition>`__.
+
+.. py:currentmodule:: symplyphysics.definitions.vector.vector_area_is_unit_normal_times_scalar_area
+
+.. py:data:: vector_area
+
+    Vector :attr:`~symplyphysics.symbols.classical_mechanics.area` pertaining to the given region.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`{\vec A}`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: unit_normal
+
+    Unit vector `normal <https://en.wikipedia.org/wiki/Normal_(geometry)#>`__ to the surface.
+
+    **Notes:**
+
+    #. :math:`\left \Vert \vec n \right \Vert = 1`, i.e. it has unit magnitude.
+
+Symbol:
+    :code:`n`
+
+Latex:
+    :math:`{\vec n}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: scalar_area
+
+    Scalar :attr:`~symplyphysics.symbols.classical_mechanics.area` of the given region.
+
+Symbol:
+    :code:`A`
+
+Latex:
+    :math:`A`
+
+Dimension:
+    :code:`area`
+
+
+.. py:data:: law
+
+    :code:`A = n * A`
+
+
+    Latex:
+        .. math::
+            {\vec A} = {\vec n} A
+
+
