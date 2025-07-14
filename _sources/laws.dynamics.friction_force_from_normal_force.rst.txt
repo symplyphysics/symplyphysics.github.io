@@ -1,8 +1,9 @@
 Friction force from normal force
 ================================
 
-The *friction* force is tangential interaction between two objects, which impedes their relative movement.
-It is proportional to the normal force between the two objects.
+The *friction* force is a tangential interaction between two objects, which impedes their relative
+movement. In the phenomenological model of friction there is an empirical law stating that the
+friction force is proportional to the normal force between the two objects.
 
 **Links**
 
@@ -55,6 +56,7 @@ Dimension:
 .. py:data:: law
 
     :code:`F_fr = mu * N`
+
 
     Latex:
         .. math::

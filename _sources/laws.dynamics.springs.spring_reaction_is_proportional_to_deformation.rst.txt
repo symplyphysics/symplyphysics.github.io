@@ -27,8 +27,8 @@ to deformation (vector)>` of this law.
 
 .. py:data:: spring_reaction
 
-    Restoring :attr:`~symplyphysics.symbols.classical_mechanics.force`, or spring reaction, exerted by the spring due to the
-    deformation.
+    Restoring :attr:`~symplyphysics.symbols.classical_mechanics.force`, or spring reaction, exerted by the spring due to the deformation. Note
+    that this is the *projection* of the reaction force on the displacement vector of the spring's end.
 
 Symbol:
     :code:`F`
