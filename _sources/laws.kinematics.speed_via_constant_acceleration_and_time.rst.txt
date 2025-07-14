@@ -12,6 +12,9 @@ of time.
 
 #. `Wikipedia, vector counterpart of this law <https://en.wikipedia.org/wiki/Kinematics#Relative_acceleration>`__.
 
+..
+    TODO: make a vector counterpart of this law
+
 .. py:currentmodule:: symplyphysics.laws.kinematics.speed_via_constant_acceleration_and_time
 
 .. py:data:: final_speed
@@ -44,7 +47,8 @@ Dimension:
 
 .. py:data:: acceleration
 
-    Constant :attr:`~symplyphysics.symbols.classical_mechanics.acceleration`.
+    Constant :attr:`~symplyphysics.symbols.classical_mechanics.acceleration`. Note that it is the *projection* of the acceleration vector on the
+    axis along which position is measured.
 
 Symbol:
     :code:`a`

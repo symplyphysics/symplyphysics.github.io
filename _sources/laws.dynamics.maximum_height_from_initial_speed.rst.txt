@@ -3,9 +3,23 @@ Maximum height from initial speed
 
 The maximum height that a body thrown vertically will rise to depends on the initial speed.
 
+**Notes:**
+
+#. If the body is launched at an arbitrary angle to the horizontal, this formula is still
+   applicable but you must use the projection of the velocity vector on the :math:`z` axis as the
+   initial speed.
+
+**Conditions:**
+
+#. The body is thrown "upwards", i.e. in the direction opposite to that of the free fall
+   acceleration vector.
+
 **Links:**
 
 #. `Wikipedia, fifth formula <https://en.wikipedia.org/wiki/Projectile_motion#Maximum_height_of_projectile>`__.
+
+..
+    TODO: move to kinetimatics
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.maximum_height_from_initial_speed
 
@@ -25,7 +39,8 @@ Dimension:
 
 .. py:data:: initial_speed
 
-    The initial :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object.
+    The initial :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the object. Note that it is the *projection* of the body's velocity
+    vector on the :math:`z`-axis.
 
 Symbol:
     :code:`v`
