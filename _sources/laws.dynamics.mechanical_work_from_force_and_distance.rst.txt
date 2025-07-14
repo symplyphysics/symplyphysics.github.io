@@ -4,17 +4,32 @@ Mechanical work is force times distance
 Work is measured result of force applied. Mechanical work is the only reason for the object energy to be changed.
 Work is scalar value equal to force multiplied by distance.
 
-**Conditions:**
-
-#. The force and displacement vectors are collinear.
-
 **Notes:**
 
-#. Use the vector form of this law for non-collinear vectors of force and movement.
+#. This law works even when the force vector :math:`\vec F` and the displacement vector
+   :math:`\vec s` are not collinear or codirectional. In that case one should use the projection
+   of :math:`\vec F` onto :math:`\vec s` as the force or the projection of :math:`\vec s` on
+   :math:`\vec F` as the distance, due to the projection law. See the second **note** for reference.
+
+.. math::
+
+    W = \left( \vec F, \vec s \right) = \left( \vec F, \frac{\vec s}{\left \Vert \vec s \right \Vert} \right) \left \Vert \vec s \right \Vert = F_s s
+
+    W = \left( \vec F, \vec s \right) = \left( \frac{\vec F}{\left \Vert \vec F \right \Vert}, \vec s \right) \left \Vert \vec F \right \Vert = F s_F
+
+#. Use the :ref:`vector form <Mechanical work from force and displacement>` of this law for
+   non-collinear vectors of force and movement.
+
+**Conditions:**
+
+#. The force and displacement vectors are **collinear** and **codirectional**.
 
 **Links:**
 
 #. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Work_(physics)#>`__.
+
+..
+    NOTE: include angle in the formula?
 
 .. py:currentmodule:: symplyphysics.laws.dynamics.mechanical_work_from_force_and_distance
 
