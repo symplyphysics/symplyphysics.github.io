@@ -13,7 +13,7 @@ vector is directed opposite to the gravity vector.
 
 .. py:data:: buoyant_force
 
-    The buoyant (Archimedes) :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+    The buoyant (Archimedes) :attr:`~symplyphysics.symbols.classical_mechanics.force`. Note that this is the *magnitude* of the force vector.
 
 Symbol:
     :code:`F_A`
@@ -56,11 +56,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`F_A = -rho * g * V`
+    :code:`F_A = rho * g * V`
 
 
     Latex:
         .. math::
-            F_\text{A} = - \rho g V
+            F_\text{A} = \rho g V
 
 
