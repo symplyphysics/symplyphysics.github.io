@@ -37,6 +37,7 @@ the behavior of real fluids. Ideal fluids are:
     laws.hydro.hydrostatic_pressure_via_density_height_and_acceleration
     laws.hydro.inner_pressure_is_constant
     laws.hydro.inner_pressure_is_sum_of_pressures
+    laws.hydro.laplace_pressure_is_pressure_difference
     laws.hydro.mach_number_is_flow_speed_over_speed_of_sound
     laws.hydro.nusselt_number_via_thermal_parameters_and_characteristic_length
     laws.hydro.pressure_difference_at_pipe_ends_from_dynamic_viscosity_and_flow_rate

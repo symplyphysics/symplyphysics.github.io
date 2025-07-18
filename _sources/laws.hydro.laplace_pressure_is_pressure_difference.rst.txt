@@ -1,0 +1,68 @@
+Laplace pressure is pressure difference
+=======================================
+
+The **Laplace pressure** is the pressure difference between the inside and the outside of a curved
+surface that forms the boundary between two fluid regions. This is caused by the surface tension at
+the fluid interface.
+
+The terms *outside* and *inside* are related to the direction dictated by the curvature of the
+interface, not by the position relative to the fluid in question.
+
+**Links:**
+
+#. `Wikipedia — Laplace pressure <https://en.wikipedia.org/wiki/Laplace_pressure>`__.
+
+.. py:currentmodule:: symplyphysics.laws.hydro.laplace_pressure_is_pressure_difference
+
+.. py:data:: laplace_pressure
+
+    Laplace :attr:`~symplyphysics.symbols.classical_mechanics.pressure` of the fluid boundary.
+
+Symbol:
+    :code:`p_L`
+
+Latex:
+    :math:`p_\text{L}`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: outside_pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` at the side that the interface is bulging *from*.
+
+Symbol:
+    :code:`p_o`
+
+Latex:
+    :math:`p_\text{o}`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: inside_pressure
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.pressure` at the side that the interface is bulging *toward*.
+
+Symbol:
+    :code:`p_i`
+
+Latex:
+    :math:`p_\text{i}`
+
+Dimension:
+    :code:`pressure`
+
+
+.. py:data:: law
+
+    :code:`p_L = p_o - p_i`
+
+
+    Latex:
+        .. math::
+            p_\text{L} = p_\text{o} - p_\text{i}
+
+
