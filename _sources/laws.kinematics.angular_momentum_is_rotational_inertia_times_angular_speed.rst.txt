@@ -9,6 +9,7 @@ of its angular velocity.
 
 #. The body is rigid.
 #. The axis of rotation is fixed.
+#. The origin of the coordinate system lies on the axis of rotation.
 
 **Links:**
 
@@ -32,7 +33,7 @@ Dimension:
 
 .. py:data:: rotational_inertia
 
-    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the body.
+    :attr:`~symplyphysics.symbols.classical_mechanics.rotational_inertia` of the body about the given rotational axis.
 
 Symbol:
     :code:`I`
