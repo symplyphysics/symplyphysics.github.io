@@ -1,19 +1,32 @@
-Weight in fluid via ratio of densities
-======================================
+Apparent weight of a fully submersed body in fluid
+==================================================
 
-The *Archimedean force* acting on a body immersed in a fluid is equal to the weight of the fluid displaced by the body.
-It can be derived that the weight of the body immersed in the fluid is proportional to its weight in vacuum and also depends
-on the ratio of the fluid density and body density.
+The *Archimedean force* acting on a body fully submersed in a fluid is equal to the weight of the
+fluid displaced by the body. It can be derived that the weight of the body submersed in the fluid
+is proportional to its weight in vacuum and also depends on the ratio of the fluid density and body
+density.
+
+**Notes:**
+
+#. Positive apparent weight means that the body is sinking, whereas negative apparent weight means
+   that the body is floating to the surface.
+
+**Conditions:**
+
+#. The body is completely *submersed* in the fluid.
 
 **Links:**
 
 #. `Physics LibreTexts, derivable from here <https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/10%3A_Fluids/10.3%3A_Archimedes_Principle>`__.
 
+..
+    TODO: rename law
+
 .. py:currentmodule:: symplyphysics.laws.hydro.weight_in_fluid_via_ratio_of_densities
 
 .. py:data:: weight_in_fluid
 
-    Weight of the body immersed in the fluid. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+    Apparent weight of the body submersed in the fluid. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
 
 Symbol:
     :code:`W_fl`
