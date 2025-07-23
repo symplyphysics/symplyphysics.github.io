@@ -1,9 +1,8 @@
 Magnetic moment via current and contour area
 ============================================
 
-The **magnetic moment** is the main physical quantity characterizing the magnetic
-properties of a substance, that is, the ability to create and perceive a magnetic
-field.
+The **magnetic (dipole) moment** is the main physical quantity characterizing the magnetic
+properties of a substance, that is, the ability to create and perceive a magnetic field.
 
 **Conditions:**
 

@@ -10,6 +10,7 @@ the coil and volume of the core.
 
 ..
     TODO: replace `solenoid` with `coil` in file name
+    TODO: use `energy_density` like in the electric field law
 
 .. py:currentmodule:: symplyphysics.laws.electricity.energy_of_magnetic_field_of_solenoid
 

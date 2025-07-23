@@ -8,6 +8,9 @@ at all times.
 
 #. `Wikipedia <https://en.wikipedia.org/wiki/Charge_conservation>`__.
 
+..
+    TODO: move to `../conservation`?
+
 .. py:currentmodule:: symplyphysics.laws.electricity.electric_charge_is_constant_in_isolated_system
 
 .. py:data:: initial_charge

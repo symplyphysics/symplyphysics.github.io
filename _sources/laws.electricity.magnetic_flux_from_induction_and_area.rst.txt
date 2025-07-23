@@ -7,6 +7,9 @@ Magnetic flux is the flux of the vector of magnetic flux density through a certa
 
 #. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Magnetic_flux>`__.
 
+..
+    TODO: make vector law
+
 .. py:currentmodule:: symplyphysics.laws.electricity.magnetic_flux_from_induction_and_area
 
 .. py:data:: magnetic_flux

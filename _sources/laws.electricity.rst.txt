@@ -46,7 +46,7 @@ electrostatics and magnetism, which are distinct but closely intertwined phenome
     laws.electricity.inductance_is_magnetic_flux_over_current
     laws.electricity.inductance_is_proportional_to_turns_squared
     laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume
-    laws.electricity.instantaneous_energy_of_electric_field
+    laws.electricity.instantaneous_energy_of_magnetic_field
     laws.electricity.magnetic_field_due_to_infinite_wire
     laws.electricity.magnetic_field_of_coil
     laws.electricity.magnetic_flux_from_induction_and_area

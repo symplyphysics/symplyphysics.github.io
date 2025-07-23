@@ -10,6 +10,7 @@ permeability, the number of turns in the coil per unit length and its volume.
 
 ..
     TODO rename file
+    FIXME remove either this law or `./inductance_is_proportional_to_turns_squared.py`, they are the same law
 
 .. py:currentmodule:: symplyphysics.laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume
 
