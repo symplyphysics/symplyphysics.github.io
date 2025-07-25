@@ -42,6 +42,16 @@ square of its angular frequency.</p>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>The wave is sinusoidal.</p></li>
+<li><p>The wave is linear, i.e., assuming <span class="math notranslate nohighlight">\(s(x, t)\)</span> is the transverse displacement:</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\frac{|s(x, t)|}{L} \ll 1\)</span>, where <span class="math notranslate nohighlight">\(L\)</span> is the string length</p></li>
+<li><p><span class="math notranslate nohighlight">\(\left| \frac{\partial s}{\partial x} \right| \ll 1\)</span></p></li>
+<li><p>the tension is constant thoughout the string</p></li>
+<li><p>the linear density is constant throughout the string</p></li>
+<li><p>the displacement must be orthogonal to the string’s equilibrium shape</p></li>
+<li><p>no damping or energy dissipation within the string</p></li>
+</ol>
+</li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
@@ -120,10 +130,10 @@ square of its angular frequency.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.waves.average_power_of_sinusoidal_wave_on_stretched_string.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.waves.average_power_of_sinusoidal_wave_on_stretched_string.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">1/2</span> <span class="pre">*</span> <span class="pre">mu</span> <span class="pre">*</span> <span class="pre">v</span> <span class="pre">*</span> <span class="pre">w^2</span> <span class="pre">*</span> <span class="pre">u_max^2</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">mu</span> <span class="pre">*</span> <span class="pre">v</span> <span class="pre">*</span> <span class="pre">w^2</span> <span class="pre">*</span> <span class="pre">u_max^2</span> <span class="pre">/</span> <span class="pre">2</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[P = \frac{1}{2} \mu v \omega^2 u_\text{max}^2\]</div>
+\[P = \frac{\mu v \omega^{2} u_\text{max}^{2}}{2}\]</div>
 </dd>
 </dl>
 </dd></dl>

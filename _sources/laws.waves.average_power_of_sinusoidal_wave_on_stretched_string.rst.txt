@@ -8,6 +8,20 @@ square of its angular frequency.
 
 #. The wave is sinusoidal.
 
+#. The wave is linear, i.e., assuming :math:`s(x, t)` is the transverse displacement:
+
+   #. :math:`\frac{|s(x, t)|}{L} \ll 1`, where :math:`L` is the string length
+
+   #. :math:`\left| \frac{\partial s}{\partial x} \right| \ll 1`
+
+   #. the tension is constant thoughout the string
+
+   #. the linear density is constant throughout the string
+
+   #. the displacement must be orthogonal to the string's equilibrium shape
+
+   #. no damping or energy dissipation within the string
+
 **Links:**
 
 #. `Physics LibreTexts, formula 16.5.1 <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/16%3A_Waves/16.05%3A_Energy_and_Power_of_a_Wave>`__.
@@ -86,10 +100,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`P = 1/2 * mu * v * w^2 * u_max^2`
+    :code:`P = mu * v * w^2 * u_max^2 / 2`
+
 
     Latex:
         .. math::
-            P = \frac{1}{2} \mu v \omega^2 u_\text{max}^2
+            P = \frac{\mu v \omega^{2} u_\text{max}^{2}}{2}
 
 

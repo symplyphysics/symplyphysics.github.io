@@ -15,22 +15,14 @@ expression in the form of the :doc:`wave phase <laws.waves.phase_of_traveling_wa
 
     Displacement from rest in the wave. Usually depends on position and time.
 
-    Symbol:
-        :code:`u`
+Symbol:
+    :code:`u`
 
-    Latex:
-        :math:`u`
+Latex:
+    :math:`u`
 
-
-.. py:data:: solution
-
-    One-argument solution function of the wave equation.
-
-    Symbol:
-        :code:`f(phi)`
-
-    Latex:
-        :math:`f(\varphi)`
+Dimension:
+    :code:`any_dimension`
 
 
 .. py:data:: wave_phase
@@ -47,12 +39,27 @@ Dimension:
     :code:`angle`
 
 
+.. py:data:: solution
+
+    One-argument solution function of the wave equation.
+
+Symbol:
+    :code:`f(phi)`
+
+Latex:
+    :math:`f{\left(\varphi \right)}`
+
+Dimension:
+    :code:`any_dimension`
+
+
 .. py:data:: law
 
     :code:`u = f(phi)`
 
+
     Latex:
         .. math::
-            u = f(\varphi)
+            u = f{\left(\varphi \right)}
 
 
