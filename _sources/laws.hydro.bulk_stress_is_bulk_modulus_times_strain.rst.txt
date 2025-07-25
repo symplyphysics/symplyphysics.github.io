@@ -10,8 +10,9 @@ modulus of a substance is a measure of its resistance to bulk compression.
 
 #. This is an empirical law.
 
-..
-    TODO: find link
+**Links:**
+
+#. Equation 12-25 on p. 341 of "Fundamentals of Physics" by David Halladay et al., 10th Ed.
 
 .. py:currentmodule:: symplyphysics.laws.hydro.bulk_stress_is_bulk_modulus_times_strain
 
