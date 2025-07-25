@@ -11,6 +11,10 @@ expressions.
 
 #. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
 
+**Conditions:**
+
+#. Works in a **vacuum** environment.
+
 **Links:**
 
 #. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Photon#Energy_and_momentum>`__.
