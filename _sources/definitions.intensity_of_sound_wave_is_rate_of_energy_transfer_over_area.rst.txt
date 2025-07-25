@@ -10,7 +10,7 @@ per unit area, through or onto that surface.
 
 **Links:**
 
-#. `Wikipedia – Mathematical description <https://en.wikipedia.org/wiki/Intensity_(physics)#Mathematical_description>`__
+#. `Wikipedia — Mathematical description <https://en.wikipedia.org/wiki/Intensity_(physics)#Mathematical_description>`__
 
 .. py:currentmodule:: symplyphysics.definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area
 
