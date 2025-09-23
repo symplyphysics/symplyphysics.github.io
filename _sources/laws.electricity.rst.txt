@@ -21,6 +21,7 @@ electrostatics and magnetism, which are distinct but closely intertwined phenome
     laws.electricity.characteristic_resistance_of_medium
     laws.electricity.charge_is_quantized
     laws.electricity.corona_discharge_current_from_voltage
+    laws.electricity.current_is_voltage_over_impedance
     laws.electricity.current_is_voltage_over_resistance
     laws.electricity.electric_charge_is_constant_in_isolated_system
     laws.electricity.electric_dipole_moment_is_charge_times_distance

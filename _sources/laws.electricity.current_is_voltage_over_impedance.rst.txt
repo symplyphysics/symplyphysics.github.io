@@ -1,0 +1,77 @@
+Current is voltage over impedance
+=================================
+
+Alternating current flowing through an electric component is proportional to voltage applied to it
+and inversely proportional to its impedance. This is the complex generalization of the :ref:`Ohm's
+law <Current is voltage over resistance>`.
+
+**Notes:**
+
+#. This is a phenomenological equation.
+
+**Conditions:**
+
+#. The material must be ohmic, i.e. current must be proportional to voltage.
+
+#. The AC circuit must be time-invariant.
+
+**Links:**
+
+#. `Wikipedia — Ohm's law <https://en.wikipedia.org/wiki/Ohm%27s_law#Reactive_circuits_with_time-varying_signals>`__.
+
+#. `Univeristy of Maryland — Complex impedance method for AC circuits <https://physics.umd.edu/~jacobson/273c/impedance.pdf>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.current_is_voltage_over_impedance
+
+.. py:data:: current
+
+    Phasor :attr:`~symplyphysics.symbols.electrodynamics.current` through the component.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: voltage
+
+    Phasor :attr:`~symplyphysics.symbols.electrodynamics.voltage` across the component.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`voltage`
+
+
+.. py:data:: impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the component.
+
+Symbol:
+    :code:`Z`
+
+Latex:
+    :math:`Z`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: law
+
+    :code:`I = V / Z`
+
+
+    Latex:
+        .. math::
+            I = \frac{V}{Z}
+
+
