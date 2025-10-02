@@ -1,0 +1,3695 @@
+Formulas
+========
+
+- :doc:`(doc) <conditions.dynamics.equilibrium>` :code:`conditions.dynamics.equilibrium`
+
+    .. toggle::
+
+        - :doc:`(doc) <conditions.dynamics.equilibrium.total_torque_is_zero>` Total torque is zero
+        
+            .. math::
+        
+                \tau = 0
+- :doc:`(doc) <conditions.thermodynamics.dielectrics>` :code:`conditions.thermodynamics.dielectrics`
+
+    .. toggle::
+
+        - :doc:`(doc) <conditions.thermodynamics.dielectrics.equation_of_state>` Equation of state
+        
+            .. math::
+        
+                D = f{\left(E,T,\rho \right)}
+- :doc:`(doc) <definitions>` :code:`definitions`
+
+    .. toggle::
+
+        - :doc:`(doc) <definitions.acceleration_is_speed_derivative>` Acceleration is speed derivative
+        
+            .. math::
+        
+                a{\left(t \right)} = \frac{d}{d t} v{\left(t \right)}
+        - :doc:`(doc) <definitions.admittance_is_inverse_impedance>` Admittance is inverse impedance
+        
+            .. math::
+        
+                Y = \frac{1}{Z}
+        - :doc:`(doc) <definitions.angular_acceleration_is_angular_speed_derivative>` Angular acceleration is angular speed derivative
+        
+            .. math::
+        
+                \alpha{\left(t \right)} = \frac{d}{d t} \omega{\left(t \right)}
+        - :doc:`(doc) <definitions.angular_speed_is_angular_distance_derivative>` Angular speed is angular distance derivative
+        
+            .. math::
+        
+                \omega{\left(t \right)} = \frac{d}{d t} \theta{\left(t \right)}
+        - :doc:`(doc) <definitions.angular_wavenumber_is_inverse_wavelength>` Angular wavenumber is inverse wavelength
+        
+            .. math::
+        
+                k = \frac{2 \pi}{\lambda}
+        - :doc:`(doc) <definitions.boltzmann_factor_via_state_energy_and_temperature>` Boltzmann factor via state energy and temperature
+        
+            .. math::
+        
+                f = \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}
+        - :doc:`(doc) <definitions.compliance_is_inverse_stiffness>` Compliance is inverse stiffness
+        
+            .. math::
+        
+                c = \frac{1}{k}
+        - :doc:`(doc) <definitions.compressibility_factor_is_deviation_from_ideal_gas>` Compressibility factor is deviation from ideal gas
+        
+            .. math::
+        
+                Z = \frac{p V}{n R T}
+        - :doc:`(doc) <definitions.current_is_charge_derivative>` Current is charge derivative
+        
+            .. math::
+        
+                I{\left(t \right)} = \frac{d}{d t} q{\left(t \right)}
+        - :doc:`(doc) <definitions.damped_harmonic_oscillator_equation>` Damped harmonic oscillator equation
+        
+            .. math::
+        
+                \frac{d^{2}}{d t^{2}} x{\left(t \right)} + 2 \zeta \omega \frac{d}{d t} x{\left(t \right)} + \omega^{2} x{\left(t \right)} = 0
+        - :doc:`(doc) <definitions.density_from_mass_volume>` Density from mass and volume
+        
+            .. math::
+        
+                \rho = \frac{m}{V}
+        - :doc:`(doc) <definitions.electrical_conductance_is_inverse_resistance>` Electrical conductance is inverse resistance
+        
+            .. math::
+        
+                G = \frac{1}{R}
+        - :doc:`(doc) <definitions.harmonic_oscillator_is_second_derivative_equation>` Harmonic oscillator is a second order derivative equation
+        
+            .. math::
+        
+                \frac{d^{2}}{d t^{2}} x{\left(t \right)} = - \omega^{2} x{\left(t \right)}
+        - :doc:`(doc) <definitions.heat_capacity_ratio>` Heat capacity ratio
+        
+            .. math::
+        
+                \gamma = \frac{C_{p}}{C_{V}}
+        - :doc:`(doc) <definitions.impedance_is_resistance_and_reactance>` Impedance is resistance and reactance
+        
+            .. math::
+        
+                Z = R + i X
+        - :doc:`(doc) <definitions.impulse_is_integral_of_force_over_time>` Impulse is integral of force over time
+        
+            .. math::
+        
+                J = \int\limits_{t_{0}}^{t_{1}} F{\left(t \right)}\, dt
+        - :doc:`(doc) <definitions.intensity_of_sound_wave_is_rate_of_energy_transfer_over_area>` Intensity of sound wave is rate of energy transfer over area
+        
+            .. math::
+        
+                I = \frac{P}{A}
+        - :doc:`(doc) <definitions.linear_coefficient_of_thermal_expansion>` Linear coefficient of thermal expansion
+        
+            .. math::
+        
+                \alpha_{l} = \frac{\frac{\partial}{\partial T} l{\left(T,p \right)}}{l{\left(T,p \right)}}
+        - :doc:`(doc) <definitions.lorentz_factor>` Lorentz factor
+        
+            .. math::
+        
+                \gamma = \frac{1}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}
+        - :doc:`(doc) <definitions.mass_flow_rate>` Mass flow rate
+        
+            .. math::
+        
+                \mu{\left(t \right)} = \frac{d}{d t} m{\left(t \right)}
+        - :doc:`(doc) <definitions.mass_fraction>` Mass fraction of mixture component
+        
+            .. math::
+        
+                w_{i} = \frac{m_{i}}{m}
+        - :doc:`(doc) <definitions.mechanical_energy_is_kinetic_and_potential_energy>` Mechanical energy is kinetic and potential energy
+        
+            .. math::
+        
+                E = K + U
+        - :doc:`(doc) <definitions.momentum_is_mass_times_speed>` Momentum is mass times speed
+        
+            .. math::
+        
+                p = m v
+        - :doc:`(doc) <definitions.net_force_is_sum_of_individual_forces>` Net force is sum of individual forces
+        
+            .. math::
+        
+                F = \sum_i {F}_{i}
+        - :doc:`(doc) <definitions.number_density_is_number_of_objects_per_unit_volume>` Number density is number of objects per unit volume
+        
+            .. math::
+        
+                n = \frac{N}{V}
+        - :doc:`(doc) <definitions.period_from_angular_frequency>` Period from angular frequency
+        
+            .. math::
+        
+                T = \frac{2 \pi}{\omega}
+        - :doc:`(doc) <definitions.power_is_energy_derivative>` Power is energy derivative
+        
+            .. math::
+        
+                P{\left(t \right)} = \frac{d}{d t} E{\left(t \right)}
+        - :doc:`(doc) <definitions.quality_factor_is_energies_ratio>` Quality factor is ratio of energies
+        
+            .. math::
+        
+                Q = \frac{\omega E}{P}
+        - :doc:`(doc) <definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area>` Radiant exitance is radiant flux emitted per unit area
+        
+            .. math::
+        
+                M_\text{e} = \frac{d}{d A} \Phi_\text{e}{\left(A \right)}
+        - :doc:`(doc) <definitions.refractive_index_is_wave_speeds_ratio>` Relative refractive index is ratio of wave speeds
+        
+            .. math::
+        
+                n = \frac{v_\text{incident}}{v_\text{refracted}}
+        - :doc:`(doc) <definitions.rotational_inertia_is_mass_times_squared_radius>` Rotational inertia is mass times squared radius
+        
+            .. math::
+        
+                I = m r^{2}
+        - :doc:`(doc) <definitions.sound_level_in_decibels>` Sound level in decibels
+        
+            .. math::
+        
+                L_{I} = L_{I0} \log_{10} \left( \frac{I}{I_0} \right)
+        - :doc:`(doc) <definitions.speed_is_distance_derivative>` Speed is distance derivative
+        
+            .. math::
+        
+                v{\left(t \right)} = \frac{d}{d t} s{\left(t \right)}
+        - :doc:`(doc) <definitions.temporal_frequency_from_period>` Temporal frequency from period
+        
+            .. math::
+        
+                f = \frac{1}{T}
+        - :doc:`(doc) <definitions.temporal_frequency_is_number_of_events_per_unit_time>` Temporal frequency is number of events per unit time
+        
+            .. math::
+        
+                f = \frac{N}{t}
+        - :doc:`(doc) <definitions.thermal_de_broglie_wavelength>` Thermal de Broglie wavelength
+        
+            .. math::
+        
+                \lambda = \hbar \sqrt{\frac{2 \pi}{m k_\text{B} T}}
+        - :doc:`(doc) <definitions.thermal_resistance_to_conduction>` Thermal resistance to conduction
+        
+            .. math::
+        
+                R_\text{val} = \frac{h}{k}
+        - :doc:`(doc) <definitions.thermodynamic_compressibility>` Thermodynamic compressibility
+        
+            .. math::
+        
+                \beta = - \frac{\frac{\partial}{\partial p} V{\left(p,q \right)}}{V{\left(p,q \right)}}
+        - :doc:`(doc) <definitions.volumetric_coefficient_of_thermal_expansion>` Volumetric coefficient of thermal expansion
+        
+            .. math::
+        
+                \alpha_{V} = \frac{\frac{\partial}{\partial T} V{\left(T,q \right)}}{V{\left(T,q \right)}}
+        - :doc:`(doc) <definitions.wave_equation_in_one_dimension>` Wave equation in one dimension
+        
+            .. math::
+        
+                \frac{\partial^{2}}{\partial x^{2}} u{\left(x,t \right)} = \frac{\frac{\partial^{2}}{\partial t^{2}} u{\left(x,t \right)}}{v^{2}}
+- :doc:`(doc) <definitions.vector>` :code:`definitions.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <definitions.vector.acceleration_is_velocity_derivative>` Acceleration is velocity derivative
+        
+            .. math::
+        
+                {\vec a} \left( t \right) = \frac{d}{d t} {\vec v} \left( t \right)
+        - :doc:`(doc) <definitions.vector.angular_momentum_is_position_cross_linear_momentum>` Angular momentum is position cross linear momentum
+        
+            .. math::
+        
+                {\vec L} = \left[ {\vec r}, {\vec p} \right]
+        - :doc:`(doc) <definitions.vector.damping_force_is_proportional_to_velocity>` Damping force is proportional to velocity
+        
+            .. math::
+        
+                {\vec F} = - b {\vec v}
+        - :doc:`(doc) <definitions.vector.momentum_is_mass_times_velocity_vector>` Momentum is mass times velocity (Vector)
+        
+            .. math::
+        
+                {\vec p} = m {\vec v}
+        - :doc:`(doc) <definitions.vector.superposition_of_forces_is_sum>` Superposition of forces is sum (Vector)
+        
+            .. math::
+        
+                {\vec F} = \sum_i {{\vec F}}_{i}
+        - :doc:`(doc) <definitions.vector.vector_area_is_unit_normal_times_scalar_area>` Vector area is unit normal times scalar area
+        
+            .. math::
+        
+                {\vec A} = {\vec n} A
+        - :doc:`(doc) <definitions.vector.velocity_is_position_vector_derivative>` Velocity is position vector derivative
+        
+            .. math::
+        
+                {\vec v} \left( t \right) = \frac{d}{d t} {\vec d} \left( t \right)
+- :doc:`(doc) <laws.astronomy>` :code:`laws.astronomy`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.astronomy.absolute_magnitude_from_apparent_magnitude_and_distance>` Absolute magnitude from apparent magnitude and distance
+        
+            .. math::
+        
+                M = m - 5 \log_{10} \left( \frac{d}{d_0} \right)
+        - :doc:`(doc) <laws.astronomy.angular_altitude_in_upper_culmination>` Angular altitude in upper culmination
+        
+            .. math::
+        
+                h = 90^\circ - \phi + \delta
+        - :doc:`(doc) <laws.astronomy.approximate_time_of_stars_location_on_the_main_sequence>` Approximate lifetime of stars located on the main sequence
+        
+            .. math::
+        
+                t = t_\odot \frac{m}{M_\odot} \frac{L_\odot}{L}
+        - :doc:`(doc) <laws.astronomy.change_in_apparent_magnitude_from_distance>` Change in apparent magnitude from distance
+        
+            .. math::
+        
+                m_{2} - m_{1} = - 2.5 \log_{10} \left( \frac{E_{\text{e}2}}{E_{\text{e}1}} \right)
+        - :doc:`(doc) <laws.astronomy.latitude_from_zenith_distances_and_declinations>` Latitude from zenith angle and declination
+        
+            .. math::
+        
+                \phi = \frac{\theta_\text{S} - \theta_\text{N} + \delta_\text{S} + \delta_\text{N}}{2}
+        - :doc:`(doc) <laws.astronomy.lifetime_of_star_on_main_sequence>` Lifetime of star on main sequence
+        
+            .. math::
+        
+                t = 10 \, \text{Gyr} \left(\frac{m}{M_\odot}\right)^{1 - n}
+        - :doc:`(doc) <laws.astronomy.luminosity_of_star_from_absolute_magnitude>` Luminosity of star from absolute magnitude
+        
+            .. math::
+        
+                \log_{10} \left( \frac{L}{L_0} \right) = - 0.4 M
+        - :doc:`(doc) <laws.astronomy.luminosity_of_sun_in_future_from_luminosity_in_present>` Luminosity of Sun in future from luminosity in present
+        
+            .. math::
+        
+                L_{1} = L \left(\frac{5.59}{\frac{t}{1 \, \text{Gyr}}} - 1.41 + 0.26 \frac{t}{1 \, \text{Gyr}}\right)
+        - :doc:`(doc) <laws.astronomy.luminosity_of_sun_in_past_from_luminosity_in_present>` Luminosity of Sun in past from luminosity in present
+        
+            .. math::
+        
+                L_{0} = \frac{L}{1 + 0.4 \left(1 - \frac{t}{1 \, \text{Gyr}} \frac{1}{4.6}\right)}
+        - :doc:`(doc) <laws.astronomy.radius_of_planets_orbit_from_its_number>` Radius of planetary orbits from number
+        
+            .. math::
+        
+                r = a + b 2^{N}
+        - :doc:`(doc) <laws.astronomy.ratio_of_luminosities_from_ratio_of_masses_of_stars>` Ratio of luminosities from ratio of masses of stars
+        
+            .. math::
+        
+                \frac{L_{2}}{L_{1}} = \left(\frac{m_{2}}{m_{1}}\right)^{4}
+        - :doc:`(doc) <laws.astronomy.speed_of_galaxy_from_distance_to_galaxy>` Speed of galaxy from distance to galaxy
+        
+            .. math::
+        
+                v = H d
+- :doc:`(doc) <laws.astronomy.relativistic>` :code:`laws.astronomy.relativistic`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.astronomy.relativistic.relative_rocket_speed_from_mass_change_and_effective_exhaust_speed>` Relative rocket speed from mass change and effective exhaust speed
+        
+            .. math::
+        
+                \frac{m_{1}}{m_{0}} = \left(\frac{1 - \frac{v}{c}}{1 + \frac{v}{c}}\right)^{\frac{c}{2 v_\text{e}}}
+- :doc:`(doc) <laws.chemistry>` :code:`laws.chemistry`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.chemistry.avogadro_constant_is_particle_count_over_amount_of_substance>` Avogadro constant is particle count over amount of substance
+        
+            .. math::
+        
+                N_\text{A} = \frac{N}{n}
+        - :doc:`(doc) <laws.chemistry.boundary_of_thermalization_zone_of_atomized_atoms_in_magnetron>` Boundary of thermalization zone of atomized atoms in magnetron
+        
+            .. math::
+        
+                l = N \lambda
+        - :doc:`(doc) <laws.chemistry.distance_of_greatest_convergence_of_particles_in_magnetron>` Distance of greatest convergence of particles in magnetron
+        
+            .. math::
+        
+                d = - d_0 \left(Z_{1}^{0.0387} + Z_{2}^{0.0387}\right) \log \left( \frac{V}{V_0 \left(Z_{1} Z_{2}\right)^{1.4883}} \right)
+        - :doc:`(doc) <laws.chemistry.electron_distribution_function_in_gas_plasma_per_druyvestein>` Electron distribution function in gas plasma per Druyvestein
+        
+            .. math::
+        
+                f = \frac{E_0 \sqrt{e V}}{E^{\frac{3}{2}}} \exp{\left(- \frac{0.55 \left(e V\right)^{2}}{E^{2}} \right)}
+        - :doc:`(doc) <laws.chemistry.electron_distribution_function_in_gas_plasma_per_maxwell>` Electron distribution function in gas plasma per Maxwell
+        
+            .. math::
+        
+                f = \frac{E_0 \sqrt{e V}}{E^{\frac{3}{2}}} \exp{\left(- \frac{1.55 e V}{E} \right)}
+        - :doc:`(doc) <laws.chemistry.electronic_current_in_probe_circuit_in_gas_plasma>` Electron current in probe circuit in gas plasma
+        
+            .. math::
+        
+                I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\text{f} - U_{\vec E}\right)}{k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.chemistry.energy_transfer_coefficient_for_elastic_scattering_in_magnetron>` Energy transfer coefficient for elastic scattering in magnetron
+        
+            .. math::
+        
+                x = \frac{2 m_{1} m_{2}}{\left(m_{1} + m_{2}\right)^{2}}
+        - :doc:`(doc) <laws.chemistry.etch_rate_of_target_in_magnetron>` Etch rate of target in magnetron
+        
+            .. math::
+        
+                v = \frac{j M Y}{e \rho N_\text{A}}
+        - :doc:`(doc) <laws.chemistry.interaction_cross_section_in_coulomb_interaction_model>` Interaction cross section in Coulomb's interaction model
+        
+            .. math::
+        
+                \sigma = \frac{e^{2}}{2 \pi \varepsilon_0^{2} E_\text{i}^{2}}
+        - :doc:`(doc) <laws.chemistry.interaction_cross_section_in_elastic_interaction_model>` Interaction cross section in elastic interaction model
+        
+            .. math::
+        
+                \sigma = \pi D^{2} \left(1 + \frac{S}{T}\right)
+        - :doc:`(doc) <laws.chemistry.interaction_cross_section_in_model_of_hard_spheres>` Interaction cross section in model of hard spheres
+        
+            .. math::
+        
+                \sigma = \pi d^{2}
+        - :doc:`(doc) <laws.chemistry.interaction_cross_section_in_recharge_model>` Interaction cross section in recharge model
+        
+            .. math::
+        
+                \sigma = \pi a_0^{2} \frac{\mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \sqrt{\frac{3 k_\text{B} T}{m}} \sqrt{\frac{E_\text{i}}{\mathrm{IE}_\text{H}}} \frac{\sigma p m}{2 k_\text{B} T e E} \right)^{2}
+        - :doc:`(doc) <laws.chemistry.ionization_cross_section_of_atom_by_electron_per_granovsky>` Ionization cross section of atom by electrons per Granovsky
+        
+            .. math::
+        
+                \sigma_\text{eff} = \sigma_\text{max} \frac{E - \sigma_\text{i}}{E_\text{max} - \sigma_\text{i}} \exp{\left(\frac{E_\text{max} - E}{E_\text{max} - \sigma_\text{i}} \right)}
+        - :doc:`(doc) <laws.chemistry.ionization_cross_section_of_atom_by_electron_per_lotz_drevin>` Ionization cross section of atom by electrons per Lotz-Drevin
+        
+            .. math::
+        
+                \sigma = \frac{2.66 \pi a_0^{2} N \mathrm{IE}_\text{H}^{2}}{E_\text{i}^{2}} \frac{A \left(\frac{E}{E_\text{i}} - 1\right)}{\left(\frac{E}{E_\text{i}}\right)^{2}} \log \left( 1.25 B \frac{E}{E_\text{i}} \right)
+        - :doc:`(doc) <laws.chemistry.mass_of_film_deposited_during_electrolysis>` Mass of film deposited during electrolysis
+        
+            .. math::
+        
+                m = \frac{I M B t}{v \mathfrak{F}}
+        - :doc:`(doc) <laws.chemistry.mean_free_path_of_particles_in_gaseous_medium>` Mean free path of particles in gaseous medium
+        
+            .. math::
+        
+                \lambda = \frac{k_\text{B} T}{\sqrt{2} p \sigma}
+        - :doc:`(doc) <laws.chemistry.molar_mass_via_molecular_mass>` Molar mass via molecular mass
+        
+            .. math::
+        
+                M = m_{0} N_\text{A}
+        - :doc:`(doc) <laws.chemistry.number_density_via_volumetric_density_and_molar_mass>` Number density via volumetric density and molar mass
+        
+            .. math::
+        
+                n = \frac{\rho N_\text{A}}{M}
+        - :doc:`(doc) <laws.chemistry.number_of_collisions_of_particle_with_gas_in_magnetron>` Number of collisions of particle with gas in magnetron
+        
+            .. math::
+        
+                N = \frac{\log \left( \frac{E}{E_{0}} \right)}{\log \left( 1 - x \right)}
+        - :doc:`(doc) <laws.chemistry.reaction_equilibrium_constant_via_standard_gibbs_energy>` Reaction equilibrium constant via standard Gibbs energy
+        
+            .. math::
+        
+                K = \exp{\left(- \frac{\Delta G}{R T} \right)}
+        - :doc:`(doc) <laws.chemistry.speed_of_charged_particles_in_gas_via_mobility>` Speed of charged particles in gas via mobility
+        
+            .. math::
+        
+                v = \frac{\mu E}{p}
+        - :doc:`(doc) <laws.chemistry.volumetric_ionization_coefficient_of_neutral_particles_by_electrons>` Volumetric ionization coefficient of neutral particles by electrons
+        
+            .. math::
+        
+                \alpha = A p \exp{\left(- \frac{B p}{E} \right)}
+- :doc:`(doc) <laws.chemistry.electrochemistry>` :code:`laws.chemistry.electrochemistry`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.chemistry.electrochemistry.electrochemical_equivalent_from_molar_mass_and_valence>` Electrochemical equivalent from molar mass and valence
+        
+            .. math::
+        
+                Z = \frac{M}{\mathfrak{F} v}
+        - :doc:`(doc) <laws.chemistry.electrochemistry.energy_of_electron_in_hydrogen_atom_per_bohr>` Energy of electron in hydrogen atom per Bohr
+        
+            .. math::
+        
+                E = \frac{e^{2}}{8 \pi \varepsilon_0 r}
+        - :doc:`(doc) <laws.chemistry.electrochemistry.mass_of_substance_deposited_on_electrode>` Mass of substance deposited on electrode
+        
+            .. math::
+        
+                m = Z I t
+- :doc:`(doc) <laws.chemistry.potential_energy_models>` :code:`laws.chemistry.potential_energy_models`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.chemistry.potential_energy_models.lennard_jones_potential>` Lennard-Jones potential
+        
+            .. math::
+        
+                U = 4 \varepsilon \left(\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6}\right)
+- :doc:`(doc) <laws.condensed_matter>` :code:`laws.condensed_matter`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.condensed_matter.concentration_of_intrinsic_charge_carriers>` Concentration of intrinsic charge carriers
+        
+            .. math::
+        
+                n = \sqrt{N_\text{c} N_\text{v}} \exp{\left(- \frac{E_\text{g}}{2 k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.condensed_matter.current_density_from_mobility>` Current density from mobility
+        
+            .. math::
+        
+                j = e \left(- n_\text{e} \mu_\text{e} + n_\text{h} \mu_\text{h}\right) E
+        - :doc:`(doc) <laws.condensed_matter.current_density_in_thermionic_emission_per_richardson>` Current density in thermionic emission per Richardson
+        
+            .. math::
+        
+                j = a T^{2} \exp{\left(- \frac{W}{k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.condensed_matter.current_density_via_number_density_and_drift_velocity>` Current density via number density and drift velocity
+        
+            .. math::
+        
+                j = q n u
+        - :doc:`(doc) <laws.condensed_matter.diffusion_coefficient_from_energy_temperature>` Diffusion coefficient from energy and temperature
+        
+            .. math::
+        
+                D = D_{0} \exp{\left(- \frac{E_\text{A}}{k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.condensed_matter.drift_velocity_of_charge_carriers>` Drift velocity of charge carriers
+        
+            .. math::
+        
+                u = \mu E
+        - :doc:`(doc) <laws.condensed_matter.effective_mass_of_electron_via_energy>` Effective mass of electron via energy
+        
+            .. math::
+        
+                m_\text{eff} = \frac{\hbar^{2}}{\frac{d^{2}}{d k^{2}} E{\left(k \right)}}
+        - :doc:`(doc) <laws.condensed_matter.equilibrium_voltage_difference_in_pn_junction_via_concentrations>` Equilibrium voltage difference in p-n junction via concentrations
+        
+            .. math::
+        
+                \Delta V = \frac{k_\text{B} T}{q} \log \left( \frac{n_\text{d} n_\text{a}}{n^{2}} \right)
+        - :doc:`(doc) <laws.condensed_matter.resistance_from_temperature>` Resistance from temperature
+        
+            .. math::
+        
+                R = R_{0} \left(1 + a \left(T - T_\text{std}\right)\right)
+- :doc:`(doc) <laws.conservation>` :code:`laws.conservation`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.conservation.abbe_invariant_of_two_optical_environments_is_constant>` Abbe invariant of two optical environments is constant
+        
+            .. math::
+        
+                n_{0} \left(\frac{1}{d_\text{o}} - \frac{1}{r}\right) = n \left(\frac{1}{d_\text{i}} - \frac{1}{r}\right)
+        - :doc:`(doc) <laws.conservation.amount_of_mixture_is_sum_of_amounts_of_components>` Amount of mixture is sum of amounts of components
+        
+            .. math::
+        
+                n = \sum_i {n}_{i}
+        - :doc:`(doc) <laws.conservation.charge_is_constant>` Charge is constant
+        
+            .. math::
+        
+                \frac{d}{d t} q{\left(t \right)} = 0
+        - :doc:`(doc) <laws.conservation.initial_mass_equals_final_mass>` Initial mass equals final mass
+        
+            .. math::
+        
+                m{\left(t_{1} \right)} = m{\left(t_{0} \right)}
+        - :doc:`(doc) <laws.conservation.initial_mechanical_energy_equals_final_mechanical_energy>` Initial mechanical energy equals final mechanical energy
+        
+            .. math::
+        
+                E{\left(t_{1} \right)} = E{\left(t_{0} \right)}
+        - :doc:`(doc) <laws.conservation.initial_momentum_equals_final_momentum>` Initial momentum equals final momentum
+        
+            .. math::
+        
+                p{\left(t_{1} \right)} = p{\left(t_{0} \right)}
+        - :doc:`(doc) <laws.conservation.mass_is_constant>` Mass is constant
+        
+            .. math::
+        
+                \frac{d}{d t} m{\left(t \right)} = 0
+        - :doc:`(doc) <laws.conservation.mechanical_energy_is_constant>` Mechanical energy is constant
+        
+            .. math::
+        
+                \frac{d}{d t} E{\left(t \right)} = 0
+        - :doc:`(doc) <laws.conservation.mixture_mass_is_sum_of_component_masses>` Mixture mass is sum of component masses
+        
+            .. math::
+        
+                m = \sum_i {m}_{i}
+        - :doc:`(doc) <laws.conservation.momentum_is_constant>` Momentum is constant
+        
+            .. math::
+        
+                \frac{d}{d t} p{\left(t \right)} = 0
+- :doc:`(doc) <laws.dynamics>` :code:`laws.dynamics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.dynamics.acceleration_is_force_over_mass>` Acceleration is force over mass
+        
+            .. math::
+        
+                a = \frac{F}{m}
+        - :doc:`(doc) <laws.dynamics.braking_path_via_speed_and_friction_force>` Braking path via speed and friction force
+        
+            .. math::
+        
+                s = \frac{m v^{2}}{2 F_\text{fr}}
+        - :doc:`(doc) <laws.dynamics.buoyant_force_from_density_and_volume>` Buoyant force from density and volume
+        
+            .. math::
+        
+                F_\text{A} = \rho g V
+        - :doc:`(doc) <laws.dynamics.coefficient_of_stiffness_from_area_length>` Coefficient of stiffness from area and length
+        
+            .. math::
+        
+                k = \frac{E A}{l}
+        - :doc:`(doc) <laws.dynamics.displacement_in_forced_non_resonant_oscillations>` Displacement in forced non-resonant oscillations
+        
+            .. math::
+        
+                q{\left(t \right)} = \frac{\frac{F}{m} \cos{\left(\omega t + \varphi \right)}}{\omega_{0}^{2} - \omega^{2}}
+        - :doc:`(doc) <laws.dynamics.force_is_derivative_of_momentum>` Force is derivative of momentum
+        
+            .. math::
+        
+                \frac{d}{d t} p{\left(t \right)} = F{\left(t \right)}
+        - :doc:`(doc) <laws.dynamics.forced_oscillations_equation>` Forced oscillations equation
+        
+            .. math::
+        
+                \frac{d^{2}}{d t^{2}} x{\left(t \right)} + \omega_{0}^{2} x{\left(t \right)} = \frac{F}{m} \cos{\left(\omega t + \varphi \right)}
+        - :doc:`(doc) <laws.dynamics.friction_force_from_normal_force>` Friction force from normal force
+        
+            .. math::
+        
+                F_\text{fr} = \mu N
+        - :doc:`(doc) <laws.dynamics.instantaneous_power_is_force_times_speed>` Instantaneous power is force times speed
+        
+            .. math::
+        
+                P = F v \cos{\left(\varphi \right)}
+        - :doc:`(doc) <laws.dynamics.kinetic_energy_from_mass_and_speed>` Kinetic energy from mass and speed
+        
+            .. math::
+        
+                K = \frac{m v^{2}}{2}
+        - :doc:`(doc) <laws.dynamics.kinetic_energy_from_rotational_inertia_and_angular_speed>` Kinetic energy from rotational inertia and angular speed
+        
+            .. math::
+        
+                K = \frac{I \omega^{2}}{2}
+        - :doc:`(doc) <laws.dynamics.kinetic_energy_via_momentum>` Kinetic energy via momentum
+        
+            .. math::
+        
+                K = \frac{p^{2}}{2 m}
+        - :doc:`(doc) <laws.dynamics.maximum_height_from_initial_speed>` Maximum height from initial speed
+        
+            .. math::
+        
+                h = \frac{v^{2}}{2 g}
+        - :doc:`(doc) <laws.dynamics.mechanical_work_from_force_and_distance>` Mechanical work is force times distance
+        
+            .. math::
+        
+                W = F s
+        - :doc:`(doc) <laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed>` Momentum derivative of kinetic energy is speed
+        
+            .. math::
+        
+                \frac{d}{d p{\left(v \right)}} K{\left(p{\left(v \right)} \right)} = v
+        - :doc:`(doc) <laws.dynamics.period_of_ideal_pendulum_from_length>` Period of ideal pendulum from length
+        
+            .. math::
+        
+                T = 2 \pi \sqrt{\frac{l}{g}}
+        - :doc:`(doc) <laws.dynamics.period_of_physical_pendulum>` Period of physical pendulum
+        
+            .. math::
+        
+                T = 2 \pi \sqrt{\frac{I}{m g d}}
+        - :doc:`(doc) <laws.dynamics.period_of_spring_from_mass>` Period of spring from mass
+        
+            .. math::
+        
+                T = 2 \pi \sqrt{\frac{m}{k}}
+        - :doc:`(doc) <laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia>` Period of torsion pendulum from rotational inertia
+        
+            .. math::
+        
+                T = 2 \pi \sqrt{\frac{I}{\kappa}}
+        - :doc:`(doc) <laws.dynamics.potential_energy_from_deformation>` Elastic potential energy from displacement
+        
+            .. math::
+        
+                U = \frac{k d^{2}}{2}
+        - :doc:`(doc) <laws.dynamics.potential_energy_from_mass_and_height>` Potential energy from mass and height
+        
+            .. math::
+        
+                U = m g h
+        - :doc:`(doc) <laws.dynamics.pressure_from_force_and_area>` Pressure from force and area
+        
+            .. math::
+        
+                p = \frac{F}{A}
+        - :doc:`(doc) <laws.dynamics.reaction_force_from_action_force>` Reaction force equals action force
+        
+            .. math::
+        
+                F_{21} = - F_{12}
+        - :doc:`(doc) <laws.dynamics.reduced_mass_of_two_body_system>` Reduced mass of a two-body system
+        
+            .. math::
+        
+                \mu = \frac{1}{\frac{1}{m_{1}} + \frac{1}{m_{2}}}
+        - :doc:`(doc) <laws.dynamics.resonant_oscillations>` Displacement in resonant oscillations
+        
+            .. math::
+        
+                x{\left(t \right)} = \frac{F}{2 m \omega_{0}} t \sin{\left(\omega_{0} t + \varphi \right)}
+        - :doc:`(doc) <laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration>` Rocket thrust is rocket mass times acceleration
+        
+            .. math::
+        
+                R v_\text{rel} = m a
+        - :doc:`(doc) <laws.dynamics.rotational_work_is_torque_times_angular_distance>` Rotational work is torque times angular distance
+        
+            .. math::
+        
+                W = \tau \theta
+        - :doc:`(doc) <laws.dynamics.speed_of_rocket_depends_on_mass_and_impulse>` Rocket speed from mass and impulse
+        
+            .. math::
+        
+                \Delta v = v_\text{e} \log \left( \frac{m_{0}}{m_{1}} \right)
+        - :doc:`(doc) <laws.dynamics.torque_via_force_and_radial_distance>` Torque via force and radial distance
+        
+            .. math::
+        
+                \tau = r F \sin{\left(\varphi \right)}
+        - :doc:`(doc) <laws.dynamics.torque_via_rotational_inertia_and_angular_acceleration>` Torque via rotational inertia and angular acceleration
+        
+            .. math::
+        
+                \tau = I \alpha
+        - :doc:`(doc) <laws.dynamics.total_work_is_change_in_kinetic_energy>` Total work is change in kinetic energy
+        
+            .. math::
+        
+                W = K{\left(t_{1} \right)} - K{\left(t_{0} \right)}
+        - :doc:`(doc) <laws.dynamics.work_is_integral_of_force_over_distance>` Work is integral of force over distance
+        
+            .. math::
+        
+                W = \int\limits_{x_{0}}^{x_{1}} F{\left(x \right)}\, dx
+- :doc:`(doc) <laws.dynamics.damped_oscillations>` :code:`laws.dynamics.damped_oscillations`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.dynamics.damped_oscillations.energy_of_underdamped_oscillator>` Energy of underdamped oscillator
+        
+            .. math::
+        
+                E = \frac{m \omega_{0}^{2} A^{2} \exp{\left(- 2 \lambda t \right)}}{2}
+        - :doc:`(doc) <laws.dynamics.damped_oscillations.quality_factor_via_bandwidth>` Quality factor via bandwidth
+        
+            .. math::
+        
+                Q = \frac{f_\text{r}}{\Delta f}
+        - :doc:`(doc) <laws.dynamics.damped_oscillations.quality_factor_via_damping_ratio>` Quality factor via damping ratio
+        
+            .. math::
+        
+                Q = \frac{1}{2 \zeta}
+        - :doc:`(doc) <laws.dynamics.damped_oscillations.quality_factor_via_energy_loss>` Quality factor via energy loss
+        
+            .. math::
+        
+                Q = \omega_\text{r} \frac{E_\text{stored}}{P_\text{loss}}
+- :doc:`(doc) <laws.dynamics.deformation>` :code:`laws.dynamics.deformation`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.dynamics.deformation.bulk_modulus_via_young_modulus_and_poisson_ratio>` Bulk modulus via Young modulus and Poisson ratio
+        
+            .. math::
+        
+                K = \frac{E}{3 \left(1 - 2 \nu\right)}
+        - :doc:`(doc) <laws.dynamics.deformation.elastic_energy_density_of_bulk_compression_via_pressure>` Elastic energy density of bulk compression via pressure
+        
+            .. math::
+        
+                w = \frac{p^{2}}{2 K}
+        - :doc:`(doc) <laws.dynamics.deformation.elastic_energy_density_of_compression_via_strain>` Elastic energy density of compression via strain
+        
+            .. math::
+        
+                w = \frac{E e^{2}}{2}
+        - :doc:`(doc) <laws.dynamics.deformation.engineering_normal_strain_is_total_deformation_over_initial_dimension>` Engineering normal strain is total deformation over initial dimension
+        
+            .. math::
+        
+                e = \frac{\Delta l}{l}
+        - :doc:`(doc) <laws.dynamics.deformation.poisson_ratio_is_transverse_to_axial_strain_ratio>` Poisson ratio is transverse to axial strain ratio
+        
+            .. math::
+        
+                \nu = - \frac{e_\text{transverse}}{e_\text{axial}}
+        - :doc:`(doc) <laws.dynamics.deformation.rotational_stiffness_is_torque_over_angle>` Rotational stiffness is torque applied over angle
+        
+            .. math::
+        
+                \kappa = \frac{\tau}{\theta}
+        - :doc:`(doc) <laws.dynamics.deformation.shear_stress_is_shear_modulus_times_strain>` Shear stress is shear modulus times strain
+        
+            .. math::
+        
+                \tau = G \gamma
+        - :doc:`(doc) <laws.dynamics.deformation.superposition_of_small_deformations>` Superposition of small deformations
+        
+            .. math::
+        
+                e = e_{1} + e_{2}
+        - :doc:`(doc) <laws.dynamics.deformation.tensile_stress_is_youngs_modulus_times_strain>` Tensile stress is Young's modulus times strain
+        
+            .. math::
+        
+                \sigma = E e
+- :doc:`(doc) <laws.dynamics.fields>` :code:`laws.dynamics.fields`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.dynamics.fields.conservative_force_is_gradient_of_potential_energy>` Conservative force is gradient of potential energy
+        
+            .. math::
+        
+                {\vec F} \left( {\vec r} \right) = - \text{grad} \, U{\left({\vec r} \right)}
+- :doc:`(doc) <laws.dynamics.springs>` :code:`laws.dynamics.springs`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.dynamics.springs.compliance_of_two_serial_springs>` Compliance of two serial springs
+        
+            .. math::
+        
+                c = c_{1} + c_{2}
+        - :doc:`(doc) <laws.dynamics.springs.spring_reaction_is_proportional_to_deformation>` Spring reaction is proportional to deformation
+        
+            .. math::
+        
+                F = - k \Delta l
+        - :doc:`(doc) <laws.dynamics.springs.stiffness_of_two_parallel_springs>` Stiffness of two parallel springs
+        
+            .. math::
+        
+                k = k_{1} + k_{2}
+- :doc:`(doc) <laws.dynamics.springs.vector>` :code:`laws.dynamics.springs.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation>` Spring reaction is proportional to deformation (vector)
+        
+            .. math::
+        
+                {\vec F} = - k {\vec s}
+- :doc:`(doc) <laws.dynamics.vector>` :code:`laws.dynamics.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.dynamics.vector.acceleration_from_force>` Acceleration from force and mass (vector)
+        
+            .. math::
+        
+                {\vec a} = \frac{{\vec F}}{m}
+        - :doc:`(doc) <laws.dynamics.vector.force_is_derivative_of_momentum>` Force is derivative of momentum (vector)
+        
+            .. math::
+        
+                {\vec F} \left( t \right) = \frac{d}{d t} {\vec p} \left( t \right)
+        - :doc:`(doc) <laws.dynamics.vector.instantaneous_power_is_force_dot_velocity>` Instantaneous power is dot product of force and velocity
+        
+            .. math::
+        
+                P = \left( {\vec F}, {\vec v} \right)
+        - :doc:`(doc) <laws.dynamics.vector.mechanical_work_from_force_and_move>` Mechanical work from force and displacement
+        
+            .. math::
+        
+                W = \left( {\vec F}, {\vec s} \right)
+        - :doc:`(doc) <laws.dynamics.vector.mechanical_work_is_line_integral_of_force>` Mechanical work is line integral of force
+        
+            .. math::
+        
+                W = \int_{C} \left( {\vec F} \left( {\vec r} \right), d \vec r \right)
+        - :doc:`(doc) <laws.dynamics.vector.normal_force_via_pressure_and_vector_area>` Normal force via pressure and vector area
+        
+            .. math::
+        
+                {\vec F}_{n} = p {\vec A}
+        - :doc:`(doc) <laws.dynamics.vector.relative_acceleration_from_force>` Relative acceleration from force
+        
+            .. math::
+        
+                {\vec a}_\text{rel} = \frac{{\vec F}}{m} + {\vec a}_\text{Cor} - {\vec a}_\text{tr}
+        - :doc:`(doc) <laws.dynamics.vector.restoring_torque_due_to_twist_of_torsion_pendulum>` Restoring torque due to twist of torsion pendulum
+        
+            .. math::
+        
+                {\vec \tau} = - \kappa {\vec \theta}
+        - :doc:`(doc) <laws.dynamics.vector.torque_is_angular_momentum_derivative>` Torque is angular momentum derivative
+        
+            .. math::
+        
+                {\vec \tau} \left( t \right) = \frac{d}{d t} {\vec L} \left( t \right)
+        - :doc:`(doc) <laws.dynamics.vector.torque_vector_of_twisting_force>` Torque of twisting force
+        
+            .. math::
+        
+                {\vec \tau} = \left[ {\vec r}, {\vec F} \right]
+- :doc:`(doc) <laws.electricity>` :code:`laws.electricity`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.absolute_permittivity_via_relative_permittivity>` Absolute permittivity via relative permittivity
+        
+            .. math::
+        
+                \varepsilon = \varepsilon_0 \varepsilon_\text{r}
+        - :doc:`(doc) <laws.electricity.admittance_is_conductance_and_susceptance>` Admittance is conductance and susceptance
+        
+            .. math::
+        
+                Y = G + i B
+        - :doc:`(doc) <laws.electricity.capacitance_from_charge_and_voltage>` Capacitance from charge and voltage
+        
+            .. math::
+        
+                C = \frac{q}{V}
+        - :doc:`(doc) <laws.electricity.characteristic_resistance_of_medium>` Wave impedance from permeability and permittivity
+        
+            .. math::
+        
+                \eta = Z_0 \sqrt{\frac{\mu_\text{r}}{\varepsilon_\text{r}}}
+        - :doc:`(doc) <laws.electricity.charge_is_quantized>` Charge is quantized
+        
+            .. math::
+        
+                q = N e
+        - :doc:`(doc) <laws.electricity.corona_discharge_current_from_voltage>` Corona discharge current from voltage
+        
+            .. math::
+        
+                I = A \mu V \left(V - V_{0}\right)
+        - :doc:`(doc) <laws.electricity.current_is_voltage_over_impedance>` Current is voltage over impedance
+        
+            .. math::
+        
+                I = \frac{V}{Z}
+        - :doc:`(doc) <laws.electricity.current_is_voltage_over_resistance>` Current is voltage over resistance
+        
+            .. math::
+        
+                I = \frac{V}{R}
+        - :doc:`(doc) <laws.electricity.electric_charge_is_constant_in_isolated_system>` Electric charge is constant in isolated system
+        
+            .. math::
+        
+                q_{1} = q_{0}
+        - :doc:`(doc) <laws.electricity.electric_dipole_moment_is_charge_times_distance>` Electric dipole moment is charge times distance
+        
+            .. math::
+        
+                p = q d
+        - :doc:`(doc) <laws.electricity.electric_displacement_is_permittivity_times_electric_field>` Electric displacement is permittivity times electric field
+        
+            .. math::
+        
+                D = \varepsilon E
+        - :doc:`(doc) <laws.electricity.electric_field_due_to_dipole>` Electric field due to dipole on the dipole axis
+        
+            .. math::
+        
+                E = \frac{1}{2 \pi \varepsilon_0} \frac{p}{d^{3}}
+        - :doc:`(doc) <laws.electricity.electric_field_due_to_point_charge>` Electric field due to point charge
+        
+            .. math::
+        
+                E = \frac{1}{4 \pi \varepsilon_0} \frac{q}{d^{2}}
+        - :doc:`(doc) <laws.electricity.electric_field_is_force_over_test_charge>` Electric field is force over test charge
+        
+            .. math::
+        
+                E = \frac{F}{q_{0}}
+        - :doc:`(doc) <laws.electricity.electric_field_of_uniformly_charged_plane>` Electric field of uniformly charged plane
+        
+            .. math::
+        
+                E = \frac{\sigma}{2 \varepsilon_0}
+        - :doc:`(doc) <laws.electricity.electric_field_outside_charged_sphere>` Electric field outside charged sphere
+        
+            .. math::
+        
+                E = \frac{q}{4 \pi \varepsilon_0 d^{2}}
+        - :doc:`(doc) <laws.electricity.electric_flux_through_closed_surface_in_linear_material>` Electric flux through closed surface in linear material
+        
+            .. math::
+        
+                \Phi_{\vec E} = \frac{q_\text{free}}{\varepsilon}
+        - :doc:`(doc) <laws.electricity.electric_flux_through_closed_surface_via_total_charge>` Electric flux through closed surface via total charge
+        
+            .. math::
+        
+                \Phi_{\vec E} = \frac{q}{\varepsilon_0}
+        - :doc:`(doc) <laws.electricity.electric_intensity_in_gas_gap_between_two_electrodes>` Electric field in gas gap between two electrodes
+        
+            .. math::
+        
+                E = \frac{3 \sqrt{\frac{x}{d}} \frac{V}{d}}{2}
+        - :doc:`(doc) <laws.electricity.electromotive_force_induced_in_moving_contour>` Electromotive force induced in moving contour
+        
+            .. math::
+        
+                \mathcal{E} = - N \frac{d}{d t} \Phi_{\vec B}{\left(t \right)}
+        - :doc:`(doc) <laws.electricity.electromotive_force_induced_in_rotating_rod>` Electromotive force induced in rotating rod
+        
+            .. math::
+        
+                \mathcal{E} = \frac{B \omega l^{2}}{2}
+        - :doc:`(doc) <laws.electricity.electromotive_force_induced_in_uniformly_rotating_coil>` Electromotive force induced in rotating coil
+        
+            .. math::
+        
+                \mathcal{E} = - N B A \omega \sin{\left(\omega t \right)}
+        - :doc:`(doc) <laws.electricity.electrostatic_force_via_charges_and_distance>` Electrostatic force via charges and distance
+        
+            .. math::
+        
+                F = \frac{1}{4 \pi \varepsilon_0} \frac{q_{1} q_{2}}{d^{2}}
+        - :doc:`(doc) <laws.electricity.electrostatic_potential_due_to_point_charge>` Electrostatic potential due to point charge
+        
+            .. math::
+        
+                U_{\vec E} = \frac{q}{4 \pi \varepsilon d}
+        - :doc:`(doc) <laws.electricity.electrostatic_potential_energy_of_two_charges_via_distance>` Electrostatic potential energy of two charges via distance
+        
+            .. math::
+        
+                U_{\vec E} = \frac{q_{1} q_{2}}{4 \pi \varepsilon d}
+        - :doc:`(doc) <laws.electricity.electrostatic_potential_is_work_to_bring_from_reference_point_over_charge>` Electrostatic potential is work to bring from reference point over charge
+        
+            .. math::
+        
+                U_{\vec E} = \frac{W}{q}
+        - :doc:`(doc) <laws.electricity.energy_density_via_permittivity_and_electric_field>` Energy density via permittivity and electric field
+        
+            .. math::
+        
+                w = \frac{\varepsilon E^{2}}{2}
+        - :doc:`(doc) <laws.electricity.energy_of_magnetic_field_of_solenoid>` Energy of magnetic field of coil
+        
+            .. math::
+        
+                E = \frac{\mu_0 \mu_\text{r} H^{2} V}{2}
+        - :doc:`(doc) <laws.electricity.energy_via_constant_power_and_time>` Energy via constant power and time
+        
+            .. math::
+        
+                E = P t
+        - :doc:`(doc) <laws.electricity.force_between_parallel_wires>` Force between parallel wires
+        
+            .. math::
+        
+                F = \frac{\mu I_{1} I_{2} l}{2 \pi d}
+        - :doc:`(doc) <laws.electricity.inductance_is_magnetic_flux_over_current>` Inductance is magnetic flux over current
+        
+            .. math::
+        
+                L = \frac{\Phi_{\vec B}}{I}
+        - :doc:`(doc) <laws.electricity.inductance_is_proportional_to_turns_squared>` Inductance is proportional to turn count
+        
+            .. math::
+        
+                L = \frac{\mu N^{2} A}{l}
+        - :doc:`(doc) <laws.electricity.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume>` Inductance via number of turns and coil volume
+        
+            .. math::
+        
+                L = \mu n^{2} V
+        - :doc:`(doc) <laws.electricity.instantaneous_energy_of_magnetic_field>` Instantaneous energy of magnetic field
+        
+            .. math::
+        
+                E = \frac{L I_\text{max}^{2}}{2} \cos^{2}{\left(\omega t + \varphi \right)}
+        - :doc:`(doc) <laws.electricity.magnetic_field_due_to_infinite_wire>` Magnetic field due to infinite wire
+        
+            .. math::
+        
+                B = \frac{\mu_0 I}{2 \pi r}
+        - :doc:`(doc) <laws.electricity.magnetic_field_of_coil>` Magnetic field of coil
+        
+            .. math::
+        
+                B = \frac{\mu_0 I N}{l}
+        - :doc:`(doc) <laws.electricity.magnetic_flux_from_induction_and_area>` Magnetic flux from magnetic flux density and area
+        
+            .. math::
+        
+                \Phi_{\vec B} = B A \cos{\left(\varphi \right)}
+        - :doc:`(doc) <laws.electricity.magnetic_induction_from_magnetic_field_intensity>` Magnetic flux density from magnetic field strength
+        
+            .. math::
+        
+                B = \mu H
+        - :doc:`(doc) <laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length>` Magnetic flux density of linear conductor of finite length
+        
+            .. math::
+        
+                B = \frac{\mu I \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)}{4 \pi d}
+        - :doc:`(doc) <laws.electricity.maximum_moment_of_magnetic_field>` Magnetic moment via current and contour area
+        
+            .. math::
+        
+                m = I A
+        - :doc:`(doc) <laws.electricity.period_of_rotation_of_charged_particle_in_magnetic_field>` Period of rotation of charged particle in magnetic field
+        
+            .. math::
+        
+                T = \frac{2 \pi m}{q B}
+        - :doc:`(doc) <laws.electricity.power_factor_is_real_power_over_apparent_power>` Power factor is real power over apparent power
+        
+            .. math::
+        
+                \mathrm{pf} = \frac{P}{S}
+        - :doc:`(doc) <laws.electricity.power_via_current_and_resistance>` Power via current and resistance
+        
+            .. math::
+        
+                P = I^{2} R
+        - :doc:`(doc) <laws.electricity.power_via_voltage_and_current>` Power via voltage and current
+        
+            .. math::
+        
+                P = I V
+        - :doc:`(doc) <laws.electricity.power_via_voltage_and_resistance>` Power via voltage and resistance
+        
+            .. math::
+        
+                P = \frac{V^{2}}{R}
+        - :doc:`(doc) <laws.electricity.radius_of_curvature_of_charged_particle_in_magnetic_field>` Radius of curvature of charged particle in magnetic field
+        
+            .. math::
+        
+                r = \frac{m v}{q B}
+        - :doc:`(doc) <laws.electricity.resistance_via_resistivity_and_dimensions>` Resistance via resistivity and dimensions
+        
+            .. math::
+        
+                R = \frac{\rho l}{A}
+        - :doc:`(doc) <laws.electricity.self_induced_electromotive_force_via_time_derivative_of_current>` Self-induced electromotive force via time derivative of current
+        
+            .. math::
+        
+                \mathcal{E}{\left(t \right)} = - L \frac{d}{d t} I{\left(t \right)}
+        - :doc:`(doc) <laws.electricity.voltage_is_electric_field_times_distance>` Voltage is electric field times distance
+        
+            .. math::
+        
+                V = E d
+        - :doc:`(doc) <laws.electricity.voltage_is_line_integral_of_electric_field>` Voltage is line integral of electric field
+        
+            .. math::
+        
+                V = - \int\limits_{s_{0}}^{s_{1}} E_{s}{\left(s \right)}\, ds
+- :doc:`(doc) <laws.electricity.circuits>` :code:`laws.electricity.circuits`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.admittance_in_parallel_connection>` Admittance in parallel connection
+        
+            .. math::
+        
+                Y = \sum_i {Y}_{i}
+        - :doc:`(doc) <laws.electricity.circuits.capacitance_in_parallel_connection>` Capacitance in parallel connection
+        
+            .. math::
+        
+                C = \sum_i {C}_{i}
+        - :doc:`(doc) <laws.electricity.circuits.capacitance_is_proportional_to_plate_area>` Capacitance is proportional to plate area
+        
+            .. math::
+        
+                C = \frac{\varepsilon A}{d}
+        - :doc:`(doc) <laws.electricity.circuits.capacitance_of_spherical_capacitor>` Capacitance of spherical capacitor
+        
+            .. math::
+        
+                C = \frac{4 \pi \varepsilon r_\text{in} r_\text{out}}{r_\text{out} - r_\text{in}}
+        - :doc:`(doc) <laws.electricity.circuits.capacitor_impedance_from_capacitance_and_frequency>` Capacitor impedance from capacitance and frequency
+        
+            .. math::
+        
+                Z = - \frac{i}{\omega C}
+        - :doc:`(doc) <laws.electricity.circuits.capacitor_impedance_from_capacitive_reactance>` Capacitor impedance from capacitor reactance
+        
+            .. math::
+        
+                Z = - i X
+        - :doc:`(doc) <laws.electricity.circuits.coil_impedance_from_inductive_reactance>` Coil impedance from inductive reactance
+        
+            .. math::
+        
+                Z = i X
+        - :doc:`(doc) <laws.electricity.circuits.coil_impedance_via_inductance_and_frequency>` Coil impedance via inductance and frequency
+        
+            .. math::
+        
+                Z = i \omega L
+        - :doc:`(doc) <laws.electricity.circuits.energy_stored_in_capacitor_via_capacitance_and_voltage>` Energy stored in capacitor via capacitance and voltage
+        
+            .. math::
+        
+                W = \frac{C V^{2}}{2}
+        - :doc:`(doc) <laws.electricity.circuits.energy_stored_in_inductor_via_inductance_and_current>` Energy stored in inductor via inductance and current
+        
+            .. math::
+        
+                W = \frac{L I^{2}}{2}
+        - :doc:`(doc) <laws.electricity.circuits.impedance_in_serial_connection>` Impedance in serial connection
+        
+            .. math::
+        
+                Z = \sum_i {Z}_{i}
+        - :doc:`(doc) <laws.electricity.circuits.impedance_module_of_the_serial_resistor_coil_capacitor_circuit>` Impedance module of serial resistor-coil-capacitor circuit
+        
+            .. math::
+        
+                |Z| = \sqrt{R^{2} + \left(X_\text{L} - X_\text{C}\right)^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.inductance_in_serial_connection>` Inductance in serial connection
+        
+            .. math::
+        
+                L = \sum_i {L}_{i}
+        - :doc:`(doc) <laws.electricity.circuits.input_impedance_of_thin_film_resistor>` Input impedance of thin film resistor
+        
+            .. math::
+        
+                Z = \frac{R}{1 + \frac{i \omega R C}{3}}
+        - :doc:`(doc) <laws.electricity.circuits.oscillation_period_of_inductor_capacitor_network>` Oscillation period of inductor-capacitor network
+        
+            .. math::
+        
+                T = 2 \pi \sqrt{L C}
+        - :doc:`(doc) <laws.electricity.circuits.resistance_in_serial_connection>` Resistivity of serial resistors
+        
+            .. math::
+        
+                R = \sum_i {R}_{i}
+        - :doc:`(doc) <laws.electricity.circuits.sum_of_currents_through_junction_is_zero>` Sum of currents through junction is zero
+        
+            .. math::
+        
+                \sum_k {I}_{k} = 0
+        - :doc:`(doc) <laws.electricity.circuits.sum_of_voltages_in_loop_is_zero>` Sum of voltages in loop is zero
+        
+            .. math::
+        
+                \sum_i {V}_{i} = 0
+        - :doc:`(doc) <laws.electricity.circuits.time_constant_of_resistor_capacitor_circuit>` Time constant of resistor-capacitor circuit
+        
+            .. math::
+        
+                \tau = R C
+        - :doc:`(doc) <laws.electricity.circuits.varactor_junction_p_n_capacity>` Capacitance of p-n varactor junction
+        
+            .. math::
+        
+                C = \frac{C_{0}}{\left(1 - \frac{V}{V_{0}}\right)^{y}}
+        - :doc:`(doc) <laws.electricity.circuits.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit>` Voltage across charging capacitor in serial resistor-capacitor circuit
+        
+            .. math::
+        
+                V = V_{0} \left(1 - \exp{\left(- \frac{t}{\tau} \right)}\right)
+- :doc:`(doc) <laws.electricity.circuits.couplers>` :code:`laws.electricity.circuits.couplers`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.couplers.attenuation_coefficient_of_three_link_microwave_attenuator>` Attenuation of three link microwave attenuator
+        
+            .. math::
+        
+                A = \exp{\left(\operatorname{acosh}{\left(1 + \frac{R_{1}}{R_{2}} \right)} \right)}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.conductivity_for_rectangular_loop_coupler>` Admittance of rectangular loop coupler
+        
+            .. math::
+        
+                \begin{pmatrix} Y_{1} \\ Y_{2} \\ Y_{3} \\ Y_{4} \end{pmatrix} = \begin{pmatrix} \frac{Y_{0}}{\sqrt{k}} \\ Y_{0} \sqrt{\frac{k + 1}{k}} \\ Y_{0} \sqrt{\frac{k + 1}{k}} \\ \frac{Y_{0}}{\sqrt{k}} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.full_gain_of_transistor_amplifier>` Total gain of transistor amplifier
+        
+            .. math::
+        
+                \text{gain} = \text{gain}_\text{i} \text{gain}_\text{t} \text{gain}_\text{o}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.impedances_for_wilkinson_microstrip_divider>` Impedance of Wilkinson microstrip divider
+        
+            .. math::
+        
+                \begin{pmatrix} Z_{1} \\ Z_{2} \\ Z_{3} \\ Z_{4} \end{pmatrix} = \begin{pmatrix} Z_{0} \sqrt{k \left(1 + k^{2}\right)} \\ Z_{0} \sqrt{\frac{1 + k^{2}}{k^{3}}} \\ Z_{0} \sqrt{k} \\ \frac{Z_{0}}{\sqrt{k}} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.length_of_section_of_multistage_transformer>` Section length of multistage transformer
+        
+            .. math::
+        
+                l = \frac{\lambda_{1} \lambda_{2}}{2 \left(\lambda_{1} + \lambda_{2}\right)}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.relative_operating_band_of_quarter_wave_transformer>` Relative operating bandwidth of quarter-wave transformer
+        
+            .. math::
+        
+                b = 2 - \frac{4}{\pi} \operatorname{acos}{\left(\frac{2 \Gamma \sqrt{R_\text{L} Z_\text{S}}}{\sqrt{1 - \Gamma^{2}} \left|{R_\text{L} - Z_\text{S}}\right|} \right)}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.resistance_of_resistor_in_wilkinson_divider>` Resistor resistance in Wilkinson divider
+        
+            .. math::
+        
+                R = \frac{R_{0} \left(1 + k^{2}\right)}{k}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.transient_attenuation_of_separate_loop_coupler_with_cascade_connection>` Transient attenuation of separate loop coupler with cascade connection
+        
+            .. math::
+        
+                A_{0} = 20 \log_{10} \left( \sin{\left(N \operatorname{asin}{\left(10^{\frac{A}{20}} \right)} \right)} \right)
+        - :doc:`(doc) <laws.electricity.circuits.couplers.wave_resistance_even_mode_of_lange_coupler>` Wave impedance of even mode of Lange coupler
+        
+            .. math::
+        
+                \eta_\text{e} = \frac{\eta_\text{o} \left(C + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}}\right)}{\left(N - 1\right) \left(1 - C\right)}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.wave_resistance_odd_mode_of_lange_coupler>` Wave impedance of odd mode of Lange coupler
+        
+            .. math::
+        
+                \eta_\text{o} = Z_\text{S} \sqrt{\frac{1 - C}{1 + C}} \frac{\left(N - 1\right) \left(1 + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}}\right)}{C + \sqrt{C^{2} + \left(1 - C^{2}\right) \left(N - 1\right)^{2}} + \left(N - 1\right) \left(1 - C\right)}
+        - :doc:`(doc) <laws.electricity.circuits.couplers.wave_resistance_of_lange_coupler>` Wave impedance of Lange coupler
+        
+            .. math::
+        
+                \eta = \sqrt{\frac{\eta_\text{o} \eta_\text{e} \left(\eta_\text{o} + \eta_\text{e}\right)^{2}}{\left(\eta_\text{o} + \eta_\text{e} \left(N - 1\right)\right) \left(\eta_\text{e} + \eta_\text{o} \left(N - 1\right)\right)}}
+- :doc:`(doc) <laws.electricity.circuits.diodes>` :code:`laws.electricity.circuits.diodes`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.diodes.current_from_voltage_and_diode_constant_in_vacuum_diode>` Current from voltage and diode constant in vacuum diode
+        
+            .. math::
+        
+                I = g U_\text{a}^{\frac{3}{2}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.current_from_voltage_and_triode_constant_in_vacuum_triode>` Current from voltage and triode constant in vacuum triode
+        
+            .. math::
+        
+                I = g \left(U_\text{a} + \text{gain}_{V} U_\text{g}\right)^{\frac{3}{2}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.diode_constant_for_plane_parallel_diode>` Diode constant for parallel-plane vacuum diode
+        
+            .. math::
+        
+                g = \frac{4 \varepsilon_0}{9} \sqrt{\frac{2 e}{m_\text{e}}} \frac{A}{d^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.diode_constant_of_cylindrical_diode>` Diode constant of cylindrical diode
+        
+            .. math::
+        
+                g = \frac{\frac{4 \varepsilon_0}{9} \sqrt{\frac{2 e}{m_\text{e}}} A_\text{a}}{r_\text{a}^{2} \left(1 - \frac{r_\text{c}}{r_\text{a}}\right)^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.direct_permeability_coefficient_for_triode_with_flat_electrodes>` Direct permeability coefficient of triode with flat electrodes
+        
+            .. math::
+        
+                D = \frac{C_{1} d_{0}}{d C_{2}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.internal_resistance_of_vacuum_diode>` Internal resistance of vacuum diode
+        
+            .. math::
+        
+                R = \frac{2}{3 g \sqrt{V}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.limit_operating_frequency_of_vacuum_diode>` Limit operating frequency of vacuum diode
+        
+            .. math::
+        
+                f = \frac{\sqrt{\frac{2 e V}{m_\text{e}}}}{6 d}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.space_charge_density_in_diode_device>` Charge density in diode
+        
+            .. math::
+        
+                \rho = \frac{\frac{4 \varepsilon_0}{9} V}{d^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.steepness_of_volt_ampere_characteristic_of_vacuum_diode>` Steepness of volt-ampere characteristic of vacuum diode
+        
+            .. math::
+        
+                S = \frac{3 g}{2} \sqrt{V}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_pentode>` Voltage of equivalent diode for pentode
+        
+            .. math::
+        
+                V = \frac{V_{1} + V_{2} D_{1} + V_{3} D_{1} D_{2} + U_\text{a} D_{1} D_{2} D_{3}}{1 + D_{1} \left(\frac{d_\text{a}}{d_{1}}\right)^{\frac{4}{3}}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_tetrode>` Equivalent diode voltage for tetrode
+        
+            .. math::
+        
+                V = \frac{V_{1} + V_{2} D_{1} + U_\text{a} D_{1} D_{2}}{1 + D_{1} \left(\frac{d_\text{a}}{d_{1}}\right)^{\frac{4}{3}}}
+        - :doc:`(doc) <laws.electricity.circuits.diodes.voltage_of_equivalent_diode_for_triode>` Equivalent diode voltage for triode
+        
+            .. math::
+        
+                V = \frac{U_\text{g} + \frac{U_\text{a}}{\text{gain}_{V}}}{1 + \frac{\left(\frac{d_\text{a}}{d_\text{g}}\right)^{\frac{4}{3}}}{\text{gain}_{V}}}
+- :doc:`(doc) <laws.electricity.circuits.filters>` :code:`laws.electricity.circuits.filters`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.filters.approximation_of_transmission_coefficient_of_low_pass_filter>` Transmission coefficient approximation of low-pass filter
+        
+            .. math::
+        
+                H = \frac{1}{1 + e^{2} F^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies>` Band pass Chebyshev filter order from distortion and frequency
+        
+            .. math::
+        
+                N = \frac{\operatorname{acosh}{\left(\frac{e}{e_{1}} \right)}}{\operatorname{acosh}{\left(\frac{f_{1}^{2} - f_{0}^{2}}{\Delta f f_{1}} \right)}}
+        - :doc:`(doc) <laws.electricity.circuits.filters.butterworth_filter_order_from_distortion_and_frequencies>` Butterworth filter order from distortion and frequency
+        
+            .. math::
+        
+                N = \frac{\log \left( \frac{e_{1}}{e} \right)}{\log \left( \frac{f_{1}}{f_{0}} \right)}
+        - :doc:`(doc) <laws.electricity.circuits.filters.filter_order_from_distortion_and_frequencies>` Filter order from distortion and frequency
+        
+            .. math::
+        
+                F = \frac{e_{1}}{e}
+        - :doc:`(doc) <laws.electricity.circuits.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies>` High pass Chebyshev filter from distortion and frequency
+        
+            .. math::
+        
+                N = \frac{\operatorname{acosh}{\left(\frac{e_{1}}{e} \right)}}{\operatorname{acosh}{\left(\frac{f_{0}}{f_{1}} \right)}}
+        - :doc:`(doc) <laws.electricity.circuits.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies>` Low-pass Chebyshev filter order from distortion and frequencies
+        
+            .. math::
+        
+                N = \frac{\operatorname{acos}{\left(\frac{e_{1}}{e} \right)}}{\operatorname{acos}{\left(\frac{f_{1}}{f_{0}} \right)}}
+- :doc:`(doc) <laws.electricity.circuits.resonators>` :code:`laws.electricity.circuits.resonators`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.resonators.coupling_parameter_of_resonator_from_quality_factors>` Coupling parameter of resonator from quality factor
+        
+            .. math::
+        
+                g = \frac{Q_{0}}{Q_\text{e}}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.coupling_parameter_of_resonator_from_resistances>` Coupling parameter of resonator from resistance
+        
+            .. math::
+        
+                g = \frac{R_{0}}{R_\text{L}}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.instantaneous_value_of_resonator_energy>` Instantaneous energy of resonator
+        
+            .. math::
+        
+                E = E_{0} \exp{\left(- \frac{\omega t}{Q} \right)}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_circuit_parameters>` Quality factor of loaded resonator from circuit parameters
+        
+            .. math::
+        
+                Q_{1} = \frac{R_\text{L} R_{0}}{\omega L \left(R_\text{L} + R_{0}\right)}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.loaded_resonator_quality_factor_from_quality_factors>` Quality resonator of loaded resonator from quality factors
+        
+            .. math::
+        
+                \frac{1}{Q_{1}} = \frac{1}{Q_{0}} + \frac{1}{Q_\text{e}}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.own_quality_factor_of_resonator>` Quality factor of resonator
+        
+            .. math::
+        
+                Q = \frac{R}{\omega L}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101>` Quality factor of empty rectangular resonator for traverse electric waves
+        
+            .. math::
+        
+                Q = \frac{\omega \mu l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.quality_factor_of_filled_rectangular_resonator>` Quality factor of filled rectangular resonator
+        
+            .. math::
+        
+                Q_{1} = \frac{1}{\frac{1}{Q_{0}} + \tan \delta}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.resonant_frequency_of_rectangular_resonator>` Resonant frequency of rectangular resonator
+        
+            .. math::
+        
+                f_\text{r} = \frac{c}{2 \sqrt{\varepsilon_\text{r} \mu_\text{r}}} \sqrt{\left(\frac{m}{l_{1}}\right)^{2} + \left(\frac{n}{l_{2}}\right)^{2} + \left(\frac{p}{l_{3}}\right)^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.resonators.resonant_frequency_of_ring_resonator>` Resonant frequency of ring resonator
+        
+            .. math::
+        
+                f = \frac{N c}{l \sqrt{\varepsilon_\text{r}}}
+- :doc:`(doc) <laws.electricity.circuits.transmission_lines>` :code:`laws.electricity.circuits.transmission_lines`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_reflection_coefficient>` Standing wave ratio from reflection coefficient
+        
+            .. math::
+        
+                \text{SWR} = \frac{1 + \left|{\Gamma}\right|}{1 - \left|{\Gamma}\right|}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_voltages>` Standing wave ratio from voltage
+        
+            .. math::
+        
+                \text{SWR} = \frac{\min{|V|}}{\max{|V|}}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.hybrid_parameters_matrix>` Hybrid parameters matrix equation
+        
+            .. math::
+        
+                \begin{pmatrix} V_\text{i} \\ I_\text{o} \end{pmatrix} = \begin{pmatrix} H_\text{ii} & H_\text{io} \\ H_\text{oi} & H_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ V_\text{o} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line>` Impedances of π-type circuit of transmission line
+        
+            .. math::
+        
+                \begin{pmatrix} Z_{1} \\ Z_{2} \\ Z_{3} \end{pmatrix} = \begin{pmatrix} Z_\text{S} \coth{\left(\frac{l \gamma}{2} \right)} \\ Z_\text{S} \coth{\left(\frac{l \gamma}{2} \right)} \\ Z_\text{S} \sinh{\left(l \gamma \right)} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.impedances_t_type_circuit_of_transmission_line>` Impedances of T-type circuit of transmission line
+        
+            .. math::
+        
+                \begin{pmatrix} Z_{1} \\ Z_{2} \\ Z_{3} \end{pmatrix} = \begin{pmatrix} Z_\text{S} \tanh{\left(\frac{l \gamma}{2} \right)} \\ Z_\text{S} \tanh{\left(\frac{l \gamma}{2} \right)} \\ \frac{Z_\text{S}}{\sinh{\left(l \gamma \right)}} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.input_impedance_from_parameters_transmission_matrix>` Input impedance from transmission matrix
+        
+            .. math::
+        
+                Z_\text{in} = \frac{A Z_\text{L} + B}{C Z_\text{L} + D}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.input_impedance_lossless_transmission_line>` Input impedance of lossless transmission line
+        
+            .. math::
+        
+                Z_\text{in} = \frac{Z_\text{S} \left(Z_\text{L} + i Z_\text{S} \tan{\left(\beta l \right)}\right)}{Z_\text{S} + i Z_\text{L} \tan{\left(\beta l \right)}}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.input_impedance_lossy_transmission_line>` Input impedance of lossy transmission line
+        
+            .. math::
+        
+                Z_\text{in} = \frac{\cosh{\left(\gamma l \right)} Z_\text{L} + Z_\text{S} \sinh{\left(\gamma l \right)}}{\frac{Z_\text{L} \sinh{\left(\gamma l \right)}}{Z_\text{S}} + \cosh{\left(\gamma l \right)}}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_reflection_coefficient>` Reflection coefficient from ratio of average power to incident power
+        
+            .. math::
+        
+                \frac{\langle P \rangle}{P_\text{incident}} = 1 - \left|{\Gamma}\right|^{2}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_standing_wave_coefficient>` Standing wave ratio from ratio of average power to incident power
+        
+            .. math::
+        
+                \frac{\langle P \rangle}{P_\text{incident}} = \frac{4 \text{SWR}}{\left(\text{SWR} + 1\right)^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.reflection_coefficient_from_load_and_transmission_line_impedances>` Reflection coefficient from load and surge impedance
+        
+            .. math::
+        
+                \Gamma = \frac{Z_\text{L} - Z_\text{S}}{Z_\text{L} + Z_\text{S}}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.scattering_matrix>` Scattering matrix equation
+        
+            .. math::
+        
+                \begin{pmatrix} b_\text{i} \\ b_\text{o} \end{pmatrix} = \begin{pmatrix} S_\text{ii} & S_\text{io} \\ S_\text{oi} & S_\text{oo} \end{pmatrix} \begin{pmatrix} a_\text{i} \\ a_\text{o} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.scattering_matrix_to_transmission_matrix>` Scattering matrix to transmission matrix
+        
+            .. math::
+        
+                \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} \frac{\left(1 + S_\text{ii}\right) \left(1 - S_\text{oo}\right) + S_\text{io} S_\text{oi}}{2 S_\text{oi}} & \frac{Z_\text{S} \left(\left(1 + S_\text{ii}\right) \left(1 + S_\text{oo}\right) - S_\text{io} S_\text{oi}\right)}{2 S_\text{oi}} \\ \frac{\left(1 - S_\text{ii}\right) \left(1 - S_\text{oo}\right) - S_\text{io} S_\text{oi}}{Z_\text{S}} \frac{1}{2 S_\text{oi}} & \frac{\left(1 - S_\text{ii}\right) \left(1 + S_\text{oo}\right) + S_\text{io} S_\text{oi}}{2 S_\text{oi}} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.total_conductivities_matrix>` Admittance matrix equation
+        
+            .. math::
+        
+                \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix} = \begin{pmatrix} Y_\text{ii} & Y_\text{io} \\ Y_\text{oi} & Y_\text{oo} \end{pmatrix} \begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.total_resistance_matrix>` Impedance matrix equation
+        
+            .. math::
+        
+                \begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix} = \begin{pmatrix} Z_\text{ii} & Z_\text{io} \\ Z_\text{oi} & Z_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix>` Transmission matrix equation
+        
+            .. math::
+        
+                \begin{pmatrix} V_\text{i} \\ I_\text{i} \end{pmatrix} = \begin{pmatrix} A & B \\ C & D \end{pmatrix} \begin{pmatrix} V_\text{o} \\ I_\text{o} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line>` Transmission matrix for parallel load in line
+        
+            .. math::
+        
+                \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ \frac{1}{Z_\text{L}} & 1 \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line>` Transmission matrix for serial load in line
+        
+            .. math::
+        
+                \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} 1 & Z_\text{L} \\ 0 & 1 \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line>` Transmission matrix of lossless transmission line
+        
+            .. math::
+        
+                \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} \cos{\left(\beta l \right)} & i Z_\text{S} \sin{\left(\beta l \right)} \\ \frac{i}{Z_\text{S}} \sin{\left(\beta l \right)} & \cos{\left(\beta l \right)} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix_lossy_transmission_line>` Transmission matrix of lossy transmission line
+        
+            .. math::
+        
+                \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} \cosh{\left(l \gamma \right)} & Z_\text{S} \sinh{\left(l \gamma \right)} \\ \frac{\sinh{\left(l \gamma \right)}}{Z_\text{S}} & \cosh{\left(l \gamma \right)} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix_of_pi_type_circuit>` Transmission matrix of π-type matrix
+        
+            .. math::
+        
+                \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} 1 + \frac{Z_{3}}{Z_{2}} & Z_{3} \\ \frac{1}{Z_{1}} + \frac{1}{Z_{2}} + \frac{Z_{3}}{Z_{1} Z_{2}} & 1 + \frac{Z_{3}}{Z_{1}} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix_of_t_type_circuit>` Transmission matrix of T-type circuit
+        
+            .. math::
+        
+                \begin{pmatrix} A & B \\ C & D \end{pmatrix} = \begin{pmatrix} 1 + \frac{Z_{1}}{Z_{3}} & Z_{1} + Z_{2} + \frac{Z_{1} Z_{2}}{Z_{3}} \\ \frac{1}{Z_{3}} & 1 + \frac{Z_{2}}{Z_{3}} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_greater_thickness>` Surge impedance of microstrip line when effective width is greater than substrate thickness
+        
+            .. math::
+        
+                Z_\text{S} = \frac{Z_0}{\sqrt{\varepsilon_\text{eff}}} \frac{1}{\frac{w_\text{eff}}{h} + 1.393 + 0.667 \log \left( \frac{w_\text{eff}}{h} + 1.444 \right)}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_less_thickness>` Surge impedance of microstrip line when effective width is less than substrate thickness
+        
+            .. math::
+        
+                Z_\text{S} = \frac{Z_0}{\sqrt{\varepsilon_\text{eff}}} \log \left( \frac{8 h}{w_\text{eff}} + \frac{w_\text{eff}}{4 h} \right)
+- :doc:`(doc) <laws.electricity.circuits.transmission_lines.coplanar_lines>` :code:`laws.electricity.circuits.transmission_lines.coplanar_lines`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_greater_thickness>` Effective permittivity of coplanar transmission line when distance is greater than thickness
+        
+            .. math::
+        
+                \varepsilon_\text{eff} = 1 + \frac{\varepsilon_\text{r} - 1}{2} \frac{\log \left( \frac{2 \left(1 + \left(1 - \left(\frac{l}{d}\right)^{2}\right)^{\frac{1}{4}}\right)}{1 - \left(1 - \left(\frac{l}{d}\right)^{2}\right)^{\frac{1}{4}}} \right)}{\log \left( \frac{2 \left(1 + \left(1 - \left(\frac{\sinh{\left(\frac{\pi l}{4 h} \right)}}{\sinh{\left(\frac{\pi d}{4 h} \right)}}\right)^{2}\right)^{\frac{1}{4}}\right)}{1 - \left(1 - \left(\frac{\sinh{\left(\frac{\pi l}{4 h} \right)}}{\sinh{\left(\frac{\pi d}{4 h} \right)}}\right)^{2}\right)^{\frac{1}{4}}} \right)}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.coplanar_lines.effective_permettivity_for_coplanar_transmission_line_for_distance_less_thickness>` Effective permittivity of coplanar transmission line when distance is less than thickness
+        
+            .. math::
+        
+                \varepsilon_\text{eff} = \frac{1 + \varepsilon_\text{r}}{2}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_first>` Wave impedance of coplanar line when hyperbolic sine ratio squared is between :math:`0` and :math:`\frac{1}{2}`
+        
+            .. math::
+        
+                \eta = \frac{R_0}{\sqrt{\varepsilon_\text{eff}}} \log \left( \frac{2 \left(1 + \left(1 - \left(\frac{l}{d}\right)^{2}\right)^{\frac{1}{4}}\right)}{1 - \left(1 - \left(\frac{l}{d}\right)^{2}\right)^{\frac{1}{4}}} \right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.coplanar_lines.wave_resistance_of_coplanar_line_second>` Wave impedance of coplanar line when length to distance ratio squared is between :math:`\frac{1}{2}` and :math:`1`
+        
+            .. math::
+        
+                \eta = \frac{R_0}{\sqrt{\varepsilon_\text{eff}}} \frac{1}{\log \left( \frac{2 \left(1 + \sqrt{\frac{l}{d}}\right)}{1 - \sqrt{\frac{l}{d}}} \right)}
+- :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines>` :code:`laws.electricity.circuits.transmission_lines.microstrip_lines`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.attenuation_coefficient_in_dielectric_substrate_of_microstrip_line>` Attenuation coefficient in dielectric substate of microstrip line
+        
+            .. math::
+        
+                \alpha = 27.3 \frac{\varepsilon_\text{r}}{\sqrt{\varepsilon_\text{eff}}} \frac{\varepsilon_\text{eff} - 1}{\varepsilon_\text{r} - 1} \frac{\tan \delta}{\lambda}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.attenuation_coefficient_in_metal_of_microstrip_line_for_width_greater_thickness>` Attenuation coefficient in metal of microstrip line when width is greater than thickness
+        
+            .. math::
+        
+                \alpha = \frac{a R_\text{s} Z_\text{S} \varepsilon_\text{eff}}{h} \left(\frac{w_\text{eff}}{h} + \frac{0.667 \frac{w_\text{eff}}{h}}{\frac{w_\text{eff}}{h} + 1.444}\right) \left(1 + \frac{1 - \frac{1.25}{\pi} \frac{t}{h} + \frac{1.25}{\pi} \log \left( \frac{2 h}{t} \right)}{\frac{w_\text{eff}}{h}}\right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.attenuation_coefficient_in_metal_of_microstrip_line_for_width_less_thickness_first>` Attenuation coefficient in microstrip metal when thickness is greater than width times :math:`2 \pi`
+        
+            .. math::
+        
+                \alpha = \frac{1.38 R_\text{s}}{h Z_\text{S}} \frac{32 - \left(\frac{w_\text{eff}}{h}\right)^{2}}{32 + \left(\frac{w_\text{eff}}{h}\right)^{2}} \left(1 + \frac{h}{w_\text{eff}} \left(1 + \frac{1.25}{\pi} \frac{t}{w} + \frac{1.25}{\pi} \log \left( \frac{4 \pi w}{t} \right)\right)\right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.attenuation_coefficient_in_metal_of_microstrip_line_for_width_less_thickness_second>` Attenuation coefficient in microstrip metal when thickness is less than width times :math:`2 \pi`
+        
+            .. math::
+        
+                \alpha = \frac{1.38 R_\text{s}}{h Z_\text{S}} \frac{32 - \left(\frac{w_\text{eff}}{h}\right)^{2}}{32 + \left(\frac{w_\text{eff}}{h}\right)^{2}} \left(1 + \frac{h}{w_\text{eff}} \left(1 - \frac{1.25}{\pi} \frac{t}{h} + \frac{1.25}{\pi} \log \left( 2 \frac{h}{t} \right)\right)\right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.effective_permittivity_for_microstrip_line_for_width_greater_thickness>` Effective permittivity of microstrip line when width is greater than thickness
+        
+            .. math::
+        
+                \varepsilon_\text{eff} = \frac{1 + \varepsilon_\text{r}}{2} + \frac{\varepsilon_\text{r} - 1}{2} \frac{1}{\sqrt{1 + \frac{12 h}{w}}} - \frac{\varepsilon_\text{r} - 1}{4.6} \frac{t}{h} \sqrt{\frac{h}{w}}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.effective_permittivity_for_microstrip_line_for_width_less_thickness>` Effective permittivity of microstrip line when width is less than thickness
+        
+            .. math::
+        
+                \varepsilon_\text{eff} = \frac{1 + \varepsilon_\text{r}}{2} + \frac{\varepsilon_\text{r} - 1}{2} \left(\frac{1}{\sqrt{1 + \frac{12 h}{w}}} + 0.04 \left(1 - \frac{w}{h}\right)^{2}\right) - \frac{\varepsilon_\text{r} - 1}{4.6} \frac{t}{h} \sqrt{\frac{h}{w}}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.effective_permittivity_for_microstrip_line_from_frequency>` Effective permittivity of microstrip line from frequency
+        
+            .. math::
+        
+                \varepsilon_\text{eff} = \left(\frac{\sqrt{\varepsilon_\text{r}} - \sqrt{\varepsilon_{\text{eff}, 0}}}{1 + \frac{4}{\left(4 h f \left(1 + 2 \log \left( 1 + \frac{w}{h} \right)\right)^{2} \sqrt{\varepsilon_\text{r} - 1} \frac{1}{2 c}\right)^{\frac{3}{2}}}} + \sqrt{\varepsilon_{\text{eff}, 0}}\right)^{2}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.effective_width_for_microstrip_line_for_width_greater_thickness>` Effective width of microstrip line when width is greater than thickness
+        
+            .. math::
+        
+                \frac{w_\text{eff}}{h} = \frac{w}{h} + \frac{1.25}{\pi} \frac{t}{h} \left(1 + \log \left( 2 \frac{h}{t} \right)\right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.effective_width_for_microstrip_line_for_width_less_thickness>` Effective width of microstrip line when width is less than thickness
+        
+            .. math::
+        
+                \frac{w_\text{eff}}{h} = \frac{w}{h} + \frac{1.25}{\pi} \frac{t}{h} \left(1 + \log \left( 4 \pi \frac{w}{t} \right)\right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.inductance_of_the_microstrip_line_strip>` Inductance of microstrip line strip
+        
+            .. math::
+        
+                L = L_0 l \left(\log \left( \frac{l}{w + t} \right) + 1.193 + \frac{0.2235}{\frac{l}{w + t}}\right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.microstrip_line_resistance>` Resistance of microstrip line
+        
+            .. math::
+        
+                R = \left(1.4 + 0.217 \log \left( \frac{w}{5 t} \right)\right) \frac{R_\text{s} l}{2 \left(w + t\right)}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.short_circuit_inductance_of_microstrip_line>` Short circuit inductance of microstrip line
+        
+            .. math::
+        
+                L = \frac{\mu_0}{2 \pi} \left(h \log \left( \frac{h + \sqrt{r^{2} + h^{2}}}{r} \right) + 1.5 \left(r - \sqrt{r^{2} + h^{2}}\right)\right)
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.microstrip_lines.wave_resistance_of_microstrip_line_from_frequency>` Surge impedance of microstrip line from frequency
+        
+            .. math::
+        
+                Z_\text{S} = Z_{\text{S}, 0} \sqrt{\frac{\varepsilon_{\text{eff}, 0}}{\varepsilon_\text{eff}}} \frac{\varepsilon_\text{eff} - 1}{\varepsilon_{\text{eff}, 0} - 1}
+- :doc:`(doc) <laws.electricity.circuits.waveguides>` :code:`laws.electricity.circuits.waveguides`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric>` Attenuation coefficient in dielectric
+        
+            .. math::
+        
+                \alpha = \frac{\omega \sqrt{\varepsilon \mu} \tan \delta}{2}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.attenuation_coefficient_in_dielectric_in_rectangular_waveguide>` Attenuation coefficient in dielectric in rectangular waveguide
+        
+            .. math::
+        
+                \alpha = \frac{\pi}{\lambda} \frac{\eta}{\eta_{0}} \tan \delta
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal>` Attenuation coefficient in metal
+        
+            .. math::
+        
+                \alpha = \frac{\sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r}}} \left(\frac{R_\text{i}}{d_\text{i}} + \frac{R_\text{o}}{d_\text{o}}\right)}{\pi R_0 \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal_in_rectangular_waveguide_for_transverse_electric_waves>` Attenuation coefficient in metal in rectangular waveguide for transverse electric waves
+        
+            .. math::
+        
+                \alpha = \frac{2 \frac{R_\text{s}}{R}}{a \sqrt{1 - \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2}}} \left(\left(1 + \frac{a}{b}\right) \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2} + \frac{\left(1 - \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2}\right) \frac{a}{b} \left(\frac{a}{b} n^{2} + m^{2}\right)}{\left(\frac{a}{b} n\right)^{2} + m^{2}}\right)
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.attenuation_coefficient_in_metal_in_rectangular_waveguide_for_transverse_magnetic_waves>` Attenuation coefficient in metal in rectangular waveguide for transverse magnetic waves
+        
+            .. math::
+        
+                \alpha = \frac{2 \frac{R_\text{s}}{R} \left(n^{2} \left(\frac{a}{b}\right)^{3} + m^{2}\right)}{a \sqrt{1 - \left(\frac{\lambda}{2 \lambda_\text{c}}\right)^{2}} \left(n^{2} \left(\frac{a}{b}\right)^{2} + m^{2}\right)}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.characteristic_resistance_of_rectangular_waveguide_for_transverse_electric_waves>` Wave impedance in rectangular waveguide for transverse electric waves
+        
+            .. math::
+        
+                \eta = \frac{\eta_{0}}{\sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.characteristic_resistance_of_rectangular_waveguide_for_transverse_magnetic_waves>` Characteristic resistance of rectangular waveguide for transverse magnetic waves
+        
+            .. math::
+        
+                \eta = \eta_{0} \sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.critical_wavelength_in_rectangular_waveguide>` Critical wavelength in rectangular waveguide
+        
+            .. math::
+        
+                \lambda_\text{c} = \frac{2}{\sqrt{\left(\frac{m}{a}\right)^{2} + \left(\frac{n}{b}\right)^{2}}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.group_velocity_of_wave_in_rectangular_waveguide>` Group speed of wave in rectangular waveguide
+        
+            .. math::
+        
+                v_\text{g} = \frac{c \sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}}{\sqrt{\varepsilon_\text{r} \mu_\text{r}}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.maximum_electric_field_intensity_of_main_wave_in_rectangular_waveguide>` Maximum electric field strength of main wave in rectangular waveguide
+        
+            .. math::
+        
+                E = \frac{2 Z_0 a H}{\lambda \sqrt{\varepsilon_\text{r}}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.maximum_voltage_in_coaxial_line>` Maximum voltage in coaxial line
+        
+            .. math::
+        
+                V = \frac{E d_\text{o} \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}{2}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.phase_velocity_of_wave_in_rectangular_waveguide>` Phase speed of wave in rectangular waveguide
+        
+            .. math::
+        
+                v = \frac{c}{\sqrt{\varepsilon_\text{r} \mu_\text{r} \left(1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}\right)}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.power_carried_by_coaxial_waveguide>` Power carried by coaxial waveguide
+        
+            .. math::
+        
+                P = \frac{V^{2}}{Z_0} \sqrt{\frac{\varepsilon_\text{r}}{\mu_\text{r} \log \left( \frac{d_\text{o}}{d_\text{i}} \right)}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.power_carried_by_main_wave_of_rectangular_waveguide>` Power carried by main wave of rectangular waveguide
+        
+            .. math::
+        
+                P = \frac{a b \sqrt{1 - \left(\frac{\lambda}{2 a}\right)^{2}} E^{2}}{4 R}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.specific_capacitance_of_coaxial_waveguide>` Specific capacitance of coaxial waveguide
+        
+            .. math::
+        
+                C = \frac{2 \pi \varepsilon}{\log \left( \frac{r_\text{o}}{r_\text{i}} \right)}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.specific_conductivity_of_coaxial_waveguide>` Specific conductivity of coaxial waveguide
+        
+            .. math::
+        
+                G = \omega C \tan \delta
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.specific_inductance_of_coaxial_waveguide>` Specific inductance of coaxial waveguide
+        
+            .. math::
+        
+                L = \frac{\mu}{2 \pi} \log \left( \frac{r_\text{o}}{r_\text{i}} \right)
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.specific_resistance_of_coaxial_waveguide>` Specific resistance of coaxial waveguide
+        
+            .. math::
+        
+                R = \frac{\sqrt{\frac{\omega \mu}{2 G}}}{2 \pi} \left(\frac{1}{r_\text{i}} - \frac{1}{r_\text{o}}\right)
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.surface_resistance_of_metal>` Surface resistance of metal
+        
+            .. math::
+        
+                R = \sqrt{\frac{\omega \mu}{2 G}}
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.wave_resistance_of_coaxial_waveguide>` Wave resistance of coaxial waveguide
+        
+            .. math::
+        
+                R = \frac{\sqrt{\frac{\mu_0 \mu_\text{r}}{\varepsilon_0 \varepsilon_\text{r}}}}{2 \pi} \log \left( \frac{r_\text{o}}{r_\text{i}} \right)
+        - :doc:`(doc) <laws.electricity.circuits.waveguides.wavelength_in_rectangular_waveguide>` Wavelength in rectangular waveguide
+        
+            .. math::
+        
+                \lambda_\text{g} = \frac{\lambda}{\sqrt{1 - \left(\frac{\lambda}{\lambda_\text{c}}\right)^{2}}}
+- :doc:`(doc) <laws.electricity.maxwell_equations>` :code:`laws.electricity.maxwell_equations`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.maxwell_equations.charge_density_from_electric_induction_divergence>` Divergence of electric displacement field is volumetric charge density
+        
+            .. math::
+        
+                \text{div} \, {\vec D} \left( {\vec r} \right) = \rho{\left({\vec r} \right)}
+        - :doc:`(doc) <laws.electricity.maxwell_equations.curl_of_magnetic_field_is_conductivity_current_density_and_electric_induction_derivative>` Curl of magnetic field is free current density and electric displacement derivative
+        
+            .. math::
+        
+                \text{curl} \, {\vec H} \left( {\vec r}, t \right) = {\vec J}_\text{f} \left( {\vec r}, t \right) + \frac{\partial}{\partial t} {\vec D} \left( {\vec r}, t \right)
+        - :doc:`(doc) <laws.electricity.maxwell_equations.derivative_of_magnetic_induction_in_time_is_rotor_of_electric_intensity>` Curl of electric field is negative magnetic flux density derivative
+        
+            .. math::
+        
+                \text{curl} \, {\vec E} \left( {\vec r}, t \right) = - \frac{\partial}{\partial t} {\vec B} \left( {\vec r}, t \right)
+- :doc:`(doc) <laws.electricity.vector>` :code:`laws.electricity.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.electricity.vector.current_density_is_charge_density_times_drift_velocity>` Current density is charge density times drift velocity
+        
+            .. math::
+        
+                {\vec j} = \rho {\vec u}
+        - :doc:`(doc) <laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement>` Electric dipole moment is charge times displacement
+        
+            .. math::
+        
+                {\vec p} = q {\vec d}
+        - :doc:`(doc) <laws.electricity.vector.electric_dipole_moment_of_electrically_neutral_system>` Electric dipole moment of electrically neutral system
+        
+            .. math::
+        
+                {\vec p} = \sum_i {q}_{i} {{\vec r}}_{i}
+        - :doc:`(doc) <laws.electricity.vector.electric_field_is_force_over_test_charge>` Electric field is force over test charge (Vector)
+        
+            .. math::
+        
+                {\vec E} = \frac{{\vec F}}{q_{0}}
+        - :doc:`(doc) <laws.electricity.vector.electric_flux_of_uniform_electric_field>` Electric flux of uniform electric field
+        
+            .. math::
+        
+                \Phi_{\vec E} = \left( {\vec E}, {\vec A} \right)
+        - :doc:`(doc) <laws.electricity.vector.force_acting_on_dipole_in_non_uniform_electric_field>` Force acting on dipole in non-uniform electric field
+        
+            .. math::
+        
+                {\vec F} = p \frac{d}{d x} {\vec E} \left( x \right)
+        - :doc:`(doc) <laws.electricity.vector.lorentz_force_via_electromagnetic_field>` Lorentz force via electromagnetic field
+        
+            .. math::
+        
+                {\vec F} = q \left({\vec E} + \left[ {\vec v}, {\vec B} \right]\right)
+        - :doc:`(doc) <laws.electricity.vector.potential_energy_of_electric_dipole_in_uniform_electric_field>` Potential energy of electric dipole in uniform electric field
+        
+            .. math::
+        
+                U = - \left( {\vec p}, {\vec E} \right)
+        - :doc:`(doc) <laws.electricity.vector.torque_due_to_electric_dipole_in_uniform_electric_field>` Torque due to electric dipole moment in uniform electric field
+        
+            .. math::
+        
+                {\vec \tau} = \left[ {\vec p}, {\vec E} \right]
+- :doc:`(doc) <laws.geometry>` :code:`laws.geometry`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.geometry.cross_product_is_proportional_to_sine_between_vectors>` Cross product is proportional to sine of angle between vectors
+        
+            .. math::
+        
+                \left \Vert \left[ \vec u, \vec v \right] \right \Vert = u v \sin{\left(\varphi \right)}
+        - :doc:`(doc) <laws.geometry.dot_product_is_proportional_to_cosine_between_vectors>` Dot product is proportional to cosine of angle between vectors
+        
+            .. math::
+        
+                \left( \vec u, \vec v \right) = u v \cos{\left(\varphi \right)}
+        - :doc:`(doc) <laws.geometry.scalar_projection_is_vector_length_times_cosine_of_angle>` Scalar projection is vector length times cosine of angle
+        
+            .. math::
+        
+                s = a \cos{\left(\varphi \right)}
+- :doc:`(doc) <laws.geometry.vector>` :code:`laws.geometry.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.geometry.vector.dot_product_is_proportional_to_cosine_between_vectors>` Dot product is proportional to cosine of angle between vectors (vector)
+        
+            .. math::
+        
+                \left( {\vec u}, {\vec v} \right) = \left \Vert {\vec u} \right \Vert \left \Vert {\vec v} \right \Vert \cos{\left(\varphi \right)}
+- :doc:`(doc) <laws.gravity>` :code:`laws.gravity`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.gravity.angle_of_rotation_during_gravitational_maneuver>` Angle of rotation during gravitational maneuver
+        
+            .. math::
+        
+                \varphi = 2 \operatorname{atan}{\left(\frac{G m}{d v^{2}} \right)}
+        - :doc:`(doc) <laws.gravity.area_rate_of_change_is_proportional_to_angular_momentum>` Area rate of change is proportional to angular momentum
+        
+            .. math::
+        
+                \frac{d}{d t} A{\left(t \right)} = \frac{L}{2 m}
+        - :doc:`(doc) <laws.gravity.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis>` Corrected planet period squared is proportional to cube of semimajor axis
+        
+            .. math::
+        
+                T^{2} = \frac{4 \pi^{2} a^{3}}{G \left(M + m\right)}
+        - :doc:`(doc) <laws.gravity.easterly_deviation_from_plumbline_of_falling_bodies>` Easterly deviation from plumbline of falling bodies
+        
+            .. math::
+        
+                s_\text{east} = \frac{4 \pi}{3} \frac{t}{T} h \cos{\left(\phi \right)}
+        - :doc:`(doc) <laws.gravity.eccentricity_of_orbit>` Eccentricity of orbit
+        
+            .. math::
+        
+                e = \sqrt{1 - \left(\frac{b}{a}\right)^{2}}
+        - :doc:`(doc) <laws.gravity.escape_velocity>` First escape speed
+        
+            .. math::
+        
+                v = \sqrt{\frac{G m}{r + h}}
+        - :doc:`(doc) <laws.gravity.free_fall_acceleration_from_height>` Free fall acceleration from height
+        
+            .. math::
+        
+                a = \frac{G m}{\left(r + h\right)^{2}}
+        - :doc:`(doc) <laws.gravity.gravitational_potential_energy>` Gravitational potential energy
+        
+            .. math::
+        
+                U = - \frac{G m_{1} m_{2}}{d}
+        - :doc:`(doc) <laws.gravity.gravitational_radius_of_body_mass>` Gravitational radius of massive body
+        
+            .. math::
+        
+                r = \frac{2 G m}{c^{2}}
+        - :doc:`(doc) <laws.gravity.gravity_force_from_mass_and_distance>` Gravitational force from mass and distance
+        
+            .. math::
+        
+                F = \frac{G m_{1} m_{2}}{d^{2}}
+        - :doc:`(doc) <laws.gravity.keplers_constant_via_attracting_body_mass>` Kepler's constant via attracting body mass
+        
+            .. math::
+        
+                \mathfrak{K} = \frac{G M}{4 \pi^{2}}
+        - :doc:`(doc) <laws.gravity.large_half_axis_of_orbit>` Semimajor axis of orbit via mass and speed
+        
+            .. math::
+        
+                a = \frac{G m}{v^{2}}
+        - :doc:`(doc) <laws.gravity.maximum_angle_of_rotation_during_gravitational_maneuver>` Maximum angle of rotation during gravitational maneuver
+        
+            .. math::
+        
+                \varphi = \operatorname{atan}{\left(\left(\frac{v_{1}}{v}\right)^{2} \right)}
+        - :doc:`(doc) <laws.gravity.maximum_height_of_a_body_thrown_at_an_angle_to_horizon>` Maximum height of body thrown at angle to horizon
+        
+            .. math::
+        
+                h = \frac{v_{0}^{2} \sin^{2}{\left(\varphi \right)}}{2 g}
+        - :doc:`(doc) <laws.gravity.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon>` Time of flight of a projectile via initial velocity
+        
+            .. math::
+        
+                t = \frac{2 v_{0} \sin{\left(\varphi \right)}}{g}
+        - :doc:`(doc) <laws.gravity.maximum_movement_time_of_a_body_thrown_horizontally>` Time of flight of a projectile via maximum height
+        
+            .. math::
+        
+                t = \sqrt{\frac{2 h}{g}}
+        - :doc:`(doc) <laws.gravity.orbital_velocity_from_length_of_large_half_axis_and_planet_mass>` Orbital speed from semimajor axis and planet mass
+        
+            .. math::
+        
+                v = \sqrt{G m \left(\frac{2}{d} - \frac{1}{a}\right)}
+        - :doc:`(doc) <laws.gravity.planet_period_squared_is_proportional_to_cube_of_semimajor_axis>` Planet period squared is proportional to cube of semimajor axis
+        
+            .. math::
+        
+                T^{2} = \frac{4 \pi^{2}}{G m} a^{3}
+        - :doc:`(doc) <laws.gravity.radius_of_geostationary_orbit>` Radius of geostationary orbit
+        
+            .. math::
+        
+                r = \sqrt[3]{\frac{G m}{\omega^{2}}}
+        - :doc:`(doc) <laws.gravity.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon>` Horizontal displacement of projectile
+        
+            .. math::
+        
+                d = \frac{v_{0}^{2} \sin{\left(2 \varphi \right)}}{g}
+        - :doc:`(doc) <laws.gravity.second_escape_velocity>` Second escape velocity
+        
+            .. math::
+        
+                v = \sqrt{\frac{2 G m}{r + h}}
+        - :doc:`(doc) <laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies>` Southerly deviation from plumbline of falling bodies
+        
+            .. math::
+        
+                s_\text{south} = \pi \frac{t}{T} s_\text{east} \sin{\left(\phi \right)}
+        - :doc:`(doc) <laws.gravity.third_cosmic_velocity_from_orbital_and_second_velocities>` Third cosmic speed from orbital and second cosmic speed
+        
+            .. math::
+        
+                v_{3} = \sqrt{\left(\sqrt{2} - 1\right)^{2} v^{2} + v_{2}^{2}}
+- :doc:`(doc) <laws.gravity.radial_motion>` :code:`laws.gravity.radial_motion`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.gravity.radial_motion.average_potential_energy_via_average_kinetic_energy>` Average potential energy via average kinetic energy
+        
+            .. math::
+        
+                \langle U \rangle = - 2 \langle K \rangle
+        - :doc:`(doc) <laws.gravity.radial_motion.potential_energy_of_planetary_motion>` Potential energy of radial planetary motion
+        
+            .. math::
+        
+                U_\text{tot} = U_\text{gr} + \frac{L^{2}}{2 m d^{2}}
+        - :doc:`(doc) <laws.gravity.radial_motion.radial_kinetic_energy_plus_potential_energy_is_constant>` Radial kinetic energy plus potential energy is constant
+        
+            .. math::
+        
+                \frac{m v_{r}^{2}}{2} + U = E
+        - :doc:`(doc) <laws.gravity.radial_motion.semimajor_axis_via_kepler_constant_and_total_energy>` Semimajor axis via Kepler's constant and total energy
+        
+            .. math::
+        
+                a = \frac{2 \pi^{2} \mathfrak{K}}{\left|{\varepsilon}\right|}
+        - :doc:`(doc) <laws.gravity.radial_motion.semiminor_axis_of_elliptical_orbit_via_orbit_parameters>` Semiminor axis of elliptical orbit via orbit parameters
+        
+            .. math::
+        
+                b = 2 \sigma \sqrt{\frac{a}{G M}}
+        - :doc:`(doc) <laws.gravity.radial_motion.total_energy_is_negative_average_kinetic_energy>` Total energy is negative average kinetic energy
+        
+            .. math::
+        
+                E = - \langle K \rangle
+- :doc:`(doc) <laws.gravity.vector>` :code:`laws.gravity.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.gravity.vector.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration>` Acceleration due to gravity via gravity force and centripetal acceleration
+        
+            .. math::
+        
+                {\vec g} = \frac{{\vec F}}{m} - {\vec a}_\text{cp}
+        - :doc:`(doc) <laws.gravity.vector.falling_body_displacement>` Falling body displacement
+        
+            .. math::
+        
+                {\vec s} = {\vec v}_{0} t + t^{2} \left(\frac{{\vec g}}{2} + \left[ {\vec v}_{0}, {\vec \omega} \right]\right) + \frac{t^{3}}{3} \left(\left[ {\vec g}, {\vec \omega} \right] + 2 \left[ \left[ {\vec v}_{0}, {\vec \omega} \right], {\vec \omega} \right]\right) + \frac{t^{4}}{6} \left[ \left[ {\vec g}, {\vec \omega} \right], {\vec \omega} \right]
+        - :doc:`(doc) <laws.gravity.vector.relative_acceleration_from_force_and_acceleration_due_to_gravity>` Relative acceleration from force and acceleration due to gravity
+        
+            .. math::
+        
+                {\vec a}_\text{rel} = {\vec g} - {\vec a}_\text{Cor} + \frac{{\vec F}}{m}
+- :doc:`(doc) <laws.hydro>` :code:`laws.hydro`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.hydro.bulk_stress_is_bulk_modulus_times_strain>` Bulk stress is bulk modulus times strain
+        
+            .. math::
+        
+                \Delta p = K e_{V}
+        - :doc:`(doc) <laws.hydro.capillary_height_via_surface_tension_and_contact_angle>` Capillary height via surface tension and contact angle
+        
+            .. math::
+        
+                h = \frac{2 \gamma \cos{\left(\varphi \right)}}{\rho r g}
+        - :doc:`(doc) <laws.hydro.dynamic_pressure_via_density_and_flow_speed>` Dynamic pressure from density and flow speed
+        
+            .. math::
+        
+                q = \frac{\rho u^{2}}{2}
+        - :doc:`(doc) <laws.hydro.efficiency_of_hydraulic_press_from_force_and_height>` Efficiency of hydraulic press from force and height
+        
+            .. math::
+        
+                \eta = \frac{F_{2} d_{2}}{F_{1} d_{1}}
+        - :doc:`(doc) <laws.hydro.efflux_speed_via_height>` Efflux speed via height
+        
+            .. math::
+        
+                u = \sqrt{2 g h}
+        - :doc:`(doc) <laws.hydro.efflux_speed_via_hydrostatic_pressure_and_density>` Efflux speed via hydrostatic pressure and density
+        
+            .. math::
+        
+                u = \sqrt{\frac{2 p}{\rho}}
+        - :doc:`(doc) <laws.hydro.excess_pressure_under_curved_surface_of_bubble>` Excess pressure under curved surface of bubble
+        
+            .. math::
+        
+                \Delta p = \frac{4 \gamma}{r}
+        - :doc:`(doc) <laws.hydro.force_to_area_ratio_in_hydraulic_press>` Force to area ratio in hydraulic press
+        
+            .. math::
+        
+                \frac{F_{1}}{A_{1}} = \frac{F_{2}}{A_{2}}
+        - :doc:`(doc) <laws.hydro.froude_number_via_flow_speed_and_characteristic_length>` Froude number via flow speed and characteristic length
+        
+            .. math::
+        
+                \text{Fr} = \frac{u}{\sqrt{g l_\text{c}}}
+        - :doc:`(doc) <laws.hydro.hydrostatic_pressure_via_density_and_height>` Hydrostatic pressure via density and height
+        
+            .. math::
+        
+                p = \rho g h
+        - :doc:`(doc) <laws.hydro.hydrostatic_pressure_via_density_height_and_acceleration>` Hydrostatic pressure via density, height and acceleration
+        
+            .. math::
+        
+                p = \rho a h
+        - :doc:`(doc) <laws.hydro.inner_pressure_is_constant>` Inner pressure is constant
+        
+            .. math::
+        
+                \frac{d}{d t} p_\text{inner}{\left(t \right)} = 0
+        - :doc:`(doc) <laws.hydro.inner_pressure_is_sum_of_pressures>` Inner pressure is sum of pressures
+        
+            .. math::
+        
+                p_\text{inner} = p_\text{static} + q + p
+        - :doc:`(doc) <laws.hydro.laplace_pressure_is_pressure_difference>` Laplace pressure is pressure difference
+        
+            .. math::
+        
+                p_\text{L} = p_\text{o} - p_\text{i}
+        - :doc:`(doc) <laws.hydro.mach_number_is_flow_speed_over_speed_of_sound>` Mach number is flow speed over speed of sound
+        
+            .. math::
+        
+                \text{M} = \frac{u}{c}
+        - :doc:`(doc) <laws.hydro.nusselt_number_via_thermal_parameters_and_characteristic_length>` Nusselt number via thermal parameters and characteristic length
+        
+            .. math::
+        
+                \text{Nu} = \frac{h l_\text{c}}{k}
+        - :doc:`(doc) <laws.hydro.pressure_difference_at_pipe_ends_from_dynamic_viscosity_and_flow_rate>` Pressure difference at pipe ends from dynamic viscosity and flow rate
+        
+            .. math::
+        
+                \Delta p = \frac{8 \mu l Q}{\pi r^{4}}
+        - :doc:`(doc) <laws.hydro.pressure_of_liquid_in_vessel_moving_horizontally>` Pressure of liquid in vessel moving horizontally
+        
+            .. math::
+        
+                p = \rho \sqrt{g^{2} + a^{2}} h
+        - :doc:`(doc) <laws.hydro.pressure_of_liquid_in_vessel_moving_vertically>` Pressure of liquid in vessel moving vertically
+        
+            .. math::
+        
+                p = \rho \sqrt{\left(g + a\right)^{2}} h
+        - :doc:`(doc) <laws.hydro.reynolds_number_via_fluid_parameters_and_characteristic_length>` Reynolds number via fluid parameters and characteristic length
+        
+            .. math::
+        
+                \text{Re} = \frac{\rho u l_\text{c}}{\mu}
+        - :doc:`(doc) <laws.hydro.shear_stress_is_proportional_to_speed_gradient>` Shear stress is proportional to speed gradient
+        
+            .. math::
+        
+                \tau = \mu \frac{d}{d x} u{\left(x \right)}
+        - :doc:`(doc) <laws.hydro.submerged_volume_of_floating_body_via_density_ratio>` Submerged volume of floating body via density ratio
+        
+            .. math::
+        
+                \frac{V_\text{fl}}{V} = \frac{\rho}{\rho_\text{fl}}
+        - :doc:`(doc) <laws.hydro.surface_tension_force_via_surface_tension_and_length>` Surface tension force via surface tension and length
+        
+            .. math::
+        
+                F = \gamma l
+        - :doc:`(doc) <laws.hydro.volume_flux_is_constant>` Volume flux is constant
+        
+            .. math::
+        
+                \frac{d}{d t} A{\left(t \right)} u{\left(t \right)} = 0
+        - :doc:`(doc) <laws.hydro.weight_in_fluid_via_ratio_of_densities>` Apparent weight of a fully submersed body in fluid
+        
+            .. math::
+        
+                W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)
+- :doc:`(doc) <laws.kinematics>` :code:`laws.kinematics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.kinematics.angular_momentum_is_rotational_inertia_times_angular_speed>` Angular momentum is rotational inertia times angular speed
+        
+            .. math::
+        
+                L = I \omega
+        - :doc:`(doc) <laws.kinematics.angular_position_is_arc_length_over_radius>` Angular position is arc length over radius
+        
+            .. math::
+        
+                \theta = \frac{s}{r}
+        - :doc:`(doc) <laws.kinematics.angular_position_via_constant_angular_acceleration_and_time>` Angular position via constant angular acceleration and time
+        
+            .. math::
+        
+                \theta = \theta_{0} + \omega_{0} t + \frac{\alpha t^{2}}{2}
+        - :doc:`(doc) <laws.kinematics.angular_position_via_constant_angular_speed_and_time>` Angular position via constant angular speed and time
+        
+            .. math::
+        
+                \theta = \theta_{0} + \omega t
+        - :doc:`(doc) <laws.kinematics.angular_speed_via_constant_angular_acceleration_and_time>` Angular speed via constant angular acceleration and time
+        
+            .. math::
+        
+                \omega = \omega_{0} + \alpha t
+        - :doc:`(doc) <laws.kinematics.average_angular_speed_is_angular_distance_over_time>` Average angular speed is angular distance over time
+        
+            .. math::
+        
+                \langle \omega \rangle = \frac{\theta}{t}
+        - :doc:`(doc) <laws.kinematics.centripetal_acceleration_via_angular_speed_and_radius>` Centripetal acceleration via angular speed and radius
+        
+            .. math::
+        
+                a_{n} = \omega^{2} r
+        - :doc:`(doc) <laws.kinematics.centripetal_acceleration_via_linear_speed_and_radius>` Centripetal acceleration via linear speed and radius
+        
+            .. math::
+        
+                a_{n} = \frac{v^{2}}{r}
+        - :doc:`(doc) <laws.kinematics.classical_addition_of_velocities>` Classical addition of velocities
+        
+            .. math::
+        
+                v_{OA} = v_{OB} + v_{BA}
+        - :doc:`(doc) <laws.kinematics.displacement_in_simple_harmonic_motion>` Displacement in simple harmonic motion
+        
+            .. math::
+        
+                q = q_\text{max} \cos{\left(\omega t + \varphi \right)}
+        - :doc:`(doc) <laws.kinematics.position_via_constant_acceleration_and_time>` Position via constant acceleration and time
+        
+            .. math::
+        
+                x = x_{0} + v_{0} t + \frac{a t^{2}}{2}
+        - :doc:`(doc) <laws.kinematics.position_via_constant_speed_and_time>` Position via constant speed and time
+        
+            .. math::
+        
+                x = x_{0} + v t
+        - :doc:`(doc) <laws.kinematics.speed_via_angular_speed_and_radius>` Speed via angular speed and radius
+        
+            .. math::
+        
+                v = \omega r
+        - :doc:`(doc) <laws.kinematics.speed_via_constant_acceleration_and_time>` Speed via constant acceleration and time
+        
+            .. math::
+        
+                v = v_{0} + a t
+        - :doc:`(doc) <laws.kinematics.tangential_acceleration_via_angular_acceleration_and_radius>` Tangential acceleration via angular acceleration and radius
+        
+            .. math::
+        
+                a_{\tau} = \alpha r
+- :doc:`(doc) <laws.kinematics.damped_oscillations>` :code:`laws.kinematics.damped_oscillations`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.kinematics.damped_oscillations.damped_angular_frequency>` Damped angular frequency
+        
+            .. math::
+        
+                \omega_\text{d} = \omega \sqrt{1 - \zeta^{2}}
+        - :doc:`(doc) <laws.kinematics.damped_oscillations.damping_ratio_from_decay_constant_and_undamped_frequency>` Damping ratio from decay constant and undamped frequency
+        
+            .. math::
+        
+                \zeta = \frac{\lambda}{\omega}
+        - :doc:`(doc) <laws.kinematics.damped_oscillations.displacement_in_critical_damping>` Displacement in critical damping
+        
+            .. math::
+        
+                d = \exp{\left(- \omega t \right)} \left(x_{0} + \left(v_{0} + x_{0} \omega\right) t\right)
+        - :doc:`(doc) <laws.kinematics.damped_oscillations.displacement_in_underdamping>` Displacement in underdamping
+        
+            .. math::
+        
+                d = a \exp{\left(- \lambda t \right)} \cos{\left(\omega_\text{d} t + \varphi \right)}
+- :doc:`(doc) <laws.kinematics.rotational_inertia>` :code:`laws.kinematics.rotational_inertia`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass>` Rotational inertia about axis and through center of mass
+        
+            .. math::
+        
+                I = I_\text{com} + m d^{2}
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.rotational_inertia_cartesian_integral>` Rotational inertia in terms of Cartesian integral
+        
+            .. math::
+        
+                I = \int\limits_{z_{0}}^{z_{1}}\int\limits_{y_{0}}^{y_{1}}\int\limits_{x_{0}}^{x_{1}} \rho{\left(x,y,z \right)} r^{2}{\left(x,y,z \right)}\, dx\, dy\, dz
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.rotational_inertia_cylindrical_integral>` Rotational inertia in terms of a cylindrical integral
+        
+            .. math::
+        
+                I = \int\limits_{h_{0}}^{h_{1}}\int\limits_{\varphi_{0}}^{\varphi_{1}}\int\limits_{r_{0}}^{r_{1}} \rho{\left(r,\varphi,h \right)} r^{3}\, dr\, d\varphi\, dh
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.rotational_inertia_is_additive>` Rotational inertia is additive
+        
+            .. math::
+        
+                I = \sum_k {I}_{k}
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.rotational_inertia_of_particle>` Rotational inertia of a particle
+        
+            .. math::
+        
+                I = m r^{2}
+- :doc:`(doc) <laws.kinematics.rotational_inertia.geometries>` :code:`laws.kinematics.rotational_inertia.geometries`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center>` Slab about perpendicular axis through center
+        
+            .. math::
+        
+                I = \frac{m \left(l_{1}^{2} + l_{2}^{2}\right)}{12}
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis>` Solid disk about central axis
+        
+            .. math::
+        
+                I = \frac{m r^{2}}{2}
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length>` Thin rod about axis through center perpendicular to length
+        
+            .. math::
+        
+                I = \frac{m l^{2}}{12}
+- :doc:`(doc) <laws.kinematics.vector>` :code:`laws.kinematics.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.kinematics.vector.absolute_velocity_of_arbitrary_motion>` Absolute velocity of arbitrary motion
+        
+            .. math::
+        
+                {\vec v}_\text{abs} = {\vec v}_\text{rel} + {\vec v}_\text{tr}
+        - :doc:`(doc) <laws.kinematics.vector.acceleration_due_to_non_uniform_rotation>` Acceleration due to non-uniform rotation
+        
+            .. math::
+        
+                {\vec a}_\text{rot} = \left[ \frac{d}{d t} {\vec \omega} \left( t \right), {\vec r} \right]
+        - :doc:`(doc) <laws.kinematics.vector.acceleration_is_normal_plus_tangential_acceleration>` Acceleration is normal plus tangential acceleration
+        
+            .. math::
+        
+                {\vec a} = {\vec a}_\text{n} + {\vec a}_\text{t}
+        - :doc:`(doc) <laws.kinematics.vector.acceleration_of_transfer_between_relative_frames>` Acceleration of transfer between relative frames
+        
+            .. math::
+        
+                {\vec a}_\text{tr} = {\vec a}_{0} + {\vec a}_\text{cp} + {\vec a}_\text{rot}
+        - :doc:`(doc) <laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration>` Centrifugal acceleration via centripetal acceleration
+        
+            .. math::
+        
+                {\vec a}_\text{cf} = - {\vec a}_\text{cp}
+        - :doc:`(doc) <laws.kinematics.vector.centripetal_acceleration_via_cross_product>` Centripetal acceleration via cross product
+        
+            .. math::
+        
+                {\vec a}_\text{cp} = \left[ {\vec \omega}, \left[ {\vec \omega}, {\vec r} \right] \right]
+        - :doc:`(doc) <laws.kinematics.vector.centripetal_acceleration_via_vector_rejection>` Centripetal acceleration via vector rejection
+        
+            .. math::
+        
+                {\vec a}_\text{cp} = {\vec \omega} \left( {\vec r}, {\vec \omega} \right) - {\vec r} \left( {\vec \omega}, {\vec \omega} \right)
+        - :doc:`(doc) <laws.kinematics.vector.coriolis_acceleration>` Coriolis acceleration
+        
+            .. math::
+        
+                {\vec a}_\text{Cor} = 2 \left[ {\vec v}_\text{rel}, {\vec \omega} \right]
+        - :doc:`(doc) <laws.kinematics.vector.displacement_is_angular_displacement_cross_radius>` Linear displacement is angular displacement cross radius
+        
+            .. math::
+        
+                {\vec s} = \left[ {\vec \theta}, {\vec r} \right]
+        - :doc:`(doc) <laws.kinematics.vector.velocity_of_transfer_between_reference_frames>` Velocity of transfer between reference frames
+        
+            .. math::
+        
+                {\vec v}_\text{tr} = {\vec v}_{0} + \left[ {\vec \omega}, {\vec r} \right]
+        - :doc:`(doc) <laws.kinematics.vector.velocity_relative_to_reference_frame>` Velocity relative to reference frame
+        
+            .. math::
+        
+                {\vec v} \left( t \right) = \frac{d}{d t} {\vec r} \left( t \right)
+- :doc:`(doc) <laws.nuclear>` :code:`laws.nuclear`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.nuclear.diffusion_area_from_diffusion_coefficient>` Diffusion area from diffusion coefficient and absorption cross section
+        
+            .. math::
+        
+                L^{2} = \frac{D}{\Sigma_\text{a}}
+        - :doc:`(doc) <laws.nuclear.diffusion_equation_from_neutron_flux>` Diffusion equation from neutron flux
+        
+            .. math::
+        
+                - D \nabla^{2} \Phi{\left(x \right)} + \Sigma_\text{a} \Phi{\left(x \right)} = \frac{\nu}{k_\text{eff}} \Sigma_\text{f} \Phi{\left(x \right)}
+        - :doc:`(doc) <laws.nuclear.effective_multiplication_factor>` Effective multiplication factor from infinite multiplication factor and probabilities
+        
+            .. math::
+        
+                k_\text{eff} = k_{\infty} P_\text{FNL} P_\text{TNL}
+        - :doc:`(doc) <laws.nuclear.fast_fission_factor_from_resonance_escape_probability>` Fast fission factor from resonance escape probability
+        
+            .. math::
+        
+                \varepsilon = 1 + \frac{1 - p}{p} \frac{\nu_\text{f} P_\text{FAF} u_\text{f}}{\nu_\text{t} P_\text{TNL} P_\text{TAF} f}
+        - :doc:`(doc) <laws.nuclear.fast_non_leakage_probability_from_fermi_age>` Fast non-leakage probability from Fermi age and geometric buckling
+        
+            .. math::
+        
+                P_\text{FNL} = \exp{\left(- B_\text{g}^2 \tau \right)}
+        - :doc:`(doc) <laws.nuclear.infinite_multiplication_factor>` Infinite multiplication factor formula
+        
+            .. math::
+        
+                k_{\infty} = \eta \varepsilon p f
+        - :doc:`(doc) <laws.nuclear.infinite_multiplication_factor_from_macroscopic_fission_cross_section>` Infinite multiplication factor from macroscopic cross sections
+        
+            .. math::
+        
+                k_{\infty} = \frac{\nu \Sigma_\text{f}}{\Sigma_\text{a}}
+        - :doc:`(doc) <laws.nuclear.law_of_half_life>` Solution to the exponential decay equation
+        
+            .. math::
+        
+                X = X_{0} \cdot 2^{- \frac{t}{t_{1/2}}}
+        - :doc:`(doc) <laws.nuclear.macroscopic_cross_section_from_free_mean_path>` Macroscopic cross section from mean free path
+        
+            .. math::
+        
+                \Sigma = \frac{1}{\lambda}
+        - :doc:`(doc) <laws.nuclear.macroscopic_cross_section_from_microscopic_cross_section>` Macroscopic cross section from microscopic cross section and number density
+        
+            .. math::
+        
+                \Sigma = \sigma n
+        - :doc:`(doc) <laws.nuclear.macroscopic_transport_cross_section>` Macroscopic transport cross section from macroscopic scattering cross section
+        
+            .. math::
+        
+                \Sigma_\text{tr} = \sigma_\text{s} \left(1 - \mu\right)
+        - :doc:`(doc) <laws.nuclear.migration_area_from_diffusion_length>` Migration area from diffusion length and Fermi age
+        
+            .. math::
+        
+                M^{2} = L^{2} + \tau
+        - :doc:`(doc) <laws.nuclear.most_neutron_energies_scattering_angle_average_cosine>` Average cosine of scattering angle from mass number
+        
+            .. math::
+        
+                \mu = \frac{2}{3 A}
+        - :doc:`(doc) <laws.nuclear.neutron_diffusion_coefficient_from_scattering_cross_section>` Diffusion coefficient from macroscopic scattering cross section
+        
+            .. math::
+        
+                D = \frac{1}{3 \Sigma_\text{tr}}
+        - :doc:`(doc) <laws.nuclear.reproduction_factor_from_macroscopic_fission_cross_section>` Reproduction factor from macroscopic cross sections in fuel
+        
+            .. math::
+        
+                \eta = \frac{\nu \Sigma_\text{f}^\text{f}}{\Sigma_\text{a}^\text{f}}
+        - :doc:`(doc) <laws.nuclear.resonance_escape_probability_from_resonance_absorption_integral>` Resonance escape probability from resonance absorption integral
+        
+            .. math::
+        
+                p = \exp{\left(- \frac{n J_\text{eff}}{\xi \Sigma_\text{s}} \right)}
+        - :doc:`(doc) <laws.nuclear.thermal_non_leakage_probability_from_diffusion_length>` Thermal non-leakage probability from diffusion area and geometric buckling
+        
+            .. math::
+        
+                P_\text{TNL} = \frac{1}{1 + L_\text{th}^2 B_\text{g}^2}
+        - :doc:`(doc) <laws.nuclear.thermal_utilisation_factor_from_macroscopic_absorption_cross_sections>` Thermal utilization factor from macroscopic absorption cross sections
+        
+            .. math::
+        
+                f = \frac{\Sigma_\text{a}^\text{f}}{\Sigma_\text{a}}
+- :doc:`(doc) <laws.nuclear.buckling>` :code:`laws.nuclear.buckling`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.nuclear.buckling.geometric_buckling_for_uniform_cylinder>` Geometric buckling for uniform cylinder
+        
+            .. math::
+        
+                B_\text{g}^2 = \left(\frac{2.405}{r}\right)^{2} + \left(\frac{\pi}{h}\right)^{2}
+        - :doc:`(doc) <laws.nuclear.buckling.geometric_buckling_for_uniform_parallelepiped>` Geometric buckling for uniform parallelepiped
+        
+            .. math::
+        
+                B_\text{g}^2 = \left(\frac{\pi}{l_{1}}\right)^{2} + \left(\frac{\pi}{l_{2}}\right)^{2} + \left(\frac{\pi}{l_{3}}\right)^{2}
+        - :doc:`(doc) <laws.nuclear.buckling.geometric_buckling_for_uniform_slab>` Geometric buckling for uniform slab
+        
+            .. math::
+        
+                B_\text{g}^2 = \left(\frac{\pi}{h}\right)^{2}
+        - :doc:`(doc) <laws.nuclear.buckling.geometric_buckling_for_uniform_sphere>` Geometric buckling for uniform sphere
+        
+            .. math::
+        
+                B_\text{g}^2 = \left(\frac{\pi}{r}\right)^{2}
+        - :doc:`(doc) <laws.nuclear.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area>` Geometric buckling from multiplication factors and diffusion area
+        
+            .. math::
+        
+                B_\text{g}^2 = \frac{\frac{k_{\infty}}{k_\text{eff}} - 1}{L^{2}}
+        - :doc:`(doc) <laws.nuclear.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient>` Geometric buckling from macroscopic cross sections and diffusion coefficient
+        
+            .. math::
+        
+                B_\text{g}^2 = \frac{\frac{\nu}{k_\text{eff}} \Sigma_\text{f} - \Sigma_\text{a}}{D}
+        - :doc:`(doc) <laws.nuclear.buckling.geometric_buckling_from_neutron_flux>` Geometric buckling from neutron flux
+        
+            .. math::
+        
+                B_\text{g}^2 = - \frac{\nabla^{2} \Phi{\left(x \right)}}{\Phi{\left(x \right)}}
+        - :doc:`(doc) <laws.nuclear.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient>` Material buckling from material cross sections and diffusion coefficient
+        
+            .. math::
+        
+                B_\text{m}^2 = \frac{\nu \Sigma_\text{f} - \Sigma_\text{a}}{D}
+        - :doc:`(doc) <laws.nuclear.buckling.neutron_flux_for_uniform_cylinder>` Neutron flux for uniform cylinder
+        
+            .. math::
+        
+                \Phi = \Phi_{0} J_{0}\left(\frac{2.405}{r_{0}} r\right) \cos{\left(\frac{\pi}{h_{0}} h \right)}
+        - :doc:`(doc) <laws.nuclear.buckling.neutron_flux_for_uniform_parallelepiped>` Neutron flux for uniform parallelepiped
+        
+            .. math::
+        
+                \Phi = \Phi_{0} \cos{\left(\frac{\pi}{l_{2}} x_{1} \right)} \cos{\left(\frac{\pi}{l_{1}} x_{2} \right)} \cos{\left(\frac{\pi}{l_{3}} x_{3} \right)}
+        - :doc:`(doc) <laws.nuclear.buckling.neutron_flux_for_uniform_slab>` Neutron flux for uniform slab
+        
+            .. math::
+        
+                \Phi = \Phi_{0} \cos{\left(\frac{\pi}{h} z \right)}
+        - :doc:`(doc) <laws.nuclear.buckling.neutron_flux_for_uniform_sphere>` Neutron flux for uniform sphere
+        
+            .. math::
+        
+                \Phi = \Phi_{0} \frac{\sin{\left(\frac{\pi}{r_{0}} r \right)}}{r}
+- :doc:`(doc) <laws.optics>` :code:`laws.optics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.optics.angle_of_light_deflection_in_prism>` Angle of light deflection in prism
+        
+            .. math::
+        
+                b = a \left(n - 1\right)
+        - :doc:`(doc) <laws.optics.angular_magnification_telescope>` Angular magnification of telescope
+        
+            .. math::
+        
+                M_\text{A} = \frac{F}{f}
+        - :doc:`(doc) <laws.optics.bragg_diffraction_from_angle_diffraction_order_wavelength>` Bragg diffraction from angle of diffraction and wavelength
+        
+            .. math::
+        
+                d = \frac{N \lambda}{2 \sin{\left(\varphi \right)}}
+        - :doc:`(doc) <laws.optics.film_thickness_for_minimum_interference>` Film thickness for minimum interference
+        
+            .. math::
+        
+                h = \frac{k \lambda}{2 n \cos{\left(\varphi \right)}}
+        - :doc:`(doc) <laws.optics.focal_length_of_a_concave_spherical_mirror>` Focal length of a concave spherical mirror
+        
+            .. math::
+        
+                f = \frac{r}{2}
+        - :doc:`(doc) <laws.optics.interference_from_two_slits>` Interference due to two slits
+        
+            .. math::
+        
+                \Lambda = \frac{x d}{l}
+        - :doc:`(doc) <laws.optics.interference_maximum>` Interference maximum
+        
+            .. math::
+        
+                \Lambda = N \lambda
+        - :doc:`(doc) <laws.optics.interference_minimum>` Interference minimum
+        
+            .. math::
+        
+                \Lambda = \frac{\left(2 N + 1\right) \lambda}{2}
+        - :doc:`(doc) <laws.optics.irradiance_of_light_after_polarizer>` Irradiance of light after polarizer
+        
+            .. math::
+        
+                E_\text{e} = E_{\text{e}0} k \cos^{2}{\left(\varphi \right)}
+        - :doc:`(doc) <laws.optics.lens_focus_from_object_and_image>` Lens focus from object and image
+        
+            .. math::
+        
+                \frac{1}{f} = \frac{1}{d_\text{o}} + \frac{1}{d_\text{i}}
+        - :doc:`(doc) <laws.optics.light_pressure>` Light pressure
+        
+            .. math::
+        
+                p = \frac{I \left(1 + R\right)}{c}
+        - :doc:`(doc) <laws.optics.linear_magnification_from_distance_to_object_and_distance_to_image>` Linear magnification from distance to object and distance to image
+        
+            .. math::
+        
+                M = \frac{d_\text{i}}{d_\text{o}}
+        - :doc:`(doc) <laws.optics.linear_magnification_from_object_height_and_image_height>` Linear magnification from object height and image height
+        
+            .. math::
+        
+                M = \frac{h_\text{i}}{h_\text{o}}
+        - :doc:`(doc) <laws.optics.optical_distance_difference_from_optical_distances>` Optical distance difference from optical distances
+        
+            .. math::
+        
+                \Delta \Lambda = \Lambda_{2} - \Lambda_{1}
+        - :doc:`(doc) <laws.optics.optical_path_length_from_geometrical_path_length_and_refractive_index>` Optical path length from geometrical path length and refractive index
+        
+            .. math::
+        
+                \Lambda = n s
+        - :doc:`(doc) <laws.optics.optical_power_from_focus_distance>` Optical power from focus distance
+        
+            .. math::
+        
+                D = \frac{1}{f}
+        - :doc:`(doc) <laws.optics.optical_power_from_thin_lens_radius>` Optical power from thin lens radii and refractive indices
+        
+            .. math::
+        
+                D = \left(n - n_{0}\right) \left(\frac{1}{r_{1}} - \frac{1}{r_{2}}\right)
+        - :doc:`(doc) <laws.optics.optical_strength_of_spherical_lens_from_refractive_indices_of_environment_and_lens_and_focal_distances>` Optical power of spherical lens from refractive indices and distances
+        
+            .. math::
+        
+                - \frac{n_{0}}{d_\text{o}} + \frac{n}{d_\text{i}} = \frac{n - n_{0}}{r}
+        - :doc:`(doc) <laws.optics.radiation_intensity_from_energy_area_time>` Radiation intensity from energy, area, and time
+        
+            .. math::
+        
+                I = \frac{E}{A t}
+        - :doc:`(doc) <laws.optics.radius_dark_newton_ring_from_wavelength_order_radius_curvature_refractive_index>` Radius of dark Newton's ring formula
+        
+            .. math::
+        
+                r = \sqrt{\frac{N R \lambda}{n}}
+        - :doc:`(doc) <laws.optics.refraction_angle_from_environments>` Refraction angle from enviroments
+        
+            .. math::
+        
+                n_{1} \sin{\left(\varphi_{1} \right)} = n_{2} \sin{\left(\varphi_{2} \right)}
+        - :doc:`(doc) <laws.optics.relative_aperture_of_telescope>` Relative aperture of telescope
+        
+            .. math::
+        
+                A = \frac{D}{f}
+        - :doc:`(doc) <laws.optics.resolution_of_telescope>` Resolution of telescope
+        
+            .. math::
+        
+                \theta = A \frac{\lambda}{D}
+- :doc:`(doc) <laws.quantities>` :code:`laws.quantities`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.quantities.fractional_change_is_change_over_initial_value>` Fractional change is change over initial value
+        
+            .. math::
+        
+                e_{X} = \frac{\Delta X}{X}
+        - :doc:`(doc) <laws.quantities.quantity_is_areal_density_times_area>` Quantity is areal density times volume
+        
+            .. math::
+        
+                X = \sigma_{X} A
+        - :doc:`(doc) <laws.quantities.quantity_is_linear_density_times_length>` Extensive quantity is linear density times length
+        
+            .. math::
+        
+                X = \lambda_{X} l
+        - :doc:`(doc) <laws.quantities.quantity_is_molar_quantity_times_amount_of_substance>` Quantity is molar quantity times amount of substance
+        
+            .. math::
+        
+                X = x_{m} n
+        - :doc:`(doc) <laws.quantities.quantity_is_specific_quantity_times_mass>` Quantity is specific quantity times mass
+        
+            .. math::
+        
+                X = x m
+        - :doc:`(doc) <laws.quantities.quantity_is_volumetric_density_times_volume>` Quantity is volumetric density times volume
+        
+            .. math::
+        
+                X = \rho_{X} V
+- :doc:`(doc) <laws.quantum_mechanics>` :code:`laws.quantum_mechanics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.quantum_mechanics.probability_density_of_quantum_state>` Probability density of quantum state
+        
+            .. math::
+        
+                \rho = \left|{\psi}\right|^{2}
+- :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator>` :code:`laws.quantum_mechanics.harmonic_oscillator`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.energy_levels>` Energy levels of harmonic oscillator
+        
+            .. math::
+        
+                E_{n} = \left(N + \frac{1}{2}\right) \hbar \omega
+        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.equation>` Quantum harmonic oscillator equation
+        
+            .. math::
+        
+                - \frac{\hbar^{2}}{2 m} \frac{d^{2}}{d x^{2}} \psi{\left(x \right)} + \frac{m \omega^{2}}{2} x^{2} \psi{\left(x \right)} = E \psi{\left(x \right)}
+        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.wave_eigenfunctions>` Wave eigenfunctions of quantum harmonic oscillator
+        
+            .. math::
+        
+                \psi = \frac{\sqrt[4]{\frac{m \omega}{\pi \hbar}}}{\sqrt{2^{N} N!}} \exp{\left(- \frac{m \omega}{2 \hbar} x^{2} \right)} H_{N}\left(\sqrt{\frac{m \omega}{\hbar}} x\right)
+- :doc:`(doc) <laws.quantum_mechanics.schrodinger>` :code:`laws.quantum_mechanics.schrodinger`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.quantum_mechanics.schrodinger.free_particle_plane_wave_solution>` Free particle plane wave solution
+        
+            .. math::
+        
+                \psi = \exp{\left(\frac{i}{\hbar} \left(p x - E t\right) \right)}
+        - :doc:`(doc) <laws.quantum_mechanics.schrodinger.time_dependent_equation_in_one_dimension>` Time dependent Schrödinger equation in one dimension
+        
+            .. math::
+        
+                - \frac{\hbar^{2}}{2 m} \frac{\partial^{2}}{\partial x^{2}} \psi{\left(x,t \right)} + U{\left(x \right)} \psi{\left(x,t \right)} = i \hbar \frac{\partial}{\partial t} \psi{\left(x,t \right)}
+        - :doc:`(doc) <laws.quantum_mechanics.schrodinger.time_dependent_via_time_independent_solution>` Time dependent solution via time independent solution
+        
+            .. math::
+        
+                \Psi{\left(x,t \right)} = \psi{\left(x \right)} \exp{\left(- \frac{i}{\hbar} E t \right)}
+        - :doc:`(doc) <laws.quantum_mechanics.schrodinger.time_independent_equation_in_one_dimension>` Time independent solution in one dimension
+        
+            .. math::
+        
+                - \frac{\hbar^{2}}{2 m} \frac{d^{2}}{d x^{2}} \psi{\left(x \right)} + U{\left(x \right)} \psi{\left(x \right)} = E \psi{\left(x \right)}
+- :doc:`(doc) <laws.relativistic>` :code:`laws.relativistic`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.relativistic.coordinate_conversion_velocity_constant>` Coordinate conversion at constant velocity
+        
+            .. math::
+        
+                x_{2} = \frac{x_{1} - v t_{1}}{\sqrt{1 - \left(\frac{v}{c}\right)^{2}}}
+        - :doc:`(doc) <laws.relativistic.lorentz_transformation_of_time>` Lorentz transformation of time
+        
+            .. math::
+        
+                t' = \frac{t - \frac{v x}{c^{2}}}{\sqrt{1 - \left(\frac{v}{c}\right)^{2}}}
+        - :doc:`(doc) <laws.relativistic.proper_time_for_timelike_intervals>` Proper time for timelike intervals
+        
+            .. math::
+        
+                \Delta \tau = \frac{\Delta s}{c}
+        - :doc:`(doc) <laws.relativistic.relativistic_kinetic_energy>` Relativistic kinetic energy
+        
+            .. math::
+        
+                K = \left(\gamma - 1\right) m_{0} c^{2}
+        - :doc:`(doc) <laws.relativistic.relativistic_length>` Relativistic length via rest length and speed
+        
+            .. math::
+        
+                l = l_{0} \sqrt{1 - \frac{v^{2}}{c^{2}}}
+        - :doc:`(doc) <laws.relativistic.relativistic_mass>` Relativistic mass via rest mass and speed
+        
+            .. math::
+        
+                m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}
+        - :doc:`(doc) <laws.relativistic.relativistic_momentum>` Relativistic momentum via rest mass and speed
+        
+            .. math::
+        
+                p = \frac{m_{0} v}{\sqrt{1 - \left(\frac{v}{c}\right)^{2}}}
+        - :doc:`(doc) <laws.relativistic.relativistic_sum_of_velocities>` Relativistic sum of velocities
+        
+            .. math::
+        
+                v_{OL} = \frac{v_{OP} + v_{PL}}{1 + \frac{v_{OP} v_{PL}}{c^{2}}}
+        - :doc:`(doc) <laws.relativistic.relativistic_time_dilation>` Relativistic time dilation
+        
+            .. math::
+        
+                t = \frac{\tau}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}
+        - :doc:`(doc) <laws.relativistic.spacetime_interval>` Spacetime interval via time and distance
+        
+            .. math::
+        
+                s^{2} = \left(c t\right)^{2} - d^{2}
+        - :doc:`(doc) <laws.relativistic.spacetime_interval_is_lorentz_invariant>` Spacetime interval is Lorentz invariant
+        
+            .. math::
+        
+                s_{2} = s_{1}
+        - :doc:`(doc) <laws.relativistic.total_energy_via_momentum_and_rest_mass>` Total energy via momentum and rest mass
+        
+            .. math::
+        
+                E^{2} = \left(p c\right)^{2} + \left(m_{0} c^{2}\right)^{2}
+        - :doc:`(doc) <laws.relativistic.total_energy_via_relativistic_mass>` Total energy via relativistic mass
+        
+            .. math::
+        
+                E = m c^{2}
+- :doc:`(doc) <laws.relativistic.vector>` :code:`laws.relativistic.vector`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.relativistic.vector.acceleration_from_force_and_velocity>` Acceleration from force and velocity
+        
+            .. math::
+        
+                {\vec a} = \frac{{\vec F} - \frac{\left( {\vec F}, {\vec v} \right)}{c^{2}} {\vec v}}{m_{0} \gamma}
+        - :doc:`(doc) <laws.relativistic.vector.force_acceleration_relation>` Force from acceleration and velocity
+        
+            .. math::
+        
+                {\vec F} = \gamma^{3} m_{0} {\vec a}_\text{t} + \gamma m_{0} {\vec a}_\text{n}
+        - :doc:`(doc) <laws.relativistic.vector.relativistic_mass_moment>` Relativistic mass moment
+        
+            .. math::
+        
+                {\vec N} = m_{0} \gamma^{2} \left({\vec r} - {\vec v} t\right)
+        - :doc:`(doc) <laws.relativistic.vector.relativistic_velocity_orthogonal_to_movement>` Relativistic velocity normal to movement
+        
+            .. math::
+        
+                {\vec u}_\text{n} = \frac{\left({\vec u'} - \frac{\left( {\vec u'}, {\vec v} \right)}{\left( {\vec v}, {\vec v} \right)} {\vec v}\right) \sqrt{1 - \frac{\left( {\vec v}, {\vec v} \right)}{c^{2}}}}{1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}}
+        - :doc:`(doc) <laws.relativistic.vector.relativistic_velocity_parallel_to_movement>` Relativistic velocity tangential to movement
+        
+            .. math::
+        
+                {\vec u}_\text{t} = \frac{{\vec v} \left(\frac{\left( {\vec u'}, {\vec v} \right)}{\left( {\vec v}, {\vec v} \right)} + 1\right)}{1 + \frac{\left( {\vec u'}, {\vec v} \right)}{c^{2}}}
+- :doc:`(doc) <laws.thermodynamics>` :code:`laws.thermodynamics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.average_kinetic_energy_of_ideal_gas_from_temperature>` Average kinetic energy of ideal gas from temperature
+        
+            .. math::
+        
+                \langle K \rangle = \frac{3 k_\text{B}}{2} T
+        - :doc:`(doc) <laws.thermodynamics.average_speed_in_maxwell_boltzmann_statistics>` Average speed in Maxwell—Boltzmann statistics
+        
+            .. math::
+        
+                \langle v \rangle = \sqrt{\frac{8 k_\text{B} T}{\pi m}}
+        - :doc:`(doc) <laws.thermodynamics.average_square_speed_in_maxwell_boltzmann_statistics>` Average square speed in Maxwell—Boltzmann statistics
+        
+            .. math::
+        
+                \langle v^{2} \rangle = \frac{3 k_\text{B} T}{m}
+        - :doc:`(doc) <laws.thermodynamics.canonical_partition_function_of_classical_discrete_system>` Canonical partition function of a classical discrete system
+        
+            .. math::
+        
+                Z = \sum_i {f}_{i}
+        - :doc:`(doc) <laws.thermodynamics.change_in_entropy_of_ideal_gas_from_volume_and_temperature>` Change in entropy of ideal gas from volume and temperature
+        
+            .. math::
+        
+                S = \frac{m}{M} \left(c_{V, \text{m}} \log \left( \frac{T_{1}}{T_{0}} \right) + R \log \left( \frac{V_{1}}{V_{0}} \right)\right)
+        - :doc:`(doc) <laws.thermodynamics.chemical_potential_is_gibbs_energy_per_particle>` Chemical potential is Gibbs energy per particle
+        
+            .. math::
+        
+                \mu = \frac{G}{N}
+        - :doc:`(doc) <laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_enthalpy>` Chemical potential is particle count derivative of enthalpy
+        
+            .. math::
+        
+                \mu = \frac{\partial}{\partial N} H{\left(S,p,N \right)}
+        - :doc:`(doc) <laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_free_energy>` Chemical potential is particle count derivative of free energy
+        
+            .. math::
+        
+                \mu = \frac{\partial}{\partial N} F{\left(T,V,N \right)}
+        - :doc:`(doc) <laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_gibbs_energy>` Chemical potential is particle count derivative of Gibbs energy
+        
+            .. math::
+        
+                \mu = \frac{\partial}{\partial N} G{\left(T,p,N \right)}
+        - :doc:`(doc) <laws.thermodynamics.chemical_potential_is_particle_count_derivative_of_internal_energy>` Chemical potential is particle count derivative of internal energy
+        
+            .. math::
+        
+                \mu = \frac{\partial}{\partial N} U{\left(S,V,N \right)}
+        - :doc:`(doc) <laws.thermodynamics.chemical_potential_of_ideal_gas>` Chemical potential of ideal gas
+        
+            .. math::
+        
+                \mu = k_\text{B} T \log \left( n \lambda^{3} \right)
+        - :doc:`(doc) <laws.thermodynamics.classical_isochoric_molar_heat_capacity_of_solids>` Classical isochoric molar heat capacity of solids
+        
+            .. math::
+        
+                c_{p, \text{m}} = 3 R
+        - :doc:`(doc) <laws.thermodynamics.compressibility_factor_via_intermolecular_force_potential>` Compressibility factor via intermolecular force potential
+        
+            .. math::
+        
+                Z = 1 + \frac{2 \pi N}{V} \int\limits_{0}^{\infty} \left(1 - \exp{\left(- \frac{U{\left(r \right)}}{k_\text{B} T} \right)}\right) r^{2}\, dr
+        - :doc:`(doc) <laws.thermodynamics.diffusion_coefficient_of_spherical_brownian_particles_from_temperature_and_dynamic_viscosity>` Diffusion coefficient of spherical Brownian particles from temperature and dynamic viscosity
+        
+            .. math::
+        
+                D = \frac{R T}{6 N_\text{A} \pi r \mu}
+        - :doc:`(doc) <laws.thermodynamics.diffusion_flux_from_diffusion_coefficient_and_concentration_gradient>` Diffusion flux from diffusion coefficient and concentration gradient
+        
+            .. math::
+        
+                J{\left(x \right)} = - D \frac{d}{d x} c{\left(x \right)}
+        - :doc:`(doc) <laws.thermodynamics.dynamic_viscosity_from_temperature>` Dynamic viscosity from temperature
+        
+            .. math::
+        
+                \mu = \mu_{0} \frac{T_{0} + S}{T + S} \left(\frac{T}{T_{0}}\right)^{\frac{3}{2}}
+        - :doc:`(doc) <laws.thermodynamics.efficiency_of_heat_engine>` Efficiency of heat engine
+        
+            .. math::
+        
+                \eta = 1 - \frac{Q_{r}}{Q_{h}}
+        - :doc:`(doc) <laws.thermodynamics.enthalpy_derivative_via_volume_derivative>` Enthalpy derivative via volume derivative
+        
+            .. math::
+        
+                \frac{\partial}{\partial p} H{\left(T,p \right)} = V{\left(T,p \right)} - T \frac{\partial}{\partial T} V{\left(T,p \right)}
+        - :doc:`(doc) <laws.thermodynamics.enthalpy_differential>` Enthalpy differential
+        
+            .. math::
+        
+                dH = T dS + V dp + \mu dN
+        - :doc:`(doc) <laws.thermodynamics.enthalpy_is_internal_energy_plus_pressure_energy>` Enthalpy is internal energy plus pressure energy
+        
+            .. math::
+        
+                H = U + p V
+        - :doc:`(doc) <laws.thermodynamics.enthalpy_via_gibbs_energy>` Enthalpy via Gibbs energy
+        
+            .. math::
+        
+                H = G{\left(T,p \right)} - T \frac{\partial}{\partial T} G{\left(T,p \right)}
+        - :doc:`(doc) <laws.thermodynamics.entropy_change_in_reversible_process>` Entropy change in reversible process
+        
+            .. math::
+        
+                d S = \frac{\delta Q}{T}
+        - :doc:`(doc) <laws.thermodynamics.entropy_derivative_via_volume_derivative>` Entropy derivative via volume derivative
+        
+            .. math::
+        
+                \frac{\partial}{\partial p} S{\left(T,p \right)} = - \frac{\partial}{\partial T} V{\left(T,p \right)}
+        - :doc:`(doc) <laws.thermodynamics.entropy_from_statistical_weight>` Entropy from statistical weight
+        
+            .. math::
+        
+                S = k_\text{B} \log \left( \Omega \right)
+        - :doc:`(doc) <laws.thermodynamics.entropy_is_derivative_of_free_energy>` Entropy is derivative of free energy
+        
+            .. math::
+        
+                S = - \frac{\partial}{\partial T} F{\left(T,V,N \right)}
+        - :doc:`(doc) <laws.thermodynamics.entropy_is_derivative_of_gibbs_energy>` Entropy is derivative of Gibbs energy
+        
+            .. math::
+        
+                S = - \frac{\partial}{\partial T} G{\left(T,p,N \right)}
+        - :doc:`(doc) <laws.thermodynamics.entropy_of_independent_subsystems_is_sum_of_their_entropies>` Entropy of independent subsystems is sum of their entropies
+        
+            .. math::
+        
+                S = \sum_i {S}_{i}
+        - :doc:`(doc) <laws.thermodynamics.fractional_volume_change_via_small_temperature_change>` Fractional volume change via small temperature change
+        
+            .. math::
+        
+                e_{V} = \alpha_{V} \Delta T
+        - :doc:`(doc) <laws.thermodynamics.free_energy_differential>` Free energy differential
+        
+            .. math::
+        
+                dF = - S dT - p dV + \mu dN
+        - :doc:`(doc) <laws.thermodynamics.gas_mixture_pressure_from_partial_pressures>` Gas mixture pressure from partial pressures
+        
+            .. math::
+        
+                p = \sum_i {p}_{i}
+        - :doc:`(doc) <laws.thermodynamics.gas_pressure_change_from_temperature>` Gas pressure change from temperature
+        
+            .. math::
+        
+                \Delta p = p_{0} \left(\frac{T}{T_\text{std}} - 1\right)
+        - :doc:`(doc) <laws.thermodynamics.gibbs_energy_differential>` Gibbs energy differential
+        
+            .. math::
+        
+                dG = - S dT + V dp + \mu dN
+        - :doc:`(doc) <laws.thermodynamics.gibbs_energy_via_enthalpy>` Gibbs energy via enthalpy
+        
+            .. math::
+        
+                G = H - T S
+        - :doc:`(doc) <laws.thermodynamics.grashof_number>` Grashof number
+        
+            .. math::
+        
+                \text{Gr} = \frac{g \alpha_{V} \left(T_\text{s} - T_\text{b}\right) l_\text{c}^{3}}{\nu^{2}}
+        - :doc:`(doc) <laws.thermodynamics.heat_is_heat_capacity_times_temperature_change>` Heat is heat capacity times temperature change
+        
+            .. math::
+        
+                Q = C \Delta T
+        - :doc:`(doc) <laws.thermodynamics.heat_of_combustion_via_mass>` Heat of combustion via mass
+        
+            .. math::
+        
+                Q = \varepsilon_{q} m
+        - :doc:`(doc) <laws.thermodynamics.heat_of_vaporization_via_mass>` Heat of vaporization via mass
+        
+            .. math::
+        
+                Q = \varepsilon_{L} m
+        - :doc:`(doc) <laws.thermodynamics.helmholtz_free_energy_via_internal_energy>` Helmholtz free energy via internal energy
+        
+            .. math::
+        
+                F = U - T S
+        - :doc:`(doc) <laws.thermodynamics.infinitesimal_work_in_quasistatic_process>` Infinitesimal work in quasistatic process
+        
+            .. math::
+        
+                \delta W = p d V
+        - :doc:`(doc) <laws.thermodynamics.intensive_parameters_relation>` Intensive parameters relation
+        
+            .. math::
+        
+                S d T - V d p + N d \mu = 0
+        - :doc:`(doc) <laws.thermodynamics.internal_energy_change_of_ideal_gas_via_temperature>` Internal energy change of ideal gas via temperature
+        
+            .. math::
+        
+                dU = C_{V} dT
+        - :doc:`(doc) <laws.thermodynamics.internal_energy_change_via_heat_and_work>` Internal energy change via heat and work
+        
+            .. math::
+        
+                d U = \delta Q - \delta W
+        - :doc:`(doc) <laws.thermodynamics.internal_energy_differential>` Internal energy differential
+        
+            .. math::
+        
+                d U = T d S - p d V + \mu d N
+        - :doc:`(doc) <laws.thermodynamics.internal_energy_of_ideal_gas_via_temperature>` Internal energy of ideal gas via temperature
+        
+            .. math::
+        
+                U = \frac{3 m R T}{2 M}
+        - :doc:`(doc) <laws.thermodynamics.internal_energy_via_helmholtz_free_energy>` Internal energy via Helmholtz free energy
+        
+            .. math::
+        
+                U = F{\left(T,V \right)} - T \frac{\partial}{\partial T} F{\left(T,V \right)}
+        - :doc:`(doc) <laws.thermodynamics.isentropic_speed_of_sound_via_pressure_derivative>` Isentropic speed of sound via pressure derivative
+        
+            .. math::
+        
+                v_\text{s} = \sqrt{\frac{\partial}{\partial \rho} p{\left(\rho,S \right)}}
+        - :doc:`(doc) <laws.thermodynamics.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index>` Isobaric molar heat capacity of ideal gas via adiabatic index
+        
+            .. math::
+        
+                c_{p, \text{m}} = \frac{R \gamma}{\gamma - 1}
+        - :doc:`(doc) <laws.thermodynamics.isobaric_potential_from_heat_capacity>` Isobaric potential from heat capacity
+        
+            .. math::
+        
+                \Delta G_\text{m} = \Delta H_\text{m} - T \Delta S_\text{m} - \Delta c_\text{m} T \left(\log \left( \frac{T}{T_\text{lab}} \right) + \frac{T_\text{lab}}{T} - 1\right)
+        - :doc:`(doc) <laws.thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity>` Isobaric potential of temperature dependent heat capacity
+        
+            .. math::
+        
+                \Delta G_\text{m} = \Delta H_\text{m} - T S_\text{m} - T \left(a \left(\log \left( \frac{T_\text{lab}}{T} \right) + \frac{T_\text{lab}}{T} - 1\right) + b \left(\frac{T}{2} + \frac{T_\text{lab}^{2}}{2 T} - T_\text{lab}\right) + c \left(\frac{1}{T^{2} \cdot 2} - \frac{1}{T_\text{lab} T} + \frac{1}{T_\text{lab}^{2} \cdot 2}\right)\right)
+        - :doc:`(doc) <laws.thermodynamics.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance>` Isochoric and isobaric heat capacities of homogeneous substance
+        
+            .. math::
+        
+                C_{p} - C_{V} = \frac{V T \alpha_{V}^{2}}{\beta_{T}}
+        - :doc:`(doc) <laws.thermodynamics.isochoric_and_isobaric_heat_capacity_of_ideal_gas>` Isochoric and isobaric heat capacities of ideal gas
+        
+            .. math::
+        
+                C_{p} - C_{V} = n R
+        - :doc:`(doc) <laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index>` Isochoric molar heat capacity of ideal gas via adiabatic index
+        
+            .. math::
+        
+                c_{V, \text{m}} = \frac{R}{\gamma - 1}
+        - :doc:`(doc) <laws.thermodynamics.isochoric_molar_heat_capacity_of_ideal_gas_via_degrees_of_freedom>` Isochoric molar heat capacity of ideal gas via degrees of freedom
+        
+            .. math::
+        
+                c_{V, \text{m}} = \frac{f}{2} R
+        - :doc:`(doc) <laws.thermodynamics.laplace_pressure_of_spherical_shapes>` Laplace pressure of spherical shapes
+        
+            .. math::
+        
+                P_\text{L} = \frac{2 \gamma}{r}
+        - :doc:`(doc) <laws.thermodynamics.latent_heat_of_fusion_via_mass>` Latent heat of fusion via mass
+        
+            .. math::
+        
+                Q = \varepsilon_{\lambda} m
+        - :doc:`(doc) <laws.thermodynamics.mean_free_path_of_random_motion>` Mean free path of random motion
+        
+            .. math::
+        
+                \lambda = \frac{1}{\sqrt{2} \pi D^{2} n}
+        - :doc:`(doc) <laws.thermodynamics.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity>` Number of impacts on the wall from area and speed
+        
+            .. math::
+        
+                N = \frac{n A v t}{2}
+        - :doc:`(doc) <laws.thermodynamics.prandtl_number_via_dynamic_viscosity_and_thermal_conductivity>` Prandtl number via dynamic viscosity and thermal conductivity
+        
+            .. math::
+        
+                \text{Pr} = \frac{c_{p} \mu}{k}
+        - :doc:`(doc) <laws.thermodynamics.pressure_and_temperature_in_isochoric_process>` Pressure and temperature in isochoric process
+        
+            .. math::
+        
+                \frac{p_{0}}{p_{1}} = \frac{T_{0}}{T_{1}}
+        - :doc:`(doc) <laws.thermodynamics.pressure_and_volume_in_isothermal_process>` Pressure and volume in isothermal process
+        
+            .. math::
+        
+                p_{0} V_{0} = p_{1} V_{1}
+        - :doc:`(doc) <laws.thermodynamics.pressure_from_number_density_and_kinetic_energy>` Pressure from number density and kinetic energy
+        
+            .. math::
+        
+                p = \frac{2 n}{3} \langle K \rangle
+        - :doc:`(doc) <laws.thermodynamics.pressure_of_ideal_gas_from_height_and_temperature>` Pressure of ideal gas from height and temperature
+        
+            .. math::
+        
+                p = p_{0} \exp{\left(- \frac{g m \Delta h}{k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.thermodynamics.probability_of_finding_ideal_gas_molecules_in_volume>` Probability of finding ideal gas molecules in volume
+        
+            .. math::
+        
+                P = \left(\frac{V}{V_{0}}\right)^{N}
+        - :doc:`(doc) <laws.thermodynamics.probability_of_ideal_gas_macrostate>` Probability of ideal gas macrostate
+        
+            .. math::
+        
+                P_\text{macro} = \Omega \prod_i {P}_{i}^{{N}_{i}}
+        - :doc:`(doc) <laws.thermodynamics.quantum_isochoric_molar_heat_capacity_of_solids>` Quantum isochoric molar heat capacity of solids
+        
+            .. math::
+        
+                c_{V, \text{m}} = 3 R \frac{x^{2} \exp{\left(x \right)}}{\left(\exp{\left(x \right)} - 1\right)^{2}}
+        - :doc:`(doc) <laws.thermodynamics.radiance_of_black_body_from_temperature>` Radiance of black body from temperature
+        
+            .. math::
+        
+                M_\text{e} = \sigma T^{4}
+        - :doc:`(doc) <laws.thermodynamics.radiation_power_via_temperature>` Radiation power via temperature
+        
+            .. math::
+        
+                P = \sigma \varepsilon A T^{4}
+        - :doc:`(doc) <laws.thermodynamics.rate_of_energy_conduction_through_slab>` Rate of energy conduction through slab
+        
+            .. math::
+        
+                P = \frac{k A \left|{\Delta T}\right|}{h}
+        - :doc:`(doc) <laws.thermodynamics.relative_humidity_is_ratio_of_vapor_pressure>` Relative humidity is ratio of vapor pressure
+        
+            .. math::
+        
+                \varphi = \frac{p}{p_\text{s}}
+        - :doc:`(doc) <laws.thermodynamics.speed_of_sound_in_ideal_gas>` Speed of sound in ideal gas
+        
+            .. math::
+        
+                v_\text{s} = \sqrt{\frac{\gamma R T}{M}}
+        - :doc:`(doc) <laws.thermodynamics.temperature_derivative_via_volume_derivative>` Temperature derivative via volume derivative
+        
+            .. math::
+        
+                \frac{\partial}{\partial p} T{\left(p,H \right)} = \frac{T{\left(p,H \right)} \frac{\partial}{\partial T{\left(p,H \right)}} V{\left(T{\left(p,H \right)},p \right)} - V{\left(T{\left(p,H \right)},p \right)}}{C_{p}}
+        - :doc:`(doc) <laws.thermodynamics.temperature_is_derivative_of_internal_energy>` Temperature is derivative of internal energy
+        
+            .. math::
+        
+                T = \frac{\partial}{\partial S} U{\left(S,V,N \right)}
+        - :doc:`(doc) <laws.thermodynamics.total_energy_transfer_is_zero_in_isolated_system>` Total energy transfer is zero in adiabatically isolated system
+        
+            .. math::
+        
+                \sum_i {E}_{i} = 0
+        - :doc:`(doc) <laws.thermodynamics.total_partical_count_is_sum_of_occupancies>` Total particle count is sum of occupancies
+        
+            .. math::
+        
+                N = \sum_i {N}_{i}
+        - :doc:`(doc) <laws.thermodynamics.volume_and_temperature_in_isobaric_process>` Volume and temperature in isobaric process
+        
+            .. math::
+        
+                \frac{V_{0}}{V_{1}} = \frac{T_{0}}{T_{1}}
+        - :doc:`(doc) <laws.thermodynamics.volumetric_and_linear_expansion_coefficients_in_isotropic_materials>` Volumetric and linear expansion coefficients in isotropic materials
+        
+            .. math::
+        
+                \alpha_{V} = 3 \alpha_{l}
+        - :doc:`(doc) <laws.thermodynamics.volumetric_expansion_coefficient_of_ideal_gas>` Volumetric expansion coefficient of ideal gas
+        
+            .. math::
+        
+                \alpha_{V} = \frac{1}{T}
+        - :doc:`(doc) <laws.thermodynamics.work_is_integral_of_pressure_over_volume>` Work is integral of pressure over volume
+        
+            .. math::
+        
+                W = \int\limits_{V_{0}}^{V_{1}} p{\left(V \right)}\, dV
+        - :doc:`(doc) <laws.thermodynamics.work_of_ideal_gas_in_isobaric_process>` Work of ideal gas in isobaric process
+        
+            .. math::
+        
+                W = p \left(V_{1} - V_{0}\right)
+        - :doc:`(doc) <laws.thermodynamics.work_of_ideal_gas_in_isothermal_process>` Work of ideal gas in isothermal process
+        
+            .. math::
+        
+                W = n R T \log \left( \frac{V_{1}}{V_{0}} \right)
+- :doc:`(doc) <laws.thermodynamics.bose_einstein_statistics>` :code:`laws.thermodynamics.bose_einstein_statistics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.bose_einstein_statistics.single_particle_state_distribution>` Single particle state distribution
+        
+            .. math::
+        
+                n_{i} = \frac{1}{\exp{\left(\frac{E_{i} - \mu}{k_\text{B} T} \right)} - 1}
+- :doc:`(doc) <laws.thermodynamics.dielectrics>` :code:`laws.thermodynamics.dielectrics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.enthalpy_change_via_entropy_change_and_electric_field_change>` Enthalpy change via entropy change and electric field change
+        
+            .. math::
+        
+                dH = T dS - D dE
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.enthalpy_formula>` Enthalpy of dielectrics
+        
+            .. math::
+        
+                H = U - E D
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.free_energy_change_via_temperature_change_and_electric_field_change>` Free energy change via temperature change and electric displacement change
+        
+            .. math::
+        
+                dH = - S dT + E dD
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.gibbs_energy_change_via_temperature_change_and_electic_displacement_change>` Gibbs energy change via temperature change and electric displacement change
+        
+            .. math::
+        
+                dG = - S dT - D dE
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.gibbs_energy_formula>` Gibbs energy of dielectrics
+        
+            .. math::
+        
+                G = F - E D
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.internal_energy_change_via_heat_and_electric_displacement_change>` Internal energy change via heat and electric displacement change
+        
+            .. math::
+        
+                dU = \delta Q + E dD
+- :doc:`(doc) <laws.thermodynamics.equations_of_state>` :code:`laws.thermodynamics.equations_of_state`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.dieterici_equation>` Dieterici equation
+        
+            .. math::
+        
+                p \left(V_{m} - b\right) = R T \exp{\left(- \frac{a}{R T V_{m}} \right)}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.ideal_gas_equation>` Ideal gas equation
+        
+            .. math::
+        
+                p V = n R T
+- :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals>` :code:`laws.thermodynamics.equations_of_state.van_der_waals`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume>` Critical molar volume
+        
+            .. math::
+        
+                v_{\text{c},\text{m}} = 3 b
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure>` Critical pressure
+        
+            .. math::
+        
+                p_\text{c} = \frac{a}{27 b^{2}}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature>` Critical temperature
+        
+            .. math::
+        
+                T_\text{c} = \frac{8 a}{27 R b}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.dimensionless_equation>` Dimensionless equation
+        
+            .. math::
+        
+                \left(p_{r} + \frac{3}{V_{r}^{2}}\right) \left(V_{r} - \frac{1}{3}\right) = \frac{8 T_{r}}{3}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy>` Molar internal energy
+        
+            .. math::
+        
+                u_\text{m} = \int c_{V, \text{m}}{\left(T \right)}\, dT - \frac{a}{v_\text{m}}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure>` Reduced pressure
+        
+            .. math::
+        
+                p_{r} = \frac{p}{p_\text{c}}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_temperature>` Reduced temperature
+        
+            .. math::
+        
+                T_{r} = \frac{T}{T_\text{c}}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume>` Reduced volume
+        
+            .. math::
+        
+                V_{r} = \frac{V}{V_\text{c}}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient>` Second virial coefficient
+        
+            .. math::
+        
+                C_{2} = b - \frac{a}{R T}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.van_der_vaals_equation>` Van der Waals equation
+        
+            .. math::
+        
+                \left(p + \frac{a}{v_\text{m}^{2}}\right) \left(v_\text{m} - b\right) = R T
+- :doc:`(doc) <laws.thermodynamics.euler_relations>` :code:`laws.thermodynamics.euler_relations`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.euler_relations.enthalpy_formula>` Enthalpy formula
+        
+            .. math::
+        
+                H = T S + \mu N
+        - :doc:`(doc) <laws.thermodynamics.euler_relations.gibbs_energy_formula>` Gibbs energy formula
+        
+            .. math::
+        
+                G = \mu N
+        - :doc:`(doc) <laws.thermodynamics.euler_relations.internal_energy_formula>` Internal energy formula
+        
+            .. math::
+        
+                U = T S - p V + \mu N
+- :doc:`(doc) <laws.thermodynamics.fermi_dirac_statistics>` :code:`laws.thermodynamics.fermi_dirac_statistics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution>` Single-particle state distribution
+        
+            .. math::
+        
+                N_{i} = \frac{1}{\exp{\left(\frac{E_{i} - \mu}{k_\text{B} T} \right)} + 1}
+- :doc:`(doc) <laws.thermodynamics.heat_transfer>` :code:`laws.thermodynamics.heat_transfer`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.heat_transfer.equation_in_homogeneous_medium_in_one_dimension>` Equation in homogeneous medium in one dimension
+        
+            .. math::
+        
+                \frac{\partial}{\partial t} T{\left(x,t \right)} = \alpha \frac{\partial^{2}}{\partial x^{2}} T{\left(x,t \right)}
+        - :doc:`(doc) <laws.thermodynamics.heat_transfer.general_equation_in_3d>` General heat equation in 3D
+        
+            .. math::
+        
+                \rho c_{p} \frac{\partial}{\partial t} T{\left({\vec r},t \right)} = \text{div} \, k{\left({\vec r} \right)} \text{grad} \, T{\left({\vec r},t \right)} + q{\left({\vec r} \right)}
+        - :doc:`(doc) <laws.thermodynamics.heat_transfer.general_equation_in_one_dimension>` General equation in one dimension
+        
+            .. math::
+        
+                \rho c_{p} \frac{\partial}{\partial t} T{\left(x,t \right)} = \frac{\partial}{\partial x} k{\left(x \right)} \frac{\partial}{\partial x} T{\left(x,t \right)} + q{\left(x,t \right)}
+        - :doc:`(doc) <laws.thermodynamics.heat_transfer.solution_with_zero_temperature_boundaries>` Solution with zero temperature boundaries
+        
+            .. math::
+        
+                T_{n} = B_{n} \sin{\left(\frac{N \pi x}{x_\text{max}} \right)} \exp{\left(- \alpha \left(\frac{N \pi}{x_\text{max}}\right)^{2} t \right)}
+- :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics>` :code:`laws.thermodynamics.maxwell_boltzmann_statistics`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.energy_distribution>` Energy distribution
+        
+            .. math::
+        
+                f(E) = \frac{2 \sqrt{\frac{E}{\pi}}}{T^{\frac{3}{2}} k_\text{B}^{\frac{3}{2}}} \exp{\left(- \frac{E}{k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed>` Most probable speed
+        
+            .. math::
+        
+                v_\text{prob} = \sqrt{\frac{2 k_\text{B} T}{m}}
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution>` Single-particle discrete distribution
+        
+            .. math::
+        
+                N_{i} = \frac{N}{Z} \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution>` Speed distribution
+        
+            .. math::
+        
+                f(v) = \sqrt{\frac{2}{\pi}} \left(\frac{m}{k_\text{B} T}\right)^{\frac{3}{2}} v^{2} \exp{\left(- \frac{m v^{2}}{2 k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate>` Statistical weight of macrostate
+        
+            .. math::
+        
+                \Omega = \sum_i {N}_{i}! \prod_i {N}_{i}!^{-1}
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution>` Velocity component distribution
+        
+            .. math::
+        
+                f(v_{k)} = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp{\left(- \frac{m v_{k}^{2}}{2 k_\text{B} T} \right)}
+- :doc:`(doc) <laws.thermodynamics.relativistic>` :code:`laws.thermodynamics.relativistic`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.thermodynamics.relativistic.reduced_temperature_in_maxwell_juettner_statistics>` Reduced temperature in Maxwell—Jüttner statistics
+        
+            .. math::
+        
+                \theta = \frac{k_\text{B} T}{m c^{2}}
+- :doc:`(doc) <laws.waves>` :code:`laws.waves`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.waves.average_power_of_sinusoidal_wave_on_stretched_string>` Average power of sinusoidal wave on stretched string
+        
+            .. math::
+        
+                P = \frac{\mu v \omega^{2} u_\text{max}^{2}}{2}
+        - :doc:`(doc) <laws.waves.displacement_in_interfering_waves>` Displacement in interfering waves
+        
+            .. math::
+        
+                u = 2 u_\text{max} \cos \left( \frac{\varphi}{2} \right) \sin \left( k x - \omega t + \frac{\varphi}{2} \right)
+        - :doc:`(doc) <laws.waves.displacement_in_standing_wave>` Displacement in standing wave
+        
+            .. math::
+        
+                u = 2 u_\text{max} \sin(k x) \cos(\omega t)
+        - :doc:`(doc) <laws.waves.frequency_shift_from_speed_in_arbitrary_motion>` Frequency shift from speed in arbitrary motion
+        
+            .. math::
+        
+                f_\text{o} = \frac{f_\text{s} \left(v - v_\text{o} \cos{\left(\theta_\text{o} \right)}\right)}{v - v_\text{s} \cos{\left(\theta_\text{s} \right)}}
+        - :doc:`(doc) <laws.waves.frequency_shift_from_speed_in_collinear_motion>` Frequency shift from speed in collinear motion
+        
+            .. math::
+        
+                f_\text{o} = \frac{f_\text{s} \left(v - v_\text{o}\right)}{v + v_\text{s}}
+        - :doc:`(doc) <laws.waves.fully_constructive_interference_condition>` Fully constructive interference condition
+        
+            .. math::
+        
+                \varphi = 2 \pi N
+        - :doc:`(doc) <laws.waves.fully_destructive_interference_condition>` Fully destructive interference condition
+        
+            .. math::
+        
+                \varphi = \left(1 + 2 N\right) \pi
+        - :doc:`(doc) <laws.waves.group_velocity_from_dispersion_relation>` Group velocity from dispersion relation
+        
+            .. math::
+        
+                v_\text{g} = \frac{d}{d k} \omega{\left(k \right)}
+        - :doc:`(doc) <laws.waves.intensity_of_sound_wave_via_displacement_amplitude>` Intensity of sound wave via displacement amplitude
+        
+            .. math::
+        
+                I = \frac{\rho v \omega^{2} s_\text{max}^{2}}{2}
+        - :doc:`(doc) <laws.waves.light_frequency_change_is_proportional_to_gravitational_potential_change>` Light frequency change is proportional to gravitational potential change
+        
+            .. math::
+        
+                \frac{df}{f} = - \frac{d \phi}{c^{2}}
+        - :doc:`(doc) <laws.waves.peak_wavelength_via_temperature>` Peak wavelength via temperature
+        
+            .. math::
+        
+                \lambda_\text{peak} = \frac{b}{T}
+        - :doc:`(doc) <laws.waves.phase_of_traveling_wave>` Phase of traveling wave
+        
+            .. math::
+        
+                \varphi = k x - \omega t
+        - :doc:`(doc) <laws.waves.phase_shift_between_two_points>` Phase shift between two points
+        
+            .. math::
+        
+                \varphi = \frac{2 \pi d}{\lambda}
+        - :doc:`(doc) <laws.waves.phase_speed_of_wave_on_stretched_string>` Phase speed of wave on stretched string
+        
+            .. math::
+        
+                v = \sqrt{\frac{T}{\mu}}
+        - :doc:`(doc) <laws.waves.phase_velocity_from_angular_frequency_and_wavenumber>` Phase speed from angular frequency and wavenumber
+        
+            .. math::
+        
+                v = \frac{\omega}{k}
+        - :doc:`(doc) <laws.waves.photoelectron_energy_from_photon_energy>` Photoelectron energy from photon energy
+        
+            .. math::
+        
+                K_\text{max} = E - W
+        - :doc:`(doc) <laws.waves.photon_energy_is_proportional_to_angular_frequency>` Photon energy is proportional to angular frequency
+        
+            .. math::
+        
+                E = \hbar \omega
+        - :doc:`(doc) <laws.waves.photon_energy_is_proportional_to_linear_frequency>` Photon energy is proportional to linear frequency
+        
+            .. math::
+        
+                E = h f
+        - :doc:`(doc) <laws.waves.photon_momentum_is_proportional_to_angular_wavenumber>` Photon momentum is proportional to angular wavenumber
+        
+            .. math::
+        
+                p = \hbar k
+        - :doc:`(doc) <laws.waves.photon_momentum_is_proportional_to_energy>` Photon momentum is proportional to energy
+        
+            .. math::
+        
+                p = \frac{E}{c}
+        - :doc:`(doc) <laws.waves.position_of_antinodes_in_standing_wave>` Position of antinodes in standing wave
+        
+            .. math::
+        
+                x = \frac{\left(N + \frac{1}{2}\right) \lambda}{2}
+        - :doc:`(doc) <laws.waves.position_of_nodes_in_standing_wave>` Position of nodes in standing wave
+        
+            .. math::
+        
+                x = \frac{N \lambda}{2}
+        - :doc:`(doc) <laws.waves.pressure_amplitude_in_sound_wave>` Pressure amplitude in sound wave
+        
+            .. math::
+        
+                (\Delta p)_\text{max} = v \rho \omega s_\text{max}
+        - :doc:`(doc) <laws.waves.refractive_index_via_permittivity_and_permeability>` Refractive index via permittivity and permeability
+        
+            .. math::
+        
+                n = \sqrt{\varepsilon_\text{r} \mu_\text{r}}
+        - :doc:`(doc) <laws.waves.resonant_frequencies_of_stretched_string_with_fixed_ends>` Resonant frequencies of stretched string with fixed ends
+        
+            .. math::
+        
+                f = \frac{N v}{2 l}
+        - :doc:`(doc) <laws.waves.sine_of_mach_cone_angle_is_mach_number>` Sine of Mach cone angle via Mach number
+        
+            .. math::
+        
+                \sin{\left(\varphi \right)} = \frac{1}{\text{M}}
+        - :doc:`(doc) <laws.waves.speed_of_light_from_fundamentals>` Speed of light via vacuum permittivity and permeability
+        
+            .. math::
+        
+                c = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}
+        - :doc:`(doc) <laws.waves.speed_of_sound_via_bulk_modulus_and_density>` Speed of sound via bulk modulus and density
+        
+            .. math::
+        
+                v = \sqrt{\frac{K}{\rho}}
+        - :doc:`(doc) <laws.waves.wave_equation_general_solution_in_one_dimension>` General solution to wave equation in one dimension
+        
+            .. math::
+        
+                u = f{\left(\varphi \right)}
+        - :doc:`(doc) <laws.waves.wavelength_from_phase_speed_and_period>` Wavelength from phase speed and period
+        
+            .. math::
+        
+                \lambda = v T
+        - :doc:`(doc) <laws.waves.wavelength_of_standing_wave_in_string_with_fixed_ends>` Wavelength of standing wave in string with fixed ends
+        
+            .. math::
+        
+                \frac{N \lambda}{2} = l
+        - :doc:`(doc) <laws.waves.wavespeed_from_medium_permittivity_and_permeability>` Wave speed from medium permittivity and permeability
+        
+            .. math::
+        
+                v = \frac{c}{\sqrt{\varepsilon_\text{r} \mu_\text{r}}}
+        - :doc:`(doc) <laws.waves.wavespeed_from_medium_refractive_index>` Wave speed from medium
+        
+            .. math::
+        
+                v = \frac{c}{n}
+- :doc:`(doc) <laws.waves.blackbody_radiation>` :code:`laws.waves.blackbody_radiation`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.waves.blackbody_radiation.spectral_energy_density_at_all_frequencies>` Spectral energy density at all frequencies
+        
+            .. math::
+        
+                w_{f} = \frac{8 \pi h f^{3}}{c^{3}} \frac{1}{\exp{\left(\frac{h f}{k_\text{B} T} \right)} - 1}
+        - :doc:`(doc) <laws.waves.blackbody_radiation.spectral_energy_density_in_high_frequency_limit>` Spectral energy density at high frequency limit
+        
+            .. math::
+        
+                w_{f} = \frac{8 \pi h f^{3}}{c^{3}} \exp{\left(- \frac{h f}{k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.waves.blackbody_radiation.spectral_energy_density_in_low_frequency_limit>` Spectral energy density at low frequency limit
+        
+            .. math::
+        
+                w_{f} = \frac{8 \pi f^{2} k_\text{B} T}{c^{3}}
+- :doc:`(doc) <laws.waves.relativistic>` :code:`laws.waves.relativistic`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.waves.relativistic.frequency_shift_from_velocity_and_angle>` Frequency shift from speed and angle
+        
+            .. math::
+        
+                f_\text{o} = \frac{f_\text{s} \sqrt{c^{2} - v^{2}}}{c - v \cos{\left(\varphi \right)}}
+        - :doc:`(doc) <laws.waves.relativistic.longitudinal_frequency_shift_from_absolute_velocities>` Longitudinal frequency shift from speeds
+        
+            .. math::
+        
+                f_\text{o} = \frac{f_\text{s} \left(1 - \frac{v_\text{o}}{v}\right)}{1 + \frac{v_\text{s}}{v}} \sqrt{\frac{1 - \left(\frac{v_\text{s}}{c}\right)^{2}}{1 - \left(\frac{v_\text{o}}{c}\right)^{2}}}
+        - :doc:`(doc) <laws.waves.relativistic.longitudinal_frequency_shift_from_velocity>` Longitudinal frequency shift from speed
+        
+            .. math::
+        
+                f_\text{o} = f_\text{s} \sqrt{\frac{c - v}{c + v}}
