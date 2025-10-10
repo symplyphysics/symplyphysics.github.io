@@ -1082,6 +1082,11 @@ Formulas
             .. math::
         
                 E = \frac{L I_\text{max}^{2}}{2} \cos^{2}{\left(\omega t + \varphi \right)}
+        - :doc:`(doc) <laws.electricity.magnetic_field_due_to_current_loop_along_axis>` Magnetic field due to current loop along axis
+        
+            .. math::
+        
+                B = \frac{\mu_0 I r^{2}}{2 \left(d^{2} + r^{2}\right)^{\frac{3}{2}}}
         - :doc:`(doc) <laws.electricity.magnetic_field_due_to_infinite_wire>` Magnetic field due to infinite wire
         
             .. math::
