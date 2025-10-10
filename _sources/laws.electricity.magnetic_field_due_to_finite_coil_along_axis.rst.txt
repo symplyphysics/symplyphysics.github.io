@@ -1,0 +1,119 @@
+Magnetic field due to finite coil along axis
+============================================
+
+Using the Biot—Savart law, it is possible to obtain the formula for the magnetic flux density at
+any point on the axis of a coil. It is directly proportional to the coil's turn count and current
+and inversely proportional to its length, and also depends on the position of the measurement
+point relative to the coil ends.
+
+**Conditions:**
+
+#.  The point of measurement must lie on the axis of the coil.
+
+#.  The medium is a vacuum.
+
+#.  The :math:`z`-axis is the axis of rotation and is oriented according to the right-hand side
+    rule.
+
+**Links:**
+
+#. `Physics LibreTexts — Solenoids and Toroids. Equation (12.7.4) <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.07%3A_Solenoids_and_Toroids>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.magnetic_field_due_to_finite_coil_along_axis
+
+.. py:data:: magnetic_flux_density
+
+    Magnitude of :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density`.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`magnetic_density`
+
+
+.. py:data:: current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` flowing through the wire.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: turn_count
+
+    Number of turns in the coil. See :attr:`~symplyphysics.symbols.basic.positive_number`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: coil_length
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.length` of the coil.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`\ell`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: first_angle
+
+    Acute :attr:`~symplyphysics.symbols.basic.angle` between the coil axis (or side) and the vector from the measuring point and
+    the first end of the coil (that has a smaller :math:`z` coordinate).
+
+Symbol:
+    :code:`phi_1`
+
+Latex:
+    :math:`\varphi_{1}`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: second_angle
+
+    Acute :attr:`~symplyphysics.symbols.basic.angle` between the coil axis (or side) and the vector from the measuring point and
+    the second end of the coil (that has a greater :math:`z` coordinate).
+
+Symbol:
+    :code:`phi_2`
+
+Latex:
+    :math:`\varphi_{2}`
+
+Dimension:
+    :code:`angle`
+
+
+.. py:data:: law
+
+    :code:`B = mu_0 * I * N / (2 * l) * (cos(phi_1) + cos(phi_2))`
+
+
+    Latex:
+        .. math::
+            B = \frac{\mu_0 I N}{2 \ell} \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)
+
+

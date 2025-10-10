@@ -1087,6 +1087,11 @@ Formulas
             .. math::
         
                 B = \frac{\mu_0 I r^{2}}{2 \left(d^{2} + r^{2}\right)^{\frac{3}{2}}}
+        - :doc:`(doc) <laws.electricity.magnetic_field_due_to_finite_coil_along_axis>` Magnetic field due to finite coil along axis
+        
+            .. math::
+        
+                B = \frac{\mu_0 I N}{2 \ell} \left(\cos{\left(\varphi_{1} \right)} + \cos{\left(\varphi_{2} \right)}\right)
         - :doc:`(doc) <laws.electricity.magnetic_field_due_to_infinite_wire>` Magnetic field due to infinite wire
         
             .. math::
