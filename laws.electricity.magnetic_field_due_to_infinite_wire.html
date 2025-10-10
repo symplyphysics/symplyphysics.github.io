@@ -52,6 +52,7 @@ current through it and the radial distance to the wire.</p>
 <p><strong>Conditions:</strong></p>
 <ol class="arabic simple">
 <li><p>The wire is uniform, straight, and thin.</p></li>
+<li><p>The vector of the magnetic flux density is oriented in space according to the right-hand rule.</p></li>
 </ol>
 <p><strong>Links:</strong></p>
 <ol class="arabic simple">
@@ -69,6 +70,20 @@ current through it and the radial distance to the wire.</p>
 <dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B\)</span></p>
 </dd>
 <dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">magnetic_density</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.absolute_permeability">
+<span class="sig-name descname"><span class="pre">absolute_permeability</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.absolute_permeability" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.absolute_permeability" title="symplyphysics.symbols.electrodynamics.absolute_permeability"><code class="xref py py-attr docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a> of the medium around the wire.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mu</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\mu\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">inductance/length</span></code></p>
 </dd>
 </dl>
 <dl class="py data">
@@ -102,10 +117,10 @@ current through it and the radial distance to the wire.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">mu_0</span> <span class="pre">*</span> <span class="pre">I</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">r)</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">B</span> <span class="pre">=</span> <span class="pre">mu</span> <span class="pre">*</span> <span class="pre">I</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">r)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[B = \frac{\mu_0 I}{2 \pi r}\]</div>
+\[B = \frac{\mu I}{2 \pi r}\]</div>
 </dd>
 </dl>
 </dd></dl>
@@ -186,6 +201,7 @@ current through it and the radial distance to the wire.</p>
 <li class="toctree-l3"><a class="reference internal" href="laws.electricity.instantaneous_energy_of_magnetic_field.html">Instantaneous energy of magnetic field</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Magnetic field due to infinite wire</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.magnetic_flux_density"><code class="docutils literal notranslate"><span class="pre">magnetic_flux_density</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.absolute_permeability"><code class="docutils literal notranslate"><span class="pre">absolute_permeability</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.current"><code class="docutils literal notranslate"><span class="pre">current</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.radial_distance"><code class="docutils literal notranslate"><span class="pre">radial_distance</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.laws.electricity.magnetic_field_due_to_infinite_wire.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>

@@ -12,6 +12,8 @@ current through it and the radial distance to the wire.
 
 #. The wire is uniform, straight, and thin.
 
+#. The vector of the magnetic flux density is oriented in space according to the right-hand rule.
+
 **Links:**
 
 #. `Physics LibreTexts, formula in the box <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.03%3A_Magnetic_Field_due_to_a_Thin_Straight_Wire>`__.
@@ -30,6 +32,20 @@ Latex:
 
 Dimension:
     :code:`magnetic_density`
+
+
+.. py:data:: absolute_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium around the wire.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`inductance/length`
 
 
 .. py:data:: current
@@ -62,11 +78,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`B = mu_0 * I / (2 * pi * r)`
+    :code:`B = mu * I / (2 * pi * r)`
 
 
     Latex:
         .. math::
-            B = \frac{\mu_0 I}{2 \pi r}
+            B = \frac{\mu I}{2 \pi r}
 
 

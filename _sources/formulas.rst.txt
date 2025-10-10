@@ -1086,7 +1086,7 @@ Formulas
         
             .. math::
         
-                B = \frac{\mu_0 I}{2 \pi r}
+                B = \frac{\mu I}{2 \pi r}
         - :doc:`(doc) <laws.electricity.magnetic_field_of_coil>` Magnetic field of coil
         
             .. math::
