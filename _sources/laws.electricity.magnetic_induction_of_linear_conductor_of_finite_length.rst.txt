@@ -11,8 +11,9 @@ the ends of the conductor to the point and the conductor.
 #. Conductor should be rectilinear.
 #. Length of the conductor is finite.
 
-..
-    TODO: find link
+**Links:**
+
+#. `Physics LibreTexts — infinite wire case <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_II_-_Thermodynamics_Electricity_and_Magnetism_(OpenStax)/12%3A_Sources_of_Magnetic_Fields/12.03%3A_Magnetic_Field_due_to_a_Thin_Straight_Wire>`__.
 
 .. py:currentmodule:: symplyphysics.laws.electricity.magnetic_induction_of_linear_conductor_of_finite_length
 
@@ -86,7 +87,7 @@ Dimension:
     :code:`angle`
 
 
-.. py:data:: distance
+.. py:data:: radial_distance
 
     Perpendicular :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance` to the conductor.
 
