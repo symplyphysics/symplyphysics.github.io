@@ -46,6 +46,10 @@
 <p>If an electric dipole is positioned in a spatially non-uniform electric field, the forces acting
 on the point charges that compose the dipole no longer cancel each other and the dipole
 experiences an overall non-zero acceleration.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The vector of electric dipole moment does not depent on coordinates.</p></li>
+</ol>
 <p><strong>Notes:</strong></p>
 <ol class="arabic">
 <li><p>A more general representation of this law, which does not require choosing an axis aligned with
@@ -55,6 +59,20 @@ the dipole, assuming Cartesian coordinates:</p>
         = p_x \frac{\partial \vec E}{\partial x}
         + p_y \frac{\partial \vec E}{\partial y}
         + p_z \frac{\partial \vec E}{\partial z}\]</div>
+<p>In general orthogonal curvilinear coordinates, this equates the contraction of the <em>covariant
+derivative</em> tensor of the electric field with the electric dipole moment vector:</p>
+<div class="math notranslate nohighlight">
+\[F^i = \left( \nabla \vec E : \vec p \right)^i = \sum_j \nabla_j E^i p_j,\]</div>
+<div class="math notranslate nohighlight">
+\[\nabla_j E^i = \partial_j E^i + \sum_k \Gamma^i{}_{jk} E^k.\]</div>
+<p>Here, superscript denotes vector components, <span class="math notranslate nohighlight">\(\partial_j\)</span> the partial derivative
+with respect to <span class="math notranslate nohighlight">\(q^j\)</span>, and <span class="math notranslate nohighlight">\(\Gamma^i{}_{jk}\)</span> the <strong>Christoffel symbols of
+the second kind</strong> (<a class="reference external" href="https://en.wikipedia.org/wiki/Curvilinear_coordinates#Christoffel_symbols">Wikipedia</a>). If vectors
+are represented in an <em>orthonormal</em> basis, then <span class="math notranslate nohighlight">\(\hat{\Gamma}^i{}_{jk}\)</span> is
+used instead, related by the equation</p>
+<div class="math notranslate nohighlight">
+\[h_j h_k \hat{\Gamma}^i{}_{jk} = h_i \Gamma^i{}_{jk} + \delta_{ik} \partial_j h_i
+                                - \delta_{ij} \partial_k h_j\]</div>
 </li>
 </ol>
 <p><strong>Links:</strong></p>
