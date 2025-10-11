@@ -1,0 +1,127 @@
+Magnetic field due to constant filamentary current
+==================================================
+
+Known as the **Biot—Savart law**, it is an equation describing the magnetic field due to a constant
+electric current.
+
+**Notation:**
+
+#. :math:`\mu_0` (:code:`mu_0`) is :attr:`~symplyphysics.quantities.vacuum_permeability`.
+
+**Notes:**
+
+#. This version of the law deals with a current in an infinitely thin wire. For a conductor of a
+   finite thickness, the following relation must be used:
+
+   .. math::
+
+       I d \vec{\ell} = \vec{J} dV
+
+#. To find the total magnetic flux density, calculate the line integral over the whole contour.
+
+**Conditions:**
+
+#. The system is in a vacuum.
+
+**Links:**
+
+#. `Wikipedia — Biot—Savart law <https://en.wikipedia.org/wiki/Biot%E2%80%93Savart_law>`__.
+
+.. py:currentmodule:: symplyphysics.laws.electricity.vector.magnetic_field_due_to_constant_filamentary_current
+
+.. py:data:: magnetic_flux_density_change
+
+    Infinitesimal change of the :attr:`~symplyphysics.symbols.electrodynamics.magnetic_flux_density` at a given point in space.
+
+Symbol:
+    :code:`dB`
+
+Latex:
+    :math:`d \vec{B}`
+
+Dimension:
+    :code:`magnetic_density`
+
+
+.. py:data:: absolute_permeability
+
+    :attr:`~symplyphysics.symbols.electrodynamics.absolute_permeability` of the medium.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`inductance/length`
+
+
+.. py:data:: current
+
+    :attr:`~symplyphysics.symbols.electrodynamics.current` in the contour.
+
+Symbol:
+    :code:`I`
+
+Latex:
+    :math:`I`
+
+Dimension:
+    :code:`current`
+
+
+.. py:data:: position_vector
+
+    Position vector of the point at which the magnetic flux density is measured. Also see
+    :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`r`
+
+Latex:
+    :math:`{\vec r}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: contour_element_position_vector
+
+    Position vector of a point on the integration path. Also see :attr:`~symplyphysics.symbols.classical_mechanics.distance_to_origin`.
+
+Symbol:
+    :code:`l`
+
+Latex:
+    :math:`\vec{\ell}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: contour_element_displacement
+
+    A vector along the integration path whose magnitude is the length of the differential element in
+    the direction of conventional current. Also see :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+
+Symbol:
+    :code:`dl`
+
+Latex:
+    :math:`d \vec{\ell}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`dB = mu / (4 * pi) * I * cross(dl, r - l) / norm(r - l)^3`
+
+
+    Latex:
+        .. math::
+            d \vec{B} = \frac{\mu}{4 \pi} \frac{I \left[ d \vec{\ell}, {\vec r} - \vec{\ell} \right]}{\left \Vert {\vec r} - \vec{\ell} \right \Vert^{3}}
+
+

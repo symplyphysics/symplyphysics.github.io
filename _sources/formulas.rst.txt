@@ -1876,6 +1876,11 @@ Formulas
             .. math::
         
                 {\vec F} = q \left({\vec E} + \left[ {\vec v}, {\vec B} \right]\right)
+        - :doc:`(doc) <laws.electricity.vector.magnetic_field_due_to_constant_filamentary_current>` Magnetic field due to constant filamentary current
+        
+            .. math::
+        
+                d \vec{B} = \frac{\mu}{4 \pi} \frac{I \left[ d \vec{\ell}, {\vec r} - \vec{\ell} \right]}{\left \Vert {\vec r} - \vec{\ell} \right \Vert^{3}}
         - :doc:`(doc) <laws.electricity.vector.potential_energy_of_electric_dipole_in_uniform_electric_field>` Potential energy of electric dipole in uniform electric field
         
             .. math::

@@ -20,6 +20,7 @@ Collection of laws related to vectorial description of electromagnetism.
     laws.electricity.vector.electrostatic_force_between_two_charges
     laws.electricity.vector.force_acting_on_dipole_in_non_uniform_electric_field
     laws.electricity.vector.lorentz_force_via_electromagnetic_field
+    laws.electricity.vector.magnetic_field_due_to_constant_filamentary_current
     laws.electricity.vector.potential_energy_of_electric_dipole_in_uniform_electric_field
     laws.electricity.vector.torque_due_to_electric_dipole_in_uniform_electric_field
 
