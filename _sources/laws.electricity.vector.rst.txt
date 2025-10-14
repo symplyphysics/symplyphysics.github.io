@@ -14,8 +14,8 @@ Collection of laws related to vectorial description of electromagnetism.
     laws.electricity.vector.current_density_is_charge_density_times_drift_velocity
     laws.electricity.vector.electric_dipole_moment_is_charge_times_displacement
     laws.electricity.vector.electric_dipole_moment_of_electrically_neutral_system
-    laws.electricity.vector.electric_field_due_to_dipole
-    laws.electricity.vector.electric_field_is_force_over_test_charge
+    laws.electricity.vector.electric_field_vector_due_to_dipole
+    laws.electricity.vector.electric_field_vector_is_force_over_test_charge
     laws.electricity.vector.electric_flux_of_uniform_electric_field
     laws.electricity.vector.electrostatic_force_between_two_charges
     laws.electricity.vector.force_acting_on_dipole_in_non_uniform_electric_field

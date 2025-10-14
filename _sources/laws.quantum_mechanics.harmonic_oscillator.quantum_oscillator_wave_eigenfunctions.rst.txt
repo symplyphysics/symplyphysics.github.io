@@ -1,0 +1,101 @@
+Wave eigenfunctions of quantum harmonic oscillator
+==================================================
+
+The time-independent Schrödinger equation describing the wave function of the quantum oscillator
+can be solved to get the corresponding wave eigenfunctions and energy eigenvalues of the Hamiltonian
+operator. Each eigenfunction describes a stationary state of the quantum mechanical system with the
+corresponding energy value (eigenvalue of the Hamiltonian). The combination of all eigenfunctions and
+eigenvalues represent the energy states allowed.
+
+**Notation:**
+
+#. :math:`\hbar` (:code:`hbar`) is :attr:`~symplyphysics.quantities.hbar`.
+#. :math:`H_n` (:code:`hermite`) is the :math:`n`-th physicists' Hermite polynomial.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator#Hamiltonian_and_energy_eigenstates>`__.
+
+.. py:currentmodule:: symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_oscillator_wave_eigenfunctions
+
+.. py:data:: wave_function
+
+    :math:`n`-th wave eigenfunction (solution of the time-independent Schrödinger equation).
+    See :attr:`~symplyphysics.symbols.quantum_mechanics.wave_function`.
+
+Symbol:
+    :code:`psi`
+
+Latex:
+    :math:`\psi`
+
+Dimension:
+    :code:`1/sqrt(length)`
+
+
+.. py:data:: mode_number
+
+    Mode number. See :attr:`~symplyphysics.symbols.basic.nonnegative_number`.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: oscillator_mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the oscillator.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` of the oscillator.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`psi = (m * w / (pi * hbar))^(1/4) / sqrt(2^N * factorial(N)) * exp(-m * w / (2 * hbar) * x^2) * hermite(N, sqrt(m * w / hbar) * x)`
+
+
+    Latex:
+        .. math::
+            \psi = \frac{\sqrt[4]{\frac{m \omega}{\pi \hbar}}}{\sqrt{2^{N} N!}} \exp{\left(- \frac{m \omega}{2 \hbar} x^{2} \right)} H_{N}\left(\sqrt{\frac{m \omega}{\hbar}} x\right)
+
+

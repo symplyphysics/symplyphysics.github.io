@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Quantum harmonic oscillator equation &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Wave eigenfunctions of quantum harmonic oscillator" href="laws.quantum_mechanics.harmonic_oscillator.quantum_oscillator_wave_eigenfunctions.html" />
+    <link rel="prev" title="Energy levels of harmonic oscillator" href="laws.quantum_mechanics.harmonic_oscillator.energy_levels.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="quantum-harmonic-oscillator-equation">
+<h1>Quantum harmonic oscillator equation<a class="headerlink" href="#quantum-harmonic-oscillator-equation" title="Link to this heading">¶</a></h1>
+<p>The Schrödinger equation for the quantum simple harmonic oscillator governs the wave function
+of the quantum oscillator.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\hbar\)</span> (<code class="code docutils literal notranslate"><span class="pre">hbar</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.hbar" title="symplyphysics.quantities.hbar"><code class="xref py py-attr docutils literal notranslate"><span class="pre">hbar</span></code></a>.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/University_Physics_III_-_Optics_and_Modern_Physics_(OpenStax)/07%3A_Quantum_Mechanics/7.06%3A_The_Quantum_Harmonic_Oscillator">Physics LibreTexts, formula 7.6.4</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.position">
+<span class="sig-name descname"><span class="pre">position</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.position" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.position" title="symplyphysics.symbols.classical_mechanics.position"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position</span></code></a> of the particle.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">x</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(x\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.wave_function">
+<span class="sig-name descname"><span class="pre">wave_function</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.wave_function" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.quantum_mechanics.html#symplyphysics.symbols.quantum_mechanics.wave_function" title="symplyphysics.symbols.quantum_mechanics.wave_function"><code class="xref py py-attr docutils literal notranslate"><span class="pre">wave_function</span></code></a> of the oscillating particle.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">psi(x)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\psi{\left(x \right)}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/sqrt(length)</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.particle_mass">
+<span class="sig-name descname"><span class="pre">particle_mass</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.particle_mass" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the particle.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(m\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.particle_energy">
+<span class="sig-name descname"><span class="pre">particle_energy</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.particle_energy" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.energy" title="symplyphysics.symbols.basic.energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">energy</span></code></a> of the particle.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">E</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(E\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.angular_frequency">
+<span class="sig-name descname"><span class="pre">angular_frequency</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.angular_frequency" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the oscillations.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">-hbar^2</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">m)</span> <span class="pre">*</span> <span class="pre">Derivative(psi(x),</span> <span class="pre">(x,</span> <span class="pre">2))</span> <span class="pre">+</span> <span class="pre">m</span> <span class="pre">*</span> <span class="pre">w^2</span> <span class="pre">/</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">x^2</span> <span class="pre">*</span> <span class="pre">psi(x)</span> <span class="pre">=</span> <span class="pre">E</span> <span class="pre">*</span> <span class="pre">psi(x)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[- \frac{\hbar^{2}}{2 m} \frac{d^{2}}{d x^{2}} \psi{\left(x \right)} + \frac{m \omega^{2}}{2} x^{2} \psi{\left(x \right)} = E \psi{\left(x \right)}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.dynamics.html">Dynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="laws.quantum_mechanics.harmonic_oscillator.html"><strong>Harmonic oscillator (Quantum mechanics)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.quantum_mechanics.harmonic_oscillator.energy_levels.html">Energy levels of harmonic oscillator</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Quantum harmonic oscillator equation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.quantum_mechanics.harmonic_oscillator.quantum_oscillator_wave_eigenfunctions.html">Wave eigenfunctions of quantum harmonic oscillator</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.quantum_mechanics.schrodinger.html"><strong>Schrödinger equation</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.quantum_mechanics.expectation_value_of_observable.html">Expectation value of observable</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.quantum_mechanics.probability_density_of_quantum_state.html">Probability density of quantum state</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.quantum_mechanics.html">Quantum mechanics</a><ul>
+  <li><a href="laws.quantum_mechanics.harmonic_oscillator.html"><strong>Harmonic oscillator (Quantum mechanics)</strong></a><ul>
+      <li>Previous: <a href="laws.quantum_mechanics.harmonic_oscillator.energy_levels.html" title="previous chapter">Energy levels of harmonic oscillator</a></li>
+      <li>Next: <a href="laws.quantum_mechanics.harmonic_oscillator.quantum_oscillator_wave_eigenfunctions.html" title="next chapter">Wave eigenfunctions of quantum harmonic oscillator</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -247,7 +247,7 @@ Formulas
             .. math::
         
                 {\vec p} = m {\vec v}
-        - :doc:`(doc) <definitions.vector.superposition_of_forces_is_sum>` Superposition of forces is sum (Vector)
+        - :doc:`(doc) <definitions.vector.net_force_vector_is_sum_of_forces>` Net force vector is sum of forces
         
             .. math::
         
@@ -849,7 +849,7 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation>` Spring reaction is proportional to deformation (vector)
+        - :doc:`(doc) <laws.dynamics.springs.vector.spring_reaction_vector_is_proportional_to_deformation>` Spring reaction is proportional to deformation (vector)
         
             .. math::
         
@@ -858,12 +858,12 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.dynamics.vector.acceleration_from_force>` Acceleration from force and mass (vector)
+        - :doc:`(doc) <laws.dynamics.vector.acceleration_from_force_vector>` Acceleration from force and mass (vector)
         
             .. math::
         
                 {\vec a} = \frac{{\vec F}}{m}
-        - :doc:`(doc) <laws.dynamics.vector.force_is_derivative_of_momentum>` Force is derivative of momentum (vector)
+        - :doc:`(doc) <laws.dynamics.vector.force_vector_is_derivative_of_momentum>` Force is derivative of momentum (vector)
         
             .. math::
         
@@ -873,7 +873,7 @@ Formulas
             .. math::
         
                 P = \left( {\vec F}, {\vec v} \right)
-        - :doc:`(doc) <laws.dynamics.vector.mechanical_work_from_force_and_move>` Mechanical work from force and displacement
+        - :doc:`(doc) <laws.dynamics.vector.mechanical_work_from_force_and_displacement>` Mechanical work from force and displacement
         
             .. math::
         
@@ -1856,7 +1856,7 @@ Formulas
             .. math::
         
                 {\vec p} = \sum_i {q}_{i} {{\vec r}}_{i}
-        - :doc:`(doc) <laws.electricity.vector.electric_field_is_force_over_test_charge>` Electric field is force over test charge (Vector)
+        - :doc:`(doc) <laws.electricity.vector.electric_field_vector_is_force_over_test_charge>` Electric field is force over test charge (Vector)
         
             .. math::
         
@@ -1900,7 +1900,7 @@ Formulas
             .. math::
         
                 \left \Vert \left[ \vec u, \vec v \right] \right \Vert = u v \sin{\left(\varphi \right)}
-        - :doc:`(doc) <laws.geometry.dot_product_is_proportional_to_cosine_between_vectors>` Dot product is proportional to cosine of angle between vectors
+        - :doc:`(doc) <laws.geometry.dot_product_is_proportional_to_cosine_between_vectors_scalar>` Dot product is proportional to cosine of angle between vectors
         
             .. math::
         
@@ -2612,7 +2612,7 @@ Formulas
             .. math::
         
                 h = \frac{k \lambda}{2 n \cos{\left(\varphi \right)}}
-        - :doc:`(doc) <laws.optics.focal_length_of_a_concave_spherical_mirror>` Focal length of a concave spherical mirror
+        - :doc:`(doc) <laws.optics.focal_length_of_concave_spherical_mirror>` Focal length of a concave spherical mirror
         
             .. math::
         
@@ -2759,12 +2759,12 @@ Formulas
             .. math::
         
                 E_{n} = \left(N + \frac{1}{2}\right) \hbar \omega
-        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.equation>` Quantum harmonic oscillator equation
+        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation>` Quantum harmonic oscillator equation
         
             .. math::
         
                 - \frac{\hbar^{2}}{2 m} \frac{d^{2}}{d x^{2}} \psi{\left(x \right)} + \frac{m \omega^{2}}{2} x^{2} \psi{\left(x \right)} = E \psi{\left(x \right)}
-        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.wave_eigenfunctions>` Wave eigenfunctions of quantum harmonic oscillator
+        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.quantum_oscillator_wave_eigenfunctions>` Wave eigenfunctions of quantum harmonic oscillator
         
             .. math::
         
@@ -3313,7 +3313,7 @@ Formulas
             .. math::
         
                 dH = T dS - D dE
-        - :doc:`(doc) <laws.thermodynamics.dielectrics.enthalpy_formula>` Enthalpy of dielectrics
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.enthalpy_formula_in_dielectrics>` Enthalpy of dielectrics
         
             .. math::
         
@@ -3328,7 +3328,7 @@ Formulas
             .. math::
         
                 dG = - S dT - D dE
-        - :doc:`(doc) <laws.thermodynamics.dielectrics.gibbs_energy_formula>` Gibbs energy of dielectrics
+        - :doc:`(doc) <laws.thermodynamics.dielectrics.gibbs_energy_formula_in_dielectrics>` Gibbs energy of dielectrics
         
             .. math::
         
@@ -3429,7 +3429,7 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.thermodynamics.fermi_dirac_statistics.single_particle_state_distribution>` Single-particle state distribution
+        - :doc:`(doc) <laws.thermodynamics.fermi_dirac_statistics.single_particle_state_fermi_distribution>` Single-particle state distribution
         
             .. math::
         

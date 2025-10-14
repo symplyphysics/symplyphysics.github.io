@@ -11,7 +11,7 @@ Collection of laws related to vectorial description of springs.
     :maxdepth: 4
 
 
-    laws.dynamics.springs.vector.spring_reaction_is_proportional_to_deformation
+    laws.dynamics.springs.vector.spring_reaction_vector_is_proportional_to_deformation
 
 
 

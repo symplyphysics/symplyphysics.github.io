@@ -15,7 +15,7 @@ Definitions in vector form.
     definitions.vector.angular_momentum_is_position_cross_linear_momentum
     definitions.vector.damping_force_is_proportional_to_velocity
     definitions.vector.momentum_is_mass_times_velocity_vector
-    definitions.vector.superposition_of_forces_is_sum
+    definitions.vector.net_force_vector_is_sum_of_forces
     definitions.vector.vector_area_is_unit_normal_times_scalar_area
     definitions.vector.velocity_is_position_vector_derivative
 

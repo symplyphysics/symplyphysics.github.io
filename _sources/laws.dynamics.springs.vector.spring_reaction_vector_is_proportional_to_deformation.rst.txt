@@ -1,0 +1,72 @@
+Spring reaction is proportional to deformation (vector)
+=======================================================
+
+The empirical law known as **Hooke's law** states that the force needed to extend or compress
+a spring by some distance scales linearly with respect to that distance. Also see the :ref:`scalar
+counterpart <Spring reaction is proportional to deformation>` of this law.
+
+**Conditions:**
+
+#. The deformations are elastic (reversible).
+
+#. The stiffness coefficient is a scalar.
+
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Hooke's_law#Linear_springs>`__.
+
+.. py:currentmodule:: symplyphysics.laws.dynamics.springs.vector.spring_reaction_vector_is_proportional_to_deformation
+
+.. py:data:: force
+
+    Vector of the :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted onto the end of the spring.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: stiffness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` coefficient of the spring.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`force/length`
+
+
+.. py:data:: deformation
+
+    Vector of the deformation of the string, which is the difference between the position vector of
+    the end of the spring after and before the deformation. See :attr:`~symplyphysics.symbols.classical_mechanics.distance`.
+
+Symbol:
+    :code:`s`
+
+Latex:
+    :math:`{\vec s}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`F = -k * s`
+
+
+    Latex:
+        .. math::
+            {\vec F} = - k {\vec s}
+
+

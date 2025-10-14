@@ -11,11 +11,11 @@ Vector subset of dynamics laws
     :maxdepth: 4
 
 
-    laws.dynamics.vector.acceleration_from_force
-    laws.dynamics.vector.force_is_derivative_of_momentum
+    laws.dynamics.vector.acceleration_from_force_vector
+    laws.dynamics.vector.force_vector_is_derivative_of_momentum
     laws.dynamics.vector.instantaneous_power_is_force_dot_velocity
     laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity
-    laws.dynamics.vector.mechanical_work_from_force_and_move
+    laws.dynamics.vector.mechanical_work_from_force_and_displacement
     laws.dynamics.vector.mechanical_work_is_line_integral_of_force
     laws.dynamics.vector.normal_force_via_pressure_and_vector_area
     laws.dynamics.vector.relative_acceleration_from_force

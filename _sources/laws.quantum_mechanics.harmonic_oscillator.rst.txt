@@ -12,8 +12,8 @@ The quantum harmonic oscillator is the quantum-mechanical analog of the classica
 
 
     laws.quantum_mechanics.harmonic_oscillator.energy_levels
-    laws.quantum_mechanics.harmonic_oscillator.equation
-    laws.quantum_mechanics.harmonic_oscillator.wave_eigenfunctions
+    laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_equation
+    laws.quantum_mechanics.harmonic_oscillator.quantum_oscillator_wave_eigenfunctions
 
 
 

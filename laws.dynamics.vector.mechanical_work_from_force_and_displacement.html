@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mechanical work from force and displacement &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/laws.dynamics.vector.mechanical_work_from_force_and_displacement.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Mechanical work is line integral of force" href="laws.dynamics.vector.mechanical_work_is_line_integral_of_force.html" />
+    <link rel="prev" title="Kinetic energy via angular momentum and angular velocity" href="laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="mechanical-work-from-force-and-displacement">
+<h1>Mechanical work from force and displacement<a class="headerlink" href="#mechanical-work-from-force-and-displacement" title="Link to this heading">¶</a></h1>
+<p>Work is measured result of force applied. Mechanical work is the only reason for the object energy
+to be changed. Work is a scalar value equal to the dot product of force and displacement vectors.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>Force must be constant during the body’s displacement. This is possible when the displacement is
+infinitesimally small. For the case non-constant force and/or finite displacement, refer to
+<a class="reference internal" href="laws.dynamics.vector.mechanical_work_is_line_integral_of_force.html#mechanical-work-is-line-integral-of-force"><span class="std std-ref">Mechanical work is line integral of force</span></a>.</p></li>
+</ol>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\left( \vec a, \vec b \right)\)</span> (<code class="code docutils literal notranslate"><span class="pre">dot(a,</span> <span class="pre">b)</span></code>) is the dot product between
+vectors <span class="math notranslate nohighlight">\(\vec a\)</span> and <span class="math notranslate nohighlight">\(\vec b\)</span>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.work">
+<span class="sig-name descname"><span class="pre">work</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.work" title="Link to this definition">¶</a></dt>
+<dd><p>Mechanical <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.work" title="symplyphysics.symbols.basic.work"><code class="xref py py-attr docutils literal notranslate"><span class="pre">work</span></code></a> done by the <a class="reference internal" href="#symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.force" title="symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> to displace the body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">W</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(W\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">energy</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.force">
+<span class="sig-name descname"><span class="pre">force</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.force" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.force" title="symplyphysics.symbols.classical_mechanics.force"><code class="xref py py-attr docutils literal notranslate"><span class="pre">force</span></code></a> exerted on the body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec F}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.displacement">
+<span class="sig-name descname"><span class="pre">displacement</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.displacement" title="Link to this definition">¶</a></dt>
+<dd><p>Vector denoting the change of the position vector of the body when it moves from one point in
+space to another. Also see <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.distance" title="symplyphysics.symbols.classical_mechanics.distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">distance</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">s</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec s}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.laws.dynamics.vector.mechanical_work_from_force_and_displacement.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">W</span> <span class="pre">=</span> <span class="pre">dot(F,</span> <span class="pre">s)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[W = \left( {\vec F}, {\vec s} \right)\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="laws.html">Laws</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="laws.astronomy.html">Astronomy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.chemistry.html">Chemistry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.condensed_matter.html">Condensed matter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.conservation.html">Conservation</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="laws.dynamics.html">Dynamics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.damped_oscillations.html"><strong>Damped oscillations (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.deformation.html"><strong>Deformation (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.fields.html"><strong>Fields (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.springs.html"><strong>Springs</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="laws.dynamics.vector.html"><strong>Dynamics (Vector)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.acceleration_from_force_vector.html">Acceleration from force and mass (vector)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.force_vector_is_derivative_of_momentum.html">Force is derivative of momentum (vector)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.instantaneous_power_is_force_dot_velocity.html">Instantaneous power is dot product of force and velocity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity.html">Kinetic energy via angular momentum and angular velocity</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Mechanical work from force and displacement</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.mechanical_work_is_line_integral_of_force.html">Mechanical work is line integral of force</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.normal_force_via_pressure_and_vector_area.html">Normal force via pressure and vector area</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.relative_acceleration_from_force.html">Relative acceleration from force</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.restoring_torque_due_to_twist_of_torsion_pendulum.html">Restoring torque due to twist of torsion pendulum</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.torque_is_angular_momentum_derivative.html">Torque is angular momentum derivative</a></li>
+<li class="toctree-l4"><a class="reference internal" href="laws.dynamics.vector.torque_vector_of_twisting_force.html">Torque of twisting force</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.acceleration_is_force_over_mass.html">Acceleration is force over mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.braking_path_via_speed_and_friction_force.html">Braking path via speed and friction force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.buoyant_force_from_density_and_volume.html">Buoyant force from density and volume</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.coefficient_of_stiffness_from_area_length.html">Coefficient of stiffness from area and length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.displacement_in_forced_non_resonant_oscillations.html">Displacement in forced non-resonant oscillations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.force_is_derivative_of_momentum.html">Force is derivative of momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.forced_oscillations_equation.html">Forced oscillations equation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.friction_force_from_normal_force.html">Friction force from normal force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.instantaneous_power_is_force_times_speed.html">Instantaneous power is force times speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_mass_and_speed.html">Kinetic energy from mass and speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_from_rotational_inertia_and_angular_speed.html">Kinetic energy from rotational inertia and angular speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.kinetic_energy_via_momentum.html">Kinetic energy via momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.maximum_height_from_initial_speed.html">Maximum height from initial speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.mechanical_work_from_force_and_distance.html">Mechanical work is force times distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.momentum_derivative_of_kinetic_energy_is_speed.html">Momentum derivative of kinetic energy is speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_ideal_pendulum_from_length.html">Period of ideal pendulum from length</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_physical_pendulum.html">Period of physical pendulum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_spring_from_mass.html">Period of spring from mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.period_of_torsion_pendulum_from_rotational_inertia.html">Period of torsion pendulum from rotational inertia</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_deformation.html">Elastic potential energy from displacement</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.potential_energy_from_mass_and_height.html">Potential energy from mass and height</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.pressure_from_force_and_area.html">Pressure from force and area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.reaction_force_from_action_force.html">Reaction force equals action force</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.reduced_mass_of_two_body_system.html">Reduced mass of a two-body system</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.resonant_oscillations.html">Displacement in resonant oscillations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.html">Rocket thrust is rocket mass times acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.rotational_work_is_torque_times_angular_distance.html">Rotational work is torque times angular distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.speed_of_rocket_depends_on_mass_and_impulse.html">Rocket speed from mass and impulse</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_force_and_radial_distance.html">Torque via force and radial distance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.torque_via_rotational_inertia_and_angular_acceleration.html">Torque via rotational inertia and angular acceleration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.total_work_is_change_in_kinetic_energy.html">Total work is change in kinetic energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="laws.dynamics.work_is_integral_of_force_over_distance.html">Work is integral of force over distance</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="laws.electricity.html">Electromagnetism</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.fields.html">Fields</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.geometry.html">Geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.gravity.html">Gravity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.hydro.html">Fluid mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.kinematics.html">Kinematics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.nuclear.html">Nuclear physics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.optics.html">Optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantities.html">Quantities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.quantum_mechanics.html">Quantum mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.relativistic.html">Relativistic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="laws.waves.html">Waves</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="conditions.html">Conditions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="laws.html">Laws</a><ul>
+  <li><a href="laws.dynamics.html">Dynamics</a><ul>
+  <li><a href="laws.dynamics.vector.html"><strong>Dynamics (Vector)</strong></a><ul>
+      <li>Previous: <a href="laws.dynamics.vector.kinetic_energy_via_angular_momentum_and_angular_velocity.html" title="previous chapter">Kinetic energy via angular momentum and angular velocity</a></li>
+      <li>Next: <a href="laws.dynamics.vector.mechanical_work_is_line_integral_of_force.html" title="next chapter">Mechanical work is line integral of force</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.2.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/laws.dynamics.vector.mechanical_work_from_force_and_displacement.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
