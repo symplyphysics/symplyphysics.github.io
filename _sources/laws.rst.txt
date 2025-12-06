@@ -16,11 +16,11 @@ A physical law, scientific law, or a law of nature is a scientific generalizatio
     laws.conservation
     laws.dynamics
     laws.electricity
-    laws.fields
     laws.geometry
     laws.gravity
     laws.hydro
     laws.kinematics
+    laws.legacy_fields
     laws.nuclear
     laws.optics
     laws.quantities
