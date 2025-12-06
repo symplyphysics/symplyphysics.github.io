@@ -1,0 +1,128 @@
+Flux is integral of divergence over surface
+===========================================
+
+The flux of a vector field exiting a closed flat curve can be re-written as a surface integral of
+the divergence of the given field over the surface whose boundary is the given curve.
+
+**Notes:**
+
+#. This is also known as the `Green's theorem <https://en.wikipedia.org/wiki/Green%27s_theorem>`__.
+
+**Conditions:**
+
+#. The vector field is continuously differentiable everywhere within the region of the surface.
+#. The curve is closed and flat.
+#. The curve and the surface are oriented according to the right-hand rule.
+
+.. py:currentmodule:: symplyphysics.laws.fields.flux_is_integral_of_divergence_over_surface
+
+.. py:data:: flux
+
+    Flux of the vector :attr:`~field`.
+
+Symbol:
+    :code:`H`
+
+Latex:
+    :math:`H`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: field
+
+    Any vector field, i.e. a vector-valued function that depends on the position vector.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: surface
+
+    Surface along which the integral is evaluated.
+
+    Symbol:
+        :code:`S`
+
+    Latex:
+        :math:`S`
+
+
+.. py:data:: initial_first_parameter
+
+    Initial value of the first surface parameter.
+
+Symbol:
+    :code:`u_1`
+
+Latex:
+    :math:`u_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: final_first_parameter
+
+    Final value of the first surface parameter.
+
+Symbol:
+    :code:`u_2`
+
+Latex:
+    :math:`u_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: initial_second_parameter
+
+    Initial value of the second surface parameter.
+
+Symbol:
+    :code:`v_1`
+
+Latex:
+    :math:`v_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: final_second_parameter
+
+    Final value of the second surface parameter.
+
+Symbol:
+    :code:`v_2`
+
+Latex:
+    :math:`v_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`H = SurfaceIntegral(div(F) * norm(dS), S, ((u_1, u_2), (v_1, v_2)))`
+
+
+    ..
+        FIXME Implement the surface integral in the latex printer
+
+    Latex:
+
+        .. math::
+
+            H = \iint \limits_S \text{div} \vec F \, dS
+
+
