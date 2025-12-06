@@ -1900,6 +1900,11 @@ Formulas
             .. math::
         
                 G = \int \limits_{C} \left( {\vec F}, d \vec r \right)
+        - :doc:`(doc) <laws.fields.flux_is_integral_along_flat_curve>` Flux is integral along flat curve
+        
+            .. math::
+        
+                H = \int \limits_{C} \left( {\vec F}, {\vec n} \right) \left \Vert d \vec r \right \Vert
 - :doc:`(doc) <laws.geometry>` :code:`laws.geometry`
 
     .. toggle::

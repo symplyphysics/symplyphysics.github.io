@@ -14,6 +14,7 @@ of space. Using fields as a mathematical model allows us to correctly describe p
 
     laws.fields.circulation_is_integral_along_curve
     laws.fields.circulation_is_integral_of_curl_over_surface
+    laws.fields.flux_is_integral_along_flat_curve
     laws.fields.flux_is_integral_of_divergence_over_surface
 
 
