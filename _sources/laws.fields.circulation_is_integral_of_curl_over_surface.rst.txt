@@ -1,0 +1,129 @@
+Circulation is integral of curl over surface
+============================================
+
+The circulation of a vector field, defined as :ref:`such <Circulation is integral along curve>`,
+can be re-written as a double integral of the flux of that field over any surface whose boundary
+is the curve along which the circulation is calculated.
+
+**Notes:**
+
+#. This law is also known as the `Stokes' theorem <https://en.wikipedia.org/wiki/Stokes%27_theorem>`__.
+
+**Conditions:**
+
+#. The surface is smooth.
+#. The orientation of the surface and the orientation of the curve are related by the right-hand
+   rule.
+
+.. py:currentmodule:: symplyphysics.laws.fields.circulation_is_integral_of_curl_over_surface
+
+.. py:data:: circulation
+
+    Circulation of the vector :attr:`~field`.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: field
+
+    Any vector field, i.e. a vector-valued function that depends on the position vector.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: surface
+
+    Surface along which the integral is evaluated.
+
+    Symbol:
+        :code:`S`
+
+    Latex:
+        :math:`S`
+
+
+.. py:data:: initial_first_parameter
+
+    Initial value of the first surface parameter.
+
+Symbol:
+    :code:`u_1`
+
+Latex:
+    :math:`u_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: final_first_parameter
+
+    Final value of the first surface parameter.
+
+Symbol:
+    :code:`u_2`
+
+Latex:
+    :math:`u_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: initial_second_parameter
+
+    Initial value of the second surface parameter.
+
+Symbol:
+    :code:`v_1`
+
+Latex:
+    :math:`v_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: final_second_parameter
+
+    Final value of the second surface parameter.
+
+Symbol:
+    :code:`v_2`
+
+Latex:
+    :math:`v_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`G = SurfaceIntegral(dot(curl(F), dS), S, ((u_1, u_2), (v_1, v_2)))`
+
+
+    ..
+        FIXME Unimplemented latex printer for the surface integral
+
+    Latex:
+
+        .. math::
+
+            G = \iint \limits_S \left( \nabla \times \vec F \right) \cdot d \vec S
+
+
