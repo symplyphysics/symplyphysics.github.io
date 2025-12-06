@@ -1,0 +1,91 @@
+Circulation is integral along curve
+===================================
+
+The circulation of a vector field along a closed curve is defined via a curvilinear integral of
+the field along the curve.
+
+**Conditions:**
+
+#. The parametrization of the curve is a vector function of one parameter that is continuously
+   differentiable with respect to it.
+#. The curve is closed.
+
+.. py:currentmodule:: symplyphysics.laws.fields.circulation_is_integral_along_curve
+
+.. py:data:: circulation
+
+    Circulation of the vector :attr:`~field`.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: field
+
+    Any vector field, i.e. a vector-valued function that depends on the position vector.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: curve
+
+    Curve along which the :attr:`~circulation` is calculated.
+
+    Symbol:
+        :code:`C`
+
+    Latex:
+        :math:`C`
+
+
+.. py:data:: initial_parameter
+
+    Initial value of the curve parameter.
+
+Symbol:
+    :code:`u_1`
+
+Latex:
+    :math:`u_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: final_parameter
+
+    Final value of the curve parameter.
+
+Symbol:
+    :code:`u_2`
+
+Latex:
+    :math:`u_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`G = LineIntegral(dot(F, dr), C)`
+
+
+    Latex:
+        .. math::
+            G = \int \limits_{C} \left( {\vec F}, d \vec r \right)
+
+

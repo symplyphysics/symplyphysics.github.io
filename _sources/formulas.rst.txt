@@ -882,7 +882,7 @@ Formulas
         
             .. math::
         
-                W = \int_{C} \left( {\vec F} \left( {\vec r} \right), d \vec r \right)
+                W = \int \limits_{C} \left( {\vec F} \left( {\vec r} \right), d \vec r \right)
         - :doc:`(doc) <laws.dynamics.vector.normal_force_via_pressure_and_vector_area>` Normal force via pressure and vector area
         
             .. math::
@@ -1891,6 +1891,15 @@ Formulas
             .. math::
         
                 {\vec \tau} = \left[ {\vec p}, {\vec E} \right]
+- :doc:`(doc) <laws.fields>` :code:`laws.fields`
+
+    .. toggle::
+
+        - :doc:`(doc) <laws.fields.circulation_is_integral_along_curve>` Circulation is integral along curve
+        
+            .. math::
+        
+                G = \int \limits_{C} \left( {\vec F}, d \vec r \right)
 - :doc:`(doc) <laws.geometry>` :code:`laws.geometry`
 
     .. toggle::

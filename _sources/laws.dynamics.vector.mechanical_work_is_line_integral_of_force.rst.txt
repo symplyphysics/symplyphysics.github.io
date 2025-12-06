@@ -92,6 +92,6 @@ Dimension:
 
     Latex:
         .. math::
-            W = \int_{C} \left( {\vec F} \left( {\vec r} \right), d \vec r \right)
+            W = \int \limits_{C} \left( {\vec F} \left( {\vec r} \right), d \vec r \right)
 
 
