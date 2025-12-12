@@ -62,7 +62,7 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="conditions.thermodynamics.dielectrics.equation_of_state.html"><span class="doc">(doc)</span></a> Equation of state</p>
+<li><p><a class="reference internal" href="conditions.thermodynamics.dielectrics.dielectric_equation_of_state.html"><span class="doc">(doc)</span></a> Equation of state</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[D = f{\left(E,T,\rho \right)}\]</div>
@@ -184,19 +184,19 @@
 \[\alpha_{l} = \frac{\frac{\partial}{\partial T} l{\left(T,p \right)}}{l{\left(T,p \right)}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="definitions.lorentz_factor.html"><span class="doc">(doc)</span></a> Lorentz factor</p>
+<li><p><a class="reference internal" href="definitions.lorentz_factor_via_speed.html"><span class="doc">(doc)</span></a> Lorentz factor via speed</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\gamma = \frac{1}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="definitions.mass_flow_rate.html"><span class="doc">(doc)</span></a> Mass flow rate</p>
+<li><p><a class="reference internal" href="definitions.mass_flow_rate_is_time_derivative_of_mass.html"><span class="doc">(doc)</span></a> Mass flow rate</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\mu{\left(t \right)} = \frac{d}{d t} m{\left(t \right)}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="definitions.mass_fraction.html"><span class="doc">(doc)</span></a> Mass fraction of mixture component</p>
+<li><p><a class="reference internal" href="definitions.mass_fraction_is_component_mass_over_total_mass.html"><span class="doc">(doc)</span></a> Mass fraction of mixture component</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[w_{i} = \frac{m_{i}}{m}\]</div>
@@ -238,12 +238,6 @@
 \[P{\left(t \right)} = \frac{d}{d t} E{\left(t \right)}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="definitions.quality_factor_is_energies_ratio.html"><span class="doc">(doc)</span></a> Quality factor is ratio of energies</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[Q = \frac{\omega E}{P}\]</div>
-</div></blockquote>
-</li>
 <li><p><a class="reference internal" href="definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area.html"><span class="doc">(doc)</span></a> Radiant exitance is radiant flux emitted per unit area</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -254,12 +248,6 @@
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[n = \frac{v_\text{incident}}{v_\text{refracted}}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="definitions.rotational_inertia_is_mass_times_squared_radius.html"><span class="doc">(doc)</span></a> Rotational inertia is mass times squared radius</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[I = m r^{2}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="definitions.sound_level_in_decibels.html"><span class="doc">(doc)</span></a> Sound level in decibels</p>
@@ -808,6 +796,12 @@
 \[q{\left(t \right)} = \frac{\frac{F}{m} \cos{\left(\omega t + \varphi \right)}}{\omega_{0}^{2} - \omega^{2}}\]</div>
 </div></blockquote>
 </li>
+<li><p><a class="reference internal" href="laws.dynamics.displacement_in_forced_resonant_oscillations.html"><span class="doc">(doc)</span></a> Displacement in resonant oscillations</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[x{\left(t \right)} = \frac{F}{2 m \omega_{0}} t \sin{\left(\omega_{0} t + \varphi \right)}\]</div>
+</div></blockquote>
+</li>
 <li><p><a class="reference internal" href="laws.dynamics.force_is_derivative_of_momentum.html"><span class="doc">(doc)</span></a> Force is derivative of momentum</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -920,12 +914,6 @@
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\mu = \frac{1}{\frac{1}{m_{1}} + \frac{1}{m_{2}}}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.dynamics.resonant_oscillations.html"><span class="doc">(doc)</span></a> Displacement in resonant oscillations</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[x{\left(t \right)} = \frac{F}{2 m \omega_{0}} t \sin{\left(\omega_{0} t + \varphi \right)}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration.html"><span class="doc">(doc)</span></a> Rocket thrust is rocket mass times acceleration</p>
@@ -1180,7 +1168,7 @@
 \[{\vec \tau} \left( t \right) = \frac{d}{d t} {\vec L} \left( t \right)\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.dynamics.vector.torque_vector_of_twisting_force.html"><span class="doc">(doc)</span></a> Torque of twisting force</p>
+<li><p><a class="reference internal" href="laws.dynamics.vector.torque_is_position_vector_cross_force.html"><span class="doc">(doc)</span></a> Torque of twisting force</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[{\vec \tau} = \left[ {\vec r}, {\vec F} \right]\]</div>
@@ -1932,6 +1920,12 @@
 \[\begin{split}\begin{pmatrix} V_\text{i} \\ I_\text{o} \end{pmatrix} = \begin{pmatrix} H_\text{ii} &amp; H_\text{io} \\ H_\text{oi} &amp; H_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ V_\text{o} \end{pmatrix}\end{split}\]</div>
 </div></blockquote>
 </li>
+<li><p><a class="reference internal" href="laws.electricity.circuits.transmission_lines.impedance_matrix_equation.html"><span class="doc">(doc)</span></a> Impedance matrix equation</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[\begin{split}\begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix} = \begin{pmatrix} Z_\text{ii} &amp; Z_\text{io} \\ Z_\text{oi} &amp; Z_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix}\end{split}\]</div>
+</div></blockquote>
+</li>
 <li><p><a class="reference internal" href="laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.html"><span class="doc">(doc)</span></a> Impedances of π-type circuit of transmission line</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -1980,7 +1974,7 @@
 \[\Gamma = \frac{Z_\text{L} - Z_\text{S}}{Z_\text{L} + Z_\text{S}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.electricity.circuits.transmission_lines.scattering_matrix.html"><span class="doc">(doc)</span></a> Scattering matrix equation</p>
+<li><p><a class="reference internal" href="laws.electricity.circuits.transmission_lines.scattering_matrix_equation.html"><span class="doc">(doc)</span></a> Scattering matrix equation</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\begin{split}\begin{pmatrix} b_\text{i} \\ b_\text{o} \end{pmatrix} = \begin{pmatrix} S_\text{ii} &amp; S_\text{io} \\ S_\text{oi} &amp; S_\text{oo} \end{pmatrix} \begin{pmatrix} a_\text{i} \\ a_\text{o} \end{pmatrix}\end{split}\]</div>
@@ -1998,13 +1992,7 @@
 \[\begin{split}\begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix} = \begin{pmatrix} Y_\text{ii} &amp; Y_\text{io} \\ Y_\text{oi} &amp; Y_\text{oo} \end{pmatrix} \begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix}\end{split}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.electricity.circuits.transmission_lines.total_resistance_matrix.html"><span class="doc">(doc)</span></a> Impedance matrix equation</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[\begin{split}\begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix} = \begin{pmatrix} Z_\text{ii} &amp; Z_\text{io} \\ Z_\text{oi} &amp; Z_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix}\end{split}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.electricity.circuits.transmission_lines.transmission_matrix.html"><span class="doc">(doc)</span></a> Transmission matrix equation</p>
+<li><p><a class="reference internal" href="laws.electricity.circuits.transmission_lines.transmission_matrix_equation.html"><span class="doc">(doc)</span></a> Transmission matrix equation</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\begin{split}\begin{pmatrix} V_\text{i} \\ I_\text{i} \end{pmatrix} = \begin{pmatrix} A &amp; B \\ C &amp; D \end{pmatrix} \begin{pmatrix} V_\text{o} \\ I_\text{o} \end{pmatrix}\end{split}\]</div>
@@ -2496,13 +2484,13 @@
 \[s_\text{east} = \frac{4 \pi}{3} \frac{t}{T} h \cos{\left(\phi \right)}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.gravity.eccentricity_of_orbit.html"><span class="doc">(doc)</span></a> Eccentricity of orbit</p>
+<li><p><a class="reference internal" href="laws.gravity.eccentricity_of_orbit_via_orbit_parameters.html"><span class="doc">(doc)</span></a> Eccentricity of orbit via orbit parameters</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[e = \sqrt{1 - \left(\frac{b}{a}\right)^{2}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.gravity.escape_velocity.html"><span class="doc">(doc)</span></a> First escape speed</p>
+<li><p><a class="reference internal" href="laws.gravity.first_escape_velocity.html"><span class="doc">(doc)</span></a> First escape velocity</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[v = \sqrt{\frac{G m}{r + h}}\]</div>
@@ -2536,12 +2524,6 @@
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\mathfrak{K} = \frac{G M}{4 \pi^{2}}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.gravity.large_half_axis_of_orbit.html"><span class="doc">(doc)</span></a> Semimajor axis of orbit via mass and speed</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[a = \frac{G m}{v^{2}}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="laws.gravity.maximum_angle_of_rotation_during_gravitational_maneuver.html"><span class="doc">(doc)</span></a> Maximum angle of rotation during gravitational maneuver</p>
@@ -2596,6 +2578,12 @@
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[v = \sqrt{\frac{2 G m}{r + h}}\]</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="laws.gravity.semimajor_axis_of_orbit_via_mass_and_speed.html"><span class="doc">(doc)</span></a> Semimajor axis of orbit via mass and speed</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[a = \frac{G m}{v^{2}}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies.html"><span class="doc">(doc)</span></a> Southerly deviation from plumbline of falling bodies</p>
@@ -2688,6 +2676,12 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
+<li><p><a class="reference internal" href="laws.hydro.apparent_weight_of_fully_submersed_body.html"><span class="doc">(doc)</span></a> Apparent weight of fully submersed body</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)\]</div>
+</div></blockquote>
+</li>
 <li><p><a class="reference internal" href="laws.hydro.bulk_stress_is_bulk_modulus_times_strain.html"><span class="doc">(doc)</span></a> Bulk stress is bulk modulus times strain</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -2832,12 +2826,6 @@
 \[\frac{d}{d t} A{\left(t \right)} u{\left(t \right)} = 0\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.hydro.weight_in_fluid_via_ratio_of_densities.html"><span class="doc">(doc)</span></a> Apparent weight of a fully submersed body in fluid</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)\]</div>
-</div></blockquote>
-</li>
 </ul>
 </div>
 </div></blockquote>
@@ -2944,7 +2932,7 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.kinematics.damped_oscillations.damped_angular_frequency.html"><span class="doc">(doc)</span></a> Damped angular frequency</p>
+<li><p><a class="reference internal" href="laws.kinematics.damped_oscillations.damped_angular_frequency_via_damping_ratio.html"><span class="doc">(doc)</span></a> Damped angular frequency</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\omega_\text{d} = \omega \sqrt{1 - \zeta^{2}}\]</div>
@@ -3014,19 +3002,19 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center.html"><span class="doc">(doc)</span></a> Slab about perpendicular axis through center</p>
+<li><p><a class="reference internal" href="laws.kinematics.rotational_inertia.geometries.rotational_inertia_of_slab_about_perpendicular_axis_through_center.html"><span class="doc">(doc)</span></a> Slab about perpendicular axis through center</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[I = \frac{m \left(l_{1}^{2} + l_{2}^{2}\right)}{12}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis.html"><span class="doc">(doc)</span></a> Solid disk about central axis</p>
+<li><p><a class="reference internal" href="laws.kinematics.rotational_inertia.geometries.rotational_inertia_of_solid_disk_about_central_axis.html"><span class="doc">(doc)</span></a> Solid disk about central axis</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[I = \frac{m r^{2}}{2}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length.html"><span class="doc">(doc)</span></a> Thin rod about axis through center perpendicular to length</p>
+<li><p><a class="reference internal" href="laws.kinematics.rotational_inertia.geometries.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.html"><span class="doc">(doc)</span></a> Thin rod about axis through center perpendicular to length</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[I = \frac{m l^{2}}{12}\]</div>
@@ -3082,7 +3070,7 @@
 \[{\vec a}_\text{cp} = {\vec \omega} \left( {\vec r}, {\vec \omega} \right) - {\vec r} \left( {\vec \omega}, {\vec \omega} \right)\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration.html"><span class="doc">(doc)</span></a> Coriolis acceleration</p>
+<li><p><a class="reference internal" href="laws.kinematics.vector.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html"><span class="doc">(doc)</span></a> Coriolis acceleration via relative velocity and angular velocity</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[{\vec a}_\text{Cor} = 2 \left[ {\vec v}_\text{rel}, {\vec \omega} \right]\]</div>
@@ -3144,6 +3132,12 @@
 \[P_\text{FNL} = \exp{\left(- B_\text{g}^2 \tau \right)}\]</div>
 </div></blockquote>
 </li>
+<li><p><a class="reference internal" href="laws.nuclear.half_life_decay.html"><span class="doc">(doc)</span></a> Half life decay</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[X = X_{0} \cdot 2^{- \frac{t}{t_{1/2}}}\]</div>
+</div></blockquote>
+</li>
 <li><p><a class="reference internal" href="laws.nuclear.infinite_multiplication_factor.html"><span class="doc">(doc)</span></a> Infinite multiplication factor formula</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
@@ -3154,12 +3148,6 @@
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[k_{\infty} = \frac{\nu \Sigma_\text{f}}{\Sigma_\text{a}}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.nuclear.law_of_half_life.html"><span class="doc">(doc)</span></a> Solution to the exponential decay equation</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[X = X_{0} \cdot 2^{- \frac{t}{t_{1/2}}}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="laws.nuclear.macroscopic_cross_section_from_free_mean_path.html"><span class="doc">(doc)</span></a> Macroscopic cross section from mean free path</p>
@@ -3370,7 +3358,7 @@
 \[\frac{1}{f} = \frac{1}{d_\text{o}} + \frac{1}{d_\text{i}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.optics.light_pressure.html"><span class="doc">(doc)</span></a> Light pressure</p>
+<li><p><a class="reference internal" href="laws.optics.light_pressure_via_radiation_intensity_and_reflection_coefficient.html"><span class="doc">(doc)</span></a> Light pressure</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[p = \frac{I \left(1 + R\right)}{c}\]</div>
@@ -3412,7 +3400,7 @@
 \[D = \left(n - n_{0}\right) \left(\frac{1}{r_{1}} - \frac{1}{r_{2}}\right)\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.optics.optical_strength_of_spherical_lens_from_refractive_indices_of_environment_and_lens_and_focal_distances.html"><span class="doc">(doc)</span></a> Optical power of spherical lens from refractive indices and distances</p>
+<li><p><a class="reference internal" href="laws.optics.optical_power_of_spherical_lens_from_refractive_indices_and_distances.html"><span class="doc">(doc)</span></a> Optical power of spherical lens from refractive indices and distances</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[- \frac{n_{0}}{d_\text{o}} + \frac{n}{d_\text{i}} = \frac{n - n_{0}}{r}\]</div>
@@ -3514,7 +3502,7 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.quantum_mechanics.harmonic_oscillator.energy_levels.html"><span class="doc">(doc)</span></a> Energy levels of harmonic oscillator</p>
+<li><p><a class="reference internal" href="laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_energy_levels.html"><span class="doc">(doc)</span></a> Energy levels of harmonic oscillator</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[E_{n} = \left(N + \frac{1}{2}\right) \hbar \omega\]</div>
@@ -3572,7 +3560,7 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.relativistic.coordinate_conversion_velocity_constant.html"><span class="doc">(doc)</span></a> Coordinate conversion at constant velocity</p>
+<li><p><a class="reference internal" href="laws.relativistic.lorentz_transformation_of_coordinate.html"><span class="doc">(doc)</span></a> Lorentz transformation of coordinate</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[x_{2} = \frac{x_{1} - v t_{1}}{\sqrt{1 - \left(\frac{v}{c}\right)^{2}}}\]</div>
@@ -3590,25 +3578,37 @@
 \[\Delta \tau = \frac{\Delta s}{c}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.relativistic.relativistic_kinetic_energy.html"><span class="doc">(doc)</span></a> Relativistic kinetic energy</p>
+<li><p><a class="reference internal" href="laws.relativistic.relativistic_energy_via_relativistic_mass.html"><span class="doc">(doc)</span></a> Relativistic energy via relativistic mass</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[E = m c^{2}\]</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="laws.relativistic.relativistic_energy_via_relativistic_momentum_and_rest_mass.html"><span class="doc">(doc)</span></a> Total energy via momentum and rest mass</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[E^{2} = \left(p c\right)^{2} + \left(m_{0} c^{2}\right)^{2}\]</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="laws.relativistic.relativistic_kinetic_energy_via_rest_mass_and_lorentz_factor.html"><span class="doc">(doc)</span></a> Relativistic kinetic energy via rest mass and Lorentz factor</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[K = \left(\gamma - 1\right) m_{0} c^{2}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.relativistic.relativistic_length.html"><span class="doc">(doc)</span></a> Relativistic length via rest length and speed</p>
+<li><p><a class="reference internal" href="laws.relativistic.relativistic_length_via_proper_length_and_speed.html"><span class="doc">(doc)</span></a> Relativistic length via proper length and speed</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[l = l_{0} \sqrt{1 - \frac{v^{2}}{c^{2}}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.relativistic.relativistic_mass.html"><span class="doc">(doc)</span></a> Relativistic mass via rest mass and speed</p>
+<li><p><a class="reference internal" href="laws.relativistic.relativistic_mass_via_rest_mass_and_speed.html"><span class="doc">(doc)</span></a> Relativistic mass via rest mass and speed</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.relativistic.relativistic_momentum.html"><span class="doc">(doc)</span></a> Relativistic momentum via rest mass and speed</p>
+<li><p><a class="reference internal" href="laws.relativistic.relativistic_momentum_via_rest_mass_and_speed.html"><span class="doc">(doc)</span></a> Relativistic momentum via rest mass and speed</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[p = \frac{m_{0} v}{\sqrt{1 - \left(\frac{v}{c}\right)^{2}}}\]</div>
@@ -3626,28 +3626,16 @@
 \[t = \frac{\tau}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.relativistic.spacetime_interval.html"><span class="doc">(doc)</span></a> Spacetime interval via time and distance</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[s^{2} = \left(c t\right)^{2} - d^{2}\]</div>
-</div></blockquote>
-</li>
 <li><p><a class="reference internal" href="laws.relativistic.spacetime_interval_is_lorentz_invariant.html"><span class="doc">(doc)</span></a> Spacetime interval is Lorentz invariant</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[s_{2} = s_{1}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.relativistic.total_energy_via_momentum_and_rest_mass.html"><span class="doc">(doc)</span></a> Total energy via momentum and rest mass</p>
+<li><p><a class="reference internal" href="laws.relativistic.spacetime_interval_via_time_and_distance.html"><span class="doc">(doc)</span></a> Spacetime interval via time and distance</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
-\[E^{2} = \left(p c\right)^{2} + \left(m_{0} c^{2}\right)^{2}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.relativistic.total_energy_via_relativistic_mass.html"><span class="doc">(doc)</span></a> Total energy via relativistic mass</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[E = m c^{2}\]</div>
+\[s^{2} = \left(c t\right)^{2} - d^{2}\]</div>
 </div></blockquote>
 </li>
 </ul>
@@ -3658,13 +3646,13 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.relativistic.vector.acceleration_from_force_and_velocity.html"><span class="doc">(doc)</span></a> Acceleration from force and velocity</p>
+<li><p><a class="reference internal" href="laws.relativistic.vector.relativistic_acceleration_from_relativistic_force_and_velocity.html"><span class="doc">(doc)</span></a> Relativistic acceleration from relativistic force and velocity</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[{\vec a} = \frac{{\vec F} - \frac{\left( {\vec F}, {\vec v} \right)}{c^{2}} {\vec v}}{m_{0} \gamma}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.relativistic.vector.force_acceleration_relation.html"><span class="doc">(doc)</span></a> Force from acceleration and velocity</p>
+<li><p><a class="reference internal" href="laws.relativistic.vector.relativistic_force_acceleration_relation.html"><span class="doc">(doc)</span></a> Force from acceleration and velocity</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[{\vec F} = \gamma^{3} m_{0} {\vec a}_\text{t} + \gamma m_{0} {\vec a}_\text{n}\]</div>
@@ -3894,7 +3882,7 @@
 \[G = H - T S\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.grashof_number.html"><span class="doc">(doc)</span></a> Grashof number</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.grashof_number_via_fluid_parameters.html"><span class="doc">(doc)</span></a> Grashof number</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\text{Gr} = \frac{g \alpha_{V} \left(T_\text{s} - T_\text{b}\right) l_\text{c}^{3}}{\nu^{2}}\]</div>
@@ -4262,64 +4250,64 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume.html"><span class="doc">(doc)</span></a> Critical molar volume</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.critical_van_der_waals_molar_volume.html"><span class="doc">(doc)</span></a> Critical van der Waals molar volume</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[v_{\text{c},\text{m}} = 3 b\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure.html"><span class="doc">(doc)</span></a> Critical pressure</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.critical_van_der_waals_pressure.html"><span class="doc">(doc)</span></a> Critical van der Waals pressure</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[p_\text{c} = \frac{a}{27 b^{2}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature.html"><span class="doc">(doc)</span></a> Critical temperature</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.critical_van_der_waals_temperature.html"><span class="doc">(doc)</span></a> Critical van der Waals temperature</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[T_\text{c} = \frac{8 a}{27 R b}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.dimensionless_equation.html"><span class="doc">(doc)</span></a> Dimensionless equation</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.dimensionless_van_der_waals_equation.html"><span class="doc">(doc)</span></a> Dimensionless van der Waals equation</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\left(p_{r} + \frac{3}{V_{r}^{2}}\right) \left(V_{r} - \frac{1}{3}\right) = \frac{8 T_{r}}{3}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy.html"><span class="doc">(doc)</span></a> Molar internal energy</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[u_\text{m} = \int c_{V, \text{m}}{\left(T \right)}\, dT - \frac{a}{v_\text{m}}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure.html"><span class="doc">(doc)</span></a> Reduced pressure</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.reduced_van_der_waals_pressure.html"><span class="doc">(doc)</span></a> Reduced van der Waals pressure</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[p_{r} = \frac{p}{p_\text{c}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.reduced_temperature.html"><span class="doc">(doc)</span></a> Reduced temperature</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.reduced_van_der_waals_temperature.html"><span class="doc">(doc)</span></a> Reduced van der Waals temperature</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[T_{r} = \frac{T}{T_\text{c}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume.html"><span class="doc">(doc)</span></a> Reduced volume</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.reduced_van_der_waals_volume.html"><span class="doc">(doc)</span></a> Reduced van der Waals volume</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[V_{r} = \frac{V}{V_\text{c}}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient.html"><span class="doc">(doc)</span></a> Second virial coefficient</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[C_{2} = b - \frac{a}{R T}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.van_der_vaals_equation.html"><span class="doc">(doc)</span></a> Van der Waals equation</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\left(p + \frac{a}{v_\text{m}^{2}}\right) \left(v_\text{m} - b\right) = R T\]</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.van_der_waals_molar_internal_energy.html"><span class="doc">(doc)</span></a> Van der Waals molar internal energy</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[u_\text{m} = \int c_{V, \text{m}}{\left(T \right)}\, dT - \frac{a}{v_\text{m}}\]</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="laws.thermodynamics.equations_of_state.van_der_waals.van_der_waals_second_virial_coefficient.html"><span class="doc">(doc)</span></a> Van der Waals second virial coefficient</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[C_{2} = b - \frac{a}{R T}\]</div>
 </div></blockquote>
 </li>
 </ul>
@@ -4330,19 +4318,19 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.thermodynamics.euler_relations.enthalpy_formula.html"><span class="doc">(doc)</span></a> Enthalpy formula</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.euler_relations.enthalpy_euler_relation.html"><span class="doc">(doc)</span></a> Euler relation for enthalpy</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[H = T S + \mu N\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.euler_relations.gibbs_energy_formula.html"><span class="doc">(doc)</span></a> Gibbs energy formula</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.euler_relations.gibbs_energy_euler_relation.html"><span class="doc">(doc)</span></a> Gibbs energy formula</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[G = \mu N\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.euler_relations.internal_energy_formula.html"><span class="doc">(doc)</span></a> Internal energy formula</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.euler_relations.internal_energy_euler_relation.html"><span class="doc">(doc)</span></a> Internal energy formula</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[U = T S - p V + \mu N\]</div>
@@ -4402,40 +4390,40 @@
 <blockquote>
 <div><div class="toggle docutils container">
 <ul>
-<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.energy_distribution.html"><span class="doc">(doc)</span></a> Energy distribution</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_energy_distribution.html"><span class="doc">(doc)</span></a> Energy distribution</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[f(E) = \frac{2 \sqrt{\frac{E}{\pi}}}{T^{\frac{3}{2}} k_\text{B}^{\frac{3}{2}}} \exp{\left(- \frac{E}{k_\text{B} T} \right)}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed.html"><span class="doc">(doc)</span></a> Most probable speed</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_most_probable_speed.html"><span class="doc">(doc)</span></a> Most probable speed</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[v_\text{prob} = \sqrt{\frac{2 k_\text{B} T}{m}}\]</div>
 </div></blockquote>
 </li>
-<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution.html"><span class="doc">(doc)</span></a> Single-particle discrete distribution</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[N_{i} = \frac{N}{Z} \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution.html"><span class="doc">(doc)</span></a> Speed distribution</p>
+<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_speed_distribution.html"><span class="doc">(doc)</span></a> Speed distribution</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[f(v) = \sqrt{\frac{2}{\pi}} \left(\frac{m}{k_\text{B} T}\right)^{\frac{3}{2}} v^{2} \exp{\left(- \frac{m v^{2}}{2 k_\text{B} T} \right)}\]</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_velocity_component_distribution.html"><span class="doc">(doc)</span></a> Velocity component distribution</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[f(v_{k)} = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp{\left(- \frac{m v_{k}^{2}}{2 k_\text{B} T} \right)}\]</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_maxwell_boltzmann_distribution.html"><span class="doc">(doc)</span></a> Single-particle discrete distribution</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[N_{i} = \frac{N}{Z} \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate.html"><span class="doc">(doc)</span></a> Statistical weight of macrostate</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
 \[\Omega = \sum_i {N}_{i}! \prod_i {N}_{i}!^{-1}\]</div>
-</div></blockquote>
-</li>
-<li><p><a class="reference internal" href="laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution.html"><span class="doc">(doc)</span></a> Velocity component distribution</p>
-<blockquote>
-<div><div class="math notranslate nohighlight">
-\[f(v_{k)} = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp{\left(- \frac{m v_{k}^{2}}{2 k_\text{B} T} \right)}\]</div>
 </div></blockquote>
 </li>
 </ul>
@@ -4475,7 +4463,7 @@
 <li><p><a class="reference internal" href="laws.waves.displacement_in_standing_wave.html"><span class="doc">(doc)</span></a> Displacement in standing wave</p>
 <blockquote>
 <div><div class="math notranslate nohighlight">
-\[u = 2 u_\text{max} \sin(k x) \cos(\omega t)\]</div>
+\[u = 2 u_\text{max} \sin{\left(k x \right)} \cos{\left(\omega t \right)}\]</div>
 </div></blockquote>
 </li>
 <li><p><a class="reference internal" href="laws.waves.frequency_shift_from_speed_in_arbitrary_motion.html"><span class="doc">(doc)</span></a> Frequency shift from speed in arbitrary motion</p>

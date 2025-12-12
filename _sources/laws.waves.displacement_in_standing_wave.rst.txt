@@ -20,22 +20,28 @@ moving in opposite directions.
 
     Displacement of the resulting wave.
 
-    Symbol:
-        :code:`u`
+Symbol:
+    :code:`u`
 
-    Latex:
-        :math:`u`
+Latex:
+    :math:`u`
+
+Dimension:
+    :code:`any_dimension`
 
 
 .. py:data:: amplitude
 
     Amplitude of the interfering waves.
 
-    Symbol:
-        :code:`u_max`
+Symbol:
+    :code:`u_max`
 
-    Latex:
-        :math:`u_\text{max}`
+Latex:
+    :math:`u_\text{max}`
+
+Dimension:
+    :code:`any_dimension`
 
 
 .. py:data:: angular_wavenumber
@@ -98,8 +104,9 @@ Dimension:
 
     :code:`u = 2 * u_max * sin(k * x) * cos(w * t)`
 
+
     Latex:
         .. math::
-            u = 2 u_\text{max} \sin(k x) \cos(\omega t)
+            u = 2 u_\text{max} \sin{\left(k x \right)} \cos{\left(\omega t \right)}
 
 

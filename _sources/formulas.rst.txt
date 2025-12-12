@@ -14,7 +14,7 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <conditions.thermodynamics.dielectrics.equation_of_state>` Equation of state
+        - :doc:`(doc) <conditions.thermodynamics.dielectrics.dielectric_equation_of_state>` Equation of state
         
             .. math::
         
@@ -113,17 +113,17 @@ Formulas
             .. math::
         
                 \alpha_{l} = \frac{\frac{\partial}{\partial T} l{\left(T,p \right)}}{l{\left(T,p \right)}}
-        - :doc:`(doc) <definitions.lorentz_factor>` Lorentz factor
+        - :doc:`(doc) <definitions.lorentz_factor_via_speed>` Lorentz factor via speed
         
             .. math::
         
                 \gamma = \frac{1}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}
-        - :doc:`(doc) <definitions.mass_flow_rate>` Mass flow rate
+        - :doc:`(doc) <definitions.mass_flow_rate_is_time_derivative_of_mass>` Mass flow rate
         
             .. math::
         
                 \mu{\left(t \right)} = \frac{d}{d t} m{\left(t \right)}
-        - :doc:`(doc) <definitions.mass_fraction>` Mass fraction of mixture component
+        - :doc:`(doc) <definitions.mass_fraction_is_component_mass_over_total_mass>` Mass fraction of mixture component
         
             .. math::
         
@@ -158,11 +158,6 @@ Formulas
             .. math::
         
                 P{\left(t \right)} = \frac{d}{d t} E{\left(t \right)}
-        - :doc:`(doc) <definitions.quality_factor_is_energies_ratio>` Quality factor is ratio of energies
-        
-            .. math::
-        
-                Q = \frac{\omega E}{P}
         - :doc:`(doc) <definitions.radiant_exitance_is_radiant_flux_emitted_per_unit_area>` Radiant exitance is radiant flux emitted per unit area
         
             .. math::
@@ -173,11 +168,6 @@ Formulas
             .. math::
         
                 n = \frac{v_\text{incident}}{v_\text{refracted}}
-        - :doc:`(doc) <definitions.rotational_inertia_is_mass_times_squared_radius>` Rotational inertia is mass times squared radius
-        
-            .. math::
-        
-                I = m r^{2}
         - :doc:`(doc) <definitions.sound_level_in_decibels>` Sound level in decibels
         
             .. math::
@@ -609,6 +599,11 @@ Formulas
             .. math::
         
                 q{\left(t \right)} = \frac{\frac{F}{m} \cos{\left(\omega t + \varphi \right)}}{\omega_{0}^{2} - \omega^{2}}
+        - :doc:`(doc) <laws.dynamics.displacement_in_forced_resonant_oscillations>` Displacement in resonant oscillations
+        
+            .. math::
+        
+                x{\left(t \right)} = \frac{F}{2 m \omega_{0}} t \sin{\left(\omega_{0} t + \varphi \right)}
         - :doc:`(doc) <laws.dynamics.force_is_derivative_of_momentum>` Force is derivative of momentum
         
             .. math::
@@ -704,11 +699,6 @@ Formulas
             .. math::
         
                 \mu = \frac{1}{\frac{1}{m_{1}} + \frac{1}{m_{2}}}
-        - :doc:`(doc) <laws.dynamics.resonant_oscillations>` Displacement in resonant oscillations
-        
-            .. math::
-        
-                x{\left(t \right)} = \frac{F}{2 m \omega_{0}} t \sin{\left(\omega_{0} t + \varphi \right)}
         - :doc:`(doc) <laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration>` Rocket thrust is rocket mass times acceleration
         
             .. math::
@@ -903,7 +893,7 @@ Formulas
             .. math::
         
                 {\vec \tau} \left( t \right) = \frac{d}{d t} {\vec L} \left( t \right)
-        - :doc:`(doc) <laws.dynamics.vector.torque_vector_of_twisting_force>` Torque of twisting force
+        - :doc:`(doc) <laws.dynamics.vector.torque_is_position_vector_cross_force>` Torque of twisting force
         
             .. math::
         
@@ -1511,6 +1501,11 @@ Formulas
             .. math::
         
                 \begin{pmatrix} V_\text{i} \\ I_\text{o} \end{pmatrix} = \begin{pmatrix} H_\text{ii} & H_\text{io} \\ H_\text{oi} & H_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ V_\text{o} \end{pmatrix}
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.impedance_matrix_equation>` Impedance matrix equation
+        
+            .. math::
+        
+                \begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix} = \begin{pmatrix} Z_\text{ii} & Z_\text{io} \\ Z_\text{oi} & Z_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix}
         - :doc:`(doc) <laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line>` Impedances of π-type circuit of transmission line
         
             .. math::
@@ -1551,7 +1546,7 @@ Formulas
             .. math::
         
                 \Gamma = \frac{Z_\text{L} - Z_\text{S}}{Z_\text{L} + Z_\text{S}}
-        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.scattering_matrix>` Scattering matrix equation
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.scattering_matrix_equation>` Scattering matrix equation
         
             .. math::
         
@@ -1566,12 +1561,7 @@ Formulas
             .. math::
         
                 \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix} = \begin{pmatrix} Y_\text{ii} & Y_\text{io} \\ Y_\text{oi} & Y_\text{oo} \end{pmatrix} \begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix}
-        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.total_resistance_matrix>` Impedance matrix equation
-        
-            .. math::
-        
-                \begin{pmatrix} V_\text{i} \\ V_\text{o} \end{pmatrix} = \begin{pmatrix} Z_\text{ii} & Z_\text{io} \\ Z_\text{oi} & Z_\text{oo} \end{pmatrix} \begin{pmatrix} I_\text{i} \\ I_\text{o} \end{pmatrix}
-        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix>` Transmission matrix equation
+        - :doc:`(doc) <laws.electricity.circuits.transmission_lines.transmission_matrix_equation>` Transmission matrix equation
         
             .. math::
         
@@ -1957,12 +1947,12 @@ Formulas
             .. math::
         
                 s_\text{east} = \frac{4 \pi}{3} \frac{t}{T} h \cos{\left(\phi \right)}
-        - :doc:`(doc) <laws.gravity.eccentricity_of_orbit>` Eccentricity of orbit
+        - :doc:`(doc) <laws.gravity.eccentricity_of_orbit_via_orbit_parameters>` Eccentricity of orbit via orbit parameters
         
             .. math::
         
                 e = \sqrt{1 - \left(\frac{b}{a}\right)^{2}}
-        - :doc:`(doc) <laws.gravity.escape_velocity>` First escape speed
+        - :doc:`(doc) <laws.gravity.first_escape_velocity>` First escape velocity
         
             .. math::
         
@@ -1992,11 +1982,6 @@ Formulas
             .. math::
         
                 \mathfrak{K} = \frac{G M}{4 \pi^{2}}
-        - :doc:`(doc) <laws.gravity.large_half_axis_of_orbit>` Semimajor axis of orbit via mass and speed
-        
-            .. math::
-        
-                a = \frac{G m}{v^{2}}
         - :doc:`(doc) <laws.gravity.maximum_angle_of_rotation_during_gravitational_maneuver>` Maximum angle of rotation during gravitational maneuver
         
             .. math::
@@ -2042,6 +2027,11 @@ Formulas
             .. math::
         
                 v = \sqrt{\frac{2 G m}{r + h}}
+        - :doc:`(doc) <laws.gravity.semimajor_axis_of_orbit_via_mass_and_speed>` Semimajor axis of orbit via mass and speed
+        
+            .. math::
+        
+                a = \frac{G m}{v^{2}}
         - :doc:`(doc) <laws.gravity.southerly_deviation_from_plumbline_of_falling_bodies>` Southerly deviation from plumbline of falling bodies
         
             .. math::
@@ -2109,6 +2099,11 @@ Formulas
 
     .. toggle::
 
+        - :doc:`(doc) <laws.hydro.apparent_weight_of_fully_submersed_body>` Apparent weight of fully submersed body
+        
+            .. math::
+        
+                W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)
         - :doc:`(doc) <laws.hydro.bulk_stress_is_bulk_modulus_times_strain>` Bulk stress is bulk modulus times strain
         
             .. math::
@@ -2229,11 +2224,6 @@ Formulas
             .. math::
         
                 \frac{d}{d t} A{\left(t \right)} u{\left(t \right)} = 0
-        - :doc:`(doc) <laws.hydro.weight_in_fluid_via_ratio_of_densities>` Apparent weight of a fully submersed body in fluid
-        
-            .. math::
-        
-                W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)
 - :doc:`(doc) <laws.kinematics>` :code:`laws.kinematics`
 
     .. toggle::
@@ -2317,7 +2307,7 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.kinematics.damped_oscillations.damped_angular_frequency>` Damped angular frequency
+        - :doc:`(doc) <laws.kinematics.damped_oscillations.damped_angular_frequency_via_damping_ratio>` Damped angular frequency
         
             .. math::
         
@@ -2370,17 +2360,17 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.slab_about_perpendicular_axis_through_center>` Slab about perpendicular axis through center
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.rotational_inertia_of_slab_about_perpendicular_axis_through_center>` Slab about perpendicular axis through center
         
             .. math::
         
                 I = \frac{m \left(l_{1}^{2} + l_{2}^{2}\right)}{12}
-        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.solid_disk_about_central_axis>` Solid disk about central axis
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.rotational_inertia_of_solid_disk_about_central_axis>` Solid disk about central axis
         
             .. math::
         
                 I = \frac{m r^{2}}{2}
-        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.thin_rod_about_axis_through_center_perpendicular_to_length>` Thin rod about axis through center perpendicular to length
+        - :doc:`(doc) <laws.kinematics.rotational_inertia.geometries.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length>` Thin rod about axis through center perpendicular to length
         
             .. math::
         
@@ -2424,7 +2414,7 @@ Formulas
             .. math::
         
                 {\vec a}_\text{cp} = {\vec \omega} \left( {\vec r}, {\vec \omega} \right) - {\vec r} \left( {\vec \omega}, {\vec \omega} \right)
-        - :doc:`(doc) <laws.kinematics.vector.coriolis_acceleration>` Coriolis acceleration
+        - :doc:`(doc) <laws.kinematics.vector.coriolis_acceleration_via_relative_velocity_and_angular_velocity>` Coriolis acceleration via relative velocity and angular velocity
         
             .. math::
         
@@ -2473,6 +2463,11 @@ Formulas
             .. math::
         
                 P_\text{FNL} = \exp{\left(- B_\text{g}^2 \tau \right)}
+        - :doc:`(doc) <laws.nuclear.half_life_decay>` Half life decay
+        
+            .. math::
+        
+                X = X_{0} \cdot 2^{- \frac{t}{t_{1/2}}}
         - :doc:`(doc) <laws.nuclear.infinite_multiplication_factor>` Infinite multiplication factor formula
         
             .. math::
@@ -2483,11 +2478,6 @@ Formulas
             .. math::
         
                 k_{\infty} = \frac{\nu \Sigma_\text{f}}{\Sigma_\text{a}}
-        - :doc:`(doc) <laws.nuclear.law_of_half_life>` Solution to the exponential decay equation
-        
-            .. math::
-        
-                X = X_{0} \cdot 2^{- \frac{t}{t_{1/2}}}
         - :doc:`(doc) <laws.nuclear.macroscopic_cross_section_from_free_mean_path>` Macroscopic cross section from mean free path
         
             .. math::
@@ -2656,7 +2646,7 @@ Formulas
             .. math::
         
                 \frac{1}{f} = \frac{1}{d_\text{o}} + \frac{1}{d_\text{i}}
-        - :doc:`(doc) <laws.optics.light_pressure>` Light pressure
+        - :doc:`(doc) <laws.optics.light_pressure_via_radiation_intensity_and_reflection_coefficient>` Light pressure
         
             .. math::
         
@@ -2691,7 +2681,7 @@ Formulas
             .. math::
         
                 D = \left(n - n_{0}\right) \left(\frac{1}{r_{1}} - \frac{1}{r_{2}}\right)
-        - :doc:`(doc) <laws.optics.optical_strength_of_spherical_lens_from_refractive_indices_of_environment_and_lens_and_focal_distances>` Optical power of spherical lens from refractive indices and distances
+        - :doc:`(doc) <laws.optics.optical_power_of_spherical_lens_from_refractive_indices_and_distances>` Optical power of spherical lens from refractive indices and distances
         
             .. math::
         
@@ -2768,7 +2758,7 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.energy_levels>` Energy levels of harmonic oscillator
+        - :doc:`(doc) <laws.quantum_mechanics.harmonic_oscillator.quantum_harmonic_oscillator_energy_levels>` Energy levels of harmonic oscillator
         
             .. math::
         
@@ -2811,7 +2801,7 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.relativistic.coordinate_conversion_velocity_constant>` Coordinate conversion at constant velocity
+        - :doc:`(doc) <laws.relativistic.lorentz_transformation_of_coordinate>` Lorentz transformation of coordinate
         
             .. math::
         
@@ -2826,22 +2816,32 @@ Formulas
             .. math::
         
                 \Delta \tau = \frac{\Delta s}{c}
-        - :doc:`(doc) <laws.relativistic.relativistic_kinetic_energy>` Relativistic kinetic energy
+        - :doc:`(doc) <laws.relativistic.relativistic_energy_via_relativistic_mass>` Relativistic energy via relativistic mass
+        
+            .. math::
+        
+                E = m c^{2}
+        - :doc:`(doc) <laws.relativistic.relativistic_energy_via_relativistic_momentum_and_rest_mass>` Total energy via momentum and rest mass
+        
+            .. math::
+        
+                E^{2} = \left(p c\right)^{2} + \left(m_{0} c^{2}\right)^{2}
+        - :doc:`(doc) <laws.relativistic.relativistic_kinetic_energy_via_rest_mass_and_lorentz_factor>` Relativistic kinetic energy via rest mass and Lorentz factor
         
             .. math::
         
                 K = \left(\gamma - 1\right) m_{0} c^{2}
-        - :doc:`(doc) <laws.relativistic.relativistic_length>` Relativistic length via rest length and speed
+        - :doc:`(doc) <laws.relativistic.relativistic_length_via_proper_length_and_speed>` Relativistic length via proper length and speed
         
             .. math::
         
                 l = l_{0} \sqrt{1 - \frac{v^{2}}{c^{2}}}
-        - :doc:`(doc) <laws.relativistic.relativistic_mass>` Relativistic mass via rest mass and speed
+        - :doc:`(doc) <laws.relativistic.relativistic_mass_via_rest_mass_and_speed>` Relativistic mass via rest mass and speed
         
             .. math::
         
                 m = \frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}
-        - :doc:`(doc) <laws.relativistic.relativistic_momentum>` Relativistic momentum via rest mass and speed
+        - :doc:`(doc) <laws.relativistic.relativistic_momentum_via_rest_mass_and_speed>` Relativistic momentum via rest mass and speed
         
             .. math::
         
@@ -2856,36 +2856,26 @@ Formulas
             .. math::
         
                 t = \frac{\tau}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}
-        - :doc:`(doc) <laws.relativistic.spacetime_interval>` Spacetime interval via time and distance
-        
-            .. math::
-        
-                s^{2} = \left(c t\right)^{2} - d^{2}
         - :doc:`(doc) <laws.relativistic.spacetime_interval_is_lorentz_invariant>` Spacetime interval is Lorentz invariant
         
             .. math::
         
                 s_{2} = s_{1}
-        - :doc:`(doc) <laws.relativistic.total_energy_via_momentum_and_rest_mass>` Total energy via momentum and rest mass
+        - :doc:`(doc) <laws.relativistic.spacetime_interval_via_time_and_distance>` Spacetime interval via time and distance
         
             .. math::
         
-                E^{2} = \left(p c\right)^{2} + \left(m_{0} c^{2}\right)^{2}
-        - :doc:`(doc) <laws.relativistic.total_energy_via_relativistic_mass>` Total energy via relativistic mass
-        
-            .. math::
-        
-                E = m c^{2}
+                s^{2} = \left(c t\right)^{2} - d^{2}
 - :doc:`(doc) <laws.relativistic.vector>` :code:`laws.relativistic.vector`
 
     .. toggle::
 
-        - :doc:`(doc) <laws.relativistic.vector.acceleration_from_force_and_velocity>` Acceleration from force and velocity
+        - :doc:`(doc) <laws.relativistic.vector.relativistic_acceleration_from_relativistic_force_and_velocity>` Relativistic acceleration from relativistic force and velocity
         
             .. math::
         
                 {\vec a} = \frac{{\vec F} - \frac{\left( {\vec F}, {\vec v} \right)}{c^{2}} {\vec v}}{m_{0} \gamma}
-        - :doc:`(doc) <laws.relativistic.vector.force_acceleration_relation>` Force from acceleration and velocity
+        - :doc:`(doc) <laws.relativistic.vector.relativistic_force_acceleration_relation>` Force from acceleration and velocity
         
             .. math::
         
@@ -3074,7 +3064,7 @@ Formulas
             .. math::
         
                 G = H - T S
-        - :doc:`(doc) <laws.thermodynamics.grashof_number>` Grashof number
+        - :doc:`(doc) <laws.thermodynamics.grashof_number_via_fluid_parameters>` Grashof number
         
             .. math::
         
@@ -3370,71 +3360,71 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_molar_volume>` Critical molar volume
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_van_der_waals_molar_volume>` Critical van der Waals molar volume
         
             .. math::
         
                 v_{\text{c},\text{m}} = 3 b
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_pressure>` Critical pressure
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_van_der_waals_pressure>` Critical van der Waals pressure
         
             .. math::
         
                 p_\text{c} = \frac{a}{27 b^{2}}
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_temperature>` Critical temperature
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.critical_van_der_waals_temperature>` Critical van der Waals temperature
         
             .. math::
         
                 T_\text{c} = \frac{8 a}{27 R b}
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.dimensionless_equation>` Dimensionless equation
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.dimensionless_van_der_waals_equation>` Dimensionless van der Waals equation
         
             .. math::
         
                 \left(p_{r} + \frac{3}{V_{r}^{2}}\right) \left(V_{r} - \frac{1}{3}\right) = \frac{8 T_{r}}{3}
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.molar_internal_energy>` Molar internal energy
-        
-            .. math::
-        
-                u_\text{m} = \int c_{V, \text{m}}{\left(T \right)}\, dT - \frac{a}{v_\text{m}}
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_pressure>` Reduced pressure
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_van_der_waals_pressure>` Reduced van der Waals pressure
         
             .. math::
         
                 p_{r} = \frac{p}{p_\text{c}}
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_temperature>` Reduced temperature
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_van_der_waals_temperature>` Reduced van der Waals temperature
         
             .. math::
         
                 T_{r} = \frac{T}{T_\text{c}}
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_volume>` Reduced volume
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.reduced_van_der_waals_volume>` Reduced van der Waals volume
         
             .. math::
         
                 V_{r} = \frac{V}{V_\text{c}}
-        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.second_virial_coefficient>` Second virial coefficient
-        
-            .. math::
-        
-                C_{2} = b - \frac{a}{R T}
         - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.van_der_vaals_equation>` Van der Waals equation
         
             .. math::
         
                 \left(p + \frac{a}{v_\text{m}^{2}}\right) \left(v_\text{m} - b\right) = R T
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.van_der_waals_molar_internal_energy>` Van der Waals molar internal energy
+        
+            .. math::
+        
+                u_\text{m} = \int c_{V, \text{m}}{\left(T \right)}\, dT - \frac{a}{v_\text{m}}
+        - :doc:`(doc) <laws.thermodynamics.equations_of_state.van_der_waals.van_der_waals_second_virial_coefficient>` Van der Waals second virial coefficient
+        
+            .. math::
+        
+                C_{2} = b - \frac{a}{R T}
 - :doc:`(doc) <laws.thermodynamics.euler_relations>` :code:`laws.thermodynamics.euler_relations`
 
     .. toggle::
 
-        - :doc:`(doc) <laws.thermodynamics.euler_relations.enthalpy_formula>` Enthalpy formula
+        - :doc:`(doc) <laws.thermodynamics.euler_relations.enthalpy_euler_relation>` Euler relation for enthalpy
         
             .. math::
         
                 H = T S + \mu N
-        - :doc:`(doc) <laws.thermodynamics.euler_relations.gibbs_energy_formula>` Gibbs energy formula
+        - :doc:`(doc) <laws.thermodynamics.euler_relations.gibbs_energy_euler_relation>` Gibbs energy formula
         
             .. math::
         
                 G = \mu N
-        - :doc:`(doc) <laws.thermodynamics.euler_relations.internal_energy_formula>` Internal energy formula
+        - :doc:`(doc) <laws.thermodynamics.euler_relations.internal_energy_euler_relation>` Internal energy formula
         
             .. math::
         
@@ -3476,36 +3466,36 @@ Formulas
 
     .. toggle::
 
-        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.energy_distribution>` Energy distribution
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_energy_distribution>` Energy distribution
         
             .. math::
         
                 f(E) = \frac{2 \sqrt{\frac{E}{\pi}}}{T^{\frac{3}{2}} k_\text{B}^{\frac{3}{2}}} \exp{\left(- \frac{E}{k_\text{B} T} \right)}
-        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed>` Most probable speed
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_most_probable_speed>` Most probable speed
         
             .. math::
         
                 v_\text{prob} = \sqrt{\frac{2 k_\text{B} T}{m}}
-        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution>` Single-particle discrete distribution
-        
-            .. math::
-        
-                N_{i} = \frac{N}{Z} \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}
-        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution>` Speed distribution
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_speed_distribution>` Speed distribution
         
             .. math::
         
                 f(v) = \sqrt{\frac{2}{\pi}} \left(\frac{m}{k_\text{B} T}\right)^{\frac{3}{2}} v^{2} \exp{\left(- \frac{m v^{2}}{2 k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_velocity_component_distribution>` Velocity component distribution
+        
+            .. math::
+        
+                f(v_{k)} = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp{\left(- \frac{m v_{k}^{2}}{2 k_\text{B} T} \right)}
+        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_maxwell_boltzmann_distribution>` Single-particle discrete distribution
+        
+            .. math::
+        
+                N_{i} = \frac{N}{Z} \exp{\left(- \frac{E_{i}}{k_\text{B} T} \right)}
         - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate>` Statistical weight of macrostate
         
             .. math::
         
                 \Omega = \sum_i {N}_{i}! \prod_i {N}_{i}!^{-1}
-        - :doc:`(doc) <laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution>` Velocity component distribution
-        
-            .. math::
-        
-                f(v_{k)} = \sqrt{\frac{m}{2 \pi k_\text{B} T}} \exp{\left(- \frac{m v_{k}^{2}}{2 k_\text{B} T} \right)}
 - :doc:`(doc) <laws.thermodynamics.relativistic>` :code:`laws.thermodynamics.relativistic`
 
     .. toggle::
@@ -3533,7 +3523,7 @@ Formulas
         
             .. math::
         
-                u = 2 u_\text{max} \sin(k x) \cos(\omega t)
+                u = 2 u_\text{max} \sin{\left(k x \right)} \cos{\left(\omega t \right)}
         - :doc:`(doc) <laws.waves.frequency_shift_from_speed_in_arbitrary_motion>` Frequency shift from speed in arbitrary motion
         
             .. math::

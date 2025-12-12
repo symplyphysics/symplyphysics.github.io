@@ -24,6 +24,7 @@ the behavior of real fluids. Ideal fluids are:
     :maxdepth: 4
 
 
+    laws.hydro.apparent_weight_of_fully_submersed_body
     laws.hydro.bulk_stress_is_bulk_modulus_times_strain
     laws.hydro.capillary_height_via_surface_tension_and_contact_angle
     laws.hydro.dynamic_pressure_via_density_and_flow_speed
@@ -48,7 +49,6 @@ the behavior of real fluids. Ideal fluids are:
     laws.hydro.submerged_volume_of_floating_body_via_density_ratio
     laws.hydro.surface_tension_force_via_surface_tension_and_length
     laws.hydro.volume_flux_is_constant
-    laws.hydro.weight_in_fluid_via_ratio_of_densities
 
 
 

@@ -11,7 +11,7 @@ The laws in this folder are related to the thermodynamics of dielectric media.
     :maxdepth: 4
 
 
-    conditions.thermodynamics.dielectrics.equation_of_state
+    conditions.thermodynamics.dielectrics.dielectric_equation_of_state
 
 
 

@@ -20,6 +20,7 @@ Dynamics is a branch of mechanics describing the motion of objects due to the fo
     laws.dynamics.buoyant_force_from_density_and_volume
     laws.dynamics.coefficient_of_stiffness_from_area_length
     laws.dynamics.displacement_in_forced_non_resonant_oscillations
+    laws.dynamics.displacement_in_forced_resonant_oscillations
     laws.dynamics.force_is_derivative_of_momentum
     laws.dynamics.forced_oscillations_equation
     laws.dynamics.friction_force_from_normal_force
@@ -39,7 +40,6 @@ Dynamics is a branch of mechanics describing the motion of objects due to the fo
     laws.dynamics.pressure_from_force_and_area
     laws.dynamics.reaction_force_from_action_force
     laws.dynamics.reduced_mass_of_two_body_system
-    laws.dynamics.resonant_oscillations
     laws.dynamics.rocket_thrust_is_rocket_mass_times_acceleration
     laws.dynamics.rotational_work_is_torque_times_angular_distance
     laws.dynamics.speed_of_rocket_depends_on_mass_and_impulse

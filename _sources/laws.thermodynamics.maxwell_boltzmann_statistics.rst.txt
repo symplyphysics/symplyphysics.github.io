@@ -13,12 +13,12 @@ high enough or the particle density is low enough to render quantum effects negl
     :maxdepth: 4
 
 
-    laws.thermodynamics.maxwell_boltzmann_statistics.energy_distribution
-    laws.thermodynamics.maxwell_boltzmann_statistics.most_probable_speed
-    laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_distribution
-    laws.thermodynamics.maxwell_boltzmann_statistics.speed_distribution
+    laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_energy_distribution
+    laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_most_probable_speed
+    laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_speed_distribution
+    laws.thermodynamics.maxwell_boltzmann_statistics.maxwell_boltzmann_velocity_component_distribution
+    laws.thermodynamics.maxwell_boltzmann_statistics.single_particle_discrete_maxwell_boltzmann_distribution
     laws.thermodynamics.maxwell_boltzmann_statistics.statistical_weight_of_macrostate
-    laws.thermodynamics.maxwell_boltzmann_statistics.velocity_component_distribution
 
 
 

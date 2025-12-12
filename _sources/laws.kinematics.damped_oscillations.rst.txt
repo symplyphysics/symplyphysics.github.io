@@ -12,7 +12,7 @@ upon an oscillatory system that has the effect of reducing or preventing its osc
     :maxdepth: 4
 
 
-    laws.kinematics.damped_oscillations.damped_angular_frequency
+    laws.kinematics.damped_oscillations.damped_angular_frequency_via_damping_ratio
     laws.kinematics.damped_oscillations.damping_ratio_from_decay_constant_and_undamped_frequency
     laws.kinematics.damped_oscillations.displacement_in_critical_damping
     laws.kinematics.damped_oscillations.displacement_in_underdamping

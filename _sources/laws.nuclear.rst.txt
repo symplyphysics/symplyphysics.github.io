@@ -17,9 +17,9 @@ and interactions, in addition to the study of other forms of nuclear matter.
     laws.nuclear.effective_multiplication_factor
     laws.nuclear.fast_fission_factor_from_resonance_escape_probability
     laws.nuclear.fast_non_leakage_probability_from_fermi_age
+    laws.nuclear.half_life_decay
     laws.nuclear.infinite_multiplication_factor
     laws.nuclear.infinite_multiplication_factor_from_macroscopic_fission_cross_section
-    laws.nuclear.law_of_half_life
     laws.nuclear.macroscopic_cross_section_from_free_mean_path
     laws.nuclear.macroscopic_cross_section_from_microscopic_cross_section
     laws.nuclear.macroscopic_transport_cross_section

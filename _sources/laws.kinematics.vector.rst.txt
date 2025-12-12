@@ -19,7 +19,7 @@ Vector subset of kinematic laws.
     laws.kinematics.vector.centrifugal_acceleration_via_centripetal_acceleration
     laws.kinematics.vector.centripetal_acceleration_via_cross_product
     laws.kinematics.vector.centripetal_acceleration_via_vector_rejection
-    laws.kinematics.vector.coriolis_acceleration
+    laws.kinematics.vector.coriolis_acceleration_via_relative_velocity_and_angular_velocity
     laws.kinematics.vector.displacement_is_angular_displacement_cross_radius
     laws.kinematics.vector.velocity_of_transfer_between_reference_frames
     laws.kinematics.vector.velocity_relative_to_reference_frame

@@ -35,6 +35,7 @@ and output.
     laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_reflection_coefficient
     laws.electricity.circuits.transmission_lines.coefficient_standing_wave_from_voltages
     laws.electricity.circuits.transmission_lines.hybrid_parameters_matrix
+    laws.electricity.circuits.transmission_lines.impedance_matrix_equation
     laws.electricity.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line
     laws.electricity.circuits.transmission_lines.impedances_t_type_circuit_of_transmission_line
     laws.electricity.circuits.transmission_lines.input_impedance_from_parameters_transmission_matrix
@@ -43,11 +44,10 @@ and output.
     laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_reflection_coefficient
     laws.electricity.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_standing_wave_coefficient
     laws.electricity.circuits.transmission_lines.reflection_coefficient_from_load_and_transmission_line_impedances
-    laws.electricity.circuits.transmission_lines.scattering_matrix
+    laws.electricity.circuits.transmission_lines.scattering_matrix_equation
     laws.electricity.circuits.transmission_lines.scattering_matrix_to_transmission_matrix
     laws.electricity.circuits.transmission_lines.total_conductivities_matrix
-    laws.electricity.circuits.transmission_lines.total_resistance_matrix
-    laws.electricity.circuits.transmission_lines.transmission_matrix
+    laws.electricity.circuits.transmission_lines.transmission_matrix_equation
     laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line
     laws.electricity.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line
     laws.electricity.circuits.transmission_lines.transmission_matrix_lossless_transmission_line

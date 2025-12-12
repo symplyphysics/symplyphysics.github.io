@@ -20,6 +20,7 @@ of the vacuum.
 
     :code:`c = 1 / sqrt(epsilon_0 * mu_0)`
 
+
     Latex:
         .. math::
             c = \frac{1}{\sqrt{\varepsilon_0 \mu_0}}
