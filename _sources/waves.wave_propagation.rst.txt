@@ -1,0 +1,22 @@
+**Wave Propagation (Waves)**
+============================
+
+
+
+.. py:currentmodule:: symplyphysics.waves.wave_propagation
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    waves.wave_propagation.group_velocity_from_dispersion_relation
+    waves.wave_propagation.phase_of_traveling_wave
+    waves.wave_propagation.phase_shift_between_two_points
+    waves.wave_propagation.phase_velocity_from_angular_frequency_and_wavenumber
+    waves.wave_propagation.phase_velocity_from_angular_velocity_and_wavevector
+    waves.wave_propagation.wavelength_from_phase_speed_and_period
+
+
+

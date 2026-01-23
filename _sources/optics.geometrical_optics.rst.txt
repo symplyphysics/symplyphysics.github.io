@@ -1,0 +1,28 @@
+**Geometrical Optics**
+======================
+
+.. _small_angle_def:
+
+**Small-angle approximation**
+
+Approximation that is valid when the size of a spherical mirror is significantly smaller
+than the mirror's radius; in this approximation, spherical aberration is negligible and
+the mirror has a well-defined focal point.
+
+.. py:currentmodule:: symplyphysics.optics.geometrical_optics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    optics.geometrical_optics.invariants
+    optics.geometrical_optics.lenses
+    optics.geometrical_optics.mirrors
+    optics.geometrical_optics.prisms
+    optics.geometrical_optics.refraction
+    optics.geometrical_optics.telescopes
+
+
+
+

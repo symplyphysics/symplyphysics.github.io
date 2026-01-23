@@ -1,0 +1,18 @@
+**Maxwell Relations**
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.maxwell_relations
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.thermodynamic_potentials.maxwell_relations.enthalpy_derivative_via_volume_derivative
+    thermodynamics.thermodynamic_potentials.maxwell_relations.entropy_derivative_via_volume_derivative
+
+
+

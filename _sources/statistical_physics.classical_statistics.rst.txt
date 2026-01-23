@@ -1,0 +1,18 @@
+**Classical Statistics**
+========================
+
+
+
+.. py:currentmodule:: symplyphysics.statistical_physics.classical_statistics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    statistical_physics.classical_statistics.kinetic_theory
+    statistical_physics.classical_statistics.maxwell_boltzmann
+
+
+
+

@@ -1,0 +1,17 @@
+**Resistance (Direct Current)**
+===============================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.direct_current.resistance
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.direct_current.resistance.resistance_in_serial_connection
+
+
+

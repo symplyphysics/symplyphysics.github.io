@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Radius of geostationary orbit &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Second escape velocity" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html" />
+    <link rel="prev" title="Radial kinetic energy plus potential energy is constant" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="radius-of-geostationary-orbit">
+<h1>Radius of geostationary orbit<a class="headerlink" href="#radius-of-geostationary-orbit" title="Link to this heading">¶</a></h1>
+<p>A geostationary orbit is a circular orbit located above the Earth’s equator (0° latitude),
+where an artificial satellite orbits the planet with an angular velocity equal to the
+angular speed of the Earth’s rotation around its axis.</p>
+<p><strong>Notation:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(G\)</span> (<code class="code docutils literal notranslate"><span class="pre">G</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.gravitational_constant" title="symplyphysics.quantities.gravitational_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">gravitational_constant</span></code></a>.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Geostationary_orbit#Derivation">Wikipedia, possible formula derivable from here</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.orbital_radius">
+<span class="sig-name descname"><span class="pre">orbital_radius</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.orbital_radius" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.radius" title="symplyphysics.symbols.classical_mechanics.radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius</span></code></a> of the satellite’s geostationary orbit.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.planet_mass">
+<span class="sig-name descname"><span class="pre">planet_mass</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.planet_mass" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.mass" title="symplyphysics.symbols.basic.mass"><code class="xref py py-attr docutils literal notranslate"><span class="pre">mass</span></code></a> of the attracting body (planet).</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">m</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(m\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">mass</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.satellite_angular_speed">
+<span class="sig-name descname"><span class="pre">satellite_angular_speed</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.satellite_angular_speed" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_speed" title="symplyphysics.symbols.classical_mechanics.angular_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_speed</span></code></a> of the satellite’s rotation.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">r</span> <span class="pre">=</span> <span class="pre">(G</span> <span class="pre">*</span> <span class="pre">m</span> <span class="pre">/</span> <span class="pre">w^2)^(1/3)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[r = \sqrt[3]{\frac{G m}{\omega^{2}}}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.conservation_laws.html"><strong>Conservation Laws (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.fundamentals.html"><strong>Fundamentals (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="classical_mechanics.orbital_mechanics.html"><strong>Orbital Mechanics</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html">Angle of rotation during gravitational maneuver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html">Area rate of change is proportional to angular momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.html">Average potential energy via average kinetic energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Corrected planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.html">Eccentricity of orbit via orbit parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html">First escape velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.html">Kepler’s constant via attracting body mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.html">Maximum angle of rotation during gravitational maneuver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html">Orbital speed from semimajor axis and planet mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html">Potential energy of radial planetary motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html">Radial kinetic energy plus potential energy is constant</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Radius of geostationary orbit</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.orbital_radius"><code class="docutils literal notranslate"><span class="pre">orbital_radius</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.planet_mass"><code class="docutils literal notranslate"><span class="pre">planet_mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.satellite_angular_speed"><code class="docutils literal notranslate"><span class="pre">satellite_angular_speed</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html">Second escape velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.html">Semimajor axis of orbit via mass and speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.html">Semimajor axis via Kepler’s constant and total energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html">Semiminor axis of elliptical orbit via orbit parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.html">Third cosmic speed from orbital and second cosmic speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.html">Total energy is negative average kinetic energy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.springs.html"><strong>Springs (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.statics.html"><strong>Statics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.two_body_system.html"><strong>Two Body System</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="classical_mechanics.html">Classical Mechanics</a><ul>
+  <li><a href="classical_mechanics.orbital_mechanics.html"><strong>Orbital Mechanics</strong></a><ul>
+      <li>Previous: <a href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html" title="previous chapter">Radial kinetic energy plus potential energy is constant</a></li>
+      <li>Next: <a href="classical_mechanics.orbital_mechanics.second_escape_velocity.html" title="next chapter">Second escape velocity</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

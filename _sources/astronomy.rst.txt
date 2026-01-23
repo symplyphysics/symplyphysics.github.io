@@ -1,0 +1,21 @@
+Astronomy
+=========
+
+
+
+.. py:currentmodule:: symplyphysics.astronomy
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    astronomy.celestial_mechanics
+    astronomy.observational_astronomy
+    astronomy.observational_cosmology
+    astronomy.positional_astronomy
+    astronomy.stellar_evolution
+
+
+
+

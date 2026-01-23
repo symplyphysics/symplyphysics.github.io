@@ -1,0 +1,21 @@
+**Wave Propagation (Electromagnetic Waves)**
+============================================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetic_waves.wave_propagation
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetic_waves.wave_propagation.characteristic_resistance_of_medium
+    electromagnetic_waves.wave_propagation.refractive_index_is_wave_speeds_ratio
+    electromagnetic_waves.wave_propagation.refractive_index_via_permittivity_and_permeability
+    electromagnetic_waves.wave_propagation.wavespeed_from_medium_permittivity_and_permeability
+    electromagnetic_waves.wave_propagation.wavespeed_from_medium_refractive_index
+
+
+

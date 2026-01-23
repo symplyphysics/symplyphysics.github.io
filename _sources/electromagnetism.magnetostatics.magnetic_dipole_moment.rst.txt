@@ -1,0 +1,17 @@
+**Magnetic Dipole**
+===================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.magnetostatics.magnetic_dipole_moment
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.magnetostatics.magnetic_dipole_moment.maximum_moment_of_magnetic_field
+
+
+

@@ -1,0 +1,18 @@
+**Maxwell—Jüttner Statistics**
+==============================
+
+
+
+.. py:currentmodule:: symplyphysics.statistical_physics.relativistic_statistics.maxwell_juttner
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    statistical_physics.relativistic_statistics.maxwell_juttner.maxwell_juettner_distribution
+    statistical_physics.relativistic_statistics.maxwell_juttner.reduced_temperature_in_maxwell_juettner_statistics
+
+
+

@@ -1,0 +1,18 @@
+Mathematics
+===========
+
+
+
+.. py:currentmodule:: symplyphysics.mathematics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    mathematics.fields
+    mathematics.geometry
+
+
+
+

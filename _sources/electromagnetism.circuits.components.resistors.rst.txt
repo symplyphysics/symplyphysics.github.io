@@ -1,0 +1,18 @@
+**Resistors**
+=============
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.components.resistors
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.components.resistors.input_impedance_of_thin_film_resistor
+    electromagnetism.circuits.components.resistors.resistance_via_resistivity_and_dimensions
+
+
+

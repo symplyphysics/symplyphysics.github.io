@@ -1,0 +1,17 @@
+**Prisms**
+==========
+
+
+
+.. py:currentmodule:: symplyphysics.optics.geometrical_optics.prisms
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    optics.geometrical_optics.prisms.angle_of_light_deflection_in_prism
+
+
+

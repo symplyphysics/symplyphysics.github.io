@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Circulation is integral of curl over surface &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/mathematics.fields.circulation_is_integral_of_curl_over_surface.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Flux is integral along flat curve" href="mathematics.fields.flux_is_integral_along_flat_curve.html" />
+    <link rel="prev" title="Circulation is integral along curve" href="mathematics.fields.circulation_is_integral_along_curve.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="circulation-is-integral-of-curl-over-surface">
+<h1>Circulation is integral of curl over surface<a class="headerlink" href="#circulation-is-integral-of-curl-over-surface" title="Link to this heading">¶</a></h1>
+<p>The circulation of a vector field, defined as <a class="reference internal" href="mathematics.fields.circulation_is_integral_along_curve.html#circulation-is-integral-along-curve"><span class="std std-ref">such</span></a>,
+can be re-written as a double integral of the flux of that field over any surface whose boundary
+is the curve along which the circulation is calculated.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>This law is also known as the <a class="reference external" href="https://en.wikipedia.org/wiki/Stokes%27_theorem">Stokes’ theorem</a>.</p></li>
+</ol>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The surface is smooth.</p></li>
+<li><p>The orientation of the surface and the orientation of the curve are related by the right-hand
+rule.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.circulation">
+<span class="sig-name descname"><span class="pre">circulation</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.circulation" title="Link to this definition">¶</a></dt>
+<dd><p>Circulation of the vector <a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.field" title="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.field"><code class="xref py py-attr docutils literal notranslate"><span class="pre">field</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">G</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(G\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">any_dimension</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.field">
+<span class="sig-name descname"><span class="pre">field</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.field" title="Link to this definition">¶</a></dt>
+<dd><p>Any vector field, i.e. a vector-valued function that depends on the position vector.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">F</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec F}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">any_dimension</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.surface">
+<span class="sig-name descname"><span class="pre">surface</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.surface" title="Link to this definition">¶</a></dt>
+<dd><p>Surface along which the integral is evaluated.</p>
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">S</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(S\)</span></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.initial_first_parameter">
+<span class="sig-name descname"><span class="pre">initial_first_parameter</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.initial_first_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Initial value of the first surface parameter.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">u_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(u_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.final_first_parameter">
+<span class="sig-name descname"><span class="pre">final_first_parameter</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.final_first_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Final value of the first surface parameter.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">u_2</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(u_{2}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.initial_second_parameter">
+<span class="sig-name descname"><span class="pre">initial_second_parameter</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.initial_second_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Initial value of the second surface parameter.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.final_second_parameter">
+<span class="sig-name descname"><span class="pre">final_second_parameter</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.final_second_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Final value of the second surface parameter.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_2</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_{2}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">G</span> <span class="pre">=</span> <span class="pre">SurfaceIntegral(dot(curl(F),</span> <span class="pre">dS),</span> <span class="pre">S,</span> <span class="pre">((u_1,</span> <span class="pre">u_2),</span> <span class="pre">(v_1,</span> <span class="pre">v_2)))</span></code></p>
+<p>Latex:</p>
+<blockquote>
+<div><div class="math notranslate nohighlight">
+\[G = \iint \limits_S \left( \nabla \times \vec F \right) \cdot d \vec S\]</div>
+</div></blockquote>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="mathematics.html">Mathematics</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="mathematics.fields.html"><strong>Fields</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="mathematics.fields.circulation_is_integral_along_curve.html">Circulation is integral along curve</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Circulation is integral of curl over surface</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.circulation"><code class="docutils literal notranslate"><span class="pre">circulation</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.field"><code class="docutils literal notranslate"><span class="pre">field</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.surface"><code class="docutils literal notranslate"><span class="pre">surface</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.initial_first_parameter"><code class="docutils literal notranslate"><span class="pre">initial_first_parameter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.final_first_parameter"><code class="docutils literal notranslate"><span class="pre">final_first_parameter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.initial_second_parameter"><code class="docutils literal notranslate"><span class="pre">initial_second_parameter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.final_second_parameter"><code class="docutils literal notranslate"><span class="pre">final_second_parameter</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.mathematics.fields.circulation_is_integral_of_curl_over_surface.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="mathematics.fields.flux_is_integral_along_flat_curve.html">Flux is integral along flat curve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mathematics.fields.flux_is_integral_of_divergence_over_surface.html">Flux is integral of divergence over surface</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mathematics.geometry.html"><strong>Geometry</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="mathematics.html">Mathematics</a><ul>
+  <li><a href="mathematics.fields.html"><strong>Fields</strong></a><ul>
+      <li>Previous: <a href="mathematics.fields.circulation_is_integral_along_curve.html" title="previous chapter">Circulation is integral along curve</a></li>
+      <li>Next: <a href="mathematics.fields.flux_is_integral_along_flat_curve.html" title="next chapter">Flux is integral along flat curve</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/mathematics.fields.circulation_is_integral_of_curl_over_surface.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

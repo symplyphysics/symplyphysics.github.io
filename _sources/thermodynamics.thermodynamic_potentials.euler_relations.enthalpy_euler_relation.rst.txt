@@ -1,0 +1,98 @@
+Euler relation for enthalpy
+===========================
+
+The enthalpy differential can be integrated using the Euler's theorem on homogeneous functions for
+internal energy.
+
+**Notes:**
+
+#. This formula works for a single-component system. For a multi-component system replace the
+   product of chemical potential and particle count with a sum over each type of components.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Thermodynamic_potential#Euler_relations>`__.
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.euler_relations.enthalpy_euler_relation
+
+.. py:data:: enthalpy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.enthalpy` of the system. Also see :ref:`Enthalpy is internal energy plus pressure energy`.
+
+Symbol:
+    :code:`H`
+
+Latex:
+    :math:`H`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: temperature
+
+    :attr:`~symplyphysics.symbols.thermodynamics.temperature` of the system.
+
+Symbol:
+    :code:`T`
+
+Latex:
+    :math:`T`
+
+Dimension:
+    :code:`temperature`
+
+
+.. py:data:: entropy
+
+    :attr:`~symplyphysics.symbols.thermodynamics.entropy` of the system. Also see :ref:`Entropy change in reversible process`.
+
+Symbol:
+    :code:`S`
+
+Latex:
+    :math:`S`
+
+Dimension:
+    :code:`energy/temperature`
+
+
+.. py:data:: chemical_potential
+
+    :attr:`~symplyphysics.symbols.thermodynamics.chemical_potential` of the system. Also see
+    :ref:`Chemical potential is particle count derivative of internal energy`.
+
+Symbol:
+    :code:`mu`
+
+Latex:
+    :math:`\mu`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: particle_count
+
+    :attr:`~symplyphysics.symbols.basic.particle_count` of the system.
+
+Symbol:
+    :code:`N`
+
+Latex:
+    :math:`N`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`H = T * S + mu * N`
+
+
+    Latex:
+        .. math::
+            H = T S + \mu N
+
+

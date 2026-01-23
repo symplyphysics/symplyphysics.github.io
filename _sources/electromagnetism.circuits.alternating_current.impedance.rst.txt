@@ -1,0 +1,18 @@
+**Impedance**
+=============
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.alternating_current.impedance
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.alternating_current.impedance.impedance_in_serial_connection
+    electromagnetism.circuits.alternating_current.impedance.impedance_is_resistance_and_reactance
+
+
+

@@ -1,0 +1,19 @@
+**Chemical Thermodynamics**
+===========================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.chemical_thermodynamics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.chemical_thermodynamics.isobaric_potential_from_heat_capacity
+    thermodynamics.chemical_thermodynamics.isobaric_potential_of_temperature_dependent_heat_capacity
+    thermodynamics.chemical_thermodynamics.reaction_equilibrium_constant_via_standard_gibbs_energy
+
+
+

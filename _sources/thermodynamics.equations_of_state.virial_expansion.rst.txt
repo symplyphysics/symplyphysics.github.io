@@ -1,0 +1,17 @@
+**Virial Expansion**
+====================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.equations_of_state.virial_expansion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.equations_of_state.virial_expansion.virial_equation
+
+
+

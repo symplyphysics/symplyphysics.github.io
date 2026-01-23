@@ -1,0 +1,17 @@
+**Occupancies**
+===============
+
+
+
+.. py:currentmodule:: symplyphysics.statistical_physics.occupancies
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    statistical_physics.occupancies.total_partical_count_is_sum_of_occupancies
+
+
+

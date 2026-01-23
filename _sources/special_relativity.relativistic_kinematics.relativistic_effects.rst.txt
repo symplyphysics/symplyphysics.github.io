@@ -1,0 +1,21 @@
+**Relativistic Effects (Relativistic Kinematics)**
+==================================================
+
+
+
+.. py:currentmodule:: symplyphysics.special_relativity.relativistic_kinematics.relativistic_effects
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    special_relativity.relativistic_kinematics.relativistic_effects.proper_time_for_timelike_intervals
+    special_relativity.relativistic_kinematics.relativistic_effects.relativistic_length_via_proper_length_and_speed
+    special_relativity.relativistic_kinematics.relativistic_effects.relativistic_time_dilation
+    special_relativity.relativistic_kinematics.relativistic_effects.spacetime_interval_is_lorentz_invariant
+    special_relativity.relativistic_kinematics.relativistic_effects.spacetime_interval_via_time_and_distance
+
+
+

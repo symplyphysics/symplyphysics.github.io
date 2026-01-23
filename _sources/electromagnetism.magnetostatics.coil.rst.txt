@@ -1,0 +1,21 @@
+**Coil**
+========
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.magnetostatics.coil
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.magnetostatics.coil.energy_of_magnetic_field_of_solenoid
+    electromagnetism.magnetostatics.coil.inductance_is_proportional_to_turns_squared
+    electromagnetism.magnetostatics.coil.inductance_of_solenoid_depends_on_permeability_number_of_turns_volume
+    electromagnetism.magnetostatics.coil.magnetic_field_due_to_finite_coil_along_axis
+    electromagnetism.magnetostatics.coil.magnetic_field_of_coil
+
+
+

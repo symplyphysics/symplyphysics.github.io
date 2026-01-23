@@ -1,0 +1,23 @@
+**Dielectric Thermodynamics**
+=============================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.continuum_thermodynamics.dielectric_thermodynamics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.continuum_thermodynamics.dielectric_thermodynamics.dielectric_equation_of_state
+    thermodynamics.continuum_thermodynamics.dielectric_thermodynamics.enthalpy_change_via_entropy_change_and_electric_field_change
+    thermodynamics.continuum_thermodynamics.dielectric_thermodynamics.enthalpy_formula_in_dielectrics
+    thermodynamics.continuum_thermodynamics.dielectric_thermodynamics.free_energy_change_via_temperature_change_and_electric_field_change
+    thermodynamics.continuum_thermodynamics.dielectric_thermodynamics.gibbs_energy_change_via_temperature_change_and_electic_displacement_change
+    thermodynamics.continuum_thermodynamics.dielectric_thermodynamics.gibbs_energy_formula_in_dielectrics
+    thermodynamics.continuum_thermodynamics.dielectric_thermodynamics.internal_energy_change_via_heat_and_electric_displacement_change
+
+
+

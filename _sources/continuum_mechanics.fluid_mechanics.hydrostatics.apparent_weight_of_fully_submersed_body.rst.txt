@@ -1,0 +1,92 @@
+Apparent weight of fully submersed body
+=======================================
+
+The *Archimedean force* acting on a body fully submersed in a fluid is equal to the weight of the
+fluid displaced by the body. It can be derived that the weight of the body submersed in the fluid
+is proportional to its weight in vacuum and also depends on the ratio of the fluid density and body
+density.
+
+**Notes:**
+
+#. Positive apparent weight means that the body is sinking, whereas negative apparent weight means
+   that the body is floating to the surface.
+
+**Conditions:**
+
+#. The body is completely *submersed* in the fluid.
+
+**Links:**
+
+#. `Physics LibreTexts, derivable from here <https://phys.libretexts.org/Bookshelves/University_Physics/Physics_(Boundless)/10%3A_Fluids/10.3%3A_Archimedes_Principle>`__.
+
+..
+    TODO: rename law
+
+.. py:currentmodule:: symplyphysics.continuum_mechanics.fluid_mechanics.hydrostatics.apparent_weight_of_fully_submersed_body
+
+.. py:data:: weight_in_fluid
+
+    Apparent weight of the body submersed in the fluid. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`W_fl`
+
+Latex:
+    :math:`W_\text{fl}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: weight_in_vacuum
+
+    Weight of the body in vacuum, i.e. its true weight. See :attr:`~symplyphysics.symbols.classical_mechanics.force`.
+
+Symbol:
+    :code:`W_vac`
+
+Latex:
+    :math:`W_\text{vac}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: fluid_density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the fluid.
+
+Symbol:
+    :code:`rho_fl`
+
+Latex:
+    :math:`\rho_\text{fl}`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: body_density
+
+    :attr:`~symplyphysics.symbols.basic.density` of the body.
+
+Symbol:
+    :code:`rho_b`
+
+Latex:
+    :math:`\rho_\text{b}`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: law
+
+    :code:`W_fl = W_vac * (1 - rho_fl / rho_b)`
+
+
+    Latex:
+        .. math::
+            W_\text{fl} = W_\text{vac} \left(1 - \frac{\rho_\text{fl}}{\rho_\text{b}}\right)
+
+

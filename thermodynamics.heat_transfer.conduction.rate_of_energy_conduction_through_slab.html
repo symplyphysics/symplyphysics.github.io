@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Rate of energy conduction through slab &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Thermal resistance to conduction" href="thermodynamics.heat_transfer.conduction.thermal_resistance_to_conduction.html" />
+    <link rel="prev" title="Heat Conduction" href="thermodynamics.heat_transfer.conduction.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="rate-of-energy-conduction-through-slab">
+<h1>Rate of energy conduction through slab<a class="headerlink" href="#rate-of-energy-conduction-through-slab" title="Link to this heading">¶</a></h1>
+<p>The rate at which energy is conducted through a slab for which one face is maintained at a higher
+temperature than the other face is proportional to the temperature difference of the faces and
+its face area and inversely proportional to its length.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://phys.libretexts.org/Bookshelves/College_Physics/College_Physics_1e_(OpenStax)/14%3A_Heat_and_Heat_Transfer_Methods/14.05%3A_Conduction">Physics LibreTexts, formula 14.5.1</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.energy_conduction_rate">
+<span class="sig-name descname"><span class="pre">energy_conduction_rate</span></span><a class="headerlink" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.energy_conduction_rate" title="Link to this definition">¶</a></dt>
+<dd><p>Rate of energy conductivity through the slab. See <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.power" title="symplyphysics.symbols.basic.power"><code class="xref py py-attr docutils literal notranslate"><span class="pre">power</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">P</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(P\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">power</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.thermal_conductivity">
+<span class="sig-name descname"><span class="pre">thermal_conductivity</span></span><a class="headerlink" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.thermal_conductivity" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.thermal_conductivity" title="symplyphysics.symbols.thermodynamics.thermal_conductivity"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thermal_conductivity</span></code></a> of the slab’s material.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">power/(length*temperature)</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.face_area">
+<span class="sig-name descname"><span class="pre">face_area</span></span><a class="headerlink" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.face_area" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.area" title="symplyphysics.symbols.classical_mechanics.area"><code class="xref py py-attr docutils literal notranslate"><span class="pre">area</span></code></a> of the face of the slab.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">area</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.slab_thickness">
+<span class="sig-name descname"><span class="pre">slab_thickness</span></span><a class="headerlink" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.slab_thickness" title="Link to this definition">¶</a></dt>
+<dd><p>Distance between the two faces of the slab. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.thickness" title="symplyphysics.symbols.classical_mechanics.thickness"><code class="xref py py-attr docutils literal notranslate"><span class="pre">thickness</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">h</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(h\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.temperature_difference">
+<span class="sig-name descname"><span class="pre">temperature_difference</span></span><a class="headerlink" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.temperature_difference" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.thermodynamics.html#symplyphysics.symbols.thermodynamics.temperature" title="symplyphysics.symbols.thermodynamics.temperature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temperature</span></code></a> difference between the two faces of the slab.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Delta(T)</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Delta T\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">temperature</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">P</span> <span class="pre">=</span> <span class="pre">k</span> <span class="pre">*</span> <span class="pre">A</span> <span class="pre">*</span> <span class="pre">Abs(Delta(T))</span> <span class="pre">/</span> <span class="pre">h</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[P = \frac{k A \left|{\Delta T}\right|}{h}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.chemical_thermodynamics.html"><strong>Chemical Thermodynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.conservation_laws.html"><strong>Conservation Laws (Thermodynamics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.continuum_thermodynamics.html"><strong>Continuum Thermodynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.equations_of_state.html"><strong>Equations of State</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.heat_engines.html"><strong>Heat Engines</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="thermodynamics.heat_transfer.html"><strong>Heat Transfer</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="thermodynamics.heat_transfer.conduction.html"><strong>Heat Conduction</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Rate of energy conduction through slab</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.energy_conduction_rate"><code class="docutils literal notranslate"><span class="pre">energy_conduction_rate</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.thermal_conductivity"><code class="docutils literal notranslate"><span class="pre">thermal_conductivity</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.face_area"><code class="docutils literal notranslate"><span class="pre">face_area</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.slab_thickness"><code class="docutils literal notranslate"><span class="pre">slab_thickness</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.temperature_difference"><code class="docutils literal notranslate"><span class="pre">temperature_difference</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="thermodynamics.heat_transfer.conduction.thermal_resistance_to_conduction.html">Thermal resistance to conduction</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.heat_transfer.heat_diffusion.html"><strong>Heat Diffusion</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.phase_transitions.html"><strong>Phase Transitions</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.response_functions.html"><strong>Thermodynamic Response Functions</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.html"><strong>Thermodynamic Potentials</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.work_and_heat.html"><strong>Work and Heat</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="thermodynamics.html">Thermodynamics</a><ul>
+  <li><a href="thermodynamics.heat_transfer.html"><strong>Heat Transfer</strong></a><ul>
+  <li><a href="thermodynamics.heat_transfer.conduction.html"><strong>Heat Conduction</strong></a><ul>
+      <li>Previous: <a href="thermodynamics.heat_transfer.conduction.html" title="previous chapter"><strong>Heat Conduction</strong></a></li>
+      <li>Next: <a href="thermodynamics.heat_transfer.conduction.thermal_resistance_to_conduction.html" title="next chapter">Thermal resistance to conduction</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/thermodynamics.heat_transfer.conduction.rate_of_energy_conduction_through_slab.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

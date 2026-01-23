@@ -1,0 +1,21 @@
+**Geometry**
+============
+
+
+
+.. py:currentmodule:: symplyphysics.mathematics.geometry
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    mathematics.geometry.cross_product_is_proportional_to_sine_between_vectors
+    mathematics.geometry.dot_product_is_proportional_to_cosine_between_vectors
+    mathematics.geometry.dot_product_is_proportional_to_cosine_between_vectors_scalar
+    mathematics.geometry.scalar_projection_is_vector_length_times_cosine_of_angle
+    mathematics.geometry.vector_area_is_unit_normal_times_scalar_area
+
+
+

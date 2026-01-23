@@ -1,0 +1,19 @@
+**Properties (Thermodynamic Potentials)**
+=========================================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.properties
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.thermodynamic_potentials.properties.entropy_change_in_reversible_process
+    thermodynamics.thermodynamic_potentials.properties.entropy_of_independent_subsystems_is_sum_of_their_entropies
+    thermodynamics.thermodynamic_potentials.properties.internal_energy_is_first_order_homogeneous_function
+
+
+

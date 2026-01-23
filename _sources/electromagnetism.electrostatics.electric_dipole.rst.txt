@@ -1,0 +1,24 @@
+**Electric Dipole**
+===================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.electrostatics.electric_dipole
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.electrostatics.electric_dipole.electric_dipole_moment_is_charge_times_displacement
+    electromagnetism.electrostatics.electric_dipole.electric_dipole_moment_is_charge_times_distance
+    electromagnetism.electrostatics.electric_dipole.electric_dipole_moment_of_electrically_neutral_system
+    electromagnetism.electrostatics.electric_dipole.electric_field_due_to_dipole
+    electromagnetism.electrostatics.electric_dipole.electric_field_vector_due_to_dipole
+    electromagnetism.electrostatics.electric_dipole.force_acting_on_dipole_in_non_uniform_electric_field
+    electromagnetism.electrostatics.electric_dipole.potential_energy_of_electric_dipole_in_uniform_electric_field
+    electromagnetism.electrostatics.electric_dipole.torque_due_to_electric_dipole_in_uniform_electric_field
+
+
+

@@ -1,0 +1,21 @@
+Statistical Physics
+===================
+
+
+
+.. py:currentmodule:: symplyphysics.statistical_physics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    statistical_physics.classical_statistics
+    statistical_physics.ensembles
+    statistical_physics.occupancies
+    statistical_physics.quantum_statistics
+    statistical_physics.relativistic_statistics
+
+
+
+

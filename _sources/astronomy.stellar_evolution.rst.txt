@@ -1,0 +1,20 @@
+**Stellar Evolution**
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.astronomy.stellar_evolution
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    astronomy.stellar_evolution.approximate_time_of_stars_location_on_the_main_sequence
+    astronomy.stellar_evolution.lifetime_of_star_on_main_sequence
+    astronomy.stellar_evolution.luminosity_of_sun_in_future_from_luminosity_in_present
+    astronomy.stellar_evolution.luminosity_of_sun_in_past_from_luminosity_in_present
+
+
+

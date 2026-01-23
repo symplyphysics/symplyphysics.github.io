@@ -1,0 +1,17 @@
+**Observational Cosmology**
+===========================
+
+
+
+.. py:currentmodule:: symplyphysics.astronomy.observational_cosmology
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    astronomy.observational_cosmology.speed_of_galaxy_from_distance_to_galaxy
+
+
+

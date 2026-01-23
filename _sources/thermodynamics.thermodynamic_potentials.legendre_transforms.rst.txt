@@ -1,0 +1,18 @@
+**Legendre Transform (Thermodynamic Potentials)**
+=================================================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.legendre_transforms
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.thermodynamic_potentials.legendre_transforms.enthalpy_via_gibbs_energy
+    thermodynamics.thermodynamic_potentials.legendre_transforms.internal_energy_via_helmholtz_free_energy
+
+
+

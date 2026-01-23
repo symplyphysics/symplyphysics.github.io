@@ -1,0 +1,21 @@
+**Hydrostatics**
+================
+
+
+
+.. py:currentmodule:: symplyphysics.continuum_mechanics.fluid_mechanics.hydrostatics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    continuum_mechanics.fluid_mechanics.hydrostatics.apparent_weight_of_fully_submersed_body
+    continuum_mechanics.fluid_mechanics.hydrostatics.buoyant_force_from_density_and_volume
+    continuum_mechanics.fluid_mechanics.hydrostatics.hydrostatic_pressure_via_density_and_height
+    continuum_mechanics.fluid_mechanics.hydrostatics.hydrostatic_pressure_via_density_height_and_acceleration
+    continuum_mechanics.fluid_mechanics.hydrostatics.submerged_volume_of_floating_body_via_density_ratio
+
+
+

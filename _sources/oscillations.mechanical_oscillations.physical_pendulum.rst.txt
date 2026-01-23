@@ -1,0 +1,18 @@
+**Physical Pendulum**
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.oscillations.mechanical_oscillations.physical_pendulum
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    oscillations.mechanical_oscillations.physical_pendulum.period_of_ideal_pendulum_from_length
+    oscillations.mechanical_oscillations.physical_pendulum.period_of_physical_pendulum
+
+
+

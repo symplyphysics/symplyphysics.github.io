@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kinematics &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <link rel="canonical" href="https://symplyphysics.github.io/classical_mechanics.kinematics.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Centers (Kinematics)" href="classical_mechanics.kinematics.centers.html" />
+    <link rel="prev" title="Mass fraction of mixture component" href="classical_mechanics.fundamentals.mass_fraction_is_component_mass_over_total_mass.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="kinematics">
+<h1><strong>Kinematics</strong><a class="headerlink" href="#kinematics" title="Link to this heading">¶</a></h1>
+<p><strong>Contents:</strong></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.kinematics.centers.html"><strong>Centers (Kinematics)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.html">Center of mass for a system of particles</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.html#symplyphysics.classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.center_of_mass"><code class="docutils literal notranslate"><span class="pre">center_of_mass</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.html#symplyphysics.classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.html#symplyphysics.classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.html#symplyphysics.classical_mechanics.kinematics.centers.center_of_mass_for_system_of_particles.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.html"><strong>General Motion (Kinematics)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.html">Acceleration is normal plus tangential acceleration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.total_acceleration"><code class="docutils literal notranslate"><span class="pre">total_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.normal_acceleration"><code class="docutils literal notranslate"><span class="pre">normal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.tangential_acceleration"><code class="docutils literal notranslate"><span class="pre">tangential_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.html#symplyphysics.classical_mechanics.kinematics.general_motion.acceleration_is_normal_plus_tangential_acceleration.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.html">Centripetal acceleration via linear speed and radius</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.centripetal_acceleration"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.radius_of_curvature"><code class="docutils literal notranslate"><span class="pre">radius_of_curvature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.centripetal_acceleration_via_linear_speed_and_radius.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.html">Speed via angular speed and radius</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.angular_speed"><code class="docutils literal notranslate"><span class="pre">angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.radius_of_curvature"><code class="docutils literal notranslate"><span class="pre">radius_of_curvature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.speed_via_angular_speed_and_radius.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.html">Tangential acceleration via angular acceleration and radius</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.tangential_acceleration"><code class="docutils literal notranslate"><span class="pre">tangential_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.angular_acceleration"><code class="docutils literal notranslate"><span class="pre">angular_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.radius_of_curvature"><code class="docutils literal notranslate"><span class="pre">radius_of_curvature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.html#symplyphysics.classical_mechanics.kinematics.general_motion.tangential_acceleration_via_angular_acceleration_and_radius.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.html"><strong>Projectile Motion (Kinematics)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed.html">Maximum height from initial speed</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed.maximum_height"><code class="docutils literal notranslate"><span class="pre">maximum_height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed.initial_speed"><code class="docutils literal notranslate"><span class="pre">initial_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html">Maximum height of body thrown at angle to horizon</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.initial_speed"><code class="docutils literal notranslate"><span class="pre">initial_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.angle"><code class="docutils literal notranslate"><span class="pre">angle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html">Time of flight of a projectile via initial velocity</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.initial_speed"><code class="docutils literal notranslate"><span class="pre">initial_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.angle"><code class="docutils literal notranslate"><span class="pre">angle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally.html">Time of flight of a projectile via maximum height</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html">Horizontal displacement of projectile</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.horizontal_displacement"><code class="docutils literal notranslate"><span class="pre">horizontal_displacement</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.initial_speed"><code class="docutils literal notranslate"><span class="pre">initial_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.angle"><code class="docutils literal notranslate"><span class="pre">angle</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.html#symplyphysics.classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.html"><strong>Relative Motion (Kinematics)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.html#symplyphysics.classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.absolute_velocity"><code class="docutils literal notranslate"><span class="pre">absolute_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.html#symplyphysics.classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.relative_velocity"><code class="docutils literal notranslate"><span class="pre">relative_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.html#symplyphysics.classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.transfer_velocity"><code class="docutils literal notranslate"><span class="pre">transfer_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.html#symplyphysics.classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.non_uniform_rotation_acceleration"><code class="docutils literal notranslate"><span class="pre">non_uniform_rotation_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.angular_velocity"><code class="docutils literal notranslate"><span class="pre">angular_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html">Acceleration of transfer between relative frames</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.transfer_acceleration"><code class="docutils literal notranslate"><span class="pre">transfer_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration"><code class="docutils literal notranslate"><span class="pre">moving_frame_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.centripetal_acceleration"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.rotation_acceleration"><code class="docutils literal notranslate"><span class="pre">rotation_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.centrifugal_acceleration"><code class="docutils literal notranslate"><span class="pre">centrifugal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.centripetal_acceleration"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html#symplyphysics.classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html">Coriolis acceleration via relative velocity and angular velocity</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.coriolis_acceleration"><code class="docutils literal notranslate"><span class="pre">coriolis_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.relative_velocity"><code class="docutils literal notranslate"><span class="pre">relative_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.angular_velocity"><code class="docutils literal notranslate"><span class="pre">angular_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html">Velocity of transfer between reference frames</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.transfer_velocity"><code class="docutils literal notranslate"><span class="pre">transfer_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.moving_frame_velocity"><code class="docutils literal notranslate"><span class="pre">moving_frame_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.angular_velocity"><code class="docutils literal notranslate"><span class="pre">angular_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.relative_velocity"><code class="docutils literal notranslate"><span class="pre">relative_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.html#symplyphysics.classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.html"><strong>Rotational Motion (Kinematics)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.html"><strong>Rotational Inertia</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html">Rotational inertia about axis and through center of mass</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.rotational_inertia_through_com"><code class="docutils literal notranslate"><span class="pre">rotational_inertia_through_com</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.distance_between_axes"><code class="docutils literal notranslate"><span class="pre">distance_between_axes</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html">Rotational inertia in terms of Cartesian integral</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.x"><code class="docutils literal notranslate"><span class="pre">x</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.x_start"><code class="docutils literal notranslate"><span class="pre">x_start</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.x_end"><code class="docutils literal notranslate"><span class="pre">x_end</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.y"><code class="docutils literal notranslate"><span class="pre">y</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.y_start"><code class="docutils literal notranslate"><span class="pre">y_start</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.y_end"><code class="docutils literal notranslate"><span class="pre">y_end</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.z"><code class="docutils literal notranslate"><span class="pre">z</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.z_start"><code class="docutils literal notranslate"><span class="pre">z_start</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.z_end"><code class="docutils literal notranslate"><span class="pre">z_end</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.density"><code class="docutils literal notranslate"><span class="pre">density</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.distance_to_axis"><code class="docutils literal notranslate"><span class="pre">distance_to_axis</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html">Rotational inertia in terms of a cylindrical integral</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.radius_start"><code class="docutils literal notranslate"><span class="pre">radius_start</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.radius_end"><code class="docutils literal notranslate"><span class="pre">radius_end</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle"><code class="docutils literal notranslate"><span class="pre">polar_angle</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle_start"><code class="docutils literal notranslate"><span class="pre">polar_angle_start</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.polar_angle_end"><code class="docutils literal notranslate"><span class="pre">polar_angle_end</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.height_start"><code class="docutils literal notranslate"><span class="pre">height_start</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.height_end"><code class="docutils literal notranslate"><span class="pre">height_end</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.density"><code class="docutils literal notranslate"><span class="pre">density</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.html">Rotational inertia is additive</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.total_rotational_inertia"><code class="docutils literal notranslate"><span class="pre">total_rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.index"><code class="docutils literal notranslate"><span class="pre">index</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.html">Rotational inertia of a particle</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.distance_to_axis"><code class="docutils literal notranslate"><span class="pre">distance_to_axis</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.html">Slab about perpendicular axis through center</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.width"><code class="docutils literal notranslate"><span class="pre">width</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.html">Solid disk about central axis</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.html">Thin rod about axis through center perpendicular to length</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.rotational_inertia"><code class="docutils literal notranslate"><span class="pre">rotational_inertia</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.length"><code class="docutils literal notranslate"><span class="pre">length</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.mass"><code class="docutils literal notranslate"><span class="pre">mass</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.html">Angular acceleration is angular speed derivative</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.angular_acceleration"><code class="docutils literal notranslate"><span class="pre">angular_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.angular_speed"><code class="docutils literal notranslate"><span class="pre">angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.html">Angular position is arc length over radius</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.angular_position"><code class="docutils literal notranslate"><span class="pre">angular_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.arc_length"><code class="docutils literal notranslate"><span class="pre">arc_length</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.distance_to_axis"><code class="docutils literal notranslate"><span class="pre">distance_to_axis</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.html">Angular position via constant angular acceleration and time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.final_angular_position"><code class="docutils literal notranslate"><span class="pre">final_angular_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.initial_angular_position"><code class="docutils literal notranslate"><span class="pre">initial_angular_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.initial_angular_speed"><code class="docutils literal notranslate"><span class="pre">initial_angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.angular_acceleration"><code class="docutils literal notranslate"><span class="pre">angular_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.html">Angular position via constant angular speed and time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.final_angular_position"><code class="docutils literal notranslate"><span class="pre">final_angular_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.initial_angular_position"><code class="docutils literal notranslate"><span class="pre">initial_angular_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.angular_speed"><code class="docutils literal notranslate"><span class="pre">angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.html">Angular speed is angular distance derivative</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.angular_speed"><code class="docutils literal notranslate"><span class="pre">angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.angular_distance"><code class="docutils literal notranslate"><span class="pre">angular_distance</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.html">Angular speed via constant angular acceleration and time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.final_angular_speed"><code class="docutils literal notranslate"><span class="pre">final_angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.initial_angular_speed"><code class="docutils literal notranslate"><span class="pre">initial_angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.angular_acceleration"><code class="docutils literal notranslate"><span class="pre">angular_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.html">Average angular speed is angular distance over time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.average_angular_speed"><code class="docutils literal notranslate"><span class="pre">average_angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.angular_distance"><code class="docutils literal notranslate"><span class="pre">angular_distance</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.html">Centripetal acceleration via angular speed and radius</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.centripetal_acceleration"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.angular_speed"><code class="docutils literal notranslate"><span class="pre">angular_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.radius_of_curvature"><code class="docutils literal notranslate"><span class="pre">radius_of_curvature</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.html">Centripetal acceleration via cross product</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.centripetal_acceleration"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.angular_velocity"><code class="docutils literal notranslate"><span class="pre">angular_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.html">Centripetal acceleration via vector rejection</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.centripetal_acceleration"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.angular_velocity"><code class="docutils literal notranslate"><span class="pre">angular_velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.html">Linear displacement is angular displacement cross radius</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.linear_displacement"><code class="docutils literal notranslate"><span class="pre">linear_displacement</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.angular_displacement"><code class="docutils literal notranslate"><span class="pre">angular_displacement</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.rotation_radius_vector"><code class="docutils literal notranslate"><span class="pre">rotation_radius_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.html#symplyphysics.classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.html"><strong>Translational Motion (Kinematics)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.html">Acceleration is speed derivative</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.acceleration"><code class="docutils literal notranslate"><span class="pre">acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.html">Acceleration is velocity derivative</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.acceleration"><code class="docutils literal notranslate"><span class="pre">acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.velocity"><code class="docutils literal notranslate"><span class="pre">velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_velocity_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.html">Classical addition of velocities</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.html#symplyphysics.classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.body_speed_in_first_frame"><code class="docutils literal notranslate"><span class="pre">body_speed_in_first_frame</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.html#symplyphysics.classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.body_speed_in_second_frame"><code class="docutils literal notranslate"><span class="pre">body_speed_in_second_frame</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.html#symplyphysics.classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.second_frame_speed_in_first_frame"><code class="docutils literal notranslate"><span class="pre">second_frame_speed_in_first_frame</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.html#symplyphysics.classical_mechanics.kinematics.translational_motion.classical_addition_of_velocities.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.html">Position via constant acceleration and time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.final_position"><code class="docutils literal notranslate"><span class="pre">final_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.initial_position"><code class="docutils literal notranslate"><span class="pre">initial_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.initial_speed"><code class="docutils literal notranslate"><span class="pre">initial_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.acceleration"><code class="docutils literal notranslate"><span class="pre">acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_acceleration_and_time.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.html">Position via constant speed and time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.final_position"><code class="docutils literal notranslate"><span class="pre">final_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.initial_position"><code class="docutils literal notranslate"><span class="pre">initial_position</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.position_via_constant_speed_and_time.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.html">Speed is distance derivative</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.distance"><code class="docutils literal notranslate"><span class="pre">distance</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_is_distance_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.html">Speed via constant acceleration and time</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.final_speed"><code class="docutils literal notranslate"><span class="pre">final_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.acceleration"><code class="docutils literal notranslate"><span class="pre">acceleration</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.initial_speed"><code class="docutils literal notranslate"><span class="pre">initial_speed</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.html#symplyphysics.classical_mechanics.kinematics.translational_motion.speed_via_constant_acceleration_and_time.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.html">Velocity is position vector derivative</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.velocity"><code class="docutils literal notranslate"><span class="pre">velocity</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.html#symplyphysics.classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.conservation_laws.html"><strong>Conservation Laws (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.fundamentals.html"><strong>Fundamentals (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Kinematics</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.centers.html"><strong>Centers (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.html"><strong>General Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.html"><strong>Projectile Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.html"><strong>Relative Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.html"><strong>Rotational Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.html"><strong>Translational Motion (Kinematics)</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.html"><strong>Orbital Mechanics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.springs.html"><strong>Springs (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.statics.html"><strong>Statics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.two_body_system.html"><strong>Two Body System</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="classical_mechanics.html">Classical Mechanics</a><ul>
+      <li>Previous: <a href="classical_mechanics.fundamentals.mass_fraction_is_component_mass_over_total_mass.html" title="previous chapter">Mass fraction of mixture component</a></li>
+      <li>Next: <a href="classical_mechanics.kinematics.centers.html" title="next chapter"><strong>Centers (Kinematics)</strong></a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/classical_mechanics.kinematics.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,18 @@
+**Charged Particle Motion**
+===========================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.magnetostatics.charged_particle_motion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.magnetostatics.charged_particle_motion.period_of_rotation_of_charged_particle_in_magnetic_field
+    electromagnetism.magnetostatics.charged_particle_motion.radius_of_curvature_of_charged_particle_in_magnetic_field
+
+
+

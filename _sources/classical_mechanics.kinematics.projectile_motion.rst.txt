@@ -1,0 +1,21 @@
+**Projectile Motion (Kinematics)**
+==================================
+
+
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.kinematics.projectile_motion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    classical_mechanics.kinematics.projectile_motion.maximum_height_from_initial_speed
+    classical_mechanics.kinematics.projectile_motion.maximum_height_of_a_body_thrown_at_an_angle_to_horizon
+    classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_at_an_angle_to_horizon
+    classical_mechanics.kinematics.projectile_motion.maximum_movement_time_of_a_body_thrown_horizontally
+    classical_mechanics.kinematics.projectile_motion.range_of_flight_of_a_body_thrown_at_an_angle_to_horizon
+
+
+

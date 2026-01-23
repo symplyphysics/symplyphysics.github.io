@@ -1,0 +1,120 @@
+Force acting on dipole in non-uniform electric field
+====================================================
+
+If an electric dipole is positioned in a spatially non-uniform electric field, the forces acting
+on the point charges that compose the dipole no longer cancel each other and the dipole
+experiences an overall non-zero acceleration.
+
+**Conditions:**
+
+#. The vector of electric dipole moment does not depent on coordinates.
+
+**Notes:**
+
+#.  A more general representation of this law, which does not require choosing an axis aligned with
+    the dipole, assuming Cartesian coordinates:
+
+    .. math::
+
+        \vec F = \left( \vec p, \nabla \right) \vec E 
+                = p_x \frac{\partial \vec E}{\partial x}
+                + p_y \frac{\partial \vec E}{\partial y}
+                + p_z \frac{\partial \vec E}{\partial z}
+
+    In general orthogonal curvilinear coordinates, this equates the contraction of the *covariant
+    derivative* tensor of the electric field with the electric dipole moment vector:
+
+    .. math::
+
+        F^i = \left( \nabla \vec E : \vec p \right)^i = \sum_j \nabla_j E^i p_j,
+
+    .. math::
+    
+        \nabla_j E^i = \partial_j E^i + \sum_k \Gamma^i{}_{jk} E^k.
+        
+    Here, superscript denotes vector components, :math:`\partial_j` the partial derivative
+    with respect to :math:`q^j`, and :math:`\Gamma^i{}_{jk}` the **Christoffel symbols of
+    the second kind** (`Wikipedia
+    <https://en.wikipedia.org/wiki/Curvilinear_coordinates#Christoffel_symbols>`__). If vectors
+    are represented in an *orthonormal* basis, then :math:`\hat{\Gamma}^i{}_{jk}` is
+    used instead, related by the equation
+
+    .. math::
+
+        h_j h_k \hat{\Gamma}^i{}_{jk} = h_i \Gamma^i{}_{jk} + \delta_{ik} \partial_j h_i
+                                        - \delta_{ij} \partial_k h_j
+
+**Links:**
+
+#. `Physics Bootcamp <https://www.physicsbootcamp.org/Torque-on-an-Electric-Dipole.html>`__.
+
+.. py:currentmodule:: symplyphysics.electromagnetism.electrostatics.electric_dipole.force_acting_on_dipole_in_non_uniform_electric_field
+
+.. py:data:: force
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.force` acting on the dipole.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: electric_dipole_moment
+
+    Magnitude of the :attr:`~symplyphysics.symbols.electrodynamics.electric_dipole_moment` vector.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`charge*length`
+
+
+.. py:data:: position
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.position` along the axis whose direction is aligned with that of the
+    :attr:`~electric_dipole_moment` vector.
+
+Symbol:
+    :code:`x`
+
+Latex:
+    :math:`x`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: electric_field
+
+    Vector of the electric field as a function of :attr:`~position`. See
+    :attr:`~symplyphysics.symbols.electrodynamics.electric_field_strength`.
+
+Symbol:
+    :code:`E(x)`
+
+Latex:
+    :math:`{\vec E} \left( x \right)`
+
+Dimension:
+    :code:`voltage/length`
+
+
+.. py:data:: law
+
+    :code:`F = p * Derivative(E(x), x)`
+
+
+    Latex:
+        .. math::
+            {\vec F} = p \frac{d}{d x} {\vec E} \left( x \right)
+
+

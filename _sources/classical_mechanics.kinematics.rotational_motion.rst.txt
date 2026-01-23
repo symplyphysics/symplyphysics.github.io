@@ -1,0 +1,27 @@
+**Rotational Motion (Kinematics)**
+==================================
+
+
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.kinematics.rotational_motion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia
+    classical_mechanics.kinematics.rotational_motion.angular_acceleration_is_angular_speed_derivative
+    classical_mechanics.kinematics.rotational_motion.angular_position_is_arc_length_over_radius
+    classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_acceleration_and_time
+    classical_mechanics.kinematics.rotational_motion.angular_position_via_constant_angular_speed_and_time
+    classical_mechanics.kinematics.rotational_motion.angular_speed_is_angular_distance_derivative
+    classical_mechanics.kinematics.rotational_motion.angular_speed_via_constant_angular_acceleration_and_time
+    classical_mechanics.kinematics.rotational_motion.average_angular_speed_is_angular_distance_over_time
+    classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_angular_speed_and_radius
+    classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_cross_product
+    classical_mechanics.kinematics.rotational_motion.centripetal_acceleration_via_vector_rejection
+    classical_mechanics.kinematics.rotational_motion.displacement_is_angular_displacement_cross_radius
+
+
+

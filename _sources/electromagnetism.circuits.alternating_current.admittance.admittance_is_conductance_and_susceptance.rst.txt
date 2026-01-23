@@ -1,0 +1,69 @@
+Admittance is conductance and susceptance
+=========================================
+
+Admittance is generally a complex quantity whose real part is called conductance
+and whose imaginary part is called susceptance.
+
+**Notes:**
+
+#. This equation can be seen as the definition of conductance and susceptance as the real and
+   imaginary parts of admittance respectively.
+
+**Links:**
+
+#. `Wikipedia <https://en.wikipedia.org/wiki/Admittance>`__.
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.alternating_current.admittance.admittance_is_conductance_and_susceptance
+
+.. py:data:: admittance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.admittance`.
+
+Symbol:
+    :code:`Y`
+
+Latex:
+    :math:`Y`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: conductance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_conductance`.
+
+Symbol:
+    :code:`G`
+
+Latex:
+    :math:`G`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: susceptance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.susceptance`.
+
+Symbol:
+    :code:`B`
+
+Latex:
+    :math:`B`
+
+Dimension:
+    :code:`conductance`
+
+
+.. py:data:: law
+
+    :code:`Y = G + I * B`
+
+
+    Latex:
+        .. math::
+            Y = G + i B
+
+

@@ -1,0 +1,23 @@
+**Heat Capacity**
+=================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.response_functions.heat_capacity
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.response_functions.heat_capacity.heat_capacity_ratio
+    thermodynamics.response_functions.heat_capacity.heat_is_heat_capacity_times_temperature_change
+    thermodynamics.response_functions.heat_capacity.isobaric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
+    thermodynamics.response_functions.heat_capacity.isochoric_and_isobaric_heat_capacities_of_homogeneous_substance
+    thermodynamics.response_functions.heat_capacity.isochoric_and_isobaric_heat_capacity_of_ideal_gas
+    thermodynamics.response_functions.heat_capacity.isochoric_molar_heat_capacity_of_ideal_gas_via_adiabatic_index
+    thermodynamics.response_functions.heat_capacity.isochoric_molar_heat_capacity_of_ideal_gas_via_degrees_of_freedom
+
+
+

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Laplace pressure of spherical shapes &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Surface tension force via surface tension and length" href="continuum_mechanics.fluid_mechanics.surface_effects.surface_tension_force_via_surface_tension_and_length.html" />
+    <link rel="prev" title="Laplace pressure is pressure difference" href="continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_is_pressure_difference.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="laplace-pressure-of-spherical-shapes">
+<h1>Laplace pressure of spherical shapes<a class="headerlink" href="#laplace-pressure-of-spherical-shapes" title="Link to this heading">¶</a></h1>
+<p>Under the curved surface of a fluid, in addition to the internal pressure, additional pressure
+is created due to the curvature of the surface. The excess pressure under the curved surface of
+the fluid is called <em>Laplace pressure</em>.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Laplace_pressure">Wikipedia, second formula</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.laplace_pressure">
+<span class="sig-name descname"><span class="pre">laplace_pressure</span></span><a class="headerlink" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.laplace_pressure" title="Link to this definition">¶</a></dt>
+<dd><p>Excess <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.pressure" title="symplyphysics.symbols.classical_mechanics.pressure"><code class="xref py py-attr docutils literal notranslate"><span class="pre">pressure</span></code></a> under the curved surface.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">P_L</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(P_\text{L}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">pressure</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.surface_tension">
+<span class="sig-name descname"><span class="pre">surface_tension</span></span><a class="headerlink" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.surface_tension" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.surface_tension" title="symplyphysics.symbols.classical_mechanics.surface_tension"><code class="xref py py-attr docutils literal notranslate"><span class="pre">surface_tension</span></code></a> of the fluid.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">gamma</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\gamma\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">force/length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.radius_of_curvature">
+<span class="sig-name descname"><span class="pre">radius_of_curvature</span></span><a class="headerlink" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.radius_of_curvature" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.radius_of_curvature" title="symplyphysics.symbols.basic.radius_of_curvature"><code class="xref py py-attr docutils literal notranslate"><span class="pre">radius_of_curvature</span></code></a> of the surface.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">r</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(r\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">P_L</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">gamma</span> <span class="pre">/</span> <span class="pre">r</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[P_\text{L} = \frac{2 \gamma}{r}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="continuum_mechanics.acoustic_waves.html"><strong>Acoustic Waves (Continuum Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="continuum_mechanics.elasticity.html"><strong>Elasticity</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.html"><strong>Fluid Mechanics</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.hydraulic_press.html"><strong>Hydraulic Press</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.hydrostatics.html"><strong>Hydrostatics</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.incompressible_flow.html"><strong>Incompressible Flow</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.similarity_parameters.html"><strong>Similarity Parameters</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.supersonic_flow.html"><strong>Supersonic Flow</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.surface_effects.html"><strong>Surface Effects</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.surface_effects.capillary_height_via_surface_tension_and_contact_angle.html">Capillary height via surface tension and contact angle</a></li>
+<li class="toctree-l4"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.surface_effects.excess_pressure_under_curved_surface_of_bubble.html">Excess pressure under curved surface of bubble</a></li>
+<li class="toctree-l4"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_is_pressure_difference.html">Laplace pressure is pressure difference</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Laplace pressure of spherical shapes</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.laplace_pressure"><code class="docutils literal notranslate"><span class="pre">laplace_pressure</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.surface_tension"><code class="docutils literal notranslate"><span class="pre">surface_tension</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.radius_of_curvature"><code class="docutils literal notranslate"><span class="pre">radius_of_curvature</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.surface_effects.surface_tension_force_via_surface_tension_and_length.html">Surface tension force via surface tension and length</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.transport_properties.html"><strong>Transport Properties</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="continuum_mechanics.html">Continuum Mechanics</a><ul>
+  <li><a href="continuum_mechanics.fluid_mechanics.html"><strong>Fluid Mechanics</strong></a><ul>
+  <li><a href="continuum_mechanics.fluid_mechanics.surface_effects.html"><strong>Surface Effects</strong></a><ul>
+      <li>Previous: <a href="continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_is_pressure_difference.html" title="previous chapter">Laplace pressure is pressure difference</a></li>
+      <li>Next: <a href="continuum_mechanics.fluid_mechanics.surface_effects.surface_tension_force_via_surface_tension_and_length.html" title="next chapter">Surface tension force via surface tension and length</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

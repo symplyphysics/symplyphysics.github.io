@@ -1,0 +1,28 @@
+**Buckling (Nuclear Physics)**
+==============================
+
+
+
+.. py:currentmodule:: symplyphysics.nuclear_physics.buckling
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    nuclear_physics.buckling.geometric_buckling_for_uniform_cylinder
+    nuclear_physics.buckling.geometric_buckling_for_uniform_parallelepiped
+    nuclear_physics.buckling.geometric_buckling_for_uniform_slab
+    nuclear_physics.buckling.geometric_buckling_for_uniform_sphere
+    nuclear_physics.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area
+    nuclear_physics.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient
+    nuclear_physics.buckling.geometric_buckling_from_neutron_flux
+    nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient
+    nuclear_physics.buckling.neutron_flux_for_uniform_cylinder
+    nuclear_physics.buckling.neutron_flux_for_uniform_parallelepiped
+    nuclear_physics.buckling.neutron_flux_for_uniform_slab
+    nuclear_physics.buckling.neutron_flux_for_uniform_sphere
+
+
+

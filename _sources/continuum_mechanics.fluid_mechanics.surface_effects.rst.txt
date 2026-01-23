@@ -1,0 +1,21 @@
+**Surface Effects**
+===================
+
+
+
+.. py:currentmodule:: symplyphysics.continuum_mechanics.fluid_mechanics.surface_effects
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    continuum_mechanics.fluid_mechanics.surface_effects.capillary_height_via_surface_tension_and_contact_angle
+    continuum_mechanics.fluid_mechanics.surface_effects.excess_pressure_under_curved_surface_of_bubble
+    continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_is_pressure_difference
+    continuum_mechanics.fluid_mechanics.surface_effects.laplace_pressure_of_spherical_shapes
+    continuum_mechanics.fluid_mechanics.surface_effects.surface_tension_force_via_surface_tension_and_length
+
+
+

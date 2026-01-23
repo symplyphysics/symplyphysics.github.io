@@ -1,0 +1,17 @@
+**Wave Energy (Electromagnetic Waves)**
+=======================================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetic_waves.wave_energy
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetic_waves.wave_energy.energy_density_via_permittivity_and_electric_field
+
+
+

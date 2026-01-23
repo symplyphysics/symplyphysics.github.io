@@ -1,0 +1,24 @@
+**Kinetic Theory**
+==================
+
+
+
+.. py:currentmodule:: symplyphysics.statistical_physics.classical_statistics.kinetic_theory
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    statistical_physics.classical_statistics.kinetic_theory.average_kinetic_energy_of_ideal_gas_from_temperature
+    statistical_physics.classical_statistics.kinetic_theory.gas_mixture_pressure_from_partial_pressures
+    statistical_physics.classical_statistics.kinetic_theory.internal_energy_change_of_ideal_gas_via_temperature
+    statistical_physics.classical_statistics.kinetic_theory.internal_energy_of_ideal_gas_via_temperature
+    statistical_physics.classical_statistics.kinetic_theory.mean_free_path_of_particles_in_gaseous_medium
+    statistical_physics.classical_statistics.kinetic_theory.mean_free_path_of_random_motion
+    statistical_physics.classical_statistics.kinetic_theory.number_of_impacts_of_molecules_on_the_wall_from_area_and_velocity
+    statistical_physics.classical_statistics.kinetic_theory.pressure_from_number_density_and_kinetic_energy
+
+
+

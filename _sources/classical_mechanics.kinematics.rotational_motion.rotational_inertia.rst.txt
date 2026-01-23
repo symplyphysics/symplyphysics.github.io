@@ -1,0 +1,24 @@
+**Rotational Inertia**
+======================
+
+
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.kinematics.rotational_motion.rotational_inertia
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_about_axis_and_through_center_of_mass
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cartesian_integral
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_cylindrical_integral
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_is_additive
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_particle
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_slab_about_perpendicular_axis_through_center
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_solid_disk_about_central_axis
+    classical_mechanics.kinematics.rotational_motion.rotational_inertia.rotational_inertia_of_thin_rod_about_axis_through_center_perpendicular_to_length
+
+
+

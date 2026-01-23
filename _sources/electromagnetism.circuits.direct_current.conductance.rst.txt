@@ -1,0 +1,17 @@
+**Conductance (Direct Current)**
+================================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.direct_current.conductance
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.direct_current.conductance.electrical_conductance_is_inverse_resistance
+
+
+

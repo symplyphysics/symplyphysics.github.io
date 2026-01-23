@@ -1,0 +1,17 @@
+**Two Body System**
+===================
+
+
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.two_body_system
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    classical_mechanics.two_body_system.reduced_mass_of_two_body_system
+
+
+

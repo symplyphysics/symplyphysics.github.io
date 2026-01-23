@@ -1,0 +1,19 @@
+**Quantum Harmonic Oscillator**
+===============================
+
+
+
+.. py:currentmodule:: symplyphysics.quantum_physics.quantum_harmonic_oscillator
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    quantum_physics.quantum_harmonic_oscillator.quantum_harmonic_oscillator_energy_levels
+    quantum_physics.quantum_harmonic_oscillator.quantum_harmonic_oscillator_equation
+    quantum_physics.quantum_harmonic_oscillator.quantum_oscillator_wave_eigenfunctions
+
+
+

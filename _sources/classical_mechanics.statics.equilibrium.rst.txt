@@ -1,0 +1,17 @@
+**Equilibrium (Statics)**
+=========================
+
+
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.statics.equilibrium
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    classical_mechanics.statics.equilibrium.total_torque_is_zero
+
+
+

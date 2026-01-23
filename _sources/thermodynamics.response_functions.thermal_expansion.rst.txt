@@ -1,0 +1,21 @@
+**Thermal Expansion**
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.response_functions.thermal_expansion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.response_functions.thermal_expansion.fractional_volume_change_via_small_temperature_change
+    thermodynamics.response_functions.thermal_expansion.linear_coefficient_of_thermal_expansion
+    thermodynamics.response_functions.thermal_expansion.volumetric_and_linear_expansion_coefficients_in_isotropic_materials
+    thermodynamics.response_functions.thermal_expansion.volumetric_coefficient_of_thermal_expansion
+    thermodynamics.response_functions.thermal_expansion.volumetric_expansion_coefficient_of_ideal_gas
+
+
+

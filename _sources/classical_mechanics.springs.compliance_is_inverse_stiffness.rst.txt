@@ -1,0 +1,54 @@
+Compliance is inverse stiffness
+===============================
+
+*Compliance* (also called *flexibility*) quantifies how much a system deforms under load; for an ideal linear spring it is the reciprocal of its stiffness.
+
+**Conditions:**
+
+#. This law holds locally (i.e. at a specific point along the spring), and is always true when stiffness is constant throughout the spring.
+#. Deformation remains within the elastic (Hookean) range.
+
+**Links:**
+
+#. `Wikipedia – Compliance (mechanics) <https://en.wikipedia.org/wiki/Stiffness#Compliance>`__
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.springs.compliance_is_inverse_stiffness
+
+.. py:data:: compliance
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.compliance` of the spring.
+
+Symbol:
+    :code:`c`
+
+Latex:
+    :math:`c`
+
+Dimension:
+    :code:`length/force`
+
+
+.. py:data:: stiffness
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.stiffness` of the spring.
+
+Symbol:
+    :code:`k`
+
+Latex:
+    :math:`k`
+
+Dimension:
+    :code:`force/length`
+
+
+.. py:data:: law
+
+    :code:`c = 1 / k`
+
+
+    Latex:
+        .. math::
+            c = \frac{1}{k}
+
+

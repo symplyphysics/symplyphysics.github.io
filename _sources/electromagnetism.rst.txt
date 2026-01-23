@@ -1,0 +1,24 @@
+Electromagnetism
+================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    electromagnetism.circuits
+    electromagnetism.conservation_laws
+    electromagnetism.corona_discharge
+    electromagnetism.electrodynamics
+    electromagnetism.electrostatics
+    electromagnetism.fundamentals
+    electromagnetism.magnetostatics
+    electromagnetism.space_charge
+
+
+
+

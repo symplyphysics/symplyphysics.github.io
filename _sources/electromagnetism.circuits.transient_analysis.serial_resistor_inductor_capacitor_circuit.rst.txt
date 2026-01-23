@@ -1,0 +1,17 @@
+**Serial RLC Circuit**
+======================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.transient_analysis.serial_resistor_inductor_capacitor_circuit
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.transient_analysis.serial_resistor_inductor_capacitor_circuit.impedance_module_of_the_serial_resistor_coil_capacitor_circuit
+
+
+

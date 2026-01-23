@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Diffusion (Condensed Matter) &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <link rel="canonical" href="https://symplyphysics.github.io/condensed_matter.transport_phenomena.diffusion.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Diffusion coefficient from energy and temperature" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html" />
+    <link rel="prev" title="Transport Phenomena" href="condensed_matter.transport_phenomena.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="diffusion-condensed-matter">
+<h1><strong>Diffusion (Condensed Matter)</strong><a class="headerlink" href="#diffusion-condensed-matter" title="Link to this heading">¶</a></h1>
+<p><strong>Contents:</strong></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html">Diffusion coefficient from energy and temperature</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html#symplyphysics.condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.diffusion_coefficient"><code class="docutils literal notranslate"><span class="pre">diffusion_coefficient</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html#symplyphysics.condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.energy"><code class="docutils literal notranslate"><span class="pre">energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html#symplyphysics.condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.maximum_diffusion_coefficient"><code class="docutils literal notranslate"><span class="pre">maximum_diffusion_coefficient</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html#symplyphysics.condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html#symplyphysics.condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.crystallography.html"><strong>Crystallography</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.electrical_properties.html"><strong>Electrical Properties (Condensed Matter)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.electronic_emission.html"><strong>Electronic Emission</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.gas_plasma.html"><strong>Gas Plasma</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.interaction_potentials.html"><strong>Interaction Potentials</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.ionization.html"><strong>Ionization</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.magnetron.html"><strong>Magnetron</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.semiconductors.html"><strong>Semiconductors</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="condensed_matter.thermodynamics.html"><strong>Thermodynamics (Condensed Matter)</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="condensed_matter.transport_phenomena.html"><strong>Transport Phenomena</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Diffusion (Condensed Matter)</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html">Diffusion coefficient from energy and temperature</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="condensed_matter.html">Condensed Matter</a><ul>
+  <li><a href="condensed_matter.transport_phenomena.html"><strong>Transport Phenomena</strong></a><ul>
+      <li>Previous: <a href="condensed_matter.transport_phenomena.html" title="previous chapter"><strong>Transport Phenomena</strong></a></li>
+      <li>Next: <a href="condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature.html" title="next chapter">Diffusion coefficient from energy and temperature</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/condensed_matter.transport_phenomena.diffusion.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

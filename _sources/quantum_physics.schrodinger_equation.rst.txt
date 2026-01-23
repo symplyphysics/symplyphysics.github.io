@@ -1,0 +1,20 @@
+**Schrödinger Equation**
+========================
+
+
+
+.. py:currentmodule:: symplyphysics.quantum_physics.schrodinger_equation
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    quantum_physics.schrodinger_equation.free_particle_plane_wave_solution
+    quantum_physics.schrodinger_equation.time_dependent_equation_in_one_dimension
+    quantum_physics.schrodinger_equation.time_dependent_via_time_independent_solution
+    quantum_physics.schrodinger_equation.time_independent_equation_in_one_dimension
+
+
+

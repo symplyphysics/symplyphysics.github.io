@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Acceleration of transfer between relative frames &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Centrifugal acceleration via centripetal acceleration" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html" />
+    <link rel="prev" title="Acceleration due to non-uniform rotation" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="acceleration-of-transfer-between-relative-frames">
+<h1>Acceleration of transfer between relative frames<a class="headerlink" href="#acceleration-of-transfer-between-relative-frames" title="Link to this heading">¶</a></h1>
+<p>Imagine two reference frames, one of which is fixed (<span class="math notranslate nohighlight">\(S\)</span>) and the other one is moving
+(<span class="math notranslate nohighlight">\(S'\)</span>). The motion of a body stationary in moving frame <span class="math notranslate nohighlight">\(S'\)</span> due to the motion of the
+frame itself is called transfer motion. The acceleration related to such motion is called transfer
+acceleration. It is composed of the acceleration of the moving frame relative to the fixed frame,
+centripetal acceleration and the acceleration due to uneven rotation of the moving frame. The
+transfer acceleration only depends on the motion of frame <span class="math notranslate nohighlight">\(S'\)</span> relative to stationary frame
+<span class="math notranslate nohighlight">\(S\)</span>, so its physical meaning would be that it is the acceleration in <span class="math notranslate nohighlight">\(S\)</span> of a point
+stationary in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B6%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5#%D0%A3%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%B8%D0%B5">Wikipedia</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.transfer_acceleration">
+<span class="sig-name descname"><span class="pre">transfer_acceleration</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.transfer_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the transfer <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_tr</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{tr}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration">
+<span class="sig-name descname"><span class="pre">moving_frame_acceleration</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> of the <span class="math notranslate nohighlight">\(S'\)</span> relative to <span class="math notranslate nohighlight">\(S\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.centripetal_acceleration">
+<span class="sig-name descname"><span class="pre">centripetal_acceleration</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.centripetal_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s centripetal <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> relative to <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_cp</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{cp}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.rotation_acceleration">
+<span class="sig-name descname"><span class="pre">rotation_acceleration</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.rotation_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of acceleration due to non-uniform rotation of <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_rot</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{rot}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">a_tr</span> <span class="pre">=</span> <span class="pre">a_0</span> <span class="pre">+</span> <span class="pre">a_cp</span> <span class="pre">+</span> <span class="pre">a_rot</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{tr} = {\vec a}_{0} + {\vec a}_\text{cp} + {\vec a}_\text{rot}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.conservation_laws.html"><strong>Conservation Laws (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.fundamentals.html"><strong>Fundamentals (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.centers.html"><strong>Centers (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.html"><strong>General Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.html"><strong>Projectile Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.html"><strong>Relative Motion (Kinematics)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Acceleration of transfer between relative frames</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.transfer_acceleration"><code class="docutils literal notranslate"><span class="pre">transfer_acceleration</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.moving_frame_acceleration"><code class="docutils literal notranslate"><span class="pre">moving_frame_acceleration</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.centripetal_acceleration"><code class="docutils literal notranslate"><span class="pre">centripetal_acceleration</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.rotation_acceleration"><code class="docutils literal notranslate"><span class="pre">rotation_acceleration</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html">Coriolis acceleration via relative velocity and angular velocity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html">Velocity of transfer between reference frames</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.html"><strong>Rotational Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.html"><strong>Translational Motion (Kinematics)</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.html"><strong>Orbital Mechanics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.springs.html"><strong>Springs (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.statics.html"><strong>Statics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.two_body_system.html"><strong>Two Body System</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="classical_mechanics.html">Classical Mechanics</a><ul>
+  <li><a href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a><ul>
+  <li><a href="classical_mechanics.kinematics.relative_motion.html"><strong>Relative Motion (Kinematics)</strong></a><ul>
+      <li>Previous: <a href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html" title="previous chapter">Acceleration due to non-uniform rotation</a></li>
+      <li>Next: <a href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html" title="next chapter">Centrifugal acceleration via centripetal acceleration</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

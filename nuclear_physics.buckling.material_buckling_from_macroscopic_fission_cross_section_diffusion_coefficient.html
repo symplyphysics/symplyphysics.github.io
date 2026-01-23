@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Material buckling from material cross sections and diffusion coefficient &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Neutron flux for uniform cylinder" href="nuclear_physics.buckling.neutron_flux_for_uniform_cylinder.html" />
+    <link rel="prev" title="Geometric buckling from neutron flux" href="nuclear_physics.buckling.geometric_buckling_from_neutron_flux.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="material-buckling-from-material-cross-sections-and-diffusion-coefficient">
+<h1>Material buckling from material cross sections and diffusion coefficient<a class="headerlink" href="#material-buckling-from-material-cross-sections-and-diffusion-coefficient" title="Link to this heading">¶</a></h1>
+<p>Material buckling can be calculated from material fission and absorption cross sections
+as well as diffusion coefficient and average number of neutrons produced per fission.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Geometric_and_material_buckling#Material_Buckling">Wikipedia, last formula in paragraph</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.neutrons_per_fission">
+<span class="sig-name descname"><span class="pre">neutrons_per_fission</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.neutrons_per_fission" title="Link to this definition">¶</a></dt>
+<dd><p>The average number of neutrons produced per fission. See <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.particle_count" title="symplyphysics.symbols.basic.particle_count"><code class="xref py py-attr docutils literal notranslate"><span class="pre">particle_count</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">nu</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\nu\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_fission_cross_section">
+<span class="sig-name descname"><span class="pre">macroscopic_fission_cross_section</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_fission_cross_section" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.nuclear.html#symplyphysics.symbols.nuclear.macroscopic_cross_section" title="symplyphysics.symbols.nuclear.macroscopic_cross_section"><code class="xref py py-attr docutils literal notranslate"><span class="pre">macroscopic_cross_section</span></code></a> of fission.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Sigma_f</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Sigma_\text{f}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_absorption_cross_section">
+<span class="sig-name descname"><span class="pre">macroscopic_absorption_cross_section</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_absorption_cross_section" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.nuclear.html#symplyphysics.symbols.nuclear.macroscopic_cross_section" title="symplyphysics.symbols.nuclear.macroscopic_cross_section"><code class="xref py py-attr docutils literal notranslate"><span class="pre">macroscopic_cross_section</span></code></a> of absorption.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Sigma_a</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\Sigma_\text{a}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.diffusion_coefficient">
+<span class="sig-name descname"><span class="pre">diffusion_coefficient</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.diffusion_coefficient" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.nuclear.html#symplyphysics.symbols.nuclear.neutron_diffusion_coefficient" title="symplyphysics.symbols.nuclear.neutron_diffusion_coefficient"><code class="xref py py-attr docutils literal notranslate"><span class="pre">neutron_diffusion_coefficient</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.material_buckling">
+<span class="sig-name descname"><span class="pre">material_buckling</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.material_buckling" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.nuclear.html#symplyphysics.symbols.nuclear.material_buckling" title="symplyphysics.symbols.nuclear.material_buckling"><code class="xref py py-attr docutils literal notranslate"><span class="pre">material_buckling</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B_m^2</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B_\text{m}^2\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">1/area</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">B_m^2</span> <span class="pre">=</span> <span class="pre">(nu</span> <span class="pre">*</span> <span class="pre">Sigma_f</span> <span class="pre">-</span> <span class="pre">Sigma_a)</span> <span class="pre">/</span> <span class="pre">D</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[B_\text{m}^2 = \frac{\nu \Sigma_\text{f} - \Sigma_\text{a}}{D}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="nuclear_physics.buckling.html"><strong>Buckling (Nuclear Physics)</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.geometric_buckling_for_uniform_cylinder.html">Geometric buckling for uniform cylinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.geometric_buckling_for_uniform_parallelepiped.html">Geometric buckling for uniform parallelepiped</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.geometric_buckling_for_uniform_slab.html">Geometric buckling for uniform slab</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.geometric_buckling_for_uniform_sphere.html">Geometric buckling for uniform sphere</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.geometric_buckling_from_infinite_multiplication_factor_diffusion_area.html">Geometric buckling from multiplication factors and diffusion area</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.geometric_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.html">Geometric buckling from macroscopic cross sections and diffusion coefficient</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.geometric_buckling_from_neutron_flux.html">Geometric buckling from neutron flux</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Material buckling from material cross sections and diffusion coefficient</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.neutrons_per_fission"><code class="docutils literal notranslate"><span class="pre">neutrons_per_fission</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_fission_cross_section"><code class="docutils literal notranslate"><span class="pre">macroscopic_fission_cross_section</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.macroscopic_absorption_cross_section"><code class="docutils literal notranslate"><span class="pre">macroscopic_absorption_cross_section</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.diffusion_coefficient"><code class="docutils literal notranslate"><span class="pre">diffusion_coefficient</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.material_buckling"><code class="docutils literal notranslate"><span class="pre">material_buckling</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.neutron_flux_for_uniform_cylinder.html">Neutron flux for uniform cylinder</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.neutron_flux_for_uniform_parallelepiped.html">Neutron flux for uniform parallelepiped</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.neutron_flux_for_uniform_slab.html">Neutron flux for uniform slab</a></li>
+<li class="toctree-l3"><a class="reference internal" href="nuclear_physics.buckling.neutron_flux_for_uniform_sphere.html">Neutron flux for uniform sphere</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.diffusion_area_from_diffusion_coefficient.html">Diffusion area from diffusion coefficient and absorption cross section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.diffusion_equation_from_neutron_flux.html">Diffusion equation from neutron flux</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.effective_multiplication_factor.html">Effective multiplication factor from infinite multiplication factor and probabilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.fast_fission_factor_from_resonance_escape_probability.html">Fast fission factor from resonance escape probability</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.fast_non_leakage_probability_from_fermi_age.html">Fast non-leakage probability from Fermi age and geometric buckling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.half_life_decay.html">Half life decay</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.infinite_multiplication_factor.html">Infinite multiplication factor formula</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.infinite_multiplication_factor_from_macroscopic_fission_cross_section.html">Infinite multiplication factor from macroscopic cross sections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.macroscopic_cross_section_from_free_mean_path.html">Macroscopic cross section from mean free path</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.macroscopic_cross_section_from_microscopic_cross_section.html">Macroscopic cross section from microscopic cross section and number density</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.macroscopic_transport_cross_section.html">Macroscopic transport cross section from macroscopic scattering cross section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.migration_area_from_diffusion_length.html">Migration area from diffusion length and Fermi age</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.most_neutron_energies_scattering_angle_average_cosine.html">Average cosine of scattering angle from mass number</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.neutron_diffusion_coefficient_from_scattering_cross_section.html">Diffusion coefficient from macroscopic scattering cross section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.reproduction_factor_from_macroscopic_fission_cross_section.html">Reproduction factor from macroscopic cross sections in fuel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.resonance_escape_probability_from_resonance_absorption_integral.html">Resonance escape probability from resonance absorption integral</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.thermal_non_leakage_probability_from_diffusion_length.html">Thermal non-leakage probability from diffusion area and geometric buckling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nuclear_physics.thermal_utilisation_factor_from_macroscopic_absorption_cross_sections.html">Thermal utilization factor from macroscopic absorption cross sections</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="nuclear_physics.html">Nuclear Physics</a><ul>
+  <li><a href="nuclear_physics.buckling.html"><strong>Buckling (Nuclear Physics)</strong></a><ul>
+      <li>Previous: <a href="nuclear_physics.buckling.geometric_buckling_from_neutron_flux.html" title="previous chapter">Geometric buckling from neutron flux</a></li>
+      <li>Next: <a href="nuclear_physics.buckling.neutron_flux_for_uniform_cylinder.html" title="next chapter">Neutron flux for uniform cylinder</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/nuclear_physics.buckling.material_buckling_from_macroscopic_fission_cross_section_diffusion_coefficient.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

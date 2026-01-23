@@ -1,0 +1,17 @@
+**Electronic Emission**
+=======================
+
+
+
+.. py:currentmodule:: symplyphysics.condensed_matter.electronic_emission
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    condensed_matter.electronic_emission.current_density_in_thermionic_emission_per_richardson
+
+
+

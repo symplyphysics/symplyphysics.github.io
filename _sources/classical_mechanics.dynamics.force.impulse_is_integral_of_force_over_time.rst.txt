@@ -1,0 +1,97 @@
+Impulse is integral of force over time
+======================================
+
+*Impulse* measures the cumulative effect of a force acting over a finite time
+interval. Evaluating the time-integral of one Cartesian component of the
+force yields the corresponding component of the impulse vector.
+
+**Conditions:**
+
+#. The force is finite and integrable on the given time interval.
+
+**Links:**
+
+#. `Wikipedia – Impulse <https://en.wikipedia.org/wiki/Impulse_(physics)>`__
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.dynamics.force.impulse_is_integral_of_force_over_time
+
+.. py:data:: impulse
+
+    Projection of :attr:`~symplyphysics.symbols.classical_mechanics.impulse` vector due to force :math:`\vec F`.
+
+Symbol:
+    :code:`J`
+
+Latex:
+    :math:`J`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: force
+
+    Projection of :attr:`~symplyphysics.symbols.classical_mechanics.force` :math:`\vec F` as a function of time.
+
+Symbol:
+    :code:`F(t)`
+
+Latex:
+    :math:`F{\left(t \right)}`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: time_before
+
+    Initial :attr:`~symplyphysics.symbols.basic.time` of collision.
+
+Symbol:
+    :code:`t_0`
+
+Latex:
+    :math:`t_{0}`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: time_after
+
+    Final :attr:`~symplyphysics.symbols.basic.time` of collision.
+
+Symbol:
+    :code:`t_1`
+
+Latex:
+    :math:`t_{1}`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: law
+
+    :code:`J = Integral(F(t), (t, t_0, t_1))`
+
+
+    Latex:
+        .. math::
+            J = \int\limits_{t_{0}}^{t_{1}} F{\left(t \right)}\, dt
+
+

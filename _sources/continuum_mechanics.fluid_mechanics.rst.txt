@@ -1,0 +1,23 @@
+**Fluid Mechanics**
+===================
+
+
+
+.. py:currentmodule:: symplyphysics.continuum_mechanics.fluid_mechanics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    continuum_mechanics.fluid_mechanics.hydraulic_press
+    continuum_mechanics.fluid_mechanics.hydrostatics
+    continuum_mechanics.fluid_mechanics.incompressible_flow
+    continuum_mechanics.fluid_mechanics.similarity_parameters
+    continuum_mechanics.fluid_mechanics.supersonic_flow
+    continuum_mechanics.fluid_mechanics.surface_effects
+    continuum_mechanics.fluid_mechanics.transport_properties
+
+
+
+

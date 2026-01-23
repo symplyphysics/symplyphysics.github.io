@@ -1,0 +1,74 @@
+Impedance is resistance and reactance
+=====================================
+
+*Impedance* combines a circuit's resistance (real part) and reactance (imaginary part) into a
+single complex quantity. The definition applies at a specific angular frequency and is used
+for steady-state AC analysis.
+
+**Notation:**
+
+#. :math:`i` is the imaginary unit.
+
+**Conditions:**
+
+#. Linear, time-invariant circuit operating in steady-state with sinusoidal excitation.
+#. Resistance and reactance are evaluated at the same angular frequency.
+
+**Links:**
+
+#. `Wikipedia – Electrical impedance <https://en.wikipedia.org/wiki/Electrical_impedance#Complex_impedance>`__
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.alternating_current.impedance.impedance_is_resistance_and_reactance
+
+.. py:data:: impedance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_impedance` of the system.
+
+Symbol:
+    :code:`Z`
+
+Latex:
+    :math:`Z`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: resistance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_resistance` of the system.
+
+Symbol:
+    :code:`R`
+
+Latex:
+    :math:`R`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: reactance
+
+    :attr:`~symplyphysics.symbols.electrodynamics.electrical_reactance` of the system.
+
+Symbol:
+    :code:`X`
+
+Latex:
+    :math:`X`
+
+Dimension:
+    :code:`impedance`
+
+
+.. py:data:: law
+
+    :code:`Z = R + I * X`
+
+
+    Latex:
+        .. math::
+            Z = R + i X
+
+

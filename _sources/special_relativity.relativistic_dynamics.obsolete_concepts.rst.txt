@@ -1,0 +1,17 @@
+**Obsolete Concepts (Special Relativity)**
+==========================================
+
+
+
+.. py:currentmodule:: symplyphysics.special_relativity.relativistic_dynamics.obsolete_concepts
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    special_relativity.relativistic_dynamics.obsolete_concepts.relativistic_mass_via_rest_mass_and_speed
+
+
+

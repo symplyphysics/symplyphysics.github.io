@@ -1,0 +1,24 @@
+**Thermodynamic Potentials**
+============================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    thermodynamics.thermodynamic_potentials.definitions
+    thermodynamics.thermodynamic_potentials.differentials
+    thermodynamics.thermodynamic_potentials.euler_relations
+    thermodynamics.thermodynamic_potentials.ideal_gas
+    thermodynamics.thermodynamic_potentials.identities
+    thermodynamics.thermodynamic_potentials.legendre_transforms
+    thermodynamics.thermodynamic_potentials.maxwell_relations
+    thermodynamics.thermodynamic_potentials.properties
+
+
+
+

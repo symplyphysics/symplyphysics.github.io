@@ -1,0 +1,24 @@
+**Components (Circuits)**
+=========================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.components
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    electromagnetism.circuits.components.capacitors
+    electromagnetism.circuits.components.couplers
+    electromagnetism.circuits.components.diodes
+    electromagnetism.circuits.components.filters
+    electromagnetism.circuits.components.inductors
+    electromagnetism.circuits.components.resistors
+    electromagnetism.circuits.components.resonators
+    electromagnetism.circuits.components.varactors
+
+
+
+

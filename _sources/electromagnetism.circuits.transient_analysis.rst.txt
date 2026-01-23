@@ -1,0 +1,19 @@
+**Transient Analysis**
+======================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.transient_analysis
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    electromagnetism.circuits.transient_analysis.serial_inductor_capacitor_circuit
+    electromagnetism.circuits.transient_analysis.serial_resistor_capacitor_circuit
+    electromagnetism.circuits.transient_analysis.serial_resistor_inductor_capacitor_circuit
+
+
+
+

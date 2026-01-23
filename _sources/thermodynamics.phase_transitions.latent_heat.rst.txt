@@ -1,0 +1,19 @@
+**Latent Heat**
+===============
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.phase_transitions.latent_heat
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.phase_transitions.latent_heat.heat_of_combustion_via_mass
+    thermodynamics.phase_transitions.latent_heat.heat_of_vaporization_via_mass
+    thermodynamics.phase_transitions.latent_heat.latent_heat_of_fusion_via_mass
+
+
+

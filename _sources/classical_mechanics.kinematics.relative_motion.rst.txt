@@ -1,0 +1,23 @@
+**Relative Motion (Kinematics)**
+================================
+
+
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.kinematics.relative_motion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion
+    classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation
+    classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames
+    classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration
+    classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity
+    classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames
+    classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame
+
+
+

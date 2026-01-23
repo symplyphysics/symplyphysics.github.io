@@ -1,0 +1,22 @@
+**Filters**
+===========
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.components.filters
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.components.filters.approximation_of_transmission_coefficient_of_low_pass_filter
+    electromagnetism.circuits.components.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies
+    electromagnetism.circuits.components.filters.butterworth_filter_order_from_distortion_and_frequencies
+    electromagnetism.circuits.components.filters.filter_order_from_distortion_and_frequencies
+    electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies
+    electromagnetism.circuits.components.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies
+
+
+

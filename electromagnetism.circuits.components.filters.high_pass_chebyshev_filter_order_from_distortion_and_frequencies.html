@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>High pass Chebyshev filter from distortion and frequency &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Low-pass Chebyshev filter order from distortion and frequencies" href="electromagnetism.circuits.components.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html" />
+    <link rel="prev" title="Filter order from distortion and frequency" href="electromagnetism.circuits.components.filters.filter_order_from_distortion_and_frequencies.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="high-pass-chebyshev-filter-from-distortion-and-frequency">
+<h1>High pass Chebyshev filter from distortion and frequency<a class="headerlink" href="#high-pass-chebyshev-filter-from-distortion-and-frequency" title="Link to this heading">¶</a></h1>
+<p>The approximation of the power transmission coefficient of a normalized high-pass filter
+is given by approximating functions of order <span class="math notranslate nohighlight">\(n\)</span>. The <strong>Chebyshev filter</strong> is
+described by the function <span class="math notranslate nohighlight">\(\left(\cos{n \arccos{f^{-1}}}\right)^{-1}\)</span> of
+frequency <span class="math notranslate nohighlight">\(f\)</span>. In this case, a high-pass filter is considered. The high-pass
+filter removes all frequencies from <span class="math notranslate nohighlight">\(0\)</span> to the set frequency.</p>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.filter_order">
+<span class="sig-name descname"><span class="pre">filter_order</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.filter_order" title="Link to this definition">¶</a></dt>
+<dd><p>Filter order. See <a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.positive_number" title="symplyphysics.symbols.basic.positive_number"><code class="xref py py-attr docutils literal notranslate"><span class="pre">positive_number</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">N</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(N\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth_distortion">
+<span class="sig-name descname"><span class="pre">bandwidth_distortion</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.bandwidth_distortion" title="Link to this definition">¶</a></dt>
+<dd><p>Bandwidth distortion, which corresponds to the number of ripples in the bandwidth.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">e</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(e\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_distortion">
+<span class="sig-name descname"><span class="pre">band_stop_distortion</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_distortion" title="Link to this definition">¶</a></dt>
+<dd><p>Band-stop distortion, which sets the required suppression level in the filter band-stop.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">e_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(e_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.cutoff_frequency">
+<span class="sig-name descname"><span class="pre">cutoff_frequency</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.cutoff_frequency" title="Link to this definition">¶</a></dt>
+<dd><p>Cut-off frequency, i.e. <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.temporal_frequency" title="symplyphysics.symbols.classical_mechanics.temporal_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temporal_frequency</span></code></a> that corresponds to the maximum
+bandwidth distortion.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f_{0}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">frequency</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_frequency">
+<span class="sig-name descname"><span class="pre">band_stop_frequency</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.band_stop_frequency" title="Link to this definition">¶</a></dt>
+<dd><p>Band-stop frequency, i.e. <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.temporal_frequency" title="symplyphysics.symbols.classical_mechanics.temporal_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">temporal_frequency</span></code></a> that corresponds to the maximum
+band-stop distortion.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">f_1</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(f_{1}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">frequency</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">N</span> <span class="pre">=</span> <span class="pre">acosh(e_1</span> <span class="pre">/</span> <span class="pre">e)</span> <span class="pre">/</span> <span class="pre">acosh(f_0</span> <span class="pre">/</span> <span class="pre">f_1)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[N = \frac{\operatorname{acosh}{\left(\frac{e_{1}}{e} \right)}}{\operatorname{acosh}{\left(\frac{f_{0}}{f_{1}} \right)}}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="electromagnetism.circuits.html">Circuits</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.alternating_current.html"><strong>Alternating Current (Circuits)</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="electromagnetism.circuits.components.html"><strong>Components (Circuits)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.components.capacitors.html"><strong>Capacitors</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.components.couplers.html"><strong>Couplers</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.components.diodes.html"><strong>Diodes</strong></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="electromagnetism.circuits.components.filters.html"><strong>Filters</strong></a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="electromagnetism.circuits.components.filters.approximation_of_transmission_coefficient_of_low_pass_filter.html">Transmission coefficient approximation of low-pass filter</a></li>
+<li class="toctree-l5"><a class="reference internal" href="electromagnetism.circuits.components.filters.band_pass_chebyshev_filter_order_from_distortion_and_frequencies.html">Band pass Chebyshev filter order from distortion and frequency</a></li>
+<li class="toctree-l5"><a class="reference internal" href="electromagnetism.circuits.components.filters.butterworth_filter_order_from_distortion_and_frequencies.html">Butterworth filter order from distortion and frequency</a></li>
+<li class="toctree-l5"><a class="reference internal" href="electromagnetism.circuits.components.filters.filter_order_from_distortion_and_frequencies.html">Filter order from distortion and frequency</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">High pass Chebyshev filter from distortion and frequency</a></li>
+<li class="toctree-l5"><a class="reference internal" href="electromagnetism.circuits.components.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html">Low-pass Chebyshev filter order from distortion and frequencies</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.components.inductors.html"><strong>Inductors</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.components.resistors.html"><strong>Resistors</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.components.resonators.html"><strong>Resonators</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.components.varactors.html"><strong>Varactors</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.direct_current.html"><strong>Direct Current (Circuits)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.fundamentals.html"><strong>Fundamentals (Circuits)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.html"><strong>Transient Analysis</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.html"><strong>Transmission Lines</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.waveguides.html"><strong>Waveguides</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.conservation_laws.html"><strong>Conservation Laws (Electromagnetism)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.corona_discharge.html"><strong>Corona Discharge</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.electrodynamics.html"><strong>Electrodynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.electrostatics.html"><strong>Electrostatics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.fundamentals.html"><strong>Fundamentals (Electromagnetism)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.magnetostatics.html"><strong>Magnetostatics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.space_charge.html"><strong>Space Charge</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="electromagnetism.html">Electromagnetism</a><ul>
+  <li><a href="electromagnetism.circuits.html">Circuits</a><ul>
+  <li><a href="electromagnetism.circuits.components.html"><strong>Components (Circuits)</strong></a><ul>
+  <li><a href="electromagnetism.circuits.components.filters.html"><strong>Filters</strong></a><ul>
+      <li>Previous: <a href="electromagnetism.circuits.components.filters.filter_order_from_distortion_and_frequencies.html" title="previous chapter">Filter order from distortion and frequency</a></li>
+      <li>Next: <a href="electromagnetism.circuits.components.filters.low_pass_chebyshev_filter_order_from_distortion_and_frequencies.html" title="next chapter">Low-pass Chebyshev filter order from distortion and frequencies</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/electromagnetism.circuits.components.filters.high_pass_chebyshev_filter_order_from_distortion_and_frequencies.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

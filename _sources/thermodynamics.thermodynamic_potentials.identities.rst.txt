@@ -1,0 +1,22 @@
+**Identities (Thermodynamic Potentials)**
+=========================================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.identities
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.thermodynamic_potentials.identities.chemical_potential_is_gibbs_energy_per_particle
+    thermodynamics.thermodynamic_potentials.identities.entropy_is_derivative_of_free_energy
+    thermodynamics.thermodynamic_potentials.identities.entropy_is_derivative_of_gibbs_energy
+    thermodynamics.thermodynamic_potentials.identities.intensive_parameters_relation
+    thermodynamics.thermodynamic_potentials.identities.temperature_derivative_via_volume_derivative
+    thermodynamics.thermodynamic_potentials.identities.temperature_is_derivative_of_internal_energy
+
+
+

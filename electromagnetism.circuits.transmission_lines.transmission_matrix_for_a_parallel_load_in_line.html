@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Transmission matrix for parallel load in line &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Transmission matrix for serial load in line" href="electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line.html" />
+    <link rel="prev" title="Transmission matrix equation" href="electromagnetism.circuits.transmission_lines.transmission_matrix_equation.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="transmission-matrix-for-parallel-load-in-line">
+<h1>Transmission matrix for parallel load in line<a class="headerlink" href="#transmission-matrix-for-parallel-load-in-line" title="Link to this heading">¶</a></h1>
+<p>Knowing the impedance of the load connected in parallel to the transmission line, it is
+possible to calculate the parameters <span class="math notranslate nohighlight">\(A, B, C, D\)</span> of the transmission matrix of
+the load.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p>See <a class="reference internal" href="electromagnetism.circuits.transmission_lines.html#transmission-matrix-def"><span class="std std-ref">Transmission Matrix</span></a>.</p></li>
+</ol>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The load is connected to the transmission line <em>in parallel</em>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.voltage_voltage_parameter">
+<span class="sig-name descname"><span class="pre">voltage_voltage_parameter</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.voltage_voltage_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Ratio of input <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.voltage" title="symplyphysics.symbols.electrodynamics.voltage"><code class="xref py py-attr docutils literal notranslate"><span class="pre">voltage</span></code></a> to output <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.voltage" title="symplyphysics.symbols.electrodynamics.voltage"><code class="xref py py-attr docutils literal notranslate"><span class="pre">voltage</span></code></a> at idle at the output.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">A</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(A\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.voltage_current_parameter">
+<span class="sig-name descname"><span class="pre">voltage_current_parameter</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.voltage_current_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Ratio of input <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.voltage" title="symplyphysics.symbols.electrodynamics.voltage"><code class="xref py py-attr docutils literal notranslate"><span class="pre">voltage</span></code></a> to output <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current" title="symplyphysics.symbols.electrodynamics.current"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current</span></code></a> in case of a short
+circuit at the output.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">B</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(B\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.current_voltage_parameter">
+<span class="sig-name descname"><span class="pre">current_voltage_parameter</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.current_voltage_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Ratio of input <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current" title="symplyphysics.symbols.electrodynamics.current"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current</span></code></a> to output <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.voltage" title="symplyphysics.symbols.electrodynamics.voltage"><code class="xref py py-attr docutils literal notranslate"><span class="pre">voltage</span></code></a> at idle at the output.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">C</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(C\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">conductance</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.current_current_parameter">
+<span class="sig-name descname"><span class="pre">current_current_parameter</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.current_current_parameter" title="Link to this definition">¶</a></dt>
+<dd><p>Ratio of input <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current" title="symplyphysics.symbols.electrodynamics.current"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current</span></code></a> to output <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.current" title="symplyphysics.symbols.electrodynamics.current"><code class="xref py py-attr docutils literal notranslate"><span class="pre">current</span></code></a> in case of a short
+circuit at the output.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">D</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(D\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">dimensionless</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.load_impedance">
+<span class="sig-name descname"><span class="pre">load_impedance</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.load_impedance" title="Link to this definition">¶</a></dt>
+<dd><p>Load <a class="reference internal" href="symbols.electrodynamics.html#symplyphysics.symbols.electrodynamics.electrical_impedance" title="symplyphysics.symbols.electrodynamics.electrical_impedance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">electrical_impedance</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">Z_L</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(Z_\text{L}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">impedance</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">[[A,</span> <span class="pre">B],</span> <span class="pre">[C,</span> <span class="pre">D]]</span> <span class="pre">=</span> <span class="pre">[[1,</span> <span class="pre">0],</span> <span class="pre">[1</span> <span class="pre">/</span> <span class="pre">Z_L,</span> <span class="pre">1]]</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\begin{split}\begin{pmatrix} A &amp; B \\ C &amp; D \end{pmatrix} = \begin{pmatrix} 1 &amp; 0 \\ \frac{1}{Z_\text{L}} &amp; 1 \end{pmatrix}\end{split}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="electromagnetism.circuits.html">Circuits</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.alternating_current.html"><strong>Alternating Current (Circuits)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.components.html"><strong>Components (Circuits)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.direct_current.html"><strong>Direct Current (Circuits)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.fundamentals.html"><strong>Fundamentals (Circuits)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.html"><strong>Transient Analysis</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.html"><strong>Transmission Lines</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.coplanar_lines.html"><strong>Coplanar Lines</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.microstrip_lines.html"><strong>Microstrip Lines</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.coefficient_standing_wave_from_reflection_coefficient.html">Standing wave ratio from reflection coefficient</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.coefficient_standing_wave_from_voltages.html">Standing wave ratio from voltage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.hybrid_parameters_matrix.html">Hybrid parameters matrix equation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.impedance_matrix_equation.html">Impedance matrix equation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.impedances_pi_type_circuit_of_transmission_line.html">Impedances of π-type circuit of transmission line</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.impedances_t_type_circuit_of_transmission_line.html">Impedances of T-type circuit of transmission line</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.input_impedance_from_parameters_transmission_matrix.html">Input impedance from transmission matrix</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.input_impedance_lossless_transmission_line.html">Input impedance of lossless transmission line</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.input_impedance_lossy_transmission_line.html">Input impedance of lossy transmission line</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_reflection_coefficient.html">Reflection coefficient from ratio of average power to incident power</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.ratio_of_average_power_to_incident_power_from_standing_wave_coefficient.html">Standing wave ratio from ratio of average power to incident power</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.reflection_coefficient_from_load_and_transmission_line_impedances.html">Reflection coefficient from load and surge impedance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.scattering_matrix_equation.html">Scattering matrix equation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.scattering_matrix_to_transmission_matrix.html">Scattering matrix to transmission matrix</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.total_conductivities_matrix.html">Admittance matrix equation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.transmission_matrix_equation.html">Transmission matrix equation</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Transmission matrix for parallel load in line</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.voltage_voltage_parameter"><code class="docutils literal notranslate"><span class="pre">voltage_voltage_parameter</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.voltage_current_parameter"><code class="docutils literal notranslate"><span class="pre">voltage_current_parameter</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.current_voltage_parameter"><code class="docutils literal notranslate"><span class="pre">current_voltage_parameter</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.current_current_parameter"><code class="docutils literal notranslate"><span class="pre">current_current_parameter</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.load_impedance"><code class="docutils literal notranslate"><span class="pre">load_impedance</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line.html">Transmission matrix for serial load in line</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.transmission_matrix_lossless_transmission_line.html">Transmission matrix of lossless transmission line</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.transmission_matrix_lossy_transmission_line.html">Transmission matrix of lossy transmission line</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.transmission_matrix_of_pi_type_circuit.html">Transmission matrix of π-type matrix</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.transmission_matrix_of_t_type_circuit.html">Transmission matrix of T-type circuit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_greater_thickness.html">Surge impedance of microstrip line when effective width is greater than substrate thickness</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.wave_resistance_of_microstrip_line_for_effective_width_less_thickness.html">Surge impedance of microstrip line when effective width is less than substrate thickness</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.waveguides.html"><strong>Waveguides</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.conservation_laws.html"><strong>Conservation Laws (Electromagnetism)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.corona_discharge.html"><strong>Corona Discharge</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.electrodynamics.html"><strong>Electrodynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.electrostatics.html"><strong>Electrostatics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.fundamentals.html"><strong>Fundamentals (Electromagnetism)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.magnetostatics.html"><strong>Magnetostatics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="electromagnetism.space_charge.html"><strong>Space Charge</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="electromagnetism.html">Electromagnetism</a><ul>
+  <li><a href="electromagnetism.circuits.html">Circuits</a><ul>
+  <li><a href="electromagnetism.circuits.transmission_lines.html"><strong>Transmission Lines</strong></a><ul>
+      <li>Previous: <a href="electromagnetism.circuits.transmission_lines.transmission_matrix_equation.html" title="previous chapter">Transmission matrix equation</a></li>
+      <li>Next: <a href="electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_series_load_in_line.html" title="next chapter">Transmission matrix for serial load in line</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/electromagnetism.circuits.transmission_lines.transmission_matrix_for_a_parallel_load_in_line.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

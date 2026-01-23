@@ -1,0 +1,18 @@
+**Canonical Ensemble**
+======================
+
+
+
+.. py:currentmodule:: symplyphysics.statistical_physics.ensembles.canonical
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    statistical_physics.ensembles.canonical.boltzmann_factor_via_state_energy_and_temperature
+    statistical_physics.ensembles.canonical.canonical_partition_function_of_classical_discrete_system
+
+
+

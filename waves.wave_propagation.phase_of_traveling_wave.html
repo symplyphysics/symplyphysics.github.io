@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Phase of traveling wave &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/waves.wave_propagation.phase_of_traveling_wave.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Phase shift between two points" href="waves.wave_propagation.phase_shift_between_two_points.html" />
+    <link rel="prev" title="Group velocity from dispersion relation" href="waves.wave_propagation.group_velocity_from_dispersion_relation.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="phase-of-traveling-wave">
+<h1>Phase of traveling wave<a class="headerlink" href="#phase-of-traveling-wave" title="Link to this heading">¶</a></h1>
+<p>The phase of a wave or other periodic function of some real variable <span class="math notranslate nohighlight">\(t\)</span> is an angle-like
+quantity representing the fraction of the cycle covered up to <span class="math notranslate nohighlight">\(t\)</span>. As the variable <span class="math notranslate nohighlight">\(t\)</span>
+completes a full period, the phase increases by <span class="math notranslate nohighlight">\(360^\circ\)</span> or <span class="math notranslate nohighlight">\(2 \pi\)</span>.</p>
+<p>If a function <span class="math notranslate nohighlight">\(h(x, t)\)</span> describes a traveling wave, then position <span class="math notranslate nohighlight">\(x\)</span> and time <span class="math notranslate nohighlight">\(t\)</span>
+can only appear in the form of the wave phase described below.</p>
+<p><strong>Notes:</strong></p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\omega = (\vec \omega \cdot {\vec e}_x)\)</span>, i.e. the angular frequency is a positive quantity
+if the wave travels in the positive direction of the <span class="math notranslate nohighlight">\(x\)</span>-axis. Here <span class="math notranslate nohighlight">\({\vec e}_x\)</span> is the
+unit vector pointing in the positive direction of the <span class="math notranslate nohighlight">\(x\)</span>-axis.</p></li>
+<li><p>The expression for the phase of a traveling wave arises from solving the one-dimensional wave
+equation. For more, refer to <a class="reference internal" href="waves.wave_equation_general_solution_in_one_dimension.html#general-solution-to-wave-equation-in-one-dimension"><span class="std std-ref">General solution to wave equation in one dimension</span></a>.</p></li>
+</ol>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>This law applies to a 1-dimensional traveling wave.</p></li>
+<li><p>The constant phase shift is not taken into account.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Sinusoidal_plane_wave#Alternative_representations">Wikipedia, similar formula</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.waves.wave_propagation.phase_of_traveling_wave.wave_phase">
+<span class="sig-name descname"><span class="pre">wave_phase</span></span><a class="headerlink" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.wave_phase" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.phase" title="symplyphysics.symbols.classical_mechanics.phase"><code class="xref py py-attr docutils literal notranslate"><span class="pre">phase</span></code></a> of the wave.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">phi</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\varphi\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.waves.wave_propagation.phase_of_traveling_wave.angular_wavenumber">
+<span class="sig-name descname"><span class="pre">angular_wavenumber</span></span><a class="headerlink" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.angular_wavenumber" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_wavenumber" title="symplyphysics.symbols.classical_mechanics.angular_wavenumber"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a> of the wave.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">k</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(k\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.waves.wave_propagation.phase_of_traveling_wave.position">
+<span class="sig-name descname"><span class="pre">position</span></span><a class="headerlink" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.position" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.position" title="symplyphysics.symbols.classical_mechanics.position"><code class="xref py py-attr docutils literal notranslate"><span class="pre">position</span></code></a>, or spatial coordinate.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">x</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(x\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.waves.wave_propagation.phase_of_traveling_wave.angular_frequency">
+<span class="sig-name descname"><span class="pre">angular_frequency</span></span><a class="headerlink" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.angular_frequency" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_frequency" title="symplyphysics.symbols.classical_mechanics.angular_frequency"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_frequency</span></code></a> of the wave.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\omega\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.waves.wave_propagation.phase_of_traveling_wave.time">
+<span class="sig-name descname"><span class="pre">time</span></span><a class="headerlink" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.time" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.time" title="symplyphysics.symbols.basic.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.waves.wave_propagation.phase_of_traveling_wave.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">phi</span> <span class="pre">=</span> <span class="pre">k</span> <span class="pre">*</span> <span class="pre">x</span> <span class="pre">-</span> <span class="pre">w</span> <span class="pre">*</span> <span class="pre">t</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\varphi = k x - \omega t\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="waves.html">Waves</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="waves.acoustic_waves.html"><strong>Acoustic Waves (Waves)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.doppler_effect.html"><strong>Doppler Effect (Waves)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.standing_waves.html"><strong>Standing Waves</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.stretched_string.html"><strong>Stretched String (Waves)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.wave_interference.html"><strong>Wave Interference (Waves)</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="waves.wave_propagation.html"><strong>Wave Propagation (Waves)</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="waves.wave_propagation.group_velocity_from_dispersion_relation.html">Group velocity from dispersion relation</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Phase of traveling wave</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.wave_phase"><code class="docutils literal notranslate"><span class="pre">wave_phase</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.angular_wavenumber"><code class="docutils literal notranslate"><span class="pre">angular_wavenumber</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.position"><code class="docutils literal notranslate"><span class="pre">position</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.angular_frequency"><code class="docutils literal notranslate"><span class="pre">angular_frequency</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.waves.wave_propagation.phase_of_traveling_wave.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="waves.wave_propagation.phase_shift_between_two_points.html">Phase shift between two points</a></li>
+<li class="toctree-l3"><a class="reference internal" href="waves.wave_propagation.phase_velocity_from_angular_frequency_and_wavenumber.html">Phase speed from angular frequency and wavenumber</a></li>
+<li class="toctree-l3"><a class="reference internal" href="waves.wave_propagation.phase_velocity_from_angular_velocity_and_wavevector.html">Phase velocity from angular velocity and wavevector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="waves.wave_propagation.wavelength_from_phase_speed_and_period.html">Wavelength from phase speed and period</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="waves.angular_wavenumber_is_inverse_wavelength.html">Angular wavenumber is inverse wavelength</a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.radiant_exitance_is_radiant_flux_emitted_per_unit_area.html">Radiant exitance is radiant flux emitted per unit area</a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.radiation_intensity_from_energy_area_time.html">Radiation intensity from energy, area, and time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.wave_equation_general_solution_in_one_dimension.html">General solution to wave equation in one dimension</a></li>
+<li class="toctree-l2"><a class="reference internal" href="waves.wave_equation_in_one_dimension.html">Wave equation in one dimension</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="waves.html">Waves</a><ul>
+  <li><a href="waves.wave_propagation.html"><strong>Wave Propagation (Waves)</strong></a><ul>
+      <li>Previous: <a href="waves.wave_propagation.group_velocity_from_dispersion_relation.html" title="previous chapter">Group velocity from dispersion relation</a></li>
+      <li>Next: <a href="waves.wave_propagation.phase_shift_between_two_points.html" title="next chapter">Phase shift between two points</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/waves.wave_propagation.phase_of_traveling_wave.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

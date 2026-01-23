@@ -1,0 +1,17 @@
+**Inductance**
+==============
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.magnetostatics.inductance
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.magnetostatics.inductance.inductance_is_magnetic_flux_over_current
+
+
+

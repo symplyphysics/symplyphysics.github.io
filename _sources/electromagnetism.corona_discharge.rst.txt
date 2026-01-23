@@ -1,0 +1,17 @@
+**Corona Discharge**
+====================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.corona_discharge
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.corona_discharge.corona_discharge_current_from_voltage
+
+
+

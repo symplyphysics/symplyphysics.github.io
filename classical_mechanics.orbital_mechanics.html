@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Orbital Mechanics &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <link rel="canonical" href="https://symplyphysics.github.io/classical_mechanics.orbital_mechanics.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Angle of rotation during gravitational maneuver" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html" />
+    <link rel="prev" title="Velocity is position vector derivative" href="classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="orbital-mechanics">
+<h1><strong>Orbital Mechanics</strong><a class="headerlink" href="#orbital-mechanics" title="Link to this heading">¶</a></h1>
+<p><strong>Contents:</strong></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html">Angle of rotation during gravitational maneuver</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.angle"><code class="docutils literal notranslate"><span class="pre">angle</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.planet_mass"><code class="docutils literal notranslate"><span class="pre">planet_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.aiming_range"><code class="docutils literal notranslate"><span class="pre">aiming_range</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.rocket_speed"><code class="docutils literal notranslate"><span class="pre">rocket_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html">Area rate of change is proportional to angular momentum</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html#symplyphysics.classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html#symplyphysics.classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.area_swept"><code class="docutils literal notranslate"><span class="pre">area_swept</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html#symplyphysics.classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.planet_angular_momentum"><code class="docutils literal notranslate"><span class="pre">planet_angular_momentum</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html#symplyphysics.classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.planet_mass"><code class="docutils literal notranslate"><span class="pre">planet_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html#symplyphysics.classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.html">Average potential energy via average kinetic energy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.average_potential_energy"><code class="docutils literal notranslate"><span class="pre">average_potential_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.average_kinetic_energy"><code class="docutils literal notranslate"><span class="pre">average_kinetic_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Corrected planet period squared is proportional to cube of semimajor axis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.rotation_period"><code class="docutils literal notranslate"><span class="pre">rotation_period</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.attracting_mass"><code class="docutils literal notranslate"><span class="pre">attracting_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.planetary_mass"><code class="docutils literal notranslate"><span class="pre">planetary_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.html">Eccentricity of orbit via orbit parameters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.eccentricity"><code class="docutils literal notranslate"><span class="pre">eccentricity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.semiminor_axis"><code class="docutils literal notranslate"><span class="pre">semiminor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html">First escape velocity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.first_escape_velocity.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.first_escape_velocity.radius"><code class="docutils literal notranslate"><span class="pre">radius</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.first_escape_velocity.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.first_escape_velocity.planet_mass"><code class="docutils literal notranslate"><span class="pre">planet_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.first_escape_velocity.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.html">Kepler’s constant via attracting body mass</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.kepler_constant"><code class="docutils literal notranslate"><span class="pre">kepler_constant</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.attracting_mass"><code class="docutils literal notranslate"><span class="pre">attracting_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.html">Maximum angle of rotation during gravitational maneuver</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.maximum_angle"><code class="docutils literal notranslate"><span class="pre">maximum_angle</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.first_cosmic_speed"><code class="docutils literal notranslate"><span class="pre">first_cosmic_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.rocket_speed"><code class="docutils literal notranslate"><span class="pre">rocket_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.html#symplyphysics.classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html">Orbital speed from semimajor axis and planet mass</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.orbital_speed"><code class="docutils literal notranslate"><span class="pre">orbital_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.distance"><code class="docutils literal notranslate"><span class="pre">distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.planet_mass"><code class="docutils literal notranslate"><span class="pre">planet_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html#symplyphysics.classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Planet period squared is proportional to cube of semimajor axis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.rotation_period"><code class="docutils literal notranslate"><span class="pre">rotation_period</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.attracting_mass"><code class="docutils literal notranslate"><span class="pre">attracting_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html#symplyphysics.classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html">Potential energy of radial planetary motion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html#symplyphysics.classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.total_potential_energy"><code class="docutils literal notranslate"><span class="pre">total_potential_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html#symplyphysics.classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.gravitational_potential_energy"><code class="docutils literal notranslate"><span class="pre">gravitational_potential_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html#symplyphysics.classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.angular_momentum"><code class="docutils literal notranslate"><span class="pre">angular_momentum</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html#symplyphysics.classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.planetary_mass"><code class="docutils literal notranslate"><span class="pre">planetary_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html#symplyphysics.classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.distance"><code class="docutils literal notranslate"><span class="pre">distance</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html#symplyphysics.classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html">Radial kinetic energy plus potential energy is constant</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html#symplyphysics.classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.planetary_mass"><code class="docutils literal notranslate"><span class="pre">planetary_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html#symplyphysics.classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.radial_speed"><code class="docutils literal notranslate"><span class="pre">radial_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html#symplyphysics.classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.potential_energy"><code class="docutils literal notranslate"><span class="pre">potential_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html#symplyphysics.classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.total_mechanical_energy"><code class="docutils literal notranslate"><span class="pre">total_mechanical_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html#symplyphysics.classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.html">Radius of geostationary orbit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.html#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.orbital_radius"><code class="docutils literal notranslate"><span class="pre">orbital_radius</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.html#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.planet_mass"><code class="docutils literal notranslate"><span class="pre">planet_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.html#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.satellite_angular_speed"><code class="docutils literal notranslate"><span class="pre">satellite_angular_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.html#symplyphysics.classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html">Second escape velocity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.second_escape_velocity.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.second_escape_velocity.planet_mass"><code class="docutils literal notranslate"><span class="pre">planet_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.second_escape_velocity.planet_radius"><code class="docutils literal notranslate"><span class="pre">planet_radius</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.second_escape_velocity.height"><code class="docutils literal notranslate"><span class="pre">height</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html#symplyphysics.classical_mechanics.orbital_mechanics.second_escape_velocity.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.html">Semimajor axis of orbit via mass and speed</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.orbital_speed"><code class="docutils literal notranslate"><span class="pre">orbital_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.attracting_mass"><code class="docutils literal notranslate"><span class="pre">attracting_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.html">Semimajor axis via Kepler’s constant and total energy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.kepler_constant"><code class="docutils literal notranslate"><span class="pre">kepler_constant</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.specific_energy"><code class="docutils literal notranslate"><span class="pre">specific_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html">Semiminor axis of elliptical orbit via orbit parameters</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.semiminor_axis"><code class="docutils literal notranslate"><span class="pre">semiminor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.sector_speed"><code class="docutils literal notranslate"><span class="pre">sector_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.semimajor_axis"><code class="docutils literal notranslate"><span class="pre">semimajor_axis</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.attracting_mass"><code class="docutils literal notranslate"><span class="pre">attracting_mass</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html#symplyphysics.classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.html">Third cosmic speed from orbital and second cosmic speed</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.html#symplyphysics.classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.third_cosmic_speed"><code class="docutils literal notranslate"><span class="pre">third_cosmic_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.html#symplyphysics.classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.orbital_speed"><code class="docutils literal notranslate"><span class="pre">orbital_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.html#symplyphysics.classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.second_cosmic_speed"><code class="docutils literal notranslate"><span class="pre">second_cosmic_speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.html#symplyphysics.classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.html">Total energy is negative average kinetic energy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.total_mechanical_energy"><code class="docutils literal notranslate"><span class="pre">total_mechanical_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.average_kinetic_energy"><code class="docutils literal notranslate"><span class="pre">average_kinetic_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.html#symplyphysics.classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.conservation_laws.html"><strong>Conservation Laws (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.fundamentals.html"><strong>Fundamentals (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Orbital Mechanics</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html">Angle of rotation during gravitational maneuver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum.html">Area rate of change is proportional to angular momentum</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy.html">Average potential energy via average kinetic energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Corrected planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters.html">Eccentricity of orbit via orbit parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.first_escape_velocity.html">First escape velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass.html">Kepler’s constant via attracting body mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver.html">Maximum angle of rotation during gravitational maneuver</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass.html">Orbital speed from semimajor axis and planet mass</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis.html">Planet period squared is proportional to cube of semimajor axis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion.html">Potential energy of radial planetary motion</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant.html">Radial kinetic energy plus potential energy is constant</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit.html">Radius of geostationary orbit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.second_escape_velocity.html">Second escape velocity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed.html">Semimajor axis of orbit via mass and speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy.html">Semimajor axis via Kepler’s constant and total energy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters.html">Semiminor axis of elliptical orbit via orbit parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities.html">Third cosmic speed from orbital and second cosmic speed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy.html">Total energy is negative average kinetic energy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.springs.html"><strong>Springs (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.statics.html"><strong>Statics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.two_body_system.html"><strong>Two Body System</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="classical_mechanics.html">Classical Mechanics</a><ul>
+      <li>Previous: <a href="classical_mechanics.kinematics.translational_motion.velocity_is_position_vector_derivative.html" title="previous chapter">Velocity is position vector derivative</a></li>
+      <li>Next: <a href="classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver.html" title="next chapter">Angle of rotation during gravitational maneuver</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/classical_mechanics.orbital_mechanics.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

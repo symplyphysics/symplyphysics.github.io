@@ -1,0 +1,105 @@
+Flux is integral along flat curve
+=================================
+
+The flux of a vector field exiting a boundary flat curve is defined as the line integral of the
+component of the field normal to the curve along the curve.
+
+**Conditions:**
+
+#. The normal to the curve is outward (see right-hand rule).
+#. The vector field is continuously differentiable everywhere within the region of the surface.
+#. The curve is closed and flat.
+
+.. py:currentmodule:: symplyphysics.mathematics.fields.flux_is_integral_along_flat_curve
+
+.. py:data:: flux
+
+    Flux of the vector :attr:`~field`.
+
+Symbol:
+    :code:`H`
+
+Latex:
+    :math:`H`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: field
+
+    Vector field, i.e. a vector-valued function of the position vector.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`{\vec F}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: unit_normal
+
+    Unit normal vector to the curve.
+
+Symbol:
+    :code:`n`
+
+Latex:
+    :math:`{\vec n}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: curve
+
+    Curve which is the boundary of the surface along which :attr:`~flux` is calculated.
+
+    Symbol:
+        :code:`C`
+
+    Latex:
+        :math:`C`
+
+
+.. py:data:: initial_parameter
+
+    Initial value of the curve parameter.
+
+Symbol:
+    :code:`u_1`
+
+Latex:
+    :math:`u_{1}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: final_parameter
+
+    Final value of the curve parameter.
+
+Symbol:
+    :code:`u_2`
+
+Latex:
+    :math:`u_{2}`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`H = LineIntegral(dot(F, n) * norm(dr), C)`
+
+
+    Latex:
+        .. math::
+            H = \int \limits_{C} \left( {\vec F}, {\vec n} \right) \left \Vert d \vec r \right \Vert
+
+

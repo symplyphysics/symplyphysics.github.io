@@ -1,0 +1,18 @@
+**Doppler Effect (Waves)**
+==========================
+
+
+
+.. py:currentmodule:: symplyphysics.waves.doppler_effect
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    waves.doppler_effect.frequency_shift_from_speed_in_arbitrary_motion
+    waves.doppler_effect.frequency_shift_from_speed_in_collinear_motion
+
+
+

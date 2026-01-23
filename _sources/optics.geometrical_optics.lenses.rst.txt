@@ -1,0 +1,22 @@
+**Lenses**
+==========
+
+
+
+.. py:currentmodule:: symplyphysics.optics.geometrical_optics.lenses
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    optics.geometrical_optics.lenses.lens_focus_from_object_and_image
+    optics.geometrical_optics.lenses.linear_magnification_from_distance_to_object_and_distance_to_image
+    optics.geometrical_optics.lenses.linear_magnification_from_object_height_and_image_height
+    optics.geometrical_optics.lenses.optical_power_from_focus_distance
+    optics.geometrical_optics.lenses.optical_power_from_thin_lens_radius
+    optics.geometrical_optics.lenses.optical_power_of_spherical_lens_from_refractive_indices_and_distances
+
+
+

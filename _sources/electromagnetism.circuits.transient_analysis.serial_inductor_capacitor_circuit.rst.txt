@@ -1,0 +1,17 @@
+**Serial LC Circuit**
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.transient_analysis.serial_inductor_capacitor_circuit
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.transient_analysis.serial_inductor_capacitor_circuit.oscillation_period_of_inductor_capacitor_network
+
+
+

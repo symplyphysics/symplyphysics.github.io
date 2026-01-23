@@ -1,0 +1,19 @@
+**Euler Relations**
+===================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.euler_relations
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.thermodynamic_potentials.euler_relations.enthalpy_euler_relation
+    thermodynamics.thermodynamic_potentials.euler_relations.gibbs_energy_euler_relation
+    thermodynamics.thermodynamic_potentials.euler_relations.internal_energy_euler_relation
+
+
+

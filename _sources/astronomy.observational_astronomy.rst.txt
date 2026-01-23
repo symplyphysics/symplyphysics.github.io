@@ -1,0 +1,20 @@
+**Observational Astronomy**
+===========================
+
+
+
+.. py:currentmodule:: symplyphysics.astronomy.observational_astronomy
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    astronomy.observational_astronomy.absolute_magnitude_from_apparent_magnitude_and_distance
+    astronomy.observational_astronomy.change_in_apparent_magnitude_from_distance
+    astronomy.observational_astronomy.luminosity_of_star_from_absolute_magnitude
+    astronomy.observational_astronomy.ratio_of_luminosities_from_ratio_of_masses_of_stars
+
+
+

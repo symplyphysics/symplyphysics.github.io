@@ -1,0 +1,69 @@
+Acceleration is speed derivative
+================================
+
+*Acceleration* describes how quickly speed changes with time.
+
+**Notes:**
+
+#. It still holds for special relativity and general relativity cases, but general relativity requires
+    4-velocity and 4-acceleration instead of speed and acceleration.
+    See `Wikipedia – Acceleration (special relativity) <https://en.wikipedia.org/wiki/Acceleration_(special_relativity)>`__ for reference.
+
+**Links:**
+
+#. `Wikipedia – Instantaneous acceleration <https://en.wikipedia.org/wiki/Acceleration#Instantaneous_acceleration>`__
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.kinematics.translational_motion.acceleration_is_speed_derivative
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: acceleration
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.acceleration` of the body as a function of time.
+
+Symbol:
+    :code:`a(t)`
+
+Latex:
+    :math:`a{\left(t \right)}`
+
+Dimension:
+    :code:`acceleration`
+
+
+.. py:data:: speed
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.speed` of the body as a function of time.
+
+Symbol:
+    :code:`v(t)`
+
+Latex:
+    :math:`v{\left(t \right)}`
+
+Dimension:
+    :code:`velocity`
+
+
+.. py:data:: law
+
+    :code:`a(t) = Derivative(v(t), t)`
+
+
+    Latex:
+        .. math::
+            a{\left(t \right)} = \frac{d}{d t} v{\left(t \right)}
+
+

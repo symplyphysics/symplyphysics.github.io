@@ -1,0 +1,20 @@
+**Straight Wire**
+=================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.magnetostatics.straight_wire
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.magnetostatics.straight_wire.force_between_parallel_wires
+    electromagnetism.magnetostatics.straight_wire.magnetic_field_due_to_constant_filamentary_current
+    electromagnetism.magnetostatics.straight_wire.magnetic_field_due_to_infinite_wire
+    electromagnetism.magnetostatics.straight_wire.magnetic_induction_of_linear_conductor_of_finite_length
+
+
+

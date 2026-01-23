@@ -1,0 +1,17 @@
+**Diffusion (Condensed Matter)**
+================================
+
+
+
+.. py:currentmodule:: symplyphysics.condensed_matter.transport_phenomena.diffusion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    condensed_matter.transport_phenomena.diffusion.diffusion_coefficient_from_energy_temperature
+
+
+

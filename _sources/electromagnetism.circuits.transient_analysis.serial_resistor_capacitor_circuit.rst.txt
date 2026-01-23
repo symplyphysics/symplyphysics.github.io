@@ -1,0 +1,18 @@
+**Serial RC Circuit**
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.transient_analysis.serial_resistor_capacitor_circuit
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.transient_analysis.serial_resistor_capacitor_circuit.time_constant_of_resistor_capacitor_circuit
+    electromagnetism.circuits.transient_analysis.serial_resistor_capacitor_circuit.voltage_across_charging_capacitor_in_serial_resistor_capacitor_circuit
+
+
+

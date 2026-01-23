@@ -1,0 +1,17 @@
+**Fermi—Dirak Statistics**
+==========================
+
+
+
+.. py:currentmodule:: symplyphysics.statistical_physics.quantum_statistics.fermi_dirac
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    statistical_physics.quantum_statistics.fermi_dirac.single_particle_state_fermi_distribution
+
+
+

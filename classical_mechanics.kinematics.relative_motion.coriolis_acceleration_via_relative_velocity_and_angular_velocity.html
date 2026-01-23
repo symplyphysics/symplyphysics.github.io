@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Coriolis acceleration via relative velocity and angular velocity &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Velocity of transfer between reference frames" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html" />
+    <link rel="prev" title="Centrifugal acceleration via centripetal acceleration" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="coriolis-acceleration-via-relative-velocity-and-angular-velocity">
+<h1>Coriolis acceleration via relative velocity and angular velocity<a class="headerlink" href="#coriolis-acceleration-via-relative-velocity-and-angular-velocity" title="Link to this heading">¶</a></h1>
+<p>Imagine two reference frames, one of which is fixed (<span class="math notranslate nohighlight">\(S\)</span>) and the other one is moving
+(<span class="math notranslate nohighlight">\(S'\)</span>). When the body is moving within a rotating coordinate system, its path deflects due
+to the appearance of the Coriolis acceleration on it. The object does not actually deviate from
+its path per se but it appears to do so because of the motion of the coordinate system.</p>
+<p>Suppose a reference frame <span class="math notranslate nohighlight">\(S'\)</span> is fixed to a rotating body <span class="math notranslate nohighlight">\(A\)</span> (e.g. Earth), so that
+frame <span class="math notranslate nohighlight">\(S'\)</span> rotates w.r.t. another static reference frame <span class="math notranslate nohighlight">\(S\)</span>. The Coriolis
+acceleration is the acceleration another body <span class="math notranslate nohighlight">\(B\)</span> has when moving within rotating reference
+frame <span class="math notranslate nohighlight">\(S'\)</span>, so it is essentially zero for objects at rest in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Coriolis_force#Formula">Wikipedia</a>.</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.coriolis_acceleration">
+<span class="sig-name descname"><span class="pre">coriolis_acceleration</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.coriolis_acceleration" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s Coriolis <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.acceleration" title="symplyphysics.symbols.classical_mechanics.acceleration"><code class="xref py py-attr docutils literal notranslate"><span class="pre">acceleration</span></code></a> in <span class="math notranslate nohighlight">\(S'\)</span>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">a_Cor</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec a}_\text{Cor}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">acceleration</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.relative_velocity">
+<span class="sig-name descname"><span class="pre">relative_velocity</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.relative_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Vector of the body’s velocity relative to <span class="math notranslate nohighlight">\(S'\)</span>. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.speed" title="symplyphysics.symbols.classical_mechanics.speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">speed</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_rel</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec v}_\text{rel}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">velocity</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.angular_velocity">
+<span class="sig-name descname"><span class="pre">angular_velocity</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.angular_velocity" title="Link to this definition">¶</a></dt>
+<dd><p>Pseudovector of the angular velocity of the body’s rotation. See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.angular_speed" title="symplyphysics.symbols.classical_mechanics.angular_speed"><code class="xref py py-attr docutils literal notranslate"><span class="pre">angular_speed</span></code></a>.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">w</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\({\vec \omega}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">a_Cor</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">cross(v_rel,</span> <span class="pre">w)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[{\vec a}_\text{Cor} = 2 \left[ {\vec v}_\text{rel}, {\vec \omega} \right]\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.conservation_laws.html"><strong>Conservation Laws (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.fundamentals.html"><strong>Fundamentals (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.centers.html"><strong>Centers (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.general_motion.html"><strong>General Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.projectile_motion.html"><strong>Projectile Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.html"><strong>Relative Motion (Kinematics)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.absolute_velocity_of_arbitrary_motion.html">Absolute velocity of arbitrary motion</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_due_to_non_uniform_rotation.html">Acceleration due to non-uniform rotation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.acceleration_of_transfer_between_relative_frames.html">Acceleration of transfer between relative frames</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html">Centrifugal acceleration via centripetal acceleration</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Coriolis acceleration via relative velocity and angular velocity</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.coriolis_acceleration"><code class="docutils literal notranslate"><span class="pre">coriolis_acceleration</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.relative_velocity"><code class="docutils literal notranslate"><span class="pre">relative_velocity</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.angular_velocity"><code class="docutils literal notranslate"><span class="pre">angular_velocity</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html">Velocity of transfer between reference frames</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.kinematics.relative_motion.velocity_relative_to_reference_frame.html">Velocity relative to reference frame</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.rotational_motion.html"><strong>Rotational Motion (Kinematics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.kinematics.translational_motion.html"><strong>Translational Motion (Kinematics)</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.html"><strong>Orbital Mechanics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.springs.html"><strong>Springs (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.statics.html"><strong>Statics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.two_body_system.html"><strong>Two Body System</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="classical_mechanics.html">Classical Mechanics</a><ul>
+  <li><a href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a><ul>
+  <li><a href="classical_mechanics.kinematics.relative_motion.html"><strong>Relative Motion (Kinematics)</strong></a><ul>
+      <li>Previous: <a href="classical_mechanics.kinematics.relative_motion.centrifugal_acceleration_via_centripetal_acceleration.html" title="previous chapter">Centrifugal acceleration via centripetal acceleration</a></li>
+      <li>Next: <a href="classical_mechanics.kinematics.relative_motion.velocity_of_transfer_between_reference_frames.html" title="next chapter">Velocity of transfer between reference frames</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/classical_mechanics.kinematics.relative_motion.coriolis_acceleration_via_relative_velocity_and_angular_velocity.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

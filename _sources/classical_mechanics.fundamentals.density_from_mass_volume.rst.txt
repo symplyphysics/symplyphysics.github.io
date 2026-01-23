@@ -1,0 +1,68 @@
+Density from mass and volume
+============================
+
+Volumetric mass *density* is the mass of substance contained in a unit volume of a substance. See
+:ref:`Quantity is volumetric density times volume` for a generalized version of this law.
+
+**Conditions:**
+
+#. The material is homogeneous over the volume considered (uniform density) or the average density is used.
+
+**Links:**
+
+#. `Wikipedia — Density <https://en.wikipedia.org/wiki/Density>`__
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.fundamentals.density_from_mass_volume
+
+.. py:data:: density
+
+    Volumetric :attr:`~symplyphysics.symbols.basic.density` of the object.
+
+Symbol:
+    :code:`rho`
+
+Latex:
+    :math:`\rho`
+
+Dimension:
+    :code:`mass/volume`
+
+
+.. py:data:: mass
+
+    :attr:`~symplyphysics.symbols.basic.mass` of the object.
+
+Symbol:
+    :code:`m`
+
+Latex:
+    :math:`m`
+
+Dimension:
+    :code:`mass`
+
+
+.. py:data:: volume
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.volume` of the object.
+
+Symbol:
+    :code:`V`
+
+Latex:
+    :math:`V`
+
+Dimension:
+    :code:`volume`
+
+
+.. py:data:: law
+
+    :code:`rho = m / V`
+
+
+    Latex:
+        .. math::
+            \rho = \frac{m}{V}
+
+

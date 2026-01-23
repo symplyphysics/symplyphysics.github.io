@@ -1,0 +1,19 @@
+**Constitutive Relations**
+==========================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.electrodynamics.constitutive_relations
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.electrodynamics.constitutive_relations.absolute_permittivity_via_relative_permittivity
+    electromagnetism.electrodynamics.constitutive_relations.electric_displacement_is_permittivity_times_electric_field
+    electromagnetism.electrodynamics.constitutive_relations.magnetic_induction_from_magnetic_field_intensity
+
+
+

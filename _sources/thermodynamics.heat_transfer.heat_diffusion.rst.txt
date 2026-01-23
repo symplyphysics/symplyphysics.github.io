@@ -1,0 +1,20 @@
+**Heat Diffusion**
+==================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.heat_transfer.heat_diffusion
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.heat_transfer.heat_diffusion.equation_in_homogeneous_medium_in_one_dimension
+    thermodynamics.heat_transfer.heat_diffusion.general_equation_in_3d
+    thermodynamics.heat_transfer.heat_diffusion.general_equation_in_one_dimension
+    thermodynamics.heat_transfer.heat_diffusion.solution_with_zero_temperature_boundaries
+
+
+

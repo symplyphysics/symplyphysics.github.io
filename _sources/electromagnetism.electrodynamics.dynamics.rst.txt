@@ -1,0 +1,17 @@
+**Dynamics (Electromagnetism)**
+===============================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.electrodynamics.dynamics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.electrodynamics.dynamics.lorentz_force_via_electromagnetic_field
+
+
+

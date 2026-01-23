@@ -1,0 +1,82 @@
+Damped harmonic oscillator equation
+===================================
+
+Describes the motion of a single-degree-of-freedom mechanical oscillator that experiences *linear (viscous) damping*.
+
+**Conditions:**
+
+#. Damping force is directly proportional to velocity (viscous).
+#. Motion is restricted to one spatial dimension.
+
+**Links:**
+
+#. `Physics LibreTexts – Damped Oscillations (Eq. 15.6.2) <https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book%3A_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/15%3A_Oscillations/15.06%3A_Damped_Oscillations>`__
+
+.. py:currentmodule:: symplyphysics.oscillations.mechanical_oscillations.damped_oscillations.damped_harmonic_oscillator_equation
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: displacement
+
+    Displacement (1-D) of the oscillating body as a function of time. See :attr:`~symplyphysics.symbols.classical_mechanics.euclidean_distance`.
+
+Symbol:
+    :code:`x(t)`
+
+Latex:
+    :math:`x{\left(t \right)}`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: undamped_angular_frequency
+
+    Undamped :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: damping_ratio
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.damping_ratio` of the system.
+
+Symbol:
+    :code:`zeta`
+
+Latex:
+    :math:`\zeta`
+
+Dimension:
+    :code:`dimensionless`
+
+
+.. py:data:: law
+
+    :code:`Derivative(x(t), (t, 2)) + 2 * zeta * w * Derivative(x(t), t) + w^2 * x(t) = 0`
+
+
+    Latex:
+        .. math::
+            \frac{d^{2}}{d t^{2}} x{\left(t \right)} + 2 \zeta \omega \frac{d}{d t} x{\left(t \right)} + \omega^{2} x{\left(t \right)} = 0
+
+

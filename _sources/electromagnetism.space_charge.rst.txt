@@ -1,0 +1,17 @@
+**Space Charge**
+================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.space_charge
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.space_charge.electric_intensity_in_gas_gap_between_two_electrodes
+
+
+

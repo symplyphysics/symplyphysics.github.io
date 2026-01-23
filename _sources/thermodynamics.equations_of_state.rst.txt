@@ -1,0 +1,21 @@
+**Equations of State**
+======================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.equations_of_state
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    thermodynamics.equations_of_state.compressibility_factor
+    thermodynamics.equations_of_state.dietirici
+    thermodynamics.equations_of_state.ideal_gas
+    thermodynamics.equations_of_state.van_der_waals
+    thermodynamics.equations_of_state.virial_expansion
+
+
+
+

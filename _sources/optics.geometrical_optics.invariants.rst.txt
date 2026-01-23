@@ -1,0 +1,17 @@
+**Invariants (Geometrical Optics)**
+===================================
+
+
+
+.. py:currentmodule:: symplyphysics.optics.geometrical_optics.invariants
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    optics.geometrical_optics.invariants.abbe_invariant_of_two_optical_environments_is_constant
+
+
+

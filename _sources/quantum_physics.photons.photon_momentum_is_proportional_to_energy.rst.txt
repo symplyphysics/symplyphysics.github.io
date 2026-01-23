@@ -1,0 +1,61 @@
+Photon momentum is proportional to energy
+=========================================
+
+The momentum of a photon is its energy divided by the speed of light.
+
+See :ref:`Photon energy is proportional to angular frequency` or
+:ref:`Photon energy is proportional to linear frequency` for energy
+expressions.
+
+**Notation:**
+
+#. :math:`c` (:code:`c`) is :attr:`~symplyphysics.quantities.speed_of_light`.
+
+**Conditions:**
+
+#. Works in a **vacuum** environment.
+
+**Links:**
+
+#. `Wikipedia, derivable from here <https://en.wikipedia.org/wiki/Photon#Energy_and_momentum>`__.
+
+.. py:currentmodule:: symplyphysics.quantum_physics.photons.photon_momentum_is_proportional_to_energy
+
+.. py:data:: momentum
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.momentum` of a photon.
+
+Symbol:
+    :code:`p`
+
+Latex:
+    :math:`p`
+
+Dimension:
+    :code:`momentum`
+
+
+.. py:data:: energy
+
+    :attr:`~symplyphysics.symbols.basic.energy` of a photon.
+
+Symbol:
+    :code:`E`
+
+Latex:
+    :math:`E`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: law
+
+    :code:`p = E / c`
+
+
+    Latex:
+        .. math::
+            p = \frac{E}{c}
+
+

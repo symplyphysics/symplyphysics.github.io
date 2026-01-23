@@ -1,0 +1,32 @@
+**Magnetron**
+=============
+
+.. _effective_cross_section:
+
+**Effective cross section**
+
+The effective cross section is a physical quantity characterizing the probability of transition of
+a system of two interacting particles to a certain final state, a quantitative characteristic of
+the acts of collision of particles of a stream hitting a target with target particles. The
+effective cross-section has the dimension of the area.
+
+.. py:currentmodule:: symplyphysics.condensed_matter.magnetron
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    condensed_matter.magnetron.boundary_of_thermalization_zone_of_atomized_atoms_in_magnetron
+    condensed_matter.magnetron.distance_of_greatest_convergence_of_particles_in_magnetron
+    condensed_matter.magnetron.energy_transfer_coefficient_for_elastic_scattering_in_magnetron
+    condensed_matter.magnetron.etch_rate_of_target_in_magnetron
+    condensed_matter.magnetron.interaction_cross_section_in_coulomb_interaction_model
+    condensed_matter.magnetron.interaction_cross_section_in_elastic_interaction_model
+    condensed_matter.magnetron.interaction_cross_section_in_model_of_hard_spheres
+    condensed_matter.magnetron.interaction_cross_section_in_recharge_model
+    condensed_matter.magnetron.number_of_collisions_of_particle_with_gas_in_magnetron
+
+
+

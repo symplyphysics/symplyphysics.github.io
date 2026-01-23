@@ -1,0 +1,17 @@
+**Relativistic Effects (Electromagnetic Waves)**
+================================================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetic_waves.relativistic_effects
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetic_waves.relativistic_effects.light_frequency_change_is_proportional_to_gravitational_potential_change
+
+
+

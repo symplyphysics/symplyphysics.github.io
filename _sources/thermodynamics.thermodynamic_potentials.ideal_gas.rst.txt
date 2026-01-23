@@ -1,0 +1,18 @@
+**Ideal Gas (Thermodynamic Potentials)**
+========================================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.ideal_gas
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.thermodynamic_potentials.ideal_gas.change_in_entropy_of_ideal_gas_from_volume_and_temperature
+    thermodynamics.thermodynamic_potentials.ideal_gas.chemical_potential_of_ideal_gas
+
+
+

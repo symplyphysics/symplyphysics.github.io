@@ -1,0 +1,19 @@
+**Telescopes**
+==============
+
+
+
+.. py:currentmodule:: symplyphysics.optics.geometrical_optics.telescopes
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    optics.geometrical_optics.telescopes.angular_magnification_telescope
+    optics.geometrical_optics.telescopes.relative_aperture_of_telescope
+    optics.geometrical_optics.telescopes.resolution_of_telescope
+
+
+

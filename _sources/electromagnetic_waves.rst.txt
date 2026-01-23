@@ -1,0 +1,21 @@
+Electromagnetic waves
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetic_waves
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    electromagnetic_waves.blackbody_radiation
+    electromagnetic_waves.doppler_effect
+    electromagnetic_waves.relativistic_effects
+    electromagnetic_waves.wave_energy
+    electromagnetic_waves.wave_propagation
+
+
+
+

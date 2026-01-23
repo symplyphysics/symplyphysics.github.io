@@ -1,0 +1,19 @@
+**Gas Plasma**
+==============
+
+
+
+.. py:currentmodule:: symplyphysics.condensed_matter.gas_plasma
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    condensed_matter.gas_plasma.electron_distribution_function_in_gas_plasma_per_druyvestein
+    condensed_matter.gas_plasma.electron_distribution_function_in_gas_plasma_per_maxwell
+    condensed_matter.gas_plasma.electronic_current_in_probe_circuit_in_gas_plasma
+
+
+

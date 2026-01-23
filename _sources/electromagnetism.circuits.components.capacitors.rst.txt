@@ -1,0 +1,22 @@
+**Capacitors**
+==============
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.components.capacitors
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.components.capacitors.capacitance_in_parallel_connection
+    electromagnetism.circuits.components.capacitors.capacitance_is_proportional_to_plate_area
+    electromagnetism.circuits.components.capacitors.capacitance_of_spherical_capacitor
+    electromagnetism.circuits.components.capacitors.capacitor_impedance_from_capacitance_and_frequency
+    electromagnetism.circuits.components.capacitors.capacitor_impedance_from_capacitive_reactance
+    electromagnetism.circuits.components.capacitors.energy_stored_in_capacitor_via_capacitance_and_voltage
+
+
+

@@ -1,0 +1,23 @@
+**Definitions (Thermodynamic Potentials)**
+==========================================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.thermodynamic_potentials.definitions
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.thermodynamic_potentials.definitions.chemical_potential_is_particle_count_derivative_of_enthalpy
+    thermodynamics.thermodynamic_potentials.definitions.chemical_potential_is_particle_count_derivative_of_free_energy
+    thermodynamics.thermodynamic_potentials.definitions.chemical_potential_is_particle_count_derivative_of_gibbs_energy
+    thermodynamics.thermodynamic_potentials.definitions.chemical_potential_is_particle_count_derivative_of_internal_energy
+    thermodynamics.thermodynamic_potentials.definitions.enthalpy_is_internal_energy_plus_pressure_energy
+    thermodynamics.thermodynamic_potentials.definitions.gibbs_energy_via_enthalpy
+    thermodynamics.thermodynamic_potentials.definitions.helmholtz_free_energy_via_internal_energy
+
+
+

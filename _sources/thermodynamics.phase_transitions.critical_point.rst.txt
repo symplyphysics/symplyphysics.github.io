@@ -1,0 +1,17 @@
+**Critical Point**
+==================
+
+
+
+.. py:currentmodule:: symplyphysics.thermodynamics.phase_transitions.critical_point
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    thermodynamics.phase_transitions.critical_point.critical_point_is_isotherm_stationary_inflection_point
+
+
+

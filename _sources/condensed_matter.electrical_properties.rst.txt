@@ -1,0 +1,21 @@
+**Electrical Properties (Condensed Matter)**
+============================================
+
+
+
+.. py:currentmodule:: symplyphysics.condensed_matter.electrical_properties
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    condensed_matter.electrical_properties.current_density_from_mobility
+    condensed_matter.electrical_properties.current_density_via_number_density_and_drift_velocity
+    condensed_matter.electrical_properties.drift_velocity_of_charge_carriers
+    condensed_matter.electrical_properties.resistance_from_temperature
+    condensed_matter.electrical_properties.speed_of_charged_particles_in_gas_via_mobility
+
+
+

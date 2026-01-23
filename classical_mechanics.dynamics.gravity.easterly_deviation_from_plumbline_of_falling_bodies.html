@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Easterly deviation from plumbline of falling bodies &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <link rel="canonical" href="https://symplyphysics.github.io/classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Falling body displacement" href="classical_mechanics.dynamics.gravity.falling_body_displacement.html" />
+    <link rel="prev" title="Acceleration due to gravity via gravity force and centripetal acceleration" href="classical_mechanics.dynamics.gravity.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="easterly-deviation-from-plumbline-of-falling-bodies">
+<h1>Easterly deviation from plumbline of falling bodies<a class="headerlink" href="#easterly-deviation-from-plumbline-of-falling-bodies" title="Link to this heading">¶</a></h1>
+<p>Suppose a body is falling freely in Earth’s gravity field with its initial velocity being zero.
+Then the effect of the Coriolis force on the falling body can be found in the fact that it deflects
+from plumbline in the easterly and southerly (equatorial) directions.</p>
+<p><strong>Conditions:</strong></p>
+<ol class="arabic simple">
+<li><p>The vector of free fall acceleration is constant.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p>Sivukhin D.V. (1979), <em>Obshchiy kurs fiziki</em> [General course of Physics], vol. 1, p. 355, (67.10).</p></li>
+</ol>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.easterly_deviation_from_plumbline">
+<span class="sig-name descname"><span class="pre">easterly_deviation_from_plumbline</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.easterly_deviation_from_plumbline" title="Link to this definition">¶</a></dt>
+<dd><p>Easterly deviation of falling body from plumbline due to Earth’s rotation.
+See <a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.euclidean_distance" title="symplyphysics.symbols.classical_mechanics.euclidean_distance"><code class="xref py py-attr docutils literal notranslate"><span class="pre">euclidean_distance</span></code></a></p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">s_east</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(s_\text{east}\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.fall_time">
+<span class="sig-name descname"><span class="pre">fall_time</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.fall_time" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.time" title="symplyphysics.symbols.basic.time"><code class="xref py py-attr docutils literal notranslate"><span class="pre">time</span></code></a> of the body’s fall.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">t</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(t\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.rotation_period">
+<span class="sig-name descname"><span class="pre">rotation_period</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.rotation_period" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.basic.html#symplyphysics.symbols.basic.period" title="symplyphysics.symbols.basic.period"><code class="xref py py-attr docutils literal notranslate"><span class="pre">period</span></code></a> of the Earth’s rotation.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">T</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(T\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.initial_elevation">
+<span class="sig-name descname"><span class="pre">initial_elevation</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.initial_elevation" title="Link to this definition">¶</a></dt>
+<dd><p>Initial elevation (<a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.height" title="symplyphysics.symbols.classical_mechanics.height"><code class="xref py py-attr docutils literal notranslate"><span class="pre">height</span></code></a>) of the body from the Earth’s surface.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">h</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(h\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.latitude">
+<span class="sig-name descname"><span class="pre">latitude</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.latitude" title="Link to this definition">¶</a></dt>
+<dd><p><a class="reference internal" href="symbols.classical_mechanics.html#symplyphysics.symbols.classical_mechanics.latitude" title="symplyphysics.symbols.classical_mechanics.latitude"><code class="xref py py-attr docutils literal notranslate"><span class="pre">latitude</span></code></a> of the location of the body.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">phi</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\phi\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">angle</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">s_east</span> <span class="pre">=</span> <span class="pre">4</span> <span class="pre">*</span> <span class="pre">pi</span> <span class="pre">/</span> <span class="pre">3</span> <span class="pre">*</span> <span class="pre">t</span> <span class="pre">/</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">h</span> <span class="pre">*</span> <span class="pre">cos(phi)</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[s_\text{east} = \frac{4 \pi}{3} \frac{t}{T} h \cos{\left(\phi \right)}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.conservation_laws.html"><strong>Conservation Laws (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.energy.html"><strong>Energy (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.force.html"><strong>Force (Dynamics)</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="classical_mechanics.dynamics.gravity.html"><strong>Gravity (Dynamics)</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.html">Acceleration due to gravity via gravity force and centripetal acceleration</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Easterly deviation from plumbline of falling bodies</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.easterly_deviation_from_plumbline"><code class="docutils literal notranslate"><span class="pre">easterly_deviation_from_plumbline</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.fall_time"><code class="docutils literal notranslate"><span class="pre">fall_time</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.rotation_period"><code class="docutils literal notranslate"><span class="pre">rotation_period</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.initial_elevation"><code class="docutils literal notranslate"><span class="pre">initial_elevation</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.latitude"><code class="docutils literal notranslate"><span class="pre">latitude</span></code></a></li>
+<li class="toctree-l5"><a class="reference internal" href="#symplyphysics.classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.falling_body_displacement.html">Falling body displacement</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.free_fall_acceleration_from_height.html">Free fall acceleration from height</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.gravitational_potential_energy.html">Gravitational potential energy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.gravity_force_from_mass_and_distance.html">Gravitational force from mass and distance</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.potential_energy_from_mass_and_height.html">Potential energy from mass and height</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.relative_acceleration_from_force_and_acceleration_due_to_gravity.html">Relative acceleration from force and acceleration due to gravity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.gravity.southerly_deviation_from_plumbline_of_falling_bodies.html">Southerly deviation from plumbline of falling bodies</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.relative_motion.html"><strong>Relative Motion (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.rotational_motion.html"><strong>Rotational Motion (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.translational_motion.html"><strong>Translational Motion (Dynamics)</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.fundamentals.html"><strong>Fundamentals (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.html"><strong>Orbital Mechanics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.springs.html"><strong>Springs (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.statics.html"><strong>Statics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.two_body_system.html"><strong>Two Body System</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="classical_mechanics.html">Classical Mechanics</a><ul>
+  <li><a href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a><ul>
+  <li><a href="classical_mechanics.dynamics.gravity.html"><strong>Gravity (Dynamics)</strong></a><ul>
+      <li>Previous: <a href="classical_mechanics.dynamics.gravity.acceleration_due_to_gravity_via_gravity_force_and_centripetal_acceleration.html" title="previous chapter">Acceleration due to gravity via gravity force and centripetal acceleration</a></li>
+      <li>Next: <a href="classical_mechanics.dynamics.gravity.falling_body_displacement.html" title="next chapter">Falling body displacement</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/classical_mechanics.dynamics.gravity.easterly_deviation_from_plumbline_of_falling_bodies.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

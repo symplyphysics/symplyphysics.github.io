@@ -1,0 +1,69 @@
+Harmonic oscillator is a second order derivative equation
+=========================================================
+
+In classical mechanics a *simple harmonic oscillator* is a system that, after a small displacement from equilibrium, experiences a restoring force :math:`F` proportional to that displacement. Displacement is not only limited to physical motion, but should be interpreted in general terms. Examples include small-angle pendulums, mass–spring systems, acoustic resonators, and electrical RLC circuits.
+If :math:`F` is the only force acting on the system, the system is called a simple harmonic oscillator.
+
+**Conditions:**
+
+#. There is no damping (i.e. friction) in the system.
+#. The system experiences a single restoring force :math:`F` (for mechanical oscillators).
+
+**Links:**
+
+#. `Wikipedia – Simple harmonic oscillator <https://en.wikipedia.org/wiki/Harmonic_oscillator#Simple_harmonic_oscillator>`__
+
+.. py:currentmodule:: symplyphysics.oscillations.natural_oscillations.harmonic_oscillator_is_second_derivative_equation
+
+.. py:data:: time
+
+    :attr:`~symplyphysics.symbols.basic.time`.
+
+Symbol:
+    :code:`t`
+
+Latex:
+    :math:`t`
+
+Dimension:
+    :code:`time`
+
+
+.. py:data:: displacement
+
+    Displacement of oscillator from equilibrium as a function of time. See :attr:`~symplyphysics.symbols.basic.any_quantity`.
+
+Symbol:
+    :code:`x(t)`
+
+Latex:
+    :math:`x{\left(t \right)}`
+
+Dimension:
+    :code:`any_dimension`
+
+
+.. py:data:: angular_frequency
+
+    :attr:`~symplyphysics.symbols.classical_mechanics.angular_frequency` of the oscillator.
+
+Symbol:
+    :code:`w`
+
+Latex:
+    :math:`\omega`
+
+Dimension:
+    :code:`angle/time`
+
+
+.. py:data:: law
+
+    :code:`Derivative(x(t), (t, 2)) = -w^2 * x(t)`
+
+
+    Latex:
+        .. math::
+            \frac{d^{2}}{d t^{2}} x{\left(t \right)} = - \omega^{2} x{\left(t \right)}
+
+

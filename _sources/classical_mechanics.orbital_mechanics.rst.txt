@@ -1,0 +1,35 @@
+**Orbital Mechanics**
+=====================
+
+
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.orbital_mechanics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    classical_mechanics.orbital_mechanics.angle_of_rotation_during_gravitational_maneuver
+    classical_mechanics.orbital_mechanics.area_rate_of_change_is_proportional_to_angular_momentum
+    classical_mechanics.orbital_mechanics.average_potential_energy_via_average_kinetic_energy
+    classical_mechanics.orbital_mechanics.corrected_planet_period_squared_is_proportional_to_cube_of_semimajor_axis
+    classical_mechanics.orbital_mechanics.eccentricity_of_orbit_via_orbit_parameters
+    classical_mechanics.orbital_mechanics.first_escape_velocity
+    classical_mechanics.orbital_mechanics.keplers_constant_via_attracting_body_mass
+    classical_mechanics.orbital_mechanics.maximum_angle_of_rotation_during_gravitational_maneuver
+    classical_mechanics.orbital_mechanics.orbital_velocity_from_length_of_large_half_axis_and_planet_mass
+    classical_mechanics.orbital_mechanics.planet_period_squared_is_proportional_to_cube_of_semimajor_axis
+    classical_mechanics.orbital_mechanics.potential_energy_of_planetary_motion
+    classical_mechanics.orbital_mechanics.radial_kinetic_energy_plus_potential_energy_is_constant
+    classical_mechanics.orbital_mechanics.radius_of_geostationary_orbit
+    classical_mechanics.orbital_mechanics.second_escape_velocity
+    classical_mechanics.orbital_mechanics.semimajor_axis_of_orbit_via_mass_and_speed
+    classical_mechanics.orbital_mechanics.semimajor_axis_via_kepler_constant_and_total_energy
+    classical_mechanics.orbital_mechanics.semiminor_axis_of_elliptical_orbit_via_orbit_parameters
+    classical_mechanics.orbital_mechanics.third_cosmic_velocity_from_orbital_and_second_velocities
+    classical_mechanics.orbital_mechanics.total_energy_is_negative_average_kinetic_energy
+
+
+

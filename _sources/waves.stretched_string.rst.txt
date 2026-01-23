@@ -1,0 +1,20 @@
+**Stretched String (Waves)**
+============================
+
+
+
+.. py:currentmodule:: symplyphysics.waves.stretched_string
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    waves.stretched_string.average_power_of_sinusoidal_wave_on_stretched_string
+    waves.stretched_string.phase_speed_of_wave_on_stretched_string
+    waves.stretched_string.resonant_frequencies_of_stretched_string_with_fixed_ends
+    waves.stretched_string.wavelength_of_standing_wave_in_string_with_fixed_ends
+
+
+

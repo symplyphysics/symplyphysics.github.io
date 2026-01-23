@@ -1,0 +1,87 @@
+Mechanical work is force times distance
+=======================================
+
+Work is measured result of force applied. Mechanical work is the only reason for the object energy to be changed.
+Work is scalar value equal to force multiplied by distance.
+
+**Notes:**
+
+#. This law works even when the force vector :math:`\vec F` and the displacement vector
+   :math:`\vec s` are not collinear or codirectional. In that case one should use the projection
+   of :math:`\vec F` onto :math:`\vec s` as the force or the projection of :math:`\vec s` on
+   :math:`\vec F` as the distance, due to the projection law. See the second **note** for reference.
+
+.. math::
+
+    W = \left( \vec F, \vec s \right) = \left( \vec F, \frac{\vec s}{\left \Vert \vec s \right \Vert} \right) \left \Vert \vec s \right \Vert = F_s s
+
+    W = \left( \vec F, \vec s \right) = \left( \frac{\vec F}{\left \Vert \vec F \right \Vert}, \vec s \right) \left \Vert \vec F \right \Vert = F s_F
+
+#. Use the :ref:`vector form <Mechanical work from force and displacement>` of this law for
+   non-collinear vectors of force and movement.
+
+**Conditions:**
+
+#. The force and displacement vectors are **collinear** and **codirectional**.
+
+**Links:**
+
+#. `Wikipedia, first formula <https://en.wikipedia.org/wiki/Work_(physics)#>`__.
+
+..
+    NOTE: include angle in the formula?
+
+.. py:currentmodule:: symplyphysics.classical_mechanics.dynamics.translational_motion.mechanical_work_from_force_and_distance
+
+.. py:data:: work
+
+    The mechanical :attr:`~symplyphysics.symbols.basic.work` done by the force.
+
+Symbol:
+    :code:`W`
+
+Latex:
+    :math:`W`
+
+Dimension:
+    :code:`energy`
+
+
+.. py:data:: force
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.force` exerted on the body.
+
+Symbol:
+    :code:`F`
+
+Latex:
+    :math:`F`
+
+Dimension:
+    :code:`force`
+
+
+.. py:data:: distance
+
+    The :attr:`~symplyphysics.symbols.classical_mechanics.distance` the body traveled due to the force exerted on it.
+
+Symbol:
+    :code:`s`
+
+Latex:
+    :math:`s`
+
+Dimension:
+    :code:`length`
+
+
+.. py:data:: law
+
+    :code:`W = F * s`
+
+
+    Latex:
+        .. math::
+            W = F s
+
+

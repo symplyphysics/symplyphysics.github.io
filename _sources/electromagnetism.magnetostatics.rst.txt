@@ -1,0 +1,23 @@
+**Magnetostatics**
+==================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.magnetostatics
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    electromagnetism.magnetostatics.charged_particle_motion
+    electromagnetism.magnetostatics.coil
+    electromagnetism.magnetostatics.current_loop
+    electromagnetism.magnetostatics.inductance
+    electromagnetism.magnetostatics.magnetic_dipole_moment
+    electromagnetism.magnetostatics.magnetic_flux
+    electromagnetism.magnetostatics.straight_wire
+
+
+
+

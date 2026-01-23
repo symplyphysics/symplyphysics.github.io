@@ -1,0 +1,20 @@
+**Alternating Current (Circuits)**
+==================================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.alternating_current
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+    electromagnetism.circuits.alternating_current.admittance
+    electromagnetism.circuits.alternating_current.impedance
+    electromagnetism.circuits.alternating_current.current_is_voltage_over_impedance
+    electromagnetism.circuits.alternating_current.instantaneous_energy_of_magnetic_field
+    electromagnetism.circuits.alternating_current.power_factor_is_real_power_over_apparent_power
+
+
+

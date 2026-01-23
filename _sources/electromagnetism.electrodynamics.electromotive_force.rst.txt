@@ -1,0 +1,20 @@
+**Electromotive Force**
+=======================
+
+
+
+.. py:currentmodule:: symplyphysics.electromagnetism.electrodynamics.electromotive_force
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.electrodynamics.electromotive_force.electromotive_force_induced_in_moving_contour
+    electromagnetism.electrodynamics.electromotive_force.electromotive_force_induced_in_rotating_rod
+    electromagnetism.electrodynamics.electromotive_force.electromotive_force_induced_in_uniformly_rotating_coil
+    electromagnetism.electrodynamics.electromotive_force.self_induced_electromotive_force_via_time_derivative_of_current
+
+
+

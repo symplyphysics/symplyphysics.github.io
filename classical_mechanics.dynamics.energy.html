@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Energy (Dynamics) &#8212; symplyphysics 1.0.0 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <script src="_static/documentation_options.js?v=8d563738"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script>let toggleHintShow = 'Expand';</script>
+    <script>let toggleHintHide = 'Collapse';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=1ae7504c"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <link rel="canonical" href="https://symplyphysics.github.io/classical_mechanics.dynamics.energy.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Instantaneous power is dot product of force and velocity" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html" />
+    <link rel="prev" title="Dynamics" href="classical_mechanics.dynamics.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="energy-dynamics">
+<h1><strong>Energy (Dynamics)</strong><a class="headerlink" href="#energy-dynamics" title="Link to this heading">¶</a></h1>
+<p><strong>Contents:</strong></p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html">Instantaneous power is dot product of force and velocity</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.power"><code class="docutils literal notranslate"><span class="pre">power</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.force"><code class="docutils literal notranslate"><span class="pre">force</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.velocity"><code class="docutils literal notranslate"><span class="pre">velocity</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.html">Instantaneous power is force times speed</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.power"><code class="docutils literal notranslate"><span class="pre">power</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.force"><code class="docutils literal notranslate"><span class="pre">force</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.speed"><code class="docutils literal notranslate"><span class="pre">speed</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.angle_between_vectors"><code class="docutils literal notranslate"><span class="pre">angle_between_vectors</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.html#symplyphysics.classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.html">Mechanical energy is kinetic and potential energy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.mechanical_energy"><code class="docutils literal notranslate"><span class="pre">mechanical_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.kinetic_energy"><code class="docutils literal notranslate"><span class="pre">kinetic_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.potential_energy"><code class="docutils literal notranslate"><span class="pre">potential_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html">Mechanical work is line integral of force</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.work"><code class="docutils literal notranslate"><span class="pre">work</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.position_vector"><code class="docutils literal notranslate"><span class="pre">position_vector</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.force"><code class="docutils literal notranslate"><span class="pre">force</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.curve"><code class="docutils literal notranslate"><span class="pre">curve</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.initial_parameter"><code class="docutils literal notranslate"><span class="pre">initial_parameter</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.final_parameter"><code class="docutils literal notranslate"><span class="pre">final_parameter</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html#symplyphysics.classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.dynamics.energy.power_is_energy_derivative.html">Power is energy derivative</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.power_is_energy_derivative.html#symplyphysics.classical_mechanics.dynamics.energy.power_is_energy_derivative.time"><code class="docutils literal notranslate"><span class="pre">time</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.power_is_energy_derivative.html#symplyphysics.classical_mechanics.dynamics.energy.power_is_energy_derivative.power"><code class="docutils literal notranslate"><span class="pre">power</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.power_is_energy_derivative.html#symplyphysics.classical_mechanics.dynamics.energy.power_is_energy_derivative.energy"><code class="docutils literal notranslate"><span class="pre">energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.power_is_energy_derivative.html#symplyphysics.classical_mechanics.dynamics.energy.power_is_energy_derivative.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.html">Total work is change in kinetic energy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.html#symplyphysics.classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.work"><code class="docutils literal notranslate"><span class="pre">work</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.html#symplyphysics.classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.kinetic_energy"><code class="docutils literal notranslate"><span class="pre">kinetic_energy</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.html#symplyphysics.classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.time_before"><code class="docutils literal notranslate"><span class="pre">time_before</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.html#symplyphysics.classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.time_after"><code class="docutils literal notranslate"><span class="pre">time_after</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.html#symplyphysics.classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html">Work is integral of force over distance</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html#symplyphysics.classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.work"><code class="docutils literal notranslate"><span class="pre">work</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html#symplyphysics.classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.position"><code class="docutils literal notranslate"><span class="pre">position</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html#symplyphysics.classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.force"><code class="docutils literal notranslate"><span class="pre">force</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html#symplyphysics.classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.position_before"><code class="docutils literal notranslate"><span class="pre">position_before</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html#symplyphysics.classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.position_after"><code class="docutils literal notranslate"><span class="pre">position_after</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html#symplyphysics.classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">symplyphysics</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="formulas.html">Formulas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="symbols.html">Physical symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantities.html">Physical constants</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mathematics.html">Mathematics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="classical_mechanics.html">Classical Mechanics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.conservation_laws.html"><strong>Conservation Laws (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Energy (Dynamics)</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html">Instantaneous power is dot product of force and velocity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_times_speed.html">Instantaneous power is force times speed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_energy_is_kinetic_and_potential_energy.html">Mechanical energy is kinetic and potential energy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.energy.mechanical_work_is_line_integral_of_force.html">Mechanical work is line integral of force</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.energy.power_is_energy_derivative.html">Power is energy derivative</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.energy.total_work_is_change_in_kinetic_energy.html">Total work is change in kinetic energy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="classical_mechanics.dynamics.energy.work_is_integral_of_force_over_distance.html">Work is integral of force over distance</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.force.html"><strong>Force (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.gravity.html"><strong>Gravity (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.relative_motion.html"><strong>Relative Motion (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.rotational_motion.html"><strong>Rotational Motion (Dynamics)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="classical_mechanics.dynamics.translational_motion.html"><strong>Translational Motion (Dynamics)</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.fundamentals.html"><strong>Fundamentals (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.kinematics.html"><strong>Kinematics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.orbital_mechanics.html"><strong>Orbital Mechanics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.springs.html"><strong>Springs (Classical Mechanics)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.statics.html"><strong>Statics</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="classical_mechanics.two_body_system.html"><strong>Two Body System</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special_relativity.html">Special Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a></li>
+<li class="toctree-l1"><a class="reference internal" href="electromagnetic_waves.html">Electromagnetic waves</a></li>
+<li class="toctree-l1"><a class="reference internal" href="optics.html">Optics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="astronomy.html">Astronomy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nuclear_physics.html">Nuclear Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chemistry.html">Chemistry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantity_relations.html">Quantity Relations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quantum_physics.html">Quantum Physics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="condensed_matter.html">Condensed Matter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="thermodynamics.html">Thermodynamics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="classical_mechanics.html">Classical Mechanics</a><ul>
+  <li><a href="classical_mechanics.dynamics.html"><strong>Dynamics</strong></a><ul>
+      <li>Previous: <a href="classical_mechanics.dynamics.html" title="previous chapter"><strong>Dynamics</strong></a></li>
+      <li>Next: <a href="classical_mechanics.dynamics.energy.instantaneous_power_is_force_dot_velocity.html" title="next chapter">Instantaneous power is dot product of force and velocity</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024-2025, Symplyphysics.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.0.4</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/classical_mechanics.dynamics.energy.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
