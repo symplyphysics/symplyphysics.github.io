@@ -18,6 +18,7 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/electromagnetism.circuits.transient_analysis.serial_inductor_capacitor_circuit.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -41,7 +42,19 @@
           <div class="body" role="main">
             
   <section id="serial-lc-circuit">
-<h1><strong>Serial LC Circuit</strong><a class="headerlink" href="#serial-lc-circuit" title="Link to this heading">¶</a></h1>
+<h1>Serial LC Circuit<a class="headerlink" href="#serial-lc-circuit" title="Link to this heading">¶</a></h1>
+<p>An <strong>LC circuit</strong>, also referred to as a <strong>resonant circuit</strong>, is an electric circuit consisting of
+an inductor (represented by the letter L), and a capacitor (represented by the letter C).</p>
+<p>In a serial LC circuit the inductor <span class="math notranslate nohighlight">\(L\)</span> and capacitor <span class="math notranslate nohighlight">\(C\)</span> are connected in series:</p>
+<a class="reference internal image-reference" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Series_LC_Circuit.svg/250px-Series_LC_Circuit.svg.png"><img alt="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Series_LC_Circuit.svg/250px-Series_LC_Circuit.svg.png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Series_LC_Circuit.svg/250px-Series_LC_Circuit.svg.png" style="height: 300px;" />
+</a>
+<p>An interesting property of this circuit is that it can experience resonance at the frequency</p>
+<div class="math notranslate nohighlight">
+\[\omega_0 = \frac{1}{\sqrt{L C}}.\]</div>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/LC_circuit#Series_circuit">Wikipedia — LC circuit — Series circuit</a></p></li>
+</ol>
 <p><strong>Contents:</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
@@ -95,17 +108,17 @@
 <li class="toctree-l1"><a class="reference internal" href="general_relativity.html">General Relativity</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="electromagnetism.html">Electromagnetism</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="electromagnetism.circuits.html">Circuits</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.alternating_current.html"><strong>Alternating Current (Circuits)</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.components.html"><strong>Components (Circuits)</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.direct_current.html"><strong>Direct Current (Circuits)</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.fundamentals.html"><strong>Fundamentals (Circuits)</strong></a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.html"><strong>Transient Analysis</strong></a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Serial LC Circuit</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.alternating_current.html">Alternating Current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.components.html">Components (Circuits)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.direct_current.html">Direct Current</a></li>
+<li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.fundamentals.html">Fundamentals (Circuits)</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.html">Transient Analysis</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Serial LC Circuit</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.serial_inductor_capacitor_circuit.oscillation_period_of_inductor_capacitor_network.html">Oscillation period of inductor-capacitor network</a></li>
 </ul>
 </li>
-<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.serial_resistor_capacitor_circuit.html"><strong>Serial RC Circuit</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.serial_resistor_inductor_capacitor_circuit.html"><strong>Serial RLC Circuit</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.serial_resistor_capacitor_circuit.html">Serial RC Circuit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="electromagnetism.circuits.transient_analysis.serial_resistor_inductor_capacitor_circuit.html">Serial RLC Circuit</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="electromagnetism.circuits.transmission_lines.html"><strong>Transmission Lines</strong></a></li>
@@ -139,8 +152,8 @@
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="electromagnetism.html">Electromagnetism</a><ul>
   <li><a href="electromagnetism.circuits.html">Circuits</a><ul>
-  <li><a href="electromagnetism.circuits.transient_analysis.html"><strong>Transient Analysis</strong></a><ul>
-      <li>Previous: <a href="electromagnetism.circuits.transient_analysis.html" title="previous chapter"><strong>Transient Analysis</strong></a></li>
+  <li><a href="electromagnetism.circuits.transient_analysis.html">Transient Analysis</a><ul>
+      <li>Previous: <a href="electromagnetism.circuits.transient_analysis.html" title="previous chapter">Transient Analysis</a></li>
       <li>Next: <a href="electromagnetism.circuits.transient_analysis.serial_inductor_capacitor_circuit.oscillation_period_of_inductor_capacitor_network.html" title="next chapter">Oscillation period of inductor-capacitor network</a></li>
   </ul></li>
   </ul></li>

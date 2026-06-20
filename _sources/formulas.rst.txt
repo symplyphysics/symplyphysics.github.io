@@ -1331,34 +1331,30 @@ Formulas
             .. math::
         
                 w_{f} = \frac{8 \pi f^{2} k_\text{B} T}{c^{3}}
-- :doc:`(doc) <electromagnetic_waves.doppler_effect>` :code:`electromagnetic_waves.doppler_effect`
-
-    .. toggle::
-
-        - :doc:`(doc) <electromagnetic_waves.doppler_effect.frequency_shift_from_velocity_and_angle>` Frequency shift from speed and angle
-        
-            .. math::
-        
-                f_\text{o} = \frac{f_\text{s} \sqrt{c^{2} - v^{2}}}{c - v \cos{\left(\varphi \right)}}
-        - :doc:`(doc) <electromagnetic_waves.doppler_effect.longitudinal_frequency_shift_from_absolute_velocities>` Longitudinal frequency shift from speeds
-        
-            .. math::
-        
-                f_\text{o} = \frac{f_\text{s} \left(1 - \frac{v_\text{o}}{v}\right)}{1 + \frac{v_\text{s}}{v}} \sqrt{\frac{1 - \left(\frac{v_\text{s}}{c}\right)^{2}}{1 - \left(\frac{v_\text{o}}{c}\right)^{2}}}
-        - :doc:`(doc) <electromagnetic_waves.doppler_effect.longitudinal_frequency_shift_from_velocity>` Longitudinal frequency shift from speed
-        
-            .. math::
-        
-                f_\text{o} = f_\text{s} \sqrt{\frac{c - v}{c + v}}
 - :doc:`(doc) <electromagnetic_waves.relativistic_effects>` :code:`electromagnetic_waves.relativistic_effects`
 
     .. toggle::
 
+        - :doc:`(doc) <electromagnetic_waves.relativistic_effects.frequency_shift_from_velocity_and_angle>` Frequency shift from speed and angle
+        
+            .. math::
+        
+                f_\text{o} = \frac{f_\text{s} \sqrt{c^{2} - v^{2}}}{c - v \cos{\left(\varphi \right)}}
         - :doc:`(doc) <electromagnetic_waves.relativistic_effects.light_frequency_change_is_proportional_to_gravitational_potential_change>` Light frequency change is proportional to gravitational potential change
         
             .. math::
         
                 \frac{df}{f} = - \frac{d \phi}{c^{2}}
+        - :doc:`(doc) <electromagnetic_waves.relativistic_effects.longitudinal_frequency_shift_from_absolute_velocities>` Longitudinal frequency shift from speeds
+        
+            .. math::
+        
+                f_\text{o} = \frac{f_\text{s} \left(1 - \frac{v_\text{o}}{v}\right)}{1 + \frac{v_\text{s}}{v}} \sqrt{\frac{1 - \left(\frac{v_\text{s}}{c}\right)^{2}}{1 - \left(\frac{v_\text{o}}{c}\right)^{2}}}
+        - :doc:`(doc) <electromagnetic_waves.relativistic_effects.longitudinal_frequency_shift_from_velocity>` Longitudinal frequency shift from speed
+        
+            .. math::
+        
+                f_\text{o} = f_\text{s} \sqrt{\frac{c - v}{c + v}}
 - :doc:`(doc) <electromagnetic_waves.wave_energy>` :code:`electromagnetic_waves.wave_energy`
 
     .. toggle::
@@ -1483,6 +1479,60 @@ Formulas
             .. math::
         
                 W = \frac{C V^{2}}{2}
+- :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators>` :code:`electromagnetism.circuits.components.cavity_resonators`
+
+    .. toggle::
+
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.coupling_parameter_of_resonator_from_quality_factors>` Coupling parameter of resonator from quality factor
+        
+            .. math::
+        
+                g = \frac{Q_{0}}{Q_\text{e}}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.coupling_parameter_of_resonator_from_resistances>` Coupling parameter of resonator from resistance
+        
+            .. math::
+        
+                g = \frac{R_{0}}{R_\text{L}}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.instantaneous_value_of_resonator_energy>` Instantaneous energy of resonator
+        
+            .. math::
+        
+                E = E_{0} \exp{\left(- \frac{\omega t}{Q} \right)}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.loaded_resonator_quality_factor_from_circuit_parameters>` Quality factor of loaded resonator from circuit parameters
+        
+            .. math::
+        
+                Q_{1} = \frac{R_\text{L} R_{0}}{\omega L \left(R_\text{L} + R_{0}\right)}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.loaded_resonator_quality_factor_from_quality_factors>` Quality resonator of loaded resonator from quality factors
+        
+            .. math::
+        
+                \frac{1}{Q_{1}} = \frac{1}{Q_{0}} + \frac{1}{Q_\text{e}}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.own_quality_factor_of_resonator>` Quality factor of resonator
+        
+            .. math::
+        
+                Q = \frac{R}{\omega L}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101>` Quality factor of empty rectangular resonator for traverse electric waves
+        
+            .. math::
+        
+                Q = \frac{\omega \mu l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.quality_factor_of_filled_rectangular_resonator>` Quality factor of filled rectangular resonator
+        
+            .. math::
+        
+                Q_{1} = \frac{1}{\frac{1}{Q_{0}} + \tan \delta}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.resonant_frequency_of_rectangular_resonator>` Resonant frequency of rectangular resonator
+        
+            .. math::
+        
+                f_\text{r} = \frac{c}{2 \sqrt{\varepsilon_\text{r} \mu_\text{r}}} \sqrt{\left(\frac{m}{l_{1}}\right)^{2} + \left(\frac{n}{l_{2}}\right)^{2} + \left(\frac{p}{l_{3}}\right)^{2}}
+        - :doc:`(doc) <electromagnetism.circuits.components.cavity_resonators.resonant_frequency_of_ring_resonator>` Resonant frequency of ring resonator
+        
+            .. math::
+        
+                f = \frac{N c}{l \sqrt{\varepsilon_\text{r}}}
 - :doc:`(doc) <electromagnetism.circuits.components.couplers>` :code:`electromagnetism.circuits.components.couplers`
 
     .. toggle::
@@ -1591,6 +1641,11 @@ Formulas
             .. math::
         
                 S = \frac{3 g}{2} \sqrt{V}
+        - :doc:`(doc) <electromagnetism.circuits.components.diodes.varactor_junction_p_n_capacity>` Capacitance of p-n varactor junction
+        
+            .. math::
+        
+                C = \frac{C_{0}}{\left(1 - \frac{V}{V_{0}}\right)^{y}}
         - :doc:`(doc) <electromagnetism.circuits.components.diodes.voltage_of_equivalent_diode_for_pentode>` Voltage of equivalent diode for pentode
         
             .. math::
@@ -1678,69 +1733,6 @@ Formulas
             .. math::
         
                 R = \frac{\rho l}{A}
-- :doc:`(doc) <electromagnetism.circuits.components.resonators>` :code:`electromagnetism.circuits.components.resonators`
-
-    .. toggle::
-
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.coupling_parameter_of_resonator_from_quality_factors>` Coupling parameter of resonator from quality factor
-        
-            .. math::
-        
-                g = \frac{Q_{0}}{Q_\text{e}}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.coupling_parameter_of_resonator_from_resistances>` Coupling parameter of resonator from resistance
-        
-            .. math::
-        
-                g = \frac{R_{0}}{R_\text{L}}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.instantaneous_value_of_resonator_energy>` Instantaneous energy of resonator
-        
-            .. math::
-        
-                E = E_{0} \exp{\left(- \frac{\omega t}{Q} \right)}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.loaded_resonator_quality_factor_from_circuit_parameters>` Quality factor of loaded resonator from circuit parameters
-        
-            .. math::
-        
-                Q_{1} = \frac{R_\text{L} R_{0}}{\omega L \left(R_\text{L} + R_{0}\right)}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.loaded_resonator_quality_factor_from_quality_factors>` Quality resonator of loaded resonator from quality factors
-        
-            .. math::
-        
-                \frac{1}{Q_{1}} = \frac{1}{Q_{0}} + \frac{1}{Q_\text{e}}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.own_quality_factor_of_resonator>` Quality factor of resonator
-        
-            .. math::
-        
-                Q = \frac{R}{\omega L}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101>` Quality factor of empty rectangular resonator for traverse electric waves
-        
-            .. math::
-        
-                Q = \frac{\omega \mu l_{3} l_{2} l_{1} \left(l_{2}^{2} + l_{1}^{2}\right)}{2 R_\text{s} \left(l_{2}^{3} \left(l_{1} + 2 l_{3}\right) + l_{1}^{3} \left(l_{2} + 2 l_{3}\right)\right)}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.quality_factor_of_filled_rectangular_resonator>` Quality factor of filled rectangular resonator
-        
-            .. math::
-        
-                Q_{1} = \frac{1}{\frac{1}{Q_{0}} + \tan \delta}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.resonant_frequency_of_rectangular_resonator>` Resonant frequency of rectangular resonator
-        
-            .. math::
-        
-                f_\text{r} = \frac{c}{2 \sqrt{\varepsilon_\text{r} \mu_\text{r}}} \sqrt{\left(\frac{m}{l_{1}}\right)^{2} + \left(\frac{n}{l_{2}}\right)^{2} + \left(\frac{p}{l_{3}}\right)^{2}}
-        - :doc:`(doc) <electromagnetism.circuits.components.resonators.resonant_frequency_of_ring_resonator>` Resonant frequency of ring resonator
-        
-            .. math::
-        
-                f = \frac{N c}{l \sqrt{\varepsilon_\text{r}}}
-- :doc:`(doc) <electromagnetism.circuits.components.varactors>` :code:`electromagnetism.circuits.components.varactors`
-
-    .. toggle::
-
-        - :doc:`(doc) <electromagnetism.circuits.components.varactors.varactor_junction_p_n_capacity>` Capacitance of p-n varactor junction
-        
-            .. math::
-        
-                C = \frac{C_{0}}{\left(1 - \frac{V}{V_{0}}\right)^{y}}
 - :doc:`(doc) <electromagnetism.circuits.direct_current>` :code:`electromagnetism.circuits.direct_current`
 
     .. toggle::

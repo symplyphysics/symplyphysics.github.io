@@ -1,7 +1,17 @@
-**Diodes**
-==========
+Diodes
+======
 
+A **diode** is a two-terminal :ref:`electronic component <Components (Circuits)>` that conducts
+electric current primarily in one direction, thus having low resistance in one direction and high
+resistance in the other.
 
+**Varactor diode** is a type of :ref:`diode <Diodes>` designed to make use of the voltage-dependent
+:ref:`capacitance <Capacitance>` of a reverse-biased :ref:`p—n junction <Semiconductors>`.
+
+**Links:**
+
+#. `Wikipedia — Diode <https://en.wikipedia.org/wiki/Diode>`__
+#. `Wikipedia — Varicap <https://en.wikipedia.org/wiki/Varicap>`__
 
 .. py:currentmodule:: symplyphysics.electromagnetism.circuits.components.diodes
 
@@ -20,6 +30,7 @@
     electromagnetism.circuits.components.diodes.limit_operating_frequency_of_vacuum_diode
     electromagnetism.circuits.components.diodes.space_charge_density_in_diode_device
     electromagnetism.circuits.components.diodes.steepness_of_volt_ampere_characteristic_of_vacuum_diode
+    electromagnetism.circuits.components.diodes.varactor_junction_p_n_capacity
     electromagnetism.circuits.components.diodes.voltage_of_equivalent_diode_for_pentode
     electromagnetism.circuits.components.diodes.voltage_of_equivalent_diode_for_tetrode
     electromagnetism.circuits.components.diodes.voltage_of_equivalent_diode_for_triode

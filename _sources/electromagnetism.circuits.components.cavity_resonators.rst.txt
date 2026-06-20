@@ -1,0 +1,30 @@
+Cavity Resonators
+=================
+
+A **microwave cavity** or **radio frequency cavity** (**RF cavity**) is a special type of resonator, consisting of a closed (or largely closed) metal structure that confines :ref:`electromagnetic fields <Electromagnetic waves>` in the microwave or RF region of the spectrum. The structure is either hollow or filled with dielectric material.
+
+**Links**
+
+#. `Wikipedia — Microwave cavity <https://en.wikipedia.org/wiki/Microwave_cavity>`__
+
+.. py:currentmodule:: symplyphysics.electromagnetism.circuits.components.cavity_resonators
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    electromagnetism.circuits.components.cavity_resonators.coupling_parameter_of_resonator_from_quality_factors
+    electromagnetism.circuits.components.cavity_resonators.coupling_parameter_of_resonator_from_resistances
+    electromagnetism.circuits.components.cavity_resonators.instantaneous_value_of_resonator_energy
+    electromagnetism.circuits.components.cavity_resonators.loaded_resonator_quality_factor_from_circuit_parameters
+    electromagnetism.circuits.components.cavity_resonators.loaded_resonator_quality_factor_from_quality_factors
+    electromagnetism.circuits.components.cavity_resonators.own_quality_factor_of_resonator
+    electromagnetism.circuits.components.cavity_resonators.quality_factor_of_empty_rectangular_resonator_for_transverse_electric_waves_with_indices_101
+    electromagnetism.circuits.components.cavity_resonators.quality_factor_of_filled_rectangular_resonator
+    electromagnetism.circuits.components.cavity_resonators.resonant_frequency_of_rectangular_resonator
+    electromagnetism.circuits.components.cavity_resonators.resonant_frequency_of_ring_resonator
+
+
+

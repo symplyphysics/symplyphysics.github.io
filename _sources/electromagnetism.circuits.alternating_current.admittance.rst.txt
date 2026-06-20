@@ -1,7 +1,12 @@
-**Admittance**
-==============
+Admittance
+==========
 
+**Admittance** is a physical quantity that measures how easily a circuit or device will allow a 
+current to flow. The inverse of admittance is :ref:`Impedance`.
 
+**Links:**
+
+#. `Wikipedia — Admittance <https://en.wikipedia.org/wiki/Admittance>`__
 
 .. py:currentmodule:: symplyphysics.electromagnetism.circuits.alternating_current.admittance
 
