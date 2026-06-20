@@ -1,7 +1,11 @@
-**Acoustic Waves (Continuum Mechanics)**
-========================================
+Acoustic Waves (Continuum Mechanics)
+====================================
 
+This module deals in particular with the calculation of the **speed of sound** in continuous media.
 
+**Links:**
+
+#. `Wikipedia — Acoustic wave — Propagation speed <https://en.wikipedia.org/wiki/Acoustic_wave#Propagation_speed>`__
 
 .. py:currentmodule:: symplyphysics.continuum_mechanics.acoustic_waves
 

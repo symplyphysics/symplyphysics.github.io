@@ -18,6 +18,7 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/continuum_mechanics.fluid_mechanics.supersonic_flow.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -41,7 +42,17 @@
           <div class="body" role="main">
             
   <section id="supersonic-flow">
-<h1><strong>Supersonic Flow</strong><a class="headerlink" href="#supersonic-flow" title="Link to this heading">¶</a></h1>
+<h1>Supersonic Flow<a class="headerlink" href="#supersonic-flow" title="Link to this heading">¶</a></h1>
+<p>In general, <strong>supersonic speed</strong> refers to the speed of an object that exceeds the speed of sound.
+In fluid dynamics, a dimensionless quantity called <em>Mach number</em> represents the ratio of fluid
+velocity to the local speed of sound. Its value can be used to determine whether or not the flow can
+be treated as incompressible, which usually occurs when the Mach number is no more than
+<span class="math notranslate nohighlight">\(0.2 - 0.3\)</span>.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Supersonic_speed">Wikipedia — Supersonic speed</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Mach_number">Wikipedia — Mach number</a></p></li>
+</ol>
 <p><strong>Contents:</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
@@ -97,20 +108,20 @@
 <li class="toctree-l1"><a class="reference internal" href="oscillations.html">Oscillations</a></li>
 <li class="toctree-l1"><a class="reference internal" href="waves.html">Waves</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="continuum_mechanics.html">Continuum Mechanics</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="continuum_mechanics.acoustic_waves.html"><strong>Acoustic Waves (Continuum Mechanics)</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="continuum_mechanics.elasticity.html"><strong>Elasticity</strong></a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.html"><strong>Fluid Mechanics</strong></a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.hydraulic_press.html"><strong>Hydraulic Press</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.hydrostatics.html"><strong>Hydrostatics</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.incompressible_flow.html"><strong>Incompressible Flow</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.similarity_parameters.html"><strong>Similarity Parameters</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Supersonic Flow</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="continuum_mechanics.acoustic_waves.html">Acoustic Waves (Continuum Mechanics)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="continuum_mechanics.elasticity.html">Elasticity</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.html">Fluid Mechanics</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.hydraulic_press.html">Hydraulic Press</a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.hydrostatics.html">Hydrostatics</a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.incompressible_flow.html">Incompressible Flow</a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.similarity_parameters.html">Similarity Parameters</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Supersonic Flow</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.supersonic_flow.mach_number_is_flow_speed_over_speed_of_sound.html">Mach number is flow speed over speed of sound</a></li>
 <li class="toctree-l4"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.supersonic_flow.sine_of_mach_cone_angle_is_mach_number.html">Sine of Mach cone angle via Mach number</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.surface_effects.html"><strong>Surface Effects</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.transport_properties.html"><strong>Transport Properties</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.surface_effects.html">Surface Effects</a></li>
+<li class="toctree-l3"><a class="reference internal" href="continuum_mechanics.fluid_mechanics.transport_properties.html">Transport Properties</a></li>
 </ul>
 </li>
 </ul>
@@ -135,7 +146,7 @@
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="continuum_mechanics.html">Continuum Mechanics</a><ul>
-  <li><a href="continuum_mechanics.fluid_mechanics.html"><strong>Fluid Mechanics</strong></a><ul>
+  <li><a href="continuum_mechanics.fluid_mechanics.html">Fluid Mechanics</a><ul>
       <li>Previous: <a href="continuum_mechanics.fluid_mechanics.similarity_parameters.reynolds_number_via_fluid_parameters_and_characteristic_length.html" title="previous chapter">Reynolds number via fluid parameters and characteristic length</a></li>
       <li>Next: <a href="continuum_mechanics.fluid_mechanics.supersonic_flow.mach_number_is_flow_speed_over_speed_of_sound.html" title="next chapter">Mach number is flow speed over speed of sound</a></li>
   </ul></li>
