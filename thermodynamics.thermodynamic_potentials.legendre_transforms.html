@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Legendre Transform (Thermodynamic Potentials) &#8212; symplyphysics 1.0.0 documentation</title>
+    <title>Legendre Transformation (Thermodynamic Potentials) &#8212; symplyphysics 1.0.0 documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
     <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
     <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
@@ -18,6 +18,7 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js?v=b8b12719"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="canonical" href="https://symplyphysics.github.io/thermodynamics.thermodynamic_potentials.legendre_transforms.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -40,8 +41,20 @@
 
           <div class="body" role="main">
             
-  <section id="legendre-transform-thermodynamic-potentials">
-<h1><strong>Legendre Transform (Thermodynamic Potentials)</strong><a class="headerlink" href="#legendre-transform-thermodynamic-potentials" title="Link to this heading">¶</a></h1>
+  <section id="legendre-transformation-thermodynamic-potentials">
+<h1>Legendre Transformation (Thermodynamic Potentials)<a class="headerlink" href="#legendre-transformation-thermodynamic-potentials" title="Link to this heading">¶</a></h1>
+<p>Given two variables, we can convert a function depending on one variable into another function that
+depends on another variable using a so called <strong>Legendre transformation</strong>, and the two variables
+which are known as <strong>conjugate variables</strong>. For a function <span class="math notranslate nohighlight">\(f\)</span> of a single variable <span class="math notranslate nohighlight">\(x\)</span>
+this can be shown to be</p>
+<div class="math notranslate nohighlight">
+\[g(y) = f(x) - x y,\]</div>
+<p>where <span class="math notranslate nohighlight">\(y\)</span> is conjugate to <span class="math notranslate nohighlight">\(x\)</span> and <cite>g</cite> is the Legendre transformation of <cite>f</cite>.</p>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Legendre_transformation#Thermodynamics">Wikipedia — Legendre transformation — Thermodynamics</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Conjugate_variables_(thermodynamics)">Wikipedia — Conjugate variables (thermodynamics)</a></p></li>
+</ol>
 <p><strong>Contents:</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
@@ -115,27 +128,27 @@
 <li class="toctree-l2"><a class="reference internal" href="thermodynamics.chemical_thermodynamics.html"><strong>Chemical Thermodynamics</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="thermodynamics.conservation_laws.html"><strong>Conservation Laws (Thermodynamics)</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="thermodynamics.continuum_thermodynamics.html"><strong>Continuum Thermodynamics</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="thermodynamics.equations_of_state.html"><strong>Equations of State</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="thermodynamics.heat_engines.html"><strong>Heat Engines</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="thermodynamics.heat_transfer.html"><strong>Heat Transfer</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="thermodynamics.phase_transitions.html"><strong>Phase Transitions</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="thermodynamics.response_functions.html"><strong>Thermodynamic Response Functions</strong></a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.html"><strong>Thermodynamic Potentials</strong></a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.definitions.html"><strong>Definitions (Thermodynamic Potentials)</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.differentials.html"><strong>Differentials (Thermodynamic Potentials)</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.euler_relations.html"><strong>Euler Relations</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.ideal_gas.html"><strong>Ideal Gas (Thermodynamic Potentials)</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.identities.html"><strong>Identities (Thermodynamic Potentials)</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Legendre Transform (Thermodynamic Potentials)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.equations_of_state.html">Equations of State</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.heat_engines.html">Heat Engines</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.heat_transfer.html">Heat Transfer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.phase_transitions.html">Phase Transitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.response_functions.html">Thermodynamic Response Functions</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.html">Thermodynamic Potentials</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.definitions.html">Definitions (Thermodynamic Potentials)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.differentials.html">Differentials (Thermodynamic Potentials)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.euler_relations.html">Euler Relations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.ideal_gas.html">Ideal Gas (Thermodynamic Potentials)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.identities.html">Identities (Thermodynamic Potentials)</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Legendre Transformation (Thermodynamic Potentials)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.legendre_transforms.enthalpy_via_gibbs_energy.html">Enthalpy via Gibbs energy</a></li>
 <li class="toctree-l4"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.legendre_transforms.internal_energy_via_helmholtz_free_energy.html">Internal energy via Helmholtz free energy</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.maxwell_relations.html"><strong>Maxwell Relations</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.properties.html"><strong>Properties (Thermodynamic Potentials)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.maxwell_relations.html">Maxwell Relations</a></li>
+<li class="toctree-l3"><a class="reference internal" href="thermodynamics.thermodynamic_potentials.properties.html">Properties (Thermodynamic Potentials)</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="thermodynamics.work_and_heat.html"><strong>Work and Heat</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="thermodynamics.work_and_heat.html">Work and Heat</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="statistical_physics.html">Statistical Physics</a></li>
@@ -146,7 +159,7 @@
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
   <li><a href="thermodynamics.html">Thermodynamics</a><ul>
-  <li><a href="thermodynamics.thermodynamic_potentials.html"><strong>Thermodynamic Potentials</strong></a><ul>
+  <li><a href="thermodynamics.thermodynamic_potentials.html">Thermodynamic Potentials</a><ul>
       <li>Previous: <a href="thermodynamics.thermodynamic_potentials.identities.temperature_is_derivative_of_internal_energy.html" title="previous chapter">Temperature is derivative of internal energy</a></li>
       <li>Next: <a href="thermodynamics.thermodynamic_potentials.legendre_transforms.enthalpy_via_gibbs_energy.html" title="next chapter">Enthalpy via Gibbs energy</a></li>
   </ul></li>
