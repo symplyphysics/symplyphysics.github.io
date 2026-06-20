@@ -1,7 +1,13 @@
 Condensed Matter
 ================
 
+**Condensed matter physics** is the field of physics that deals with the macroscopic and 
+microscopic physical properties of matter, especially the solid and liquid phases, that arise from 
+electromagnetic forces between atoms and electrons.
 
+**Links:**
+
+#. `Wikipedia — Condensed matter physics <https://en.wikipedia.org/wiki/Condensed_matter_physics>`__
 
 .. py:currentmodule:: symplyphysics.condensed_matter
 
@@ -13,10 +19,10 @@ Condensed Matter
     condensed_matter.crystallography
     condensed_matter.electrical_properties
     condensed_matter.electronic_emission
-    condensed_matter.gas_plasma
     condensed_matter.interaction_potentials
     condensed_matter.ionization
     condensed_matter.magnetron
+    condensed_matter.plasma
     condensed_matter.semiconductors
     condensed_matter.thermodynamics
     condensed_matter.transport_phenomena

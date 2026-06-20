@@ -877,25 +877,6 @@ Formulas
             .. math::
         
                 j = a T^{2} \exp{\left(- \frac{W}{k_\text{B} T} \right)}
-- :doc:`(doc) <condensed_matter.gas_plasma>` :code:`condensed_matter.gas_plasma`
-
-    .. toggle::
-
-        - :doc:`(doc) <condensed_matter.gas_plasma.electron_distribution_function_in_gas_plasma_per_druyvestein>` Electron distribution function in gas plasma per Druyvestein
-        
-            .. math::
-        
-                f = \frac{E_0 \sqrt{e V}}{E^{\frac{3}{2}}} \exp{\left(- \frac{0.55 \left(e V\right)^{2}}{E^{2}} \right)}
-        - :doc:`(doc) <condensed_matter.gas_plasma.electron_distribution_function_in_gas_plasma_per_maxwell>` Electron distribution function in gas plasma per Maxwell
-        
-            .. math::
-        
-                f = \frac{E_0 \sqrt{e V}}{E^{\frac{3}{2}}} \exp{\left(- \frac{1.55 e V}{E} \right)}
-        - :doc:`(doc) <condensed_matter.gas_plasma.electronic_current_in_probe_circuit_in_gas_plasma>` Electron current in probe circuit in gas plasma
-        
-            .. math::
-        
-                I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\text{f} - U_{\vec E}\right)}{k_\text{B} T} \right)}
 - :doc:`(doc) <condensed_matter.interaction_potentials>` :code:`condensed_matter.interaction_potentials`
 
     .. toggle::
@@ -973,6 +954,25 @@ Formulas
             .. math::
         
                 N = \frac{\log \left( \frac{E}{E_{0}} \right)}{\log \left( 1 - x \right)}
+- :doc:`(doc) <condensed_matter.plasma>` :code:`condensed_matter.plasma`
+
+    .. toggle::
+
+        - :doc:`(doc) <condensed_matter.plasma.electron_distribution_function_in_gas_plasma_per_druyvestein>` Electron distribution function in gas plasma per Druyvestein
+        
+            .. math::
+        
+                f = \frac{E_0 \sqrt{e V}}{E^{\frac{3}{2}}} \exp{\left(- \frac{0.55 \left(e V\right)^{2}}{E^{2}} \right)}
+        - :doc:`(doc) <condensed_matter.plasma.electron_distribution_function_in_gas_plasma_per_maxwell>` Electron distribution function in gas plasma per Maxwell
+        
+            .. math::
+        
+                f = \frac{E_0 \sqrt{e V}}{E^{\frac{3}{2}}} \exp{\left(- \frac{1.55 e V}{E} \right)}
+        - :doc:`(doc) <condensed_matter.plasma.electronic_current_in_probe_circuit_in_gas_plasma>` Electron current in probe circuit in gas plasma
+        
+            .. math::
+        
+                I = 0.25 A e n \sqrt{\frac{8 k_\text{B} T}{\pi m_\text{e}}} \exp{\left(- \frac{e \left(U_\text{f} - U_{\vec E}\right)}{k_\text{B} T} \right)}
 - :doc:`(doc) <condensed_matter.semiconductors>` :code:`condensed_matter.semiconductors`
 
     .. toggle::

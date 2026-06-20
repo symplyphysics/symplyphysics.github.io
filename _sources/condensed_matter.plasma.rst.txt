@@ -1,0 +1,25 @@
+Plasma
+======
+
+**Plasma** is a state of matter that results from another state, usually gaseous, that has undergone
+ionization, consisting mostly of charged particles. It is a rare state of matter on Earth, but it is
+estimated to be the prevalent state of ordinary matter in the entire universe.
+
+**Links:**
+
+#. `Wikipedia — Plasma (physics) <https://en.wikipedia.org/wiki/Plasma_(physics)>`
+
+.. py:currentmodule:: symplyphysics.condensed_matter.plasma
+
+**Contents:**
+
+.. toctree::
+    :maxdepth: 4
+
+
+    condensed_matter.plasma.electron_distribution_function_in_gas_plasma_per_druyvestein
+    condensed_matter.plasma.electron_distribution_function_in_gas_plasma_per_maxwell
+    condensed_matter.plasma.electronic_current_in_probe_circuit_in_gas_plasma
+
+
+
