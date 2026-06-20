@@ -1,7 +1,7 @@
-**Interference**
-================
+Interference (Optics)
+=====================
 
-
+See :ref:`Interference (Waves)`.
 
 .. py:currentmodule:: symplyphysics.optics.wave_optics.interference
 
