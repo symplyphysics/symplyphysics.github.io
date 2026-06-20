@@ -1,7 +1,7 @@
-**Translational Motion (Kinematics)**
-=====================================
+Translational Motion (Kinematics)
+=================================
 
-
+See :ref:`Translational Motion (Dynamics)`.
 
 .. py:currentmodule:: symplyphysics.classical_mechanics.kinematics.translational_motion
 

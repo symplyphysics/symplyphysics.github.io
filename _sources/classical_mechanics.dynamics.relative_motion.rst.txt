@@ -1,7 +1,7 @@
-**Relative Motion (Dynamics)**
-==============================
+Relative Motion (Dynamics)
+==========================
 
-
+See :ref:`Relative Motion (Kinematics)`.
 
 .. py:currentmodule:: symplyphysics.classical_mechanics.dynamics.relative_motion
 
