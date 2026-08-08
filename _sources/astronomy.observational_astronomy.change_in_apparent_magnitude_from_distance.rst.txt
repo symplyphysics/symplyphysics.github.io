@@ -45,7 +45,7 @@ Dimension:
 
 .. py:data:: first_irradiance
 
-    Observed :attr:`~symplyphysics.symbols.astronomy.irradiance` of the first object.
+    Observed :attr:`~symplyphysics.symbols.optics.irradiance` of the first object.
 
 Symbol:
     :code:`E_e1`
@@ -59,7 +59,7 @@ Dimension:
 
 .. py:data:: second_irradiance
 
-    Observed :attr:`~symplyphysics.symbols.astronomy.irradiance` of the second object.
+    Observed :attr:`~symplyphysics.symbols.optics.irradiance` of the second object.
 
 Symbol:
     :code:`E_e2`
