@@ -52,8 +52,8 @@ sphere and depends on the radius <span class="math notranslate nohighlight">\(r_
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.neutron_flux_for_uniform_sphere.dimension_factor">
 <span class="sig-name descname"><span class="pre">dimension_factor</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.neutron_flux_for_uniform_sphere.dimension_factor" title="Link to this definition">¶</a></dt>
-<dd><p>Dimension factor that appears as a coefficient in the solution to the <a class="reference internal" href="nuclear_physics.diffusion_equation_from_neutron_flux.html#diffusion-equation-from-neutron-flux"><span class="std std-ref">differential
-equation</span></a>. See <a class="reference internal" href="symbols.nuclear.html#symplyphysics.symbols.nuclear.neutron_flux" title="symplyphysics.symbols.nuclear.neutron_flux"><code class="xref py py-attr docutils literal notranslate"><span class="pre">neutron_flux</span></code></a>.</p>
+<dd><p><a class="reference internal" href="symbols.nuclear.html#symplyphysics.symbols.nuclear.neutron_flux" title="symplyphysics.symbols.nuclear.neutron_flux"><code class="xref py py-attr docutils literal notranslate"><span class="pre">neutron_flux</span></code></a> at the center of the sphere, given by the limit as <span class="math notranslate nohighlight">\(r\)</span>
+approaches zero.</p>
 </dd></dl>
 
 <dl class="simple">
@@ -110,10 +110,10 @@ of the sphere.</p>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.nuclear_physics.buckling.neutron_flux_for_uniform_sphere.law">
 <span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.nuclear_physics.buckling.neutron_flux_for_uniform_sphere.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">Phi</span> <span class="pre">=</span> <span class="pre">Phi_0</span> <span class="pre">*</span> <span class="pre">sin(pi</span> <span class="pre">/</span> <span class="pre">r_0</span> <span class="pre">*</span> <span class="pre">r)</span> <span class="pre">/</span> <span class="pre">r</span></code></p>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">Phi</span> <span class="pre">=</span> <span class="pre">Phi_0</span> <span class="pre">*</span> <span class="pre">sin(pi</span> <span class="pre">*</span> <span class="pre">r</span> <span class="pre">/</span> <span class="pre">r_0)</span> <span class="pre">/</span> <span class="pre">(pi</span> <span class="pre">*</span> <span class="pre">r</span> <span class="pre">/</span> <span class="pre">r_0)</span></code></p>
 <dl>
 <dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\Phi = \Phi_{0} \frac{\sin{\left(\frac{\pi}{r_{0}} r \right)}}{r}\]</div>
+\[\Phi = \frac{\Phi_{0} \sin{\left(\frac{\pi r}{r_{0}} \right)}}{\frac{\pi r}{r_{0}}}\]</div>
 </dd>
 </dl>
 </dd></dl>

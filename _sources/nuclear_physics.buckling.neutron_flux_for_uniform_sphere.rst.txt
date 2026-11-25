@@ -12,8 +12,8 @@ sphere and depends on the radius :math:`r_0` of the sphere.
 
 .. py:data:: dimension_factor
 
-    Dimension factor that appears as a coefficient in the solution to the :ref:`differential
-    equation <Diffusion equation from neutron flux>`. See :attr:`~symplyphysics.symbols.nuclear.neutron_flux`.
+    :attr:`~symplyphysics.symbols.nuclear.neutron_flux` at the center of the sphere, given by the limit as :math:`r`
+    approaches zero.
 
 Symbol:
     :code:`Phi_0`
@@ -70,11 +70,11 @@ Dimension:
 
 .. py:data:: law
 
-    :code:`Phi = Phi_0 * sin(pi / r_0 * r) / r`
+    :code:`Phi = Phi_0 * sin(pi * r / r_0) / (pi * r / r_0)`
 
 
     Latex:
         .. math::
-            \Phi = \Phi_{0} \frac{\sin{\left(\frac{\pi}{r_{0}} r \right)}}{r}
+            \Phi = \frac{\Phi_{0} \sin{\left(\frac{\pi r}{r_{0}} \right)}}{\frac{\pi r}{r_{0}}}
 
 

@@ -2728,7 +2728,7 @@ Formulas
         
             .. math::
         
-                \Phi = \Phi_{0} \frac{\sin{\left(\frac{\pi}{r_{0}} r \right)}}{r}
+                \Phi = \frac{\Phi_{0} \sin{\left(\frac{\pi r}{r_{0}} \right)}}{\frac{\pi r}{r_{0}}}
 - :doc:`(doc) <optics.geometrical_optics.invariants>` :code:`optics.geometrical_optics.invariants`
 
     .. toggle::
