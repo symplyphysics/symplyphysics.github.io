@@ -105,8 +105,8 @@ Dimension:
 
 .. py:data:: heat_source_density
 
-    Density of the rate of heat production by external sources as a function of
-    :attr:`~position` and :attr:`~time`. See :attr:`~symplyphysics.symbols.basic.energy_density`.
+    Rate of heat production by external sources per unit volume as a function of
+    :attr:`~position` and :attr:`~time`.
 
 Symbol:
     :code:`q(x, t)`
@@ -115,7 +115,7 @@ Latex:
     :math:`q{\left(x,t \right)}`
 
 Dimension:
-    :code:`energy/volume`
+    :code:`power/volume`
 
 
 .. py:data:: law
