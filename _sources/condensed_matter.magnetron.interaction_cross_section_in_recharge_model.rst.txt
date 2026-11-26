@@ -1,18 +1,24 @@
 Interaction cross section in recharge model
 ===========================================
 
-See :ref:`Effective cross section <effective_cross_section>`.
+This law gives the :ref:`effective cross section <effective_cross_section>` for resonant
+charge exchange, the process in which a singly charged ion captures an electron from a
+neutral atom of the same species. The newly formed ion accelerates from rest in a uniform
+electric field over one mean free path.
+The model uses the speed reached at the end of this path and the ideal-gas neutral
+number density :math:`p/(k_\mathrm{B}T)`.
 
 **Notation:**
 
-#. :math:`a_0` (:code:`a_0`) is :attr:`~symplyphysics.quantities.bohr_radius`.
 #. :math:`\mathrm{IE}_\text{H}` (:code:`IE_h`) is :attr:`~symplyphysics.quantities.hydrogen_ionization_energy`.
 #. :math:`k_\text{B}` (:code:`k_B`) is :attr:`~symplyphysics.quantities.boltzmann_constant`.
 #. :math:`e` (:code:`e`) is :attr:`~symplyphysics.quantities.elementary_charge`.
 
-..
-    TODO: find link and check file
-    TODO: move to `ionization` folder?
+**Links:**
+
+#. V. T. Barchenko et al., `Modeling Processes in Plasma Electronics
+   <https://techeiscatel.ru/media/books/LabPlasma.pdf#page=7>`__ (LETI, 2008),
+   p. 7, Eq. (1.4).
 
 .. py:currentmodule:: symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model
 
@@ -100,13 +106,47 @@ Dimension:
     :code:`voltage/length`
 
 
+.. py:data:: reference_area
+
+    Area scale for charge exchange, normalized to hydrogen.
+
+Symbol:
+    :code:`sigma_0`
+
+Latex:
+    :math:`\sigma_0`
+
+Dimension:
+    :code:`length**2`
+
+
+.. py:data:: reference_speed
+
+    Speed scale for hydrogen, rescaled by the atom's ionization energy for other species.
+
+Symbol:
+    :code:`v_0`
+
+Latex:
+    :math:`v_0`
+
+Dimension:
+    :code:`length/time`
+
+
 .. py:data:: law
 
-    :code:`sigma = pi * a_0^2 * IE_h / E_i * log(sqrt(3 * k_B * T / m) * sqrt(E_i / IE_h) * sigma * p * m / (2 * k_B * T * e * E))^2`
+    :code:`sigma = sigma_0 * IE_h / E_i * log(sqrt(2) * sqrt(E_i) * v_0 / (2 * sqrt(E * T / (m * sigma * p)) * sqrt(e) * sqrt(IE_h) * sqrt(k_B)))^2`
 
 
     Latex:
         .. math::
-            \sigma = \pi a_0^{2} \frac{\mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \sqrt{\frac{3 k_\text{B} T}{m}} \sqrt{\frac{E_\text{i}}{\mathrm{IE}_\text{H}}} \frac{\sigma p m}{2 k_\text{B} T e E} \right)^{2}
+            \sigma = \frac{\sigma_0 \mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \frac{\sqrt{2} \sqrt{E_\text{i}} v_0}{2 \sqrt{\frac{E T}{m \sigma p}} \sqrt{e} \sqrt{\mathrm{IE}_\text{H}} \sqrt{k_\text{B}}} \right)^{2}
 
 
+.. py:function:: calculate_cross_sectional_area_of_interaction(ionization_energy_, mass_of_atom_, pressure_, temperature_, electric_intensity_)
+
+    Demonstrate the low-speed solution when the law admits multiple roots.
+
+    The largest cross section gives the shortest acceleration path and the 
+    lowest collision speed. If this branch is unavailable, return the first available root.

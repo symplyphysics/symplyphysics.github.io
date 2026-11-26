@@ -43,13 +43,22 @@
             
   <section id="interaction-cross-section-in-recharge-model">
 <h1>Interaction cross section in recharge model<a class="headerlink" href="#interaction-cross-section-in-recharge-model" title="Link to this heading">¶</a></h1>
-<p>See <a class="reference internal" href="condensed_matter.magnetron.html#effective-cross-section"><span class="std std-ref">Effective cross section</span></a>.</p>
+<p>This law gives the <a class="reference internal" href="condensed_matter.magnetron.html#effective-cross-section"><span class="std std-ref">effective cross section</span></a> for resonant
+charge exchange, the process in which a singly charged ion captures an electron from a
+neutral atom of the same species. The newly formed ion accelerates from rest in a uniform
+electric field over one mean free path.
+The model uses the speed reached at the end of this path and the ideal-gas neutral
+number density <span class="math notranslate nohighlight">\(p/(k_\mathrm{B}T)\)</span>.</p>
 <p><strong>Notation:</strong></p>
 <ol class="arabic simple">
-<li><p><span class="math notranslate nohighlight">\(a_0\)</span> (<code class="code docutils literal notranslate"><span class="pre">a_0</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.bohr_radius" title="symplyphysics.quantities.bohr_radius"><code class="xref py py-attr docutils literal notranslate"><span class="pre">bohr_radius</span></code></a>.</p></li>
 <li><p><span class="math notranslate nohighlight">\(\mathrm{IE}_\text{H}\)</span> (<code class="code docutils literal notranslate"><span class="pre">IE_h</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.hydrogen_ionization_energy" title="symplyphysics.quantities.hydrogen_ionization_energy"><code class="xref py py-attr docutils literal notranslate"><span class="pre">hydrogen_ionization_energy</span></code></a>.</p></li>
 <li><p><span class="math notranslate nohighlight">\(k_\text{B}\)</span> (<code class="code docutils literal notranslate"><span class="pre">k_B</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.boltzmann_constant" title="symplyphysics.quantities.boltzmann_constant"><code class="xref py py-attr docutils literal notranslate"><span class="pre">boltzmann_constant</span></code></a>.</p></li>
 <li><p><span class="math notranslate nohighlight">\(e\)</span> (<code class="code docutils literal notranslate"><span class="pre">e</span></code>) is <a class="reference internal" href="quantities.html#symplyphysics.quantities.elementary_charge" title="symplyphysics.quantities.elementary_charge"><code class="xref py py-attr docutils literal notranslate"><span class="pre">elementary_charge</span></code></a>.</p></li>
+</ol>
+<p><strong>Links:</strong></p>
+<ol class="arabic simple">
+<li><p>V. T. Barchenko et al., <a class="reference external" href="https://techeiscatel.ru/media/books/LabPlasma.pdf#page=7">Modeling Processes in Plasma Electronics</a> (LETI, 2008),
+p. 7, Eq. (1.4).</p></li>
 </ol>
 <dl class="py data">
 <dt class="sig sig-object py" id="symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.cross_section">
@@ -136,14 +145,50 @@
 </dd>
 </dl>
 <dl class="py data">
-<dt class="sig sig-object py" id="symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.law">
-<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.law" title="Link to this definition">¶</a></dt>
-<dd><p><code class="code docutils literal notranslate"><span class="pre">sigma</span> <span class="pre">=</span> <span class="pre">pi</span> <span class="pre">*</span> <span class="pre">a_0^2</span> <span class="pre">*</span> <span class="pre">IE_h</span> <span class="pre">/</span> <span class="pre">E_i</span> <span class="pre">*</span> <span class="pre">log(sqrt(3</span> <span class="pre">*</span> <span class="pre">k_B</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">/</span> <span class="pre">m)</span> <span class="pre">*</span> <span class="pre">sqrt(E_i</span> <span class="pre">/</span> <span class="pre">IE_h)</span> <span class="pre">*</span> <span class="pre">sigma</span> <span class="pre">*</span> <span class="pre">p</span> <span class="pre">*</span> <span class="pre">m</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">k_B</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">*</span> <span class="pre">e</span> <span class="pre">*</span> <span class="pre">E))^2</span></code></p>
-<dl>
-<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
-\[\sigma = \pi a_0^{2} \frac{\mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \sqrt{\frac{3 k_\text{B} T}{m}} \sqrt{\frac{E_\text{i}}{\mathrm{IE}_\text{H}}} \frac{\sigma p m}{2 k_\text{B} T e E} \right)^{2}\]</div>
+<dt class="sig sig-object py" id="symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.reference_area">
+<span class="sig-name descname"><span class="pre">reference_area</span></span><a class="headerlink" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.reference_area" title="Link to this definition">¶</a></dt>
+<dd><p>Area scale for charge exchange, normalized to hydrogen.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">sigma_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(\sigma_0\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length**2</span></code></p>
 </dd>
 </dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.reference_speed">
+<span class="sig-name descname"><span class="pre">reference_speed</span></span><a class="headerlink" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.reference_speed" title="Link to this definition">¶</a></dt>
+<dd><p>Speed scale for hydrogen, rescaled by the atom’s ionization energy for other species.</p>
+</dd></dl>
+
+<dl class="simple">
+<dt>Symbol:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">v_0</span></code></p>
+</dd>
+<dt>Latex:</dt><dd><p><span class="math notranslate nohighlight">\(v_0\)</span></p>
+</dd>
+<dt>Dimension:</dt><dd><p><code class="code docutils literal notranslate"><span class="pre">length/time</span></code></p>
+</dd>
+</dl>
+<dl class="py data">
+<dt class="sig sig-object py" id="symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.law">
+<span class="sig-name descname"><span class="pre">law</span></span><a class="headerlink" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.law" title="Link to this definition">¶</a></dt>
+<dd><p><code class="code docutils literal notranslate"><span class="pre">sigma</span> <span class="pre">=</span> <span class="pre">sigma_0</span> <span class="pre">*</span> <span class="pre">IE_h</span> <span class="pre">/</span> <span class="pre">E_i</span> <span class="pre">*</span> <span class="pre">log(sqrt(2)</span> <span class="pre">*</span> <span class="pre">sqrt(E_i)</span> <span class="pre">*</span> <span class="pre">v_0</span> <span class="pre">/</span> <span class="pre">(2</span> <span class="pre">*</span> <span class="pre">sqrt(E</span> <span class="pre">*</span> <span class="pre">T</span> <span class="pre">/</span> <span class="pre">(m</span> <span class="pre">*</span> <span class="pre">sigma</span> <span class="pre">*</span> <span class="pre">p))</span> <span class="pre">*</span> <span class="pre">sqrt(e)</span> <span class="pre">*</span> <span class="pre">sqrt(IE_h)</span> <span class="pre">*</span> <span class="pre">sqrt(k_B)))^2</span></code></p>
+<dl>
+<dt>Latex:</dt><dd><div class="math notranslate nohighlight">
+\[\sigma = \frac{\sigma_0 \mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \frac{\sqrt{2} \sqrt{E_\text{i}} v_0}{2 \sqrt{\frac{E T}{m \sigma p}} \sqrt{e} \sqrt{\mathrm{IE}_\text{H}} \sqrt{k_\text{B}}} \right)^{2}\]</div>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.calculate_cross_sectional_area_of_interaction">
+<span class="sig-name descname"><span class="pre">calculate_cross_sectional_area_of_interaction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ionization_energy_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">mass_of_atom_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pressure_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">temperature_</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">electric_intensity_</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/symplyphysics/condensed_matter/magnetron/interaction_cross_section_in_recharge_model.html#calculate_cross_sectional_area_of_interaction"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.calculate_cross_sectional_area_of_interaction" title="Link to this definition">¶</a></dt>
+<dd><p>Demonstrate the low-speed solution when the law admits multiple roots.</p>
+<p>The largest cross section gives the shortest acceleration path and the
+lowest collision speed. If this branch is unavailable, return the first available root.</p>
 </dd></dl>
 
 </section>
@@ -214,7 +259,10 @@
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.pressure"><code class="docutils literal notranslate"><span class="pre">pressure</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.temperature"><code class="docutils literal notranslate"><span class="pre">temperature</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.electric_field_strength"><code class="docutils literal notranslate"><span class="pre">electric_field_strength</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.reference_area"><code class="docutils literal notranslate"><span class="pre">reference_area</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.reference_speed"><code class="docutils literal notranslate"><span class="pre">reference_speed</span></code></a></li>
 <li class="toctree-l4"><a class="reference internal" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.law"><code class="docutils literal notranslate"><span class="pre">law</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#symplyphysics.condensed_matter.magnetron.interaction_cross_section_in_recharge_model.calculate_cross_sectional_area_of_interaction"><code class="docutils literal notranslate"><span class="pre">calculate_cross_sectional_area_of_interaction()</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="condensed_matter.magnetron.number_of_collisions_of_particle_with_gas_in_magnetron.html">Number of collisions of particle with gas in magnetron</a></li>
