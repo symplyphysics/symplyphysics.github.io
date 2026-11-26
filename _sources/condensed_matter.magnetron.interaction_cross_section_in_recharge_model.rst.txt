@@ -144,9 +144,3 @@ Dimension:
             \sigma = \frac{\sigma_0 \mathrm{IE}_\text{H}}{E_\text{i}} \log \left( \frac{\sqrt{2} \sqrt{E_\text{i}} v_0}{2 \sqrt{\frac{E T}{m \sigma p}} \sqrt{e} \sqrt{\mathrm{IE}_\text{H}} \sqrt{k_\text{B}}} \right)^{2}
 
 
-.. py:function:: calculate_cross_sectional_area_of_interaction(ionization_energy_, mass_of_atom_, pressure_, temperature_, electric_intensity_)
-
-    Demonstrate the low-speed solution when the law admits multiple roots.
-
-    The largest cross section gives the shortest acceleration path and the 
-    lowest collision speed. If this branch is unavailable, return the first available root.
